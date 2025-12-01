@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/edge_update_schedules
+// https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/edge_update_schedules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface EdgeUpdateSchedulesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/edge_update_schedules#agent_image EdgeUpdateSchedules#agent_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/edge_update_schedules#agent_image EdgeUpdateSchedules#agent_image}
   */
   readonly agentImage: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/edge_update_schedules#group_ids EdgeUpdateSchedules#group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/edge_update_schedules#group_ids EdgeUpdateSchedules#group_ids}
   */
   readonly groupIds: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/edge_update_schedules#id EdgeUpdateSchedules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/edge_update_schedules#id EdgeUpdateSchedules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/edge_update_schedules#name EdgeUpdateSchedules#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/edge_update_schedules#name EdgeUpdateSchedules#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/edge_update_schedules#registry_id EdgeUpdateSchedules#registry_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/edge_update_schedules#registry_id EdgeUpdateSchedules#registry_id}
   */
   readonly registryId: number;
   /**
   * Time in RFC3339 format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/edge_update_schedules#scheduled_time EdgeUpdateSchedules#scheduled_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/edge_update_schedules#scheduled_time EdgeUpdateSchedules#scheduled_time}
   */
   readonly scheduledTime: string;
   /**
   * 0 = update, 1 = rollback
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/edge_update_schedules#type EdgeUpdateSchedules#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/edge_update_schedules#type EdgeUpdateSchedules#type}
   */
   readonly type: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/edge_update_schedules#updater_image EdgeUpdateSchedules#updater_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/edge_update_schedules#updater_image EdgeUpdateSchedules#updater_image}
   */
   readonly updaterImage: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/edge_update_schedules portainer_edge_update_schedules}
+* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/edge_update_schedules portainer_edge_update_schedules}
 */
 export class EdgeUpdateSchedules extends cdktf.TerraformResource {
 
@@ -65,7 +65,7 @@ export class EdgeUpdateSchedules extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EdgeUpdateSchedules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EdgeUpdateSchedules to import
-  * @param importFromId The id of the existing EdgeUpdateSchedules that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/edge_update_schedules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EdgeUpdateSchedules that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/edge_update_schedules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EdgeUpdateSchedules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -77,7 +77,7 @@ export class EdgeUpdateSchedules extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/edge_update_schedules portainer_edge_update_schedules} Resource
+  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/edge_update_schedules portainer_edge_update_schedules} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -88,8 +88,8 @@ export class EdgeUpdateSchedules extends cdktf.TerraformResource {
       terraformResourceType: 'portainer_edge_update_schedules',
       terraformGeneratorMetadata: {
         providerName: 'portainer',
-        providerVersion: '1.19.0',
-        providerVersionConstraint: '1.19.0'
+        providerVersion: '1.20.0',
+        providerVersionConstraint: '1.20.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

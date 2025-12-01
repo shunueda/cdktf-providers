@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/data-sources/metric_providers
+// https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/data-sources/metric_providers
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataHundMetricProvidersConfig extends cdktf.TerraformMetaArgume
   /**
   * When true, returns only MetricProviders for which `default` is true (i.e. returns MetricProviders that are considered the "default" for their respective Watchdogs). When used in conjunction with the `watchdog` parameter, returns the *single* default MetricProvider of that Watchdog, if it exists.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/data-sources/metric_providers#default DataHundMetricProviders#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/data-sources/metric_providers#default DataHundMetricProviders#default}
   */
   readonly default?: boolean | cdktf.IResolvable;
   /**
   * ObjectId for a particular Watchdog to retrieve MetricProviders on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/data-sources/metric_providers#watchdog DataHundMetricProviders#watchdog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/data-sources/metric_providers#watchdog DataHundMetricProviders#watchdog}
   */
   readonly watchdog?: string;
 }
@@ -1210,7 +1210,7 @@ export class DataHundMetricProvidersMetricProvidersList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/data-sources/metric_providers hund_metric_providers}
+* Represents a {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/data-sources/metric_providers hund_metric_providers}
 */
 export class DataHundMetricProviders extends cdktf.TerraformDataSource {
 
@@ -1226,7 +1226,7 @@ export class DataHundMetricProviders extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataHundMetricProviders resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHundMetricProviders to import
-  * @param importFromId The id of the existing DataHundMetricProviders that should be imported. Refer to the {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/data-sources/metric_providers#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHundMetricProviders that should be imported. Refer to the {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/data-sources/metric_providers#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHundMetricProviders to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1238,7 +1238,7 @@ export class DataHundMetricProviders extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/data-sources/metric_providers hund_metric_providers} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/data-sources/metric_providers hund_metric_providers} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1249,8 +1249,8 @@ export class DataHundMetricProviders extends cdktf.TerraformDataSource {
       terraformResourceType: 'hund_metric_providers',
       terraformGeneratorMetadata: {
         providerName: 'hund',
-        providerVersion: '0.1.0',
-        providerVersionConstraint: '0.1.0'
+        providerVersion: '0.2.0',
+        providerVersionConstraint: '0.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

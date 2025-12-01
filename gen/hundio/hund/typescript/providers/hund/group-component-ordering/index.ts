@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/group_component_ordering
+// https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/group_component_ordering
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,19 +12,19 @@ export interface GroupComponentOrderingConfig extends cdktf.TerraformMetaArgumen
   * 
   * ~> This list **must not** omit nor add any Components not already in the referenced Group, or an error will occur. This resource is **only** for managing an order for the Components of a Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/group_component_ordering#components GroupComponentOrdering#components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/group_component_ordering#components GroupComponentOrdering#components}
   */
   readonly components?: string[];
   /**
   * The Group whose ordering is managed by this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/group_component_ordering#group GroupComponentOrdering#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/group_component_ordering#group GroupComponentOrdering#group}
   */
   readonly group: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/group_component_ordering hund_group_component_ordering}
+* Represents a {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/group_component_ordering hund_group_component_ordering}
 */
 export class GroupComponentOrdering extends cdktf.TerraformResource {
 
@@ -40,7 +40,7 @@ export class GroupComponentOrdering extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GroupComponentOrdering resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GroupComponentOrdering to import
-  * @param importFromId The id of the existing GroupComponentOrdering that should be imported. Refer to the {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/group_component_ordering#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GroupComponentOrdering that should be imported. Refer to the {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/group_component_ordering#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GroupComponentOrdering to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -52,7 +52,7 @@ export class GroupComponentOrdering extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/group_component_ordering hund_group_component_ordering} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/group_component_ordering hund_group_component_ordering} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -63,8 +63,8 @@ export class GroupComponentOrdering extends cdktf.TerraformResource {
       terraformResourceType: 'hund_group_component_ordering',
       terraformGeneratorMetadata: {
         providerName: 'hund',
-        providerVersion: '0.1.0',
-        providerVersionConstraint: '0.1.0'
+        providerVersion: '0.2.0',
+        providerVersionConstraint: '0.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component
+// https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface ComponentConfig extends cdktf.TerraformMetaArguments {
   /**
   * A description of this Component, potentially with markdown formatting, in the default translation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#description Component#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#description Component#description}
   */
   readonly description?: string;
   /**
   * A description of this Component, potentially with markdown formatting, translated into multiple languages. Map keys express the language each string value is to be interpreted in. The `original` field of this map denotes the language used for the non-`_translations` version of this attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#description_translations Component#description_translations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#description_translations Component#description_translations}
   */
   readonly descriptionTranslations?: { [key: string]: string };
   /**
   * Exclude this Component's uptime percentage from being factored into the global percent uptime calculation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#exclude_from_global_history Component#exclude_from_global_history}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#exclude_from_global_history Component#exclude_from_global_history}
   */
   readonly excludeFromGlobalHistory?: boolean | cdktf.IResolvable;
   /**
   * Exclude this Component from appearing in the global history.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#exclude_from_global_uptime Component#exclude_from_global_uptime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#exclude_from_global_uptime Component#exclude_from_global_uptime}
   */
   readonly excludeFromGlobalUptime?: boolean | cdktf.IResolvable;
   /**
   * The ID of the Group that this Component belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#group Component#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#group Component#group}
   */
   readonly group: string;
   /**
   * The name of this Component, in the default translation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#name Component#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#name Component#name}
   */
   readonly name?: string;
   /**
   * The name of this Component, translated into multiple languages. Map keys express the language each string value is to be interpreted in. The `original` field of this map denotes the language used for the non-`_translations` version of this attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#name_translations Component#name_translations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#name_translations Component#name_translations}
   */
   readonly nameTranslations?: { [key: string]: string };
   /**
   * The Watchdog that supplies the current status for this Component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#watchdog Component#watchdog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#watchdog Component#watchdog}
   */
   readonly watchdog: ComponentWatchdog;
 }
@@ -70,7 +70,7 @@ export interface ComponentWatchdogServiceDns {
   *   When 0, denotes that this check will post "degraded" upon the first check failure.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#consecutive_check_degraded_threshold Component#consecutive_check_degraded_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#consecutive_check_degraded_threshold Component#consecutive_check_degraded_threshold}
   */
   readonly consecutiveCheckDegradedThreshold?: number;
   /**
@@ -86,7 +86,7 @@ export interface ComponentWatchdogServiceDns {
   * `consecutive_check_degraded_threshold` is set).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#consecutive_check_outage_threshold Component#consecutive_check_outage_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#consecutive_check_outage_threshold Component#consecutive_check_outage_threshold}
   */
   readonly consecutiveCheckOutageThreshold?: number;
   /**
@@ -98,7 +98,7 @@ export interface ComponentWatchdogServiceDns {
   * information, please visit the [pricing](https://hund.io/pricing) page.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#frequency Component#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#frequency Component#frequency}
   */
   readonly frequency?: number;
   /**
@@ -106,7 +106,7 @@ export interface ComponentWatchdogServiceDns {
   * ignored by SOA queries since they use the nameservers yielded by querying NS
   * on the target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#nameservers Component#nameservers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#nameservers Component#nameservers}
   */
   readonly nameservers?: string[];
   /**
@@ -115,13 +115,13 @@ export interface ComponentWatchdogServiceDns {
   * threshold is recommended in order to confirm failures across regions.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#percentage_regions_failed_threshold Component#percentage_regions_failed_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#percentage_regions_failed_threshold Component#percentage_regions_failed_threshold}
   */
   readonly percentageRegionsFailedThreshold?: number;
   /**
   * The type of DNS record to query for on the target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#record_type Component#record_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#record_type Component#record_type}
   */
   readonly recordType: string;
   /**
@@ -133,14 +133,14 @@ export interface ComponentWatchdogServiceDns {
   * -> Each check may use up to **three** regions at no extra cost. Each region added to this check beyond the base three will incur an additional cost. For specific pricing information, please visit the [pricing](https://hund.io/pricing) page.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#regions Component#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#regions Component#regions}
   */
   readonly regions: string[];
   /**
   * Whether `all` of the assertions in `responses_must_contain` must match the DNS response,
   * or rather just `any` of them (i.e. at least one).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#response_containment Component#response_containment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#response_containment Component#response_containment}
   */
   readonly responseContainment?: string;
   /**
@@ -170,7 +170,7 @@ export interface ComponentWatchdogServiceDns {
   * simply the domain.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#responses_must_contain Component#responses_must_contain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#responses_must_contain Component#responses_must_contain}
   */
   readonly responsesMustContain?: string[];
   /**
@@ -179,7 +179,7 @@ export interface ComponentWatchdogServiceDns {
   * automatically; however, both formats are accepted.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#target Component#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#target Component#target}
   */
   readonly target: string;
   /**
@@ -187,7 +187,7 @@ export interface ComponentWatchdogServiceDns {
   * failing.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#timeout Component#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#timeout Component#timeout}
   */
   readonly timeout?: number;
 }
@@ -574,7 +574,7 @@ export interface ComponentWatchdogServiceHttp {
   *   When 0, denotes that this check will post "degraded" upon the first check failure.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#consecutive_check_degraded_threshold Component#consecutive_check_degraded_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#consecutive_check_degraded_threshold Component#consecutive_check_degraded_threshold}
   */
   readonly consecutiveCheckDegradedThreshold?: number;
   /**
@@ -590,13 +590,13 @@ export interface ComponentWatchdogServiceHttp {
   * `consecutive_check_degraded_threshold` is set).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#consecutive_check_outage_threshold Component#consecutive_check_outage_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#consecutive_check_outage_threshold Component#consecutive_check_outage_threshold}
   */
   readonly consecutiveCheckOutageThreshold?: number;
   /**
   * Follow any HTTP redirects given by the requested target. Please note that this check will only follow up to 9 redirects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#follow_redirects Component#follow_redirects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#follow_redirects Component#follow_redirects}
   */
   readonly followRedirects?: boolean | cdktf.IResolvable;
   /**
@@ -608,7 +608,7 @@ export interface ComponentWatchdogServiceHttp {
   * information, please visit the [pricing](https://hund.io/pricing) page.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#frequency Component#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#frequency Component#frequency}
   */
   readonly frequency?: number;
   /**
@@ -636,13 +636,13 @@ export interface ComponentWatchdogServiceHttp {
   * ```
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#headers Component#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#headers Component#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * An optional HTTP Basic Authentication password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#password Component#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#password Component#password}
   */
   readonly password?: string;
   /**
@@ -651,7 +651,7 @@ export interface ComponentWatchdogServiceHttp {
   * threshold is recommended in order to confirm failures across regions.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#percentage_regions_failed_threshold Component#percentage_regions_failed_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#percentage_regions_failed_threshold Component#percentage_regions_failed_threshold}
   */
   readonly percentageRegionsFailedThreshold?: number;
   /**
@@ -663,7 +663,7 @@ export interface ComponentWatchdogServiceHttp {
   * -> Each check may use up to **three** regions at no extra cost. Each region added to this check beyond the base three will incur an additional cost. For specific pricing information, please visit the [pricing](https://hund.io/pricing) page.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#regions Component#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#regions Component#regions}
   */
   readonly regions: string[];
   /**
@@ -678,7 +678,7 @@ export interface ComponentWatchdogServiceHttp {
   * more information on the use and supported syntax of Hund regexes.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#response_body_must_contain Component#response_body_must_contain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#response_body_must_contain Component#response_body_must_contain}
   */
   readonly responseBodyMustContain?: string;
   /**
@@ -686,7 +686,7 @@ export interface ComponentWatchdogServiceHttp {
   * under `response_body_must_contain`.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#response_body_must_contain_mode Component#response_body_must_contain_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#response_body_must_contain_mode Component#response_body_must_contain_mode}
   */
   readonly responseBodyMustContainMode?: string;
   /**
@@ -694,19 +694,19 @@ export interface ComponentWatchdogServiceHttp {
   * fail.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#response_code_must_be Component#response_code_must_be}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#response_code_must_be Component#response_code_must_be}
   */
   readonly responseCodeMustBe?: number;
   /**
   * Require the target's TLS certificate to be valid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#ssl_verify_peer Component#ssl_verify_peer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#ssl_verify_peer Component#ssl_verify_peer}
   */
   readonly sslVerifyPeer?: boolean | cdktf.IResolvable;
   /**
   * The host the check will make calls to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#target Component#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#target Component#target}
   */
   readonly target: string;
   /**
@@ -714,13 +714,13 @@ export interface ComponentWatchdogServiceHttp {
   * failing.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#timeout Component#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#timeout Component#timeout}
   */
   readonly timeout?: number;
   /**
   * An optional HTTP Basic Authentication username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#username Component#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#username Component#username}
   */
   readonly username?: string;
 }
@@ -1226,7 +1226,7 @@ export interface ComponentWatchdogServiceIcmp {
   *   When 0, denotes that this check will post "degraded" upon the first check failure.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#consecutive_check_degraded_threshold Component#consecutive_check_degraded_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#consecutive_check_degraded_threshold Component#consecutive_check_degraded_threshold}
   */
   readonly consecutiveCheckDegradedThreshold?: number;
   /**
@@ -1242,7 +1242,7 @@ export interface ComponentWatchdogServiceIcmp {
   * `consecutive_check_degraded_threshold` is set).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#consecutive_check_outage_threshold Component#consecutive_check_outage_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#consecutive_check_outage_threshold Component#consecutive_check_outage_threshold}
   */
   readonly consecutiveCheckOutageThreshold?: number;
   /**
@@ -1254,19 +1254,19 @@ export interface ComponentWatchdogServiceIcmp {
   * information, please visit the [pricing](https://hund.io/pricing) page.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#frequency Component#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#frequency Component#frequency}
   */
   readonly frequency?: number;
   /**
   * The IP version to use when pinging.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#ip_version Component#ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#ip_version Component#ip_version}
   */
   readonly ipVersion?: string;
   /**
   * The percentage of addresses at the given target that must fail for a region to be counted as failed. This option only matters when there are multiple IP addresses behind the target when the target is a domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#percentage_failed_threshold Component#percentage_failed_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#percentage_failed_threshold Component#percentage_failed_threshold}
   */
   readonly percentageFailedThreshold?: number;
   /**
@@ -1275,7 +1275,7 @@ export interface ComponentWatchdogServiceIcmp {
   * threshold is recommended in order to confirm failures across regions.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#percentage_regions_failed_threshold Component#percentage_regions_failed_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#percentage_regions_failed_threshold Component#percentage_regions_failed_threshold}
   */
   readonly percentageRegionsFailedThreshold?: number;
   /**
@@ -1287,13 +1287,13 @@ export interface ComponentWatchdogServiceIcmp {
   * -> Each check may use up to **three** regions at no extra cost. Each region added to this check beyond the base three will incur an additional cost. For specific pricing information, please visit the [pricing](https://hund.io/pricing) page.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#regions Component#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#regions Component#regions}
   */
   readonly regions: string[];
   /**
   * The host the check will make calls to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#target Component#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#target Component#target}
   */
   readonly target: string;
   /**
@@ -1301,7 +1301,7 @@ export interface ComponentWatchdogServiceIcmp {
   * failing.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#timeout Component#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#timeout Component#timeout}
   */
   readonly timeout?: number;
 }
@@ -1623,7 +1623,7 @@ export interface ComponentWatchdogServiceManual {
   /**
   * An integer denoting operational state (1 => operational, 0 => degraded, -1 => outage).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#state Component#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#state Component#state}
   */
   readonly state?: number;
 }
@@ -1719,25 +1719,25 @@ export interface ComponentWatchdogServicePingdom {
   /**
   * The Pingdom API v3 key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#api_token Component#api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#api_token Component#api_token}
   */
   readonly apiToken: string;
   /**
   * The ID of the check to pull status from on Pingdom.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#check_id Component#check_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#check_id Component#check_id}
   */
   readonly checkId: string;
   /**
   * The type of the Pingdom check. `check` denotes a normal Pingdom uptime check, and `transactional` denotes a Pingdom TMS check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#check_type Component#check_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#check_type Component#check_type}
   */
   readonly checkType?: string;
   /**
   * When true, triggers Watchdog outage when Pingdom reports a yet unconfirmed outage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#unconfirmed_is_down Component#unconfirmed_is_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#unconfirmed_is_down Component#unconfirmed_is_down}
   */
   readonly unconfirmedIsDown?: boolean | cdktf.IResolvable;
 }
@@ -1924,7 +1924,7 @@ export interface ComponentWatchdogServiceTcp {
   *   When 0, denotes that this check will post "degraded" upon the first check failure.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#consecutive_check_degraded_threshold Component#consecutive_check_degraded_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#consecutive_check_degraded_threshold Component#consecutive_check_degraded_threshold}
   */
   readonly consecutiveCheckDegradedThreshold?: number;
   /**
@@ -1940,7 +1940,7 @@ export interface ComponentWatchdogServiceTcp {
   * `consecutive_check_degraded_threshold` is set).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#consecutive_check_outage_threshold Component#consecutive_check_outage_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#consecutive_check_outage_threshold Component#consecutive_check_outage_threshold}
   */
   readonly consecutiveCheckOutageThreshold?: number;
   /**
@@ -1952,13 +1952,13 @@ export interface ComponentWatchdogServiceTcp {
   * information, please visit the [pricing](https://hund.io/pricing) page.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#frequency Component#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#frequency Component#frequency}
   */
   readonly frequency?: number;
   /**
   * The IP version to use when calling the target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#ip_version Component#ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#ip_version Component#ip_version}
   */
   readonly ipVersion?: string;
   /**
@@ -1967,13 +1967,13 @@ export interface ComponentWatchdogServiceTcp {
   * threshold is recommended in order to confirm failures across regions.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#percentage_regions_failed_threshold Component#percentage_regions_failed_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#percentage_regions_failed_threshold Component#percentage_regions_failed_threshold}
   */
   readonly percentageRegionsFailedThreshold?: number;
   /**
   * The port at the target to connect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#port Component#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#port Component#port}
   */
   readonly port: number;
   /**
@@ -1985,7 +1985,7 @@ export interface ComponentWatchdogServiceTcp {
   * -> Each check may use up to **three** regions at no extra cost. Each region added to this check beyond the base three will incur an additional cost. For specific pricing information, please visit the [pricing](https://hund.io/pricing) page.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#regions Component#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#regions Component#regions}
   */
   readonly regions: string[];
   /**
@@ -2008,7 +2008,7 @@ export interface ComponentWatchdogServiceTcp {
   * target, this text is asserted against the *initial* response.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#response_must_contain Component#response_must_contain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#response_must_contain Component#response_must_contain}
   */
   readonly responseMustContain?: string;
   /**
@@ -2016,7 +2016,7 @@ export interface ComponentWatchdogServiceTcp {
   * under `response_must_contain`.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#response_must_contain_mode Component#response_must_contain_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#response_must_contain_mode Component#response_must_contain_mode}
   */
   readonly responseMustContainMode?: string;
   /**
@@ -2024,13 +2024,13 @@ export interface ComponentWatchdogServiceTcp {
   * blank, nothing is sent to the target after connecting. This field supports [escape codes](https://hund.io/help/documentation/text-field-escape-codes).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#send_data Component#send_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#send_data Component#send_data}
   */
   readonly sendData?: string;
   /**
   * The host the check will make calls to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#target Component#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#target Component#target}
   */
   readonly target: string;
   /**
@@ -2038,7 +2038,7 @@ export interface ComponentWatchdogServiceTcp {
   * failing.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#timeout Component#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#timeout Component#timeout}
   */
   readonly timeout?: number;
   /**
@@ -2046,7 +2046,7 @@ export interface ComponentWatchdogServiceTcp {
   * data or closing the connection.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#wait_for_initial_response Component#wait_for_initial_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#wait_for_initial_response Component#wait_for_initial_response}
   */
   readonly waitForInitialResponse?: boolean | cdktf.IResolvable;
 }
@@ -2491,7 +2491,7 @@ export interface ComponentWatchdogServiceUdp {
   *   When 0, denotes that this check will post "degraded" upon the first check failure.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#consecutive_check_degraded_threshold Component#consecutive_check_degraded_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#consecutive_check_degraded_threshold Component#consecutive_check_degraded_threshold}
   */
   readonly consecutiveCheckDegradedThreshold?: number;
   /**
@@ -2507,7 +2507,7 @@ export interface ComponentWatchdogServiceUdp {
   * `consecutive_check_degraded_threshold` is set).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#consecutive_check_outage_threshold Component#consecutive_check_outage_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#consecutive_check_outage_threshold Component#consecutive_check_outage_threshold}
   */
   readonly consecutiveCheckOutageThreshold?: number;
   /**
@@ -2519,14 +2519,14 @@ export interface ComponentWatchdogServiceUdp {
   * information, please visit the [pricing](https://hund.io/pricing) page.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#frequency Component#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#frequency Component#frequency}
   */
   readonly frequency?: number;
   /**
   * The IP version to use when calling the target.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#ip_version Component#ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#ip_version Component#ip_version}
   */
   readonly ipVersion?: string;
   /**
@@ -2535,13 +2535,13 @@ export interface ComponentWatchdogServiceUdp {
   * threshold is recommended in order to confirm failures across regions.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#percentage_regions_failed_threshold Component#percentage_regions_failed_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#percentage_regions_failed_threshold Component#percentage_regions_failed_threshold}
   */
   readonly percentageRegionsFailedThreshold?: number;
   /**
   * The port at the target to connect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#port Component#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#port Component#port}
   */
   readonly port: number;
   /**
@@ -2553,7 +2553,7 @@ export interface ComponentWatchdogServiceUdp {
   * -> Each check may use up to **three** regions at no extra cost. Each region added to this check beyond the base three will incur an additional cost. For specific pricing information, please visit the [pricing](https://hund.io/pricing) page.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#regions Component#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#regions Component#regions}
   */
   readonly regions: string[];
   /**
@@ -2572,7 +2572,7 @@ export interface ComponentWatchdogServiceUdp {
   * the payload of the response.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#response_must_contain Component#response_must_contain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#response_must_contain Component#response_must_contain}
   */
   readonly responseMustContain?: string;
   /**
@@ -2580,7 +2580,7 @@ export interface ComponentWatchdogServiceUdp {
   * under `response_must_contain`.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#response_must_contain_mode Component#response_must_contain_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#response_must_contain_mode Component#response_must_contain_mode}
   */
   readonly responseMustContainMode?: string;
   /**
@@ -2588,13 +2588,13 @@ export interface ComponentWatchdogServiceUdp {
   * field is required. This field supports [escape codes](https://hund.io/help/documentation/text-field-escape-codes).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#send_data Component#send_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#send_data Component#send_data}
   */
   readonly sendData: string;
   /**
   * The host the check will make calls to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#target Component#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#target Component#target}
   */
   readonly target: string;
   /**
@@ -2602,7 +2602,7 @@ export interface ComponentWatchdogServiceUdp {
   * failing.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#timeout Component#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#timeout Component#timeout}
   */
   readonly timeout?: number;
 }
@@ -3005,13 +3005,13 @@ export interface ComponentWatchdogServiceUpdown {
   /**
   * An Updown.io monitor API key. This API key can be read-only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#monitor_api_key Component#monitor_api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#monitor_api_key Component#monitor_api_key}
   */
   readonly monitorApiKey: string;
   /**
   * An Updown.io monitor token to retrieve status from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#monitor_token Component#monitor_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#monitor_token Component#monitor_token}
   */
   readonly monitorToken: string;
 }
@@ -3130,13 +3130,13 @@ export interface ComponentWatchdogServiceUptimerobot {
   /**
   * An Uptime Robot monitor API key to retrieve status from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#monitor_api_key Component#monitor_api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#monitor_api_key Component#monitor_api_key}
   */
   readonly monitorApiKey: string;
   /**
   * When true, triggers Watchdog outage when UptimeRobot reports a yet unconfirmed outage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#unconfirmed_is_down Component#unconfirmed_is_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#unconfirmed_is_down Component#unconfirmed_is_down}
   */
   readonly unconfirmedIsDown?: boolean | cdktf.IResolvable;
 }
@@ -3258,25 +3258,25 @@ export interface ComponentWatchdogServiceWebhook {
   /**
   * This property is only required when `deadman: true`. This property configures how many checks (i.e. the number of times `reporting_interval` elapses) must fail (i.e. no status reported to the webhook) before triggering the "Dead Man's Switch." For example, if `deadman: true` and `reporting_interval: 60`, then a setting of `consecutive_checks: 5` would cause the Watchdog to wait for 5 consecutive minutes to receive a webhook call before triggering outage. Since the count is consecutive, it is reset whenever a new webhook call comes through to the Watchdog.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#consecutive_checks Component#consecutive_checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#consecutive_checks Component#consecutive_checks}
   */
   readonly consecutiveChecks?: number;
   /**
   * When true, turns on a "Dead Man's Switch" for the Watchdog, according to the configuration set by `reporting_interval` and `consecutive_checks`. The Watchdog will trigger an "outage" state if the webhook does not receive a call after the configured number of consecutive checks (according to the reporting interval). This switch can be useful when a lack of webhook reporting from the specific component should be taken to mean that the component itself is down.,
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#deadman Component#deadman}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#deadman Component#deadman}
   */
   readonly deadman?: boolean | cdktf.IResolvable;
   /**
   * This property is only required when `deadman: true`. This property configures how often (in seconds) that you expect to POST status to the webhook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#reporting_interval Component#reporting_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#reporting_interval Component#reporting_interval}
   */
   readonly reportingInterval?: number;
   /**
   * The key to use for this webhook, expected in request headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#webhook_key Component#webhook_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#webhook_key Component#webhook_key}
   */
   readonly webhookKey?: string;
 }
@@ -3459,61 +3459,61 @@ export interface ComponentWatchdogService {
   /**
   * A Hund Native Monitoring DNS Check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#dns Component#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#dns Component#dns}
   */
   readonly dns?: ComponentWatchdogServiceDns;
   /**
   * A Hund Native Monitoring HTTP Check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#http Component#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#http Component#http}
   */
   readonly http?: ComponentWatchdogServiceHttp;
   /**
   * A Hund Native Monitoring ICMP Check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#icmp Component#icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#icmp Component#icmp}
   */
   readonly icmp?: ComponentWatchdogServiceIcmp;
   /**
   * A manually updated Watchdog.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#manual Component#manual}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#manual Component#manual}
   */
   readonly manual?: ComponentWatchdogServiceManual;
   /**
   * A [pingdom](https://www.pingdom.com) service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#pingdom Component#pingdom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#pingdom Component#pingdom}
   */
   readonly pingdom?: ComponentWatchdogServicePingdom;
   /**
   * A Hund Native Monitoring TCP Check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#tcp Component#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#tcp Component#tcp}
   */
   readonly tcp?: ComponentWatchdogServiceTcp;
   /**
   * A Hund Native Monitoring UDP Check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#udp Component#udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#udp Component#udp}
   */
   readonly udp?: ComponentWatchdogServiceUdp;
   /**
   * An [Updown.io](https://updown.io) service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#updown Component#updown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#updown Component#updown}
   */
   readonly updown?: ComponentWatchdogServiceUpdown;
   /**
   * An [Uptime Robot](https://uptimerobot.com) service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#uptimerobot Component#uptimerobot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#uptimerobot Component#uptimerobot}
   */
   readonly uptimerobot?: ComponentWatchdogServiceUptimerobot;
   /**
   * A [webhook](https://hund.io/help/integrations/webhooks) service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#webhook Component#webhook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#webhook Component#webhook}
   */
   readonly webhook?: ComponentWatchdogServiceWebhook;
 }
@@ -3872,13 +3872,13 @@ export interface ComponentWatchdog {
   * 
   * -> You are billed extra for each high frequency Watchdog. Please see our [pricing page](https://hund.io/pricing) for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#high_frequency Component#high_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#high_frequency Component#high_frequency}
   */
   readonly highFrequency?: boolean | cdktf.IResolvable;
   /**
   * The service configuration for this Watchdog, which describes how the Watchdog determines current status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#service Component#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#service Component#service}
   */
   readonly service: ComponentWatchdogService;
 }
@@ -4008,7 +4008,7 @@ export class ComponentWatchdogOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component hund_component}
+* Represents a {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component hund_component}
 */
 export class Component extends cdktf.TerraformResource {
 
@@ -4024,7 +4024,7 @@ export class Component extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Component resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Component to import
-  * @param importFromId The id of the existing Component that should be imported. Refer to the {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Component that should be imported. Refer to the {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Component to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4036,7 +4036,7 @@ export class Component extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/component hund_component} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/component hund_component} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4047,8 +4047,8 @@ export class Component extends cdktf.TerraformResource {
       terraformResourceType: 'hund_component',
       terraformGeneratorMetadata: {
         providerName: 'hund',
-        providerVersion: '0.1.0',
-        providerVersionConstraint: '0.1.0'
+        providerVersion: '0.2.0',
+        providerVersionConstraint: '0.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

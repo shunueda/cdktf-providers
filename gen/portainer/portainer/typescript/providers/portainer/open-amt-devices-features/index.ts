@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/open_amt_devices_features
+// https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/open_amt_devices_features
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface OpenAmtDevicesFeaturesConfig extends cdktf.TerraformMetaArgumen
   /**
   * ID of the AMT-managed device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/open_amt_devices_features#device_id OpenAmtDevicesFeatures#device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/open_amt_devices_features#device_id OpenAmtDevicesFeatures#device_id}
   */
   readonly deviceId: number;
   /**
   * Portainer environment (endpoint) ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/open_amt_devices_features#environment_id OpenAmtDevicesFeatures#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/open_amt_devices_features#environment_id OpenAmtDevicesFeatures#environment_id}
   */
   readonly environmentId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/open_amt_devices_features#id OpenAmtDevicesFeatures#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/open_amt_devices_features#id OpenAmtDevicesFeatures#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,37 +29,37 @@ export interface OpenAmtDevicesFeaturesConfig extends cdktf.TerraformMetaArgumen
   /**
   * Enable IDER (IDE Redirection).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/open_amt_devices_features#ider OpenAmtDevicesFeatures#ider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/open_amt_devices_features#ider OpenAmtDevicesFeatures#ider}
   */
   readonly ider?: boolean | cdktf.IResolvable;
   /**
   * Enable KVM (Keyboard/Video/Mouse).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/open_amt_devices_features#kvm OpenAmtDevicesFeatures#kvm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/open_amt_devices_features#kvm OpenAmtDevicesFeatures#kvm}
   */
   readonly kvm?: boolean | cdktf.IResolvable;
   /**
   * Enable redirection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/open_amt_devices_features#redirection OpenAmtDevicesFeatures#redirection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/open_amt_devices_features#redirection OpenAmtDevicesFeatures#redirection}
   */
   readonly redirection?: boolean | cdktf.IResolvable;
   /**
   * Enable SOL (Serial Over LAN).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/open_amt_devices_features#sol OpenAmtDevicesFeatures#sol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/open_amt_devices_features#sol OpenAmtDevicesFeatures#sol}
   */
   readonly sol?: boolean | cdktf.IResolvable;
   /**
   * User consent policy (e.g., 'none', 'all', 'kvmOnly').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/open_amt_devices_features#user_consent OpenAmtDevicesFeatures#user_consent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/open_amt_devices_features#user_consent OpenAmtDevicesFeatures#user_consent}
   */
   readonly userConsent?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/open_amt_devices_features portainer_open_amt_devices_features}
+* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/open_amt_devices_features portainer_open_amt_devices_features}
 */
 export class OpenAmtDevicesFeatures extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class OpenAmtDevicesFeatures extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OpenAmtDevicesFeatures resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OpenAmtDevicesFeatures to import
-  * @param importFromId The id of the existing OpenAmtDevicesFeatures that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/open_amt_devices_features#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OpenAmtDevicesFeatures that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/open_amt_devices_features#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OpenAmtDevicesFeatures to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class OpenAmtDevicesFeatures extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/open_amt_devices_features portainer_open_amt_devices_features} Resource
+  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/open_amt_devices_features portainer_open_amt_devices_features} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class OpenAmtDevicesFeatures extends cdktf.TerraformResource {
       terraformResourceType: 'portainer_open_amt_devices_features',
       terraformGeneratorMetadata: {
         providerName: 'portainer',
-        providerVersion: '1.19.0',
-        providerVersionConstraint: '1.19.0'
+        providerVersion: '1.20.0',
+        providerVersionConstraint: '1.20.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

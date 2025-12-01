@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/webhook
+// https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/webhook
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface WebhookConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/webhook#endpoint_id Webhook#endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/webhook#endpoint_id Webhook#endpoint_id}
   */
   readonly endpointId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/webhook#id Webhook#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/webhook#id Webhook#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/webhook#registry_id Webhook#registry_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/webhook#registry_id Webhook#registry_id}
   */
   readonly registryId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/webhook#resource_id Webhook#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/webhook#resource_id Webhook#resource_id}
   */
   readonly resourceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/webhook#webhook_type Webhook#webhook_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/webhook#webhook_type Webhook#webhook_type}
   */
   readonly webhookType: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/webhook portainer_webhook}
+* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/webhook portainer_webhook}
 */
 export class Webhook extends cdktf.TerraformResource {
 
@@ -49,7 +49,7 @@ export class Webhook extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Webhook resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Webhook to import
-  * @param importFromId The id of the existing Webhook that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/webhook#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Webhook that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/webhook#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Webhook to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -61,7 +61,7 @@ export class Webhook extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/webhook portainer_webhook} Resource
+  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/webhook portainer_webhook} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -72,8 +72,8 @@ export class Webhook extends cdktf.TerraformResource {
       terraformResourceType: 'portainer_webhook',
       terraformGeneratorMetadata: {
         providerName: 'portainer',
-        providerVersion: '1.19.0',
-        providerVersionConstraint: '1.19.0'
+        providerVersion: '1.20.0',
+        providerVersionConstraint: '1.20.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

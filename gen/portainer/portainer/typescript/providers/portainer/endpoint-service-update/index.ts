@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/endpoint_service_update
+// https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/endpoint_service_update
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface EndpointServiceUpdateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/endpoint_service_update#endpoint_id EndpointServiceUpdate#endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/endpoint_service_update#endpoint_id EndpointServiceUpdate#endpoint_id}
   */
   readonly endpointId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/endpoint_service_update#id EndpointServiceUpdate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/endpoint_service_update#id EndpointServiceUpdate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/endpoint_service_update#pull_image EndpointServiceUpdate#pull_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/endpoint_service_update#pull_image EndpointServiceUpdate#pull_image}
   */
   readonly pullImage?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/endpoint_service_update#service_name EndpointServiceUpdate#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/endpoint_service_update#service_name EndpointServiceUpdate#service_name}
   */
   readonly serviceName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/endpoint_service_update portainer_endpoint_service_update}
+* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/endpoint_service_update portainer_endpoint_service_update}
 */
 export class EndpointServiceUpdate extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class EndpointServiceUpdate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EndpointServiceUpdate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EndpointServiceUpdate to import
-  * @param importFromId The id of the existing EndpointServiceUpdate that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/endpoint_service_update#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EndpointServiceUpdate that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/endpoint_service_update#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EndpointServiceUpdate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class EndpointServiceUpdate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/endpoint_service_update portainer_endpoint_service_update} Resource
+  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/endpoint_service_update portainer_endpoint_service_update} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class EndpointServiceUpdate extends cdktf.TerraformResource {
       terraformResourceType: 'portainer_endpoint_service_update',
       terraformGeneratorMetadata: {
         providerName: 'portainer',
-        providerVersion: '1.19.0',
-        providerVersionConstraint: '1.19.0'
+        providerVersion: '1.20.0',
+        providerVersionConstraint: '1.20.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

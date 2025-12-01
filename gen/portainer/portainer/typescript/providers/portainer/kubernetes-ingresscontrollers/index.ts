@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/kubernetes_ingresscontrollers
+// https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/kubernetes_ingresscontrollers
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface KubernetesIngresscontrollersConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/kubernetes_ingresscontrollers#environment_id KubernetesIngresscontrollers#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/kubernetes_ingresscontrollers#environment_id KubernetesIngresscontrollers#environment_id}
   */
   readonly environmentId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/kubernetes_ingresscontrollers#id KubernetesIngresscontrollers#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/kubernetes_ingresscontrollers#id KubernetesIngresscontrollers#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,33 +21,33 @@ export interface KubernetesIngresscontrollersConfig extends cdktf.TerraformMetaA
   /**
   * controllers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/kubernetes_ingresscontrollers#controllers KubernetesIngresscontrollers#controllers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/kubernetes_ingresscontrollers#controllers KubernetesIngresscontrollers#controllers}
   */
   readonly controllers: KubernetesIngresscontrollersControllers[] | cdktf.IResolvable;
 }
 export interface KubernetesIngresscontrollersControllers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/kubernetes_ingresscontrollers#availability KubernetesIngresscontrollers#availability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/kubernetes_ingresscontrollers#availability KubernetesIngresscontrollers#availability}
   */
   readonly availability: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/kubernetes_ingresscontrollers#class_name KubernetesIngresscontrollers#class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/kubernetes_ingresscontrollers#class_name KubernetesIngresscontrollers#class_name}
   */
   readonly className: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/kubernetes_ingresscontrollers#name KubernetesIngresscontrollers#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/kubernetes_ingresscontrollers#name KubernetesIngresscontrollers#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/kubernetes_ingresscontrollers#new KubernetesIngresscontrollers#new}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/kubernetes_ingresscontrollers#new KubernetesIngresscontrollers#new}
   */
   readonly new: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/kubernetes_ingresscontrollers#type KubernetesIngresscontrollers#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/kubernetes_ingresscontrollers#type KubernetesIngresscontrollers#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/kubernetes_ingresscontrollers#used KubernetesIngresscontrollers#used}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/kubernetes_ingresscontrollers#used KubernetesIngresscontrollers#used}
   */
   readonly used: boolean | cdktf.IResolvable;
 }
@@ -290,7 +290,7 @@ export class KubernetesIngresscontrollersControllersList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/kubernetes_ingresscontrollers portainer_kubernetes_ingresscontrollers}
+* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/kubernetes_ingresscontrollers portainer_kubernetes_ingresscontrollers}
 */
 export class KubernetesIngresscontrollers extends cdktf.TerraformResource {
 
@@ -306,7 +306,7 @@ export class KubernetesIngresscontrollers extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KubernetesIngresscontrollers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KubernetesIngresscontrollers to import
-  * @param importFromId The id of the existing KubernetesIngresscontrollers that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/kubernetes_ingresscontrollers#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KubernetesIngresscontrollers that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/kubernetes_ingresscontrollers#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KubernetesIngresscontrollers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -318,7 +318,7 @@ export class KubernetesIngresscontrollers extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/kubernetes_ingresscontrollers portainer_kubernetes_ingresscontrollers} Resource
+  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/kubernetes_ingresscontrollers portainer_kubernetes_ingresscontrollers} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -329,8 +329,8 @@ export class KubernetesIngresscontrollers extends cdktf.TerraformResource {
       terraformResourceType: 'portainer_kubernetes_ingresscontrollers',
       terraformGeneratorMetadata: {
         providerName: 'portainer',
-        providerVersion: '1.19.0',
-        providerVersionConstraint: '1.19.0'
+        providerVersion: '1.20.0',
+        providerVersionConstraint: '1.20.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

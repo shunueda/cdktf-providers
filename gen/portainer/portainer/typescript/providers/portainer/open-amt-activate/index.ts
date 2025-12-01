@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/open_amt_activate
+// https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/open_amt_activate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface OpenAmtActivateConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the environment (endpoint) to activate OpenAMT on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/open_amt_activate#environment_id OpenAmtActivate#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/open_amt_activate#environment_id OpenAmtActivate#environment_id}
   */
   readonly environmentId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/open_amt_activate#id OpenAmtActivate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/open_amt_activate#id OpenAmtActivate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface OpenAmtActivateConfig extends cdktf.TerraformMetaArguments {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/open_amt_activate portainer_open_amt_activate}
+* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/open_amt_activate portainer_open_amt_activate}
 */
 export class OpenAmtActivate extends cdktf.TerraformResource {
 
@@ -39,7 +39,7 @@ export class OpenAmtActivate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OpenAmtActivate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OpenAmtActivate to import
-  * @param importFromId The id of the existing OpenAmtActivate that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/open_amt_activate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OpenAmtActivate that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/open_amt_activate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OpenAmtActivate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -51,7 +51,7 @@ export class OpenAmtActivate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/open_amt_activate portainer_open_amt_activate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/open_amt_activate portainer_open_amt_activate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -62,8 +62,8 @@ export class OpenAmtActivate extends cdktf.TerraformResource {
       terraformResourceType: 'portainer_open_amt_activate',
       terraformGeneratorMetadata: {
         providerName: 'portainer',
-        providerVersion: '1.19.0',
-        providerVersionConstraint: '1.19.0'
+        providerVersion: '1.20.0',
+        providerVersionConstraint: '1.20.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

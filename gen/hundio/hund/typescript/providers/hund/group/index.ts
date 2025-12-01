@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/group
+// https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface GroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether or not this group is displayed collapsed by default on the status page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/group#collapsed Group#collapsed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/group#collapsed Group#collapsed}
   */
   readonly collapsed?: boolean | cdktf.IResolvable;
   /**
   * A description of this Group, potentially with markdown formatting, in the default translation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/group#description Group#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/group#description Group#description}
   */
   readonly description?: string;
   /**
   * A description of this Group, potentially with markdown formatting, translated into multiple languages. Map keys express the language each string value is to be interpreted in. The `original` field of this map denotes the language used for the non-`_translations` version of this attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/group#description_translations Group#description_translations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/group#description_translations Group#description_translations}
   */
   readonly descriptionTranslations?: { [key: string]: string };
   /**
   * The name of this Group, in the default translation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/group#name Group#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/group#name Group#name}
   */
   readonly name?: string;
   /**
   * The name of this Group, translated into multiple languages. Map keys express the language each string value is to be interpreted in. The `original` field of this map denotes the language used for the non-`_translations` version of this attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/group#name_translations Group#name_translations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/group#name_translations Group#name_translations}
   */
   readonly nameTranslations?: { [key: string]: string };
   /**
   * An integer representing the position of this Group. Groups are displayed on the status page in ascending order according to this value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/group#position Group#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/group#position Group#position}
   */
   readonly position?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/group hund_group}
+* Represents a {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/group hund_group}
 */
 export class Group extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class Group extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Group resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Group to import
-  * @param importFromId The id of the existing Group that should be imported. Refer to the {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Group that should be imported. Refer to the {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Group to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class Group extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/group hund_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/group hund_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class Group extends cdktf.TerraformResource {
       terraformResourceType: 'hund_group',
       terraformGeneratorMetadata: {
         providerName: 'hund',
-        providerVersion: '0.1.0',
-        providerVersionConstraint: '0.1.0'
+        providerVersion: '0.2.0',
+        providerVersionConstraint: '0.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

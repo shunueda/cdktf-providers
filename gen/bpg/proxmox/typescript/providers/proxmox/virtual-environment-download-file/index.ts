@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_download_file
+// https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_download_file
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,79 +10,79 @@ export interface VirtualEnvironmentDownloadFileConfig extends cdktf.TerraformMet
   /**
   * The expected checksum of the file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_download_file#checksum VirtualEnvironmentDownloadFile#checksum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_download_file#checksum VirtualEnvironmentDownloadFile#checksum}
   */
   readonly checksum?: string;
   /**
   * The algorithm to calculate the checksum of the file. Must be `md5` | `sha1` | `sha224` | `sha256` | `sha384` | `sha512`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_download_file#checksum_algorithm VirtualEnvironmentDownloadFile#checksum_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_download_file#checksum_algorithm VirtualEnvironmentDownloadFile#checksum_algorithm}
   */
   readonly checksumAlgorithm?: string;
   /**
   * The file content type. Must be `iso` or `import` for VM images or `vztmpl` for LXC images.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_download_file#content_type VirtualEnvironmentDownloadFile#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_download_file#content_type VirtualEnvironmentDownloadFile#content_type}
   */
   readonly contentType: string;
   /**
   * The identifier for the target datastore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_download_file#datastore_id VirtualEnvironmentDownloadFile#datastore_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_download_file#datastore_id VirtualEnvironmentDownloadFile#datastore_id}
   */
   readonly datastoreId: string;
   /**
   * Decompress the downloaded file using the specified compression algorithm. Must be one of `gz` | `lzo` | `zst` | `bz2`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_download_file#decompression_algorithm VirtualEnvironmentDownloadFile#decompression_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_download_file#decompression_algorithm VirtualEnvironmentDownloadFile#decompression_algorithm}
   */
   readonly decompressionAlgorithm?: string;
   /**
   * The file name. If not provided, it is calculated using `url`. PVE will raise 'wrong file extension' error for some popular extensions file `.raw` or `.qcow2` on PVE versions prior to 8.4. Workaround is to use e.g. `.img` instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_download_file#file_name VirtualEnvironmentDownloadFile#file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_download_file#file_name VirtualEnvironmentDownloadFile#file_name}
   */
   readonly fileName?: string;
   /**
   * The node name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_download_file#node_name VirtualEnvironmentDownloadFile#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_download_file#node_name VirtualEnvironmentDownloadFile#node_name}
   */
   readonly nodeName: string;
   /**
   * By default `true`. If `true` and file size has changed in the datastore, it will be replaced. If `false`, there will be no check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_download_file#overwrite VirtualEnvironmentDownloadFile#overwrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_download_file#overwrite VirtualEnvironmentDownloadFile#overwrite}
   */
   readonly overwrite?: boolean | cdktf.IResolvable;
   /**
   * If `true` and a file with the same name already exists in the datastore, it will be deleted and the new file will be downloaded. If `false` and the file already exists, an error will be returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_download_file#overwrite_unmanaged VirtualEnvironmentDownloadFile#overwrite_unmanaged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_download_file#overwrite_unmanaged VirtualEnvironmentDownloadFile#overwrite_unmanaged}
   */
   readonly overwriteUnmanaged?: boolean | cdktf.IResolvable;
   /**
   * The file download timeout seconds. Default is 600 (10min).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_download_file#upload_timeout VirtualEnvironmentDownloadFile#upload_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_download_file#upload_timeout VirtualEnvironmentDownloadFile#upload_timeout}
   */
   readonly uploadTimeout?: number;
   /**
   * The URL to download the file from. Must match regex: `https?://.*`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_download_file#url VirtualEnvironmentDownloadFile#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_download_file#url VirtualEnvironmentDownloadFile#url}
   */
   readonly url: string;
   /**
   * By default `true`. If `false`, no SSL/TLS certificates will be verified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_download_file#verify VirtualEnvironmentDownloadFile#verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_download_file#verify VirtualEnvironmentDownloadFile#verify}
   */
   readonly verify?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_download_file proxmox_virtual_environment_download_file}
+* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_download_file proxmox_virtual_environment_download_file}
 */
 export class VirtualEnvironmentDownloadFile extends cdktf.TerraformResource {
 
@@ -98,7 +98,7 @@ export class VirtualEnvironmentDownloadFile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VirtualEnvironmentDownloadFile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualEnvironmentDownloadFile to import
-  * @param importFromId The id of the existing VirtualEnvironmentDownloadFile that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_download_file#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualEnvironmentDownloadFile that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_download_file#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualEnvironmentDownloadFile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -110,7 +110,7 @@ export class VirtualEnvironmentDownloadFile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_download_file proxmox_virtual_environment_download_file} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_download_file proxmox_virtual_environment_download_file} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -121,8 +121,8 @@ export class VirtualEnvironmentDownloadFile extends cdktf.TerraformResource {
       terraformResourceType: 'proxmox_virtual_environment_download_file',
       terraformGeneratorMetadata: {
         providerName: 'proxmox',
-        providerVersion: '0.87.0',
-        providerVersionConstraint: '0.87.0'
+        providerVersion: '0.88.0',
+        providerVersionConstraint: '0.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

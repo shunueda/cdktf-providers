@@ -1,3 +1,3 @@
 # `portainer_user`
 
-Refer to the Terraform Registry for docs: [`portainer_user`](https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/user).
+Refer to the Terraform Registry for docs: [`portainer_user`](https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/user).

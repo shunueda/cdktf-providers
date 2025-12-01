@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_network_linux_bridge
+// https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_network_linux_bridge
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,73 +10,73 @@ export interface VirtualEnvironmentNetworkLinuxBridgeConfig extends cdktf.Terraf
   /**
   * The interface IPv4/CIDR address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_network_linux_bridge#address VirtualEnvironmentNetworkLinuxBridge#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_network_linux_bridge#address VirtualEnvironmentNetworkLinuxBridge#address}
   */
   readonly address?: string;
   /**
   * The interface IPv6/CIDR address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_network_linux_bridge#address6 VirtualEnvironmentNetworkLinuxBridge#address6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_network_linux_bridge#address6 VirtualEnvironmentNetworkLinuxBridge#address6}
   */
   readonly address6?: string;
   /**
   * Automatically start interface on boot (defaults to `true`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_network_linux_bridge#autostart VirtualEnvironmentNetworkLinuxBridge#autostart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_network_linux_bridge#autostart VirtualEnvironmentNetworkLinuxBridge#autostart}
   */
   readonly autostart?: boolean | cdktf.IResolvable;
   /**
   * Comment for the interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_network_linux_bridge#comment VirtualEnvironmentNetworkLinuxBridge#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_network_linux_bridge#comment VirtualEnvironmentNetworkLinuxBridge#comment}
   */
   readonly comment?: string;
   /**
   * Default gateway address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_network_linux_bridge#gateway VirtualEnvironmentNetworkLinuxBridge#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_network_linux_bridge#gateway VirtualEnvironmentNetworkLinuxBridge#gateway}
   */
   readonly gateway?: string;
   /**
   * Default IPv6 gateway address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_network_linux_bridge#gateway6 VirtualEnvironmentNetworkLinuxBridge#gateway6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_network_linux_bridge#gateway6 VirtualEnvironmentNetworkLinuxBridge#gateway6}
   */
   readonly gateway6?: string;
   /**
   * The interface MTU.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_network_linux_bridge#mtu VirtualEnvironmentNetworkLinuxBridge#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_network_linux_bridge#mtu VirtualEnvironmentNetworkLinuxBridge#mtu}
   */
   readonly mtu?: number;
   /**
   * The interface name. Commonly vmbr[N], where 0 ≤ N ≤ 4094 (vmbr0 - vmbr4094), but can be any alphanumeric string that starts with a character and is at most 10 characters long.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_network_linux_bridge#name VirtualEnvironmentNetworkLinuxBridge#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_network_linux_bridge#name VirtualEnvironmentNetworkLinuxBridge#name}
   */
   readonly name: string;
   /**
   * The name of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_network_linux_bridge#node_name VirtualEnvironmentNetworkLinuxBridge#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_network_linux_bridge#node_name VirtualEnvironmentNetworkLinuxBridge#node_name}
   */
   readonly nodeName: string;
   /**
   * The interface bridge ports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_network_linux_bridge#ports VirtualEnvironmentNetworkLinuxBridge#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_network_linux_bridge#ports VirtualEnvironmentNetworkLinuxBridge#ports}
   */
   readonly ports?: string[];
   /**
   * Whether the interface bridge is VLAN aware (defaults to `false`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_network_linux_bridge#vlan_aware VirtualEnvironmentNetworkLinuxBridge#vlan_aware}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_network_linux_bridge#vlan_aware VirtualEnvironmentNetworkLinuxBridge#vlan_aware}
   */
   readonly vlanAware?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_network_linux_bridge proxmox_virtual_environment_network_linux_bridge}
+* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_network_linux_bridge proxmox_virtual_environment_network_linux_bridge}
 */
 export class VirtualEnvironmentNetworkLinuxBridge extends cdktf.TerraformResource {
 
@@ -92,7 +92,7 @@ export class VirtualEnvironmentNetworkLinuxBridge extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a VirtualEnvironmentNetworkLinuxBridge resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualEnvironmentNetworkLinuxBridge to import
-  * @param importFromId The id of the existing VirtualEnvironmentNetworkLinuxBridge that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_network_linux_bridge#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualEnvironmentNetworkLinuxBridge that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_network_linux_bridge#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualEnvironmentNetworkLinuxBridge to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -104,7 +104,7 @@ export class VirtualEnvironmentNetworkLinuxBridge extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_network_linux_bridge proxmox_virtual_environment_network_linux_bridge} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_network_linux_bridge proxmox_virtual_environment_network_linux_bridge} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -115,8 +115,8 @@ export class VirtualEnvironmentNetworkLinuxBridge extends cdktf.TerraformResourc
       terraformResourceType: 'proxmox_virtual_environment_network_linux_bridge',
       terraformGeneratorMetadata: {
         providerName: 'proxmox',
-        providerVersion: '0.87.0',
-        providerVersionConstraint: '0.87.0'
+        providerVersion: '0.88.0',
+        providerVersionConstraint: '0.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

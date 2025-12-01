@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stileeducation/stile/0.0.23/docs
+// https://registry.terraform.io/providers/stileeducation/stile/0.0.24/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface StileProviderConfig {
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stileeducation/stile/0.0.23/docs#alias StileProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stileeducation/stile/0.0.24/docs#alias StileProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stileeducation/stile/0.0.23/docs stile}
+* Represents a {@link https://registry.terraform.io/providers/stileeducation/stile/0.0.24/docs stile}
 */
 export class StileProvider extends cdktf.TerraformProvider {
 
@@ -32,7 +32,7 @@ export class StileProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a StileProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StileProvider to import
-  * @param importFromId The id of the existing StileProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/stileeducation/stile/0.0.23/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StileProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/stileeducation/stile/0.0.24/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StileProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class StileProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stileeducation/stile/0.0.23/docs stile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/stileeducation/stile/0.0.24/docs stile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class StileProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'stile',
       terraformGeneratorMetadata: {
         providerName: 'stile',
-        providerVersion: '0.0.23',
-        providerVersionConstraint: '0.0.23'
+        providerVersion: '0.0.24',
+        providerVersionConstraint: '0.0.24'
       },
       terraformProviderSource: 'StileEducation/stile'
     });

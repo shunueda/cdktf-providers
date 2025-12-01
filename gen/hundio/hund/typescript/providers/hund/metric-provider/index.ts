@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider
+// https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,25 +12,25 @@ export interface MetricProviderConfig extends cdktf.TerraformMetaArguments {
   * 
   * ~> Default MetricProviders cannot be created directly, and must be imported to be managed by Terraform. Deleting a default MetricProvider from your Terraform configuration will only remove the resource from the state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#default MetricProvider#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#default MetricProvider#default}
   */
   readonly default?: boolean | cdktf.IResolvable;
   /**
   * A Map of MetricInstances, which describe each Metric that the MetricProvider provides. The keys of this Map define the slugs of each provided metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#instances MetricProvider#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#instances MetricProvider#instances}
   */
   readonly instances?: { [key: string]: MetricProviderInstances } | cdktf.IResolvable;
   /**
   * The service configuration for this MetricProvider, which describes how the given `instances` are provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#service MetricProvider#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#service MetricProvider#service}
   */
   readonly service?: MetricProviderService;
   /**
   * The Watchdog that owns this MetricProvider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#watchdog MetricProvider#watchdog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#watchdog MetricProvider#watchdog}
   */
   readonly watchdog: string;
 }
@@ -40,85 +40,85 @@ export interface MetricProviderInstances {
   * 
   * -> this field does not have any effect on the underlying data; it is purely cosmetic, and applied only when viewing the data on the status page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#aggregation MetricProvider#aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#aggregation MetricProvider#aggregation}
   */
   readonly aggregation?: string;
   /**
   * Whether or not to show this metric on the Component that uses it (through the Watchdog).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#enabled MetricProvider#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#enabled MetricProvider#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The kind of interpolation to use between points displayed in the graph (line plots only). One of `linear`, `step`, `basis`, `bundle`, or `cardinal`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#interpolation MetricProvider#interpolation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#interpolation MetricProvider#interpolation}
   */
   readonly interpolation?: string;
   /**
   * The kind of visualization to display the metric with. One of `line` or `bar`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#plot_type MetricProvider#plot_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#plot_type MetricProvider#plot_type}
   */
   readonly plotType?: string;
   /**
   * The title of the metric, displayed above its graph on the status page, in the default translation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#title MetricProvider#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#title MetricProvider#title}
   */
   readonly title?: string;
   /**
   * The title of the metric, displayed above its graph on the status page, translated into multiple languages. Map keys express the language each string value is to be interpreted in. The `original` field of this map denotes the language used for the non-`_translations` version of this attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#title_translations MetricProvider#title_translations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#title_translations MetricProvider#title_translations}
   */
   readonly titleTranslations?: { [key: string]: string };
   /**
   * Whether or not to show this metric on the status page home.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#top_level_enabled MetricProvider#top_level_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#top_level_enabled MetricProvider#top_level_enabled}
   */
   readonly topLevelEnabled?: boolean | cdktf.IResolvable;
   /**
   * The title of the x-axis of this metric, in the default translation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#x_title MetricProvider#x_title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#x_title MetricProvider#x_title}
   */
   readonly xTitle?: string;
   /**
   * The title of the x-axis of this metric, translated into multiple languages. Map keys express the language each string value is to be interpreted in. The `original` field of this map denotes the language used for the non-`_translations` version of this attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#x_title_translations MetricProvider#x_title_translations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#x_title_translations MetricProvider#x_title_translations}
   */
   readonly xTitleTranslations?: { [key: string]: string };
   /**
   * The type of quantity represented by the x-axis. One of `time` or `measure`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#x_type MetricProvider#x_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#x_type MetricProvider#x_type}
   */
   readonly xType?: string;
   /**
   * The least upper bound to display the y-axis on. The metric will always display up to at least this value on the y-axis regardless of the graphed data. If the graph exceeds this value, then the bound will be raised as much as necessary to accommodate the data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#y_supremum MetricProvider#y_supremum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#y_supremum MetricProvider#y_supremum}
   */
   readonly ySupremum?: number;
   /**
   * The title of the y-axis of this metric, in the default translation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#y_title MetricProvider#y_title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#y_title MetricProvider#y_title}
   */
   readonly yTitle?: string;
   /**
   * The title of the y-axis of this metric, translated into multiple languages. Map keys express the language each string value is to be interpreted in. The `original` field of this map denotes the language used for the non-`_translations` version of this attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#y_title_translations MetricProvider#y_title_translations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#y_title_translations MetricProvider#y_title_translations}
   */
   readonly yTitleTranslations?: { [key: string]: string };
   /**
   * The type of quantity represented by the y-axis. One of `time` or `measure`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#y_type MetricProvider#y_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#y_type MetricProvider#y_type}
   */
   readonly yType?: string;
 }
@@ -695,7 +695,7 @@ export interface MetricProviderServiceDns {
   *   When 0, denotes that this check will post "degraded" upon the first check failure.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#consecutive_check_degraded_threshold MetricProvider#consecutive_check_degraded_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#consecutive_check_degraded_threshold MetricProvider#consecutive_check_degraded_threshold}
   */
   readonly consecutiveCheckDegradedThreshold?: number;
   /**
@@ -711,7 +711,7 @@ export interface MetricProviderServiceDns {
   * `consecutive_check_degraded_threshold` is set).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#consecutive_check_outage_threshold MetricProvider#consecutive_check_outage_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#consecutive_check_outage_threshold MetricProvider#consecutive_check_outage_threshold}
   */
   readonly consecutiveCheckOutageThreshold?: number;
   /**
@@ -723,7 +723,7 @@ export interface MetricProviderServiceDns {
   * information, please visit the [pricing](https://hund.io/pricing) page.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#frequency MetricProvider#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#frequency MetricProvider#frequency}
   */
   readonly frequency?: number;
   /**
@@ -731,7 +731,7 @@ export interface MetricProviderServiceDns {
   * ignored by SOA queries since they use the nameservers yielded by querying NS
   * on the target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#nameservers MetricProvider#nameservers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#nameservers MetricProvider#nameservers}
   */
   readonly nameservers?: string[];
   /**
@@ -740,13 +740,13 @@ export interface MetricProviderServiceDns {
   * threshold is recommended in order to confirm failures across regions.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#percentage_regions_failed_threshold MetricProvider#percentage_regions_failed_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#percentage_regions_failed_threshold MetricProvider#percentage_regions_failed_threshold}
   */
   readonly percentageRegionsFailedThreshold?: number;
   /**
   * The type of DNS record to query for on the target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#record_type MetricProvider#record_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#record_type MetricProvider#record_type}
   */
   readonly recordType: string;
   /**
@@ -758,14 +758,14 @@ export interface MetricProviderServiceDns {
   * -> Each check may use up to **three** regions at no extra cost. Each region added to this check beyond the base three will incur an additional cost. For specific pricing information, please visit the [pricing](https://hund.io/pricing) page.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#regions MetricProvider#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#regions MetricProvider#regions}
   */
   readonly regions: string[];
   /**
   * Whether `all` of the assertions in `responses_must_contain` must match the DNS response,
   * or rather just `any` of them (i.e. at least one).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#response_containment MetricProvider#response_containment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#response_containment MetricProvider#response_containment}
   */
   readonly responseContainment?: string;
   /**
@@ -795,7 +795,7 @@ export interface MetricProviderServiceDns {
   * simply the domain.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#responses_must_contain MetricProvider#responses_must_contain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#responses_must_contain MetricProvider#responses_must_contain}
   */
   readonly responsesMustContain?: string[];
   /**
@@ -804,7 +804,7 @@ export interface MetricProviderServiceDns {
   * automatically; however, both formats are accepted.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#target MetricProvider#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#target MetricProvider#target}
   */
   readonly target: string;
   /**
@@ -812,7 +812,7 @@ export interface MetricProviderServiceDns {
   * failing.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#timeout MetricProvider#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#timeout MetricProvider#timeout}
   */
   readonly timeout?: number;
 }
@@ -1199,7 +1199,7 @@ export interface MetricProviderServiceHttp {
   *   When 0, denotes that this check will post "degraded" upon the first check failure.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#consecutive_check_degraded_threshold MetricProvider#consecutive_check_degraded_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#consecutive_check_degraded_threshold MetricProvider#consecutive_check_degraded_threshold}
   */
   readonly consecutiveCheckDegradedThreshold?: number;
   /**
@@ -1215,13 +1215,13 @@ export interface MetricProviderServiceHttp {
   * `consecutive_check_degraded_threshold` is set).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#consecutive_check_outage_threshold MetricProvider#consecutive_check_outage_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#consecutive_check_outage_threshold MetricProvider#consecutive_check_outage_threshold}
   */
   readonly consecutiveCheckOutageThreshold?: number;
   /**
   * Follow any HTTP redirects given by the requested target. Please note that this check will only follow up to 9 redirects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#follow_redirects MetricProvider#follow_redirects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#follow_redirects MetricProvider#follow_redirects}
   */
   readonly followRedirects?: boolean | cdktf.IResolvable;
   /**
@@ -1233,7 +1233,7 @@ export interface MetricProviderServiceHttp {
   * information, please visit the [pricing](https://hund.io/pricing) page.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#frequency MetricProvider#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#frequency MetricProvider#frequency}
   */
   readonly frequency?: number;
   /**
@@ -1261,13 +1261,13 @@ export interface MetricProviderServiceHttp {
   * ```
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#headers MetricProvider#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#headers MetricProvider#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * An optional HTTP Basic Authentication password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#password MetricProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#password MetricProvider#password}
   */
   readonly password?: string;
   /**
@@ -1276,7 +1276,7 @@ export interface MetricProviderServiceHttp {
   * threshold is recommended in order to confirm failures across regions.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#percentage_regions_failed_threshold MetricProvider#percentage_regions_failed_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#percentage_regions_failed_threshold MetricProvider#percentage_regions_failed_threshold}
   */
   readonly percentageRegionsFailedThreshold?: number;
   /**
@@ -1288,7 +1288,7 @@ export interface MetricProviderServiceHttp {
   * -> Each check may use up to **three** regions at no extra cost. Each region added to this check beyond the base three will incur an additional cost. For specific pricing information, please visit the [pricing](https://hund.io/pricing) page.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#regions MetricProvider#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#regions MetricProvider#regions}
   */
   readonly regions: string[];
   /**
@@ -1303,7 +1303,7 @@ export interface MetricProviderServiceHttp {
   * more information on the use and supported syntax of Hund regexes.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#response_body_must_contain MetricProvider#response_body_must_contain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#response_body_must_contain MetricProvider#response_body_must_contain}
   */
   readonly responseBodyMustContain?: string;
   /**
@@ -1311,7 +1311,7 @@ export interface MetricProviderServiceHttp {
   * under `response_body_must_contain`.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#response_body_must_contain_mode MetricProvider#response_body_must_contain_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#response_body_must_contain_mode MetricProvider#response_body_must_contain_mode}
   */
   readonly responseBodyMustContainMode?: string;
   /**
@@ -1319,19 +1319,19 @@ export interface MetricProviderServiceHttp {
   * fail.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#response_code_must_be MetricProvider#response_code_must_be}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#response_code_must_be MetricProvider#response_code_must_be}
   */
   readonly responseCodeMustBe?: number;
   /**
   * Require the target's TLS certificate to be valid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#ssl_verify_peer MetricProvider#ssl_verify_peer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#ssl_verify_peer MetricProvider#ssl_verify_peer}
   */
   readonly sslVerifyPeer?: boolean | cdktf.IResolvable;
   /**
   * The host the check will make calls to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#target MetricProvider#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#target MetricProvider#target}
   */
   readonly target: string;
   /**
@@ -1339,13 +1339,13 @@ export interface MetricProviderServiceHttp {
   * failing.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#timeout MetricProvider#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#timeout MetricProvider#timeout}
   */
   readonly timeout?: number;
   /**
   * An optional HTTP Basic Authentication username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#username MetricProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#username MetricProvider#username}
   */
   readonly username?: string;
 }
@@ -1851,7 +1851,7 @@ export interface MetricProviderServiceIcmp {
   *   When 0, denotes that this check will post "degraded" upon the first check failure.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#consecutive_check_degraded_threshold MetricProvider#consecutive_check_degraded_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#consecutive_check_degraded_threshold MetricProvider#consecutive_check_degraded_threshold}
   */
   readonly consecutiveCheckDegradedThreshold?: number;
   /**
@@ -1867,7 +1867,7 @@ export interface MetricProviderServiceIcmp {
   * `consecutive_check_degraded_threshold` is set).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#consecutive_check_outage_threshold MetricProvider#consecutive_check_outage_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#consecutive_check_outage_threshold MetricProvider#consecutive_check_outage_threshold}
   */
   readonly consecutiveCheckOutageThreshold?: number;
   /**
@@ -1879,19 +1879,19 @@ export interface MetricProviderServiceIcmp {
   * information, please visit the [pricing](https://hund.io/pricing) page.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#frequency MetricProvider#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#frequency MetricProvider#frequency}
   */
   readonly frequency?: number;
   /**
   * The IP version to use when pinging.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#ip_version MetricProvider#ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#ip_version MetricProvider#ip_version}
   */
   readonly ipVersion?: string;
   /**
   * The percentage of addresses at the given target that must fail for a region to be counted as failed. This option only matters when there are multiple IP addresses behind the target when the target is a domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#percentage_failed_threshold MetricProvider#percentage_failed_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#percentage_failed_threshold MetricProvider#percentage_failed_threshold}
   */
   readonly percentageFailedThreshold?: number;
   /**
@@ -1900,7 +1900,7 @@ export interface MetricProviderServiceIcmp {
   * threshold is recommended in order to confirm failures across regions.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#percentage_regions_failed_threshold MetricProvider#percentage_regions_failed_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#percentage_regions_failed_threshold MetricProvider#percentage_regions_failed_threshold}
   */
   readonly percentageRegionsFailedThreshold?: number;
   /**
@@ -1912,13 +1912,13 @@ export interface MetricProviderServiceIcmp {
   * -> Each check may use up to **three** regions at no extra cost. Each region added to this check beyond the base three will incur an additional cost. For specific pricing information, please visit the [pricing](https://hund.io/pricing) page.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#regions MetricProvider#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#regions MetricProvider#regions}
   */
   readonly regions: string[];
   /**
   * The host the check will make calls to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#target MetricProvider#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#target MetricProvider#target}
   */
   readonly target: string;
   /**
@@ -1926,7 +1926,7 @@ export interface MetricProviderServiceIcmp {
   * failing.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#timeout MetricProvider#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#timeout MetricProvider#timeout}
   */
   readonly timeout?: number;
 }
@@ -2248,19 +2248,19 @@ export interface MetricProviderServicePingdom {
   /**
   * The Pingdom API v3 key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#api_token MetricProvider#api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#api_token MetricProvider#api_token}
   */
   readonly apiToken: string;
   /**
   * The ID of the check to pull status from on Pingdom.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#check_id MetricProvider#check_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#check_id MetricProvider#check_id}
   */
   readonly checkId: string;
   /**
   * The type of the Pingdom check. `check` denotes a normal Pingdom uptime check, and `transactional` denotes a Pingdom TMS check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#check_type MetricProvider#check_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#check_type MetricProvider#check_type}
   */
   readonly checkType?: string;
 }
@@ -2418,7 +2418,7 @@ export interface MetricProviderServiceTcp {
   *   When 0, denotes that this check will post "degraded" upon the first check failure.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#consecutive_check_degraded_threshold MetricProvider#consecutive_check_degraded_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#consecutive_check_degraded_threshold MetricProvider#consecutive_check_degraded_threshold}
   */
   readonly consecutiveCheckDegradedThreshold?: number;
   /**
@@ -2434,7 +2434,7 @@ export interface MetricProviderServiceTcp {
   * `consecutive_check_degraded_threshold` is set).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#consecutive_check_outage_threshold MetricProvider#consecutive_check_outage_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#consecutive_check_outage_threshold MetricProvider#consecutive_check_outage_threshold}
   */
   readonly consecutiveCheckOutageThreshold?: number;
   /**
@@ -2446,13 +2446,13 @@ export interface MetricProviderServiceTcp {
   * information, please visit the [pricing](https://hund.io/pricing) page.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#frequency MetricProvider#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#frequency MetricProvider#frequency}
   */
   readonly frequency?: number;
   /**
   * The IP version to use when calling the target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#ip_version MetricProvider#ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#ip_version MetricProvider#ip_version}
   */
   readonly ipVersion?: string;
   /**
@@ -2461,13 +2461,13 @@ export interface MetricProviderServiceTcp {
   * threshold is recommended in order to confirm failures across regions.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#percentage_regions_failed_threshold MetricProvider#percentage_regions_failed_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#percentage_regions_failed_threshold MetricProvider#percentage_regions_failed_threshold}
   */
   readonly percentageRegionsFailedThreshold?: number;
   /**
   * The port at the target to connect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#port MetricProvider#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#port MetricProvider#port}
   */
   readonly port: number;
   /**
@@ -2479,7 +2479,7 @@ export interface MetricProviderServiceTcp {
   * -> Each check may use up to **three** regions at no extra cost. Each region added to this check beyond the base three will incur an additional cost. For specific pricing information, please visit the [pricing](https://hund.io/pricing) page.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#regions MetricProvider#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#regions MetricProvider#regions}
   */
   readonly regions: string[];
   /**
@@ -2502,7 +2502,7 @@ export interface MetricProviderServiceTcp {
   * target, this text is asserted against the *initial* response.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#response_must_contain MetricProvider#response_must_contain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#response_must_contain MetricProvider#response_must_contain}
   */
   readonly responseMustContain?: string;
   /**
@@ -2510,7 +2510,7 @@ export interface MetricProviderServiceTcp {
   * under `response_must_contain`.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#response_must_contain_mode MetricProvider#response_must_contain_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#response_must_contain_mode MetricProvider#response_must_contain_mode}
   */
   readonly responseMustContainMode?: string;
   /**
@@ -2518,13 +2518,13 @@ export interface MetricProviderServiceTcp {
   * blank, nothing is sent to the target after connecting. This field supports [escape codes](https://hund.io/help/documentation/text-field-escape-codes).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#send_data MetricProvider#send_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#send_data MetricProvider#send_data}
   */
   readonly sendData?: string;
   /**
   * The host the check will make calls to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#target MetricProvider#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#target MetricProvider#target}
   */
   readonly target: string;
   /**
@@ -2532,7 +2532,7 @@ export interface MetricProviderServiceTcp {
   * failing.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#timeout MetricProvider#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#timeout MetricProvider#timeout}
   */
   readonly timeout?: number;
   /**
@@ -2540,7 +2540,7 @@ export interface MetricProviderServiceTcp {
   * data or closing the connection.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#wait_for_initial_response MetricProvider#wait_for_initial_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#wait_for_initial_response MetricProvider#wait_for_initial_response}
   */
   readonly waitForInitialResponse?: boolean | cdktf.IResolvable;
 }
@@ -2985,7 +2985,7 @@ export interface MetricProviderServiceUdp {
   *   When 0, denotes that this check will post "degraded" upon the first check failure.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#consecutive_check_degraded_threshold MetricProvider#consecutive_check_degraded_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#consecutive_check_degraded_threshold MetricProvider#consecutive_check_degraded_threshold}
   */
   readonly consecutiveCheckDegradedThreshold?: number;
   /**
@@ -3001,7 +3001,7 @@ export interface MetricProviderServiceUdp {
   * `consecutive_check_degraded_threshold` is set).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#consecutive_check_outage_threshold MetricProvider#consecutive_check_outage_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#consecutive_check_outage_threshold MetricProvider#consecutive_check_outage_threshold}
   */
   readonly consecutiveCheckOutageThreshold?: number;
   /**
@@ -3013,14 +3013,14 @@ export interface MetricProviderServiceUdp {
   * information, please visit the [pricing](https://hund.io/pricing) page.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#frequency MetricProvider#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#frequency MetricProvider#frequency}
   */
   readonly frequency?: number;
   /**
   * The IP version to use when calling the target.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#ip_version MetricProvider#ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#ip_version MetricProvider#ip_version}
   */
   readonly ipVersion?: string;
   /**
@@ -3029,13 +3029,13 @@ export interface MetricProviderServiceUdp {
   * threshold is recommended in order to confirm failures across regions.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#percentage_regions_failed_threshold MetricProvider#percentage_regions_failed_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#percentage_regions_failed_threshold MetricProvider#percentage_regions_failed_threshold}
   */
   readonly percentageRegionsFailedThreshold?: number;
   /**
   * The port at the target to connect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#port MetricProvider#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#port MetricProvider#port}
   */
   readonly port: number;
   /**
@@ -3047,7 +3047,7 @@ export interface MetricProviderServiceUdp {
   * -> Each check may use up to **three** regions at no extra cost. Each region added to this check beyond the base three will incur an additional cost. For specific pricing information, please visit the [pricing](https://hund.io/pricing) page.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#regions MetricProvider#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#regions MetricProvider#regions}
   */
   readonly regions: string[];
   /**
@@ -3066,7 +3066,7 @@ export interface MetricProviderServiceUdp {
   * the payload of the response.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#response_must_contain MetricProvider#response_must_contain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#response_must_contain MetricProvider#response_must_contain}
   */
   readonly responseMustContain?: string;
   /**
@@ -3074,7 +3074,7 @@ export interface MetricProviderServiceUdp {
   * under `response_must_contain`.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#response_must_contain_mode MetricProvider#response_must_contain_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#response_must_contain_mode MetricProvider#response_must_contain_mode}
   */
   readonly responseMustContainMode?: string;
   /**
@@ -3082,13 +3082,13 @@ export interface MetricProviderServiceUdp {
   * field is required. This field supports [escape codes](https://hund.io/help/documentation/text-field-escape-codes).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#send_data MetricProvider#send_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#send_data MetricProvider#send_data}
   */
   readonly sendData: string;
   /**
   * The host the check will make calls to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#target MetricProvider#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#target MetricProvider#target}
   */
   readonly target: string;
   /**
@@ -3096,7 +3096,7 @@ export interface MetricProviderServiceUdp {
   * failing.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#timeout MetricProvider#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#timeout MetricProvider#timeout}
   */
   readonly timeout?: number;
 }
@@ -3499,13 +3499,13 @@ export interface MetricProviderServiceUpdown {
   /**
   * An Updown.io monitor API key. This API key can be read-only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#monitor_api_key MetricProvider#monitor_api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#monitor_api_key MetricProvider#monitor_api_key}
   */
   readonly monitorApiKey: string;
   /**
   * An Updown.io monitor token to retrieve status from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#monitor_token MetricProvider#monitor_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#monitor_token MetricProvider#monitor_token}
   */
   readonly monitorToken: string;
 }
@@ -3624,7 +3624,7 @@ export interface MetricProviderServiceUptimerobot {
   /**
   * An Uptime Robot monitor API key to retrieve status from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#monitor_api_key MetricProvider#monitor_api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#monitor_api_key MetricProvider#monitor_api_key}
   */
   readonly monitorApiKey: string;
 }
@@ -3717,7 +3717,7 @@ export interface MetricProviderServiceWebhook {
   /**
   * The key to use for this webhook, expected in request headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#webhook_key MetricProvider#webhook_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#webhook_key MetricProvider#webhook_key}
   */
   readonly webhookKey?: string;
 }
@@ -3813,61 +3813,61 @@ export interface MetricProviderService {
   /**
   * The builtin Hund metric provider, which provides metrics based on recorded uptime and incidents.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#builtin MetricProvider#builtin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#builtin MetricProvider#builtin}
   */
   readonly builtin?: MetricProviderServiceBuiltin;
   /**
   * A Hund Native Monitoring DNS Check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#dns MetricProvider#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#dns MetricProvider#dns}
   */
   readonly dns?: MetricProviderServiceDns;
   /**
   * A Hund Native Monitoring HTTP Check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#http MetricProvider#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#http MetricProvider#http}
   */
   readonly http?: MetricProviderServiceHttp;
   /**
   * A Hund Native Monitoring ICMP Check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#icmp MetricProvider#icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#icmp MetricProvider#icmp}
   */
   readonly icmp?: MetricProviderServiceIcmp;
   /**
   * A [pingdom](https://www.pingdom.com) service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#pingdom MetricProvider#pingdom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#pingdom MetricProvider#pingdom}
   */
   readonly pingdom?: MetricProviderServicePingdom;
   /**
   * A Hund Native Monitoring TCP Check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#tcp MetricProvider#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#tcp MetricProvider#tcp}
   */
   readonly tcp?: MetricProviderServiceTcp;
   /**
   * A Hund Native Monitoring UDP Check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#udp MetricProvider#udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#udp MetricProvider#udp}
   */
   readonly udp?: MetricProviderServiceUdp;
   /**
   * An [Updown.io](https://updown.io) service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#updown MetricProvider#updown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#updown MetricProvider#updown}
   */
   readonly updown?: MetricProviderServiceUpdown;
   /**
   * An [Uptime Robot](https://uptimerobot.com) service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#uptimerobot MetricProvider#uptimerobot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#uptimerobot MetricProvider#uptimerobot}
   */
   readonly uptimerobot?: MetricProviderServiceUptimerobot;
   /**
   * A [webhook](https://hund.io/help/documentation/incoming-webhook-metrics) service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#webhook MetricProvider#webhook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#webhook MetricProvider#webhook}
   */
   readonly webhook?: MetricProviderServiceWebhook;
 }
@@ -4222,7 +4222,7 @@ export class MetricProviderServiceOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider hund_metric_provider}
+* Represents a {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider hund_metric_provider}
 */
 export class MetricProvider extends cdktf.TerraformResource {
 
@@ -4238,7 +4238,7 @@ export class MetricProvider extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MetricProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MetricProvider to import
-  * @param importFromId The id of the existing MetricProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MetricProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MetricProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4250,7 +4250,7 @@ export class MetricProvider extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/metric_provider hund_metric_provider} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/metric_provider hund_metric_provider} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4261,8 +4261,8 @@ export class MetricProvider extends cdktf.TerraformResource {
       terraformResourceType: 'hund_metric_provider',
       terraformGeneratorMetadata: {
         providerName: 'hund',
-        providerVersion: '0.1.0',
-        providerVersionConstraint: '0.1.0'
+        providerVersion: '0.2.0',
+        providerVersionConstraint: '0.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs/resources/combustion
+// https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.1/docs/resources/combustion
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface CombustionConfig extends cdktf.TerraformMetaArguments {
   /**
   * Combustion script content (shell script)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs/resources/combustion#content Combustion#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.1/docs/resources/combustion#content Combustion#content}
   */
   readonly content: string;
   /**
   * Name for this combustion resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs/resources/combustion#name Combustion#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.1/docs/resources/combustion#name Combustion#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs/resources/combustion libvirt_combustion}
+* Represents a {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.1/docs/resources/combustion libvirt_combustion}
 */
 export class Combustion extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class Combustion extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Combustion resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Combustion to import
-  * @param importFromId The id of the existing Combustion that should be imported. Refer to the {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs/resources/combustion#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Combustion that should be imported. Refer to the {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.1/docs/resources/combustion#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Combustion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class Combustion extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs/resources/combustion libvirt_combustion} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.1/docs/resources/combustion libvirt_combustion} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class Combustion extends cdktf.TerraformResource {
       terraformResourceType: 'libvirt_combustion',
       terraformGeneratorMetadata: {
         providerName: 'libvirt',
-        providerVersion: '0.9.0',
-        providerVersionConstraint: '0.9.0'
+        providerVersion: '0.9.1',
+        providerVersionConstraint: '0.9.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

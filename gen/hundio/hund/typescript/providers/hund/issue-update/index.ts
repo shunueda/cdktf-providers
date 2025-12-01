@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/issue_update
+// https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/issue_update
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface IssueUpdateConfig extends cdktf.TerraformMetaArguments {
   /**
   * When true, this Update will not be destroyed from your status page if the resource is destroyed in your Terraform configuration. This option is **recommended** for maintaining a history on your status page of past Issues.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/issue_update#archive_on_destroy IssueUpdate#archive_on_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/issue_update#archive_on_destroy IssueUpdate#archive_on_destroy}
   */
   readonly archiveOnDestroy?: boolean | cdktf.IResolvable;
   /**
   * The body text of this Update in raw markdown, in the default translation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/issue_update#body IssueUpdate#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/issue_update#body IssueUpdate#body}
   */
   readonly body?: string;
   /**
   * The body text of this Update in raw markdown, translated into multiple languages. Map keys express the language each string value is to be interpreted in. The `original` field of this map denotes the language used for the non-`_translations` version of this attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/issue_update#body_translations IssueUpdate#body_translations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/issue_update#body_translations IssueUpdate#body_translations}
   */
   readonly bodyTranslations?: { [key: string]: string };
   /**
   * The time after which this Update is considered the latest Update on its Issue, until the `effective_after` time of the Update succeeding this one, if one exists.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/issue_update#effective_after IssueUpdate#effective_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/issue_update#effective_after IssueUpdate#effective_after}
   */
   readonly effectiveAfter?: string;
   /**
   * The Issue that this Update pertains to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/issue_update#issue_id IssueUpdate#issue_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/issue_update#issue_id IssueUpdate#issue_id}
   */
   readonly issueId: string;
   /**
   * The label applied to this update, as well as the issue at large when this Update is the *latest* Update in the Issue. The label can be thought of as the "state" of the Issue as of this Update (e.g. "Problem Identified", "Monitoring", "Resolved").
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/issue_update#label IssueUpdate#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/issue_update#label IssueUpdate#label}
   */
   readonly label?: string;
   /**
   * The integer state which overrides the state of affected Components in `component`. A value of `null` indicates no override is present.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/issue_update#state_override IssueUpdate#state_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/issue_update#state_override IssueUpdate#state_override}
   */
   readonly stateOverride?: number;
   /**
@@ -54,7 +54,7 @@ export interface IssueUpdateConfig extends cdktf.TerraformMetaArguments {
   * 
   * -> Alterations to this field do not affect the associated `issue_template_id`, and will update the Issue/Update's content accordingly. Conversely, modification/deletion of the associated IssueTemplate do not affect the attributes of this field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/issue_update#template IssueUpdate#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/issue_update#template IssueUpdate#template}
   */
   readonly template?: IssueUpdateTemplate;
 }
@@ -62,13 +62,13 @@ export interface IssueUpdateTemplateSchema {
   /**
   * Whether this variable is required when applying the template to an Issue/Update.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/issue_update#required IssueUpdate#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/issue_update#required IssueUpdate#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * The expected type of this variable. One of `datetime`, `i18n-string`, `number`, or `string`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/issue_update#type IssueUpdate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/issue_update#type IssueUpdate#type}
   */
   readonly type?: string;
 }
@@ -211,19 +211,19 @@ export class IssueUpdateTemplateSchemaMap extends cdktf.ComplexMap {
 }
 export interface IssueUpdateTemplateVariables {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/issue_update#datetime IssueUpdate#datetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/issue_update#datetime IssueUpdate#datetime}
   */
   readonly datetime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/issue_update#i18n_string IssueUpdate#i18n_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/issue_update#i18n_string IssueUpdate#i18n_string}
   */
   readonly i18NString?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/issue_update#number IssueUpdate#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/issue_update#number IssueUpdate#number}
   */
   readonly number?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/issue_update#string IssueUpdate#string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/issue_update#string IssueUpdate#string}
   */
   readonly string?: string;
 }
@@ -426,25 +426,25 @@ export interface IssueUpdateTemplate {
   /**
   * The [Liquid](https://shopify.github.io/liquid/) template for the `body` of the applied Issue/Update, in the default translation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/issue_update#body IssueUpdate#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/issue_update#body IssueUpdate#body}
   */
   readonly body?: string;
   /**
   * The [Liquid](https://shopify.github.io/liquid/) template for the `body` of the applied Issue/Update, translated into multiple languages. Map keys express the language each string value is to be interpreted in. The `original` field of this map denotes the language used for the non-`_translations` version of this attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/issue_update#body_translations IssueUpdate#body_translations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/issue_update#body_translations IssueUpdate#body_translations}
   */
   readonly bodyTranslations?: { [key: string]: string };
   /**
   * The ObjectId of an IssueTemplate to use as the basis of this Application, which will inform the values for `body`, `label`, and `title` (when `kind = "issue"`). If this value is changed, then the application will be re-created according to the values of the given IssueTemplate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/issue_update#issue_template_id IssueUpdate#issue_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/issue_update#issue_template_id IssueUpdate#issue_template_id}
   */
   readonly issueTemplateId: string;
   /**
   * The template for the `label` of the applied Issue/Update.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/issue_update#label IssueUpdate#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/issue_update#label IssueUpdate#label}
   */
   readonly label?: string;
   /**
@@ -452,13 +452,13 @@ export interface IssueUpdateTemplate {
   * 
   * -> This field is normally copied from the underlying `issue_template`, but can be overridden here as necessary. In any case, `variables` must adhere to `schema`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/issue_update#schema IssueUpdate#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/issue_update#schema IssueUpdate#schema}
   */
   readonly schema?: { [key: string]: IssueUpdateTemplateSchema } | cdktf.IResolvable;
   /**
   * An object of variable assignments used to parameterize the associated IssueTemplate. If the associated IssueTemplate marks a variable as `required`, then it must appear here with an appropriate value. The type of each variable must match the type set in the template's schema.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/issue_update#variables IssueUpdate#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/issue_update#variables IssueUpdate#variables}
   */
   readonly variables?: { [key: string]: IssueUpdateTemplateVariables } | cdktf.IResolvable;
 }
@@ -699,7 +699,7 @@ export class IssueUpdateTemplateOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/issue_update hund_issue_update}
+* Represents a {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/issue_update hund_issue_update}
 */
 export class IssueUpdate extends cdktf.TerraformResource {
 
@@ -715,7 +715,7 @@ export class IssueUpdate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IssueUpdate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IssueUpdate to import
-  * @param importFromId The id of the existing IssueUpdate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/issue_update#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IssueUpdate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/issue_update#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IssueUpdate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -727,7 +727,7 @@ export class IssueUpdate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/issue_update hund_issue_update} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/issue_update hund_issue_update} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -738,8 +738,8 @@ export class IssueUpdate extends cdktf.TerraformResource {
       terraformResourceType: 'hund_issue_update',
       terraformGeneratorMetadata: {
         providerName: 'hund',
-        providerVersion: '0.1.0',
-        providerVersionConstraint: '0.1.0'
+        providerVersion: '0.2.0',
+        providerVersionConstraint: '0.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

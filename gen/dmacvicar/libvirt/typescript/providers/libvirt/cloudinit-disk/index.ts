@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs/resources/cloudinit_disk
+// https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.1/docs/resources/cloudinit_disk
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface CloudinitDiskConfig extends cdktf.TerraformMetaArguments {
   /**
   * Cloud-init meta-data content (usually YAML)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs/resources/cloudinit_disk#meta_data CloudinitDisk#meta_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.1/docs/resources/cloudinit_disk#meta_data CloudinitDisk#meta_data}
   */
   readonly metaData: string;
   /**
   * Name for this cloud-init disk resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs/resources/cloudinit_disk#name CloudinitDisk#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.1/docs/resources/cloudinit_disk#name CloudinitDisk#name}
   */
   readonly name: string;
   /**
   * Cloud-init network configuration (optional, usually YAML)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs/resources/cloudinit_disk#network_config CloudinitDisk#network_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.1/docs/resources/cloudinit_disk#network_config CloudinitDisk#network_config}
   */
   readonly networkConfig?: string;
   /**
   * Cloud-init user-data content (usually YAML)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs/resources/cloudinit_disk#user_data CloudinitDisk#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.1/docs/resources/cloudinit_disk#user_data CloudinitDisk#user_data}
   */
   readonly userData: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs/resources/cloudinit_disk libvirt_cloudinit_disk}
+* Represents a {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.1/docs/resources/cloudinit_disk libvirt_cloudinit_disk}
 */
 export class CloudinitDisk extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class CloudinitDisk extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudinitDisk resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudinitDisk to import
-  * @param importFromId The id of the existing CloudinitDisk that should be imported. Refer to the {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs/resources/cloudinit_disk#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudinitDisk that should be imported. Refer to the {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.1/docs/resources/cloudinit_disk#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudinitDisk to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class CloudinitDisk extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs/resources/cloudinit_disk libvirt_cloudinit_disk} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.1/docs/resources/cloudinit_disk libvirt_cloudinit_disk} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class CloudinitDisk extends cdktf.TerraformResource {
       terraformResourceType: 'libvirt_cloudinit_disk',
       terraformGeneratorMetadata: {
         providerName: 'libvirt',
-        providerVersion: '0.9.0',
-        providerVersionConstraint: '0.9.0'
+        providerVersion: '0.9.1',
+        providerVersionConstraint: '0.9.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

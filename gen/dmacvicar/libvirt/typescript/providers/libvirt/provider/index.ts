@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs
+// https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.1/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface LibvirtProviderConfig {
   /**
   * Libvirt connection URI. Defaults to `qemu:///system` if not specified. See [libvirt URI documentation](https://libvirt.org/uri.html) for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs#uri LibvirtProvider#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.1/docs#uri LibvirtProvider#uri}
   */
   readonly uri?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs#alias LibvirtProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.1/docs#alias LibvirtProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs libvirt}
+* Represents a {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.1/docs libvirt}
 */
 export class LibvirtProvider extends cdktf.TerraformProvider {
 
@@ -38,7 +38,7 @@ export class LibvirtProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a LibvirtProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LibvirtProvider to import
-  * @param importFromId The id of the existing LibvirtProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LibvirtProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.1/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LibvirtProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class LibvirtProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs libvirt} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.1/docs libvirt} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class LibvirtProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'libvirt',
       terraformGeneratorMetadata: {
         providerName: 'libvirt',
-        providerVersion: '0.9.0',
-        providerVersionConstraint: '0.9.0'
+        providerVersion: '0.9.1',
+        providerVersionConstraint: '0.9.1'
       },
       terraformProviderSource: 'dmacvicar/libvirt'
     });

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs/data-sources/node_device_info
+// https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.1/docs/data-sources/node_device_info
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataLibvirtNodeDeviceInfoConfig extends cdktf.TerraformMetaArgu
   /**
   * Device name from `libvirt_node_devices` data source (e.g., `pci_0000_00_1f_2`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs/data-sources/node_device_info#name DataLibvirtNodeDeviceInfo#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.1/docs/data-sources/node_device_info#name DataLibvirtNodeDeviceInfo#name}
   */
   readonly name: string;
 }
@@ -200,7 +200,7 @@ export class DataLibvirtNodeDeviceInfoCapabilityOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs/data-sources/node_device_info libvirt_node_device_info}
+* Represents a {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.1/docs/data-sources/node_device_info libvirt_node_device_info}
 */
 export class DataLibvirtNodeDeviceInfo extends cdktf.TerraformDataSource {
 
@@ -216,7 +216,7 @@ export class DataLibvirtNodeDeviceInfo extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLibvirtNodeDeviceInfo resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLibvirtNodeDeviceInfo to import
-  * @param importFromId The id of the existing DataLibvirtNodeDeviceInfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs/data-sources/node_device_info#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLibvirtNodeDeviceInfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.1/docs/data-sources/node_device_info#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLibvirtNodeDeviceInfo to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -228,7 +228,7 @@ export class DataLibvirtNodeDeviceInfo extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs/data-sources/node_device_info libvirt_node_device_info} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.1/docs/data-sources/node_device_info libvirt_node_device_info} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -239,8 +239,8 @@ export class DataLibvirtNodeDeviceInfo extends cdktf.TerraformDataSource {
       terraformResourceType: 'libvirt_node_device_info',
       terraformGeneratorMetadata: {
         providerName: 'libvirt',
-        providerVersion: '0.9.0',
-        providerVersionConstraint: '0.9.0'
+        providerVersion: '0.9.1',
+        providerVersionConstraint: '0.9.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

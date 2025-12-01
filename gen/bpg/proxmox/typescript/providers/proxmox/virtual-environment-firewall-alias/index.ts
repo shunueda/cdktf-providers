@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_firewall_alias
+// https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_firewall_alias
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface VirtualEnvironmentFirewallAliasConfig extends cdktf.TerraformMe
   /**
   * IP/CIDR block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_firewall_alias#cidr VirtualEnvironmentFirewallAlias#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_firewall_alias#cidr VirtualEnvironmentFirewallAlias#cidr}
   */
   readonly cidr: string;
   /**
   * Alias comment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_firewall_alias#comment VirtualEnvironmentFirewallAlias#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_firewall_alias#comment VirtualEnvironmentFirewallAlias#comment}
   */
   readonly comment?: string;
   /**
   * The ID of the container to manage the firewall for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_firewall_alias#container_id VirtualEnvironmentFirewallAlias#container_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_firewall_alias#container_id VirtualEnvironmentFirewallAlias#container_id}
   */
   readonly containerId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_firewall_alias#id VirtualEnvironmentFirewallAlias#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_firewall_alias#id VirtualEnvironmentFirewallAlias#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,25 +35,25 @@ export interface VirtualEnvironmentFirewallAliasConfig extends cdktf.TerraformMe
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_firewall_alias#name VirtualEnvironmentFirewallAlias#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_firewall_alias#name VirtualEnvironmentFirewallAlias#name}
   */
   readonly name: string;
   /**
   * The name of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_firewall_alias#node_name VirtualEnvironmentFirewallAlias#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_firewall_alias#node_name VirtualEnvironmentFirewallAlias#node_name}
   */
   readonly nodeName?: string;
   /**
   * The ID of the VM to manage the firewall for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_firewall_alias#vm_id VirtualEnvironmentFirewallAlias#vm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_firewall_alias#vm_id VirtualEnvironmentFirewallAlias#vm_id}
   */
   readonly vmId?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_firewall_alias proxmox_virtual_environment_firewall_alias}
+* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_firewall_alias proxmox_virtual_environment_firewall_alias}
 */
 export class VirtualEnvironmentFirewallAlias extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class VirtualEnvironmentFirewallAlias extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VirtualEnvironmentFirewallAlias resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualEnvironmentFirewallAlias to import
-  * @param importFromId The id of the existing VirtualEnvironmentFirewallAlias that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_firewall_alias#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualEnvironmentFirewallAlias that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_firewall_alias#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualEnvironmentFirewallAlias to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class VirtualEnvironmentFirewallAlias extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_firewall_alias proxmox_virtual_environment_firewall_alias} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_firewall_alias proxmox_virtual_environment_firewall_alias} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class VirtualEnvironmentFirewallAlias extends cdktf.TerraformResource {
       terraformResourceType: 'proxmox_virtual_environment_firewall_alias',
       terraformGeneratorMetadata: {
         providerName: 'proxmox',
-        providerVersion: '0.87.0',
-        providerVersionConstraint: '0.87.0'
+        providerVersion: '0.88.0',
+        providerVersionConstraint: '0.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

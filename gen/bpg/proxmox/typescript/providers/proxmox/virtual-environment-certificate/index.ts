@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_certificate
+// https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_certificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface VirtualEnvironmentCertificateConfig extends cdktf.TerraformMeta
   /**
   * The PEM encoded certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_certificate#certificate VirtualEnvironmentCertificate#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_certificate#certificate VirtualEnvironmentCertificate#certificate}
   */
   readonly certificate: string;
   /**
   * The PEM encoded certificate chain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_certificate#certificate_chain VirtualEnvironmentCertificate#certificate_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_certificate#certificate_chain VirtualEnvironmentCertificate#certificate_chain}
   */
   readonly certificateChain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_certificate#id VirtualEnvironmentCertificate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_certificate#id VirtualEnvironmentCertificate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface VirtualEnvironmentCertificateConfig extends cdktf.TerraformMeta
   /**
   * The node name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_certificate#node_name VirtualEnvironmentCertificate#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_certificate#node_name VirtualEnvironmentCertificate#node_name}
   */
   readonly nodeName: string;
   /**
   * Whether to overwrite an existing certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_certificate#overwrite VirtualEnvironmentCertificate#overwrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_certificate#overwrite VirtualEnvironmentCertificate#overwrite}
   */
   readonly overwrite?: boolean | cdktf.IResolvable;
   /**
   * The PEM encoded private key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_certificate#private_key VirtualEnvironmentCertificate#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_certificate#private_key VirtualEnvironmentCertificate#private_key}
   */
   readonly privateKey: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_certificate proxmox_virtual_environment_certificate}
+* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_certificate proxmox_virtual_environment_certificate}
 */
 export class VirtualEnvironmentCertificate extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class VirtualEnvironmentCertificate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VirtualEnvironmentCertificate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualEnvironmentCertificate to import
-  * @param importFromId The id of the existing VirtualEnvironmentCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_certificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualEnvironmentCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_certificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualEnvironmentCertificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class VirtualEnvironmentCertificate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_certificate proxmox_virtual_environment_certificate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_certificate proxmox_virtual_environment_certificate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class VirtualEnvironmentCertificate extends cdktf.TerraformResource {
       terraformResourceType: 'proxmox_virtual_environment_certificate',
       terraformGeneratorMetadata: {
         providerName: 'proxmox',
-        providerVersion: '0.87.0',
-        providerVersionConstraint: '0.87.0'
+        providerVersion: '0.88.0',
+        providerVersionConstraint: '0.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

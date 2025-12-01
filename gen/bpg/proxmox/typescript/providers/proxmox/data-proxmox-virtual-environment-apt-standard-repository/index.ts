@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/data-sources/virtual_environment_apt_standard_repository
+// https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/data-sources/virtual_environment_apt_standard_repository
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataProxmoxVirtualEnvironmentAptStandardRepositoryConfig extend
   /**
   * The handle of the APT standard repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/data-sources/virtual_environment_apt_standard_repository#handle DataProxmoxVirtualEnvironmentAptStandardRepository#handle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/data-sources/virtual_environment_apt_standard_repository#handle DataProxmoxVirtualEnvironmentAptStandardRepository#handle}
   */
   readonly handle: string;
   /**
   * The name of the target Proxmox VE node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/data-sources/virtual_environment_apt_standard_repository#node DataProxmoxVirtualEnvironmentAptStandardRepository#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/data-sources/virtual_environment_apt_standard_repository#node DataProxmoxVirtualEnvironmentAptStandardRepository#node}
   */
   readonly nodeAttribute: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/data-sources/virtual_environment_apt_standard_repository proxmox_virtual_environment_apt_standard_repository}
+* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/data-sources/virtual_environment_apt_standard_repository proxmox_virtual_environment_apt_standard_repository}
 */
 export class DataProxmoxVirtualEnvironmentAptStandardRepository extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataProxmoxVirtualEnvironmentAptStandardRepository extends cdktf.Te
   * Generates CDKTF code for importing a DataProxmoxVirtualEnvironmentAptStandardRepository resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataProxmoxVirtualEnvironmentAptStandardRepository to import
-  * @param importFromId The id of the existing DataProxmoxVirtualEnvironmentAptStandardRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/data-sources/virtual_environment_apt_standard_repository#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataProxmoxVirtualEnvironmentAptStandardRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/data-sources/virtual_environment_apt_standard_repository#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataProxmoxVirtualEnvironmentAptStandardRepository to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataProxmoxVirtualEnvironmentAptStandardRepository extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/data-sources/virtual_environment_apt_standard_repository proxmox_virtual_environment_apt_standard_repository} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/data-sources/virtual_environment_apt_standard_repository proxmox_virtual_environment_apt_standard_repository} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class DataProxmoxVirtualEnvironmentAptStandardRepository extends cdktf.Te
       terraformResourceType: 'proxmox_virtual_environment_apt_standard_repository',
       terraformGeneratorMetadata: {
         providerName: 'proxmox',
-        providerVersion: '0.87.0',
-        providerVersionConstraint: '0.87.0'
+        providerVersion: '0.88.0',
+        providerVersionConstraint: '0.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

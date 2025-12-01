@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/issue_template
+// https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/issue_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface IssueTemplateAConfig extends cdktf.TerraformMetaArguments {
   /**
   * The body to use for an Issue/Update applied against this template. This field supports [Liquid templating](https://shopify.github.io/liquid/), in the default translation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/issue_template#body IssueTemplateA#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/issue_template#body IssueTemplateA#body}
   */
   readonly body?: string;
   /**
   * The body to use for an Issue/Update applied against this template. This field supports [Liquid templating](https://shopify.github.io/liquid/), translated into multiple languages. Map keys express the language each string value is to be interpreted in. The `original` field of this map denotes the language used for the non-`_translations` version of this attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/issue_template#body_translations IssueTemplateA#body_translations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/issue_template#body_translations IssueTemplateA#body_translations}
   */
   readonly bodyTranslations?: { [key: string]: string };
   /**
   * The "kind" of this IssueTemplate. This field can be either `issue` or `update`, depending on whether this IssueTemplate can be applied to an Issue or Issue Update, respectively.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/issue_template#kind IssueTemplateA#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/issue_template#kind IssueTemplateA#kind}
   */
   readonly kind: string;
   /**
   * The label to use for an Issue/Update applied against this template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/issue_template#label IssueTemplateA#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/issue_template#label IssueTemplateA#label}
   */
   readonly label?: string;
   /**
   * An internal name for identifying this IssueTemplate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/issue_template#name IssueTemplateA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/issue_template#name IssueTemplateA#name}
   */
   readonly name: string;
   /**
   * When `kind` is `issue`, then the applied Issue will take on this title. This field supports [Liquid templating](https://shopify.github.io/liquid/), in the default translation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/issue_template#title IssueTemplateA#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/issue_template#title IssueTemplateA#title}
   */
   readonly title?: string;
   /**
   * When `kind` is `issue`, then the applied Issue will take on this title. This field supports [Liquid templating](https://shopify.github.io/liquid/), translated into multiple languages. Map keys express the language each string value is to be interpreted in. The `original` field of this map denotes the language used for the non-`_translations` version of this attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/issue_template#title_translations IssueTemplateA#title_translations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/issue_template#title_translations IssueTemplateA#title_translations}
   */
   readonly titleTranslations?: { [key: string]: string };
   /**
   * An object defining a set of typed variables that can be provided in an application of this IssueTemplate. The variables can be accessed from any field in the IssueTemplate supporting Liquid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/issue_template#variables IssueTemplateA#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/issue_template#variables IssueTemplateA#variables}
   */
   readonly variables?: { [key: string]: IssueTemplateVariablesA } | cdktf.IResolvable;
 }
@@ -60,13 +60,13 @@ export interface IssueTemplateVariablesA {
   /**
   * Whether this variable is required when applying the template to an Issue/Update.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/issue_template#required IssueTemplateA#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/issue_template#required IssueTemplateA#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * The expected type of this variable. One of `datetime`, `i18n-string`, `number`, or `string`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/issue_template#type IssueTemplateA#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/issue_template#type IssueTemplateA#type}
   */
   readonly type?: string;
 }
@@ -209,7 +209,7 @@ export class IssueTemplateVariablesAMap extends cdktf.ComplexMap {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/issue_template hund_issue_template}
+* Represents a {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/issue_template hund_issue_template}
 */
 export class IssueTemplateA extends cdktf.TerraformResource {
 
@@ -225,7 +225,7 @@ export class IssueTemplateA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IssueTemplateA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IssueTemplateA to import
-  * @param importFromId The id of the existing IssueTemplateA that should be imported. Refer to the {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/issue_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IssueTemplateA that should be imported. Refer to the {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/issue_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IssueTemplateA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -237,7 +237,7 @@ export class IssueTemplateA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hundio/hund/0.1.0/docs/resources/issue_template hund_issue_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hundio/hund/0.2.0/docs/resources/issue_template hund_issue_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -248,8 +248,8 @@ export class IssueTemplateA extends cdktf.TerraformResource {
       terraformResourceType: 'hund_issue_template',
       terraformGeneratorMetadata: {
         providerName: 'hund',
-        providerVersion: '0.1.0',
-        providerVersionConstraint: '0.1.0'
+        providerVersion: '0.2.0',
+        providerVersionConstraint: '0.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

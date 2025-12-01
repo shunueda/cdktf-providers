@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/stack
+// https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/stack
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,162 +10,162 @@ export interface StackConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of additional Compose file paths to use when deploying from Git repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/stack#additional_files Stack#additional_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/stack#additional_files Stack#additional_files}
   */
   readonly additionalFiles?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/stack#compose_format Stack#compose_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/stack#compose_format Stack#compose_format}
   */
   readonly composeFormat?: boolean | cdktf.IResolvable;
   /**
   * Deployment mode: 'standalone', 'swarm', or 'kubernetes'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/stack#deployment_type Stack#deployment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/stack#deployment_type Stack#deployment_type}
   */
   readonly deploymentType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/stack#endpoint_id Stack#endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/stack#endpoint_id Stack#endpoint_id}
   */
   readonly endpointId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/stack#file_path_in_repository Stack#file_path_in_repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/stack#file_path_in_repository Stack#file_path_in_repository}
   */
   readonly filePathInRepository?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/stack#filesystem_path Stack#filesystem_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/stack#filesystem_path Stack#filesystem_path}
   */
   readonly filesystemPath?: string;
   /**
   * Whether to prune unused services/networks during stack update (default: true)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/stack#force_update Stack#force_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/stack#force_update Stack#force_update}
   */
   readonly forceUpdate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/stack#git_repository_authentication Stack#git_repository_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/stack#git_repository_authentication Stack#git_repository_authentication}
   */
   readonly gitRepositoryAuthentication?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/stack#id Stack#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/stack#id Stack#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/stack#manifest_url Stack#manifest_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/stack#manifest_url Stack#manifest_url}
   */
   readonly manifestUrl?: string;
   /**
   * Creation method: 'string', 'file', 'repository', or 'url'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/stack#method Stack#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/stack#method Stack#method}
   */
   readonly method: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/stack#name Stack#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/stack#name Stack#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/stack#namespace Stack#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/stack#namespace Stack#namespace}
   */
   readonly namespace?: string;
   /**
   * Whether to prune unused services/networks during stack update (default: false)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/stack#prune Stack#prune}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/stack#prune Stack#prune}
   */
   readonly prune?: boolean | cdktf.IResolvable;
   /**
   * Whether to force pull latest images during stack update (default: true)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/stack#pull_image Stack#pull_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/stack#pull_image Stack#pull_image}
   */
   readonly pullImage?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/stack#repository_password Stack#repository_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/stack#repository_password Stack#repository_password}
   */
   readonly repositoryPassword?: string;
   /**
   * Write-only repository password (supports ephemeral values; not stored in Terraform state).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/stack#repository_password_wo Stack#repository_password_wo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/stack#repository_password_wo Stack#repository_password_wo}
   */
   readonly repositoryPasswordWo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/stack#repository_reference_name Stack#repository_reference_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/stack#repository_reference_name Stack#repository_reference_name}
   */
   readonly repositoryReferenceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/stack#repository_url Stack#repository_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/stack#repository_url Stack#repository_url}
   */
   readonly repositoryUrl?: string;
   /**
   * Write-only repository URL (supports ephemeral values; not stored in Terraform state).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/stack#repository_url_wo Stack#repository_url_wo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/stack#repository_url_wo Stack#repository_url_wo}
   */
   readonly repositoryUrlWo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/stack#repository_username Stack#repository_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/stack#repository_username Stack#repository_username}
   */
   readonly repositoryUsername?: string;
   /**
   * Write-only repository username (supports ephemeral values).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/stack#repository_username_wo Stack#repository_username_wo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/stack#repository_username_wo Stack#repository_username_wo}
   */
   readonly repositoryUsernameWo?: string;
   /**
   * Version flag for write-only repository credentials; increment to trigger recreation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/stack#repository_wo_version Stack#repository_wo_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/stack#repository_wo_version Stack#repository_wo_version}
   */
   readonly repositoryWoVersion?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/stack#stack_file_content Stack#stack_file_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/stack#stack_file_content Stack#stack_file_content}
   */
   readonly stackFileContent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/stack#stack_file_path Stack#stack_file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/stack#stack_file_path Stack#stack_file_path}
   */
   readonly stackFilePath?: string;
   /**
   * Enable autoUpdate webhook (GitOps).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/stack#stack_webhook Stack#stack_webhook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/stack#stack_webhook Stack#stack_webhook}
   */
   readonly stackWebhook?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/stack#support_relative_path Stack#support_relative_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/stack#support_relative_path Stack#support_relative_path}
   */
   readonly supportRelativePath?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/stack#swarm_id Stack#swarm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/stack#swarm_id Stack#swarm_id}
   */
   readonly swarmId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/stack#tlsskip_verify Stack#tlsskip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/stack#tlsskip_verify Stack#tlsskip_verify}
   */
   readonly tlsskipVerify?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/stack#update_interval Stack#update_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/stack#update_interval Stack#update_interval}
   */
   readonly updateInterval?: string;
   /**
   * env block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/stack#env Stack#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/stack#env Stack#env}
   */
   readonly env?: StackEnv[] | cdktf.IResolvable;
 }
 export interface StackEnv {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/stack#name Stack#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/stack#name Stack#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/stack#value Stack#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/stack#value Stack#value}
   */
   readonly value: string;
 }
@@ -304,7 +304,7 @@ export class StackEnvList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/stack portainer_stack}
+* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/stack portainer_stack}
 */
 export class Stack extends cdktf.TerraformResource {
 
@@ -320,7 +320,7 @@ export class Stack extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Stack resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Stack to import
-  * @param importFromId The id of the existing Stack that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/stack#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Stack that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/stack#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Stack to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -332,7 +332,7 @@ export class Stack extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.19.0/docs/resources/stack portainer_stack} Resource
+  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.20.0/docs/resources/stack portainer_stack} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -343,8 +343,8 @@ export class Stack extends cdktf.TerraformResource {
       terraformResourceType: 'portainer_stack',
       terraformGeneratorMetadata: {
         providerName: 'portainer',
-        providerVersion: '1.19.0',
-        providerVersionConstraint: '1.19.0'
+        providerVersion: '1.20.0',
+        providerVersionConstraint: '1.20.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -745,6 +745,11 @@ export class Stack extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get repositoryWoVersionInput() {
     return this._repositoryWoVersion;
+  }
+
+  // resource_control_id - computed: true, optional: false, required: false
+  public get resourceControlId() {
+    return this.getNumberAttribute('resource_control_id');
   }
 
   // stack_file_content - computed: false, optional: true, required: false

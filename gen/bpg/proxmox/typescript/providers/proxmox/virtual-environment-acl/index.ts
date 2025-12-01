@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_acl
+// https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_acl
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface VirtualEnvironmentAclConfig extends cdktf.TerraformMetaArgument
   /**
   * The group the ACL should apply to (mutually exclusive with `token_id` and `user_id`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_acl#group_id VirtualEnvironmentAcl#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_acl#group_id VirtualEnvironmentAcl#group_id}
   */
   readonly groupId?: string;
   /**
   * Access control path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_acl#path VirtualEnvironmentAcl#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_acl#path VirtualEnvironmentAcl#path}
   */
   readonly path: string;
   /**
   * Allow to propagate (inherit) permissions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_acl#propagate VirtualEnvironmentAcl#propagate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_acl#propagate VirtualEnvironmentAcl#propagate}
   */
   readonly propagate?: boolean | cdktf.IResolvable;
   /**
   * The role to apply
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_acl#role_id VirtualEnvironmentAcl#role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_acl#role_id VirtualEnvironmentAcl#role_id}
   */
   readonly roleId: string;
   /**
   * The token the ACL should apply to (mutually exclusive with `group_id` and `user_id`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_acl#token_id VirtualEnvironmentAcl#token_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_acl#token_id VirtualEnvironmentAcl#token_id}
   */
   readonly tokenId?: string;
   /**
   * The user the ACL should apply to (mutually exclusive with `group_id` and `token_id`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_acl#user_id VirtualEnvironmentAcl#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_acl#user_id VirtualEnvironmentAcl#user_id}
   */
   readonly userId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_acl proxmox_virtual_environment_acl}
+* Represents a {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_acl proxmox_virtual_environment_acl}
 */
 export class VirtualEnvironmentAcl extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class VirtualEnvironmentAcl extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VirtualEnvironmentAcl resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualEnvironmentAcl to import
-  * @param importFromId The id of the existing VirtualEnvironmentAcl that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_acl#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualEnvironmentAcl that should be imported. Refer to the {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_acl#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualEnvironmentAcl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class VirtualEnvironmentAcl extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.87.0/docs/resources/virtual_environment_acl proxmox_virtual_environment_acl} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bpg/proxmox/0.88.0/docs/resources/virtual_environment_acl proxmox_virtual_environment_acl} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class VirtualEnvironmentAcl extends cdktf.TerraformResource {
       terraformResourceType: 'proxmox_virtual_environment_acl',
       terraformGeneratorMetadata: {
         providerName: 'proxmox',
-        providerVersion: '0.87.0',
-        providerVersionConstraint: '0.87.0'
+        providerVersion: '0.88.0',
+        providerVersionConstraint: '0.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
