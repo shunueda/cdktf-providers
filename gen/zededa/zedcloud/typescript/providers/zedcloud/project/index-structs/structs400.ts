@@ -2390,6 +2390,11 @@ export class ProjectCloudPolicyModulePolicyAzureEdgeAgentManifestJsonOutputRefer
     return this.getStringAttribute('description');
   }
 
+  // disable_v_t_p_m - computed: true, optional: false, required: false
+  public get disableVTPM() {
+    return this.getBooleanAttribute('disable_v_t_p_m');
+  }
+
   // display_name - computed: true, optional: false, required: false
   public get displayName() {
     return this.getStringAttribute('display_name');
@@ -5494,6 +5499,11 @@ export class ProjectCloudPolicyModulePolicyAzureEdgeHubManifestJsonOutputReferen
     return this.getStringAttribute('description');
   }
 
+  // disable_v_t_p_m - computed: true, optional: false, required: false
+  public get disableVTPM() {
+    return this.getBooleanAttribute('disable_v_t_p_m');
+  }
+
   // display_name - computed: true, optional: false, required: false
   public get displayName() {
     return this.getStringAttribute('display_name');
@@ -6981,6 +6991,263 @@ export class ProjectCloudPolicyNetworkPolicyNetInstanceConfigRevisionList extend
     return new ProjectCloudPolicyNetworkPolicyNetInstanceConfigRevisionOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface ProjectCloudPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigProbeEndpoint {
+}
+
+export function projectCloudPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigProbeEndpointToTerraform(struct?: ProjectCloudPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigProbeEndpoint): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function projectCloudPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigProbeEndpointToHclTerraform(struct?: ProjectCloudPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigProbeEndpoint): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class ProjectCloudPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigProbeEndpointOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ProjectCloudPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigProbeEndpoint | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ProjectCloudPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigProbeEndpoint | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // host - computed: true, optional: false, required: false
+  public get host() {
+    return this.getStringAttribute('host');
+  }
+
+  // port - computed: true, optional: false, required: false
+  public get port() {
+    return this.getNumberAttribute('port');
+  }
+}
+
+export class ProjectCloudPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigProbeEndpointList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ProjectCloudPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigProbeEndpointOutputReference {
+    return new ProjectCloudPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigProbeEndpointOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface ProjectCloudPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfig {
+}
+
+export function projectCloudPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigToTerraform(struct?: ProjectCloudPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function projectCloudPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigToHclTerraform(struct?: ProjectCloudPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class ProjectCloudPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ProjectCloudPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ProjectCloudPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // probe_endpoint - computed: true, optional: false, required: false
+  private _probeEndpoint = new ProjectCloudPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigProbeEndpointList(this, "probe_endpoint", false);
+  public get probeEndpoint() {
+    return this._probeEndpoint;
+  }
+
+  // probe_method - computed: true, optional: false, required: false
+  public get probeMethod() {
+    return this.getStringAttribute('probe_method');
+  }
+}
+
+export class ProjectCloudPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ProjectCloudPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigOutputReference {
+    return new ProjectCloudPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface ProjectCloudPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfig {
+}
+
+export function projectCloudPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigToTerraform(struct?: ProjectCloudPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function projectCloudPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigToHclTerraform(struct?: ProjectCloudPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class ProjectCloudPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ProjectCloudPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ProjectCloudPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // custom_probe_config - computed: true, optional: false, required: false
+  private _customProbeConfig = new ProjectCloudPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigList(this, "custom_probe_config", false);
+  public get customProbeConfig() {
+    return this._customProbeConfig;
+  }
+
+  // enable_gateway_ping - computed: true, optional: false, required: false
+  public get enableGatewayPing() {
+    return this.getBooleanAttribute('enable_gateway_ping');
+  }
+
+  // ping_max_cost - computed: true, optional: false, required: false
+  public get pingMaxCost() {
+    return this.getNumberAttribute('ping_max_cost');
+  }
+
+  // prefer_lower_cost - computed: true, optional: false, required: false
+  public get preferLowerCost() {
+    return this.getBooleanAttribute('prefer_lower_cost');
+  }
+
+  // prefer_stronger_wwan_signal - computed: true, optional: false, required: false
+  public get preferStrongerWwanSignal() {
+    return this.getBooleanAttribute('prefer_stronger_wwan_signal');
+  }
+}
+
+export class ProjectCloudPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ProjectCloudPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigOutputReference {
+    return new ProjectCloudPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ProjectCloudPolicyNetworkPolicyNetInstanceConfigStaticRoutes {
 }
 
@@ -7037,9 +7304,20 @@ export class ProjectCloudPolicyNetworkPolicyNetInstanceConfigStaticRoutesOutputR
     return this.getStringAttribute('gateway');
   }
 
+  // output_port - computed: true, optional: false, required: false
+  public get outputPort() {
+    return this.getStringAttribute('output_port');
+  }
+
   // prefix - computed: true, optional: false, required: false
   public get prefix() {
     return this.getStringAttribute('prefix');
+  }
+
+  // probe_config - computed: true, optional: false, required: false
+  private _probeConfig = new ProjectCloudPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigList(this, "probe_config", false);
+  public get probeConfig() {
+    return this._probeConfig;
   }
 }
 
@@ -9721,285 +9999,5 @@ export class ProjectModulePolicyAppPolicyAppsManifestJsonInterfacesAclsMatchesLi
   */
   public get(index: number): ProjectModulePolicyAppPolicyAppsManifestJsonInterfacesAclsMatchesOutputReference {
     return new ProjectModulePolicyAppPolicyAppsManifestJsonInterfacesAclsMatchesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface ProjectModulePolicyAppPolicyAppsManifestJsonInterfacesAcls {
-}
-
-export function projectModulePolicyAppPolicyAppsManifestJsonInterfacesAclsToTerraform(struct?: ProjectModulePolicyAppPolicyAppsManifestJsonInterfacesAcls): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function projectModulePolicyAppPolicyAppsManifestJsonInterfacesAclsToHclTerraform(struct?: ProjectModulePolicyAppPolicyAppsManifestJsonInterfacesAcls): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class ProjectModulePolicyAppPolicyAppsManifestJsonInterfacesAclsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): ProjectModulePolicyAppPolicyAppsManifestJsonInterfacesAcls | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: ProjectModulePolicyAppPolicyAppsManifestJsonInterfacesAcls | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // actions - computed: true, optional: false, required: false
-  private _actions = new ProjectModulePolicyAppPolicyAppsManifestJsonInterfacesAclsActionsList(this, "actions", false);
-  public get actions() {
-    return this._actions;
-  }
-
-  // matches - computed: true, optional: false, required: false
-  private _matches = new ProjectModulePolicyAppPolicyAppsManifestJsonInterfacesAclsMatchesList(this, "matches", false);
-  public get matches() {
-    return this._matches;
-  }
-
-  // name - computed: true, optional: false, required: false
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-}
-
-export class ProjectModulePolicyAppPolicyAppsManifestJsonInterfacesAclsList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): ProjectModulePolicyAppPolicyAppsManifestJsonInterfacesAclsOutputReference {
-    return new ProjectModulePolicyAppPolicyAppsManifestJsonInterfacesAclsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface ProjectModulePolicyAppPolicyAppsManifestJsonInterfaces {
-}
-
-export function projectModulePolicyAppPolicyAppsManifestJsonInterfacesToTerraform(struct?: ProjectModulePolicyAppPolicyAppsManifestJsonInterfaces): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function projectModulePolicyAppPolicyAppsManifestJsonInterfacesToHclTerraform(struct?: ProjectModulePolicyAppPolicyAppsManifestJsonInterfaces): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class ProjectModulePolicyAppPolicyAppsManifestJsonInterfacesOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): ProjectModulePolicyAppPolicyAppsManifestJsonInterfaces | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: ProjectModulePolicyAppPolicyAppsManifestJsonInterfaces | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // acls - computed: true, optional: false, required: false
-  private _acls = new ProjectModulePolicyAppPolicyAppsManifestJsonInterfacesAclsList(this, "acls", false);
-  public get acls() {
-    return this._acls;
-  }
-
-  // directattach - computed: true, optional: false, required: false
-  public get directattach() {
-    return this.getBooleanAttribute('directattach');
-  }
-
-  // name - computed: true, optional: false, required: false
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-
-  // optional - computed: true, optional: false, required: false
-  public get optional() {
-    return this.getBooleanAttribute('optional');
-  }
-
-  // privateip - computed: true, optional: false, required: false
-  public get privateip() {
-    return this.getBooleanAttribute('privateip');
-  }
-
-  // type - computed: true, optional: false, required: false
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-}
-
-export class ProjectModulePolicyAppPolicyAppsManifestJsonInterfacesList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): ProjectModulePolicyAppPolicyAppsManifestJsonInterfacesOutputReference {
-    return new ProjectModulePolicyAppPolicyAppsManifestJsonInterfacesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface ProjectModulePolicyAppPolicyAppsManifestJsonModule {
-}
-
-export function projectModulePolicyAppPolicyAppsManifestJsonModuleToTerraform(struct?: ProjectModulePolicyAppPolicyAppsManifestJsonModule): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function projectModulePolicyAppPolicyAppsManifestJsonModuleToHclTerraform(struct?: ProjectModulePolicyAppPolicyAppsManifestJsonModule): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class ProjectModulePolicyAppPolicyAppsManifestJsonModuleOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): ProjectModulePolicyAppPolicyAppsManifestJsonModule | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: ProjectModulePolicyAppPolicyAppsManifestJsonModule | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // environment - computed: true, optional: false, required: false
-  private _environment = new cdktf.StringMap(this, "environment");
-  public get environment() {
-    return this._environment;
-  }
-
-  // module_type - computed: true, optional: false, required: false
-  public get moduleType() {
-    return this.getStringAttribute('module_type');
-  }
-
-  // routes - computed: true, optional: false, required: false
-  private _routes = new cdktf.StringMap(this, "routes");
-  public get routes() {
-    return this._routes;
-  }
-
-  // twin_detail - computed: true, optional: false, required: false
-  public get twinDetail() {
-    return this.getStringAttribute('twin_detail');
-  }
-}
-
-export class ProjectModulePolicyAppPolicyAppsManifestJsonModuleList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): ProjectModulePolicyAppPolicyAppsManifestJsonModuleOutputReference {
-    return new ProjectModulePolicyAppPolicyAppsManifestJsonModuleOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }

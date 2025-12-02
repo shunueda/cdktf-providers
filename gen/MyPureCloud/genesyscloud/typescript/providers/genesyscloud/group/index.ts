@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/group
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface GroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Allow calls to be placed to this group Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/group#calls_enabled Group#calls_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/group#calls_enabled Group#calls_enabled}
   */
   readonly callsEnabled?: boolean | cdktf.IResolvable;
   /**
   * Group description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/group#description Group#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/group#description Group#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/group#id Group#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/group#id Group#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,75 +29,81 @@ export interface GroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Allow owners to be included as members of the group. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/group#include_owners Group#include_owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/group#include_owners Group#include_owners}
   */
   readonly includeOwners?: boolean | cdktf.IResolvable;
   /**
   * IDs of members assigned to the group. If not set, this resource will not manage group members.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/group#member_ids Group#member_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/group#member_ids Group#member_ids}
   */
   readonly memberIds?: string[];
   /**
   * Group name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/group#name Group#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/group#name Group#name}
   */
   readonly name: string;
   /**
   * IDs of owners of the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/group#owner_ids Group#owner_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/group#owner_ids Group#owner_ids}
   */
   readonly ownerIds?: string[];
   /**
   * Allow roles to be assigned to this group. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/group#roles_enabled Group#roles_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/group#roles_enabled Group#roles_enabled}
   */
   readonly rolesEnabled?: boolean | cdktf.IResolvable;
   /**
   * Are membership rules visible to the person requesting to view the group. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/group#rules_visible Group#rules_visible}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/group#rules_visible Group#rules_visible}
   */
   readonly rulesVisible?: boolean | cdktf.IResolvable;
   /**
   * Group type (official | social). This cannot be modified. Changing type attribute will cause the existing genesys_group object to dropped and recreated with a new ID. Defaults to `official`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/group#type Group#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/group#type Group#type}
   */
   readonly type?: string;
   /**
   * Who can view this group (public | owners | members). Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/group#visibility Group#visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/group#visibility Group#visibility}
   */
   readonly visibility?: string;
   /**
   * addresses block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/group#addresses Group#addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/group#addresses Group#addresses}
   */
   readonly addresses?: GroupAddresses[] | cdktf.IResolvable;
+  /**
+  * voicemail_policy block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/group#voicemail_policy Group#voicemail_policy}
+  */
+  readonly voicemailPolicy?: GroupVoicemailPolicy;
 }
 export interface GroupAddresses {
   /**
   * Phone extension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/group#extension Group#extension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/group#extension Group#extension}
   */
   readonly extension?: string;
   /**
   * Phone number for this contact type. Must be in an E.164 number format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/group#number Group#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/group#number Group#number}
   */
   readonly number?: string;
   /**
   * Contact type of the address. (GROUPRING | GROUPPHONE)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/group#type Group#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/group#type Group#type}
   */
   readonly type: string;
 }
@@ -266,9 +272,165 @@ export class GroupAddressesList extends cdktf.ComplexList {
     return new GroupAddressesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface GroupVoicemailPolicy {
+  /**
+  * Removes any PII from group emails. This is overridden by the analogous organization configuration value. This is always true if HIPAA is enabled or unknown for an organization.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/group#disable_email_pii Group#disable_email_pii}
+  */
+  readonly disableEmailPii?: boolean | cdktf.IResolvable;
+  /**
+  * Whether to include the voicemail transcription in a group notification email.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/group#include_email_transcriptions Group#include_email_transcriptions}
+  */
+  readonly includeEmailTranscriptions?: boolean | cdktf.IResolvable;
+  /**
+  * Whether email notifications are sent to group members when a new voicemail is received.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/group#send_email_notifications Group#send_email_notifications}
+  */
+  readonly sendEmailNotifications?: boolean | cdktf.IResolvable;
+}
+
+export function groupVoicemailPolicyToTerraform(struct?: GroupVoicemailPolicyOutputReference | GroupVoicemailPolicy): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    disable_email_pii: cdktf.booleanToTerraform(struct!.disableEmailPii),
+    include_email_transcriptions: cdktf.booleanToTerraform(struct!.includeEmailTranscriptions),
+    send_email_notifications: cdktf.booleanToTerraform(struct!.sendEmailNotifications),
+  }
+}
+
+
+export function groupVoicemailPolicyToHclTerraform(struct?: GroupVoicemailPolicyOutputReference | GroupVoicemailPolicy): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    disable_email_pii: {
+      value: cdktf.booleanToHclTerraform(struct!.disableEmailPii),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    include_email_transcriptions: {
+      value: cdktf.booleanToHclTerraform(struct!.includeEmailTranscriptions),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    send_email_notifications: {
+      value: cdktf.booleanToHclTerraform(struct!.sendEmailNotifications),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GroupVoicemailPolicyOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GroupVoicemailPolicy | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._disableEmailPii !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.disableEmailPii = this._disableEmailPii;
+    }
+    if (this._includeEmailTranscriptions !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.includeEmailTranscriptions = this._includeEmailTranscriptions;
+    }
+    if (this._sendEmailNotifications !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sendEmailNotifications = this._sendEmailNotifications;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GroupVoicemailPolicy | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._disableEmailPii = undefined;
+      this._includeEmailTranscriptions = undefined;
+      this._sendEmailNotifications = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._disableEmailPii = value.disableEmailPii;
+      this._includeEmailTranscriptions = value.includeEmailTranscriptions;
+      this._sendEmailNotifications = value.sendEmailNotifications;
+    }
+  }
+
+  // disable_email_pii - computed: false, optional: true, required: false
+  private _disableEmailPii?: boolean | cdktf.IResolvable; 
+  public get disableEmailPii() {
+    return this.getBooleanAttribute('disable_email_pii');
+  }
+  public set disableEmailPii(value: boolean | cdktf.IResolvable) {
+    this._disableEmailPii = value;
+  }
+  public resetDisableEmailPii() {
+    this._disableEmailPii = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get disableEmailPiiInput() {
+    return this._disableEmailPii;
+  }
+
+  // include_email_transcriptions - computed: false, optional: true, required: false
+  private _includeEmailTranscriptions?: boolean | cdktf.IResolvable; 
+  public get includeEmailTranscriptions() {
+    return this.getBooleanAttribute('include_email_transcriptions');
+  }
+  public set includeEmailTranscriptions(value: boolean | cdktf.IResolvable) {
+    this._includeEmailTranscriptions = value;
+  }
+  public resetIncludeEmailTranscriptions() {
+    this._includeEmailTranscriptions = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get includeEmailTranscriptionsInput() {
+    return this._includeEmailTranscriptions;
+  }
+
+  // send_email_notifications - computed: false, optional: true, required: false
+  private _sendEmailNotifications?: boolean | cdktf.IResolvable; 
+  public get sendEmailNotifications() {
+    return this.getBooleanAttribute('send_email_notifications');
+  }
+  public set sendEmailNotifications(value: boolean | cdktf.IResolvable) {
+    this._sendEmailNotifications = value;
+  }
+  public resetSendEmailNotifications() {
+    this._sendEmailNotifications = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sendEmailNotificationsInput() {
+    return this._sendEmailNotifications;
+  }
+}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/group genesyscloud_group}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/group genesyscloud_group}
 */
 export class Group extends cdktf.TerraformResource {
 
@@ -284,7 +446,7 @@ export class Group extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Group resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Group to import
-  * @param importFromId The id of the existing Group that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Group that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Group to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -296,7 +458,7 @@ export class Group extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/group genesyscloud_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/group genesyscloud_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -307,8 +469,8 @@ export class Group extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_group',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.71.1',
-        providerVersionConstraint: '1.71.1'
+        providerVersion: '1.72.2',
+        providerVersionConstraint: '1.72.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -330,6 +492,7 @@ export class Group extends cdktf.TerraformResource {
     this._type = config.type;
     this._visibility = config.visibility;
     this._addresses.internalValue = config.addresses;
+    this._voicemailPolicy.internalValue = config.voicemailPolicy;
   }
 
   // ==========
@@ -525,6 +688,22 @@ export class Group extends cdktf.TerraformResource {
     return this._addresses.internalValue;
   }
 
+  // voicemail_policy - computed: false, optional: true, required: false
+  private _voicemailPolicy = new GroupVoicemailPolicyOutputReference(this, "voicemail_policy");
+  public get voicemailPolicy() {
+    return this._voicemailPolicy;
+  }
+  public putVoicemailPolicy(value: GroupVoicemailPolicy) {
+    this._voicemailPolicy.internalValue = value;
+  }
+  public resetVoicemailPolicy() {
+    this._voicemailPolicy.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get voicemailPolicyInput() {
+    return this._voicemailPolicy.internalValue;
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -543,6 +722,7 @@ export class Group extends cdktf.TerraformResource {
       type: cdktf.stringToTerraform(this._type),
       visibility: cdktf.stringToTerraform(this._visibility),
       addresses: cdktf.listMapper(groupAddressesToTerraform, true)(this._addresses.internalValue),
+      voicemail_policy: groupVoicemailPolicyToTerraform(this._voicemailPolicy.internalValue),
     };
   }
 
@@ -619,6 +799,12 @@ export class Group extends cdktf.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "GroupAddressesList",
+      },
+      voicemail_policy: {
+        value: groupVoicemailPolicyToHclTerraform(this._voicemailPolicy.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "GroupVoicemailPolicyList",
       },
     };
 

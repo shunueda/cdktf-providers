@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_access_policy_assignment
+// https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_access_policy_assignment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface AppAccessPolicyAssignmentConfig extends cdktf.TerraformMetaArgu
   /**
   * The application ID; this value is immutable and can not be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_access_policy_assignment#app_id AppAccessPolicyAssignment#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_access_policy_assignment#app_id AppAccessPolicyAssignment#app_id}
   */
   readonly appId: string;
   /**
   * The access policy ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_access_policy_assignment#policy_id AppAccessPolicyAssignment#policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_access_policy_assignment#policy_id AppAccessPolicyAssignment#policy_id}
   */
   readonly policyId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_access_policy_assignment okta_app_access_policy_assignment}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_access_policy_assignment okta_app_access_policy_assignment}
 */
 export class AppAccessPolicyAssignment extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class AppAccessPolicyAssignment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AppAccessPolicyAssignment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppAccessPolicyAssignment to import
-  * @param importFromId The id of the existing AppAccessPolicyAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_access_policy_assignment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppAccessPolicyAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_access_policy_assignment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppAccessPolicyAssignment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class AppAccessPolicyAssignment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_access_policy_assignment okta_app_access_policy_assignment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_access_policy_assignment okta_app_access_policy_assignment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class AppAccessPolicyAssignment extends cdktf.TerraformResource {
       terraformResourceType: 'okta_app_access_policy_assignment',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.5.0',
-        providerVersionConstraint: '6.5.0'
+        providerVersion: '6.5.1',
+        providerVersionConstraint: '6.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contactlistfilter
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_contactlistfilter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface OutboundContactlistfilterConfig extends cdktf.TerraformMetaArgu
   /**
   * The contact list the filter is based on. Mutually exclusive to 'contact_list_template_id', however, one of the two must be specified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contactlistfilter#contact_list_id OutboundContactlistfilter#contact_list_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_contactlistfilter#contact_list_id OutboundContactlistfilter#contact_list_id}
   */
   readonly contactListId?: string;
   /**
   * The contact list template the filter is based on. Mutually exclusive to 'contact_list_id', however, one of the two must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contactlistfilter#contact_list_template_id OutboundContactlistfilter#contact_list_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_contactlistfilter#contact_list_template_id OutboundContactlistfilter#contact_list_template_id}
   */
   readonly contactListTemplateId?: string;
   /**
   * How to join clauses together.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contactlistfilter#filter_type OutboundContactlistfilter#filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_contactlistfilter#filter_type OutboundContactlistfilter#filter_type}
   */
   readonly filterType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contactlistfilter#id OutboundContactlistfilter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_contactlistfilter#id OutboundContactlistfilter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,13 +35,13 @@ export interface OutboundContactlistfilterConfig extends cdktf.TerraformMetaArgu
   /**
   * The name of the list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contactlistfilter#name OutboundContactlistfilter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_contactlistfilter#name OutboundContactlistfilter#name}
   */
   readonly name: string;
   /**
   * clauses block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contactlistfilter#clauses OutboundContactlistfilter#clauses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_contactlistfilter#clauses OutboundContactlistfilter#clauses}
   */
   readonly clauses?: OutboundContactlistfilterClauses[] | cdktf.IResolvable;
 }
@@ -49,31 +49,31 @@ export interface OutboundContactlistfilterClausesPredicatesVarRange {
   /**
   * A set of values that the contact data should be in. Required for the IN operator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contactlistfilter#in_set OutboundContactlistfilter#in_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_contactlistfilter#in_set OutboundContactlistfilter#in_set}
   */
   readonly inSet?: string[];
   /**
   * The maximum value of the range. Required for the operator BETWEEN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contactlistfilter#max OutboundContactlistfilter#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_contactlistfilter#max OutboundContactlistfilter#max}
   */
   readonly max?: string;
   /**
   * Whether or not to include the maximum in the range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contactlistfilter#max_inclusive OutboundContactlistfilter#max_inclusive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_contactlistfilter#max_inclusive OutboundContactlistfilter#max_inclusive}
   */
   readonly maxInclusive?: boolean | cdktf.IResolvable;
   /**
   * The minimum value of the range. Required for the operator BETWEEN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contactlistfilter#min OutboundContactlistfilter#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_contactlistfilter#min OutboundContactlistfilter#min}
   */
   readonly min?: string;
   /**
   * Whether or not to include the minimum in the range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contactlistfilter#min_inclusive OutboundContactlistfilter#min_inclusive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_contactlistfilter#min_inclusive OutboundContactlistfilter#min_inclusive}
   */
   readonly minInclusive?: boolean | cdktf.IResolvable;
 }
@@ -275,37 +275,37 @@ export interface OutboundContactlistfilterClausesPredicates {
   /**
   * Contact list column from the contact list filter's contact list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contactlistfilter#column OutboundContactlistfilter#column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_contactlistfilter#column OutboundContactlistfilter#column}
   */
   readonly column?: string;
   /**
   * The type of data in the contact column.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contactlistfilter#column_type OutboundContactlistfilter#column_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_contactlistfilter#column_type OutboundContactlistfilter#column_type}
   */
   readonly columnType?: string;
   /**
   * Inverts the result of the predicate (i.e., if the predicate returns true, inverting it will return false).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contactlistfilter#inverted OutboundContactlistfilter#inverted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_contactlistfilter#inverted OutboundContactlistfilter#inverted}
   */
   readonly inverted?: boolean | cdktf.IResolvable;
   /**
   * The operator for this contact list filter predicate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contactlistfilter#operator OutboundContactlistfilter#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_contactlistfilter#operator OutboundContactlistfilter#operator}
   */
   readonly operator: string;
   /**
   * Value with which to compare the contact's data. This could be text, a number, or a relative time. A value for relative time should follow the format PxxDTyyHzzM, where xx, yy, and zz specify the days, hours and minutes. For example, a value of P01DT08H30M corresponds to 1 day, 8 hours, and 30 minutes from now. To specify a time in the past, include a negative sign before each numeric value. For example, a value of P-01DT-08H-30M corresponds to 1 day, 8 hours, and 30 minutes in the past. You can also do things like P01DT00H-30M, which would correspond to 23 hours and 30 minutes from now (1 day - 30 minutes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contactlistfilter#value OutboundContactlistfilter#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_contactlistfilter#value OutboundContactlistfilter#value}
   */
   readonly value?: string;
   /**
   * var_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contactlistfilter#var_range OutboundContactlistfilter#var_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_contactlistfilter#var_range OutboundContactlistfilter#var_range}
   */
   readonly varRange?: OutboundContactlistfilterClausesPredicatesVarRange;
 }
@@ -565,13 +565,13 @@ export interface OutboundContactlistfilterClauses {
   /**
   * How to join predicates together.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contactlistfilter#filter_type OutboundContactlistfilter#filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_contactlistfilter#filter_type OutboundContactlistfilter#filter_type}
   */
   readonly filterType?: string;
   /**
   * predicates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contactlistfilter#predicates OutboundContactlistfilter#predicates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_contactlistfilter#predicates OutboundContactlistfilter#predicates}
   */
   readonly predicates?: OutboundContactlistfilterClausesPredicates[] | cdktf.IResolvable;
 }
@@ -716,7 +716,7 @@ export class OutboundContactlistfilterClausesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contactlistfilter genesyscloud_outbound_contactlistfilter}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_contactlistfilter genesyscloud_outbound_contactlistfilter}
 */
 export class OutboundContactlistfilter extends cdktf.TerraformResource {
 
@@ -732,7 +732,7 @@ export class OutboundContactlistfilter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OutboundContactlistfilter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OutboundContactlistfilter to import
-  * @param importFromId The id of the existing OutboundContactlistfilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contactlistfilter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OutboundContactlistfilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_contactlistfilter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OutboundContactlistfilter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -744,7 +744,7 @@ export class OutboundContactlistfilter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contactlistfilter genesyscloud_outbound_contactlistfilter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_contactlistfilter genesyscloud_outbound_contactlistfilter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -755,8 +755,8 @@ export class OutboundContactlistfilter extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_outbound_contactlistfilter',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.71.1',
-        providerVersionConstraint: '1.71.1'
+        providerVersion: '1.72.2',
+        providerVersionConstraint: '1.72.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

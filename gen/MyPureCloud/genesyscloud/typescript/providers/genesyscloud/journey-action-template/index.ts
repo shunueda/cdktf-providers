@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_action_template
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface JourneyActionTemplateConfig extends cdktf.TerraformMetaArgument
   /**
   * Description of the action template's functionality.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_action_template#description JourneyActionTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_template#description JourneyActionTemplate#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_action_template#id JourneyActionTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_template#id JourneyActionTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface JourneyActionTemplateConfig extends cdktf.TerraformMetaArgument
   /**
   * The media type of the action configured by the action template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_action_template#media_type JourneyActionTemplate#media_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_template#media_type JourneyActionTemplate#media_type}
   */
   readonly mediaType: string;
   /**
   * Name of the action template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_action_template#name JourneyActionTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_template#name JourneyActionTemplate#name}
   */
   readonly name: string;
   /**
   * The state of the action template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_action_template#state JourneyActionTemplate#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_template#state JourneyActionTemplate#state}
   */
   readonly state: string;
   /**
   * content_offer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_action_template#content_offer JourneyActionTemplate#content_offer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_template#content_offer JourneyActionTemplate#content_offer}
   */
   readonly contentOffer?: JourneyActionTemplateContentOffer[] | cdktf.IResolvable;
 }
@@ -49,19 +49,19 @@ export interface JourneyActionTemplateContentOfferCallToAction {
   /**
   * Where should the URL be opened when the user clicks on the call to action button.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_action_template#target JourneyActionTemplate#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_template#target JourneyActionTemplate#target}
   */
   readonly target?: string;
   /**
   * Text displayed on the call to action button.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_action_template#text JourneyActionTemplate#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_template#text JourneyActionTemplate#text}
   */
   readonly text?: string;
   /**
   * URL to open when user clicks on the call to action button.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_action_template#url JourneyActionTemplate#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_template#url JourneyActionTemplate#url}
   */
   readonly url: string;
 }
@@ -234,25 +234,25 @@ export interface JourneyActionTemplateContentOfferStyleBody {
   /**
   * Color of the text.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_action_template#color JourneyActionTemplate#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_template#color JourneyActionTemplate#color}
   */
   readonly color?: string;
   /**
   * Font of the text.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_action_template#font JourneyActionTemplate#font}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_template#font JourneyActionTemplate#font}
   */
   readonly font?: string;
   /**
   * Font size of the text.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_action_template#font_size JourneyActionTemplate#font_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_template#font_size JourneyActionTemplate#font_size}
   */
   readonly fontSize?: string;
   /**
   * Text alignment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_action_template#text_align JourneyActionTemplate#text_align}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_template#text_align JourneyActionTemplate#text_align}
   */
   readonly textAlign?: string;
 }
@@ -457,13 +457,13 @@ export interface JourneyActionTemplateContentOfferStyleCloseButton {
   /**
   * Color of button.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_action_template#color JourneyActionTemplate#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_template#color JourneyActionTemplate#color}
   */
   readonly color?: string;
   /**
   * Opacity of button.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_action_template#opacity JourneyActionTemplate#opacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_template#opacity JourneyActionTemplate#opacity}
   */
   readonly opacity?: number;
 }
@@ -610,31 +610,31 @@ export interface JourneyActionTemplateContentOfferStyleCtaButton {
   /**
   * Background color of the CTA button.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_action_template#background_color JourneyActionTemplate#background_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_template#background_color JourneyActionTemplate#background_color}
   */
   readonly backgroundColor?: string;
   /**
   * Color of the text.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_action_template#color JourneyActionTemplate#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_template#color JourneyActionTemplate#color}
   */
   readonly color?: string;
   /**
   * Font of the text.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_action_template#font JourneyActionTemplate#font}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_template#font JourneyActionTemplate#font}
   */
   readonly font?: string;
   /**
   * Font size of the text.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_action_template#font_size JourneyActionTemplate#font_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_template#font_size JourneyActionTemplate#font_size}
   */
   readonly fontSize?: string;
   /**
   * Text alignment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_action_template#text_align JourneyActionTemplate#text_align}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_template#text_align JourneyActionTemplate#text_align}
   */
   readonly textAlign?: string;
 }
@@ -868,25 +868,25 @@ export interface JourneyActionTemplateContentOfferStyleHeadline {
   /**
   * Color of the text.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_action_template#color JourneyActionTemplate#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_template#color JourneyActionTemplate#color}
   */
   readonly color?: string;
   /**
   * Font of the text.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_action_template#font JourneyActionTemplate#font}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_template#font JourneyActionTemplate#font}
   */
   readonly font?: string;
   /**
   * Font size of the text.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_action_template#font_size JourneyActionTemplate#font_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_template#font_size JourneyActionTemplate#font_size}
   */
   readonly fontSize?: string;
   /**
   * Text alignment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_action_template#text_align JourneyActionTemplate#text_align}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_template#text_align JourneyActionTemplate#text_align}
   */
   readonly textAlign?: string;
 }
@@ -1091,19 +1091,19 @@ export interface JourneyActionTemplateContentOfferStyleOffer {
   /**
   * Background color of the offer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_action_template#background_color JourneyActionTemplate#background_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_template#background_color JourneyActionTemplate#background_color}
   */
   readonly backgroundColor?: string;
   /**
   * Text color of the offer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_action_template#color JourneyActionTemplate#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_template#color JourneyActionTemplate#color}
   */
   readonly color?: string;
   /**
   * Padding of the offer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_action_template#padding JourneyActionTemplate#padding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_template#padding JourneyActionTemplate#padding}
   */
   readonly padding?: string;
 }
@@ -1279,25 +1279,25 @@ export interface JourneyActionTemplateContentOfferStylePosition {
   /**
   * Bottom positioning offset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_action_template#bottom JourneyActionTemplate#bottom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_template#bottom JourneyActionTemplate#bottom}
   */
   readonly bottom?: string;
   /**
   * Left positioning offset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_action_template#left JourneyActionTemplate#left}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_template#left JourneyActionTemplate#left}
   */
   readonly left?: string;
   /**
   * Right positioning offset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_action_template#right JourneyActionTemplate#right}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_template#right JourneyActionTemplate#right}
   */
   readonly right?: string;
   /**
   * Top positioning offset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_action_template#top JourneyActionTemplate#top}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_template#top JourneyActionTemplate#top}
   */
   readonly top?: string;
 }
@@ -1502,25 +1502,25 @@ export interface JourneyActionTemplateContentOfferStyleTitle {
   /**
   * Color of the text.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_action_template#color JourneyActionTemplate#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_template#color JourneyActionTemplate#color}
   */
   readonly color?: string;
   /**
   * Font of the text.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_action_template#font JourneyActionTemplate#font}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_template#font JourneyActionTemplate#font}
   */
   readonly font?: string;
   /**
   * Font size of the text.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_action_template#font_size JourneyActionTemplate#font_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_template#font_size JourneyActionTemplate#font_size}
   */
   readonly fontSize?: string;
   /**
   * Text alignment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_action_template#text_align JourneyActionTemplate#text_align}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_template#text_align JourneyActionTemplate#text_align}
   */
   readonly textAlign?: string;
 }
@@ -1725,43 +1725,43 @@ export interface JourneyActionTemplateContentOfferStyle {
   /**
   * body block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_action_template#body JourneyActionTemplate#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_template#body JourneyActionTemplate#body}
   */
   readonly body?: JourneyActionTemplateContentOfferStyleBody[] | cdktf.IResolvable;
   /**
   * close_button block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_action_template#close_button JourneyActionTemplate#close_button}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_template#close_button JourneyActionTemplate#close_button}
   */
   readonly closeButton?: JourneyActionTemplateContentOfferStyleCloseButton[] | cdktf.IResolvable;
   /**
   * cta_button block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_action_template#cta_button JourneyActionTemplate#cta_button}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_template#cta_button JourneyActionTemplate#cta_button}
   */
   readonly ctaButton?: JourneyActionTemplateContentOfferStyleCtaButton[] | cdktf.IResolvable;
   /**
   * headline block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_action_template#headline JourneyActionTemplate#headline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_template#headline JourneyActionTemplate#headline}
   */
   readonly headline?: JourneyActionTemplateContentOfferStyleHeadline[] | cdktf.IResolvable;
   /**
   * offer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_action_template#offer JourneyActionTemplate#offer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_template#offer JourneyActionTemplate#offer}
   */
   readonly offer?: JourneyActionTemplateContentOfferStyleOffer[] | cdktf.IResolvable;
   /**
   * position block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_action_template#position JourneyActionTemplate#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_template#position JourneyActionTemplate#position}
   */
   readonly position?: JourneyActionTemplateContentOfferStylePosition[] | cdktf.IResolvable;
   /**
   * title block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_action_template#title JourneyActionTemplate#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_template#title JourneyActionTemplate#title}
   */
   readonly title?: JourneyActionTemplateContentOfferStyleTitle[] | cdktf.IResolvable;
 }
@@ -2053,49 +2053,55 @@ export interface JourneyActionTemplateContentOffer {
   /**
   * Body text of the content offer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_action_template#body JourneyActionTemplate#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_template#body JourneyActionTemplate#body}
   */
   readonly body?: string;
   /**
   * The display mode used by Genesys Widgets when displaying the content offer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_action_template#display_mode JourneyActionTemplate#display_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_template#display_mode JourneyActionTemplate#display_mode}
   */
   readonly displayMode: string;
   /**
   * Headline displayed above the body text of the content offer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_action_template#headline JourneyActionTemplate#headline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_template#headline JourneyActionTemplate#headline}
   */
   readonly headline?: string;
   /**
+  * Image description text for accessibility compliance and assistive technology support.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_template#image_alt_text JourneyActionTemplate#image_alt_text}
+  */
+  readonly imageAltText?: string;
+  /**
   * URL for image displayed on the content offer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_action_template#image_url JourneyActionTemplate#image_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_template#image_url JourneyActionTemplate#image_url}
   */
   readonly imageUrl?: string;
   /**
   * The layout mode used by Genesys Widgets when displaying the content offer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_action_template#layout_mode JourneyActionTemplate#layout_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_template#layout_mode JourneyActionTemplate#layout_mode}
   */
   readonly layoutMode: string;
   /**
   * Title in the header of the content offer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_action_template#title JourneyActionTemplate#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_template#title JourneyActionTemplate#title}
   */
   readonly title?: string;
   /**
   * call_to_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_action_template#call_to_action JourneyActionTemplate#call_to_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_template#call_to_action JourneyActionTemplate#call_to_action}
   */
   readonly callToAction?: JourneyActionTemplateContentOfferCallToAction[] | cdktf.IResolvable;
   /**
   * style block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_action_template#style JourneyActionTemplate#style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_template#style JourneyActionTemplate#style}
   */
   readonly style?: JourneyActionTemplateContentOfferStyle[] | cdktf.IResolvable;
 }
@@ -2109,6 +2115,7 @@ export function journeyActionTemplateContentOfferToTerraform(struct?: JourneyAct
     body: cdktf.stringToTerraform(struct!.body),
     display_mode: cdktf.stringToTerraform(struct!.displayMode),
     headline: cdktf.stringToTerraform(struct!.headline),
+    image_alt_text: cdktf.stringToTerraform(struct!.imageAltText),
     image_url: cdktf.stringToTerraform(struct!.imageUrl),
     layout_mode: cdktf.stringToTerraform(struct!.layoutMode),
     title: cdktf.stringToTerraform(struct!.title),
@@ -2138,6 +2145,12 @@ export function journeyActionTemplateContentOfferToHclTerraform(struct?: Journey
     },
     headline: {
       value: cdktf.stringToHclTerraform(struct!.headline),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    image_alt_text: {
+      value: cdktf.stringToHclTerraform(struct!.imageAltText),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2210,6 +2223,10 @@ export class JourneyActionTemplateContentOfferOutputReference extends cdktf.Comp
       hasAnyValues = true;
       internalValueResult.headline = this._headline;
     }
+    if (this._imageAltText !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.imageAltText = this._imageAltText;
+    }
     if (this._imageUrl !== undefined) {
       hasAnyValues = true;
       internalValueResult.imageUrl = this._imageUrl;
@@ -2240,6 +2257,7 @@ export class JourneyActionTemplateContentOfferOutputReference extends cdktf.Comp
       this._body = undefined;
       this._displayMode = undefined;
       this._headline = undefined;
+      this._imageAltText = undefined;
       this._imageUrl = undefined;
       this._layoutMode = undefined;
       this._title = undefined;
@@ -2256,6 +2274,7 @@ export class JourneyActionTemplateContentOfferOutputReference extends cdktf.Comp
       this._body = value.body;
       this._displayMode = value.displayMode;
       this._headline = value.headline;
+      this._imageAltText = value.imageAltText;
       this._imageUrl = value.imageUrl;
       this._layoutMode = value.layoutMode;
       this._title = value.title;
@@ -2307,6 +2326,22 @@ export class JourneyActionTemplateContentOfferOutputReference extends cdktf.Comp
   // Temporarily expose input value. Use with caution.
   public get headlineInput() {
     return this._headline;
+  }
+
+  // image_alt_text - computed: false, optional: true, required: false
+  private _imageAltText?: string; 
+  public get imageAltText() {
+    return this.getStringAttribute('image_alt_text');
+  }
+  public set imageAltText(value: string) {
+    this._imageAltText = value;
+  }
+  public resetImageAltText() {
+    this._imageAltText = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get imageAltTextInput() {
+    return this._imageAltText;
   }
 
   // image_url - computed: false, optional: true, required: false
@@ -2408,7 +2443,7 @@ export class JourneyActionTemplateContentOfferList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_action_template genesyscloud_journey_action_template}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_template genesyscloud_journey_action_template}
 */
 export class JourneyActionTemplate extends cdktf.TerraformResource {
 
@@ -2424,7 +2459,7 @@ export class JourneyActionTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a JourneyActionTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the JourneyActionTemplate to import
-  * @param importFromId The id of the existing JourneyActionTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_action_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing JourneyActionTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the JourneyActionTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2436,7 +2471,7 @@ export class JourneyActionTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_action_template genesyscloud_journey_action_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_template genesyscloud_journey_action_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2447,8 +2482,8 @@ export class JourneyActionTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_journey_action_template',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.71.1',
-        providerVersionConstraint: '1.71.1'
+        providerVersion: '1.72.2',
+        providerVersionConstraint: '1.72.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

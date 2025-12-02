@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/serverless_eventrouter_connector
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_connector
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ServerlessEventrouterConnectorConfig extends cdktf.TerraformMet
   /**
   * ID of the bus that the connector belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/serverless_eventrouter_connector#bus_id ServerlessEventrouterConnector#bus_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_connector#bus_id ServerlessEventrouterConnector#bus_id}
   */
   readonly busId: string;
   /**
   * Deletion protection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/serverless_eventrouter_connector#deletion_protection ServerlessEventrouterConnector#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_connector#deletion_protection ServerlessEventrouterConnector#deletion_protection}
   */
   readonly deletionProtection?: boolean | cdktf.IResolvable;
   /**
   * Description of the connector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/serverless_eventrouter_connector#description ServerlessEventrouterConnector#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_connector#description ServerlessEventrouterConnector#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/serverless_eventrouter_connector#id ServerlessEventrouterConnector#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_connector#id ServerlessEventrouterConnector#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,55 +35,55 @@ export interface ServerlessEventrouterConnectorConfig extends cdktf.TerraformMet
   /**
   * Connector labels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/serverless_eventrouter_connector#labels ServerlessEventrouterConnector#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_connector#labels ServerlessEventrouterConnector#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Name of the connector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/serverless_eventrouter_connector#name ServerlessEventrouterConnector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_connector#name ServerlessEventrouterConnector#name}
   */
   readonly name: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/serverless_eventrouter_connector#timeouts ServerlessEventrouterConnector#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_connector#timeouts ServerlessEventrouterConnector#timeouts}
   */
   readonly timeouts?: ServerlessEventrouterConnectorTimeouts;
   /**
   * timer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/serverless_eventrouter_connector#timer ServerlessEventrouterConnector#timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_connector#timer ServerlessEventrouterConnector#timer}
   */
   readonly timer?: ServerlessEventrouterConnectorTimer[] | cdktf.IResolvable;
   /**
   * yds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/serverless_eventrouter_connector#yds ServerlessEventrouterConnector#yds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_connector#yds ServerlessEventrouterConnector#yds}
   */
   readonly yds?: ServerlessEventrouterConnectorYds[] | cdktf.IResolvable;
   /**
   * ymq block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/serverless_eventrouter_connector#ymq ServerlessEventrouterConnector#ymq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_connector#ymq ServerlessEventrouterConnector#ymq}
   */
   readonly ymq?: ServerlessEventrouterConnectorYmq[] | cdktf.IResolvable;
 }
 export interface ServerlessEventrouterConnectorTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/serverless_eventrouter_connector#create ServerlessEventrouterConnector#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_connector#create ServerlessEventrouterConnector#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/serverless_eventrouter_connector#delete ServerlessEventrouterConnector#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_connector#delete ServerlessEventrouterConnector#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/serverless_eventrouter_connector#read ServerlessEventrouterConnector#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_connector#read ServerlessEventrouterConnector#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/serverless_eventrouter_connector#update ServerlessEventrouterConnector#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_connector#update ServerlessEventrouterConnector#update}
   */
   readonly update?: string;
 }
@@ -266,19 +266,19 @@ export interface ServerlessEventrouterConnectorTimer {
   /**
   * Cron expression. Cron expression with seconds. Example: 0 45 16 ? * *
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/serverless_eventrouter_connector#cron_expression ServerlessEventrouterConnector#cron_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_connector#cron_expression ServerlessEventrouterConnector#cron_expression}
   */
   readonly cronExpression: string;
   /**
   * Payload to be passed to bus
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/serverless_eventrouter_connector#payload ServerlessEventrouterConnector#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_connector#payload ServerlessEventrouterConnector#payload}
   */
   readonly payload?: string;
   /**
   * Timezone in tz database format. Example: Europe/Moscow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/serverless_eventrouter_connector#timezone ServerlessEventrouterConnector#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_connector#timezone ServerlessEventrouterConnector#timezone}
   */
   readonly timezone?: string;
 }
@@ -451,25 +451,25 @@ export interface ServerlessEventrouterConnectorYds {
   /**
   * Consumer name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/serverless_eventrouter_connector#consumer ServerlessEventrouterConnector#consumer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_connector#consumer ServerlessEventrouterConnector#consumer}
   */
   readonly consumer: string;
   /**
   * Stream database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/serverless_eventrouter_connector#database ServerlessEventrouterConnector#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_connector#database ServerlessEventrouterConnector#database}
   */
   readonly database: string;
   /**
   * Service account which has read permission on the stream
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/serverless_eventrouter_connector#service_account_id ServerlessEventrouterConnector#service_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_connector#service_account_id ServerlessEventrouterConnector#service_account_id}
   */
   readonly serviceAccountId: string;
   /**
   * Stream name, absolute or relative
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/serverless_eventrouter_connector#stream_name ServerlessEventrouterConnector#stream_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_connector#stream_name ServerlessEventrouterConnector#stream_name}
   */
   readonly streamName: string;
 }
@@ -662,31 +662,31 @@ export interface ServerlessEventrouterConnectorYmq {
   /**
   * Batch size for polling
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/serverless_eventrouter_connector#batch_size ServerlessEventrouterConnector#batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_connector#batch_size ServerlessEventrouterConnector#batch_size}
   */
   readonly batchSize?: number;
   /**
   * Queue polling timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/serverless_eventrouter_connector#polling_timeout ServerlessEventrouterConnector#polling_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_connector#polling_timeout ServerlessEventrouterConnector#polling_timeout}
   */
   readonly pollingTimeout?: string;
   /**
   * Queue ARN. Example: yrn:yc:ymq:ru-central1:aoe***:test
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/serverless_eventrouter_connector#queue_arn ServerlessEventrouterConnector#queue_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_connector#queue_arn ServerlessEventrouterConnector#queue_arn}
   */
   readonly queueArn: string;
   /**
   * Service account which has read access to the queue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/serverless_eventrouter_connector#service_account_id ServerlessEventrouterConnector#service_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_connector#service_account_id ServerlessEventrouterConnector#service_account_id}
   */
   readonly serviceAccountId: string;
   /**
   * Queue visibility timeout override
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/serverless_eventrouter_connector#visibility_timeout ServerlessEventrouterConnector#visibility_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_connector#visibility_timeout ServerlessEventrouterConnector#visibility_timeout}
   */
   readonly visibilityTimeout?: string;
 }
@@ -912,7 +912,7 @@ export class ServerlessEventrouterConnectorYmqList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/serverless_eventrouter_connector yandex_serverless_eventrouter_connector}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_connector yandex_serverless_eventrouter_connector}
 */
 export class ServerlessEventrouterConnector extends cdktf.TerraformResource {
 
@@ -928,7 +928,7 @@ export class ServerlessEventrouterConnector extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServerlessEventrouterConnector resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServerlessEventrouterConnector to import
-  * @param importFromId The id of the existing ServerlessEventrouterConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/serverless_eventrouter_connector#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServerlessEventrouterConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_connector#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServerlessEventrouterConnector to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -940,7 +940,7 @@ export class ServerlessEventrouterConnector extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/serverless_eventrouter_connector yandex_serverless_eventrouter_connector} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_connector yandex_serverless_eventrouter_connector} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -951,8 +951,8 @@ export class ServerlessEventrouterConnector extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_serverless_eventrouter_connector',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.172.0',
-        providerVersionConstraint: '0.172.0'
+        providerVersion: '0.173.0',
+        providerVersionConstraint: '0.173.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

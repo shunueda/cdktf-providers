@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "stackit": "0.71.0"
+    "stackit": "0.72.0"
   }
 }

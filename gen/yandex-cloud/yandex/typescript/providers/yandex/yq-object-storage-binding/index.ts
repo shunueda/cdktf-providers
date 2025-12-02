@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/yq_object_storage_binding
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/yq_object_storage_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface YqObjectStorageBindingConfig extends cdktf.TerraformMetaArgumen
   /**
   * The data compression algorithm, e.g. brotli, bzip2, gzip, lz4, xz, zstd.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/yq_object_storage_binding#compression YqObjectStorageBinding#compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/yq_object_storage_binding#compression YqObjectStorageBinding#compression}
   */
   readonly compression?: string;
   /**
   * The connection identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/yq_object_storage_binding#connection_id YqObjectStorageBinding#connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/yq_object_storage_binding#connection_id YqObjectStorageBinding#connection_id}
   */
   readonly connectionId: string;
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/yq_object_storage_binding#description YqObjectStorageBinding#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/yq_object_storage_binding#description YqObjectStorageBinding#description}
   */
   readonly description?: string;
   /**
   * The data format, e.g. csv_with_names, json_as_string, json_each_row, json_list, parquet, raw, tsv_with_names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/yq_object_storage_binding#format YqObjectStorageBinding#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/yq_object_storage_binding#format YqObjectStorageBinding#format}
   */
   readonly format: string;
   /**
   * Special format setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/yq_object_storage_binding#format_setting YqObjectStorageBinding#format_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/yq_object_storage_binding#format_setting YqObjectStorageBinding#format_setting}
   */
   readonly formatSetting?: { [key: string]: string };
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/yq_object_storage_binding#name YqObjectStorageBinding#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/yq_object_storage_binding#name YqObjectStorageBinding#name}
   */
   readonly name: string;
   /**
   * The list of partitioning column names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/yq_object_storage_binding#partitioned_by YqObjectStorageBinding#partitioned_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/yq_object_storage_binding#partitioned_by YqObjectStorageBinding#partitioned_by}
   */
   readonly partitionedBy?: string[];
   /**
   * The path pattern within Object Storage's bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/yq_object_storage_binding#path_pattern YqObjectStorageBinding#path_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/yq_object_storage_binding#path_pattern YqObjectStorageBinding#path_pattern}
   */
   readonly pathPattern: string;
   /**
   * Projection rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/yq_object_storage_binding#projection YqObjectStorageBinding#projection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/yq_object_storage_binding#projection YqObjectStorageBinding#projection}
   */
   readonly projection?: { [key: string]: string };
   /**
   * column block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/yq_object_storage_binding#column YqObjectStorageBinding#column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/yq_object_storage_binding#column YqObjectStorageBinding#column}
   */
   readonly column?: YqObjectStorageBindingColumn[] | cdktf.IResolvable;
 }
@@ -72,19 +72,19 @@ export interface YqObjectStorageBindingColumn {
   /**
   * Column name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/yq_object_storage_binding#name YqObjectStorageBinding#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/yq_object_storage_binding#name YqObjectStorageBinding#name}
   */
   readonly name: string;
   /**
   * A column cannot have the NULL data type. Default: `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/yq_object_storage_binding#not_null YqObjectStorageBinding#not_null}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/yq_object_storage_binding#not_null YqObjectStorageBinding#not_null}
   */
   readonly notNull?: boolean | cdktf.IResolvable;
   /**
   * Column data type. YQL data types are used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/yq_object_storage_binding#type YqObjectStorageBinding#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/yq_object_storage_binding#type YqObjectStorageBinding#type}
   */
   readonly type?: string;
 }
@@ -255,7 +255,7 @@ export class YqObjectStorageBindingColumnList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/yq_object_storage_binding yandex_yq_object_storage_binding}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/yq_object_storage_binding yandex_yq_object_storage_binding}
 */
 export class YqObjectStorageBinding extends cdktf.TerraformResource {
 
@@ -271,7 +271,7 @@ export class YqObjectStorageBinding extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a YqObjectStorageBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the YqObjectStorageBinding to import
-  * @param importFromId The id of the existing YqObjectStorageBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/yq_object_storage_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing YqObjectStorageBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/yq_object_storage_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the YqObjectStorageBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -283,7 +283,7 @@ export class YqObjectStorageBinding extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/yq_object_storage_binding yandex_yq_object_storage_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/yq_object_storage_binding yandex_yq_object_storage_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -294,8 +294,8 @@ export class YqObjectStorageBinding extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_yq_object_storage_binding',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.172.0',
-        providerVersionConstraint: '0.172.0'
+        providerVersion: '0.173.0',
+        providerVersionConstraint: '0.173.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

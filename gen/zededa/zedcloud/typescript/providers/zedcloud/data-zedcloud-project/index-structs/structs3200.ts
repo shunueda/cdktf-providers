@@ -1,12 +1,28 @@
 import * as cdktf from 'cdktf';
-import { DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentInterfacesAclsActions,
-dataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentInterfacesAclsActionsToTerraform,
-dataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentInterfacesAclsActionsToHclTerraform,
-DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentInterfacesAclsActionsList,
-DataZedcloudProjectConfigurationLockPolicyModulePolicyApps,
-dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsToTerraform,
-dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsToHclTerraform,
-DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsList,
+import { DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfacesAclsActions,
+dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfacesAclsActionsToTerraform,
+dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfacesAclsActionsToHclTerraform,
+DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfacesAclsActionsList,
+DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonConfiguration,
+dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonConfigurationToTerraform,
+dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonConfigurationToHclTerraform,
+DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonConfigurationList,
+DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonContainerDetail,
+dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonContainerDetailToTerraform,
+dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonContainerDetailToHclTerraform,
+DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonContainerDetailList,
+DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonDesc,
+dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonDescToTerraform,
+dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonDescToHclTerraform,
+DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonDescList,
+DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonImages,
+dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonImagesToTerraform,
+dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonImagesToHclTerraform,
+DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonImagesList,
+DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsInterfaces,
+dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsInterfacesToTerraform,
+dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsInterfacesToHclTerraform,
+DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsInterfacesList,
 DataZedcloudProjectConfigurationLockPolicyRevisionList,
 DataZedcloudProjectConfigurationLockPolicyAppPolicy,
 dataZedcloudProjectConfigurationLockPolicyAppPolicyToTerraform,
@@ -36,17 +52,3662 @@ DataZedcloudProjectConfigurationLockPolicyLocalOperatorConsolePolicy,
 dataZedcloudProjectConfigurationLockPolicyLocalOperatorConsolePolicyToTerraform,
 dataZedcloudProjectConfigurationLockPolicyLocalOperatorConsolePolicyToHclTerraform,
 DataZedcloudProjectConfigurationLockPolicyLocalOperatorConsolePolicyList } from './structs2800'
+export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfacesAclsMatches {
+  /**
+  * Type of Match (Required)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#type DataZedcloudProject#type}
+  */
+  readonly type?: string;
+  /**
+  * Value of match (Required)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#value DataZedcloudProject#value}
+  */
+  readonly value?: string;
+}
+
+export function dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfacesAclsMatchesToTerraform(struct?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfacesAclsMatches | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    type: cdktf.stringToTerraform(struct!.type),
+    value: cdktf.stringToTerraform(struct!.value),
+  }
+}
+
+
+export function dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfacesAclsMatchesToHclTerraform(struct?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfacesAclsMatches | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    type: {
+      value: cdktf.stringToHclTerraform(struct!.type),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    value: {
+      value: cdktf.stringToHclTerraform(struct!.value),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfacesAclsMatchesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfacesAclsMatches | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    if (this._value !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.value = this._value;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfacesAclsMatches | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._type = undefined;
+      this._value = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._type = value.type;
+      this._value = value.value;
+    }
+  }
+
+  // type - computed: false, optional: true, required: false
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  public resetType() {
+    this._type = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+
+  // value - computed: false, optional: true, required: false
+  private _value?: string; 
+  public get value() {
+    return this.getStringAttribute('value');
+  }
+  public set value(value: string) {
+    this._value = value;
+  }
+  public resetValue() {
+    this._value = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get valueInput() {
+    return this._value;
+  }
+}
+
+export class DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfacesAclsMatchesList extends cdktf.ComplexList {
+  public internalValue? : DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfacesAclsMatches[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfacesAclsMatchesOutputReference {
+    return new DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfacesAclsMatchesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfacesAcls {
+  /**
+  * Name of the Access Control List
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#name DataZedcloudProject#name}
+  */
+  readonly name?: string;
+  /**
+  * actions block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#actions DataZedcloudProject#actions}
+  */
+  readonly actions?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfacesAclsActions[] | cdktf.IResolvable;
+  /**
+  * matches block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#matches DataZedcloudProject#matches}
+  */
+  readonly matches?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfacesAclsMatches[] | cdktf.IResolvable;
+}
+
+export function dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfacesAclsToTerraform(struct?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfacesAcls | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    actions: cdktf.listMapper(dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfacesAclsActionsToTerraform, true)(struct!.actions),
+    matches: cdktf.listMapper(dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfacesAclsMatchesToTerraform, true)(struct!.matches),
+  }
+}
+
+
+export function dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfacesAclsToHclTerraform(struct?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfacesAcls | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    actions: {
+      value: cdktf.listMapperHcl(dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfacesAclsActionsToHclTerraform, true)(struct!.actions),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfacesAclsActionsList",
+    },
+    matches: {
+      value: cdktf.listMapperHcl(dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfacesAclsMatchesToHclTerraform, true)(struct!.matches),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfacesAclsMatchesList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfacesAclsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfacesAcls | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._actions?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.actions = this._actions?.internalValue;
+    }
+    if (this._matches?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.matches = this._matches?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfacesAcls | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._actions.internalValue = undefined;
+      this._matches.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._actions.internalValue = value.actions;
+      this._matches.internalValue = value.matches;
+    }
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // actions - computed: false, optional: true, required: false
+  private _actions = new DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfacesAclsActionsList(this, "actions", false);
+  public get actions() {
+    return this._actions;
+  }
+  public putActions(value: DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfacesAclsActions[] | cdktf.IResolvable) {
+    this._actions.internalValue = value;
+  }
+  public resetActions() {
+    this._actions.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get actionsInput() {
+    return this._actions.internalValue;
+  }
+
+  // matches - computed: false, optional: true, required: false
+  private _matches = new DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfacesAclsMatchesList(this, "matches", false);
+  public get matches() {
+    return this._matches;
+  }
+  public putMatches(value: DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfacesAclsMatches[] | cdktf.IResolvable) {
+    this._matches.internalValue = value;
+  }
+  public resetMatches() {
+    this._matches.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get matchesInput() {
+    return this._matches.internalValue;
+  }
+}
+
+export class DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfacesAclsList extends cdktf.ComplexList {
+  public internalValue? : DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfacesAcls[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfacesAclsOutputReference {
+    return new DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfacesAclsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfaces {
+  /**
+  * If true, a physical adapter is assigned to the edge application directly. If false, a network instance is assigned to the edge application.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#directattach DataZedcloudProject#directattach}
+  */
+  readonly directattach?: boolean | cdktf.IResolvable;
+  /**
+  * Interface name used by the edge application
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#name DataZedcloudProject#name}
+  */
+  readonly name?: string;
+  /**
+  * Indicates if the interface is optional for edge application.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#optional DataZedcloudProject#optional}
+  */
+  readonly optional?: boolean | cdktf.IResolvable;
+  /**
+  * If true, DHCP network can't be assigned and user needs to provide a static IP address.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#privateip DataZedcloudProject#privateip}
+  */
+  readonly privateip?: boolean | cdktf.IResolvable;
+  /**
+  * Physical Adapter type for this interface. Applicable only when "direct attach" flag is true.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#type DataZedcloudProject#type}
+  */
+  readonly type?: string;
+  /**
+  * acls block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#acls DataZedcloudProject#acls}
+  */
+  readonly acls?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfacesAcls[] | cdktf.IResolvable;
+}
+
+export function dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfacesToTerraform(struct?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfaces | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    directattach: cdktf.booleanToTerraform(struct!.directattach),
+    name: cdktf.stringToTerraform(struct!.name),
+    optional: cdktf.booleanToTerraform(struct!.optional),
+    privateip: cdktf.booleanToTerraform(struct!.privateip),
+    type: cdktf.stringToTerraform(struct!.type),
+    acls: cdktf.listMapper(dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfacesAclsToTerraform, true)(struct!.acls),
+  }
+}
+
+
+export function dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfacesToHclTerraform(struct?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfaces | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    directattach: {
+      value: cdktf.booleanToHclTerraform(struct!.directattach),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    optional: {
+      value: cdktf.booleanToHclTerraform(struct!.optional),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    privateip: {
+      value: cdktf.booleanToHclTerraform(struct!.privateip),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    type: {
+      value: cdktf.stringToHclTerraform(struct!.type),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    acls: {
+      value: cdktf.listMapperHcl(dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfacesAclsToHclTerraform, true)(struct!.acls),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfacesAclsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfacesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfaces | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._directattach !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.directattach = this._directattach;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._optional !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.optional = this._optional;
+    }
+    if (this._privateip !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.privateip = this._privateip;
+    }
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    if (this._acls?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.acls = this._acls?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfaces | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._directattach = undefined;
+      this._name = undefined;
+      this._optional = undefined;
+      this._privateip = undefined;
+      this._type = undefined;
+      this._acls.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._directattach = value.directattach;
+      this._name = value.name;
+      this._optional = value.optional;
+      this._privateip = value.privateip;
+      this._type = value.type;
+      this._acls.internalValue = value.acls;
+    }
+  }
+
+  // directattach - computed: false, optional: true, required: false
+  private _directattach?: boolean | cdktf.IResolvable; 
+  public get directattach() {
+    return this.getBooleanAttribute('directattach');
+  }
+  public set directattach(value: boolean | cdktf.IResolvable) {
+    this._directattach = value;
+  }
+  public resetDirectattach() {
+    this._directattach = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get directattachInput() {
+    return this._directattach;
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // optional - computed: false, optional: true, required: false
+  private _optional?: boolean | cdktf.IResolvable; 
+  public get optional() {
+    return this.getBooleanAttribute('optional');
+  }
+  public set optional(value: boolean | cdktf.IResolvable) {
+    this._optional = value;
+  }
+  public resetOptional() {
+    this._optional = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get optionalInput() {
+    return this._optional;
+  }
+
+  // privateip - computed: false, optional: true, required: false
+  private _privateip?: boolean | cdktf.IResolvable; 
+  public get privateip() {
+    return this.getBooleanAttribute('privateip');
+  }
+  public set privateip(value: boolean | cdktf.IResolvable) {
+    this._privateip = value;
+  }
+  public resetPrivateip() {
+    this._privateip = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get privateipInput() {
+    return this._privateip;
+  }
+
+  // type - computed: false, optional: true, required: false
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  public resetType() {
+    this._type = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+
+  // acls - computed: false, optional: true, required: false
+  private _acls = new DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfacesAclsList(this, "acls", false);
+  public get acls() {
+    return this._acls;
+  }
+  public putAcls(value: DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfacesAcls[] | cdktf.IResolvable) {
+    this._acls.internalValue = value;
+  }
+  public resetAcls() {
+    this._acls.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get aclsInput() {
+    return this._acls.internalValue;
+  }
+}
+
+export class DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfacesList extends cdktf.ComplexList {
+  public internalValue? : DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfaces[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfacesOutputReference {
+    return new DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfacesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonModule {
+  /**
+  * Extra information to module to make configuration easier
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#environment DataZedcloudProject#environment}
+  */
+  readonly environment?: { [key: string]: string };
+  /**
+  * Type of modules
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#module_type DataZedcloudProject#module_type}
+  */
+  readonly moduleType?: string;
+  /**
+  * Send messages between modules or send messages from modules to iot hub
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#routes DataZedcloudProject#routes}
+  */
+  readonly routes?: { [key: string]: string };
+  /**
+  * Base64 encoded module twin details, desired properties of the module will be updated to reflect these values
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#twin_detail DataZedcloudProject#twin_detail}
+  */
+  readonly twinDetail?: string;
+}
+
+export function dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonModuleToTerraform(struct?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonModule | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    environment: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.environment),
+    module_type: cdktf.stringToTerraform(struct!.moduleType),
+    routes: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.routes),
+    twin_detail: cdktf.stringToTerraform(struct!.twinDetail),
+  }
+}
+
+
+export function dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonModuleToHclTerraform(struct?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonModule | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    environment: {
+      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.environment),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
+    },
+    module_type: {
+      value: cdktf.stringToHclTerraform(struct!.moduleType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    routes: {
+      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.routes),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
+    },
+    twin_detail: {
+      value: cdktf.stringToHclTerraform(struct!.twinDetail),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonModuleOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonModule | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._environment !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.environment = this._environment;
+    }
+    if (this._moduleType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.moduleType = this._moduleType;
+    }
+    if (this._routes !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.routes = this._routes;
+    }
+    if (this._twinDetail !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.twinDetail = this._twinDetail;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonModule | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._environment = undefined;
+      this._moduleType = undefined;
+      this._routes = undefined;
+      this._twinDetail = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._environment = value.environment;
+      this._moduleType = value.moduleType;
+      this._routes = value.routes;
+      this._twinDetail = value.twinDetail;
+    }
+  }
+
+  // environment - computed: false, optional: true, required: false
+  private _environment?: { [key: string]: string }; 
+  public get environment() {
+    return this.getStringMapAttribute('environment');
+  }
+  public set environment(value: { [key: string]: string }) {
+    this._environment = value;
+  }
+  public resetEnvironment() {
+    this._environment = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get environmentInput() {
+    return this._environment;
+  }
+
+  // module_type - computed: false, optional: true, required: false
+  private _moduleType?: string; 
+  public get moduleType() {
+    return this.getStringAttribute('module_type');
+  }
+  public set moduleType(value: string) {
+    this._moduleType = value;
+  }
+  public resetModuleType() {
+    this._moduleType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get moduleTypeInput() {
+    return this._moduleType;
+  }
+
+  // routes - computed: false, optional: true, required: false
+  private _routes?: { [key: string]: string }; 
+  public get routes() {
+    return this.getStringMapAttribute('routes');
+  }
+  public set routes(value: { [key: string]: string }) {
+    this._routes = value;
+  }
+  public resetRoutes() {
+    this._routes = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get routesInput() {
+    return this._routes;
+  }
+
+  // twin_detail - computed: false, optional: true, required: false
+  private _twinDetail?: string; 
+  public get twinDetail() {
+    return this.getStringAttribute('twin_detail');
+  }
+  public set twinDetail(value: string) {
+    this._twinDetail = value;
+  }
+  public resetTwinDetail() {
+    this._twinDetail = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get twinDetailInput() {
+    return this._twinDetail;
+  }
+}
+
+export class DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonModuleList extends cdktf.ComplexList {
+  public internalValue? : DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonModule[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonModuleOutputReference {
+    return new DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonModuleOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonOwner {
+  /**
+  * UI map: AppEditPage:IdentityPane:Category_Field, AppDetailsPage:IdentityPane:Category_Field
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#company DataZedcloudProject#company}
+  */
+  readonly company?: string;
+  /**
+  * UI map: AppEditPage:DeveloperPane:Email_Field, AppDetailsPage:DeveloperPane:Email_Field
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#email DataZedcloudProject#email}
+  */
+  readonly email?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#group DataZedcloudProject#group}
+  */
+  readonly group?: string;
+  /**
+  * UI map: AppEditPage:DeveloperPane:Name_Field, AppDetailsPage:DeveloperPane:Name_Field
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#user DataZedcloudProject#user}
+  */
+  readonly user?: string;
+  /**
+  * UI map: AppEditPage:DeveloperPane:Website_Field, AppDetailsPage:DeveloperPane:Website_Field
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#website DataZedcloudProject#website}
+  */
+  readonly website?: string;
+}
+
+export function dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonOwnerToTerraform(struct?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonOwner | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    company: cdktf.stringToTerraform(struct!.company),
+    email: cdktf.stringToTerraform(struct!.email),
+    group: cdktf.stringToTerraform(struct!.group),
+    user: cdktf.stringToTerraform(struct!.user),
+    website: cdktf.stringToTerraform(struct!.website),
+  }
+}
+
+
+export function dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonOwnerToHclTerraform(struct?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonOwner | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    company: {
+      value: cdktf.stringToHclTerraform(struct!.company),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    email: {
+      value: cdktf.stringToHclTerraform(struct!.email),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    group: {
+      value: cdktf.stringToHclTerraform(struct!.group),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    user: {
+      value: cdktf.stringToHclTerraform(struct!.user),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    website: {
+      value: cdktf.stringToHclTerraform(struct!.website),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonOwnerOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonOwner | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._company !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.company = this._company;
+    }
+    if (this._email !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.email = this._email;
+    }
+    if (this._group !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.group = this._group;
+    }
+    if (this._user !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.user = this._user;
+    }
+    if (this._website !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.website = this._website;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonOwner | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._company = undefined;
+      this._email = undefined;
+      this._group = undefined;
+      this._user = undefined;
+      this._website = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._company = value.company;
+      this._email = value.email;
+      this._group = value.group;
+      this._user = value.user;
+      this._website = value.website;
+    }
+  }
+
+  // company - computed: false, optional: true, required: false
+  private _company?: string; 
+  public get company() {
+    return this.getStringAttribute('company');
+  }
+  public set company(value: string) {
+    this._company = value;
+  }
+  public resetCompany() {
+    this._company = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get companyInput() {
+    return this._company;
+  }
+
+  // email - computed: false, optional: true, required: false
+  private _email?: string; 
+  public get email() {
+    return this.getStringAttribute('email');
+  }
+  public set email(value: string) {
+    this._email = value;
+  }
+  public resetEmail() {
+    this._email = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get emailInput() {
+    return this._email;
+  }
+
+  // group - computed: false, optional: true, required: false
+  private _group?: string; 
+  public get group() {
+    return this.getStringAttribute('group');
+  }
+  public set group(value: string) {
+    this._group = value;
+  }
+  public resetGroup() {
+    this._group = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get groupInput() {
+    return this._group;
+  }
+
+  // user - computed: false, optional: true, required: false
+  private _user?: string; 
+  public get user() {
+    return this.getStringAttribute('user');
+  }
+  public set user(value: string) {
+    this._user = value;
+  }
+  public resetUser() {
+    this._user = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get userInput() {
+    return this._user;
+  }
+
+  // website - computed: false, optional: true, required: false
+  private _website?: string; 
+  public get website() {
+    return this.getStringAttribute('website');
+  }
+  public set website(value: string) {
+    this._website = value;
+  }
+  public resetWebsite() {
+    this._website = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get websiteInput() {
+    return this._website;
+  }
+}
+
+export class DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonOwnerList extends cdktf.ComplexList {
+  public internalValue? : DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonOwner[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonOwnerOutputReference {
+    return new DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonOwnerOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonPermissions {
+}
+
+export function dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonPermissionsToTerraform(struct?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonPermissions | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonPermissionsToHclTerraform(struct?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonPermissions | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonPermissionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonPermissions | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonPermissions | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+    }
+  }
+}
+
+export class DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonPermissionsList extends cdktf.ComplexList {
+  public internalValue? : DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonPermissions[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonPermissionsOutputReference {
+    return new DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonPermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonResources {
+  /**
+  * Name of the Resource (Required)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#name DataZedcloudProject#name}
+  */
+  readonly name?: string;
+  /**
+  * Value of Resource (Required)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#value DataZedcloudProject#value}
+  */
+  readonly value?: string;
+}
+
+export function dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonResourcesToTerraform(struct?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonResources | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    value: cdktf.stringToTerraform(struct!.value),
+  }
+}
+
+
+export function dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonResourcesToHclTerraform(struct?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonResources | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    value: {
+      value: cdktf.stringToHclTerraform(struct!.value),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonResourcesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonResources | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._value !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.value = this._value;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonResources | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._value = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._value = value.value;
+    }
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // value - computed: false, optional: true, required: false
+  private _value?: string; 
+  public get value() {
+    return this.getStringAttribute('value');
+  }
+  public set value(value: string) {
+    this._value = value;
+  }
+  public resetValue() {
+    this._value = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get valueInput() {
+    return this._value;
+  }
+}
+
+export class DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonResourcesList extends cdktf.ComplexList {
+  public internalValue? : DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonResources[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonResourcesOutputReference {
+    return new DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonResourcesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJson {
+  /**
+  * UI map: N/A - not exposed to users
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#ac_kind DataZedcloudProject#ac_kind}
+  */
+  readonly acKind: string;
+  /**
+  * UI map: N/A - not exposed to users
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#ac_version DataZedcloudProject#ac_version}
+  */
+  readonly acVersion: string;
+  /**
+  * App (bundle) type. The correct values are: "APP_TYPE_UNSPECIFIED","APP_TYPE_VM","APP_TYPE_VM_RUNTIME","APP_TYPE_CONTAINER","APP_TYPE_MODULE", "APP_TYPE_DOCKER_COMPOSE".
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#app_type DataZedcloudProject#app_type}
+  */
+  readonly appType?: string;
+  /**
+  * Enable CpuPinning
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#cpu_pinning_enabled DataZedcloudProject#cpu_pinning_enabled}
+  */
+  readonly cpuPinningEnabled?: boolean | cdktf.IResolvable;
+  /**
+  * Deployment type for the app. The correct values are: "DEPLOYMENT_TYPE_UNSPECIFIED","DEPLOYMENT_TYPE_STAND_ALONE","DEPLOYMENT_TYPE_AZURE","DEPLOYMENT_TYPE_K3S","DEPLOYMENT_TYPE_AWS","DEPLOYMENT_TYPE_K3S_AZURE","DEPLOYMENT_TYPE_K3S_AWS","DEPLOYMENT_TYPE_VMWARE_VCE".
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#deployment_type DataZedcloudProject#deployment_type}
+  */
+  readonly deploymentType?: string;
+  /**
+  * UI map: AppDetailsPage:IdentityPane:DescriptionField, AppMarketplacePage:AppCard:DescriptionField
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#description DataZedcloudProject#description}
+  */
+  readonly description?: string;
+  /**
+  * UI map: AppEditPage:IdentityPane:DISABLEVTPM_Field, AppDetailsPage:IdentityPane:DISABLEVTPM_Field
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#disable_v_t_p_m DataZedcloudProject#disable_v_t_p_m}
+  */
+  readonly disableVTPM?: boolean | cdktf.IResolvable;
+  /**
+  * UI map: AppEditPage:IdentityPane:Title_Field, AppDetailsPage:IdentityPane:Title_Field
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#display_name DataZedcloudProject#display_name}
+  */
+  readonly displayName?: string;
+  /**
+  * Docker compose tar image name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#docker_compose_tar_image_name DataZedcloudProject#docker_compose_tar_image_name}
+  */
+  readonly dockerComposeTarImageName?: string;
+  /**
+  * Docker compose base64 encoded plain text
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#docker_compose_yaml_text DataZedcloudProject#docker_compose_yaml_text}
+  */
+  readonly dockerComposeYamlText?: string;
+  /**
+  * UI map: AppEditPage:IdentityPane:ENABLEVMCONFIG_Field, AppDetailsPage:IdentityPane:ENABLEVMCONFIG_Field
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#enable_oem_win_license_key DataZedcloudProject#enable_oem_win_license_key}
+  */
+  readonly enableOemWinLicenseKey?: boolean | cdktf.IResolvable;
+  /**
+  * UI map: AppEditPage:IdentityPane:VNC_Field, AppDetailsPage:IdentityPane:VNC_Field
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#enablevnc DataZedcloudProject#enablevnc}
+  */
+  readonly enablevnc?: boolean | cdktf.IResolvable;
+  /**
+  * UI map: AppEditPage:IdentityPane:Name_Field, AppDetailsPage:IdentityPane:Name_Field
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#name DataZedcloudProject#name}
+  */
+  readonly name: string;
+  /**
+  * Size of persistent blank storage for runtime in bytes
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#persistent_runtime_size_bytes DataZedcloudProject#persistent_runtime_size_bytes}
+  */
+  readonly persistentRuntimeSizeBytes?: string;
+  /**
+  * Indicates the internal communication protocol to pass configuration between Zedcloud and docker-compose runtime
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#runtime_protocol_version DataZedcloudProject#runtime_protocol_version}
+  */
+  readonly runtimeProtocolVersion?: string;
+  /**
+  * Indicates the version of container orchestration software
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#runtime_version DataZedcloudProject#runtime_version}
+  */
+  readonly runtimeVersion?: string;
+  /**
+  * UI map: AppEditPage:IdentityPane:VM_Mode_Field, AppDetailsPage:IdentityPane:VM_Mode_Field
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#vmmode DataZedcloudProject#vmmode}
+  */
+  readonly vmmode?: string;
+  /**
+  * configuration block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#configuration DataZedcloudProject#configuration}
+  */
+  readonly configuration?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonConfiguration[] | cdktf.IResolvable;
+  /**
+  * container_detail block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#container_detail DataZedcloudProject#container_detail}
+  */
+  readonly containerDetail?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonContainerDetail[] | cdktf.IResolvable;
+  /**
+  * desc block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#desc DataZedcloudProject#desc}
+  */
+  readonly desc?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonDesc[] | cdktf.IResolvable;
+  /**
+  * images block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#images DataZedcloudProject#images}
+  */
+  readonly images?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonImages[] | cdktf.IResolvable;
+  /**
+  * interfaces block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#interfaces DataZedcloudProject#interfaces}
+  */
+  readonly interfaces?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfaces[] | cdktf.IResolvable;
+  /**
+  * module block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#module DataZedcloudProject#module}
+  */
+  readonly module?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonModule[] | cdktf.IResolvable;
+  /**
+  * owner block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#owner DataZedcloudProject#owner}
+  */
+  readonly owner?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonOwner[] | cdktf.IResolvable;
+  /**
+  * permissions block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#permissions DataZedcloudProject#permissions}
+  */
+  readonly permissions?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonPermissions[] | cdktf.IResolvable;
+  /**
+  * resources block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#resources DataZedcloudProject#resources}
+  */
+  readonly resources?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonResources[] | cdktf.IResolvable;
+}
+
+export function dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonToTerraform(struct?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJson | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    ac_kind: cdktf.stringToTerraform(struct!.acKind),
+    ac_version: cdktf.stringToTerraform(struct!.acVersion),
+    app_type: cdktf.stringToTerraform(struct!.appType),
+    cpu_pinning_enabled: cdktf.booleanToTerraform(struct!.cpuPinningEnabled),
+    deployment_type: cdktf.stringToTerraform(struct!.deploymentType),
+    description: cdktf.stringToTerraform(struct!.description),
+    disable_v_t_p_m: cdktf.booleanToTerraform(struct!.disableVTPM),
+    display_name: cdktf.stringToTerraform(struct!.displayName),
+    docker_compose_tar_image_name: cdktf.stringToTerraform(struct!.dockerComposeTarImageName),
+    docker_compose_yaml_text: cdktf.stringToTerraform(struct!.dockerComposeYamlText),
+    enable_oem_win_license_key: cdktf.booleanToTerraform(struct!.enableOemWinLicenseKey),
+    enablevnc: cdktf.booleanToTerraform(struct!.enablevnc),
+    name: cdktf.stringToTerraform(struct!.name),
+    persistent_runtime_size_bytes: cdktf.stringToTerraform(struct!.persistentRuntimeSizeBytes),
+    runtime_protocol_version: cdktf.stringToTerraform(struct!.runtimeProtocolVersion),
+    runtime_version: cdktf.stringToTerraform(struct!.runtimeVersion),
+    vmmode: cdktf.stringToTerraform(struct!.vmmode),
+    configuration: cdktf.listMapper(dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonConfigurationToTerraform, true)(struct!.configuration),
+    container_detail: cdktf.listMapper(dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonContainerDetailToTerraform, true)(struct!.containerDetail),
+    desc: cdktf.listMapper(dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonDescToTerraform, true)(struct!.desc),
+    images: cdktf.listMapper(dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonImagesToTerraform, true)(struct!.images),
+    interfaces: cdktf.listMapper(dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfacesToTerraform, true)(struct!.interfaces),
+    module: cdktf.listMapper(dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonModuleToTerraform, true)(struct!.module),
+    owner: cdktf.listMapper(dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonOwnerToTerraform, true)(struct!.owner),
+    permissions: cdktf.listMapper(dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonPermissionsToTerraform, true)(struct!.permissions),
+    resources: cdktf.listMapper(dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonResourcesToTerraform, true)(struct!.resources),
+  }
+}
+
+
+export function dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonToHclTerraform(struct?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJson | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    ac_kind: {
+      value: cdktf.stringToHclTerraform(struct!.acKind),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    ac_version: {
+      value: cdktf.stringToHclTerraform(struct!.acVersion),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    app_type: {
+      value: cdktf.stringToHclTerraform(struct!.appType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    cpu_pinning_enabled: {
+      value: cdktf.booleanToHclTerraform(struct!.cpuPinningEnabled),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    deployment_type: {
+      value: cdktf.stringToHclTerraform(struct!.deploymentType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    description: {
+      value: cdktf.stringToHclTerraform(struct!.description),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    disable_v_t_p_m: {
+      value: cdktf.booleanToHclTerraform(struct!.disableVTPM),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    display_name: {
+      value: cdktf.stringToHclTerraform(struct!.displayName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    docker_compose_tar_image_name: {
+      value: cdktf.stringToHclTerraform(struct!.dockerComposeTarImageName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    docker_compose_yaml_text: {
+      value: cdktf.stringToHclTerraform(struct!.dockerComposeYamlText),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    enable_oem_win_license_key: {
+      value: cdktf.booleanToHclTerraform(struct!.enableOemWinLicenseKey),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    enablevnc: {
+      value: cdktf.booleanToHclTerraform(struct!.enablevnc),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    persistent_runtime_size_bytes: {
+      value: cdktf.stringToHclTerraform(struct!.persistentRuntimeSizeBytes),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    runtime_protocol_version: {
+      value: cdktf.stringToHclTerraform(struct!.runtimeProtocolVersion),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    runtime_version: {
+      value: cdktf.stringToHclTerraform(struct!.runtimeVersion),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    vmmode: {
+      value: cdktf.stringToHclTerraform(struct!.vmmode),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    configuration: {
+      value: cdktf.listMapperHcl(dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonConfigurationToHclTerraform, true)(struct!.configuration),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonConfigurationList",
+    },
+    container_detail: {
+      value: cdktf.listMapperHcl(dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonContainerDetailToHclTerraform, true)(struct!.containerDetail),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonContainerDetailList",
+    },
+    desc: {
+      value: cdktf.listMapperHcl(dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonDescToHclTerraform, true)(struct!.desc),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonDescList",
+    },
+    images: {
+      value: cdktf.listMapperHcl(dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonImagesToHclTerraform, true)(struct!.images),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonImagesList",
+    },
+    interfaces: {
+      value: cdktf.listMapperHcl(dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfacesToHclTerraform, true)(struct!.interfaces),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfacesList",
+    },
+    module: {
+      value: cdktf.listMapperHcl(dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonModuleToHclTerraform, true)(struct!.module),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonModuleList",
+    },
+    owner: {
+      value: cdktf.listMapperHcl(dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonOwnerToHclTerraform, true)(struct!.owner),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonOwnerList",
+    },
+    permissions: {
+      value: cdktf.listMapperHcl(dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonPermissionsToHclTerraform, true)(struct!.permissions),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonPermissionsList",
+    },
+    resources: {
+      value: cdktf.listMapperHcl(dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonResourcesToHclTerraform, true)(struct!.resources),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonResourcesList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJson | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._acKind !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.acKind = this._acKind;
+    }
+    if (this._acVersion !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.acVersion = this._acVersion;
+    }
+    if (this._appType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.appType = this._appType;
+    }
+    if (this._cpuPinningEnabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cpuPinningEnabled = this._cpuPinningEnabled;
+    }
+    if (this._deploymentType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.deploymentType = this._deploymentType;
+    }
+    if (this._description !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.description = this._description;
+    }
+    if (this._disableVTPM !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.disableVTPM = this._disableVTPM;
+    }
+    if (this._displayName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.displayName = this._displayName;
+    }
+    if (this._dockerComposeTarImageName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dockerComposeTarImageName = this._dockerComposeTarImageName;
+    }
+    if (this._dockerComposeYamlText !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dockerComposeYamlText = this._dockerComposeYamlText;
+    }
+    if (this._enableOemWinLicenseKey !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enableOemWinLicenseKey = this._enableOemWinLicenseKey;
+    }
+    if (this._enablevnc !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enablevnc = this._enablevnc;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._persistentRuntimeSizeBytes !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.persistentRuntimeSizeBytes = this._persistentRuntimeSizeBytes;
+    }
+    if (this._runtimeProtocolVersion !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.runtimeProtocolVersion = this._runtimeProtocolVersion;
+    }
+    if (this._runtimeVersion !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.runtimeVersion = this._runtimeVersion;
+    }
+    if (this._vmmode !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vmmode = this._vmmode;
+    }
+    if (this._configuration?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.configuration = this._configuration?.internalValue;
+    }
+    if (this._containerDetail?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.containerDetail = this._containerDetail?.internalValue;
+    }
+    if (this._desc?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.desc = this._desc?.internalValue;
+    }
+    if (this._images?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.images = this._images?.internalValue;
+    }
+    if (this._interfaces?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.interfaces = this._interfaces?.internalValue;
+    }
+    if (this._module?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.module = this._module?.internalValue;
+    }
+    if (this._owner?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.owner = this._owner?.internalValue;
+    }
+    if (this._permissions?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.permissions = this._permissions?.internalValue;
+    }
+    if (this._resources?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.resources = this._resources?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJson | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._acKind = undefined;
+      this._acVersion = undefined;
+      this._appType = undefined;
+      this._cpuPinningEnabled = undefined;
+      this._deploymentType = undefined;
+      this._description = undefined;
+      this._disableVTPM = undefined;
+      this._displayName = undefined;
+      this._dockerComposeTarImageName = undefined;
+      this._dockerComposeYamlText = undefined;
+      this._enableOemWinLicenseKey = undefined;
+      this._enablevnc = undefined;
+      this._name = undefined;
+      this._persistentRuntimeSizeBytes = undefined;
+      this._runtimeProtocolVersion = undefined;
+      this._runtimeVersion = undefined;
+      this._vmmode = undefined;
+      this._configuration.internalValue = undefined;
+      this._containerDetail.internalValue = undefined;
+      this._desc.internalValue = undefined;
+      this._images.internalValue = undefined;
+      this._interfaces.internalValue = undefined;
+      this._module.internalValue = undefined;
+      this._owner.internalValue = undefined;
+      this._permissions.internalValue = undefined;
+      this._resources.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._acKind = value.acKind;
+      this._acVersion = value.acVersion;
+      this._appType = value.appType;
+      this._cpuPinningEnabled = value.cpuPinningEnabled;
+      this._deploymentType = value.deploymentType;
+      this._description = value.description;
+      this._disableVTPM = value.disableVTPM;
+      this._displayName = value.displayName;
+      this._dockerComposeTarImageName = value.dockerComposeTarImageName;
+      this._dockerComposeYamlText = value.dockerComposeYamlText;
+      this._enableOemWinLicenseKey = value.enableOemWinLicenseKey;
+      this._enablevnc = value.enablevnc;
+      this._name = value.name;
+      this._persistentRuntimeSizeBytes = value.persistentRuntimeSizeBytes;
+      this._runtimeProtocolVersion = value.runtimeProtocolVersion;
+      this._runtimeVersion = value.runtimeVersion;
+      this._vmmode = value.vmmode;
+      this._configuration.internalValue = value.configuration;
+      this._containerDetail.internalValue = value.containerDetail;
+      this._desc.internalValue = value.desc;
+      this._images.internalValue = value.images;
+      this._interfaces.internalValue = value.interfaces;
+      this._module.internalValue = value.module;
+      this._owner.internalValue = value.owner;
+      this._permissions.internalValue = value.permissions;
+      this._resources.internalValue = value.resources;
+    }
+  }
+
+  // ac_kind - computed: false, optional: false, required: true
+  private _acKind?: string; 
+  public get acKind() {
+    return this.getStringAttribute('ac_kind');
+  }
+  public set acKind(value: string) {
+    this._acKind = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get acKindInput() {
+    return this._acKind;
+  }
+
+  // ac_version - computed: false, optional: false, required: true
+  private _acVersion?: string; 
+  public get acVersion() {
+    return this.getStringAttribute('ac_version');
+  }
+  public set acVersion(value: string) {
+    this._acVersion = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get acVersionInput() {
+    return this._acVersion;
+  }
+
+  // app_type - computed: false, optional: true, required: false
+  private _appType?: string; 
+  public get appType() {
+    return this.getStringAttribute('app_type');
+  }
+  public set appType(value: string) {
+    this._appType = value;
+  }
+  public resetAppType() {
+    this._appType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get appTypeInput() {
+    return this._appType;
+  }
+
+  // cpu_pinning_enabled - computed: false, optional: true, required: false
+  private _cpuPinningEnabled?: boolean | cdktf.IResolvable; 
+  public get cpuPinningEnabled() {
+    return this.getBooleanAttribute('cpu_pinning_enabled');
+  }
+  public set cpuPinningEnabled(value: boolean | cdktf.IResolvable) {
+    this._cpuPinningEnabled = value;
+  }
+  public resetCpuPinningEnabled() {
+    this._cpuPinningEnabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cpuPinningEnabledInput() {
+    return this._cpuPinningEnabled;
+  }
+
+  // deployment_type - computed: false, optional: true, required: false
+  private _deploymentType?: string; 
+  public get deploymentType() {
+    return this.getStringAttribute('deployment_type');
+  }
+  public set deploymentType(value: string) {
+    this._deploymentType = value;
+  }
+  public resetDeploymentType() {
+    this._deploymentType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deploymentTypeInput() {
+    return this._deploymentType;
+  }
+
+  // description - computed: false, optional: true, required: false
+  private _description?: string; 
+  public get description() {
+    return this.getStringAttribute('description');
+  }
+  public set description(value: string) {
+    this._description = value;
+  }
+  public resetDescription() {
+    this._description = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get descriptionInput() {
+    return this._description;
+  }
+
+  // disable_v_t_p_m - computed: false, optional: true, required: false
+  private _disableVTPM?: boolean | cdktf.IResolvable; 
+  public get disableVTPM() {
+    return this.getBooleanAttribute('disable_v_t_p_m');
+  }
+  public set disableVTPM(value: boolean | cdktf.IResolvable) {
+    this._disableVTPM = value;
+  }
+  public resetDisableVTPM() {
+    this._disableVTPM = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get disableVTPMInput() {
+    return this._disableVTPM;
+  }
+
+  // display_name - computed: false, optional: true, required: false
+  private _displayName?: string; 
+  public get displayName() {
+    return this.getStringAttribute('display_name');
+  }
+  public set displayName(value: string) {
+    this._displayName = value;
+  }
+  public resetDisplayName() {
+    this._displayName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get displayNameInput() {
+    return this._displayName;
+  }
+
+  // docker_compose_tar_image_name - computed: false, optional: true, required: false
+  private _dockerComposeTarImageName?: string; 
+  public get dockerComposeTarImageName() {
+    return this.getStringAttribute('docker_compose_tar_image_name');
+  }
+  public set dockerComposeTarImageName(value: string) {
+    this._dockerComposeTarImageName = value;
+  }
+  public resetDockerComposeTarImageName() {
+    this._dockerComposeTarImageName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dockerComposeTarImageNameInput() {
+    return this._dockerComposeTarImageName;
+  }
+
+  // docker_compose_yaml_text - computed: false, optional: true, required: false
+  private _dockerComposeYamlText?: string; 
+  public get dockerComposeYamlText() {
+    return this.getStringAttribute('docker_compose_yaml_text');
+  }
+  public set dockerComposeYamlText(value: string) {
+    this._dockerComposeYamlText = value;
+  }
+  public resetDockerComposeYamlText() {
+    this._dockerComposeYamlText = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dockerComposeYamlTextInput() {
+    return this._dockerComposeYamlText;
+  }
+
+  // enable_oem_win_license_key - computed: false, optional: true, required: false
+  private _enableOemWinLicenseKey?: boolean | cdktf.IResolvable; 
+  public get enableOemWinLicenseKey() {
+    return this.getBooleanAttribute('enable_oem_win_license_key');
+  }
+  public set enableOemWinLicenseKey(value: boolean | cdktf.IResolvable) {
+    this._enableOemWinLicenseKey = value;
+  }
+  public resetEnableOemWinLicenseKey() {
+    this._enableOemWinLicenseKey = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableOemWinLicenseKeyInput() {
+    return this._enableOemWinLicenseKey;
+  }
+
+  // enablevnc - computed: false, optional: true, required: false
+  private _enablevnc?: boolean | cdktf.IResolvable; 
+  public get enablevnc() {
+    return this.getBooleanAttribute('enablevnc');
+  }
+  public set enablevnc(value: boolean | cdktf.IResolvable) {
+    this._enablevnc = value;
+  }
+  public resetEnablevnc() {
+    this._enablevnc = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enablevncInput() {
+    return this._enablevnc;
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // persistent_runtime_size_bytes - computed: false, optional: true, required: false
+  private _persistentRuntimeSizeBytes?: string; 
+  public get persistentRuntimeSizeBytes() {
+    return this.getStringAttribute('persistent_runtime_size_bytes');
+  }
+  public set persistentRuntimeSizeBytes(value: string) {
+    this._persistentRuntimeSizeBytes = value;
+  }
+  public resetPersistentRuntimeSizeBytes() {
+    this._persistentRuntimeSizeBytes = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get persistentRuntimeSizeBytesInput() {
+    return this._persistentRuntimeSizeBytes;
+  }
+
+  // runtime_protocol_version - computed: false, optional: true, required: false
+  private _runtimeProtocolVersion?: string; 
+  public get runtimeProtocolVersion() {
+    return this.getStringAttribute('runtime_protocol_version');
+  }
+  public set runtimeProtocolVersion(value: string) {
+    this._runtimeProtocolVersion = value;
+  }
+  public resetRuntimeProtocolVersion() {
+    this._runtimeProtocolVersion = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get runtimeProtocolVersionInput() {
+    return this._runtimeProtocolVersion;
+  }
+
+  // runtime_version - computed: false, optional: true, required: false
+  private _runtimeVersion?: string; 
+  public get runtimeVersion() {
+    return this.getStringAttribute('runtime_version');
+  }
+  public set runtimeVersion(value: string) {
+    this._runtimeVersion = value;
+  }
+  public resetRuntimeVersion() {
+    this._runtimeVersion = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get runtimeVersionInput() {
+    return this._runtimeVersion;
+  }
+
+  // vmmode - computed: false, optional: true, required: false
+  private _vmmode?: string; 
+  public get vmmode() {
+    return this.getStringAttribute('vmmode');
+  }
+  public set vmmode(value: string) {
+    this._vmmode = value;
+  }
+  public resetVmmode() {
+    this._vmmode = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vmmodeInput() {
+    return this._vmmode;
+  }
+
+  // configuration - computed: false, optional: true, required: false
+  private _configuration = new DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonConfigurationList(this, "configuration", false);
+  public get configuration() {
+    return this._configuration;
+  }
+  public putConfiguration(value: DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonConfiguration[] | cdktf.IResolvable) {
+    this._configuration.internalValue = value;
+  }
+  public resetConfiguration() {
+    this._configuration.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get configurationInput() {
+    return this._configuration.internalValue;
+  }
+
+  // container_detail - computed: false, optional: true, required: false
+  private _containerDetail = new DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonContainerDetailList(this, "container_detail", false);
+  public get containerDetail() {
+    return this._containerDetail;
+  }
+  public putContainerDetail(value: DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonContainerDetail[] | cdktf.IResolvable) {
+    this._containerDetail.internalValue = value;
+  }
+  public resetContainerDetail() {
+    this._containerDetail.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get containerDetailInput() {
+    return this._containerDetail.internalValue;
+  }
+
+  // desc - computed: false, optional: true, required: false
+  private _desc = new DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonDescList(this, "desc", false);
+  public get desc() {
+    return this._desc;
+  }
+  public putDesc(value: DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonDesc[] | cdktf.IResolvable) {
+    this._desc.internalValue = value;
+  }
+  public resetDesc() {
+    this._desc.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get descInput() {
+    return this._desc.internalValue;
+  }
+
+  // images - computed: false, optional: true, required: false
+  private _images = new DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonImagesList(this, "images", false);
+  public get images() {
+    return this._images;
+  }
+  public putImages(value: DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonImages[] | cdktf.IResolvable) {
+    this._images.internalValue = value;
+  }
+  public resetImages() {
+    this._images.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get imagesInput() {
+    return this._images.internalValue;
+  }
+
+  // interfaces - computed: false, optional: true, required: false
+  private _interfaces = new DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfacesList(this, "interfaces", false);
+  public get interfaces() {
+    return this._interfaces;
+  }
+  public putInterfaces(value: DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonInterfaces[] | cdktf.IResolvable) {
+    this._interfaces.internalValue = value;
+  }
+  public resetInterfaces() {
+    this._interfaces.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get interfacesInput() {
+    return this._interfaces.internalValue;
+  }
+
+  // module - computed: false, optional: true, required: false
+  private _module = new DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonModuleList(this, "module", false);
+  public get module() {
+    return this._module;
+  }
+  public putModule(value: DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonModule[] | cdktf.IResolvable) {
+    this._module.internalValue = value;
+  }
+  public resetModule() {
+    this._module.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get moduleInput() {
+    return this._module.internalValue;
+  }
+
+  // owner - computed: false, optional: true, required: false
+  private _owner = new DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonOwnerList(this, "owner", false);
+  public get owner() {
+    return this._owner;
+  }
+  public putOwner(value: DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonOwner[] | cdktf.IResolvable) {
+    this._owner.internalValue = value;
+  }
+  public resetOwner() {
+    this._owner.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ownerInput() {
+    return this._owner.internalValue;
+  }
+
+  // permissions - computed: false, optional: true, required: false
+  private _permissions = new DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonPermissionsList(this, "permissions", false);
+  public get permissions() {
+    return this._permissions;
+  }
+  public putPermissions(value: DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonPermissions[] | cdktf.IResolvable) {
+    this._permissions.internalValue = value;
+  }
+  public resetPermissions() {
+    this._permissions.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get permissionsInput() {
+    return this._permissions.internalValue;
+  }
+
+  // resources - computed: false, optional: true, required: false
+  private _resources = new DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonResourcesList(this, "resources", false);
+  public get resources() {
+    return this._resources;
+  }
+  public putResources(value: DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonResources[] | cdktf.IResolvable) {
+    this._resources.internalValue = value;
+  }
+  public resetResources() {
+    this._resources.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get resourcesInput() {
+    return this._resources.internalValue;
+  }
+}
+
+export class DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonList extends cdktf.ComplexList {
+  public internalValue? : DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJson[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonOutputReference {
+    return new DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsParentDetail {
+  /**
+  * Relation with child and parent object exists or not
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#reference_exists DataZedcloudProject#reference_exists}
+  */
+  readonly referenceExists?: boolean | cdktf.IResolvable;
+  /**
+  * Update required flag
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#update_available DataZedcloudProject#update_available}
+  */
+  readonly updateAvailable?: boolean | cdktf.IResolvable;
+}
+
+export function dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsParentDetailToTerraform(struct?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsParentDetail | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    reference_exists: cdktf.booleanToTerraform(struct!.referenceExists),
+    update_available: cdktf.booleanToTerraform(struct!.updateAvailable),
+  }
+}
+
+
+export function dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsParentDetailToHclTerraform(struct?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsParentDetail | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    reference_exists: {
+      value: cdktf.booleanToHclTerraform(struct!.referenceExists),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    update_available: {
+      value: cdktf.booleanToHclTerraform(struct!.updateAvailable),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsParentDetailOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsParentDetail | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._referenceExists !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.referenceExists = this._referenceExists;
+    }
+    if (this._updateAvailable !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.updateAvailable = this._updateAvailable;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsParentDetail | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._referenceExists = undefined;
+      this._updateAvailable = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._referenceExists = value.referenceExists;
+      this._updateAvailable = value.updateAvailable;
+    }
+  }
+
+  // id_of_parent_object - computed: true, optional: false, required: false
+  public get idOfParentObject() {
+    return this.getStringAttribute('id_of_parent_object');
+  }
+
+  // reference_exists - computed: false, optional: true, required: false
+  private _referenceExists?: boolean | cdktf.IResolvable; 
+  public get referenceExists() {
+    return this.getBooleanAttribute('reference_exists');
+  }
+  public set referenceExists(value: boolean | cdktf.IResolvable) {
+    this._referenceExists = value;
+  }
+  public resetReferenceExists() {
+    this._referenceExists = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get referenceExistsInput() {
+    return this._referenceExists;
+  }
+
+  // update_available - computed: false, optional: true, required: false
+  private _updateAvailable?: boolean | cdktf.IResolvable; 
+  public get updateAvailable() {
+    return this.getBooleanAttribute('update_available');
+  }
+  public set updateAvailable(value: boolean | cdktf.IResolvable) {
+    this._updateAvailable = value;
+  }
+  public resetUpdateAvailable() {
+    this._updateAvailable = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get updateAvailableInput() {
+    return this._updateAvailable;
+  }
+
+  // version_of_parent_object - computed: true, optional: false, required: false
+  public get versionOfParentObject() {
+    return this.getNumberAttribute('version_of_parent_object');
+  }
+}
+
+export class DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsParentDetailList extends cdktf.ComplexList {
+  public internalValue? : DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsParentDetail[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsParentDetailOutputReference {
+    return new DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsParentDetailOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyApps {
+  /**
+  * User defined name of the edge app, unique across the enterprise. Once app name is created, name can’t be changed
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#app_id DataZedcloudProject#app_id}
+  */
+  readonly appId?: string;
+  /**
+  * Current version of the attached bundle
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#app_version DataZedcloudProject#app_version}
+  */
+  readonly appVersion?: string;
+  /**
+  * user defined cpus for bundle
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#cpus DataZedcloudProject#cpus}
+  */
+  readonly cpus: number;
+  /**
+  * Detailed description of the edge application
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#description DataZedcloudProject#description}
+  */
+  readonly description?: string;
+  /**
+  * user defined memory for bundle
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#memory DataZedcloudProject#memory}
+  */
+  readonly memory: number;
+  /**
+  * User defined name of the edge application, unique across the enterprise. Once object is created, name can’t be changed
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#name DataZedcloudProject#name}
+  */
+  readonly name: string;
+  /**
+  * User provided name part  for the auto deployed app
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#name_app_part DataZedcloudProject#name_app_part}
+  */
+  readonly nameAppPart?: string;
+  /**
+  * User provided name part  for the auto deployed app
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#name_project_part DataZedcloudProject#name_project_part}
+  */
+  readonly nameProjectPart?: string;
+  /**
+  * app naming scheme
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#naming_scheme DataZedcloudProject#naming_scheme}
+  */
+  readonly namingScheme?: string;
+  /**
+  * user defined network options
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#networks DataZedcloudProject#networks}
+  */
+  readonly networks: number;
+  /**
+  * origin of object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#origin_type DataZedcloudProject#origin_type}
+  */
+  readonly originType: string;
+  /**
+  * start delay is the time in seconds EVE should wait after boot before starting the application instance
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#start_delay_in_seconds DataZedcloudProject#start_delay_in_seconds}
+  */
+  readonly startDelayInSeconds?: number;
+  /**
+  * user defined storage for bundle
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#storage DataZedcloudProject#storage}
+  */
+  readonly storage?: number;
+  /**
+  * Tags are name/value pairs that enable you to categorize resources. Tag names are case insensitive with max_length 512 and min_length 3. Tag values are case sensitive with max_length 256 and min_length 3.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#tags DataZedcloudProject#tags}
+  */
+  readonly tags?: { [key: string]: string };
+  /**
+  * User defined title of the edge application. Title can be changed at any time
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#title DataZedcloudProject#title}
+  */
+  readonly title: string;
+  /**
+  * interfaces block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#interfaces DataZedcloudProject#interfaces}
+  */
+  readonly interfaces?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsInterfaces[] | cdktf.IResolvable;
+  /**
+  * manifest_json block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#manifest_json DataZedcloudProject#manifest_json}
+  */
+  readonly manifestJson?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJson[] | cdktf.IResolvable;
+  /**
+  * parent_detail block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#parent_detail DataZedcloudProject#parent_detail}
+  */
+  readonly parentDetail?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsParentDetail[] | cdktf.IResolvable;
+}
+
+export function dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsToTerraform(struct?: DataZedcloudProjectConfigurationLockPolicyModulePolicyApps | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    app_id: cdktf.stringToTerraform(struct!.appId),
+    app_version: cdktf.stringToTerraform(struct!.appVersion),
+    cpus: cdktf.numberToTerraform(struct!.cpus),
+    description: cdktf.stringToTerraform(struct!.description),
+    memory: cdktf.numberToTerraform(struct!.memory),
+    name: cdktf.stringToTerraform(struct!.name),
+    name_app_part: cdktf.stringToTerraform(struct!.nameAppPart),
+    name_project_part: cdktf.stringToTerraform(struct!.nameProjectPart),
+    naming_scheme: cdktf.stringToTerraform(struct!.namingScheme),
+    networks: cdktf.numberToTerraform(struct!.networks),
+    origin_type: cdktf.stringToTerraform(struct!.originType),
+    start_delay_in_seconds: cdktf.numberToTerraform(struct!.startDelayInSeconds),
+    storage: cdktf.numberToTerraform(struct!.storage),
+    tags: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.tags),
+    title: cdktf.stringToTerraform(struct!.title),
+    interfaces: cdktf.listMapper(dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsInterfacesToTerraform, true)(struct!.interfaces),
+    manifest_json: cdktf.listMapper(dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonToTerraform, true)(struct!.manifestJson),
+    parent_detail: cdktf.listMapper(dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsParentDetailToTerraform, true)(struct!.parentDetail),
+  }
+}
+
+
+export function dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsToHclTerraform(struct?: DataZedcloudProjectConfigurationLockPolicyModulePolicyApps | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    app_id: {
+      value: cdktf.stringToHclTerraform(struct!.appId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    app_version: {
+      value: cdktf.stringToHclTerraform(struct!.appVersion),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    cpus: {
+      value: cdktf.numberToHclTerraform(struct!.cpus),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    description: {
+      value: cdktf.stringToHclTerraform(struct!.description),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    memory: {
+      value: cdktf.numberToHclTerraform(struct!.memory),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    name_app_part: {
+      value: cdktf.stringToHclTerraform(struct!.nameAppPart),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    name_project_part: {
+      value: cdktf.stringToHclTerraform(struct!.nameProjectPart),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    naming_scheme: {
+      value: cdktf.stringToHclTerraform(struct!.namingScheme),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    networks: {
+      value: cdktf.numberToHclTerraform(struct!.networks),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    origin_type: {
+      value: cdktf.stringToHclTerraform(struct!.originType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    start_delay_in_seconds: {
+      value: cdktf.numberToHclTerraform(struct!.startDelayInSeconds),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    storage: {
+      value: cdktf.numberToHclTerraform(struct!.storage),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tags: {
+      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.tags),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
+    },
+    title: {
+      value: cdktf.stringToHclTerraform(struct!.title),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    interfaces: {
+      value: cdktf.listMapperHcl(dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsInterfacesToHclTerraform, true)(struct!.interfaces),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsInterfacesList",
+    },
+    manifest_json: {
+      value: cdktf.listMapperHcl(dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonToHclTerraform, true)(struct!.manifestJson),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonList",
+    },
+    parent_detail: {
+      value: cdktf.listMapperHcl(dataZedcloudProjectConfigurationLockPolicyModulePolicyAppsParentDetailToHclTerraform, true)(struct!.parentDetail),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsParentDetailList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataZedcloudProjectConfigurationLockPolicyModulePolicyApps | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._appId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.appId = this._appId;
+    }
+    if (this._appVersion !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.appVersion = this._appVersion;
+    }
+    if (this._cpus !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cpus = this._cpus;
+    }
+    if (this._description !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.description = this._description;
+    }
+    if (this._memory !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.memory = this._memory;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._nameAppPart !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nameAppPart = this._nameAppPart;
+    }
+    if (this._nameProjectPart !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nameProjectPart = this._nameProjectPart;
+    }
+    if (this._namingScheme !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namingScheme = this._namingScheme;
+    }
+    if (this._networks !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.networks = this._networks;
+    }
+    if (this._originType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.originType = this._originType;
+    }
+    if (this._startDelayInSeconds !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.startDelayInSeconds = this._startDelayInSeconds;
+    }
+    if (this._storage !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.storage = this._storage;
+    }
+    if (this._tags !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tags = this._tags;
+    }
+    if (this._title !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.title = this._title;
+    }
+    if (this._interfaces?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.interfaces = this._interfaces?.internalValue;
+    }
+    if (this._manifestJson?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.manifestJson = this._manifestJson?.internalValue;
+    }
+    if (this._parentDetail?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.parentDetail = this._parentDetail?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataZedcloudProjectConfigurationLockPolicyModulePolicyApps | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._appId = undefined;
+      this._appVersion = undefined;
+      this._cpus = undefined;
+      this._description = undefined;
+      this._memory = undefined;
+      this._name = undefined;
+      this._nameAppPart = undefined;
+      this._nameProjectPart = undefined;
+      this._namingScheme = undefined;
+      this._networks = undefined;
+      this._originType = undefined;
+      this._startDelayInSeconds = undefined;
+      this._storage = undefined;
+      this._tags = undefined;
+      this._title = undefined;
+      this._interfaces.internalValue = undefined;
+      this._manifestJson.internalValue = undefined;
+      this._parentDetail.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._appId = value.appId;
+      this._appVersion = value.appVersion;
+      this._cpus = value.cpus;
+      this._description = value.description;
+      this._memory = value.memory;
+      this._name = value.name;
+      this._nameAppPart = value.nameAppPart;
+      this._nameProjectPart = value.nameProjectPart;
+      this._namingScheme = value.namingScheme;
+      this._networks = value.networks;
+      this._originType = value.originType;
+      this._startDelayInSeconds = value.startDelayInSeconds;
+      this._storage = value.storage;
+      this._tags = value.tags;
+      this._title = value.title;
+      this._interfaces.internalValue = value.interfaces;
+      this._manifestJson.internalValue = value.manifestJson;
+      this._parentDetail.internalValue = value.parentDetail;
+    }
+  }
+
+  // app_id - computed: false, optional: true, required: false
+  private _appId?: string; 
+  public get appId() {
+    return this.getStringAttribute('app_id');
+  }
+  public set appId(value: string) {
+    this._appId = value;
+  }
+  public resetAppId() {
+    this._appId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get appIdInput() {
+    return this._appId;
+  }
+
+  // app_version - computed: false, optional: true, required: false
+  private _appVersion?: string; 
+  public get appVersion() {
+    return this.getStringAttribute('app_version');
+  }
+  public set appVersion(value: string) {
+    this._appVersion = value;
+  }
+  public resetAppVersion() {
+    this._appVersion = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get appVersionInput() {
+    return this._appVersion;
+  }
+
+  // cpus - computed: false, optional: false, required: true
+  private _cpus?: number; 
+  public get cpus() {
+    return this.getNumberAttribute('cpus');
+  }
+  public set cpus(value: number) {
+    this._cpus = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cpusInput() {
+    return this._cpus;
+  }
+
+  // description - computed: false, optional: true, required: false
+  private _description?: string; 
+  public get description() {
+    return this.getStringAttribute('description');
+  }
+  public set description(value: string) {
+    this._description = value;
+  }
+  public resetDescription() {
+    this._description = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get descriptionInput() {
+    return this._description;
+  }
+
+  // drives - computed: true, optional: false, required: false
+  public get drives() {
+    return this.getNumberAttribute('drives');
+  }
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+
+  // memory - computed: false, optional: false, required: true
+  private _memory?: number; 
+  public get memory() {
+    return this.getNumberAttribute('memory');
+  }
+  public set memory(value: number) {
+    this._memory = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get memoryInput() {
+    return this._memory;
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // name_app_part - computed: false, optional: true, required: false
+  private _nameAppPart?: string; 
+  public get nameAppPart() {
+    return this.getStringAttribute('name_app_part');
+  }
+  public set nameAppPart(value: string) {
+    this._nameAppPart = value;
+  }
+  public resetNameAppPart() {
+    this._nameAppPart = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameAppPartInput() {
+    return this._nameAppPart;
+  }
+
+  // name_project_part - computed: false, optional: true, required: false
+  private _nameProjectPart?: string; 
+  public get nameProjectPart() {
+    return this.getStringAttribute('name_project_part');
+  }
+  public set nameProjectPart(value: string) {
+    this._nameProjectPart = value;
+  }
+  public resetNameProjectPart() {
+    this._nameProjectPart = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameProjectPartInput() {
+    return this._nameProjectPart;
+  }
+
+  // naming_scheme - computed: false, optional: true, required: false
+  private _namingScheme?: string; 
+  public get namingScheme() {
+    return this.getStringAttribute('naming_scheme');
+  }
+  public set namingScheme(value: string) {
+    this._namingScheme = value;
+  }
+  public resetNamingScheme() {
+    this._namingScheme = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namingSchemeInput() {
+    return this._namingScheme;
+  }
+
+  // networks - computed: false, optional: false, required: true
+  private _networks?: number; 
+  public get networks() {
+    return this.getNumberAttribute('networks');
+  }
+  public set networks(value: number) {
+    this._networks = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get networksInput() {
+    return this._networks;
+  }
+
+  // origin_type - computed: false, optional: false, required: true
+  private _originType?: string; 
+  public get originType() {
+    return this.getStringAttribute('origin_type');
+  }
+  public set originType(value: string) {
+    this._originType = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get originTypeInput() {
+    return this._originType;
+  }
+
+  // start_delay_in_seconds - computed: false, optional: true, required: false
+  private _startDelayInSeconds?: number; 
+  public get startDelayInSeconds() {
+    return this.getNumberAttribute('start_delay_in_seconds');
+  }
+  public set startDelayInSeconds(value: number) {
+    this._startDelayInSeconds = value;
+  }
+  public resetStartDelayInSeconds() {
+    this._startDelayInSeconds = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get startDelayInSecondsInput() {
+    return this._startDelayInSeconds;
+  }
+
+  // storage - computed: false, optional: true, required: false
+  private _storage?: number; 
+  public get storage() {
+    return this.getNumberAttribute('storage');
+  }
+  public set storage(value: number) {
+    this._storage = value;
+  }
+  public resetStorage() {
+    this._storage = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get storageInput() {
+    return this._storage;
+  }
+
+  // tags - computed: false, optional: true, required: false
+  private _tags?: { [key: string]: string }; 
+  public get tags() {
+    return this.getStringMapAttribute('tags');
+  }
+  public set tags(value: { [key: string]: string }) {
+    this._tags = value;
+  }
+  public resetTags() {
+    this._tags = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tagsInput() {
+    return this._tags;
+  }
+
+  // title - computed: false, optional: false, required: true
+  private _title?: string; 
+  public get title() {
+    return this.getStringAttribute('title');
+  }
+  public set title(value: string) {
+    this._title = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get titleInput() {
+    return this._title;
+  }
+
+  // interfaces - computed: false, optional: true, required: false
+  private _interfaces = new DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsInterfacesList(this, "interfaces", false);
+  public get interfaces() {
+    return this._interfaces;
+  }
+  public putInterfaces(value: DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsInterfaces[] | cdktf.IResolvable) {
+    this._interfaces.internalValue = value;
+  }
+  public resetInterfaces() {
+    this._interfaces.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get interfacesInput() {
+    return this._interfaces.internalValue;
+  }
+
+  // manifest_json - computed: false, optional: true, required: false
+  private _manifestJson = new DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJsonList(this, "manifest_json", false);
+  public get manifestJson() {
+    return this._manifestJson;
+  }
+  public putManifestJson(value: DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsManifestJson[] | cdktf.IResolvable) {
+    this._manifestJson.internalValue = value;
+  }
+  public resetManifestJson() {
+    this._manifestJson.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get manifestJsonInput() {
+    return this._manifestJson.internalValue;
+  }
+
+  // parent_detail - computed: false, optional: true, required: false
+  private _parentDetail = new DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsParentDetailList(this, "parent_detail", false);
+  public get parentDetail() {
+    return this._parentDetail;
+  }
+  public putParentDetail(value: DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsParentDetail[] | cdktf.IResolvable) {
+    this._parentDetail.internalValue = value;
+  }
+  public resetParentDetail() {
+    this._parentDetail.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get parentDetailInput() {
+    return this._parentDetail.internalValue;
+  }
+}
+
+export class DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsList extends cdktf.ComplexList {
+  public internalValue? : DataZedcloudProjectConfigurationLockPolicyModulePolicyApps[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsOutputReference {
+    return new DataZedcloudProjectConfigurationLockPolicyModulePolicyAppsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentInterfacesAclsActionsMapparams {
+  /**
+  * Application port
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#port DataZedcloudProject#port}
+  */
+  readonly port?: number;
+}
+
+export function dataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentInterfacesAclsActionsMapparamsToTerraform(struct?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentInterfacesAclsActionsMapparams | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    port: cdktf.numberToTerraform(struct!.port),
+  }
+}
+
+
+export function dataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentInterfacesAclsActionsMapparamsToHclTerraform(struct?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentInterfacesAclsActionsMapparams | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    port: {
+      value: cdktf.numberToHclTerraform(struct!.port),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentInterfacesAclsActionsMapparamsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentInterfacesAclsActionsMapparams | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._port !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.port = this._port;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentInterfacesAclsActionsMapparams | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._port = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._port = value.port;
+    }
+  }
+
+  // port - computed: false, optional: true, required: false
+  private _port?: number; 
+  public get port() {
+    return this.getNumberAttribute('port');
+  }
+  public set port(value: number) {
+    this._port = value;
+  }
+  public resetPort() {
+    this._port = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get portInput() {
+    return this._port;
+  }
+}
+
+export class DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentInterfacesAclsActionsMapparamsList extends cdktf.ComplexList {
+  public internalValue? : DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentInterfacesAclsActionsMapparams[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentInterfacesAclsActionsMapparamsOutputReference {
+    return new DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentInterfacesAclsActionsMapparamsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentInterfacesAclsActions {
+  /**
+  * ACE drop flag
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#drop DataZedcloudProject#drop}
+  */
+  readonly drop?: boolean | cdktf.IResolvable;
+  /**
+  * ACE limit flag
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#limit DataZedcloudProject#limit}
+  */
+  readonly limit?: boolean | cdktf.IResolvable;
+  /**
+  * ACE limit burst
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#limitburst DataZedcloudProject#limitburst}
+  */
+  readonly limitburst?: number;
+  /**
+  * ACE limit rate
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#limitrate DataZedcloudProject#limitrate}
+  */
+  readonly limitrate?: number;
+  /**
+  * ACE limit unit
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#limitunit DataZedcloudProject#limitunit}
+  */
+  readonly limitunit?: string;
+  /**
+  * application port map flag
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#portmap DataZedcloudProject#portmap}
+  */
+  readonly portmap?: boolean | cdktf.IResolvable;
+  /**
+  * mapparams block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#mapparams DataZedcloudProject#mapparams}
+  */
+  readonly mapparams?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentInterfacesAclsActionsMapparams[] | cdktf.IResolvable;
+}
+
+export function dataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentInterfacesAclsActionsToTerraform(struct?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentInterfacesAclsActions | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    drop: cdktf.booleanToTerraform(struct!.drop),
+    limit: cdktf.booleanToTerraform(struct!.limit),
+    limitburst: cdktf.numberToTerraform(struct!.limitburst),
+    limitrate: cdktf.numberToTerraform(struct!.limitrate),
+    limitunit: cdktf.stringToTerraform(struct!.limitunit),
+    portmap: cdktf.booleanToTerraform(struct!.portmap),
+    mapparams: cdktf.listMapper(dataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentInterfacesAclsActionsMapparamsToTerraform, true)(struct!.mapparams),
+  }
+}
+
+
+export function dataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentInterfacesAclsActionsToHclTerraform(struct?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentInterfacesAclsActions | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    drop: {
+      value: cdktf.booleanToHclTerraform(struct!.drop),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    limit: {
+      value: cdktf.booleanToHclTerraform(struct!.limit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    limitburst: {
+      value: cdktf.numberToHclTerraform(struct!.limitburst),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    limitrate: {
+      value: cdktf.numberToHclTerraform(struct!.limitrate),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    limitunit: {
+      value: cdktf.stringToHclTerraform(struct!.limitunit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    portmap: {
+      value: cdktf.booleanToHclTerraform(struct!.portmap),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    mapparams: {
+      value: cdktf.listMapperHcl(dataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentInterfacesAclsActionsMapparamsToHclTerraform, true)(struct!.mapparams),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentInterfacesAclsActionsMapparamsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentInterfacesAclsActionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentInterfacesAclsActions | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._drop !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.drop = this._drop;
+    }
+    if (this._limit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.limit = this._limit;
+    }
+    if (this._limitburst !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.limitburst = this._limitburst;
+    }
+    if (this._limitrate !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.limitrate = this._limitrate;
+    }
+    if (this._limitunit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.limitunit = this._limitunit;
+    }
+    if (this._portmap !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.portmap = this._portmap;
+    }
+    if (this._mapparams?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.mapparams = this._mapparams?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentInterfacesAclsActions | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._drop = undefined;
+      this._limit = undefined;
+      this._limitburst = undefined;
+      this._limitrate = undefined;
+      this._limitunit = undefined;
+      this._portmap = undefined;
+      this._mapparams.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._drop = value.drop;
+      this._limit = value.limit;
+      this._limitburst = value.limitburst;
+      this._limitrate = value.limitrate;
+      this._limitunit = value.limitunit;
+      this._portmap = value.portmap;
+      this._mapparams.internalValue = value.mapparams;
+    }
+  }
+
+  // drop - computed: false, optional: true, required: false
+  private _drop?: boolean | cdktf.IResolvable; 
+  public get drop() {
+    return this.getBooleanAttribute('drop');
+  }
+  public set drop(value: boolean | cdktf.IResolvable) {
+    this._drop = value;
+  }
+  public resetDrop() {
+    this._drop = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dropInput() {
+    return this._drop;
+  }
+
+  // limit - computed: false, optional: true, required: false
+  private _limit?: boolean | cdktf.IResolvable; 
+  public get limit() {
+    return this.getBooleanAttribute('limit');
+  }
+  public set limit(value: boolean | cdktf.IResolvable) {
+    this._limit = value;
+  }
+  public resetLimit() {
+    this._limit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get limitInput() {
+    return this._limit;
+  }
+
+  // limitburst - computed: false, optional: true, required: false
+  private _limitburst?: number; 
+  public get limitburst() {
+    return this.getNumberAttribute('limitburst');
+  }
+  public set limitburst(value: number) {
+    this._limitburst = value;
+  }
+  public resetLimitburst() {
+    this._limitburst = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get limitburstInput() {
+    return this._limitburst;
+  }
+
+  // limitrate - computed: false, optional: true, required: false
+  private _limitrate?: number; 
+  public get limitrate() {
+    return this.getNumberAttribute('limitrate');
+  }
+  public set limitrate(value: number) {
+    this._limitrate = value;
+  }
+  public resetLimitrate() {
+    this._limitrate = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get limitrateInput() {
+    return this._limitrate;
+  }
+
+  // limitunit - computed: false, optional: true, required: false
+  private _limitunit?: string; 
+  public get limitunit() {
+    return this.getStringAttribute('limitunit');
+  }
+  public set limitunit(value: string) {
+    this._limitunit = value;
+  }
+  public resetLimitunit() {
+    this._limitunit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get limitunitInput() {
+    return this._limitunit;
+  }
+
+  // portmap - computed: false, optional: true, required: false
+  private _portmap?: boolean | cdktf.IResolvable; 
+  public get portmap() {
+    return this.getBooleanAttribute('portmap');
+  }
+  public set portmap(value: boolean | cdktf.IResolvable) {
+    this._portmap = value;
+  }
+  public resetPortmap() {
+    this._portmap = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get portmapInput() {
+    return this._portmap;
+  }
+
+  // mapparams - computed: false, optional: true, required: false
+  private _mapparams = new DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentInterfacesAclsActionsMapparamsList(this, "mapparams", false);
+  public get mapparams() {
+    return this._mapparams;
+  }
+  public putMapparams(value: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentInterfacesAclsActionsMapparams[] | cdktf.IResolvable) {
+    this._mapparams.internalValue = value;
+  }
+  public resetMapparams() {
+    this._mapparams.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get mapparamsInput() {
+    return this._mapparams.internalValue;
+  }
+}
+
+export class DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentInterfacesAclsActionsList extends cdktf.ComplexList {
+  public internalValue? : DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentInterfacesAclsActions[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentInterfacesAclsActionsOutputReference {
+    return new DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentInterfacesAclsActionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentInterfacesAclsMatches {
   /**
   * Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#type DataZedcloudProject#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#type DataZedcloudProject#type}
   */
   readonly type?: string;
   /**
   * Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#value DataZedcloudProject#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#value DataZedcloudProject#value}
   */
   readonly value?: string;
 }
@@ -193,19 +3854,19 @@ export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdge
   /**
   * User defined name of the app ACE, unique across the enterprise. Once object is created, name can’t be changed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#name DataZedcloudProject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#name DataZedcloudProject#name}
   */
   readonly name?: string;
   /**
   * actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#actions DataZedcloudProject#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#actions DataZedcloudProject#actions}
   */
   readonly actions?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentInterfacesAclsActions[] | cdktf.IResolvable;
   /**
   * matches block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#matches DataZedcloudProject#matches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#matches DataZedcloudProject#matches}
   */
   readonly matches?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentInterfacesAclsMatches[] | cdktf.IResolvable;
 }
@@ -386,13 +4047,13 @@ export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdge
   /**
   * lisp credential
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#credential DataZedcloudProject#credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#credential DataZedcloudProject#credential}
   */
   readonly credential: string;
   /**
   * name/IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#name_or_ip DataZedcloudProject#name_or_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#name_or_ip DataZedcloudProject#name_or_ip}
   */
   readonly nameOrIp: string;
 }
@@ -533,43 +4194,43 @@ export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdge
   /**
   * Display name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#display_name DataZedcloudProject#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#display_name DataZedcloudProject#display_name}
   */
   readonly displayName: string;
   /**
   * EID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#e_id DataZedcloudProject#e_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#e_id DataZedcloudProject#e_id}
   */
   readonly eId: string;
   /**
   * EID hash length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#e_id_hash_len DataZedcloudProject#e_id_hash_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#e_id_hash_len DataZedcloudProject#e_id_hash_len}
   */
   readonly eIdHashLen: number;
   /**
   * Lisp Instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#lisp_instance DataZedcloudProject#lisp_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#lisp_instance DataZedcloudProject#lisp_instance}
   */
   readonly lispInstance: number;
   /**
   * Lisp Signature
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#lisp_signature DataZedcloudProject#lisp_signature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#lisp_signature DataZedcloudProject#lisp_signature}
   */
   readonly lispSignature: string;
   /**
   * UUID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#uuid DataZedcloudProject#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#uuid DataZedcloudProject#uuid}
   */
   readonly uuid: string;
   /**
   * lisp_map_servers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#lisp_map_servers DataZedcloudProject#lisp_map_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#lisp_map_servers DataZedcloudProject#lisp_map_servers}
   */
   readonly lispMapServers: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentInterfacesEidregisterLispMapServers[] | cdktf.IResolvable;
 }
@@ -855,19 +4516,19 @@ export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdge
   /**
   * Physical Adapter name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#name DataZedcloudProject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#name DataZedcloudProject#name}
   */
   readonly name?: string;
   /**
   * Tags are name/value pairs that enable you to categorize resources. Tag names are case insensitive with max_length 512 and min_length 3. Tag values are case sensitive with max_length 256 and min_length 3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#tags DataZedcloudProject#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#tags DataZedcloudProject#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * IoType specifies the type of the Input output of the device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#type DataZedcloudProject#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#type DataZedcloudProject#type}
   */
   readonly type?: string;
 }
@@ -1043,85 +4704,85 @@ export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdge
   /**
   * access port VLAN ID, vlan id of zero will be treated as trunk port and vlan id 1 is implicitly used by linux bridges
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#access_vlan_id DataZedcloudProject#access_vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#access_vlan_id DataZedcloudProject#access_vlan_id}
   */
   readonly accessVlanId?: number;
   /**
   * default instance flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#default_net_instance DataZedcloudProject#default_net_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#default_net_instance DataZedcloudProject#default_net_instance}
   */
   readonly defaultNetInstance?: boolean | cdktf.IResolvable;
   /**
   * direct attach flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#directattach DataZedcloudProject#directattach}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#directattach DataZedcloudProject#directattach}
   */
   readonly directattach?: boolean | cdktf.IResolvable;
   /**
   * intf Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#intfname DataZedcloudProject#intfname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#intfname DataZedcloudProject#intfname}
   */
   readonly intfname: string;
   /**
   * intforder
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#intforder DataZedcloudProject#intforder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#intforder DataZedcloudProject#intforder}
   */
   readonly intforder?: number;
   /**
   * IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#ipaddr DataZedcloudProject#ipaddr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#ipaddr DataZedcloudProject#ipaddr}
   */
   readonly ipaddr?: string;
   /**
   * MAC address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#macaddr DataZedcloudProject#macaddr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#macaddr DataZedcloudProject#macaddr}
   */
   readonly macaddr?: string;
   /**
   * Network Instance name to be matched for interface assignment. Applicable only when "direct attach" flag is false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#netinstname DataZedcloudProject#netinstname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#netinstname DataZedcloudProject#netinstname}
   */
   readonly netinstname: string;
   /**
   * Network Instance tag to be matched for interface assignment. Applicable only when "direct attach" flag is false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#netinsttag DataZedcloudProject#netinsttag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#netinsttag DataZedcloudProject#netinsttag}
   */
   readonly netinsttag?: { [key: string]: string };
   /**
   * network name: will be deprecated in future, use netinstname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#netname DataZedcloudProject#netname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#netname DataZedcloudProject#netname}
   */
   readonly netname?: string;
   /**
   * Private IP flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#privateip DataZedcloudProject#privateip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#privateip DataZedcloudProject#privateip}
   */
   readonly privateip: boolean | cdktf.IResolvable;
   /**
   * acls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#acls DataZedcloudProject#acls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#acls DataZedcloudProject#acls}
   */
   readonly acls?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentInterfacesAcls[] | cdktf.IResolvable;
   /**
   * eidregister block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#eidregister DataZedcloudProject#eidregister}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#eidregister DataZedcloudProject#eidregister}
   */
   readonly eidregister?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentInterfacesEidregister[] | cdktf.IResolvable;
   /**
   * io block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#io DataZedcloudProject#io}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#io DataZedcloudProject#io}
   */
   readonly io?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentInterfacesIo[] | cdktf.IResolvable;
 }
@@ -1610,15 +5271,15 @@ export class DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgen
 }
 export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentManifestJsonConfigurationCustomConfigVariableGroupsCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#name DataZedcloudProject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#name DataZedcloudProject#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#operator DataZedcloudProject#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#operator DataZedcloudProject#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#value DataZedcloudProject#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#value DataZedcloudProject#value}
   */
   readonly value?: string;
 }
@@ -1794,13 +5455,13 @@ export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdge
   /**
   * Display label of the key in User-Agent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#label DataZedcloudProject#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#label DataZedcloudProject#label}
   */
   readonly label?: string;
   /**
   * Value of the key to be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#value DataZedcloudProject#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#value DataZedcloudProject#value}
   */
   readonly value?: string;
 }
@@ -1947,63 +5608,63 @@ export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdge
   /**
   * Default value of the variable. (Optional. Default: <Default value based on type>)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#default DataZedcloudProject#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#default DataZedcloudProject#default}
   */
   readonly default?: string;
   /**
   * Encoding of file content. Applicable if format is VARIABLE_FORMAT_FILE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#encode DataZedcloudProject#encode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#encode DataZedcloudProject#encode}
   */
   readonly encode?: string;
   /**
   * Format of the user variable. (Required)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#format DataZedcloudProject#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#format DataZedcloudProject#format}
   */
   readonly format: string;
   /**
   * Label for the variable (Required)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#label DataZedcloudProject#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#label DataZedcloudProject#label}
   */
   readonly label: string;
   /**
   * Max length of the value of the variable(Optional. Default: 1024)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#max_length DataZedcloudProject#max_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#max_length DataZedcloudProject#max_length}
   */
   readonly maxLength?: string;
   /**
   * Name of the Variable (Required)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#name DataZedcloudProject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#name DataZedcloudProject#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#process_input DataZedcloudProject#process_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#process_input DataZedcloudProject#process_input}
   */
   readonly processInput?: string;
   /**
   * This variable MUST be specified when creating an App Instance. (Optional. Default: False)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#required DataZedcloudProject#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#required DataZedcloudProject#required}
   */
   readonly required: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#type DataZedcloudProject#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#type DataZedcloudProject#type}
   */
   readonly type?: string;
   /**
   * User-specified value of the variable.(Required if required is true. Optional otherwise)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#value DataZedcloudProject#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#value DataZedcloudProject#value}
   */
   readonly value?: string;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#options DataZedcloudProject#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#options DataZedcloudProject#options}
   */
   readonly options?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentManifestJsonConfigurationCustomConfigVariableGroupsVariablesOptions[] | cdktf.IResolvable;
 }
@@ -2399,25 +6060,25 @@ export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdge
   /**
   * Name of the Variable Group(Required)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#name DataZedcloudProject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#name DataZedcloudProject#name}
   */
   readonly name?: string;
   /**
   * Indicates if the variable group is required to be specified for the App Instance. (Optional. Default:False)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#required DataZedcloudProject#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#required DataZedcloudProject#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#condition DataZedcloudProject#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#condition DataZedcloudProject#condition}
   */
   readonly condition?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentManifestJsonConfigurationCustomConfigVariableGroupsCondition[] | cdktf.IResolvable;
   /**
   * variables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#variables DataZedcloudProject#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#variables DataZedcloudProject#variables}
   */
   readonly variables?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentManifestJsonConfigurationCustomConfigVariableGroupsVariables[] | cdktf.IResolvable;
 }
@@ -2622,43 +6283,43 @@ export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdge
   /**
   * Add the Custom Config to App Instance (Optional. Default: False)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#add DataZedcloudProject#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#add DataZedcloudProject#add}
   */
   readonly add?: boolean | cdktf.IResolvable;
   /**
   * Allow Appinstance storage to be resized after app instance is created. (Optional. Default: False)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#allow_storage_resize DataZedcloudProject#allow_storage_resize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#allow_storage_resize DataZedcloudProject#allow_storage_resize}
   */
   readonly allowStorageResize?: boolean | cdktf.IResolvable;
   /**
   * Field delimiter used in specifying variables in template. (Required)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#field_delimiter DataZedcloudProject#field_delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#field_delimiter DataZedcloudProject#field_delimiter}
   */
   readonly fieldDelimiter?: string;
   /**
   * Name of CustomConfig (Required)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#name DataZedcloudProject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#name DataZedcloudProject#name}
   */
   readonly name?: string;
   /**
   * Override existing custom config from App Bundle Manifest (Optional. Default: False)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#override DataZedcloudProject#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#override DataZedcloudProject#override}
   */
   readonly override?: boolean | cdktf.IResolvable;
   /**
   * base64 encrypted template string. (Optional)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#template DataZedcloudProject#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#template DataZedcloudProject#template}
   */
   readonly template?: string;
   /**
   * variable_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#variable_groups DataZedcloudProject#variable_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#variable_groups DataZedcloudProject#variable_groups}
   */
   readonly variableGroups?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentManifestJsonConfigurationCustomConfigVariableGroups[] | cdktf.IResolvable;
 }
@@ -2950,7 +6611,7 @@ export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdge
   /**
   * custom_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#custom_config DataZedcloudProject#custom_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#custom_config DataZedcloudProject#custom_config}
   */
   readonly customConfig?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentManifestJsonConfigurationCustomConfig[] | cdktf.IResolvable;
 }
@@ -3068,7 +6729,7 @@ export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdge
   /**
   * Create options direct the creation of the Docker container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#container_create_option DataZedcloudProject#container_create_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#container_create_option DataZedcloudProject#container_create_option}
   */
   readonly containerCreateOption?: string;
 }
@@ -3186,45 +6847,45 @@ export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdge
   /**
   * UI map: AppEditPage:DeveloperPane:Developer_Agreement_Field, AppDetailsPage:DeveloperPane:Developer_Agreement_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#agreement_list DataZedcloudProject#agreement_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#agreement_list DataZedcloudProject#agreement_list}
   */
   readonly agreementList?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#app_category DataZedcloudProject#app_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#app_category DataZedcloudProject#app_category}
   */
   readonly appCategory: string;
   /**
   * UI map: AppMarketplacePage:AppCard:DescriptionField, AppEditPage:IdentityPane:CategoryField, AppDetailsPage:IdentityPane:CategoryField
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#category DataZedcloudProject#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#category DataZedcloudProject#category}
   */
   readonly category?: string;
   /**
   * UI map: AppMarketplacePage:AppCard:License, AppEditPage:IdentityPane:License, AppDetailsPage:IdentityPane:License
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#license_list DataZedcloudProject#license_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#license_list DataZedcloudProject#license_list}
   */
   readonly licenseList?: { [key: string]: string };
   /**
   * UI map: AppEditPage:IdentityPane:Logo, AppDetailsPage:IdentityPane:Logo
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#logo DataZedcloudProject#logo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#logo DataZedcloudProject#logo}
   */
   readonly logo?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#os DataZedcloudProject#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#os DataZedcloudProject#os}
   */
   readonly os?: string;
   /**
   * UI map: AppEditPage:IdentityPane:Screenshot_Fields, AppDetailsPage:IdentityPane:Screenshot_Fields
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#screenshot_list DataZedcloudProject#screenshot_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#screenshot_list DataZedcloudProject#screenshot_list}
   */
   readonly screenshotList?: { [key: string]: string };
   /**
   * UI map: AppEditPage:DeveloperPane:Support_Description_Field, AppDetailsPage:DeveloperPane:Support_Description_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#support DataZedcloudProject#support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#support DataZedcloudProject#support}
   */
   readonly support?: string;
 }
@@ -3542,13 +7203,13 @@ export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdge
   /**
   * Name of the Parameter (Required)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#name DataZedcloudProject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#name DataZedcloudProject#name}
   */
   readonly name?: string;
   /**
   * Value of the parameter (Required)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#value DataZedcloudProject#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#value DataZedcloudProject#value}
   */
   readonly value?: string;
 }
@@ -3695,77 +7356,77 @@ export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdge
   /**
   * UI map: AppEditPage:DrivesPane:Cleartext, AppDetailsPage:DrivesPane:ClearText_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#cleartext DataZedcloudProject#cleartext}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#cleartext DataZedcloudProject#cleartext}
   */
   readonly cleartext?: boolean | cdktf.IResolvable;
   /**
   * UI map: AppEditPage:DrivesPane:Drive_Type_Field, AppDetailsPage:DrivesPane:Drive_Type_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#drvtype DataZedcloudProject#drvtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#drvtype DataZedcloudProject#drvtype}
   */
   readonly drvtype?: string;
   /**
   * UI map: AppEditPage:DrivesPane:Ignorepurge, AppDetailsPage:DrivesPane:Ignorepurgee_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#ignorepurge DataZedcloudProject#ignorepurge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#ignorepurge DataZedcloudProject#ignorepurge}
   */
   readonly ignorepurge?: boolean | cdktf.IResolvable;
   /**
   * UI map: AppEditPage:DrivesPane:Image_Format_Field, AppDetailsPage:DrivesPane:Image_Format_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#imageformat DataZedcloudProject#imageformat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#imageformat DataZedcloudProject#imageformat}
   */
   readonly imageformat?: string;
   /**
   * UI map: AppEditPage:DrivesPane:Image_ID_Field, AppDetailsPage:DrivesPane:Image_ID_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#imageid DataZedcloudProject#imageid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#imageid DataZedcloudProject#imageid}
   */
   readonly imageid?: string;
   /**
   * UI map: AppEditPage:DrivesPane:Image_Name_Field, AppDetailsPage:DrivesPane:Image_Name_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#imagename DataZedcloudProject#imagename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#imagename DataZedcloudProject#imagename}
   */
   readonly imagename?: string;
   /**
   * UI map: AppEditPage:DrivesPane:Max_Size_Field, AppDetailsPage:DrivesPane:Max_Size_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#maxsize DataZedcloudProject#maxsize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#maxsize DataZedcloudProject#maxsize}
   */
   readonly maxsize?: string;
   /**
   * UI map: AppEditPage:DrivesPane:Mountpath, AppDetailsPage:DrivesPane:Mountpath_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#mountpath DataZedcloudProject#mountpath}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#mountpath DataZedcloudProject#mountpath}
   */
   readonly mountpath?: string;
   /**
   * UI map: AppEditPage:DrivesPane:Preserve_Field, AppDetailsPage:DrivesPane:Preserve_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#preserve DataZedcloudProject#preserve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#preserve DataZedcloudProject#preserve}
   */
   readonly preserve?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#readonly DataZedcloudProject#readonly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#readonly DataZedcloudProject#readonly}
   */
   readonly readonly?: boolean | cdktf.IResolvable;
   /**
   * UI map: AppEditPage:DrivesPane:Target_Field, AppDetailsPage:DrivesPane:Target_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#target DataZedcloudProject#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#target DataZedcloudProject#target}
   */
   readonly target?: string;
   /**
   * UI map: AppEditPage:DrivesPane:Volume_Label, AppDetailsPage:DrivesPane:Volume_Label
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#volumelabel DataZedcloudProject#volumelabel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#volumelabel DataZedcloudProject#volumelabel}
   */
   readonly volumelabel?: string;
   /**
   * params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#params DataZedcloudProject#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#params DataZedcloudProject#params}
   */
   readonly params?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentManifestJsonImagesParams[] | cdktf.IResolvable;
 }
@@ -4231,19 +7892,19 @@ export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdge
   /**
   * UI map: AppDetailsPage:EnvironmentsPane, AppDetailsPage:EnvironmentsPane
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#limitburst DataZedcloudProject#limitburst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#limitburst DataZedcloudProject#limitburst}
   */
   readonly limitburst?: number;
   /**
   * UI map: AppDetailsPage:EnvironmentsPane, AppDetailsPage:EnvironmentsPane
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#limitrate DataZedcloudProject#limitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#limitrate DataZedcloudProject#limitrate}
   */
   readonly limitrate?: number;
   /**
   * UI map: AppDetailsPage:EnvironmentsPane, AppDetailsPage:EnvironmentsPane
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#limitunit DataZedcloudProject#limitunit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#limitunit DataZedcloudProject#limitunit}
   */
   readonly limitunit?: string;
 }
@@ -4419,7 +8080,7 @@ export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdge
   /**
   * Application Port value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#app_port DataZedcloudProject#app_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#app_port DataZedcloudProject#app_port}
   */
   readonly appPort?: number;
 }
@@ -4537,49 +8198,49 @@ export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdge
   /**
   * Drop the packet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#drop DataZedcloudProject#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#drop DataZedcloudProject#drop}
   */
   readonly drop?: boolean | cdktf.IResolvable;
   /**
   * UI map: AppDetailsPage:EnvironmentsPane, AppDetailsPage:EnvironmentsPane
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#limit DataZedcloudProject#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#limit DataZedcloudProject#limit}
   */
   readonly limit?: boolean | cdktf.IResolvable;
   /**
   * UI map: AppDetailsPage:EnvironmentsPane, AppDetailsPage:EnvironmentsPane
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#limitburst DataZedcloudProject#limitburst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#limitburst DataZedcloudProject#limitburst}
   */
   readonly limitburst?: number;
   /**
   * UI map: AppDetailsPage:EnvironmentsPane, AppDetailsPage:EnvironmentsPane
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#limitrate DataZedcloudProject#limitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#limitrate DataZedcloudProject#limitrate}
   */
   readonly limitrate?: number;
   /**
   * UI map: AppDetailsPage:EnvironmentsPane, AppDetailsPage:EnvironmentsPane
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#limitunit DataZedcloudProject#limitunit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#limitunit DataZedcloudProject#limitunit}
   */
   readonly limitunit?: string;
   /**
   * UI map: AppDetailsPage:EnvironmentsPane, AppDetailsPage:EnvironmentsPane
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#portmap DataZedcloudProject#portmap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#portmap DataZedcloudProject#portmap}
   */
   readonly portmap?: boolean | cdktf.IResolvable;
   /**
   * limit_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#limit_value DataZedcloudProject#limit_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#limit_value DataZedcloudProject#limit_value}
   */
   readonly limitValue?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentManifestJsonInterfacesAclsActionsLimitValue[] | cdktf.IResolvable;
   /**
   * portmapto block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#portmapto DataZedcloudProject#portmapto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#portmapto DataZedcloudProject#portmapto}
   */
   readonly portmapto?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentManifestJsonInterfacesAclsActionsPortmapto[] | cdktf.IResolvable;
 }
@@ -4900,13 +8561,13 @@ export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdge
   /**
   * Type of Match (Required)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#type DataZedcloudProject#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#type DataZedcloudProject#type}
   */
   readonly type?: string;
   /**
   * Value of match (Required)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#value DataZedcloudProject#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#value DataZedcloudProject#value}
   */
   readonly value?: string;
 }
@@ -5053,19 +8714,19 @@ export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdge
   /**
   * Name of the Access Control List
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#name DataZedcloudProject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#name DataZedcloudProject#name}
   */
   readonly name?: string;
   /**
   * actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#actions DataZedcloudProject#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#actions DataZedcloudProject#actions}
   */
   readonly actions?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentManifestJsonInterfacesAclsActions[] | cdktf.IResolvable;
   /**
   * matches block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#matches DataZedcloudProject#matches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#matches DataZedcloudProject#matches}
   */
   readonly matches?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentManifestJsonInterfacesAclsMatches[] | cdktf.IResolvable;
 }
@@ -5241,37 +8902,37 @@ export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdge
   /**
   * If true, a physical adapter is assigned to the edge application directly. If false, a network instance is assigned to the edge application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#directattach DataZedcloudProject#directattach}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#directattach DataZedcloudProject#directattach}
   */
   readonly directattach?: boolean | cdktf.IResolvable;
   /**
   * Interface name used by the edge application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#name DataZedcloudProject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#name DataZedcloudProject#name}
   */
   readonly name?: string;
   /**
   * Indicates if the interface is optional for edge application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#optional DataZedcloudProject#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#optional DataZedcloudProject#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
   * If true, DHCP network can't be assigned and user needs to provide a static IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#privateip DataZedcloudProject#privateip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#privateip DataZedcloudProject#privateip}
   */
   readonly privateip?: boolean | cdktf.IResolvable;
   /**
   * Physical Adapter type for this interface. Applicable only when "direct attach" flag is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#type DataZedcloudProject#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#type DataZedcloudProject#type}
   */
   readonly type?: string;
   /**
   * acls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#acls DataZedcloudProject#acls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#acls DataZedcloudProject#acls}
   */
   readonly acls?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentManifestJsonInterfacesAcls[] | cdktf.IResolvable;
 }
@@ -5534,25 +9195,25 @@ export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdge
   /**
   * Extra information to module to make configuration easier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#environment DataZedcloudProject#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#environment DataZedcloudProject#environment}
   */
   readonly environment?: { [key: string]: string };
   /**
   * Type of modules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#module_type DataZedcloudProject#module_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#module_type DataZedcloudProject#module_type}
   */
   readonly moduleType?: string;
   /**
   * Send messages between modules or send messages from modules to iot hub
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#routes DataZedcloudProject#routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#routes DataZedcloudProject#routes}
   */
   readonly routes?: { [key: string]: string };
   /**
   * Base64 encoded module twin details, desired properties of the module will be updated to reflect these values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#twin_detail DataZedcloudProject#twin_detail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#twin_detail DataZedcloudProject#twin_detail}
   */
   readonly twinDetail?: string;
 }
@@ -5757,29 +9418,29 @@ export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdge
   /**
   * UI map: AppEditPage:IdentityPane:Category_Field, AppDetailsPage:IdentityPane:Category_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#company DataZedcloudProject#company}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#company DataZedcloudProject#company}
   */
   readonly company?: string;
   /**
   * UI map: AppEditPage:DeveloperPane:Email_Field, AppDetailsPage:DeveloperPane:Email_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#email DataZedcloudProject#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#email DataZedcloudProject#email}
   */
   readonly email?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#group DataZedcloudProject#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#group DataZedcloudProject#group}
   */
   readonly group?: string;
   /**
   * UI map: AppEditPage:DeveloperPane:Name_Field, AppDetailsPage:DeveloperPane:Name_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#user DataZedcloudProject#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#user DataZedcloudProject#user}
   */
   readonly user?: string;
   /**
   * UI map: AppEditPage:DeveloperPane:Website_Field, AppDetailsPage:DeveloperPane:Website_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#website DataZedcloudProject#website}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#website DataZedcloudProject#website}
   */
   readonly website?: string;
 }
@@ -6094,13 +9755,13 @@ export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdge
   /**
   * Name of the Resource (Required)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#name DataZedcloudProject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#name DataZedcloudProject#name}
   */
   readonly name?: string;
   /**
   * Value of Resource (Required)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#value DataZedcloudProject#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#value DataZedcloudProject#value}
   */
   readonly value?: string;
 }
@@ -6247,151 +9908,157 @@ export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdge
   /**
   * UI map: N/A - not exposed to users
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#ac_kind DataZedcloudProject#ac_kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#ac_kind DataZedcloudProject#ac_kind}
   */
   readonly acKind: string;
   /**
   * UI map: N/A - not exposed to users
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#ac_version DataZedcloudProject#ac_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#ac_version DataZedcloudProject#ac_version}
   */
   readonly acVersion: string;
   /**
   * App (bundle) type. The correct values are: "APP_TYPE_UNSPECIFIED","APP_TYPE_VM","APP_TYPE_VM_RUNTIME","APP_TYPE_CONTAINER","APP_TYPE_MODULE", "APP_TYPE_DOCKER_COMPOSE".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#app_type DataZedcloudProject#app_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#app_type DataZedcloudProject#app_type}
   */
   readonly appType?: string;
   /**
   * Enable CpuPinning
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#cpu_pinning_enabled DataZedcloudProject#cpu_pinning_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#cpu_pinning_enabled DataZedcloudProject#cpu_pinning_enabled}
   */
   readonly cpuPinningEnabled?: boolean | cdktf.IResolvable;
   /**
   * Deployment type for the app. The correct values are: "DEPLOYMENT_TYPE_UNSPECIFIED","DEPLOYMENT_TYPE_STAND_ALONE","DEPLOYMENT_TYPE_AZURE","DEPLOYMENT_TYPE_K3S","DEPLOYMENT_TYPE_AWS","DEPLOYMENT_TYPE_K3S_AZURE","DEPLOYMENT_TYPE_K3S_AWS","DEPLOYMENT_TYPE_VMWARE_VCE".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#deployment_type DataZedcloudProject#deployment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#deployment_type DataZedcloudProject#deployment_type}
   */
   readonly deploymentType?: string;
   /**
   * UI map: AppDetailsPage:IdentityPane:DescriptionField, AppMarketplacePage:AppCard:DescriptionField
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#description DataZedcloudProject#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#description DataZedcloudProject#description}
   */
   readonly description?: string;
   /**
+  * UI map: AppEditPage:IdentityPane:DISABLEVTPM_Field, AppDetailsPage:IdentityPane:DISABLEVTPM_Field
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#disable_v_t_p_m DataZedcloudProject#disable_v_t_p_m}
+  */
+  readonly disableVTPM?: boolean | cdktf.IResolvable;
+  /**
   * UI map: AppEditPage:IdentityPane:Title_Field, AppDetailsPage:IdentityPane:Title_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#display_name DataZedcloudProject#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#display_name DataZedcloudProject#display_name}
   */
   readonly displayName?: string;
   /**
   * Docker compose tar image name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#docker_compose_tar_image_name DataZedcloudProject#docker_compose_tar_image_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#docker_compose_tar_image_name DataZedcloudProject#docker_compose_tar_image_name}
   */
   readonly dockerComposeTarImageName?: string;
   /**
   * Docker compose base64 encoded plain text
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#docker_compose_yaml_text DataZedcloudProject#docker_compose_yaml_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#docker_compose_yaml_text DataZedcloudProject#docker_compose_yaml_text}
   */
   readonly dockerComposeYamlText?: string;
   /**
   * UI map: AppEditPage:IdentityPane:ENABLEVMCONFIG_Field, AppDetailsPage:IdentityPane:ENABLEVMCONFIG_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#enable_oem_win_license_key DataZedcloudProject#enable_oem_win_license_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#enable_oem_win_license_key DataZedcloudProject#enable_oem_win_license_key}
   */
   readonly enableOemWinLicenseKey?: boolean | cdktf.IResolvable;
   /**
   * UI map: AppEditPage:IdentityPane:VNC_Field, AppDetailsPage:IdentityPane:VNC_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#enablevnc DataZedcloudProject#enablevnc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#enablevnc DataZedcloudProject#enablevnc}
   */
   readonly enablevnc?: boolean | cdktf.IResolvable;
   /**
   * UI map: AppEditPage:IdentityPane:Name_Field, AppDetailsPage:IdentityPane:Name_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#name DataZedcloudProject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#name DataZedcloudProject#name}
   */
   readonly name: string;
   /**
   * Size of persistent blank storage for runtime in bytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#persistent_runtime_size_bytes DataZedcloudProject#persistent_runtime_size_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#persistent_runtime_size_bytes DataZedcloudProject#persistent_runtime_size_bytes}
   */
   readonly persistentRuntimeSizeBytes?: string;
   /**
   * Indicates the internal communication protocol to pass configuration between Zedcloud and docker-compose runtime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#runtime_protocol_version DataZedcloudProject#runtime_protocol_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#runtime_protocol_version DataZedcloudProject#runtime_protocol_version}
   */
   readonly runtimeProtocolVersion?: string;
   /**
   * Indicates the version of container orchestration software
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#runtime_version DataZedcloudProject#runtime_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#runtime_version DataZedcloudProject#runtime_version}
   */
   readonly runtimeVersion?: string;
   /**
   * UI map: AppEditPage:IdentityPane:VM_Mode_Field, AppDetailsPage:IdentityPane:VM_Mode_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#vmmode DataZedcloudProject#vmmode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#vmmode DataZedcloudProject#vmmode}
   */
   readonly vmmode?: string;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#configuration DataZedcloudProject#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#configuration DataZedcloudProject#configuration}
   */
   readonly configuration?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentManifestJsonConfiguration[] | cdktf.IResolvable;
   /**
   * container_detail block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#container_detail DataZedcloudProject#container_detail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#container_detail DataZedcloudProject#container_detail}
   */
   readonly containerDetail?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentManifestJsonContainerDetail[] | cdktf.IResolvable;
   /**
   * desc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#desc DataZedcloudProject#desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#desc DataZedcloudProject#desc}
   */
   readonly desc?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentManifestJsonDesc[] | cdktf.IResolvable;
   /**
   * images block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#images DataZedcloudProject#images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#images DataZedcloudProject#images}
   */
   readonly images?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentManifestJsonImages[] | cdktf.IResolvable;
   /**
   * interfaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#interfaces DataZedcloudProject#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#interfaces DataZedcloudProject#interfaces}
   */
   readonly interfaces?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentManifestJsonInterfaces[] | cdktf.IResolvable;
   /**
   * module block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#module DataZedcloudProject#module}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#module DataZedcloudProject#module}
   */
   readonly module?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentManifestJsonModule[] | cdktf.IResolvable;
   /**
   * owner block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#owner DataZedcloudProject#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#owner DataZedcloudProject#owner}
   */
   readonly owner?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentManifestJsonOwner[] | cdktf.IResolvable;
   /**
   * permissions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#permissions DataZedcloudProject#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#permissions DataZedcloudProject#permissions}
   */
   readonly permissions?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentManifestJsonPermissions[] | cdktf.IResolvable;
   /**
   * resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#resources DataZedcloudProject#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#resources DataZedcloudProject#resources}
   */
   readonly resources?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentManifestJsonResources[] | cdktf.IResolvable;
 }
@@ -6408,6 +10075,7 @@ export function dataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeA
     cpu_pinning_enabled: cdktf.booleanToTerraform(struct!.cpuPinningEnabled),
     deployment_type: cdktf.stringToTerraform(struct!.deploymentType),
     description: cdktf.stringToTerraform(struct!.description),
+    disable_v_t_p_m: cdktf.booleanToTerraform(struct!.disableVTPM),
     display_name: cdktf.stringToTerraform(struct!.displayName),
     docker_compose_tar_image_name: cdktf.stringToTerraform(struct!.dockerComposeTarImageName),
     docker_compose_yaml_text: cdktf.stringToTerraform(struct!.dockerComposeYamlText),
@@ -6472,6 +10140,12 @@ export function dataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeA
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    disable_v_t_p_m: {
+      value: cdktf.booleanToHclTerraform(struct!.disableVTPM),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
     },
     display_name: {
       value: cdktf.stringToHclTerraform(struct!.displayName),
@@ -6637,6 +10311,10 @@ export class DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgen
       hasAnyValues = true;
       internalValueResult.description = this._description;
     }
+    if (this._disableVTPM !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.disableVTPM = this._disableVTPM;
+    }
     if (this._displayName !== undefined) {
       hasAnyValues = true;
       internalValueResult.displayName = this._displayName;
@@ -6726,6 +10404,7 @@ export class DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgen
       this._cpuPinningEnabled = undefined;
       this._deploymentType = undefined;
       this._description = undefined;
+      this._disableVTPM = undefined;
       this._displayName = undefined;
       this._dockerComposeTarImageName = undefined;
       this._dockerComposeYamlText = undefined;
@@ -6759,6 +10438,7 @@ export class DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgen
       this._cpuPinningEnabled = value.cpuPinningEnabled;
       this._deploymentType = value.deploymentType;
       this._description = value.description;
+      this._disableVTPM = value.disableVTPM;
       this._displayName = value.displayName;
       this._dockerComposeTarImageName = value.dockerComposeTarImageName;
       this._dockerComposeYamlText = value.dockerComposeYamlText;
@@ -6869,6 +10549,22 @@ export class DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgen
   // Temporarily expose input value. Use with caution.
   public get descriptionInput() {
     return this._description;
+  }
+
+  // disable_v_t_p_m - computed: false, optional: true, required: false
+  private _disableVTPM?: boolean | cdktf.IResolvable; 
+  public get disableVTPM() {
+    return this.getBooleanAttribute('disable_v_t_p_m');
+  }
+  public set disableVTPM(value: boolean | cdktf.IResolvable) {
+    this._disableVTPM = value;
+  }
+  public resetDisableVTPM() {
+    this._disableVTPM = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get disableVTPMInput() {
+    return this._disableVTPM;
   }
 
   // display_name - computed: false, optional: true, required: false
@@ -7196,13 +10892,13 @@ export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdge
   /**
   * Relation with child and parent object exists or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#reference_exists DataZedcloudProject#reference_exists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#reference_exists DataZedcloudProject#reference_exists}
   */
   readonly referenceExists?: boolean | cdktf.IResolvable;
   /**
   * Update required flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#update_available DataZedcloudProject#update_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#update_available DataZedcloudProject#update_available}
   */
   readonly updateAvailable?: boolean | cdktf.IResolvable;
 }
@@ -7359,109 +11055,109 @@ export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdge
   /**
   * User defined name of the edge app, unique across the enterprise. Once app name is created, name can’t be changed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#app_id DataZedcloudProject#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#app_id DataZedcloudProject#app_id}
   */
   readonly appId?: string;
   /**
   * Current version of the attached bundle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#app_version DataZedcloudProject#app_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#app_version DataZedcloudProject#app_version}
   */
   readonly appVersion?: string;
   /**
   * user defined cpus for bundle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#cpus DataZedcloudProject#cpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#cpus DataZedcloudProject#cpus}
   */
   readonly cpus: number;
   /**
   * Detailed description of the edge application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#description DataZedcloudProject#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#description DataZedcloudProject#description}
   */
   readonly description?: string;
   /**
   * user defined memory for bundle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#memory DataZedcloudProject#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#memory DataZedcloudProject#memory}
   */
   readonly memory: number;
   /**
   * User defined name of the edge application, unique across the enterprise. Once object is created, name can’t be changed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#name DataZedcloudProject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#name DataZedcloudProject#name}
   */
   readonly name: string;
   /**
   * User provided name part  for the auto deployed app
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#name_app_part DataZedcloudProject#name_app_part}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#name_app_part DataZedcloudProject#name_app_part}
   */
   readonly nameAppPart?: string;
   /**
   * User provided name part  for the auto deployed app
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#name_project_part DataZedcloudProject#name_project_part}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#name_project_part DataZedcloudProject#name_project_part}
   */
   readonly nameProjectPart?: string;
   /**
   * app naming scheme
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#naming_scheme DataZedcloudProject#naming_scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#naming_scheme DataZedcloudProject#naming_scheme}
   */
   readonly namingScheme?: string;
   /**
   * user defined network options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#networks DataZedcloudProject#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#networks DataZedcloudProject#networks}
   */
   readonly networks: number;
   /**
   * origin of object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#origin_type DataZedcloudProject#origin_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#origin_type DataZedcloudProject#origin_type}
   */
   readonly originType: string;
   /**
   * start delay is the time in seconds EVE should wait after boot before starting the application instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#start_delay_in_seconds DataZedcloudProject#start_delay_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#start_delay_in_seconds DataZedcloudProject#start_delay_in_seconds}
   */
   readonly startDelayInSeconds?: number;
   /**
   * user defined storage for bundle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#storage DataZedcloudProject#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#storage DataZedcloudProject#storage}
   */
   readonly storage?: number;
   /**
   * Tags are name/value pairs that enable you to categorize resources. Tag names are case insensitive with max_length 512 and min_length 3. Tag values are case sensitive with max_length 256 and min_length 3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#tags DataZedcloudProject#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#tags DataZedcloudProject#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * User defined title of the edge application. Title can be changed at any time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#title DataZedcloudProject#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#title DataZedcloudProject#title}
   */
   readonly title: string;
   /**
   * interfaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#interfaces DataZedcloudProject#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#interfaces DataZedcloudProject#interfaces}
   */
   readonly interfaces?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentInterfaces[] | cdktf.IResolvable;
   /**
   * manifest_json block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#manifest_json DataZedcloudProject#manifest_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#manifest_json DataZedcloudProject#manifest_json}
   */
   readonly manifestJson?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentManifestJson[] | cdktf.IResolvable;
   /**
   * parent_detail block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#parent_detail DataZedcloudProject#parent_detail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#parent_detail DataZedcloudProject#parent_detail}
   */
   readonly parentDetail?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgentParentDetail[] | cdktf.IResolvable;
 }
@@ -8064,7 +11760,7 @@ export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdge
   /**
   * Application port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#port DataZedcloudProject#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#port DataZedcloudProject#port}
   */
   readonly port?: number;
 }
@@ -8182,43 +11878,43 @@ export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdge
   /**
   * ACE drop flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#drop DataZedcloudProject#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#drop DataZedcloudProject#drop}
   */
   readonly drop?: boolean | cdktf.IResolvable;
   /**
   * ACE limit flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#limit DataZedcloudProject#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#limit DataZedcloudProject#limit}
   */
   readonly limit?: boolean | cdktf.IResolvable;
   /**
   * ACE limit burst
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#limitburst DataZedcloudProject#limitburst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#limitburst DataZedcloudProject#limitburst}
   */
   readonly limitburst?: number;
   /**
   * ACE limit rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#limitrate DataZedcloudProject#limitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#limitrate DataZedcloudProject#limitrate}
   */
   readonly limitrate?: number;
   /**
   * ACE limit unit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#limitunit DataZedcloudProject#limitunit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#limitunit DataZedcloudProject#limitunit}
   */
   readonly limitunit?: string;
   /**
   * application port map flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#portmap DataZedcloudProject#portmap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#portmap DataZedcloudProject#portmap}
   */
   readonly portmap?: boolean | cdktf.IResolvable;
   /**
   * mapparams block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#mapparams DataZedcloudProject#mapparams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#mapparams DataZedcloudProject#mapparams}
   */
   readonly mapparams?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeHubInterfacesAclsActionsMapparams[] | cdktf.IResolvable;
 }
@@ -8510,13 +12206,13 @@ export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdge
   /**
   * Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#type DataZedcloudProject#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#type DataZedcloudProject#type}
   */
   readonly type?: string;
   /**
   * Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#value DataZedcloudProject#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#value DataZedcloudProject#value}
   */
   readonly value?: string;
 }
@@ -8663,19 +12359,19 @@ export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdge
   /**
   * User defined name of the app ACE, unique across the enterprise. Once object is created, name can’t be changed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#name DataZedcloudProject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#name DataZedcloudProject#name}
   */
   readonly name?: string;
   /**
   * actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#actions DataZedcloudProject#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#actions DataZedcloudProject#actions}
   */
   readonly actions?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeHubInterfacesAclsActions[] | cdktf.IResolvable;
   /**
   * matches block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#matches DataZedcloudProject#matches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#matches DataZedcloudProject#matches}
   */
   readonly matches?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeHubInterfacesAclsMatches[] | cdktf.IResolvable;
 }
@@ -8856,13 +12552,13 @@ export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdge
   /**
   * lisp credential
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#credential DataZedcloudProject#credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#credential DataZedcloudProject#credential}
   */
   readonly credential: string;
   /**
   * name/IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#name_or_ip DataZedcloudProject#name_or_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#name_or_ip DataZedcloudProject#name_or_ip}
   */
   readonly nameOrIp: string;
 }
@@ -9003,43 +12699,43 @@ export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdge
   /**
   * Display name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#display_name DataZedcloudProject#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#display_name DataZedcloudProject#display_name}
   */
   readonly displayName: string;
   /**
   * EID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#e_id DataZedcloudProject#e_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#e_id DataZedcloudProject#e_id}
   */
   readonly eId: string;
   /**
   * EID hash length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#e_id_hash_len DataZedcloudProject#e_id_hash_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#e_id_hash_len DataZedcloudProject#e_id_hash_len}
   */
   readonly eIdHashLen: number;
   /**
   * Lisp Instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#lisp_instance DataZedcloudProject#lisp_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#lisp_instance DataZedcloudProject#lisp_instance}
   */
   readonly lispInstance: number;
   /**
   * Lisp Signature
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#lisp_signature DataZedcloudProject#lisp_signature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#lisp_signature DataZedcloudProject#lisp_signature}
   */
   readonly lispSignature: string;
   /**
   * UUID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#uuid DataZedcloudProject#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#uuid DataZedcloudProject#uuid}
   */
   readonly uuid: string;
   /**
   * lisp_map_servers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#lisp_map_servers DataZedcloudProject#lisp_map_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#lisp_map_servers DataZedcloudProject#lisp_map_servers}
   */
   readonly lispMapServers: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeHubInterfacesEidregisterLispMapServers[] | cdktf.IResolvable;
 }
@@ -9325,19 +13021,19 @@ export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdge
   /**
   * Physical Adapter name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#name DataZedcloudProject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#name DataZedcloudProject#name}
   */
   readonly name?: string;
   /**
   * Tags are name/value pairs that enable you to categorize resources. Tag names are case insensitive with max_length 512 and min_length 3. Tag values are case sensitive with max_length 256 and min_length 3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#tags DataZedcloudProject#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#tags DataZedcloudProject#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * IoType specifies the type of the Input output of the device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#type DataZedcloudProject#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#type DataZedcloudProject#type}
   */
   readonly type?: string;
 }
@@ -9513,85 +13209,85 @@ export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdge
   /**
   * access port VLAN ID, vlan id of zero will be treated as trunk port and vlan id 1 is implicitly used by linux bridges
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#access_vlan_id DataZedcloudProject#access_vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#access_vlan_id DataZedcloudProject#access_vlan_id}
   */
   readonly accessVlanId?: number;
   /**
   * default instance flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#default_net_instance DataZedcloudProject#default_net_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#default_net_instance DataZedcloudProject#default_net_instance}
   */
   readonly defaultNetInstance?: boolean | cdktf.IResolvable;
   /**
   * direct attach flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#directattach DataZedcloudProject#directattach}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#directattach DataZedcloudProject#directattach}
   */
   readonly directattach?: boolean | cdktf.IResolvable;
   /**
   * intf Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#intfname DataZedcloudProject#intfname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#intfname DataZedcloudProject#intfname}
   */
   readonly intfname: string;
   /**
   * intforder
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#intforder DataZedcloudProject#intforder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#intforder DataZedcloudProject#intforder}
   */
   readonly intforder?: number;
   /**
   * IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#ipaddr DataZedcloudProject#ipaddr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#ipaddr DataZedcloudProject#ipaddr}
   */
   readonly ipaddr?: string;
   /**
   * MAC address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#macaddr DataZedcloudProject#macaddr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#macaddr DataZedcloudProject#macaddr}
   */
   readonly macaddr?: string;
   /**
   * Network Instance name to be matched for interface assignment. Applicable only when "direct attach" flag is false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#netinstname DataZedcloudProject#netinstname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#netinstname DataZedcloudProject#netinstname}
   */
   readonly netinstname: string;
   /**
   * Network Instance tag to be matched for interface assignment. Applicable only when "direct attach" flag is false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#netinsttag DataZedcloudProject#netinsttag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#netinsttag DataZedcloudProject#netinsttag}
   */
   readonly netinsttag?: { [key: string]: string };
   /**
   * network name: will be deprecated in future, use netinstname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#netname DataZedcloudProject#netname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#netname DataZedcloudProject#netname}
   */
   readonly netname?: string;
   /**
   * Private IP flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#privateip DataZedcloudProject#privateip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#privateip DataZedcloudProject#privateip}
   */
   readonly privateip: boolean | cdktf.IResolvable;
   /**
   * acls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#acls DataZedcloudProject#acls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#acls DataZedcloudProject#acls}
   */
   readonly acls?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeHubInterfacesAcls[] | cdktf.IResolvable;
   /**
   * eidregister block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#eidregister DataZedcloudProject#eidregister}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#eidregister DataZedcloudProject#eidregister}
   */
   readonly eidregister?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeHubInterfacesEidregister[] | cdktf.IResolvable;
   /**
   * io block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#io DataZedcloudProject#io}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#io DataZedcloudProject#io}
   */
   readonly io?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeHubInterfacesIo[] | cdktf.IResolvable;
 }
@@ -10080,15 +13776,15 @@ export class DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeHubI
 }
 export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeHubManifestJsonConfigurationCustomConfigVariableGroupsCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#name DataZedcloudProject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#name DataZedcloudProject#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#operator DataZedcloudProject#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#operator DataZedcloudProject#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#value DataZedcloudProject#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#value DataZedcloudProject#value}
   */
   readonly value?: string;
 }
@@ -10264,13 +13960,13 @@ export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdge
   /**
   * Display label of the key in User-Agent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#label DataZedcloudProject#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#label DataZedcloudProject#label}
   */
   readonly label?: string;
   /**
   * Value of the key to be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#value DataZedcloudProject#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#value DataZedcloudProject#value}
   */
   readonly value?: string;
 }
@@ -10417,63 +14113,63 @@ export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdge
   /**
   * Default value of the variable. (Optional. Default: <Default value based on type>)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#default DataZedcloudProject#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#default DataZedcloudProject#default}
   */
   readonly default?: string;
   /**
   * Encoding of file content. Applicable if format is VARIABLE_FORMAT_FILE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#encode DataZedcloudProject#encode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#encode DataZedcloudProject#encode}
   */
   readonly encode?: string;
   /**
   * Format of the user variable. (Required)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#format DataZedcloudProject#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#format DataZedcloudProject#format}
   */
   readonly format: string;
   /**
   * Label for the variable (Required)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#label DataZedcloudProject#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#label DataZedcloudProject#label}
   */
   readonly label: string;
   /**
   * Max length of the value of the variable(Optional. Default: 1024)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#max_length DataZedcloudProject#max_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#max_length DataZedcloudProject#max_length}
   */
   readonly maxLength?: string;
   /**
   * Name of the Variable (Required)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#name DataZedcloudProject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#name DataZedcloudProject#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#process_input DataZedcloudProject#process_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#process_input DataZedcloudProject#process_input}
   */
   readonly processInput?: string;
   /**
   * This variable MUST be specified when creating an App Instance. (Optional. Default: False)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#required DataZedcloudProject#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#required DataZedcloudProject#required}
   */
   readonly required: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#type DataZedcloudProject#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#type DataZedcloudProject#type}
   */
   readonly type?: string;
   /**
   * User-specified value of the variable.(Required if required is true. Optional otherwise)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#value DataZedcloudProject#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#value DataZedcloudProject#value}
   */
   readonly value?: string;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#options DataZedcloudProject#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#options DataZedcloudProject#options}
   */
   readonly options?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeHubManifestJsonConfigurationCustomConfigVariableGroupsVariablesOptions[] | cdktf.IResolvable;
 }
@@ -10869,25 +14565,25 @@ export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdge
   /**
   * Name of the Variable Group(Required)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#name DataZedcloudProject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#name DataZedcloudProject#name}
   */
   readonly name?: string;
   /**
   * Indicates if the variable group is required to be specified for the App Instance. (Optional. Default:False)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#required DataZedcloudProject#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#required DataZedcloudProject#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#condition DataZedcloudProject#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#condition DataZedcloudProject#condition}
   */
   readonly condition?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeHubManifestJsonConfigurationCustomConfigVariableGroupsCondition[] | cdktf.IResolvable;
   /**
   * variables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#variables DataZedcloudProject#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#variables DataZedcloudProject#variables}
   */
   readonly variables?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeHubManifestJsonConfigurationCustomConfigVariableGroupsVariables[] | cdktf.IResolvable;
 }
@@ -11092,43 +14788,43 @@ export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdge
   /**
   * Add the Custom Config to App Instance (Optional. Default: False)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#add DataZedcloudProject#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#add DataZedcloudProject#add}
   */
   readonly add?: boolean | cdktf.IResolvable;
   /**
   * Allow Appinstance storage to be resized after app instance is created. (Optional. Default: False)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#allow_storage_resize DataZedcloudProject#allow_storage_resize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#allow_storage_resize DataZedcloudProject#allow_storage_resize}
   */
   readonly allowStorageResize?: boolean | cdktf.IResolvable;
   /**
   * Field delimiter used in specifying variables in template. (Required)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#field_delimiter DataZedcloudProject#field_delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#field_delimiter DataZedcloudProject#field_delimiter}
   */
   readonly fieldDelimiter?: string;
   /**
   * Name of CustomConfig (Required)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#name DataZedcloudProject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#name DataZedcloudProject#name}
   */
   readonly name?: string;
   /**
   * Override existing custom config from App Bundle Manifest (Optional. Default: False)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#override DataZedcloudProject#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#override DataZedcloudProject#override}
   */
   readonly override?: boolean | cdktf.IResolvable;
   /**
   * base64 encrypted template string. (Optional)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#template DataZedcloudProject#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#template DataZedcloudProject#template}
   */
   readonly template?: string;
   /**
   * variable_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#variable_groups DataZedcloudProject#variable_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#variable_groups DataZedcloudProject#variable_groups}
   */
   readonly variableGroups?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeHubManifestJsonConfigurationCustomConfigVariableGroups[] | cdktf.IResolvable;
 }
@@ -11420,7 +15116,7 @@ export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdge
   /**
   * custom_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#custom_config DataZedcloudProject#custom_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#custom_config DataZedcloudProject#custom_config}
   */
   readonly customConfig?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeHubManifestJsonConfigurationCustomConfig[] | cdktf.IResolvable;
 }
@@ -11538,7 +15234,7 @@ export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdge
   /**
   * Create options direct the creation of the Docker container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#container_create_option DataZedcloudProject#container_create_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#container_create_option DataZedcloudProject#container_create_option}
   */
   readonly containerCreateOption?: string;
 }
@@ -11656,45 +15352,45 @@ export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdge
   /**
   * UI map: AppEditPage:DeveloperPane:Developer_Agreement_Field, AppDetailsPage:DeveloperPane:Developer_Agreement_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#agreement_list DataZedcloudProject#agreement_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#agreement_list DataZedcloudProject#agreement_list}
   */
   readonly agreementList?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#app_category DataZedcloudProject#app_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#app_category DataZedcloudProject#app_category}
   */
   readonly appCategory: string;
   /**
   * UI map: AppMarketplacePage:AppCard:DescriptionField, AppEditPage:IdentityPane:CategoryField, AppDetailsPage:IdentityPane:CategoryField
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#category DataZedcloudProject#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#category DataZedcloudProject#category}
   */
   readonly category?: string;
   /**
   * UI map: AppMarketplacePage:AppCard:License, AppEditPage:IdentityPane:License, AppDetailsPage:IdentityPane:License
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#license_list DataZedcloudProject#license_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#license_list DataZedcloudProject#license_list}
   */
   readonly licenseList?: { [key: string]: string };
   /**
   * UI map: AppEditPage:IdentityPane:Logo, AppDetailsPage:IdentityPane:Logo
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#logo DataZedcloudProject#logo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#logo DataZedcloudProject#logo}
   */
   readonly logo?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#os DataZedcloudProject#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#os DataZedcloudProject#os}
   */
   readonly os?: string;
   /**
   * UI map: AppEditPage:IdentityPane:Screenshot_Fields, AppDetailsPage:IdentityPane:Screenshot_Fields
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#screenshot_list DataZedcloudProject#screenshot_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#screenshot_list DataZedcloudProject#screenshot_list}
   */
   readonly screenshotList?: { [key: string]: string };
   /**
   * UI map: AppEditPage:DeveloperPane:Support_Description_Field, AppDetailsPage:DeveloperPane:Support_Description_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#support DataZedcloudProject#support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#support DataZedcloudProject#support}
   */
   readonly support?: string;
 }
@@ -12012,13 +15708,13 @@ export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdge
   /**
   * Name of the Parameter (Required)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#name DataZedcloudProject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#name DataZedcloudProject#name}
   */
   readonly name?: string;
   /**
   * Value of the parameter (Required)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#value DataZedcloudProject#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#value DataZedcloudProject#value}
   */
   readonly value?: string;
 }
@@ -12165,77 +15861,77 @@ export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdge
   /**
   * UI map: AppEditPage:DrivesPane:Cleartext, AppDetailsPage:DrivesPane:ClearText_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#cleartext DataZedcloudProject#cleartext}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#cleartext DataZedcloudProject#cleartext}
   */
   readonly cleartext?: boolean | cdktf.IResolvable;
   /**
   * UI map: AppEditPage:DrivesPane:Drive_Type_Field, AppDetailsPage:DrivesPane:Drive_Type_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#drvtype DataZedcloudProject#drvtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#drvtype DataZedcloudProject#drvtype}
   */
   readonly drvtype?: string;
   /**
   * UI map: AppEditPage:DrivesPane:Ignorepurge, AppDetailsPage:DrivesPane:Ignorepurgee_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#ignorepurge DataZedcloudProject#ignorepurge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#ignorepurge DataZedcloudProject#ignorepurge}
   */
   readonly ignorepurge?: boolean | cdktf.IResolvable;
   /**
   * UI map: AppEditPage:DrivesPane:Image_Format_Field, AppDetailsPage:DrivesPane:Image_Format_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#imageformat DataZedcloudProject#imageformat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#imageformat DataZedcloudProject#imageformat}
   */
   readonly imageformat?: string;
   /**
   * UI map: AppEditPage:DrivesPane:Image_ID_Field, AppDetailsPage:DrivesPane:Image_ID_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#imageid DataZedcloudProject#imageid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#imageid DataZedcloudProject#imageid}
   */
   readonly imageid?: string;
   /**
   * UI map: AppEditPage:DrivesPane:Image_Name_Field, AppDetailsPage:DrivesPane:Image_Name_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#imagename DataZedcloudProject#imagename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#imagename DataZedcloudProject#imagename}
   */
   readonly imagename?: string;
   /**
   * UI map: AppEditPage:DrivesPane:Max_Size_Field, AppDetailsPage:DrivesPane:Max_Size_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#maxsize DataZedcloudProject#maxsize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#maxsize DataZedcloudProject#maxsize}
   */
   readonly maxsize?: string;
   /**
   * UI map: AppEditPage:DrivesPane:Mountpath, AppDetailsPage:DrivesPane:Mountpath_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#mountpath DataZedcloudProject#mountpath}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#mountpath DataZedcloudProject#mountpath}
   */
   readonly mountpath?: string;
   /**
   * UI map: AppEditPage:DrivesPane:Preserve_Field, AppDetailsPage:DrivesPane:Preserve_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#preserve DataZedcloudProject#preserve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#preserve DataZedcloudProject#preserve}
   */
   readonly preserve?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#readonly DataZedcloudProject#readonly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#readonly DataZedcloudProject#readonly}
   */
   readonly readonly?: boolean | cdktf.IResolvable;
   /**
   * UI map: AppEditPage:DrivesPane:Target_Field, AppDetailsPage:DrivesPane:Target_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#target DataZedcloudProject#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#target DataZedcloudProject#target}
   */
   readonly target?: string;
   /**
   * UI map: AppEditPage:DrivesPane:Volume_Label, AppDetailsPage:DrivesPane:Volume_Label
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#volumelabel DataZedcloudProject#volumelabel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#volumelabel DataZedcloudProject#volumelabel}
   */
   readonly volumelabel?: string;
   /**
   * params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#params DataZedcloudProject#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#params DataZedcloudProject#params}
   */
   readonly params?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeHubManifestJsonImagesParams[] | cdktf.IResolvable;
 }
@@ -12701,19 +16397,19 @@ export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdge
   /**
   * UI map: AppDetailsPage:EnvironmentsPane, AppDetailsPage:EnvironmentsPane
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#limitburst DataZedcloudProject#limitburst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#limitburst DataZedcloudProject#limitburst}
   */
   readonly limitburst?: number;
   /**
   * UI map: AppDetailsPage:EnvironmentsPane, AppDetailsPage:EnvironmentsPane
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#limitrate DataZedcloudProject#limitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#limitrate DataZedcloudProject#limitrate}
   */
   readonly limitrate?: number;
   /**
   * UI map: AppDetailsPage:EnvironmentsPane, AppDetailsPage:EnvironmentsPane
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#limitunit DataZedcloudProject#limitunit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#limitunit DataZedcloudProject#limitunit}
   */
   readonly limitunit?: string;
 }
@@ -12889,7 +16585,7 @@ export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdge
   /**
   * Application Port value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#app_port DataZedcloudProject#app_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#app_port DataZedcloudProject#app_port}
   */
   readonly appPort?: number;
 }
@@ -13007,49 +16703,49 @@ export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdge
   /**
   * Drop the packet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#drop DataZedcloudProject#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#drop DataZedcloudProject#drop}
   */
   readonly drop?: boolean | cdktf.IResolvable;
   /**
   * UI map: AppDetailsPage:EnvironmentsPane, AppDetailsPage:EnvironmentsPane
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#limit DataZedcloudProject#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#limit DataZedcloudProject#limit}
   */
   readonly limit?: boolean | cdktf.IResolvable;
   /**
   * UI map: AppDetailsPage:EnvironmentsPane, AppDetailsPage:EnvironmentsPane
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#limitburst DataZedcloudProject#limitburst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#limitburst DataZedcloudProject#limitburst}
   */
   readonly limitburst?: number;
   /**
   * UI map: AppDetailsPage:EnvironmentsPane, AppDetailsPage:EnvironmentsPane
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#limitrate DataZedcloudProject#limitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#limitrate DataZedcloudProject#limitrate}
   */
   readonly limitrate?: number;
   /**
   * UI map: AppDetailsPage:EnvironmentsPane, AppDetailsPage:EnvironmentsPane
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#limitunit DataZedcloudProject#limitunit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#limitunit DataZedcloudProject#limitunit}
   */
   readonly limitunit?: string;
   /**
   * UI map: AppDetailsPage:EnvironmentsPane, AppDetailsPage:EnvironmentsPane
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#portmap DataZedcloudProject#portmap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#portmap DataZedcloudProject#portmap}
   */
   readonly portmap?: boolean | cdktf.IResolvable;
   /**
   * limit_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#limit_value DataZedcloudProject#limit_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#limit_value DataZedcloudProject#limit_value}
   */
   readonly limitValue?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeHubManifestJsonInterfacesAclsActionsLimitValue[] | cdktf.IResolvable;
   /**
   * portmapto block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#portmapto DataZedcloudProject#portmapto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#portmapto DataZedcloudProject#portmapto}
   */
   readonly portmapto?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeHubManifestJsonInterfacesAclsActionsPortmapto[] | cdktf.IResolvable;
 }
@@ -13370,13 +17066,13 @@ export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdge
   /**
   * Type of Match (Required)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#type DataZedcloudProject#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#type DataZedcloudProject#type}
   */
   readonly type?: string;
   /**
   * Value of match (Required)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#value DataZedcloudProject#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#value DataZedcloudProject#value}
   */
   readonly value?: string;
 }
@@ -13523,19 +17219,19 @@ export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdge
   /**
   * Name of the Access Control List
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#name DataZedcloudProject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#name DataZedcloudProject#name}
   */
   readonly name?: string;
   /**
   * actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#actions DataZedcloudProject#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#actions DataZedcloudProject#actions}
   */
   readonly actions?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeHubManifestJsonInterfacesAclsActions[] | cdktf.IResolvable;
   /**
   * matches block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#matches DataZedcloudProject#matches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#matches DataZedcloudProject#matches}
   */
   readonly matches?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeHubManifestJsonInterfacesAclsMatches[] | cdktf.IResolvable;
 }
@@ -13711,37 +17407,37 @@ export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdge
   /**
   * If true, a physical adapter is assigned to the edge application directly. If false, a network instance is assigned to the edge application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#directattach DataZedcloudProject#directattach}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#directattach DataZedcloudProject#directattach}
   */
   readonly directattach?: boolean | cdktf.IResolvable;
   /**
   * Interface name used by the edge application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#name DataZedcloudProject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#name DataZedcloudProject#name}
   */
   readonly name?: string;
   /**
   * Indicates if the interface is optional for edge application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#optional DataZedcloudProject#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#optional DataZedcloudProject#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
   * If true, DHCP network can't be assigned and user needs to provide a static IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#privateip DataZedcloudProject#privateip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#privateip DataZedcloudProject#privateip}
   */
   readonly privateip?: boolean | cdktf.IResolvable;
   /**
   * Physical Adapter type for this interface. Applicable only when "direct attach" flag is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#type DataZedcloudProject#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#type DataZedcloudProject#type}
   */
   readonly type?: string;
   /**
   * acls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#acls DataZedcloudProject#acls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#acls DataZedcloudProject#acls}
   */
   readonly acls?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeHubManifestJsonInterfacesAcls[] | cdktf.IResolvable;
 }
@@ -14004,25 +17700,25 @@ export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdge
   /**
   * Extra information to module to make configuration easier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#environment DataZedcloudProject#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#environment DataZedcloudProject#environment}
   */
   readonly environment?: { [key: string]: string };
   /**
   * Type of modules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#module_type DataZedcloudProject#module_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#module_type DataZedcloudProject#module_type}
   */
   readonly moduleType?: string;
   /**
   * Send messages between modules or send messages from modules to iot hub
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#routes DataZedcloudProject#routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#routes DataZedcloudProject#routes}
   */
   readonly routes?: { [key: string]: string };
   /**
   * Base64 encoded module twin details, desired properties of the module will be updated to reflect these values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#twin_detail DataZedcloudProject#twin_detail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#twin_detail DataZedcloudProject#twin_detail}
   */
   readonly twinDetail?: string;
 }
@@ -14227,29 +17923,29 @@ export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdge
   /**
   * UI map: AppEditPage:IdentityPane:Category_Field, AppDetailsPage:IdentityPane:Category_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#company DataZedcloudProject#company}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#company DataZedcloudProject#company}
   */
   readonly company?: string;
   /**
   * UI map: AppEditPage:DeveloperPane:Email_Field, AppDetailsPage:DeveloperPane:Email_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#email DataZedcloudProject#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#email DataZedcloudProject#email}
   */
   readonly email?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#group DataZedcloudProject#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#group DataZedcloudProject#group}
   */
   readonly group?: string;
   /**
   * UI map: AppEditPage:DeveloperPane:Name_Field, AppDetailsPage:DeveloperPane:Name_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#user DataZedcloudProject#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#user DataZedcloudProject#user}
   */
   readonly user?: string;
   /**
   * UI map: AppEditPage:DeveloperPane:Website_Field, AppDetailsPage:DeveloperPane:Website_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#website DataZedcloudProject#website}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#website DataZedcloudProject#website}
   */
   readonly website?: string;
 }
@@ -14564,13 +18260,13 @@ export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdge
   /**
   * Name of the Resource (Required)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#name DataZedcloudProject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#name DataZedcloudProject#name}
   */
   readonly name?: string;
   /**
   * Value of Resource (Required)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#value DataZedcloudProject#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#value DataZedcloudProject#value}
   */
   readonly value?: string;
 }
@@ -14717,151 +18413,157 @@ export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdge
   /**
   * UI map: N/A - not exposed to users
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#ac_kind DataZedcloudProject#ac_kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#ac_kind DataZedcloudProject#ac_kind}
   */
   readonly acKind: string;
   /**
   * UI map: N/A - not exposed to users
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#ac_version DataZedcloudProject#ac_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#ac_version DataZedcloudProject#ac_version}
   */
   readonly acVersion: string;
   /**
   * App (bundle) type. The correct values are: "APP_TYPE_UNSPECIFIED","APP_TYPE_VM","APP_TYPE_VM_RUNTIME","APP_TYPE_CONTAINER","APP_TYPE_MODULE", "APP_TYPE_DOCKER_COMPOSE".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#app_type DataZedcloudProject#app_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#app_type DataZedcloudProject#app_type}
   */
   readonly appType?: string;
   /**
   * Enable CpuPinning
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#cpu_pinning_enabled DataZedcloudProject#cpu_pinning_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#cpu_pinning_enabled DataZedcloudProject#cpu_pinning_enabled}
   */
   readonly cpuPinningEnabled?: boolean | cdktf.IResolvable;
   /**
   * Deployment type for the app. The correct values are: "DEPLOYMENT_TYPE_UNSPECIFIED","DEPLOYMENT_TYPE_STAND_ALONE","DEPLOYMENT_TYPE_AZURE","DEPLOYMENT_TYPE_K3S","DEPLOYMENT_TYPE_AWS","DEPLOYMENT_TYPE_K3S_AZURE","DEPLOYMENT_TYPE_K3S_AWS","DEPLOYMENT_TYPE_VMWARE_VCE".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#deployment_type DataZedcloudProject#deployment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#deployment_type DataZedcloudProject#deployment_type}
   */
   readonly deploymentType?: string;
   /**
   * UI map: AppDetailsPage:IdentityPane:DescriptionField, AppMarketplacePage:AppCard:DescriptionField
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#description DataZedcloudProject#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#description DataZedcloudProject#description}
   */
   readonly description?: string;
   /**
+  * UI map: AppEditPage:IdentityPane:DISABLEVTPM_Field, AppDetailsPage:IdentityPane:DISABLEVTPM_Field
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#disable_v_t_p_m DataZedcloudProject#disable_v_t_p_m}
+  */
+  readonly disableVTPM?: boolean | cdktf.IResolvable;
+  /**
   * UI map: AppEditPage:IdentityPane:Title_Field, AppDetailsPage:IdentityPane:Title_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#display_name DataZedcloudProject#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#display_name DataZedcloudProject#display_name}
   */
   readonly displayName?: string;
   /**
   * Docker compose tar image name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#docker_compose_tar_image_name DataZedcloudProject#docker_compose_tar_image_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#docker_compose_tar_image_name DataZedcloudProject#docker_compose_tar_image_name}
   */
   readonly dockerComposeTarImageName?: string;
   /**
   * Docker compose base64 encoded plain text
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#docker_compose_yaml_text DataZedcloudProject#docker_compose_yaml_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#docker_compose_yaml_text DataZedcloudProject#docker_compose_yaml_text}
   */
   readonly dockerComposeYamlText?: string;
   /**
   * UI map: AppEditPage:IdentityPane:ENABLEVMCONFIG_Field, AppDetailsPage:IdentityPane:ENABLEVMCONFIG_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#enable_oem_win_license_key DataZedcloudProject#enable_oem_win_license_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#enable_oem_win_license_key DataZedcloudProject#enable_oem_win_license_key}
   */
   readonly enableOemWinLicenseKey?: boolean | cdktf.IResolvable;
   /**
   * UI map: AppEditPage:IdentityPane:VNC_Field, AppDetailsPage:IdentityPane:VNC_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#enablevnc DataZedcloudProject#enablevnc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#enablevnc DataZedcloudProject#enablevnc}
   */
   readonly enablevnc?: boolean | cdktf.IResolvable;
   /**
   * UI map: AppEditPage:IdentityPane:Name_Field, AppDetailsPage:IdentityPane:Name_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#name DataZedcloudProject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#name DataZedcloudProject#name}
   */
   readonly name: string;
   /**
   * Size of persistent blank storage for runtime in bytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#persistent_runtime_size_bytes DataZedcloudProject#persistent_runtime_size_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#persistent_runtime_size_bytes DataZedcloudProject#persistent_runtime_size_bytes}
   */
   readonly persistentRuntimeSizeBytes?: string;
   /**
   * Indicates the internal communication protocol to pass configuration between Zedcloud and docker-compose runtime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#runtime_protocol_version DataZedcloudProject#runtime_protocol_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#runtime_protocol_version DataZedcloudProject#runtime_protocol_version}
   */
   readonly runtimeProtocolVersion?: string;
   /**
   * Indicates the version of container orchestration software
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#runtime_version DataZedcloudProject#runtime_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#runtime_version DataZedcloudProject#runtime_version}
   */
   readonly runtimeVersion?: string;
   /**
   * UI map: AppEditPage:IdentityPane:VM_Mode_Field, AppDetailsPage:IdentityPane:VM_Mode_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#vmmode DataZedcloudProject#vmmode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#vmmode DataZedcloudProject#vmmode}
   */
   readonly vmmode?: string;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#configuration DataZedcloudProject#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#configuration DataZedcloudProject#configuration}
   */
   readonly configuration?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeHubManifestJsonConfiguration[] | cdktf.IResolvable;
   /**
   * container_detail block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#container_detail DataZedcloudProject#container_detail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#container_detail DataZedcloudProject#container_detail}
   */
   readonly containerDetail?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeHubManifestJsonContainerDetail[] | cdktf.IResolvable;
   /**
   * desc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#desc DataZedcloudProject#desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#desc DataZedcloudProject#desc}
   */
   readonly desc?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeHubManifestJsonDesc[] | cdktf.IResolvable;
   /**
   * images block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#images DataZedcloudProject#images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#images DataZedcloudProject#images}
   */
   readonly images?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeHubManifestJsonImages[] | cdktf.IResolvable;
   /**
   * interfaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#interfaces DataZedcloudProject#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#interfaces DataZedcloudProject#interfaces}
   */
   readonly interfaces?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeHubManifestJsonInterfaces[] | cdktf.IResolvable;
   /**
   * module block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#module DataZedcloudProject#module}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#module DataZedcloudProject#module}
   */
   readonly module?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeHubManifestJsonModule[] | cdktf.IResolvable;
   /**
   * owner block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#owner DataZedcloudProject#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#owner DataZedcloudProject#owner}
   */
   readonly owner?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeHubManifestJsonOwner[] | cdktf.IResolvable;
   /**
   * permissions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#permissions DataZedcloudProject#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#permissions DataZedcloudProject#permissions}
   */
   readonly permissions?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeHubManifestJsonPermissions[] | cdktf.IResolvable;
   /**
   * resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#resources DataZedcloudProject#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#resources DataZedcloudProject#resources}
   */
   readonly resources?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeHubManifestJsonResources[] | cdktf.IResolvable;
 }
@@ -14878,6 +18580,7 @@ export function dataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeH
     cpu_pinning_enabled: cdktf.booleanToTerraform(struct!.cpuPinningEnabled),
     deployment_type: cdktf.stringToTerraform(struct!.deploymentType),
     description: cdktf.stringToTerraform(struct!.description),
+    disable_v_t_p_m: cdktf.booleanToTerraform(struct!.disableVTPM),
     display_name: cdktf.stringToTerraform(struct!.displayName),
     docker_compose_tar_image_name: cdktf.stringToTerraform(struct!.dockerComposeTarImageName),
     docker_compose_yaml_text: cdktf.stringToTerraform(struct!.dockerComposeYamlText),
@@ -14942,6 +18645,12 @@ export function dataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeH
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    disable_v_t_p_m: {
+      value: cdktf.booleanToHclTerraform(struct!.disableVTPM),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
     },
     display_name: {
       value: cdktf.stringToHclTerraform(struct!.displayName),
@@ -15107,6 +18816,10 @@ export class DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeHubM
       hasAnyValues = true;
       internalValueResult.description = this._description;
     }
+    if (this._disableVTPM !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.disableVTPM = this._disableVTPM;
+    }
     if (this._displayName !== undefined) {
       hasAnyValues = true;
       internalValueResult.displayName = this._displayName;
@@ -15196,6 +18909,7 @@ export class DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeHubM
       this._cpuPinningEnabled = undefined;
       this._deploymentType = undefined;
       this._description = undefined;
+      this._disableVTPM = undefined;
       this._displayName = undefined;
       this._dockerComposeTarImageName = undefined;
       this._dockerComposeYamlText = undefined;
@@ -15229,6 +18943,7 @@ export class DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeHubM
       this._cpuPinningEnabled = value.cpuPinningEnabled;
       this._deploymentType = value.deploymentType;
       this._description = value.description;
+      this._disableVTPM = value.disableVTPM;
       this._displayName = value.displayName;
       this._dockerComposeTarImageName = value.dockerComposeTarImageName;
       this._dockerComposeYamlText = value.dockerComposeYamlText;
@@ -15339,6 +19054,22 @@ export class DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeHubM
   // Temporarily expose input value. Use with caution.
   public get descriptionInput() {
     return this._description;
+  }
+
+  // disable_v_t_p_m - computed: false, optional: true, required: false
+  private _disableVTPM?: boolean | cdktf.IResolvable; 
+  public get disableVTPM() {
+    return this.getBooleanAttribute('disable_v_t_p_m');
+  }
+  public set disableVTPM(value: boolean | cdktf.IResolvable) {
+    this._disableVTPM = value;
+  }
+  public resetDisableVTPM() {
+    this._disableVTPM = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get disableVTPMInput() {
+    return this._disableVTPM;
   }
 
   // display_name - computed: false, optional: true, required: false
@@ -15666,13 +19397,13 @@ export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdge
   /**
   * Relation with child and parent object exists or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#reference_exists DataZedcloudProject#reference_exists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#reference_exists DataZedcloudProject#reference_exists}
   */
   readonly referenceExists?: boolean | cdktf.IResolvable;
   /**
   * Update required flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#update_available DataZedcloudProject#update_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#update_available DataZedcloudProject#update_available}
   */
   readonly updateAvailable?: boolean | cdktf.IResolvable;
 }
@@ -15829,109 +19560,109 @@ export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdge
   /**
   * User defined name of the edge app, unique across the enterprise. Once app name is created, name can’t be changed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#app_id DataZedcloudProject#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#app_id DataZedcloudProject#app_id}
   */
   readonly appId?: string;
   /**
   * Current version of the attached bundle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#app_version DataZedcloudProject#app_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#app_version DataZedcloudProject#app_version}
   */
   readonly appVersion?: string;
   /**
   * user defined cpus for bundle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#cpus DataZedcloudProject#cpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#cpus DataZedcloudProject#cpus}
   */
   readonly cpus: number;
   /**
   * Detailed description of the edge application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#description DataZedcloudProject#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#description DataZedcloudProject#description}
   */
   readonly description?: string;
   /**
   * user defined memory for bundle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#memory DataZedcloudProject#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#memory DataZedcloudProject#memory}
   */
   readonly memory: number;
   /**
   * User defined name of the edge application, unique across the enterprise. Once object is created, name can’t be changed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#name DataZedcloudProject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#name DataZedcloudProject#name}
   */
   readonly name: string;
   /**
   * User provided name part  for the auto deployed app
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#name_app_part DataZedcloudProject#name_app_part}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#name_app_part DataZedcloudProject#name_app_part}
   */
   readonly nameAppPart?: string;
   /**
   * User provided name part  for the auto deployed app
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#name_project_part DataZedcloudProject#name_project_part}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#name_project_part DataZedcloudProject#name_project_part}
   */
   readonly nameProjectPart?: string;
   /**
   * app naming scheme
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#naming_scheme DataZedcloudProject#naming_scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#naming_scheme DataZedcloudProject#naming_scheme}
   */
   readonly namingScheme?: string;
   /**
   * user defined network options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#networks DataZedcloudProject#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#networks DataZedcloudProject#networks}
   */
   readonly networks: number;
   /**
   * origin of object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#origin_type DataZedcloudProject#origin_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#origin_type DataZedcloudProject#origin_type}
   */
   readonly originType: string;
   /**
   * start delay is the time in seconds EVE should wait after boot before starting the application instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#start_delay_in_seconds DataZedcloudProject#start_delay_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#start_delay_in_seconds DataZedcloudProject#start_delay_in_seconds}
   */
   readonly startDelayInSeconds?: number;
   /**
   * user defined storage for bundle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#storage DataZedcloudProject#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#storage DataZedcloudProject#storage}
   */
   readonly storage?: number;
   /**
   * Tags are name/value pairs that enable you to categorize resources. Tag names are case insensitive with max_length 512 and min_length 3. Tag values are case sensitive with max_length 256 and min_length 3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#tags DataZedcloudProject#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#tags DataZedcloudProject#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * User defined title of the edge application. Title can be changed at any time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#title DataZedcloudProject#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#title DataZedcloudProject#title}
   */
   readonly title: string;
   /**
   * interfaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#interfaces DataZedcloudProject#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#interfaces DataZedcloudProject#interfaces}
   */
   readonly interfaces?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeHubInterfaces[] | cdktf.IResolvable;
   /**
   * manifest_json block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#manifest_json DataZedcloudProject#manifest_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#manifest_json DataZedcloudProject#manifest_json}
   */
   readonly manifestJson?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeHubManifestJson[] | cdktf.IResolvable;
   /**
   * parent_detail block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#parent_detail DataZedcloudProject#parent_detail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#parent_detail DataZedcloudProject#parent_detail}
   */
   readonly parentDetail?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeHubParentDetail[] | cdktf.IResolvable;
 }
@@ -16534,13 +20265,13 @@ export interface DataZedcloudProjectConfigurationLockPolicyModulePolicyMetrics {
   /**
   * Mapping of queries variable keys and value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#queries DataZedcloudProject#queries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#queries DataZedcloudProject#queries}
   */
   readonly queries?: { [key: string]: string };
   /**
   * Mapping of results variable keys and value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#results DataZedcloudProject#results}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#results DataZedcloudProject#results}
   */
   readonly results?: { [key: string]: string };
 }
@@ -16687,61 +20418,61 @@ export interface DataZedcloudProjectConfigurationLockPolicyModulePolicy {
   /**
   * etag for deployment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#etag DataZedcloudProject#etag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#etag DataZedcloudProject#etag}
   */
   readonly etag?: string;
   /**
   * Mapping of label variable keys and value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#labels DataZedcloudProject#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#labels DataZedcloudProject#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * deployment priority of module manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#priority DataZedcloudProject#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#priority DataZedcloudProject#priority}
   */
   readonly priority: number;
   /**
   * Mapping of routes variable keys and value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#routes DataZedcloudProject#routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#routes DataZedcloudProject#routes}
   */
   readonly routes?: { [key: string]: string };
   /**
   * target condition for deployment that matches single device or group of devices
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#target_condition DataZedcloudProject#target_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#target_condition DataZedcloudProject#target_condition}
   */
   readonly targetCondition?: string;
   /**
   * target condition for deployment that matches single device or group of devices
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#target_condition_new DataZedcloudProject#target_condition_new}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#target_condition_new DataZedcloudProject#target_condition_new}
   */
   readonly targetConditionNew?: { [key: string]: string };
   /**
   * apps block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#apps DataZedcloudProject#apps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#apps DataZedcloudProject#apps}
   */
   readonly apps: DataZedcloudProjectConfigurationLockPolicyModulePolicyApps[] | cdktf.IResolvable;
   /**
   * azure_edge_agent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#azure_edge_agent DataZedcloudProject#azure_edge_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#azure_edge_agent DataZedcloudProject#azure_edge_agent}
   */
   readonly azureEdgeAgent?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeAgent[] | cdktf.IResolvable;
   /**
   * azure_edge_hub block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#azure_edge_hub DataZedcloudProject#azure_edge_hub}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#azure_edge_hub DataZedcloudProject#azure_edge_hub}
   */
   readonly azureEdgeHub?: DataZedcloudProjectConfigurationLockPolicyModulePolicyAzureEdgeHub[] | cdktf.IResolvable;
   /**
   * metrics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#metrics DataZedcloudProject#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#metrics DataZedcloudProject#metrics}
   */
   readonly metrics?: DataZedcloudProjectConfigurationLockPolicyModulePolicyMetrics[] | cdktf.IResolvable;
 }
@@ -17405,13 +21136,13 @@ export interface DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInsta
   /**
   * Addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#addrs DataZedcloudProject#addrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#addrs DataZedcloudProject#addrs}
   */
   readonly addrs?: string[];
   /**
   * Host name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#hostname DataZedcloudProject#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#hostname DataZedcloudProject#hostname}
   */
   readonly hostname?: string;
 }
@@ -17558,13 +21289,13 @@ export interface DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInsta
   /**
   * Id of the designated Edge Node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#designated_node_id DataZedcloudProject#designated_node_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#designated_node_id DataZedcloudProject#designated_node_id}
   */
   readonly designatedNodeId?: string;
   /**
   * Id of the Edge Node Cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#id DataZedcloudProject#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#id DataZedcloudProject#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17711,13 +21442,13 @@ export interface DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInsta
   /**
   * ending IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#end DataZedcloudProject#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#end DataZedcloudProject#end}
   */
   readonly end?: string;
   /**
   * starting IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#start DataZedcloudProject#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#start DataZedcloudProject#start}
   */
   readonly start?: string;
 }
@@ -17864,43 +21595,43 @@ export interface DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInsta
   /**
   * IP Addresses of DNS servers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#dns DataZedcloudProject#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#dns DataZedcloudProject#dns}
   */
   readonly dns?: string[];
   /**
   * Network domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#domain DataZedcloudProject#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#domain DataZedcloudProject#domain}
   */
   readonly domain?: string;
   /**
   * IP Address of Network Gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#gateway DataZedcloudProject#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#gateway DataZedcloudProject#gateway}
   */
   readonly gateway?: string;
   /**
   * Subnet Mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#mask DataZedcloudProject#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#mask DataZedcloudProject#mask}
   */
   readonly mask?: string;
   /**
   * IP Address of NTP Server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#ntp DataZedcloudProject#ntp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#ntp DataZedcloudProject#ntp}
   */
   readonly ntp?: string;
   /**
   * Subnet address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#subnet DataZedcloudProject#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#subnet DataZedcloudProject#subnet}
   */
   readonly subnet?: string;
   /**
   * dhcp_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#dhcp_range DataZedcloudProject#dhcp_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#dhcp_range DataZedcloudProject#dhcp_range}
   */
   readonly dhcpRange?: DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigIpDhcpRange[] | cdktf.IResolvable;
 }
@@ -18192,19 +21923,19 @@ export interface DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInsta
   /**
   * Service credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#credential DataZedcloudProject#credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#credential DataZedcloudProject#credential}
   */
   readonly credential?: string;
   /**
   * Service name/ service name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#name_or_ip DataZedcloudProject#name_or_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#name_or_ip DataZedcloudProject#name_or_ip}
   */
   readonly nameOrIp?: string;
   /**
   * Service Point Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#type DataZedcloudProject#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#type DataZedcloudProject#type}
   */
   readonly type?: string;
 }
@@ -18380,37 +22111,37 @@ export interface DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInsta
   /**
   * Allocate flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#allocate DataZedcloudProject#allocate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#allocate DataZedcloudProject#allocate}
   */
   readonly allocate?: boolean | cdktf.IResolvable;
   /**
   * Allocation Prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#allocationprefix DataZedcloudProject#allocationprefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#allocationprefix DataZedcloudProject#allocationprefix}
   */
   readonly allocationprefix?: string;
   /**
   * Allocation Prefix Length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#allocationprefixlen DataZedcloudProject#allocationprefixlen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#allocationprefixlen DataZedcloudProject#allocationprefixlen}
   */
   readonly allocationprefixlen?: number;
   /**
   * Export Private flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#exportprivate DataZedcloudProject#exportprivate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#exportprivate DataZedcloudProject#exportprivate}
   */
   readonly exportprivate?: boolean | cdktf.IResolvable;
   /**
   * lisp id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#lispiid DataZedcloudProject#lispiid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#lispiid DataZedcloudProject#lispiid}
   */
   readonly lispiid?: number;
   /**
   * sp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#sp DataZedcloudProject#sp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#sp DataZedcloudProject#sp}
   */
   readonly sp?: DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigOpaqueLispSp[] | cdktf.IResolvable;
 }
@@ -18673,19 +22404,19 @@ export interface DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInsta
   /**
   * base64 encoded string of opaque config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#oconfig DataZedcloudProject#oconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#oconfig DataZedcloudProject#oconfig}
   */
   readonly oconfig?: string;
   /**
   * type of Opaque config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#type DataZedcloudProject#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#type DataZedcloudProject#type}
   */
   readonly type?: string;
   /**
   * lisp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#lisp DataZedcloudProject#lisp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#lisp DataZedcloudProject#lisp}
   */
   readonly lisp?: DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigOpaqueLisp[] | cdktf.IResolvable;
 }
@@ -18857,19 +22588,596 @@ export class DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceC
     return new DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigOpaqueOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigProbeEndpoint {
+  /**
+  * IP address or FQDN.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#host DataZedcloudProject#host}
+  */
+  readonly host?: string;
+  /**
+  * TCP port required for CONNECTIVITY_PROBE_METHOD_TCP.
+  * Leave empty for CONNECTIVITY_PROBE_METHOD_ICMP.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#port DataZedcloudProject#port}
+  */
+  readonly port?: number;
+}
+
+export function dataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigProbeEndpointToTerraform(struct?: DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigProbeEndpoint | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    host: cdktf.stringToTerraform(struct!.host),
+    port: cdktf.numberToTerraform(struct!.port),
+  }
+}
+
+
+export function dataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigProbeEndpointToHclTerraform(struct?: DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigProbeEndpoint | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    host: {
+      value: cdktf.stringToHclTerraform(struct!.host),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    port: {
+      value: cdktf.numberToHclTerraform(struct!.port),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigProbeEndpointOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigProbeEndpoint | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._host !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.host = this._host;
+    }
+    if (this._port !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.port = this._port;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigProbeEndpoint | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._host = undefined;
+      this._port = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._host = value.host;
+      this._port = value.port;
+    }
+  }
+
+  // host - computed: false, optional: true, required: false
+  private _host?: string; 
+  public get host() {
+    return this.getStringAttribute('host');
+  }
+  public set host(value: string) {
+    this._host = value;
+  }
+  public resetHost() {
+    this._host = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hostInput() {
+    return this._host;
+  }
+
+  // port - computed: false, optional: true, required: false
+  private _port?: number; 
+  public get port() {
+    return this.getNumberAttribute('port');
+  }
+  public set port(value: number) {
+    this._port = value;
+  }
+  public resetPort() {
+    this._port = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get portInput() {
+    return this._port;
+  }
+}
+
+export class DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigProbeEndpointList extends cdktf.ComplexList {
+  public internalValue? : DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigProbeEndpoint[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigProbeEndpointOutputReference {
+    return new DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigProbeEndpointOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfig {
+  /**
+  * Method to use to determine the connectivity status.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#probe_method DataZedcloudProject#probe_method}
+  */
+  readonly probeMethod?: string;
+  /**
+  * probe_endpoint block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#probe_endpoint DataZedcloudProject#probe_endpoint}
+  */
+  readonly probeEndpoint?: DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigProbeEndpoint[] | cdktf.IResolvable;
+}
+
+export function dataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigToTerraform(struct?: DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfig | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    probe_method: cdktf.stringToTerraform(struct!.probeMethod),
+    probe_endpoint: cdktf.listMapper(dataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigProbeEndpointToTerraform, true)(struct!.probeEndpoint),
+  }
+}
+
+
+export function dataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigToHclTerraform(struct?: DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfig | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    probe_method: {
+      value: cdktf.stringToHclTerraform(struct!.probeMethod),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    probe_endpoint: {
+      value: cdktf.listMapperHcl(dataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigProbeEndpointToHclTerraform, true)(struct!.probeEndpoint),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigProbeEndpointList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfig | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._probeMethod !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.probeMethod = this._probeMethod;
+    }
+    if (this._probeEndpoint?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.probeEndpoint = this._probeEndpoint?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfig | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._probeMethod = undefined;
+      this._probeEndpoint.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._probeMethod = value.probeMethod;
+      this._probeEndpoint.internalValue = value.probeEndpoint;
+    }
+  }
+
+  // probe_method - computed: false, optional: true, required: false
+  private _probeMethod?: string; 
+  public get probeMethod() {
+    return this.getStringAttribute('probe_method');
+  }
+  public set probeMethod(value: string) {
+    this._probeMethod = value;
+  }
+  public resetProbeMethod() {
+    this._probeMethod = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get probeMethodInput() {
+    return this._probeMethod;
+  }
+
+  // probe_endpoint - computed: false, optional: true, required: false
+  private _probeEndpoint = new DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigProbeEndpointList(this, "probe_endpoint", false);
+  public get probeEndpoint() {
+    return this._probeEndpoint;
+  }
+  public putProbeEndpoint(value: DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigProbeEndpoint[] | cdktf.IResolvable) {
+    this._probeEndpoint.internalValue = value;
+  }
+  public resetProbeEndpoint() {
+    this._probeEndpoint.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get probeEndpointInput() {
+    return this._probeEndpoint.internalValue;
+  }
+}
+
+export class DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigList extends cdktf.ComplexList {
+  public internalValue? : DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfig[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigOutputReference {
+    return new DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfig {
+  /**
+  * Enable gateway ping
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#enable_gateway_ping DataZedcloudProject#enable_gateway_ping}
+  */
+  readonly enableGatewayPing?: boolean | cdktf.IResolvable;
+  /**
+  * Ping max cost
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#ping_max_cost DataZedcloudProject#ping_max_cost}
+  */
+  readonly pingMaxCost?: number;
+  /**
+  * Prefer lower cost
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#prefer_lower_cost DataZedcloudProject#prefer_lower_cost}
+  */
+  readonly preferLowerCost?: boolean | cdktf.IResolvable;
+  /**
+  * Prefer stronger WWAN signal
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#prefer_stronger_wwan_signal DataZedcloudProject#prefer_stronger_wwan_signal}
+  */
+  readonly preferStrongerWwanSignal?: boolean | cdktf.IResolvable;
+  /**
+  * custom_probe_config block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#custom_probe_config DataZedcloudProject#custom_probe_config}
+  */
+  readonly customProbeConfig?: DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfig[] | cdktf.IResolvable;
+}
+
+export function dataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigToTerraform(struct?: DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfig | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    enable_gateway_ping: cdktf.booleanToTerraform(struct!.enableGatewayPing),
+    ping_max_cost: cdktf.numberToTerraform(struct!.pingMaxCost),
+    prefer_lower_cost: cdktf.booleanToTerraform(struct!.preferLowerCost),
+    prefer_stronger_wwan_signal: cdktf.booleanToTerraform(struct!.preferStrongerWwanSignal),
+    custom_probe_config: cdktf.listMapper(dataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigToTerraform, true)(struct!.customProbeConfig),
+  }
+}
+
+
+export function dataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigToHclTerraform(struct?: DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfig | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    enable_gateway_ping: {
+      value: cdktf.booleanToHclTerraform(struct!.enableGatewayPing),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    ping_max_cost: {
+      value: cdktf.numberToHclTerraform(struct!.pingMaxCost),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    prefer_lower_cost: {
+      value: cdktf.booleanToHclTerraform(struct!.preferLowerCost),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    prefer_stronger_wwan_signal: {
+      value: cdktf.booleanToHclTerraform(struct!.preferStrongerWwanSignal),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    custom_probe_config: {
+      value: cdktf.listMapperHcl(dataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigToHclTerraform, true)(struct!.customProbeConfig),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfig | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._enableGatewayPing !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enableGatewayPing = this._enableGatewayPing;
+    }
+    if (this._pingMaxCost !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.pingMaxCost = this._pingMaxCost;
+    }
+    if (this._preferLowerCost !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.preferLowerCost = this._preferLowerCost;
+    }
+    if (this._preferStrongerWwanSignal !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.preferStrongerWwanSignal = this._preferStrongerWwanSignal;
+    }
+    if (this._customProbeConfig?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.customProbeConfig = this._customProbeConfig?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfig | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._enableGatewayPing = undefined;
+      this._pingMaxCost = undefined;
+      this._preferLowerCost = undefined;
+      this._preferStrongerWwanSignal = undefined;
+      this._customProbeConfig.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._enableGatewayPing = value.enableGatewayPing;
+      this._pingMaxCost = value.pingMaxCost;
+      this._preferLowerCost = value.preferLowerCost;
+      this._preferStrongerWwanSignal = value.preferStrongerWwanSignal;
+      this._customProbeConfig.internalValue = value.customProbeConfig;
+    }
+  }
+
+  // enable_gateway_ping - computed: false, optional: true, required: false
+  private _enableGatewayPing?: boolean | cdktf.IResolvable; 
+  public get enableGatewayPing() {
+    return this.getBooleanAttribute('enable_gateway_ping');
+  }
+  public set enableGatewayPing(value: boolean | cdktf.IResolvable) {
+    this._enableGatewayPing = value;
+  }
+  public resetEnableGatewayPing() {
+    this._enableGatewayPing = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableGatewayPingInput() {
+    return this._enableGatewayPing;
+  }
+
+  // ping_max_cost - computed: false, optional: true, required: false
+  private _pingMaxCost?: number; 
+  public get pingMaxCost() {
+    return this.getNumberAttribute('ping_max_cost');
+  }
+  public set pingMaxCost(value: number) {
+    this._pingMaxCost = value;
+  }
+  public resetPingMaxCost() {
+    this._pingMaxCost = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get pingMaxCostInput() {
+    return this._pingMaxCost;
+  }
+
+  // prefer_lower_cost - computed: false, optional: true, required: false
+  private _preferLowerCost?: boolean | cdktf.IResolvable; 
+  public get preferLowerCost() {
+    return this.getBooleanAttribute('prefer_lower_cost');
+  }
+  public set preferLowerCost(value: boolean | cdktf.IResolvable) {
+    this._preferLowerCost = value;
+  }
+  public resetPreferLowerCost() {
+    this._preferLowerCost = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get preferLowerCostInput() {
+    return this._preferLowerCost;
+  }
+
+  // prefer_stronger_wwan_signal - computed: false, optional: true, required: false
+  private _preferStrongerWwanSignal?: boolean | cdktf.IResolvable; 
+  public get preferStrongerWwanSignal() {
+    return this.getBooleanAttribute('prefer_stronger_wwan_signal');
+  }
+  public set preferStrongerWwanSignal(value: boolean | cdktf.IResolvable) {
+    this._preferStrongerWwanSignal = value;
+  }
+  public resetPreferStrongerWwanSignal() {
+    this._preferStrongerWwanSignal = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get preferStrongerWwanSignalInput() {
+    return this._preferStrongerWwanSignal;
+  }
+
+  // custom_probe_config - computed: false, optional: true, required: false
+  private _customProbeConfig = new DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigList(this, "custom_probe_config", false);
+  public get customProbeConfig() {
+    return this._customProbeConfig;
+  }
+  public putCustomProbeConfig(value: DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfig[] | cdktf.IResolvable) {
+    this._customProbeConfig.internalValue = value;
+  }
+  public resetCustomProbeConfig() {
+    this._customProbeConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get customProbeConfigInput() {
+    return this._customProbeConfig.internalValue;
+  }
+}
+
+export class DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigList extends cdktf.ComplexList {
+  public internalValue? : DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfig[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigOutputReference {
+    return new DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigStaticRoutes {
   /**
   * Gateway IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#gateway DataZedcloudProject#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#gateway DataZedcloudProject#gateway}
   */
   readonly gateway?: string;
   /**
+  * Output Port
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#output_port DataZedcloudProject#output_port}
+  */
+  readonly outputPort?: string;
+  /**
   * IP Prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#prefix DataZedcloudProject#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#prefix DataZedcloudProject#prefix}
   */
   readonly prefix?: string;
+  /**
+  * probe_config block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#probe_config DataZedcloudProject#probe_config}
+  */
+  readonly probeConfig?: DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfig[] | cdktf.IResolvable;
 }
 
 export function dataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigStaticRoutesToTerraform(struct?: DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigStaticRoutes | cdktf.IResolvable): any {
@@ -18879,7 +23187,9 @@ export function dataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstan
   }
   return {
     gateway: cdktf.stringToTerraform(struct!.gateway),
+    output_port: cdktf.stringToTerraform(struct!.outputPort),
     prefix: cdktf.stringToTerraform(struct!.prefix),
+    probe_config: cdktf.listMapper(dataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigToTerraform, true)(struct!.probeConfig),
   }
 }
 
@@ -18896,11 +23206,23 @@ export function dataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstan
       type: "simple",
       storageClassType: "string",
     },
+    output_port: {
+      value: cdktf.stringToHclTerraform(struct!.outputPort),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     prefix: {
       value: cdktf.stringToHclTerraform(struct!.prefix),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    probe_config: {
+      value: cdktf.listMapperHcl(dataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigToHclTerraform, true)(struct!.probeConfig),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigList",
     },
   };
 
@@ -18932,9 +23254,17 @@ export class DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceC
       hasAnyValues = true;
       internalValueResult.gateway = this._gateway;
     }
+    if (this._outputPort !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.outputPort = this._outputPort;
+    }
     if (this._prefix !== undefined) {
       hasAnyValues = true;
       internalValueResult.prefix = this._prefix;
+    }
+    if (this._probeConfig?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.probeConfig = this._probeConfig?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -18944,7 +23274,9 @@ export class DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceC
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._gateway = undefined;
+      this._outputPort = undefined;
       this._prefix = undefined;
+      this._probeConfig.internalValue = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -18954,7 +23286,9 @@ export class DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceC
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
       this._gateway = value.gateway;
+      this._outputPort = value.outputPort;
       this._prefix = value.prefix;
+      this._probeConfig.internalValue = value.probeConfig;
     }
   }
 
@@ -18974,6 +23308,22 @@ export class DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceC
     return this._gateway;
   }
 
+  // output_port - computed: false, optional: true, required: false
+  private _outputPort?: string; 
+  public get outputPort() {
+    return this.getStringAttribute('output_port');
+  }
+  public set outputPort(value: string) {
+    this._outputPort = value;
+  }
+  public resetOutputPort() {
+    this._outputPort = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get outputPortInput() {
+    return this._outputPort;
+  }
+
   // prefix - computed: false, optional: true, required: false
   private _prefix?: string; 
   public get prefix() {
@@ -18988,6 +23338,22 @@ export class DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceC
   // Temporarily expose input value. Use with caution.
   public get prefixInput() {
     return this._prefix;
+  }
+
+  // probe_config - computed: false, optional: true, required: false
+  private _probeConfig = new DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigList(this, "probe_config", false);
+  public get probeConfig() {
+    return this._probeConfig;
+  }
+  public putProbeConfig(value: DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfig[] | cdktf.IResolvable) {
+    this._probeConfig.internalValue = value;
+  }
+  public resetProbeConfig() {
+    this._probeConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get probeConfigInput() {
+    return this._probeConfig.internalValue;
   }
 }
 
@@ -19014,31 +23380,31 @@ export interface DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInsta
   /**
   * ID of the Cluster in which the network instance is configured
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#cluster_id DataZedcloudProject#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#cluster_id DataZedcloudProject#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * Detailed description of the network instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#description DataZedcloudProject#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#description DataZedcloudProject#description}
   */
   readonly description?: string;
   /**
   * Flag to indicate if this is the default network instance for the device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#device_default DataZedcloudProject#device_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#device_default DataZedcloudProject#device_default}
   */
   readonly deviceDefault?: boolean | cdktf.IResolvable;
   /**
   * ID of the device on which network instance is created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#device_id DataZedcloudProject#device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#device_id DataZedcloudProject#device_id}
   */
   readonly deviceId?: string;
   /**
   * Deprecated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#dhcp DataZedcloudProject#dhcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#dhcp DataZedcloudProject#dhcp}
   */
   readonly dhcp?: boolean | cdktf.IResolvable;
   /**
@@ -19051,65 +23417,65 @@ export interface DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInsta
   * NETWORK_INSTANCE_KIND_MESH
   * NETWORK_INSTANCE_KIND_HONEYPOT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#kind DataZedcloudProject#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#kind DataZedcloudProject#kind}
   */
   readonly kind: string;
   /**
   * Maximum transmission unit (MTU) to set for the network instance and all application interfaces connected to it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#mtu DataZedcloudProject#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#mtu DataZedcloudProject#mtu}
   */
   readonly mtu?: number;
   /**
   * User defined name of the network instance, unique across the enterprise. Once object is created, name can’t be changed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#name DataZedcloudProject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#name DataZedcloudProject#name}
   */
   readonly name: string;
   /**
   * id of the network policy to be attached to this network instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#network_policy_id DataZedcloudProject#network_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#network_policy_id DataZedcloudProject#network_policy_id}
   */
   readonly networkPolicyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#oconfig DataZedcloudProject#oconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#oconfig DataZedcloudProject#oconfig}
   */
   readonly oconfig?: string;
   /**
   * name of port mapping in the model
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#port DataZedcloudProject#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#port DataZedcloudProject#port}
   */
   readonly port?: string;
   /**
   * Tags are name/value pairs that enable you to categorize resources. Tag names are case insensitive with max_length 512 and min_length 3. Tag values are case sensitive with max_length 256 and min_length 3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#port_tags DataZedcloudProject#port_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#port_tags DataZedcloudProject#port_tags}
   */
   readonly portTags?: { [key: string]: string };
   /**
   * id of the project in which network instance is created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#project_id DataZedcloudProject#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#project_id DataZedcloudProject#project_id}
   */
   readonly projectId?: string;
   /**
   * Automatically propagate connected routes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#propagate_connected_routes DataZedcloudProject#propagate_connected_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#propagate_connected_routes DataZedcloudProject#propagate_connected_routes}
   */
   readonly propagateConnectedRoutes?: boolean | cdktf.IResolvable;
   /**
   * Tags are name/value pairs that enable you to categorize resources. Tag names are case insensitive with max_length 512 and min_length 3. Tag values are case sensitive with max_length 256 and min_length 3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#tags DataZedcloudProject#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#tags DataZedcloudProject#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * User defined title of the network instance. Title can be changed at any time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#title DataZedcloudProject#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#title DataZedcloudProject#title}
   */
   readonly title: string;
   /**
@@ -19120,37 +23486,37 @@ export interface DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInsta
   * NETWORK_INSTANCE_DHCP_TYPE_CRYPTOV4
   * NETWORK_INSTANCE_DHCP_TYPE_CRYPTOV6
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#type DataZedcloudProject#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#type DataZedcloudProject#type}
   */
   readonly type?: string;
   /**
   * dns_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#dns_list DataZedcloudProject#dns_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#dns_list DataZedcloudProject#dns_list}
   */
   readonly dnsList?: DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigDnsListStruct[] | cdktf.IResolvable;
   /**
   * edge_node_cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#edge_node_cluster DataZedcloudProject#edge_node_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#edge_node_cluster DataZedcloudProject#edge_node_cluster}
   */
   readonly edgeNodeCluster?: DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigEdgeNodeCluster[] | cdktf.IResolvable;
   /**
   * ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#ip DataZedcloudProject#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#ip DataZedcloudProject#ip}
   */
   readonly ip?: DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigIp[] | cdktf.IResolvable;
   /**
   * opaque block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#opaque DataZedcloudProject#opaque}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#opaque DataZedcloudProject#opaque}
   */
   readonly opaque?: DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigOpaque[] | cdktf.IResolvable;
   /**
   * static_routes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#static_routes DataZedcloudProject#static_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#static_routes DataZedcloudProject#static_routes}
   */
   readonly staticRoutes?: DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfigStaticRoutes[] | cdktf.IResolvable;
 }
@@ -19885,7 +24251,7 @@ export interface DataZedcloudProjectConfigurationLockPolicyNetworkPolicy {
   /**
   * net_instance_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#net_instance_config DataZedcloudProject#net_instance_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#net_instance_config DataZedcloudProject#net_instance_config}
   */
   readonly netInstanceConfig: DataZedcloudProjectConfigurationLockPolicyNetworkPolicyNetInstanceConfig[] | cdktf.IResolvable;
 }
@@ -20000,85 +24366,85 @@ export interface DataZedcloudProjectConfigurationLockPolicy {
   /**
   * Mapping of policy  variable keys and policy variable values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#attr DataZedcloudProject#attr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#attr DataZedcloudProject#attr}
   */
   readonly attr?: { [key: string]: string };
   /**
   * Detailed description of the policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#description DataZedcloudProject#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#description DataZedcloudProject#description}
   */
   readonly description?: string;
   /**
   * User defined name of the policy request, unique across the enterprise. Once object is created, name can’t be changed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#name DataZedcloudProject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#name DataZedcloudProject#name}
   */
   readonly name?: string;
   /**
   * User defined title of the policy. Title can be changed at any time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#title DataZedcloudProject#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#title DataZedcloudProject#title}
   */
   readonly title?: string;
   /**
   * type of policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#type DataZedcloudProject#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#type DataZedcloudProject#type}
   */
   readonly type?: string;
   /**
   * app_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#app_policy DataZedcloudProject#app_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#app_policy DataZedcloudProject#app_policy}
   */
   readonly appPolicy?: DataZedcloudProjectConfigurationLockPolicyAppPolicy[] | cdktf.IResolvable;
   /**
   * attestation_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#attestation_policy DataZedcloudProject#attestation_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#attestation_policy DataZedcloudProject#attestation_policy}
   */
   readonly attestationPolicy?: DataZedcloudProjectConfigurationLockPolicyAttestationPolicy[] | cdktf.IResolvable;
   /**
   * azure_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#azure_policy DataZedcloudProject#azure_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#azure_policy DataZedcloudProject#azure_policy}
   */
   readonly azurePolicy?: DataZedcloudProjectConfigurationLockPolicyAzurePolicy[] | cdktf.IResolvable;
   /**
   * cluster_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#cluster_policy DataZedcloudProject#cluster_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#cluster_policy DataZedcloudProject#cluster_policy}
   */
   readonly clusterPolicy?: DataZedcloudProjectConfigurationLockPolicyClusterPolicy[] | cdktf.IResolvable;
   /**
   * configuration_lock_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#configuration_lock_policy DataZedcloudProject#configuration_lock_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#configuration_lock_policy DataZedcloudProject#configuration_lock_policy}
   */
   readonly configurationLockPolicy?: DataZedcloudProjectConfigurationLockPolicyConfigurationLockPolicy[] | cdktf.IResolvable;
   /**
   * edgeview_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#edgeview_policy DataZedcloudProject#edgeview_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#edgeview_policy DataZedcloudProject#edgeview_policy}
   */
   readonly edgeviewPolicy?: DataZedcloudProjectConfigurationLockPolicyEdgeviewPolicy[] | cdktf.IResolvable;
   /**
   * local_operator_console_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#local_operator_console_policy DataZedcloudProject#local_operator_console_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#local_operator_console_policy DataZedcloudProject#local_operator_console_policy}
   */
   readonly localOperatorConsolePolicy?: DataZedcloudProjectConfigurationLockPolicyLocalOperatorConsolePolicy[] | cdktf.IResolvable;
   /**
   * module_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#module_policy DataZedcloudProject#module_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#module_policy DataZedcloudProject#module_policy}
   */
   readonly modulePolicy?: DataZedcloudProjectConfigurationLockPolicyModulePolicy[] | cdktf.IResolvable;
   /**
   * network_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#network_policy DataZedcloudProject#network_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#network_policy DataZedcloudProject#network_policy}
   */
   readonly networkPolicy?: DataZedcloudProjectConfigurationLockPolicyNetworkPolicy[] | cdktf.IResolvable;
 }
@@ -20694,7 +25060,7 @@ export interface DataZedcloudProjectEdgeviewPolicyAppPolicyAppsInterfacesAclsAct
   /**
   * Application port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#port DataZedcloudProject#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#port DataZedcloudProject#port}
   */
   readonly port?: number;
 }
@@ -20812,43 +25178,43 @@ export interface DataZedcloudProjectEdgeviewPolicyAppPolicyAppsInterfacesAclsAct
   /**
   * ACE drop flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#drop DataZedcloudProject#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#drop DataZedcloudProject#drop}
   */
   readonly drop?: boolean | cdktf.IResolvable;
   /**
   * ACE limit flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#limit DataZedcloudProject#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#limit DataZedcloudProject#limit}
   */
   readonly limit?: boolean | cdktf.IResolvable;
   /**
   * ACE limit burst
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#limitburst DataZedcloudProject#limitburst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#limitburst DataZedcloudProject#limitburst}
   */
   readonly limitburst?: number;
   /**
   * ACE limit rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#limitrate DataZedcloudProject#limitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#limitrate DataZedcloudProject#limitrate}
   */
   readonly limitrate?: number;
   /**
   * ACE limit unit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#limitunit DataZedcloudProject#limitunit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#limitunit DataZedcloudProject#limitunit}
   */
   readonly limitunit?: string;
   /**
   * application port map flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#portmap DataZedcloudProject#portmap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#portmap DataZedcloudProject#portmap}
   */
   readonly portmap?: boolean | cdktf.IResolvable;
   /**
   * mapparams block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#mapparams DataZedcloudProject#mapparams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#mapparams DataZedcloudProject#mapparams}
   */
   readonly mapparams?: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsInterfacesAclsActionsMapparams[] | cdktf.IResolvable;
 }
@@ -21140,13 +25506,13 @@ export interface DataZedcloudProjectEdgeviewPolicyAppPolicyAppsInterfacesAclsMat
   /**
   * Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#type DataZedcloudProject#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#type DataZedcloudProject#type}
   */
   readonly type?: string;
   /**
   * Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#value DataZedcloudProject#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#value DataZedcloudProject#value}
   */
   readonly value?: string;
 }
@@ -21293,19 +25659,19 @@ export interface DataZedcloudProjectEdgeviewPolicyAppPolicyAppsInterfacesAcls {
   /**
   * User defined name of the app ACE, unique across the enterprise. Once object is created, name can’t be changed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#name DataZedcloudProject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#name DataZedcloudProject#name}
   */
   readonly name?: string;
   /**
   * actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#actions DataZedcloudProject#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#actions DataZedcloudProject#actions}
   */
   readonly actions?: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsInterfacesAclsActions[] | cdktf.IResolvable;
   /**
   * matches block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#matches DataZedcloudProject#matches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#matches DataZedcloudProject#matches}
   */
   readonly matches?: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsInterfacesAclsMatches[] | cdktf.IResolvable;
 }
@@ -21486,13 +25852,13 @@ export interface DataZedcloudProjectEdgeviewPolicyAppPolicyAppsInterfacesEidregi
   /**
   * lisp credential
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#credential DataZedcloudProject#credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#credential DataZedcloudProject#credential}
   */
   readonly credential: string;
   /**
   * name/IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#name_or_ip DataZedcloudProject#name_or_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#name_or_ip DataZedcloudProject#name_or_ip}
   */
   readonly nameOrIp: string;
 }
@@ -21633,43 +25999,43 @@ export interface DataZedcloudProjectEdgeviewPolicyAppPolicyAppsInterfacesEidregi
   /**
   * Display name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#display_name DataZedcloudProject#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#display_name DataZedcloudProject#display_name}
   */
   readonly displayName: string;
   /**
   * EID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#e_id DataZedcloudProject#e_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#e_id DataZedcloudProject#e_id}
   */
   readonly eId: string;
   /**
   * EID hash length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#e_id_hash_len DataZedcloudProject#e_id_hash_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#e_id_hash_len DataZedcloudProject#e_id_hash_len}
   */
   readonly eIdHashLen: number;
   /**
   * Lisp Instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#lisp_instance DataZedcloudProject#lisp_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#lisp_instance DataZedcloudProject#lisp_instance}
   */
   readonly lispInstance: number;
   /**
   * Lisp Signature
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#lisp_signature DataZedcloudProject#lisp_signature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#lisp_signature DataZedcloudProject#lisp_signature}
   */
   readonly lispSignature: string;
   /**
   * UUID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#uuid DataZedcloudProject#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#uuid DataZedcloudProject#uuid}
   */
   readonly uuid: string;
   /**
   * lisp_map_servers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#lisp_map_servers DataZedcloudProject#lisp_map_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#lisp_map_servers DataZedcloudProject#lisp_map_servers}
   */
   readonly lispMapServers: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsInterfacesEidregisterLispMapServers[] | cdktf.IResolvable;
 }
@@ -21955,19 +26321,19 @@ export interface DataZedcloudProjectEdgeviewPolicyAppPolicyAppsInterfacesIo {
   /**
   * Physical Adapter name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#name DataZedcloudProject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#name DataZedcloudProject#name}
   */
   readonly name?: string;
   /**
   * Tags are name/value pairs that enable you to categorize resources. Tag names are case insensitive with max_length 512 and min_length 3. Tag values are case sensitive with max_length 256 and min_length 3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#tags DataZedcloudProject#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#tags DataZedcloudProject#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * IoType specifies the type of the Input output of the device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#type DataZedcloudProject#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#type DataZedcloudProject#type}
   */
   readonly type?: string;
 }
@@ -22143,85 +26509,85 @@ export interface DataZedcloudProjectEdgeviewPolicyAppPolicyAppsInterfaces {
   /**
   * access port VLAN ID, vlan id of zero will be treated as trunk port and vlan id 1 is implicitly used by linux bridges
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#access_vlan_id DataZedcloudProject#access_vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#access_vlan_id DataZedcloudProject#access_vlan_id}
   */
   readonly accessVlanId?: number;
   /**
   * default instance flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#default_net_instance DataZedcloudProject#default_net_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#default_net_instance DataZedcloudProject#default_net_instance}
   */
   readonly defaultNetInstance?: boolean | cdktf.IResolvable;
   /**
   * direct attach flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#directattach DataZedcloudProject#directattach}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#directattach DataZedcloudProject#directattach}
   */
   readonly directattach?: boolean | cdktf.IResolvable;
   /**
   * intf Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#intfname DataZedcloudProject#intfname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#intfname DataZedcloudProject#intfname}
   */
   readonly intfname: string;
   /**
   * intforder
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#intforder DataZedcloudProject#intforder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#intforder DataZedcloudProject#intforder}
   */
   readonly intforder?: number;
   /**
   * IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#ipaddr DataZedcloudProject#ipaddr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#ipaddr DataZedcloudProject#ipaddr}
   */
   readonly ipaddr?: string;
   /**
   * MAC address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#macaddr DataZedcloudProject#macaddr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#macaddr DataZedcloudProject#macaddr}
   */
   readonly macaddr?: string;
   /**
   * Network Instance name to be matched for interface assignment. Applicable only when "direct attach" flag is false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#netinstname DataZedcloudProject#netinstname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#netinstname DataZedcloudProject#netinstname}
   */
   readonly netinstname: string;
   /**
   * Network Instance tag to be matched for interface assignment. Applicable only when "direct attach" flag is false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#netinsttag DataZedcloudProject#netinsttag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#netinsttag DataZedcloudProject#netinsttag}
   */
   readonly netinsttag?: { [key: string]: string };
   /**
   * network name: will be deprecated in future, use netinstname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#netname DataZedcloudProject#netname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#netname DataZedcloudProject#netname}
   */
   readonly netname?: string;
   /**
   * Private IP flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#privateip DataZedcloudProject#privateip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#privateip DataZedcloudProject#privateip}
   */
   readonly privateip: boolean | cdktf.IResolvable;
   /**
   * acls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#acls DataZedcloudProject#acls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#acls DataZedcloudProject#acls}
   */
   readonly acls?: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsInterfacesAcls[] | cdktf.IResolvable;
   /**
   * eidregister block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#eidregister DataZedcloudProject#eidregister}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#eidregister DataZedcloudProject#eidregister}
   */
   readonly eidregister?: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsInterfacesEidregister[] | cdktf.IResolvable;
   /**
   * io block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#io DataZedcloudProject#io}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/project#io DataZedcloudProject#io}
   */
   readonly io?: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsInterfacesIo[] | cdktf.IResolvable;
 }
@@ -22706,3634 +27072,5 @@ export class DataZedcloudProjectEdgeviewPolicyAppPolicyAppsInterfacesList extend
   */
   public get(index: number): DataZedcloudProjectEdgeviewPolicyAppPolicyAppsInterfacesOutputReference {
     return new DataZedcloudProjectEdgeviewPolicyAppPolicyAppsInterfacesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsCondition {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#name DataZedcloudProject#name}
-  */
-  readonly name?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#operator DataZedcloudProject#operator}
-  */
-  readonly operator?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#value DataZedcloudProject#value}
-  */
-  readonly value?: string;
-}
-
-export function dataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsConditionToTerraform(struct?: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsCondition | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    name: cdktf.stringToTerraform(struct!.name),
-    operator: cdktf.stringToTerraform(struct!.operator),
-    value: cdktf.stringToTerraform(struct!.value),
-  }
-}
-
-
-export function dataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsConditionToHclTerraform(struct?: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsCondition | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    operator: {
-      value: cdktf.stringToHclTerraform(struct!.operator),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    value: {
-      value: cdktf.stringToHclTerraform(struct!.value),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsConditionOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsCondition | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._name !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.name = this._name;
-    }
-    if (this._operator !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.operator = this._operator;
-    }
-    if (this._value !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.value = this._value;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsCondition | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._name = undefined;
-      this._operator = undefined;
-      this._value = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._name = value.name;
-      this._operator = value.operator;
-      this._value = value.value;
-    }
-  }
-
-  // name - computed: false, optional: true, required: false
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  public resetName() {
-    this._name = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
-  }
-
-  // operator - computed: false, optional: true, required: false
-  private _operator?: string; 
-  public get operator() {
-    return this.getStringAttribute('operator');
-  }
-  public set operator(value: string) {
-    this._operator = value;
-  }
-  public resetOperator() {
-    this._operator = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get operatorInput() {
-    return this._operator;
-  }
-
-  // value - computed: false, optional: true, required: false
-  private _value?: string; 
-  public get value() {
-    return this.getStringAttribute('value');
-  }
-  public set value(value: string) {
-    this._value = value;
-  }
-  public resetValue() {
-    this._value = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get valueInput() {
-    return this._value;
-  }
-}
-
-export class DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsConditionList extends cdktf.ComplexList {
-  public internalValue? : DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsCondition[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsConditionOutputReference {
-    return new DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsConditionOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsVariablesOptions {
-  /**
-  * Display label of the key in User-Agent
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#label DataZedcloudProject#label}
-  */
-  readonly label?: string;
-  /**
-  * Value of the key to be used
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#value DataZedcloudProject#value}
-  */
-  readonly value?: string;
-}
-
-export function dataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsVariablesOptionsToTerraform(struct?: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsVariablesOptions | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    label: cdktf.stringToTerraform(struct!.label),
-    value: cdktf.stringToTerraform(struct!.value),
-  }
-}
-
-
-export function dataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsVariablesOptionsToHclTerraform(struct?: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsVariablesOptions | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    label: {
-      value: cdktf.stringToHclTerraform(struct!.label),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    value: {
-      value: cdktf.stringToHclTerraform(struct!.value),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsVariablesOptionsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsVariablesOptions | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._label !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.label = this._label;
-    }
-    if (this._value !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.value = this._value;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsVariablesOptions | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._label = undefined;
-      this._value = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._label = value.label;
-      this._value = value.value;
-    }
-  }
-
-  // label - computed: false, optional: true, required: false
-  private _label?: string; 
-  public get label() {
-    return this.getStringAttribute('label');
-  }
-  public set label(value: string) {
-    this._label = value;
-  }
-  public resetLabel() {
-    this._label = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get labelInput() {
-    return this._label;
-  }
-
-  // value - computed: false, optional: true, required: false
-  private _value?: string; 
-  public get value() {
-    return this.getStringAttribute('value');
-  }
-  public set value(value: string) {
-    this._value = value;
-  }
-  public resetValue() {
-    this._value = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get valueInput() {
-    return this._value;
-  }
-}
-
-export class DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsVariablesOptionsList extends cdktf.ComplexList {
-  public internalValue? : DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsVariablesOptions[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsVariablesOptionsOutputReference {
-    return new DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsVariablesOptionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsVariables {
-  /**
-  * Default value of the variable. (Optional. Default: <Default value based on type>)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#default DataZedcloudProject#default}
-  */
-  readonly default?: string;
-  /**
-  * Encoding of file content. Applicable if format is VARIABLE_FORMAT_FILE
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#encode DataZedcloudProject#encode}
-  */
-  readonly encode?: string;
-  /**
-  * Format of the user variable. (Required)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#format DataZedcloudProject#format}
-  */
-  readonly format: string;
-  /**
-  * Label for the variable (Required)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#label DataZedcloudProject#label}
-  */
-  readonly label: string;
-  /**
-  * Max length of the value of the variable(Optional. Default: 1024)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#max_length DataZedcloudProject#max_length}
-  */
-  readonly maxLength?: string;
-  /**
-  * Name of the Variable (Required)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#name DataZedcloudProject#name}
-  */
-  readonly name: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#process_input DataZedcloudProject#process_input}
-  */
-  readonly processInput?: string;
-  /**
-  * This variable MUST be specified when creating an App Instance. (Optional. Default: False)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#required DataZedcloudProject#required}
-  */
-  readonly required: boolean | cdktf.IResolvable;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#type DataZedcloudProject#type}
-  */
-  readonly type?: string;
-  /**
-  * User-specified value of the variable.(Required if required is true. Optional otherwise)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#value DataZedcloudProject#value}
-  */
-  readonly value?: string;
-  /**
-  * options block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#options DataZedcloudProject#options}
-  */
-  readonly options?: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsVariablesOptions[] | cdktf.IResolvable;
-}
-
-export function dataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsVariablesToTerraform(struct?: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsVariables | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    default: cdktf.stringToTerraform(struct!.default),
-    encode: cdktf.stringToTerraform(struct!.encode),
-    format: cdktf.stringToTerraform(struct!.format),
-    label: cdktf.stringToTerraform(struct!.label),
-    max_length: cdktf.stringToTerraform(struct!.maxLength),
-    name: cdktf.stringToTerraform(struct!.name),
-    process_input: cdktf.stringToTerraform(struct!.processInput),
-    required: cdktf.booleanToTerraform(struct!.required),
-    type: cdktf.stringToTerraform(struct!.type),
-    value: cdktf.stringToTerraform(struct!.value),
-    options: cdktf.listMapper(dataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsVariablesOptionsToTerraform, true)(struct!.options),
-  }
-}
-
-
-export function dataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsVariablesToHclTerraform(struct?: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsVariables | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    default: {
-      value: cdktf.stringToHclTerraform(struct!.default),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    encode: {
-      value: cdktf.stringToHclTerraform(struct!.encode),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    format: {
-      value: cdktf.stringToHclTerraform(struct!.format),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    label: {
-      value: cdktf.stringToHclTerraform(struct!.label),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    max_length: {
-      value: cdktf.stringToHclTerraform(struct!.maxLength),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    process_input: {
-      value: cdktf.stringToHclTerraform(struct!.processInput),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    required: {
-      value: cdktf.booleanToHclTerraform(struct!.required),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-    type: {
-      value: cdktf.stringToHclTerraform(struct!.type),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    value: {
-      value: cdktf.stringToHclTerraform(struct!.value),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    options: {
-      value: cdktf.listMapperHcl(dataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsVariablesOptionsToHclTerraform, true)(struct!.options),
-      isBlock: true,
-      type: "list",
-      storageClassType: "DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsVariablesOptionsList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsVariablesOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsVariables | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._default !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.default = this._default;
-    }
-    if (this._encode !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.encode = this._encode;
-    }
-    if (this._format !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.format = this._format;
-    }
-    if (this._label !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.label = this._label;
-    }
-    if (this._maxLength !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.maxLength = this._maxLength;
-    }
-    if (this._name !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.name = this._name;
-    }
-    if (this._processInput !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.processInput = this._processInput;
-    }
-    if (this._required !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.required = this._required;
-    }
-    if (this._type !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.type = this._type;
-    }
-    if (this._value !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.value = this._value;
-    }
-    if (this._options?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.options = this._options?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsVariables | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._default = undefined;
-      this._encode = undefined;
-      this._format = undefined;
-      this._label = undefined;
-      this._maxLength = undefined;
-      this._name = undefined;
-      this._processInput = undefined;
-      this._required = undefined;
-      this._type = undefined;
-      this._value = undefined;
-      this._options.internalValue = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._default = value.default;
-      this._encode = value.encode;
-      this._format = value.format;
-      this._label = value.label;
-      this._maxLength = value.maxLength;
-      this._name = value.name;
-      this._processInput = value.processInput;
-      this._required = value.required;
-      this._type = value.type;
-      this._value = value.value;
-      this._options.internalValue = value.options;
-    }
-  }
-
-  // default - computed: false, optional: true, required: false
-  private _default?: string; 
-  public get default() {
-    return this.getStringAttribute('default');
-  }
-  public set default(value: string) {
-    this._default = value;
-  }
-  public resetDefault() {
-    this._default = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get defaultInput() {
-    return this._default;
-  }
-
-  // encode - computed: false, optional: true, required: false
-  private _encode?: string; 
-  public get encode() {
-    return this.getStringAttribute('encode');
-  }
-  public set encode(value: string) {
-    this._encode = value;
-  }
-  public resetEncode() {
-    this._encode = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get encodeInput() {
-    return this._encode;
-  }
-
-  // format - computed: false, optional: false, required: true
-  private _format?: string; 
-  public get format() {
-    return this.getStringAttribute('format');
-  }
-  public set format(value: string) {
-    this._format = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get formatInput() {
-    return this._format;
-  }
-
-  // label - computed: false, optional: false, required: true
-  private _label?: string; 
-  public get label() {
-    return this.getStringAttribute('label');
-  }
-  public set label(value: string) {
-    this._label = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get labelInput() {
-    return this._label;
-  }
-
-  // max_length - computed: false, optional: true, required: false
-  private _maxLength?: string; 
-  public get maxLength() {
-    return this.getStringAttribute('max_length');
-  }
-  public set maxLength(value: string) {
-    this._maxLength = value;
-  }
-  public resetMaxLength() {
-    this._maxLength = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get maxLengthInput() {
-    return this._maxLength;
-  }
-
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
-  }
-
-  // process_input - computed: false, optional: true, required: false
-  private _processInput?: string; 
-  public get processInput() {
-    return this.getStringAttribute('process_input');
-  }
-  public set processInput(value: string) {
-    this._processInput = value;
-  }
-  public resetProcessInput() {
-    this._processInput = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get processInputInput() {
-    return this._processInput;
-  }
-
-  // required - computed: false, optional: false, required: true
-  private _required?: boolean | cdktf.IResolvable; 
-  public get required() {
-    return this.getBooleanAttribute('required');
-  }
-  public set required(value: boolean | cdktf.IResolvable) {
-    this._required = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get requiredInput() {
-    return this._required;
-  }
-
-  // type - computed: false, optional: true, required: false
-  private _type?: string; 
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-  public set type(value: string) {
-    this._type = value;
-  }
-  public resetType() {
-    this._type = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get typeInput() {
-    return this._type;
-  }
-
-  // value - computed: false, optional: true, required: false
-  private _value?: string; 
-  public get value() {
-    return this.getStringAttribute('value');
-  }
-  public set value(value: string) {
-    this._value = value;
-  }
-  public resetValue() {
-    this._value = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get valueInput() {
-    return this._value;
-  }
-
-  // options - computed: false, optional: true, required: false
-  private _options = new DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsVariablesOptionsList(this, "options", false);
-  public get options() {
-    return this._options;
-  }
-  public putOptions(value: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsVariablesOptions[] | cdktf.IResolvable) {
-    this._options.internalValue = value;
-  }
-  public resetOptions() {
-    this._options.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get optionsInput() {
-    return this._options.internalValue;
-  }
-}
-
-export class DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsVariablesList extends cdktf.ComplexList {
-  public internalValue? : DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsVariables[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsVariablesOutputReference {
-    return new DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsVariablesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroups {
-  /**
-  * Name of the Variable Group(Required)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#name DataZedcloudProject#name}
-  */
-  readonly name?: string;
-  /**
-  * Indicates if the variable group is required to be specified for the App Instance. (Optional. Default:False)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#required DataZedcloudProject#required}
-  */
-  readonly required?: boolean | cdktf.IResolvable;
-  /**
-  * condition block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#condition DataZedcloudProject#condition}
-  */
-  readonly condition?: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsCondition[] | cdktf.IResolvable;
-  /**
-  * variables block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#variables DataZedcloudProject#variables}
-  */
-  readonly variables?: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsVariables[] | cdktf.IResolvable;
-}
-
-export function dataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsToTerraform(struct?: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroups | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    name: cdktf.stringToTerraform(struct!.name),
-    required: cdktf.booleanToTerraform(struct!.required),
-    condition: cdktf.listMapper(dataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsConditionToTerraform, true)(struct!.condition),
-    variables: cdktf.listMapper(dataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsVariablesToTerraform, true)(struct!.variables),
-  }
-}
-
-
-export function dataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsToHclTerraform(struct?: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroups | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    required: {
-      value: cdktf.booleanToHclTerraform(struct!.required),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-    condition: {
-      value: cdktf.listMapperHcl(dataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsConditionToHclTerraform, true)(struct!.condition),
-      isBlock: true,
-      type: "list",
-      storageClassType: "DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsConditionList",
-    },
-    variables: {
-      value: cdktf.listMapperHcl(dataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsVariablesToHclTerraform, true)(struct!.variables),
-      isBlock: true,
-      type: "list",
-      storageClassType: "DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsVariablesList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroups | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._name !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.name = this._name;
-    }
-    if (this._required !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.required = this._required;
-    }
-    if (this._condition?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.condition = this._condition?.internalValue;
-    }
-    if (this._variables?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.variables = this._variables?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroups | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._name = undefined;
-      this._required = undefined;
-      this._condition.internalValue = undefined;
-      this._variables.internalValue = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._name = value.name;
-      this._required = value.required;
-      this._condition.internalValue = value.condition;
-      this._variables.internalValue = value.variables;
-    }
-  }
-
-  // name - computed: false, optional: true, required: false
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  public resetName() {
-    this._name = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
-  }
-
-  // required - computed: false, optional: true, required: false
-  private _required?: boolean | cdktf.IResolvable; 
-  public get required() {
-    return this.getBooleanAttribute('required');
-  }
-  public set required(value: boolean | cdktf.IResolvable) {
-    this._required = value;
-  }
-  public resetRequired() {
-    this._required = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get requiredInput() {
-    return this._required;
-  }
-
-  // condition - computed: false, optional: true, required: false
-  private _condition = new DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsConditionList(this, "condition", false);
-  public get condition() {
-    return this._condition;
-  }
-  public putCondition(value: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsCondition[] | cdktf.IResolvable) {
-    this._condition.internalValue = value;
-  }
-  public resetCondition() {
-    this._condition.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get conditionInput() {
-    return this._condition.internalValue;
-  }
-
-  // variables - computed: false, optional: true, required: false
-  private _variables = new DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsVariablesList(this, "variables", false);
-  public get variables() {
-    return this._variables;
-  }
-  public putVariables(value: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsVariables[] | cdktf.IResolvable) {
-    this._variables.internalValue = value;
-  }
-  public resetVariables() {
-    this._variables.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get variablesInput() {
-    return this._variables.internalValue;
-  }
-}
-
-export class DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsList extends cdktf.ComplexList {
-  public internalValue? : DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroups[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsOutputReference {
-    return new DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfig {
-  /**
-  * Add the Custom Config to App Instance (Optional. Default: False)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#add DataZedcloudProject#add}
-  */
-  readonly add?: boolean | cdktf.IResolvable;
-  /**
-  * Allow Appinstance storage to be resized after app instance is created. (Optional. Default: False)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#allow_storage_resize DataZedcloudProject#allow_storage_resize}
-  */
-  readonly allowStorageResize?: boolean | cdktf.IResolvable;
-  /**
-  * Field delimiter used in specifying variables in template. (Required)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#field_delimiter DataZedcloudProject#field_delimiter}
-  */
-  readonly fieldDelimiter?: string;
-  /**
-  * Name of CustomConfig (Required)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#name DataZedcloudProject#name}
-  */
-  readonly name?: string;
-  /**
-  * Override existing custom config from App Bundle Manifest (Optional. Default: False)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#override DataZedcloudProject#override}
-  */
-  readonly override?: boolean | cdktf.IResolvable;
-  /**
-  * base64 encrypted template string. (Optional)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#template DataZedcloudProject#template}
-  */
-  readonly template?: string;
-  /**
-  * variable_groups block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#variable_groups DataZedcloudProject#variable_groups}
-  */
-  readonly variableGroups?: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroups[] | cdktf.IResolvable;
-}
-
-export function dataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigToTerraform(struct?: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfig | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    add: cdktf.booleanToTerraform(struct!.add),
-    allow_storage_resize: cdktf.booleanToTerraform(struct!.allowStorageResize),
-    field_delimiter: cdktf.stringToTerraform(struct!.fieldDelimiter),
-    name: cdktf.stringToTerraform(struct!.name),
-    override: cdktf.booleanToTerraform(struct!.override),
-    template: cdktf.stringToTerraform(struct!.template),
-    variable_groups: cdktf.listMapper(dataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsToTerraform, true)(struct!.variableGroups),
-  }
-}
-
-
-export function dataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigToHclTerraform(struct?: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfig | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    add: {
-      value: cdktf.booleanToHclTerraform(struct!.add),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-    allow_storage_resize: {
-      value: cdktf.booleanToHclTerraform(struct!.allowStorageResize),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-    field_delimiter: {
-      value: cdktf.stringToHclTerraform(struct!.fieldDelimiter),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    override: {
-      value: cdktf.booleanToHclTerraform(struct!.override),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-    template: {
-      value: cdktf.stringToHclTerraform(struct!.template),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    variable_groups: {
-      value: cdktf.listMapperHcl(dataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsToHclTerraform, true)(struct!.variableGroups),
-      isBlock: true,
-      type: "list",
-      storageClassType: "DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfig | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._add !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.add = this._add;
-    }
-    if (this._allowStorageResize !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.allowStorageResize = this._allowStorageResize;
-    }
-    if (this._fieldDelimiter !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.fieldDelimiter = this._fieldDelimiter;
-    }
-    if (this._name !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.name = this._name;
-    }
-    if (this._override !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.override = this._override;
-    }
-    if (this._template !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.template = this._template;
-    }
-    if (this._variableGroups?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.variableGroups = this._variableGroups?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfig | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._add = undefined;
-      this._allowStorageResize = undefined;
-      this._fieldDelimiter = undefined;
-      this._name = undefined;
-      this._override = undefined;
-      this._template = undefined;
-      this._variableGroups.internalValue = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._add = value.add;
-      this._allowStorageResize = value.allowStorageResize;
-      this._fieldDelimiter = value.fieldDelimiter;
-      this._name = value.name;
-      this._override = value.override;
-      this._template = value.template;
-      this._variableGroups.internalValue = value.variableGroups;
-    }
-  }
-
-  // add - computed: false, optional: true, required: false
-  private _add?: boolean | cdktf.IResolvable; 
-  public get add() {
-    return this.getBooleanAttribute('add');
-  }
-  public set add(value: boolean | cdktf.IResolvable) {
-    this._add = value;
-  }
-  public resetAdd() {
-    this._add = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get addInput() {
-    return this._add;
-  }
-
-  // allow_storage_resize - computed: false, optional: true, required: false
-  private _allowStorageResize?: boolean | cdktf.IResolvable; 
-  public get allowStorageResize() {
-    return this.getBooleanAttribute('allow_storage_resize');
-  }
-  public set allowStorageResize(value: boolean | cdktf.IResolvable) {
-    this._allowStorageResize = value;
-  }
-  public resetAllowStorageResize() {
-    this._allowStorageResize = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get allowStorageResizeInput() {
-    return this._allowStorageResize;
-  }
-
-  // field_delimiter - computed: false, optional: true, required: false
-  private _fieldDelimiter?: string; 
-  public get fieldDelimiter() {
-    return this.getStringAttribute('field_delimiter');
-  }
-  public set fieldDelimiter(value: string) {
-    this._fieldDelimiter = value;
-  }
-  public resetFieldDelimiter() {
-    this._fieldDelimiter = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get fieldDelimiterInput() {
-    return this._fieldDelimiter;
-  }
-
-  // name - computed: false, optional: true, required: false
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  public resetName() {
-    this._name = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
-  }
-
-  // override - computed: false, optional: true, required: false
-  private _override?: boolean | cdktf.IResolvable; 
-  public get override() {
-    return this.getBooleanAttribute('override');
-  }
-  public set override(value: boolean | cdktf.IResolvable) {
-    this._override = value;
-  }
-  public resetOverride() {
-    this._override = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get overrideInput() {
-    return this._override;
-  }
-
-  // template - computed: false, optional: true, required: false
-  private _template?: string; 
-  public get template() {
-    return this.getStringAttribute('template');
-  }
-  public set template(value: string) {
-    this._template = value;
-  }
-  public resetTemplate() {
-    this._template = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get templateInput() {
-    return this._template;
-  }
-
-  // variable_groups - computed: false, optional: true, required: false
-  private _variableGroups = new DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsList(this, "variable_groups", false);
-  public get variableGroups() {
-    return this._variableGroups;
-  }
-  public putVariableGroups(value: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroups[] | cdktf.IResolvable) {
-    this._variableGroups.internalValue = value;
-  }
-  public resetVariableGroups() {
-    this._variableGroups.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get variableGroupsInput() {
-    return this._variableGroups.internalValue;
-  }
-}
-
-export class DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigList extends cdktf.ComplexList {
-  public internalValue? : DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfig[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigOutputReference {
-    return new DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfiguration {
-  /**
-  * custom_config block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#custom_config DataZedcloudProject#custom_config}
-  */
-  readonly customConfig?: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfig[] | cdktf.IResolvable;
-}
-
-export function dataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationToTerraform(struct?: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfiguration | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    custom_config: cdktf.listMapper(dataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigToTerraform, true)(struct!.customConfig),
-  }
-}
-
-
-export function dataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationToHclTerraform(struct?: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfiguration | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    custom_config: {
-      value: cdktf.listMapperHcl(dataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigToHclTerraform, true)(struct!.customConfig),
-      isBlock: true,
-      type: "list",
-      storageClassType: "DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfiguration | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._customConfig?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.customConfig = this._customConfig?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfiguration | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._customConfig.internalValue = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._customConfig.internalValue = value.customConfig;
-    }
-  }
-
-  // custom_config - computed: false, optional: true, required: false
-  private _customConfig = new DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigList(this, "custom_config", false);
-  public get customConfig() {
-    return this._customConfig;
-  }
-  public putCustomConfig(value: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationCustomConfig[] | cdktf.IResolvable) {
-    this._customConfig.internalValue = value;
-  }
-  public resetCustomConfig() {
-    this._customConfig.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get customConfigInput() {
-    return this._customConfig.internalValue;
-  }
-}
-
-export class DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationList extends cdktf.ComplexList {
-  public internalValue? : DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfiguration[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationOutputReference {
-    return new DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonConfigurationOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonContainerDetail {
-  /**
-  * Create options direct the creation of the Docker container
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#container_create_option DataZedcloudProject#container_create_option}
-  */
-  readonly containerCreateOption?: string;
-}
-
-export function dataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonContainerDetailToTerraform(struct?: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonContainerDetail | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    container_create_option: cdktf.stringToTerraform(struct!.containerCreateOption),
-  }
-}
-
-
-export function dataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonContainerDetailToHclTerraform(struct?: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonContainerDetail | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    container_create_option: {
-      value: cdktf.stringToHclTerraform(struct!.containerCreateOption),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonContainerDetailOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonContainerDetail | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._containerCreateOption !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.containerCreateOption = this._containerCreateOption;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonContainerDetail | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._containerCreateOption = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._containerCreateOption = value.containerCreateOption;
-    }
-  }
-
-  // container_create_option - computed: false, optional: true, required: false
-  private _containerCreateOption?: string; 
-  public get containerCreateOption() {
-    return this.getStringAttribute('container_create_option');
-  }
-  public set containerCreateOption(value: string) {
-    this._containerCreateOption = value;
-  }
-  public resetContainerCreateOption() {
-    this._containerCreateOption = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get containerCreateOptionInput() {
-    return this._containerCreateOption;
-  }
-}
-
-export class DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonContainerDetailList extends cdktf.ComplexList {
-  public internalValue? : DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonContainerDetail[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonContainerDetailOutputReference {
-    return new DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonContainerDetailOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonDesc {
-  /**
-  * UI map: AppEditPage:DeveloperPane:Developer_Agreement_Field, AppDetailsPage:DeveloperPane:Developer_Agreement_Field
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#agreement_list DataZedcloudProject#agreement_list}
-  */
-  readonly agreementList?: { [key: string]: string };
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#app_category DataZedcloudProject#app_category}
-  */
-  readonly appCategory: string;
-  /**
-  * UI map: AppMarketplacePage:AppCard:DescriptionField, AppEditPage:IdentityPane:CategoryField, AppDetailsPage:IdentityPane:CategoryField
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#category DataZedcloudProject#category}
-  */
-  readonly category?: string;
-  /**
-  * UI map: AppMarketplacePage:AppCard:License, AppEditPage:IdentityPane:License, AppDetailsPage:IdentityPane:License
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#license_list DataZedcloudProject#license_list}
-  */
-  readonly licenseList?: { [key: string]: string };
-  /**
-  * UI map: AppEditPage:IdentityPane:Logo, AppDetailsPage:IdentityPane:Logo
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#logo DataZedcloudProject#logo}
-  */
-  readonly logo?: { [key: string]: string };
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#os DataZedcloudProject#os}
-  */
-  readonly os?: string;
-  /**
-  * UI map: AppEditPage:IdentityPane:Screenshot_Fields, AppDetailsPage:IdentityPane:Screenshot_Fields
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#screenshot_list DataZedcloudProject#screenshot_list}
-  */
-  readonly screenshotList?: { [key: string]: string };
-  /**
-  * UI map: AppEditPage:DeveloperPane:Support_Description_Field, AppDetailsPage:DeveloperPane:Support_Description_Field
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#support DataZedcloudProject#support}
-  */
-  readonly support?: string;
-}
-
-export function dataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonDescToTerraform(struct?: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonDesc | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    agreement_list: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.agreementList),
-    app_category: cdktf.stringToTerraform(struct!.appCategory),
-    category: cdktf.stringToTerraform(struct!.category),
-    license_list: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.licenseList),
-    logo: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.logo),
-    os: cdktf.stringToTerraform(struct!.os),
-    screenshot_list: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.screenshotList),
-    support: cdktf.stringToTerraform(struct!.support),
-  }
-}
-
-
-export function dataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonDescToHclTerraform(struct?: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonDesc | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    agreement_list: {
-      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.agreementList),
-      isBlock: false,
-      type: "map",
-      storageClassType: "stringMap",
-    },
-    app_category: {
-      value: cdktf.stringToHclTerraform(struct!.appCategory),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    category: {
-      value: cdktf.stringToHclTerraform(struct!.category),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    license_list: {
-      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.licenseList),
-      isBlock: false,
-      type: "map",
-      storageClassType: "stringMap",
-    },
-    logo: {
-      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.logo),
-      isBlock: false,
-      type: "map",
-      storageClassType: "stringMap",
-    },
-    os: {
-      value: cdktf.stringToHclTerraform(struct!.os),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    screenshot_list: {
-      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.screenshotList),
-      isBlock: false,
-      type: "map",
-      storageClassType: "stringMap",
-    },
-    support: {
-      value: cdktf.stringToHclTerraform(struct!.support),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonDescOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonDesc | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._agreementList !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.agreementList = this._agreementList;
-    }
-    if (this._appCategory !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.appCategory = this._appCategory;
-    }
-    if (this._category !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.category = this._category;
-    }
-    if (this._licenseList !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.licenseList = this._licenseList;
-    }
-    if (this._logo !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.logo = this._logo;
-    }
-    if (this._os !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.os = this._os;
-    }
-    if (this._screenshotList !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.screenshotList = this._screenshotList;
-    }
-    if (this._support !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.support = this._support;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonDesc | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._agreementList = undefined;
-      this._appCategory = undefined;
-      this._category = undefined;
-      this._licenseList = undefined;
-      this._logo = undefined;
-      this._os = undefined;
-      this._screenshotList = undefined;
-      this._support = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._agreementList = value.agreementList;
-      this._appCategory = value.appCategory;
-      this._category = value.category;
-      this._licenseList = value.licenseList;
-      this._logo = value.logo;
-      this._os = value.os;
-      this._screenshotList = value.screenshotList;
-      this._support = value.support;
-    }
-  }
-
-  // agreement_list - computed: false, optional: true, required: false
-  private _agreementList?: { [key: string]: string }; 
-  public get agreementList() {
-    return this.getStringMapAttribute('agreement_list');
-  }
-  public set agreementList(value: { [key: string]: string }) {
-    this._agreementList = value;
-  }
-  public resetAgreementList() {
-    this._agreementList = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get agreementListInput() {
-    return this._agreementList;
-  }
-
-  // app_category - computed: false, optional: false, required: true
-  private _appCategory?: string; 
-  public get appCategory() {
-    return this.getStringAttribute('app_category');
-  }
-  public set appCategory(value: string) {
-    this._appCategory = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get appCategoryInput() {
-    return this._appCategory;
-  }
-
-  // category - computed: false, optional: true, required: false
-  private _category?: string; 
-  public get category() {
-    return this.getStringAttribute('category');
-  }
-  public set category(value: string) {
-    this._category = value;
-  }
-  public resetCategory() {
-    this._category = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get categoryInput() {
-    return this._category;
-  }
-
-  // license_list - computed: false, optional: true, required: false
-  private _licenseList?: { [key: string]: string }; 
-  public get licenseList() {
-    return this.getStringMapAttribute('license_list');
-  }
-  public set licenseList(value: { [key: string]: string }) {
-    this._licenseList = value;
-  }
-  public resetLicenseList() {
-    this._licenseList = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get licenseListInput() {
-    return this._licenseList;
-  }
-
-  // logo - computed: false, optional: true, required: false
-  private _logo?: { [key: string]: string }; 
-  public get logo() {
-    return this.getStringMapAttribute('logo');
-  }
-  public set logo(value: { [key: string]: string }) {
-    this._logo = value;
-  }
-  public resetLogo() {
-    this._logo = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get logoInput() {
-    return this._logo;
-  }
-
-  // os - computed: false, optional: true, required: false
-  private _os?: string; 
-  public get os() {
-    return this.getStringAttribute('os');
-  }
-  public set os(value: string) {
-    this._os = value;
-  }
-  public resetOs() {
-    this._os = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get osInput() {
-    return this._os;
-  }
-
-  // screenshot_list - computed: false, optional: true, required: false
-  private _screenshotList?: { [key: string]: string }; 
-  public get screenshotList() {
-    return this.getStringMapAttribute('screenshot_list');
-  }
-  public set screenshotList(value: { [key: string]: string }) {
-    this._screenshotList = value;
-  }
-  public resetScreenshotList() {
-    this._screenshotList = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get screenshotListInput() {
-    return this._screenshotList;
-  }
-
-  // support - computed: false, optional: true, required: false
-  private _support?: string; 
-  public get support() {
-    return this.getStringAttribute('support');
-  }
-  public set support(value: string) {
-    this._support = value;
-  }
-  public resetSupport() {
-    this._support = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get supportInput() {
-    return this._support;
-  }
-}
-
-export class DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonDescList extends cdktf.ComplexList {
-  public internalValue? : DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonDesc[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonDescOutputReference {
-    return new DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonDescOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonImagesParams {
-  /**
-  * Name of the Parameter (Required)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#name DataZedcloudProject#name}
-  */
-  readonly name?: string;
-  /**
-  * Value of the parameter (Required)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#value DataZedcloudProject#value}
-  */
-  readonly value?: string;
-}
-
-export function dataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonImagesParamsToTerraform(struct?: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonImagesParams | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    name: cdktf.stringToTerraform(struct!.name),
-    value: cdktf.stringToTerraform(struct!.value),
-  }
-}
-
-
-export function dataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonImagesParamsToHclTerraform(struct?: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonImagesParams | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    value: {
-      value: cdktf.stringToHclTerraform(struct!.value),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonImagesParamsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonImagesParams | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._name !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.name = this._name;
-    }
-    if (this._value !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.value = this._value;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonImagesParams | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._name = undefined;
-      this._value = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._name = value.name;
-      this._value = value.value;
-    }
-  }
-
-  // name - computed: false, optional: true, required: false
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  public resetName() {
-    this._name = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
-  }
-
-  // value - computed: false, optional: true, required: false
-  private _value?: string; 
-  public get value() {
-    return this.getStringAttribute('value');
-  }
-  public set value(value: string) {
-    this._value = value;
-  }
-  public resetValue() {
-    this._value = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get valueInput() {
-    return this._value;
-  }
-}
-
-export class DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonImagesParamsList extends cdktf.ComplexList {
-  public internalValue? : DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonImagesParams[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonImagesParamsOutputReference {
-    return new DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonImagesParamsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonImages {
-  /**
-  * UI map: AppEditPage:DrivesPane:Cleartext, AppDetailsPage:DrivesPane:ClearText_Field
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#cleartext DataZedcloudProject#cleartext}
-  */
-  readonly cleartext?: boolean | cdktf.IResolvable;
-  /**
-  * UI map: AppEditPage:DrivesPane:Drive_Type_Field, AppDetailsPage:DrivesPane:Drive_Type_Field
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#drvtype DataZedcloudProject#drvtype}
-  */
-  readonly drvtype?: string;
-  /**
-  * UI map: AppEditPage:DrivesPane:Ignorepurge, AppDetailsPage:DrivesPane:Ignorepurgee_Field
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#ignorepurge DataZedcloudProject#ignorepurge}
-  */
-  readonly ignorepurge?: boolean | cdktf.IResolvable;
-  /**
-  * UI map: AppEditPage:DrivesPane:Image_Format_Field, AppDetailsPage:DrivesPane:Image_Format_Field
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#imageformat DataZedcloudProject#imageformat}
-  */
-  readonly imageformat?: string;
-  /**
-  * UI map: AppEditPage:DrivesPane:Image_ID_Field, AppDetailsPage:DrivesPane:Image_ID_Field
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#imageid DataZedcloudProject#imageid}
-  */
-  readonly imageid?: string;
-  /**
-  * UI map: AppEditPage:DrivesPane:Image_Name_Field, AppDetailsPage:DrivesPane:Image_Name_Field
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#imagename DataZedcloudProject#imagename}
-  */
-  readonly imagename?: string;
-  /**
-  * UI map: AppEditPage:DrivesPane:Max_Size_Field, AppDetailsPage:DrivesPane:Max_Size_Field
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#maxsize DataZedcloudProject#maxsize}
-  */
-  readonly maxsize?: string;
-  /**
-  * UI map: AppEditPage:DrivesPane:Mountpath, AppDetailsPage:DrivesPane:Mountpath_Field
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#mountpath DataZedcloudProject#mountpath}
-  */
-  readonly mountpath?: string;
-  /**
-  * UI map: AppEditPage:DrivesPane:Preserve_Field, AppDetailsPage:DrivesPane:Preserve_Field
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#preserve DataZedcloudProject#preserve}
-  */
-  readonly preserve?: boolean | cdktf.IResolvable;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#readonly DataZedcloudProject#readonly}
-  */
-  readonly readonly?: boolean | cdktf.IResolvable;
-  /**
-  * UI map: AppEditPage:DrivesPane:Target_Field, AppDetailsPage:DrivesPane:Target_Field
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#target DataZedcloudProject#target}
-  */
-  readonly target?: string;
-  /**
-  * UI map: AppEditPage:DrivesPane:Volume_Label, AppDetailsPage:DrivesPane:Volume_Label
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#volumelabel DataZedcloudProject#volumelabel}
-  */
-  readonly volumelabel?: string;
-  /**
-  * params block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#params DataZedcloudProject#params}
-  */
-  readonly params?: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonImagesParams[] | cdktf.IResolvable;
-}
-
-export function dataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonImagesToTerraform(struct?: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonImages | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    cleartext: cdktf.booleanToTerraform(struct!.cleartext),
-    drvtype: cdktf.stringToTerraform(struct!.drvtype),
-    ignorepurge: cdktf.booleanToTerraform(struct!.ignorepurge),
-    imageformat: cdktf.stringToTerraform(struct!.imageformat),
-    imageid: cdktf.stringToTerraform(struct!.imageid),
-    imagename: cdktf.stringToTerraform(struct!.imagename),
-    maxsize: cdktf.stringToTerraform(struct!.maxsize),
-    mountpath: cdktf.stringToTerraform(struct!.mountpath),
-    preserve: cdktf.booleanToTerraform(struct!.preserve),
-    readonly: cdktf.booleanToTerraform(struct!.readonly),
-    target: cdktf.stringToTerraform(struct!.target),
-    volumelabel: cdktf.stringToTerraform(struct!.volumelabel),
-    params: cdktf.listMapper(dataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonImagesParamsToTerraform, true)(struct!.params),
-  }
-}
-
-
-export function dataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonImagesToHclTerraform(struct?: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonImages | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    cleartext: {
-      value: cdktf.booleanToHclTerraform(struct!.cleartext),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-    drvtype: {
-      value: cdktf.stringToHclTerraform(struct!.drvtype),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    ignorepurge: {
-      value: cdktf.booleanToHclTerraform(struct!.ignorepurge),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-    imageformat: {
-      value: cdktf.stringToHclTerraform(struct!.imageformat),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    imageid: {
-      value: cdktf.stringToHclTerraform(struct!.imageid),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    imagename: {
-      value: cdktf.stringToHclTerraform(struct!.imagename),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    maxsize: {
-      value: cdktf.stringToHclTerraform(struct!.maxsize),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    mountpath: {
-      value: cdktf.stringToHclTerraform(struct!.mountpath),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    preserve: {
-      value: cdktf.booleanToHclTerraform(struct!.preserve),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-    readonly: {
-      value: cdktf.booleanToHclTerraform(struct!.readonly),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-    target: {
-      value: cdktf.stringToHclTerraform(struct!.target),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    volumelabel: {
-      value: cdktf.stringToHclTerraform(struct!.volumelabel),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    params: {
-      value: cdktf.listMapperHcl(dataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonImagesParamsToHclTerraform, true)(struct!.params),
-      isBlock: true,
-      type: "list",
-      storageClassType: "DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonImagesParamsList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonImagesOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonImages | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._cleartext !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.cleartext = this._cleartext;
-    }
-    if (this._drvtype !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.drvtype = this._drvtype;
-    }
-    if (this._ignorepurge !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ignorepurge = this._ignorepurge;
-    }
-    if (this._imageformat !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.imageformat = this._imageformat;
-    }
-    if (this._imageid !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.imageid = this._imageid;
-    }
-    if (this._imagename !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.imagename = this._imagename;
-    }
-    if (this._maxsize !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.maxsize = this._maxsize;
-    }
-    if (this._mountpath !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.mountpath = this._mountpath;
-    }
-    if (this._preserve !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.preserve = this._preserve;
-    }
-    if (this._readonly !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.readonly = this._readonly;
-    }
-    if (this._target !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.target = this._target;
-    }
-    if (this._volumelabel !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.volumelabel = this._volumelabel;
-    }
-    if (this._params?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.params = this._params?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonImages | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._cleartext = undefined;
-      this._drvtype = undefined;
-      this._ignorepurge = undefined;
-      this._imageformat = undefined;
-      this._imageid = undefined;
-      this._imagename = undefined;
-      this._maxsize = undefined;
-      this._mountpath = undefined;
-      this._preserve = undefined;
-      this._readonly = undefined;
-      this._target = undefined;
-      this._volumelabel = undefined;
-      this._params.internalValue = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._cleartext = value.cleartext;
-      this._drvtype = value.drvtype;
-      this._ignorepurge = value.ignorepurge;
-      this._imageformat = value.imageformat;
-      this._imageid = value.imageid;
-      this._imagename = value.imagename;
-      this._maxsize = value.maxsize;
-      this._mountpath = value.mountpath;
-      this._preserve = value.preserve;
-      this._readonly = value.readonly;
-      this._target = value.target;
-      this._volumelabel = value.volumelabel;
-      this._params.internalValue = value.params;
-    }
-  }
-
-  // cleartext - computed: false, optional: true, required: false
-  private _cleartext?: boolean | cdktf.IResolvable; 
-  public get cleartext() {
-    return this.getBooleanAttribute('cleartext');
-  }
-  public set cleartext(value: boolean | cdktf.IResolvable) {
-    this._cleartext = value;
-  }
-  public resetCleartext() {
-    this._cleartext = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get cleartextInput() {
-    return this._cleartext;
-  }
-
-  // drvtype - computed: false, optional: true, required: false
-  private _drvtype?: string; 
-  public get drvtype() {
-    return this.getStringAttribute('drvtype');
-  }
-  public set drvtype(value: string) {
-    this._drvtype = value;
-  }
-  public resetDrvtype() {
-    this._drvtype = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get drvtypeInput() {
-    return this._drvtype;
-  }
-
-  // ignorepurge - computed: false, optional: true, required: false
-  private _ignorepurge?: boolean | cdktf.IResolvable; 
-  public get ignorepurge() {
-    return this.getBooleanAttribute('ignorepurge');
-  }
-  public set ignorepurge(value: boolean | cdktf.IResolvable) {
-    this._ignorepurge = value;
-  }
-  public resetIgnorepurge() {
-    this._ignorepurge = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ignorepurgeInput() {
-    return this._ignorepurge;
-  }
-
-  // imageformat - computed: false, optional: true, required: false
-  private _imageformat?: string; 
-  public get imageformat() {
-    return this.getStringAttribute('imageformat');
-  }
-  public set imageformat(value: string) {
-    this._imageformat = value;
-  }
-  public resetImageformat() {
-    this._imageformat = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get imageformatInput() {
-    return this._imageformat;
-  }
-
-  // imageid - computed: true, optional: true, required: false
-  private _imageid?: string; 
-  public get imageid() {
-    return this.getStringAttribute('imageid');
-  }
-  public set imageid(value: string) {
-    this._imageid = value;
-  }
-  public resetImageid() {
-    this._imageid = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get imageidInput() {
-    return this._imageid;
-  }
-
-  // imagename - computed: false, optional: true, required: false
-  private _imagename?: string; 
-  public get imagename() {
-    return this.getStringAttribute('imagename');
-  }
-  public set imagename(value: string) {
-    this._imagename = value;
-  }
-  public resetImagename() {
-    this._imagename = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get imagenameInput() {
-    return this._imagename;
-  }
-
-  // maxsize - computed: false, optional: true, required: false
-  private _maxsize?: string; 
-  public get maxsize() {
-    return this.getStringAttribute('maxsize');
-  }
-  public set maxsize(value: string) {
-    this._maxsize = value;
-  }
-  public resetMaxsize() {
-    this._maxsize = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get maxsizeInput() {
-    return this._maxsize;
-  }
-
-  // mountpath - computed: false, optional: true, required: false
-  private _mountpath?: string; 
-  public get mountpath() {
-    return this.getStringAttribute('mountpath');
-  }
-  public set mountpath(value: string) {
-    this._mountpath = value;
-  }
-  public resetMountpath() {
-    this._mountpath = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get mountpathInput() {
-    return this._mountpath;
-  }
-
-  // preserve - computed: false, optional: true, required: false
-  private _preserve?: boolean | cdktf.IResolvable; 
-  public get preserve() {
-    return this.getBooleanAttribute('preserve');
-  }
-  public set preserve(value: boolean | cdktf.IResolvable) {
-    this._preserve = value;
-  }
-  public resetPreserve() {
-    this._preserve = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get preserveInput() {
-    return this._preserve;
-  }
-
-  // readonly - computed: false, optional: true, required: false
-  private _readonly?: boolean | cdktf.IResolvable; 
-  public get readonly() {
-    return this.getBooleanAttribute('readonly');
-  }
-  public set readonly(value: boolean | cdktf.IResolvable) {
-    this._readonly = value;
-  }
-  public resetReadonly() {
-    this._readonly = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get readonlyInput() {
-    return this._readonly;
-  }
-
-  // target - computed: false, optional: true, required: false
-  private _target?: string; 
-  public get target() {
-    return this.getStringAttribute('target');
-  }
-  public set target(value: string) {
-    this._target = value;
-  }
-  public resetTarget() {
-    this._target = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get targetInput() {
-    return this._target;
-  }
-
-  // volumelabel - computed: false, optional: true, required: false
-  private _volumelabel?: string; 
-  public get volumelabel() {
-    return this.getStringAttribute('volumelabel');
-  }
-  public set volumelabel(value: string) {
-    this._volumelabel = value;
-  }
-  public resetVolumelabel() {
-    this._volumelabel = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get volumelabelInput() {
-    return this._volumelabel;
-  }
-
-  // params - computed: false, optional: true, required: false
-  private _params = new DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonImagesParamsList(this, "params", false);
-  public get params() {
-    return this._params;
-  }
-  public putParams(value: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonImagesParams[] | cdktf.IResolvable) {
-    this._params.internalValue = value;
-  }
-  public resetParams() {
-    this._params.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get paramsInput() {
-    return this._params.internalValue;
-  }
-}
-
-export class DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonImagesList extends cdktf.ComplexList {
-  public internalValue? : DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonImages[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonImagesOutputReference {
-    return new DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonImagesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsActionsLimitValue {
-  /**
-  * UI map: AppDetailsPage:EnvironmentsPane, AppDetailsPage:EnvironmentsPane
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#limitburst DataZedcloudProject#limitburst}
-  */
-  readonly limitburst?: number;
-  /**
-  * UI map: AppDetailsPage:EnvironmentsPane, AppDetailsPage:EnvironmentsPane
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#limitrate DataZedcloudProject#limitrate}
-  */
-  readonly limitrate?: number;
-  /**
-  * UI map: AppDetailsPage:EnvironmentsPane, AppDetailsPage:EnvironmentsPane
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#limitunit DataZedcloudProject#limitunit}
-  */
-  readonly limitunit?: string;
-}
-
-export function dataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsActionsLimitValueToTerraform(struct?: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsActionsLimitValue | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    limitburst: cdktf.numberToTerraform(struct!.limitburst),
-    limitrate: cdktf.numberToTerraform(struct!.limitrate),
-    limitunit: cdktf.stringToTerraform(struct!.limitunit),
-  }
-}
-
-
-export function dataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsActionsLimitValueToHclTerraform(struct?: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsActionsLimitValue | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    limitburst: {
-      value: cdktf.numberToHclTerraform(struct!.limitburst),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    limitrate: {
-      value: cdktf.numberToHclTerraform(struct!.limitrate),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    limitunit: {
-      value: cdktf.stringToHclTerraform(struct!.limitunit),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsActionsLimitValueOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsActionsLimitValue | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._limitburst !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.limitburst = this._limitburst;
-    }
-    if (this._limitrate !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.limitrate = this._limitrate;
-    }
-    if (this._limitunit !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.limitunit = this._limitunit;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsActionsLimitValue | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._limitburst = undefined;
-      this._limitrate = undefined;
-      this._limitunit = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._limitburst = value.limitburst;
-      this._limitrate = value.limitrate;
-      this._limitunit = value.limitunit;
-    }
-  }
-
-  // limitburst - computed: false, optional: true, required: false
-  private _limitburst?: number; 
-  public get limitburst() {
-    return this.getNumberAttribute('limitburst');
-  }
-  public set limitburst(value: number) {
-    this._limitburst = value;
-  }
-  public resetLimitburst() {
-    this._limitburst = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get limitburstInput() {
-    return this._limitburst;
-  }
-
-  // limitrate - computed: false, optional: true, required: false
-  private _limitrate?: number; 
-  public get limitrate() {
-    return this.getNumberAttribute('limitrate');
-  }
-  public set limitrate(value: number) {
-    this._limitrate = value;
-  }
-  public resetLimitrate() {
-    this._limitrate = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get limitrateInput() {
-    return this._limitrate;
-  }
-
-  // limitunit - computed: false, optional: true, required: false
-  private _limitunit?: string; 
-  public get limitunit() {
-    return this.getStringAttribute('limitunit');
-  }
-  public set limitunit(value: string) {
-    this._limitunit = value;
-  }
-  public resetLimitunit() {
-    this._limitunit = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get limitunitInput() {
-    return this._limitunit;
-  }
-}
-
-export class DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsActionsLimitValueList extends cdktf.ComplexList {
-  public internalValue? : DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsActionsLimitValue[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsActionsLimitValueOutputReference {
-    return new DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsActionsLimitValueOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsActionsPortmapto {
-  /**
-  * Application Port value
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#app_port DataZedcloudProject#app_port}
-  */
-  readonly appPort?: number;
-}
-
-export function dataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsActionsPortmaptoToTerraform(struct?: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsActionsPortmapto | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    app_port: cdktf.numberToTerraform(struct!.appPort),
-  }
-}
-
-
-export function dataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsActionsPortmaptoToHclTerraform(struct?: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsActionsPortmapto | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    app_port: {
-      value: cdktf.numberToHclTerraform(struct!.appPort),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsActionsPortmaptoOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsActionsPortmapto | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._appPort !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.appPort = this._appPort;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsActionsPortmapto | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._appPort = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._appPort = value.appPort;
-    }
-  }
-
-  // app_port - computed: false, optional: true, required: false
-  private _appPort?: number; 
-  public get appPort() {
-    return this.getNumberAttribute('app_port');
-  }
-  public set appPort(value: number) {
-    this._appPort = value;
-  }
-  public resetAppPort() {
-    this._appPort = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get appPortInput() {
-    return this._appPort;
-  }
-}
-
-export class DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsActionsPortmaptoList extends cdktf.ComplexList {
-  public internalValue? : DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsActionsPortmapto[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsActionsPortmaptoOutputReference {
-    return new DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsActionsPortmaptoOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsActions {
-  /**
-  * Drop the packet
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#drop DataZedcloudProject#drop}
-  */
-  readonly drop?: boolean | cdktf.IResolvable;
-  /**
-  * UI map: AppDetailsPage:EnvironmentsPane, AppDetailsPage:EnvironmentsPane
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#limit DataZedcloudProject#limit}
-  */
-  readonly limit?: boolean | cdktf.IResolvable;
-  /**
-  * UI map: AppDetailsPage:EnvironmentsPane, AppDetailsPage:EnvironmentsPane
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#limitburst DataZedcloudProject#limitburst}
-  */
-  readonly limitburst?: number;
-  /**
-  * UI map: AppDetailsPage:EnvironmentsPane, AppDetailsPage:EnvironmentsPane
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#limitrate DataZedcloudProject#limitrate}
-  */
-  readonly limitrate?: number;
-  /**
-  * UI map: AppDetailsPage:EnvironmentsPane, AppDetailsPage:EnvironmentsPane
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#limitunit DataZedcloudProject#limitunit}
-  */
-  readonly limitunit?: string;
-  /**
-  * UI map: AppDetailsPage:EnvironmentsPane, AppDetailsPage:EnvironmentsPane
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#portmap DataZedcloudProject#portmap}
-  */
-  readonly portmap?: boolean | cdktf.IResolvable;
-  /**
-  * limit_value block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#limit_value DataZedcloudProject#limit_value}
-  */
-  readonly limitValue?: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsActionsLimitValue[] | cdktf.IResolvable;
-  /**
-  * portmapto block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#portmapto DataZedcloudProject#portmapto}
-  */
-  readonly portmapto?: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsActionsPortmapto[] | cdktf.IResolvable;
-}
-
-export function dataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsActionsToTerraform(struct?: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsActions | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    drop: cdktf.booleanToTerraform(struct!.drop),
-    limit: cdktf.booleanToTerraform(struct!.limit),
-    limitburst: cdktf.numberToTerraform(struct!.limitburst),
-    limitrate: cdktf.numberToTerraform(struct!.limitrate),
-    limitunit: cdktf.stringToTerraform(struct!.limitunit),
-    portmap: cdktf.booleanToTerraform(struct!.portmap),
-    limit_value: cdktf.listMapper(dataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsActionsLimitValueToTerraform, true)(struct!.limitValue),
-    portmapto: cdktf.listMapper(dataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsActionsPortmaptoToTerraform, true)(struct!.portmapto),
-  }
-}
-
-
-export function dataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsActionsToHclTerraform(struct?: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsActions | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    drop: {
-      value: cdktf.booleanToHclTerraform(struct!.drop),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-    limit: {
-      value: cdktf.booleanToHclTerraform(struct!.limit),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-    limitburst: {
-      value: cdktf.numberToHclTerraform(struct!.limitburst),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    limitrate: {
-      value: cdktf.numberToHclTerraform(struct!.limitrate),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    limitunit: {
-      value: cdktf.stringToHclTerraform(struct!.limitunit),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    portmap: {
-      value: cdktf.booleanToHclTerraform(struct!.portmap),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-    limit_value: {
-      value: cdktf.listMapperHcl(dataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsActionsLimitValueToHclTerraform, true)(struct!.limitValue),
-      isBlock: true,
-      type: "list",
-      storageClassType: "DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsActionsLimitValueList",
-    },
-    portmapto: {
-      value: cdktf.listMapperHcl(dataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsActionsPortmaptoToHclTerraform, true)(struct!.portmapto),
-      isBlock: true,
-      type: "list",
-      storageClassType: "DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsActionsPortmaptoList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsActionsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsActions | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._drop !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.drop = this._drop;
-    }
-    if (this._limit !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.limit = this._limit;
-    }
-    if (this._limitburst !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.limitburst = this._limitburst;
-    }
-    if (this._limitrate !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.limitrate = this._limitrate;
-    }
-    if (this._limitunit !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.limitunit = this._limitunit;
-    }
-    if (this._portmap !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.portmap = this._portmap;
-    }
-    if (this._limitValue?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.limitValue = this._limitValue?.internalValue;
-    }
-    if (this._portmapto?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.portmapto = this._portmapto?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsActions | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._drop = undefined;
-      this._limit = undefined;
-      this._limitburst = undefined;
-      this._limitrate = undefined;
-      this._limitunit = undefined;
-      this._portmap = undefined;
-      this._limitValue.internalValue = undefined;
-      this._portmapto.internalValue = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._drop = value.drop;
-      this._limit = value.limit;
-      this._limitburst = value.limitburst;
-      this._limitrate = value.limitrate;
-      this._limitunit = value.limitunit;
-      this._portmap = value.portmap;
-      this._limitValue.internalValue = value.limitValue;
-      this._portmapto.internalValue = value.portmapto;
-    }
-  }
-
-  // drop - computed: false, optional: true, required: false
-  private _drop?: boolean | cdktf.IResolvable; 
-  public get drop() {
-    return this.getBooleanAttribute('drop');
-  }
-  public set drop(value: boolean | cdktf.IResolvable) {
-    this._drop = value;
-  }
-  public resetDrop() {
-    this._drop = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get dropInput() {
-    return this._drop;
-  }
-
-  // limit - computed: false, optional: true, required: false
-  private _limit?: boolean | cdktf.IResolvable; 
-  public get limit() {
-    return this.getBooleanAttribute('limit');
-  }
-  public set limit(value: boolean | cdktf.IResolvable) {
-    this._limit = value;
-  }
-  public resetLimit() {
-    this._limit = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get limitInput() {
-    return this._limit;
-  }
-
-  // limitburst - computed: false, optional: true, required: false
-  private _limitburst?: number; 
-  public get limitburst() {
-    return this.getNumberAttribute('limitburst');
-  }
-  public set limitburst(value: number) {
-    this._limitburst = value;
-  }
-  public resetLimitburst() {
-    this._limitburst = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get limitburstInput() {
-    return this._limitburst;
-  }
-
-  // limitrate - computed: false, optional: true, required: false
-  private _limitrate?: number; 
-  public get limitrate() {
-    return this.getNumberAttribute('limitrate');
-  }
-  public set limitrate(value: number) {
-    this._limitrate = value;
-  }
-  public resetLimitrate() {
-    this._limitrate = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get limitrateInput() {
-    return this._limitrate;
-  }
-
-  // limitunit - computed: false, optional: true, required: false
-  private _limitunit?: string; 
-  public get limitunit() {
-    return this.getStringAttribute('limitunit');
-  }
-  public set limitunit(value: string) {
-    this._limitunit = value;
-  }
-  public resetLimitunit() {
-    this._limitunit = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get limitunitInput() {
-    return this._limitunit;
-  }
-
-  // portmap - computed: false, optional: true, required: false
-  private _portmap?: boolean | cdktf.IResolvable; 
-  public get portmap() {
-    return this.getBooleanAttribute('portmap');
-  }
-  public set portmap(value: boolean | cdktf.IResolvable) {
-    this._portmap = value;
-  }
-  public resetPortmap() {
-    this._portmap = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get portmapInput() {
-    return this._portmap;
-  }
-
-  // limit_value - computed: false, optional: true, required: false
-  private _limitValue = new DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsActionsLimitValueList(this, "limit_value", false);
-  public get limitValue() {
-    return this._limitValue;
-  }
-  public putLimitValue(value: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsActionsLimitValue[] | cdktf.IResolvable) {
-    this._limitValue.internalValue = value;
-  }
-  public resetLimitValue() {
-    this._limitValue.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get limitValueInput() {
-    return this._limitValue.internalValue;
-  }
-
-  // portmapto - computed: false, optional: true, required: false
-  private _portmapto = new DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsActionsPortmaptoList(this, "portmapto", false);
-  public get portmapto() {
-    return this._portmapto;
-  }
-  public putPortmapto(value: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsActionsPortmapto[] | cdktf.IResolvable) {
-    this._portmapto.internalValue = value;
-  }
-  public resetPortmapto() {
-    this._portmapto.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get portmaptoInput() {
-    return this._portmapto.internalValue;
-  }
-}
-
-export class DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsActionsList extends cdktf.ComplexList {
-  public internalValue? : DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsActions[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsActionsOutputReference {
-    return new DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsActionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsMatches {
-  /**
-  * Type of Match (Required)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#type DataZedcloudProject#type}
-  */
-  readonly type?: string;
-  /**
-  * Value of match (Required)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#value DataZedcloudProject#value}
-  */
-  readonly value?: string;
-}
-
-export function dataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsMatchesToTerraform(struct?: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsMatches | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    type: cdktf.stringToTerraform(struct!.type),
-    value: cdktf.stringToTerraform(struct!.value),
-  }
-}
-
-
-export function dataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsMatchesToHclTerraform(struct?: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsMatches | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    type: {
-      value: cdktf.stringToHclTerraform(struct!.type),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    value: {
-      value: cdktf.stringToHclTerraform(struct!.value),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsMatchesOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsMatches | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._type !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.type = this._type;
-    }
-    if (this._value !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.value = this._value;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsMatches | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._type = undefined;
-      this._value = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._type = value.type;
-      this._value = value.value;
-    }
-  }
-
-  // type - computed: false, optional: true, required: false
-  private _type?: string; 
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-  public set type(value: string) {
-    this._type = value;
-  }
-  public resetType() {
-    this._type = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get typeInput() {
-    return this._type;
-  }
-
-  // value - computed: false, optional: true, required: false
-  private _value?: string; 
-  public get value() {
-    return this.getStringAttribute('value');
-  }
-  public set value(value: string) {
-    this._value = value;
-  }
-  public resetValue() {
-    this._value = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get valueInput() {
-    return this._value;
-  }
-}
-
-export class DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsMatchesList extends cdktf.ComplexList {
-  public internalValue? : DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsMatches[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsMatchesOutputReference {
-    return new DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsMatchesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAcls {
-  /**
-  * Name of the Access Control List
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#name DataZedcloudProject#name}
-  */
-  readonly name?: string;
-  /**
-  * actions block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#actions DataZedcloudProject#actions}
-  */
-  readonly actions?: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsActions[] | cdktf.IResolvable;
-  /**
-  * matches block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/project#matches DataZedcloudProject#matches}
-  */
-  readonly matches?: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsMatches[] | cdktf.IResolvable;
-}
-
-export function dataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsToTerraform(struct?: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAcls | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    name: cdktf.stringToTerraform(struct!.name),
-    actions: cdktf.listMapper(dataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsActionsToTerraform, true)(struct!.actions),
-    matches: cdktf.listMapper(dataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsMatchesToTerraform, true)(struct!.matches),
-  }
-}
-
-
-export function dataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsToHclTerraform(struct?: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAcls | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    actions: {
-      value: cdktf.listMapperHcl(dataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsActionsToHclTerraform, true)(struct!.actions),
-      isBlock: true,
-      type: "list",
-      storageClassType: "DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsActionsList",
-    },
-    matches: {
-      value: cdktf.listMapperHcl(dataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsMatchesToHclTerraform, true)(struct!.matches),
-      isBlock: true,
-      type: "list",
-      storageClassType: "DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsMatchesList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAcls | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._name !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.name = this._name;
-    }
-    if (this._actions?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.actions = this._actions?.internalValue;
-    }
-    if (this._matches?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.matches = this._matches?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAcls | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._name = undefined;
-      this._actions.internalValue = undefined;
-      this._matches.internalValue = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._name = value.name;
-      this._actions.internalValue = value.actions;
-      this._matches.internalValue = value.matches;
-    }
-  }
-
-  // name - computed: false, optional: true, required: false
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  public resetName() {
-    this._name = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
-  }
-
-  // actions - computed: false, optional: true, required: false
-  private _actions = new DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsActionsList(this, "actions", false);
-  public get actions() {
-    return this._actions;
-  }
-  public putActions(value: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsActions[] | cdktf.IResolvable) {
-    this._actions.internalValue = value;
-  }
-  public resetActions() {
-    this._actions.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get actionsInput() {
-    return this._actions.internalValue;
-  }
-
-  // matches - computed: false, optional: true, required: false
-  private _matches = new DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsMatchesList(this, "matches", false);
-  public get matches() {
-    return this._matches;
-  }
-  public putMatches(value: DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsMatches[] | cdktf.IResolvable) {
-    this._matches.internalValue = value;
-  }
-  public resetMatches() {
-    this._matches.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get matchesInput() {
-    return this._matches.internalValue;
-  }
-}
-
-export class DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsList extends cdktf.ComplexList {
-  public internalValue? : DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAcls[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsOutputReference {
-    return new DataZedcloudProjectEdgeviewPolicyAppPolicyAppsManifestJsonInterfacesAclsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }

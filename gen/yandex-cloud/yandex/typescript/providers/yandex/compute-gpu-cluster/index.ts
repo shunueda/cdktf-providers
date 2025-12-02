@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/compute_gpu_cluster
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_gpu_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface ComputeGpuClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of the GPU cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/compute_gpu_cluster#description ComputeGpuCluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_gpu_cluster#description ComputeGpuCluster#description}
   */
   readonly description?: string;
   /**
   * ID of the folder that the GPU cluster belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/compute_gpu_cluster#folder_id ComputeGpuCluster#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_gpu_cluster#folder_id ComputeGpuCluster#folder_id}
   */
   readonly folderId?: string;
   /**
@@ -24,7 +24,7 @@ export interface ComputeGpuClusterConfig extends cdktf.TerraformMetaArguments {
   * 
   *  To get a GPU cluster ID, make a [GpuClusterService.List] request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/compute_gpu_cluster#gpu_cluster_id ComputeGpuCluster#gpu_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_gpu_cluster#gpu_cluster_id ComputeGpuCluster#gpu_cluster_id}
   */
   readonly gpuClusterId?: string;
   /**
@@ -32,7 +32,7 @@ export interface ComputeGpuClusterConfig extends cdktf.TerraformMetaArguments {
   * 
   *  To get a GPU cluster ID, make a [GpuClusterService.List] request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/compute_gpu_cluster#id ComputeGpuCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_gpu_cluster#id ComputeGpuCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,13 +41,13 @@ export interface ComputeGpuClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Type of interconnect used for this GPU cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/compute_gpu_cluster#interconnect_type ComputeGpuCluster#interconnect_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_gpu_cluster#interconnect_type ComputeGpuCluster#interconnect_type}
   */
   readonly interconnectType?: string;
   /**
   * GPU cluster labels as `key:value` pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/compute_gpu_cluster#labels ComputeGpuCluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_gpu_cluster#labels ComputeGpuCluster#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
@@ -55,19 +55,19 @@ export interface ComputeGpuClusterConfig extends cdktf.TerraformMetaArguments {
   * 
   *  The name is unique within the folder.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/compute_gpu_cluster#name ComputeGpuCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_gpu_cluster#name ComputeGpuCluster#name}
   */
   readonly name?: string;
   /**
   * ID of the availability zone where the GPU cluster resides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/compute_gpu_cluster#zone ComputeGpuCluster#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_gpu_cluster#zone ComputeGpuCluster#zone}
   */
   readonly zone?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/compute_gpu_cluster#timeouts ComputeGpuCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_gpu_cluster#timeouts ComputeGpuCluster#timeouts}
   */
   readonly timeouts?: ComputeGpuClusterTimeouts;
 }
@@ -75,25 +75,25 @@ export interface ComputeGpuClusterTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/compute_gpu_cluster#create ComputeGpuCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_gpu_cluster#create ComputeGpuCluster#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/compute_gpu_cluster#delete ComputeGpuCluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_gpu_cluster#delete ComputeGpuCluster#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/compute_gpu_cluster#read ComputeGpuCluster#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_gpu_cluster#read ComputeGpuCluster#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/compute_gpu_cluster#update ComputeGpuCluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_gpu_cluster#update ComputeGpuCluster#update}
   */
   readonly update?: string;
 }
@@ -274,7 +274,7 @@ export class ComputeGpuClusterTimeoutsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/compute_gpu_cluster yandex_compute_gpu_cluster}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_gpu_cluster yandex_compute_gpu_cluster}
 */
 export class ComputeGpuCluster extends cdktf.TerraformResource {
 
@@ -290,7 +290,7 @@ export class ComputeGpuCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ComputeGpuCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ComputeGpuCluster to import
-  * @param importFromId The id of the existing ComputeGpuCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/compute_gpu_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ComputeGpuCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_gpu_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ComputeGpuCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -302,7 +302,7 @@ export class ComputeGpuCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/compute_gpu_cluster yandex_compute_gpu_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_gpu_cluster yandex_compute_gpu_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -313,8 +313,8 @@ export class ComputeGpuCluster extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_compute_gpu_cluster',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.172.0',
-        providerVersionConstraint: '0.172.0'
+        providerVersion: '0.173.0',
+        providerVersionConstraint: '0.173.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

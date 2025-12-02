@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/principal_entitlements
+// https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/principal_entitlements
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataOktaPrincipalEntitlementsConfig extends cdktf.TerraformMeta
   /**
   * data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/principal_entitlements#data DataOktaPrincipalEntitlements#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/principal_entitlements#data DataOktaPrincipalEntitlements#data}
   */
   readonly data?: DataOktaPrincipalEntitlementsData[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/principal_entitlements#parent DataOktaPrincipalEntitlements#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/principal_entitlements#parent DataOktaPrincipalEntitlements#parent}
   */
   readonly parent: DataOktaPrincipalEntitlementsParent;
   /**
   * target_principal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/principal_entitlements#target_principal DataOktaPrincipalEntitlements#target_principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/principal_entitlements#target_principal DataOktaPrincipalEntitlements#target_principal}
   */
   readonly targetPrincipal: DataOktaPrincipalEntitlementsTargetPrincipal;
 }
@@ -269,7 +269,7 @@ export interface DataOktaPrincipalEntitlementsData {
   /**
   * values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/principal_entitlements#values DataOktaPrincipalEntitlements#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/principal_entitlements#values DataOktaPrincipalEntitlements#values}
   */
   readonly values?: DataOktaPrincipalEntitlementsDataValues[] | cdktf.IResolvable;
 }
@@ -442,11 +442,11 @@ export class DataOktaPrincipalEntitlementsDataList extends cdktf.ComplexList {
 }
 export interface DataOktaPrincipalEntitlementsParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/principal_entitlements#external_id DataOktaPrincipalEntitlements#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/principal_entitlements#external_id DataOktaPrincipalEntitlements#external_id}
   */
   readonly externalId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/principal_entitlements#type DataOktaPrincipalEntitlements#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/principal_entitlements#type DataOktaPrincipalEntitlements#type}
   */
   readonly type: string;
 }
@@ -563,11 +563,11 @@ export class DataOktaPrincipalEntitlementsParentOutputReference extends cdktf.Co
 }
 export interface DataOktaPrincipalEntitlementsTargetPrincipal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/principal_entitlements#external_id DataOktaPrincipalEntitlements#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/principal_entitlements#external_id DataOktaPrincipalEntitlements#external_id}
   */
   readonly externalId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/principal_entitlements#type DataOktaPrincipalEntitlements#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/principal_entitlements#type DataOktaPrincipalEntitlements#type}
   */
   readonly type: string;
 }
@@ -684,7 +684,7 @@ export class DataOktaPrincipalEntitlementsTargetPrincipalOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/principal_entitlements okta_principal_entitlements}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/principal_entitlements okta_principal_entitlements}
 */
 export class DataOktaPrincipalEntitlements extends cdktf.TerraformDataSource {
 
@@ -700,7 +700,7 @@ export class DataOktaPrincipalEntitlements extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOktaPrincipalEntitlements resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOktaPrincipalEntitlements to import
-  * @param importFromId The id of the existing DataOktaPrincipalEntitlements that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/principal_entitlements#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOktaPrincipalEntitlements that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/principal_entitlements#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOktaPrincipalEntitlements to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -712,7 +712,7 @@ export class DataOktaPrincipalEntitlements extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/principal_entitlements okta_principal_entitlements} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/principal_entitlements okta_principal_entitlements} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -723,8 +723,8 @@ export class DataOktaPrincipalEntitlements extends cdktf.TerraformDataSource {
       terraformResourceType: 'okta_principal_entitlements',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.5.0',
-        providerVersionConstraint: '6.5.0'
+        providerVersion: '6.5.1',
+        providerVersionConstraint: '6.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

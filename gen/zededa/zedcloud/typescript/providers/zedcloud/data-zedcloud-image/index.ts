@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/image
+// https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/image
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,73 +10,73 @@ export interface DataZedcloudImageConfig extends cdktf.TerraformMetaArguments {
   /**
   * Datastore Id where image binary is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/image#datastore_id DataZedcloudImage#datastore_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/image#datastore_id DataZedcloudImage#datastore_id}
   */
   readonly datastoreId: string;
   /**
   * Detailed description of the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/image#description DataZedcloudImage#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/image#description DataZedcloudImage#description}
   */
   readonly description?: string;
   /**
   * Image Architecture. The field is required for the most of the image types except: IMAGE_TYPE_DOCKER_COMPOSE_TAR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/image#image_arch DataZedcloudImage#image_arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/image#image_arch DataZedcloudImage#image_arch}
   */
   readonly imageArch?: string;
   /**
   * Image binary format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/image#image_format DataZedcloudImage#image_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/image#image_format DataZedcloudImage#image_format}
   */
   readonly imageFormat: string;
   /**
   * Image relative path w.r.t. Datastore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/image#image_rel_url DataZedcloudImage#image_rel_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/image#image_rel_url DataZedcloudImage#image_rel_url}
   */
   readonly imageRelUrl?: string;
   /**
   * Image checksum in SHA256 format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/image#image_sha256 DataZedcloudImage#image_sha256}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/image#image_sha256 DataZedcloudImage#image_sha256}
   */
   readonly imageSha256?: string;
   /**
   * Image size in KBytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/image#image_size_bytes DataZedcloudImage#image_size_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/image#image_size_bytes DataZedcloudImage#image_size_bytes}
   */
   readonly imageSizeBytes?: string;
   /**
   * Image type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/image#image_type DataZedcloudImage#image_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/image#image_type DataZedcloudImage#image_type}
   */
   readonly imageType?: string;
   /**
   * system defined info
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/image#image_version DataZedcloudImage#image_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/image#image_version DataZedcloudImage#image_version}
   */
   readonly imageVersion?: string;
   /**
   * User defined name of the image, unique across the enterprise. Once image is created, name can’t be changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/image#name DataZedcloudImage#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/image#name DataZedcloudImage#name}
   */
   readonly name: string;
   /**
   * project access list of the image
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/image#project_access_list DataZedcloudImage#project_access_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/image#project_access_list DataZedcloudImage#project_access_list}
   */
   readonly projectAccessList?: string[];
   /**
   * User defined title of the image. Title can be changed at any time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/image#title DataZedcloudImage#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/image#title DataZedcloudImage#title}
   */
   readonly title: string;
 }
@@ -182,7 +182,7 @@ export class DataZedcloudImageRevisionList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/image zedcloud_image}
+* Represents a {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/image zedcloud_image}
 */
 export class DataZedcloudImage extends cdktf.TerraformDataSource {
 
@@ -198,7 +198,7 @@ export class DataZedcloudImage extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZedcloudImage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZedcloudImage to import
-  * @param importFromId The id of the existing DataZedcloudImage that should be imported. Refer to the {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/image#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZedcloudImage that should be imported. Refer to the {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/image#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZedcloudImage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -210,7 +210,7 @@ export class DataZedcloudImage extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/image zedcloud_image} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/image zedcloud_image} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -221,8 +221,8 @@ export class DataZedcloudImage extends cdktf.TerraformDataSource {
       terraformResourceType: 'zedcloud_image',
       terraformGeneratorMetadata: {
         providerName: 'zedcloud',
-        providerVersion: '2.5.0',
-        providerVersionConstraint: '2.5.0'
+        providerVersion: '2.6.0',
+        providerVersionConstraint: '2.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

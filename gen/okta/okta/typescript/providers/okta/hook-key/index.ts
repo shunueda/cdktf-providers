@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/hook_key
+// https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/hook_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface HookKeyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Display name for the key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/hook_key#name HookKey#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/hook_key#name HookKey#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/hook_key okta_hook_key}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/hook_key okta_hook_key}
 */
 export class HookKey extends cdktf.TerraformResource {
 
@@ -32,7 +32,7 @@ export class HookKey extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HookKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HookKey to import
-  * @param importFromId The id of the existing HookKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/hook_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HookKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/hook_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HookKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class HookKey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/hook_key okta_hook_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/hook_key okta_hook_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class HookKey extends cdktf.TerraformResource {
       terraformResourceType: 'okta_hook_key',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.5.0',
-        providerVersionConstraint: '6.5.0'
+        providerVersion: '6.5.1',
+        providerVersionConstraint: '6.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

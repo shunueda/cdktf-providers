@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_sequence
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_sequence
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface OutboundSequenceConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ordered list of Campaigns that this CampaignSequence will run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_sequence#campaign_ids OutboundSequence#campaign_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_sequence#campaign_ids OutboundSequence#campaign_ids}
   */
   readonly campaignIds: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_sequence#id OutboundSequence#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_sequence#id OutboundSequence#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface OutboundSequenceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of outbound sequence
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_sequence#name OutboundSequence#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_sequence#name OutboundSequence#name}
   */
   readonly name: string;
   /**
   * Indicates if a sequence should repeat from the beginning after the last campaign completes. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_sequence#repeat OutboundSequence#repeat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_sequence#repeat OutboundSequence#repeat}
   */
   readonly repeat?: boolean | cdktf.IResolvable;
   /**
   * The current status of the CampaignSequence. A CampaignSequence can be turned 'on' or 'off' (default). Changing from "on" to "off" will cause the current sequence to drop and be recreated with a new ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_sequence#status OutboundSequence#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_sequence#status OutboundSequence#status}
   */
   readonly status?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_sequence genesyscloud_outbound_sequence}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_sequence genesyscloud_outbound_sequence}
 */
 export class OutboundSequence extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class OutboundSequence extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OutboundSequence resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OutboundSequence to import
-  * @param importFromId The id of the existing OutboundSequence that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_sequence#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OutboundSequence that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_sequence#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OutboundSequence to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class OutboundSequence extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_sequence genesyscloud_outbound_sequence} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_sequence genesyscloud_outbound_sequence} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class OutboundSequence extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_outbound_sequence',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.71.1',
-        providerVersionConstraint: '1.71.1'
+        providerVersion: '1.72.2',
+        providerVersionConstraint: '1.72.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

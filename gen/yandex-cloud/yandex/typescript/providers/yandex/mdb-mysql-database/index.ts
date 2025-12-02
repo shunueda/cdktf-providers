@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_mysql_database
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_mysql_database
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface MdbMysqlDatabaseConfig extends cdktf.TerraformMetaArguments {
   /**
   * The MySQL cluster ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_mysql_database#cluster_id MdbMysqlDatabase#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_mysql_database#cluster_id MdbMysqlDatabase#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_mysql_database#id MdbMysqlDatabase#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_mysql_database#id MdbMysqlDatabase#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface MdbMysqlDatabaseConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_mysql_database#name MdbMysqlDatabase#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_mysql_database#name MdbMysqlDatabase#name}
   */
   readonly name: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_mysql_database#timeouts MdbMysqlDatabase#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_mysql_database#timeouts MdbMysqlDatabase#timeouts}
   */
   readonly timeouts?: MdbMysqlDatabaseTimeouts;
 }
 export interface MdbMysqlDatabaseTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_mysql_database#create MdbMysqlDatabase#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_mysql_database#create MdbMysqlDatabase#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_mysql_database#delete MdbMysqlDatabase#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_mysql_database#delete MdbMysqlDatabase#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_mysql_database#read MdbMysqlDatabase#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_mysql_database#read MdbMysqlDatabase#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_mysql_database#update MdbMysqlDatabase#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_mysql_database#update MdbMysqlDatabase#update}
   */
   readonly update?: string;
 }
@@ -228,7 +228,7 @@ export class MdbMysqlDatabaseTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_mysql_database yandex_mdb_mysql_database}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_mysql_database yandex_mdb_mysql_database}
 */
 export class MdbMysqlDatabase extends cdktf.TerraformResource {
 
@@ -244,7 +244,7 @@ export class MdbMysqlDatabase extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MdbMysqlDatabase resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MdbMysqlDatabase to import
-  * @param importFromId The id of the existing MdbMysqlDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_mysql_database#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MdbMysqlDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_mysql_database#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MdbMysqlDatabase to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -256,7 +256,7 @@ export class MdbMysqlDatabase extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/mdb_mysql_database yandex_mdb_mysql_database} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_mysql_database yandex_mdb_mysql_database} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -267,8 +267,8 @@ export class MdbMysqlDatabase extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_mdb_mysql_database',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.172.0',
-        providerVersionConstraint: '0.172.0'
+        providerVersion: '0.173.0',
+        providerVersionConstraint: '0.173.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

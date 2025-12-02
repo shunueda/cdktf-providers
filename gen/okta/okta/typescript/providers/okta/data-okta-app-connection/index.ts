@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/app_connection
+// https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/app_connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataOktaAppConnectionConfig extends cdktf.TerraformMetaArgument
   /**
   * A token is used to authenticate with the app. This property is only returned for the TOKEN authentication scheme.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/app_connection#auth_scheme DataOktaAppConnection#auth_scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/app_connection#auth_scheme DataOktaAppConnection#auth_scheme}
   */
   readonly authScheme?: string;
   /**
   * The base URL for the provisioning connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/app_connection#base_url DataOktaAppConnection#base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/app_connection#base_url DataOktaAppConnection#base_url}
   */
   readonly baseUrl?: string;
   /**
   * The application ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/app_connection#id DataOktaAppConnection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/app_connection#id DataOktaAppConnection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -95,7 +95,7 @@ export class DataOktaAppConnectionProfileOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/app_connection okta_app_connection}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/app_connection okta_app_connection}
 */
 export class DataOktaAppConnection extends cdktf.TerraformDataSource {
 
@@ -111,7 +111,7 @@ export class DataOktaAppConnection extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOktaAppConnection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOktaAppConnection to import
-  * @param importFromId The id of the existing DataOktaAppConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/app_connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOktaAppConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/app_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOktaAppConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -123,7 +123,7 @@ export class DataOktaAppConnection extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/app_connection okta_app_connection} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/app_connection okta_app_connection} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -134,8 +134,8 @@ export class DataOktaAppConnection extends cdktf.TerraformDataSource {
       terraformResourceType: 'okta_app_connection',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.5.0',
-        providerVersionConstraint: '6.5.0'
+        providerVersion: '6.5.1',
+        providerVersionConstraint: '6.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

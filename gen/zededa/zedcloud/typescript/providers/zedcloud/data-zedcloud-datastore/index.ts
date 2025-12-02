@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore
+// https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,85 +8,85 @@ import * as cdktf from 'cdktf';
 
 export interface DataZedcloudDatastoreConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#api_key DataZedcloudDatastore#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#api_key DataZedcloudDatastore#api_key}
   */
   readonly apiKey?: string;
   /**
   * Detailed description of the datastore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#description DataZedcloudDatastore#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#description DataZedcloudDatastore#description}
   */
   readonly description?: string;
   /**
   * Datastore Fully Qualified Domain Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#ds_fqdn DataZedcloudDatastore#ds_fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#ds_fqdn DataZedcloudDatastore#ds_fqdn}
   */
   readonly dsFqdn: string;
   /**
   * Datastore relative path w.r.t. Datastore root
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#ds_path DataZedcloudDatastore#ds_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#ds_path DataZedcloudDatastore#ds_path}
   */
   readonly dsPath?: string;
   /**
   * Datastore status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#ds_status DataZedcloudDatastore#ds_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#ds_status DataZedcloudDatastore#ds_status}
   */
   readonly dsStatus?: string;
   /**
   * Datastore type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#ds_type DataZedcloudDatastore#ds_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#ds_type DataZedcloudDatastore#ds_type}
   */
   readonly dsType: string;
   /**
   * User defined name of the datastore, unique across the enterprise. Once datastore is created, name can’t be changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#name DataZedcloudDatastore#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#name DataZedcloudDatastore#name}
   */
   readonly name: string;
   /**
   * knob for sending creds in clear text
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#need_clear_text DataZedcloudDatastore#need_clear_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#need_clear_text DataZedcloudDatastore#need_clear_text}
   */
   readonly needClearText?: boolean | cdktf.IResolvable;
   /**
   * project access list of the datastore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#project_access_list DataZedcloudDatastore#project_access_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#project_access_list DataZedcloudDatastore#project_access_list}
   */
   readonly projectAccessList?: string[];
   /**
   * Datastore region - valid for AWS S3 and Azure BlobStorage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#region DataZedcloudDatastore#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#region DataZedcloudDatastore#region}
   */
   readonly region?: string;
   /**
   * User defined title of the datastore. Title can be changed at any time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#title DataZedcloudDatastore#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#title DataZedcloudDatastore#title}
   */
   readonly title: string;
   /**
   * certificate_chain block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#certificate_chain DataZedcloudDatastore#certificate_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#certificate_chain DataZedcloudDatastore#certificate_chain}
   */
   readonly certificateChain?: DataZedcloudDatastoreCertificateChain[] | cdktf.IResolvable;
   /**
   * revision block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#revision DataZedcloudDatastore#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#revision DataZedcloudDatastore#revision}
   */
   readonly revision?: DataZedcloudDatastoreRevision[] | cdktf.IResolvable;
   /**
   * secret block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#secret DataZedcloudDatastore#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#secret DataZedcloudDatastore#secret}
   */
   readonly secret?: DataZedcloudDatastoreSecret[] | cdktf.IResolvable;
 }
@@ -94,7 +94,7 @@ export interface DataZedcloudDatastoreCertificateChainCertificatesEcdsaEncryptio
   /**
   * ECDSA curve to be used while signing the certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#curve DataZedcloudDatastore#curve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#curve DataZedcloudDatastore#curve}
   */
   readonly curve?: string;
 }
@@ -212,49 +212,49 @@ export interface DataZedcloudDatastoreCertificateChainCertificatesIssuer {
   /**
   * Certificate common name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#common_name DataZedcloudDatastore#common_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#common_name DataZedcloudDatastore#common_name}
   */
   readonly commonName?: string;
   /**
   * List of countries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#country DataZedcloudDatastore#country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#country DataZedcloudDatastore#country}
   */
   readonly country?: string[];
   /**
   * List of locallity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#locality DataZedcloudDatastore#locality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#locality DataZedcloudDatastore#locality}
   */
   readonly locality?: string[];
   /**
   * List of organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#organization DataZedcloudDatastore#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#organization DataZedcloudDatastore#organization}
   */
   readonly organization?: string[];
   /**
   * List of Organizational Unit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#organizational_unit DataZedcloudDatastore#organizational_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#organizational_unit DataZedcloudDatastore#organizational_unit}
   */
   readonly organizationalUnit?: string[];
   /**
   * List of Postal codes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#postal_code DataZedcloudDatastore#postal_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#postal_code DataZedcloudDatastore#postal_code}
   */
   readonly postalCode?: string[];
   /**
   * List of List of Prvince.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#province DataZedcloudDatastore#province}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#province DataZedcloudDatastore#province}
   */
   readonly province?: string[];
   /**
   * Subject cerial number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#serial_number DataZedcloudDatastore#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#serial_number DataZedcloudDatastore#serial_number}
   */
   readonly serialNumber?: string;
 }
@@ -575,7 +575,7 @@ export interface DataZedcloudDatastoreCertificateChainCertificatesRsaEcryption {
   /**
   * RSA Encryption Key bit size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#rsa_bits DataZedcloudDatastore#rsa_bits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#rsa_bits DataZedcloudDatastore#rsa_bits}
   */
   readonly rsaBits?: string;
 }
@@ -693,37 +693,37 @@ export interface DataZedcloudDatastoreCertificateChainCertificatesSanValues {
   /**
   * List of permitted DNS names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#dns DataZedcloudDatastore#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#dns DataZedcloudDatastore#dns}
   */
   readonly dns?: string[];
   /**
   * List of permitted email addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#emaild_ids DataZedcloudDatastore#emaild_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#emaild_ids DataZedcloudDatastore#emaild_ids}
   */
   readonly emaildIds?: string[];
   /**
   * List of permitted hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#hosts DataZedcloudDatastore#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#hosts DataZedcloudDatastore#hosts}
   */
   readonly hosts?: string[];
   /**
   * List of permitted IP addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#ips DataZedcloudDatastore#ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#ips DataZedcloudDatastore#ips}
   */
   readonly ips?: string[];
   /**
   * List of permitted User principal names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#upns DataZedcloudDatastore#upns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#upns DataZedcloudDatastore#upns}
   */
   readonly upns?: string[];
   /**
   * List of permitted URIs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#uris DataZedcloudDatastore#uris}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#uris DataZedcloudDatastore#uris}
   */
   readonly uris?: string[];
 }
@@ -986,49 +986,49 @@ export interface DataZedcloudDatastoreCertificateChainCertificatesSubject {
   /**
   * Certificate common name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#common_name DataZedcloudDatastore#common_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#common_name DataZedcloudDatastore#common_name}
   */
   readonly commonName?: string;
   /**
   * List of countries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#country DataZedcloudDatastore#country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#country DataZedcloudDatastore#country}
   */
   readonly country?: string[];
   /**
   * List of locallity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#locality DataZedcloudDatastore#locality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#locality DataZedcloudDatastore#locality}
   */
   readonly locality?: string[];
   /**
   * List of organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#organization DataZedcloudDatastore#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#organization DataZedcloudDatastore#organization}
   */
   readonly organization?: string[];
   /**
   * List of Organizational Unit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#organizational_unit DataZedcloudDatastore#organizational_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#organizational_unit DataZedcloudDatastore#organizational_unit}
   */
   readonly organizationalUnit?: string[];
   /**
   * List of Postal codes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#postal_code DataZedcloudDatastore#postal_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#postal_code DataZedcloudDatastore#postal_code}
   */
   readonly postalCode?: string[];
   /**
   * List of List of Prvince.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#province DataZedcloudDatastore#province}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#province DataZedcloudDatastore#province}
   */
   readonly province?: string[];
   /**
   * Subject cerial number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#serial_number DataZedcloudDatastore#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#serial_number DataZedcloudDatastore#serial_number}
   */
   readonly serialNumber?: string;
 }
@@ -1349,125 +1349,125 @@ export interface DataZedcloudDatastoreCertificateChainCertificates {
   /**
   * This fields tells the basic constraints like isCA are correct.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#basic_contraints_valid DataZedcloudDatastore#basic_contraints_valid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#basic_contraints_valid DataZedcloudDatastore#basic_contraints_valid}
   */
   readonly basicContraintsValid?: boolean | cdktf.IResolvable;
   /**
   * base64 string of the parent certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#cert DataZedcloudDatastore#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#cert DataZedcloudDatastore#cert}
   */
   readonly cert?: string;
   /**
   * Crypto Key for decrypting user secret information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#crypto_key DataZedcloudDatastore#crypto_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#crypto_key DataZedcloudDatastore#crypto_key}
   */
   readonly cryptoKey?: string;
   /**
   * user encrypted secrets map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#encrypted_secrets DataZedcloudDatastore#encrypted_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#encrypted_secrets DataZedcloudDatastore#encrypted_secrets}
   */
   readonly encryptedSecrets?: { [key: string]: string };
   /**
   * Indicates if the private key can be exported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#exportable DataZedcloudDatastore#exportable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#exportable DataZedcloudDatastore#exportable}
   */
   readonly exportable?: boolean | cdktf.IResolvable;
   /**
   * Sequence of extended key usages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#extended_key_usage DataZedcloudDatastore#extended_key_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#extended_key_usage DataZedcloudDatastore#extended_key_usage}
   */
   readonly extendedKeyUsage?: string[];
   /**
   * Key usage extensions define the purpose of the public key contained in a certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#key_usage DataZedcloudDatastore#key_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#key_usage DataZedcloudDatastore#key_usage}
   */
   readonly keyUsage?: number;
   /**
   * pass phase for the pvt key, this has to be filled if pvt key is encrypted with a pass phrase
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#pass_phrase DataZedcloudDatastore#pass_phrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#pass_phrase DataZedcloudDatastore#pass_phrase}
   */
   readonly passPhrase?: string;
   /**
   * base63 string of the public key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#public_key DataZedcloudDatastore#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#public_key DataZedcloudDatastore#public_key}
   */
   readonly publicKey?: string;
   /**
   * Public key algorithm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#public_key_algorithm DataZedcloudDatastore#public_key_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#public_key_algorithm DataZedcloudDatastore#public_key_algorithm}
   */
   readonly publicKeyAlgorithm?: string;
   /**
   * base64 string of the parent pvt key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#pvt_key DataZedcloudDatastore#pvt_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#pvt_key DataZedcloudDatastore#pvt_key}
   */
   readonly pvtKey?: string;
   /**
   * Indicates if the same key pair will be used on certificate renewal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#reuse_key DataZedcloudDatastore#reuse_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#reuse_key DataZedcloudDatastore#reuse_key}
   */
   readonly reuseKey?: boolean | cdktf.IResolvable;
   /**
   * Unique identifier for each Certificate generated by an Certificate Issuer. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#serial_number DataZedcloudDatastore#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#serial_number DataZedcloudDatastore#serial_number}
   */
   readonly serialNumber?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#signature_algorithm DataZedcloudDatastore#signature_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#signature_algorithm DataZedcloudDatastore#signature_algorithm}
   */
   readonly signatureAlgorithm?: string;
   /**
   * Certificate validatity start time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#valid_from DataZedcloudDatastore#valid_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#valid_from DataZedcloudDatastore#valid_from}
   */
   readonly validFrom?: string;
   /**
   * Certificate validatity start time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#valid_till DataZedcloudDatastore#valid_till}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#valid_till DataZedcloudDatastore#valid_till}
   */
   readonly validTill?: string;
   /**
   * ecdsa_encryption block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#ecdsa_encryption DataZedcloudDatastore#ecdsa_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#ecdsa_encryption DataZedcloudDatastore#ecdsa_encryption}
   */
   readonly ecdsaEncryption?: DataZedcloudDatastoreCertificateChainCertificatesEcdsaEncryption[] | cdktf.IResolvable;
   /**
   * issuer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#issuer DataZedcloudDatastore#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#issuer DataZedcloudDatastore#issuer}
   */
   readonly issuer?: DataZedcloudDatastoreCertificateChainCertificatesIssuer[] | cdktf.IResolvable;
   /**
   * rsa_ecryption block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#rsa_ecryption DataZedcloudDatastore#rsa_ecryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#rsa_ecryption DataZedcloudDatastore#rsa_ecryption}
   */
   readonly rsaEcryption?: DataZedcloudDatastoreCertificateChainCertificatesRsaEcryption[] | cdktf.IResolvable;
   /**
   * san_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#san_values DataZedcloudDatastore#san_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#san_values DataZedcloudDatastore#san_values}
   */
   readonly sanValues?: DataZedcloudDatastoreCertificateChainCertificatesSanValues[] | cdktf.IResolvable;
   /**
   * subject block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#subject DataZedcloudDatastore#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#subject DataZedcloudDatastore#subject}
   */
   readonly subject?: DataZedcloudDatastoreCertificateChainCertificatesSubject[] | cdktf.IResolvable;
 }
@@ -2165,7 +2165,7 @@ export interface DataZedcloudDatastoreCertificateChain {
   /**
   * certificates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#certificates DataZedcloudDatastore#certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#certificates DataZedcloudDatastore#certificates}
   */
   readonly certificates?: DataZedcloudDatastoreCertificateChainCertificates[] | cdktf.IResolvable;
 }
@@ -2394,13 +2394,13 @@ export interface DataZedcloudDatastoreSecret {
   /**
   * Datastore access API key in plain-text
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#api_key DataZedcloudDatastore#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#api_key DataZedcloudDatastore#api_key}
   */
   readonly apiKey?: string;
   /**
   * Datastore access API password in plain-text
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#api_passwd DataZedcloudDatastore#api_passwd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#api_passwd DataZedcloudDatastore#api_passwd}
   */
   readonly apiPasswd?: string;
 }
@@ -2545,7 +2545,7 @@ export class DataZedcloudDatastoreSecretList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore zedcloud_datastore}
+* Represents a {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore zedcloud_datastore}
 */
 export class DataZedcloudDatastore extends cdktf.TerraformDataSource {
 
@@ -2561,7 +2561,7 @@ export class DataZedcloudDatastore extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZedcloudDatastore resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZedcloudDatastore to import
-  * @param importFromId The id of the existing DataZedcloudDatastore that should be imported. Refer to the {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZedcloudDatastore that should be imported. Refer to the {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZedcloudDatastore to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2573,7 +2573,7 @@ export class DataZedcloudDatastore extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/datastore zedcloud_datastore} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/datastore zedcloud_datastore} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2584,8 +2584,8 @@ export class DataZedcloudDatastore extends cdktf.TerraformDataSource {
       terraformResourceType: 'zedcloud_datastore',
       terraformGeneratorMetadata: {
         providerName: 'zedcloud',
-        providerVersion: '2.5.0',
-        providerVersionConstraint: '2.5.0'
+        providerVersion: '2.6.0',
+        providerVersionConstraint: '2.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

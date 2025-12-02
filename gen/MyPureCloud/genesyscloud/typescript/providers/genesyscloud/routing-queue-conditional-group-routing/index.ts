@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_queue_conditional_group_routing
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue_conditional_group_routing
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface RoutingQueueConditionalGroupRoutingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_queue_conditional_group_routing#id RoutingQueueConditionalGroupRouting#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue_conditional_group_routing#id RoutingQueueConditionalGroupRouting#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface RoutingQueueConditionalGroupRoutingConfig extends cdktf.Terrafo
   /**
   * Id of the routing queue to which the rules belong
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_queue_conditional_group_routing#queue_id RoutingQueueConditionalGroupRouting#queue_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue_conditional_group_routing#queue_id RoutingQueueConditionalGroupRouting#queue_id}
   */
   readonly queueId: string;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_queue_conditional_group_routing#rules RoutingQueueConditionalGroupRouting#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue_conditional_group_routing#rules RoutingQueueConditionalGroupRouting#rules}
   */
   readonly rules: RoutingQueueConditionalGroupRoutingRulesA[] | cdktf.IResolvable;
 }
@@ -31,13 +31,13 @@ export interface RoutingQueueConditionalGroupRoutingRulesGroupsA {
   /**
   * ID (GUID) for Group, SkillGroup, Team
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_queue_conditional_group_routing#member_group_id RoutingQueueConditionalGroupRouting#member_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue_conditional_group_routing#member_group_id RoutingQueueConditionalGroupRouting#member_group_id}
   */
   readonly memberGroupId: string;
   /**
   * The type of the member group. Accepted values: TEAM, GROUP, SKILLGROUP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_queue_conditional_group_routing#member_group_type RoutingQueueConditionalGroupRouting#member_group_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue_conditional_group_routing#member_group_type RoutingQueueConditionalGroupRouting#member_group_type}
   */
   readonly memberGroupType: string;
 }
@@ -178,37 +178,37 @@ export interface RoutingQueueConditionalGroupRoutingRulesA {
   /**
   * The limit value, beyond which a rule evaluates as true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_queue_conditional_group_routing#condition_value RoutingQueueConditionalGroupRouting#condition_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue_conditional_group_routing#condition_value RoutingQueueConditionalGroupRouting#condition_value}
   */
   readonly conditionValue: number;
   /**
   * The queue being evaluated for this rule. For rule 1, this is always the current queue, so should not be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_queue_conditional_group_routing#evaluated_queue_id RoutingQueueConditionalGroupRouting#evaluated_queue_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue_conditional_group_routing#evaluated_queue_id RoutingQueueConditionalGroupRouting#evaluated_queue_id}
   */
   readonly evaluatedQueueId?: string;
   /**
   * The queue metric being evaluated. Valid values: EstimatedWaitTime, ServiceLevel. Defaults to `EstimatedWaitTime`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_queue_conditional_group_routing#metric RoutingQueueConditionalGroupRouting#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue_conditional_group_routing#metric RoutingQueueConditionalGroupRouting#metric}
   */
   readonly metric?: string;
   /**
   * The operator that compares the actual value against the condition value. Valid values: GreaterThan, GreaterThanOrEqualTo, LessThan, LessThanOrEqualTo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_queue_conditional_group_routing#operator RoutingQueueConditionalGroupRouting#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue_conditional_group_routing#operator RoutingQueueConditionalGroupRouting#operator}
   */
   readonly operator: string;
   /**
   * The number of seconds to wait in this rule, if it evaluates as true, before evaluating the next rule. For the final rule, this is ignored, so need not be specified. Defaults to `2`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_queue_conditional_group_routing#wait_seconds RoutingQueueConditionalGroupRouting#wait_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue_conditional_group_routing#wait_seconds RoutingQueueConditionalGroupRouting#wait_seconds}
   */
   readonly waitSeconds?: number;
   /**
   * groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_queue_conditional_group_routing#groups RoutingQueueConditionalGroupRouting#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue_conditional_group_routing#groups RoutingQueueConditionalGroupRouting#groups}
   */
   readonly groups: RoutingQueueConditionalGroupRoutingRulesGroupsA[] | cdktf.IResolvable;
 }
@@ -460,7 +460,7 @@ export class RoutingQueueConditionalGroupRoutingRulesAList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_queue_conditional_group_routing genesyscloud_routing_queue_conditional_group_routing}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue_conditional_group_routing genesyscloud_routing_queue_conditional_group_routing}
 */
 export class RoutingQueueConditionalGroupRouting extends cdktf.TerraformResource {
 
@@ -476,7 +476,7 @@ export class RoutingQueueConditionalGroupRouting extends cdktf.TerraformResource
   * Generates CDKTF code for importing a RoutingQueueConditionalGroupRouting resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RoutingQueueConditionalGroupRouting to import
-  * @param importFromId The id of the existing RoutingQueueConditionalGroupRouting that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_queue_conditional_group_routing#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RoutingQueueConditionalGroupRouting that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue_conditional_group_routing#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RoutingQueueConditionalGroupRouting to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -488,7 +488,7 @@ export class RoutingQueueConditionalGroupRouting extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_queue_conditional_group_routing genesyscloud_routing_queue_conditional_group_routing} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue_conditional_group_routing genesyscloud_routing_queue_conditional_group_routing} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -499,8 +499,8 @@ export class RoutingQueueConditionalGroupRouting extends cdktf.TerraformResource
       terraformResourceType: 'genesyscloud_routing_queue_conditional_group_routing',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.71.1',
-        providerVersionConstraint: '1.71.1'
+        providerVersion: '1.72.2',
+        providerVersionConstraint: '1.72.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

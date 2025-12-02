@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.3/docs/resources/tableflow_cluster
+// https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.4/docs/resources/tableflow_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface TableflowClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Virtual Cluster Cloud Location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.3/docs/resources/tableflow_cluster#cloud TableflowCluster#cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.4/docs/resources/tableflow_cluster#cloud TableflowCluster#cloud}
   */
   readonly cloud?: TableflowClusterCloud;
   /**
   * TableFlow Cluster Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.3/docs/resources/tableflow_cluster#name TableflowCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.4/docs/resources/tableflow_cluster#name TableflowCluster#name}
   */
   readonly name: string;
   /**
   * Virtual Cluster Tier. Currently, the valid virtual cluster tiers are `dev`, `pro`, `fundamentals`, and `enterprise`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.3/docs/resources/tableflow_cluster#tier TableflowCluster#tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.4/docs/resources/tableflow_cluster#tier TableflowCluster#tier}
   */
   readonly tier: string;
 }
@@ -125,13 +125,13 @@ export interface TableflowClusterCloud {
   /**
   * Cloud Provider. Valid providers are: `aws` (default), `gcp`, and `azure`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.3/docs/resources/tableflow_cluster#provider TableflowCluster#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.4/docs/resources/tableflow_cluster#provider TableflowCluster#provider}
   */
   readonly provider?: string;
   /**
   * Cloud Region. Defaults to `us-east-1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.3/docs/resources/tableflow_cluster#region TableflowCluster#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.4/docs/resources/tableflow_cluster#region TableflowCluster#region}
   */
   readonly region?: string;
 }
@@ -254,7 +254,7 @@ export class TableflowClusterCloudOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.3/docs/resources/tableflow_cluster warpstream_tableflow_cluster}
+* Represents a {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.4/docs/resources/tableflow_cluster warpstream_tableflow_cluster}
 */
 export class TableflowCluster extends cdktf.TerraformResource {
 
@@ -270,7 +270,7 @@ export class TableflowCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TableflowCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TableflowCluster to import
-  * @param importFromId The id of the existing TableflowCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.3/docs/resources/tableflow_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TableflowCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.4/docs/resources/tableflow_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TableflowCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -282,7 +282,7 @@ export class TableflowCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.3/docs/resources/tableflow_cluster warpstream_tableflow_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.4/docs/resources/tableflow_cluster warpstream_tableflow_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -293,8 +293,8 @@ export class TableflowCluster extends cdktf.TerraformResource {
       terraformResourceType: 'warpstream_tableflow_cluster',
       terraformGeneratorMetadata: {
         providerName: 'warpstream',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

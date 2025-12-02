@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs
+// https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,39 +8,39 @@ import * as cdktf from 'cdktf';
 
 export interface VmcProviderConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs#client_id VmcProvider#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs#client_id VmcProvider#client_id}
   */
   readonly clientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs#client_secret VmcProvider#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs#client_secret VmcProvider#client_secret}
   */
   readonly clientSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs#csp_url VmcProvider#csp_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs#csp_url VmcProvider#csp_url}
   */
   readonly cspUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs#org_id VmcProvider#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs#org_id VmcProvider#org_id}
   */
   readonly orgId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs#refresh_token VmcProvider#refresh_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs#refresh_token VmcProvider#refresh_token}
   */
   readonly refreshToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs#vmc_url VmcProvider#vmc_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs#vmc_url VmcProvider#vmc_url}
   */
   readonly vmcUrl?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs#alias VmcProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs#alias VmcProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs vmc}
+* Represents a {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs vmc}
 */
 export class VmcProvider extends cdktf.TerraformProvider {
 
@@ -56,7 +56,7 @@ export class VmcProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a VmcProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VmcProvider to import
-  * @param importFromId The id of the existing VmcProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VmcProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VmcProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class VmcProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs vmc} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs vmc} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class VmcProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'vmc',
       terraformGeneratorMetadata: {
         providerName: 'vmc',
-        providerVersion: '1.15.5',
-        providerVersionConstraint: '1.15.5'
+        providerVersion: '1.15.6',
+        providerVersionConstraint: '1.15.6'
       },
       terraformProviderSource: 'vmware/vmc'
     });

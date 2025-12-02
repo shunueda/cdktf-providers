@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/mongodbflex_instance
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/mongodbflex_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface MongodbflexInstanceConfig extends cdktf.TerraformMetaArguments 
   /**
   * The Access Control List (ACL) for the MongoDB Flex instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/mongodbflex_instance#acl MongodbflexInstance#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/mongodbflex_instance#acl MongodbflexInstance#acl}
   */
   readonly acl: string[];
   /**
   * The backup schedule. Should follow the cron scheduling system format (e.g. "0 0 * * *").
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/mongodbflex_instance#backup_schedule MongodbflexInstance#backup_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/mongodbflex_instance#backup_schedule MongodbflexInstance#backup_schedule}
   */
   readonly backupSchedule: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/mongodbflex_instance#flavor MongodbflexInstance#flavor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/mongodbflex_instance#flavor MongodbflexInstance#flavor}
   */
   readonly flavor: MongodbflexInstanceFlavor;
   /**
   * Instance name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/mongodbflex_instance#name MongodbflexInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/mongodbflex_instance#name MongodbflexInstance#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/mongodbflex_instance#options MongodbflexInstance#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/mongodbflex_instance#options MongodbflexInstance#options}
   */
   readonly options: MongodbflexInstanceOptions;
   /**
   * STACKIT project ID to which the instance is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/mongodbflex_instance#project_id MongodbflexInstance#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/mongodbflex_instance#project_id MongodbflexInstance#project_id}
   */
   readonly projectId: string;
   /**
   * The resource region. If not defined, the provider region is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/mongodbflex_instance#region MongodbflexInstance#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/mongodbflex_instance#region MongodbflexInstance#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/mongodbflex_instance#replicas MongodbflexInstance#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/mongodbflex_instance#replicas MongodbflexInstance#replicas}
   */
   readonly replicas: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/mongodbflex_instance#storage MongodbflexInstance#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/mongodbflex_instance#storage MongodbflexInstance#storage}
   */
   readonly storage: MongodbflexInstanceStorage;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/mongodbflex_instance#version MongodbflexInstance#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/mongodbflex_instance#version MongodbflexInstance#version}
   */
   readonly version: string;
 }
 export interface MongodbflexInstanceFlavor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/mongodbflex_instance#cpu MongodbflexInstance#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/mongodbflex_instance#cpu MongodbflexInstance#cpu}
   */
   readonly cpu: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/mongodbflex_instance#ram MongodbflexInstance#ram}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/mongodbflex_instance#ram MongodbflexInstance#ram}
   */
   readonly ram: number;
 }
@@ -193,37 +193,37 @@ export interface MongodbflexInstanceOptions {
   /**
   * The number of days that daily backups will be retained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/mongodbflex_instance#daily_snapshot_retention_days MongodbflexInstance#daily_snapshot_retention_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/mongodbflex_instance#daily_snapshot_retention_days MongodbflexInstance#daily_snapshot_retention_days}
   */
   readonly dailySnapshotRetentionDays?: number;
   /**
   * The number of months that monthly backups will be retained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/mongodbflex_instance#monthly_snapshot_retention_months MongodbflexInstance#monthly_snapshot_retention_months}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/mongodbflex_instance#monthly_snapshot_retention_months MongodbflexInstance#monthly_snapshot_retention_months}
   */
   readonly monthlySnapshotRetentionMonths?: number;
   /**
   * The number of hours back in time the point-in-time recovery feature will be able to recover.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/mongodbflex_instance#point_in_time_window_hours MongodbflexInstance#point_in_time_window_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/mongodbflex_instance#point_in_time_window_hours MongodbflexInstance#point_in_time_window_hours}
   */
   readonly pointInTimeWindowHours: number;
   /**
   * The number of days that continuous backups (controlled via the `backup_schedule`) will be retained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/mongodbflex_instance#snapshot_retention_days MongodbflexInstance#snapshot_retention_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/mongodbflex_instance#snapshot_retention_days MongodbflexInstance#snapshot_retention_days}
   */
   readonly snapshotRetentionDays?: number;
   /**
   * Type of the MongoDB Flex instance. Possible values are: `Replica`, `Sharded`, `Single`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/mongodbflex_instance#type MongodbflexInstance#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/mongodbflex_instance#type MongodbflexInstance#type}
   */
   readonly type: string;
   /**
   * The number of weeks that weekly backups will be retained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/mongodbflex_instance#weekly_snapshot_retention_weeks MongodbflexInstance#weekly_snapshot_retention_weeks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/mongodbflex_instance#weekly_snapshot_retention_weeks MongodbflexInstance#weekly_snapshot_retention_weeks}
   */
   readonly weeklySnapshotRetentionWeeks?: number;
 }
@@ -456,11 +456,11 @@ export class MongodbflexInstanceOptionsOutputReference extends cdktf.ComplexObje
 }
 export interface MongodbflexInstanceStorage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/mongodbflex_instance#class MongodbflexInstance#class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/mongodbflex_instance#class MongodbflexInstance#class}
   */
   readonly class: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/mongodbflex_instance#size MongodbflexInstance#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/mongodbflex_instance#size MongodbflexInstance#size}
   */
   readonly size: number;
 }
@@ -577,7 +577,7 @@ export class MongodbflexInstanceStorageOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/mongodbflex_instance stackit_mongodbflex_instance}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/mongodbflex_instance stackit_mongodbflex_instance}
 */
 export class MongodbflexInstance extends cdktf.TerraformResource {
 
@@ -593,7 +593,7 @@ export class MongodbflexInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MongodbflexInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MongodbflexInstance to import
-  * @param importFromId The id of the existing MongodbflexInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/mongodbflex_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MongodbflexInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/mongodbflex_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MongodbflexInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -605,7 +605,7 @@ export class MongodbflexInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/mongodbflex_instance stackit_mongodbflex_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/mongodbflex_instance stackit_mongodbflex_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -616,8 +616,8 @@ export class MongodbflexInstance extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_mongodbflex_instance',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.71.0',
-        providerVersionConstraint: '0.71.0'
+        providerVersion: '0.72.0',
+        providerVersionConstraint: '0.72.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

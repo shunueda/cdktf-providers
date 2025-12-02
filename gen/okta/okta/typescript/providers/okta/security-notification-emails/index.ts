@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/security_notification_emails
+// https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/security_notification_emails
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface SecurityNotificationEmailsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/security_notification_emails#id SecurityNotificationEmails#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/security_notification_emails#id SecurityNotificationEmails#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface SecurityNotificationEmailsConfig extends cdktf.TerraformMetaArg
   /**
   * Notifies end users about suspicious or unrecognized activity from their account. Default is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/security_notification_emails#report_suspicious_activity_enabled SecurityNotificationEmails#report_suspicious_activity_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/security_notification_emails#report_suspicious_activity_enabled SecurityNotificationEmails#report_suspicious_activity_enabled}
   */
   readonly reportSuspiciousActivityEnabled?: boolean | cdktf.IResolvable;
   /**
   * Notifies end users of any activity on their account related to MFA factor enrollment. Default is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/security_notification_emails#send_email_for_factor_enrollment_enabled SecurityNotificationEmails#send_email_for_factor_enrollment_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/security_notification_emails#send_email_for_factor_enrollment_enabled SecurityNotificationEmails#send_email_for_factor_enrollment_enabled}
   */
   readonly sendEmailForFactorEnrollmentEnabled?: boolean | cdktf.IResolvable;
   /**
   * Notifies end users that one or more factors have been reset for their account. Default is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/security_notification_emails#send_email_for_factor_reset_enabled SecurityNotificationEmails#send_email_for_factor_reset_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/security_notification_emails#send_email_for_factor_reset_enabled SecurityNotificationEmails#send_email_for_factor_reset_enabled}
   */
   readonly sendEmailForFactorResetEnabled?: boolean | cdktf.IResolvable;
   /**
   * Notifies end users about new sign-on activity. Default is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/security_notification_emails#send_email_for_new_device_enabled SecurityNotificationEmails#send_email_for_new_device_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/security_notification_emails#send_email_for_new_device_enabled SecurityNotificationEmails#send_email_for_new_device_enabled}
   */
   readonly sendEmailForNewDeviceEnabled?: boolean | cdktf.IResolvable;
   /**
   * Notifies end users that the password for their account has changed. Default is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/security_notification_emails#send_email_for_password_changed_enabled SecurityNotificationEmails#send_email_for_password_changed_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/security_notification_emails#send_email_for_password_changed_enabled SecurityNotificationEmails#send_email_for_password_changed_enabled}
   */
   readonly sendEmailForPasswordChangedEnabled?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/security_notification_emails okta_security_notification_emails}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/security_notification_emails okta_security_notification_emails}
 */
 export class SecurityNotificationEmails extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class SecurityNotificationEmails extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecurityNotificationEmails resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityNotificationEmails to import
-  * @param importFromId The id of the existing SecurityNotificationEmails that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/security_notification_emails#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityNotificationEmails that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/security_notification_emails#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityNotificationEmails to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class SecurityNotificationEmails extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/security_notification_emails okta_security_notification_emails} Resource
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/security_notification_emails okta_security_notification_emails} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class SecurityNotificationEmails extends cdktf.TerraformResource {
       terraformResourceType: 'okta_security_notification_emails',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.5.0',
-        providerVersionConstraint: '6.5.0'
+        providerVersion: '6.5.1',
+        providerVersionConstraint: '6.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

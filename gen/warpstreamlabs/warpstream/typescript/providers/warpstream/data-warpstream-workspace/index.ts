@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.3/docs/data-sources/workspace
+// https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.4/docs/data-sources/workspace
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataWarpstreamWorkspaceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.3/docs/data-sources/workspace#id DataWarpstreamWorkspace#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.4/docs/data-sources/workspace#id DataWarpstreamWorkspace#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -112,7 +112,7 @@ export class DataWarpstreamWorkspaceApplicationKeysList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.3/docs/data-sources/workspace warpstream_workspace}
+* Represents a {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.4/docs/data-sources/workspace warpstream_workspace}
 */
 export class DataWarpstreamWorkspace extends cdktf.TerraformDataSource {
 
@@ -128,7 +128,7 @@ export class DataWarpstreamWorkspace extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataWarpstreamWorkspace resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataWarpstreamWorkspace to import
-  * @param importFromId The id of the existing DataWarpstreamWorkspace that should be imported. Refer to the {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.3/docs/data-sources/workspace#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataWarpstreamWorkspace that should be imported. Refer to the {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.4/docs/data-sources/workspace#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataWarpstreamWorkspace to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -140,7 +140,7 @@ export class DataWarpstreamWorkspace extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.3/docs/data-sources/workspace warpstream_workspace} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.4/docs/data-sources/workspace warpstream_workspace} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -151,8 +151,8 @@ export class DataWarpstreamWorkspace extends cdktf.TerraformDataSource {
       terraformResourceType: 'warpstream_workspace',
       terraformGeneratorMetadata: {
         providerName: 'warpstream',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

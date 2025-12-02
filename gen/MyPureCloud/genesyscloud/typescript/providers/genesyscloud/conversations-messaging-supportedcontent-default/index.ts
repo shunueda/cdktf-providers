@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/conversations_messaging_supportedcontent_default
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/conversations_messaging_supportedcontent_default
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ConversationsMessagingSupportedcontentDefaultConfig extends cdk
   /**
   * The SupportedContent unique identifier associated with this integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/conversations_messaging_supportedcontent_default#content_id ConversationsMessagingSupportedcontentDefault#content_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/conversations_messaging_supportedcontent_default#content_id ConversationsMessagingSupportedcontentDefault#content_id}
   */
   readonly contentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/conversations_messaging_supportedcontent_default#id ConversationsMessagingSupportedcontentDefault#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/conversations_messaging_supportedcontent_default#id ConversationsMessagingSupportedcontentDefault#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface ConversationsMessagingSupportedcontentDefaultConfig extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/conversations_messaging_supportedcontent_default genesyscloud_conversations_messaging_supportedcontent_default}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/conversations_messaging_supportedcontent_default genesyscloud_conversations_messaging_supportedcontent_default}
 */
 export class ConversationsMessagingSupportedcontentDefault extends cdktf.TerraformResource {
 
@@ -39,7 +39,7 @@ export class ConversationsMessagingSupportedcontentDefault extends cdktf.Terrafo
   * Generates CDKTF code for importing a ConversationsMessagingSupportedcontentDefault resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConversationsMessagingSupportedcontentDefault to import
-  * @param importFromId The id of the existing ConversationsMessagingSupportedcontentDefault that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/conversations_messaging_supportedcontent_default#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConversationsMessagingSupportedcontentDefault that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/conversations_messaging_supportedcontent_default#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConversationsMessagingSupportedcontentDefault to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -51,7 +51,7 @@ export class ConversationsMessagingSupportedcontentDefault extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/conversations_messaging_supportedcontent_default genesyscloud_conversations_messaging_supportedcontent_default} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/conversations_messaging_supportedcontent_default genesyscloud_conversations_messaging_supportedcontent_default} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -62,8 +62,8 @@ export class ConversationsMessagingSupportedcontentDefault extends cdktf.Terrafo
       terraformResourceType: 'genesyscloud_conversations_messaging_supportedcontent_default',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.71.1',
-        providerVersionConstraint: '1.71.1'
+        providerVersion: '1.72.2',
+        providerVersionConstraint: '1.72.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

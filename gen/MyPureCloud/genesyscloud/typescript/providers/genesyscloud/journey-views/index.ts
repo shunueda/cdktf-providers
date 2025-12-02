@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface JourneyViewsConfig extends cdktf.TerraformMetaArguments {
   /**
   * A description of the journey view.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#description JourneyViews#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#description JourneyViews#description}
   */
   readonly description?: string;
   /**
   * A relative timeframe for the journey view, expressed as an ISO 8601 duration. Only one of interval or duration must be specified. Periods are represented as an ISO-8601 string. For example: P1D or P1DT12H.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#duration JourneyViews#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#duration JourneyViews#duration}
   */
   readonly duration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#id JourneyViews#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#id JourneyViews#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface JourneyViewsConfig extends cdktf.TerraformMetaArguments {
   /**
   * An absolute timeframe for the journey view, expressed as an ISO 8601 interval. Only one of interval or duration must be specified. Intervals are represented as an ISO-8601 string. For example: YYYY-MM-DDThh:mm:ss/YYYY-MM-DDThh:mm:ss.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#interval JourneyViews#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#interval JourneyViews#interval}
   */
   readonly interval?: string;
   /**
   * JourneyView name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#name JourneyViews#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#name JourneyViews#name}
   */
   readonly name: string;
   /**
   * charts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#charts JourneyViews#charts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#charts JourneyViews#charts}
   */
   readonly charts?: JourneyViewsCharts[] | cdktf.IResolvable;
   /**
   * elements block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#elements JourneyViews#elements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#elements JourneyViews#elements}
   */
   readonly elements?: JourneyViewsElements[] | cdktf.IResolvable;
 }
@@ -55,25 +55,25 @@ export interface JourneyViewsChartsDisplayAttributes {
   /**
   * A title for the grouped by attributes (aka the x axis).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#group_by_title JourneyViews#group_by_title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#group_by_title JourneyViews#group_by_title}
   */
   readonly groupByTitle?: string;
   /**
   * A title for the metrics (aka the y axis).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#metrics_title JourneyViews#metrics_title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#metrics_title JourneyViews#metrics_title}
   */
   readonly metricsTitle?: string;
   /**
   * Whether to show a legend
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#show_legend JourneyViews#show_legend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#show_legend JourneyViews#show_legend}
   */
   readonly showLegend?: boolean | cdktf.IResolvable;
   /**
   * The type of chart to display. Valid values: Bar, Column, Line.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#var_type JourneyViews#var_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#var_type JourneyViews#var_type}
   */
   readonly varType?: string;
 }
@@ -246,13 +246,13 @@ export interface JourneyViewsChartsGroupByAttributes {
   /**
   * The attribute of the element being grouped by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#attribute JourneyViews#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#attribute JourneyViews#attribute}
   */
   readonly attribute: string;
   /**
   * The element in the list of elements which is being grouped by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#element_id JourneyViews#element_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#element_id JourneyViews#element_id}
   */
   readonly elementId: string;
 }
@@ -393,25 +393,25 @@ export interface JourneyViewsChartsMetrics {
   /**
   * How to aggregate the given element. Valid values: EventCount, CustomerCount.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#aggregate JourneyViews#aggregate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#aggregate JourneyViews#aggregate}
   */
   readonly aggregate?: string;
   /**
   * Display label of metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#display_label JourneyViews#display_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#display_label JourneyViews#display_label}
   */
   readonly displayLabel?: string;
   /**
   * The reference of element.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#element_id JourneyViews#element_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#element_id JourneyViews#element_id}
   */
   readonly elementId: string;
   /**
   * The unique identifier of the metric within the metrics list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#id JourneyViews#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#id JourneyViews#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -613,43 +613,43 @@ export interface JourneyViewsCharts {
   /**
   * A maximum on the number of values being grouped by
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#group_by_max JourneyViews#group_by_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#group_by_max JourneyViews#group_by_max}
   */
   readonly groupByMax?: number;
   /**
   * A time unit to group the metrics by. Valid values: Day, Week, Month, Year.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#group_by_time JourneyViews#group_by_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#group_by_time JourneyViews#group_by_time}
   */
   readonly groupByTime?: string;
   /**
   * The unique name of the chart within the view.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#name JourneyViews#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#name JourneyViews#name}
   */
   readonly name: string;
   /**
   * The version of chart
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#version JourneyViews#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#version JourneyViews#version}
   */
   readonly version: number;
   /**
   * display_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#display_attributes JourneyViews#display_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#display_attributes JourneyViews#display_attributes}
   */
   readonly displayAttributes?: JourneyViewsChartsDisplayAttributes;
   /**
   * group_by_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#group_by_attributes JourneyViews#group_by_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#group_by_attributes JourneyViews#group_by_attributes}
   */
   readonly groupByAttributes?: JourneyViewsChartsGroupByAttributes[] | cdktf.IResolvable;
   /**
   * metrics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#metrics JourneyViews#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#metrics JourneyViews#metrics}
   */
   readonly metrics: JourneyViewsChartsMetrics[] | cdktf.IResolvable;
 }
@@ -937,7 +937,7 @@ export interface JourneyViewsElementsAttributes {
   /**
   * The identifier for the element based on its type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#id JourneyViews#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#id JourneyViews#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -946,13 +946,13 @@ export interface JourneyViewsElementsAttributes {
   /**
   * The source for the element (e.g. IVR, Voice, Chat). Used for informational purposes only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#source JourneyViews#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#source JourneyViews#source}
   */
   readonly source?: string;
   /**
   * The type of the element (e.g. Event).Valid values: Event.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#type JourneyViews#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#type JourneyViews#type}
   */
   readonly type: string;
 }
@@ -1093,19 +1093,19 @@ export interface JourneyViewsElementsDisplayAttributes {
   /**
   * The column position for the element in the journey view canvas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#col JourneyViews#col}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#col JourneyViews#col}
   */
   readonly col: number;
   /**
   * The horizontal position (x-coordinate) of the element on the journey view canvas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#x JourneyViews#x}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#x JourneyViews#x}
   */
   readonly x: number;
   /**
   * The vertical position (y-coordinate) of the element on the journey view canvas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#y JourneyViews#y}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#y JourneyViews#y}
   */
   readonly y: number;
 }
@@ -1240,13 +1240,13 @@ export interface JourneyViewsElementsFilterNumberPredicatesRangeEq {
   /**
   * An ISO 8601 time duration. Only one of number or duration must be specified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#duration JourneyViews#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#duration JourneyViews#duration}
   */
   readonly duration?: string;
   /**
   * Number value. Only one of number or duration must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#number JourneyViews#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#number JourneyViews#number}
   */
   readonly number?: number;
 }
@@ -1361,13 +1361,13 @@ export interface JourneyViewsElementsFilterNumberPredicatesRangeGt {
   /**
   * An ISO 8601 time duration. Only one of number or duration must be specified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#duration JourneyViews#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#duration JourneyViews#duration}
   */
   readonly duration?: string;
   /**
   * Number value. Only one of number or duration must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#number JourneyViews#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#number JourneyViews#number}
   */
   readonly number?: number;
 }
@@ -1482,13 +1482,13 @@ export interface JourneyViewsElementsFilterNumberPredicatesRangeGte {
   /**
   * An ISO 8601 time duration. Only one of number or duration must be specified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#duration JourneyViews#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#duration JourneyViews#duration}
   */
   readonly duration?: string;
   /**
   * Number value. Only one of number or duration must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#number JourneyViews#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#number JourneyViews#number}
   */
   readonly number?: number;
 }
@@ -1603,13 +1603,13 @@ export interface JourneyViewsElementsFilterNumberPredicatesRangeLt {
   /**
   * An ISO 8601 time duration. Only one of number or duration must be specified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#duration JourneyViews#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#duration JourneyViews#duration}
   */
   readonly duration?: string;
   /**
   * Number value. Only one of number or duration must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#number JourneyViews#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#number JourneyViews#number}
   */
   readonly number?: number;
 }
@@ -1724,13 +1724,13 @@ export interface JourneyViewsElementsFilterNumberPredicatesRangeLte {
   /**
   * An ISO 8601 time duration. Only one of number or duration must be specified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#duration JourneyViews#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#duration JourneyViews#duration}
   */
   readonly duration?: string;
   /**
   * Number value. Only one of number or duration must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#number JourneyViews#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#number JourneyViews#number}
   */
   readonly number?: number;
 }
@@ -1845,13 +1845,13 @@ export interface JourneyViewsElementsFilterNumberPredicatesRangeNeq {
   /**
   * An ISO 8601 time duration. Only one of number or duration must be specified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#duration JourneyViews#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#duration JourneyViews#duration}
   */
   readonly duration?: string;
   /**
   * Number value. Only one of number or duration must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#number JourneyViews#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#number JourneyViews#number}
   */
   readonly number?: number;
 }
@@ -1966,37 +1966,37 @@ export interface JourneyViewsElementsFilterNumberPredicatesRange {
   /**
   * eq block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#eq JourneyViews#eq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#eq JourneyViews#eq}
   */
   readonly eq?: JourneyViewsElementsFilterNumberPredicatesRangeEq;
   /**
   * gt block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#gt JourneyViews#gt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#gt JourneyViews#gt}
   */
   readonly gt?: JourneyViewsElementsFilterNumberPredicatesRangeGt;
   /**
   * gte block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#gte JourneyViews#gte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#gte JourneyViews#gte}
   */
   readonly gte?: JourneyViewsElementsFilterNumberPredicatesRangeGte;
   /**
   * lt block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#lt JourneyViews#lt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#lt JourneyViews#lt}
   */
   readonly lt?: JourneyViewsElementsFilterNumberPredicatesRangeLt;
   /**
   * lte block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#lte JourneyViews#lte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#lte JourneyViews#lte}
   */
   readonly lte?: JourneyViewsElementsFilterNumberPredicatesRangeLte;
   /**
   * neq block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#neq JourneyViews#neq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#neq JourneyViews#neq}
   */
   readonly neq?: JourneyViewsElementsFilterNumberPredicatesRangeNeq;
 }
@@ -2227,25 +2227,25 @@ export interface JourneyViewsElementsFilterNumberPredicates {
   /**
   * The element's attribute being filtered on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#dimension JourneyViews#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#dimension JourneyViews#dimension}
   */
   readonly dimension: string;
   /**
   * set this to true if no specific value to be considered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#no_value JourneyViews#no_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#no_value JourneyViews#no_value}
   */
   readonly noValue?: boolean | cdktf.IResolvable;
   /**
   * Optional operator, default is Matches. Valid values: Matches.Valid values: Matches, NotMatches. Defaults to `Matches`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#operator JourneyViews#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#operator JourneyViews#operator}
   */
   readonly operator?: string;
   /**
   * range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#range JourneyViews#range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#range JourneyViews#range}
   */
   readonly range: JourneyViewsElementsFilterNumberPredicatesRange;
 }
@@ -2444,25 +2444,25 @@ export interface JourneyViewsElementsFilterPredicates {
   /**
   * The element's attribute being filtered on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#dimension JourneyViews#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#dimension JourneyViews#dimension}
   */
   readonly dimension: string;
   /**
   * set this to true if no specific value to be considered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#no_value JourneyViews#no_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#no_value JourneyViews#no_value}
   */
   readonly noValue?: boolean | cdktf.IResolvable;
   /**
   * Optional operator, default is Matches. Valid values: Matches.Valid values: Matches, NotMatches. Defaults to `Matches`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#operator JourneyViews#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#operator JourneyViews#operator}
   */
   readonly operator?: string;
   /**
   * The identifier for the element based on its type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#values JourneyViews#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#values JourneyViews#values}
   */
   readonly values: string[];
 }
@@ -2661,19 +2661,19 @@ export interface JourneyViewsElementsFilter {
   /**
   * Boolean operation to apply to the provided predicates, numberPredicates and clauses. Valid values: And.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#type JourneyViews#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#type JourneyViews#type}
   */
   readonly type: string;
   /**
   * number_predicates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#number_predicates JourneyViews#number_predicates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#number_predicates JourneyViews#number_predicates}
   */
   readonly numberPredicates?: JourneyViewsElementsFilterNumberPredicates[] | cdktf.IResolvable;
   /**
   * predicates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#predicates JourneyViews#predicates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#predicates JourneyViews#predicates}
   */
   readonly predicates?: JourneyViewsElementsFilterPredicates[] | cdktf.IResolvable;
 }
@@ -2814,13 +2814,13 @@ export interface JourneyViewsElementsFollowedByConstraintAfter {
   /**
   * The unit for the link's time constraint.Valid values: Seconds, Minutes, Hours, Days, Weeks, Months.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#unit JourneyViews#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#unit JourneyViews#unit}
   */
   readonly unit?: string;
   /**
   * The value for the link's time constraint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#value JourneyViews#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#value JourneyViews#value}
   */
   readonly value?: number;
 }
@@ -2935,13 +2935,13 @@ export interface JourneyViewsElementsFollowedByConstraintWithin {
   /**
   * The unit for the link's time constraint.Valid values: Seconds, Minutes, Hours, Days, Weeks, Months.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#unit JourneyViews#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#unit JourneyViews#unit}
   */
   readonly unit?: string;
   /**
   * The value for the link's time constraint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#value JourneyViews#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#value JourneyViews#value}
   */
   readonly value?: number;
 }
@@ -3056,13 +3056,13 @@ export interface JourneyViewsElementsFollowedBy {
   /**
   * The type of events that will be counted. Note: Concurrent will override any JourneyViewLinkTimeConstraint. Default is Sequential.Valid values: All, Concurrent, Sequential.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#event_count_type JourneyViews#event_count_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#event_count_type JourneyViews#event_count_type}
   */
   readonly eventCountType?: string;
   /**
   * The identifier of the element downstream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#id JourneyViews#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#id JourneyViews#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3071,19 +3071,19 @@ export interface JourneyViewsElementsFollowedBy {
   /**
   * Other (secondary) attributes on which this link should join the customers being counted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#join_attributes JourneyViews#join_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#join_attributes JourneyViews#join_attributes}
   */
   readonly joinAttributes?: string[];
   /**
   * constraint_after block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#constraint_after JourneyViews#constraint_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#constraint_after JourneyViews#constraint_after}
   */
   readonly constraintAfter?: JourneyViewsElementsFollowedByConstraintAfter;
   /**
   * constraint_within block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#constraint_within JourneyViews#constraint_within}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#constraint_within JourneyViews#constraint_within}
   */
   readonly constraintWithin?: JourneyViewsElementsFollowedByConstraintWithin;
 }
@@ -3314,7 +3314,7 @@ export interface JourneyViewsElements {
   /**
   * The unique identifier of the element within the elements list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#id JourneyViews#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#id JourneyViews#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3323,31 +3323,31 @@ export interface JourneyViewsElements {
   /**
   * The unique name of the element within the view.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#name JourneyViews#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#name JourneyViews#name}
   */
   readonly name: string;
   /**
   * attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#attributes JourneyViews#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#attributes JourneyViews#attributes}
   */
   readonly attributes: JourneyViewsElementsAttributes;
   /**
   * display_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#display_attributes JourneyViews#display_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#display_attributes JourneyViews#display_attributes}
   */
   readonly displayAttributes?: JourneyViewsElementsDisplayAttributes;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#filter JourneyViews#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#filter JourneyViews#filter}
   */
   readonly filter?: JourneyViewsElementsFilter;
   /**
   * followed_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#followed_by JourneyViews#followed_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#followed_by JourneyViews#followed_by}
   */
   readonly followedBy?: JourneyViewsElementsFollowedBy[] | cdktf.IResolvable;
 }
@@ -3599,7 +3599,7 @@ export class JourneyViewsElementsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views genesyscloud_journey_views}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views genesyscloud_journey_views}
 */
 export class JourneyViews extends cdktf.TerraformResource {
 
@@ -3615,7 +3615,7 @@ export class JourneyViews extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a JourneyViews resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the JourneyViews to import
-  * @param importFromId The id of the existing JourneyViews that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing JourneyViews that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the JourneyViews to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3627,7 +3627,7 @@ export class JourneyViews extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_views genesyscloud_journey_views} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_views genesyscloud_journey_views} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3638,8 +3638,8 @@ export class JourneyViews extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_journey_views',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.71.1',
-        providerVersionConstraint: '1.71.1'
+        providerVersion: '1.72.2',
+        providerVersionConstraint: '1.72.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

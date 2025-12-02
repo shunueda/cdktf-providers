@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/auth_server_clients
+// https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/auth_server_clients
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataOktaAuthServerClientsConfig extends cdktf.TerraformMetaArgu
   /**
   * The ID of the authorization server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/auth_server_clients#auth_server_id DataOktaAuthServerClients#auth_server_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/auth_server_clients#auth_server_id DataOktaAuthServerClients#auth_server_id}
   */
   readonly authServerId: string;
   /**
   * The client ID of the app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/auth_server_clients#client_id DataOktaAuthServerClients#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/auth_server_clients#client_id DataOktaAuthServerClients#client_id}
   */
   readonly clientId: string;
   /**
   * The ID of the token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/auth_server_clients#id DataOktaAuthServerClients#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/auth_server_clients#id DataOktaAuthServerClients#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,7 +31,7 @@ export interface DataOktaAuthServerClientsConfig extends cdktf.TerraformMetaArgu
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/auth_server_clients okta_auth_server_clients}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/auth_server_clients okta_auth_server_clients}
 */
 export class DataOktaAuthServerClients extends cdktf.TerraformDataSource {
 
@@ -47,7 +47,7 @@ export class DataOktaAuthServerClients extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOktaAuthServerClients resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOktaAuthServerClients to import
-  * @param importFromId The id of the existing DataOktaAuthServerClients that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/auth_server_clients#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOktaAuthServerClients that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/auth_server_clients#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOktaAuthServerClients to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -59,7 +59,7 @@ export class DataOktaAuthServerClients extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/auth_server_clients okta_auth_server_clients} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/auth_server_clients okta_auth_server_clients} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -70,8 +70,8 @@ export class DataOktaAuthServerClients extends cdktf.TerraformDataSource {
       terraformResourceType: 'okta_auth_server_clients',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.5.0',
-        providerVersionConstraint: '6.5.0'
+        providerVersion: '6.5.1',
+        providerVersionConstraint: '6.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

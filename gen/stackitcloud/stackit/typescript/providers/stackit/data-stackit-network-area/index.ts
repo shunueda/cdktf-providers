@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/data-sources/network_area
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/data-sources/network_area
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataStackitNetworkAreaConfig extends cdktf.TerraformMetaArgumen
   /**
   * The network area ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/data-sources/network_area#network_area_id DataStackitNetworkArea#network_area_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/data-sources/network_area#network_area_id DataStackitNetworkArea#network_area_id}
   */
   readonly networkAreaId: string;
   /**
   * STACKIT organization ID to which the network area is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/data-sources/network_area#organization_id DataStackitNetworkArea#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/data-sources/network_area#organization_id DataStackitNetworkArea#organization_id}
   */
   readonly organizationId: string;
 }
@@ -102,7 +102,7 @@ export class DataStackitNetworkAreaNetworkRangesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/data-sources/network_area stackit_network_area}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/data-sources/network_area stackit_network_area}
 */
 export class DataStackitNetworkArea extends cdktf.TerraformDataSource {
 
@@ -118,7 +118,7 @@ export class DataStackitNetworkArea extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataStackitNetworkArea resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataStackitNetworkArea to import
-  * @param importFromId The id of the existing DataStackitNetworkArea that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/data-sources/network_area#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataStackitNetworkArea that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/data-sources/network_area#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataStackitNetworkArea to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -130,7 +130,7 @@ export class DataStackitNetworkArea extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/data-sources/network_area stackit_network_area} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/data-sources/network_area stackit_network_area} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -141,8 +141,8 @@ export class DataStackitNetworkArea extends cdktf.TerraformDataSource {
       terraformResourceType: 'stackit_network_area',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.71.0',
-        providerVersionConstraint: '0.71.0'
+        providerVersion: '0.72.0',
+        providerVersionConstraint: '0.72.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

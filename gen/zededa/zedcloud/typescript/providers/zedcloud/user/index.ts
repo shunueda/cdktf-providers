@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/user
+// https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,93 +10,93 @@ export interface UserConfig extends cdktf.TerraformMetaArguments {
   /**
   * Custom user parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/user#custom_user_input User#custom_user_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/user#custom_user_input User#custom_user_input}
   */
   readonly customUserInput?: { [key: string]: string };
   /**
   * Email of the user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/user#email User#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/user#email User#email}
   */
   readonly email: string;
   /**
   * First name of the user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/user#first_name User#first_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/user#first_name User#first_name}
   */
   readonly firstName?: string;
   /**
   * Full name of the user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/user#full_name User#full_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/user#full_name User#full_name}
   */
   readonly fullName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/user#hubspot_id User#hubspot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/user#hubspot_id User#hubspot_id}
   */
   readonly hubspotId?: string;
   /**
   * Last login time of the user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/user#last_login_time User#last_login_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/user#last_login_time User#last_login_time}
   */
   readonly lastLoginTime?: string;
   /**
   * Last logout time of the user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/user#last_logout_time User#last_logout_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/user#last_logout_time User#last_logout_time}
   */
   readonly lastLogoutTime?: string;
   /**
   * Locale of the user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/user#locale User#locale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/user#locale User#locale}
   */
   readonly locale?: string;
   /**
   * Notification preference of the user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/user#notify_pref User#notify_pref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/user#notify_pref User#notify_pref}
   */
   readonly notifyPref?: string;
   /**
   * Phone number of the user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/user#phone User#phone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/user#phone User#phone}
   */
   readonly phone?: string;
   /**
   * Role associated with the user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/user#role_id User#role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/user#role_id User#role_id}
   */
   readonly roleId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/user#sfdc_id User#sfdc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/user#sfdc_id User#sfdc_id}
   */
   readonly sfdcId?: string;
   /**
   * Preferred time zone of the user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/user#time_zone User#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/user#time_zone User#time_zone}
   */
   readonly timeZone?: string;
   /**
   * Type of the user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/user#type User#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/user#type User#type}
   */
   readonly type?: string;
   /**
   * User defined name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/user#username User#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/user#username User#username}
   */
   readonly username: string;
   /**
   * allowed_enterprises block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/user#allowed_enterprises User#allowed_enterprises}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/user#allowed_enterprises User#allowed_enterprises}
   */
   readonly allowedEnterprises?: UserAllowedEnterprises[] | cdktf.IResolvable;
 }
@@ -202,11 +202,11 @@ export class UserRevisionList extends cdktf.ComplexList {
 }
 export interface UserAllowedEnterprises {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/user#name User#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/user#name User#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/user#role_id User#role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/user#role_id User#role_id}
   */
   readonly roleId?: string;
 }
@@ -356,7 +356,7 @@ export class UserAllowedEnterprisesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/user zedcloud_user}
+* Represents a {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/user zedcloud_user}
 */
 export class User extends cdktf.TerraformResource {
 
@@ -372,7 +372,7 @@ export class User extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a User resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the User to import
-  * @param importFromId The id of the existing User that should be imported. Refer to the {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing User that should be imported. Refer to the {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the User to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -384,7 +384,7 @@ export class User extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/user zedcloud_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/user zedcloud_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -395,8 +395,8 @@ export class User extends cdktf.TerraformResource {
       terraformResourceType: 'zedcloud_user',
       terraformGeneratorMetadata: {
         providerName: 'zedcloud',
-        providerVersion: '2.5.0',
-        providerVersionConstraint: '2.5.0'
+        providerVersion: '2.6.0',
+        providerVersionConstraint: '2.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

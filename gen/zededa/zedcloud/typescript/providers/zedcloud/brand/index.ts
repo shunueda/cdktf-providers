@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/brand
+// https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/brand
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface BrandConfig extends cdktf.TerraformMetaArguments {
   /**
   * Map of <string, string>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/brand#attr Brand#attr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/brand#attr Brand#attr}
   */
   readonly attr?: { [key: string]: string };
   /**
   * Detailed description of the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/brand#description Brand#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/brand#description Brand#description}
   */
   readonly description?: string;
   /**
   * Map of <string, string> which holds the key:url for the logo artifact of the the brand
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/brand#logo Brand#logo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/brand#logo Brand#logo}
   */
   readonly logo?: { [key: string]: string };
   /**
   * user defined sys brand name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/brand#name Brand#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/brand#name Brand#name}
   */
   readonly name: string;
   /**
   * origin of object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/brand#origin_type Brand#origin_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/brand#origin_type Brand#origin_type}
   */
   readonly originType: string;
   /**
   * Sys Model Status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/brand#state Brand#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/brand#state Brand#state}
   */
   readonly state?: string;
   /**
   * Deprecated: base64 encoded string of svg file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/brand#svg Brand#svg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/brand#svg Brand#svg}
   */
   readonly svg?: string;
   /**
   * System Manufacturer name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/brand#system_mfg_name Brand#system_mfg_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/brand#system_mfg_name Brand#system_mfg_name}
   */
   readonly systemMfgName?: string;
   /**
   * user defined title for sys brand
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/brand#title Brand#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/brand#title Brand#title}
   */
   readonly title: string;
   /**
   * revision block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/brand#revision Brand#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/brand#revision Brand#revision}
   */
   readonly revision?: BrandRevision[] | cdktf.IResolvable;
 }
@@ -181,7 +181,7 @@ export class BrandRevisionList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/brand zedcloud_brand}
+* Represents a {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/brand zedcloud_brand}
 */
 export class Brand extends cdktf.TerraformResource {
 
@@ -197,7 +197,7 @@ export class Brand extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Brand resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Brand to import
-  * @param importFromId The id of the existing Brand that should be imported. Refer to the {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/brand#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Brand that should be imported. Refer to the {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/brand#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Brand to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -209,7 +209,7 @@ export class Brand extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/brand zedcloud_brand} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/brand zedcloud_brand} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -220,8 +220,8 @@ export class Brand extends cdktf.TerraformResource {
       terraformResourceType: 'zedcloud_brand',
       terraformGeneratorMetadata: {
         providerName: 'zedcloud',
-        providerVersion: '2.5.0',
-        providerVersionConstraint: '2.5.0'
+        providerVersion: '2.6.0',
+        providerVersionConstraint: '2.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

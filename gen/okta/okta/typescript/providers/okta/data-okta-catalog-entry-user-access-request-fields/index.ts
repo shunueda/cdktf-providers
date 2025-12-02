@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/catalog_entry_user_access_request_fields
+// https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/catalog_entry_user_access_request_fields
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataOktaCatalogEntryUserAccessRequestFieldsConfig extends cdktf
   /**
   * The ID of the catalog entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/catalog_entry_user_access_request_fields#entry_id DataOktaCatalogEntryUserAccessRequestFields#entry_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/catalog_entry_user_access_request_fields#entry_id DataOktaCatalogEntryUserAccessRequestFields#entry_id}
   */
   readonly entryId: string;
   /**
   * The ID of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/catalog_entry_user_access_request_fields#user_id DataOktaCatalogEntryUserAccessRequestFields#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/catalog_entry_user_access_request_fields#user_id DataOktaCatalogEntryUserAccessRequestFields#user_id}
   */
   readonly userId: string;
   /**
   * data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/catalog_entry_user_access_request_fields#data DataOktaCatalogEntryUserAccessRequestFields#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/catalog_entry_user_access_request_fields#data DataOktaCatalogEntryUserAccessRequestFields#data}
   */
   readonly data?: DataOktaCatalogEntryUserAccessRequestFieldsData[] | cdktf.IResolvable;
 }
@@ -116,7 +116,7 @@ export interface DataOktaCatalogEntryUserAccessRequestFieldsData {
   /**
   * choices block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/catalog_entry_user_access_request_fields#choices DataOktaCatalogEntryUserAccessRequestFields#choices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/catalog_entry_user_access_request_fields#choices DataOktaCatalogEntryUserAccessRequestFields#choices}
   */
   readonly choices?: DataOktaCatalogEntryUserAccessRequestFieldsDataChoices[] | cdktf.IResolvable;
 }
@@ -267,7 +267,7 @@ export class DataOktaCatalogEntryUserAccessRequestFieldsDataList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/catalog_entry_user_access_request_fields okta_catalog_entry_user_access_request_fields}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/catalog_entry_user_access_request_fields okta_catalog_entry_user_access_request_fields}
 */
 export class DataOktaCatalogEntryUserAccessRequestFields extends cdktf.TerraformDataSource {
 
@@ -283,7 +283,7 @@ export class DataOktaCatalogEntryUserAccessRequestFields extends cdktf.Terraform
   * Generates CDKTF code for importing a DataOktaCatalogEntryUserAccessRequestFields resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOktaCatalogEntryUserAccessRequestFields to import
-  * @param importFromId The id of the existing DataOktaCatalogEntryUserAccessRequestFields that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/catalog_entry_user_access_request_fields#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOktaCatalogEntryUserAccessRequestFields that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/catalog_entry_user_access_request_fields#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOktaCatalogEntryUserAccessRequestFields to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -295,7 +295,7 @@ export class DataOktaCatalogEntryUserAccessRequestFields extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/catalog_entry_user_access_request_fields okta_catalog_entry_user_access_request_fields} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/catalog_entry_user_access_request_fields okta_catalog_entry_user_access_request_fields} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -306,8 +306,8 @@ export class DataOktaCatalogEntryUserAccessRequestFields extends cdktf.Terraform
       terraformResourceType: 'okta_catalog_entry_user_access_request_fields',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.5.0',
-        providerVersionConstraint: '6.5.0'
+        providerVersion: '6.5.1',
+        providerVersionConstraint: '6.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

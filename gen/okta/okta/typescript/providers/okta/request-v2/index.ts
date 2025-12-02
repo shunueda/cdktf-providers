@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/request_v2
+// https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/request_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface RequestV2Config extends cdktf.TerraformMetaArguments {
   /**
   * requested block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/request_v2#requested RequestV2#requested}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/request_v2#requested RequestV2#requested}
   */
   readonly requested?: RequestV2Requested;
   /**
   * requested_for block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/request_v2#requested_for RequestV2#requested_for}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/request_v2#requested_for RequestV2#requested_for}
   */
   readonly requestedFor: RequestV2RequestedFor;
   /**
   * requester_field_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/request_v2#requester_field_values RequestV2#requester_field_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/request_v2#requester_field_values RequestV2#requester_field_values}
   */
   readonly requesterFieldValues?: RequestV2RequesterFieldValues[] | cdktf.IResolvable;
 }
@@ -30,13 +30,13 @@ export interface RequestV2Requested {
   /**
   * The ID of the resource catalog entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/request_v2#entry_id RequestV2#entry_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/request_v2#entry_id RequestV2#entry_id}
   */
   readonly entryId: string;
   /**
   * The type of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/request_v2#type RequestV2#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/request_v2#type RequestV2#type}
   */
   readonly type: string;
 }
@@ -175,13 +175,13 @@ export interface RequestV2RequestedFor {
   /**
   * The ID of the Okta user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/request_v2#external_id RequestV2#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/request_v2#external_id RequestV2#external_id}
   */
   readonly externalId: string;
   /**
   * The type of principal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/request_v2#type RequestV2#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/request_v2#type RequestV2#type}
   */
   readonly type: string;
 }
@@ -298,7 +298,7 @@ export class RequestV2RequestedForOutputReference extends cdktf.ComplexObject {
 }
 export interface RequestV2RequesterFieldValuesValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/request_v2#value RequestV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/request_v2#value RequestV2#value}
   */
   readonly value?: string;
 }
@@ -416,7 +416,7 @@ export interface RequestV2RequesterFieldValues {
   /**
   * The ID of a requester field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/request_v2#id RequestV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/request_v2#id RequestV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -425,25 +425,25 @@ export interface RequestV2RequesterFieldValues {
   /**
   * A human-readable description of requester field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/request_v2#label RequestV2#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/request_v2#label RequestV2#label}
   */
   readonly label?: string;
   /**
   * Type of value for the requester field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/request_v2#type RequestV2#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/request_v2#type RequestV2#type}
   */
   readonly type?: string;
   /**
   * The value of requester field, which depends on the type of the field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/request_v2#value RequestV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/request_v2#value RequestV2#value}
   */
   readonly value?: string;
   /**
   * values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/request_v2#values RequestV2#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/request_v2#values RequestV2#values}
   */
   readonly values?: RequestV2RequesterFieldValuesValues[] | cdktf.IResolvable;
 }
@@ -675,7 +675,7 @@ export class RequestV2RequesterFieldValuesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/request_v2 okta_request_v2}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/request_v2 okta_request_v2}
 */
 export class RequestV2 extends cdktf.TerraformResource {
 
@@ -691,7 +691,7 @@ export class RequestV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RequestV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RequestV2 to import
-  * @param importFromId The id of the existing RequestV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/request_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RequestV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/request_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RequestV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -703,7 +703,7 @@ export class RequestV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/request_v2 okta_request_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/request_v2 okta_request_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -714,8 +714,8 @@ export class RequestV2 extends cdktf.TerraformResource {
       terraformResourceType: 'okta_request_v2',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.5.0',
-        providerVersionConstraint: '6.5.0'
+        providerVersion: '6.5.1',
+        providerVersionConstraint: '6.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

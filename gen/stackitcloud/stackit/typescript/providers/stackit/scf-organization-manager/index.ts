@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/scf_organization_manager
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/scf_organization_manager
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface ScfOrganizationManagerConfig extends cdktf.TerraformMetaArgumen
   /**
   * The ID of the Cloud Foundry Organization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/scf_organization_manager#org_id ScfOrganizationManager#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/scf_organization_manager#org_id ScfOrganizationManager#org_id}
   */
   readonly orgId: string;
   /**
   * The ID of the project associated with the organization of the organization manager
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/scf_organization_manager#project_id ScfOrganizationManager#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/scf_organization_manager#project_id ScfOrganizationManager#project_id}
   */
   readonly projectId: string;
   /**
   * The region where the organization of the organization manager is located. If not defined, the provider region is used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/scf_organization_manager#region ScfOrganizationManager#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/scf_organization_manager#region ScfOrganizationManager#region}
   */
   readonly region?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/scf_organization_manager stackit_scf_organization_manager}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/scf_organization_manager stackit_scf_organization_manager}
 */
 export class ScfOrganizationManager extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class ScfOrganizationManager extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ScfOrganizationManager resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ScfOrganizationManager to import
-  * @param importFromId The id of the existing ScfOrganizationManager that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/scf_organization_manager#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ScfOrganizationManager that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/scf_organization_manager#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ScfOrganizationManager to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class ScfOrganizationManager extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/scf_organization_manager stackit_scf_organization_manager} Resource
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/scf_organization_manager stackit_scf_organization_manager} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class ScfOrganizationManager extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_scf_organization_manager',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.71.0',
-        providerVersionConstraint: '0.71.0'
+        providerVersion: '0.72.0',
+        providerVersionConstraint: '0.72.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

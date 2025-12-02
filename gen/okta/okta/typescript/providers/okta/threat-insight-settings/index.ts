@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/threat_insight_settings
+// https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/threat_insight_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ThreatInsightSettingsConfig extends cdktf.TerraformMetaArgument
   /**
   * Specifies how Okta responds to authentication requests from suspicious IPs. Valid values are `none`, `audit`, or `block`. A value of `none` indicates that ThreatInsight is disabled. A value of `audit` indicates that Okta logs suspicious requests in the System Log. A value of `block` indicates that Okta logs suspicious requests in the System Log and blocks the requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/threat_insight_settings#action ThreatInsightSettings#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/threat_insight_settings#action ThreatInsightSettings#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/threat_insight_settings#id ThreatInsightSettings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/threat_insight_settings#id ThreatInsightSettings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface ThreatInsightSettingsConfig extends cdktf.TerraformMetaArgument
   /**
   * Accepts a list of Network Zone IDs. Can only accept zones of `IP` type. IPs in the excluded Network Zones aren't logged or blocked by Okta ThreatInsight and proceed to Sign On rules evaluation. This ensures that traffic from known, trusted IPs isn't accidentally logged or blocked. The ordering of the network zone is not guarantee from the API sides
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/threat_insight_settings#network_excludes ThreatInsightSettings#network_excludes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/threat_insight_settings#network_excludes ThreatInsightSettings#network_excludes}
   */
   readonly networkExcludes?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/threat_insight_settings okta_threat_insight_settings}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/threat_insight_settings okta_threat_insight_settings}
 */
 export class ThreatInsightSettings extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class ThreatInsightSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ThreatInsightSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ThreatInsightSettings to import
-  * @param importFromId The id of the existing ThreatInsightSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/threat_insight_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ThreatInsightSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/threat_insight_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ThreatInsightSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class ThreatInsightSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/threat_insight_settings okta_threat_insight_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/threat_insight_settings okta_threat_insight_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class ThreatInsightSettings extends cdktf.TerraformResource {
       terraformResourceType: 'okta_threat_insight_settings',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.5.0',
-        providerVersionConstraint: '6.5.0'
+        providerVersion: '6.5.1',
+        providerVersionConstraint: '6.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

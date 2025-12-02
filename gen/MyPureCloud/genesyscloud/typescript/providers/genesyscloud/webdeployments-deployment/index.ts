@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/webdeployments_deployment
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_deployment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface WebdeploymentsDeploymentConfig extends cdktf.TerraformMetaArgum
   /**
   * Whether all domains are allowed or not. allowedDomains must be empty when this is true. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/webdeployments_deployment#allow_all_domains WebdeploymentsDeployment#allow_all_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_deployment#allow_all_domains WebdeploymentsDeployment#allow_all_domains}
   */
   readonly allowAllDomains?: boolean | cdktf.IResolvable;
   /**
   * The list of domains that are approved to use this deployment; the list will be added to CORS headers for ease of web use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/webdeployments_deployment#allowed_domains WebdeploymentsDeployment#allowed_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_deployment#allowed_domains WebdeploymentsDeployment#allowed_domains}
   */
   readonly allowedDomains?: string[];
   /**
   * Deployment description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/webdeployments_deployment#description WebdeploymentsDeployment#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_deployment#description WebdeploymentsDeployment#description}
   */
   readonly description?: string;
   /**
   * A reference to the inboundshortmessage flow used by this deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/webdeployments_deployment#flow_id WebdeploymentsDeployment#flow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_deployment#flow_id WebdeploymentsDeployment#flow_id}
   */
   readonly flowId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/webdeployments_deployment#id WebdeploymentsDeployment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_deployment#id WebdeploymentsDeployment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,32 +41,32 @@ export interface WebdeploymentsDeploymentConfig extends cdktf.TerraformMetaArgum
   /**
   * Deployment name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/webdeployments_deployment#name WebdeploymentsDeployment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_deployment#name WebdeploymentsDeployment#name}
   */
   readonly name: string;
   /**
   * The current status of the deployment. Valid values: Pending, Active, Inactive, Error, Deleting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/webdeployments_deployment#status WebdeploymentsDeployment#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_deployment#status WebdeploymentsDeployment#status}
   */
   readonly status?: string;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/webdeployments_deployment#configuration WebdeploymentsDeployment#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_deployment#configuration WebdeploymentsDeployment#configuration}
   */
   readonly configuration: WebdeploymentsDeploymentConfiguration;
 }
 export interface WebdeploymentsDeploymentConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/webdeployments_deployment#id WebdeploymentsDeployment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_deployment#id WebdeploymentsDeployment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/webdeployments_deployment#version WebdeploymentsDeployment#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_deployment#version WebdeploymentsDeployment#version}
   */
   readonly version?: string;
 }
@@ -176,7 +176,7 @@ export class WebdeploymentsDeploymentConfigurationOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/webdeployments_deployment genesyscloud_webdeployments_deployment}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_deployment genesyscloud_webdeployments_deployment}
 */
 export class WebdeploymentsDeployment extends cdktf.TerraformResource {
 
@@ -192,7 +192,7 @@ export class WebdeploymentsDeployment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WebdeploymentsDeployment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WebdeploymentsDeployment to import
-  * @param importFromId The id of the existing WebdeploymentsDeployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/webdeployments_deployment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WebdeploymentsDeployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_deployment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WebdeploymentsDeployment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -204,7 +204,7 @@ export class WebdeploymentsDeployment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/webdeployments_deployment genesyscloud_webdeployments_deployment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_deployment genesyscloud_webdeployments_deployment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -215,8 +215,8 @@ export class WebdeploymentsDeployment extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_webdeployments_deployment',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.71.1',
-        providerVersionConstraint: '1.71.1'
+        providerVersion: '1.72.2',
+        providerVersionConstraint: '1.72.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

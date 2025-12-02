@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/role
+// https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/role
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface DataZedcloudRoleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Detailed description of the role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/role#description DataZedcloudRole#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/role#description DataZedcloudRole#description}
   */
   readonly description?: string;
   /**
   * User defined name of the role. Name cannot be changed once created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/role#name DataZedcloudRole#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/role#name DataZedcloudRole#name}
   */
   readonly name: string;
   /**
   * Map of project tags filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/role#project_tags DataZedcloudRole#project_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/role#project_tags DataZedcloudRole#project_tags}
   */
   readonly projectTags?: { [key: string]: string };
   /**
   * State of the role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/role#state DataZedcloudRole#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/role#state DataZedcloudRole#state}
   */
   readonly state?: string;
   /**
   * User defined title of the role. Title can be changed anytime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/role#title DataZedcloudRole#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/role#title DataZedcloudRole#title}
   */
   readonly title: string;
   /**
   * Type of the role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/role#type DataZedcloudRole#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/role#type DataZedcloudRole#type}
   */
   readonly type: string;
   /**
   * scopes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/role#scopes DataZedcloudRole#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/role#scopes DataZedcloudRole#scopes}
   */
   readonly scopes: DataZedcloudRoleScopes[] | cdktf.IResolvable;
 }
@@ -154,55 +154,55 @@ export interface DataZedcloudRoleScopes {
   /**
   * Application access permission, this will be deprecated in further release - please use accessEdgeApp and accessAppInstance for granular permission access scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/role#access_app DataZedcloudRole#access_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/role#access_app DataZedcloudRole#access_app}
   */
   readonly accessApp?: string;
   /**
   * Application Instance access permission
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/role#access_app_instance DataZedcloudRole#access_app_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/role#access_app_instance DataZedcloudRole#access_app_instance}
   */
   readonly accessAppInstance?: string;
   /**
   * Device access permission
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/role#access_device DataZedcloudRole#access_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/role#access_device DataZedcloudRole#access_device}
   */
   readonly accessDevice?: string;
   /**
   * Edge app access permission
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/role#access_edge_app DataZedcloudRole#access_edge_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/role#access_edge_app DataZedcloudRole#access_edge_app}
   */
   readonly accessEdgeApp?: string;
   /**
   * Enterprise access permission
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/role#access_enterprise DataZedcloudRole#access_enterprise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/role#access_enterprise DataZedcloudRole#access_enterprise}
   */
   readonly accessEnterprise?: string;
   /**
   * Storage access permission
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/role#access_storage DataZedcloudRole#access_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/role#access_storage DataZedcloudRole#access_storage}
   */
   readonly accessStorage?: string;
   /**
   * User access permission
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/role#access_user DataZedcloudRole#access_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/role#access_user DataZedcloudRole#access_user}
   */
   readonly accessUser?: string;
   /**
   * List of enterprise filters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/role#enterprise_filter DataZedcloudRole#enterprise_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/role#enterprise_filter DataZedcloudRole#enterprise_filter}
   */
   readonly enterpriseFilter?: string[];
   /**
   * List of project filters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/role#project_filter DataZedcloudRole#project_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/role#project_filter DataZedcloudRole#project_filter}
   */
   readonly projectFilter?: string[];
 }
@@ -555,7 +555,7 @@ export class DataZedcloudRoleScopesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/role zedcloud_role}
+* Represents a {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/role zedcloud_role}
 */
 export class DataZedcloudRole extends cdktf.TerraformDataSource {
 
@@ -571,7 +571,7 @@ export class DataZedcloudRole extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZedcloudRole resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZedcloudRole to import
-  * @param importFromId The id of the existing DataZedcloudRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/role#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZedcloudRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZedcloudRole to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -583,7 +583,7 @@ export class DataZedcloudRole extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/role zedcloud_role} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/role zedcloud_role} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -594,8 +594,8 @@ export class DataZedcloudRole extends cdktf.TerraformDataSource {
       terraformResourceType: 'zedcloud_role',
       terraformGeneratorMetadata: {
         providerName: 'zedcloud',
-        providerVersion: '2.5.0',
-        providerVersionConstraint: '2.5.0'
+        providerVersion: '2.6.0',
+        providerVersionConstraint: '2.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

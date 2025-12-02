@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/dataproc_cluster
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/dataproc_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface DataprocClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Service account to be used for managing hosts in an autoscaled subcluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/dataproc_cluster#autoscaling_service_account_id DataprocCluster#autoscaling_service_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/dataproc_cluster#autoscaling_service_account_id DataprocCluster#autoscaling_service_account_id}
   */
   readonly autoscalingServiceAccountId?: string;
   /**
   * Name of the Object Storage bucket to use for Yandex Data Processing jobs. Yandex Data Processing Agent saves output of job driver's process to specified bucket. In order for this to work service account (specified by the `service_account_id` argument) should be given permission to create objects within this bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/dataproc_cluster#bucket DataprocCluster#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/dataproc_cluster#bucket DataprocCluster#bucket}
   */
   readonly bucket?: string;
   /**
   * The `true` value means that resource is protected from accidental deletion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/dataproc_cluster#deletion_protection DataprocCluster#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/dataproc_cluster#deletion_protection DataprocCluster#deletion_protection}
   */
   readonly deletionProtection?: boolean | cdktf.IResolvable;
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/dataproc_cluster#description DataprocCluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/dataproc_cluster#description DataprocCluster#description}
   */
   readonly description?: string;
   /**
   * Deployment environment of the cluster. Can be either `PRESTABLE` or `PRODUCTION`. The default is `PRESTABLE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/dataproc_cluster#environment DataprocCluster#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/dataproc_cluster#environment DataprocCluster#environment}
   */
   readonly environment?: string;
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/dataproc_cluster#folder_id DataprocCluster#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/dataproc_cluster#folder_id DataprocCluster#folder_id}
   */
   readonly folderId?: string;
   /**
   * A list of host group IDs to place VMs of the cluster on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/dataproc_cluster#host_group_ids DataprocCluster#host_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/dataproc_cluster#host_group_ids DataprocCluster#host_group_ids}
   */
   readonly hostGroupIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/dataproc_cluster#id DataprocCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/dataproc_cluster#id DataprocCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,55 +59,55 @@ export interface DataprocClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * A set of key/value label pairs which assigned to resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/dataproc_cluster#labels DataprocCluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/dataproc_cluster#labels DataprocCluster#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * ID of the cloud logging group for cluster logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/dataproc_cluster#log_group_id DataprocCluster#log_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/dataproc_cluster#log_group_id DataprocCluster#log_group_id}
   */
   readonly logGroupId?: string;
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/dataproc_cluster#name DataprocCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/dataproc_cluster#name DataprocCluster#name}
   */
   readonly name: string;
   /**
   * The list of security groups applied to resource or their components.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/dataproc_cluster#security_group_ids DataprocCluster#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/dataproc_cluster#security_group_ids DataprocCluster#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * Service account to be used by the Yandex Data Processing agent to access resources of Yandex Cloud. Selected service account should have `mdb.dataproc.agent` role on the folder where the Yandex Data Processing cluster will be located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/dataproc_cluster#service_account_id DataprocCluster#service_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/dataproc_cluster#service_account_id DataprocCluster#service_account_id}
   */
   readonly serviceAccountId: string;
   /**
   * Whether to enable UI Proxy feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/dataproc_cluster#ui_proxy DataprocCluster#ui_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/dataproc_cluster#ui_proxy DataprocCluster#ui_proxy}
   */
   readonly uiProxy?: boolean | cdktf.IResolvable;
   /**
   * The [availability zone](https://yandex.cloud/docs/overview/concepts/geo-scope) where resource is located. If it is not provided, the default provider zone will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/dataproc_cluster#zone_id DataprocCluster#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/dataproc_cluster#zone_id DataprocCluster#zone_id}
   */
   readonly zoneId?: string;
   /**
   * cluster_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/dataproc_cluster#cluster_config DataprocCluster#cluster_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/dataproc_cluster#cluster_config DataprocCluster#cluster_config}
   */
   readonly clusterConfig: DataprocClusterClusterConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/dataproc_cluster#timeouts DataprocCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/dataproc_cluster#timeouts DataprocCluster#timeouts}
   */
   readonly timeouts?: DataprocClusterTimeouts;
 }
@@ -115,19 +115,19 @@ export interface DataprocClusterClusterConfigHadoopInitializationAction {
   /**
   * List of arguments of the initialization script.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/dataproc_cluster#args DataprocCluster#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/dataproc_cluster#args DataprocCluster#args}
   */
   readonly args?: string[];
   /**
   * Script execution timeout, in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/dataproc_cluster#timeout DataprocCluster#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/dataproc_cluster#timeout DataprocCluster#timeout}
   */
   readonly timeout?: string;
   /**
   * Script URI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/dataproc_cluster#uri DataprocCluster#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/dataproc_cluster#uri DataprocCluster#uri}
   */
   readonly uri: string;
 }
@@ -300,31 +300,31 @@ export interface DataprocClusterClusterConfigHadoop {
   /**
   * Whether to enable authorization via OS Login.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/dataproc_cluster#oslogin DataprocCluster#oslogin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/dataproc_cluster#oslogin DataprocCluster#oslogin}
   */
   readonly oslogin?: boolean | cdktf.IResolvable;
   /**
   * A set of key/value pairs that are used to configure cluster services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/dataproc_cluster#properties DataprocCluster#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/dataproc_cluster#properties DataprocCluster#properties}
   */
   readonly properties?: { [key: string]: string };
   /**
   * List of services to run on Yandex Data Processing cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/dataproc_cluster#services DataprocCluster#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/dataproc_cluster#services DataprocCluster#services}
   */
   readonly services?: string[];
   /**
   * List of SSH public keys to put to the hosts of the cluster. For information on how to connect to the cluster, see [the official documentation](https://yandex.cloud/docs/data-proc/operations/connect).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/dataproc_cluster#ssh_public_keys DataprocCluster#ssh_public_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/dataproc_cluster#ssh_public_keys DataprocCluster#ssh_public_keys}
   */
   readonly sshPublicKeys?: string[];
   /**
   * initialization_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/dataproc_cluster#initialization_action DataprocCluster#initialization_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/dataproc_cluster#initialization_action DataprocCluster#initialization_action}
   */
   readonly initializationAction?: DataprocClusterClusterConfigHadoopInitializationAction[] | cdktf.IResolvable;
 }
@@ -526,43 +526,43 @@ export interface DataprocClusterClusterConfigSubclusterSpecAutoscalingConfig {
   /**
   * Defines an autoscaling rule based on the average CPU utilization of the instance group. If not set default autoscaling metric will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/dataproc_cluster#cpu_utilization_target DataprocCluster#cpu_utilization_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/dataproc_cluster#cpu_utilization_target DataprocCluster#cpu_utilization_target}
   */
   readonly cpuUtilizationTarget?: string;
   /**
   * Timeout to gracefully decommission nodes during downscaling. In seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/dataproc_cluster#decommission_timeout DataprocCluster#decommission_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/dataproc_cluster#decommission_timeout DataprocCluster#decommission_timeout}
   */
   readonly decommissionTimeout?: string;
   /**
   * Maximum number of nodes in autoscaling subclusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/dataproc_cluster#max_hosts_count DataprocCluster#max_hosts_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/dataproc_cluster#max_hosts_count DataprocCluster#max_hosts_count}
   */
   readonly maxHostsCount: number;
   /**
   * Time in seconds allotted for averaging metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/dataproc_cluster#measurement_duration DataprocCluster#measurement_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/dataproc_cluster#measurement_duration DataprocCluster#measurement_duration}
   */
   readonly measurementDuration?: string;
   /**
   * Use preemptible compute instances. Preemptible instances are stopped at least once every 24 hours, and can be stopped at any time if their resources are needed by Compute. For more information, see [Preemptible Virtual Machines](https://yandex.cloud/docs/compute/concepts/preemptible-vm).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/dataproc_cluster#preemptible DataprocCluster#preemptible}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/dataproc_cluster#preemptible DataprocCluster#preemptible}
   */
   readonly preemptible?: boolean | cdktf.IResolvable;
   /**
   * Minimum amount of time in seconds allotted for monitoring before Instance Groups can reduce the number of instances in the group. During this time, the group size doesn't decrease, even if the new metric values indicate that it should.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/dataproc_cluster#stabilization_duration DataprocCluster#stabilization_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/dataproc_cluster#stabilization_duration DataprocCluster#stabilization_duration}
   */
   readonly stabilizationDuration?: string;
   /**
   * The warmup time of the instance in seconds. During this time, traffic is sent to the instance, but instance metrics are not collected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/dataproc_cluster#warmup_duration DataprocCluster#warmup_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/dataproc_cluster#warmup_duration DataprocCluster#warmup_duration}
   */
   readonly warmupDuration?: string;
 }
@@ -819,19 +819,19 @@ export interface DataprocClusterClusterConfigSubclusterSpecResources {
   /**
   * Volume of the storage available to a host, in gigabytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/dataproc_cluster#disk_size DataprocCluster#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/dataproc_cluster#disk_size DataprocCluster#disk_size}
   */
   readonly diskSize: number;
   /**
   * Type of the storage of a host. One of `network-hdd` (default) or `network-ssd`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/dataproc_cluster#disk_type_id DataprocCluster#disk_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/dataproc_cluster#disk_type_id DataprocCluster#disk_type_id}
   */
   readonly diskTypeId?: string;
   /**
   * The ID of the preset for computational resources available to a host. All available presets are listed in the [documentation](https://yandex.cloud/docs/data-proc/concepts/instance-types).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/dataproc_cluster#resource_preset_id DataprocCluster#resource_preset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/dataproc_cluster#resource_preset_id DataprocCluster#resource_preset_id}
   */
   readonly resourcePresetId: string;
 }
@@ -969,43 +969,43 @@ export interface DataprocClusterClusterConfigSubclusterSpec {
   /**
   * If `true` then assign public IP addresses to the hosts of the subclusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/dataproc_cluster#assign_public_ip DataprocCluster#assign_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/dataproc_cluster#assign_public_ip DataprocCluster#assign_public_ip}
   */
   readonly assignPublicIp?: boolean | cdktf.IResolvable;
   /**
   * Number of hosts within Yandex Data Processing subcluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/dataproc_cluster#hosts_count DataprocCluster#hosts_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/dataproc_cluster#hosts_count DataprocCluster#hosts_count}
   */
   readonly hostsCount: number;
   /**
   * Name of the Yandex Data Processing subcluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/dataproc_cluster#name DataprocCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/dataproc_cluster#name DataprocCluster#name}
   */
   readonly name: string;
   /**
   * Role of the subcluster in the Yandex Data Processing cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/dataproc_cluster#role DataprocCluster#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/dataproc_cluster#role DataprocCluster#role}
   */
   readonly role: string;
   /**
   * The ID of the subnet, to which hosts of the subcluster belong. Subnets of all the subclusters must belong to the same VPC network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/dataproc_cluster#subnet_id DataprocCluster#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/dataproc_cluster#subnet_id DataprocCluster#subnet_id}
   */
   readonly subnetId: string;
   /**
   * autoscaling_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/dataproc_cluster#autoscaling_config DataprocCluster#autoscaling_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/dataproc_cluster#autoscaling_config DataprocCluster#autoscaling_config}
   */
   readonly autoscalingConfig?: DataprocClusterClusterConfigSubclusterSpecAutoscalingConfig;
   /**
   * resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/dataproc_cluster#resources DataprocCluster#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/dataproc_cluster#resources DataprocCluster#resources}
   */
   readonly resources: DataprocClusterClusterConfigSubclusterSpecResources;
 }
@@ -1287,19 +1287,19 @@ export interface DataprocClusterClusterConfig {
   /**
   * Version of Yandex Data Processing image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/dataproc_cluster#version_id DataprocCluster#version_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/dataproc_cluster#version_id DataprocCluster#version_id}
   */
   readonly versionId?: string;
   /**
   * hadoop block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/dataproc_cluster#hadoop DataprocCluster#hadoop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/dataproc_cluster#hadoop DataprocCluster#hadoop}
   */
   readonly hadoop?: DataprocClusterClusterConfigHadoop;
   /**
   * subcluster_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/dataproc_cluster#subcluster_spec DataprocCluster#subcluster_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/dataproc_cluster#subcluster_spec DataprocCluster#subcluster_spec}
   */
   readonly subclusterSpec: DataprocClusterClusterConfigSubclusterSpec[] | cdktf.IResolvable;
 }
@@ -1438,15 +1438,15 @@ export class DataprocClusterClusterConfigOutputReference extends cdktf.ComplexOb
 }
 export interface DataprocClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/dataproc_cluster#create DataprocCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/dataproc_cluster#create DataprocCluster#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/dataproc_cluster#delete DataprocCluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/dataproc_cluster#delete DataprocCluster#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/dataproc_cluster#update DataprocCluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/dataproc_cluster#update DataprocCluster#update}
   */
   readonly update?: string;
 }
@@ -1598,7 +1598,7 @@ export class DataprocClusterTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/dataproc_cluster yandex_dataproc_cluster}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/dataproc_cluster yandex_dataproc_cluster}
 */
 export class DataprocCluster extends cdktf.TerraformResource {
 
@@ -1614,7 +1614,7 @@ export class DataprocCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DataprocCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataprocCluster to import
-  * @param importFromId The id of the existing DataprocCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/dataproc_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataprocCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/dataproc_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataprocCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1626,7 +1626,7 @@ export class DataprocCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/dataproc_cluster yandex_dataproc_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/dataproc_cluster yandex_dataproc_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1637,8 +1637,8 @@ export class DataprocCluster extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_dataproc_cluster',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.172.0',
-        providerVersionConstraint: '0.172.0'
+        providerVersion: '0.173.0',
+        providerVersionConstraint: '0.173.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

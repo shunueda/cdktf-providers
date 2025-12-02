@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/rate_limit_admin_notification_settings
+// https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/rate_limit_admin_notification_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataOktaRateLimitAdminNotificationSettingsConfig extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/rate_limit_admin_notification_settings okta_rate_limit_admin_notification_settings}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/rate_limit_admin_notification_settings okta_rate_limit_admin_notification_settings}
 */
 export class DataOktaRateLimitAdminNotificationSettings extends cdktf.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataOktaRateLimitAdminNotificationSettings extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataOktaRateLimitAdminNotificationSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOktaRateLimitAdminNotificationSettings to import
-  * @param importFromId The id of the existing DataOktaRateLimitAdminNotificationSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/rate_limit_admin_notification_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOktaRateLimitAdminNotificationSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/rate_limit_admin_notification_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOktaRateLimitAdminNotificationSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataOktaRateLimitAdminNotificationSettings extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/rate_limit_admin_notification_settings okta_rate_limit_admin_notification_settings} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/rate_limit_admin_notification_settings okta_rate_limit_admin_notification_settings} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,8 +49,8 @@ export class DataOktaRateLimitAdminNotificationSettings extends cdktf.TerraformD
       terraformResourceType: 'okta_rate_limit_admin_notification_settings',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.5.0',
-        providerVersionConstraint: '6.5.0'
+        providerVersion: '6.5.1',
+        providerVersionConstraint: '6.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

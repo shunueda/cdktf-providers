@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/auth_profile
+// https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/auth_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,71 +10,71 @@ export interface DataZedcloudAuthProfileConfig extends cdktf.TerraformMetaArgume
   /**
   * Mark this profile as active. Only one profile can be active in a given enterprise
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/auth_profile#active DataZedcloudAuthProfile#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/auth_profile#active DataZedcloudAuthProfile#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
   * Default Role ID to associate with the profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/auth_profile#default_role_id DataZedcloudAuthProfile#default_role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/auth_profile#default_role_id DataZedcloudAuthProfile#default_role_id}
   */
   readonly defaultRoleId: string;
   /**
   * Detailed description of the profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/auth_profile#description DataZedcloudAuthProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/auth_profile#description DataZedcloudAuthProfile#description}
   */
   readonly description?: string;
   /**
   * Do not automatically create new users if this is set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/auth_profile#disable_auto_user_create DataZedcloudAuthProfile#disable_auto_user_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/auth_profile#disable_auto_user_create DataZedcloudAuthProfile#disable_auto_user_create}
   */
   readonly disableAutoUserCreate?: boolean | cdktf.IResolvable;
   /**
   * Parent enterprise ID of the authorization profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/auth_profile#enterprise_id DataZedcloudAuthProfile#enterprise_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/auth_profile#enterprise_id DataZedcloudAuthProfile#enterprise_id}
   */
   readonly enterpriseId?: string;
   /**
   * User defined name of the profile. Profile name is unique within an enterprise. Name can't be changed once created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/auth_profile#name DataZedcloudAuthProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/auth_profile#name DataZedcloudAuthProfile#name}
   */
   readonly name: string;
   /**
   * Authorization profile type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/auth_profile#profile_type DataZedcloudAuthProfile#profile_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/auth_profile#profile_type DataZedcloudAuthProfile#profile_type}
   */
   readonly profileType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/auth_profile#test_only DataZedcloudAuthProfile#test_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/auth_profile#test_only DataZedcloudAuthProfile#test_only}
   */
   readonly testOnly?: boolean | cdktf.IResolvable;
   /**
   * User defined title for the profile. Title can be changed anytime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/auth_profile#title DataZedcloudAuthProfile#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/auth_profile#title DataZedcloudAuthProfile#title}
   */
   readonly title: string;
   /**
   * Type of the profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/auth_profile#type DataZedcloudAuthProfile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/auth_profile#type DataZedcloudAuthProfile#type}
   */
   readonly type?: string;
   /**
   * oauth_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/auth_profile#oauth_profile DataZedcloudAuthProfile#oauth_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/auth_profile#oauth_profile DataZedcloudAuthProfile#oauth_profile}
   */
   readonly oauthProfile?: DataZedcloudAuthProfileOauthProfile[] | cdktf.IResolvable;
   /**
   * password_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/auth_profile#password_profile DataZedcloudAuthProfile#password_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/auth_profile#password_profile DataZedcloudAuthProfile#password_profile}
   */
   readonly passwordProfile?: DataZedcloudAuthProfilePasswordProfile[] | cdktf.IResolvable;
 }
@@ -182,7 +182,7 @@ export interface DataZedcloudAuthProfileOauthProfileJwtAuthProfile {
   /**
   * Algorithm for JWT signature verification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/auth_profile#alg DataZedcloudAuthProfile#alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/auth_profile#alg DataZedcloudAuthProfile#alg}
   */
   readonly alg?: string;
 }
@@ -300,51 +300,51 @@ export interface DataZedcloudAuthProfileOauthProfile {
   /**
   * pass additional url parameters during the exchange and authorization process
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/auth_profile#additional_parameters DataZedcloudAuthProfile#additional_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/auth_profile#additional_parameters DataZedcloudAuthProfile#additional_parameters}
   */
   readonly additionalParameters?: string;
   /**
   * OAUTH client ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/auth_profile#client_id DataZedcloudAuthProfile#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/auth_profile#client_id DataZedcloudAuthProfile#client_id}
   */
   readonly clientId?: string;
   /**
   * OAUTH client secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/auth_profile#client_secret DataZedcloudAuthProfile#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/auth_profile#client_secret DataZedcloudAuthProfile#client_secret}
   */
   readonly clientSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/auth_profile#crypto_key DataZedcloudAuthProfile#crypto_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/auth_profile#crypto_key DataZedcloudAuthProfile#crypto_key}
   */
   readonly cryptoKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/auth_profile#encrypted_secrets DataZedcloudAuthProfile#encrypted_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/auth_profile#encrypted_secrets DataZedcloudAuthProfile#encrypted_secrets}
   */
   readonly encryptedSecrets?: { [key: string]: string };
   /**
   * id for Vmware IDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/auth_profile#idp_id DataZedcloudAuthProfile#idp_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/auth_profile#idp_id DataZedcloudAuthProfile#idp_id}
   */
   readonly idpId?: string;
   /**
   * OIDC endpoint for oauth validation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/auth_profile#o_id_c_end_point DataZedcloudAuthProfile#o_id_c_end_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/auth_profile#o_id_c_end_point DataZedcloudAuthProfile#o_id_c_end_point}
   */
   readonly oIdCEndPoint?: string;
   /**
   * OIDC scope to fetch application role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/auth_profile#role_scope DataZedcloudAuthProfile#role_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/auth_profile#role_scope DataZedcloudAuthProfile#role_scope}
   */
   readonly roleScope?: string;
   /**
   * jwt_auth_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/auth_profile#jwt_auth_profile DataZedcloudAuthProfile#jwt_auth_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/auth_profile#jwt_auth_profile DataZedcloudAuthProfile#jwt_auth_profile}
   */
   readonly jwtAuthProfile?: DataZedcloudAuthProfileOauthProfileJwtAuthProfile[] | cdktf.IResolvable;
 }
@@ -692,43 +692,43 @@ export class DataZedcloudAuthProfileOauthProfileList extends cdktf.ComplexList {
 }
 export interface DataZedcloudAuthProfilePasswordProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/auth_profile#max_length DataZedcloudAuthProfile#max_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/auth_profile#max_length DataZedcloudAuthProfile#max_length}
   */
   readonly maxLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/auth_profile#max_password_age DataZedcloudAuthProfile#max_password_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/auth_profile#max_password_age DataZedcloudAuthProfile#max_password_age}
   */
   readonly maxPasswordAge?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/auth_profile#min_length DataZedcloudAuthProfile#min_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/auth_profile#min_length DataZedcloudAuthProfile#min_length}
   */
   readonly minLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/auth_profile#min_lowercase_chars DataZedcloudAuthProfile#min_lowercase_chars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/auth_profile#min_lowercase_chars DataZedcloudAuthProfile#min_lowercase_chars}
   */
   readonly minLowercaseChars?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/auth_profile#min_numeric_chars DataZedcloudAuthProfile#min_numeric_chars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/auth_profile#min_numeric_chars DataZedcloudAuthProfile#min_numeric_chars}
   */
   readonly minNumericChars?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/auth_profile#min_password_age DataZedcloudAuthProfile#min_password_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/auth_profile#min_password_age DataZedcloudAuthProfile#min_password_age}
   */
   readonly minPasswordAge?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/auth_profile#min_symbol_chars DataZedcloudAuthProfile#min_symbol_chars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/auth_profile#min_symbol_chars DataZedcloudAuthProfile#min_symbol_chars}
   */
   readonly minSymbolChars?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/auth_profile#min_uppercase_chars DataZedcloudAuthProfile#min_uppercase_chars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/auth_profile#min_uppercase_chars DataZedcloudAuthProfile#min_uppercase_chars}
   */
   readonly minUppercaseChars?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/auth_profile#num_prev_password_check DataZedcloudAuthProfile#num_prev_password_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/auth_profile#num_prev_password_check DataZedcloudAuthProfile#num_prev_password_check}
   */
   readonly numPrevPasswordCheck?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/auth_profile#password_expiry_notification_period_in_seconds DataZedcloudAuthProfile#password_expiry_notification_period_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/auth_profile#password_expiry_notification_period_in_seconds DataZedcloudAuthProfile#password_expiry_notification_period_in_seconds}
   */
   readonly passwordExpiryNotificationPeriodInSeconds?: number;
 }
@@ -1105,7 +1105,7 @@ export class DataZedcloudAuthProfilePasswordProfileList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/auth_profile zedcloud_auth_profile}
+* Represents a {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/auth_profile zedcloud_auth_profile}
 */
 export class DataZedcloudAuthProfile extends cdktf.TerraformDataSource {
 
@@ -1121,7 +1121,7 @@ export class DataZedcloudAuthProfile extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZedcloudAuthProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZedcloudAuthProfile to import
-  * @param importFromId The id of the existing DataZedcloudAuthProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/auth_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZedcloudAuthProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/auth_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZedcloudAuthProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1133,7 +1133,7 @@ export class DataZedcloudAuthProfile extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/auth_profile zedcloud_auth_profile} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/auth_profile zedcloud_auth_profile} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1144,8 +1144,8 @@ export class DataZedcloudAuthProfile extends cdktf.TerraformDataSource {
       terraformResourceType: 'zedcloud_auth_profile',
       terraformGeneratorMetadata: {
         providerName: 'zedcloud',
-        providerVersion: '2.5.0',
-        providerVersionConstraint: '2.5.0'
+        providerVersion: '2.6.0',
+        providerVersionConstraint: '2.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/network
+// https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/network
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface NetworkConfig extends cdktf.TerraformMetaArguments {
   /**
   * Detailed description of the network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/network#description Network#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/network#description Network#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/network#enterprise_default Network#enterprise_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/network#enterprise_default Network#enterprise_default}
   */
   readonly enterpriseDefault?: boolean | cdktf.IResolvable;
   /**
@@ -22,59 +22,59 @@ export interface NetworkConfig extends cdktf.TerraformMetaArguments {
   * NETWORK_KIND_V4
   * NETWORK_KIND_V6
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/network#kind Network#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/network#kind Network#kind}
   */
-  readonly kind: string;
+  readonly kind?: string;
   /**
   * Maximum Transmission Unit (MTU) for the network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/network#mtu Network#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/network#mtu Network#mtu}
   */
   readonly mtu?: number;
   /**
   * User defined name of the network, unique across the enterprise. Once object is created, name can’t be changed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/network#name Network#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/network#name Network#name}
   */
-  readonly name: string;
+  readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/network#project_id Network#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/network#project_id Network#project_id}
   */
-  readonly projectId: string;
+  readonly projectId?: string;
   /**
   * User defined title of the network. Title can be changed at any time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/network#title Network#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/network#title Network#title}
   */
-  readonly title: string;
+  readonly title?: string;
   /**
   * dns_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/network#dns_list Network#dns_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/network#dns_list Network#dns_list}
   */
   readonly dnsList?: NetworkDnsListStruct[] | cdktf.IResolvable;
   /**
   * ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/network#ip Network#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/network#ip Network#ip}
   */
   readonly ip?: NetworkIp[] | cdktf.IResolvable;
   /**
   * proxy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/network#proxy Network#proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/network#proxy Network#proxy}
   */
   readonly proxy?: NetworkProxy[] | cdktf.IResolvable;
   /**
   * revision block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/network#revision Network#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/network#revision Network#revision}
   */
   readonly revision?: NetworkRevision[] | cdktf.IResolvable;
   /**
   * wireless block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/network#wireless Network#wireless}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/network#wireless Network#wireless}
   */
   readonly wireless?: NetworkWireless[] | cdktf.IResolvable;
 }
@@ -82,13 +82,13 @@ export interface NetworkDnsListStruct {
   /**
   * Addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/network#addrs Network#addrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/network#addrs Network#addrs}
   */
   readonly addrs?: string[];
   /**
   * Host name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/network#hostname Network#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/network#hostname Network#hostname}
   */
   readonly hostname?: string;
 }
@@ -235,13 +235,13 @@ export interface NetworkIpDhcpRange {
   /**
   * ending IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/network#end Network#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/network#end Network#end}
   */
   readonly end?: string;
   /**
   * starting IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/network#start Network#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/network#start Network#start}
   */
   readonly start?: string;
 }
@@ -386,7 +386,7 @@ export class NetworkIpDhcpRangeList extends cdktf.ComplexList {
 }
 export interface NetworkIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/network#deprecated_dhcp Network#deprecated_dhcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/network#deprecated_dhcp Network#deprecated_dhcp}
   */
   readonly deprecatedDhcp?: boolean | cdktf.IResolvable;
   /**
@@ -395,49 +395,49 @@ export interface NetworkIp {
   * NETWORK_DHCP_TYPE_PASSTHROUGH
   * NETWORK_DHCP_TYPE_CLIENT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/network#dhcp Network#dhcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/network#dhcp Network#dhcp}
   */
   readonly dhcp?: string;
   /**
   * List of IP Addresses of DNS servers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/network#dns Network#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/network#dns Network#dns}
   */
   readonly dns?: string[];
   /**
   * Network domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/network#domain Network#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/network#domain Network#domain}
   */
   readonly domain?: string;
   /**
   * IP Address of Network Gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/network#gateway Network#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/network#gateway Network#gateway}
   */
   readonly gateway?: string;
   /**
   * Subnet Mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/network#mask Network#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/network#mask Network#mask}
   */
   readonly mask?: string;
   /**
   * IP Address of NTP Server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/network#ntp Network#ntp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/network#ntp Network#ntp}
   */
   readonly ntp?: string;
   /**
   * Subnet address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/network#subnet Network#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/network#subnet Network#subnet}
   */
   readonly subnet?: string;
   /**
   * dhcp_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/network#dhcp_range Network#dhcp_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/network#dhcp_range Network#dhcp_range}
   */
   readonly dhcpRange?: NetworkIpDhcpRange[] | cdktf.IResolvable;
 }
@@ -787,7 +787,7 @@ export interface NetworkProxyProxies {
   /**
   * Net Proxy Port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/network#port Network#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/network#port Network#port}
   */
   readonly port?: number;
   /**
@@ -798,13 +798,13 @@ export interface NetworkProxyProxies {
   * NETWORK_PROXY_PROTO_FTP
   * NETWORK_PROXY_PROTO_OTHER
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/network#proto Network#proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/network#proto Network#proto}
   */
   readonly proto?: string;
   /**
   * Net Proxy Server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/network#server Network#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/network#server Network#server}
   */
   readonly server?: string;
 }
@@ -980,37 +980,37 @@ export interface NetworkProxy {
   /**
   * Proxy exceptions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/network#exceptions Network#exceptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/network#exceptions Network#exceptions}
   */
   readonly exceptions?: string;
   /**
   * Enable WPAD (Web Proxy Auto Discovery) protocol to discover and download PAC file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/network#network_proxy Network#network_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/network#network_proxy Network#network_proxy}
   */
   readonly networkProxy?: boolean | cdktf.IResolvable;
   /**
   * Network Proxy Certificates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/network#network_proxy_certs Network#network_proxy_certs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/network#network_proxy_certs Network#network_proxy_certs}
   */
   readonly networkProxyCerts?: string[];
   /**
   * URL for wpad.dat file to be downloaded. Used when network_proxy is set to False.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/network#network_proxy_url Network#network_proxy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/network#network_proxy_url Network#network_proxy_url}
   */
   readonly networkProxyUrl?: string;
   /**
   * Proxy configuration in a pacfile. Used when network_proxy is set to False.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/network#pacfile Network#pacfile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/network#pacfile Network#pacfile}
   */
   readonly pacfile?: string;
   /**
   * proxies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/network#proxies Network#proxies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/network#proxies Network#proxies}
   */
   readonly proxies?: NetworkProxyProxies[] | cdktf.IResolvable;
 }
@@ -1382,11 +1382,11 @@ export class NetworkRevisionList extends cdktf.ComplexList {
 }
 export interface NetworkWirelessCellular {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/network#apn Network#apn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/network#apn Network#apn}
   */
   readonly apn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/network#location_tracking Network#location_tracking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/network#location_tracking Network#location_tracking}
   */
   readonly locationTracking?: boolean | cdktf.IResolvable;
 }
@@ -1533,7 +1533,7 @@ export interface NetworkWirelessWifi {
   /**
   * WPA2 enterprise user identity/username. Use value from Vault.	This field will not be published by terraform import
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/network#identity Network#identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/network#identity Network#identity}
   */
   readonly identity?: string;
   /**
@@ -1541,17 +1541,17 @@ export interface NetworkWirelessWifi {
   * NETWORK_WIFIKEY_SCHEME_WPAPSK
   * NETWORK_WIFIKEY_SCHEME_WPAEAPPSK
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/network#key_scheme Network#key_scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/network#key_scheme Network#key_scheme}
   */
   readonly keyScheme?: string;
   /**
   * Priority of connection, default is 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/network#priority Network#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/network#priority Network#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/network#wifi_ssid Network#wifi_ssid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/network#wifi_ssid Network#wifi_ssid}
   */
   readonly wifiSsid?: string;
 }
@@ -1758,19 +1758,19 @@ export interface NetworkWireless {
   * NETWORK_WIRELESS_TYPE_WIFI
   * NETWORK_WIRELESS_TYPE_CELLULAR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/network#type Network#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/network#type Network#type}
   */
   readonly type?: string;
   /**
   * cellular block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/network#cellular Network#cellular}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/network#cellular Network#cellular}
   */
   readonly cellular?: NetworkWirelessCellular[] | cdktf.IResolvable;
   /**
   * wifi block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/network#wifi Network#wifi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/network#wifi Network#wifi}
   */
   readonly wifi?: NetworkWirelessWifi[] | cdktf.IResolvable;
 }
@@ -1944,7 +1944,7 @@ export class NetworkWirelessList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/network zedcloud_network}
+* Represents a {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/network zedcloud_network}
 */
 export class Network extends cdktf.TerraformResource {
 
@@ -1960,7 +1960,7 @@ export class Network extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Network resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Network to import
-  * @param importFromId The id of the existing Network that should be imported. Refer to the {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/network#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Network that should be imported. Refer to the {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/network#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Network to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1972,19 +1972,19 @@ export class Network extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/network zedcloud_network} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/network zedcloud_network} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
-  * @param options NetworkConfig
+  * @param options NetworkConfig = {}
   */
-  public constructor(scope: Construct, id: string, config: NetworkConfig) {
+  public constructor(scope: Construct, id: string, config: NetworkConfig = {}) {
     super(scope, id, {
       terraformResourceType: 'zedcloud_network',
       terraformGeneratorMetadata: {
         providerName: 'zedcloud',
-        providerVersion: '2.5.0',
-        providerVersionConstraint: '2.5.0'
+        providerVersion: '2.6.0',
+        providerVersionConstraint: '2.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2049,13 +2049,16 @@ export class Network extends cdktf.TerraformResource {
     return this.getStringAttribute('id');
   }
 
-  // kind - computed: false, optional: false, required: true
+  // kind - computed: false, optional: true, required: false
   private _kind?: string; 
   public get kind() {
     return this.getStringAttribute('kind');
   }
   public set kind(value: string) {
     this._kind = value;
+  }
+  public resetKind() {
+    this._kind = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get kindInput() {
@@ -2078,7 +2081,7 @@ export class Network extends cdktf.TerraformResource {
     return this._mtu;
   }
 
-  // name - computed: false, optional: false, required: true
+  // name - computed: false, optional: true, required: false
   private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
@@ -2086,12 +2089,15 @@ export class Network extends cdktf.TerraformResource {
   public set name(value: string) {
     this._name = value;
   }
+  public resetName() {
+    this._name = undefined;
+  }
   // Temporarily expose input value. Use with caution.
   public get nameInput() {
     return this._name;
   }
 
-  // project_id - computed: false, optional: false, required: true
+  // project_id - computed: false, optional: true, required: false
   private _projectId?: string; 
   public get projectId() {
     return this.getStringAttribute('project_id');
@@ -2099,18 +2105,24 @@ export class Network extends cdktf.TerraformResource {
   public set projectId(value: string) {
     this._projectId = value;
   }
+  public resetProjectId() {
+    this._projectId = undefined;
+  }
   // Temporarily expose input value. Use with caution.
   public get projectIdInput() {
     return this._projectId;
   }
 
-  // title - computed: false, optional: false, required: true
+  // title - computed: false, optional: true, required: false
   private _title?: string; 
   public get title() {
     return this.getStringAttribute('title');
   }
   public set title(value: string) {
     this._title = value;
+  }
+  public resetTitle() {
+    this._title = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get titleInput() {

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_features
+// https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_features
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface AppFeaturesConfig extends cdktf.TerraformMetaArguments {
   /**
   * `app_id` used to specify the app ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_features#app_id AppFeatures#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_features#app_id AppFeatures#app_id}
   */
   readonly appId: string;
   /**
   * Description of the feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_features#description AppFeatures#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_features#description AppFeatures#description}
   */
   readonly description?: string;
   /**
   * Key name of the feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_features#name AppFeatures#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_features#name AppFeatures#name}
   */
   readonly name: string;
   /**
   * Setting status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_features#status AppFeatures#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_features#status AppFeatures#status}
   */
   readonly status?: string;
   /**
   * capabilities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_features#capabilities AppFeatures#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_features#capabilities AppFeatures#capabilities}
   */
   readonly capabilities?: AppFeaturesCapabilities;
 }
@@ -42,7 +42,7 @@ export interface AppFeaturesCapabilitiesCreateLifecycleCreate {
   /**
   * Setting status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_features#status AppFeatures#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_features#status AppFeatures#status}
   */
   readonly status?: string;
 }
@@ -138,7 +138,7 @@ export interface AppFeaturesCapabilitiesCreate {
   /**
   * lifecycle_create block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_features#lifecycle_create AppFeatures#lifecycle_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_features#lifecycle_create AppFeatures#lifecycle_create}
   */
   readonly lifecycleCreate?: AppFeaturesCapabilitiesCreateLifecycleCreate;
 }
@@ -234,37 +234,37 @@ export interface AppFeaturesCapabilitiesImportRulesUserCreateAndMatch {
   /**
   * Allows user import upon partial matching. Partial matching occurs when the first and last names of an imported user match those of an existing Okta user, even if the username or email attributes don't match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_features#allow_partial_match AppFeatures#allow_partial_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_features#allow_partial_match AppFeatures#allow_partial_match}
   */
   readonly allowPartialMatch?: boolean | cdktf.IResolvable;
   /**
   * If set to true, imported new users are automatically activated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_features#auto_activate_new_users AppFeatures#auto_activate_new_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_features#auto_activate_new_users AppFeatures#auto_activate_new_users}
   */
   readonly autoActivateNewUsers?: boolean | cdktf.IResolvable;
   /**
   * If set to true, exact-matched users are automatically confirmed on activation. If set to false, exact-matched users need to be confirmed manually.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_features#autoconfirm_exact_match AppFeatures#autoconfirm_exact_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_features#autoconfirm_exact_match AppFeatures#autoconfirm_exact_match}
   */
   readonly autoconfirmExactMatch?: boolean | cdktf.IResolvable;
   /**
   * If set to true, imported new users are automatically confirmed on activation. This doesn't apply to imported users that already exist in Okta.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_features#autoconfirm_new_users AppFeatures#autoconfirm_new_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_features#autoconfirm_new_users AppFeatures#autoconfirm_new_users}
   */
   readonly autoconfirmNewUsers?: boolean | cdktf.IResolvable;
   /**
   * If set to true, partially matched users are automatically confirmed on activation. If set to false, partially matched users need to be confirmed manually.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_features#autoconfirm_partial_match AppFeatures#autoconfirm_partial_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_features#autoconfirm_partial_match AppFeatures#autoconfirm_partial_match}
   */
   readonly autoconfirmPartialMatch?: boolean | cdktf.IResolvable;
   /**
   * Determines the attribute to match users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_features#exact_match_criteria AppFeatures#exact_match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_features#exact_match_criteria AppFeatures#exact_match_criteria}
   */
   readonly exactMatchCriteria?: string;
 }
@@ -505,7 +505,7 @@ export interface AppFeaturesCapabilitiesImportRules {
   /**
   * user_create_and_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_features#user_create_and_match AppFeatures#user_create_and_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_features#user_create_and_match AppFeatures#user_create_and_match}
   */
   readonly userCreateAndMatch?: AppFeaturesCapabilitiesImportRulesUserCreateAndMatch;
 }
@@ -601,13 +601,13 @@ export interface AppFeaturesCapabilitiesImportSettingsScheduleFullImport {
   /**
   * The import schedule in UNIX cron format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_features#expression AppFeatures#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_features#expression AppFeatures#expression}
   */
   readonly expression?: string;
   /**
   * The import schedule time zone in Internet Assigned Numbers Authority (IANA) time zone name format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_features#timezone AppFeatures#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_features#timezone AppFeatures#timezone}
   */
   readonly timezone?: string;
 }
@@ -732,13 +732,13 @@ export interface AppFeaturesCapabilitiesImportSettingsScheduleIncrementalImport 
   /**
   * The import schedule in UNIX cron format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_features#expression AppFeatures#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_features#expression AppFeatures#expression}
   */
   readonly expression?: string;
   /**
   * The import schedule time zone in Internet Assigned Numbers Authority (IANA) time zone name format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_features#timezone AppFeatures#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_features#timezone AppFeatures#timezone}
   */
   readonly timezone?: string;
 }
@@ -863,19 +863,19 @@ export interface AppFeaturesCapabilitiesImportSettingsSchedule {
   /**
   * Setting status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_features#status AppFeatures#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_features#status AppFeatures#status}
   */
   readonly status?: string;
   /**
   * full_import block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_features#full_import AppFeatures#full_import}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_features#full_import AppFeatures#full_import}
   */
   readonly fullImport?: AppFeaturesCapabilitiesImportSettingsScheduleFullImport;
   /**
   * incremental_import block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_features#incremental_import AppFeatures#incremental_import}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_features#incremental_import AppFeatures#incremental_import}
   */
   readonly incrementalImport?: AppFeaturesCapabilitiesImportSettingsScheduleIncrementalImport;
 }
@@ -1029,13 +1029,13 @@ export interface AppFeaturesCapabilitiesImportSettingsUsername {
   /**
   * For usernameFormat=CUSTOM, specifies the Okta Expression Language statement for a username format that imported users use to sign in to Okta.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_features#username_expression AppFeatures#username_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_features#username_expression AppFeatures#username_expression}
   */
   readonly usernameExpression?: string;
   /**
   * Determines the username format when users sign in to Okta.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_features#username_format AppFeatures#username_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_features#username_format AppFeatures#username_format}
   */
   readonly usernameFormat?: string;
 }
@@ -1160,13 +1160,13 @@ export interface AppFeaturesCapabilitiesImportSettings {
   /**
   * schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_features#schedule AppFeatures#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_features#schedule AppFeatures#schedule}
   */
   readonly schedule?: AppFeaturesCapabilitiesImportSettingsSchedule;
   /**
   * username block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_features#username AppFeatures#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_features#username AppFeatures#username}
   */
   readonly username?: AppFeaturesCapabilitiesImportSettingsUsername;
 }
@@ -1291,7 +1291,7 @@ export interface AppFeaturesCapabilitiesUpdateLifecycleDeactivate {
   /**
   * Setting status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_features#status AppFeatures#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_features#status AppFeatures#status}
   */
   readonly status?: string;
 }
@@ -1387,19 +1387,19 @@ export interface AppFeaturesCapabilitiesUpdatePassword {
   /**
   * Determines whether a change in a user's password also updates the user's password in the app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_features#change AppFeatures#change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_features#change AppFeatures#change}
   */
   readonly change?: string;
   /**
   * Determines whether the generated password is the user's Okta password or a randomly generated password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_features#seed AppFeatures#seed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_features#seed AppFeatures#seed}
   */
   readonly seed?: string;
   /**
   * Setting status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_features#status AppFeatures#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_features#status AppFeatures#status}
   */
   readonly status?: string;
 }
@@ -1553,7 +1553,7 @@ export interface AppFeaturesCapabilitiesUpdateProfile {
   /**
   * Setting status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_features#status AppFeatures#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_features#status AppFeatures#status}
   */
   readonly status?: string;
 }
@@ -1649,19 +1649,19 @@ export interface AppFeaturesCapabilitiesUpdate {
   /**
   * lifecycle_deactivate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_features#lifecycle_deactivate AppFeatures#lifecycle_deactivate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_features#lifecycle_deactivate AppFeatures#lifecycle_deactivate}
   */
   readonly lifecycleDeactivate?: AppFeaturesCapabilitiesUpdateLifecycleDeactivate;
   /**
   * password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_features#password AppFeatures#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_features#password AppFeatures#password}
   */
   readonly password?: AppFeaturesCapabilitiesUpdatePassword;
   /**
   * profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_features#profile AppFeatures#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_features#profile AppFeatures#profile}
   */
   readonly profile?: AppFeaturesCapabilitiesUpdateProfile;
 }
@@ -1815,25 +1815,25 @@ export interface AppFeaturesCapabilities {
   /**
   * create block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_features#create AppFeatures#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_features#create AppFeatures#create}
   */
   readonly create?: AppFeaturesCapabilitiesCreate;
   /**
   * import_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_features#import_rules AppFeatures#import_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_features#import_rules AppFeatures#import_rules}
   */
   readonly importRules?: AppFeaturesCapabilitiesImportRules;
   /**
   * import_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_features#import_settings AppFeatures#import_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_features#import_settings AppFeatures#import_settings}
   */
   readonly importSettings?: AppFeaturesCapabilitiesImportSettings;
   /**
   * update block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_features#update AppFeatures#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_features#update AppFeatures#update}
   */
   readonly update?: AppFeaturesCapabilitiesUpdate;
 }
@@ -2014,7 +2014,7 @@ export class AppFeaturesCapabilitiesOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_features okta_app_features}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_features okta_app_features}
 */
 export class AppFeatures extends cdktf.TerraformResource {
 
@@ -2030,7 +2030,7 @@ export class AppFeatures extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AppFeatures resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppFeatures to import
-  * @param importFromId The id of the existing AppFeatures that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_features#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppFeatures that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_features#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppFeatures to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2042,7 +2042,7 @@ export class AppFeatures extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_features okta_app_features} Resource
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_features okta_app_features} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2053,8 +2053,8 @@ export class AppFeatures extends cdktf.TerraformResource {
       terraformResourceType: 'okta_app_features',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.5.0',
-        providerVersionConstraint: '6.5.0'
+        providerVersion: '6.5.1',
+        providerVersionConstraint: '6.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

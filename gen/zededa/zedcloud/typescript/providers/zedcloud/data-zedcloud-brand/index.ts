@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/brand
+// https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/brand
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface DataZedcloudBrandConfig extends cdktf.TerraformMetaArguments {
   /**
   * Map of <string, string>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/brand#attr DataZedcloudBrand#attr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/brand#attr DataZedcloudBrand#attr}
   */
   readonly attr?: { [key: string]: string };
   /**
   * Detailed description of the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/brand#description DataZedcloudBrand#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/brand#description DataZedcloudBrand#description}
   */
   readonly description?: string;
   /**
   * Map of <string, string> which holds the key:url for the logo artifact of the the brand
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/brand#logo DataZedcloudBrand#logo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/brand#logo DataZedcloudBrand#logo}
   */
   readonly logo?: { [key: string]: string };
   /**
   * user defined sys brand name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/brand#name DataZedcloudBrand#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/brand#name DataZedcloudBrand#name}
   */
   readonly name: string;
   /**
   * origin of object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/brand#origin_type DataZedcloudBrand#origin_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/brand#origin_type DataZedcloudBrand#origin_type}
   */
   readonly originType: string;
   /**
   * Sys Model Status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/brand#state DataZedcloudBrand#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/brand#state DataZedcloudBrand#state}
   */
   readonly state?: string;
   /**
   * Deprecated: base64 encoded string of svg file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/brand#svg DataZedcloudBrand#svg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/brand#svg DataZedcloudBrand#svg}
   */
   readonly svg?: string;
   /**
   * System Manufacturer name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/brand#system_mfg_name DataZedcloudBrand#system_mfg_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/brand#system_mfg_name DataZedcloudBrand#system_mfg_name}
   */
   readonly systemMfgName?: string;
   /**
   * user defined title for sys brand
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/brand#title DataZedcloudBrand#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/brand#title DataZedcloudBrand#title}
   */
   readonly title: string;
   /**
   * revision block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/brand#revision DataZedcloudBrand#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/brand#revision DataZedcloudBrand#revision}
   */
   readonly revision?: DataZedcloudBrandRevision[] | cdktf.IResolvable;
 }
@@ -181,7 +181,7 @@ export class DataZedcloudBrandRevisionList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/brand zedcloud_brand}
+* Represents a {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/brand zedcloud_brand}
 */
 export class DataZedcloudBrand extends cdktf.TerraformDataSource {
 
@@ -197,7 +197,7 @@ export class DataZedcloudBrand extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZedcloudBrand resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZedcloudBrand to import
-  * @param importFromId The id of the existing DataZedcloudBrand that should be imported. Refer to the {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/brand#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZedcloudBrand that should be imported. Refer to the {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/brand#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZedcloudBrand to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -209,7 +209,7 @@ export class DataZedcloudBrand extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/brand zedcloud_brand} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/brand zedcloud_brand} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -220,8 +220,8 @@ export class DataZedcloudBrand extends cdktf.TerraformDataSource {
       terraformResourceType: 'zedcloud_brand',
       terraformGeneratorMetadata: {
         providerName: 'zedcloud',
-        providerVersion: '2.5.0',
-        providerVersionConstraint: '2.5.0'
+        providerVersion: '2.6.0',
+        providerVersionConstraint: '2.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

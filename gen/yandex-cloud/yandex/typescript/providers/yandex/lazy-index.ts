@@ -137,6 +137,8 @@ Object.defineProperty(exports, 'organizationmanagerGroupIamMember', { get: funct
 Object.defineProperty(exports, 'organizationmanagerGroupMapping', { get: function () { return require('./organizationmanager-group-mapping'); } });
 Object.defineProperty(exports, 'organizationmanagerGroupMappingItem', { get: function () { return require('./organizationmanager-group-mapping-item'); } });
 Object.defineProperty(exports, 'organizationmanagerGroupMembership', { get: function () { return require('./organizationmanager-group-membership'); } });
+Object.defineProperty(exports, 'organizationmanagerIdpApplicationOauthApplication', { get: function () { return require('./organizationmanager-idp-application-oauth-application'); } });
+Object.defineProperty(exports, 'organizationmanagerIdpApplicationSamlApplication', { get: function () { return require('./organizationmanager-idp-application-saml-application'); } });
 Object.defineProperty(exports, 'organizationmanagerIdpUser', { get: function () { return require('./organizationmanager-idp-user'); } });
 Object.defineProperty(exports, 'organizationmanagerIdpUserpool', { get: function () { return require('./organizationmanager-idp-userpool'); } });
 Object.defineProperty(exports, 'organizationmanagerOrganizationIamBinding', { get: function () { return require('./organizationmanager-organization-iam-binding'); } });
@@ -286,6 +288,8 @@ Object.defineProperty(exports, 'dataYandexMessageQueue', { get: function () { re
 Object.defineProperty(exports, 'dataYandexMetastoreCluster', { get: function () { return require('./data-yandex-metastore-cluster'); } });
 Object.defineProperty(exports, 'dataYandexMonitoringDashboard', { get: function () { return require('./data-yandex-monitoring-dashboard'); } });
 Object.defineProperty(exports, 'dataYandexOrganizationmanagerGroup', { get: function () { return require('./data-yandex-organizationmanager-group'); } });
+Object.defineProperty(exports, 'dataYandexOrganizationmanagerIdpApplicationOauthApplication', { get: function () { return require('./data-yandex-organizationmanager-idp-application-oauth-application'); } });
+Object.defineProperty(exports, 'dataYandexOrganizationmanagerIdpApplicationSamlApplication', { get: function () { return require('./data-yandex-organizationmanager-idp-application-saml-application'); } });
 Object.defineProperty(exports, 'dataYandexOrganizationmanagerIdpUser', { get: function () { return require('./data-yandex-organizationmanager-idp-user'); } });
 Object.defineProperty(exports, 'dataYandexOrganizationmanagerIdpUserpool', { get: function () { return require('./data-yandex-organizationmanager-idp-userpool'); } });
 Object.defineProperty(exports, 'dataYandexOrganizationmanagerOsLoginSettings', { get: function () { return require('./data-yandex-organizationmanager-os-login-settings'); } });

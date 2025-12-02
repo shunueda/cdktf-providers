@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_trunkbasesettings
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_trunkbasesettings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface TelephonyProvidersEdgesTrunkbasesettingsConfig extends cdktf.Te
   /**
   * The resource's description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_trunkbasesettings#description TelephonyProvidersEdgesTrunkbasesettings#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_trunkbasesettings#description TelephonyProvidersEdgesTrunkbasesettings#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_trunkbasesettings#id TelephonyProvidersEdgesTrunkbasesettings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_trunkbasesettings#id TelephonyProvidersEdgesTrunkbasesettings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,55 +23,55 @@ export interface TelephonyProvidersEdgesTrunkbasesettingsConfig extends cdktf.Te
   /**
   * The site to which inbound calls will be routed. Only valid for External BYOC Trunks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_trunkbasesettings#inbound_site_id TelephonyProvidersEdgesTrunkbasesettings#inbound_site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_trunkbasesettings#inbound_site_id TelephonyProvidersEdgesTrunkbasesettings#inbound_site_id}
   */
   readonly inboundSiteId?: string;
   /**
   * Is this trunk being managed remotely. This property is synchronized with the managed property of the Edge Group to which it is assigned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_trunkbasesettings#managed TelephonyProvidersEdgesTrunkbasesettings#managed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_trunkbasesettings#managed TelephonyProvidersEdgesTrunkbasesettings#managed}
   */
   readonly managed?: boolean | cdktf.IResolvable;
   /**
   * The name of the entity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_trunkbasesettings#name TelephonyProvidersEdgesTrunkbasesettings#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_trunkbasesettings#name TelephonyProvidersEdgesTrunkbasesettings#name}
   */
   readonly name: string;
   /**
   * trunk base settings properties
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_trunkbasesettings#properties TelephonyProvidersEdgesTrunkbasesettings#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_trunkbasesettings#properties TelephonyProvidersEdgesTrunkbasesettings#properties}
   */
   readonly properties?: string;
   /**
   * Used to determine the media regions for inbound and outbound calls through a trunk. Also determines the dial plan to use for calls that came in on a trunk and have to be sent out on it as well.  While this is called the site on the API, in the UI it is referred to as the media site.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_trunkbasesettings#site_id TelephonyProvidersEdgesTrunkbasesettings#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_trunkbasesettings#site_id TelephonyProvidersEdgesTrunkbasesettings#site_id}
   */
   readonly siteId?: string;
   /**
   * The resource's state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_trunkbasesettings#state TelephonyProvidersEdgesTrunkbasesettings#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_trunkbasesettings#state TelephonyProvidersEdgesTrunkbasesettings#state}
   */
   readonly state?: string;
   /**
   * The meta-base this trunk is based on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_trunkbasesettings#trunk_meta_base_id TelephonyProvidersEdgesTrunkbasesettings#trunk_meta_base_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_trunkbasesettings#trunk_meta_base_id TelephonyProvidersEdgesTrunkbasesettings#trunk_meta_base_id}
   */
   readonly trunkMetaBaseId: string;
   /**
   * The type of this trunk base.Valid values: EXTERNAL, PHONE, EDGE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_trunkbasesettings#trunk_type TelephonyProvidersEdgesTrunkbasesettings#trunk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_trunkbasesettings#trunk_type TelephonyProvidersEdgesTrunkbasesettings#trunk_type}
   */
   readonly trunkType: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_trunkbasesettings genesyscloud_telephony_providers_edges_trunkbasesettings}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_trunkbasesettings genesyscloud_telephony_providers_edges_trunkbasesettings}
 */
 export class TelephonyProvidersEdgesTrunkbasesettings extends cdktf.TerraformResource {
 
@@ -87,7 +87,7 @@ export class TelephonyProvidersEdgesTrunkbasesettings extends cdktf.TerraformRes
   * Generates CDKTF code for importing a TelephonyProvidersEdgesTrunkbasesettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TelephonyProvidersEdgesTrunkbasesettings to import
-  * @param importFromId The id of the existing TelephonyProvidersEdgesTrunkbasesettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_trunkbasesettings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TelephonyProvidersEdgesTrunkbasesettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_trunkbasesettings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TelephonyProvidersEdgesTrunkbasesettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class TelephonyProvidersEdgesTrunkbasesettings extends cdktf.TerraformRes
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_trunkbasesettings genesyscloud_telephony_providers_edges_trunkbasesettings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_trunkbasesettings genesyscloud_telephony_providers_edges_trunkbasesettings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +110,8 @@ export class TelephonyProvidersEdgesTrunkbasesettings extends cdktf.TerraformRes
       terraformResourceType: 'genesyscloud_telephony_providers_edges_trunkbasesettings',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.71.1',
-        providerVersionConstraint: '1.71.1'
+        providerVersion: '1.72.2',
+        providerVersionConstraint: '1.72.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

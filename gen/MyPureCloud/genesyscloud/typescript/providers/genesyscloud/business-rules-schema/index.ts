@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/business_rules_schema
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/business_rules_schema
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface BusinessRulesSchemaConfig extends cdktf.TerraformMetaArguments 
   /**
   * The description of the Business Rules Schema
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/business_rules_schema#description BusinessRulesSchema#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/business_rules_schema#description BusinessRulesSchema#description}
   */
   readonly description?: string;
   /**
   * The schema's enabled/disabled status. A disabled schema cannot be assigned to any other entities, but the data on those entities from the schema still exists. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/business_rules_schema#enabled BusinessRulesSchema#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/business_rules_schema#enabled BusinessRulesSchema#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/business_rules_schema#id BusinessRulesSchema#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/business_rules_schema#id BusinessRulesSchema#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface BusinessRulesSchemaConfig extends cdktf.TerraformMetaArguments 
   /**
   * The name of the Business Rules Schema
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/business_rules_schema#name BusinessRulesSchema#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/business_rules_schema#name BusinessRulesSchema#name}
   */
   readonly name: string;
   /**
   * The properties for the JSON Schema document.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/business_rules_schema#properties BusinessRulesSchema#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/business_rules_schema#properties BusinessRulesSchema#properties}
   */
   readonly properties?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/business_rules_schema genesyscloud_business_rules_schema}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/business_rules_schema genesyscloud_business_rules_schema}
 */
 export class BusinessRulesSchema extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class BusinessRulesSchema extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BusinessRulesSchema resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BusinessRulesSchema to import
-  * @param importFromId The id of the existing BusinessRulesSchema that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/business_rules_schema#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BusinessRulesSchema that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/business_rules_schema#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BusinessRulesSchema to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class BusinessRulesSchema extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/business_rules_schema genesyscloud_business_rules_schema} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/business_rules_schema genesyscloud_business_rules_schema} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class BusinessRulesSchema extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_business_rules_schema',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.71.1',
-        providerVersionConstraint: '1.71.1'
+        providerVersion: '1.72.2',
+        providerVersionConstraint: '1.72.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

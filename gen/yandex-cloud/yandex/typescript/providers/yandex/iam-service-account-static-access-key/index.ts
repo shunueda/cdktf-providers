@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/iam_service_account_static_access_key
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/iam_service_account_static_access_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface IamServiceAccountStaticAccessKeyConfig extends cdktf.TerraformM
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/iam_service_account_static_access_key#description IamServiceAccountStaticAccessKey#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/iam_service_account_static_access_key#description IamServiceAccountStaticAccessKey#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/iam_service_account_static_access_key#id IamServiceAccountStaticAccessKey#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/iam_service_account_static_access_key#id IamServiceAccountStaticAccessKey#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface IamServiceAccountStaticAccessKeyConfig extends cdktf.TerraformM
   /**
   * An optional PGP key to encrypt the resulting secret key material. May either be a base64-encoded public key or a keybase username in the form `keybase:keybaseusername`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/iam_service_account_static_access_key#pgp_key IamServiceAccountStaticAccessKey#pgp_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/iam_service_account_static_access_key#pgp_key IamServiceAccountStaticAccessKey#pgp_key}
   */
   readonly pgpKey?: string;
   /**
   * ID of the service account which is used to get a static key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/iam_service_account_static_access_key#service_account_id IamServiceAccountStaticAccessKey#service_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/iam_service_account_static_access_key#service_account_id IamServiceAccountStaticAccessKey#service_account_id}
   */
   readonly serviceAccountId: string;
   /**
   * output_to_lockbox block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/iam_service_account_static_access_key#output_to_lockbox IamServiceAccountStaticAccessKey#output_to_lockbox}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/iam_service_account_static_access_key#output_to_lockbox IamServiceAccountStaticAccessKey#output_to_lockbox}
   */
   readonly outputToLockbox?: IamServiceAccountStaticAccessKeyOutputToLockbox;
 }
@@ -43,19 +43,19 @@ export interface IamServiceAccountStaticAccessKeyOutputToLockbox {
   /**
   * entry that will store the value of access_key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/iam_service_account_static_access_key#entry_for_access_key IamServiceAccountStaticAccessKey#entry_for_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/iam_service_account_static_access_key#entry_for_access_key IamServiceAccountStaticAccessKey#entry_for_access_key}
   */
   readonly entryForAccessKey: string;
   /**
   * entry that will store the value of secret_key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/iam_service_account_static_access_key#entry_for_secret_key IamServiceAccountStaticAccessKey#entry_for_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/iam_service_account_static_access_key#entry_for_secret_key IamServiceAccountStaticAccessKey#entry_for_secret_key}
   */
   readonly entryForSecretKey: string;
   /**
   * ID of the Lockbox secret where to store the sensible values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/iam_service_account_static_access_key#secret_id IamServiceAccountStaticAccessKey#secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/iam_service_account_static_access_key#secret_id IamServiceAccountStaticAccessKey#secret_id}
   */
   readonly secretId: string;
 }
@@ -188,7 +188,7 @@ export class IamServiceAccountStaticAccessKeyOutputToLockboxOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/iam_service_account_static_access_key yandex_iam_service_account_static_access_key}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/iam_service_account_static_access_key yandex_iam_service_account_static_access_key}
 */
 export class IamServiceAccountStaticAccessKey extends cdktf.TerraformResource {
 
@@ -204,7 +204,7 @@ export class IamServiceAccountStaticAccessKey extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IamServiceAccountStaticAccessKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IamServiceAccountStaticAccessKey to import
-  * @param importFromId The id of the existing IamServiceAccountStaticAccessKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/iam_service_account_static_access_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IamServiceAccountStaticAccessKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/iam_service_account_static_access_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IamServiceAccountStaticAccessKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -216,7 +216,7 @@ export class IamServiceAccountStaticAccessKey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/iam_service_account_static_access_key yandex_iam_service_account_static_access_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/iam_service_account_static_access_key yandex_iam_service_account_static_access_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -227,8 +227,8 @@ export class IamServiceAccountStaticAccessKey extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_iam_service_account_static_access_key',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.172.0',
-        providerVersionConstraint: '0.172.0'
+        providerVersion: '0.173.0',
+        providerVersionConstraint: '0.173.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance
+// https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,195 +10,195 @@ export interface DataZedcloudApplicationInstanceConfig extends cdktf.TerraformMe
   /**
   * app instance activation flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#activate DataZedcloudApplicationInstance#activate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#activate DataZedcloudApplicationInstance#activate}
   */
   readonly activate?: boolean | cdktf.IResolvable;
   /**
   * User defined name of the edge app, unique across the enterprise. Once app name is created, name can’t be changed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#app_id DataZedcloudApplicationInstance#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#app_id DataZedcloudApplicationInstance#app_id}
   */
   readonly appId: string;
   /**
   * app policy id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#app_policy_id DataZedcloudApplicationInstance#app_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#app_policy_id DataZedcloudApplicationInstance#app_policy_id}
   */
   readonly appPolicyId?: string;
   /**
   * type of bundle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#app_type DataZedcloudApplicationInstance#app_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#app_type DataZedcloudApplicationInstance#app_type}
   */
   readonly appType?: string;
   /**
   * System defined universally unique clusterInstance ID, unique across the enterprise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#cluster_id DataZedcloudApplicationInstance#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#cluster_id DataZedcloudApplicationInstance#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * holds the static Ip of the app instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#collect_stats_ip_addr DataZedcloudApplicationInstance#collect_stats_ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#collect_stats_ip_addr DataZedcloudApplicationInstance#collect_stats_ip_addr}
   */
   readonly collectStatsIpAddr?: string;
   /**
   * Crypto Key for decrypting user secret information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#crypto_key DataZedcloudApplicationInstance#crypto_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#crypto_key DataZedcloudApplicationInstance#crypto_key}
   */
   readonly cryptoKey?: string;
   /**
   * Detailed description of the app instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#description DataZedcloudApplicationInstance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#description DataZedcloudApplicationInstance#description}
   */
   readonly description?: string;
   /**
   * User defined name of the device name, unique across the enterprise. Once device name is defined, name can’t be changed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#device_id DataZedcloudApplicationInstance#device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#device_id DataZedcloudApplicationInstance#device_id}
   */
   readonly deviceId?: string;
   /**
   * user encrypted secrets map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#encrypted_secrets DataZedcloudApplicationInstance#encrypted_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#encrypted_secrets DataZedcloudApplicationInstance#encrypted_secrets}
   */
   readonly encryptedSecrets?: { [key: string]: string };
   /**
   * This field tells whether user secrets has updated or not, especially the cusotom config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#is_secret_updated DataZedcloudApplicationInstance#is_secret_updated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#is_secret_updated DataZedcloudApplicationInstance#is_secret_updated}
   */
   readonly isSecretUpdated?: boolean | cdktf.IResolvable;
   /**
   * User defined name of the app instance, unique across the enterprise. Once app instance is created, name can’t be changed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#name DataZedcloudApplicationInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#name DataZedcloudApplicationInstance#name}
   */
   readonly name: string;
   /**
   * Persistent runtime size in bytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#persistent_runtime_size_bytes DataZedcloudApplicationInstance#persistent_runtime_size_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#persistent_runtime_size_bytes DataZedcloudApplicationInstance#persistent_runtime_size_bytes}
   */
   readonly persistentRuntimeSizeBytes?: string;
   /**
   * project name which the given app instance belong to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#project_id DataZedcloudApplicationInstance#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#project_id DataZedcloudApplicationInstance#project_id}
   */
   readonly projectId?: string;
   /**
   * Remote console flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#remote_console DataZedcloudApplicationInstance#remote_console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#remote_console DataZedcloudApplicationInstance#remote_console}
   */
   readonly remoteConsole?: boolean | cdktf.IResolvable;
   /**
   * start delay is the time in seconds EVE should wait after boot before starting the application instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#start_delay_in_seconds DataZedcloudApplicationInstance#start_delay_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#start_delay_in_seconds DataZedcloudApplicationInstance#start_delay_in_seconds}
   */
   readonly startDelayInSeconds?: number;
   /**
   * Tags are name/value pairs that enable you to categorize resources. Tag names are case insensitive with max_length 512 and min_length 3. Tag values are case sensitive with max_length 256 and min_length 3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#tags DataZedcloudApplicationInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#tags DataZedcloudApplicationInstance#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * User defined title of the app instance. Title can be changed at any time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#title DataZedcloudApplicationInstance#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#title DataZedcloudApplicationInstance#title}
   */
   readonly title: string;
   /**
   * Deprecated: Application initiazation script in cloud-config format to be used by cloud-init
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#user_data DataZedcloudApplicationInstance#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#user_data DataZedcloudApplicationInstance#user_data}
   */
   readonly userData?: string;
   /**
   * custom_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#custom_config DataZedcloudApplicationInstance#custom_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#custom_config DataZedcloudApplicationInstance#custom_config}
   */
   readonly customConfig?: DataZedcloudApplicationInstanceCustomConfig[] | cdktf.IResolvable;
   /**
   * drives block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#drives DataZedcloudApplicationInstance#drives}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#drives DataZedcloudApplicationInstance#drives}
   */
   readonly drives?: DataZedcloudApplicationInstanceDrives[] | cdktf.IResolvable;
   /**
   * edge_node_cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#edge_node_cluster DataZedcloudApplicationInstance#edge_node_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#edge_node_cluster DataZedcloudApplicationInstance#edge_node_cluster}
   */
   readonly edgeNodeCluster?: DataZedcloudApplicationInstanceEdgeNodeCluster[] | cdktf.IResolvable;
   /**
   * interfaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#interfaces DataZedcloudApplicationInstance#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#interfaces DataZedcloudApplicationInstance#interfaces}
   */
   readonly interfaces?: DataZedcloudApplicationInstanceInterfaces[] | cdktf.IResolvable;
   /**
   * logs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#logs DataZedcloudApplicationInstance#logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#logs DataZedcloudApplicationInstance#logs}
   */
   readonly logs?: DataZedcloudApplicationInstanceLogs[] | cdktf.IResolvable;
   /**
   * manifest_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#manifest_info DataZedcloudApplicationInstance#manifest_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#manifest_info DataZedcloudApplicationInstance#manifest_info}
   */
   readonly manifestInfo?: DataZedcloudApplicationInstanceManifestInfo[] | cdktf.IResolvable;
   /**
   * purge block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#purge DataZedcloudApplicationInstance#purge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#purge DataZedcloudApplicationInstance#purge}
   */
   readonly purge?: DataZedcloudApplicationInstancePurge[] | cdktf.IResolvable;
   /**
   * refresh block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#refresh DataZedcloudApplicationInstance#refresh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#refresh DataZedcloudApplicationInstance#refresh}
   */
   readonly refresh?: DataZedcloudApplicationInstanceRefresh[] | cdktf.IResolvable;
   /**
   * restart block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#restart DataZedcloudApplicationInstance#restart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#restart DataZedcloudApplicationInstance#restart}
   */
   readonly restart?: DataZedcloudApplicationInstanceRestart[] | cdktf.IResolvable;
   /**
   * revision block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#revision DataZedcloudApplicationInstance#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#revision DataZedcloudApplicationInstance#revision}
   */
   readonly revision?: DataZedcloudApplicationInstanceRevision[] | cdktf.IResolvable;
   /**
   * vminfo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#vminfo DataZedcloudApplicationInstance#vminfo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#vminfo DataZedcloudApplicationInstance#vminfo}
   */
   readonly vminfo?: DataZedcloudApplicationInstanceVminfo[] | cdktf.IResolvable;
 }
 export interface DataZedcloudApplicationInstanceCustomConfigVariableGroupsCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#name DataZedcloudApplicationInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#name DataZedcloudApplicationInstance#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#operator DataZedcloudApplicationInstance#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#operator DataZedcloudApplicationInstance#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#value DataZedcloudApplicationInstance#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#value DataZedcloudApplicationInstance#value}
   */
   readonly value?: string;
 }
@@ -374,13 +374,13 @@ export interface DataZedcloudApplicationInstanceCustomConfigVariableGroupsVariab
   /**
   * Display label of the key in User-Agent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#label DataZedcloudApplicationInstance#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#label DataZedcloudApplicationInstance#label}
   */
   readonly label?: string;
   /**
   * Value of the key to be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#value DataZedcloudApplicationInstance#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#value DataZedcloudApplicationInstance#value}
   */
   readonly value?: string;
 }
@@ -527,63 +527,63 @@ export interface DataZedcloudApplicationInstanceCustomConfigVariableGroupsVariab
   /**
   * Default value of the variable. (Optional. Default: <Default value based on type>)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#default DataZedcloudApplicationInstance#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#default DataZedcloudApplicationInstance#default}
   */
   readonly default?: string;
   /**
   * Encoding of file content. Applicable if format is VARIABLE_FORMAT_FILE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#encode DataZedcloudApplicationInstance#encode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#encode DataZedcloudApplicationInstance#encode}
   */
   readonly encode?: string;
   /**
   * Format of the user variable. (Required)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#format DataZedcloudApplicationInstance#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#format DataZedcloudApplicationInstance#format}
   */
   readonly format: string;
   /**
   * Label for the variable (Required)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#label DataZedcloudApplicationInstance#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#label DataZedcloudApplicationInstance#label}
   */
   readonly label: string;
   /**
   * Max length of the value of the variable(Optional. Default: 1024)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#max_length DataZedcloudApplicationInstance#max_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#max_length DataZedcloudApplicationInstance#max_length}
   */
   readonly maxLength?: string;
   /**
   * Name of the Variable (Required)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#name DataZedcloudApplicationInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#name DataZedcloudApplicationInstance#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#process_input DataZedcloudApplicationInstance#process_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#process_input DataZedcloudApplicationInstance#process_input}
   */
   readonly processInput?: string;
   /**
   * This variable MUST be specified when creating an App Instance. (Optional. Default: False)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#required DataZedcloudApplicationInstance#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#required DataZedcloudApplicationInstance#required}
   */
   readonly required: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#type DataZedcloudApplicationInstance#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#type DataZedcloudApplicationInstance#type}
   */
   readonly type?: string;
   /**
   * User-specified value of the variable.(Required if required is true. Optional otherwise)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#value DataZedcloudApplicationInstance#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#value DataZedcloudApplicationInstance#value}
   */
   readonly value?: string;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#options DataZedcloudApplicationInstance#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#options DataZedcloudApplicationInstance#options}
   */
   readonly options?: DataZedcloudApplicationInstanceCustomConfigVariableGroupsVariablesOptions[] | cdktf.IResolvable;
 }
@@ -979,25 +979,25 @@ export interface DataZedcloudApplicationInstanceCustomConfigVariableGroups {
   /**
   * Name of the Variable Group(Required)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#name DataZedcloudApplicationInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#name DataZedcloudApplicationInstance#name}
   */
   readonly name?: string;
   /**
   * Indicates if the variable group is required to be specified for the App Instance. (Optional. Default:False)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#required DataZedcloudApplicationInstance#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#required DataZedcloudApplicationInstance#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#condition DataZedcloudApplicationInstance#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#condition DataZedcloudApplicationInstance#condition}
   */
   readonly condition?: DataZedcloudApplicationInstanceCustomConfigVariableGroupsCondition[] | cdktf.IResolvable;
   /**
   * variables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#variables DataZedcloudApplicationInstance#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#variables DataZedcloudApplicationInstance#variables}
   */
   readonly variables?: DataZedcloudApplicationInstanceCustomConfigVariableGroupsVariables[] | cdktf.IResolvable;
 }
@@ -1202,43 +1202,43 @@ export interface DataZedcloudApplicationInstanceCustomConfig {
   /**
   * Add the Custom Config to App Instance (Optional. Default: False)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#add DataZedcloudApplicationInstance#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#add DataZedcloudApplicationInstance#add}
   */
   readonly add?: boolean | cdktf.IResolvable;
   /**
   * Allow Appinstance storage to be resized after app instance is created. (Optional. Default: False)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#allow_storage_resize DataZedcloudApplicationInstance#allow_storage_resize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#allow_storage_resize DataZedcloudApplicationInstance#allow_storage_resize}
   */
   readonly allowStorageResize?: boolean | cdktf.IResolvable;
   /**
   * Field delimiter used in specifying variables in template. (Required)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#field_delimiter DataZedcloudApplicationInstance#field_delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#field_delimiter DataZedcloudApplicationInstance#field_delimiter}
   */
   readonly fieldDelimiter?: string;
   /**
   * Name of CustomConfig (Required)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#name DataZedcloudApplicationInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#name DataZedcloudApplicationInstance#name}
   */
   readonly name?: string;
   /**
   * Override existing custom config from App Bundle Manifest (Optional. Default: False)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#override DataZedcloudApplicationInstance#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#override DataZedcloudApplicationInstance#override}
   */
   readonly override?: boolean | cdktf.IResolvable;
   /**
   * base64 encrypted template string. (Optional)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#template DataZedcloudApplicationInstance#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#template DataZedcloudApplicationInstance#template}
   */
   readonly template?: string;
   /**
   * variable_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#variable_groups DataZedcloudApplicationInstance#variable_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#variable_groups DataZedcloudApplicationInstance#variable_groups}
   */
   readonly variableGroups?: DataZedcloudApplicationInstanceCustomConfigVariableGroups[] | cdktf.IResolvable;
 }
@@ -1530,73 +1530,73 @@ export interface DataZedcloudApplicationInstanceDrives {
   /**
   * If set, don't encrypt the drive. Store in cleartext
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#cleartext DataZedcloudApplicationInstance#cleartext}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#cleartext DataZedcloudApplicationInstance#cleartext}
   */
   readonly cleartext?: boolean | cdktf.IResolvable;
   /**
   * Type of Drive. Valid Values: UNSPECIFIED, CDROM, HDD, NET, HDD_EMPTY. HDD_EMPTY - is to allocate the empty disk of maxsizebytes specified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#drvtype DataZedcloudApplicationInstance#drvtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#drvtype DataZedcloudApplicationInstance#drvtype}
   */
   readonly drvtype: string;
   /**
   * don't purge this drive as part of purge command for mutable volumes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#ignorepurge DataZedcloudApplicationInstance#ignorepurge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#ignorepurge DataZedcloudApplicationInstance#ignorepurge}
   */
   readonly ignorepurge?: boolean | cdktf.IResolvable;
   /**
   * Name of Image Object used for the drive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#imagename DataZedcloudApplicationInstance#imagename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#imagename DataZedcloudApplicationInstance#imagename}
   */
   readonly imagename: string;
   /**
   * immutable Volume for this drive. Only one of imvolname and mvolname must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#imvolname DataZedcloudApplicationInstance#imvolname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#imvolname DataZedcloudApplicationInstance#imvolname}
   */
   readonly imvolname?: string;
   /**
   * Drive maximum size
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#maxsize DataZedcloudApplicationInstance#maxsize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#maxsize DataZedcloudApplicationInstance#maxsize}
   */
   readonly maxsize: string;
   /**
   * Mount Path for the drive in the App Instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#mountpath DataZedcloudApplicationInstance#mountpath}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#mountpath DataZedcloudApplicationInstance#mountpath}
   */
   readonly mountpath?: string;
   /**
   * mutable Volume for this drive. Only one of imvolname and mvolname must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#mvolname DataZedcloudApplicationInstance#mvolname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#mvolname DataZedcloudApplicationInstance#mvolname}
   */
   readonly mvolname?: string;
   /**
   * Preserve the drive even when all app instances using it are deleted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#preserve DataZedcloudApplicationInstance#preserve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#preserve DataZedcloudApplicationInstance#preserve}
   */
   readonly preserve: boolean | cdktf.IResolvable;
   /**
   * Read only flag. If set, drive is mounted as readonly by app instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#readonly DataZedcloudApplicationInstance#readonly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#readonly DataZedcloudApplicationInstance#readonly}
   */
   readonly readonly: boolean | cdktf.IResolvable;
   /**
   * type of target. Valid values: Disk, Kernel, Initrd, RamDisk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#target DataZedcloudApplicationInstance#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#target DataZedcloudApplicationInstance#target}
   */
   readonly target: string;
   /**
   * User defined volume to use for this drive 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#volumelabel DataZedcloudApplicationInstance#volumelabel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#volumelabel DataZedcloudApplicationInstance#volumelabel}
   */
   readonly volumelabel?: string;
 }
@@ -2015,13 +2015,13 @@ export interface DataZedcloudApplicationInstanceEdgeNodeCluster {
   /**
   * Id of the designated node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#designated_node_id DataZedcloudApplicationInstance#designated_node_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#designated_node_id DataZedcloudApplicationInstance#designated_node_id}
   */
   readonly designatedNodeId?: string;
   /**
   * Id of the edge node cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#id DataZedcloudApplicationInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#id DataZedcloudApplicationInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2168,7 +2168,7 @@ export interface DataZedcloudApplicationInstanceInterfacesAclsActionsMapparams {
   /**
   * Application port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#port DataZedcloudApplicationInstance#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#port DataZedcloudApplicationInstance#port}
   */
   readonly port?: number;
 }
@@ -2286,43 +2286,43 @@ export interface DataZedcloudApplicationInstanceInterfacesAclsActions {
   /**
   * ACE drop flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#drop DataZedcloudApplicationInstance#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#drop DataZedcloudApplicationInstance#drop}
   */
   readonly drop?: boolean | cdktf.IResolvable;
   /**
   * ACE limit flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#limit DataZedcloudApplicationInstance#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#limit DataZedcloudApplicationInstance#limit}
   */
   readonly limit?: boolean | cdktf.IResolvable;
   /**
   * ACE limit burst
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#limitburst DataZedcloudApplicationInstance#limitburst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#limitburst DataZedcloudApplicationInstance#limitburst}
   */
   readonly limitburst?: number;
   /**
   * ACE limit rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#limitrate DataZedcloudApplicationInstance#limitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#limitrate DataZedcloudApplicationInstance#limitrate}
   */
   readonly limitrate?: number;
   /**
   * ACE limit unit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#limitunit DataZedcloudApplicationInstance#limitunit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#limitunit DataZedcloudApplicationInstance#limitunit}
   */
   readonly limitunit?: string;
   /**
   * application port map flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#portmap DataZedcloudApplicationInstance#portmap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#portmap DataZedcloudApplicationInstance#portmap}
   */
   readonly portmap?: boolean | cdktf.IResolvable;
   /**
   * mapparams block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#mapparams DataZedcloudApplicationInstance#mapparams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#mapparams DataZedcloudApplicationInstance#mapparams}
   */
   readonly mapparams?: DataZedcloudApplicationInstanceInterfacesAclsActionsMapparams[] | cdktf.IResolvable;
 }
@@ -2614,13 +2614,13 @@ export interface DataZedcloudApplicationInstanceInterfacesAclsMatches {
   /**
   * Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#type DataZedcloudApplicationInstance#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#type DataZedcloudApplicationInstance#type}
   */
   readonly type?: string;
   /**
   * Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#value DataZedcloudApplicationInstance#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#value DataZedcloudApplicationInstance#value}
   */
   readonly value?: string;
 }
@@ -2767,19 +2767,19 @@ export interface DataZedcloudApplicationInstanceInterfacesAcls {
   /**
   * User defined name of the app ACE, unique across the enterprise. Once object is created, name can’t be changed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#name DataZedcloudApplicationInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#name DataZedcloudApplicationInstance#name}
   */
   readonly name?: string;
   /**
   * actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#actions DataZedcloudApplicationInstance#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#actions DataZedcloudApplicationInstance#actions}
   */
   readonly actions?: DataZedcloudApplicationInstanceInterfacesAclsActions[] | cdktf.IResolvable;
   /**
   * matches block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#matches DataZedcloudApplicationInstance#matches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#matches DataZedcloudApplicationInstance#matches}
   */
   readonly matches?: DataZedcloudApplicationInstanceInterfacesAclsMatches[] | cdktf.IResolvable;
 }
@@ -2960,13 +2960,13 @@ export interface DataZedcloudApplicationInstanceInterfacesEidregisterLispMapServ
   /**
   * lisp credential
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#credential DataZedcloudApplicationInstance#credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#credential DataZedcloudApplicationInstance#credential}
   */
   readonly credential: string;
   /**
   * name/IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#name_or_ip DataZedcloudApplicationInstance#name_or_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#name_or_ip DataZedcloudApplicationInstance#name_or_ip}
   */
   readonly nameOrIp: string;
 }
@@ -3107,43 +3107,43 @@ export interface DataZedcloudApplicationInstanceInterfacesEidregister {
   /**
   * Display name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#display_name DataZedcloudApplicationInstance#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#display_name DataZedcloudApplicationInstance#display_name}
   */
   readonly displayName: string;
   /**
   * EID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#e_id DataZedcloudApplicationInstance#e_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#e_id DataZedcloudApplicationInstance#e_id}
   */
   readonly eId: string;
   /**
   * EID hash length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#e_id_hash_len DataZedcloudApplicationInstance#e_id_hash_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#e_id_hash_len DataZedcloudApplicationInstance#e_id_hash_len}
   */
   readonly eIdHashLen: number;
   /**
   * Lisp Instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#lisp_instance DataZedcloudApplicationInstance#lisp_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#lisp_instance DataZedcloudApplicationInstance#lisp_instance}
   */
   readonly lispInstance: number;
   /**
   * Lisp Signature
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#lisp_signature DataZedcloudApplicationInstance#lisp_signature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#lisp_signature DataZedcloudApplicationInstance#lisp_signature}
   */
   readonly lispSignature: string;
   /**
   * UUID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#uuid DataZedcloudApplicationInstance#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#uuid DataZedcloudApplicationInstance#uuid}
   */
   readonly uuid: string;
   /**
   * lisp_map_servers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#lisp_map_servers DataZedcloudApplicationInstance#lisp_map_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#lisp_map_servers DataZedcloudApplicationInstance#lisp_map_servers}
   */
   readonly lispMapServers: DataZedcloudApplicationInstanceInterfacesEidregisterLispMapServers[] | cdktf.IResolvable;
 }
@@ -3429,19 +3429,19 @@ export interface DataZedcloudApplicationInstanceInterfacesIo {
   /**
   * Physical Adapter name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#name DataZedcloudApplicationInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#name DataZedcloudApplicationInstance#name}
   */
   readonly name?: string;
   /**
   * Tags are name/value pairs that enable you to categorize resources. Tag names are case insensitive with max_length 512 and min_length 3. Tag values are case sensitive with max_length 256 and min_length 3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#tags DataZedcloudApplicationInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#tags DataZedcloudApplicationInstance#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * IoType specifies the type of the Input output of the device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#type DataZedcloudApplicationInstance#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#type DataZedcloudApplicationInstance#type}
   */
   readonly type?: string;
 }
@@ -3617,85 +3617,85 @@ export interface DataZedcloudApplicationInstanceInterfaces {
   /**
   * access port VLAN ID, vlan id of zero will be treated as trunk port and vlan id 1 is implicitly used by linux bridges
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#access_vlan_id DataZedcloudApplicationInstance#access_vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#access_vlan_id DataZedcloudApplicationInstance#access_vlan_id}
   */
   readonly accessVlanId?: number;
   /**
   * default instance flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#default_net_instance DataZedcloudApplicationInstance#default_net_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#default_net_instance DataZedcloudApplicationInstance#default_net_instance}
   */
   readonly defaultNetInstance?: boolean | cdktf.IResolvable;
   /**
   * direct attach flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#directattach DataZedcloudApplicationInstance#directattach}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#directattach DataZedcloudApplicationInstance#directattach}
   */
   readonly directattach?: boolean | cdktf.IResolvable;
   /**
   * intf Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#intfname DataZedcloudApplicationInstance#intfname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#intfname DataZedcloudApplicationInstance#intfname}
   */
   readonly intfname: string;
   /**
   * intforder
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#intforder DataZedcloudApplicationInstance#intforder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#intforder DataZedcloudApplicationInstance#intforder}
   */
   readonly intforder?: number;
   /**
   * IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#ipaddr DataZedcloudApplicationInstance#ipaddr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#ipaddr DataZedcloudApplicationInstance#ipaddr}
   */
   readonly ipaddr?: string;
   /**
   * MAC address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#macaddr DataZedcloudApplicationInstance#macaddr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#macaddr DataZedcloudApplicationInstance#macaddr}
   */
   readonly macaddr?: string;
   /**
   * Network Instance name to be matched for interface assignment. Applicable only when "direct attach" flag is false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#netinstname DataZedcloudApplicationInstance#netinstname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#netinstname DataZedcloudApplicationInstance#netinstname}
   */
   readonly netinstname: string;
   /**
   * Network Instance tag to be matched for interface assignment. Applicable only when "direct attach" flag is false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#netinsttag DataZedcloudApplicationInstance#netinsttag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#netinsttag DataZedcloudApplicationInstance#netinsttag}
   */
   readonly netinsttag?: { [key: string]: string };
   /**
   * network name: will be deprecated in future, use netinstname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#netname DataZedcloudApplicationInstance#netname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#netname DataZedcloudApplicationInstance#netname}
   */
   readonly netname?: string;
   /**
   * Private IP flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#privateip DataZedcloudApplicationInstance#privateip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#privateip DataZedcloudApplicationInstance#privateip}
   */
   readonly privateip: boolean | cdktf.IResolvable;
   /**
   * acls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#acls DataZedcloudApplicationInstance#acls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#acls DataZedcloudApplicationInstance#acls}
   */
   readonly acls?: DataZedcloudApplicationInstanceInterfacesAcls[] | cdktf.IResolvable;
   /**
   * eidregister block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#eidregister DataZedcloudApplicationInstance#eidregister}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#eidregister DataZedcloudApplicationInstance#eidregister}
   */
   readonly eidregister?: DataZedcloudApplicationInstanceInterfacesEidregister[] | cdktf.IResolvable;
   /**
   * io block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#io DataZedcloudApplicationInstance#io}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#io DataZedcloudApplicationInstance#io}
   */
   readonly io?: DataZedcloudApplicationInstanceInterfacesIo[] | cdktf.IResolvable;
 }
@@ -4186,7 +4186,7 @@ export interface DataZedcloudApplicationInstanceLogs {
   /**
   * Flags to enable / disable sending of logs generated by app instance to zedcloud
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#access DataZedcloudApplicationInstance#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#access DataZedcloudApplicationInstance#access}
   */
   readonly access: boolean | cdktf.IResolvable;
 }
@@ -4301,7 +4301,7 @@ export interface DataZedcloudApplicationInstanceManifestInfoDetailsScope {
   /**
   * Scope of the action (e.g. project in case certificate expired at project level)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#type DataZedcloudApplicationInstance#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#type DataZedcloudApplicationInstance#type}
   */
   readonly type?: string;
 }
@@ -4424,19 +4424,19 @@ export interface DataZedcloudApplicationInstanceManifestInfoDetails {
   /**
   * Cause of the transition action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#cause DataZedcloudApplicationInstance#cause}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#cause DataZedcloudApplicationInstance#cause}
   */
   readonly cause?: string;
   /**
   * Urgency of the recommended action (ERROR - must take action immediately, WARN - must take action but not immediately, NOTICE - may take action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#severity DataZedcloudApplicationInstance#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#severity DataZedcloudApplicationInstance#severity}
   */
   readonly severity?: string;
   /**
   * scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#scope DataZedcloudApplicationInstance#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#scope DataZedcloudApplicationInstance#scope}
   */
   readonly scope?: DataZedcloudApplicationInstanceManifestInfoDetailsScope[] | cdktf.IResolvable;
 }
@@ -4612,13 +4612,13 @@ export interface DataZedcloudApplicationInstanceManifestInfo {
   /**
   * Recommended transition action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#transition_action DataZedcloudApplicationInstance#transition_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#transition_action DataZedcloudApplicationInstance#transition_action}
   */
   readonly transitionAction?: string;
   /**
   * details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#details DataZedcloudApplicationInstance#details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#details DataZedcloudApplicationInstance#details}
   */
   readonly details?: DataZedcloudApplicationInstanceManifestInfoDetails[] | cdktf.IResolvable;
 }
@@ -4781,7 +4781,7 @@ export interface DataZedcloudApplicationInstancePurge {
   /**
   * counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#counter DataZedcloudApplicationInstance#counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#counter DataZedcloudApplicationInstance#counter}
   */
   readonly counter?: number;
 }
@@ -4899,7 +4899,7 @@ export interface DataZedcloudApplicationInstanceRefresh {
   /**
   * counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#counter DataZedcloudApplicationInstance#counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#counter DataZedcloudApplicationInstance#counter}
   */
   readonly counter?: number;
 }
@@ -5017,7 +5017,7 @@ export interface DataZedcloudApplicationInstanceRestart {
   /**
   * counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#counter DataZedcloudApplicationInstance#counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#counter DataZedcloudApplicationInstance#counter}
   */
   readonly counter?: number;
 }
@@ -5244,27 +5244,39 @@ export class DataZedcloudApplicationInstanceRevisionList extends cdktf.ComplexLi
 }
 export interface DataZedcloudApplicationInstanceVminfo {
   /**
+  * Enable CpuPinning
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#cpu_pinning_enabled DataZedcloudApplicationInstance#cpu_pinning_enabled}
+  */
+  readonly cpuPinningEnabled?: boolean | cdktf.IResolvable;
+  /**
   * CPUs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#cpus DataZedcloudApplicationInstance#cpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#cpus DataZedcloudApplicationInstance#cpus}
   */
   readonly cpus: number;
   /**
+  * Disable vTPM for virtual machines (VM)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#disable_v_t_p_m DataZedcloudApplicationInstance#disable_v_t_p_m}
+  */
+  readonly disableVTPM?: boolean | cdktf.IResolvable;
+  /**
   * Enable device which has VM to receive the Windows license embedded in the ACPI tables
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#enable_oem_win_license_key DataZedcloudApplicationInstance#enable_oem_win_license_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#enable_oem_win_license_key DataZedcloudApplicationInstance#enable_oem_win_license_key}
   */
   readonly enableOemWinLicenseKey?: boolean | cdktf.IResolvable;
   /**
   * Hardware Virtualization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#mode DataZedcloudApplicationInstance#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#mode DataZedcloudApplicationInstance#mode}
   */
   readonly mode?: string;
   /**
   * VNC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#vnc DataZedcloudApplicationInstance#vnc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#vnc DataZedcloudApplicationInstance#vnc}
   */
   readonly vnc: boolean | cdktf.IResolvable;
 }
@@ -5275,7 +5287,9 @@ export function dataZedcloudApplicationInstanceVminfoToTerraform(struct?: DataZe
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    cpu_pinning_enabled: cdktf.booleanToTerraform(struct!.cpuPinningEnabled),
     cpus: cdktf.numberToTerraform(struct!.cpus),
+    disable_v_t_p_m: cdktf.booleanToTerraform(struct!.disableVTPM),
     enable_oem_win_license_key: cdktf.booleanToTerraform(struct!.enableOemWinLicenseKey),
     mode: cdktf.stringToTerraform(struct!.mode),
     vnc: cdktf.booleanToTerraform(struct!.vnc),
@@ -5289,11 +5303,23 @@ export function dataZedcloudApplicationInstanceVminfoToHclTerraform(struct?: Dat
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    cpu_pinning_enabled: {
+      value: cdktf.booleanToHclTerraform(struct!.cpuPinningEnabled),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
     cpus: {
       value: cdktf.numberToHclTerraform(struct!.cpus),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
+    },
+    disable_v_t_p_m: {
+      value: cdktf.booleanToHclTerraform(struct!.disableVTPM),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
     },
     enable_oem_win_license_key: {
       value: cdktf.booleanToHclTerraform(struct!.enableOemWinLicenseKey),
@@ -5339,9 +5365,17 @@ export class DataZedcloudApplicationInstanceVminfoOutputReference extends cdktf.
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._cpuPinningEnabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cpuPinningEnabled = this._cpuPinningEnabled;
+    }
     if (this._cpus !== undefined) {
       hasAnyValues = true;
       internalValueResult.cpus = this._cpus;
+    }
+    if (this._disableVTPM !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.disableVTPM = this._disableVTPM;
     }
     if (this._enableOemWinLicenseKey !== undefined) {
       hasAnyValues = true;
@@ -5362,7 +5396,9 @@ export class DataZedcloudApplicationInstanceVminfoOutputReference extends cdktf.
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
+      this._cpuPinningEnabled = undefined;
       this._cpus = undefined;
+      this._disableVTPM = undefined;
       this._enableOemWinLicenseKey = undefined;
       this._mode = undefined;
       this._vnc = undefined;
@@ -5374,16 +5410,29 @@ export class DataZedcloudApplicationInstanceVminfoOutputReference extends cdktf.
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
+      this._cpuPinningEnabled = value.cpuPinningEnabled;
       this._cpus = value.cpus;
+      this._disableVTPM = value.disableVTPM;
       this._enableOemWinLicenseKey = value.enableOemWinLicenseKey;
       this._mode = value.mode;
       this._vnc = value.vnc;
     }
   }
 
-  // cpu_pinning_enabled - computed: true, optional: false, required: false
+  // cpu_pinning_enabled - computed: false, optional: true, required: false
+  private _cpuPinningEnabled?: boolean | cdktf.IResolvable; 
   public get cpuPinningEnabled() {
     return this.getBooleanAttribute('cpu_pinning_enabled');
+  }
+  public set cpuPinningEnabled(value: boolean | cdktf.IResolvable) {
+    this._cpuPinningEnabled = value;
+  }
+  public resetCpuPinningEnabled() {
+    this._cpuPinningEnabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cpuPinningEnabledInput() {
+    return this._cpuPinningEnabled;
   }
 
   // cpus - computed: false, optional: false, required: true
@@ -5397,6 +5446,22 @@ export class DataZedcloudApplicationInstanceVminfoOutputReference extends cdktf.
   // Temporarily expose input value. Use with caution.
   public get cpusInput() {
     return this._cpus;
+  }
+
+  // disable_v_t_p_m - computed: false, optional: true, required: false
+  private _disableVTPM?: boolean | cdktf.IResolvable; 
+  public get disableVTPM() {
+    return this.getBooleanAttribute('disable_v_t_p_m');
+  }
+  public set disableVTPM(value: boolean | cdktf.IResolvable) {
+    this._disableVTPM = value;
+  }
+  public resetDisableVTPM() {
+    this._disableVTPM = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get disableVTPMInput() {
+    return this._disableVTPM;
   }
 
   // enable_oem_win_license_key - computed: false, optional: true, required: false
@@ -5476,7 +5541,7 @@ export class DataZedcloudApplicationInstanceVminfoList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance zedcloud_application_instance}
+* Represents a {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance zedcloud_application_instance}
 */
 export class DataZedcloudApplicationInstance extends cdktf.TerraformDataSource {
 
@@ -5492,7 +5557,7 @@ export class DataZedcloudApplicationInstance extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZedcloudApplicationInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZedcloudApplicationInstance to import
-  * @param importFromId The id of the existing DataZedcloudApplicationInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZedcloudApplicationInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZedcloudApplicationInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5504,7 +5569,7 @@ export class DataZedcloudApplicationInstance extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/application_instance zedcloud_application_instance} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/application_instance zedcloud_application_instance} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5515,8 +5580,8 @@ export class DataZedcloudApplicationInstance extends cdktf.TerraformDataSource {
       terraformResourceType: 'zedcloud_application_instance',
       terraformGeneratorMetadata: {
         providerName: 'zedcloud',
-        providerVersion: '2.5.0',
-        providerVersionConstraint: '2.5.0'
+        providerVersion: '2.6.0',
+        providerVersionConstraint: '2.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

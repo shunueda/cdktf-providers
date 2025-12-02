@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/profile_deployment
+// https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/profile_deployment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface DataZedcloudProfileDeploymentConfig extends cdktf.TerraformMeta
   /**
   * Detailed description of the deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/profile_deployment#description DataZedcloudProfileDeployment#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/profile_deployment#description DataZedcloudProfileDeployment#description}
   */
   readonly description?: string;
   /**
   * User defined name of the deployment, unique across the enterprise. Once deployment is created, name can’t be changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/profile_deployment#name DataZedcloudProfileDeployment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/profile_deployment#name DataZedcloudProfileDeployment#name}
   */
   readonly name: string;
   /**
   * project id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/profile_deployment#project_id DataZedcloudProfileDeployment#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/profile_deployment#project_id DataZedcloudProfileDeployment#project_id}
   */
   readonly projectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/profile_deployment#status DataZedcloudProfileDeployment#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/profile_deployment#status DataZedcloudProfileDeployment#status}
   */
   readonly status?: string;
   /**
   * User defined title of the deployment. Title can be changed at any time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/profile_deployment#title DataZedcloudProfileDeployment#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/profile_deployment#title DataZedcloudProfileDeployment#title}
   */
   readonly title?: string;
   /**
   * app_profile_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/profile_deployment#app_profile_info DataZedcloudProfileDeployment#app_profile_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/profile_deployment#app_profile_info DataZedcloudProfileDeployment#app_profile_info}
   */
   readonly appProfileInfo: DataZedcloudProfileDeploymentAppProfileInfo[] | cdktf.IResolvable;
   /**
   * target_asset_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/profile_deployment#target_asset_group DataZedcloudProfileDeployment#target_asset_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/profile_deployment#target_asset_group DataZedcloudProfileDeployment#target_asset_group}
   */
   readonly targetAssetGroup: DataZedcloudProfileDeploymentTargetAssetGroup[] | cdktf.IResolvable;
 }
@@ -52,13 +52,13 @@ export interface DataZedcloudProfileDeploymentAppProfileInfo {
   /**
   * Unique ID of the app profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/profile_deployment#app_profile_id DataZedcloudProfileDeployment#app_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/profile_deployment#app_profile_id DataZedcloudProfileDeployment#app_profile_id}
   */
   readonly appProfileId: string;
   /**
   * Version of the app profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/profile_deployment#version DataZedcloudProfileDeployment#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/profile_deployment#version DataZedcloudProfileDeployment#version}
   */
   readonly version: number;
 }
@@ -199,7 +199,7 @@ export interface DataZedcloudProfileDeploymentTargetAssetGroup {
   /**
   * unique Id of the asset group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/profile_deployment#group_id DataZedcloudProfileDeployment#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/profile_deployment#group_id DataZedcloudProfileDeployment#group_id}
   */
   readonly groupId: string;
 }
@@ -312,7 +312,7 @@ export class DataZedcloudProfileDeploymentTargetAssetGroupList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/profile_deployment zedcloud_profile_deployment}
+* Represents a {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/profile_deployment zedcloud_profile_deployment}
 */
 export class DataZedcloudProfileDeployment extends cdktf.TerraformDataSource {
 
@@ -328,7 +328,7 @@ export class DataZedcloudProfileDeployment extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZedcloudProfileDeployment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZedcloudProfileDeployment to import
-  * @param importFromId The id of the existing DataZedcloudProfileDeployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/profile_deployment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZedcloudProfileDeployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/profile_deployment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZedcloudProfileDeployment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -340,7 +340,7 @@ export class DataZedcloudProfileDeployment extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/profile_deployment zedcloud_profile_deployment} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/profile_deployment zedcloud_profile_deployment} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -351,8 +351,8 @@ export class DataZedcloudProfileDeployment extends cdktf.TerraformDataSource {
       terraformResourceType: 'zedcloud_profile_deployment',
       terraformGeneratorMetadata: {
         providerName: 'zedcloud',
-        providerVersion: '2.5.0',
-        providerVersionConstraint: '2.5.0'
+        providerVersion: '2.6.0',
+        providerVersionConstraint: '2.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

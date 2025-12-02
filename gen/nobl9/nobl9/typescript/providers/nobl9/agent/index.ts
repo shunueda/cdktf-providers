@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent
+// https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface AgentConfig extends cdktf.TerraformMetaArguments {
   /**
   * The type of the Agent. Check [Supported Agent types | Nobl9 Documentation](https://docs.nobl9.com/Sources/)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#agent_type Agent#agent_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#agent_type Agent#agent_type}
   */
   readonly agentType: string;
   /**
   * Optional description of the resource. Here, you can add details about who is responsible for the integration (team/owner) or the purpose of creating it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#description Agent#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#description Agent#description}
   */
   readonly description?: string;
   /**
   * User-friendly display name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#display_name Agent#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#display_name Agent#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#id Agent#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#id Agent#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,187 +35,187 @@ export interface AgentConfig extends cdktf.TerraformMetaArguments {
   /**
   * Unique name of the resource, must conform to the naming convention from [DNS RFC1123](https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#name Agent#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#name Agent#name}
   */
   readonly name: string;
   /**
   * Name of the Nobl9 project the resource sits in, must conform to the naming convention from [DNS RFC1123](https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#project Agent#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#project Agent#project}
   */
   readonly project: string;
   /**
   * Release channel of the created data source [stable/beta]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#release_channel Agent#release_channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#release_channel Agent#release_channel}
   */
   readonly releaseChannel?: string;
   /**
   * This value indicated whether the field was a source of metrics and/or services. 'source_of' is deprecated and not used anywhere; however, it's kept for backward compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#source_of Agent#source_of}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#source_of Agent#source_of}
   */
   readonly sourceOf?: string[];
   /**
   * amazon_prometheus_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#amazon_prometheus_config Agent#amazon_prometheus_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#amazon_prometheus_config Agent#amazon_prometheus_config}
   */
   readonly amazonPrometheusConfig?: AgentAmazonPrometheusConfig;
   /**
   * appdynamics_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#appdynamics_config Agent#appdynamics_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#appdynamics_config Agent#appdynamics_config}
   */
   readonly appdynamicsConfig?: AgentAppdynamicsConfig;
   /**
   * azure_monitor_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#azure_monitor_config Agent#azure_monitor_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#azure_monitor_config Agent#azure_monitor_config}
   */
   readonly azureMonitorConfig?: AgentAzureMonitorConfig;
   /**
   * bigquery_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#bigquery_config Agent#bigquery_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#bigquery_config Agent#bigquery_config}
   */
   readonly bigqueryConfig?: AgentBigqueryConfig;
   /**
   * cloudwatch_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#cloudwatch_config Agent#cloudwatch_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#cloudwatch_config Agent#cloudwatch_config}
   */
   readonly cloudwatchConfig?: AgentCloudwatchConfig;
   /**
   * datadog_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#datadog_config Agent#datadog_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#datadog_config Agent#datadog_config}
   */
   readonly datadogConfig?: AgentDatadogConfig;
   /**
   * dynatrace_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#dynatrace_config Agent#dynatrace_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#dynatrace_config Agent#dynatrace_config}
   */
   readonly dynatraceConfig?: AgentDynatraceConfig;
   /**
   * elasticsearch_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#elasticsearch_config Agent#elasticsearch_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#elasticsearch_config Agent#elasticsearch_config}
   */
   readonly elasticsearchConfig?: AgentElasticsearchConfig;
   /**
   * gcm_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#gcm_config Agent#gcm_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#gcm_config Agent#gcm_config}
   */
   readonly gcmConfig?: AgentGcmConfig;
   /**
   * grafana_loki_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#grafana_loki_config Agent#grafana_loki_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#grafana_loki_config Agent#grafana_loki_config}
   */
   readonly grafanaLokiConfig?: AgentGrafanaLokiConfig;
   /**
   * graphite_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#graphite_config Agent#graphite_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#graphite_config Agent#graphite_config}
   */
   readonly graphiteConfig?: AgentGraphiteConfig;
   /**
   * historical_data_retrieval block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#historical_data_retrieval Agent#historical_data_retrieval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#historical_data_retrieval Agent#historical_data_retrieval}
   */
   readonly historicalDataRetrieval?: AgentHistoricalDataRetrieval;
   /**
   * honeycomb_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#honeycomb_config Agent#honeycomb_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#honeycomb_config Agent#honeycomb_config}
   */
   readonly honeycombConfig?: AgentHoneycombConfig;
   /**
   * influxdb_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#influxdb_config Agent#influxdb_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#influxdb_config Agent#influxdb_config}
   */
   readonly influxdbConfig?: AgentInfluxdbConfig;
   /**
   * instana_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#instana_config Agent#instana_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#instana_config Agent#instana_config}
   */
   readonly instanaConfig?: AgentInstanaConfig;
   /**
   * lightstep_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#lightstep_config Agent#lightstep_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#lightstep_config Agent#lightstep_config}
   */
   readonly lightstepConfig?: AgentLightstepConfig;
   /**
   * logic_monitor_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#logic_monitor_config Agent#logic_monitor_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#logic_monitor_config Agent#logic_monitor_config}
   */
   readonly logicMonitorConfig?: AgentLogicMonitorConfig;
   /**
   * newrelic_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#newrelic_config Agent#newrelic_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#newrelic_config Agent#newrelic_config}
   */
   readonly newrelicConfig?: AgentNewrelicConfig;
   /**
   * opentsdb_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#opentsdb_config Agent#opentsdb_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#opentsdb_config Agent#opentsdb_config}
   */
   readonly opentsdbConfig?: AgentOpentsdbConfig;
   /**
   * pingdom_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#pingdom_config Agent#pingdom_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#pingdom_config Agent#pingdom_config}
   */
   readonly pingdomConfig?: AgentPingdomConfig;
   /**
   * prometheus_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#prometheus_config Agent#prometheus_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#prometheus_config Agent#prometheus_config}
   */
   readonly prometheusConfig?: AgentPrometheusConfig;
   /**
   * query_delay block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#query_delay Agent#query_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#query_delay Agent#query_delay}
   */
   readonly queryDelay?: AgentQueryDelay;
   /**
   * redshift_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#redshift_config Agent#redshift_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#redshift_config Agent#redshift_config}
   */
   readonly redshiftConfig?: AgentRedshiftConfig;
   /**
   * splunk_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#splunk_config Agent#splunk_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#splunk_config Agent#splunk_config}
   */
   readonly splunkConfig?: AgentSplunkConfig;
   /**
   * splunk_observability_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#splunk_observability_config Agent#splunk_observability_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#splunk_observability_config Agent#splunk_observability_config}
   */
   readonly splunkObservabilityConfig?: AgentSplunkObservabilityConfig;
   /**
   * sumologic_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#sumologic_config Agent#sumologic_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#sumologic_config Agent#sumologic_config}
   */
   readonly sumologicConfig?: AgentSumologicConfig;
   /**
   * thousandeyes_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#thousandeyes_config Agent#thousandeyes_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#thousandeyes_config Agent#thousandeyes_config}
   */
   readonly thousandeyesConfig?: AgentThousandeyesConfig;
 }
@@ -223,13 +223,13 @@ export interface AgentAmazonPrometheusConfig {
   /**
   * AWS region e.g., eu-central-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#region Agent#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#region Agent#region}
   */
   readonly region: string;
   /**
   * Base URL to Amazon Prometheus server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#url Agent#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#url Agent#url}
   */
   readonly url: string;
 }
@@ -338,7 +338,7 @@ export interface AgentAppdynamicsConfig {
   /**
   * Base URL to the AppDynamics Controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#url Agent#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#url Agent#url}
   */
   readonly url: string;
 }
@@ -421,7 +421,7 @@ export interface AgentAzureMonitorConfig {
   /**
   * Azure Tenant Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#tenant_id Agent#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#tenant_id Agent#tenant_id}
   */
   readonly tenantId: string;
 }
@@ -609,7 +609,7 @@ export interface AgentDatadogConfig {
   *   - `ap1.datadoghq.com`
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#site Agent#site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#site Agent#site}
   */
   readonly site: string;
 }
@@ -692,7 +692,7 @@ export interface AgentDynatraceConfig {
   /**
   * Dynatrace API URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#url Agent#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#url Agent#url}
   */
   readonly url: string;
 }
@@ -775,7 +775,7 @@ export interface AgentElasticsearchConfig {
   /**
   * API URL endpoint to the Elasticsearch's instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#url Agent#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#url Agent#url}
   */
   readonly url: string;
 }
@@ -907,7 +907,7 @@ export interface AgentGrafanaLokiConfig {
   /**
   * API URL endpoint to the Grafana Loki instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#url Agent#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#url Agent#url}
   */
   readonly url: string;
 }
@@ -990,7 +990,7 @@ export interface AgentGraphiteConfig {
   /**
   * API URL endpoint to the Graphite's instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#url Agent#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#url Agent#url}
   */
   readonly url: string;
 }
@@ -1073,13 +1073,13 @@ export interface AgentHistoricalDataRetrievalDefaultDuration {
   /**
   * Must be one of Minute, Hour, or Day.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#unit Agent#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#unit Agent#unit}
   */
   readonly unit: string;
   /**
   * Must be an integer greater than or equal to 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#value Agent#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#value Agent#value}
   */
   readonly value: number;
 }
@@ -1220,13 +1220,13 @@ export interface AgentHistoricalDataRetrievalMaxDuration {
   /**
   * Must be one of Minute, Hour, or Day.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#unit Agent#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#unit Agent#unit}
   */
   readonly unit: string;
   /**
   * Must be an integer greater than or equal to 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#value Agent#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#value Agent#value}
   */
   readonly value: number;
 }
@@ -1367,13 +1367,13 @@ export interface AgentHistoricalDataRetrieval {
   /**
   * default_duration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#default_duration Agent#default_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#default_duration Agent#default_duration}
   */
   readonly defaultDuration: AgentHistoricalDataRetrievalDefaultDuration[] | cdktf.IResolvable;
   /**
   * max_duration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#max_duration Agent#max_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#max_duration Agent#max_duration}
   */
   readonly maxDuration: AgentHistoricalDataRetrievalMaxDuration[] | cdktf.IResolvable;
 }
@@ -1531,7 +1531,7 @@ export interface AgentInfluxdbConfig {
   /**
   * API URL endpoint to the InfluxDB's instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#url Agent#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#url Agent#url}
   */
   readonly url: string;
 }
@@ -1614,7 +1614,7 @@ export interface AgentInstanaConfig {
   /**
   * API URL endpoint to the InfluxDB's instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#url Agent#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#url Agent#url}
   */
   readonly url: string;
 }
@@ -1697,19 +1697,19 @@ export interface AgentLightstepConfig {
   /**
   * Organization name registered in Lightstep.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#organization Agent#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#organization Agent#organization}
   */
   readonly organization: string;
   /**
   * Name of the Lightstep project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#project Agent#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#project Agent#project}
   */
   readonly project: string;
   /**
   * Lightstep API URL. Nobl9 will use https://api.lightstep.com if empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#url Agent#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#url Agent#url}
   */
   readonly url?: string;
 }
@@ -1847,7 +1847,7 @@ export interface AgentLogicMonitorConfig {
   /**
   * LogicMonitor Account name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#account Agent#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#account Agent#account}
   */
   readonly account: string;
 }
@@ -1930,7 +1930,7 @@ export interface AgentNewrelicConfig {
   /**
   * ID number assigned to the New Relic user account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#account_id Agent#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#account_id Agent#account_id}
   */
   readonly accountId: string;
 }
@@ -2013,7 +2013,7 @@ export interface AgentOpentsdbConfig {
   /**
   * OpenTSDB cluster URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#url Agent#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#url Agent#url}
   */
   readonly url: string;
 }
@@ -2145,7 +2145,7 @@ export interface AgentPrometheusConfig {
   /**
   * Base URL to Prometheus server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#url Agent#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#url Agent#url}
   */
   readonly url: string;
 }
@@ -2228,13 +2228,13 @@ export interface AgentQueryDelay {
   /**
   * Must be one of Minute or Second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#unit Agent#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#unit Agent#unit}
   */
   readonly unit: string;
   /**
   * Must be an integer greater than or equal to 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#value Agent#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#value Agent#value}
   */
   readonly value: number;
 }
@@ -2392,7 +2392,7 @@ export interface AgentSplunkConfig {
   /**
   * Base API URL to the Splunk Search app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#url Agent#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#url Agent#url}
   */
   readonly url: string;
 }
@@ -2475,7 +2475,7 @@ export interface AgentSplunkObservabilityConfig {
   /**
   * SplunkObservability Realm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#realm Agent#realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#realm Agent#realm}
   */
   readonly realm: string;
 }
@@ -2558,7 +2558,7 @@ export interface AgentSumologicConfig {
   /**
   * Sumo Logic API URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#url Agent#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#url Agent#url}
   */
   readonly url: string;
 }
@@ -2688,7 +2688,7 @@ export class AgentThousandeyesConfigOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent nobl9_agent}
+* Represents a {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent nobl9_agent}
 */
 export class Agent extends cdktf.TerraformResource {
 
@@ -2704,7 +2704,7 @@ export class Agent extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Agent resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Agent to import
-  * @param importFromId The id of the existing Agent that should be imported. Refer to the {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Agent that should be imported. Refer to the {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Agent to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2716,7 +2716,7 @@ export class Agent extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/agent nobl9_agent} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/agent nobl9_agent} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2727,8 +2727,8 @@ export class Agent extends cdktf.TerraformResource {
       terraformResourceType: 'nobl9_agent',
       terraformGeneratorMetadata: {
         providerName: 'nobl9',
-        providerVersion: '0.44.1',
-        providerVersionConstraint: '0.44.1'
+        providerVersion: '0.45.0',
+        providerVersionConstraint: '0.45.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

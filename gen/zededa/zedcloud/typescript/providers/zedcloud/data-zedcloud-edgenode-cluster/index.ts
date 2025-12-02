@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/edgenode_cluster
+// https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/edgenode_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface DataZedcloudEdgenodeClusterConfig extends cdktf.TerraformMetaAr
   /**
   * A cluster prefix. The default is: 10.244.244.2/28
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/edgenode_cluster#cluster_prefix DataZedcloudEdgenodeCluster#cluster_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/edgenode_cluster#cluster_prefix DataZedcloudEdgenodeCluster#cluster_prefix}
   */
   readonly clusterPrefix?: string;
   /**
   * Detailed description of the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/edgenode_cluster#description DataZedcloudEdgenodeCluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/edgenode_cluster#description DataZedcloudEdgenodeCluster#description}
   */
   readonly description?: string;
   /**
   * User defined name of the cluster, unique across the enterprise. Once cluster is created, name can’t be changed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/edgenode_cluster#name DataZedcloudEdgenodeCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/edgenode_cluster#name DataZedcloudEdgenodeCluster#name}
   */
   readonly name: string;
   /**
   * Foreign key to the project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/edgenode_cluster#project_id DataZedcloudEdgenodeCluster#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/edgenode_cluster#project_id DataZedcloudEdgenodeCluster#project_id}
   */
   readonly projectId: string;
   /**
   * Tags are name/value pairs that enable you to categorize resources. Tag names are case insensitive with max_length 512 and min_length 3. Tag values are case sensitive with max_length 256 and min_length 3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/edgenode_cluster#tags DataZedcloudEdgenodeCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/edgenode_cluster#tags DataZedcloudEdgenodeCluster#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * User defined title of the cluster. Title can be changed at any time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/edgenode_cluster#title DataZedcloudEdgenodeCluster#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/edgenode_cluster#title DataZedcloudEdgenodeCluster#title}
   */
   readonly title?: string;
   /**
   * nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/edgenode_cluster#nodes DataZedcloudEdgenodeCluster#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/edgenode_cluster#nodes DataZedcloudEdgenodeCluster#nodes}
   */
   readonly nodes: DataZedcloudEdgenodeClusterNodes[] | cdktf.IResolvable;
 }
@@ -54,13 +54,13 @@ export interface DataZedcloudEdgenodeClusterNodes {
   /**
   * User defined name of the cluster interface, ex.: eth0, eth1, wlan0, etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/edgenode_cluster#cluster_interface DataZedcloudEdgenodeCluster#cluster_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/edgenode_cluster#cluster_interface DataZedcloudEdgenodeCluster#cluster_interface}
   */
   readonly clusterInterface: string;
   /**
   * Id of the node to be included in a cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/edgenode_cluster#id DataZedcloudEdgenodeCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/edgenode_cluster#id DataZedcloudEdgenodeCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -69,13 +69,13 @@ export interface DataZedcloudEdgenodeClusterNodes {
   /**
   * Type of node. Currently it supports only: EDGE_NODE_CLUSTER_NODE_TYPE_SERVER
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/edgenode_cluster#node_type DataZedcloudEdgenodeCluster#node_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/edgenode_cluster#node_type DataZedcloudEdgenodeCluster#node_type}
   */
   readonly nodeType?: string;
   /**
   * Resource labels are name/value pairs that enable you to categorize resources. Label names are case insensitive with max_length 512 and min_length 3. Label values are case sensitive with max_length 256 and min_length 3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/edgenode_cluster#resource_labels DataZedcloudEdgenodeCluster#resource_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/edgenode_cluster#resource_labels DataZedcloudEdgenodeCluster#resource_labels}
   */
   readonly resourceLabels?: { [key: string]: string };
 }
@@ -277,7 +277,7 @@ export class DataZedcloudEdgenodeClusterNodesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/edgenode_cluster zedcloud_edgenode_cluster}
+* Represents a {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/edgenode_cluster zedcloud_edgenode_cluster}
 */
 export class DataZedcloudEdgenodeCluster extends cdktf.TerraformDataSource {
 
@@ -293,7 +293,7 @@ export class DataZedcloudEdgenodeCluster extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZedcloudEdgenodeCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZedcloudEdgenodeCluster to import
-  * @param importFromId The id of the existing DataZedcloudEdgenodeCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/edgenode_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZedcloudEdgenodeCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/edgenode_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZedcloudEdgenodeCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -305,7 +305,7 @@ export class DataZedcloudEdgenodeCluster extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/edgenode_cluster zedcloud_edgenode_cluster} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/edgenode_cluster zedcloud_edgenode_cluster} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -316,8 +316,8 @@ export class DataZedcloudEdgenodeCluster extends cdktf.TerraformDataSource {
       terraformResourceType: 'zedcloud_edgenode_cluster',
       terraformGeneratorMetadata: {
         providerName: 'zedcloud',
-        providerVersion: '2.5.0',
-        providerVersionConstraint: '2.5.0'
+        providerVersion: '2.6.0',
+        providerVersionConstraint: '2.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -436,7 +436,7 @@ export class DataZedcloudEdgenodeCluster extends cdktf.TerraformDataSource {
   }
 
   // nodes - computed: false, optional: false, required: true
-  private _nodes = new DataZedcloudEdgenodeClusterNodesList(this, "nodes", false);
+  private _nodes = new DataZedcloudEdgenodeClusterNodesList(this, "nodes", true);
   public get nodes() {
     return this._nodes;
   }
@@ -505,7 +505,7 @@ export class DataZedcloudEdgenodeCluster extends cdktf.TerraformDataSource {
       nodes: {
         value: cdktf.listMapperHcl(dataZedcloudEdgenodeClusterNodesToHclTerraform, true)(this._nodes.internalValue),
         isBlock: true,
-        type: "list",
+        type: "set",
         storageClassType: "DataZedcloudEdgenodeClusterNodesList",
       },
     };

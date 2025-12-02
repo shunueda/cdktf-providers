@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/storage_bucket_iam_binding
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/storage_bucket_iam_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface StorageBucketIamBindingConfig extends cdktf.TerraformMetaArgume
   /**
   * The name of the Object Storage (S3) bucket to attach the policy to. This resource should be used for managing [Service roles](https://yandex.cloud/docs/storage/security/#service-roles) only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/storage_bucket_iam_binding#bucket StorageBucketIamBinding#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/storage_bucket_iam_binding#bucket StorageBucketIamBinding#bucket}
   */
   readonly bucket: string;
   /**
@@ -29,19 +29,19 @@ export interface StorageBucketIamBindingConfig extends cdktf.TerraformMetaArgume
   * 
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/storage_bucket_iam_binding#members StorageBucketIamBinding#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/storage_bucket_iam_binding#members StorageBucketIamBinding#members}
   */
   readonly members: string[];
   /**
   * The role that should be assigned. Only one yandex_storage_bucket_iam_binding can be used per role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/storage_bucket_iam_binding#role StorageBucketIamBinding#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/storage_bucket_iam_binding#role StorageBucketIamBinding#role}
   */
   readonly role: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/storage_bucket_iam_binding yandex_storage_bucket_iam_binding}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/storage_bucket_iam_binding yandex_storage_bucket_iam_binding}
 */
 export class StorageBucketIamBinding extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class StorageBucketIamBinding extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a StorageBucketIamBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StorageBucketIamBinding to import
-  * @param importFromId The id of the existing StorageBucketIamBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/storage_bucket_iam_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StorageBucketIamBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/storage_bucket_iam_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StorageBucketIamBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class StorageBucketIamBinding extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/storage_bucket_iam_binding yandex_storage_bucket_iam_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/storage_bucket_iam_binding yandex_storage_bucket_iam_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class StorageBucketIamBinding extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_storage_bucket_iam_binding',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.172.0',
-        providerVersionConstraint: '0.172.0'
+        providerVersion: '0.173.0',
+        providerVersionConstraint: '0.173.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

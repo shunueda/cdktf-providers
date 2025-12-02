@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.11/docs/data-sources/slack_channel
+// https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/data-sources/slack_channel
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataFirehydrantSlackChannelConfig extends cdktf.TerraformMetaAr
   /**
   * ID of the channel, provided by Slack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.11/docs/data-sources/slack_channel#slack_channel_id DataFirehydrantSlackChannel#slack_channel_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/data-sources/slack_channel#slack_channel_id DataFirehydrantSlackChannel#slack_channel_id}
   */
   readonly slackChannelId?: string;
   /**
   * Name of this Slack channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.11/docs/data-sources/slack_channel#slack_channel_name DataFirehydrantSlackChannel#slack_channel_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/data-sources/slack_channel#slack_channel_name DataFirehydrantSlackChannel#slack_channel_name}
   */
   readonly slackChannelName?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.11/docs/data-sources/slack_channel firehydrant_slack_channel}
+* Represents a {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/data-sources/slack_channel firehydrant_slack_channel}
 */
 export class DataFirehydrantSlackChannel extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataFirehydrantSlackChannel extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataFirehydrantSlackChannel resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataFirehydrantSlackChannel to import
-  * @param importFromId The id of the existing DataFirehydrantSlackChannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.11/docs/data-sources/slack_channel#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataFirehydrantSlackChannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/data-sources/slack_channel#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataFirehydrantSlackChannel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataFirehydrantSlackChannel extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.11/docs/data-sources/slack_channel firehydrant_slack_channel} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/data-sources/slack_channel firehydrant_slack_channel} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class DataFirehydrantSlackChannel extends cdktf.TerraformDataSource {
       terraformResourceType: 'firehydrant_slack_channel',
       terraformGeneratorMetadata: {
         providerName: 'firehydrant',
-        providerVersion: '0.14.11',
-        providerVersionConstraint: '0.14.11'
+        providerVersion: '0.14.12',
+        providerVersionConstraint: '0.14.12'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

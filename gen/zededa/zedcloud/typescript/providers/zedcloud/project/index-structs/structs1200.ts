@@ -1,6 +1,12 @@
 import * as cdktf from 'cdktf';
-import { ProjectModulePolicyModulePolicyAzureEdgeAgentInterfacesList,
-ProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonList,
+import { ProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonConfigurationList,
+ProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonContainerDetailList,
+ProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonDescList,
+ProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonImagesList,
+ProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonInterfacesList,
+ProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonModuleList,
+ProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonOwnerList,
+ProjectModulePolicyModulePolicyAzureEdgeAgentInterfacesList,
 ProjectModulePolicyModulePolicyAppsList,
 ProjectModulePolicyAppPolicyList,
 ProjectModulePolicyAttestationPolicyList,
@@ -9,6 +15,365 @@ ProjectModulePolicyClusterPolicyList,
 ProjectModulePolicyConfigurationLockPolicyList,
 ProjectModulePolicyEdgeviewPolicyList,
 ProjectModulePolicyLocalOperatorConsolePolicyList } from './structs800'
+export interface ProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonPermissions {
+}
+
+export function projectModulePolicyModulePolicyAzureEdgeAgentManifestJsonPermissionsToTerraform(struct?: ProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonPermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function projectModulePolicyModulePolicyAzureEdgeAgentManifestJsonPermissionsToHclTerraform(struct?: ProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonPermissions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class ProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonPermissionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonPermissions | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonPermissions | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+}
+
+export class ProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonPermissionsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonPermissionsOutputReference {
+    return new ProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonPermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface ProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonResources {
+}
+
+export function projectModulePolicyModulePolicyAzureEdgeAgentManifestJsonResourcesToTerraform(struct?: ProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonResources): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function projectModulePolicyModulePolicyAzureEdgeAgentManifestJsonResourcesToHclTerraform(struct?: ProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonResources): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class ProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonResourcesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonResources | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonResources | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // name - computed: true, optional: false, required: false
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+
+  // value - computed: true, optional: false, required: false
+  public get value() {
+    return this.getStringAttribute('value');
+  }
+}
+
+export class ProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonResourcesList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonResourcesOutputReference {
+    return new ProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonResourcesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface ProjectModulePolicyModulePolicyAzureEdgeAgentManifestJson {
+}
+
+export function projectModulePolicyModulePolicyAzureEdgeAgentManifestJsonToTerraform(struct?: ProjectModulePolicyModulePolicyAzureEdgeAgentManifestJson): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function projectModulePolicyModulePolicyAzureEdgeAgentManifestJsonToHclTerraform(struct?: ProjectModulePolicyModulePolicyAzureEdgeAgentManifestJson): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class ProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ProjectModulePolicyModulePolicyAzureEdgeAgentManifestJson | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ProjectModulePolicyModulePolicyAzureEdgeAgentManifestJson | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // ac_kind - computed: true, optional: false, required: false
+  public get acKind() {
+    return this.getStringAttribute('ac_kind');
+  }
+
+  // ac_version - computed: true, optional: false, required: false
+  public get acVersion() {
+    return this.getStringAttribute('ac_version');
+  }
+
+  // app_type - computed: true, optional: false, required: false
+  public get appType() {
+    return this.getStringAttribute('app_type');
+  }
+
+  // configuration - computed: true, optional: false, required: false
+  private _configuration = new ProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonConfigurationList(this, "configuration", false);
+  public get configuration() {
+    return this._configuration;
+  }
+
+  // container_detail - computed: true, optional: false, required: false
+  private _containerDetail = new ProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonContainerDetailList(this, "container_detail", false);
+  public get containerDetail() {
+    return this._containerDetail;
+  }
+
+  // cpu_pinning_enabled - computed: true, optional: false, required: false
+  public get cpuPinningEnabled() {
+    return this.getBooleanAttribute('cpu_pinning_enabled');
+  }
+
+  // deployment_type - computed: true, optional: false, required: false
+  public get deploymentType() {
+    return this.getStringAttribute('deployment_type');
+  }
+
+  // desc - computed: true, optional: false, required: false
+  private _desc = new ProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonDescList(this, "desc", false);
+  public get desc() {
+    return this._desc;
+  }
+
+  // description - computed: true, optional: false, required: false
+  public get description() {
+    return this.getStringAttribute('description');
+  }
+
+  // disable_v_t_p_m - computed: true, optional: false, required: false
+  public get disableVTPM() {
+    return this.getBooleanAttribute('disable_v_t_p_m');
+  }
+
+  // display_name - computed: true, optional: false, required: false
+  public get displayName() {
+    return this.getStringAttribute('display_name');
+  }
+
+  // docker_compose_tar_image_name - computed: true, optional: false, required: false
+  public get dockerComposeTarImageName() {
+    return this.getStringAttribute('docker_compose_tar_image_name');
+  }
+
+  // docker_compose_yaml_text - computed: true, optional: false, required: false
+  public get dockerComposeYamlText() {
+    return this.getStringAttribute('docker_compose_yaml_text');
+  }
+
+  // enable_oem_win_license_key - computed: true, optional: false, required: false
+  public get enableOemWinLicenseKey() {
+    return this.getBooleanAttribute('enable_oem_win_license_key');
+  }
+
+  // enablevnc - computed: true, optional: false, required: false
+  public get enablevnc() {
+    return this.getBooleanAttribute('enablevnc');
+  }
+
+  // images - computed: true, optional: false, required: false
+  private _images = new ProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonImagesList(this, "images", false);
+  public get images() {
+    return this._images;
+  }
+
+  // interfaces - computed: true, optional: false, required: false
+  private _interfaces = new ProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonInterfacesList(this, "interfaces", false);
+  public get interfaces() {
+    return this._interfaces;
+  }
+
+  // module - computed: true, optional: false, required: false
+  private _module = new ProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonModuleList(this, "module", false);
+  public get module() {
+    return this._module;
+  }
+
+  // name - computed: true, optional: false, required: false
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+
+  // owner - computed: true, optional: false, required: false
+  private _owner = new ProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonOwnerList(this, "owner", false);
+  public get owner() {
+    return this._owner;
+  }
+
+  // permissions - computed: true, optional: false, required: false
+  private _permissions = new ProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonPermissionsList(this, "permissions", false);
+  public get permissions() {
+    return this._permissions;
+  }
+
+  // persistent_runtime_size_bytes - computed: true, optional: false, required: false
+  public get persistentRuntimeSizeBytes() {
+    return this.getStringAttribute('persistent_runtime_size_bytes');
+  }
+
+  // resources - computed: true, optional: false, required: false
+  private _resources = new ProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonResourcesList(this, "resources", false);
+  public get resources() {
+    return this._resources;
+  }
+
+  // runtime_protocol_version - computed: true, optional: false, required: false
+  public get runtimeProtocolVersion() {
+    return this.getStringAttribute('runtime_protocol_version');
+  }
+
+  // runtime_version - computed: true, optional: false, required: false
+  public get runtimeVersion() {
+    return this.getStringAttribute('runtime_version');
+  }
+
+  // vmmode - computed: true, optional: false, required: false
+  public get vmmode() {
+    return this.getStringAttribute('vmmode');
+  }
+}
+
+export class ProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonOutputReference {
+    return new ProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ProjectModulePolicyModulePolicyAzureEdgeAgentParentDetail {
 }
 
@@ -3008,6 +3373,11 @@ export class ProjectModulePolicyModulePolicyAzureEdgeHubManifestJsonOutputRefere
     return this.getStringAttribute('description');
   }
 
+  // disable_v_t_p_m - computed: true, optional: false, required: false
+  public get disableVTPM() {
+    return this.getBooleanAttribute('disable_v_t_p_m');
+  }
+
   // display_name - computed: true, optional: false, required: false
   public get displayName() {
     return this.getStringAttribute('display_name');
@@ -4495,6 +4865,263 @@ export class ProjectModulePolicyNetworkPolicyNetInstanceConfigRevisionList exten
     return new ProjectModulePolicyNetworkPolicyNetInstanceConfigRevisionOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface ProjectModulePolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigProbeEndpoint {
+}
+
+export function projectModulePolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigProbeEndpointToTerraform(struct?: ProjectModulePolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigProbeEndpoint): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function projectModulePolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigProbeEndpointToHclTerraform(struct?: ProjectModulePolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigProbeEndpoint): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class ProjectModulePolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigProbeEndpointOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ProjectModulePolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigProbeEndpoint | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ProjectModulePolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigProbeEndpoint | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // host - computed: true, optional: false, required: false
+  public get host() {
+    return this.getStringAttribute('host');
+  }
+
+  // port - computed: true, optional: false, required: false
+  public get port() {
+    return this.getNumberAttribute('port');
+  }
+}
+
+export class ProjectModulePolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigProbeEndpointList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ProjectModulePolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigProbeEndpointOutputReference {
+    return new ProjectModulePolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigProbeEndpointOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface ProjectModulePolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfig {
+}
+
+export function projectModulePolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigToTerraform(struct?: ProjectModulePolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function projectModulePolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigToHclTerraform(struct?: ProjectModulePolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class ProjectModulePolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ProjectModulePolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ProjectModulePolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // probe_endpoint - computed: true, optional: false, required: false
+  private _probeEndpoint = new ProjectModulePolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigProbeEndpointList(this, "probe_endpoint", false);
+  public get probeEndpoint() {
+    return this._probeEndpoint;
+  }
+
+  // probe_method - computed: true, optional: false, required: false
+  public get probeMethod() {
+    return this.getStringAttribute('probe_method');
+  }
+}
+
+export class ProjectModulePolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ProjectModulePolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigOutputReference {
+    return new ProjectModulePolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface ProjectModulePolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfig {
+}
+
+export function projectModulePolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigToTerraform(struct?: ProjectModulePolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function projectModulePolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigToHclTerraform(struct?: ProjectModulePolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class ProjectModulePolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ProjectModulePolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ProjectModulePolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // custom_probe_config - computed: true, optional: false, required: false
+  private _customProbeConfig = new ProjectModulePolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigCustomProbeConfigList(this, "custom_probe_config", false);
+  public get customProbeConfig() {
+    return this._customProbeConfig;
+  }
+
+  // enable_gateway_ping - computed: true, optional: false, required: false
+  public get enableGatewayPing() {
+    return this.getBooleanAttribute('enable_gateway_ping');
+  }
+
+  // ping_max_cost - computed: true, optional: false, required: false
+  public get pingMaxCost() {
+    return this.getNumberAttribute('ping_max_cost');
+  }
+
+  // prefer_lower_cost - computed: true, optional: false, required: false
+  public get preferLowerCost() {
+    return this.getBooleanAttribute('prefer_lower_cost');
+  }
+
+  // prefer_stronger_wwan_signal - computed: true, optional: false, required: false
+  public get preferStrongerWwanSignal() {
+    return this.getBooleanAttribute('prefer_stronger_wwan_signal');
+  }
+}
+
+export class ProjectModulePolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ProjectModulePolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigOutputReference {
+    return new ProjectModulePolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ProjectModulePolicyNetworkPolicyNetInstanceConfigStaticRoutes {
 }
 
@@ -4551,9 +5178,20 @@ export class ProjectModulePolicyNetworkPolicyNetInstanceConfigStaticRoutesOutput
     return this.getStringAttribute('gateway');
   }
 
+  // output_port - computed: true, optional: false, required: false
+  public get outputPort() {
+    return this.getStringAttribute('output_port');
+  }
+
   // prefix - computed: true, optional: false, required: false
   public get prefix() {
     return this.getStringAttribute('prefix');
+  }
+
+  // probe_config - computed: true, optional: false, required: false
+  private _probeConfig = new ProjectModulePolicyNetworkPolicyNetInstanceConfigStaticRoutesProbeConfigList(this, "probe_config", false);
+  public get probeConfig() {
+    return this._probeConfig;
   }
 }
 
@@ -5330,7 +5968,7 @@ export interface ProjectAppPolicyAppPolicyAppsInterfacesAclsActionsMapparams {
   /**
   * Application port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#port Project#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#port Project#port}
   */
   readonly port?: number;
 }
@@ -5448,43 +6086,43 @@ export interface ProjectAppPolicyAppPolicyAppsInterfacesAclsActions {
   /**
   * ACE drop flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#drop Project#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#drop Project#drop}
   */
   readonly drop?: boolean | cdktf.IResolvable;
   /**
   * ACE limit flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#limit Project#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#limit Project#limit}
   */
   readonly limit?: boolean | cdktf.IResolvable;
   /**
   * ACE limit burst
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#limitburst Project#limitburst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#limitburst Project#limitburst}
   */
   readonly limitburst?: number;
   /**
   * ACE limit rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#limitrate Project#limitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#limitrate Project#limitrate}
   */
   readonly limitrate?: number;
   /**
   * ACE limit unit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#limitunit Project#limitunit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#limitunit Project#limitunit}
   */
   readonly limitunit?: string;
   /**
   * application port map flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#portmap Project#portmap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#portmap Project#portmap}
   */
   readonly portmap?: boolean | cdktf.IResolvable;
   /**
   * mapparams block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#mapparams Project#mapparams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#mapparams Project#mapparams}
   */
   readonly mapparams?: ProjectAppPolicyAppPolicyAppsInterfacesAclsActionsMapparams[] | cdktf.IResolvable;
 }
@@ -5776,13 +6414,13 @@ export interface ProjectAppPolicyAppPolicyAppsInterfacesAclsMatches {
   /**
   * Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#type Project#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#type Project#type}
   */
   readonly type?: string;
   /**
   * Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#value Project#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#value Project#value}
   */
   readonly value?: string;
 }
@@ -5929,19 +6567,19 @@ export interface ProjectAppPolicyAppPolicyAppsInterfacesAcls {
   /**
   * User defined name of the app ACE, unique across the enterprise. Once object is created, name can’t be changed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#name Project#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#name Project#name}
   */
   readonly name?: string;
   /**
   * actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#actions Project#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#actions Project#actions}
   */
   readonly actions?: ProjectAppPolicyAppPolicyAppsInterfacesAclsActions[] | cdktf.IResolvable;
   /**
   * matches block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#matches Project#matches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#matches Project#matches}
   */
   readonly matches?: ProjectAppPolicyAppPolicyAppsInterfacesAclsMatches[] | cdktf.IResolvable;
 }
@@ -6122,13 +6760,13 @@ export interface ProjectAppPolicyAppPolicyAppsInterfacesEidregisterLispMapServer
   /**
   * lisp credential
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#credential Project#credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#credential Project#credential}
   */
   readonly credential: string;
   /**
   * name/IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#name_or_ip Project#name_or_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#name_or_ip Project#name_or_ip}
   */
   readonly nameOrIp: string;
 }
@@ -6269,43 +6907,43 @@ export interface ProjectAppPolicyAppPolicyAppsInterfacesEidregister {
   /**
   * Display name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#display_name Project#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#display_name Project#display_name}
   */
   readonly displayName: string;
   /**
   * EID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#e_id Project#e_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#e_id Project#e_id}
   */
   readonly eId: string;
   /**
   * EID hash length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#e_id_hash_len Project#e_id_hash_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#e_id_hash_len Project#e_id_hash_len}
   */
   readonly eIdHashLen: number;
   /**
   * Lisp Instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#lisp_instance Project#lisp_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#lisp_instance Project#lisp_instance}
   */
   readonly lispInstance: number;
   /**
   * Lisp Signature
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#lisp_signature Project#lisp_signature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#lisp_signature Project#lisp_signature}
   */
   readonly lispSignature: string;
   /**
   * UUID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#uuid Project#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#uuid Project#uuid}
   */
   readonly uuid: string;
   /**
   * lisp_map_servers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#lisp_map_servers Project#lisp_map_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#lisp_map_servers Project#lisp_map_servers}
   */
   readonly lispMapServers: ProjectAppPolicyAppPolicyAppsInterfacesEidregisterLispMapServers[] | cdktf.IResolvable;
 }
@@ -6591,19 +7229,19 @@ export interface ProjectAppPolicyAppPolicyAppsInterfacesIo {
   /**
   * Physical Adapter name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#name Project#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#name Project#name}
   */
   readonly name?: string;
   /**
   * Tags are name/value pairs that enable you to categorize resources. Tag names are case insensitive with max_length 512 and min_length 3. Tag values are case sensitive with max_length 256 and min_length 3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#tags Project#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#tags Project#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * IoType specifies the type of the Input output of the device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#type Project#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#type Project#type}
   */
   readonly type?: string;
 }
@@ -6779,85 +7417,85 @@ export interface ProjectAppPolicyAppPolicyAppsInterfaces {
   /**
   * access port VLAN ID, vlan id of zero will be treated as trunk port and vlan id 1 is implicitly used by linux bridges
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#access_vlan_id Project#access_vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#access_vlan_id Project#access_vlan_id}
   */
   readonly accessVlanId?: number;
   /**
   * default instance flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#default_net_instance Project#default_net_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#default_net_instance Project#default_net_instance}
   */
   readonly defaultNetInstance?: boolean | cdktf.IResolvable;
   /**
   * direct attach flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#directattach Project#directattach}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#directattach Project#directattach}
   */
   readonly directattach?: boolean | cdktf.IResolvable;
   /**
   * intf Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#intfname Project#intfname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#intfname Project#intfname}
   */
   readonly intfname: string;
   /**
   * intforder
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#intforder Project#intforder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#intforder Project#intforder}
   */
   readonly intforder?: number;
   /**
   * IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#ipaddr Project#ipaddr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#ipaddr Project#ipaddr}
   */
   readonly ipaddr?: string;
   /**
   * MAC address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#macaddr Project#macaddr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#macaddr Project#macaddr}
   */
   readonly macaddr?: string;
   /**
   * Network Instance name to be matched for interface assignment. Applicable only when "direct attach" flag is false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#netinstname Project#netinstname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#netinstname Project#netinstname}
   */
   readonly netinstname: string;
   /**
   * Network Instance tag to be matched for interface assignment. Applicable only when "direct attach" flag is false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#netinsttag Project#netinsttag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#netinsttag Project#netinsttag}
   */
   readonly netinsttag?: { [key: string]: string };
   /**
   * network name: will be deprecated in future, use netinstname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#netname Project#netname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#netname Project#netname}
   */
   readonly netname?: string;
   /**
   * Private IP flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#privateip Project#privateip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#privateip Project#privateip}
   */
   readonly privateip: boolean | cdktf.IResolvable;
   /**
   * acls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#acls Project#acls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#acls Project#acls}
   */
   readonly acls?: ProjectAppPolicyAppPolicyAppsInterfacesAcls[] | cdktf.IResolvable;
   /**
   * eidregister block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#eidregister Project#eidregister}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#eidregister Project#eidregister}
   */
   readonly eidregister?: ProjectAppPolicyAppPolicyAppsInterfacesEidregister[] | cdktf.IResolvable;
   /**
   * io block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#io Project#io}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#io Project#io}
   */
   readonly io?: ProjectAppPolicyAppPolicyAppsInterfacesIo[] | cdktf.IResolvable;
 }
@@ -7346,15 +7984,15 @@ export class ProjectAppPolicyAppPolicyAppsInterfacesList extends cdktf.ComplexLi
 }
 export interface ProjectAppPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#name Project#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#name Project#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#operator Project#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#operator Project#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#value Project#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#value Project#value}
   */
   readonly value?: string;
 }
@@ -7530,13 +8168,13 @@ export interface ProjectAppPolicyAppPolicyAppsManifestJsonConfigurationCustomCon
   /**
   * Display label of the key in User-Agent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#label Project#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#label Project#label}
   */
   readonly label?: string;
   /**
   * Value of the key to be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#value Project#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#value Project#value}
   */
   readonly value?: string;
 }
@@ -7683,63 +8321,63 @@ export interface ProjectAppPolicyAppPolicyAppsManifestJsonConfigurationCustomCon
   /**
   * Default value of the variable. (Optional. Default: <Default value based on type>)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#default Project#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#default Project#default}
   */
   readonly default?: string;
   /**
   * Encoding of file content. Applicable if format is VARIABLE_FORMAT_FILE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#encode Project#encode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#encode Project#encode}
   */
   readonly encode?: string;
   /**
   * Format of the user variable. (Required)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#format Project#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#format Project#format}
   */
   readonly format: string;
   /**
   * Label for the variable (Required)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#label Project#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#label Project#label}
   */
   readonly label: string;
   /**
   * Max length of the value of the variable(Optional. Default: 1024)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#max_length Project#max_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#max_length Project#max_length}
   */
   readonly maxLength?: string;
   /**
   * Name of the Variable (Required)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#name Project#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#name Project#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#process_input Project#process_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#process_input Project#process_input}
   */
   readonly processInput?: string;
   /**
   * This variable MUST be specified when creating an App Instance. (Optional. Default: False)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#required Project#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#required Project#required}
   */
   readonly required: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#type Project#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#type Project#type}
   */
   readonly type?: string;
   /**
   * User-specified value of the variable.(Required if required is true. Optional otherwise)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#value Project#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#value Project#value}
   */
   readonly value?: string;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#options Project#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#options Project#options}
   */
   readonly options?: ProjectAppPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsVariablesOptions[] | cdktf.IResolvable;
 }
@@ -8135,25 +8773,25 @@ export interface ProjectAppPolicyAppPolicyAppsManifestJsonConfigurationCustomCon
   /**
   * Name of the Variable Group(Required)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#name Project#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#name Project#name}
   */
   readonly name?: string;
   /**
   * Indicates if the variable group is required to be specified for the App Instance. (Optional. Default:False)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#required Project#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#required Project#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#condition Project#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#condition Project#condition}
   */
   readonly condition?: ProjectAppPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsCondition[] | cdktf.IResolvable;
   /**
   * variables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#variables Project#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#variables Project#variables}
   */
   readonly variables?: ProjectAppPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroupsVariables[] | cdktf.IResolvable;
 }
@@ -8358,43 +8996,43 @@ export interface ProjectAppPolicyAppPolicyAppsManifestJsonConfigurationCustomCon
   /**
   * Add the Custom Config to App Instance (Optional. Default: False)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#add Project#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#add Project#add}
   */
   readonly add?: boolean | cdktf.IResolvable;
   /**
   * Allow Appinstance storage to be resized after app instance is created. (Optional. Default: False)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#allow_storage_resize Project#allow_storage_resize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#allow_storage_resize Project#allow_storage_resize}
   */
   readonly allowStorageResize?: boolean | cdktf.IResolvable;
   /**
   * Field delimiter used in specifying variables in template. (Required)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#field_delimiter Project#field_delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#field_delimiter Project#field_delimiter}
   */
   readonly fieldDelimiter?: string;
   /**
   * Name of CustomConfig (Required)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#name Project#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#name Project#name}
   */
   readonly name?: string;
   /**
   * Override existing custom config from App Bundle Manifest (Optional. Default: False)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#override Project#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#override Project#override}
   */
   readonly override?: boolean | cdktf.IResolvable;
   /**
   * base64 encrypted template string. (Optional)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#template Project#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#template Project#template}
   */
   readonly template?: string;
   /**
   * variable_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#variable_groups Project#variable_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#variable_groups Project#variable_groups}
   */
   readonly variableGroups?: ProjectAppPolicyAppPolicyAppsManifestJsonConfigurationCustomConfigVariableGroups[] | cdktf.IResolvable;
 }
@@ -8686,7 +9324,7 @@ export interface ProjectAppPolicyAppPolicyAppsManifestJsonConfiguration {
   /**
   * custom_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#custom_config Project#custom_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#custom_config Project#custom_config}
   */
   readonly customConfig?: ProjectAppPolicyAppPolicyAppsManifestJsonConfigurationCustomConfig[] | cdktf.IResolvable;
 }
@@ -8804,7 +9442,7 @@ export interface ProjectAppPolicyAppPolicyAppsManifestJsonContainerDetail {
   /**
   * Create options direct the creation of the Docker container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#container_create_option Project#container_create_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#container_create_option Project#container_create_option}
   */
   readonly containerCreateOption?: string;
 }
@@ -8922,45 +9560,45 @@ export interface ProjectAppPolicyAppPolicyAppsManifestJsonDesc {
   /**
   * UI map: AppEditPage:DeveloperPane:Developer_Agreement_Field, AppDetailsPage:DeveloperPane:Developer_Agreement_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#agreement_list Project#agreement_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#agreement_list Project#agreement_list}
   */
   readonly agreementList?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#app_category Project#app_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#app_category Project#app_category}
   */
   readonly appCategory: string;
   /**
   * UI map: AppMarketplacePage:AppCard:DescriptionField, AppEditPage:IdentityPane:CategoryField, AppDetailsPage:IdentityPane:CategoryField
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#category Project#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#category Project#category}
   */
   readonly category?: string;
   /**
   * UI map: AppMarketplacePage:AppCard:License, AppEditPage:IdentityPane:License, AppDetailsPage:IdentityPane:License
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#license_list Project#license_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#license_list Project#license_list}
   */
   readonly licenseList?: { [key: string]: string };
   /**
   * UI map: AppEditPage:IdentityPane:Logo, AppDetailsPage:IdentityPane:Logo
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#logo Project#logo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#logo Project#logo}
   */
   readonly logo?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#os Project#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#os Project#os}
   */
   readonly os?: string;
   /**
   * UI map: AppEditPage:IdentityPane:Screenshot_Fields, AppDetailsPage:IdentityPane:Screenshot_Fields
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#screenshot_list Project#screenshot_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#screenshot_list Project#screenshot_list}
   */
   readonly screenshotList?: { [key: string]: string };
   /**
   * UI map: AppEditPage:DeveloperPane:Support_Description_Field, AppDetailsPage:DeveloperPane:Support_Description_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#support Project#support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#support Project#support}
   */
   readonly support?: string;
 }
@@ -9278,13 +9916,13 @@ export interface ProjectAppPolicyAppPolicyAppsManifestJsonImagesParams {
   /**
   * Name of the Parameter (Required)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#name Project#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#name Project#name}
   */
   readonly name?: string;
   /**
   * Value of the parameter (Required)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#value Project#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#value Project#value}
   */
   readonly value?: string;
 }
@@ -9431,77 +10069,77 @@ export interface ProjectAppPolicyAppPolicyAppsManifestJsonImages {
   /**
   * UI map: AppEditPage:DrivesPane:Cleartext, AppDetailsPage:DrivesPane:ClearText_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#cleartext Project#cleartext}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#cleartext Project#cleartext}
   */
   readonly cleartext?: boolean | cdktf.IResolvable;
   /**
   * UI map: AppEditPage:DrivesPane:Drive_Type_Field, AppDetailsPage:DrivesPane:Drive_Type_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#drvtype Project#drvtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#drvtype Project#drvtype}
   */
   readonly drvtype?: string;
   /**
   * UI map: AppEditPage:DrivesPane:Ignorepurge, AppDetailsPage:DrivesPane:Ignorepurgee_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#ignorepurge Project#ignorepurge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#ignorepurge Project#ignorepurge}
   */
   readonly ignorepurge?: boolean | cdktf.IResolvable;
   /**
   * UI map: AppEditPage:DrivesPane:Image_Format_Field, AppDetailsPage:DrivesPane:Image_Format_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#imageformat Project#imageformat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#imageformat Project#imageformat}
   */
   readonly imageformat?: string;
   /**
   * UI map: AppEditPage:DrivesPane:Image_ID_Field, AppDetailsPage:DrivesPane:Image_ID_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#imageid Project#imageid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#imageid Project#imageid}
   */
   readonly imageid?: string;
   /**
   * UI map: AppEditPage:DrivesPane:Image_Name_Field, AppDetailsPage:DrivesPane:Image_Name_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#imagename Project#imagename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#imagename Project#imagename}
   */
   readonly imagename?: string;
   /**
   * UI map: AppEditPage:DrivesPane:Max_Size_Field, AppDetailsPage:DrivesPane:Max_Size_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#maxsize Project#maxsize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#maxsize Project#maxsize}
   */
   readonly maxsize?: string;
   /**
   * UI map: AppEditPage:DrivesPane:Mountpath, AppDetailsPage:DrivesPane:Mountpath_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#mountpath Project#mountpath}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#mountpath Project#mountpath}
   */
   readonly mountpath?: string;
   /**
   * UI map: AppEditPage:DrivesPane:Preserve_Field, AppDetailsPage:DrivesPane:Preserve_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#preserve Project#preserve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#preserve Project#preserve}
   */
   readonly preserve?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#readonly Project#readonly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#readonly Project#readonly}
   */
   readonly readonly?: boolean | cdktf.IResolvable;
   /**
   * UI map: AppEditPage:DrivesPane:Target_Field, AppDetailsPage:DrivesPane:Target_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#target Project#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#target Project#target}
   */
   readonly target?: string;
   /**
   * UI map: AppEditPage:DrivesPane:Volume_Label, AppDetailsPage:DrivesPane:Volume_Label
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#volumelabel Project#volumelabel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#volumelabel Project#volumelabel}
   */
   readonly volumelabel?: string;
   /**
   * params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#params Project#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#params Project#params}
   */
   readonly params?: ProjectAppPolicyAppPolicyAppsManifestJsonImagesParams[] | cdktf.IResolvable;
 }
@@ -9967,19 +10605,19 @@ export interface ProjectAppPolicyAppPolicyAppsManifestJsonInterfacesAclsActionsL
   /**
   * UI map: AppDetailsPage:EnvironmentsPane, AppDetailsPage:EnvironmentsPane
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#limitburst Project#limitburst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#limitburst Project#limitburst}
   */
   readonly limitburst?: number;
   /**
   * UI map: AppDetailsPage:EnvironmentsPane, AppDetailsPage:EnvironmentsPane
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#limitrate Project#limitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#limitrate Project#limitrate}
   */
   readonly limitrate?: number;
   /**
   * UI map: AppDetailsPage:EnvironmentsPane, AppDetailsPage:EnvironmentsPane
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#limitunit Project#limitunit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#limitunit Project#limitunit}
   */
   readonly limitunit?: string;
 }
@@ -10155,7 +10793,7 @@ export interface ProjectAppPolicyAppPolicyAppsManifestJsonInterfacesAclsActionsP
   /**
   * Application Port value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#app_port Project#app_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#app_port Project#app_port}
   */
   readonly appPort?: number;
 }
@@ -10273,49 +10911,49 @@ export interface ProjectAppPolicyAppPolicyAppsManifestJsonInterfacesAclsActions 
   /**
   * Drop the packet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#drop Project#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#drop Project#drop}
   */
   readonly drop?: boolean | cdktf.IResolvable;
   /**
   * UI map: AppDetailsPage:EnvironmentsPane, AppDetailsPage:EnvironmentsPane
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#limit Project#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#limit Project#limit}
   */
   readonly limit?: boolean | cdktf.IResolvable;
   /**
   * UI map: AppDetailsPage:EnvironmentsPane, AppDetailsPage:EnvironmentsPane
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#limitburst Project#limitburst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#limitburst Project#limitburst}
   */
   readonly limitburst?: number;
   /**
   * UI map: AppDetailsPage:EnvironmentsPane, AppDetailsPage:EnvironmentsPane
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#limitrate Project#limitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#limitrate Project#limitrate}
   */
   readonly limitrate?: number;
   /**
   * UI map: AppDetailsPage:EnvironmentsPane, AppDetailsPage:EnvironmentsPane
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#limitunit Project#limitunit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#limitunit Project#limitunit}
   */
   readonly limitunit?: string;
   /**
   * UI map: AppDetailsPage:EnvironmentsPane, AppDetailsPage:EnvironmentsPane
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#portmap Project#portmap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#portmap Project#portmap}
   */
   readonly portmap?: boolean | cdktf.IResolvable;
   /**
   * limit_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#limit_value Project#limit_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#limit_value Project#limit_value}
   */
   readonly limitValue?: ProjectAppPolicyAppPolicyAppsManifestJsonInterfacesAclsActionsLimitValue[] | cdktf.IResolvable;
   /**
   * portmapto block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#portmapto Project#portmapto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#portmapto Project#portmapto}
   */
   readonly portmapto?: ProjectAppPolicyAppPolicyAppsManifestJsonInterfacesAclsActionsPortmapto[] | cdktf.IResolvable;
 }
@@ -10636,13 +11274,13 @@ export interface ProjectAppPolicyAppPolicyAppsManifestJsonInterfacesAclsMatches 
   /**
   * Type of Match (Required)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#type Project#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#type Project#type}
   */
   readonly type?: string;
   /**
   * Value of match (Required)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#value Project#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#value Project#value}
   */
   readonly value?: string;
 }
@@ -10789,19 +11427,19 @@ export interface ProjectAppPolicyAppPolicyAppsManifestJsonInterfacesAcls {
   /**
   * Name of the Access Control List
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#name Project#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#name Project#name}
   */
   readonly name?: string;
   /**
   * actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#actions Project#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#actions Project#actions}
   */
   readonly actions?: ProjectAppPolicyAppPolicyAppsManifestJsonInterfacesAclsActions[] | cdktf.IResolvable;
   /**
   * matches block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#matches Project#matches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#matches Project#matches}
   */
   readonly matches?: ProjectAppPolicyAppPolicyAppsManifestJsonInterfacesAclsMatches[] | cdktf.IResolvable;
 }
@@ -10977,37 +11615,37 @@ export interface ProjectAppPolicyAppPolicyAppsManifestJsonInterfaces {
   /**
   * If true, a physical adapter is assigned to the edge application directly. If false, a network instance is assigned to the edge application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#directattach Project#directattach}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#directattach Project#directattach}
   */
   readonly directattach?: boolean | cdktf.IResolvable;
   /**
   * Interface name used by the edge application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#name Project#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#name Project#name}
   */
   readonly name?: string;
   /**
   * Indicates if the interface is optional for edge application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#optional Project#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#optional Project#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
   * If true, DHCP network can't be assigned and user needs to provide a static IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#privateip Project#privateip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#privateip Project#privateip}
   */
   readonly privateip?: boolean | cdktf.IResolvable;
   /**
   * Physical Adapter type for this interface. Applicable only when "direct attach" flag is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#type Project#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#type Project#type}
   */
   readonly type?: string;
   /**
   * acls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#acls Project#acls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#acls Project#acls}
   */
   readonly acls?: ProjectAppPolicyAppPolicyAppsManifestJsonInterfacesAcls[] | cdktf.IResolvable;
 }
@@ -11270,25 +11908,25 @@ export interface ProjectAppPolicyAppPolicyAppsManifestJsonModule {
   /**
   * Extra information to module to make configuration easier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#environment Project#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#environment Project#environment}
   */
   readonly environment?: { [key: string]: string };
   /**
   * Type of modules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#module_type Project#module_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#module_type Project#module_type}
   */
   readonly moduleType?: string;
   /**
   * Send messages between modules or send messages from modules to iot hub
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#routes Project#routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#routes Project#routes}
   */
   readonly routes?: { [key: string]: string };
   /**
   * Base64 encoded module twin details, desired properties of the module will be updated to reflect these values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#twin_detail Project#twin_detail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#twin_detail Project#twin_detail}
   */
   readonly twinDetail?: string;
 }
@@ -11493,29 +12131,29 @@ export interface ProjectAppPolicyAppPolicyAppsManifestJsonOwner {
   /**
   * UI map: AppEditPage:IdentityPane:Category_Field, AppDetailsPage:IdentityPane:Category_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#company Project#company}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#company Project#company}
   */
   readonly company?: string;
   /**
   * UI map: AppEditPage:DeveloperPane:Email_Field, AppDetailsPage:DeveloperPane:Email_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#email Project#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#email Project#email}
   */
   readonly email?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#group Project#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#group Project#group}
   */
   readonly group?: string;
   /**
   * UI map: AppEditPage:DeveloperPane:Name_Field, AppDetailsPage:DeveloperPane:Name_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#user Project#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#user Project#user}
   */
   readonly user?: string;
   /**
   * UI map: AppEditPage:DeveloperPane:Website_Field, AppDetailsPage:DeveloperPane:Website_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#website Project#website}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#website Project#website}
   */
   readonly website?: string;
 }
@@ -11830,13 +12468,13 @@ export interface ProjectAppPolicyAppPolicyAppsManifestJsonResources {
   /**
   * Name of the Resource (Required)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#name Project#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#name Project#name}
   */
   readonly name?: string;
   /**
   * Value of Resource (Required)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#value Project#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#value Project#value}
   */
   readonly value?: string;
 }
@@ -11983,151 +12621,157 @@ export interface ProjectAppPolicyAppPolicyAppsManifestJson {
   /**
   * UI map: N/A - not exposed to users
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#ac_kind Project#ac_kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#ac_kind Project#ac_kind}
   */
   readonly acKind: string;
   /**
   * UI map: N/A - not exposed to users
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#ac_version Project#ac_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#ac_version Project#ac_version}
   */
   readonly acVersion: string;
   /**
   * App (bundle) type. The correct values are: "APP_TYPE_UNSPECIFIED","APP_TYPE_VM","APP_TYPE_VM_RUNTIME","APP_TYPE_CONTAINER","APP_TYPE_MODULE", "APP_TYPE_DOCKER_COMPOSE".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#app_type Project#app_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#app_type Project#app_type}
   */
   readonly appType?: string;
   /**
   * Enable CpuPinning
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#cpu_pinning_enabled Project#cpu_pinning_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#cpu_pinning_enabled Project#cpu_pinning_enabled}
   */
   readonly cpuPinningEnabled?: boolean | cdktf.IResolvable;
   /**
   * Deployment type for the app. The correct values are: "DEPLOYMENT_TYPE_UNSPECIFIED","DEPLOYMENT_TYPE_STAND_ALONE","DEPLOYMENT_TYPE_AZURE","DEPLOYMENT_TYPE_K3S","DEPLOYMENT_TYPE_AWS","DEPLOYMENT_TYPE_K3S_AZURE","DEPLOYMENT_TYPE_K3S_AWS","DEPLOYMENT_TYPE_VMWARE_VCE".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#deployment_type Project#deployment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#deployment_type Project#deployment_type}
   */
   readonly deploymentType?: string;
   /**
   * UI map: AppDetailsPage:IdentityPane:DescriptionField, AppMarketplacePage:AppCard:DescriptionField
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#description Project#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#description Project#description}
   */
   readonly description?: string;
   /**
+  * UI map: AppEditPage:IdentityPane:DISABLEVTPM_Field, AppDetailsPage:IdentityPane:DISABLEVTPM_Field
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#disable_v_t_p_m Project#disable_v_t_p_m}
+  */
+  readonly disableVTPM?: boolean | cdktf.IResolvable;
+  /**
   * UI map: AppEditPage:IdentityPane:Title_Field, AppDetailsPage:IdentityPane:Title_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#display_name Project#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#display_name Project#display_name}
   */
   readonly displayName?: string;
   /**
   * Docker compose tar image name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#docker_compose_tar_image_name Project#docker_compose_tar_image_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#docker_compose_tar_image_name Project#docker_compose_tar_image_name}
   */
   readonly dockerComposeTarImageName?: string;
   /**
   * Docker compose base64 encoded plain text
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#docker_compose_yaml_text Project#docker_compose_yaml_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#docker_compose_yaml_text Project#docker_compose_yaml_text}
   */
   readonly dockerComposeYamlText?: string;
   /**
   * UI map: AppEditPage:IdentityPane:ENABLEVMCONFIG_Field, AppDetailsPage:IdentityPane:ENABLEVMCONFIG_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#enable_oem_win_license_key Project#enable_oem_win_license_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#enable_oem_win_license_key Project#enable_oem_win_license_key}
   */
   readonly enableOemWinLicenseKey?: boolean | cdktf.IResolvable;
   /**
   * UI map: AppEditPage:IdentityPane:VNC_Field, AppDetailsPage:IdentityPane:VNC_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#enablevnc Project#enablevnc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#enablevnc Project#enablevnc}
   */
   readonly enablevnc?: boolean | cdktf.IResolvable;
   /**
   * UI map: AppEditPage:IdentityPane:Name_Field, AppDetailsPage:IdentityPane:Name_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#name Project#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#name Project#name}
   */
   readonly name: string;
   /**
   * Size of persistent blank storage for runtime in bytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#persistent_runtime_size_bytes Project#persistent_runtime_size_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#persistent_runtime_size_bytes Project#persistent_runtime_size_bytes}
   */
   readonly persistentRuntimeSizeBytes?: string;
   /**
   * Indicates the internal communication protocol to pass configuration between Zedcloud and docker-compose runtime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#runtime_protocol_version Project#runtime_protocol_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#runtime_protocol_version Project#runtime_protocol_version}
   */
   readonly runtimeProtocolVersion?: string;
   /**
   * Indicates the version of container orchestration software
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#runtime_version Project#runtime_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#runtime_version Project#runtime_version}
   */
   readonly runtimeVersion?: string;
   /**
   * UI map: AppEditPage:IdentityPane:VM_Mode_Field, AppDetailsPage:IdentityPane:VM_Mode_Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#vmmode Project#vmmode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#vmmode Project#vmmode}
   */
   readonly vmmode?: string;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#configuration Project#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#configuration Project#configuration}
   */
   readonly configuration?: ProjectAppPolicyAppPolicyAppsManifestJsonConfiguration[] | cdktf.IResolvable;
   /**
   * container_detail block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#container_detail Project#container_detail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#container_detail Project#container_detail}
   */
   readonly containerDetail?: ProjectAppPolicyAppPolicyAppsManifestJsonContainerDetail[] | cdktf.IResolvable;
   /**
   * desc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#desc Project#desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#desc Project#desc}
   */
   readonly desc?: ProjectAppPolicyAppPolicyAppsManifestJsonDesc[] | cdktf.IResolvable;
   /**
   * images block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#images Project#images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#images Project#images}
   */
   readonly images?: ProjectAppPolicyAppPolicyAppsManifestJsonImages[] | cdktf.IResolvable;
   /**
   * interfaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#interfaces Project#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#interfaces Project#interfaces}
   */
   readonly interfaces?: ProjectAppPolicyAppPolicyAppsManifestJsonInterfaces[] | cdktf.IResolvable;
   /**
   * module block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#module Project#module}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#module Project#module}
   */
   readonly module?: ProjectAppPolicyAppPolicyAppsManifestJsonModule[] | cdktf.IResolvable;
   /**
   * owner block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#owner Project#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#owner Project#owner}
   */
   readonly owner?: ProjectAppPolicyAppPolicyAppsManifestJsonOwner[] | cdktf.IResolvable;
   /**
   * permissions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#permissions Project#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#permissions Project#permissions}
   */
   readonly permissions?: ProjectAppPolicyAppPolicyAppsManifestJsonPermissions[] | cdktf.IResolvable;
   /**
   * resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#resources Project#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#resources Project#resources}
   */
   readonly resources?: ProjectAppPolicyAppPolicyAppsManifestJsonResources[] | cdktf.IResolvable;
 }
@@ -12144,6 +12788,7 @@ export function projectAppPolicyAppPolicyAppsManifestJsonToTerraform(struct?: Pr
     cpu_pinning_enabled: cdktf.booleanToTerraform(struct!.cpuPinningEnabled),
     deployment_type: cdktf.stringToTerraform(struct!.deploymentType),
     description: cdktf.stringToTerraform(struct!.description),
+    disable_v_t_p_m: cdktf.booleanToTerraform(struct!.disableVTPM),
     display_name: cdktf.stringToTerraform(struct!.displayName),
     docker_compose_tar_image_name: cdktf.stringToTerraform(struct!.dockerComposeTarImageName),
     docker_compose_yaml_text: cdktf.stringToTerraform(struct!.dockerComposeYamlText),
@@ -12208,6 +12853,12 @@ export function projectAppPolicyAppPolicyAppsManifestJsonToHclTerraform(struct?:
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    disable_v_t_p_m: {
+      value: cdktf.booleanToHclTerraform(struct!.disableVTPM),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
     },
     display_name: {
       value: cdktf.stringToHclTerraform(struct!.displayName),
@@ -12373,6 +13024,10 @@ export class ProjectAppPolicyAppPolicyAppsManifestJsonOutputReference extends cd
       hasAnyValues = true;
       internalValueResult.description = this._description;
     }
+    if (this._disableVTPM !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.disableVTPM = this._disableVTPM;
+    }
     if (this._displayName !== undefined) {
       hasAnyValues = true;
       internalValueResult.displayName = this._displayName;
@@ -12462,6 +13117,7 @@ export class ProjectAppPolicyAppPolicyAppsManifestJsonOutputReference extends cd
       this._cpuPinningEnabled = undefined;
       this._deploymentType = undefined;
       this._description = undefined;
+      this._disableVTPM = undefined;
       this._displayName = undefined;
       this._dockerComposeTarImageName = undefined;
       this._dockerComposeYamlText = undefined;
@@ -12495,6 +13151,7 @@ export class ProjectAppPolicyAppPolicyAppsManifestJsonOutputReference extends cd
       this._cpuPinningEnabled = value.cpuPinningEnabled;
       this._deploymentType = value.deploymentType;
       this._description = value.description;
+      this._disableVTPM = value.disableVTPM;
       this._displayName = value.displayName;
       this._dockerComposeTarImageName = value.dockerComposeTarImageName;
       this._dockerComposeYamlText = value.dockerComposeYamlText;
@@ -12605,6 +13262,22 @@ export class ProjectAppPolicyAppPolicyAppsManifestJsonOutputReference extends cd
   // Temporarily expose input value. Use with caution.
   public get descriptionInput() {
     return this._description;
+  }
+
+  // disable_v_t_p_m - computed: false, optional: true, required: false
+  private _disableVTPM?: boolean | cdktf.IResolvable; 
+  public get disableVTPM() {
+    return this.getBooleanAttribute('disable_v_t_p_m');
+  }
+  public set disableVTPM(value: boolean | cdktf.IResolvable) {
+    this._disableVTPM = value;
+  }
+  public resetDisableVTPM() {
+    this._disableVTPM = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get disableVTPMInput() {
+    return this._disableVTPM;
   }
 
   // display_name - computed: false, optional: true, required: false
@@ -12932,13 +13605,13 @@ export interface ProjectAppPolicyAppPolicyAppsParentDetail {
   /**
   * Relation with child and parent object exists or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#reference_exists Project#reference_exists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#reference_exists Project#reference_exists}
   */
   readonly referenceExists?: boolean | cdktf.IResolvable;
   /**
   * Update required flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#update_available Project#update_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#update_available Project#update_available}
   */
   readonly updateAvailable?: boolean | cdktf.IResolvable;
 }
@@ -13095,109 +13768,109 @@ export interface ProjectAppPolicyAppPolicyApps {
   /**
   * User defined name of the edge app, unique across the enterprise. Once app name is created, name can’t be changed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#app_id Project#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#app_id Project#app_id}
   */
   readonly appId?: string;
   /**
   * Current version of the attached bundle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#app_version Project#app_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#app_version Project#app_version}
   */
   readonly appVersion?: string;
   /**
   * user defined cpus for bundle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#cpus Project#cpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#cpus Project#cpus}
   */
   readonly cpus: number;
   /**
   * Detailed description of the edge application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#description Project#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#description Project#description}
   */
   readonly description?: string;
   /**
   * user defined memory for bundle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#memory Project#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#memory Project#memory}
   */
   readonly memory: number;
   /**
   * User defined name of the edge application, unique across the enterprise. Once object is created, name can’t be changed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#name Project#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#name Project#name}
   */
   readonly name: string;
   /**
   * User provided name part  for the auto deployed app
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#name_app_part Project#name_app_part}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#name_app_part Project#name_app_part}
   */
   readonly nameAppPart?: string;
   /**
   * User provided name part  for the auto deployed app
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#name_project_part Project#name_project_part}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#name_project_part Project#name_project_part}
   */
   readonly nameProjectPart?: string;
   /**
   * app naming scheme
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#naming_scheme Project#naming_scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#naming_scheme Project#naming_scheme}
   */
   readonly namingScheme?: string;
   /**
   * user defined network options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#networks Project#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#networks Project#networks}
   */
   readonly networks: number;
   /**
   * origin of object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#origin_type Project#origin_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#origin_type Project#origin_type}
   */
   readonly originType: string;
   /**
   * start delay is the time in seconds EVE should wait after boot before starting the application instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#start_delay_in_seconds Project#start_delay_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#start_delay_in_seconds Project#start_delay_in_seconds}
   */
   readonly startDelayInSeconds?: number;
   /**
   * user defined storage for bundle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#storage Project#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#storage Project#storage}
   */
   readonly storage?: number;
   /**
   * Tags are name/value pairs that enable you to categorize resources. Tag names are case insensitive with max_length 512 and min_length 3. Tag values are case sensitive with max_length 256 and min_length 3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#tags Project#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#tags Project#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * User defined title of the edge application. Title can be changed at any time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#title Project#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#title Project#title}
   */
   readonly title: string;
   /**
   * interfaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#interfaces Project#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#interfaces Project#interfaces}
   */
   readonly interfaces?: ProjectAppPolicyAppPolicyAppsInterfaces[] | cdktf.IResolvable;
   /**
   * manifest_json block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#manifest_json Project#manifest_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#manifest_json Project#manifest_json}
   */
   readonly manifestJson?: ProjectAppPolicyAppPolicyAppsManifestJson[] | cdktf.IResolvable;
   /**
   * parent_detail block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#parent_detail Project#parent_detail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#parent_detail Project#parent_detail}
   */
   readonly parentDetail?: ProjectAppPolicyAppPolicyAppsParentDetail[] | cdktf.IResolvable;
 }
@@ -13800,7 +14473,7 @@ export interface ProjectAppPolicyAppPolicy {
   /**
   * apps block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#apps Project#apps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#apps Project#apps}
   */
   readonly apps: ProjectAppPolicyAppPolicyApps[] | cdktf.IResolvable;
 }
@@ -13915,7 +14588,7 @@ export interface ProjectAppPolicyAttestationPolicy {
   /**
   * Attestation policy type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#type Project#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#type Project#type}
   */
   readonly type: string;
 }
@@ -14033,7 +14706,7 @@ export class ProjectAppPolicyAttestationPolicyList extends cdktf.ComplexList {
 }
 export interface ProjectAppPolicyAzurePolicyAzureResourceAndServicesDpsServiceEnrollmentCertificateEnrollmentGroupCertificateEnrollment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#group_name Project#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#group_name Project#group_name}
   */
   readonly groupName?: string;
 }
@@ -14149,17 +14822,17 @@ export class ProjectAppPolicyAzurePolicyAzureResourceAndServicesDpsServiceEnroll
 }
 export interface ProjectAppPolicyAzurePolicyAzureResourceAndServicesDpsServiceEnrollmentCertificateEnrollment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#individual_certificate_enrollment Project#individual_certificate_enrollment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#individual_certificate_enrollment Project#individual_certificate_enrollment}
   */
   readonly individualCertificateEnrollment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#type Project#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#type Project#type}
   */
   readonly type?: string;
   /**
   * group_certificate_enrollment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#group_certificate_enrollment Project#group_certificate_enrollment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#group_certificate_enrollment Project#group_certificate_enrollment}
   */
   readonly groupCertificateEnrollment?: ProjectAppPolicyAzurePolicyAzureResourceAndServicesDpsServiceEnrollmentCertificateEnrollmentGroupCertificateEnrollment[] | cdktf.IResolvable;
 }
@@ -14333,7 +15006,7 @@ export class ProjectAppPolicyAzurePolicyAzureResourceAndServicesDpsServiceEnroll
 }
 export interface ProjectAppPolicyAzurePolicyAzureResourceAndServicesDpsServiceEnrollmentSymmetricKeyEnrollmentGroupSymmetricKeyEnrollment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#group_name Project#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#group_name Project#group_name}
   */
   readonly groupName?: string;
 }
@@ -14449,7 +15122,7 @@ export class ProjectAppPolicyAzurePolicyAzureResourceAndServicesDpsServiceEnroll
 }
 export interface ProjectAppPolicyAzurePolicyAzureResourceAndServicesDpsServiceEnrollmentSymmetricKeyEnrollmentIndividualSymmetricKeyEnrollment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#registration_id Project#registration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#registration_id Project#registration_id}
   */
   readonly registrationId?: string;
 }
@@ -14565,19 +15238,19 @@ export class ProjectAppPolicyAzurePolicyAzureResourceAndServicesDpsServiceEnroll
 }
 export interface ProjectAppPolicyAzurePolicyAzureResourceAndServicesDpsServiceEnrollmentSymmetricKeyEnrollment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#type Project#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#type Project#type}
   */
   readonly type?: string;
   /**
   * group_symmetric_key_enrollment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#group_symmetric_key_enrollment Project#group_symmetric_key_enrollment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#group_symmetric_key_enrollment Project#group_symmetric_key_enrollment}
   */
   readonly groupSymmetricKeyEnrollment?: ProjectAppPolicyAzurePolicyAzureResourceAndServicesDpsServiceEnrollmentSymmetricKeyEnrollmentGroupSymmetricKeyEnrollment[] | cdktf.IResolvable;
   /**
   * individual_symmetric_key_enrollment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#individual_symmetric_key_enrollment Project#individual_symmetric_key_enrollment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#individual_symmetric_key_enrollment Project#individual_symmetric_key_enrollment}
   */
   readonly individualSymmetricKeyEnrollment?: ProjectAppPolicyAzurePolicyAzureResourceAndServicesDpsServiceEnrollmentSymmetricKeyEnrollmentIndividualSymmetricKeyEnrollment[] | cdktf.IResolvable;
 }
@@ -14751,7 +15424,7 @@ export class ProjectAppPolicyAzurePolicyAzureResourceAndServicesDpsServiceEnroll
 }
 export interface ProjectAppPolicyAzurePolicyAzureResourceAndServicesDpsServiceEnrollmentTpmEnrollment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#type Project#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#type Project#type}
   */
   readonly type?: string;
 }
@@ -14867,41 +15540,41 @@ export class ProjectAppPolicyAzurePolicyAzureResourceAndServicesDpsServiceEnroll
 }
 export interface ProjectAppPolicyAzurePolicyAzureResourceAndServicesDpsServiceEnrollment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#allocation_policy Project#allocation_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#allocation_policy Project#allocation_policy}
   */
   readonly allocationPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#attached_iot_hubs_name Project#attached_iot_hubs_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#attached_iot_hubs_name Project#attached_iot_hubs_name}
   */
   readonly attachedIotHubsName?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#enable_iot_edge_device Project#enable_iot_edge_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#enable_iot_edge_device Project#enable_iot_edge_device}
   */
   readonly enableIotEdgeDevice?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#mechanism Project#mechanism}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#mechanism Project#mechanism}
   */
   readonly mechanism?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#tags Project#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#tags Project#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * certificate_enrollment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#certificate_enrollment Project#certificate_enrollment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#certificate_enrollment Project#certificate_enrollment}
   */
   readonly certificateEnrollment?: ProjectAppPolicyAzurePolicyAzureResourceAndServicesDpsServiceEnrollmentCertificateEnrollment[] | cdktf.IResolvable;
   /**
   * symmetric_key_enrollment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#symmetric_key_enrollment Project#symmetric_key_enrollment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#symmetric_key_enrollment Project#symmetric_key_enrollment}
   */
   readonly symmetricKeyEnrollment?: ProjectAppPolicyAzurePolicyAzureResourceAndServicesDpsServiceEnrollmentSymmetricKeyEnrollment[] | cdktf.IResolvable;
   /**
   * tpm_enrollment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#tpm_enrollment Project#tpm_enrollment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#tpm_enrollment Project#tpm_enrollment}
   */
   readonly tpmEnrollment?: ProjectAppPolicyAzurePolicyAzureResourceAndServicesDpsServiceEnrollmentTpmEnrollment[] | cdktf.IResolvable;
 }
@@ -15220,15 +15893,15 @@ export class ProjectAppPolicyAzurePolicyAzureResourceAndServicesDpsServiceEnroll
 }
 export interface ProjectAppPolicyAzurePolicyAzureResourceAndServicesDpsServiceServiceDetailSKU {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#capacity Project#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#capacity Project#capacity}
   */
   readonly capacity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#name Project#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#name Project#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#tier Project#tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#tier Project#tier}
   */
   readonly tier?: string;
 }
@@ -15402,29 +16075,29 @@ export class ProjectAppPolicyAzurePolicyAzureResourceAndServicesDpsServiceServic
 }
 export interface ProjectAppPolicyAzurePolicyAzureResourceAndServicesDpsServiceServiceDetail {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#create_by_default Project#create_by_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#create_by_default Project#create_by_default}
   */
   readonly createByDefault?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#name Project#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#name Project#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#region Project#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#region Project#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#resource_group_name Project#resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#resource_group_name Project#resource_group_name}
   */
   readonly resourceGroupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#subscription_id Project#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#subscription_id Project#subscription_id}
   */
   readonly subscriptionId?: string;
   /**
   * s_k_u block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#s_k_u Project#s_k_u}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/project#s_k_u Project#s_k_u}
   */
   readonly sKU?: ProjectAppPolicyAzurePolicyAzureResourceAndServicesDpsServiceServiceDetailSKU[] | cdktf.IResolvable;
 }
@@ -15681,1102 +16354,5 @@ export class ProjectAppPolicyAzurePolicyAzureResourceAndServicesDpsServiceServic
   */
   public get(index: number): ProjectAppPolicyAzurePolicyAzureResourceAndServicesDpsServiceServiceDetailOutputReference {
     return new ProjectAppPolicyAzurePolicyAzureResourceAndServicesDpsServiceServiceDetailOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface ProjectAppPolicyAzurePolicyAzureResourceAndServicesDpsService {
-  /**
-  * enrollment block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#enrollment Project#enrollment}
-  */
-  readonly enrollment?: ProjectAppPolicyAzurePolicyAzureResourceAndServicesDpsServiceEnrollment[] | cdktf.IResolvable;
-  /**
-  * service_detail block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#service_detail Project#service_detail}
-  */
-  readonly serviceDetail?: ProjectAppPolicyAzurePolicyAzureResourceAndServicesDpsServiceServiceDetail[] | cdktf.IResolvable;
-}
-
-export function projectAppPolicyAzurePolicyAzureResourceAndServicesDpsServiceToTerraform(struct?: ProjectAppPolicyAzurePolicyAzureResourceAndServicesDpsService | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    enrollment: cdktf.listMapper(projectAppPolicyAzurePolicyAzureResourceAndServicesDpsServiceEnrollmentToTerraform, true)(struct!.enrollment),
-    service_detail: cdktf.listMapper(projectAppPolicyAzurePolicyAzureResourceAndServicesDpsServiceServiceDetailToTerraform, true)(struct!.serviceDetail),
-  }
-}
-
-
-export function projectAppPolicyAzurePolicyAzureResourceAndServicesDpsServiceToHclTerraform(struct?: ProjectAppPolicyAzurePolicyAzureResourceAndServicesDpsService | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    enrollment: {
-      value: cdktf.listMapperHcl(projectAppPolicyAzurePolicyAzureResourceAndServicesDpsServiceEnrollmentToHclTerraform, true)(struct!.enrollment),
-      isBlock: true,
-      type: "list",
-      storageClassType: "ProjectAppPolicyAzurePolicyAzureResourceAndServicesDpsServiceEnrollmentList",
-    },
-    service_detail: {
-      value: cdktf.listMapperHcl(projectAppPolicyAzurePolicyAzureResourceAndServicesDpsServiceServiceDetailToHclTerraform, true)(struct!.serviceDetail),
-      isBlock: true,
-      type: "list",
-      storageClassType: "ProjectAppPolicyAzurePolicyAzureResourceAndServicesDpsServiceServiceDetailList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class ProjectAppPolicyAzurePolicyAzureResourceAndServicesDpsServiceOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): ProjectAppPolicyAzurePolicyAzureResourceAndServicesDpsService | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._enrollment?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.enrollment = this._enrollment?.internalValue;
-    }
-    if (this._serviceDetail?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.serviceDetail = this._serviceDetail?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: ProjectAppPolicyAzurePolicyAzureResourceAndServicesDpsService | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._enrollment.internalValue = undefined;
-      this._serviceDetail.internalValue = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._enrollment.internalValue = value.enrollment;
-      this._serviceDetail.internalValue = value.serviceDetail;
-    }
-  }
-
-  // enrollment - computed: false, optional: true, required: false
-  private _enrollment = new ProjectAppPolicyAzurePolicyAzureResourceAndServicesDpsServiceEnrollmentList(this, "enrollment", false);
-  public get enrollment() {
-    return this._enrollment;
-  }
-  public putEnrollment(value: ProjectAppPolicyAzurePolicyAzureResourceAndServicesDpsServiceEnrollment[] | cdktf.IResolvable) {
-    this._enrollment.internalValue = value;
-  }
-  public resetEnrollment() {
-    this._enrollment.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get enrollmentInput() {
-    return this._enrollment.internalValue;
-  }
-
-  // service_detail - computed: false, optional: true, required: false
-  private _serviceDetail = new ProjectAppPolicyAzurePolicyAzureResourceAndServicesDpsServiceServiceDetailList(this, "service_detail", false);
-  public get serviceDetail() {
-    return this._serviceDetail;
-  }
-  public putServiceDetail(value: ProjectAppPolicyAzurePolicyAzureResourceAndServicesDpsServiceServiceDetail[] | cdktf.IResolvable) {
-    this._serviceDetail.internalValue = value;
-  }
-  public resetServiceDetail() {
-    this._serviceDetail.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get serviceDetailInput() {
-    return this._serviceDetail.internalValue;
-  }
-}
-
-export class ProjectAppPolicyAzurePolicyAzureResourceAndServicesDpsServiceList extends cdktf.ComplexList {
-  public internalValue? : ProjectAppPolicyAzurePolicyAzureResourceAndServicesDpsService[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): ProjectAppPolicyAzurePolicyAzureResourceAndServicesDpsServiceOutputReference {
-    return new ProjectAppPolicyAzurePolicyAzureResourceAndServicesDpsServiceOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface ProjectAppPolicyAzurePolicyAzureResourceAndServicesIotHubServiceServiceDetailSKU {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#capacity Project#capacity}
-  */
-  readonly capacity?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#name Project#name}
-  */
-  readonly name?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#tier Project#tier}
-  */
-  readonly tier?: string;
-}
-
-export function projectAppPolicyAzurePolicyAzureResourceAndServicesIotHubServiceServiceDetailSKUToTerraform(struct?: ProjectAppPolicyAzurePolicyAzureResourceAndServicesIotHubServiceServiceDetailSKU | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    capacity: cdktf.stringToTerraform(struct!.capacity),
-    name: cdktf.stringToTerraform(struct!.name),
-    tier: cdktf.stringToTerraform(struct!.tier),
-  }
-}
-
-
-export function projectAppPolicyAzurePolicyAzureResourceAndServicesIotHubServiceServiceDetailSKUToHclTerraform(struct?: ProjectAppPolicyAzurePolicyAzureResourceAndServicesIotHubServiceServiceDetailSKU | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    capacity: {
-      value: cdktf.stringToHclTerraform(struct!.capacity),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    tier: {
-      value: cdktf.stringToHclTerraform(struct!.tier),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class ProjectAppPolicyAzurePolicyAzureResourceAndServicesIotHubServiceServiceDetailSKUOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): ProjectAppPolicyAzurePolicyAzureResourceAndServicesIotHubServiceServiceDetailSKU | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._capacity !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.capacity = this._capacity;
-    }
-    if (this._name !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.name = this._name;
-    }
-    if (this._tier !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.tier = this._tier;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: ProjectAppPolicyAzurePolicyAzureResourceAndServicesIotHubServiceServiceDetailSKU | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._capacity = undefined;
-      this._name = undefined;
-      this._tier = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._capacity = value.capacity;
-      this._name = value.name;
-      this._tier = value.tier;
-    }
-  }
-
-  // capacity - computed: false, optional: true, required: false
-  private _capacity?: string; 
-  public get capacity() {
-    return this.getStringAttribute('capacity');
-  }
-  public set capacity(value: string) {
-    this._capacity = value;
-  }
-  public resetCapacity() {
-    this._capacity = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get capacityInput() {
-    return this._capacity;
-  }
-
-  // name - computed: false, optional: true, required: false
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  public resetName() {
-    this._name = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
-  }
-
-  // tier - computed: false, optional: true, required: false
-  private _tier?: string; 
-  public get tier() {
-    return this.getStringAttribute('tier');
-  }
-  public set tier(value: string) {
-    this._tier = value;
-  }
-  public resetTier() {
-    this._tier = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get tierInput() {
-    return this._tier;
-  }
-}
-
-export class ProjectAppPolicyAzurePolicyAzureResourceAndServicesIotHubServiceServiceDetailSKUList extends cdktf.ComplexList {
-  public internalValue? : ProjectAppPolicyAzurePolicyAzureResourceAndServicesIotHubServiceServiceDetailSKU[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): ProjectAppPolicyAzurePolicyAzureResourceAndServicesIotHubServiceServiceDetailSKUOutputReference {
-    return new ProjectAppPolicyAzurePolicyAzureResourceAndServicesIotHubServiceServiceDetailSKUOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface ProjectAppPolicyAzurePolicyAzureResourceAndServicesIotHubServiceServiceDetail {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#create_by_default Project#create_by_default}
-  */
-  readonly createByDefault?: boolean | cdktf.IResolvable;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#name Project#name}
-  */
-  readonly name?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#region Project#region}
-  */
-  readonly region?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#resource_group_name Project#resource_group_name}
-  */
-  readonly resourceGroupName?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#subscription_id Project#subscription_id}
-  */
-  readonly subscriptionId?: string;
-  /**
-  * s_k_u block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#s_k_u Project#s_k_u}
-  */
-  readonly sKU?: ProjectAppPolicyAzurePolicyAzureResourceAndServicesIotHubServiceServiceDetailSKU[] | cdktf.IResolvable;
-}
-
-export function projectAppPolicyAzurePolicyAzureResourceAndServicesIotHubServiceServiceDetailToTerraform(struct?: ProjectAppPolicyAzurePolicyAzureResourceAndServicesIotHubServiceServiceDetail | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    create_by_default: cdktf.booleanToTerraform(struct!.createByDefault),
-    name: cdktf.stringToTerraform(struct!.name),
-    region: cdktf.stringToTerraform(struct!.region),
-    resource_group_name: cdktf.stringToTerraform(struct!.resourceGroupName),
-    subscription_id: cdktf.stringToTerraform(struct!.subscriptionId),
-    s_k_u: cdktf.listMapper(projectAppPolicyAzurePolicyAzureResourceAndServicesIotHubServiceServiceDetailSKUToTerraform, true)(struct!.sKU),
-  }
-}
-
-
-export function projectAppPolicyAzurePolicyAzureResourceAndServicesIotHubServiceServiceDetailToHclTerraform(struct?: ProjectAppPolicyAzurePolicyAzureResourceAndServicesIotHubServiceServiceDetail | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    create_by_default: {
-      value: cdktf.booleanToHclTerraform(struct!.createByDefault),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-    name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    region: {
-      value: cdktf.stringToHclTerraform(struct!.region),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    resource_group_name: {
-      value: cdktf.stringToHclTerraform(struct!.resourceGroupName),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    subscription_id: {
-      value: cdktf.stringToHclTerraform(struct!.subscriptionId),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    s_k_u: {
-      value: cdktf.listMapperHcl(projectAppPolicyAzurePolicyAzureResourceAndServicesIotHubServiceServiceDetailSKUToHclTerraform, true)(struct!.sKU),
-      isBlock: true,
-      type: "list",
-      storageClassType: "ProjectAppPolicyAzurePolicyAzureResourceAndServicesIotHubServiceServiceDetailSKUList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class ProjectAppPolicyAzurePolicyAzureResourceAndServicesIotHubServiceServiceDetailOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): ProjectAppPolicyAzurePolicyAzureResourceAndServicesIotHubServiceServiceDetail | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._createByDefault !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.createByDefault = this._createByDefault;
-    }
-    if (this._name !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.name = this._name;
-    }
-    if (this._region !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.region = this._region;
-    }
-    if (this._resourceGroupName !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.resourceGroupName = this._resourceGroupName;
-    }
-    if (this._subscriptionId !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.subscriptionId = this._subscriptionId;
-    }
-    if (this._sKU?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.sKU = this._sKU?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: ProjectAppPolicyAzurePolicyAzureResourceAndServicesIotHubServiceServiceDetail | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._createByDefault = undefined;
-      this._name = undefined;
-      this._region = undefined;
-      this._resourceGroupName = undefined;
-      this._subscriptionId = undefined;
-      this._sKU.internalValue = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._createByDefault = value.createByDefault;
-      this._name = value.name;
-      this._region = value.region;
-      this._resourceGroupName = value.resourceGroupName;
-      this._subscriptionId = value.subscriptionId;
-      this._sKU.internalValue = value.sKU;
-    }
-  }
-
-  // create_by_default - computed: false, optional: true, required: false
-  private _createByDefault?: boolean | cdktf.IResolvable; 
-  public get createByDefault() {
-    return this.getBooleanAttribute('create_by_default');
-  }
-  public set createByDefault(value: boolean | cdktf.IResolvable) {
-    this._createByDefault = value;
-  }
-  public resetCreateByDefault() {
-    this._createByDefault = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get createByDefaultInput() {
-    return this._createByDefault;
-  }
-
-  // name - computed: false, optional: true, required: false
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  public resetName() {
-    this._name = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
-  }
-
-  // region - computed: false, optional: true, required: false
-  private _region?: string; 
-  public get region() {
-    return this.getStringAttribute('region');
-  }
-  public set region(value: string) {
-    this._region = value;
-  }
-  public resetRegion() {
-    this._region = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get regionInput() {
-    return this._region;
-  }
-
-  // resource_group_name - computed: false, optional: true, required: false
-  private _resourceGroupName?: string; 
-  public get resourceGroupName() {
-    return this.getStringAttribute('resource_group_name');
-  }
-  public set resourceGroupName(value: string) {
-    this._resourceGroupName = value;
-  }
-  public resetResourceGroupName() {
-    this._resourceGroupName = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get resourceGroupNameInput() {
-    return this._resourceGroupName;
-  }
-
-  // subscription_id - computed: false, optional: true, required: false
-  private _subscriptionId?: string; 
-  public get subscriptionId() {
-    return this.getStringAttribute('subscription_id');
-  }
-  public set subscriptionId(value: string) {
-    this._subscriptionId = value;
-  }
-  public resetSubscriptionId() {
-    this._subscriptionId = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get subscriptionIdInput() {
-    return this._subscriptionId;
-  }
-
-  // s_k_u - computed: false, optional: true, required: false
-  private _sKU = new ProjectAppPolicyAzurePolicyAzureResourceAndServicesIotHubServiceServiceDetailSKUList(this, "s_k_u", false);
-  public get sKU() {
-    return this._sKU;
-  }
-  public putSKU(value: ProjectAppPolicyAzurePolicyAzureResourceAndServicesIotHubServiceServiceDetailSKU[] | cdktf.IResolvable) {
-    this._sKU.internalValue = value;
-  }
-  public resetSKU() {
-    this._sKU.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get sKUInput() {
-    return this._sKU.internalValue;
-  }
-}
-
-export class ProjectAppPolicyAzurePolicyAzureResourceAndServicesIotHubServiceServiceDetailList extends cdktf.ComplexList {
-  public internalValue? : ProjectAppPolicyAzurePolicyAzureResourceAndServicesIotHubServiceServiceDetail[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): ProjectAppPolicyAzurePolicyAzureResourceAndServicesIotHubServiceServiceDetailOutputReference {
-    return new ProjectAppPolicyAzurePolicyAzureResourceAndServicesIotHubServiceServiceDetailOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface ProjectAppPolicyAzurePolicyAzureResourceAndServicesIotHubService {
-  /**
-  * service_detail block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#service_detail Project#service_detail}
-  */
-  readonly serviceDetail?: ProjectAppPolicyAzurePolicyAzureResourceAndServicesIotHubServiceServiceDetail[] | cdktf.IResolvable;
-}
-
-export function projectAppPolicyAzurePolicyAzureResourceAndServicesIotHubServiceToTerraform(struct?: ProjectAppPolicyAzurePolicyAzureResourceAndServicesIotHubService | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    service_detail: cdktf.listMapper(projectAppPolicyAzurePolicyAzureResourceAndServicesIotHubServiceServiceDetailToTerraform, true)(struct!.serviceDetail),
-  }
-}
-
-
-export function projectAppPolicyAzurePolicyAzureResourceAndServicesIotHubServiceToHclTerraform(struct?: ProjectAppPolicyAzurePolicyAzureResourceAndServicesIotHubService | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    service_detail: {
-      value: cdktf.listMapperHcl(projectAppPolicyAzurePolicyAzureResourceAndServicesIotHubServiceServiceDetailToHclTerraform, true)(struct!.serviceDetail),
-      isBlock: true,
-      type: "list",
-      storageClassType: "ProjectAppPolicyAzurePolicyAzureResourceAndServicesIotHubServiceServiceDetailList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class ProjectAppPolicyAzurePolicyAzureResourceAndServicesIotHubServiceOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): ProjectAppPolicyAzurePolicyAzureResourceAndServicesIotHubService | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._serviceDetail?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.serviceDetail = this._serviceDetail?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: ProjectAppPolicyAzurePolicyAzureResourceAndServicesIotHubService | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._serviceDetail.internalValue = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._serviceDetail.internalValue = value.serviceDetail;
-    }
-  }
-
-  // service_detail - computed: false, optional: true, required: false
-  private _serviceDetail = new ProjectAppPolicyAzurePolicyAzureResourceAndServicesIotHubServiceServiceDetailList(this, "service_detail", false);
-  public get serviceDetail() {
-    return this._serviceDetail;
-  }
-  public putServiceDetail(value: ProjectAppPolicyAzurePolicyAzureResourceAndServicesIotHubServiceServiceDetail[] | cdktf.IResolvable) {
-    this._serviceDetail.internalValue = value;
-  }
-  public resetServiceDetail() {
-    this._serviceDetail.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get serviceDetailInput() {
-    return this._serviceDetail.internalValue;
-  }
-}
-
-export class ProjectAppPolicyAzurePolicyAzureResourceAndServicesIotHubServiceList extends cdktf.ComplexList {
-  public internalValue? : ProjectAppPolicyAzurePolicyAzureResourceAndServicesIotHubService[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): ProjectAppPolicyAzurePolicyAzureResourceAndServicesIotHubServiceOutputReference {
-    return new ProjectAppPolicyAzurePolicyAzureResourceAndServicesIotHubServiceOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface ProjectAppPolicyAzurePolicyAzureResourceAndServicesResourceGroup {
-  /**
-  * resource group name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#name Project#name}
-  */
-  readonly name: string;
-  /**
-  * resource group region
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#region Project#region}
-  */
-  readonly region?: string;
-  /**
-  * azure subscription id to which resource group is attached
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#subscription_id Project#subscription_id}
-  */
-  readonly subscriptionId: string;
-}
-
-export function projectAppPolicyAzurePolicyAzureResourceAndServicesResourceGroupToTerraform(struct?: ProjectAppPolicyAzurePolicyAzureResourceAndServicesResourceGroup | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    name: cdktf.stringToTerraform(struct!.name),
-    region: cdktf.stringToTerraform(struct!.region),
-    subscription_id: cdktf.stringToTerraform(struct!.subscriptionId),
-  }
-}
-
-
-export function projectAppPolicyAzurePolicyAzureResourceAndServicesResourceGroupToHclTerraform(struct?: ProjectAppPolicyAzurePolicyAzureResourceAndServicesResourceGroup | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    region: {
-      value: cdktf.stringToHclTerraform(struct!.region),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    subscription_id: {
-      value: cdktf.stringToHclTerraform(struct!.subscriptionId),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class ProjectAppPolicyAzurePolicyAzureResourceAndServicesResourceGroupOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): ProjectAppPolicyAzurePolicyAzureResourceAndServicesResourceGroup | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._name !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.name = this._name;
-    }
-    if (this._region !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.region = this._region;
-    }
-    if (this._subscriptionId !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.subscriptionId = this._subscriptionId;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: ProjectAppPolicyAzurePolicyAzureResourceAndServicesResourceGroup | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._name = undefined;
-      this._region = undefined;
-      this._subscriptionId = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._name = value.name;
-      this._region = value.region;
-      this._subscriptionId = value.subscriptionId;
-    }
-  }
-
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
-  }
-
-  // region - computed: false, optional: true, required: false
-  private _region?: string; 
-  public get region() {
-    return this.getStringAttribute('region');
-  }
-  public set region(value: string) {
-    this._region = value;
-  }
-  public resetRegion() {
-    this._region = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get regionInput() {
-    return this._region;
-  }
-
-  // subscription_id - computed: false, optional: false, required: true
-  private _subscriptionId?: string; 
-  public get subscriptionId() {
-    return this.getStringAttribute('subscription_id');
-  }
-  public set subscriptionId(value: string) {
-    this._subscriptionId = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get subscriptionIdInput() {
-    return this._subscriptionId;
-  }
-}
-
-export class ProjectAppPolicyAzurePolicyAzureResourceAndServicesResourceGroupList extends cdktf.ComplexList {
-  public internalValue? : ProjectAppPolicyAzurePolicyAzureResourceAndServicesResourceGroup[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): ProjectAppPolicyAzurePolicyAzureResourceAndServicesResourceGroupOutputReference {
-    return new ProjectAppPolicyAzurePolicyAzureResourceAndServicesResourceGroupOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface ProjectAppPolicyAzurePolicyAzureResourceAndServices {
-  /**
-  * dps_service block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#dps_service Project#dps_service}
-  */
-  readonly dpsService: ProjectAppPolicyAzurePolicyAzureResourceAndServicesDpsService[] | cdktf.IResolvable;
-  /**
-  * iot_hub_service block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#iot_hub_service Project#iot_hub_service}
-  */
-  readonly iotHubService: ProjectAppPolicyAzurePolicyAzureResourceAndServicesIotHubService[] | cdktf.IResolvable;
-  /**
-  * resource_group block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/project#resource_group Project#resource_group}
-  */
-  readonly resourceGroup: ProjectAppPolicyAzurePolicyAzureResourceAndServicesResourceGroup[] | cdktf.IResolvable;
-}
-
-export function projectAppPolicyAzurePolicyAzureResourceAndServicesToTerraform(struct?: ProjectAppPolicyAzurePolicyAzureResourceAndServices | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    dps_service: cdktf.listMapper(projectAppPolicyAzurePolicyAzureResourceAndServicesDpsServiceToTerraform, true)(struct!.dpsService),
-    iot_hub_service: cdktf.listMapper(projectAppPolicyAzurePolicyAzureResourceAndServicesIotHubServiceToTerraform, true)(struct!.iotHubService),
-    resource_group: cdktf.listMapper(projectAppPolicyAzurePolicyAzureResourceAndServicesResourceGroupToTerraform, true)(struct!.resourceGroup),
-  }
-}
-
-
-export function projectAppPolicyAzurePolicyAzureResourceAndServicesToHclTerraform(struct?: ProjectAppPolicyAzurePolicyAzureResourceAndServices | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    dps_service: {
-      value: cdktf.listMapperHcl(projectAppPolicyAzurePolicyAzureResourceAndServicesDpsServiceToHclTerraform, true)(struct!.dpsService),
-      isBlock: true,
-      type: "list",
-      storageClassType: "ProjectAppPolicyAzurePolicyAzureResourceAndServicesDpsServiceList",
-    },
-    iot_hub_service: {
-      value: cdktf.listMapperHcl(projectAppPolicyAzurePolicyAzureResourceAndServicesIotHubServiceToHclTerraform, true)(struct!.iotHubService),
-      isBlock: true,
-      type: "list",
-      storageClassType: "ProjectAppPolicyAzurePolicyAzureResourceAndServicesIotHubServiceList",
-    },
-    resource_group: {
-      value: cdktf.listMapperHcl(projectAppPolicyAzurePolicyAzureResourceAndServicesResourceGroupToHclTerraform, true)(struct!.resourceGroup),
-      isBlock: true,
-      type: "list",
-      storageClassType: "ProjectAppPolicyAzurePolicyAzureResourceAndServicesResourceGroupList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class ProjectAppPolicyAzurePolicyAzureResourceAndServicesOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): ProjectAppPolicyAzurePolicyAzureResourceAndServices | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._dpsService?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.dpsService = this._dpsService?.internalValue;
-    }
-    if (this._iotHubService?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.iotHubService = this._iotHubService?.internalValue;
-    }
-    if (this._resourceGroup?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.resourceGroup = this._resourceGroup?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: ProjectAppPolicyAzurePolicyAzureResourceAndServices | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._dpsService.internalValue = undefined;
-      this._iotHubService.internalValue = undefined;
-      this._resourceGroup.internalValue = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._dpsService.internalValue = value.dpsService;
-      this._iotHubService.internalValue = value.iotHubService;
-      this._resourceGroup.internalValue = value.resourceGroup;
-    }
-  }
-
-  // dps_service - computed: false, optional: false, required: true
-  private _dpsService = new ProjectAppPolicyAzurePolicyAzureResourceAndServicesDpsServiceList(this, "dps_service", false);
-  public get dpsService() {
-    return this._dpsService;
-  }
-  public putDpsService(value: ProjectAppPolicyAzurePolicyAzureResourceAndServicesDpsService[] | cdktf.IResolvable) {
-    this._dpsService.internalValue = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get dpsServiceInput() {
-    return this._dpsService.internalValue;
-  }
-
-  // iot_hub_service - computed: false, optional: false, required: true
-  private _iotHubService = new ProjectAppPolicyAzurePolicyAzureResourceAndServicesIotHubServiceList(this, "iot_hub_service", false);
-  public get iotHubService() {
-    return this._iotHubService;
-  }
-  public putIotHubService(value: ProjectAppPolicyAzurePolicyAzureResourceAndServicesIotHubService[] | cdktf.IResolvable) {
-    this._iotHubService.internalValue = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get iotHubServiceInput() {
-    return this._iotHubService.internalValue;
-  }
-
-  // resource_group - computed: false, optional: false, required: true
-  private _resourceGroup = new ProjectAppPolicyAzurePolicyAzureResourceAndServicesResourceGroupList(this, "resource_group", false);
-  public get resourceGroup() {
-    return this._resourceGroup;
-  }
-  public putResourceGroup(value: ProjectAppPolicyAzurePolicyAzureResourceAndServicesResourceGroup[] | cdktf.IResolvable) {
-    this._resourceGroup.internalValue = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get resourceGroupInput() {
-    return this._resourceGroup.internalValue;
-  }
-}
-
-export class ProjectAppPolicyAzurePolicyAzureResourceAndServicesList extends cdktf.ComplexList {
-  public internalValue? : ProjectAppPolicyAzurePolicyAzureResourceAndServices[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): ProjectAppPolicyAzurePolicyAzureResourceAndServicesOutputReference {
-    return new ProjectAppPolicyAzurePolicyAzureResourceAndServicesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }

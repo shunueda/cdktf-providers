@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_ivr
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/architect_ivr
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface ArchitectIvrConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of inbound call flow for closed hours.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_ivr#closed_hours_flow_id ArchitectIvr#closed_hours_flow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/architect_ivr#closed_hours_flow_id ArchitectIvr#closed_hours_flow_id}
   */
   readonly closedHoursFlowId?: string;
   /**
   * IVR Config description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_ivr#description ArchitectIvr#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/architect_ivr#description ArchitectIvr#description}
   */
   readonly description?: string;
   /**
   * Division ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_ivr#division_id ArchitectIvr#division_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/architect_ivr#division_id ArchitectIvr#division_id}
   */
   readonly divisionId?: string;
   /**
   * The phone number(s) to contact the IVR by. Each phone number in the array must be in an E.164 number format. (Note: An array with a length greater than 50 will be broken into chunks and uploaded in subsequent PUT requests.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_ivr#dnis ArchitectIvr#dnis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/architect_ivr#dnis ArchitectIvr#dnis}
   */
   readonly dnis?: string[];
   /**
   * ID of inbound call flow for holidays.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_ivr#holiday_hours_flow_id ArchitectIvr#holiday_hours_flow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/architect_ivr#holiday_hours_flow_id ArchitectIvr#holiday_hours_flow_id}
   */
   readonly holidayHoursFlowId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_ivr#id ArchitectIvr#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/architect_ivr#id ArchitectIvr#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,25 +47,25 @@ export interface ArchitectIvrConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the IVR config. Note: If the name changes, the existing Genesys Cloud IVR config will be dropped and recreated with a new ID. This can cause an Architect Flow to become invalid if the old flow is reference in the flow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_ivr#name ArchitectIvr#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/architect_ivr#name ArchitectIvr#name}
   */
   readonly name: string;
   /**
   * ID of inbound call flow for open hours.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_ivr#open_hours_flow_id ArchitectIvr#open_hours_flow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/architect_ivr#open_hours_flow_id ArchitectIvr#open_hours_flow_id}
   */
   readonly openHoursFlowId?: string;
   /**
   * Schedule group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_ivr#schedule_group_id ArchitectIvr#schedule_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/architect_ivr#schedule_group_id ArchitectIvr#schedule_group_id}
   */
   readonly scheduleGroupId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_ivr genesyscloud_architect_ivr}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/architect_ivr genesyscloud_architect_ivr}
 */
 export class ArchitectIvr extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class ArchitectIvr extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ArchitectIvr resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ArchitectIvr to import
-  * @param importFromId The id of the existing ArchitectIvr that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_ivr#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ArchitectIvr that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/architect_ivr#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ArchitectIvr to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class ArchitectIvr extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_ivr genesyscloud_architect_ivr} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/architect_ivr genesyscloud_architect_ivr} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class ArchitectIvr extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_architect_ivr',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.71.1',
-        providerVersionConstraint: '1.71.1'
+        providerVersion: '1.72.2',
+        providerVersionConstraint: '1.72.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

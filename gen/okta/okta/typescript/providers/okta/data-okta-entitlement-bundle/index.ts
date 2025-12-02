@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/entitlement_bundle
+// https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/entitlement_bundle
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataOktaEntitlementBundleConfig extends cdktf.TerraformMetaArgu
   /**
   * The ID of the Entitlement Bundle to retrieve.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/entitlement_bundle#id DataOktaEntitlementBundle#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/entitlement_bundle#id DataOktaEntitlementBundle#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,7 +19,7 @@ export interface DataOktaEntitlementBundleConfig extends cdktf.TerraformMetaArgu
   /**
   * entitlements block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/entitlement_bundle#entitlements DataOktaEntitlementBundle#entitlements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/entitlement_bundle#entitlements DataOktaEntitlementBundle#entitlements}
   */
   readonly entitlements?: DataOktaEntitlementBundleEntitlements[] | cdktf.IResolvable;
 }
@@ -133,7 +133,7 @@ export interface DataOktaEntitlementBundleEntitlements {
   /**
   * values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/entitlement_bundle#values DataOktaEntitlementBundle#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/entitlement_bundle#values DataOktaEntitlementBundle#values}
   */
   readonly values?: DataOktaEntitlementBundleEntitlementsValues[] | cdktf.IResolvable;
 }
@@ -353,7 +353,7 @@ export class DataOktaEntitlementBundleTargetOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/entitlement_bundle okta_entitlement_bundle}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/entitlement_bundle okta_entitlement_bundle}
 */
 export class DataOktaEntitlementBundle extends cdktf.TerraformDataSource {
 
@@ -369,7 +369,7 @@ export class DataOktaEntitlementBundle extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOktaEntitlementBundle resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOktaEntitlementBundle to import
-  * @param importFromId The id of the existing DataOktaEntitlementBundle that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/entitlement_bundle#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOktaEntitlementBundle that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/entitlement_bundle#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOktaEntitlementBundle to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -381,7 +381,7 @@ export class DataOktaEntitlementBundle extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/entitlement_bundle okta_entitlement_bundle} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/entitlement_bundle okta_entitlement_bundle} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -392,8 +392,8 @@ export class DataOktaEntitlementBundle extends cdktf.TerraformDataSource {
       terraformResourceType: 'okta_entitlement_bundle',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.5.0',
-        providerVersionConstraint: '6.5.0'
+        providerVersion: '6.5.1',
+        providerVersionConstraint: '6.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/api_service_integration
+// https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/api_service_integration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataOktaApiServiceIntegrationConfig extends cdktf.TerraformMeta
   /**
   * The ID of the API service integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/api_service_integration#id DataOktaApiServiceIntegration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/api_service_integration#id DataOktaApiServiceIntegration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,7 +19,7 @@ export interface DataOktaApiServiceIntegrationConfig extends cdktf.TerraformMeta
   /**
   * granted_scopes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/api_service_integration#granted_scopes DataOktaApiServiceIntegration#granted_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/api_service_integration#granted_scopes DataOktaApiServiceIntegration#granted_scopes}
   */
   readonly grantedScopes?: DataOktaApiServiceIntegrationGrantedScopes[] | cdktf.IResolvable;
 }
@@ -111,7 +111,7 @@ export class DataOktaApiServiceIntegrationGrantedScopesList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/api_service_integration okta_api_service_integration}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/api_service_integration okta_api_service_integration}
 */
 export class DataOktaApiServiceIntegration extends cdktf.TerraformDataSource {
 
@@ -127,7 +127,7 @@ export class DataOktaApiServiceIntegration extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOktaApiServiceIntegration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOktaApiServiceIntegration to import
-  * @param importFromId The id of the existing DataOktaApiServiceIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/api_service_integration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOktaApiServiceIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/api_service_integration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOktaApiServiceIntegration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -139,7 +139,7 @@ export class DataOktaApiServiceIntegration extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/api_service_integration okta_api_service_integration} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/api_service_integration okta_api_service_integration} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -150,8 +150,8 @@ export class DataOktaApiServiceIntegration extends cdktf.TerraformDataSource {
       terraformResourceType: 'okta_api_service_integration',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.5.0',
-        providerVersionConstraint: '6.5.0'
+        providerVersion: '6.5.1',
+        providerVersionConstraint: '6.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

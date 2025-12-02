@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/push_provider
+// https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/push_provider
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface PushProviderConfig extends cdktf.TerraformMetaArguments {
   /**
   * The display name of the push provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/push_provider#name PushProvider#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/push_provider#name PushProvider#name}
   */
   readonly name: string;
   /**
   * The type of push provider. Valid values are `APNS` (Apple Push Notification Service) or `FCM` (Firebase Cloud Messaging).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/push_provider#provider_type PushProvider#provider_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/push_provider#provider_type PushProvider#provider_type}
   */
   readonly providerType: string;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/push_provider#configuration PushProvider#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/push_provider#configuration PushProvider#configuration}
   */
   readonly configuration?: PushProviderConfiguration;
 }
@@ -30,25 +30,25 @@ export interface PushProviderConfigurationApnsConfiguration {
   /**
   * File name for Admin Console display.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/push_provider#file_name PushProvider#file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/push_provider#file_name PushProvider#file_name}
   */
   readonly fileName?: string;
   /**
   * 10-character Key ID obtained from the Apple developer account. Required for APNS provider type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/push_provider#key_id PushProvider#key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/push_provider#key_id PushProvider#key_id}
   */
   readonly keyId?: string;
   /**
   * 10-character Team ID used to develop the iOS app. Required for APNS provider type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/push_provider#team_id PushProvider#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/push_provider#team_id PushProvider#team_id}
   */
   readonly teamId?: string;
   /**
   * APNs private authentication token signing key. Required for APNS provider type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/push_provider#token_signing_key PushProvider#token_signing_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/push_provider#token_signing_key PushProvider#token_signing_key}
   */
   readonly tokenSigningKey?: string;
 }
@@ -231,67 +231,67 @@ export interface PushProviderConfigurationFcmConfigurationServiceAccountJson {
   /**
   * The auth provider x509 cert URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/push_provider#auth_provider_x509_cert_url PushProvider#auth_provider_x509_cert_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/push_provider#auth_provider_x509_cert_url PushProvider#auth_provider_x509_cert_url}
   */
   readonly authProviderX509CertUrl?: string;
   /**
   * The auth URI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/push_provider#auth_uri PushProvider#auth_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/push_provider#auth_uri PushProvider#auth_uri}
   */
   readonly authUri?: string;
   /**
   * The client email.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/push_provider#client_email PushProvider#client_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/push_provider#client_email PushProvider#client_email}
   */
   readonly clientEmail?: string;
   /**
   * The client ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/push_provider#client_id PushProvider#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/push_provider#client_id PushProvider#client_id}
   */
   readonly clientId?: string;
   /**
   * The client x509 cert URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/push_provider#client_x509_cert_url PushProvider#client_x509_cert_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/push_provider#client_x509_cert_url PushProvider#client_x509_cert_url}
   */
   readonly clientX509CertUrl?: string;
   /**
   * File name for Admin Console display.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/push_provider#file_name PushProvider#file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/push_provider#file_name PushProvider#file_name}
   */
   readonly fileName?: string;
   /**
   * The private key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/push_provider#private_key PushProvider#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/push_provider#private_key PushProvider#private_key}
   */
   readonly privateKey?: string;
   /**
   * The private key ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/push_provider#private_key_id PushProvider#private_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/push_provider#private_key_id PushProvider#private_key_id}
   */
   readonly privateKeyId?: string;
   /**
   * The project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/push_provider#project_id PushProvider#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/push_provider#project_id PushProvider#project_id}
   */
   readonly projectId?: string;
   /**
   * The token URI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/push_provider#token_uri PushProvider#token_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/push_provider#token_uri PushProvider#token_uri}
   */
   readonly tokenUri?: string;
   /**
   * The type of the service account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/push_provider#type PushProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/push_provider#type PushProvider#type}
   */
   readonly type?: string;
 }
@@ -677,7 +677,7 @@ export interface PushProviderConfigurationFcmConfiguration {
   /**
   * service_account_json block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/push_provider#service_account_json PushProvider#service_account_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/push_provider#service_account_json PushProvider#service_account_json}
   */
   readonly serviceAccountJson?: PushProviderConfigurationFcmConfigurationServiceAccountJson;
 }
@@ -773,13 +773,13 @@ export interface PushProviderConfiguration {
   /**
   * apns_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/push_provider#apns_configuration PushProvider#apns_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/push_provider#apns_configuration PushProvider#apns_configuration}
   */
   readonly apnsConfiguration?: PushProviderConfigurationApnsConfiguration;
   /**
   * fcm_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/push_provider#fcm_configuration PushProvider#fcm_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/push_provider#fcm_configuration PushProvider#fcm_configuration}
   */
   readonly fcmConfiguration?: PushProviderConfigurationFcmConfiguration;
 }
@@ -902,7 +902,7 @@ export class PushProviderConfigurationOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/push_provider okta_push_provider}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/push_provider okta_push_provider}
 */
 export class PushProvider extends cdktf.TerraformResource {
 
@@ -918,7 +918,7 @@ export class PushProvider extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PushProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PushProvider to import
-  * @param importFromId The id of the existing PushProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/push_provider#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PushProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/push_provider#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PushProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -930,7 +930,7 @@ export class PushProvider extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/push_provider okta_push_provider} Resource
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/push_provider okta_push_provider} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -941,8 +941,8 @@ export class PushProvider extends cdktf.TerraformResource {
       terraformResourceType: 'okta_push_provider',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.5.0',
-        providerVersionConstraint: '6.5.0'
+        providerVersion: '6.5.1',
+        providerVersionConstraint: '6.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/direct_bigquery
+// https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_bigquery
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DirectBigqueryConfig extends cdktf.TerraformMetaArguments {
   /**
   * Optional description of the resource. Here, you can add details about who is responsible for the integration (team/owner) or the purpose of creating it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/direct_bigquery#description DirectBigquery#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_bigquery#description DirectBigquery#description}
   */
   readonly description?: string;
   /**
   * User-friendly display name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/direct_bigquery#display_name DirectBigquery#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_bigquery#display_name DirectBigquery#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/direct_bigquery#id DirectBigquery#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_bigquery#id DirectBigquery#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,43 +29,43 @@ export interface DirectBigqueryConfig extends cdktf.TerraformMetaArguments {
   /**
   * [Logs documentation](https://docs.nobl9.com/features/slo-troubleshooting/event-logs)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/direct_bigquery#log_collection_enabled DirectBigquery#log_collection_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_bigquery#log_collection_enabled DirectBigquery#log_collection_enabled}
   */
   readonly logCollectionEnabled?: boolean | cdktf.IResolvable;
   /**
   * Unique name of the resource, must conform to the naming convention from [DNS RFC1123](https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/direct_bigquery#name DirectBigquery#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_bigquery#name DirectBigquery#name}
   */
   readonly name: string;
   /**
   * Name of the Nobl9 project the resource sits in, must conform to the naming convention from [DNS RFC1123](https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/direct_bigquery#project DirectBigquery#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_bigquery#project DirectBigquery#project}
   */
   readonly project: string;
   /**
   * Release channel of the created data source [stable/beta]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/direct_bigquery#release_channel DirectBigquery#release_channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_bigquery#release_channel DirectBigquery#release_channel}
   */
   readonly releaseChannel?: string;
   /**
   * [required] | Service Account Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/direct_bigquery#service_account_key DirectBigquery#service_account_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_bigquery#service_account_key DirectBigquery#service_account_key}
   */
   readonly serviceAccountKey?: string;
   /**
   * This value indicated whether the field was a source of metrics and/or services. 'source_of' is deprecated and not used anywhere; however, it's kept for backward compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/direct_bigquery#source_of DirectBigquery#source_of}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_bigquery#source_of DirectBigquery#source_of}
   */
   readonly sourceOf?: string[];
   /**
   * query_delay block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/direct_bigquery#query_delay DirectBigquery#query_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_bigquery#query_delay DirectBigquery#query_delay}
   */
   readonly queryDelay?: DirectBigqueryQueryDelay;
 }
@@ -73,13 +73,13 @@ export interface DirectBigqueryQueryDelay {
   /**
   * Must be one of Minute or Second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/direct_bigquery#unit DirectBigquery#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_bigquery#unit DirectBigquery#unit}
   */
   readonly unit: string;
   /**
   * Must be an integer greater than or equal to 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/direct_bigquery#value DirectBigquery#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_bigquery#value DirectBigquery#value}
   */
   readonly value: number;
 }
@@ -186,7 +186,7 @@ export class DirectBigqueryQueryDelayOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/direct_bigquery nobl9_direct_bigquery}
+* Represents a {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_bigquery nobl9_direct_bigquery}
 */
 export class DirectBigquery extends cdktf.TerraformResource {
 
@@ -202,7 +202,7 @@ export class DirectBigquery extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DirectBigquery resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DirectBigquery to import
-  * @param importFromId The id of the existing DirectBigquery that should be imported. Refer to the {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/direct_bigquery#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DirectBigquery that should be imported. Refer to the {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_bigquery#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DirectBigquery to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -214,7 +214,7 @@ export class DirectBigquery extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/direct_bigquery nobl9_direct_bigquery} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_bigquery nobl9_direct_bigquery} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -225,8 +225,8 @@ export class DirectBigquery extends cdktf.TerraformResource {
       terraformResourceType: 'nobl9_direct_bigquery',
       terraformGeneratorMetadata: {
         providerName: 'nobl9',
-        providerVersion: '0.44.1',
-        providerVersionConstraint: '0.44.1'
+        providerVersion: '0.45.0',
+        providerVersionConstraint: '0.45.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

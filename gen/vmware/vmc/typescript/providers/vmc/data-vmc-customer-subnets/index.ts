@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/data-sources/customer_subnets
+// https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/data-sources/customer_subnets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataVmcCustomerSubnetsConfig extends cdktf.TerraformMetaArgumen
   /**
   * The linked connected account identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/data-sources/customer_subnets#connected_account_id DataVmcCustomerSubnets#connected_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/data-sources/customer_subnets#connected_account_id DataVmcCustomerSubnets#connected_account_id}
   */
   readonly connectedAccountId?: string;
   /**
   * When true, forces the mappings for datacenters to be refreshed for the connected account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/data-sources/customer_subnets#force_refresh DataVmcCustomerSubnets#force_refresh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/data-sources/customer_subnets#force_refresh DataVmcCustomerSubnets#force_refresh}
   */
   readonly forceRefresh?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/data-sources/customer_subnets#id DataVmcCustomerSubnets#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/data-sources/customer_subnets#id DataVmcCustomerSubnets#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,37 +29,37 @@ export interface DataVmcCustomerSubnetsConfig extends cdktf.TerraformMetaArgumen
   /**
   * The server instance type to be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/data-sources/customer_subnets#instance_type DataVmcCustomerSubnets#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/data-sources/customer_subnets#instance_type DataVmcCustomerSubnets#instance_type}
   */
   readonly instanceType?: string;
   /**
   * The number of hosts .
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/data-sources/customer_subnets#num_hosts DataVmcCustomerSubnets#num_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/data-sources/customer_subnets#num_hosts DataVmcCustomerSubnets#num_hosts}
   */
   readonly numHosts?: number;
   /**
   * The VMC region of the cloud resources to work in. (e.g. US_WEST_2)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/data-sources/customer_subnets#region DataVmcCustomerSubnets#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/data-sources/customer_subnets#region DataVmcCustomerSubnets#region}
   */
   readonly region: string;
   /**
   * Sddc ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/data-sources/customer_subnets#sddc_id DataVmcCustomerSubnets#sddc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/data-sources/customer_subnets#sddc_id DataVmcCustomerSubnets#sddc_id}
   */
   readonly sddcId?: string;
   /**
   * Sddc Type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/data-sources/customer_subnets#sddc_type DataVmcCustomerSubnets#sddc_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/data-sources/customer_subnets#sddc_type DataVmcCustomerSubnets#sddc_type}
   */
   readonly sddcType?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/data-sources/customer_subnets vmc_customer_subnets}
+* Represents a {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/data-sources/customer_subnets vmc_customer_subnets}
 */
 export class DataVmcCustomerSubnets extends cdktf.TerraformDataSource {
 
@@ -75,7 +75,7 @@ export class DataVmcCustomerSubnets extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataVmcCustomerSubnets resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVmcCustomerSubnets to import
-  * @param importFromId The id of the existing DataVmcCustomerSubnets that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/data-sources/customer_subnets#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVmcCustomerSubnets that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/data-sources/customer_subnets#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVmcCustomerSubnets to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class DataVmcCustomerSubnets extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/data-sources/customer_subnets vmc_customer_subnets} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/data-sources/customer_subnets vmc_customer_subnets} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class DataVmcCustomerSubnets extends cdktf.TerraformDataSource {
       terraformResourceType: 'vmc_customer_subnets',
       terraformGeneratorMetadata: {
         providerName: 'vmc',
-        providerVersion: '1.15.5',
-        providerVersionConstraint: '1.15.5'
+        providerVersion: '1.15.6',
+        providerVersionConstraint: '1.15.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/key_pair
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/key_pair
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface KeyPairConfig extends cdktf.TerraformMetaArguments {
   /**
   * Labels are key-value string pairs which can be attached to a resource container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/key_pair#labels KeyPair#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/key_pair#labels KeyPair#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The name of the SSH key pair.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/key_pair#name KeyPair#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/key_pair#name KeyPair#name}
   */
   readonly name: string;
   /**
   * A string representation of the public SSH key. E.g., `ssh-rsa <key_data>` or `ssh-ed25519 <key-data>`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/key_pair#public_key KeyPair#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/key_pair#public_key KeyPair#public_key}
   */
   readonly publicKey: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/key_pair stackit_key_pair}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/key_pair stackit_key_pair}
 */
 export class KeyPair extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class KeyPair extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KeyPair resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KeyPair to import
-  * @param importFromId The id of the existing KeyPair that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/key_pair#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KeyPair that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/key_pair#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KeyPair to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class KeyPair extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/key_pair stackit_key_pair} Resource
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/key_pair stackit_key_pair} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class KeyPair extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_key_pair',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.71.0',
-        providerVersionConstraint: '0.71.0'
+        providerVersion: '0.72.0',
+        providerVersionConstraint: '0.72.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

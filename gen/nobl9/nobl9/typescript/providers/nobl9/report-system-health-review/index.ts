@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/report_system_health_review
+// https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/report_system_health_review
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ReportSystemHealthReviewConfig extends cdktf.TerraformMetaArgum
   /**
   * User-friendly display name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/report_system_health_review#display_name ReportSystemHealthReview#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/report_system_health_review#display_name ReportSystemHealthReview#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/report_system_health_review#id ReportSystemHealthReview#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/report_system_health_review#id ReportSystemHealthReview#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,43 +23,43 @@ export interface ReportSystemHealthReviewConfig extends cdktf.TerraformMetaArgum
   /**
   * Unique name of the resource, must conform to the naming convention from [DNS RFC1123](https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/report_system_health_review#name ReportSystemHealthReview#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/report_system_health_review#name ReportSystemHealthReview#name}
   */
   readonly name: string;
   /**
   * Grouping methods of report table rows [project/service]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/report_system_health_review#row_group_by ReportSystemHealthReview#row_group_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/report_system_health_review#row_group_by ReportSystemHealthReview#row_group_by}
   */
   readonly rowGroupBy: string;
   /**
   * Is report shared for all users with access to included projects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/report_system_health_review#shared ReportSystemHealthReview#shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/report_system_health_review#shared ReportSystemHealthReview#shared}
   */
   readonly shared?: boolean | cdktf.IResolvable;
   /**
   * column block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/report_system_health_review#column ReportSystemHealthReview#column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/report_system_health_review#column ReportSystemHealthReview#column}
   */
   readonly column: ReportSystemHealthReviewColumn[] | cdktf.IResolvable;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/report_system_health_review#filters ReportSystemHealthReview#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/report_system_health_review#filters ReportSystemHealthReview#filters}
   */
   readonly filters?: ReportSystemHealthReviewFilters;
   /**
   * thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/report_system_health_review#thresholds ReportSystemHealthReview#thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/report_system_health_review#thresholds ReportSystemHealthReview#thresholds}
   */
   readonly thresholds: ReportSystemHealthReviewThresholds;
   /**
   * time_frame block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/report_system_health_review#time_frame ReportSystemHealthReview#time_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/report_system_health_review#time_frame ReportSystemHealthReview#time_frame}
   */
   readonly timeFrame: ReportSystemHealthReviewTimeFrame;
 }
@@ -67,13 +67,13 @@ export interface ReportSystemHealthReviewColumnLabel {
   /**
   * A key for the label, unique within the associated resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/report_system_health_review#key ReportSystemHealthReview#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/report_system_health_review#key ReportSystemHealthReview#key}
   */
   readonly key: string;
   /**
   * A list of unique values for a single key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/report_system_health_review#values ReportSystemHealthReview#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/report_system_health_review#values ReportSystemHealthReview#values}
   */
   readonly values: string[];
 }
@@ -214,13 +214,13 @@ export interface ReportSystemHealthReviewColumn {
   /**
   * Column display name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/report_system_health_review#display_name ReportSystemHealthReview#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/report_system_health_review#display_name ReportSystemHealthReview#display_name}
   */
   readonly displayName: string;
   /**
   * label block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/report_system_health_review#label ReportSystemHealthReview#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/report_system_health_review#label ReportSystemHealthReview#label}
   */
   readonly label: ReportSystemHealthReviewColumnLabel[] | cdktf.IResolvable;
 }
@@ -361,13 +361,13 @@ export interface ReportSystemHealthReviewFiltersLabel {
   /**
   * A key for the label, unique within the associated resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/report_system_health_review#key ReportSystemHealthReview#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/report_system_health_review#key ReportSystemHealthReview#key}
   */
   readonly key: string;
   /**
   * A list of unique values for a single key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/report_system_health_review#values ReportSystemHealthReview#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/report_system_health_review#values ReportSystemHealthReview#values}
   */
   readonly values: string[];
 }
@@ -508,13 +508,13 @@ export interface ReportSystemHealthReviewFiltersService {
   /**
   * Unique name of the resource, must conform to the naming convention from [DNS RFC1123](https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/report_system_health_review#name ReportSystemHealthReview#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/report_system_health_review#name ReportSystemHealthReview#name}
   */
   readonly name: string;
   /**
   * Name of the Nobl9 project the resource sits in, must conform to the naming convention from [DNS RFC1123](https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/report_system_health_review#project ReportSystemHealthReview#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/report_system_health_review#project ReportSystemHealthReview#project}
   */
   readonly project: string;
 }
@@ -655,13 +655,13 @@ export interface ReportSystemHealthReviewFiltersSlo {
   /**
   * Unique name of the resource, must conform to the naming convention from [DNS RFC1123](https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/report_system_health_review#name ReportSystemHealthReview#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/report_system_health_review#name ReportSystemHealthReview#name}
   */
   readonly name: string;
   /**
   * Name of the Nobl9 project the resource sits in, must conform to the naming convention from [DNS RFC1123](https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/report_system_health_review#project ReportSystemHealthReview#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/report_system_health_review#project ReportSystemHealthReview#project}
   */
   readonly project: string;
 }
@@ -802,25 +802,25 @@ export interface ReportSystemHealthReviewFilters {
   /**
   * Projects to pull data for report from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/report_system_health_review#projects ReportSystemHealthReview#projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/report_system_health_review#projects ReportSystemHealthReview#projects}
   */
   readonly projects?: string[];
   /**
   * label block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/report_system_health_review#label ReportSystemHealthReview#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/report_system_health_review#label ReportSystemHealthReview#label}
   */
   readonly label?: ReportSystemHealthReviewFiltersLabel[] | cdktf.IResolvable;
   /**
   * service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/report_system_health_review#service ReportSystemHealthReview#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/report_system_health_review#service ReportSystemHealthReview#service}
   */
   readonly service?: ReportSystemHealthReviewFiltersService[] | cdktf.IResolvable;
   /**
   * slo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/report_system_health_review#slo ReportSystemHealthReview#slo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/report_system_health_review#slo ReportSystemHealthReview#slo}
   */
   readonly slo?: ReportSystemHealthReviewFiltersSlo[] | cdktf.IResolvable;
 }
@@ -993,19 +993,19 @@ export interface ReportSystemHealthReviewThresholds {
   /**
   * Min value for the Green status (e.g. healthy).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/report_system_health_review#green_gt ReportSystemHealthReview#green_gt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/report_system_health_review#green_gt ReportSystemHealthReview#green_gt}
   */
   readonly greenGt: number;
   /**
   * Max value for the Red status (e.g. exhausted budget).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/report_system_health_review#red_lte ReportSystemHealthReview#red_lte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/report_system_health_review#red_lte ReportSystemHealthReview#red_lte}
   */
   readonly redLte: number;
   /**
   * ShowNoData customizes the report to either show or hide rows with no data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/report_system_health_review#show_no_data ReportSystemHealthReview#show_no_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/report_system_health_review#show_no_data ReportSystemHealthReview#show_no_data}
   */
   readonly showNoData?: boolean | cdktf.IResolvable;
 }
@@ -1143,19 +1143,19 @@ export interface ReportSystemHealthReviewTimeFrameSnapshot {
   /**
   * Date and time of the past snapshot in RFC3339 format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/report_system_health_review#date_time ReportSystemHealthReview#date_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/report_system_health_review#date_time ReportSystemHealthReview#date_time}
   */
   readonly dateTime?: string;
   /**
   * The method of reporting time frame [past/latest]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/report_system_health_review#point ReportSystemHealthReview#point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/report_system_health_review#point ReportSystemHealthReview#point}
   */
   readonly point: string;
   /**
   * The recurrence rule for the report past snapshot. The expected value is a string in RRULE format. Example: `FREQ=MONTHLY;BYMONTHDAY=1`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/report_system_health_review#rrule ReportSystemHealthReview#rrule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/report_system_health_review#rrule ReportSystemHealthReview#rrule}
   */
   readonly rrule?: string;
 }
@@ -1296,13 +1296,13 @@ export interface ReportSystemHealthReviewTimeFrame {
   /**
   * Timezone name in IANA Time Zone Database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/report_system_health_review#time_zone ReportSystemHealthReview#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/report_system_health_review#time_zone ReportSystemHealthReview#time_zone}
   */
   readonly timeZone: string;
   /**
   * snapshot block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/report_system_health_review#snapshot ReportSystemHealthReview#snapshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/report_system_health_review#snapshot ReportSystemHealthReview#snapshot}
   */
   readonly snapshot: ReportSystemHealthReviewTimeFrameSnapshot;
 }
@@ -1409,7 +1409,7 @@ export class ReportSystemHealthReviewTimeFrameOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/report_system_health_review nobl9_report_system_health_review}
+* Represents a {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/report_system_health_review nobl9_report_system_health_review}
 */
 export class ReportSystemHealthReview extends cdktf.TerraformResource {
 
@@ -1425,7 +1425,7 @@ export class ReportSystemHealthReview extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ReportSystemHealthReview resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ReportSystemHealthReview to import
-  * @param importFromId The id of the existing ReportSystemHealthReview that should be imported. Refer to the {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/report_system_health_review#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ReportSystemHealthReview that should be imported. Refer to the {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/report_system_health_review#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ReportSystemHealthReview to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1437,7 +1437,7 @@ export class ReportSystemHealthReview extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/report_system_health_review nobl9_report_system_health_review} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/report_system_health_review nobl9_report_system_health_review} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1448,8 +1448,8 @@ export class ReportSystemHealthReview extends cdktf.TerraformResource {
       terraformResourceType: 'nobl9_report_system_health_review',
       terraformGeneratorMetadata: {
         providerName: 'nobl9',
-        providerVersion: '0.44.1',
-        providerVersionConstraint: '0.44.1'
+        providerVersion: '0.45.0',
+        providerVersionConstraint: '0.45.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

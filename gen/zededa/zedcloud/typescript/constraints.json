@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "zedcloud": "2.5.0"
+    "zedcloud": "2.6.0"
   }
 }

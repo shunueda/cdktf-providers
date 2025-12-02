@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_log_trigger
+// https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_log_trigger
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,137 +10,137 @@ export interface InextLogTriggerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Log Access Control accepts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_log_trigger#access_control_allow_events InextLogTrigger#access_control_allow_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_log_trigger#access_control_allow_events InextLogTrigger#access_control_allow_events}
   */
   readonly accessControlAllowEvents?: boolean | cdktf.IResolvable;
   /**
   * Log Access Control drops
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_log_trigger#access_control_drop_events InextLogTrigger#access_control_drop_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_log_trigger#access_control_drop_events InextLogTrigger#access_control_drop_events}
   */
   readonly accessControlDropEvents?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_log_trigger#cef_ip_address InextLogTrigger#cef_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_log_trigger#cef_ip_address InextLogTrigger#cef_ip_address}
   */
   readonly cefIpAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_log_trigger#cef_port InextLogTrigger#cef_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_log_trigger#cef_port InextLogTrigger#cef_port}
   */
   readonly cefPort?: number;
   /**
   * CEF protocol: UDP or TCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_log_trigger#cef_protocol InextLogTrigger#cef_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_log_trigger#cef_protocol InextLogTrigger#cef_protocol}
   */
   readonly cefProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_log_trigger#compliance_violations InextLogTrigger#compliance_violations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_log_trigger#compliance_violations InextLogTrigger#compliance_violations}
   */
   readonly complianceViolations?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_log_trigger#compliance_warnings InextLogTrigger#compliance_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_log_trigger#compliance_warnings InextLogTrigger#compliance_warnings}
   */
   readonly complianceWarnings?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_log_trigger#extend_logging InextLogTrigger#extend_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_log_trigger#extend_logging InextLogTrigger#extend_logging}
   */
   readonly extendLogging?: boolean | cdktf.IResolvable;
   /**
   * Minimum severity of events that will trigger extended logging: High or Critical
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_log_trigger#extend_logging_min_severity InextLogTrigger#extend_logging_min_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_log_trigger#extend_logging_min_severity InextLogTrigger#extend_logging_min_severity}
   */
   readonly extendLoggingMinSeverity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_log_trigger#log_to_agent InextLogTrigger#log_to_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_log_trigger#log_to_agent InextLogTrigger#log_to_agent}
   */
   readonly logToAgent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_log_trigger#log_to_cef InextLogTrigger#log_to_cef}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_log_trigger#log_to_cef InextLogTrigger#log_to_cef}
   */
   readonly logToCef?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_log_trigger#log_to_cloud InextLogTrigger#log_to_cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_log_trigger#log_to_cloud InextLogTrigger#log_to_cloud}
   */
   readonly logToCloud?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_log_trigger#log_to_syslog InextLogTrigger#log_to_syslog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_log_trigger#log_to_syslog InextLogTrigger#log_to_syslog}
   */
   readonly logToSyslog?: boolean | cdktf.IResolvable;
   /**
   * The name of the resource, also acts as its unique ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_log_trigger#name InextLogTrigger#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_log_trigger#name InextLogTrigger#name}
   */
   readonly name: string;
   /**
   * Add response body to log if true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_log_trigger#response_body InextLogTrigger#response_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_log_trigger#response_body InextLogTrigger#response_body}
   */
   readonly responseBody?: boolean | cdktf.IResolvable;
   /**
   * Add response code to log if true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_log_trigger#response_code InextLogTrigger#response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_log_trigger#response_code InextLogTrigger#response_code}
   */
   readonly responseCode?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_log_trigger#syslog_ip_address InextLogTrigger#syslog_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_log_trigger#syslog_ip_address InextLogTrigger#syslog_ip_address}
   */
   readonly syslogIpAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_log_trigger#syslog_port InextLogTrigger#syslog_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_log_trigger#syslog_port InextLogTrigger#syslog_port}
   */
   readonly syslogPort?: number;
   /**
   * Syslog protocol: UDP or TCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_log_trigger#syslog_protocol InextLogTrigger#syslog_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_log_trigger#syslog_protocol InextLogTrigger#syslog_protocol}
   */
   readonly syslogProtocol?: string;
   /**
   * Log Threat Prevention Prevents
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_log_trigger#threat_prevention_detect_events InextLogTrigger#threat_prevention_detect_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_log_trigger#threat_prevention_detect_events InextLogTrigger#threat_prevention_detect_events}
   */
   readonly threatPreventionDetectEvents?: boolean | cdktf.IResolvable;
   /**
   * Log Threat Prevention Detects
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_log_trigger#threat_prevention_prevent_events InextLogTrigger#threat_prevention_prevent_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_log_trigger#threat_prevention_prevent_events InextLogTrigger#threat_prevention_prevent_events}
   */
   readonly threatPreventionPreventEvents?: boolean | cdktf.IResolvable;
   /**
   * The verbosity of the log: Standard, Minimal or Extended
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_log_trigger#verbosity InextLogTrigger#verbosity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_log_trigger#verbosity InextLogTrigger#verbosity}
   */
   readonly verbosity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_log_trigger#web_body InextLogTrigger#web_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_log_trigger#web_body InextLogTrigger#web_body}
   */
   readonly webBody?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_log_trigger#web_headers InextLogTrigger#web_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_log_trigger#web_headers InextLogTrigger#web_headers}
   */
   readonly webHeaders?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_log_trigger#web_requests InextLogTrigger#web_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_log_trigger#web_requests InextLogTrigger#web_requests}
   */
   readonly webRequests?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_log_trigger#web_url_path InextLogTrigger#web_url_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_log_trigger#web_url_path InextLogTrigger#web_url_path}
   */
   readonly webUrlPath?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_log_trigger#web_url_query InextLogTrigger#web_url_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_log_trigger#web_url_query InextLogTrigger#web_url_query}
   */
   readonly webUrlQuery?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_log_trigger inext_log_trigger}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_log_trigger inext_log_trigger}
 */
 export class InextLogTrigger extends cdktf.TerraformResource {
 
@@ -156,7 +156,7 @@ export class InextLogTrigger extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InextLogTrigger resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InextLogTrigger to import
-  * @param importFromId The id of the existing InextLogTrigger that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_log_trigger#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InextLogTrigger that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_log_trigger#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InextLogTrigger to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -168,7 +168,7 @@ export class InextLogTrigger extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_log_trigger inext_log_trigger} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_log_trigger inext_log_trigger} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -179,8 +179,8 @@ export class InextLogTrigger extends cdktf.TerraformResource {
       terraformResourceType: 'inext_log_trigger',
       terraformGeneratorMetadata: {
         providerName: 'infinity-next',
-        providerVersion: '1.2.0',
-        providerVersionConstraint: '1.2.0'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

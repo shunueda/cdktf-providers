@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/credential
+// https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/credential
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataZedcloudCredentialConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/credential#id DataZedcloudCredential#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/credential#id DataZedcloudCredential#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,45 +17,45 @@ export interface DataZedcloudCredentialConfig extends cdktf.TerraformMetaArgumen
   /**
   * list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/credential#list DataZedcloudCredential#list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/credential#list DataZedcloudCredential#list}
   */
   readonly list?: DataZedcloudCredentialListStruct[] | cdktf.IResolvable;
   /**
   * next block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/credential#next DataZedcloudCredential#next}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/credential#next DataZedcloudCredential#next}
   */
   readonly next?: DataZedcloudCredentialNext[] | cdktf.IResolvable;
   /**
   * summary_by_state block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/credential#summary_by_state DataZedcloudCredential#summary_by_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/credential#summary_by_state DataZedcloudCredential#summary_by_state}
   */
   readonly summaryByState?: DataZedcloudCredentialSummaryByState[] | cdktf.IResolvable;
 }
 export interface DataZedcloudCredentialListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/credential#current_cred DataZedcloudCredential#current_cred}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/credential#current_cred DataZedcloudCredential#current_cred}
   */
   readonly currentCred?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/credential#forgot DataZedcloudCredential#forgot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/credential#forgot DataZedcloudCredential#forgot}
   */
   readonly forgot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/credential#new_cred DataZedcloudCredential#new_cred}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/credential#new_cred DataZedcloudCredential#new_cred}
   */
   readonly newCred?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/credential#owner DataZedcloudCredential#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/credential#owner DataZedcloudCredential#owner}
   */
   readonly owner?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/credential#salt DataZedcloudCredential#salt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/credential#salt DataZedcloudCredential#salt}
   */
   readonly salt?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/credential#type DataZedcloudCredential#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/credential#type DataZedcloudCredential#type}
   */
   readonly type?: string;
 }
@@ -323,31 +323,31 @@ export interface DataZedcloudCredentialNext {
   /**
   * OrderBy helps in sorting the list response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/credential#order_by DataZedcloudCredential#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/credential#order_by DataZedcloudCredential#order_by}
   */
   readonly orderBy?: string[];
   /**
   * Page Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/credential#page_num DataZedcloudCredential#page_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/credential#page_num DataZedcloudCredential#page_num}
   */
   readonly pageNum?: number;
   /**
   * Defines the page size
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/credential#page_size DataZedcloudCredential#page_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/credential#page_size DataZedcloudCredential#page_size}
   */
   readonly pageSize?: number;
   /**
   * Page Token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/credential#page_token DataZedcloudCredential#page_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/credential#page_token DataZedcloudCredential#page_token}
   */
   readonly pageToken?: string;
   /**
   * Total number of pages to be fetched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/credential#total_pages DataZedcloudCredential#total_pages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/credential#total_pages DataZedcloudCredential#total_pages}
   */
   readonly totalPages?: number;
 }
@@ -581,19 +581,19 @@ export interface DataZedcloudCredentialSummaryByState {
   /**
   * Summary description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/credential#description DataZedcloudCredential#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/credential#description DataZedcloudCredential#description}
   */
   readonly description?: string;
   /**
   * Total
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/credential#total DataZedcloudCredential#total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/credential#total DataZedcloudCredential#total}
   */
   readonly total?: number;
   /**
   * Values: Map for storing <string, uint32>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/credential#values DataZedcloudCredential#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/credential#values DataZedcloudCredential#values}
   */
   readonly values?: { [key: string]: number };
 }
@@ -767,7 +767,7 @@ export class DataZedcloudCredentialSummaryByStateList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/credential zedcloud_credential}
+* Represents a {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/credential zedcloud_credential}
 */
 export class DataZedcloudCredential extends cdktf.TerraformDataSource {
 
@@ -783,7 +783,7 @@ export class DataZedcloudCredential extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZedcloudCredential resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZedcloudCredential to import
-  * @param importFromId The id of the existing DataZedcloudCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/credential#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZedcloudCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/credential#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZedcloudCredential to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -795,7 +795,7 @@ export class DataZedcloudCredential extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/credential zedcloud_credential} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/credential zedcloud_credential} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -806,8 +806,8 @@ export class DataZedcloudCredential extends cdktf.TerraformDataSource {
       terraformResourceType: 'zedcloud_credential',
       terraformGeneratorMetadata: {
         providerName: 'zedcloud',
-        providerVersion: '2.5.0',
-        providerVersionConstraint: '2.5.0'
+        providerVersion: '2.6.0',
+        providerVersionConstraint: '2.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

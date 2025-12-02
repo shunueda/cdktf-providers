@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "infinity-next": "1.2.0"
+    "infinity-next": "1.2.1"
   }
 }

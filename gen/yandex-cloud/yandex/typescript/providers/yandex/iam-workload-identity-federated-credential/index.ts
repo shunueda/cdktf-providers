@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/iam_workload_identity_federated_credential
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/iam_workload_identity_federated_credential
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,27 +10,27 @@ export interface IamWorkloadIdentityFederatedCredentialConfig extends cdktf.Terr
   /**
   * Id of the external subject.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/iam_workload_identity_federated_credential#external_subject_id IamWorkloadIdentityFederatedCredential#external_subject_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/iam_workload_identity_federated_credential#external_subject_id IamWorkloadIdentityFederatedCredential#external_subject_id}
   */
   readonly externalSubjectId: string;
   /**
   * ID of the federated credential to return.
   *  To get the federated credential ID, make a [FederatedCredentialService.List] request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/iam_workload_identity_federated_credential#federated_credential_id IamWorkloadIdentityFederatedCredential#federated_credential_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/iam_workload_identity_federated_credential#federated_credential_id IamWorkloadIdentityFederatedCredential#federated_credential_id}
   */
   readonly federatedCredentialId?: string;
   /**
   * ID of the workload identity federation which is used for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/iam_workload_identity_federated_credential#federation_id IamWorkloadIdentityFederatedCredential#federation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/iam_workload_identity_federated_credential#federation_id IamWorkloadIdentityFederatedCredential#federation_id}
   */
   readonly federationId: string;
   /**
   * ID of the federated credential to return.
   *  To get the federated credential ID, make a [FederatedCredentialService.List] request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/iam_workload_identity_federated_credential#id IamWorkloadIdentityFederatedCredential#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/iam_workload_identity_federated_credential#id IamWorkloadIdentityFederatedCredential#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -39,13 +39,13 @@ export interface IamWorkloadIdentityFederatedCredentialConfig extends cdktf.Terr
   /**
   * Id of the service account that the federated credential belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/iam_workload_identity_federated_credential#service_account_id IamWorkloadIdentityFederatedCredential#service_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/iam_workload_identity_federated_credential#service_account_id IamWorkloadIdentityFederatedCredential#service_account_id}
   */
   readonly serviceAccountId?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/iam_workload_identity_federated_credential#timeouts IamWorkloadIdentityFederatedCredential#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/iam_workload_identity_federated_credential#timeouts IamWorkloadIdentityFederatedCredential#timeouts}
   */
   readonly timeouts?: IamWorkloadIdentityFederatedCredentialTimeouts;
 }
@@ -53,25 +53,25 @@ export interface IamWorkloadIdentityFederatedCredentialTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/iam_workload_identity_federated_credential#create IamWorkloadIdentityFederatedCredential#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/iam_workload_identity_federated_credential#create IamWorkloadIdentityFederatedCredential#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/iam_workload_identity_federated_credential#delete IamWorkloadIdentityFederatedCredential#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/iam_workload_identity_federated_credential#delete IamWorkloadIdentityFederatedCredential#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/iam_workload_identity_federated_credential#read IamWorkloadIdentityFederatedCredential#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/iam_workload_identity_federated_credential#read IamWorkloadIdentityFederatedCredential#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/iam_workload_identity_federated_credential#update IamWorkloadIdentityFederatedCredential#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/iam_workload_identity_federated_credential#update IamWorkloadIdentityFederatedCredential#update}
   */
   readonly update?: string;
 }
@@ -252,7 +252,7 @@ export class IamWorkloadIdentityFederatedCredentialTimeoutsOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/iam_workload_identity_federated_credential yandex_iam_workload_identity_federated_credential}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/iam_workload_identity_federated_credential yandex_iam_workload_identity_federated_credential}
 */
 export class IamWorkloadIdentityFederatedCredential extends cdktf.TerraformResource {
 
@@ -268,7 +268,7 @@ export class IamWorkloadIdentityFederatedCredential extends cdktf.TerraformResou
   * Generates CDKTF code for importing a IamWorkloadIdentityFederatedCredential resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IamWorkloadIdentityFederatedCredential to import
-  * @param importFromId The id of the existing IamWorkloadIdentityFederatedCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/iam_workload_identity_federated_credential#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IamWorkloadIdentityFederatedCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/iam_workload_identity_federated_credential#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IamWorkloadIdentityFederatedCredential to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -280,7 +280,7 @@ export class IamWorkloadIdentityFederatedCredential extends cdktf.TerraformResou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/iam_workload_identity_federated_credential yandex_iam_workload_identity_federated_credential} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/iam_workload_identity_federated_credential yandex_iam_workload_identity_federated_credential} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -291,8 +291,8 @@ export class IamWorkloadIdentityFederatedCredential extends cdktf.TerraformResou
       terraformResourceType: 'yandex_iam_workload_identity_federated_credential',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.172.0',
-        providerVersionConstraint: '0.172.0'
+        providerVersion: '0.173.0',
+        providerVersionConstraint: '0.173.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

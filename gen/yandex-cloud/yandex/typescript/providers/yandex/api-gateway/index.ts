@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/api_gateway
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/api_gateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ApiGatewayConfig extends cdktf.TerraformMetaArguments {
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/api_gateway#description ApiGateway#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/api_gateway#description ApiGateway#description}
   */
   readonly description?: string;
   /**
   * Execution timeout in seconds for the Yandex Cloud API Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/api_gateway#execution_timeout ApiGateway#execution_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/api_gateway#execution_timeout ApiGateway#execution_timeout}
   */
   readonly executionTimeout?: string;
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/api_gateway#folder_id ApiGateway#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/api_gateway#folder_id ApiGateway#folder_id}
   */
   readonly folderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/api_gateway#id ApiGateway#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/api_gateway#id ApiGateway#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,55 +35,55 @@ export interface ApiGatewayConfig extends cdktf.TerraformMetaArguments {
   /**
   * A set of key/value label pairs which assigned to resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/api_gateway#labels ApiGateway#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/api_gateway#labels ApiGateway#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/api_gateway#name ApiGateway#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/api_gateway#name ApiGateway#name}
   */
   readonly name: string;
   /**
   * The OpenAPI specification for Yandex Cloud API Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/api_gateway#spec ApiGateway#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/api_gateway#spec ApiGateway#spec}
   */
   readonly spec: string;
   /**
   * A set of values for variables in gateway specification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/api_gateway#variables ApiGateway#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/api_gateway#variables ApiGateway#variables}
   */
   readonly variables?: { [key: string]: string };
   /**
   * canary block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/api_gateway#canary ApiGateway#canary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/api_gateway#canary ApiGateway#canary}
   */
   readonly canary?: ApiGatewayCanary;
   /**
   * connectivity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/api_gateway#connectivity ApiGateway#connectivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/api_gateway#connectivity ApiGateway#connectivity}
   */
   readonly connectivity?: ApiGatewayConnectivity;
   /**
   * custom_domains block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/api_gateway#custom_domains ApiGateway#custom_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/api_gateway#custom_domains ApiGateway#custom_domains}
   */
   readonly customDomains?: ApiGatewayCustomDomains[] | cdktf.IResolvable;
   /**
   * log_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/api_gateway#log_options ApiGateway#log_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/api_gateway#log_options ApiGateway#log_options}
   */
   readonly logOptions?: ApiGatewayLogOptions;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/api_gateway#timeouts ApiGateway#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/api_gateway#timeouts ApiGateway#timeouts}
   */
   readonly timeouts?: ApiGatewayTimeouts;
 }
@@ -91,13 +91,13 @@ export interface ApiGatewayCanary {
   /**
   * A list of values for variables in gateway specification of canary release.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/api_gateway#variables ApiGateway#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/api_gateway#variables ApiGateway#variables}
   */
   readonly variables?: { [key: string]: string };
   /**
   * Percentage of requests, which will be processed by canary release.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/api_gateway#weight ApiGateway#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/api_gateway#weight ApiGateway#weight}
   */
   readonly weight?: number;
 }
@@ -212,7 +212,7 @@ export interface ApiGatewayConnectivity {
   /**
   * Network the gateway will have access to. It's essential to specify network with subnets in all availability zones.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/api_gateway#network_id ApiGateway#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/api_gateway#network_id ApiGateway#network_id}
   */
   readonly networkId: string;
 }
@@ -293,15 +293,15 @@ export class ApiGatewayConnectivityOutputReference extends cdktf.ComplexObject {
 }
 export interface ApiGatewayCustomDomains {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/api_gateway#certificate_id ApiGateway#certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/api_gateway#certificate_id ApiGateway#certificate_id}
   */
   readonly certificateId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/api_gateway#domain_id ApiGateway#domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/api_gateway#domain_id ApiGateway#domain_id}
   */
   readonly domainId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/api_gateway#fqdn ApiGateway#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/api_gateway#fqdn ApiGateway#fqdn}
   */
   readonly fqdn: string;
 }
@@ -471,25 +471,25 @@ export interface ApiGatewayLogOptions {
   /**
   * Is logging from Yandex Cloud API Gateway disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/api_gateway#disabled ApiGateway#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/api_gateway#disabled ApiGateway#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Log entries are written to default log group for specified folder.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/api_gateway#folder_id ApiGateway#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/api_gateway#folder_id ApiGateway#folder_id}
   */
   readonly folderId?: string;
   /**
   * Log entries are written to specified log group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/api_gateway#log_group_id ApiGateway#log_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/api_gateway#log_group_id ApiGateway#log_group_id}
   */
   readonly logGroupId?: string;
   /**
   * Minimum log entry level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/api_gateway#min_level ApiGateway#min_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/api_gateway#min_level ApiGateway#min_level}
   */
   readonly minLevel?: string;
 }
@@ -660,15 +660,15 @@ export class ApiGatewayLogOptionsOutputReference extends cdktf.ComplexObject {
 }
 export interface ApiGatewayTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/api_gateway#create ApiGateway#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/api_gateway#create ApiGateway#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/api_gateway#delete ApiGateway#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/api_gateway#delete ApiGateway#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/api_gateway#update ApiGateway#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/api_gateway#update ApiGateway#update}
   */
   readonly update?: string;
 }
@@ -820,7 +820,7 @@ export class ApiGatewayTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/api_gateway yandex_api_gateway}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/api_gateway yandex_api_gateway}
 */
 export class ApiGateway extends cdktf.TerraformResource {
 
@@ -836,7 +836,7 @@ export class ApiGateway extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApiGateway resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApiGateway to import
-  * @param importFromId The id of the existing ApiGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/api_gateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApiGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/api_gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApiGateway to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -848,7 +848,7 @@ export class ApiGateway extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/api_gateway yandex_api_gateway} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/api_gateway yandex_api_gateway} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -859,8 +859,8 @@ export class ApiGateway extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_api_gateway',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.172.0',
-        providerVersionConstraint: '0.172.0'
+        providerVersion: '0.173.0',
+        providerVersionConstraint: '0.173.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/data-sources/routing_email_route
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/routing_email_route
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataGenesyscloudRoutingEmailRouteConfig extends cdktf.Terraform
   /**
   * Domain of the route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/data-sources/routing_email_route#domain_id DataGenesyscloudRoutingEmailRoute#domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/routing_email_route#domain_id DataGenesyscloudRoutingEmailRoute#domain_id}
   */
   readonly domainId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/data-sources/routing_email_route#id DataGenesyscloudRoutingEmailRoute#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/routing_email_route#id DataGenesyscloudRoutingEmailRoute#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface DataGenesyscloudRoutingEmailRouteConfig extends cdktf.Terraform
   /**
   * Routing pattern.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/data-sources/routing_email_route#pattern DataGenesyscloudRoutingEmailRoute#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/routing_email_route#pattern DataGenesyscloudRoutingEmailRoute#pattern}
   */
   readonly pattern: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/data-sources/routing_email_route genesyscloud_routing_email_route}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/routing_email_route genesyscloud_routing_email_route}
 */
 export class DataGenesyscloudRoutingEmailRoute extends cdktf.TerraformDataSource {
 
@@ -45,7 +45,7 @@ export class DataGenesyscloudRoutingEmailRoute extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataGenesyscloudRoutingEmailRoute resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGenesyscloudRoutingEmailRoute to import
-  * @param importFromId The id of the existing DataGenesyscloudRoutingEmailRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/data-sources/routing_email_route#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataGenesyscloudRoutingEmailRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/routing_email_route#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGenesyscloudRoutingEmailRoute to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class DataGenesyscloudRoutingEmailRoute extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/data-sources/routing_email_route genesyscloud_routing_email_route} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/routing_email_route genesyscloud_routing_email_route} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class DataGenesyscloudRoutingEmailRoute extends cdktf.TerraformDataSource
       terraformResourceType: 'genesyscloud_routing_email_route',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.71.1',
-        providerVersionConstraint: '1.71.1'
+        providerVersion: '1.72.2',
+        providerVersionConstraint: '1.72.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

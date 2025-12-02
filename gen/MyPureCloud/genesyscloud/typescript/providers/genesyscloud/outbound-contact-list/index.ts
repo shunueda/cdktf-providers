@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contact_list
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_contact_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface OutboundContactListConfig extends cdktf.TerraformMetaArguments 
   /**
   * Attempt Limit for this ContactList.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contact_list#attempt_limit_id OutboundContactList#attempt_limit_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_contact_list#attempt_limit_id OutboundContactList#attempt_limit_id}
   */
   readonly attemptLimitId?: string;
   /**
   * Indicates if automatic time zone mapping is to be used for this ContactList. Changing the automatic_time_zone_mappings attribute will cause the outboundcontact_list object to be dropped and recreated with a new ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contact_list#automatic_time_zone_mapping OutboundContactList#automatic_time_zone_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_contact_list#automatic_time_zone_mapping OutboundContactList#automatic_time_zone_mapping}
   */
   readonly automaticTimeZoneMapping?: boolean | cdktf.IResolvable;
   /**
   * The names of the contact data columns. Changing the column_names attribute will cause the outbound_contact_list object to be dropped and recreated with a new ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contact_list#column_names OutboundContactList#column_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_contact_list#column_names OutboundContactList#column_names}
   */
   readonly columnNames: string[];
   /**
   * The path to a CSV file containing contacts to import into the contact list. When updated, existing contacts will be removed and replaced with contacts from the new file. If not specified, an empty contact list will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contact_list#contacts_filepath OutboundContactList#contacts_filepath}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_contact_list#contacts_filepath OutboundContactList#contacts_filepath}
   */
   readonly contactsFilepath?: string;
   /**
   * The name of the column in the CSV file that contains the contact's unique contact id. If updated, the contact list is dropped and recreated with a new ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contact_list#contacts_id_name OutboundContactList#contacts_id_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_contact_list#contacts_id_name OutboundContactList#contacts_id_name}
   */
   readonly contactsIdName?: string;
   /**
   * The division this entity belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contact_list#division_id OutboundContactList#division_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_contact_list#division_id OutboundContactList#division_id}
   */
   readonly divisionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contact_list#id OutboundContactList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_contact_list#id OutboundContactList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,49 +53,49 @@ export interface OutboundContactListConfig extends cdktf.TerraformMetaArguments 
   /**
   * The name for the contact list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contact_list#name OutboundContactList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_contact_list#name OutboundContactList#name}
   */
   readonly name: string;
   /**
   * The values in the previewModeColumnName column that indicate a contact should always be dialed in preview mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contact_list#preview_mode_accepted_values OutboundContactList#preview_mode_accepted_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_contact_list#preview_mode_accepted_values OutboundContactList#preview_mode_accepted_values}
   */
   readonly previewModeAcceptedValues?: string[];
   /**
   * A column to check if a contact should always be dialed in preview mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contact_list#preview_mode_column_name OutboundContactList#preview_mode_column_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_contact_list#preview_mode_column_name OutboundContactList#preview_mode_column_name}
   */
   readonly previewModeColumnName?: string;
   /**
   * Indicates if leading and trailing whitespace will be trimmed when importing a contactlist CSV file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contact_list#trim_whitespace OutboundContactList#trim_whitespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_contact_list#trim_whitespace OutboundContactList#trim_whitespace}
   */
   readonly trimWhitespace?: boolean | cdktf.IResolvable;
   /**
   * The name of contact list column containing the zip code for use with automatic time zone mapping. Only allowed if 'automaticTimeZoneMapping' is set to true. Changing the zip_code_column_name attribute will cause the outboundcontact_list object to be dropped and recreated with a new ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contact_list#zip_code_column_name OutboundContactList#zip_code_column_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_contact_list#zip_code_column_name OutboundContactList#zip_code_column_name}
   */
   readonly zipCodeColumnName?: string;
   /**
   * column_data_type_specifications block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contact_list#column_data_type_specifications OutboundContactList#column_data_type_specifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_contact_list#column_data_type_specifications OutboundContactList#column_data_type_specifications}
   */
   readonly columnDataTypeSpecifications?: OutboundContactListColumnDataTypeSpecifications[] | cdktf.IResolvable;
   /**
   * email_columns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contact_list#email_columns OutboundContactList#email_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_contact_list#email_columns OutboundContactList#email_columns}
   */
   readonly emailColumns?: OutboundContactListEmailColumns[] | cdktf.IResolvable;
   /**
   * phone_columns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contact_list#phone_columns OutboundContactList#phone_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_contact_list#phone_columns OutboundContactList#phone_columns}
   */
   readonly phoneColumns?: OutboundContactListPhoneColumns[] | cdktf.IResolvable;
 }
@@ -103,31 +103,31 @@ export interface OutboundContactListColumnDataTypeSpecifications {
   /**
   * The data type of the column selected for dynamic queueing (TEXT, NUMERIC or TIMESTAMP)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contact_list#column_data_type OutboundContactList#column_data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_contact_list#column_data_type OutboundContactList#column_data_type}
   */
   readonly columnDataType?: string;
   /**
   * The column name of a column selected for dynamic queueing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contact_list#column_name OutboundContactList#column_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_contact_list#column_name OutboundContactList#column_name}
   */
   readonly columnName: string;
   /**
   * The maximum length of the numeric column selected for dynamic queueing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contact_list#max OutboundContactList#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_contact_list#max OutboundContactList#max}
   */
   readonly max?: number;
   /**
   * The maximum length of the text column selected for dynamic queueing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contact_list#max_length OutboundContactList#max_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_contact_list#max_length OutboundContactList#max_length}
   */
   readonly maxLength?: number;
   /**
   * The minimum length of the numeric column selected for dynamic queueing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contact_list#min OutboundContactList#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_contact_list#min OutboundContactList#min}
   */
   readonly min?: number;
 }
@@ -358,19 +358,19 @@ export interface OutboundContactListEmailColumns {
   /**
   * The name of the email column.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contact_list#column_name OutboundContactList#column_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_contact_list#column_name OutboundContactList#column_name}
   */
   readonly columnName: string;
   /**
   * A column that indicates the timezone to use for a given contact when checking contactable times.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contact_list#contactable_time_column OutboundContactList#contactable_time_column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_contact_list#contactable_time_column OutboundContactList#contactable_time_column}
   */
   readonly contactableTimeColumn?: string;
   /**
   * Indicates the type of the email column. For example, 'work' or 'personal'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contact_list#type OutboundContactList#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_contact_list#type OutboundContactList#type}
   */
   readonly type: string;
 }
@@ -540,19 +540,19 @@ export interface OutboundContactListPhoneColumns {
   /**
   * A column that indicates the timezone to use for a given contact when checking callable times. Not allowed if 'automaticTimeZoneMapping' is set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contact_list#callable_time_column OutboundContactList#callable_time_column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_contact_list#callable_time_column OutboundContactList#callable_time_column}
   */
   readonly callableTimeColumn?: string;
   /**
   * The name of the phone column.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contact_list#column_name OutboundContactList#column_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_contact_list#column_name OutboundContactList#column_name}
   */
   readonly columnName: string;
   /**
   * Indicates the type of the phone column. For example, 'cell' or 'home'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contact_list#type OutboundContactList#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_contact_list#type OutboundContactList#type}
   */
   readonly type: string;
 }
@@ -720,7 +720,7 @@ export class OutboundContactListPhoneColumnsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contact_list genesyscloud_outbound_contact_list}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_contact_list genesyscloud_outbound_contact_list}
 */
 export class OutboundContactList extends cdktf.TerraformResource {
 
@@ -736,7 +736,7 @@ export class OutboundContactList extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OutboundContactList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OutboundContactList to import
-  * @param importFromId The id of the existing OutboundContactList that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contact_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OutboundContactList that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_contact_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OutboundContactList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -748,7 +748,7 @@ export class OutboundContactList extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contact_list genesyscloud_outbound_contact_list} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_contact_list genesyscloud_outbound_contact_list} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -759,8 +759,8 @@ export class OutboundContactList extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_outbound_contact_list',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.71.1',
-        providerVersionConstraint: '1.71.1'
+        providerVersion: '1.72.2',
+        providerVersionConstraint: '1.72.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

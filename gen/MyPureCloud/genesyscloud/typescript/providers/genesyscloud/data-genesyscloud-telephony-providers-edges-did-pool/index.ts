@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/data-sources/telephony_providers_edges_did_pool
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/telephony_providers_edges_did_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataGenesyscloudTelephonyProvidersEdgesDidPoolConfig extends cd
   /**
   * Ending phone number of the DID Pool range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/data-sources/telephony_providers_edges_did_pool#end_phone_number DataGenesyscloudTelephonyProvidersEdgesDidPool#end_phone_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/telephony_providers_edges_did_pool#end_phone_number DataGenesyscloudTelephonyProvidersEdgesDidPool#end_phone_number}
   */
   readonly endPhoneNumber: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/data-sources/telephony_providers_edges_did_pool#id DataGenesyscloudTelephonyProvidersEdgesDidPool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/telephony_providers_edges_did_pool#id DataGenesyscloudTelephonyProvidersEdgesDidPool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface DataGenesyscloudTelephonyProvidersEdgesDidPoolConfig extends cd
   /**
   * Starting phone number of the DID Pool range. Must be in an E.164 number format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/data-sources/telephony_providers_edges_did_pool#start_phone_number DataGenesyscloudTelephonyProvidersEdgesDidPool#start_phone_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/telephony_providers_edges_did_pool#start_phone_number DataGenesyscloudTelephonyProvidersEdgesDidPool#start_phone_number}
   */
   readonly startPhoneNumber: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/data-sources/telephony_providers_edges_did_pool genesyscloud_telephony_providers_edges_did_pool}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/telephony_providers_edges_did_pool genesyscloud_telephony_providers_edges_did_pool}
 */
 export class DataGenesyscloudTelephonyProvidersEdgesDidPool extends cdktf.TerraformDataSource {
 
@@ -45,7 +45,7 @@ export class DataGenesyscloudTelephonyProvidersEdgesDidPool extends cdktf.Terraf
   * Generates CDKTF code for importing a DataGenesyscloudTelephonyProvidersEdgesDidPool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGenesyscloudTelephonyProvidersEdgesDidPool to import
-  * @param importFromId The id of the existing DataGenesyscloudTelephonyProvidersEdgesDidPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/data-sources/telephony_providers_edges_did_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataGenesyscloudTelephonyProvidersEdgesDidPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/telephony_providers_edges_did_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGenesyscloudTelephonyProvidersEdgesDidPool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class DataGenesyscloudTelephonyProvidersEdgesDidPool extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/data-sources/telephony_providers_edges_did_pool genesyscloud_telephony_providers_edges_did_pool} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/telephony_providers_edges_did_pool genesyscloud_telephony_providers_edges_did_pool} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class DataGenesyscloudTelephonyProvidersEdgesDidPool extends cdktf.Terraf
       terraformResourceType: 'genesyscloud_telephony_providers_edges_did_pool',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.71.1',
-        providerVersionConstraint: '1.71.1'
+        providerVersion: '1.72.2',
+        providerVersionConstraint: '1.72.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

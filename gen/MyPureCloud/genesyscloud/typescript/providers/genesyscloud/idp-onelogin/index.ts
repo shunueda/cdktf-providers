@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/idp_onelogin
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_onelogin
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface IdpOneloginConfig extends cdktf.TerraformMetaArguments {
   /**
   * PEM or DER encoded public X.509 certificates for SAML signature validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/idp_onelogin#certificates IdpOnelogin#certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_onelogin#certificates IdpOnelogin#certificates}
   */
   readonly certificates?: string[];
   /**
   * True if OneLogin is disabled. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/idp_onelogin#disabled IdpOnelogin#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_onelogin#disabled IdpOnelogin#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/idp_onelogin#id IdpOnelogin#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_onelogin#id IdpOnelogin#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,53 +29,59 @@ export interface IdpOneloginConfig extends cdktf.TerraformMetaArguments {
   /**
   * Issuer URI provided by OneLogin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/idp_onelogin#issuer_uri IdpOnelogin#issuer_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_onelogin#issuer_uri IdpOnelogin#issuer_uri}
   */
   readonly issuerUri: string;
   /**
   * IDP OneLogin resource name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/idp_onelogin#name IdpOnelogin#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_onelogin#name IdpOnelogin#name}
   */
   readonly name?: string;
   /**
   * String used to identify Genesys Cloud to OneLogin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/idp_onelogin#relying_party_identifier IdpOnelogin#relying_party_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_onelogin#relying_party_identifier IdpOnelogin#relying_party_identifier}
   */
   readonly relyingPartyIdentifier?: string;
   /**
+  * True if the Genesys Cloud authentication request should be signed. Defaults to `false`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_onelogin#sign_authn_requests IdpOnelogin#sign_authn_requests}
+  */
+  readonly signAuthnRequests?: boolean | cdktf.IResolvable;
+  /**
   * Valid values: HTTP Redirect, HTTP Post
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/idp_onelogin#slo_binding IdpOnelogin#slo_binding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_onelogin#slo_binding IdpOnelogin#slo_binding}
   */
   readonly sloBinding?: string;
   /**
   * Provided by OneLogin on app creation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/idp_onelogin#slo_uri IdpOnelogin#slo_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_onelogin#slo_uri IdpOnelogin#slo_uri}
   */
   readonly sloUri?: string;
   /**
   * Target URI provided by OneLogin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/idp_onelogin#target_uri IdpOnelogin#target_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_onelogin#target_uri IdpOnelogin#target_uri}
   */
   readonly targetUri?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/idp_onelogin#timeouts IdpOnelogin#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_onelogin#timeouts IdpOnelogin#timeouts}
   */
   readonly timeouts?: IdpOneloginTimeouts;
 }
 export interface IdpOneloginTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/idp_onelogin#read IdpOnelogin#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_onelogin#read IdpOnelogin#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/idp_onelogin#update IdpOnelogin#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_onelogin#update IdpOnelogin#update}
   */
   readonly update?: string;
 }
@@ -198,7 +204,7 @@ export class IdpOneloginTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/idp_onelogin genesyscloud_idp_onelogin}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_onelogin genesyscloud_idp_onelogin}
 */
 export class IdpOnelogin extends cdktf.TerraformResource {
 
@@ -214,7 +220,7 @@ export class IdpOnelogin extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IdpOnelogin resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IdpOnelogin to import
-  * @param importFromId The id of the existing IdpOnelogin that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/idp_onelogin#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IdpOnelogin that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_onelogin#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IdpOnelogin to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -226,7 +232,7 @@ export class IdpOnelogin extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/idp_onelogin genesyscloud_idp_onelogin} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_onelogin genesyscloud_idp_onelogin} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -237,8 +243,8 @@ export class IdpOnelogin extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_idp_onelogin',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.71.1',
-        providerVersionConstraint: '1.71.1'
+        providerVersion: '1.72.2',
+        providerVersionConstraint: '1.72.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -254,6 +260,7 @@ export class IdpOnelogin extends cdktf.TerraformResource {
     this._issuerUri = config.issuerUri;
     this._name = config.name;
     this._relyingPartyIdentifier = config.relyingPartyIdentifier;
+    this._signAuthnRequests = config.signAuthnRequests;
     this._sloBinding = config.sloBinding;
     this._sloUri = config.sloUri;
     this._targetUri = config.targetUri;
@@ -357,6 +364,22 @@ export class IdpOnelogin extends cdktf.TerraformResource {
     return this._relyingPartyIdentifier;
   }
 
+  // sign_authn_requests - computed: false, optional: true, required: false
+  private _signAuthnRequests?: boolean | cdktf.IResolvable; 
+  public get signAuthnRequests() {
+    return this.getBooleanAttribute('sign_authn_requests');
+  }
+  public set signAuthnRequests(value: boolean | cdktf.IResolvable) {
+    this._signAuthnRequests = value;
+  }
+  public resetSignAuthnRequests() {
+    this._signAuthnRequests = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get signAuthnRequestsInput() {
+    return this._signAuthnRequests;
+  }
+
   // slo_binding - computed: false, optional: true, required: false
   private _sloBinding?: string; 
   public get sloBinding() {
@@ -433,6 +456,7 @@ export class IdpOnelogin extends cdktf.TerraformResource {
       issuer_uri: cdktf.stringToTerraform(this._issuerUri),
       name: cdktf.stringToTerraform(this._name),
       relying_party_identifier: cdktf.stringToTerraform(this._relyingPartyIdentifier),
+      sign_authn_requests: cdktf.booleanToTerraform(this._signAuthnRequests),
       slo_binding: cdktf.stringToTerraform(this._sloBinding),
       slo_uri: cdktf.stringToTerraform(this._sloUri),
       target_uri: cdktf.stringToTerraform(this._targetUri),
@@ -477,6 +501,12 @@ export class IdpOnelogin extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      sign_authn_requests: {
+        value: cdktf.booleanToHclTerraform(this._signAuthnRequests),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
       },
       slo_binding: {
         value: cdktf.stringToHclTerraform(this._sloBinding),

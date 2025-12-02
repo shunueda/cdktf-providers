@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy_bindings
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/backup_policy_bindings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface BackupPolicyBindingsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy_bindings#id BackupPolicyBindings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/backup_policy_bindings#id BackupPolicyBindings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface BackupPolicyBindingsConfig extends cdktf.TerraformMetaArguments
   /**
   * Compute Cloud instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy_bindings#instance_id BackupPolicyBindings#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/backup_policy_bindings#instance_id BackupPolicyBindings#instance_id}
   */
   readonly instanceId: string;
   /**
   * Backup Policy ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy_bindings#policy_id BackupPolicyBindings#policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/backup_policy_bindings#policy_id BackupPolicyBindings#policy_id}
   */
   readonly policyId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy_bindings#timeouts BackupPolicyBindings#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/backup_policy_bindings#timeouts BackupPolicyBindings#timeouts}
   */
   readonly timeouts?: BackupPolicyBindingsTimeouts;
 }
 export interface BackupPolicyBindingsTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy_bindings#create BackupPolicyBindings#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/backup_policy_bindings#create BackupPolicyBindings#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy_bindings#delete BackupPolicyBindings#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/backup_policy_bindings#delete BackupPolicyBindings#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy_bindings#read BackupPolicyBindings#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/backup_policy_bindings#read BackupPolicyBindings#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy_bindings#update BackupPolicyBindings#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/backup_policy_bindings#update BackupPolicyBindings#update}
   */
   readonly update?: string;
 }
@@ -228,7 +228,7 @@ export class BackupPolicyBindingsTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy_bindings yandex_backup_policy_bindings}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/backup_policy_bindings yandex_backup_policy_bindings}
 */
 export class BackupPolicyBindings extends cdktf.TerraformResource {
 
@@ -244,7 +244,7 @@ export class BackupPolicyBindings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BackupPolicyBindings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BackupPolicyBindings to import
-  * @param importFromId The id of the existing BackupPolicyBindings that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy_bindings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BackupPolicyBindings that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/backup_policy_bindings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BackupPolicyBindings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -256,7 +256,7 @@ export class BackupPolicyBindings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/backup_policy_bindings yandex_backup_policy_bindings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/backup_policy_bindings yandex_backup_policy_bindings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -267,8 +267,8 @@ export class BackupPolicyBindings extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_backup_policy_bindings',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.172.0',
-        providerVersionConstraint: '0.172.0'
+        providerVersion: '0.173.0',
+        providerVersionConstraint: '0.173.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

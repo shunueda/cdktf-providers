@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/patch_envelope
+// https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/patch_envelope
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface DataZedcloudPatchEnvelopeConfig extends cdktf.TerraformMetaArgu
   /**
   * Flag to represent whether device needs to present it to app instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/patch_envelope#action DataZedcloudPatchEnvelope#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/patch_envelope#action DataZedcloudPatchEnvelope#action}
   */
   readonly action: string;
   /**
   * Detailed description of the patch envelope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/patch_envelope#description DataZedcloudPatchEnvelope#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/patch_envelope#description DataZedcloudPatchEnvelope#description}
   */
   readonly description?: string;
   /**
   * number of devices referencing this patch envelope
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/patch_envelope#device_count DataZedcloudPatchEnvelope#device_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/patch_envelope#device_count DataZedcloudPatchEnvelope#device_count}
   */
   readonly deviceCount?: number;
   /**
   * User defined name of the patch envelope, unique across the enterprise. Once patch envelope is created, name can’t be changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/patch_envelope#name DataZedcloudPatchEnvelope#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/patch_envelope#name DataZedcloudPatchEnvelope#name}
   */
   readonly name: string;
   /**
   * project id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/patch_envelope#project_id DataZedcloudPatchEnvelope#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/patch_envelope#project_id DataZedcloudPatchEnvelope#project_id}
   */
   readonly projectId: string;
   /**
   * project name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/patch_envelope#project_name DataZedcloudPatchEnvelope#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/patch_envelope#project_name DataZedcloudPatchEnvelope#project_name}
   */
   readonly projectName: string;
   /**
   * User defined title of the patch envelope. Title can be changed at any time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/patch_envelope#title DataZedcloudPatchEnvelope#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/patch_envelope#title DataZedcloudPatchEnvelope#title}
   */
   readonly title: string;
   /**
   * User defined version for the given patch envelope
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/patch_envelope#user_defined_version DataZedcloudPatchEnvelope#user_defined_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/patch_envelope#user_defined_version DataZedcloudPatchEnvelope#user_defined_version}
   */
   readonly userDefinedVersion?: string;
   /**
   * artifacts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/patch_envelope#artifacts DataZedcloudPatchEnvelope#artifacts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/patch_envelope#artifacts DataZedcloudPatchEnvelope#artifacts}
   */
   readonly artifacts: DataZedcloudPatchEnvelopeArtifacts[] | cdktf.IResolvable;
 }
@@ -164,15 +164,15 @@ export class DataZedcloudPatchEnvelopeRevisionList extends cdktf.ComplexList {
 }
 export interface DataZedcloudPatchEnvelopeArtifactsBase64Artifact {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/patch_envelope#base64_data DataZedcloudPatchEnvelope#base64_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/patch_envelope#base64_data DataZedcloudPatchEnvelope#base64_data}
   */
   readonly base64Data: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/patch_envelope#base64_meta_data DataZedcloudPatchEnvelope#base64_meta_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/patch_envelope#base64_meta_data DataZedcloudPatchEnvelope#base64_meta_data}
   */
   readonly base64MetaData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/patch_envelope#file_name_to_use DataZedcloudPatchEnvelope#file_name_to_use}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/patch_envelope#file_name_to_use DataZedcloudPatchEnvelope#file_name_to_use}
   */
   readonly fileNameToUse: string;
 }
@@ -344,19 +344,19 @@ export interface DataZedcloudPatchEnvelopeArtifactsBinaryArtifact {
   * optional - this can be image type or size etc encoded into a single string.
   * only the application instance agents will interpret this.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/patch_envelope#blob_meta_data DataZedcloudPatchEnvelope#blob_meta_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/patch_envelope#blob_meta_data DataZedcloudPatchEnvelope#blob_meta_data}
   */
   readonly blobMetaData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/patch_envelope#file_name_to_use DataZedcloudPatchEnvelope#file_name_to_use}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/patch_envelope#file_name_to_use DataZedcloudPatchEnvelope#file_name_to_use}
   */
   readonly fileNameToUse: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/patch_envelope#image_id DataZedcloudPatchEnvelope#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/patch_envelope#image_id DataZedcloudPatchEnvelope#image_id}
   */
   readonly imageId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/patch_envelope#image_name DataZedcloudPatchEnvelope#image_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/patch_envelope#image_name DataZedcloudPatchEnvelope#image_name}
   */
   readonly imageName: string;
 }
@@ -550,23 +550,23 @@ export class DataZedcloudPatchEnvelopeArtifactsBinaryArtifactList extends cdktf.
 }
 export interface DataZedcloudPatchEnvelopeArtifacts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/patch_envelope#artifact_meta_data DataZedcloudPatchEnvelope#artifact_meta_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/patch_envelope#artifact_meta_data DataZedcloudPatchEnvelope#artifact_meta_data}
   */
   readonly artifactMetaData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/patch_envelope#format DataZedcloudPatchEnvelope#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/patch_envelope#format DataZedcloudPatchEnvelope#format}
   */
   readonly format?: string;
   /**
   * base64_artifact block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/patch_envelope#base64_artifact DataZedcloudPatchEnvelope#base64_artifact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/patch_envelope#base64_artifact DataZedcloudPatchEnvelope#base64_artifact}
   */
   readonly base64Artifact?: DataZedcloudPatchEnvelopeArtifactsBase64Artifact[] | cdktf.IResolvable;
   /**
   * binary_artifact block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/patch_envelope#binary_artifact DataZedcloudPatchEnvelope#binary_artifact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/patch_envelope#binary_artifact DataZedcloudPatchEnvelope#binary_artifact}
   */
   readonly binaryArtifact?: DataZedcloudPatchEnvelopeArtifactsBinaryArtifact[] | cdktf.IResolvable;
 }
@@ -774,7 +774,7 @@ export class DataZedcloudPatchEnvelopeArtifactsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/patch_envelope zedcloud_patch_envelope}
+* Represents a {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/patch_envelope zedcloud_patch_envelope}
 */
 export class DataZedcloudPatchEnvelope extends cdktf.TerraformDataSource {
 
@@ -790,7 +790,7 @@ export class DataZedcloudPatchEnvelope extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZedcloudPatchEnvelope resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZedcloudPatchEnvelope to import
-  * @param importFromId The id of the existing DataZedcloudPatchEnvelope that should be imported. Refer to the {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/patch_envelope#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZedcloudPatchEnvelope that should be imported. Refer to the {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/patch_envelope#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZedcloudPatchEnvelope to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -802,7 +802,7 @@ export class DataZedcloudPatchEnvelope extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/patch_envelope zedcloud_patch_envelope} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/patch_envelope zedcloud_patch_envelope} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -813,8 +813,8 @@ export class DataZedcloudPatchEnvelope extends cdktf.TerraformDataSource {
       terraformResourceType: 'zedcloud_patch_envelope',
       terraformGeneratorMetadata: {
         providerName: 'zedcloud',
-        providerVersion: '2.5.0',
-        providerVersionConstraint: '2.5.0'
+        providerVersion: '2.6.0',
+        providerVersionConstraint: '2.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

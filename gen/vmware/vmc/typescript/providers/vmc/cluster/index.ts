@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/cluster
+// https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface ClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * The EDRS policy type. This can either be 'cost', 'performance', 'storage-scaleup' or 'rapid-scaleup'. Default : storage-scaleup. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/cluster#edrs_policy_type Cluster#edrs_policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/cluster#edrs_policy_type Cluster#edrs_policy_type}
   */
   readonly edrsPolicyType?: string;
   /**
   * True if EDRS is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/cluster#enable_edrs Cluster#enable_edrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/cluster#enable_edrs Cluster#enable_edrs}
   */
   readonly enableEdrs?: boolean | cdktf.IResolvable;
   /**
   * Customize CPU cores on hosts in a cluster. Specify number of cores to be enabled on hosts in a cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/cluster#host_cpu_cores_count Cluster#host_cpu_cores_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/cluster#host_cpu_cores_count Cluster#host_cpu_cores_count}
   */
   readonly hostCpuCoresCount?: number;
   /**
   * The instance type for the esx hosts added to this cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/cluster#host_instance_type Cluster#host_instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/cluster#host_instance_type Cluster#host_instance_type}
   */
   readonly hostInstanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/cluster#id Cluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/cluster#id Cluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,37 +41,37 @@ export interface ClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * The maximum number of hosts that the cluster can scale out to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/cluster#max_hosts Cluster#max_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/cluster#max_hosts Cluster#max_hosts}
   */
   readonly maxHosts?: number;
   /**
   * The minimum number of hosts that the cluster can scale in to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/cluster#min_hosts Cluster#min_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/cluster#min_hosts Cluster#min_hosts}
   */
   readonly minHosts?: number;
   /**
   * The number of hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/cluster#num_hosts Cluster#num_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/cluster#num_hosts Cluster#num_hosts}
   */
   readonly numHosts: number;
   /**
   * SDDC identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/cluster#sddc_id Cluster#sddc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/cluster#sddc_id Cluster#sddc_id}
   */
   readonly sddcId: string;
   /**
   * microsoft_licensing_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/cluster#microsoft_licensing_config Cluster#microsoft_licensing_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/cluster#microsoft_licensing_config Cluster#microsoft_licensing_config}
   */
   readonly microsoftLicensingConfig?: ClusterMicrosoftLicensingConfig[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/cluster#timeouts Cluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/cluster#timeouts Cluster#timeouts}
   */
   readonly timeouts?: ClusterTimeouts;
 }
@@ -79,19 +79,19 @@ export interface ClusterMicrosoftLicensingConfig {
   /**
   * Flag to identify if it is Academic Standard or Commercial Standard License.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/cluster#academic_license Cluster#academic_license}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/cluster#academic_license Cluster#academic_license}
   */
   readonly academicLicense?: boolean | cdktf.IResolvable;
   /**
   * The status of MSSQL licensing for this SDDC’s clusters. Possible values : enabled, ENABLED, disabled, DISABLED.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/cluster#mssql_licensing Cluster#mssql_licensing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/cluster#mssql_licensing Cluster#mssql_licensing}
   */
   readonly mssqlLicensing?: string;
   /**
   * The status of Windows licensing for this SDDC's clusters. Possible values : enabled, ENABLED, disabled, DISABLED.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/cluster#windows_licensing Cluster#windows_licensing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/cluster#windows_licensing Cluster#windows_licensing}
   */
   readonly windowsLicensing?: string;
 }
@@ -265,15 +265,15 @@ export class ClusterMicrosoftLicensingConfigList extends cdktf.ComplexList {
 }
 export interface ClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/cluster#create Cluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/cluster#create Cluster#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/cluster#delete Cluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/cluster#delete Cluster#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/cluster#update Cluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/cluster#update Cluster#update}
   */
   readonly update?: string;
 }
@@ -425,7 +425,7 @@ export class ClusterTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/cluster vmc_cluster}
+* Represents a {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/cluster vmc_cluster}
 */
 export class Cluster extends cdktf.TerraformResource {
 
@@ -441,7 +441,7 @@ export class Cluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cluster to import
-  * @param importFromId The id of the existing Cluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -453,7 +453,7 @@ export class Cluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/cluster vmc_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/cluster vmc_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -464,8 +464,8 @@ export class Cluster extends cdktf.TerraformResource {
       terraformResourceType: 'vmc_cluster',
       terraformGeneratorMetadata: {
         providerName: 'vmc',
-        providerVersion: '1.15.5',
-        providerVersionConstraint: '1.15.5'
+        providerVersion: '1.15.6',
+        providerVersionConstraint: '1.15.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

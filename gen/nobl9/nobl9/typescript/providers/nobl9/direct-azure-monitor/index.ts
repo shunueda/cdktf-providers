@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/direct_azure_monitor
+// https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_azure_monitor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface DirectAzureMonitorConfig extends cdktf.TerraformMetaArguments {
   /**
   * [required] | Azure Application (client) ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/direct_azure_monitor#client_id DirectAzureMonitor#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_azure_monitor#client_id DirectAzureMonitor#client_id}
   */
   readonly clientId?: string;
   /**
   * [required] | Azure Application (client) Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/direct_azure_monitor#client_secret DirectAzureMonitor#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_azure_monitor#client_secret DirectAzureMonitor#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * Optional description of the resource. Here, you can add details about who is responsible for the integration (team/owner) or the purpose of creating it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/direct_azure_monitor#description DirectAzureMonitor#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_azure_monitor#description DirectAzureMonitor#description}
   */
   readonly description?: string;
   /**
   * User-friendly display name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/direct_azure_monitor#display_name DirectAzureMonitor#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_azure_monitor#display_name DirectAzureMonitor#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/direct_azure_monitor#id DirectAzureMonitor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_azure_monitor#id DirectAzureMonitor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,49 +41,49 @@ export interface DirectAzureMonitorConfig extends cdktf.TerraformMetaArguments {
   /**
   * [Logs documentation](https://docs.nobl9.com/features/slo-troubleshooting/event-logs)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/direct_azure_monitor#log_collection_enabled DirectAzureMonitor#log_collection_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_azure_monitor#log_collection_enabled DirectAzureMonitor#log_collection_enabled}
   */
   readonly logCollectionEnabled?: boolean | cdktf.IResolvable;
   /**
   * Unique name of the resource, must conform to the naming convention from [DNS RFC1123](https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/direct_azure_monitor#name DirectAzureMonitor#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_azure_monitor#name DirectAzureMonitor#name}
   */
   readonly name: string;
   /**
   * Name of the Nobl9 project the resource sits in, must conform to the naming convention from [DNS RFC1123](https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/direct_azure_monitor#project DirectAzureMonitor#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_azure_monitor#project DirectAzureMonitor#project}
   */
   readonly project: string;
   /**
   * Release channel of the created data source [stable/beta]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/direct_azure_monitor#release_channel DirectAzureMonitor#release_channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_azure_monitor#release_channel DirectAzureMonitor#release_channel}
   */
   readonly releaseChannel?: string;
   /**
   * This value indicated whether the field was a source of metrics and/or services. 'source_of' is deprecated and not used anywhere; however, it's kept for backward compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/direct_azure_monitor#source_of DirectAzureMonitor#source_of}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_azure_monitor#source_of DirectAzureMonitor#source_of}
   */
   readonly sourceOf?: string[];
   /**
   * [required] | Azure Tenant ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/direct_azure_monitor#tenant_id DirectAzureMonitor#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_azure_monitor#tenant_id DirectAzureMonitor#tenant_id}
   */
   readonly tenantId: string;
   /**
   * historical_data_retrieval block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/direct_azure_monitor#historical_data_retrieval DirectAzureMonitor#historical_data_retrieval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_azure_monitor#historical_data_retrieval DirectAzureMonitor#historical_data_retrieval}
   */
   readonly historicalDataRetrieval?: DirectAzureMonitorHistoricalDataRetrieval;
   /**
   * query_delay block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/direct_azure_monitor#query_delay DirectAzureMonitor#query_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_azure_monitor#query_delay DirectAzureMonitor#query_delay}
   */
   readonly queryDelay?: DirectAzureMonitorQueryDelay;
 }
@@ -91,13 +91,13 @@ export interface DirectAzureMonitorHistoricalDataRetrievalDefaultDuration {
   /**
   * Must be one of Minute, Hour, or Day.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/direct_azure_monitor#unit DirectAzureMonitor#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_azure_monitor#unit DirectAzureMonitor#unit}
   */
   readonly unit: string;
   /**
   * Must be an integer greater than or equal to 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/direct_azure_monitor#value DirectAzureMonitor#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_azure_monitor#value DirectAzureMonitor#value}
   */
   readonly value: number;
 }
@@ -238,13 +238,13 @@ export interface DirectAzureMonitorHistoricalDataRetrievalMaxDuration {
   /**
   * Must be one of Minute, Hour, or Day.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/direct_azure_monitor#unit DirectAzureMonitor#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_azure_monitor#unit DirectAzureMonitor#unit}
   */
   readonly unit: string;
   /**
   * Must be an integer greater than or equal to 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/direct_azure_monitor#value DirectAzureMonitor#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_azure_monitor#value DirectAzureMonitor#value}
   */
   readonly value: number;
 }
@@ -385,13 +385,13 @@ export interface DirectAzureMonitorHistoricalDataRetrieval {
   /**
   * default_duration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/direct_azure_monitor#default_duration DirectAzureMonitor#default_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_azure_monitor#default_duration DirectAzureMonitor#default_duration}
   */
   readonly defaultDuration: DirectAzureMonitorHistoricalDataRetrievalDefaultDuration[] | cdktf.IResolvable;
   /**
   * max_duration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/direct_azure_monitor#max_duration DirectAzureMonitor#max_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_azure_monitor#max_duration DirectAzureMonitor#max_duration}
   */
   readonly maxDuration: DirectAzureMonitorHistoricalDataRetrievalMaxDuration[] | cdktf.IResolvable;
 }
@@ -500,13 +500,13 @@ export interface DirectAzureMonitorQueryDelay {
   /**
   * Must be one of Minute or Second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/direct_azure_monitor#unit DirectAzureMonitor#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_azure_monitor#unit DirectAzureMonitor#unit}
   */
   readonly unit: string;
   /**
   * Must be an integer greater than or equal to 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/direct_azure_monitor#value DirectAzureMonitor#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_azure_monitor#value DirectAzureMonitor#value}
   */
   readonly value: number;
 }
@@ -613,7 +613,7 @@ export class DirectAzureMonitorQueryDelayOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/direct_azure_monitor nobl9_direct_azure_monitor}
+* Represents a {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_azure_monitor nobl9_direct_azure_monitor}
 */
 export class DirectAzureMonitor extends cdktf.TerraformResource {
 
@@ -629,7 +629,7 @@ export class DirectAzureMonitor extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DirectAzureMonitor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DirectAzureMonitor to import
-  * @param importFromId The id of the existing DirectAzureMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/direct_azure_monitor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DirectAzureMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_azure_monitor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DirectAzureMonitor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -641,7 +641,7 @@ export class DirectAzureMonitor extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/direct_azure_monitor nobl9_direct_azure_monitor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/direct_azure_monitor nobl9_direct_azure_monitor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -652,8 +652,8 @@ export class DirectAzureMonitor extends cdktf.TerraformResource {
       terraformResourceType: 'nobl9_direct_azure_monitor',
       terraformGeneratorMetadata: {
         providerName: 'nobl9',
-        providerVersion: '0.44.1',
-        providerVersionConstraint: '0.44.1'
+        providerVersion: '0.45.0',
+        providerVersionConstraint: '0.45.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

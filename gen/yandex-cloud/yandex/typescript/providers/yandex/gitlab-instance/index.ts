@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/gitlab_instance
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/gitlab_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,97 +10,97 @@ export interface GitlabInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * An email of admin user in Gitlab.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/gitlab_instance#admin_email GitlabInstance#admin_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/gitlab_instance#admin_email GitlabInstance#admin_email}
   */
   readonly adminEmail: string;
   /**
   * A login of admin user in Gitlab.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/gitlab_instance#admin_login GitlabInstance#admin_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/gitlab_instance#admin_login GitlabInstance#admin_login}
   */
   readonly adminLogin: string;
   /**
   * Approval rules configuration. One of: NONE, BASIC, STANDARD, ADVANCED.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/gitlab_instance#approval_rules_id GitlabInstance#approval_rules_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/gitlab_instance#approval_rules_id GitlabInstance#approval_rules_id}
   */
   readonly approvalRulesId: string;
   /**
   * Approval rules token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/gitlab_instance#approval_rules_token GitlabInstance#approval_rules_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/gitlab_instance#approval_rules_token GitlabInstance#approval_rules_token}
   */
   readonly approvalRulesToken?: string;
   /**
   * Auto backups retain period in days.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/gitlab_instance#backup_retain_period_days GitlabInstance#backup_retain_period_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/gitlab_instance#backup_retain_period_days GitlabInstance#backup_retain_period_days}
   */
   readonly backupRetainPeriodDays: number;
   /**
   * The `true` value means that resource is protected from accidental deletion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/gitlab_instance#deletion_protection GitlabInstance#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/gitlab_instance#deletion_protection GitlabInstance#deletion_protection}
   */
   readonly deletionProtection?: boolean | cdktf.IResolvable;
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/gitlab_instance#description GitlabInstance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/gitlab_instance#description GitlabInstance#description}
   */
   readonly description?: string;
   /**
   * Amount of disk storage available to a instance in GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/gitlab_instance#disk_size GitlabInstance#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/gitlab_instance#disk_size GitlabInstance#disk_size}
   */
   readonly diskSize: number;
   /**
   * Domain of the Gitlab instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/gitlab_instance#domain GitlabInstance#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/gitlab_instance#domain GitlabInstance#domain}
   */
   readonly domain: string;
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/gitlab_instance#folder_id GitlabInstance#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/gitlab_instance#folder_id GitlabInstance#folder_id}
   */
   readonly folderId?: string;
   /**
   * A set of key/value label pairs which assigned to resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/gitlab_instance#labels GitlabInstance#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/gitlab_instance#labels GitlabInstance#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The `true` value means that untagged images will be deleted during maintenance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/gitlab_instance#maintenance_delete_untagged GitlabInstance#maintenance_delete_untagged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/gitlab_instance#maintenance_delete_untagged GitlabInstance#maintenance_delete_untagged}
   */
   readonly maintenanceDeleteUntagged?: boolean | cdktf.IResolvable;
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/gitlab_instance#name GitlabInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/gitlab_instance#name GitlabInstance#name}
   */
   readonly name: string;
   /**
   * ID of the preset for computational resources available to the instance (CPU, memory etc.). One of: s2.micro, s2.small, s2.medium, s2.large.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/gitlab_instance#resource_preset_id GitlabInstance#resource_preset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/gitlab_instance#resource_preset_id GitlabInstance#resource_preset_id}
   */
   readonly resourcePresetId: string;
   /**
   * ID of the subnet where the GitLab instance is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/gitlab_instance#subnet_id GitlabInstance#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/gitlab_instance#subnet_id GitlabInstance#subnet_id}
   */
   readonly subnetId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/gitlab_instance#timeouts GitlabInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/gitlab_instance#timeouts GitlabInstance#timeouts}
   */
   readonly timeouts?: GitlabInstanceTimeouts;
 }
@@ -108,19 +108,19 @@ export interface GitlabInstanceTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/gitlab_instance#create GitlabInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/gitlab_instance#create GitlabInstance#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/gitlab_instance#delete GitlabInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/gitlab_instance#delete GitlabInstance#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/gitlab_instance#update GitlabInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/gitlab_instance#update GitlabInstance#update}
   */
   readonly update?: string;
 }
@@ -272,7 +272,7 @@ export class GitlabInstanceTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/gitlab_instance yandex_gitlab_instance}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/gitlab_instance yandex_gitlab_instance}
 */
 export class GitlabInstance extends cdktf.TerraformResource {
 
@@ -288,7 +288,7 @@ export class GitlabInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GitlabInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GitlabInstance to import
-  * @param importFromId The id of the existing GitlabInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/gitlab_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GitlabInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/gitlab_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GitlabInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -300,7 +300,7 @@ export class GitlabInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/gitlab_instance yandex_gitlab_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/gitlab_instance yandex_gitlab_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -311,8 +311,8 @@ export class GitlabInstance extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_gitlab_instance',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.172.0',
-        providerVersionConstraint: '0.172.0'
+        providerVersion: '0.173.0',
+        providerVersionConstraint: '0.173.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_settings
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface RoutingSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_settings#id RoutingSettings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_settings#id RoutingSettings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface RoutingSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Reset agent score when agent presence changes from off-queue to on-queue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_settings#reset_agent_on_presence_change RoutingSettings#reset_agent_on_presence_change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_settings#reset_agent_on_presence_change RoutingSettings#reset_agent_on_presence_change}
   */
   readonly resetAgentOnPresenceChange?: boolean | cdktf.IResolvable;
   /**
   * contactcenter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_settings#contactcenter RoutingSettings#contactcenter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_settings#contactcenter RoutingSettings#contactcenter}
   */
   readonly contactcenter?: RoutingSettingsContactcenter;
   /**
   * transcription block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_settings#transcription RoutingSettings#transcription}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_settings#transcription RoutingSettings#transcription}
   */
   readonly transcription?: RoutingSettingsTranscription;
 }
@@ -37,7 +37,7 @@ export interface RoutingSettingsContactcenter {
   /**
   * Strip skills from transfer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_settings#remove_skills_from_blind_transfer RoutingSettings#remove_skills_from_blind_transfer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_settings#remove_skills_from_blind_transfer RoutingSettings#remove_skills_from_blind_transfer}
   */
   readonly removeSkillsFromBlindTransfer?: boolean | cdktf.IResolvable;
 }
@@ -123,37 +123,37 @@ export interface RoutingSettingsTranscription {
   /**
   * Setting to enable/disable content search
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_settings#content_search_enabled RoutingSettings#content_search_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_settings#content_search_enabled RoutingSettings#content_search_enabled}
   */
   readonly contentSearchEnabled?: boolean | cdktf.IResolvable;
   /**
   * Boolean flag indicating whether low latency transcription via Notification API is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_settings#low_latency_transcription_enabled RoutingSettings#low_latency_transcription_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_settings#low_latency_transcription_enabled RoutingSettings#low_latency_transcription_enabled}
   */
   readonly lowLatencyTranscriptionEnabled?: boolean | cdktf.IResolvable;
   /**
   * Setting to enable/disable PCI DSS Redaction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_settings#pci_dss_redaction_enabled RoutingSettings#pci_dss_redaction_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_settings#pci_dss_redaction_enabled RoutingSettings#pci_dss_redaction_enabled}
   */
   readonly pciDssRedactionEnabled?: boolean | cdktf.IResolvable;
   /**
   * Setting to enable/disable PII Redaction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_settings#pii_redaction_enabled RoutingSettings#pii_redaction_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_settings#pii_redaction_enabled RoutingSettings#pii_redaction_enabled}
   */
   readonly piiRedactionEnabled?: boolean | cdktf.IResolvable;
   /**
   * Setting to enable/disable transcription capability.Valid values: Disabled, EnabledGlobally, EnabledQueueFlow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_settings#transcription RoutingSettings#transcription}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_settings#transcription RoutingSettings#transcription}
   */
   readonly transcription?: string;
   /**
   * Configure confidence threshold. The possible values are from 1 to 100
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_settings#transcription_confidence_threshold RoutingSettings#transcription_confidence_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_settings#transcription_confidence_threshold RoutingSettings#transcription_confidence_threshold}
   */
   readonly transcriptionConfidenceThreshold?: number;
 }
@@ -382,7 +382,7 @@ export class RoutingSettingsTranscriptionOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_settings genesyscloud_routing_settings}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_settings genesyscloud_routing_settings}
 */
 export class RoutingSettings extends cdktf.TerraformResource {
 
@@ -398,7 +398,7 @@ export class RoutingSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RoutingSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RoutingSettings to import
-  * @param importFromId The id of the existing RoutingSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RoutingSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RoutingSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -410,7 +410,7 @@ export class RoutingSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_settings genesyscloud_routing_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_settings genesyscloud_routing_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -421,8 +421,8 @@ export class RoutingSettings extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_routing_settings',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.71.1',
-        providerVersionConstraint: '1.71.1'
+        providerVersion: '1.72.2',
+        providerVersionConstraint: '1.72.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

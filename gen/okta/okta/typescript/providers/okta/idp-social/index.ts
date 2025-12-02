@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/idp_social
+// https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/idp_social
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,77 +10,77 @@ export interface IdpSocialConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies the account linking action for an IdP user. Default: `AUTO`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/idp_social#account_link_action IdpSocial#account_link_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/idp_social#account_link_action IdpSocial#account_link_action}
   */
   readonly accountLinkAction?: string;
   /**
   * Group memberships to determine link candidates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/idp_social#account_link_group_include IdpSocial#account_link_group_include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/idp_social#account_link_group_include IdpSocial#account_link_group_include}
   */
   readonly accountLinkGroupInclude?: string[];
   /**
   * The Key ID that you obtained from Apple when you created the private key for the client
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/idp_social#apple_kid IdpSocial#apple_kid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/idp_social#apple_kid IdpSocial#apple_kid}
   */
   readonly appleKid?: string;
   /**
   * The Key ID that you obtained from Apple when you created the private key for the client. PrivateKey is required when resource is first created. For all consecutive updates, it can be empty/omitted and keeps the existing value if it is empty/omitted. PrivateKey isn't returned when importing this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/idp_social#apple_private_key IdpSocial#apple_private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/idp_social#apple_private_key IdpSocial#apple_private_key}
   */
   readonly applePrivateKey?: string;
   /**
   * The Team ID associated with your Apple developer account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/idp_social#apple_team_id IdpSocial#apple_team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/idp_social#apple_team_id IdpSocial#apple_team_id}
   */
   readonly appleTeamId?: string;
   /**
   * Unique identifier issued by AS for the Okta IdP instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/idp_social#client_id IdpSocial#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/idp_social#client_id IdpSocial#client_id}
   */
   readonly clientId?: string;
   /**
   * Client secret issued by AS for the Okta IdP instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/idp_social#client_secret IdpSocial#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/idp_social#client_secret IdpSocial#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * Action for a previously deprovisioned IdP user during authentication. Can be `NONE` or `REACTIVATE`. Default: `NONE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/idp_social#deprovisioned_action IdpSocial#deprovisioned_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/idp_social#deprovisioned_action IdpSocial#deprovisioned_action}
   */
   readonly deprovisionedAction?: string;
   /**
   * Provisioning action for IdP user's group memberships. It can be `NONE`, `SYNC`, `APPEND`, or `ASSIGN`. Default: `NONE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/idp_social#groups_action IdpSocial#groups_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/idp_social#groups_action IdpSocial#groups_action}
   */
   readonly groupsAction?: string;
   /**
   * List of Okta Group IDs to add an IdP user as a member with the `ASSIGN` `groups_action`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/idp_social#groups_assignment IdpSocial#groups_assignment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/idp_social#groups_assignment IdpSocial#groups_assignment}
   */
   readonly groupsAssignment?: string[];
   /**
   * IdP user profile attribute name (case-insensitive) for an array value that contains group memberships.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/idp_social#groups_attribute IdpSocial#groups_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/idp_social#groups_attribute IdpSocial#groups_attribute}
   */
   readonly groupsAttribute?: string;
   /**
   * Whitelist of Okta Group identifiers that are allowed for the `APPEND` or `SYNC` `groups_action`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/idp_social#groups_filter IdpSocial#groups_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/idp_social#groups_filter IdpSocial#groups_filter}
   */
   readonly groupsFilter?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/idp_social#id IdpSocial#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/idp_social#id IdpSocial#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -89,85 +89,85 @@ export interface IdpSocialConfig extends cdktf.TerraformMetaArguments {
   /**
   * Indicates whether Okta uses the original Okta org domain URL, or a custom domain URL. It can be `ORG_URL` or `CUSTOM_URL`. Default: `ORG_URL`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/idp_social#issuer_mode IdpSocial#issuer_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/idp_social#issuer_mode IdpSocial#issuer_mode}
   */
   readonly issuerMode?: string;
   /**
   * Maximum allowable clock-skew when processing messages from the IdP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/idp_social#max_clock_skew IdpSocial#max_clock_skew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/idp_social#max_clock_skew IdpSocial#max_clock_skew}
   */
   readonly maxClockSkew?: number;
   /**
   * Name of the IdP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/idp_social#name IdpSocial#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/idp_social#name IdpSocial#name}
   */
   readonly name: string;
   /**
   * Determines if the IdP should act as a source of truth for user profile attributes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/idp_social#profile_master IdpSocial#profile_master}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/idp_social#profile_master IdpSocial#profile_master}
   */
   readonly profileMaster?: boolean | cdktf.IResolvable;
   /**
   * The type of protocol to use. It can be `OIDC` or `OAUTH2`. Default: `OAUTH2`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/idp_social#protocol_type IdpSocial#protocol_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/idp_social#protocol_type IdpSocial#protocol_type}
   */
   readonly protocolType?: string;
   /**
   * Provisioning action for an IdP user during authentication. Default: `AUTO`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/idp_social#provisioning_action IdpSocial#provisioning_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/idp_social#provisioning_action IdpSocial#provisioning_action}
   */
   readonly provisioningAction?: string;
   /**
   * The scopes of the IdP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/idp_social#scopes IdpSocial#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/idp_social#scopes IdpSocial#scopes}
   */
   readonly scopes: string[];
   /**
   * Default to `ACTIVE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/idp_social#status IdpSocial#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/idp_social#status IdpSocial#status}
   */
   readonly status?: string;
   /**
   * Okta user profile attribute for matching transformed IdP username. Only for matchType `CUSTOM_ATTRIBUTE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/idp_social#subject_match_attribute IdpSocial#subject_match_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/idp_social#subject_match_attribute IdpSocial#subject_match_attribute}
   */
   readonly subjectMatchAttribute?: string;
   /**
   * Determines the Okta user profile attribute match conditions for account linking and authentication of the transformed IdP username. By default, it is set to `USERNAME`. It can be set to `USERNAME`, `EMAIL`, `USERNAME_OR_EMAIL` or `CUSTOM_ATTRIBUTE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/idp_social#subject_match_type IdpSocial#subject_match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/idp_social#subject_match_type IdpSocial#subject_match_type}
   */
   readonly subjectMatchType?: string;
   /**
   * Action for a previously suspended IdP user during authentication. Can be `NONE` or `REACTIVATE`. Default: `NONE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/idp_social#suspended_action IdpSocial#suspended_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/idp_social#suspended_action IdpSocial#suspended_action}
   */
   readonly suspendedAction?: string;
   /**
   * Identity Provider Types: https://developer.okta.com/docs/reference/api/idps/#identity-provider-type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/idp_social#type IdpSocial#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/idp_social#type IdpSocial#type}
   */
   readonly type: string;
   /**
   * Okta EL Expression to generate or transform a unique username for the IdP user. Default: `idpuser.email`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/idp_social#username_template IdpSocial#username_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/idp_social#username_template IdpSocial#username_template}
   */
   readonly usernameTemplate?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/idp_social okta_idp_social}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/idp_social okta_idp_social}
 */
 export class IdpSocial extends cdktf.TerraformResource {
 
@@ -183,7 +183,7 @@ export class IdpSocial extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IdpSocial resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IdpSocial to import
-  * @param importFromId The id of the existing IdpSocial that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/idp_social#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IdpSocial that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/idp_social#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IdpSocial to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -195,7 +195,7 @@ export class IdpSocial extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/idp_social okta_idp_social} Resource
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/idp_social okta_idp_social} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -206,8 +206,8 @@ export class IdpSocial extends cdktf.TerraformResource {
       terraformResourceType: 'okta_idp_social',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.5.0',
-        providerVersionConstraint: '6.5.0'
+        providerVersion: '6.5.1',
+        providerVersionConstraint: '6.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

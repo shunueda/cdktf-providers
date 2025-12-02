@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/model
+// https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/model
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,97 +10,97 @@ export interface ModelConfig extends cdktf.TerraformMetaArguments {
   /**
   * Map of <string, string> which defines attr
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/model#attr Model#attr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/model#attr Model#attr}
   */
   readonly attr: { [key: string]: string };
   /**
   * System defined universally unique Id of the brand.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/model#brand_id Model#brand_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/model#brand_id Model#brand_id}
   */
   readonly brandId: string;
   /**
   * Detailed description of the model.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/model#description Model#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/model#description Model#description}
   */
   readonly description?: string;
   /**
   * Flag to represent whether sysModel is imported
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/model#is_imported Model#is_imported}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/model#is_imported Model#is_imported}
   */
   readonly isImported?: boolean | cdktf.IResolvable;
   /**
   * Map of <string, string> which holds the key:url for the logo artifact of the model
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/model#logo Model#logo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/model#logo Model#logo}
   */
   readonly logo?: { [key: string]: string };
   /**
   * user defined model name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/model#name Model#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/model#name Model#name}
   */
   readonly name: string;
   /**
   * origin of object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/model#origin_type Model#origin_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/model#origin_type Model#origin_type}
   */
   readonly originType: string;
   /**
   * Product status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/model#product_status Model#product_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/model#product_status Model#product_status}
   */
   readonly productStatus?: string;
   /**
   * Product URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/model#product_url Model#product_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/model#product_url Model#product_url}
   */
   readonly productUrl?: string;
   /**
   * SysModel State which denotes the status of the model
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/model#state Model#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/model#state Model#state}
   */
   readonly state: string;
   /**
   * User defined title of the model. Title can be changed at any time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/model#title Model#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/model#title Model#title}
   */
   readonly title: string;
   /**
   * Defines the Architecture type of the model
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/model#type Model#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/model#type Model#type}
   */
   readonly type: string;
   /**
   * io_member_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/model#io_member_list Model#io_member_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/model#io_member_list Model#io_member_list}
   */
   readonly ioMemberList?: ModelIoMemberListStruct[] | cdktf.IResolvable;
   /**
   * p_c_r_templates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/model#p_c_r_templates Model#p_c_r_templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/model#p_c_r_templates Model#p_c_r_templates}
   */
   readonly pCRTemplates?: ModelPCRTemplates[] | cdktf.IResolvable;
   /**
   * parent_detail block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/model#parent_detail Model#parent_detail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/model#parent_detail Model#parent_detail}
   */
   readonly parentDetail?: ModelParentDetail[] | cdktf.IResolvable;
   /**
   * revision block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/model#revision Model#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/model#revision Model#revision}
   */
   readonly revision?: ModelRevision[] | cdktf.IResolvable;
 }
@@ -108,7 +108,7 @@ export interface ModelIoMemberListVfs {
   /**
   * The number of Virtual Functions for given Physical Function. Only applies for IO_TYPE_ETH_PF.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/model#count Model#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/model#count Model#count}
   */
   readonly count?: number;
 }
@@ -226,65 +226,65 @@ export interface ModelIoMemberListStruct {
   /**
   * Assign Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/model#assigngrp Model#assigngrp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/model#assigngrp Model#assigngrp}
   */
   readonly assigngrp: string;
   /**
   * attributes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/model#cbattr Model#cbattr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/model#cbattr Model#cbattr}
   */
   readonly cbattr?: { [key: string]: string };
   /**
   * cost of using this ioMember. Default is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/model#cost Model#cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/model#cost Model#cost}
   */
   readonly cost: number;
   /**
   * Logical Label
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/model#logicallabel Model#logicallabel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/model#logicallabel Model#logicallabel}
   */
   readonly logicallabel: string;
   /**
   * Parent group for a IoMember. Can be empty if there is no parent group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/model#parentassigngrp Model#parentassigngrp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/model#parentassigngrp Model#parentassigngrp}
   */
   readonly parentassigngrp?: string;
   /**
   * Map of Physical Addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/model#phyaddrs Model#phyaddrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/model#phyaddrs Model#phyaddrs}
   */
   readonly phyaddrs: { [key: string]: string };
   /**
   * Physical Label
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/model#phylabel Model#phylabel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/model#phylabel Model#phylabel}
   */
   readonly phylabel: string;
   /**
   * Adopter Usage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/model#usage Model#usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/model#usage Model#usage}
   */
   readonly usage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/model#usage_policy Model#usage_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/model#usage_policy Model#usage_policy}
   */
   readonly usagePolicy?: { [key: string]: (boolean | cdktf.IResolvable) };
   /**
   * Z Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/model#ztype Model#ztype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/model#ztype Model#ztype}
   */
   readonly ztype: string;
   /**
   * vfs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/model#vfs Model#vfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/model#vfs Model#vfs}
   */
   readonly vfs?: ModelIoMemberListVfs[] | cdktf.IResolvable;
 }
@@ -674,19 +674,19 @@ export interface ModelPCRTemplatesPCRValues {
   /**
   * Current index for the PCR item in the list. First element has the index 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/model#index Model#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/model#index Model#index}
   */
   readonly index: number;
   /**
   * Type of value for the PCR item. Could be one of the following values: 0 (PCR_TYPE_UNSPECIFIED), 1 (PCR_TYPE_HASH) or 2 (PCR_TYPE_EVENT_LOG)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/model#type Model#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/model#type Model#type}
   */
   readonly type: string;
   /**
   * Actual value for the PCR item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/model#value Model#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/model#value Model#value}
   */
   readonly value: string;
 }
@@ -853,25 +853,25 @@ export interface ModelPCRTemplates {
   /**
   * EVE version related to the PCR template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/model#eve_version Model#eve_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/model#eve_version Model#eve_version}
   */
   readonly eveVersion: string;
   /**
   * Firmware version related to the PCR template. If user doesn't set it, it will be set to '*'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/model#firmware_version Model#firmware_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/model#firmware_version Model#firmware_version}
   */
   readonly firmwareVersion?: string;
   /**
   * Name of the PCR template. The name is Unique among PCR templates for that System Model. If it is not specified, a system-generated name will be assigned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/model#name Model#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/model#name Model#name}
   */
   readonly name?: string;
   /**
   * p_c_r_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/model#p_c_r_values Model#p_c_r_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/model#p_c_r_values Model#p_c_r_values}
   */
   readonly pCRValues: ModelPCRTemplatesPCRValues[] | cdktf.IResolvable;
 }
@@ -1075,13 +1075,13 @@ export interface ModelParentDetail {
   /**
   * Relation with child and parent object exists or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/model#reference_exists Model#reference_exists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/model#reference_exists Model#reference_exists}
   */
   readonly referenceExists?: boolean | cdktf.IResolvable;
   /**
   * Update required flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/model#update_available Model#update_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/model#update_available Model#update_available}
   */
   readonly updateAvailable?: boolean | cdktf.IResolvable;
 }
@@ -1347,7 +1347,7 @@ export class ModelRevisionList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/model zedcloud_model}
+* Represents a {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/model zedcloud_model}
 */
 export class Model extends cdktf.TerraformResource {
 
@@ -1363,7 +1363,7 @@ export class Model extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Model resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Model to import
-  * @param importFromId The id of the existing Model that should be imported. Refer to the {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/model#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Model that should be imported. Refer to the {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/model#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Model to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1375,7 +1375,7 @@ export class Model extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/model zedcloud_model} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/model zedcloud_model} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1386,8 +1386,8 @@ export class Model extends cdktf.TerraformResource {
       terraformResourceType: 'zedcloud_model',
       terraformGeneratorMetadata: {
         providerName: 'zedcloud',
-        providerVersion: '2.5.0',
-        providerVersionConstraint: '2.5.0'
+        providerVersion: '2.6.0',
+        providerVersionConstraint: '2.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

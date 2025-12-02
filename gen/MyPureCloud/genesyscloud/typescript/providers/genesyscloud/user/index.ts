@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface UserConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable ACD auto-answer. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#acd_auto_answer User#acd_auto_answer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#acd_auto_answer User#acd_auto_answer}
   */
   readonly acdAutoAnswer?: boolean | cdktf.IResolvable;
   /**
   * The address settings for this user. If not set, this resource will not manage addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#addresses User#addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#addresses User#addresses}
   */
   readonly addresses?: UserAddresses[] | cdktf.IResolvable;
   /**
   * Certifications for this user. If not set, this resource will not manage certifications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#certifications User#certifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#certifications User#certifications}
   */
   readonly certifications?: string[];
   /**
   * User's department.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#department User#department}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#department User#department}
   */
   readonly department?: string;
   /**
   * The division to which this user will belong. If not set, the home division will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#division_id User#division_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#division_id User#division_id}
   */
   readonly divisionId?: string;
   /**
   * User's primary email and username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#email User#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#email User#email}
   */
   readonly email: string;
   /**
   * The employer info for this user. If not set, this resource will not manage employer info.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#employer_info User#employer_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#employer_info User#employer_info}
   */
   readonly employerInfo?: UserEmployerInfo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#id User#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#id User#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,77 +59,77 @@ export interface UserConfig extends cdktf.TerraformMetaArguments {
   /**
   * The user placement at each site location. If not set, this resource will not manage user locations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#locations User#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#locations User#locations}
   */
   readonly locations?: UserLocations[] | cdktf.IResolvable;
   /**
   * User ID of this user's manager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#manager User#manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#manager User#manager}
   */
   readonly manager?: string;
   /**
   * User's full name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#name User#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#name User#name}
   */
   readonly name: string;
   /**
   * User's password. If specified, this is only set on user create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#password User#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#password User#password}
   */
   readonly password?: string;
   /**
   * Profile skills for this user. If not set, this resource will not manage profile skills.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#profile_skills User#profile_skills}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#profile_skills User#profile_skills}
   */
   readonly profileSkills?: string[];
   /**
   * Languages and proficiencies for this user. If not set, this resource will not manage user languages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#routing_languages User#routing_languages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#routing_languages User#routing_languages}
   */
   readonly routingLanguages?: UserRoutingLanguages[] | cdktf.IResolvable;
   /**
   * Skills and proficiencies for this user. If not set, this resource will not manage user skills.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#routing_skills User#routing_skills}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#routing_skills User#routing_skills}
   */
   readonly routingSkills?: UserRoutingSkills[] | cdktf.IResolvable;
   /**
   * The routing utilization settings for this user. If empty list, the org default settings are used. If not set, this resource will not manage the users's utilization settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#routing_utilization User#routing_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#routing_utilization User#routing_utilization}
   */
   readonly routingUtilization?: UserRoutingUtilization[] | cdktf.IResolvable;
   /**
   * User's state (active | inactive). Default is 'active'. Defaults to `active`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#state User#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#state User#state}
   */
   readonly state?: string;
   /**
   * User's title.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#title User#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#title User#title}
   */
   readonly title?: string;
   /**
   * voicemail_userpolicies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#voicemail_userpolicies User#voicemail_userpolicies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#voicemail_userpolicies User#voicemail_userpolicies}
   */
   readonly voicemailUserpolicies?: UserVoicemailUserpolicies;
 }
 export interface UserAddressesOtherEmails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#address User#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#address User#address}
   */
   readonly address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#type User#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#type User#type}
   */
   readonly type?: string;
 }
@@ -274,23 +274,23 @@ export class UserAddressesOtherEmailsList extends cdktf.ComplexList {
 }
 export interface UserAddressesPhoneNumbers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#extension User#extension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#extension User#extension}
   */
   readonly extension?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#extension_pool_id User#extension_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#extension_pool_id User#extension_pool_id}
   */
   readonly extensionPoolId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#media_type User#media_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#media_type User#media_type}
   */
   readonly mediaType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#number User#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#number User#number}
   */
   readonly number?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#type User#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#type User#type}
   */
   readonly type?: string;
 }
@@ -522,11 +522,11 @@ export class UserAddressesPhoneNumbersList extends cdktf.ComplexList {
 }
 export interface UserAddresses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#other_emails User#other_emails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#other_emails User#other_emails}
   */
   readonly otherEmails?: UserAddressesOtherEmails[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#phone_numbers User#phone_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#phone_numbers User#phone_numbers}
   */
   readonly phoneNumbers?: UserAddressesPhoneNumbers[] | cdktf.IResolvable;
 }
@@ -671,19 +671,19 @@ export class UserAddressesList extends cdktf.ComplexList {
 }
 export interface UserEmployerInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#date_hire User#date_hire}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#date_hire User#date_hire}
   */
   readonly dateHire?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#employee_id User#employee_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#employee_id User#employee_id}
   */
   readonly employeeId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#employee_type User#employee_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#employee_type User#employee_type}
   */
   readonly employeeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#official_name User#official_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#official_name User#official_name}
   */
   readonly officialName?: string;
 }
@@ -886,11 +886,11 @@ export class UserEmployerInfoList extends cdktf.ComplexList {
 }
 export interface UserLocations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#location_id User#location_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#location_id User#location_id}
   */
   readonly locationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#notes User#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#notes User#notes}
   */
   readonly notes?: string;
 }
@@ -1035,11 +1035,11 @@ export class UserLocationsList extends cdktf.ComplexList {
 }
 export interface UserRoutingLanguages {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#language_id User#language_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#language_id User#language_id}
   */
   readonly languageId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#proficiency User#proficiency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#proficiency User#proficiency}
   */
   readonly proficiency?: number;
 }
@@ -1184,11 +1184,11 @@ export class UserRoutingLanguagesList extends cdktf.ComplexList {
 }
 export interface UserRoutingSkills {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#proficiency User#proficiency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#proficiency User#proficiency}
   */
   readonly proficiency?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#skill_id User#skill_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#skill_id User#skill_id}
   */
   readonly skillId?: string;
 }
@@ -1333,15 +1333,15 @@ export class UserRoutingSkillsList extends cdktf.ComplexList {
 }
 export interface UserRoutingUtilizationCall {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#include_non_acd User#include_non_acd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#include_non_acd User#include_non_acd}
   */
   readonly includeNonAcd?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#interruptible_media_types User#interruptible_media_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#interruptible_media_types User#interruptible_media_types}
   */
   readonly interruptibleMediaTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#maximum_capacity User#maximum_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#maximum_capacity User#maximum_capacity}
   */
   readonly maximumCapacity?: number;
 }
@@ -1515,15 +1515,15 @@ export class UserRoutingUtilizationCallList extends cdktf.ComplexList {
 }
 export interface UserRoutingUtilizationCallback {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#include_non_acd User#include_non_acd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#include_non_acd User#include_non_acd}
   */
   readonly includeNonAcd?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#interruptible_media_types User#interruptible_media_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#interruptible_media_types User#interruptible_media_types}
   */
   readonly interruptibleMediaTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#maximum_capacity User#maximum_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#maximum_capacity User#maximum_capacity}
   */
   readonly maximumCapacity?: number;
 }
@@ -1697,15 +1697,15 @@ export class UserRoutingUtilizationCallbackList extends cdktf.ComplexList {
 }
 export interface UserRoutingUtilizationChat {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#include_non_acd User#include_non_acd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#include_non_acd User#include_non_acd}
   */
   readonly includeNonAcd?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#interruptible_media_types User#interruptible_media_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#interruptible_media_types User#interruptible_media_types}
   */
   readonly interruptibleMediaTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#maximum_capacity User#maximum_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#maximum_capacity User#maximum_capacity}
   */
   readonly maximumCapacity?: number;
 }
@@ -1879,15 +1879,15 @@ export class UserRoutingUtilizationChatList extends cdktf.ComplexList {
 }
 export interface UserRoutingUtilizationEmail {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#include_non_acd User#include_non_acd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#include_non_acd User#include_non_acd}
   */
   readonly includeNonAcd?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#interruptible_media_types User#interruptible_media_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#interruptible_media_types User#interruptible_media_types}
   */
   readonly interruptibleMediaTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#maximum_capacity User#maximum_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#maximum_capacity User#maximum_capacity}
   */
   readonly maximumCapacity?: number;
 }
@@ -2061,15 +2061,15 @@ export class UserRoutingUtilizationEmailList extends cdktf.ComplexList {
 }
 export interface UserRoutingUtilizationLabelUtilizations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#interrupting_label_ids User#interrupting_label_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#interrupting_label_ids User#interrupting_label_ids}
   */
   readonly interruptingLabelIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#label_id User#label_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#label_id User#label_id}
   */
   readonly labelId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#maximum_capacity User#maximum_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#maximum_capacity User#maximum_capacity}
   */
   readonly maximumCapacity?: number;
 }
@@ -2243,15 +2243,15 @@ export class UserRoutingUtilizationLabelUtilizationsList extends cdktf.ComplexLi
 }
 export interface UserRoutingUtilizationMessage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#include_non_acd User#include_non_acd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#include_non_acd User#include_non_acd}
   */
   readonly includeNonAcd?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#interruptible_media_types User#interruptible_media_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#interruptible_media_types User#interruptible_media_types}
   */
   readonly interruptibleMediaTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#maximum_capacity User#maximum_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#maximum_capacity User#maximum_capacity}
   */
   readonly maximumCapacity?: number;
 }
@@ -2425,27 +2425,27 @@ export class UserRoutingUtilizationMessageList extends cdktf.ComplexList {
 }
 export interface UserRoutingUtilization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#call User#call}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#call User#call}
   */
   readonly call?: UserRoutingUtilizationCall[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#callback User#callback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#callback User#callback}
   */
   readonly callback?: UserRoutingUtilizationCallback[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#chat User#chat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#chat User#chat}
   */
   readonly chat?: UserRoutingUtilizationChat[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#email User#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#email User#email}
   */
   readonly email?: UserRoutingUtilizationEmail[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#label_utilizations User#label_utilizations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#label_utilizations User#label_utilizations}
   */
   readonly labelUtilizations?: UserRoutingUtilizationLabelUtilizations[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#message User#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#message User#message}
   */
   readonly message?: UserRoutingUtilizationMessage[] | cdktf.IResolvable;
 }
@@ -2708,13 +2708,13 @@ export interface UserVoicemailUserpolicies {
   /**
   * The number of seconds to ring the user's phone before a call is transferred to voicemail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#alert_timeout_seconds User#alert_timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#alert_timeout_seconds User#alert_timeout_seconds}
   */
   readonly alertTimeoutSeconds?: number;
   /**
   * Whether email notifications are sent to the user when a new voicemail is received.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#send_email_notifications User#send_email_notifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#send_email_notifications User#send_email_notifications}
   */
   readonly sendEmailNotifications?: boolean | cdktf.IResolvable;
 }
@@ -2827,7 +2827,7 @@ export class UserVoicemailUserpoliciesOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user genesyscloud_user}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user genesyscloud_user}
 */
 export class User extends cdktf.TerraformResource {
 
@@ -2843,7 +2843,7 @@ export class User extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a User resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the User to import
-  * @param importFromId The id of the existing User that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing User that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the User to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2855,7 +2855,7 @@ export class User extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/user genesyscloud_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/user genesyscloud_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2866,8 +2866,8 @@ export class User extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_user',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.71.1',
-        providerVersionConstraint: '1.71.1'
+        providerVersion: '1.72.2',
+        providerVersionConstraint: '1.72.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

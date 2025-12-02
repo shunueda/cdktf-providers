@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_skill_group
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_skill_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface RoutingSkillGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of the skill group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_skill_group#description RoutingSkillGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_skill_group#description RoutingSkillGroup#description}
   */
   readonly description?: string;
   /**
   * The division to which this entity belongs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_skill_group#division_id RoutingSkillGroup#division_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_skill_group#division_id RoutingSkillGroup#division_id}
   */
   readonly divisionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_skill_group#id RoutingSkillGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_skill_group#id RoutingSkillGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface RoutingSkillGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * The IDs of member divisions to add or remove for this skill group. An empty array means all divisions will be removed, '*' means all divisions will be added.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_skill_group#member_division_ids RoutingSkillGroup#member_division_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_skill_group#member_division_ids RoutingSkillGroup#member_division_ids}
   */
   readonly memberDivisionIds?: string[];
   /**
   * The group name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_skill_group#name RoutingSkillGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_skill_group#name RoutingSkillGroup#name}
   */
   readonly name: string;
   /**
   * JSON encoded array of rules that will be used to determine group membership.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_skill_group#skill_conditions RoutingSkillGroup#skill_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_skill_group#skill_conditions RoutingSkillGroup#skill_conditions}
   */
   readonly skillConditions?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_skill_group genesyscloud_routing_skill_group}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_skill_group genesyscloud_routing_skill_group}
 */
 export class RoutingSkillGroup extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class RoutingSkillGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RoutingSkillGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RoutingSkillGroup to import
-  * @param importFromId The id of the existing RoutingSkillGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_skill_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RoutingSkillGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_skill_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RoutingSkillGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class RoutingSkillGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_skill_group genesyscloud_routing_skill_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_skill_group genesyscloud_routing_skill_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class RoutingSkillGroup extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_routing_skill_group',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.71.1',
-        providerVersionConstraint: '1.71.1'
+        providerVersion: '1.72.2',
+        providerVersionConstraint: '1.72.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

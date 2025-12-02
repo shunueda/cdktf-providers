@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_grammar_language
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/architect_grammar_language
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ArchitectGrammarLanguageConfig extends cdktf.TerraformMetaArgum
   /**
   * The id of the grammar this language belongs too. If this is changed a new language is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_grammar_language#grammar_id ArchitectGrammarLanguage#grammar_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/architect_grammar_language#grammar_id ArchitectGrammarLanguage#grammar_id}
   */
   readonly grammarId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_grammar_language#id ArchitectGrammarLanguage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/architect_grammar_language#id ArchitectGrammarLanguage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface ArchitectGrammarLanguageConfig extends cdktf.TerraformMetaArgum
   /**
   * Language name. (eg. en-us). If this is changed a new language is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_grammar_language#language ArchitectGrammarLanguage#language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/architect_grammar_language#language ArchitectGrammarLanguage#language}
   */
   readonly language: string;
   /**
   * dtmf_file_data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_grammar_language#dtmf_file_data ArchitectGrammarLanguage#dtmf_file_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/architect_grammar_language#dtmf_file_data ArchitectGrammarLanguage#dtmf_file_data}
   */
   readonly dtmfFileData?: ArchitectGrammarLanguageDtmfFileData;
   /**
   * voice_file_data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_grammar_language#voice_file_data ArchitectGrammarLanguage#voice_file_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/architect_grammar_language#voice_file_data ArchitectGrammarLanguage#voice_file_data}
   */
   readonly voiceFileData?: ArchitectGrammarLanguageVoiceFileData;
 }
@@ -43,19 +43,19 @@ export interface ArchitectGrammarLanguageDtmfFileData {
   /**
   * Hash value of the file content. Used to detect changes. Required for non-S3 file paths.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_grammar_language#file_content_hash ArchitectGrammarLanguage#file_content_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/architect_grammar_language#file_content_hash ArchitectGrammarLanguage#file_content_hash}
   */
   readonly fileContentHash?: string;
   /**
   * The name of the file as defined by the user. Note: Changes to files stored in S3 will not be detected by Terraform due to a technical limitation in the Terraform Plugin SDK.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_grammar_language#file_name ArchitectGrammarLanguage#file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/architect_grammar_language#file_name ArchitectGrammarLanguage#file_name}
   */
   readonly fileName: string;
   /**
   * The extension of the file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_grammar_language#file_type ArchitectGrammarLanguage#file_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/architect_grammar_language#file_type ArchitectGrammarLanguage#file_type}
   */
   readonly fileType: string;
 }
@@ -193,19 +193,19 @@ export interface ArchitectGrammarLanguageVoiceFileData {
   /**
   * Hash value of the file content. Used to detect changes. Required for non-S3 file paths.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_grammar_language#file_content_hash ArchitectGrammarLanguage#file_content_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/architect_grammar_language#file_content_hash ArchitectGrammarLanguage#file_content_hash}
   */
   readonly fileContentHash?: string;
   /**
   * The name of the file as defined by the user. Note: Changes to files stored in S3 will not be detected by Terraform due to a technical limitation in the Terraform Plugin SDK.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_grammar_language#file_name ArchitectGrammarLanguage#file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/architect_grammar_language#file_name ArchitectGrammarLanguage#file_name}
   */
   readonly fileName: string;
   /**
   * The extension of the file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_grammar_language#file_type ArchitectGrammarLanguage#file_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/architect_grammar_language#file_type ArchitectGrammarLanguage#file_type}
   */
   readonly fileType: string;
 }
@@ -341,7 +341,7 @@ export class ArchitectGrammarLanguageVoiceFileDataOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_grammar_language genesyscloud_architect_grammar_language}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/architect_grammar_language genesyscloud_architect_grammar_language}
 */
 export class ArchitectGrammarLanguage extends cdktf.TerraformResource {
 
@@ -357,7 +357,7 @@ export class ArchitectGrammarLanguage extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ArchitectGrammarLanguage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ArchitectGrammarLanguage to import
-  * @param importFromId The id of the existing ArchitectGrammarLanguage that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_grammar_language#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ArchitectGrammarLanguage that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/architect_grammar_language#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ArchitectGrammarLanguage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -369,7 +369,7 @@ export class ArchitectGrammarLanguage extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_grammar_language genesyscloud_architect_grammar_language} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/architect_grammar_language genesyscloud_architect_grammar_language} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -380,8 +380,8 @@ export class ArchitectGrammarLanguage extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_architect_grammar_language',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.71.1',
-        providerVersionConstraint: '1.71.1'
+        providerVersion: '1.72.2',
+        providerVersionConstraint: '1.72.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

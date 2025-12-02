@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/app_features
+// https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/app_features
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataOktaAppFeaturesConfig extends cdktf.TerraformMetaArguments 
   /**
   * `app_id` used to specify the app ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/app_features#app_id DataOktaAppFeatures#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/app_features#app_id DataOktaAppFeatures#app_id}
   */
   readonly appId: string;
   /**
   * Key name of the feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/app_features#name DataOktaAppFeatures#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/app_features#name DataOktaAppFeatures#name}
   */
   readonly name: string;
 }
@@ -1021,7 +1021,7 @@ export class DataOktaAppFeaturesCapabilitiesOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/app_features okta_app_features}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/app_features okta_app_features}
 */
 export class DataOktaAppFeatures extends cdktf.TerraformDataSource {
 
@@ -1037,7 +1037,7 @@ export class DataOktaAppFeatures extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOktaAppFeatures resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOktaAppFeatures to import
-  * @param importFromId The id of the existing DataOktaAppFeatures that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/app_features#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOktaAppFeatures that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/app_features#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOktaAppFeatures to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1049,7 +1049,7 @@ export class DataOktaAppFeatures extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/app_features okta_app_features} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/data-sources/app_features okta_app_features} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1060,8 +1060,8 @@ export class DataOktaAppFeatures extends cdktf.TerraformDataSource {
       terraformResourceType: 'okta_app_features',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.5.0',
-        providerVersionConstraint: '6.5.0'
+        providerVersion: '6.5.1',
+        providerVersionConstraint: '6.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

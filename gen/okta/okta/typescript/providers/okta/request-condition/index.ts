@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/request_condition
+// https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/request_condition
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface RequestConditionConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the approval sequence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/request_condition#approval_sequence_id RequestCondition#approval_sequence_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/request_condition#approval_sequence_id RequestCondition#approval_sequence_id}
   */
   readonly approvalSequenceId: string;
   /**
   * The description of the request condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/request_condition#description RequestCondition#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/request_condition#description RequestCondition#description}
   */
   readonly description?: string;
   /**
   * The name of the request condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/request_condition#name RequestCondition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/request_condition#name RequestCondition#name}
   */
   readonly name: string;
   /**
   * The priority of the condition. The smaller the number, the higher the priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/request_condition#priority RequestCondition#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/request_condition#priority RequestCondition#priority}
   */
   readonly priority?: number;
   /**
   * The id of the resource in Okta ID format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/request_condition#resource_id RequestCondition#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/request_condition#resource_id RequestCondition#resource_id}
   */
   readonly resourceId: string;
   /**
   * access_duration_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/request_condition#access_duration_settings RequestCondition#access_duration_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/request_condition#access_duration_settings RequestCondition#access_duration_settings}
   */
   readonly accessDurationSettings?: RequestConditionAccessDurationSettings;
   /**
   * access_scope_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/request_condition#access_scope_settings RequestCondition#access_scope_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/request_condition#access_scope_settings RequestCondition#access_scope_settings}
   */
   readonly accessScopeSettings?: RequestConditionAccessScopeSettings;
   /**
   * requester_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/request_condition#requester_settings RequestCondition#requester_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/request_condition#requester_settings RequestCondition#requester_settings}
   */
   readonly requesterSettings?: RequestConditionRequesterSettings;
 }
@@ -60,11 +60,11 @@ export interface RequestConditionAccessDurationSettings {
   /**
   * The duration set by the admin for access durations. Use ISO8061 notation for duration values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/request_condition#duration RequestCondition#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/request_condition#duration RequestCondition#duration}
   */
   readonly duration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/request_condition#type RequestCondition#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/request_condition#type RequestCondition#type}
   */
   readonly type?: string;
 }
@@ -189,7 +189,7 @@ export interface RequestConditionAccessScopeSettingsIds {
   /**
   * The group/entitlement bundle ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/request_condition#id RequestCondition#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/request_condition#id RequestCondition#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -308,13 +308,13 @@ export class RequestConditionAccessScopeSettingsIdsList extends cdktf.ComplexLis
 }
 export interface RequestConditionAccessScopeSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/request_condition#type RequestCondition#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/request_condition#type RequestCondition#type}
   */
   readonly type: string;
   /**
   * ids block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/request_condition#ids RequestCondition#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/request_condition#ids RequestCondition#ids}
   */
   readonly ids?: RequestConditionAccessScopeSettingsIds[] | cdktf.IResolvable;
 }
@@ -436,7 +436,7 @@ export interface RequestConditionRequesterSettingsIds {
   /**
   * The group/team ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/request_condition#id RequestCondition#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/request_condition#id RequestCondition#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -555,13 +555,13 @@ export class RequestConditionRequesterSettingsIdsList extends cdktf.ComplexList 
 }
 export interface RequestConditionRequesterSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/request_condition#type RequestCondition#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/request_condition#type RequestCondition#type}
   */
   readonly type: string;
   /**
   * ids block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/request_condition#ids RequestCondition#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/request_condition#ids RequestCondition#ids}
   */
   readonly ids?: RequestConditionRequesterSettingsIds[] | cdktf.IResolvable;
 }
@@ -681,7 +681,7 @@ export class RequestConditionRequesterSettingsOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/request_condition okta_request_condition}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/request_condition okta_request_condition}
 */
 export class RequestCondition extends cdktf.TerraformResource {
 
@@ -697,7 +697,7 @@ export class RequestCondition extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RequestCondition resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RequestCondition to import
-  * @param importFromId The id of the existing RequestCondition that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/request_condition#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RequestCondition that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/request_condition#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RequestCondition to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -709,7 +709,7 @@ export class RequestCondition extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/request_condition okta_request_condition} Resource
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/request_condition okta_request_condition} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -720,8 +720,8 @@ export class RequestCondition extends cdktf.TerraformResource {
       terraformResourceType: 'okta_request_condition',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.5.0',
-        providerVersionConstraint: '6.5.0'
+        providerVersion: '6.5.1',
+        providerVersionConstraint: '6.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

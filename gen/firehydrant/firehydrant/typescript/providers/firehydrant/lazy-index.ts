@@ -6,6 +6,7 @@ Object.defineProperty(exports, 'functionality', { get: function () { return requ
 Object.defineProperty(exports, 'inboundEmail', { get: function () { return require('./inbound-email'); } });
 Object.defineProperty(exports, 'incidentRole', { get: function () { return require('./incident-role'); } });
 Object.defineProperty(exports, 'incidentType', { get: function () { return require('./incident-type'); } });
+Object.defineProperty(exports, 'lifecycleMilestone', { get: function () { return require('./lifecycle-milestone'); } });
 Object.defineProperty(exports, 'onCallSchedule', { get: function () { return require('./on-call-schedule'); } });
 Object.defineProperty(exports, 'priority', { get: function () { return require('./priority'); } });
 Object.defineProperty(exports, 'role', { get: function () { return require('./role'); } });
@@ -24,6 +25,7 @@ Object.defineProperty(exports, 'dataFirehydrantFunctionality', { get: function (
 Object.defineProperty(exports, 'dataFirehydrantIncidentRole', { get: function () { return require('./data-firehydrant-incident-role'); } });
 Object.defineProperty(exports, 'dataFirehydrantIncidentType', { get: function () { return require('./data-firehydrant-incident-type'); } });
 Object.defineProperty(exports, 'dataFirehydrantIngestUrl', { get: function () { return require('./data-firehydrant-ingest-url'); } });
+Object.defineProperty(exports, 'dataFirehydrantLifecyclePhase', { get: function () { return require('./data-firehydrant-lifecycle-phase'); } });
 Object.defineProperty(exports, 'dataFirehydrantOnCallSchedule', { get: function () { return require('./data-firehydrant-on-call-schedule'); } });
 Object.defineProperty(exports, 'dataFirehydrantOnCallSchedules', { get: function () { return require('./data-firehydrant-on-call-schedules'); } });
 Object.defineProperty(exports, 'dataFirehydrantPermissions', { get: function () { return require('./data-firehydrant-permissions'); } });

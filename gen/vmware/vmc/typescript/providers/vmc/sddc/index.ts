@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc
+// https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,31 +8,31 @@ import * as cdktf from 'cdktf';
 
 export interface SddcConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc#delay_account_link Sddc#delay_account_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc#delay_account_link Sddc#delay_account_link}
   */
   readonly delayAccountLink?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc#deployment_type Sddc#deployment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc#deployment_type Sddc#deployment_type}
   */
   readonly deploymentType?: string;
   /**
   * The EDRS policy type. This can either be 'cost', 'performance', 'storage-scaleup' or 'rapid-scaleup'. Default : storage-scaleup. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc#edrs_policy_type Sddc#edrs_policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc#edrs_policy_type Sddc#edrs_policy_type}
   */
   readonly edrsPolicyType?: string;
   /**
   * True if EDRS is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc#enable_edrs Sddc#enable_edrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc#enable_edrs Sddc#enable_edrs}
   */
   readonly enableEdrs?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc#host_instance_type Sddc#host_instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc#host_instance_type Sddc#host_instance_type}
   */
   readonly hostInstanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc#id Sddc#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc#id Sddc#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,123 +41,123 @@ export interface SddcConfig extends cdktf.TerraformMetaArguments {
   /**
   * Uplink MTU of direct connect, SDDC-grouping and outposts traffic in edge tier-0 router port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc#intranet_mtu_uplink Sddc#intranet_mtu_uplink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc#intranet_mtu_uplink Sddc#intranet_mtu_uplink}
   */
   readonly intranetMtuUplink?: number;
   /**
   * The maximum number of hosts that the cluster can scale out to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc#max_hosts Sddc#max_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc#max_hosts Sddc#max_hosts}
   */
   readonly maxHosts?: number;
   /**
   * The minimum number of hosts that the cluster can scale in to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc#min_hosts Sddc#min_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc#min_hosts Sddc#min_hosts}
   */
   readonly minHosts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc#nsxt_cloudadmin Sddc#nsxt_cloudadmin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc#nsxt_cloudadmin Sddc#nsxt_cloudadmin}
   */
   readonly nsxtCloudadmin?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc#nsxt_cloudadmin_password Sddc#nsxt_cloudadmin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc#nsxt_cloudadmin_password Sddc#nsxt_cloudadmin_password}
   */
   readonly nsxtCloudadminPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc#nsxt_cloudaudit Sddc#nsxt_cloudaudit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc#nsxt_cloudaudit Sddc#nsxt_cloudaudit}
   */
   readonly nsxtCloudaudit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc#nsxt_cloudaudit_password Sddc#nsxt_cloudaudit_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc#nsxt_cloudaudit_password Sddc#nsxt_cloudaudit_password}
   */
   readonly nsxtCloudauditPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc#nsxt_private_ip Sddc#nsxt_private_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc#nsxt_private_ip Sddc#nsxt_private_ip}
   */
   readonly nsxtPrivateIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc#nsxt_private_url Sddc#nsxt_private_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc#nsxt_private_url Sddc#nsxt_private_url}
   */
   readonly nsxtPrivateUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc#nsxt_ui Sddc#nsxt_ui}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc#nsxt_ui Sddc#nsxt_ui}
   */
   readonly nsxtUi?: boolean | cdktf.IResolvable;
   /**
   * The amount of hosts in the primary cluster of the SDDC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc#num_host Sddc#num_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc#num_host Sddc#num_host}
   */
   readonly numHost: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc#provider_type Sddc#provider_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc#provider_type Sddc#provider_type}
   */
   readonly providerType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc#region Sddc#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc#region Sddc#region}
   */
   readonly region: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc#sddc_name Sddc#sddc_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc#sddc_name Sddc#sddc_name}
   */
   readonly sddcName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc#sddc_template_id Sddc#sddc_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc#sddc_template_id Sddc#sddc_template_id}
   */
   readonly sddcTemplateId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc#sddc_type Sddc#sddc_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc#sddc_type Sddc#sddc_type}
   */
   readonly sddcType?: string;
   /**
   * The size of the vCenter and NSX appliances. 'large' or 'LARGE' SDDC size corresponds to a large vCenter appliance and large NSX appliance. 'medium' or 'MEDIUM' SDDC size corresponds to medium vCenter appliance and medium NSX appliance. Default : 'medium'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc#size Sddc#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc#size Sddc#size}
   */
   readonly size?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc#skip_creating_vxlan Sddc#skip_creating_vxlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc#skip_creating_vxlan Sddc#skip_creating_vxlan}
   */
   readonly skipCreatingVxlan?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc#sso_domain Sddc#sso_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc#sso_domain Sddc#sso_domain}
   */
   readonly ssoDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc#vpc_cidr Sddc#vpc_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc#vpc_cidr Sddc#vpc_cidr}
   */
   readonly vpcCidr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc#vxlan_subnet Sddc#vxlan_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc#vxlan_subnet Sddc#vxlan_subnet}
   */
   readonly vxlanSubnet?: string;
   /**
   * account_link_sddc_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc#account_link_sddc_config Sddc#account_link_sddc_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc#account_link_sddc_config Sddc#account_link_sddc_config}
   */
   readonly accountLinkSddcConfig?: SddcAccountLinkSddcConfig[] | cdktf.IResolvable;
   /**
   * microsoft_licensing_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc#microsoft_licensing_config Sddc#microsoft_licensing_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc#microsoft_licensing_config Sddc#microsoft_licensing_config}
   */
   readonly microsoftLicensingConfig?: SddcMicrosoftLicensingConfig[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc#timeouts Sddc#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc#timeouts Sddc#timeouts}
   */
   readonly timeouts?: SddcTimeouts;
 }
 export interface SddcAccountLinkSddcConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc#connected_account_id Sddc#connected_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc#connected_account_id Sddc#connected_account_id}
   */
   readonly connectedAccountId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc#customer_subnet_ids Sddc#customer_subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc#customer_subnet_ids Sddc#customer_subnet_ids}
   */
   readonly customerSubnetIds?: string[];
 }
@@ -304,19 +304,19 @@ export interface SddcMicrosoftLicensingConfig {
   /**
   * Flag to identify if it is Academic Standard or Commercial Standard License.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc#academic_license Sddc#academic_license}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc#academic_license Sddc#academic_license}
   */
   readonly academicLicense?: boolean | cdktf.IResolvable;
   /**
   * The status of MSSQL licensing for this SDDC’s clusters. Possible values : enabled, ENABLED, disabled, DISABLED.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc#mssql_licensing Sddc#mssql_licensing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc#mssql_licensing Sddc#mssql_licensing}
   */
   readonly mssqlLicensing?: string;
   /**
   * The status of Windows licensing for this SDDC's clusters. Possible values : enabled, ENABLED, disabled, DISABLED.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc#windows_licensing Sddc#windows_licensing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc#windows_licensing Sddc#windows_licensing}
   */
   readonly windowsLicensing?: string;
 }
@@ -490,15 +490,15 @@ export class SddcMicrosoftLicensingConfigList extends cdktf.ComplexList {
 }
 export interface SddcTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc#create Sddc#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc#create Sddc#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc#delete Sddc#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc#delete Sddc#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc#update Sddc#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc#update Sddc#update}
   */
   readonly update?: string;
 }
@@ -650,7 +650,7 @@ export class SddcTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc vmc_sddc}
+* Represents a {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc vmc_sddc}
 */
 export class Sddc extends cdktf.TerraformResource {
 
@@ -666,7 +666,7 @@ export class Sddc extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Sddc resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Sddc to import
-  * @param importFromId The id of the existing Sddc that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Sddc that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Sddc to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -678,7 +678,7 @@ export class Sddc extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc vmc_sddc} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc vmc_sddc} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -689,8 +689,8 @@ export class Sddc extends cdktf.TerraformResource {
       terraformResourceType: 'vmc_sddc',
       terraformGeneratorMetadata: {
         providerName: 'vmc',
-        providerVersion: '1.15.5',
-        providerVersionConstraint: '1.15.5'
+        providerVersion: '1.15.6',
+        providerVersionConstraint: '1.15.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

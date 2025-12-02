@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,241 +10,241 @@ export interface StackitProviderConfig {
   /**
   * Custom endpoint for the Membership service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs#authorization_custom_endpoint StackitProvider#authorization_custom_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs#authorization_custom_endpoint StackitProvider#authorization_custom_endpoint}
   */
   readonly authorizationCustomEndpoint?: string;
   /**
   * Custom endpoint for the CDN service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs#cdn_custom_endpoint StackitProvider#cdn_custom_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs#cdn_custom_endpoint StackitProvider#cdn_custom_endpoint}
   */
   readonly cdnCustomEndpoint?: string;
   /**
   * Path of JSON from where the credentials are read. Takes precedence over the env var `STACKIT_CREDENTIALS_PATH`. Default value is `~/.stackit/credentials.json`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs#credentials_path StackitProvider#credentials_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs#credentials_path StackitProvider#credentials_path}
   */
   readonly credentialsPath?: string;
   /**
   * Region will be used as the default location for regional services. Not all services require a region, some are global
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs#default_region StackitProvider#default_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs#default_region StackitProvider#default_region}
   */
   readonly defaultRegion?: string;
   /**
   * Custom endpoint for the DNS service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs#dns_custom_endpoint StackitProvider#dns_custom_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs#dns_custom_endpoint StackitProvider#dns_custom_endpoint}
   */
   readonly dnsCustomEndpoint?: string;
   /**
   * Enable beta resources. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs#enable_beta_resources StackitProvider#enable_beta_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs#enable_beta_resources StackitProvider#enable_beta_resources}
   */
   readonly enableBetaResources?: boolean | cdktf.IResolvable;
   /**
   * Enables experiments. These are unstable features without official support. More information can be found in the README. Available Experiments: iam, routing-tables, network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs#experiments StackitProvider#experiments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs#experiments StackitProvider#experiments}
   */
   readonly experiments?: string[];
   /**
   * Custom endpoint for the Git service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs#git_custom_endpoint StackitProvider#git_custom_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs#git_custom_endpoint StackitProvider#git_custom_endpoint}
   */
   readonly gitCustomEndpoint?: string;
   /**
   * Custom endpoint for the IaaS service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs#iaas_custom_endpoint StackitProvider#iaas_custom_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs#iaas_custom_endpoint StackitProvider#iaas_custom_endpoint}
   */
   readonly iaasCustomEndpoint?: string;
   /**
   * Custom endpoint for the KMS service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs#kms_custom_endpoint StackitProvider#kms_custom_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs#kms_custom_endpoint StackitProvider#kms_custom_endpoint}
   */
   readonly kmsCustomEndpoint?: string;
   /**
   * Custom endpoint for the Load Balancer service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs#loadbalancer_custom_endpoint StackitProvider#loadbalancer_custom_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs#loadbalancer_custom_endpoint StackitProvider#loadbalancer_custom_endpoint}
   */
   readonly loadbalancerCustomEndpoint?: string;
   /**
   * Custom endpoint for the LogMe service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs#logme_custom_endpoint StackitProvider#logme_custom_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs#logme_custom_endpoint StackitProvider#logme_custom_endpoint}
   */
   readonly logmeCustomEndpoint?: string;
   /**
   * Custom endpoint for the MariaDB service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs#mariadb_custom_endpoint StackitProvider#mariadb_custom_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs#mariadb_custom_endpoint StackitProvider#mariadb_custom_endpoint}
   */
   readonly mariadbCustomEndpoint?: string;
   /**
   * Custom endpoint for the AI Model Serving service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs#modelserving_custom_endpoint StackitProvider#modelserving_custom_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs#modelserving_custom_endpoint StackitProvider#modelserving_custom_endpoint}
   */
   readonly modelservingCustomEndpoint?: string;
   /**
   * Custom endpoint for the MongoDB Flex service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs#mongodbflex_custom_endpoint StackitProvider#mongodbflex_custom_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs#mongodbflex_custom_endpoint StackitProvider#mongodbflex_custom_endpoint}
   */
   readonly mongodbflexCustomEndpoint?: string;
   /**
   * Custom endpoint for the Object Storage service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs#objectstorage_custom_endpoint StackitProvider#objectstorage_custom_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs#objectstorage_custom_endpoint StackitProvider#objectstorage_custom_endpoint}
   */
   readonly objectstorageCustomEndpoint?: string;
   /**
   * Custom endpoint for the Observability service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs#observability_custom_endpoint StackitProvider#observability_custom_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs#observability_custom_endpoint StackitProvider#observability_custom_endpoint}
   */
   readonly observabilityCustomEndpoint?: string;
   /**
   * Custom endpoint for the OpenSearch service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs#opensearch_custom_endpoint StackitProvider#opensearch_custom_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs#opensearch_custom_endpoint StackitProvider#opensearch_custom_endpoint}
   */
   readonly opensearchCustomEndpoint?: string;
   /**
   * Custom endpoint for the PostgresFlex service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs#postgresflex_custom_endpoint StackitProvider#postgresflex_custom_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs#postgresflex_custom_endpoint StackitProvider#postgresflex_custom_endpoint}
   */
   readonly postgresflexCustomEndpoint?: string;
   /**
   * Private RSA key used for authentication, relevant for the key flow. It takes precedence over the private key that is included in the service account key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs#private_key StackitProvider#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs#private_key StackitProvider#private_key}
   */
   readonly privateKey?: string;
   /**
   * Path for the private RSA key used for authentication, relevant for the key flow. It takes precedence over the private key that is included in the service account key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs#private_key_path StackitProvider#private_key_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs#private_key_path StackitProvider#private_key_path}
   */
   readonly privateKeyPath?: string;
   /**
   * Custom endpoint for the RabbitMQ service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs#rabbitmq_custom_endpoint StackitProvider#rabbitmq_custom_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs#rabbitmq_custom_endpoint StackitProvider#rabbitmq_custom_endpoint}
   */
   readonly rabbitmqCustomEndpoint?: string;
   /**
   * Custom endpoint for the Redis service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs#redis_custom_endpoint StackitProvider#redis_custom_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs#redis_custom_endpoint StackitProvider#redis_custom_endpoint}
   */
   readonly redisCustomEndpoint?: string;
   /**
   * Region will be used as the default location for regional services. Not all services require a region, some are global
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs#region StackitProvider#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs#region StackitProvider#region}
   */
   readonly region?: string;
   /**
   * Custom endpoint for the Resource Manager service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs#resourcemanager_custom_endpoint StackitProvider#resourcemanager_custom_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs#resourcemanager_custom_endpoint StackitProvider#resourcemanager_custom_endpoint}
   */
   readonly resourcemanagerCustomEndpoint?: string;
   /**
   * Custom endpoint for the Cloud Foundry (SCF) service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs#scf_custom_endpoint StackitProvider#scf_custom_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs#scf_custom_endpoint StackitProvider#scf_custom_endpoint}
   */
   readonly scfCustomEndpoint?: string;
   /**
   * Custom endpoint for the Secrets Manager service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs#secretsmanager_custom_endpoint StackitProvider#secretsmanager_custom_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs#secretsmanager_custom_endpoint StackitProvider#secretsmanager_custom_endpoint}
   */
   readonly secretsmanagerCustomEndpoint?: string;
   /**
   * Custom endpoint for the Server Backup service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs#server_backup_custom_endpoint StackitProvider#server_backup_custom_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs#server_backup_custom_endpoint StackitProvider#server_backup_custom_endpoint}
   */
   readonly serverBackupCustomEndpoint?: string;
   /**
   * Custom endpoint for the Server Update service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs#server_update_custom_endpoint StackitProvider#server_update_custom_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs#server_update_custom_endpoint StackitProvider#server_update_custom_endpoint}
   */
   readonly serverUpdateCustomEndpoint?: string;
   /**
   * Custom endpoint for the Service Account service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs#service_account_custom_endpoint StackitProvider#service_account_custom_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs#service_account_custom_endpoint StackitProvider#service_account_custom_endpoint}
   */
   readonly serviceAccountCustomEndpoint?: string;
   /**
   * Service account email. It can also be set using the environment variable STACKIT_SERVICE_ACCOUNT_EMAIL. It is required if you want to use the resource manager project resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs#service_account_email StackitProvider#service_account_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs#service_account_email StackitProvider#service_account_email}
   */
   readonly serviceAccountEmail?: string;
   /**
   * Service account key used for authentication. If set, the key flow will be used to authenticate all operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs#service_account_key StackitProvider#service_account_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs#service_account_key StackitProvider#service_account_key}
   */
   readonly serviceAccountKey?: string;
   /**
   * Path for the service account key used for authentication. If set, the key flow will be used to authenticate all operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs#service_account_key_path StackitProvider#service_account_key_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs#service_account_key_path StackitProvider#service_account_key_path}
   */
   readonly serviceAccountKeyPath?: string;
   /**
   * Token used for authentication. If set, the token flow will be used to authenticate all operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs#service_account_token StackitProvider#service_account_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs#service_account_token StackitProvider#service_account_token}
   */
   readonly serviceAccountToken?: string;
   /**
   * Custom endpoint for the Service Enablement API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs#service_enablement_custom_endpoint StackitProvider#service_enablement_custom_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs#service_enablement_custom_endpoint StackitProvider#service_enablement_custom_endpoint}
   */
   readonly serviceEnablementCustomEndpoint?: string;
   /**
   * Custom endpoint for the Kubernetes Engine (SKE) service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs#ske_custom_endpoint StackitProvider#ske_custom_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs#ske_custom_endpoint StackitProvider#ske_custom_endpoint}
   */
   readonly skeCustomEndpoint?: string;
   /**
   * Custom endpoint for the SQL Server Flex service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs#sqlserverflex_custom_endpoint StackitProvider#sqlserverflex_custom_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs#sqlserverflex_custom_endpoint StackitProvider#sqlserverflex_custom_endpoint}
   */
   readonly sqlserverflexCustomEndpoint?: string;
   /**
   * Custom endpoint for the token API, which is used to request access tokens when using the key flow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs#token_custom_endpoint StackitProvider#token_custom_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs#token_custom_endpoint StackitProvider#token_custom_endpoint}
   */
   readonly tokenCustomEndpoint?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs#alias StackitProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs#alias StackitProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs stackit}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs stackit}
 */
 export class StackitProvider extends cdktf.TerraformProvider {
 
@@ -260,7 +260,7 @@ export class StackitProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a StackitProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StackitProvider to import
-  * @param importFromId The id of the existing StackitProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StackitProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StackitProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -272,7 +272,7 @@ export class StackitProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs stackit} Resource
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs stackit} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -283,8 +283,8 @@ export class StackitProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'stackit',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.71.0',
-        providerVersionConstraint: '0.71.0'
+        providerVersion: '0.72.0',
+        providerVersionConstraint: '0.72.0'
       },
       terraformProviderSource: 'stackitcloud/stackit'
     });

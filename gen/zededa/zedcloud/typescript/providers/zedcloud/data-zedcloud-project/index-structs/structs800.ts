@@ -1,11 +1,291 @@
 import * as cdktf from 'cdktf';
-import { DataZedcloudProjectModulePolicyAppPolicyAppsManifestJsonConfigurationList,
+import { DataZedcloudProjectModulePolicyAppPolicyAppsManifestJsonInterfacesAclsActionsList,
+DataZedcloudProjectModulePolicyAppPolicyAppsManifestJsonInterfacesAclsMatchesList,
+DataZedcloudProjectModulePolicyAppPolicyAppsManifestJsonConfigurationList,
 DataZedcloudProjectModulePolicyAppPolicyAppsManifestJsonContainerDetailList,
 DataZedcloudProjectModulePolicyAppPolicyAppsManifestJsonDescList,
 DataZedcloudProjectModulePolicyAppPolicyAppsManifestJsonImagesList,
-DataZedcloudProjectModulePolicyAppPolicyAppsManifestJsonInterfacesList,
-DataZedcloudProjectModulePolicyAppPolicyAppsManifestJsonModuleList,
 DataZedcloudProjectModulePolicyAppPolicyAppsInterfacesList } from './structs400'
+export interface DataZedcloudProjectModulePolicyAppPolicyAppsManifestJsonInterfacesAcls {
+}
+
+export function dataZedcloudProjectModulePolicyAppPolicyAppsManifestJsonInterfacesAclsToTerraform(struct?: DataZedcloudProjectModulePolicyAppPolicyAppsManifestJsonInterfacesAcls): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataZedcloudProjectModulePolicyAppPolicyAppsManifestJsonInterfacesAclsToHclTerraform(struct?: DataZedcloudProjectModulePolicyAppPolicyAppsManifestJsonInterfacesAcls): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataZedcloudProjectModulePolicyAppPolicyAppsManifestJsonInterfacesAclsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataZedcloudProjectModulePolicyAppPolicyAppsManifestJsonInterfacesAcls | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataZedcloudProjectModulePolicyAppPolicyAppsManifestJsonInterfacesAcls | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // actions - computed: true, optional: false, required: false
+  private _actions = new DataZedcloudProjectModulePolicyAppPolicyAppsManifestJsonInterfacesAclsActionsList(this, "actions", false);
+  public get actions() {
+    return this._actions;
+  }
+
+  // matches - computed: true, optional: false, required: false
+  private _matches = new DataZedcloudProjectModulePolicyAppPolicyAppsManifestJsonInterfacesAclsMatchesList(this, "matches", false);
+  public get matches() {
+    return this._matches;
+  }
+
+  // name - computed: true, optional: false, required: false
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+}
+
+export class DataZedcloudProjectModulePolicyAppPolicyAppsManifestJsonInterfacesAclsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataZedcloudProjectModulePolicyAppPolicyAppsManifestJsonInterfacesAclsOutputReference {
+    return new DataZedcloudProjectModulePolicyAppPolicyAppsManifestJsonInterfacesAclsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataZedcloudProjectModulePolicyAppPolicyAppsManifestJsonInterfaces {
+}
+
+export function dataZedcloudProjectModulePolicyAppPolicyAppsManifestJsonInterfacesToTerraform(struct?: DataZedcloudProjectModulePolicyAppPolicyAppsManifestJsonInterfaces): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataZedcloudProjectModulePolicyAppPolicyAppsManifestJsonInterfacesToHclTerraform(struct?: DataZedcloudProjectModulePolicyAppPolicyAppsManifestJsonInterfaces): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataZedcloudProjectModulePolicyAppPolicyAppsManifestJsonInterfacesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataZedcloudProjectModulePolicyAppPolicyAppsManifestJsonInterfaces | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataZedcloudProjectModulePolicyAppPolicyAppsManifestJsonInterfaces | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // acls - computed: true, optional: false, required: false
+  private _acls = new DataZedcloudProjectModulePolicyAppPolicyAppsManifestJsonInterfacesAclsList(this, "acls", false);
+  public get acls() {
+    return this._acls;
+  }
+
+  // directattach - computed: true, optional: false, required: false
+  public get directattach() {
+    return this.getBooleanAttribute('directattach');
+  }
+
+  // name - computed: true, optional: false, required: false
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+
+  // optional - computed: true, optional: false, required: false
+  public get optional() {
+    return this.getBooleanAttribute('optional');
+  }
+
+  // privateip - computed: true, optional: false, required: false
+  public get privateip() {
+    return this.getBooleanAttribute('privateip');
+  }
+
+  // type - computed: true, optional: false, required: false
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+}
+
+export class DataZedcloudProjectModulePolicyAppPolicyAppsManifestJsonInterfacesList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataZedcloudProjectModulePolicyAppPolicyAppsManifestJsonInterfacesOutputReference {
+    return new DataZedcloudProjectModulePolicyAppPolicyAppsManifestJsonInterfacesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataZedcloudProjectModulePolicyAppPolicyAppsManifestJsonModule {
+}
+
+export function dataZedcloudProjectModulePolicyAppPolicyAppsManifestJsonModuleToTerraform(struct?: DataZedcloudProjectModulePolicyAppPolicyAppsManifestJsonModule): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataZedcloudProjectModulePolicyAppPolicyAppsManifestJsonModuleToHclTerraform(struct?: DataZedcloudProjectModulePolicyAppPolicyAppsManifestJsonModule): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataZedcloudProjectModulePolicyAppPolicyAppsManifestJsonModuleOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataZedcloudProjectModulePolicyAppPolicyAppsManifestJsonModule | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataZedcloudProjectModulePolicyAppPolicyAppsManifestJsonModule | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // environment - computed: true, optional: false, required: false
+  private _environment = new cdktf.StringMap(this, "environment");
+  public get environment() {
+    return this._environment;
+  }
+
+  // module_type - computed: true, optional: false, required: false
+  public get moduleType() {
+    return this.getStringAttribute('module_type');
+  }
+
+  // routes - computed: true, optional: false, required: false
+  private _routes = new cdktf.StringMap(this, "routes");
+  public get routes() {
+    return this._routes;
+  }
+
+  // twin_detail - computed: true, optional: false, required: false
+  public get twinDetail() {
+    return this.getStringAttribute('twin_detail');
+  }
+}
+
+export class DataZedcloudProjectModulePolicyAppPolicyAppsManifestJsonModuleList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataZedcloudProjectModulePolicyAppPolicyAppsManifestJsonModuleOutputReference {
+    return new DataZedcloudProjectModulePolicyAppPolicyAppsManifestJsonModuleOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface DataZedcloudProjectModulePolicyAppPolicyAppsManifestJsonOwner {
 }
 
@@ -348,6 +628,11 @@ export class DataZedcloudProjectModulePolicyAppPolicyAppsManifestJsonOutputRefer
   // description - computed: true, optional: false, required: false
   public get description() {
     return this.getStringAttribute('description');
+  }
+
+  // disable_v_t_p_m - computed: true, optional: false, required: false
+  public get disableVTPM() {
+    return this.getBooleanAttribute('disable_v_t_p_m');
   }
 
   // display_name - computed: true, optional: false, required: false
@@ -6510,6 +6795,11 @@ export class DataZedcloudProjectModulePolicyModulePolicyAppsManifestJsonOutputRe
     return this.getStringAttribute('description');
   }
 
+  // disable_v_t_p_m - computed: true, optional: false, required: false
+  public get disableVTPM() {
+    return this.getBooleanAttribute('disable_v_t_p_m');
+  }
+
   // display_name - computed: true, optional: false, required: false
   public get displayName() {
     return this.getStringAttribute('display_name');
@@ -9363,359 +9653,5 @@ export class DataZedcloudProjectModulePolicyModulePolicyAzureEdgeAgentManifestJs
   */
   public get(index: number): DataZedcloudProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonOwnerOutputReference {
     return new DataZedcloudProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonOwnerOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface DataZedcloudProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonPermissions {
-}
-
-export function dataZedcloudProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonPermissionsToTerraform(struct?: DataZedcloudProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonPermissions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataZedcloudProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonPermissionsToHclTerraform(struct?: DataZedcloudProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonPermissions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataZedcloudProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonPermissionsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataZedcloudProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonPermissions | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataZedcloudProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonPermissions | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-}
-
-export class DataZedcloudProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonPermissionsList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataZedcloudProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonPermissionsOutputReference {
-    return new DataZedcloudProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonPermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface DataZedcloudProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonResources {
-}
-
-export function dataZedcloudProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonResourcesToTerraform(struct?: DataZedcloudProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonResources): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataZedcloudProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonResourcesToHclTerraform(struct?: DataZedcloudProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonResources): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataZedcloudProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonResourcesOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataZedcloudProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonResources | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataZedcloudProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonResources | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // name - computed: true, optional: false, required: false
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-
-  // value - computed: true, optional: false, required: false
-  public get value() {
-    return this.getStringAttribute('value');
-  }
-}
-
-export class DataZedcloudProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonResourcesList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataZedcloudProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonResourcesOutputReference {
-    return new DataZedcloudProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonResourcesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface DataZedcloudProjectModulePolicyModulePolicyAzureEdgeAgentManifestJson {
-}
-
-export function dataZedcloudProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonToTerraform(struct?: DataZedcloudProjectModulePolicyModulePolicyAzureEdgeAgentManifestJson): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataZedcloudProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonToHclTerraform(struct?: DataZedcloudProjectModulePolicyModulePolicyAzureEdgeAgentManifestJson): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataZedcloudProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataZedcloudProjectModulePolicyModulePolicyAzureEdgeAgentManifestJson | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataZedcloudProjectModulePolicyModulePolicyAzureEdgeAgentManifestJson | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // ac_kind - computed: true, optional: false, required: false
-  public get acKind() {
-    return this.getStringAttribute('ac_kind');
-  }
-
-  // ac_version - computed: true, optional: false, required: false
-  public get acVersion() {
-    return this.getStringAttribute('ac_version');
-  }
-
-  // app_type - computed: true, optional: false, required: false
-  public get appType() {
-    return this.getStringAttribute('app_type');
-  }
-
-  // configuration - computed: true, optional: false, required: false
-  private _configuration = new DataZedcloudProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonConfigurationList(this, "configuration", false);
-  public get configuration() {
-    return this._configuration;
-  }
-
-  // container_detail - computed: true, optional: false, required: false
-  private _containerDetail = new DataZedcloudProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonContainerDetailList(this, "container_detail", false);
-  public get containerDetail() {
-    return this._containerDetail;
-  }
-
-  // cpu_pinning_enabled - computed: true, optional: false, required: false
-  public get cpuPinningEnabled() {
-    return this.getBooleanAttribute('cpu_pinning_enabled');
-  }
-
-  // deployment_type - computed: true, optional: false, required: false
-  public get deploymentType() {
-    return this.getStringAttribute('deployment_type');
-  }
-
-  // desc - computed: true, optional: false, required: false
-  private _desc = new DataZedcloudProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonDescList(this, "desc", false);
-  public get desc() {
-    return this._desc;
-  }
-
-  // description - computed: true, optional: false, required: false
-  public get description() {
-    return this.getStringAttribute('description');
-  }
-
-  // display_name - computed: true, optional: false, required: false
-  public get displayName() {
-    return this.getStringAttribute('display_name');
-  }
-
-  // docker_compose_tar_image_name - computed: true, optional: false, required: false
-  public get dockerComposeTarImageName() {
-    return this.getStringAttribute('docker_compose_tar_image_name');
-  }
-
-  // docker_compose_yaml_text - computed: true, optional: false, required: false
-  public get dockerComposeYamlText() {
-    return this.getStringAttribute('docker_compose_yaml_text');
-  }
-
-  // enable_oem_win_license_key - computed: true, optional: false, required: false
-  public get enableOemWinLicenseKey() {
-    return this.getBooleanAttribute('enable_oem_win_license_key');
-  }
-
-  // enablevnc - computed: true, optional: false, required: false
-  public get enablevnc() {
-    return this.getBooleanAttribute('enablevnc');
-  }
-
-  // images - computed: true, optional: false, required: false
-  private _images = new DataZedcloudProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonImagesList(this, "images", false);
-  public get images() {
-    return this._images;
-  }
-
-  // interfaces - computed: true, optional: false, required: false
-  private _interfaces = new DataZedcloudProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonInterfacesList(this, "interfaces", false);
-  public get interfaces() {
-    return this._interfaces;
-  }
-
-  // module - computed: true, optional: false, required: false
-  private _module = new DataZedcloudProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonModuleList(this, "module", false);
-  public get module() {
-    return this._module;
-  }
-
-  // name - computed: true, optional: false, required: false
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-
-  // owner - computed: true, optional: false, required: false
-  private _owner = new DataZedcloudProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonOwnerList(this, "owner", false);
-  public get owner() {
-    return this._owner;
-  }
-
-  // permissions - computed: true, optional: false, required: false
-  private _permissions = new DataZedcloudProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonPermissionsList(this, "permissions", false);
-  public get permissions() {
-    return this._permissions;
-  }
-
-  // persistent_runtime_size_bytes - computed: true, optional: false, required: false
-  public get persistentRuntimeSizeBytes() {
-    return this.getStringAttribute('persistent_runtime_size_bytes');
-  }
-
-  // resources - computed: true, optional: false, required: false
-  private _resources = new DataZedcloudProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonResourcesList(this, "resources", false);
-  public get resources() {
-    return this._resources;
-  }
-
-  // runtime_protocol_version - computed: true, optional: false, required: false
-  public get runtimeProtocolVersion() {
-    return this.getStringAttribute('runtime_protocol_version');
-  }
-
-  // runtime_version - computed: true, optional: false, required: false
-  public get runtimeVersion() {
-    return this.getStringAttribute('runtime_version');
-  }
-
-  // vmmode - computed: true, optional: false, required: false
-  public get vmmode() {
-    return this.getStringAttribute('vmmode');
-  }
-}
-
-export class DataZedcloudProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataZedcloudProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonOutputReference {
-    return new DataZedcloudProjectModulePolicyModulePolicyAzureEdgeAgentManifestJsonOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }

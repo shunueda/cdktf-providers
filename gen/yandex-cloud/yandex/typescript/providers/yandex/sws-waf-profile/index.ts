@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface SwsWafProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * The `Cloud ID` which resource belongs to. If it is not provided, the default provider `cloud-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#cloud_id SwsWafProfile#cloud_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#cloud_id SwsWafProfile#cloud_id}
   */
   readonly cloudId?: string;
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#description SwsWafProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#description SwsWafProfile#description}
   */
   readonly description?: string;
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#folder_id SwsWafProfile#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#folder_id SwsWafProfile#folder_id}
   */
   readonly folderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#id SwsWafProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#id SwsWafProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,53 +35,53 @@ export interface SwsWafProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * A set of key/value label pairs which assigned to resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#labels SwsWafProfile#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#labels SwsWafProfile#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#match_all_rule_sets SwsWafProfile#match_all_rule_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#match_all_rule_sets SwsWafProfile#match_all_rule_sets}
   */
   readonly matchAllRuleSets?: boolean | cdktf.IResolvable;
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#name SwsWafProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#name SwsWafProfile#name}
   */
   readonly name?: string;
   /**
   * analyze_request_body block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#analyze_request_body SwsWafProfile#analyze_request_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#analyze_request_body SwsWafProfile#analyze_request_body}
   */
   readonly analyzeRequestBody?: SwsWafProfileAnalyzeRequestBody;
   /**
   * core_rule_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#core_rule_set SwsWafProfile#core_rule_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#core_rule_set SwsWafProfile#core_rule_set}
   */
   readonly coreRuleSet?: SwsWafProfileCoreRuleSet;
   /**
   * exclusion_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#exclusion_rule SwsWafProfile#exclusion_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#exclusion_rule SwsWafProfile#exclusion_rule}
   */
   readonly exclusionRule?: SwsWafProfileExclusionRule[] | cdktf.IResolvable;
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#rule SwsWafProfile#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#rule SwsWafProfile#rule}
   */
   readonly rule?: SwsWafProfileRule[] | cdktf.IResolvable;
   /**
   * rule_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#rule_set SwsWafProfile#rule_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#rule_set SwsWafProfile#rule_set}
   */
   readonly ruleSet?: SwsWafProfileRuleSet[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#timeouts SwsWafProfile#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#timeouts SwsWafProfile#timeouts}
   */
   readonly timeouts?: SwsWafProfileTimeouts;
 }
@@ -89,19 +89,19 @@ export interface SwsWafProfileAnalyzeRequestBody {
   /**
   * Possible to turn analyzer on and turn if off.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#is_enabled SwsWafProfile#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#is_enabled SwsWafProfile#is_enabled}
   */
   readonly isEnabled?: boolean | cdktf.IResolvable;
   /**
   * Maximum size of body to pass to analyzer. In kilobytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#size_limit SwsWafProfile#size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#size_limit SwsWafProfile#size_limit}
   */
   readonly sizeLimit?: number;
   /**
   * Action to perform if maximum size of body exceeded. Possible values: `IGNORE` and `DENY`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#size_limit_action SwsWafProfile#size_limit_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#size_limit_action SwsWafProfile#size_limit_action}
   */
   readonly sizeLimitAction?: string;
 }
@@ -245,7 +245,7 @@ export interface SwsWafProfileCoreRuleSetRuleSet {
   /**
   * Id of the rule set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#id SwsWafProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#id SwsWafProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -254,19 +254,19 @@ export interface SwsWafProfileCoreRuleSetRuleSet {
   /**
   * Name of the rule set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#name SwsWafProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#name SwsWafProfile#name}
   */
   readonly name?: string;
   /**
   * Type of the rule set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#type SwsWafProfile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#type SwsWafProfile#type}
   */
   readonly type?: string;
   /**
   * Version of the rule set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#version SwsWafProfile#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#version SwsWafProfile#version}
   */
   readonly version: string;
 }
@@ -436,19 +436,19 @@ export interface SwsWafProfileCoreRuleSet {
   /**
   * Anomaly score. Enter an integer within the range of 2 and 10000. The higher this value, the more likely it is that the request that satisfies the rule is an attack. See [Rules](https://yandex.cloud/en/docs/smartwebsecurity/concepts/waf#anomaly) for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#inbound_anomaly_score SwsWafProfile#inbound_anomaly_score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#inbound_anomaly_score SwsWafProfile#inbound_anomaly_score}
   */
   readonly inboundAnomalyScore?: number;
   /**
   * Paranoia level. Enter an integer within the range of 1 and 4. Paranoia level classifies rules according to their aggression. The higher the paranoia level, the better your protection, but also the higher the probability of WAF false positives. See [Rules](https://yandex.cloud/en/docs/smartwebsecurity/concepts/waf#paranoia) for more details. NOTE: this option has no effect on enabling or disabling rules, it is used only as recommendation for user to enable all rules with paranoia_level <= this value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#paranoia_level SwsWafProfile#paranoia_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#paranoia_level SwsWafProfile#paranoia_level}
   */
   readonly paranoiaLevel?: number;
   /**
   * rule_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#rule_set SwsWafProfile#rule_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#rule_set SwsWafProfile#rule_set}
   */
   readonly ruleSet: SwsWafProfileCoreRuleSetRuleSet;
 }
@@ -587,27 +587,27 @@ export class SwsWafProfileCoreRuleSetOutputReference extends cdktf.ComplexObject
 }
 export interface SwsWafProfileExclusionRuleConditionAuthorityAuthorities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#exact_match SwsWafProfile#exact_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#exact_match SwsWafProfile#exact_match}
   */
   readonly exactMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#exact_not_match SwsWafProfile#exact_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#exact_not_match SwsWafProfile#exact_not_match}
   */
   readonly exactNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#pire_regex_match SwsWafProfile#pire_regex_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#pire_regex_match SwsWafProfile#pire_regex_match}
   */
   readonly pireRegexMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#pire_regex_not_match SwsWafProfile#pire_regex_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#pire_regex_not_match SwsWafProfile#pire_regex_not_match}
   */
   readonly pireRegexNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#prefix_match SwsWafProfile#prefix_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#prefix_match SwsWafProfile#prefix_match}
   */
   readonly prefixMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#prefix_not_match SwsWafProfile#prefix_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#prefix_not_match SwsWafProfile#prefix_not_match}
   */
   readonly prefixNotMatch?: string;
 }
@@ -870,7 +870,7 @@ export interface SwsWafProfileExclusionRuleConditionAuthority {
   /**
   * authorities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#authorities SwsWafProfile#authorities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#authorities SwsWafProfile#authorities}
   */
   readonly authorities?: SwsWafProfileExclusionRuleConditionAuthorityAuthorities[] | cdktf.IResolvable;
 }
@@ -954,27 +954,27 @@ export class SwsWafProfileExclusionRuleConditionAuthorityOutputReference extends
 }
 export interface SwsWafProfileExclusionRuleConditionHeadersValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#exact_match SwsWafProfile#exact_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#exact_match SwsWafProfile#exact_match}
   */
   readonly exactMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#exact_not_match SwsWafProfile#exact_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#exact_not_match SwsWafProfile#exact_not_match}
   */
   readonly exactNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#pire_regex_match SwsWafProfile#pire_regex_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#pire_regex_match SwsWafProfile#pire_regex_match}
   */
   readonly pireRegexMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#pire_regex_not_match SwsWafProfile#pire_regex_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#pire_regex_not_match SwsWafProfile#pire_regex_not_match}
   */
   readonly pireRegexNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#prefix_match SwsWafProfile#prefix_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#prefix_match SwsWafProfile#prefix_match}
   */
   readonly prefixMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#prefix_not_match SwsWafProfile#prefix_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#prefix_not_match SwsWafProfile#prefix_not_match}
   */
   readonly prefixNotMatch?: string;
 }
@@ -1203,13 +1203,13 @@ export class SwsWafProfileExclusionRuleConditionHeadersValueOutputReference exte
 }
 export interface SwsWafProfileExclusionRuleConditionHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#name SwsWafProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#name SwsWafProfile#name}
   */
   readonly name?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#value SwsWafProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#value SwsWafProfile#value}
   */
   readonly value: SwsWafProfileExclusionRuleConditionHeadersValue;
 }
@@ -1351,27 +1351,27 @@ export class SwsWafProfileExclusionRuleConditionHeadersList extends cdktf.Comple
 }
 export interface SwsWafProfileExclusionRuleConditionHttpMethodHttpMethods {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#exact_match SwsWafProfile#exact_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#exact_match SwsWafProfile#exact_match}
   */
   readonly exactMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#exact_not_match SwsWafProfile#exact_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#exact_not_match SwsWafProfile#exact_not_match}
   */
   readonly exactNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#pire_regex_match SwsWafProfile#pire_regex_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#pire_regex_match SwsWafProfile#pire_regex_match}
   */
   readonly pireRegexMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#pire_regex_not_match SwsWafProfile#pire_regex_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#pire_regex_not_match SwsWafProfile#pire_regex_not_match}
   */
   readonly pireRegexNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#prefix_match SwsWafProfile#prefix_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#prefix_match SwsWafProfile#prefix_match}
   */
   readonly prefixMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#prefix_not_match SwsWafProfile#prefix_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#prefix_not_match SwsWafProfile#prefix_not_match}
   */
   readonly prefixNotMatch?: string;
 }
@@ -1634,7 +1634,7 @@ export interface SwsWafProfileExclusionRuleConditionHttpMethod {
   /**
   * http_methods block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#http_methods SwsWafProfile#http_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#http_methods SwsWafProfile#http_methods}
   */
   readonly httpMethods?: SwsWafProfileExclusionRuleConditionHttpMethodHttpMethods[] | cdktf.IResolvable;
 }
@@ -1718,27 +1718,27 @@ export class SwsWafProfileExclusionRuleConditionHttpMethodOutputReference extend
 }
 export interface SwsWafProfileExclusionRuleConditionRequestUriPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#exact_match SwsWafProfile#exact_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#exact_match SwsWafProfile#exact_match}
   */
   readonly exactMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#exact_not_match SwsWafProfile#exact_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#exact_not_match SwsWafProfile#exact_not_match}
   */
   readonly exactNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#pire_regex_match SwsWafProfile#pire_regex_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#pire_regex_match SwsWafProfile#pire_regex_match}
   */
   readonly pireRegexMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#pire_regex_not_match SwsWafProfile#pire_regex_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#pire_regex_not_match SwsWafProfile#pire_regex_not_match}
   */
   readonly pireRegexNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#prefix_match SwsWafProfile#prefix_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#prefix_match SwsWafProfile#prefix_match}
   */
   readonly prefixMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#prefix_not_match SwsWafProfile#prefix_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#prefix_not_match SwsWafProfile#prefix_not_match}
   */
   readonly prefixNotMatch?: string;
 }
@@ -1967,27 +1967,27 @@ export class SwsWafProfileExclusionRuleConditionRequestUriPathOutputReference ex
 }
 export interface SwsWafProfileExclusionRuleConditionRequestUriQueriesValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#exact_match SwsWafProfile#exact_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#exact_match SwsWafProfile#exact_match}
   */
   readonly exactMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#exact_not_match SwsWafProfile#exact_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#exact_not_match SwsWafProfile#exact_not_match}
   */
   readonly exactNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#pire_regex_match SwsWafProfile#pire_regex_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#pire_regex_match SwsWafProfile#pire_regex_match}
   */
   readonly pireRegexMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#pire_regex_not_match SwsWafProfile#pire_regex_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#pire_regex_not_match SwsWafProfile#pire_regex_not_match}
   */
   readonly pireRegexNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#prefix_match SwsWafProfile#prefix_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#prefix_match SwsWafProfile#prefix_match}
   */
   readonly prefixMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#prefix_not_match SwsWafProfile#prefix_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#prefix_not_match SwsWafProfile#prefix_not_match}
   */
   readonly prefixNotMatch?: string;
 }
@@ -2216,13 +2216,13 @@ export class SwsWafProfileExclusionRuleConditionRequestUriQueriesValueOutputRefe
 }
 export interface SwsWafProfileExclusionRuleConditionRequestUriQueries {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#key SwsWafProfile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#key SwsWafProfile#key}
   */
   readonly key: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#value SwsWafProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#value SwsWafProfile#value}
   */
   readonly value: SwsWafProfileExclusionRuleConditionRequestUriQueriesValue;
 }
@@ -2363,13 +2363,13 @@ export interface SwsWafProfileExclusionRuleConditionRequestUri {
   /**
   * path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#path SwsWafProfile#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#path SwsWafProfile#path}
   */
   readonly path?: SwsWafProfileExclusionRuleConditionRequestUriPath;
   /**
   * queries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#queries SwsWafProfile#queries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#queries SwsWafProfile#queries}
   */
   readonly queries?: SwsWafProfileExclusionRuleConditionRequestUriQueries[] | cdktf.IResolvable;
 }
@@ -2484,7 +2484,7 @@ export interface SwsWafProfileExclusionRuleConditionSourceIpGeoIpMatch {
   /**
   * Locations to include.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#locations SwsWafProfile#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#locations SwsWafProfile#locations}
   */
   readonly locations?: string[];
 }
@@ -2570,7 +2570,7 @@ export interface SwsWafProfileExclusionRuleConditionSourceIpGeoIpNotMatch {
   /**
   * Locations to exclude.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#locations SwsWafProfile#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#locations SwsWafProfile#locations}
   */
   readonly locations?: string[];
 }
@@ -2656,7 +2656,7 @@ export interface SwsWafProfileExclusionRuleConditionSourceIpIpRangesMatch {
   /**
   * IP ranges to include.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#ip_ranges SwsWafProfile#ip_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#ip_ranges SwsWafProfile#ip_ranges}
   */
   readonly ipRanges?: string[];
 }
@@ -2742,7 +2742,7 @@ export interface SwsWafProfileExclusionRuleConditionSourceIpIpRangesNotMatch {
   /**
   * IP ranges to exclude.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#ip_ranges SwsWafProfile#ip_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#ip_ranges SwsWafProfile#ip_ranges}
   */
   readonly ipRanges?: string[];
 }
@@ -2828,25 +2828,25 @@ export interface SwsWafProfileExclusionRuleConditionSourceIp {
   /**
   * geo_ip_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#geo_ip_match SwsWafProfile#geo_ip_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#geo_ip_match SwsWafProfile#geo_ip_match}
   */
   readonly geoIpMatch?: SwsWafProfileExclusionRuleConditionSourceIpGeoIpMatch;
   /**
   * geo_ip_not_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#geo_ip_not_match SwsWafProfile#geo_ip_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#geo_ip_not_match SwsWafProfile#geo_ip_not_match}
   */
   readonly geoIpNotMatch?: SwsWafProfileExclusionRuleConditionSourceIpGeoIpNotMatch;
   /**
   * ip_ranges_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#ip_ranges_match SwsWafProfile#ip_ranges_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#ip_ranges_match SwsWafProfile#ip_ranges_match}
   */
   readonly ipRangesMatch?: SwsWafProfileExclusionRuleConditionSourceIpIpRangesMatch;
   /**
   * ip_ranges_not_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#ip_ranges_not_match SwsWafProfile#ip_ranges_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#ip_ranges_not_match SwsWafProfile#ip_ranges_not_match}
   */
   readonly ipRangesNotMatch?: SwsWafProfileExclusionRuleConditionSourceIpIpRangesNotMatch;
 }
@@ -3019,31 +3019,31 @@ export interface SwsWafProfileExclusionRuleCondition {
   /**
   * authority block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#authority SwsWafProfile#authority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#authority SwsWafProfile#authority}
   */
   readonly authority?: SwsWafProfileExclusionRuleConditionAuthority;
   /**
   * headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#headers SwsWafProfile#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#headers SwsWafProfile#headers}
   */
   readonly headers?: SwsWafProfileExclusionRuleConditionHeaders[] | cdktf.IResolvable;
   /**
   * http_method block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#http_method SwsWafProfile#http_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#http_method SwsWafProfile#http_method}
   */
   readonly httpMethod?: SwsWafProfileExclusionRuleConditionHttpMethod;
   /**
   * request_uri block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#request_uri SwsWafProfile#request_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#request_uri SwsWafProfile#request_uri}
   */
   readonly requestUri?: SwsWafProfileExclusionRuleConditionRequestUri;
   /**
   * source_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#source_ip SwsWafProfile#source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#source_ip SwsWafProfile#source_ip}
   */
   readonly sourceIp?: SwsWafProfileExclusionRuleConditionSourceIp;
 }
@@ -3245,13 +3245,13 @@ export interface SwsWafProfileExclusionRuleExcludeRules {
   /**
   * Set this option true to exclude all rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#exclude_all SwsWafProfile#exclude_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#exclude_all SwsWafProfile#exclude_all}
   */
   readonly excludeAll?: boolean | cdktf.IResolvable;
   /**
   * List of rules to exclude.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#rule_ids SwsWafProfile#rule_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#rule_ids SwsWafProfile#rule_ids}
   */
   readonly ruleIds?: string[];
 }
@@ -3366,31 +3366,31 @@ export interface SwsWafProfileExclusionRule {
   /**
   * Description of the rule. 0-512 characters long.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#description SwsWafProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#description SwsWafProfile#description}
   */
   readonly description?: string;
   /**
   * Records the fact that an exception rule is triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#log_excluded SwsWafProfile#log_excluded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#log_excluded SwsWafProfile#log_excluded}
   */
   readonly logExcluded?: boolean | cdktf.IResolvable;
   /**
   * Name of exclusion rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#name SwsWafProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#name SwsWafProfile#name}
   */
   readonly name?: string;
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#condition SwsWafProfile#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#condition SwsWafProfile#condition}
   */
   readonly condition?: SwsWafProfileExclusionRuleCondition;
   /**
   * exclude_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#exclude_rules SwsWafProfile#exclude_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#exclude_rules SwsWafProfile#exclude_rules}
   */
   readonly excludeRules: SwsWafProfileExclusionRuleExcludeRules;
 }
@@ -3621,19 +3621,19 @@ export interface SwsWafProfileRule {
   /**
   * Determines is it rule blocking or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#is_blocking SwsWafProfile#is_blocking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#is_blocking SwsWafProfile#is_blocking}
   */
   readonly isBlocking?: boolean | cdktf.IResolvable;
   /**
   * Determines is it rule enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#is_enabled SwsWafProfile#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#is_enabled SwsWafProfile#is_enabled}
   */
   readonly isEnabled?: boolean | cdktf.IResolvable;
   /**
   * Rule ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#rule_id SwsWafProfile#rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#rule_id SwsWafProfile#rule_id}
   */
   readonly ruleId: string;
 }
@@ -3806,7 +3806,7 @@ export interface SwsWafProfileRuleSetCoreRuleSetRuleSet {
   /**
   * ID of the rule set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#id SwsWafProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#id SwsWafProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3815,19 +3815,19 @@ export interface SwsWafProfileRuleSetCoreRuleSetRuleSet {
   /**
   * Name of the rule set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#name SwsWafProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#name SwsWafProfile#name}
   */
   readonly name?: string;
   /**
   * Type of the rule set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#type SwsWafProfile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#type SwsWafProfile#type}
   */
   readonly type?: string;
   /**
   * Version of the rule set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#version SwsWafProfile#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#version SwsWafProfile#version}
   */
   readonly version: string;
 }
@@ -3997,19 +3997,19 @@ export interface SwsWafProfileRuleSetCoreRuleSet {
   /**
   * Inbound anomaly score of the rule set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#inbound_anomaly_score SwsWafProfile#inbound_anomaly_score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#inbound_anomaly_score SwsWafProfile#inbound_anomaly_score}
   */
   readonly inboundAnomalyScore?: number;
   /**
   * Paranoia level of the rule set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#paranoia_level SwsWafProfile#paranoia_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#paranoia_level SwsWafProfile#paranoia_level}
   */
   readonly paranoiaLevel?: number;
   /**
   * rule_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#rule_set SwsWafProfile#rule_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#rule_set SwsWafProfile#rule_set}
   */
   readonly ruleSet: SwsWafProfileRuleSetCoreRuleSetRuleSet;
 }
@@ -4150,13 +4150,13 @@ export interface SwsWafProfileRuleSetMlRuleSetRuleGroup {
   /**
   * Action of the rule group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#action SwsWafProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#action SwsWafProfile#action}
   */
   readonly action?: string;
   /**
   * ID of the rule group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#id SwsWafProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#id SwsWafProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -4165,13 +4165,13 @@ export interface SwsWafProfileRuleSetMlRuleSetRuleGroup {
   /**
   * Inbound anomaly score.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#inbound_anomaly_score SwsWafProfile#inbound_anomaly_score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#inbound_anomaly_score SwsWafProfile#inbound_anomaly_score}
   */
   readonly inboundAnomalyScore?: number;
   /**
   * Is the rule group enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#is_enabled SwsWafProfile#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#is_enabled SwsWafProfile#is_enabled}
   */
   readonly isEnabled?: boolean | cdktf.IResolvable;
 }
@@ -4376,7 +4376,7 @@ export interface SwsWafProfileRuleSetMlRuleSetRuleSet {
   /**
   * ID of the rule set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#id SwsWafProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#id SwsWafProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -4385,19 +4385,19 @@ export interface SwsWafProfileRuleSetMlRuleSetRuleSet {
   /**
   * Name of the rule set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#name SwsWafProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#name SwsWafProfile#name}
   */
   readonly name?: string;
   /**
   * Type of the rule set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#type SwsWafProfile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#type SwsWafProfile#type}
   */
   readonly type?: string;
   /**
   * Version of the rule set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#version SwsWafProfile#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#version SwsWafProfile#version}
   */
   readonly version: string;
 }
@@ -4567,13 +4567,13 @@ export interface SwsWafProfileRuleSetMlRuleSet {
   /**
   * rule_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#rule_group SwsWafProfile#rule_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#rule_group SwsWafProfile#rule_group}
   */
   readonly ruleGroup?: SwsWafProfileRuleSetMlRuleSetRuleGroup[] | cdktf.IResolvable;
   /**
   * rule_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#rule_set SwsWafProfile#rule_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#rule_set SwsWafProfile#rule_set}
   */
   readonly ruleSet: SwsWafProfileRuleSetMlRuleSetRuleSet;
 }
@@ -4685,13 +4685,13 @@ export interface SwsWafProfileRuleSetYaRuleSetRuleGroup {
   /**
   * Action of the rule group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#action SwsWafProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#action SwsWafProfile#action}
   */
   readonly action?: string;
   /**
   * ID of the rule group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#id SwsWafProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#id SwsWafProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -4700,13 +4700,13 @@ export interface SwsWafProfileRuleSetYaRuleSetRuleGroup {
   /**
   * Inbound anomaly score.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#inbound_anomaly_score SwsWafProfile#inbound_anomaly_score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#inbound_anomaly_score SwsWafProfile#inbound_anomaly_score}
   */
   readonly inboundAnomalyScore?: number;
   /**
   * Is the rule group enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#is_enabled SwsWafProfile#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#is_enabled SwsWafProfile#is_enabled}
   */
   readonly isEnabled?: boolean | cdktf.IResolvable;
 }
@@ -4911,7 +4911,7 @@ export interface SwsWafProfileRuleSetYaRuleSetRuleSet {
   /**
   * ID of the rule set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#id SwsWafProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#id SwsWafProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -4920,19 +4920,19 @@ export interface SwsWafProfileRuleSetYaRuleSetRuleSet {
   /**
   * Name of the rule set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#name SwsWafProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#name SwsWafProfile#name}
   */
   readonly name?: string;
   /**
   * Type of the rule set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#type SwsWafProfile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#type SwsWafProfile#type}
   */
   readonly type?: string;
   /**
   * Version of the rule set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#version SwsWafProfile#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#version SwsWafProfile#version}
   */
   readonly version: string;
 }
@@ -5102,13 +5102,13 @@ export interface SwsWafProfileRuleSetYaRuleSet {
   /**
   * rule_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#rule_group SwsWafProfile#rule_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#rule_group SwsWafProfile#rule_group}
   */
   readonly ruleGroup?: SwsWafProfileRuleSetYaRuleSetRuleGroup[] | cdktf.IResolvable;
   /**
   * rule_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#rule_set SwsWafProfile#rule_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#rule_set SwsWafProfile#rule_set}
   */
   readonly ruleSet: SwsWafProfileRuleSetYaRuleSetRuleSet;
 }
@@ -5220,37 +5220,37 @@ export interface SwsWafProfileRuleSet {
   /**
   * Action of the rule set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#action SwsWafProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#action SwsWafProfile#action}
   */
   readonly action?: string;
   /**
   * Determines is it rule set enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#is_enabled SwsWafProfile#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#is_enabled SwsWafProfile#is_enabled}
   */
   readonly isEnabled?: boolean | cdktf.IResolvable;
   /**
   * Priority of the rule set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#priority SwsWafProfile#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#priority SwsWafProfile#priority}
   */
   readonly priority?: number;
   /**
   * core_rule_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#core_rule_set SwsWafProfile#core_rule_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#core_rule_set SwsWafProfile#core_rule_set}
   */
   readonly coreRuleSet?: SwsWafProfileRuleSetCoreRuleSet;
   /**
   * ml_rule_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#ml_rule_set SwsWafProfile#ml_rule_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#ml_rule_set SwsWafProfile#ml_rule_set}
   */
   readonly mlRuleSet?: SwsWafProfileRuleSetMlRuleSet;
   /**
   * ya_rule_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#ya_rule_set SwsWafProfile#ya_rule_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#ya_rule_set SwsWafProfile#ya_rule_set}
   */
   readonly yaRuleSet?: SwsWafProfileRuleSetYaRuleSet;
 }
@@ -5511,19 +5511,19 @@ export class SwsWafProfileRuleSetList extends cdktf.ComplexList {
 }
 export interface SwsWafProfileTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#create SwsWafProfile#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#create SwsWafProfile#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#delete SwsWafProfile#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#delete SwsWafProfile#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#read SwsWafProfile#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#read SwsWafProfile#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#update SwsWafProfile#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#update SwsWafProfile#update}
   */
   readonly update?: string;
 }
@@ -5704,7 +5704,7 @@ export class SwsWafProfileTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile yandex_sws_waf_profile}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile yandex_sws_waf_profile}
 */
 export class SwsWafProfile extends cdktf.TerraformResource {
 
@@ -5720,7 +5720,7 @@ export class SwsWafProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SwsWafProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SwsWafProfile to import
-  * @param importFromId The id of the existing SwsWafProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SwsWafProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SwsWafProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5732,7 +5732,7 @@ export class SwsWafProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/sws_waf_profile yandex_sws_waf_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/sws_waf_profile yandex_sws_waf_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5743,8 +5743,8 @@ export class SwsWafProfile extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_sws_waf_profile',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.172.0',
-        providerVersionConstraint: '0.172.0'
+        providerVersion: '0.173.0',
+        providerVersionConstraint: '0.173.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

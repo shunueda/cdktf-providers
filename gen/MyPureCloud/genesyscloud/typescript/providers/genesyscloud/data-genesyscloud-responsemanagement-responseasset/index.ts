@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/data-sources/responsemanagement_responseasset
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/responsemanagement_responseasset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataGenesyscloudResponsemanagementResponseassetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/data-sources/responsemanagement_responseasset#id DataGenesyscloudResponsemanagementResponseasset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/responsemanagement_responseasset#id DataGenesyscloudResponsemanagementResponseasset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataGenesyscloudResponsemanagementResponseassetConfig extends c
   /**
   * Response asset name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/data-sources/responsemanagement_responseasset#name DataGenesyscloudResponsemanagementResponseasset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/responsemanagement_responseasset#name DataGenesyscloudResponsemanagementResponseasset#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/data-sources/responsemanagement_responseasset genesyscloud_responsemanagement_responseasset}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/responsemanagement_responseasset genesyscloud_responsemanagement_responseasset}
 */
 export class DataGenesyscloudResponsemanagementResponseasset extends cdktf.TerraformDataSource {
 
@@ -39,7 +39,7 @@ export class DataGenesyscloudResponsemanagementResponseasset extends cdktf.Terra
   * Generates CDKTF code for importing a DataGenesyscloudResponsemanagementResponseasset resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGenesyscloudResponsemanagementResponseasset to import
-  * @param importFromId The id of the existing DataGenesyscloudResponsemanagementResponseasset that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/data-sources/responsemanagement_responseasset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataGenesyscloudResponsemanagementResponseasset that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/responsemanagement_responseasset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGenesyscloudResponsemanagementResponseasset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -51,7 +51,7 @@ export class DataGenesyscloudResponsemanagementResponseasset extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/data-sources/responsemanagement_responseasset genesyscloud_responsemanagement_responseasset} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/responsemanagement_responseasset genesyscloud_responsemanagement_responseasset} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -62,8 +62,8 @@ export class DataGenesyscloudResponsemanagementResponseasset extends cdktf.Terra
       terraformResourceType: 'genesyscloud_responsemanagement_responseasset',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.71.1',
-        providerVersionConstraint: '1.71.1'
+        providerVersion: '1.72.2',
+        providerVersionConstraint: '1.72.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

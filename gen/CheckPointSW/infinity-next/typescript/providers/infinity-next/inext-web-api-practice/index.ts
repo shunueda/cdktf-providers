@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_web_api_practice
+// https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_web_api_practice
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,59 +10,59 @@ export interface InextWebApiPracticeConfig extends cdktf.TerraformMetaArguments 
   /**
   * The name of the resource, also acts as its unique ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_web_api_practice#name InextWebApiPractice#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_web_api_practice#name InextWebApiPractice#name}
   */
   readonly name: string;
   /**
   * The visibility of the resource, Shared or Local
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_web_api_practice#visibility InextWebApiPractice#visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_web_api_practice#visibility InextWebApiPractice#visibility}
   */
   readonly visibility?: string;
   /**
   * api_attacks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_web_api_practice#api_attacks InextWebApiPractice#api_attacks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_web_api_practice#api_attacks InextWebApiPractice#api_attacks}
   */
   readonly apiAttacks?: InextWebApiPracticeApiAttacks;
   /**
   * file_security block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_web_api_practice#file_security InextWebApiPractice#file_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_web_api_practice#file_security InextWebApiPractice#file_security}
   */
   readonly fileSecurity?: InextWebApiPracticeFileSecurity;
   /**
   * ips block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_web_api_practice#ips InextWebApiPractice#ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_web_api_practice#ips InextWebApiPractice#ips}
   */
   readonly ips?: InextWebApiPracticeIps;
   /**
   * schema_validation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_web_api_practice#schema_validation InextWebApiPractice#schema_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_web_api_practice#schema_validation InextWebApiPractice#schema_validation}
   */
   readonly schemaValidation?: InextWebApiPracticeSchemaValidation;
 }
 export interface InextWebApiPracticeApiAttacksAdvancedSetting {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_web_api_practice#body_size InextWebApiPractice#body_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_web_api_practice#body_size InextWebApiPractice#body_size}
   */
   readonly bodySize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_web_api_practice#header_size InextWebApiPractice#header_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_web_api_practice#header_size InextWebApiPractice#header_size}
   */
   readonly headerSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_web_api_practice#illegal_http_methods InextWebApiPractice#illegal_http_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_web_api_practice#illegal_http_methods InextWebApiPractice#illegal_http_methods}
   */
   readonly illegalHttpMethods?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_web_api_practice#max_object_depth InextWebApiPractice#max_object_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_web_api_practice#max_object_depth InextWebApiPractice#max_object_depth}
   */
   readonly maxObjectDepth?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_web_api_practice#url_size InextWebApiPractice#url_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_web_api_practice#url_size InextWebApiPractice#url_size}
   */
   readonly urlSize?: number;
 }
@@ -269,13 +269,13 @@ export interface InextWebApiPracticeApiAttacks {
   /**
   * Medium, High or Critical
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_web_api_practice#minimum_severity InextWebApiPractice#minimum_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_web_api_practice#minimum_severity InextWebApiPractice#minimum_severity}
   */
   readonly minimumSeverity?: string;
   /**
   * advanced_setting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_web_api_practice#advanced_setting InextWebApiPractice#advanced_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_web_api_practice#advanced_setting InextWebApiPractice#advanced_setting}
   */
   readonly advancedSetting?: InextWebApiPracticeApiAttacksAdvancedSetting;
 }
@@ -395,81 +395,81 @@ export interface InextWebApiPracticeFileSecurity {
   /**
   * Detect, Prevent, Inactive or AccordingToPractice
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_web_api_practice#allow_an_unopened_archive InextWebApiPractice#allow_an_unopened_archive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_web_api_practice#allow_an_unopened_archive InextWebApiPractice#allow_an_unopened_archive}
   */
   readonly allowAnUnopenedArchive?: string;
   /**
   * Detect, Prevent, Inactive or AccordingToPractice
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_web_api_practice#allow_archive_within_archive InextWebApiPractice#allow_archive_within_archive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_web_api_practice#allow_archive_within_archive InextWebApiPractice#allow_archive_within_archive}
   */
   readonly allowArchiveWithinArchive?: string;
   /**
   * Detect, Prevent, Inactive or AccordingToPractice
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_web_api_practice#allow_file_size_limit InextWebApiPractice#allow_file_size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_web_api_practice#allow_file_size_limit InextWebApiPractice#allow_file_size_limit}
   */
   readonly allowFileSizeLimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_web_api_practice#allow_file_type InextWebApiPractice#allow_file_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_web_api_practice#allow_file_type InextWebApiPractice#allow_file_type}
   */
   readonly allowFileType?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_web_api_practice#archive_file_size_limit InextWebApiPractice#archive_file_size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_web_api_practice#archive_file_size_limit InextWebApiPractice#archive_file_size_limit}
   */
   readonly archiveFileSizeLimit?: number;
   /**
   * Bytes, KB, MB or GB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_web_api_practice#archive_file_size_limit_unit InextWebApiPractice#archive_file_size_limit_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_web_api_practice#archive_file_size_limit_unit InextWebApiPractice#archive_file_size_limit_unit}
   */
   readonly archiveFileSizeLimitUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_web_api_practice#file_size_limit InextWebApiPractice#file_size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_web_api_practice#file_size_limit InextWebApiPractice#file_size_limit}
   */
   readonly fileSizeLimit?: number;
   /**
   * Bytes, KB, MB or GB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_web_api_practice#file_size_limit_unit InextWebApiPractice#file_size_limit_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_web_api_practice#file_size_limit_unit InextWebApiPractice#file_size_limit_unit}
   */
   readonly fileSizeLimitUnit?: string;
   /**
   * Detect, Prevent, Inactive or AccordingToPractice
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_web_api_practice#files_without_name InextWebApiPractice#files_without_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_web_api_practice#files_without_name InextWebApiPractice#files_without_name}
   */
   readonly filesWithoutName?: string;
   /**
   * Detect, Prevent, Inactive or AccordingToPractice
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_web_api_practice#high_confidence InextWebApiPractice#high_confidence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_web_api_practice#high_confidence InextWebApiPractice#high_confidence}
   */
   readonly highConfidence?: string;
   /**
   * Detect, Prevent, Inactive or AccordingToPractice
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_web_api_practice#low_confidence InextWebApiPractice#low_confidence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_web_api_practice#low_confidence InextWebApiPractice#low_confidence}
   */
   readonly lowConfidence?: string;
   /**
   * Detect, Prevent, Inactive or AccordingToPractice
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_web_api_practice#medium_confidence InextWebApiPractice#medium_confidence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_web_api_practice#medium_confidence InextWebApiPractice#medium_confidence}
   */
   readonly mediumConfidence?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_web_api_practice#required_archive_extraction InextWebApiPractice#required_archive_extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_web_api_practice#required_archive_extraction InextWebApiPractice#required_archive_extraction}
   */
   readonly requiredArchiveExtraction?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_web_api_practice#required_threat_emulation InextWebApiPractice#required_threat_emulation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_web_api_practice#required_threat_emulation InextWebApiPractice#required_threat_emulation}
   */
   readonly requiredThreatEmulation?: boolean | cdktf.IResolvable;
   /**
   * LowOrAbove, MediumOrAbove, HighOrAbove or Critical
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_web_api_practice#severity_level InextWebApiPractice#severity_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_web_api_practice#severity_level InextWebApiPractice#severity_level}
   */
   readonly severityLevel?: string;
 }
@@ -966,37 +966,37 @@ export interface InextWebApiPracticeIps {
   /**
   * Detect, Prevent, Inactive or AccordingToPractice
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_web_api_practice#high_confidence InextWebApiPractice#high_confidence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_web_api_practice#high_confidence InextWebApiPractice#high_confidence}
   */
   readonly highConfidence?: string;
   /**
   * Detect, Prevent, Inactive or AccordingToPractice
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_web_api_practice#low_confidence InextWebApiPractice#low_confidence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_web_api_practice#low_confidence InextWebApiPractice#low_confidence}
   */
   readonly lowConfidence?: string;
   /**
   * Detect, Prevent, Inactive or AccordingToPractice
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_web_api_practice#medium_confidence InextWebApiPractice#medium_confidence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_web_api_practice#medium_confidence InextWebApiPractice#medium_confidence}
   */
   readonly mediumConfidence?: string;
   /**
   * The performance impact: VeryLow, LowOrLower, MediumOrLower or HighOrLower
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_web_api_practice#performance_impact InextWebApiPractice#performance_impact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_web_api_practice#performance_impact InextWebApiPractice#performance_impact}
   */
   readonly performanceImpact?: string;
   /**
   * The year to apply protections from: 1999, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_web_api_practice#protections_from_year InextWebApiPractice#protections_from_year}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_web_api_practice#protections_from_year InextWebApiPractice#protections_from_year}
   */
   readonly protectionsFromYear?: string;
   /**
   * The severity level: LowOrAbove, MediumOrAbove, HighOrAbove or Critical
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_web_api_practice#severity_level InextWebApiPractice#severity_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_web_api_practice#severity_level InextWebApiPractice#severity_level}
   */
   readonly severityLevel?: string;
 }
@@ -1230,19 +1230,19 @@ export class InextWebApiPracticeIpsOutputReference extends cdktf.ComplexObject {
 }
 export interface InextWebApiPracticeSchemaValidation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_web_api_practice#data InextWebApiPractice#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_web_api_practice#data InextWebApiPractice#data}
   */
   readonly data: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_web_api_practice#is_file_exist InextWebApiPractice#is_file_exist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_web_api_practice#is_file_exist InextWebApiPractice#is_file_exist}
   */
   readonly isFileExist?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_web_api_practice#name InextWebApiPractice#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_web_api_practice#name InextWebApiPractice#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_web_api_practice#size InextWebApiPractice#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_web_api_practice#size InextWebApiPractice#size}
   */
   readonly size?: number;
 }
@@ -1415,7 +1415,7 @@ export class InextWebApiPracticeSchemaValidationOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_web_api_practice inext_web_api_practice}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_web_api_practice inext_web_api_practice}
 */
 export class InextWebApiPractice extends cdktf.TerraformResource {
 
@@ -1431,7 +1431,7 @@ export class InextWebApiPractice extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InextWebApiPractice resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InextWebApiPractice to import
-  * @param importFromId The id of the existing InextWebApiPractice that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_web_api_practice#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InextWebApiPractice that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_web_api_practice#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InextWebApiPractice to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1443,7 +1443,7 @@ export class InextWebApiPractice extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.0/docs/resources/inext_web_api_practice inext_web_api_practice} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.2.1/docs/resources/inext_web_api_practice inext_web_api_practice} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1454,8 +1454,8 @@ export class InextWebApiPractice extends cdktf.TerraformResource {
       terraformResourceType: 'inext_web_api_practice',
       terraformGeneratorMetadata: {
         providerName: 'infinity-next',
-        providerVersion: '1.2.0',
-        providerVersionConstraint: '1.2.0'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

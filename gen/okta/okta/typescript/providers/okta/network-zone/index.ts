@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/network_zone
+// https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/network_zone
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface NetworkZoneConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of asns included. Format of each array value: a string representation of an ASN numeric value. Use with type `DYNAMIC` or `DYNAMIC_V2`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/network_zone#asns NetworkZone#asns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/network_zone#asns NetworkZone#asns}
   */
   readonly asns?: string[];
   /**
   * Array of locations ISO-3166-1(2) included. Format code: countryCode OR countryCode-regionCode. Use with type `DYNAMIC` or `DYNAMIC_V2`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/network_zone#dynamic_locations NetworkZone#dynamic_locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/network_zone#dynamic_locations NetworkZone#dynamic_locations}
   */
   readonly dynamicLocations?: string[];
   /**
   * Array of locations ISO-3166-1(2) excluded. Format code: countryCode OR countryCode-regionCode. Use with type `DYNAMIC_V2`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/network_zone#dynamic_locations_exclude NetworkZone#dynamic_locations_exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/network_zone#dynamic_locations_exclude NetworkZone#dynamic_locations_exclude}
   */
   readonly dynamicLocationsExclude?: string[];
   /**
   * Type of proxy being controlled by this dynamic network zone - can be one of `Any`, `TorAnonymizer` or `NotTorAnonymizer`. Use with type `DYNAMIC`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/network_zone#dynamic_proxy_type NetworkZone#dynamic_proxy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/network_zone#dynamic_proxy_type NetworkZone#dynamic_proxy_type}
   */
   readonly dynamicProxyType?: string;
   /**
   * Array of values in CIDR/range form depending on the way it's been declared (i.e. CIDR will contain /suffix). Please check API docs for examples. Use with type `IP`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/network_zone#gateways NetworkZone#gateways}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/network_zone#gateways NetworkZone#gateways}
   */
   readonly gateways?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/network_zone#id NetworkZone#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/network_zone#id NetworkZone#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,49 +47,49 @@ export interface NetworkZoneConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of ip service excluded. Use with type `DYNAMIC_V2`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/network_zone#ip_service_categories_exclude NetworkZone#ip_service_categories_exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/network_zone#ip_service_categories_exclude NetworkZone#ip_service_categories_exclude}
   */
   readonly ipServiceCategoriesExclude?: string[];
   /**
   * List of ip service included. Use with type `DYNAMIC_V2`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/network_zone#ip_service_categories_include NetworkZone#ip_service_categories_include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/network_zone#ip_service_categories_include NetworkZone#ip_service_categories_include}
   */
   readonly ipServiceCategoriesInclude?: string[];
   /**
   * Name of the Network Zone Resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/network_zone#name NetworkZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/network_zone#name NetworkZone#name}
   */
   readonly name: string;
   /**
   * Array of values in CIDR/range form depending on the way it's been declared (i.e. CIDR will contain /suffix). Please check API docs for examples. Can not be set if `usage` is set to `BLOCKLIST`. Use with type `IP`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/network_zone#proxies NetworkZone#proxies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/network_zone#proxies NetworkZone#proxies}
   */
   readonly proxies?: string[];
   /**
   * Network Status - can either be `ACTIVE` or `INACTIVE` only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/network_zone#status NetworkZone#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/network_zone#status NetworkZone#status}
   */
   readonly status?: string;
   /**
   * Type of the Network Zone - can be `IP`, `DYNAMIC` or `DYNAMIC_V2` only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/network_zone#type NetworkZone#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/network_zone#type NetworkZone#type}
   */
   readonly type: string;
   /**
   * Usage of the Network Zone - can be either `POLICY` or `BLOCKLIST`. By default, it is `POLICY`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/network_zone#usage NetworkZone#usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/network_zone#usage NetworkZone#usage}
   */
   readonly usage?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/network_zone okta_network_zone}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/network_zone okta_network_zone}
 */
 export class NetworkZone extends cdktf.TerraformResource {
 
@@ -105,7 +105,7 @@ export class NetworkZone extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkZone resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkZone to import
-  * @param importFromId The id of the existing NetworkZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/network_zone#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/network_zone#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkZone to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -117,7 +117,7 @@ export class NetworkZone extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/network_zone okta_network_zone} Resource
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/network_zone okta_network_zone} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -128,8 +128,8 @@ export class NetworkZone extends cdktf.TerraformResource {
       terraformResourceType: 'okta_network_zone',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.5.0',
-        providerVersionConstraint: '6.5.0'
+        providerVersion: '6.5.1',
+        providerVersionConstraint: '6.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

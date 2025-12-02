@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kms_asymmetric_encryption_key
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/kms_asymmetric_encryption_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,38 +11,38 @@ export interface KmsAsymmetricEncryptionKeyConfig extends cdktf.TerraformMetaArg
   * ID of the asymmetric KMS key to return.
   *  To get the ID of an asymmetric KMS key use a [AsymmetricEncryptionKeyService.List] request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kms_asymmetric_encryption_key#asymmetric_encryption_key_id KmsAsymmetricEncryptionKey#asymmetric_encryption_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/kms_asymmetric_encryption_key#asymmetric_encryption_key_id KmsAsymmetricEncryptionKey#asymmetric_encryption_key_id}
   */
   readonly asymmetricEncryptionKeyId?: string;
   /**
   * Flag that inhibits deletion of the key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kms_asymmetric_encryption_key#deletion_protection KmsAsymmetricEncryptionKey#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/kms_asymmetric_encryption_key#deletion_protection KmsAsymmetricEncryptionKey#deletion_protection}
   */
   readonly deletionProtection?: boolean | cdktf.IResolvable;
   /**
   * Description of the key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kms_asymmetric_encryption_key#description KmsAsymmetricEncryptionKey#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/kms_asymmetric_encryption_key#description KmsAsymmetricEncryptionKey#description}
   */
   readonly description?: string;
   /**
   * Asymmetric Encryption Algorithm ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kms_asymmetric_encryption_key#encryption_algorithm KmsAsymmetricEncryptionKey#encryption_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/kms_asymmetric_encryption_key#encryption_algorithm KmsAsymmetricEncryptionKey#encryption_algorithm}
   */
   readonly encryptionAlgorithm?: string;
   /**
   * ID of the folder that the key belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kms_asymmetric_encryption_key#folder_id KmsAsymmetricEncryptionKey#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/kms_asymmetric_encryption_key#folder_id KmsAsymmetricEncryptionKey#folder_id}
   */
   readonly folderId?: string;
   /**
   * ID of the asymmetric KMS key to return.
   *  To get the ID of an asymmetric KMS key use a [AsymmetricEncryptionKeyService.List] request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kms_asymmetric_encryption_key#id KmsAsymmetricEncryptionKey#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/kms_asymmetric_encryption_key#id KmsAsymmetricEncryptionKey#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -51,25 +51,25 @@ export interface KmsAsymmetricEncryptionKeyConfig extends cdktf.TerraformMetaArg
   /**
   * Custom labels for the key as `key:value` pairs. Maximum 64 per key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kms_asymmetric_encryption_key#labels KmsAsymmetricEncryptionKey#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/kms_asymmetric_encryption_key#labels KmsAsymmetricEncryptionKey#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Name of the key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kms_asymmetric_encryption_key#name KmsAsymmetricEncryptionKey#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/kms_asymmetric_encryption_key#name KmsAsymmetricEncryptionKey#name}
   */
   readonly name?: string;
   /**
   * Current status of the key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kms_asymmetric_encryption_key#status KmsAsymmetricEncryptionKey#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/kms_asymmetric_encryption_key#status KmsAsymmetricEncryptionKey#status}
   */
   readonly status?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kms_asymmetric_encryption_key#timeouts KmsAsymmetricEncryptionKey#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/kms_asymmetric_encryption_key#timeouts KmsAsymmetricEncryptionKey#timeouts}
   */
   readonly timeouts?: KmsAsymmetricEncryptionKeyTimeouts;
 }
@@ -77,25 +77,25 @@ export interface KmsAsymmetricEncryptionKeyTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kms_asymmetric_encryption_key#create KmsAsymmetricEncryptionKey#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/kms_asymmetric_encryption_key#create KmsAsymmetricEncryptionKey#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kms_asymmetric_encryption_key#delete KmsAsymmetricEncryptionKey#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/kms_asymmetric_encryption_key#delete KmsAsymmetricEncryptionKey#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kms_asymmetric_encryption_key#read KmsAsymmetricEncryptionKey#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/kms_asymmetric_encryption_key#read KmsAsymmetricEncryptionKey#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kms_asymmetric_encryption_key#update KmsAsymmetricEncryptionKey#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/kms_asymmetric_encryption_key#update KmsAsymmetricEncryptionKey#update}
   */
   readonly update?: string;
 }
@@ -276,7 +276,7 @@ export class KmsAsymmetricEncryptionKeyTimeoutsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kms_asymmetric_encryption_key yandex_kms_asymmetric_encryption_key}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/kms_asymmetric_encryption_key yandex_kms_asymmetric_encryption_key}
 */
 export class KmsAsymmetricEncryptionKey extends cdktf.TerraformResource {
 
@@ -292,7 +292,7 @@ export class KmsAsymmetricEncryptionKey extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KmsAsymmetricEncryptionKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KmsAsymmetricEncryptionKey to import
-  * @param importFromId The id of the existing KmsAsymmetricEncryptionKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kms_asymmetric_encryption_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KmsAsymmetricEncryptionKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/kms_asymmetric_encryption_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KmsAsymmetricEncryptionKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -304,7 +304,7 @@ export class KmsAsymmetricEncryptionKey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kms_asymmetric_encryption_key yandex_kms_asymmetric_encryption_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/kms_asymmetric_encryption_key yandex_kms_asymmetric_encryption_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -315,8 +315,8 @@ export class KmsAsymmetricEncryptionKey extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_kms_asymmetric_encryption_key',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.172.0',
-        providerVersionConstraint: '0.172.0'
+        providerVersion: '0.173.0',
+        providerVersionConstraint: '0.173.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

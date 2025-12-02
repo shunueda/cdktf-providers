@@ -2734,6 +2734,11 @@ export class ProjectCloudPolicyAppPolicyAppsManifestJsonOutputReference extends 
     return this.getStringAttribute('description');
   }
 
+  // disable_v_t_p_m - computed: true, optional: false, required: false
+  public get disableVTPM() {
+    return this.getBooleanAttribute('disable_v_t_p_m');
+  }
+
   // display_name - computed: true, optional: false, required: false
   public get displayName() {
     return this.getStringAttribute('display_name');
@@ -8892,6 +8897,11 @@ export class ProjectCloudPolicyModulePolicyAppsManifestJsonOutputReference exten
   // description - computed: true, optional: false, required: false
   public get description() {
     return this.getStringAttribute('description');
+  }
+
+  // disable_v_t_p_m - computed: true, optional: false, required: false
+  public get disableVTPM() {
+    return this.getBooleanAttribute('disable_v_t_p_m');
   }
 
   // display_name - computed: true, optional: false, required: false

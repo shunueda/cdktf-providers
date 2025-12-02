@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_queue_outbound_email_address
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue_outbound_email_address
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface RoutingQueueOutboundEmailAddressAConfig extends cdktf.Terraform
   /**
   * Unique ID of the email domain. e.g. "test.example.com"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_queue_outbound_email_address#domain_id RoutingQueueOutboundEmailAddressA#domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue_outbound_email_address#domain_id RoutingQueueOutboundEmailAddressA#domain_id}
   */
   readonly domainId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_queue_outbound_email_address#id RoutingQueueOutboundEmailAddressA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue_outbound_email_address#id RoutingQueueOutboundEmailAddressA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface RoutingQueueOutboundEmailAddressAConfig extends cdktf.Terraform
   /**
   * The routing queue to which the outbound email address is for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_queue_outbound_email_address#queue_id RoutingQueueOutboundEmailAddressA#queue_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue_outbound_email_address#queue_id RoutingQueueOutboundEmailAddressA#queue_id}
   */
   readonly queueId: string;
   /**
   * Unique ID of the email route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_queue_outbound_email_address#route_id RoutingQueueOutboundEmailAddressA#route_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue_outbound_email_address#route_id RoutingQueueOutboundEmailAddressA#route_id}
   */
   readonly routeId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_queue_outbound_email_address genesyscloud_routing_queue_outbound_email_address}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue_outbound_email_address genesyscloud_routing_queue_outbound_email_address}
 */
 export class RoutingQueueOutboundEmailAddressA extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class RoutingQueueOutboundEmailAddressA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RoutingQueueOutboundEmailAddressA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RoutingQueueOutboundEmailAddressA to import
-  * @param importFromId The id of the existing RoutingQueueOutboundEmailAddressA that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_queue_outbound_email_address#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RoutingQueueOutboundEmailAddressA that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue_outbound_email_address#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RoutingQueueOutboundEmailAddressA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class RoutingQueueOutboundEmailAddressA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_queue_outbound_email_address genesyscloud_routing_queue_outbound_email_address} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue_outbound_email_address genesyscloud_routing_queue_outbound_email_address} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class RoutingQueueOutboundEmailAddressA extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_routing_queue_outbound_email_address',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.71.1',
-        providerVersionConstraint: '1.71.1'
+        providerVersion: '1.72.2',
+        providerVersionConstraint: '1.72.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

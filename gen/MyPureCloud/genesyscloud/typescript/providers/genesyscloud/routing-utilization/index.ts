@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_utilization
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_utilization
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface RoutingUtilizationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_utilization#id RoutingUtilization#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_utilization#id RoutingUtilization#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,43 +17,43 @@ export interface RoutingUtilizationConfig extends cdktf.TerraformMetaArguments {
   /**
   * call block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_utilization#call RoutingUtilization#call}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_utilization#call RoutingUtilization#call}
   */
   readonly call?: RoutingUtilizationCall;
   /**
   * callback block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_utilization#callback RoutingUtilization#callback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_utilization#callback RoutingUtilization#callback}
   */
   readonly callback?: RoutingUtilizationCallback;
   /**
   * chat block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_utilization#chat RoutingUtilization#chat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_utilization#chat RoutingUtilization#chat}
   */
   readonly chat?: RoutingUtilizationChat;
   /**
   * email block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_utilization#email RoutingUtilization#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_utilization#email RoutingUtilization#email}
   */
   readonly email?: RoutingUtilizationEmail;
   /**
   * label_utilizations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_utilization#label_utilizations RoutingUtilization#label_utilizations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_utilization#label_utilizations RoutingUtilization#label_utilizations}
   */
   readonly labelUtilizations?: RoutingUtilizationLabelUtilizations[] | cdktf.IResolvable;
   /**
   * message block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_utilization#message RoutingUtilization#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_utilization#message RoutingUtilization#message}
   */
   readonly message?: RoutingUtilizationMessage;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_utilization#timeouts RoutingUtilization#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_utilization#timeouts RoutingUtilization#timeouts}
   */
   readonly timeouts?: RoutingUtilizationTimeouts;
 }
@@ -61,19 +61,19 @@ export interface RoutingUtilizationCall {
   /**
   * Block this media type when on a non-ACD conversation. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_utilization#include_non_acd RoutingUtilization#include_non_acd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_utilization#include_non_acd RoutingUtilization#include_non_acd}
   */
   readonly includeNonAcd?: boolean | cdktf.IResolvable;
   /**
   * Set of other media types that can interrupt this media type (call | callback | chat | email | message).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_utilization#interruptible_media_types RoutingUtilization#interruptible_media_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_utilization#interruptible_media_types RoutingUtilization#interruptible_media_types}
   */
   readonly interruptibleMediaTypes?: string[];
   /**
   * Maximum capacity of conversations of this media type. Value must be between 0 and 25.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_utilization#maximum_capacity RoutingUtilization#maximum_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_utilization#maximum_capacity RoutingUtilization#maximum_capacity}
   */
   readonly maximumCapacity: number;
 }
@@ -214,19 +214,19 @@ export interface RoutingUtilizationCallback {
   /**
   * Block this media type when on a non-ACD conversation. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_utilization#include_non_acd RoutingUtilization#include_non_acd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_utilization#include_non_acd RoutingUtilization#include_non_acd}
   */
   readonly includeNonAcd?: boolean | cdktf.IResolvable;
   /**
   * Set of other media types that can interrupt this media type (call | callback | chat | email | message).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_utilization#interruptible_media_types RoutingUtilization#interruptible_media_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_utilization#interruptible_media_types RoutingUtilization#interruptible_media_types}
   */
   readonly interruptibleMediaTypes?: string[];
   /**
   * Maximum capacity of conversations of this media type. Value must be between 0 and 25.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_utilization#maximum_capacity RoutingUtilization#maximum_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_utilization#maximum_capacity RoutingUtilization#maximum_capacity}
   */
   readonly maximumCapacity: number;
 }
@@ -367,19 +367,19 @@ export interface RoutingUtilizationChat {
   /**
   * Block this media type when on a non-ACD conversation. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_utilization#include_non_acd RoutingUtilization#include_non_acd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_utilization#include_non_acd RoutingUtilization#include_non_acd}
   */
   readonly includeNonAcd?: boolean | cdktf.IResolvable;
   /**
   * Set of other media types that can interrupt this media type (call | callback | chat | email | message).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_utilization#interruptible_media_types RoutingUtilization#interruptible_media_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_utilization#interruptible_media_types RoutingUtilization#interruptible_media_types}
   */
   readonly interruptibleMediaTypes?: string[];
   /**
   * Maximum capacity of conversations of this media type. Value must be between 0 and 25.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_utilization#maximum_capacity RoutingUtilization#maximum_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_utilization#maximum_capacity RoutingUtilization#maximum_capacity}
   */
   readonly maximumCapacity: number;
 }
@@ -520,19 +520,19 @@ export interface RoutingUtilizationEmail {
   /**
   * Block this media type when on a non-ACD conversation. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_utilization#include_non_acd RoutingUtilization#include_non_acd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_utilization#include_non_acd RoutingUtilization#include_non_acd}
   */
   readonly includeNonAcd?: boolean | cdktf.IResolvable;
   /**
   * Set of other media types that can interrupt this media type (call | callback | chat | email | message).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_utilization#interruptible_media_types RoutingUtilization#interruptible_media_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_utilization#interruptible_media_types RoutingUtilization#interruptible_media_types}
   */
   readonly interruptibleMediaTypes?: string[];
   /**
   * Maximum capacity of conversations of this media type. Value must be between 0 and 25.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_utilization#maximum_capacity RoutingUtilization#maximum_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_utilization#maximum_capacity RoutingUtilization#maximum_capacity}
   */
   readonly maximumCapacity: number;
 }
@@ -673,19 +673,19 @@ export interface RoutingUtilizationLabelUtilizations {
   /**
   * Set of other labels that can interrupt this label.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_utilization#interrupting_label_ids RoutingUtilization#interrupting_label_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_utilization#interrupting_label_ids RoutingUtilization#interrupting_label_ids}
   */
   readonly interruptingLabelIds?: string[];
   /**
   * Id of the label being configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_utilization#label_id RoutingUtilization#label_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_utilization#label_id RoutingUtilization#label_id}
   */
   readonly labelId: string;
   /**
   * Maximum capacity of conversations with this label. Value must be between 0 and 25.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_utilization#maximum_capacity RoutingUtilization#maximum_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_utilization#maximum_capacity RoutingUtilization#maximum_capacity}
   */
   readonly maximumCapacity: number;
 }
@@ -855,19 +855,19 @@ export interface RoutingUtilizationMessage {
   /**
   * Block this media type when on a non-ACD conversation. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_utilization#include_non_acd RoutingUtilization#include_non_acd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_utilization#include_non_acd RoutingUtilization#include_non_acd}
   */
   readonly includeNonAcd?: boolean | cdktf.IResolvable;
   /**
   * Set of other media types that can interrupt this media type (call | callback | chat | email | message).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_utilization#interruptible_media_types RoutingUtilization#interruptible_media_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_utilization#interruptible_media_types RoutingUtilization#interruptible_media_types}
   */
   readonly interruptibleMediaTypes?: string[];
   /**
   * Maximum capacity of conversations of this media type. Value must be between 0 and 25.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_utilization#maximum_capacity RoutingUtilization#maximum_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_utilization#maximum_capacity RoutingUtilization#maximum_capacity}
   */
   readonly maximumCapacity: number;
 }
@@ -1006,11 +1006,11 @@ export class RoutingUtilizationMessageOutputReference extends cdktf.ComplexObjec
 }
 export interface RoutingUtilizationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_utilization#read RoutingUtilization#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_utilization#read RoutingUtilization#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_utilization#update RoutingUtilization#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_utilization#update RoutingUtilization#update}
   */
   readonly update?: string;
 }
@@ -1133,7 +1133,7 @@ export class RoutingUtilizationTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_utilization genesyscloud_routing_utilization}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_utilization genesyscloud_routing_utilization}
 */
 export class RoutingUtilization extends cdktf.TerraformResource {
 
@@ -1149,7 +1149,7 @@ export class RoutingUtilization extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RoutingUtilization resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RoutingUtilization to import
-  * @param importFromId The id of the existing RoutingUtilization that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_utilization#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RoutingUtilization that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_utilization#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RoutingUtilization to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1161,7 +1161,7 @@ export class RoutingUtilization extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/routing_utilization genesyscloud_routing_utilization} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_utilization genesyscloud_routing_utilization} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1172,8 +1172,8 @@ export class RoutingUtilization extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_routing_utilization',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.71.1',
-        providerVersionConstraint: '1.71.1'
+        providerVersion: '1.72.2',
+        providerVersionConstraint: '1.72.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/auth_server_policy
+// https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/auth_server_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface AuthServerPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the Auth Server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/auth_server_policy#auth_server_id AuthServerPolicy#auth_server_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/auth_server_policy#auth_server_id AuthServerPolicy#auth_server_id}
   */
   readonly authServerId: string;
   /**
   * The clients to whitelist the policy for. `[ALL_CLIENTS]` is a special value that can be used to whitelist all clients, otherwise it is a list of client ids.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/auth_server_policy#client_whitelist AuthServerPolicy#client_whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/auth_server_policy#client_whitelist AuthServerPolicy#client_whitelist}
   */
   readonly clientWhitelist: string[];
   /**
   * The description of the Auth Server Policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/auth_server_policy#description AuthServerPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/auth_server_policy#description AuthServerPolicy#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/auth_server_policy#id AuthServerPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/auth_server_policy#id AuthServerPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,25 +35,25 @@ export interface AuthServerPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the Auth Server Policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/auth_server_policy#name AuthServerPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/auth_server_policy#name AuthServerPolicy#name}
   */
   readonly name: string;
   /**
   * Priority of the auth server policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/auth_server_policy#priority AuthServerPolicy#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/auth_server_policy#priority AuthServerPolicy#priority}
   */
   readonly priority: number;
   /**
   * Default to `ACTIVE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/auth_server_policy#status AuthServerPolicy#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/auth_server_policy#status AuthServerPolicy#status}
   */
   readonly status?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/auth_server_policy okta_auth_server_policy}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/auth_server_policy okta_auth_server_policy}
 */
 export class AuthServerPolicy extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class AuthServerPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AuthServerPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AuthServerPolicy to import
-  * @param importFromId The id of the existing AuthServerPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/auth_server_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AuthServerPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/auth_server_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AuthServerPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class AuthServerPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/auth_server_policy okta_auth_server_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/auth_server_policy okta_auth_server_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class AuthServerPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'okta_auth_server_policy',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.5.0',
-        providerVersionConstraint: '6.5.0'
+        providerVersion: '6.5.1',
+        providerVersionConstraint: '6.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

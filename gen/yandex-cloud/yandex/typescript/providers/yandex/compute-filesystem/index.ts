@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/compute_filesystem
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_filesystem
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface ComputeFilesystemConfig extends cdktf.TerraformMetaArguments {
   /**
   * Block size used for the filesystem, specified in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/compute_filesystem#block_size ComputeFilesystem#block_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_filesystem#block_size ComputeFilesystem#block_size}
   */
   readonly blockSize?: number;
   /**
   * Description of the filesystem.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/compute_filesystem#description ComputeFilesystem#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_filesystem#description ComputeFilesystem#description}
   */
   readonly description?: string;
   /**
@@ -24,13 +24,13 @@ export interface ComputeFilesystemConfig extends cdktf.TerraformMetaArguments {
   * 
   *  To get the filesystem ID, make a [FilesystemService.List] request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/compute_filesystem#filesystem_id ComputeFilesystem#filesystem_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_filesystem#filesystem_id ComputeFilesystem#filesystem_id}
   */
   readonly filesystemId?: string;
   /**
   * ID of the folder that the filesystem belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/compute_filesystem#folder_id ComputeFilesystem#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_filesystem#folder_id ComputeFilesystem#folder_id}
   */
   readonly folderId?: string;
   /**
@@ -38,7 +38,7 @@ export interface ComputeFilesystemConfig extends cdktf.TerraformMetaArguments {
   * 
   *  To get the filesystem ID, make a [FilesystemService.List] request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/compute_filesystem#id ComputeFilesystem#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_filesystem#id ComputeFilesystem#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -48,19 +48,19 @@ export interface ComputeFilesystemConfig extends cdktf.TerraformMetaArguments {
   * Filesystem labels as `key:value` pairs.
   *  For details about the concept, see [documentation](/docs/overview/concepts/services#labels).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/compute_filesystem#labels ComputeFilesystem#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_filesystem#labels ComputeFilesystem#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Name of the filesystem. The name is unique within the folder.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/compute_filesystem#name ComputeFilesystem#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_filesystem#name ComputeFilesystem#name}
   */
   readonly name?: string;
   /**
   * Size of the filesystem, specified in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/compute_filesystem#size ComputeFilesystem#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_filesystem#size ComputeFilesystem#size}
   */
   readonly size?: number;
   /**
@@ -68,7 +68,7 @@ export interface ComputeFilesystemConfig extends cdktf.TerraformMetaArguments {
   * 
   *  To get a list of available filesystem types, make a [yandex.cloud.compute.v1.DiskTypeService.List] request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/compute_filesystem#type ComputeFilesystem#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_filesystem#type ComputeFilesystem#type}
   */
   readonly type?: string;
   /**
@@ -76,13 +76,13 @@ export interface ComputeFilesystemConfig extends cdktf.TerraformMetaArguments {
   * 
   *  A filesystem can be attached only to instances residing in the same availability zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/compute_filesystem#zone ComputeFilesystem#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_filesystem#zone ComputeFilesystem#zone}
   */
   readonly zone?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/compute_filesystem#timeouts ComputeFilesystem#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_filesystem#timeouts ComputeFilesystem#timeouts}
   */
   readonly timeouts?: ComputeFilesystemTimeouts;
 }
@@ -90,25 +90,25 @@ export interface ComputeFilesystemTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/compute_filesystem#create ComputeFilesystem#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_filesystem#create ComputeFilesystem#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/compute_filesystem#delete ComputeFilesystem#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_filesystem#delete ComputeFilesystem#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/compute_filesystem#read ComputeFilesystem#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_filesystem#read ComputeFilesystem#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/compute_filesystem#update ComputeFilesystem#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_filesystem#update ComputeFilesystem#update}
   */
   readonly update?: string;
 }
@@ -289,7 +289,7 @@ export class ComputeFilesystemTimeoutsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/compute_filesystem yandex_compute_filesystem}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_filesystem yandex_compute_filesystem}
 */
 export class ComputeFilesystem extends cdktf.TerraformResource {
 
@@ -305,7 +305,7 @@ export class ComputeFilesystem extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ComputeFilesystem resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ComputeFilesystem to import
-  * @param importFromId The id of the existing ComputeFilesystem that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/compute_filesystem#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ComputeFilesystem that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_filesystem#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ComputeFilesystem to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -317,7 +317,7 @@ export class ComputeFilesystem extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/compute_filesystem yandex_compute_filesystem} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_filesystem yandex_compute_filesystem} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -328,8 +328,8 @@ export class ComputeFilesystem extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_compute_filesystem',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.172.0',
-        providerVersionConstraint: '0.172.0'
+        providerVersion: '0.173.0',
+        providerVersionConstraint: '0.173.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

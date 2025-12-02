@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.11/docs/resources/rotation
+// https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/rotation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,94 +8,94 @@ import * as cdktf from 'cdktf';
 
 export interface RotationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.11/docs/resources/rotation#color Rotation#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/rotation#color Rotation#color}
   */
   readonly color?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.11/docs/resources/rotation#coverage_gap_notification_interval Rotation#coverage_gap_notification_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/rotation#coverage_gap_notification_interval Rotation#coverage_gap_notification_interval}
   */
   readonly coverageGapNotificationInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.11/docs/resources/rotation#description Rotation#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/rotation#description Rotation#description}
   */
   readonly description?: string;
   /**
   * RFC3339 timestamp for when the schedule update should take effect. If not provided or if the time is in the past, the update will take effect immediately.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.11/docs/resources/rotation#effective_at Rotation#effective_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/rotation#effective_at Rotation#effective_at}
   */
   readonly effectiveAt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.11/docs/resources/rotation#enable_slack_channel_notifications Rotation#enable_slack_channel_notifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/rotation#enable_slack_channel_notifications Rotation#enable_slack_channel_notifications}
   */
   readonly enableSlackChannelNotifications?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.11/docs/resources/rotation#id Rotation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/rotation#id Rotation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.11/docs/resources/rotation#members Rotation#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/rotation#members Rotation#members}
   */
   readonly members?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.11/docs/resources/rotation#name Rotation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/rotation#name Rotation#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.11/docs/resources/rotation#prevent_shift_deletion Rotation#prevent_shift_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/rotation#prevent_shift_deletion Rotation#prevent_shift_deletion}
   */
   readonly preventShiftDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.11/docs/resources/rotation#schedule_id Rotation#schedule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/rotation#schedule_id Rotation#schedule_id}
   */
   readonly scheduleId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.11/docs/resources/rotation#slack_user_group_id Rotation#slack_user_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/rotation#slack_user_group_id Rotation#slack_user_group_id}
   */
   readonly slackUserGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.11/docs/resources/rotation#start_time Rotation#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/rotation#start_time Rotation#start_time}
   */
   readonly startTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.11/docs/resources/rotation#team_id Rotation#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/rotation#team_id Rotation#team_id}
   */
   readonly teamId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.11/docs/resources/rotation#time_zone Rotation#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/rotation#time_zone Rotation#time_zone}
   */
   readonly timeZone: string;
   /**
   * restrictions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.11/docs/resources/rotation#restrictions Rotation#restrictions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/rotation#restrictions Rotation#restrictions}
   */
   readonly restrictions?: RotationRestrictions[] | cdktf.IResolvable;
   /**
   * strategy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.11/docs/resources/rotation#strategy Rotation#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/rotation#strategy Rotation#strategy}
   */
   readonly strategy: RotationStrategy;
 }
 export interface RotationRestrictions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.11/docs/resources/rotation#end_day Rotation#end_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/rotation#end_day Rotation#end_day}
   */
   readonly endDay: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.11/docs/resources/rotation#end_time Rotation#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/rotation#end_time Rotation#end_time}
   */
   readonly endTime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.11/docs/resources/rotation#start_day Rotation#start_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/rotation#start_day Rotation#start_day}
   */
   readonly startDay: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.11/docs/resources/rotation#start_time Rotation#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/rotation#start_time Rotation#start_time}
   */
   readonly startTime: string;
 }
@@ -286,19 +286,19 @@ export class RotationRestrictionsList extends cdktf.ComplexList {
 }
 export interface RotationStrategy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.11/docs/resources/rotation#handoff_day Rotation#handoff_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/rotation#handoff_day Rotation#handoff_day}
   */
   readonly handoffDay?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.11/docs/resources/rotation#handoff_time Rotation#handoff_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/rotation#handoff_time Rotation#handoff_time}
   */
   readonly handoffTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.11/docs/resources/rotation#shift_duration Rotation#shift_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/rotation#shift_duration Rotation#shift_duration}
   */
   readonly shiftDuration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.11/docs/resources/rotation#type Rotation#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/rotation#type Rotation#type}
   */
   readonly type: string;
 }
@@ -466,7 +466,7 @@ export class RotationStrategyOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.11/docs/resources/rotation firehydrant_rotation}
+* Represents a {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/rotation firehydrant_rotation}
 */
 export class Rotation extends cdktf.TerraformResource {
 
@@ -482,7 +482,7 @@ export class Rotation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Rotation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Rotation to import
-  * @param importFromId The id of the existing Rotation that should be imported. Refer to the {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.11/docs/resources/rotation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Rotation that should be imported. Refer to the {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/rotation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Rotation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -494,7 +494,7 @@ export class Rotation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.11/docs/resources/rotation firehydrant_rotation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/resources/rotation firehydrant_rotation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -505,8 +505,8 @@ export class Rotation extends cdktf.TerraformResource {
       terraformResourceType: 'firehydrant_rotation',
       terraformGeneratorMetadata: {
         providerName: 'firehydrant',
-        providerVersion: '0.14.11',
-        providerVersionConstraint: '0.14.11'
+        providerVersion: '0.14.12',
+        providerVersionConstraint: '0.14.12'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

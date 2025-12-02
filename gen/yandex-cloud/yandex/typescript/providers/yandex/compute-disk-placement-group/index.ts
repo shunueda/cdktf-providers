@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/compute_disk_placement_group
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_disk_placement_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,27 +10,27 @@ export interface ComputeDiskPlacementGroupConfig extends cdktf.TerraformMetaArgu
   /**
   * Description of the placement group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/compute_disk_placement_group#description ComputeDiskPlacementGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_disk_placement_group#description ComputeDiskPlacementGroup#description}
   */
   readonly description?: string;
   /**
   * ID of the placement group to return.
   *  To get the placement group ID, use [DiskPlacementGroupService.List] request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/compute_disk_placement_group#disk_placement_group_id ComputeDiskPlacementGroup#disk_placement_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_disk_placement_group#disk_placement_group_id ComputeDiskPlacementGroup#disk_placement_group_id}
   */
   readonly diskPlacementGroupId?: string;
   /**
   * ID of the folder that the placement group belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/compute_disk_placement_group#folder_id ComputeDiskPlacementGroup#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_disk_placement_group#folder_id ComputeDiskPlacementGroup#folder_id}
   */
   readonly folderId?: string;
   /**
   * ID of the placement group to return.
   *  To get the placement group ID, use [DiskPlacementGroupService.List] request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/compute_disk_placement_group#id ComputeDiskPlacementGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_disk_placement_group#id ComputeDiskPlacementGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -39,26 +39,26 @@ export interface ComputeDiskPlacementGroupConfig extends cdktf.TerraformMetaArgu
   /**
   * Resource labels as `key:value` pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/compute_disk_placement_group#labels ComputeDiskPlacementGroup#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_disk_placement_group#labels ComputeDiskPlacementGroup#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Name of the placement group.
   *  The name is unique within the folder.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/compute_disk_placement_group#name ComputeDiskPlacementGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_disk_placement_group#name ComputeDiskPlacementGroup#name}
   */
   readonly name?: string;
   /**
   * ID of the availability zone where the placement group resides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/compute_disk_placement_group#zone ComputeDiskPlacementGroup#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_disk_placement_group#zone ComputeDiskPlacementGroup#zone}
   */
   readonly zone?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/compute_disk_placement_group#timeouts ComputeDiskPlacementGroup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_disk_placement_group#timeouts ComputeDiskPlacementGroup#timeouts}
   */
   readonly timeouts?: ComputeDiskPlacementGroupTimeouts;
 }
@@ -66,25 +66,25 @@ export interface ComputeDiskPlacementGroupTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/compute_disk_placement_group#create ComputeDiskPlacementGroup#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_disk_placement_group#create ComputeDiskPlacementGroup#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/compute_disk_placement_group#delete ComputeDiskPlacementGroup#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_disk_placement_group#delete ComputeDiskPlacementGroup#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/compute_disk_placement_group#read ComputeDiskPlacementGroup#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_disk_placement_group#read ComputeDiskPlacementGroup#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/compute_disk_placement_group#update ComputeDiskPlacementGroup#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_disk_placement_group#update ComputeDiskPlacementGroup#update}
   */
   readonly update?: string;
 }
@@ -265,7 +265,7 @@ export class ComputeDiskPlacementGroupTimeoutsOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/compute_disk_placement_group yandex_compute_disk_placement_group}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_disk_placement_group yandex_compute_disk_placement_group}
 */
 export class ComputeDiskPlacementGroup extends cdktf.TerraformResource {
 
@@ -281,7 +281,7 @@ export class ComputeDiskPlacementGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ComputeDiskPlacementGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ComputeDiskPlacementGroup to import
-  * @param importFromId The id of the existing ComputeDiskPlacementGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/compute_disk_placement_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ComputeDiskPlacementGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_disk_placement_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ComputeDiskPlacementGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -293,7 +293,7 @@ export class ComputeDiskPlacementGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/compute_disk_placement_group yandex_compute_disk_placement_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_disk_placement_group yandex_compute_disk_placement_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -304,8 +304,8 @@ export class ComputeDiskPlacementGroup extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_compute_disk_placement_group',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.172.0',
-        providerVersionConstraint: '0.172.0'
+        providerVersion: '0.173.0',
+        providerVersionConstraint: '0.173.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface KnowledgeDocumentVariationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#id KnowledgeDocumentVariation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#id KnowledgeDocumentVariation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface KnowledgeDocumentVariationConfig extends cdktf.TerraformMetaArg
   /**
   * Knowledge base id of the label
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#knowledge_base_id KnowledgeDocumentVariation#knowledge_base_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#knowledge_base_id KnowledgeDocumentVariation#knowledge_base_id}
   */
   readonly knowledgeBaseId: string;
   /**
   * Knowledge document id of the label
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#knowledge_document_id KnowledgeDocumentVariation#knowledge_document_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#knowledge_document_id KnowledgeDocumentVariation#knowledge_document_id}
   */
   readonly knowledgeDocumentId: string;
   /**
   * If true, the document will be published with the new variation. If false, the updated document will be in a draft state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#published KnowledgeDocumentVariation#published}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#published KnowledgeDocumentVariation#published}
   */
   readonly published?: boolean | cdktf.IResolvable;
   /**
   * knowledge_document_variation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#knowledge_document_variation KnowledgeDocumentVariation#knowledge_document_variation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#knowledge_document_variation KnowledgeDocumentVariation#knowledge_document_variation}
   */
   readonly knowledgeDocumentVariation: KnowledgeDocumentVariationKnowledgeDocumentVariation;
 }
@@ -118,19 +118,19 @@ export interface KnowledgeDocumentVariationKnowledgeDocumentVariationBodyBlocksI
   /**
   * The align type for the property. Valid values: Center, Left, Right, Justify
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#align KnowledgeDocumentVariation#align}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#align KnowledgeDocumentVariation#align}
   */
   readonly align?: string;
   /**
   * The background color for the property. The valid values in hex color code representation. For example black color - #000000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#background_color KnowledgeDocumentVariation#background_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#background_color KnowledgeDocumentVariation#background_color}
   */
   readonly backgroundColor?: string;
   /**
   * The indentation for the property. The valid values in 'em'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#indentation KnowledgeDocumentVariation#indentation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#indentation KnowledgeDocumentVariation#indentation}
   */
   readonly indentation?: number;
 }
@@ -306,19 +306,19 @@ export interface KnowledgeDocumentVariationKnowledgeDocumentVariationBodyBlocksI
   /**
   * The URL of the page that the hyperlink goes to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#hyperlink KnowledgeDocumentVariation#hyperlink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#hyperlink KnowledgeDocumentVariation#hyperlink}
   */
   readonly hyperlink?: string;
   /**
   * The URL for the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#url KnowledgeDocumentVariation#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#url KnowledgeDocumentVariation#url}
   */
   readonly url: string;
   /**
   * properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#properties KnowledgeDocumentVariation#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#properties KnowledgeDocumentVariation#properties}
   */
   readonly properties?: KnowledgeDocumentVariationKnowledgeDocumentVariationBodyBlocksImageProperties[] | cdktf.IResolvable;
 }
@@ -459,19 +459,19 @@ export interface KnowledgeDocumentVariationKnowledgeDocumentVariationBodyBlocksL
   /**
   * The align type for the property. Valid values: Center, Left, Right, Justify
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#align KnowledgeDocumentVariation#align}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#align KnowledgeDocumentVariation#align}
   */
   readonly align?: string;
   /**
   * The background color for the property. The valid values in hex color code representation. For example black color - #000000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#background_color KnowledgeDocumentVariation#background_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#background_color KnowledgeDocumentVariation#background_color}
   */
   readonly backgroundColor?: string;
   /**
   * The indentation for the property. The valid values in 'em'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#indentation KnowledgeDocumentVariation#indentation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#indentation KnowledgeDocumentVariation#indentation}
   */
   readonly indentation?: number;
 }
@@ -647,19 +647,19 @@ export interface KnowledgeDocumentVariationKnowledgeDocumentVariationBodyBlocksL
   /**
   * The URL of the page that the hyperlink goes to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#hyperlink KnowledgeDocumentVariation#hyperlink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#hyperlink KnowledgeDocumentVariation#hyperlink}
   */
   readonly hyperlink?: string;
   /**
   * The URL for the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#url KnowledgeDocumentVariation#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#url KnowledgeDocumentVariation#url}
   */
   readonly url: string;
   /**
   * properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#properties KnowledgeDocumentVariation#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#properties KnowledgeDocumentVariation#properties}
   */
   readonly properties?: KnowledgeDocumentVariationKnowledgeDocumentVariationBodyBlocksListBlocksBlocksImageProperties[] | cdktf.IResolvable;
 }
@@ -800,19 +800,19 @@ export interface KnowledgeDocumentVariationKnowledgeDocumentVariationBodyBlocksL
   /**
   * The background color for the text. The valid values in hex color code representation. For example black color - #000000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#background_color KnowledgeDocumentVariation#background_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#background_color KnowledgeDocumentVariation#background_color}
   */
   readonly backgroundColor?: string;
   /**
   * The font size for the text. The valid values in 'em'.Valid values: XxSmall, XSmall, Small, Medium, Large, XLarge, XxLarge, XxxLarge
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#font_size KnowledgeDocumentVariation#font_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#font_size KnowledgeDocumentVariation#font_size}
   */
   readonly fontSize?: string;
   /**
   * The text color for the text. The valid values in hex color code representation. For example black color - #000000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#text_color KnowledgeDocumentVariation#text_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#text_color KnowledgeDocumentVariation#text_color}
   */
   readonly textColor?: string;
 }
@@ -988,25 +988,25 @@ export interface KnowledgeDocumentVariationKnowledgeDocumentVariationBodyBlocksL
   /**
   * The URL of the page that the hyperlink goes to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#hyperlink KnowledgeDocumentVariation#hyperlink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#hyperlink KnowledgeDocumentVariation#hyperlink}
   */
   readonly hyperlink?: string;
   /**
   * The unique list of marks (whether it is bold and/or underlined etc.) for the text. Valid values: Bold | Italic | Underline
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#marks KnowledgeDocumentVariation#marks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#marks KnowledgeDocumentVariation#marks}
   */
   readonly marks?: string[];
   /**
   * Text
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#text KnowledgeDocumentVariation#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#text KnowledgeDocumentVariation#text}
   */
   readonly text: string;
   /**
   * properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#properties KnowledgeDocumentVariation#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#properties KnowledgeDocumentVariation#properties}
   */
   readonly properties?: KnowledgeDocumentVariationKnowledgeDocumentVariationBodyBlocksListBlocksBlocksTextProperties[] | cdktf.IResolvable;
 }
@@ -1176,19 +1176,19 @@ export interface KnowledgeDocumentVariationKnowledgeDocumentVariationBodyBlocksL
   /**
   * The align type for the property. Valid values: Center, Left, Right, Justify
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#align KnowledgeDocumentVariation#align}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#align KnowledgeDocumentVariation#align}
   */
   readonly align?: string;
   /**
   * The background color for the property. The valid values in hex color code representation. For example black color - #000000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#background_color KnowledgeDocumentVariation#background_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#background_color KnowledgeDocumentVariation#background_color}
   */
   readonly backgroundColor?: string;
   /**
   * The indentation for the property. The valid values in 'em'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#indentation KnowledgeDocumentVariation#indentation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#indentation KnowledgeDocumentVariation#indentation}
   */
   readonly indentation?: number;
 }
@@ -1364,13 +1364,13 @@ export interface KnowledgeDocumentVariationKnowledgeDocumentVariationBodyBlocksL
   /**
   * The URL for the video.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#url KnowledgeDocumentVariation#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#url KnowledgeDocumentVariation#url}
   */
   readonly url: string;
   /**
   * properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#properties KnowledgeDocumentVariation#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#properties KnowledgeDocumentVariation#properties}
   */
   readonly properties?: KnowledgeDocumentVariationKnowledgeDocumentVariationBodyBlocksListBlocksBlocksVideoProperties[] | cdktf.IResolvable;
 }
@@ -1482,25 +1482,25 @@ export interface KnowledgeDocumentVariationKnowledgeDocumentVariationBodyBlocksL
   /**
   * The type of the content block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#type KnowledgeDocumentVariation#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#type KnowledgeDocumentVariation#type}
   */
   readonly type: string;
   /**
   * image block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#image KnowledgeDocumentVariation#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#image KnowledgeDocumentVariation#image}
   */
   readonly image?: KnowledgeDocumentVariationKnowledgeDocumentVariationBodyBlocksListBlocksBlocksImage;
   /**
   * text block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#text KnowledgeDocumentVariation#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#text KnowledgeDocumentVariation#text}
   */
   readonly text?: KnowledgeDocumentVariationKnowledgeDocumentVariationBodyBlocksListBlocksBlocksText;
   /**
   * video block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#video KnowledgeDocumentVariation#video}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#video KnowledgeDocumentVariation#video}
   */
   readonly video?: KnowledgeDocumentVariationKnowledgeDocumentVariationBodyBlocksListBlocksBlocksVideo;
 }
@@ -1702,49 +1702,49 @@ export interface KnowledgeDocumentVariationKnowledgeDocumentVariationBodyBlocksL
   /**
   * The align type for the list item.Valid values: Center, Left, Right, Justify
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#align KnowledgeDocumentVariation#align}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#align KnowledgeDocumentVariation#align}
   */
   readonly align?: string;
   /**
   * The background color for the list item. The valid values in hex color code representation. For example black color - #000000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#background_color KnowledgeDocumentVariation#background_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#background_color KnowledgeDocumentVariation#background_color}
   */
   readonly backgroundColor?: string;
   /**
   * The font size for the list item. The valid values in 'em'.Valid values: XxSmall, XSmall, Small, Medium, Large, XLarge, XxLarge, XxxLarge
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#font_size KnowledgeDocumentVariation#font_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#font_size KnowledgeDocumentVariation#font_size}
   */
   readonly fontSize?: string;
   /**
   * The font type for the list item. Valid values: Paragraph, Heading1, Heading2, Heading3, Heading4, Heading5, Heading6, Preformatted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#font_type KnowledgeDocumentVariation#font_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#font_type KnowledgeDocumentVariation#font_type}
   */
   readonly fontType?: string;
   /**
   * The indentation property for the list item. The valid values in 'em'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#indentation KnowledgeDocumentVariation#indentation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#indentation KnowledgeDocumentVariation#indentation}
   */
   readonly indentation?: number;
   /**
   * The type of icon for the ordered list.Valid values: Number, LowerAlpha, LowerGreek, LowerRoman, UpperAlpha, UpperRoman, None
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#ordered_type KnowledgeDocumentVariation#ordered_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#ordered_type KnowledgeDocumentVariation#ordered_type}
   */
   readonly orderedType?: string;
   /**
   * The text color for the list item. The valid values in hex color code representation. For example black color - #000000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#text_color KnowledgeDocumentVariation#text_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#text_color KnowledgeDocumentVariation#text_color}
   */
   readonly textColor?: string;
   /**
   * The type of icon for the unordered list.Valid values: Normal, Square, Circle, None
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#unordered_type KnowledgeDocumentVariation#unordered_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#unordered_type KnowledgeDocumentVariation#unordered_type}
   */
   readonly unorderedType?: string;
 }
@@ -2065,19 +2065,19 @@ export interface KnowledgeDocumentVariationKnowledgeDocumentVariationBodyBlocksL
   /**
   * The type of the list block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#type KnowledgeDocumentVariation#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#type KnowledgeDocumentVariation#type}
   */
   readonly type: string;
   /**
   * blocks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#blocks KnowledgeDocumentVariation#blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#blocks KnowledgeDocumentVariation#blocks}
   */
   readonly blocks: KnowledgeDocumentVariationKnowledgeDocumentVariationBodyBlocksListBlocksBlocks[] | cdktf.IResolvable;
   /**
   * properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#properties KnowledgeDocumentVariation#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#properties KnowledgeDocumentVariation#properties}
   */
   readonly properties?: KnowledgeDocumentVariationKnowledgeDocumentVariationBodyBlocksListBlocksProperties[] | cdktf.IResolvable;
 }
@@ -2247,13 +2247,13 @@ export interface KnowledgeDocumentVariationKnowledgeDocumentVariationBodyBlocksL
   /**
   * The type of icon for the ordered list.Valid values: Number, LowerAlpha, LowerGreek, LowerRoman, UpperAlpha, UpperRoman, None
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#ordered_type KnowledgeDocumentVariation#ordered_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#ordered_type KnowledgeDocumentVariation#ordered_type}
   */
   readonly orderedType?: string;
   /**
   * The type of icon for the unordered list.Valid values: Normal, Square, Circle, None
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#unordered_type KnowledgeDocumentVariation#unordered_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#unordered_type KnowledgeDocumentVariation#unordered_type}
   */
   readonly unorderedType?: string;
 }
@@ -2400,13 +2400,13 @@ export interface KnowledgeDocumentVariationKnowledgeDocumentVariationBodyBlocksL
   /**
   * blocks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#blocks KnowledgeDocumentVariation#blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#blocks KnowledgeDocumentVariation#blocks}
   */
   readonly blocks?: KnowledgeDocumentVariationKnowledgeDocumentVariationBodyBlocksListBlocks[] | cdktf.IResolvable;
   /**
   * properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#properties KnowledgeDocumentVariation#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#properties KnowledgeDocumentVariation#properties}
   */
   readonly properties?: KnowledgeDocumentVariationKnowledgeDocumentVariationBodyBlocksListProperties[] | cdktf.IResolvable;
 }
@@ -2521,19 +2521,19 @@ export interface KnowledgeDocumentVariationKnowledgeDocumentVariationBodyBlocksP
   /**
   * The align type for the property. Valid values: Center, Left, Right, Justify
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#align KnowledgeDocumentVariation#align}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#align KnowledgeDocumentVariation#align}
   */
   readonly align?: string;
   /**
   * The background color for the property. The valid values in hex color code representation. For example black color - #000000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#background_color KnowledgeDocumentVariation#background_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#background_color KnowledgeDocumentVariation#background_color}
   */
   readonly backgroundColor?: string;
   /**
   * The indentation for the property. The valid values in 'em'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#indentation KnowledgeDocumentVariation#indentation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#indentation KnowledgeDocumentVariation#indentation}
   */
   readonly indentation?: number;
 }
@@ -2709,19 +2709,19 @@ export interface KnowledgeDocumentVariationKnowledgeDocumentVariationBodyBlocksP
   /**
   * The URL of the page that the hyperlink goes to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#hyperlink KnowledgeDocumentVariation#hyperlink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#hyperlink KnowledgeDocumentVariation#hyperlink}
   */
   readonly hyperlink?: string;
   /**
   * The URL for the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#url KnowledgeDocumentVariation#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#url KnowledgeDocumentVariation#url}
   */
   readonly url: string;
   /**
   * properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#properties KnowledgeDocumentVariation#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#properties KnowledgeDocumentVariation#properties}
   */
   readonly properties?: KnowledgeDocumentVariationKnowledgeDocumentVariationBodyBlocksParagraphBlocksImageProperties[] | cdktf.IResolvable;
 }
@@ -2862,19 +2862,19 @@ export interface KnowledgeDocumentVariationKnowledgeDocumentVariationBodyBlocksP
   /**
   * The background color for the text. The valid values in hex color code representation. For example black color - #000000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#background_color KnowledgeDocumentVariation#background_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#background_color KnowledgeDocumentVariation#background_color}
   */
   readonly backgroundColor?: string;
   /**
   * The font size for the text. The valid values in 'em'.Valid values: XxSmall, XSmall, Small, Medium, Large, XLarge, XxLarge, XxxLarge
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#font_size KnowledgeDocumentVariation#font_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#font_size KnowledgeDocumentVariation#font_size}
   */
   readonly fontSize?: string;
   /**
   * The text color for the text. The valid values in hex color code representation. For example black color - #000000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#text_color KnowledgeDocumentVariation#text_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#text_color KnowledgeDocumentVariation#text_color}
   */
   readonly textColor?: string;
 }
@@ -3050,25 +3050,25 @@ export interface KnowledgeDocumentVariationKnowledgeDocumentVariationBodyBlocksP
   /**
   * The URL of the page that the hyperlink goes to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#hyperlink KnowledgeDocumentVariation#hyperlink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#hyperlink KnowledgeDocumentVariation#hyperlink}
   */
   readonly hyperlink?: string;
   /**
   * The unique list of marks (whether it is bold and/or underlined etc.) for the text. Valid values: Bold | Italic | Underline
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#marks KnowledgeDocumentVariation#marks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#marks KnowledgeDocumentVariation#marks}
   */
   readonly marks?: string[];
   /**
   * Text
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#text KnowledgeDocumentVariation#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#text KnowledgeDocumentVariation#text}
   */
   readonly text: string;
   /**
   * properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#properties KnowledgeDocumentVariation#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#properties KnowledgeDocumentVariation#properties}
   */
   readonly properties?: KnowledgeDocumentVariationKnowledgeDocumentVariationBodyBlocksParagraphBlocksTextProperties[] | cdktf.IResolvable;
 }
@@ -3238,19 +3238,19 @@ export interface KnowledgeDocumentVariationKnowledgeDocumentVariationBodyBlocksP
   /**
   * The align type for the property. Valid values: Center, Left, Right, Justify
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#align KnowledgeDocumentVariation#align}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#align KnowledgeDocumentVariation#align}
   */
   readonly align?: string;
   /**
   * The background color for the property. The valid values in hex color code representation. For example black color - #000000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#background_color KnowledgeDocumentVariation#background_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#background_color KnowledgeDocumentVariation#background_color}
   */
   readonly backgroundColor?: string;
   /**
   * The indentation for the property. The valid values in 'em'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#indentation KnowledgeDocumentVariation#indentation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#indentation KnowledgeDocumentVariation#indentation}
   */
   readonly indentation?: number;
 }
@@ -3426,13 +3426,13 @@ export interface KnowledgeDocumentVariationKnowledgeDocumentVariationBodyBlocksP
   /**
   * The URL for the video.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#url KnowledgeDocumentVariation#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#url KnowledgeDocumentVariation#url}
   */
   readonly url: string;
   /**
   * properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#properties KnowledgeDocumentVariation#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#properties KnowledgeDocumentVariation#properties}
   */
   readonly properties?: KnowledgeDocumentVariationKnowledgeDocumentVariationBodyBlocksParagraphBlocksVideoProperties[] | cdktf.IResolvable;
 }
@@ -3544,25 +3544,25 @@ export interface KnowledgeDocumentVariationKnowledgeDocumentVariationBodyBlocksP
   /**
   * The type of the content block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#type KnowledgeDocumentVariation#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#type KnowledgeDocumentVariation#type}
   */
   readonly type: string;
   /**
   * image block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#image KnowledgeDocumentVariation#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#image KnowledgeDocumentVariation#image}
   */
   readonly image?: KnowledgeDocumentVariationKnowledgeDocumentVariationBodyBlocksParagraphBlocksImage;
   /**
   * text block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#text KnowledgeDocumentVariation#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#text KnowledgeDocumentVariation#text}
   */
   readonly text?: KnowledgeDocumentVariationKnowledgeDocumentVariationBodyBlocksParagraphBlocksText;
   /**
   * video block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#video KnowledgeDocumentVariation#video}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#video KnowledgeDocumentVariation#video}
   */
   readonly video?: KnowledgeDocumentVariationKnowledgeDocumentVariationBodyBlocksParagraphBlocksVideo;
 }
@@ -3764,37 +3764,37 @@ export interface KnowledgeDocumentVariationKnowledgeDocumentVariationBodyBlocksP
   /**
   * The align type for the paragraph.Valid values: Center, Left, Right, Justify
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#align KnowledgeDocumentVariation#align}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#align KnowledgeDocumentVariation#align}
   */
   readonly align?: string;
   /**
   * The background color for the paragraph. The valid values in hex color code representation. For example black color - #000000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#background_color KnowledgeDocumentVariation#background_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#background_color KnowledgeDocumentVariation#background_color}
   */
   readonly backgroundColor?: string;
   /**
   * The font size for the paragraph. The valid values in 'em'.Valid values: XxSmall, XSmall, Small, Medium, Large, XLarge, XxLarge, XxxLarge
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#font_size KnowledgeDocumentVariation#font_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#font_size KnowledgeDocumentVariation#font_size}
   */
   readonly fontSize?: string;
   /**
   * The font type for the paragraph.Valid values: Paragraph, Heading1, Heading2, Heading3, Heading4, Heading5, Heading6, Preformatted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#font_type KnowledgeDocumentVariation#font_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#font_type KnowledgeDocumentVariation#font_type}
   */
   readonly fontType?: string;
   /**
   * The indentation color for the paragraph. The valid values in 'em'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#indentation KnowledgeDocumentVariation#indentation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#indentation KnowledgeDocumentVariation#indentation}
   */
   readonly indentation?: number;
   /**
   * The text color for the paragraph. The valid values in hex color code representation. For example black color - #000000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#text_color KnowledgeDocumentVariation#text_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#text_color KnowledgeDocumentVariation#text_color}
   */
   readonly textColor?: string;
 }
@@ -4057,13 +4057,13 @@ export interface KnowledgeDocumentVariationKnowledgeDocumentVariationBodyBlocksP
   /**
   * blocks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#blocks KnowledgeDocumentVariation#blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#blocks KnowledgeDocumentVariation#blocks}
   */
   readonly blocks?: KnowledgeDocumentVariationKnowledgeDocumentVariationBodyBlocksParagraphBlocks[] | cdktf.IResolvable;
   /**
   * properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#properties KnowledgeDocumentVariation#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#properties KnowledgeDocumentVariation#properties}
   */
   readonly properties?: KnowledgeDocumentVariationKnowledgeDocumentVariationBodyBlocksParagraphProperties[] | cdktf.IResolvable;
 }
@@ -4178,19 +4178,19 @@ export interface KnowledgeDocumentVariationKnowledgeDocumentVariationBodyBlocksV
   /**
   * The align type for the property. Valid values: Center, Left, Right, Justify
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#align KnowledgeDocumentVariation#align}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#align KnowledgeDocumentVariation#align}
   */
   readonly align?: string;
   /**
   * The background color for the property. The valid values in hex color code representation. For example black color - #000000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#background_color KnowledgeDocumentVariation#background_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#background_color KnowledgeDocumentVariation#background_color}
   */
   readonly backgroundColor?: string;
   /**
   * The indentation for the property. The valid values in 'em'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#indentation KnowledgeDocumentVariation#indentation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#indentation KnowledgeDocumentVariation#indentation}
   */
   readonly indentation?: number;
 }
@@ -4366,13 +4366,13 @@ export interface KnowledgeDocumentVariationKnowledgeDocumentVariationBodyBlocksV
   /**
   * The URL for the video.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#url KnowledgeDocumentVariation#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#url KnowledgeDocumentVariation#url}
   */
   readonly url: string;
   /**
   * properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#properties KnowledgeDocumentVariation#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#properties KnowledgeDocumentVariation#properties}
   */
   readonly properties?: KnowledgeDocumentVariationKnowledgeDocumentVariationBodyBlocksVideoProperties[] | cdktf.IResolvable;
 }
@@ -4484,31 +4484,31 @@ export interface KnowledgeDocumentVariationKnowledgeDocumentVariationBodyBlocks 
   /**
   * The type of the block for the body. This determines which body block object (paragraph, list, video or image) would have a value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#type KnowledgeDocumentVariation#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#type KnowledgeDocumentVariation#type}
   */
   readonly type: string;
   /**
   * image block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#image KnowledgeDocumentVariation#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#image KnowledgeDocumentVariation#image}
   */
   readonly image?: KnowledgeDocumentVariationKnowledgeDocumentVariationBodyBlocksImage;
   /**
   * list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#list KnowledgeDocumentVariation#list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#list KnowledgeDocumentVariation#list}
   */
   readonly list?: KnowledgeDocumentVariationKnowledgeDocumentVariationBodyBlocksListStruct;
   /**
   * paragraph block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#paragraph KnowledgeDocumentVariation#paragraph}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#paragraph KnowledgeDocumentVariation#paragraph}
   */
   readonly paragraph?: KnowledgeDocumentVariationKnowledgeDocumentVariationBodyBlocksParagraph;
   /**
   * video block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#video KnowledgeDocumentVariation#video}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#video KnowledgeDocumentVariation#video}
   */
   readonly video?: KnowledgeDocumentVariationKnowledgeDocumentVariationBodyBlocksVideo;
 }
@@ -4739,7 +4739,7 @@ export interface KnowledgeDocumentVariationKnowledgeDocumentVariationBody {
   /**
   * blocks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#blocks KnowledgeDocumentVariation#blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#blocks KnowledgeDocumentVariation#blocks}
   */
   readonly blocks: KnowledgeDocumentVariationKnowledgeDocumentVariationBodyBlocks[] | cdktf.IResolvable;
 }
@@ -4822,7 +4822,7 @@ export interface KnowledgeDocumentVariationKnowledgeDocumentVariationContextsCon
   /**
   * The globally unique identifier for the knowledge context
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#context_id KnowledgeDocumentVariation#context_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#context_id KnowledgeDocumentVariation#context_id}
   */
   readonly contextId: string;
 }
@@ -4937,7 +4937,7 @@ export interface KnowledgeDocumentVariationKnowledgeDocumentVariationContextsVal
   /**
   * The globally unique identifier for the knowledge context value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#value_id KnowledgeDocumentVariation#value_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#value_id KnowledgeDocumentVariation#value_id}
   */
   readonly valueId: string;
 }
@@ -5052,13 +5052,13 @@ export interface KnowledgeDocumentVariationKnowledgeDocumentVariationContexts {
   /**
   * context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#context KnowledgeDocumentVariation#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#context KnowledgeDocumentVariation#context}
   */
   readonly context: KnowledgeDocumentVariationKnowledgeDocumentVariationContextsContext[] | cdktf.IResolvable;
   /**
   * values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#values KnowledgeDocumentVariation#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#values KnowledgeDocumentVariation#values}
   */
   readonly values?: KnowledgeDocumentVariationKnowledgeDocumentVariationContextsValues[] | cdktf.IResolvable;
 }
@@ -5202,19 +5202,19 @@ export interface KnowledgeDocumentVariationKnowledgeDocumentVariation {
   /**
   * The name of the variation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#name KnowledgeDocumentVariation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#name KnowledgeDocumentVariation#name}
   */
   readonly name?: string;
   /**
   * body block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#body KnowledgeDocumentVariation#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#body KnowledgeDocumentVariation#body}
   */
   readonly body?: KnowledgeDocumentVariationKnowledgeDocumentVariationBody;
   /**
   * contexts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#contexts KnowledgeDocumentVariation#contexts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#contexts KnowledgeDocumentVariation#contexts}
   */
   readonly contexts?: KnowledgeDocumentVariationKnowledgeDocumentVariationContexts[] | cdktf.IResolvable;
 }
@@ -5362,7 +5362,7 @@ export class KnowledgeDocumentVariationKnowledgeDocumentVariationOutputReference
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation genesyscloud_knowledge_document_variation}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation genesyscloud_knowledge_document_variation}
 */
 export class KnowledgeDocumentVariation extends cdktf.TerraformResource {
 
@@ -5378,7 +5378,7 @@ export class KnowledgeDocumentVariation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KnowledgeDocumentVariation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KnowledgeDocumentVariation to import
-  * @param importFromId The id of the existing KnowledgeDocumentVariation that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KnowledgeDocumentVariation that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KnowledgeDocumentVariation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5390,7 +5390,7 @@ export class KnowledgeDocumentVariation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_document_variation genesyscloud_knowledge_document_variation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document_variation genesyscloud_knowledge_document_variation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5401,8 +5401,8 @@ export class KnowledgeDocumentVariation extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_knowledge_document_variation',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.71.1',
-        providerVersionConstraint: '1.71.1'
+        providerVersion: '1.72.2',
+        providerVersionConstraint: '1.72.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

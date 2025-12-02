@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/enterprise
+// https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/enterprise
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,117 +10,117 @@ export interface DataZedcloudEnterpriseConfig extends cdktf.TerraformMetaArgumen
   /**
   * Enterprise settings for API Token expiry to be set in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/enterprise#api_token_expiry_in_seconds DataZedcloudEnterprise#api_token_expiry_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/enterprise#api_token_expiry_in_seconds DataZedcloudEnterprise#api_token_expiry_in_seconds}
   */
   readonly apiTokenExpiryInSeconds?: number;
   /**
   * enterprise level key-value pairs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/enterprise#attributes DataZedcloudEnterprise#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/enterprise#attributes DataZedcloudEnterprise#attributes}
   */
   readonly attributes?: { [key: string]: string };
   /**
   * Azure subscription ID tied to this enterprise
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/enterprise#azure_sub_id DataZedcloudEnterprise#azure_sub_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/enterprise#azure_sub_id DataZedcloudEnterprise#azure_sub_id}
   */
   readonly azureSubId?: string;
   /**
   * zedcontrol host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/enterprise#controller_host_url DataZedcloudEnterprise#controller_host_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/enterprise#controller_host_url DataZedcloudEnterprise#controller_host_url}
   */
   readonly controllerHostUrl?: string;
   /**
   * Detailed description of the enterprise
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/enterprise#description DataZedcloudEnterprise#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/enterprise#description DataZedcloudEnterprise#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/enterprise#hubspot_id DataZedcloudEnterprise#hubspot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/enterprise#hubspot_id DataZedcloudEnterprise#hubspot_id}
   */
   readonly hubspotId?: string;
   /**
   * Perform authorization using parent enterprise
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/enterprise#inherit_auth_from_parent DataZedcloudEnterprise#inherit_auth_from_parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/enterprise#inherit_auth_from_parent DataZedcloudEnterprise#inherit_auth_from_parent}
   */
   readonly inheritAuthFromParent?: boolean | cdktf.IResolvable;
   /**
   * User defined name of the enterprise. Once enterprise is created, name can’t be changed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/enterprise#name DataZedcloudEnterprise#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/enterprise#name DataZedcloudEnterprise#name}
   */
   readonly name: string;
   /**
   * Parent enterprise ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/enterprise#parent_entp_id DataZedcloudEnterprise#parent_entp_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/enterprise#parent_entp_id DataZedcloudEnterprise#parent_entp_id}
   */
   readonly parentEntpId?: string;
   /**
   * List of realms associated with the enterprise
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/enterprise#realms DataZedcloudEnterprise#realms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/enterprise#realms DataZedcloudEnterprise#realms}
   */
   readonly realms?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/enterprise#sfdc_id DataZedcloudEnterprise#sfdc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/enterprise#sfdc_id DataZedcloudEnterprise#sfdc_id}
   */
   readonly sfdcId?: string;
   /**
   * Enterprise state
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/enterprise#state DataZedcloudEnterprise#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/enterprise#state DataZedcloudEnterprise#state}
   */
   readonly state?: string;
   /**
   * User defined title for the enterprise. Title can be changed any time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/enterprise#title DataZedcloudEnterprise#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/enterprise#title DataZedcloudEnterprise#title}
   */
   readonly title: string;
   /**
   * Enterprise type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/enterprise#type DataZedcloudEnterprise#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/enterprise#type DataZedcloudEnterprise#type}
   */
   readonly type?: string;
   /**
   * child_enterprises block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/enterprise#child_enterprises DataZedcloudEnterprise#child_enterprises}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/enterprise#child_enterprises DataZedcloudEnterprise#child_enterprises}
   */
   readonly childEnterprises?: DataZedcloudEnterpriseChildEnterprises[] | cdktf.IResolvable;
   /**
   * policy_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/enterprise#policy_list DataZedcloudEnterprise#policy_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/enterprise#policy_list DataZedcloudEnterprise#policy_list}
   */
   readonly policyList?: DataZedcloudEnterprisePolicyListStruct[] | cdktf.IResolvable;
   /**
   * revision block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/enterprise#revision DataZedcloudEnterprise#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/enterprise#revision DataZedcloudEnterprise#revision}
   */
   readonly revision?: DataZedcloudEnterpriseRevision[] | cdktf.IResolvable;
   /**
   * stream_events block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/enterprise#stream_events DataZedcloudEnterprise#stream_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/enterprise#stream_events DataZedcloudEnterprise#stream_events}
   */
   readonly streamEvents?: DataZedcloudEnterpriseStreamEvents[] | cdktf.IResolvable;
   /**
   * totp_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/enterprise#totp_settings DataZedcloudEnterprise#totp_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/enterprise#totp_settings DataZedcloudEnterprise#totp_settings}
   */
   readonly totpSettings?: DataZedcloudEnterpriseTotpSettings[] | cdktf.IResolvable;
 }
 export interface DataZedcloudEnterpriseChildEnterprises {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/enterprise#name DataZedcloudEnterprise#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/enterprise#name DataZedcloudEnterprise#name}
   */
   readonly name?: string;
 }
@@ -241,23 +241,23 @@ export class DataZedcloudEnterpriseChildEnterprisesList extends cdktf.ComplexLis
 }
 export interface DataZedcloudEnterprisePolicyListListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/enterprise#accepted_at DataZedcloudEnterprise#accepted_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/enterprise#accepted_at DataZedcloudEnterprise#accepted_at}
   */
   readonly acceptedAt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/enterprise#accepted_by DataZedcloudEnterprise#accepted_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/enterprise#accepted_by DataZedcloudEnterprise#accepted_by}
   */
   readonly acceptedBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/enterprise#effective_from DataZedcloudEnterprise#effective_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/enterprise#effective_from DataZedcloudEnterprise#effective_from}
   */
   readonly effectiveFrom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/enterprise#policy DataZedcloudEnterprise#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/enterprise#policy DataZedcloudEnterprise#policy}
   */
   readonly policy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/enterprise#version DataZedcloudEnterprise#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/enterprise#version DataZedcloudEnterprise#version}
   */
   readonly version?: string;
 }
@@ -491,7 +491,7 @@ export interface DataZedcloudEnterprisePolicyListStruct {
   /**
   * list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/enterprise#list DataZedcloudEnterprise#list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/enterprise#list DataZedcloudEnterprise#list}
   */
   readonly list?: DataZedcloudEnterprisePolicyListListStruct[] | cdktf.IResolvable;
 }
@@ -718,11 +718,11 @@ export class DataZedcloudEnterpriseRevisionList extends cdktf.ComplexList {
 }
 export interface DataZedcloudEnterpriseStreamEvents {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/enterprise#enabled DataZedcloudEnterprise#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/enterprise#enabled DataZedcloudEnterprise#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/enterprise#plugin_id DataZedcloudEnterprise#plugin_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/enterprise#plugin_id DataZedcloudEnterprise#plugin_id}
   */
   readonly pluginId?: string;
 }
@@ -867,15 +867,15 @@ export class DataZedcloudEnterpriseStreamEventsList extends cdktf.ComplexList {
 }
 export interface DataZedcloudEnterpriseTotpSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/enterprise#enforce DataZedcloudEnterprise#enforce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/enterprise#enforce DataZedcloudEnterprise#enforce}
   */
   readonly enforce?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/enterprise#enforce_in_children DataZedcloudEnterprise#enforce_in_children}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/enterprise#enforce_in_children DataZedcloudEnterprise#enforce_in_children}
   */
   readonly enforceInChildren?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/enterprise#enforced_by_parent DataZedcloudEnterprise#enforced_by_parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/enterprise#enforced_by_parent DataZedcloudEnterprise#enforced_by_parent}
   */
   readonly enforcedByParent?: boolean | cdktf.IResolvable;
 }
@@ -1049,7 +1049,7 @@ export class DataZedcloudEnterpriseTotpSettingsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/enterprise zedcloud_enterprise}
+* Represents a {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/enterprise zedcloud_enterprise}
 */
 export class DataZedcloudEnterprise extends cdktf.TerraformDataSource {
 
@@ -1065,7 +1065,7 @@ export class DataZedcloudEnterprise extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZedcloudEnterprise resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZedcloudEnterprise to import
-  * @param importFromId The id of the existing DataZedcloudEnterprise that should be imported. Refer to the {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/enterprise#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZedcloudEnterprise that should be imported. Refer to the {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/enterprise#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZedcloudEnterprise to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1077,7 +1077,7 @@ export class DataZedcloudEnterprise extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/enterprise zedcloud_enterprise} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/enterprise zedcloud_enterprise} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1088,8 +1088,8 @@ export class DataZedcloudEnterprise extends cdktf.TerraformDataSource {
       terraformResourceType: 'zedcloud_enterprise',
       terraformGeneratorMetadata: {
         providerName: 'zedcloud',
-        providerVersion: '2.5.0',
-        providerVersionConstraint: '2.5.0'
+        providerVersion: '2.6.0',
+        providerVersionConstraint: '2.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

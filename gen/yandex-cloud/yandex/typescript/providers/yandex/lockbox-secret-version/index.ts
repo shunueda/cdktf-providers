@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/lockbox_secret_version
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lockbox_secret_version
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface LockboxSecretVersionConfig extends cdktf.TerraformMetaArguments
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/lockbox_secret_version#description LockboxSecretVersion#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lockbox_secret_version#description LockboxSecretVersion#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/lockbox_secret_version#id LockboxSecretVersion#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lockbox_secret_version#id LockboxSecretVersion#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface LockboxSecretVersionConfig extends cdktf.TerraformMetaArguments
   /**
   * The Yandex Cloud Lockbox secret ID where to add the version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/lockbox_secret_version#secret_id LockboxSecretVersion#secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lockbox_secret_version#secret_id LockboxSecretVersion#secret_id}
   */
   readonly secretId: string;
   /**
   * entries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/lockbox_secret_version#entries LockboxSecretVersion#entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lockbox_secret_version#entries LockboxSecretVersion#entries}
   */
   readonly entries?: LockboxSecretVersionEntries[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/lockbox_secret_version#timeouts LockboxSecretVersion#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lockbox_secret_version#timeouts LockboxSecretVersion#timeouts}
   */
   readonly timeouts?: LockboxSecretVersionTimeouts;
 }
@@ -43,19 +43,19 @@ export interface LockboxSecretVersionEntriesCommand {
   /**
   * List of arguments to be passed to the script/command.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/lockbox_secret_version#args LockboxSecretVersion#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lockbox_secret_version#args LockboxSecretVersion#args}
   */
   readonly args?: string[];
   /**
   * Map of environment variables to set before calling the script/command.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/lockbox_secret_version#env LockboxSecretVersion#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lockbox_secret_version#env LockboxSecretVersion#env}
   */
   readonly env?: { [key: string]: string };
   /**
   * The path to the script or command to execute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/lockbox_secret_version#path LockboxSecretVersion#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lockbox_secret_version#path LockboxSecretVersion#path}
   */
   readonly path: string;
 }
@@ -196,19 +196,19 @@ export interface LockboxSecretVersionEntries {
   /**
   * The key of the entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/lockbox_secret_version#key LockboxSecretVersion#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lockbox_secret_version#key LockboxSecretVersion#key}
   */
   readonly key: string;
   /**
   * The text value of the entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/lockbox_secret_version#text_value LockboxSecretVersion#text_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lockbox_secret_version#text_value LockboxSecretVersion#text_value}
   */
   readonly textValue?: string;
   /**
   * command block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/lockbox_secret_version#command LockboxSecretVersion#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lockbox_secret_version#command LockboxSecretVersion#command}
   */
   readonly command?: LockboxSecretVersionEntriesCommand;
 }
@@ -379,15 +379,15 @@ export class LockboxSecretVersionEntriesList extends cdktf.ComplexList {
 }
 export interface LockboxSecretVersionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/lockbox_secret_version#create LockboxSecretVersion#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lockbox_secret_version#create LockboxSecretVersion#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/lockbox_secret_version#delete LockboxSecretVersion#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lockbox_secret_version#delete LockboxSecretVersion#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/lockbox_secret_version#read LockboxSecretVersion#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lockbox_secret_version#read LockboxSecretVersion#read}
   */
   readonly read?: string;
 }
@@ -539,7 +539,7 @@ export class LockboxSecretVersionTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/lockbox_secret_version yandex_lockbox_secret_version}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lockbox_secret_version yandex_lockbox_secret_version}
 */
 export class LockboxSecretVersion extends cdktf.TerraformResource {
 
@@ -555,7 +555,7 @@ export class LockboxSecretVersion extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LockboxSecretVersion resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LockboxSecretVersion to import
-  * @param importFromId The id of the existing LockboxSecretVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/lockbox_secret_version#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LockboxSecretVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lockbox_secret_version#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LockboxSecretVersion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -567,7 +567,7 @@ export class LockboxSecretVersion extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/lockbox_secret_version yandex_lockbox_secret_version} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lockbox_secret_version yandex_lockbox_secret_version} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -578,8 +578,8 @@ export class LockboxSecretVersion extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_lockbox_secret_version',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.172.0',
-        providerVersionConstraint: '0.172.0'
+        providerVersion: '0.173.0',
+        providerVersionConstraint: '0.173.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

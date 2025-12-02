@@ -137,6 +137,8 @@ export * as organizationmanagerGroupIamMember from './organizationmanager-group-
 export * as organizationmanagerGroupMapping from './organizationmanager-group-mapping';
 export * as organizationmanagerGroupMappingItem from './organizationmanager-group-mapping-item';
 export * as organizationmanagerGroupMembership from './organizationmanager-group-membership';
+export * as organizationmanagerIdpApplicationOauthApplication from './organizationmanager-idp-application-oauth-application';
+export * as organizationmanagerIdpApplicationSamlApplication from './organizationmanager-idp-application-saml-application';
 export * as organizationmanagerIdpUser from './organizationmanager-idp-user';
 export * as organizationmanagerIdpUserpool from './organizationmanager-idp-userpool';
 export * as organizationmanagerOrganizationIamBinding from './organizationmanager-organization-iam-binding';
@@ -286,6 +288,8 @@ export * as dataYandexMessageQueue from './data-yandex-message-queue';
 export * as dataYandexMetastoreCluster from './data-yandex-metastore-cluster';
 export * as dataYandexMonitoringDashboard from './data-yandex-monitoring-dashboard';
 export * as dataYandexOrganizationmanagerGroup from './data-yandex-organizationmanager-group';
+export * as dataYandexOrganizationmanagerIdpApplicationOauthApplication from './data-yandex-organizationmanager-idp-application-oauth-application';
+export * as dataYandexOrganizationmanagerIdpApplicationSamlApplication from './data-yandex-organizationmanager-idp-application-saml-application';
 export * as dataYandexOrganizationmanagerIdpUser from './data-yandex-organizationmanager-idp-user';
 export * as dataYandexOrganizationmanagerIdpUserpool from './data-yandex-organizationmanager-idp-userpool';
 export * as dataYandexOrganizationmanagerOsLoginSettings from './data-yandex-organizationmanager-os-login-settings';

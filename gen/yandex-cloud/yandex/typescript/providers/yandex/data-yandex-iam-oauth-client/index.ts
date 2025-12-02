@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/iam_oauth_client
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/iam_oauth_client
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,14 +10,14 @@ export interface DataYandexIamOauthClientConfig extends cdktf.TerraformMetaArgum
   /**
   * ID of the folder oauth client belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/iam_oauth_client#folder_id DataYandexIamOauthClient#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/iam_oauth_client#folder_id DataYandexIamOauthClient#folder_id}
   */
   readonly folderId?: string;
   /**
   * ID of the OAuthClient resource to return.
   *  To get the oauth client ID, use a [OAuthClientService.List] request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/iam_oauth_client#id DataYandexIamOauthClient#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/iam_oauth_client#id DataYandexIamOauthClient#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -27,11 +27,11 @@ export interface DataYandexIamOauthClientConfig extends cdktf.TerraformMetaArgum
   * ID of the OAuthClient resource to return.
   *  To get the oauth client ID, use a [OAuthClientService.List] request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/iam_oauth_client#oauth_client_id DataYandexIamOauthClient#oauth_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/iam_oauth_client#oauth_client_id DataYandexIamOauthClient#oauth_client_id}
   */
   readonly oauthClientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/iam_oauth_client#timeouts DataYandexIamOauthClient#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/iam_oauth_client#timeouts DataYandexIamOauthClient#timeouts}
   */
   readonly timeouts?: DataYandexIamOauthClientTimeouts;
 }
@@ -39,25 +39,25 @@ export interface DataYandexIamOauthClientTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/iam_oauth_client#create DataYandexIamOauthClient#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/iam_oauth_client#create DataYandexIamOauthClient#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/iam_oauth_client#delete DataYandexIamOauthClient#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/iam_oauth_client#delete DataYandexIamOauthClient#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/iam_oauth_client#read DataYandexIamOauthClient#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/iam_oauth_client#read DataYandexIamOauthClient#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/iam_oauth_client#update DataYandexIamOauthClient#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/iam_oauth_client#update DataYandexIamOauthClient#update}
   */
   readonly update?: string;
 }
@@ -238,7 +238,7 @@ export class DataYandexIamOauthClientTimeoutsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/iam_oauth_client yandex_iam_oauth_client}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/iam_oauth_client yandex_iam_oauth_client}
 */
 export class DataYandexIamOauthClient extends cdktf.TerraformDataSource {
 
@@ -254,7 +254,7 @@ export class DataYandexIamOauthClient extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataYandexIamOauthClient resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataYandexIamOauthClient to import
-  * @param importFromId The id of the existing DataYandexIamOauthClient that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/iam_oauth_client#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataYandexIamOauthClient that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/iam_oauth_client#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataYandexIamOauthClient to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -266,7 +266,7 @@ export class DataYandexIamOauthClient extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/data-sources/iam_oauth_client yandex_iam_oauth_client} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/iam_oauth_client yandex_iam_oauth_client} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -277,8 +277,8 @@ export class DataYandexIamOauthClient extends cdktf.TerraformDataSource {
       terraformResourceType: 'yandex_iam_oauth_client',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.172.0',
-        providerVersionConstraint: '0.172.0'
+        providerVersion: '0.173.0',
+        providerVersionConstraint: '0.173.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

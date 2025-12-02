@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/data-sources/service
+// https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/data-sources/service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataNobl9ServiceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Unique name of the resource, must conform to the [DNS RFC1123](https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names) naming convention.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/data-sources/service#name DataNobl9Service#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/data-sources/service#name DataNobl9Service#name}
   */
   readonly name: string;
   /**
   * Name of the Nobl9 project the resource sits in, must conform to the [DNS RFC1123](https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names) naming convention.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/data-sources/service#project DataNobl9Service#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/data-sources/service#project DataNobl9Service#project}
   */
   readonly project: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/data-sources/service nobl9_service}
+* Represents a {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/data-sources/service nobl9_service}
 */
 export class DataNobl9Service extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataNobl9Service extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNobl9Service resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNobl9Service to import
-  * @param importFromId The id of the existing DataNobl9Service that should be imported. Refer to the {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/data-sources/service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNobl9Service that should be imported. Refer to the {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/data-sources/service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNobl9Service to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataNobl9Service extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/data-sources/service nobl9_service} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/data-sources/service nobl9_service} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class DataNobl9Service extends cdktf.TerraformDataSource {
       terraformResourceType: 'nobl9_service',
       terraformGeneratorMetadata: {
         providerName: 'nobl9',
-        providerVersion: '0.44.1',
-        providerVersionConstraint: '0.44.1'
+        providerVersion: '0.45.0',
+        providerVersionConstraint: '0.45.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

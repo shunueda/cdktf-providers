@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_saml_federation
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_saml_federation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface OrganizationmanagerSamlFederationConfig extends cdktf.Terraform
   /**
   * Add new users automatically on successful authentication. The user will get the `resource-manager.clouds.member` role automatically, but you need to grant other roles to them. If the value is `false`, users who aren't added to the cloud can't log in, even if they have authenticated on your server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_saml_federation#auto_create_account_on_login OrganizationmanagerSamlFederation#auto_create_account_on_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_saml_federation#auto_create_account_on_login OrganizationmanagerSamlFederation#auto_create_account_on_login}
   */
   readonly autoCreateAccountOnLogin?: boolean | cdktf.IResolvable;
   /**
   * Use case-insensitive name IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_saml_federation#case_insensitive_name_ids OrganizationmanagerSamlFederation#case_insensitive_name_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_saml_federation#case_insensitive_name_ids OrganizationmanagerSamlFederation#case_insensitive_name_ids}
   */
   readonly caseInsensitiveNameIds?: boolean | cdktf.IResolvable;
   /**
   * The lifetime of a Browser cookie in seconds. If the cookie is still valid, the management console authenticates the user immediately and redirects them to the home page. The default value is `8h`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_saml_federation#cookie_max_age OrganizationmanagerSamlFederation#cookie_max_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_saml_federation#cookie_max_age OrganizationmanagerSamlFederation#cookie_max_age}
   */
   readonly cookieMaxAge?: string;
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_saml_federation#description OrganizationmanagerSamlFederation#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_saml_federation#description OrganizationmanagerSamlFederation#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_saml_federation#id OrganizationmanagerSamlFederation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_saml_federation#id OrganizationmanagerSamlFederation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,49 +41,49 @@ export interface OrganizationmanagerSamlFederationConfig extends cdktf.Terraform
   /**
   * The ID of the IdP server to be used for authentication. The IdP server also responds to IAM with this ID after the user authenticates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_saml_federation#issuer OrganizationmanagerSamlFederation#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_saml_federation#issuer OrganizationmanagerSamlFederation#issuer}
   */
   readonly issuer: string;
   /**
   * A set of key/value label pairs which assigned to resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_saml_federation#labels OrganizationmanagerSamlFederation#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_saml_federation#labels OrganizationmanagerSamlFederation#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_saml_federation#name OrganizationmanagerSamlFederation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_saml_federation#name OrganizationmanagerSamlFederation#name}
   */
   readonly name: string;
   /**
   * The organization to attach this SAML Federation to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_saml_federation#organization_id OrganizationmanagerSamlFederation#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_saml_federation#organization_id OrganizationmanagerSamlFederation#organization_id}
   */
   readonly organizationId: string;
   /**
   * Single sign-on endpoint binding type. Most Identity Providers support the `POST` binding type. SAML Binding is a mapping of a SAML protocol message onto standard messaging formats and/or communications protocols.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_saml_federation#sso_binding OrganizationmanagerSamlFederation#sso_binding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_saml_federation#sso_binding OrganizationmanagerSamlFederation#sso_binding}
   */
   readonly ssoBinding: string;
   /**
   * Single sign-on (SSO) endpoint URL. Specify the link to the IdP login page here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_saml_federation#sso_url OrganizationmanagerSamlFederation#sso_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_saml_federation#sso_url OrganizationmanagerSamlFederation#sso_url}
   */
   readonly ssoUrl: string;
   /**
   * security_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_saml_federation#security_settings OrganizationmanagerSamlFederation#security_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_saml_federation#security_settings OrganizationmanagerSamlFederation#security_settings}
   */
   readonly securitySettings?: OrganizationmanagerSamlFederationSecuritySettings;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_saml_federation#timeouts OrganizationmanagerSamlFederation#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_saml_federation#timeouts OrganizationmanagerSamlFederation#timeouts}
   */
   readonly timeouts?: OrganizationmanagerSamlFederationTimeouts;
 }
@@ -91,13 +91,13 @@ export interface OrganizationmanagerSamlFederationSecuritySettings {
   /**
   * Enable encrypted assertions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_saml_federation#encrypted_assertions OrganizationmanagerSamlFederation#encrypted_assertions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_saml_federation#encrypted_assertions OrganizationmanagerSamlFederation#encrypted_assertions}
   */
   readonly encryptedAssertions?: boolean | cdktf.IResolvable;
   /**
   * Force authentication on session expiration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_saml_federation#force_authn OrganizationmanagerSamlFederation#force_authn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_saml_federation#force_authn OrganizationmanagerSamlFederation#force_authn}
   */
   readonly forceAuthn?: boolean | cdktf.IResolvable;
 }
@@ -210,19 +210,19 @@ export class OrganizationmanagerSamlFederationSecuritySettingsOutputReference ex
 }
 export interface OrganizationmanagerSamlFederationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_saml_federation#create OrganizationmanagerSamlFederation#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_saml_federation#create OrganizationmanagerSamlFederation#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_saml_federation#delete OrganizationmanagerSamlFederation#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_saml_federation#delete OrganizationmanagerSamlFederation#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_saml_federation#read OrganizationmanagerSamlFederation#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_saml_federation#read OrganizationmanagerSamlFederation#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_saml_federation#update OrganizationmanagerSamlFederation#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_saml_federation#update OrganizationmanagerSamlFederation#update}
   */
   readonly update?: string;
 }
@@ -403,7 +403,7 @@ export class OrganizationmanagerSamlFederationTimeoutsOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_saml_federation yandex_organizationmanager_saml_federation}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_saml_federation yandex_organizationmanager_saml_federation}
 */
 export class OrganizationmanagerSamlFederation extends cdktf.TerraformResource {
 
@@ -419,7 +419,7 @@ export class OrganizationmanagerSamlFederation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrganizationmanagerSamlFederation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrganizationmanagerSamlFederation to import
-  * @param importFromId The id of the existing OrganizationmanagerSamlFederation that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_saml_federation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrganizationmanagerSamlFederation that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_saml_federation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrganizationmanagerSamlFederation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -431,7 +431,7 @@ export class OrganizationmanagerSamlFederation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/organizationmanager_saml_federation yandex_organizationmanager_saml_federation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_saml_federation yandex_organizationmanager_saml_federation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -442,8 +442,8 @@ export class OrganizationmanagerSamlFederation extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_organizationmanager_saml_federation',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.172.0',
-        providerVersionConstraint: '0.172.0'
+        providerVersion: '0.173.0',
+        providerVersionConstraint: '0.173.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

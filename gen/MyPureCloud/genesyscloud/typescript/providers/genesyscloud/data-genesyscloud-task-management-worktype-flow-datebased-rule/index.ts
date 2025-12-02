@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/data-sources/task_management_worktype_flow_datebased_rule
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/task_management_worktype_flow_datebased_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataGenesyscloudTaskManagementWorktypeFlowDatebasedRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/data-sources/task_management_worktype_flow_datebased_rule#id DataGenesyscloudTaskManagementWorktypeFlowDatebasedRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/task_management_worktype_flow_datebased_rule#id DataGenesyscloudTaskManagementWorktypeFlowDatebasedRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataGenesyscloudTaskManagementWorktypeFlowDatebasedRuleConfig e
   /**
   * The name of the Rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/data-sources/task_management_worktype_flow_datebased_rule#name DataGenesyscloudTaskManagementWorktypeFlowDatebasedRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/task_management_worktype_flow_datebased_rule#name DataGenesyscloudTaskManagementWorktypeFlowDatebasedRule#name}
   */
   readonly name: string;
   /**
   * The Worktype ID of the Rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/data-sources/task_management_worktype_flow_datebased_rule#worktype_id DataGenesyscloudTaskManagementWorktypeFlowDatebasedRule#worktype_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/task_management_worktype_flow_datebased_rule#worktype_id DataGenesyscloudTaskManagementWorktypeFlowDatebasedRule#worktype_id}
   */
   readonly worktypeId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/data-sources/task_management_worktype_flow_datebased_rule genesyscloud_task_management_worktype_flow_datebased_rule}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/task_management_worktype_flow_datebased_rule genesyscloud_task_management_worktype_flow_datebased_rule}
 */
 export class DataGenesyscloudTaskManagementWorktypeFlowDatebasedRule extends cdktf.TerraformDataSource {
 
@@ -45,7 +45,7 @@ export class DataGenesyscloudTaskManagementWorktypeFlowDatebasedRule extends cdk
   * Generates CDKTF code for importing a DataGenesyscloudTaskManagementWorktypeFlowDatebasedRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGenesyscloudTaskManagementWorktypeFlowDatebasedRule to import
-  * @param importFromId The id of the existing DataGenesyscloudTaskManagementWorktypeFlowDatebasedRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/data-sources/task_management_worktype_flow_datebased_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataGenesyscloudTaskManagementWorktypeFlowDatebasedRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/task_management_worktype_flow_datebased_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGenesyscloudTaskManagementWorktypeFlowDatebasedRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class DataGenesyscloudTaskManagementWorktypeFlowDatebasedRule extends cdk
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/data-sources/task_management_worktype_flow_datebased_rule genesyscloud_task_management_worktype_flow_datebased_rule} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/task_management_worktype_flow_datebased_rule genesyscloud_task_management_worktype_flow_datebased_rule} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class DataGenesyscloudTaskManagementWorktypeFlowDatebasedRule extends cdk
       terraformResourceType: 'genesyscloud_task_management_worktype_flow_datebased_rule',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.71.1',
-        providerVersionConstraint: '1.71.1'
+        providerVersion: '1.72.2',
+        providerVersionConstraint: '1.72.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

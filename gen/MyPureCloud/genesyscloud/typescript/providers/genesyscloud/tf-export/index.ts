@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/tf_export
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/tf_export
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,53 @@ export interface TfExportConfig extends cdktf.TerraformMetaArguments {
   /**
   * Compress exported results using zip format. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/tf_export#compress TfExport#compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/tf_export#compress TfExport#compress}
   */
   readonly compress?: boolean | cdktf.IResolvable;
   /**
   * Directory where the config and state files will be exported. Defaults to `./genesyscloud`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/tf_export#directory TfExport#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/tf_export#directory TfExport#directory}
   */
   readonly directory?: string;
   /**
   * Adds a "depends_on" attribute to genesyscloud_flow resources with a list of resources that are referenced inside the flow configuration . This also resolves and exports all the dependent resources for any given resource. Resources mentioned in exclude_attributes will not be exported. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/tf_export#enable_dependency_resolution TfExport#enable_dependency_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/tf_export#enable_dependency_resolution TfExport#enable_dependency_resolution}
   */
   readonly enableDependencyResolution?: boolean | cdktf.IResolvable;
   /**
   * Attributes to exclude from the config when exporting resources. Each value should be of the form {resource_type}.{attribute}, e.g. 'genesyscloud_user.skills'. Excluded attributes must be optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/tf_export#exclude_attributes TfExport#exclude_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/tf_export#exclude_attributes TfExport#exclude_attributes}
   */
   readonly excludeAttributes?: string[];
   /**
   * Exclude resources that match either a resource type or a resource type::regular expression.  See export guide for additional information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/tf_export#exclude_filter_resources TfExport#exclude_filter_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/tf_export#exclude_filter_resources TfExport#exclude_filter_resources}
   */
   readonly excludeFilterResources?: string[];
   /**
   * Export the config as HCL. Deprecated. Please use the export_format attribute instead Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/tf_export#export_as_hcl TfExport#export_as_hcl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/tf_export#export_as_hcl TfExport#export_as_hcl}
   */
   readonly exportAsHcl?: boolean | cdktf.IResolvable;
   /**
   * Export attributes that are marked as being Computed and Optional. Does not attempt to export attributes that are explicitly marked as read-only by the provider. Defaults to true to match existing functionality. This attribute's default value will likely switch to false in a future release. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/tf_export#export_computed TfExport#export_computed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/tf_export#export_computed TfExport#export_computed}
   */
   readonly exportComputed?: boolean | cdktf.IResolvable;
   /**
   * Export the config as hcl or json or json_hcl. Defaults to `json`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/tf_export#export_format TfExport#export_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/tf_export#export_format TfExport#export_format}
   */
   readonly exportFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/tf_export#id TfExport#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/tf_export#id TfExport#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,61 +65,67 @@ export interface TfExportConfig extends cdktf.TerraformMetaArguments {
   /**
   * Ignore Cyclic Dependencies when building the flows and do not throw an error. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/tf_export#ignore_cyclic_deps TfExport#ignore_cyclic_deps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/tf_export#ignore_cyclic_deps TfExport#ignore_cyclic_deps}
   */
   readonly ignoreCyclicDeps?: boolean | cdktf.IResolvable;
   /**
   * Include only resources that match either a resource type or a resource type::regular expression.  See export guide for additional information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/tf_export#include_filter_resources TfExport#include_filter_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/tf_export#include_filter_resources TfExport#include_filter_resources}
   */
   readonly includeFilterResources?: string[];
   /**
+  * Include only resources that match a {resourceType}::{resourceId} value.  See export guide for additional information.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/tf_export#include_filter_resources_by_id TfExport#include_filter_resources_by_id}
+  */
+  readonly includeFilterResourcesById?: string[];
+  /**
   * Export a 'terraform.tfstate' file along with the config file. This can be used for orgs to begin managing existing resources with terraform. When `false`, GUID fields will be omitted from the config file unless a resource reference can be supplied. In this case, the resource type will need to be included in the `resource_types` array. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/tf_export#include_state_file TfExport#include_state_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/tf_export#include_state_file TfExport#include_state_file}
   */
   readonly includeStateFile?: boolean | cdktf.IResolvable;
   /**
   * Log permission/product issues rather than fail. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/tf_export#log_permission_errors TfExport#log_permission_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/tf_export#log_permission_errors TfExport#log_permission_errors}
   */
   readonly logPermissionErrors?: boolean | cdktf.IResolvable;
   /**
   * Maximum number of concurrent threads to use during export process. This is distinct from the provider's token pool size configuration Defaults to `10`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/tf_export#max_concurrent_threads TfExport#max_concurrent_threads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/tf_export#max_concurrent_threads TfExport#max_concurrent_threads}
   */
   readonly maxConcurrentThreads?: number;
   /**
   * Include only resources that match either a resource type or a resource type::regular expression.  See export guide for additional information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/tf_export#replace_with_datasource TfExport#replace_with_datasource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/tf_export#replace_with_datasource TfExport#replace_with_datasource}
   */
   readonly replaceWithDatasource?: string[];
   /**
   * *DEPRECATED: Use include_filter_resources attribute instead* Resource types to export, e.g. 'genesyscloud_user'. Defaults to all exportable types. NOTE: This field is deprecated and will be removed in future release.  Please use the include_filter_resources or exclude_filter_resources attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/tf_export#resource_types TfExport#resource_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/tf_export#resource_types TfExport#resource_types}
   */
   readonly resourceTypes?: string[];
   /**
   * Split export files by resource type. This will also split the terraform provider and variable declarations into their own files. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/tf_export#split_files_by_resource TfExport#split_files_by_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/tf_export#split_files_by_resource TfExport#split_files_by_resource}
   */
   readonly splitFilesByResource?: boolean | cdktf.IResolvable;
   /**
   * When set to `false`, architect flow configuration files will be downloaded as part of the flow export process. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/tf_export#use_legacy_architect_flow_exporter TfExport#use_legacy_architect_flow_exporter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/tf_export#use_legacy_architect_flow_exporter TfExport#use_legacy_architect_flow_exporter}
   */
   readonly useLegacyArchitectFlowExporter?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/tf_export genesyscloud_tf_export}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/tf_export genesyscloud_tf_export}
 */
 export class TfExport extends cdktf.TerraformResource {
 
@@ -135,7 +141,7 @@ export class TfExport extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TfExport resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TfExport to import
-  * @param importFromId The id of the existing TfExport that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/tf_export#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TfExport that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/tf_export#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TfExport to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -147,7 +153,7 @@ export class TfExport extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/tf_export genesyscloud_tf_export} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/tf_export genesyscloud_tf_export} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -158,8 +164,8 @@ export class TfExport extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_tf_export',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.71.1',
-        providerVersionConstraint: '1.71.1'
+        providerVersion: '1.72.2',
+        providerVersionConstraint: '1.72.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -180,6 +186,7 @@ export class TfExport extends cdktf.TerraformResource {
     this._id = config.id;
     this._ignoreCyclicDeps = config.ignoreCyclicDeps;
     this._includeFilterResources = config.includeFilterResources;
+    this._includeFilterResourcesById = config.includeFilterResourcesById;
     this._includeStateFile = config.includeStateFile;
     this._logPermissionErrors = config.logPermissionErrors;
     this._maxConcurrentThreads = config.maxConcurrentThreads;
@@ -369,6 +376,22 @@ export class TfExport extends cdktf.TerraformResource {
     return this._includeFilterResources;
   }
 
+  // include_filter_resources_by_id - computed: false, optional: true, required: false
+  private _includeFilterResourcesById?: string[]; 
+  public get includeFilterResourcesById() {
+    return this.getListAttribute('include_filter_resources_by_id');
+  }
+  public set includeFilterResourcesById(value: string[]) {
+    this._includeFilterResourcesById = value;
+  }
+  public resetIncludeFilterResourcesById() {
+    this._includeFilterResourcesById = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get includeFilterResourcesByIdInput() {
+    return this._includeFilterResourcesById;
+  }
+
   // include_state_file - computed: false, optional: true, required: false
   private _includeStateFile?: boolean | cdktf.IResolvable; 
   public get includeStateFile() {
@@ -498,6 +521,7 @@ export class TfExport extends cdktf.TerraformResource {
       id: cdktf.stringToTerraform(this._id),
       ignore_cyclic_deps: cdktf.booleanToTerraform(this._ignoreCyclicDeps),
       include_filter_resources: cdktf.listMapper(cdktf.stringToTerraform, false)(this._includeFilterResources),
+      include_filter_resources_by_id: cdktf.listMapper(cdktf.stringToTerraform, false)(this._includeFilterResourcesById),
       include_state_file: cdktf.booleanToTerraform(this._includeStateFile),
       log_permission_errors: cdktf.booleanToTerraform(this._logPermissionErrors),
       max_concurrent_threads: cdktf.numberToTerraform(this._maxConcurrentThreads),
@@ -572,6 +596,12 @@ export class TfExport extends cdktf.TerraformResource {
       },
       include_filter_resources: {
         value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._includeFilterResources),
+        isBlock: false,
+        type: "list",
+        storageClassType: "stringList",
+      },
+      include_filter_resources_by_id: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._includeFilterResourcesById),
         isBlock: false,
         type: "list",
         storageClassType: "stringList",

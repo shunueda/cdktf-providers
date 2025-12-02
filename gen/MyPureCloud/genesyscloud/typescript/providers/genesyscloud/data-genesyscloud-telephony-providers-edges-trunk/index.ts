@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/data-sources/telephony_providers_edges_trunk
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/telephony_providers_edges_trunk
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataGenesyscloudTelephonyProvidersEdgesTrunkConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/data-sources/telephony_providers_edges_trunk#id DataGenesyscloudTelephonyProvidersEdgesTrunk#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/telephony_providers_edges_trunk#id DataGenesyscloudTelephonyProvidersEdgesTrunk#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataGenesyscloudTelephonyProvidersEdgesTrunkConfig extends cdkt
   /**
   * Trunk name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/data-sources/telephony_providers_edges_trunk#name DataGenesyscloudTelephonyProvidersEdgesTrunk#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/telephony_providers_edges_trunk#name DataGenesyscloudTelephonyProvidersEdgesTrunk#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/data-sources/telephony_providers_edges_trunk genesyscloud_telephony_providers_edges_trunk}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/telephony_providers_edges_trunk genesyscloud_telephony_providers_edges_trunk}
 */
 export class DataGenesyscloudTelephonyProvidersEdgesTrunk extends cdktf.TerraformDataSource {
 
@@ -39,7 +39,7 @@ export class DataGenesyscloudTelephonyProvidersEdgesTrunk extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataGenesyscloudTelephonyProvidersEdgesTrunk resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGenesyscloudTelephonyProvidersEdgesTrunk to import
-  * @param importFromId The id of the existing DataGenesyscloudTelephonyProvidersEdgesTrunk that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/data-sources/telephony_providers_edges_trunk#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataGenesyscloudTelephonyProvidersEdgesTrunk that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/telephony_providers_edges_trunk#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGenesyscloudTelephonyProvidersEdgesTrunk to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -51,7 +51,7 @@ export class DataGenesyscloudTelephonyProvidersEdgesTrunk extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/data-sources/telephony_providers_edges_trunk genesyscloud_telephony_providers_edges_trunk} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/telephony_providers_edges_trunk genesyscloud_telephony_providers_edges_trunk} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -62,8 +62,8 @@ export class DataGenesyscloudTelephonyProvidersEdgesTrunk extends cdktf.Terrafor
       terraformResourceType: 'genesyscloud_telephony_providers_edges_trunk',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.71.1',
-        providerVersionConstraint: '1.71.1'
+        providerVersion: '1.72.2',
+        providerVersionConstraint: '1.72.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

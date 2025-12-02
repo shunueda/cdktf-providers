@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_signon_policy
+// https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_signon_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface AppSignonPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * If false, the default rule of the policy is set access to `DENY`. Otherwise default behavior of the default rule is to leave access at `ALLOW`.  **WARNING** setting this attribute to false changes policy rule's default behavior. Use at your own risk. This is only applied during creation and does not affect import or update.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_signon_policy#catch_all AppSignonPolicy#catch_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_signon_policy#catch_all AppSignonPolicy#catch_all}
   */
   readonly catchAll?: boolean | cdktf.IResolvable;
   /**
   * Description of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_signon_policy#description AppSignonPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_signon_policy#description AppSignonPolicy#description}
   */
   readonly description: string;
   /**
   * Name of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_signon_policy#name AppSignonPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_signon_policy#name AppSignonPolicy#name}
   */
   readonly name: string;
   /**
   * Priority of the policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_signon_policy#priority AppSignonPolicy#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_signon_policy#priority AppSignonPolicy#priority}
   */
   readonly priority?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_signon_policy okta_app_signon_policy}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_signon_policy okta_app_signon_policy}
 */
 export class AppSignonPolicy extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class AppSignonPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AppSignonPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppSignonPolicy to import
-  * @param importFromId The id of the existing AppSignonPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_signon_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppSignonPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_signon_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppSignonPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class AppSignonPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_signon_policy okta_app_signon_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/app_signon_policy okta_app_signon_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class AppSignonPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'okta_app_signon_policy',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.5.0',
-        providerVersionConstraint: '6.5.0'
+        providerVersion: '6.5.1',
+        providerVersionConstraint: '6.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

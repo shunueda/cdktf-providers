@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kms_asymmetric_signature_key_iam_binding
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/kms_asymmetric_signature_key_iam_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface KmsAsymmetricSignatureKeyIamBindingConfig extends cdktf.Terrafo
   /**
   * The ID of the compute `asymmetric_signature_key` to attach the policy to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kms_asymmetric_signature_key_iam_binding#asymmetric_signature_key_id KmsAsymmetricSignatureKeyIamBinding#asymmetric_signature_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/kms_asymmetric_signature_key_iam_binding#asymmetric_signature_key_id KmsAsymmetricSignatureKeyIamBinding#asymmetric_signature_key_id}
   */
   readonly asymmetricSignatureKeyId: string;
   /**
@@ -29,25 +29,25 @@ export interface KmsAsymmetricSignatureKeyIamBindingConfig extends cdktf.Terrafo
   * 
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kms_asymmetric_signature_key_iam_binding#members KmsAsymmetricSignatureKeyIamBinding#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/kms_asymmetric_signature_key_iam_binding#members KmsAsymmetricSignatureKeyIamBinding#members}
   */
   readonly members: string[];
   /**
   * The role that should be assigned. Only one yandex_kms_asymmetric_signature_key_iam_binding can be used per role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kms_asymmetric_signature_key_iam_binding#role KmsAsymmetricSignatureKeyIamBinding#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/kms_asymmetric_signature_key_iam_binding#role KmsAsymmetricSignatureKeyIamBinding#role}
   */
   readonly role: string;
   /**
   * For test purposes, to compensate IAM operations delay
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kms_asymmetric_signature_key_iam_binding#sleep_after KmsAsymmetricSignatureKeyIamBinding#sleep_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/kms_asymmetric_signature_key_iam_binding#sleep_after KmsAsymmetricSignatureKeyIamBinding#sleep_after}
   */
   readonly sleepAfter?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kms_asymmetric_signature_key_iam_binding yandex_kms_asymmetric_signature_key_iam_binding}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/kms_asymmetric_signature_key_iam_binding yandex_kms_asymmetric_signature_key_iam_binding}
 */
 export class KmsAsymmetricSignatureKeyIamBinding extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class KmsAsymmetricSignatureKeyIamBinding extends cdktf.TerraformResource
   * Generates CDKTF code for importing a KmsAsymmetricSignatureKeyIamBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KmsAsymmetricSignatureKeyIamBinding to import
-  * @param importFromId The id of the existing KmsAsymmetricSignatureKeyIamBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kms_asymmetric_signature_key_iam_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KmsAsymmetricSignatureKeyIamBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/kms_asymmetric_signature_key_iam_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KmsAsymmetricSignatureKeyIamBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class KmsAsymmetricSignatureKeyIamBinding extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/kms_asymmetric_signature_key_iam_binding yandex_kms_asymmetric_signature_key_iam_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/kms_asymmetric_signature_key_iam_binding yandex_kms_asymmetric_signature_key_iam_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class KmsAsymmetricSignatureKeyIamBinding extends cdktf.TerraformResource
       terraformResourceType: 'yandex_kms_asymmetric_signature_key_iam_binding',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.172.0',
-        providerVersionConstraint: '0.172.0'
+        providerVersion: '0.173.0',
+        providerVersionConstraint: '0.173.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

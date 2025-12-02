@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/ydb_table_changefeed
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/ydb_table_changefeed
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface YdbTableChangefeedConfig extends cdktf.TerraformMetaArguments {
   /**
   * Connection string, conflicts with `table_id`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/ydb_table_changefeed#connection_string YdbTableChangefeed#connection_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/ydb_table_changefeed#connection_string YdbTableChangefeed#connection_string}
   */
   readonly connectionString?: string;
   /**
   * Changefeed format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/ydb_table_changefeed#format YdbTableChangefeed#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/ydb_table_changefeed#format YdbTableChangefeed#format}
   */
   readonly format: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/ydb_table_changefeed#id YdbTableChangefeed#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/ydb_table_changefeed#id YdbTableChangefeed#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,73 +29,73 @@ export interface YdbTableChangefeedConfig extends cdktf.TerraformMetaArguments {
   /**
   * [Changefeed mode](https://ydb.tech/en/docs/yql/reference/syntax/alter_table#changefeed-options).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/ydb_table_changefeed#mode YdbTableChangefeed#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/ydb_table_changefeed#mode YdbTableChangefeed#mode}
   */
   readonly mode: string;
   /**
   * Changefeed name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/ydb_table_changefeed#name YdbTableChangefeed#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/ydb_table_changefeed#name YdbTableChangefeed#name}
   */
   readonly name: string;
   /**
   * Time of data retention in the topic, [ISO 8601](https://ru.wikipedia.org/wiki/ISO_8601) format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/ydb_table_changefeed#retention_period YdbTableChangefeed#retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/ydb_table_changefeed#retention_period YdbTableChangefeed#retention_period}
   */
   readonly retentionPeriod?: string;
   /**
   * Terraform resource ID of the table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/ydb_table_changefeed#table_id YdbTableChangefeed#table_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/ydb_table_changefeed#table_id YdbTableChangefeed#table_id}
   */
   readonly tableId?: string;
   /**
   * Table path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/ydb_table_changefeed#table_path YdbTableChangefeed#table_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/ydb_table_changefeed#table_path YdbTableChangefeed#table_path}
   */
   readonly tablePath?: string;
   /**
   * Use [virtual timestamps](https://ydb.tech/en/docs/concepts/cdc#virtual-timestamps).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/ydb_table_changefeed#virtual_timestamps YdbTableChangefeed#virtual_timestamps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/ydb_table_changefeed#virtual_timestamps YdbTableChangefeed#virtual_timestamps}
   */
   readonly virtualTimestamps?: boolean | cdktf.IResolvable;
   /**
   * consumer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/ydb_table_changefeed#consumer YdbTableChangefeed#consumer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/ydb_table_changefeed#consumer YdbTableChangefeed#consumer}
   */
   readonly consumer?: YdbTableChangefeedConsumer[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/ydb_table_changefeed#timeouts YdbTableChangefeed#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/ydb_table_changefeed#timeouts YdbTableChangefeed#timeouts}
   */
   readonly timeouts?: YdbTableChangefeedTimeouts;
 }
 export interface YdbTableChangefeedConsumer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/ydb_table_changefeed#important YdbTableChangefeed#important}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/ydb_table_changefeed#important YdbTableChangefeed#important}
   */
   readonly important?: boolean | cdktf.IResolvable;
   /**
   * Consumer name. It is used in the SDK or CLI to [read data](https://ydb.tech/en/docs/best_practices/cdc#read) from the topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/ydb_table_changefeed#name YdbTableChangefeed#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/ydb_table_changefeed#name YdbTableChangefeed#name}
   */
   readonly name: string;
   /**
   * Timestamp in the UNIX timestamp format, from which the consumer will start reading data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/ydb_table_changefeed#starting_message_timestamp_ms YdbTableChangefeed#starting_message_timestamp_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/ydb_table_changefeed#starting_message_timestamp_ms YdbTableChangefeed#starting_message_timestamp_ms}
   */
   readonly startingMessageTimestampMs?: number;
   /**
   * Supported data encodings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/ydb_table_changefeed#supported_codecs YdbTableChangefeed#supported_codecs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/ydb_table_changefeed#supported_codecs YdbTableChangefeed#supported_codecs}
   */
   readonly supportedCodecs?: string[];
 }
@@ -295,23 +295,23 @@ export class YdbTableChangefeedConsumerList extends cdktf.ComplexList {
 }
 export interface YdbTableChangefeedTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/ydb_table_changefeed#create YdbTableChangefeed#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/ydb_table_changefeed#create YdbTableChangefeed#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/ydb_table_changefeed#default YdbTableChangefeed#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/ydb_table_changefeed#default YdbTableChangefeed#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/ydb_table_changefeed#delete YdbTableChangefeed#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/ydb_table_changefeed#delete YdbTableChangefeed#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/ydb_table_changefeed#read YdbTableChangefeed#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/ydb_table_changefeed#read YdbTableChangefeed#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/ydb_table_changefeed#update YdbTableChangefeed#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/ydb_table_changefeed#update YdbTableChangefeed#update}
   */
   readonly update?: string;
 }
@@ -521,7 +521,7 @@ export class YdbTableChangefeedTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/ydb_table_changefeed yandex_ydb_table_changefeed}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/ydb_table_changefeed yandex_ydb_table_changefeed}
 */
 export class YdbTableChangefeed extends cdktf.TerraformResource {
 
@@ -537,7 +537,7 @@ export class YdbTableChangefeed extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a YdbTableChangefeed resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the YdbTableChangefeed to import
-  * @param importFromId The id of the existing YdbTableChangefeed that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/ydb_table_changefeed#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing YdbTableChangefeed that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/ydb_table_changefeed#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the YdbTableChangefeed to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -549,7 +549,7 @@ export class YdbTableChangefeed extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/ydb_table_changefeed yandex_ydb_table_changefeed} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/ydb_table_changefeed yandex_ydb_table_changefeed} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -560,8 +560,8 @@ export class YdbTableChangefeed extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_ydb_table_changefeed',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.172.0',
-        providerVersionConstraint: '0.172.0'
+        providerVersion: '0.173.0',
+        providerVersionConstraint: '0.173.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

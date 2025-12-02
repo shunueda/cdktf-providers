@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/admin_role_custom_assignments
+// https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/admin_role_custom_assignments
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface AdminRoleCustomAssignmentsConfig extends cdktf.TerraformMetaArg
   /**
   * ID of the Custom Role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/admin_role_custom_assignments#custom_role_id AdminRoleCustomAssignments#custom_role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/admin_role_custom_assignments#custom_role_id AdminRoleCustomAssignments#custom_role_id}
   */
   readonly customRoleId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/admin_role_custom_assignments#id AdminRoleCustomAssignments#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/admin_role_custom_assignments#id AdminRoleCustomAssignments#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface AdminRoleCustomAssignmentsConfig extends cdktf.TerraformMetaArg
   /**
   * The hrefs that point to User(s) and/or Group(s) that receive the Role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/admin_role_custom_assignments#members AdminRoleCustomAssignments#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/admin_role_custom_assignments#members AdminRoleCustomAssignments#members}
   */
   readonly members?: string[];
   /**
   * ID of the target Resource Set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/admin_role_custom_assignments#resource_set_id AdminRoleCustomAssignments#resource_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/admin_role_custom_assignments#resource_set_id AdminRoleCustomAssignments#resource_set_id}
   */
   readonly resourceSetId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/admin_role_custom_assignments okta_admin_role_custom_assignments}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/admin_role_custom_assignments okta_admin_role_custom_assignments}
 */
 export class AdminRoleCustomAssignments extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class AdminRoleCustomAssignments extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AdminRoleCustomAssignments resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AdminRoleCustomAssignments to import
-  * @param importFromId The id of the existing AdminRoleCustomAssignments that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/admin_role_custom_assignments#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AdminRoleCustomAssignments that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/admin_role_custom_assignments#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AdminRoleCustomAssignments to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class AdminRoleCustomAssignments extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/admin_role_custom_assignments okta_admin_role_custom_assignments} Resource
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/admin_role_custom_assignments okta_admin_role_custom_assignments} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class AdminRoleCustomAssignments extends cdktf.TerraformResource {
       terraformResourceType: 'okta_admin_role_custom_assignments',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.5.0',
-        providerVersionConstraint: '6.5.0'
+        providerVersion: '6.5.1',
+        providerVersionConstraint: '6.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

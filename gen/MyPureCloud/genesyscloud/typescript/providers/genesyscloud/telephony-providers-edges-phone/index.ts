@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_phone
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_phone
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface TelephonyProvidersEdgesPhoneConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_phone#id TelephonyProvidersEdgesPhone#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_phone#id TelephonyProvidersEdgesPhone#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,61 +17,61 @@ export interface TelephonyProvidersEdgesPhoneConfig extends cdktf.TerraformMetaA
   /**
   * Line Base Settings ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_phone#line_base_settings_id TelephonyProvidersEdgesPhone#line_base_settings_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_phone#line_base_settings_id TelephonyProvidersEdgesPhone#line_base_settings_id}
   */
   readonly lineBaseSettingsId?: string;
   /**
   * The name of the entity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_phone#name TelephonyProvidersEdgesPhone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_phone#name TelephonyProvidersEdgesPhone#name}
   */
   readonly name: string;
   /**
   * Phone Base Settings ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_phone#phone_base_settings_id TelephonyProvidersEdgesPhone#phone_base_settings_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_phone#phone_base_settings_id TelephonyProvidersEdgesPhone#phone_base_settings_id}
   */
   readonly phoneBaseSettingsId: string;
   /**
   * Phone Meta Base ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_phone#phone_meta_base_id TelephonyProvidersEdgesPhone#phone_meta_base_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_phone#phone_meta_base_id TelephonyProvidersEdgesPhone#phone_meta_base_id}
   */
   readonly phoneMetaBaseId?: string;
   /**
   * phone properties
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_phone#properties TelephonyProvidersEdgesPhone#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_phone#properties TelephonyProvidersEdgesPhone#properties}
   */
   readonly properties?: string;
   /**
   * The site ID associated to the phone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_phone#site_id TelephonyProvidersEdgesPhone#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_phone#site_id TelephonyProvidersEdgesPhone#site_id}
   */
   readonly siteId: string;
   /**
   * Indicates if the resource is active, inactive, or deleted. Valid values: active, inactive, deleted. Defaults to `active`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_phone#state TelephonyProvidersEdgesPhone#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_phone#state TelephonyProvidersEdgesPhone#state}
   */
   readonly state?: string;
   /**
   * Web RTC User ID. This is necessary when creating a Web RTC phone. This user will be assigned to the phone after it is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_phone#web_rtc_user_id TelephonyProvidersEdgesPhone#web_rtc_user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_phone#web_rtc_user_id TelephonyProvidersEdgesPhone#web_rtc_user_id}
   */
   readonly webRtcUserId?: string;
   /**
   * capabilities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_phone#capabilities TelephonyProvidersEdgesPhone#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_phone#capabilities TelephonyProvidersEdgesPhone#capabilities}
   */
   readonly capabilities?: TelephonyProvidersEdgesPhoneCapabilities;
   /**
   * line_properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_phone#line_properties TelephonyProvidersEdgesPhone#line_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_phone#line_properties TelephonyProvidersEdgesPhone#line_properties}
   */
   readonly lineProperties?: TelephonyProvidersEdgesPhoneLineProperties;
 }
@@ -79,55 +79,55 @@ export interface TelephonyProvidersEdgesPhoneCapabilities {
   /**
   * Allow Reboot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_phone#allow_reboot TelephonyProvidersEdgesPhone#allow_reboot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_phone#allow_reboot TelephonyProvidersEdgesPhone#allow_reboot}
   */
   readonly allowReboot?: boolean | cdktf.IResolvable;
   /**
   * CDM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_phone#cdm TelephonyProvidersEdgesPhone#cdm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_phone#cdm TelephonyProvidersEdgesPhone#cdm}
   */
   readonly cdm?: boolean | cdktf.IResolvable;
   /**
   * Dual Registers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_phone#dual_registers TelephonyProvidersEdgesPhone#dual_registers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_phone#dual_registers TelephonyProvidersEdgesPhone#dual_registers}
   */
   readonly dualRegisters?: boolean | cdktf.IResolvable;
   /**
   * HardwareId Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_phone#hardware_id_type TelephonyProvidersEdgesPhone#hardware_id_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_phone#hardware_id_type TelephonyProvidersEdgesPhone#hardware_id_type}
   */
   readonly hardwareIdType?: string;
   /**
   * Media Codecs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_phone#media_codecs TelephonyProvidersEdgesPhone#media_codecs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_phone#media_codecs TelephonyProvidersEdgesPhone#media_codecs}
   */
   readonly mediaCodecs?: string[];
   /**
   * No Cloud Provisioning
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_phone#no_cloud_provisioning TelephonyProvidersEdgesPhone#no_cloud_provisioning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_phone#no_cloud_provisioning TelephonyProvidersEdgesPhone#no_cloud_provisioning}
   */
   readonly noCloudProvisioning?: boolean | cdktf.IResolvable;
   /**
   * No Rebalance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_phone#no_rebalance TelephonyProvidersEdgesPhone#no_rebalance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_phone#no_rebalance TelephonyProvidersEdgesPhone#no_rebalance}
   */
   readonly noRebalance?: boolean | cdktf.IResolvable;
   /**
   * Provisions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_phone#provisions TelephonyProvidersEdgesPhone#provisions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_phone#provisions TelephonyProvidersEdgesPhone#provisions}
   */
   readonly provisions?: boolean | cdktf.IResolvable;
   /**
   * Registers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_phone#registers TelephonyProvidersEdgesPhone#registers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_phone#registers TelephonyProvidersEdgesPhone#registers}
   */
   readonly registers?: boolean | cdktf.IResolvable;
 }
@@ -445,13 +445,13 @@ export interface TelephonyProvidersEdgesPhoneLineProperties {
   /**
   * DID for standalone phones. Each phone number must be in an E.164 phone number format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_phone#line_address TelephonyProvidersEdgesPhone#line_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_phone#line_address TelephonyProvidersEdgesPhone#line_address}
   */
   readonly lineAddress?: string[];
   /**
   * Station remote property for phones. No validation is provided
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_phone#remote_address TelephonyProvidersEdgesPhone#remote_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_phone#remote_address TelephonyProvidersEdgesPhone#remote_address}
   */
   readonly remoteAddress?: string[];
 }
@@ -564,7 +564,7 @@ export class TelephonyProvidersEdgesPhoneLinePropertiesOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_phone genesyscloud_telephony_providers_edges_phone}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_phone genesyscloud_telephony_providers_edges_phone}
 */
 export class TelephonyProvidersEdgesPhone extends cdktf.TerraformResource {
 
@@ -580,7 +580,7 @@ export class TelephonyProvidersEdgesPhone extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TelephonyProvidersEdgesPhone resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TelephonyProvidersEdgesPhone to import
-  * @param importFromId The id of the existing TelephonyProvidersEdgesPhone that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_phone#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TelephonyProvidersEdgesPhone that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_phone#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TelephonyProvidersEdgesPhone to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -592,7 +592,7 @@ export class TelephonyProvidersEdgesPhone extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_phone genesyscloud_telephony_providers_edges_phone} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_phone genesyscloud_telephony_providers_edges_phone} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -603,8 +603,8 @@ export class TelephonyProvidersEdgesPhone extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_telephony_providers_edges_phone',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.71.1',
-        providerVersionConstraint: '1.71.1'
+        providerVersion: '1.72.2',
+        providerVersionConstraint: '1.72.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

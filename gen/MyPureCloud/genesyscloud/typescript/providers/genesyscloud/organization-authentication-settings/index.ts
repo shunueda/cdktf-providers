@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/organization_authentication_settings
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/organization_authentication_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface OrganizationAuthenticationSettingsConfig extends cdktf.Terrafor
   /**
   * The list of domains that will be allowed to embed Genesys Cloud applications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/organization_authentication_settings#domain_allowlist OrganizationAuthenticationSettings#domain_allowlist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/organization_authentication_settings#domain_allowlist OrganizationAuthenticationSettings#domain_allowlist}
   */
   readonly domainAllowlist?: string[];
   /**
   * Indicates whether the domain allowlist is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/organization_authentication_settings#domain_allowlist_enabled OrganizationAuthenticationSettings#domain_allowlist_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/organization_authentication_settings#domain_allowlist_enabled OrganizationAuthenticationSettings#domain_allowlist_enabled}
   */
   readonly domainAllowlistEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/organization_authentication_settings#id OrganizationAuthenticationSettings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/organization_authentication_settings#id OrganizationAuthenticationSettings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface OrganizationAuthenticationSettingsConfig extends cdktf.Terrafor
   /**
   * The list of IP addresses that will be allowed to authenticate with Genesys Cloud. Warning: Changing these will result in only allowing specified ip Addresses to log in and will invalidate credentials with a different ip address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/organization_authentication_settings#ip_address_allowlist OrganizationAuthenticationSettings#ip_address_allowlist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/organization_authentication_settings#ip_address_allowlist OrganizationAuthenticationSettings#ip_address_allowlist}
   */
   readonly ipAddressAllowlist?: string[];
   /**
   * Indicates whether multi-factor authentication is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/organization_authentication_settings#multifactor_authentication_required OrganizationAuthenticationSettings#multifactor_authentication_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/organization_authentication_settings#multifactor_authentication_required OrganizationAuthenticationSettings#multifactor_authentication_required}
   */
   readonly multifactorAuthenticationRequired?: boolean | cdktf.IResolvable;
   /**
   * password_requirements block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/organization_authentication_settings#password_requirements OrganizationAuthenticationSettings#password_requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/organization_authentication_settings#password_requirements OrganizationAuthenticationSettings#password_requirements}
   */
   readonly passwordRequirements?: OrganizationAuthenticationSettingsPasswordRequirements;
   /**
   * timeout_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/organization_authentication_settings#timeout_settings OrganizationAuthenticationSettings#timeout_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/organization_authentication_settings#timeout_settings OrganizationAuthenticationSettings#timeout_settings}
   */
   readonly timeoutSettings?: OrganizationAuthenticationSettingsTimeoutSettings;
 }
@@ -55,49 +55,49 @@ export interface OrganizationAuthenticationSettingsPasswordRequirements {
   /**
   * Length of time (in days) before a password must be changed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/organization_authentication_settings#expiration_days OrganizationAuthenticationSettings#expiration_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/organization_authentication_settings#expiration_days OrganizationAuthenticationSettings#expiration_days}
   */
   readonly expirationDays?: number;
   /**
   * Minimum age of the password (in seconds) before it can be changed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/organization_authentication_settings#minimum_age_seconds OrganizationAuthenticationSettings#minimum_age_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/organization_authentication_settings#minimum_age_seconds OrganizationAuthenticationSettings#minimum_age_seconds}
   */
   readonly minimumAgeSeconds?: number;
   /**
   * The minimum number of numerals (0-9) that must be included in passwords Defaults to `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/organization_authentication_settings#minimum_digits OrganizationAuthenticationSettings#minimum_digits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/organization_authentication_settings#minimum_digits OrganizationAuthenticationSettings#minimum_digits}
   */
   readonly minimumDigits?: number;
   /**
   * The minimum character length for passwords Defaults to `8`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/organization_authentication_settings#minimum_length OrganizationAuthenticationSettings#minimum_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/organization_authentication_settings#minimum_length OrganizationAuthenticationSettings#minimum_length}
   */
   readonly minimumLength?: number;
   /**
   * The minimum number of characters required for passwords Defaults to `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/organization_authentication_settings#minimum_letters OrganizationAuthenticationSettings#minimum_letters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/organization_authentication_settings#minimum_letters OrganizationAuthenticationSettings#minimum_letters}
   */
   readonly minimumLetters?: number;
   /**
   * The minimum number of lower case letters that must be included in passwords Defaults to `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/organization_authentication_settings#minimum_lower OrganizationAuthenticationSettings#minimum_lower}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/organization_authentication_settings#minimum_lower OrganizationAuthenticationSettings#minimum_lower}
   */
   readonly minimumLower?: number;
   /**
   * The minimum number of special characters that must be included in passwords Defaults to `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/organization_authentication_settings#minimum_specials OrganizationAuthenticationSettings#minimum_specials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/organization_authentication_settings#minimum_specials OrganizationAuthenticationSettings#minimum_specials}
   */
   readonly minimumSpecials?: number;
   /**
   * The minimum number of upper case letters that must be included in passwords Defaults to `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/organization_authentication_settings#minimum_upper OrganizationAuthenticationSettings#minimum_upper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/organization_authentication_settings#minimum_upper OrganizationAuthenticationSettings#minimum_upper}
   */
   readonly minimumUpper?: number;
 }
@@ -386,13 +386,13 @@ export interface OrganizationAuthenticationSettingsTimeoutSettings {
   /**
   * Indicates whether the Token Timeout should be enabled or disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/organization_authentication_settings#enable_idle_token_timeout OrganizationAuthenticationSettings#enable_idle_token_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/organization_authentication_settings#enable_idle_token_timeout OrganizationAuthenticationSettings#enable_idle_token_timeout}
   */
   readonly enableIdleTokenTimeout: boolean | cdktf.IResolvable;
   /**
   * Token timeout length in seconds. Must be at least 5 minutes and 8 hours or less (if HIPAA is disabled) or 15 minutes or less (if HIPAA is enabled).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/organization_authentication_settings#idle_token_timeout_seconds OrganizationAuthenticationSettings#idle_token_timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/organization_authentication_settings#idle_token_timeout_seconds OrganizationAuthenticationSettings#idle_token_timeout_seconds}
   */
   readonly idleTokenTimeoutSeconds: number;
 }
@@ -499,7 +499,7 @@ export class OrganizationAuthenticationSettingsTimeoutSettingsOutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/organization_authentication_settings genesyscloud_organization_authentication_settings}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/organization_authentication_settings genesyscloud_organization_authentication_settings}
 */
 export class OrganizationAuthenticationSettings extends cdktf.TerraformResource {
 
@@ -515,7 +515,7 @@ export class OrganizationAuthenticationSettings extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a OrganizationAuthenticationSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrganizationAuthenticationSettings to import
-  * @param importFromId The id of the existing OrganizationAuthenticationSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/organization_authentication_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrganizationAuthenticationSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/organization_authentication_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrganizationAuthenticationSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -527,7 +527,7 @@ export class OrganizationAuthenticationSettings extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/organization_authentication_settings genesyscloud_organization_authentication_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/organization_authentication_settings genesyscloud_organization_authentication_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -538,8 +538,8 @@ export class OrganizationAuthenticationSettings extends cdktf.TerraformResource 
       terraformResourceType: 'genesyscloud_organization_authentication_settings',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.71.1',
-        providerVersionConstraint: '1.71.1'
+        providerVersion: '1.72.2',
+        providerVersionConstraint: '1.72.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

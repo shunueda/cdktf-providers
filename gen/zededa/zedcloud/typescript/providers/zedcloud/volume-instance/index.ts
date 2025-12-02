@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/volume_instance
+// https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/volume_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,97 +10,97 @@ export interface VolumeInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Access mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/volume_instance#accessmode VolumeInstance#accessmode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/volume_instance#accessmode VolumeInstance#accessmode}
   */
   readonly accessmode?: string;
   /**
   * flag to keep the contents of the volume unencrypted (in clear text)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/volume_instance#cleartext VolumeInstance#cleartext}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/volume_instance#cleartext VolumeInstance#cleartext}
   */
   readonly cleartext?: boolean | cdktf.IResolvable;
   /**
   * content tree ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/volume_instance#content_tree_id VolumeInstance#content_tree_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/volume_instance#content_tree_id VolumeInstance#content_tree_id}
   */
   readonly contentTreeId?: string;
   /**
   * Detailed description of the volume instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/volume_instance#description VolumeInstance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/volume_instance#description VolumeInstance#description}
   */
   readonly description?: string;
   /**
   * id of the device on which volume instance is created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/volume_instance#device_id VolumeInstance#device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/volume_instance#device_id VolumeInstance#device_id}
   */
   readonly deviceId?: string;
   /**
   * name of the image
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/volume_instance#image VolumeInstance#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/volume_instance#image VolumeInstance#image}
   */
   readonly image?: string;
   /**
   * flag to create implicit volumes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/volume_instance#implicit VolumeInstance#implicit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/volume_instance#implicit VolumeInstance#implicit}
   */
   readonly implicit?: boolean | cdktf.IResolvable;
   /**
   * label
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/volume_instance#label VolumeInstance#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/volume_instance#label VolumeInstance#label}
   */
   readonly label?: string;
   /**
   * flag to enable the volume to be attached to multiple app instances
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/volume_instance#multiattach VolumeInstance#multiattach}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/volume_instance#multiattach VolumeInstance#multiattach}
   */
   readonly multiattach?: boolean | cdktf.IResolvable;
   /**
   * User defined name of the volume instance, unique across the enterprise. Once object is created, name can’t be changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/volume_instance#name VolumeInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/volume_instance#name VolumeInstance#name}
   */
   readonly name: string;
   /**
   * id of the project in which the volume instance is created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/volume_instance#project_id VolumeInstance#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/volume_instance#project_id VolumeInstance#project_id}
   */
   readonly projectId?: string;
   /**
   * size of volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/volume_instance#size_bytes VolumeInstance#size_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/volume_instance#size_bytes VolumeInstance#size_bytes}
   */
   readonly sizeBytes?: string;
   /**
   * Tags are name/value pairs that enable you to categorize resources. Tag names are case insensitive with max_length 512 and min_length 3. Tag values are case sensitive with max_length 256 and min_length 3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/volume_instance#tags VolumeInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/volume_instance#tags VolumeInstance#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * User defined title of the volume instance. Title can be changed at any time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/volume_instance#title VolumeInstance#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/volume_instance#title VolumeInstance#title}
   */
   readonly title: string;
   /**
   * type of Volume Instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/volume_instance#type VolumeInstance#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/volume_instance#type VolumeInstance#type}
   */
   readonly type: string;
   /**
   * edge_node_cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/volume_instance#edge_node_cluster VolumeInstance#edge_node_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/volume_instance#edge_node_cluster VolumeInstance#edge_node_cluster}
   */
   readonly edgeNodeCluster?: VolumeInstanceEdgeNodeCluster[] | cdktf.IResolvable;
 }
@@ -208,13 +208,13 @@ export interface VolumeInstanceEdgeNodeCluster {
   /**
   * designated node ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/volume_instance#designated_node_id VolumeInstance#designated_node_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/volume_instance#designated_node_id VolumeInstance#designated_node_id}
   */
   readonly designatedNodeId?: string;
   /**
   * edge node cluster ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/volume_instance#id VolumeInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/volume_instance#id VolumeInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -359,7 +359,7 @@ export class VolumeInstanceEdgeNodeClusterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/volume_instance zedcloud_volume_instance}
+* Represents a {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/volume_instance zedcloud_volume_instance}
 */
 export class VolumeInstance extends cdktf.TerraformResource {
 
@@ -375,7 +375,7 @@ export class VolumeInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VolumeInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VolumeInstance to import
-  * @param importFromId The id of the existing VolumeInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/volume_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VolumeInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/volume_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VolumeInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -387,7 +387,7 @@ export class VolumeInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/resources/volume_instance zedcloud_volume_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/resources/volume_instance zedcloud_volume_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -398,8 +398,8 @@ export class VolumeInstance extends cdktf.TerraformResource {
       terraformResourceType: 'zedcloud_volume_instance',
       terraformGeneratorMetadata: {
         providerName: 'zedcloud',
-        providerVersion: '2.5.0',
-        providerVersionConstraint: '2.5.0'
+        providerVersion: '2.6.0',
+        providerVersionConstraint: '2.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

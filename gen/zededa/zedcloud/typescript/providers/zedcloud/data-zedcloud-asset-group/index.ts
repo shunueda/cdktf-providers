@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/asset_group
+// https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/asset_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface DataZedcloudAssetGroupConfig extends cdktf.TerraformMetaArgumen
   /**
   * Detailed description of the asset group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/asset_group#description DataZedcloudAssetGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/asset_group#description DataZedcloudAssetGroup#description}
   */
   readonly description?: string;
   /**
   * User defined name of the asset group, unique across the enterprise. Once asset group is created, name can’t be changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/asset_group#name DataZedcloudAssetGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/asset_group#name DataZedcloudAssetGroup#name}
   */
   readonly name?: string;
   /**
   * project id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/asset_group#project_id DataZedcloudAssetGroup#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/asset_group#project_id DataZedcloudAssetGroup#project_id}
   */
   readonly projectId?: string;
   /**
   * User defined title of the asset group. Title can be changed at any time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/asset_group#title DataZedcloudAssetGroup#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/asset_group#title DataZedcloudAssetGroup#title}
   */
   readonly title?: string;
   /**
   * asset_ids block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/asset_group#asset_ids DataZedcloudAssetGroup#asset_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/asset_group#asset_ids DataZedcloudAssetGroup#asset_ids}
   */
   readonly assetIds?: DataZedcloudAssetGroupAssetIds[] | cdktf.IResolvable;
   /**
   * asset_tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/asset_group#asset_tags DataZedcloudAssetGroup#asset_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/asset_group#asset_tags DataZedcloudAssetGroup#asset_tags}
   */
   readonly assetTags?: DataZedcloudAssetGroupAssetTags[] | cdktf.IResolvable;
 }
 export interface DataZedcloudAssetGroupAssetIds {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/asset_group#ids DataZedcloudAssetGroup#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/asset_group#ids DataZedcloudAssetGroup#ids}
   */
   readonly ids?: string[];
 }
@@ -164,7 +164,7 @@ export interface DataZedcloudAssetGroupAssetTagsAssetTag {
   /**
   * Tags are name/value pairs that enable you to categorize resources. Tag names are case insensitive with max_length 512 and min_length 3. Tag values are case sensitive with max_length 256 and min_length 3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/asset_group#tag DataZedcloudAssetGroup#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/asset_group#tag DataZedcloudAssetGroup#tag}
   */
   readonly tag?: { [key: string]: string };
 }
@@ -282,7 +282,7 @@ export interface DataZedcloudAssetGroupAssetTags {
   /**
   * asset_tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/asset_group#asset_tag DataZedcloudAssetGroup#asset_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/asset_group#asset_tag DataZedcloudAssetGroup#asset_tag}
   */
   readonly assetTag?: DataZedcloudAssetGroupAssetTagsAssetTag[] | cdktf.IResolvable;
 }
@@ -398,7 +398,7 @@ export class DataZedcloudAssetGroupAssetTagsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/asset_group zedcloud_asset_group}
+* Represents a {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/asset_group zedcloud_asset_group}
 */
 export class DataZedcloudAssetGroup extends cdktf.TerraformDataSource {
 
@@ -414,7 +414,7 @@ export class DataZedcloudAssetGroup extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZedcloudAssetGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZedcloudAssetGroup to import
-  * @param importFromId The id of the existing DataZedcloudAssetGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/asset_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZedcloudAssetGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/asset_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZedcloudAssetGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -426,7 +426,7 @@ export class DataZedcloudAssetGroup extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zededa/zedcloud/2.5.0/docs/data-sources/asset_group zedcloud_asset_group} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zededa/zedcloud/2.6.0/docs/data-sources/asset_group zedcloud_asset_group} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -437,8 +437,8 @@ export class DataZedcloudAssetGroup extends cdktf.TerraformDataSource {
       terraformResourceType: 'zedcloud_asset_group',
       terraformGeneratorMetadata: {
         providerName: 'zedcloud',
-        providerVersion: '2.5.0',
-        providerVersionConstraint: '2.5.0'
+        providerVersion: '2.6.0',
+        providerVersionConstraint: '2.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

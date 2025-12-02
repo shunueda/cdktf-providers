@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/idp_generic
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_generic
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface IdpGenericConfig extends cdktf.TerraformMetaArguments {
   /**
   * PEM or DER encoded public X.509 certificates for SAML signature validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/idp_generic#certificates IdpGeneric#certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_generic#certificates IdpGeneric#certificates}
   */
   readonly certificates: string[];
   /**
   * True if Generic provider is disabled. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/idp_generic#disabled IdpGeneric#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_generic#disabled IdpGeneric#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * True if the Genesys Cloud authentication request should be compressed. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/idp_generic#endpoint_compression IdpGeneric#endpoint_compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_generic#endpoint_compression IdpGeneric#endpoint_compression}
   */
   readonly endpointCompression?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/idp_generic#id IdpGeneric#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_generic#id IdpGeneric#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,65 +35,71 @@ export interface IdpGenericConfig extends cdktf.TerraformMetaArguments {
   /**
   * Issuer URI provided by the provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/idp_generic#issuer_uri IdpGeneric#issuer_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_generic#issuer_uri IdpGeneric#issuer_uri}
   */
   readonly issuerUri: string;
   /**
   * Base64 encoded SVG image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/idp_generic#logo_image_data IdpGeneric#logo_image_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_generic#logo_image_data IdpGeneric#logo_image_data}
   */
   readonly logoImageData?: string;
   /**
   * Name of the provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/idp_generic#name IdpGeneric#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_generic#name IdpGeneric#name}
   */
   readonly name: string;
   /**
   * SAML name identifier format. (urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified | urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress | urn:oasis:names:tc:SAML:1.1:nameid-format:X509SubjectName | urn:oasis:names:tc:SAML:1.1:nameid-format:WindowsDomainQualifiedName | urn:oasis:names:tc:SAML:2.0:nameid-format:kerberos | urn:oasis:names:tc:SAML:2.0:nameid-format:entity | urn:oasis:names:tc:SAML:2.0:nameid-format:persistent | urn:oasis:names:tc:SAML:2.0:nameid-format:transient) Defaults to `urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/idp_generic#name_identifier_format IdpGeneric#name_identifier_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_generic#name_identifier_format IdpGeneric#name_identifier_format}
   */
   readonly nameIdentifierFormat?: string;
   /**
   * String used to identify Genesys Cloud to the identity provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/idp_generic#relying_party_identifier IdpGeneric#relying_party_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_generic#relying_party_identifier IdpGeneric#relying_party_identifier}
   */
   readonly relyingPartyIdentifier?: string;
   /**
+  * True if the Genesys Cloud authentication request should be signed. Defaults to `false`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_generic#sign_authn_requests IdpGeneric#sign_authn_requests}
+  */
+  readonly signAuthnRequests?: boolean | cdktf.IResolvable;
+  /**
   * Valid values: HTTP Redirect, HTTP Post
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/idp_generic#slo_binding IdpGeneric#slo_binding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_generic#slo_binding IdpGeneric#slo_binding}
   */
   readonly sloBinding?: string;
   /**
   * Provided on app creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/idp_generic#slo_uri IdpGeneric#slo_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_generic#slo_uri IdpGeneric#slo_uri}
   */
   readonly sloUri?: string;
   /**
   * Target URI provided by the provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/idp_generic#target_uri IdpGeneric#target_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_generic#target_uri IdpGeneric#target_uri}
   */
   readonly targetUri?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/idp_generic#timeouts IdpGeneric#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_generic#timeouts IdpGeneric#timeouts}
   */
   readonly timeouts?: IdpGenericTimeouts;
 }
 export interface IdpGenericTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/idp_generic#read IdpGeneric#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_generic#read IdpGeneric#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/idp_generic#update IdpGeneric#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_generic#update IdpGeneric#update}
   */
   readonly update?: string;
 }
@@ -216,7 +222,7 @@ export class IdpGenericTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/idp_generic genesyscloud_idp_generic}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_generic genesyscloud_idp_generic}
 */
 export class IdpGeneric extends cdktf.TerraformResource {
 
@@ -232,7 +238,7 @@ export class IdpGeneric extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IdpGeneric resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IdpGeneric to import
-  * @param importFromId The id of the existing IdpGeneric that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/idp_generic#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IdpGeneric that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_generic#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IdpGeneric to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -244,7 +250,7 @@ export class IdpGeneric extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/idp_generic genesyscloud_idp_generic} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_generic genesyscloud_idp_generic} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -255,8 +261,8 @@ export class IdpGeneric extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_idp_generic',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.71.1',
-        providerVersionConstraint: '1.71.1'
+        providerVersion: '1.72.2',
+        providerVersionConstraint: '1.72.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -275,6 +281,7 @@ export class IdpGeneric extends cdktf.TerraformResource {
     this._name = config.name;
     this._nameIdentifierFormat = config.nameIdentifierFormat;
     this._relyingPartyIdentifier = config.relyingPartyIdentifier;
+    this._signAuthnRequests = config.signAuthnRequests;
     this._sloBinding = config.sloBinding;
     this._sloUri = config.sloUri;
     this._targetUri = config.targetUri;
@@ -420,6 +427,22 @@ export class IdpGeneric extends cdktf.TerraformResource {
     return this._relyingPartyIdentifier;
   }
 
+  // sign_authn_requests - computed: false, optional: true, required: false
+  private _signAuthnRequests?: boolean | cdktf.IResolvable; 
+  public get signAuthnRequests() {
+    return this.getBooleanAttribute('sign_authn_requests');
+  }
+  public set signAuthnRequests(value: boolean | cdktf.IResolvable) {
+    this._signAuthnRequests = value;
+  }
+  public resetSignAuthnRequests() {
+    this._signAuthnRequests = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get signAuthnRequestsInput() {
+    return this._signAuthnRequests;
+  }
+
   // slo_binding - computed: false, optional: true, required: false
   private _sloBinding?: string; 
   public get sloBinding() {
@@ -499,6 +522,7 @@ export class IdpGeneric extends cdktf.TerraformResource {
       name: cdktf.stringToTerraform(this._name),
       name_identifier_format: cdktf.stringToTerraform(this._nameIdentifierFormat),
       relying_party_identifier: cdktf.stringToTerraform(this._relyingPartyIdentifier),
+      sign_authn_requests: cdktf.booleanToTerraform(this._signAuthnRequests),
       slo_binding: cdktf.stringToTerraform(this._sloBinding),
       slo_uri: cdktf.stringToTerraform(this._sloUri),
       target_uri: cdktf.stringToTerraform(this._targetUri),
@@ -561,6 +585,12 @@ export class IdpGeneric extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      sign_authn_requests: {
+        value: cdktf.booleanToHclTerraform(this._signAuthnRequests),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
       },
       slo_binding: {
         value: cdktf.stringToHclTerraform(this._sloBinding),

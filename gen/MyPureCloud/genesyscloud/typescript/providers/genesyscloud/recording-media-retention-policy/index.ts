@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface RecordingMediaRetentionPolicyConfig extends cdktf.TerraformMeta
   /**
   * The description for the policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#description RecordingMediaRetentionPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#description RecordingMediaRetentionPolicy#description}
   */
   readonly description?: string;
   /**
   * The policy will be enabled if true, otherwise it will be disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#enabled RecordingMediaRetentionPolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#enabled RecordingMediaRetentionPolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#id RecordingMediaRetentionPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#id RecordingMediaRetentionPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,55 +29,55 @@ export interface RecordingMediaRetentionPolicyConfig extends cdktf.TerraformMeta
   /**
   * The policy name. Changing the policy_name attribute will cause the recording_media_retention_policy to be dropped and recreated with a new ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#name RecordingMediaRetentionPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#name RecordingMediaRetentionPolicy#name}
   */
   readonly name: string;
   /**
   * The ordinal number for the policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#order RecordingMediaRetentionPolicy#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#order RecordingMediaRetentionPolicy#order}
   */
   readonly order?: number;
   /**
   * actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#actions RecordingMediaRetentionPolicy#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#actions RecordingMediaRetentionPolicy#actions}
   */
   readonly actions?: RecordingMediaRetentionPolicyActions;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#conditions RecordingMediaRetentionPolicy#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#conditions RecordingMediaRetentionPolicy#conditions}
   */
   readonly conditions?: RecordingMediaRetentionPolicyConditions;
   /**
   * media_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#media_policies RecordingMediaRetentionPolicy#media_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#media_policies RecordingMediaRetentionPolicy#media_policies}
   */
   readonly mediaPolicies?: RecordingMediaRetentionPolicyMediaPolicies;
   /**
   * policy_errors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#policy_errors RecordingMediaRetentionPolicy#policy_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#policy_errors RecordingMediaRetentionPolicy#policy_errors}
   */
   readonly policyErrors?: RecordingMediaRetentionPolicyPolicyErrors;
 }
 export interface RecordingMediaRetentionPolicyActionsAssignCalibrations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#calibrator_id RecordingMediaRetentionPolicy#calibrator_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#calibrator_id RecordingMediaRetentionPolicy#calibrator_id}
   */
   readonly calibratorId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#evaluation_form_id RecordingMediaRetentionPolicy#evaluation_form_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#evaluation_form_id RecordingMediaRetentionPolicy#evaluation_form_id}
   */
   readonly evaluationFormId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#evaluator_ids RecordingMediaRetentionPolicy#evaluator_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#evaluator_ids RecordingMediaRetentionPolicy#evaluator_ids}
   */
   readonly evaluatorIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#expert_evaluator_id RecordingMediaRetentionPolicy#expert_evaluator_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#expert_evaluator_id RecordingMediaRetentionPolicy#expert_evaluator_id}
   */
   readonly expertEvaluatorId?: string;
 }
@@ -280,11 +280,11 @@ export class RecordingMediaRetentionPolicyActionsAssignCalibrationsList extends 
 }
 export interface RecordingMediaRetentionPolicyActionsAssignEvaluations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#evaluation_form_id RecordingMediaRetentionPolicy#evaluation_form_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#evaluation_form_id RecordingMediaRetentionPolicy#evaluation_form_id}
   */
   readonly evaluationFormId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#user_id RecordingMediaRetentionPolicy#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#user_id RecordingMediaRetentionPolicy#user_id}
   */
   readonly userId?: string;
 }
@@ -429,19 +429,19 @@ export class RecordingMediaRetentionPolicyActionsAssignEvaluationsList extends c
 }
 export interface RecordingMediaRetentionPolicyActionsAssignMeteredAssignmentByAgentTimeInterval {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#days RecordingMediaRetentionPolicy#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#days RecordingMediaRetentionPolicy#days}
   */
   readonly days?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#hours RecordingMediaRetentionPolicy#hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#hours RecordingMediaRetentionPolicy#hours}
   */
   readonly hours?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#months RecordingMediaRetentionPolicy#months}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#months RecordingMediaRetentionPolicy#months}
   */
   readonly months?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#weeks RecordingMediaRetentionPolicy#weeks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#weeks RecordingMediaRetentionPolicy#weeks}
   */
   readonly weeks?: number;
 }
@@ -612,25 +612,25 @@ export class RecordingMediaRetentionPolicyActionsAssignMeteredAssignmentByAgentT
 }
 export interface RecordingMediaRetentionPolicyActionsAssignMeteredAssignmentByAgent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#evaluation_form_id RecordingMediaRetentionPolicy#evaluation_form_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#evaluation_form_id RecordingMediaRetentionPolicy#evaluation_form_id}
   */
   readonly evaluationFormId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#evaluator_ids RecordingMediaRetentionPolicy#evaluator_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#evaluator_ids RecordingMediaRetentionPolicy#evaluator_ids}
   */
   readonly evaluatorIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#max_number_evaluations RecordingMediaRetentionPolicy#max_number_evaluations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#max_number_evaluations RecordingMediaRetentionPolicy#max_number_evaluations}
   */
   readonly maxNumberEvaluations?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#time_zone RecordingMediaRetentionPolicy#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#time_zone RecordingMediaRetentionPolicy#time_zone}
   */
   readonly timeZone?: string;
   /**
   * time_interval block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#time_interval RecordingMediaRetentionPolicy#time_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#time_interval RecordingMediaRetentionPolicy#time_interval}
   */
   readonly timeInterval?: RecordingMediaRetentionPolicyActionsAssignMeteredAssignmentByAgentTimeInterval;
 }
@@ -862,19 +862,19 @@ export class RecordingMediaRetentionPolicyActionsAssignMeteredAssignmentByAgentL
 }
 export interface RecordingMediaRetentionPolicyActionsAssignMeteredEvaluationsTimeInterval {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#days RecordingMediaRetentionPolicy#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#days RecordingMediaRetentionPolicy#days}
   */
   readonly days?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#hours RecordingMediaRetentionPolicy#hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#hours RecordingMediaRetentionPolicy#hours}
   */
   readonly hours?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#months RecordingMediaRetentionPolicy#months}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#months RecordingMediaRetentionPolicy#months}
   */
   readonly months?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#weeks RecordingMediaRetentionPolicy#weeks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#weeks RecordingMediaRetentionPolicy#weeks}
   */
   readonly weeks?: number;
 }
@@ -1045,25 +1045,25 @@ export class RecordingMediaRetentionPolicyActionsAssignMeteredEvaluationsTimeInt
 }
 export interface RecordingMediaRetentionPolicyActionsAssignMeteredEvaluations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#assign_to_active_user RecordingMediaRetentionPolicy#assign_to_active_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#assign_to_active_user RecordingMediaRetentionPolicy#assign_to_active_user}
   */
   readonly assignToActiveUser?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#evaluation_form_id RecordingMediaRetentionPolicy#evaluation_form_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#evaluation_form_id RecordingMediaRetentionPolicy#evaluation_form_id}
   */
   readonly evaluationFormId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#evaluator_ids RecordingMediaRetentionPolicy#evaluator_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#evaluator_ids RecordingMediaRetentionPolicy#evaluator_ids}
   */
   readonly evaluatorIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#max_number_evaluations RecordingMediaRetentionPolicy#max_number_evaluations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#max_number_evaluations RecordingMediaRetentionPolicy#max_number_evaluations}
   */
   readonly maxNumberEvaluations?: number;
   /**
   * time_interval block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#time_interval RecordingMediaRetentionPolicy#time_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#time_interval RecordingMediaRetentionPolicy#time_interval}
   */
   readonly timeInterval?: RecordingMediaRetentionPolicyActionsAssignMeteredEvaluationsTimeInterval;
 }
@@ -1297,31 +1297,31 @@ export interface RecordingMediaRetentionPolicyActionsAssignSurveys {
   /**
   * The UUID reference to the flow associated with this survey.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#flow_id RecordingMediaRetentionPolicy#flow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#flow_id RecordingMediaRetentionPolicy#flow_id}
   */
   readonly flowId?: string;
   /**
   * An ISO 8601 repeated interval consisting of the number of repetitions, the start datetime, and the interval (e.g. R2/2018-03-01T13:00:00Z/P1M10DT2H30M). Total duration must not exceed 90 days. Defaults to `R1/P0M`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#invite_time_interval RecordingMediaRetentionPolicy#invite_time_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#invite_time_interval RecordingMediaRetentionPolicy#invite_time_interval}
   */
   readonly inviteTimeInterval?: string;
   /**
   * Validated email domain, required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#sending_domain RecordingMediaRetentionPolicy#sending_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#sending_domain RecordingMediaRetentionPolicy#sending_domain}
   */
   readonly sendingDomain: string;
   /**
   * User together with sendingDomain used to send email, null to use no-reply
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#sending_user RecordingMediaRetentionPolicy#sending_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#sending_user RecordingMediaRetentionPolicy#sending_user}
   */
   readonly sendingUser?: string;
   /**
   * The survey form used for this survey.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#survey_form_name RecordingMediaRetentionPolicy#survey_form_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#survey_form_name RecordingMediaRetentionPolicy#survey_form_name}
   */
   readonly surveyFormName?: string;
 }
@@ -1550,11 +1550,11 @@ export class RecordingMediaRetentionPolicyActionsAssignSurveysList extends cdktf
 }
 export interface RecordingMediaRetentionPolicyActionsInitiateScreenRecordingArchiveRetention {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#days RecordingMediaRetentionPolicy#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#days RecordingMediaRetentionPolicy#days}
   */
   readonly days?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#storage_medium RecordingMediaRetentionPolicy#storage_medium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#storage_medium RecordingMediaRetentionPolicy#storage_medium}
   */
   readonly storageMedium?: string;
 }
@@ -1667,7 +1667,7 @@ export class RecordingMediaRetentionPolicyActionsInitiateScreenRecordingArchiveR
 }
 export interface RecordingMediaRetentionPolicyActionsInitiateScreenRecordingDeleteRetention {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#days RecordingMediaRetentionPolicy#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#days RecordingMediaRetentionPolicy#days}
   */
   readonly days?: number;
 }
@@ -1751,19 +1751,19 @@ export class RecordingMediaRetentionPolicyActionsInitiateScreenRecordingDeleteRe
 }
 export interface RecordingMediaRetentionPolicyActionsInitiateScreenRecording {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#record_acw RecordingMediaRetentionPolicy#record_acw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#record_acw RecordingMediaRetentionPolicy#record_acw}
   */
   readonly recordAcw?: boolean | cdktf.IResolvable;
   /**
   * archive_retention block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#archive_retention RecordingMediaRetentionPolicy#archive_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#archive_retention RecordingMediaRetentionPolicy#archive_retention}
   */
   readonly archiveRetention?: RecordingMediaRetentionPolicyActionsInitiateScreenRecordingArchiveRetention;
   /**
   * delete_retention block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#delete_retention RecordingMediaRetentionPolicy#delete_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#delete_retention RecordingMediaRetentionPolicy#delete_retention}
   */
   readonly deleteRetention?: RecordingMediaRetentionPolicyActionsInitiateScreenRecordingDeleteRetention;
 }
@@ -1907,13 +1907,13 @@ export interface RecordingMediaRetentionPolicyActionsIntegrationExport {
   /**
   * The aws-s3-recording-bulk-actions-integration that the policy uses for exports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#integration_id RecordingMediaRetentionPolicy#integration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#integration_id RecordingMediaRetentionPolicy#integration_id}
   */
   readonly integrationId?: string;
   /**
   * True if the policy should export screen recordings in addition to the other conversation media. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#should_export_screen_recordings RecordingMediaRetentionPolicy#should_export_screen_recordings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#should_export_screen_recordings RecordingMediaRetentionPolicy#should_export_screen_recordings}
   */
   readonly shouldExportScreenRecordings?: boolean | cdktf.IResolvable;
 }
@@ -2026,15 +2026,15 @@ export class RecordingMediaRetentionPolicyActionsIntegrationExportOutputReferenc
 }
 export interface RecordingMediaRetentionPolicyActionsMediaTranscriptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#display_name RecordingMediaRetentionPolicy#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#display_name RecordingMediaRetentionPolicy#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#integration_id RecordingMediaRetentionPolicy#integration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#integration_id RecordingMediaRetentionPolicy#integration_id}
   */
   readonly integrationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#transcription_provider RecordingMediaRetentionPolicy#transcription_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#transcription_provider RecordingMediaRetentionPolicy#transcription_provider}
   */
   readonly transcriptionProvider?: string;
 }
@@ -2208,11 +2208,11 @@ export class RecordingMediaRetentionPolicyActionsMediaTranscriptionsList extends
 }
 export interface RecordingMediaRetentionPolicyActionsRetentionDurationArchiveRetention {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#days RecordingMediaRetentionPolicy#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#days RecordingMediaRetentionPolicy#days}
   */
   readonly days?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#storage_medium RecordingMediaRetentionPolicy#storage_medium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#storage_medium RecordingMediaRetentionPolicy#storage_medium}
   */
   readonly storageMedium?: string;
 }
@@ -2325,7 +2325,7 @@ export class RecordingMediaRetentionPolicyActionsRetentionDurationArchiveRetenti
 }
 export interface RecordingMediaRetentionPolicyActionsRetentionDurationDeleteRetention {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#days RecordingMediaRetentionPolicy#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#days RecordingMediaRetentionPolicy#days}
   */
   readonly days?: number;
 }
@@ -2411,13 +2411,13 @@ export interface RecordingMediaRetentionPolicyActionsRetentionDuration {
   /**
   * archive_retention block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#archive_retention RecordingMediaRetentionPolicy#archive_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#archive_retention RecordingMediaRetentionPolicy#archive_retention}
   */
   readonly archiveRetention?: RecordingMediaRetentionPolicyActionsRetentionDurationArchiveRetention;
   /**
   * delete_retention block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#delete_retention RecordingMediaRetentionPolicy#delete_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#delete_retention RecordingMediaRetentionPolicy#delete_retention}
   */
   readonly deleteRetention?: RecordingMediaRetentionPolicyActionsRetentionDurationDeleteRetention;
 }
@@ -2532,73 +2532,73 @@ export interface RecordingMediaRetentionPolicyActions {
   /**
   * true to delete the recording associated with the conversation regardless of the values of retainRecording or deleteRecording.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#always_delete RecordingMediaRetentionPolicy#always_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#always_delete RecordingMediaRetentionPolicy#always_delete}
   */
   readonly alwaysDelete?: boolean | cdktf.IResolvable;
   /**
   * true to delete the recording associated with the conversation. If retainRecording = true, this will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#delete_recording RecordingMediaRetentionPolicy#delete_recording}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#delete_recording RecordingMediaRetentionPolicy#delete_recording}
   */
   readonly deleteRecording?: boolean | cdktf.IResolvable;
   /**
   * true to retain the recording associated with the conversation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#retain_recording RecordingMediaRetentionPolicy#retain_recording}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#retain_recording RecordingMediaRetentionPolicy#retain_recording}
   */
   readonly retainRecording?: boolean | cdktf.IResolvable;
   /**
   * assign_calibrations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#assign_calibrations RecordingMediaRetentionPolicy#assign_calibrations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#assign_calibrations RecordingMediaRetentionPolicy#assign_calibrations}
   */
   readonly assignCalibrations?: RecordingMediaRetentionPolicyActionsAssignCalibrations[] | cdktf.IResolvable;
   /**
   * assign_evaluations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#assign_evaluations RecordingMediaRetentionPolicy#assign_evaluations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#assign_evaluations RecordingMediaRetentionPolicy#assign_evaluations}
   */
   readonly assignEvaluations?: RecordingMediaRetentionPolicyActionsAssignEvaluations[] | cdktf.IResolvable;
   /**
   * assign_metered_assignment_by_agent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#assign_metered_assignment_by_agent RecordingMediaRetentionPolicy#assign_metered_assignment_by_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#assign_metered_assignment_by_agent RecordingMediaRetentionPolicy#assign_metered_assignment_by_agent}
   */
   readonly assignMeteredAssignmentByAgent?: RecordingMediaRetentionPolicyActionsAssignMeteredAssignmentByAgent[] | cdktf.IResolvable;
   /**
   * assign_metered_evaluations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#assign_metered_evaluations RecordingMediaRetentionPolicy#assign_metered_evaluations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#assign_metered_evaluations RecordingMediaRetentionPolicy#assign_metered_evaluations}
   */
   readonly assignMeteredEvaluations?: RecordingMediaRetentionPolicyActionsAssignMeteredEvaluations[] | cdktf.IResolvable;
   /**
   * assign_surveys block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#assign_surveys RecordingMediaRetentionPolicy#assign_surveys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#assign_surveys RecordingMediaRetentionPolicy#assign_surveys}
   */
   readonly assignSurveys?: RecordingMediaRetentionPolicyActionsAssignSurveys[] | cdktf.IResolvable;
   /**
   * initiate_screen_recording block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#initiate_screen_recording RecordingMediaRetentionPolicy#initiate_screen_recording}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#initiate_screen_recording RecordingMediaRetentionPolicy#initiate_screen_recording}
   */
   readonly initiateScreenRecording?: RecordingMediaRetentionPolicyActionsInitiateScreenRecording;
   /**
   * integration_export block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#integration_export RecordingMediaRetentionPolicy#integration_export}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#integration_export RecordingMediaRetentionPolicy#integration_export}
   */
   readonly integrationExport?: RecordingMediaRetentionPolicyActionsIntegrationExport;
   /**
   * media_transcriptions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#media_transcriptions RecordingMediaRetentionPolicy#media_transcriptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#media_transcriptions RecordingMediaRetentionPolicy#media_transcriptions}
   */
   readonly mediaTranscriptions?: RecordingMediaRetentionPolicyActionsMediaTranscriptions[] | cdktf.IResolvable;
   /**
   * retention_duration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#retention_duration RecordingMediaRetentionPolicy#retention_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#retention_duration RecordingMediaRetentionPolicy#retention_duration}
   */
   readonly retentionDuration?: RecordingMediaRetentionPolicyActionsRetentionDuration;
 }
@@ -3001,19 +3001,19 @@ export class RecordingMediaRetentionPolicyActionsOutputReference extends cdktf.C
 }
 export interface RecordingMediaRetentionPolicyConditionsDuration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#duration_mode RecordingMediaRetentionPolicy#duration_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#duration_mode RecordingMediaRetentionPolicy#duration_mode}
   */
   readonly durationMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#duration_operator RecordingMediaRetentionPolicy#duration_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#duration_operator RecordingMediaRetentionPolicy#duration_operator}
   */
   readonly durationOperator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#duration_range RecordingMediaRetentionPolicy#duration_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#duration_range RecordingMediaRetentionPolicy#duration_range}
   */
   readonly durationRange?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#duration_target RecordingMediaRetentionPolicy#duration_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#duration_target RecordingMediaRetentionPolicy#duration_target}
   */
   readonly durationTarget?: string;
 }
@@ -3186,19 +3186,19 @@ export interface RecordingMediaRetentionPolicyConditionsTimeAllowedTimeSlots {
   /**
   * Day for this time slot, Monday = 1 ... Sunday = 7
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#day RecordingMediaRetentionPolicy#day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#day RecordingMediaRetentionPolicy#day}
   */
   readonly day?: number;
   /**
   * start time in xx:xx:xx.xxx format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#start_time RecordingMediaRetentionPolicy#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#start_time RecordingMediaRetentionPolicy#start_time}
   */
   readonly startTime?: string;
   /**
   * stop time in xx:xx:xx.xxx format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#stop_time RecordingMediaRetentionPolicy#stop_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#stop_time RecordingMediaRetentionPolicy#stop_time}
   */
   readonly stopTime?: string;
 }
@@ -3372,17 +3372,17 @@ export class RecordingMediaRetentionPolicyConditionsTimeAllowedTimeSlotsList ext
 }
 export interface RecordingMediaRetentionPolicyConditionsTimeAllowed {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#empty RecordingMediaRetentionPolicy#empty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#empty RecordingMediaRetentionPolicy#empty}
   */
   readonly empty?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#time_zone_id RecordingMediaRetentionPolicy#time_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#time_zone_id RecordingMediaRetentionPolicy#time_zone_id}
   */
   readonly timeZoneId?: string;
   /**
   * time_slots block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#time_slots RecordingMediaRetentionPolicy#time_slots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#time_slots RecordingMediaRetentionPolicy#time_slots}
   */
   readonly timeSlots?: RecordingMediaRetentionPolicyConditionsTimeAllowedTimeSlots[] | cdktf.IResolvable;
 }
@@ -3526,49 +3526,49 @@ export interface RecordingMediaRetentionPolicyConditions {
   /**
   * This condition is to filter out conversation with and without customer participation.Valid values: YES, NO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#customer_participation RecordingMediaRetentionPolicy#customer_participation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#customer_participation RecordingMediaRetentionPolicy#customer_participation}
   */
   readonly customerParticipation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#date_ranges RecordingMediaRetentionPolicy#date_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#date_ranges RecordingMediaRetentionPolicy#date_ranges}
   */
   readonly dateRanges?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#directions RecordingMediaRetentionPolicy#directions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#directions RecordingMediaRetentionPolicy#directions}
   */
   readonly directions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#for_queue_ids RecordingMediaRetentionPolicy#for_queue_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#for_queue_ids RecordingMediaRetentionPolicy#for_queue_ids}
   */
   readonly forQueueIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#for_user_ids RecordingMediaRetentionPolicy#for_user_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#for_user_ids RecordingMediaRetentionPolicy#for_user_ids}
   */
   readonly forUserIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#media_types RecordingMediaRetentionPolicy#media_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#media_types RecordingMediaRetentionPolicy#media_types}
   */
   readonly mediaTypes?: string[];
   /**
   * Teams to match conversations against
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#team_ids RecordingMediaRetentionPolicy#team_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#team_ids RecordingMediaRetentionPolicy#team_ids}
   */
   readonly teamIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#wrapup_code_ids RecordingMediaRetentionPolicy#wrapup_code_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#wrapup_code_ids RecordingMediaRetentionPolicy#wrapup_code_ids}
   */
   readonly wrapupCodeIds?: string[];
   /**
   * duration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#duration RecordingMediaRetentionPolicy#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#duration RecordingMediaRetentionPolicy#duration}
   */
   readonly duration?: RecordingMediaRetentionPolicyConditionsDuration;
   /**
   * time_allowed block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#time_allowed RecordingMediaRetentionPolicy#time_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#time_allowed RecordingMediaRetentionPolicy#time_allowed}
   */
   readonly timeAllowed?: RecordingMediaRetentionPolicyConditionsTimeAllowed;
 }
@@ -3913,19 +3913,19 @@ export class RecordingMediaRetentionPolicyConditionsOutputReference extends cdkt
 }
 export interface RecordingMediaRetentionPolicyMediaPoliciesCallPolicyActionsAssignCalibrations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#calibrator_id RecordingMediaRetentionPolicy#calibrator_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#calibrator_id RecordingMediaRetentionPolicy#calibrator_id}
   */
   readonly calibratorId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#evaluation_form_id RecordingMediaRetentionPolicy#evaluation_form_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#evaluation_form_id RecordingMediaRetentionPolicy#evaluation_form_id}
   */
   readonly evaluationFormId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#evaluator_ids RecordingMediaRetentionPolicy#evaluator_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#evaluator_ids RecordingMediaRetentionPolicy#evaluator_ids}
   */
   readonly evaluatorIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#expert_evaluator_id RecordingMediaRetentionPolicy#expert_evaluator_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#expert_evaluator_id RecordingMediaRetentionPolicy#expert_evaluator_id}
   */
   readonly expertEvaluatorId?: string;
 }
@@ -4128,11 +4128,11 @@ export class RecordingMediaRetentionPolicyMediaPoliciesCallPolicyActionsAssignCa
 }
 export interface RecordingMediaRetentionPolicyMediaPoliciesCallPolicyActionsAssignEvaluations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#evaluation_form_id RecordingMediaRetentionPolicy#evaluation_form_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#evaluation_form_id RecordingMediaRetentionPolicy#evaluation_form_id}
   */
   readonly evaluationFormId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#user_id RecordingMediaRetentionPolicy#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#user_id RecordingMediaRetentionPolicy#user_id}
   */
   readonly userId?: string;
 }
@@ -4277,19 +4277,19 @@ export class RecordingMediaRetentionPolicyMediaPoliciesCallPolicyActionsAssignEv
 }
 export interface RecordingMediaRetentionPolicyMediaPoliciesCallPolicyActionsAssignMeteredAssignmentByAgentTimeInterval {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#days RecordingMediaRetentionPolicy#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#days RecordingMediaRetentionPolicy#days}
   */
   readonly days?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#hours RecordingMediaRetentionPolicy#hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#hours RecordingMediaRetentionPolicy#hours}
   */
   readonly hours?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#months RecordingMediaRetentionPolicy#months}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#months RecordingMediaRetentionPolicy#months}
   */
   readonly months?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#weeks RecordingMediaRetentionPolicy#weeks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#weeks RecordingMediaRetentionPolicy#weeks}
   */
   readonly weeks?: number;
 }
@@ -4460,25 +4460,25 @@ export class RecordingMediaRetentionPolicyMediaPoliciesCallPolicyActionsAssignMe
 }
 export interface RecordingMediaRetentionPolicyMediaPoliciesCallPolicyActionsAssignMeteredAssignmentByAgent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#evaluation_form_id RecordingMediaRetentionPolicy#evaluation_form_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#evaluation_form_id RecordingMediaRetentionPolicy#evaluation_form_id}
   */
   readonly evaluationFormId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#evaluator_ids RecordingMediaRetentionPolicy#evaluator_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#evaluator_ids RecordingMediaRetentionPolicy#evaluator_ids}
   */
   readonly evaluatorIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#max_number_evaluations RecordingMediaRetentionPolicy#max_number_evaluations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#max_number_evaluations RecordingMediaRetentionPolicy#max_number_evaluations}
   */
   readonly maxNumberEvaluations?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#time_zone RecordingMediaRetentionPolicy#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#time_zone RecordingMediaRetentionPolicy#time_zone}
   */
   readonly timeZone?: string;
   /**
   * time_interval block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#time_interval RecordingMediaRetentionPolicy#time_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#time_interval RecordingMediaRetentionPolicy#time_interval}
   */
   readonly timeInterval?: RecordingMediaRetentionPolicyMediaPoliciesCallPolicyActionsAssignMeteredAssignmentByAgentTimeInterval;
 }
@@ -4710,19 +4710,19 @@ export class RecordingMediaRetentionPolicyMediaPoliciesCallPolicyActionsAssignMe
 }
 export interface RecordingMediaRetentionPolicyMediaPoliciesCallPolicyActionsAssignMeteredEvaluationsTimeInterval {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#days RecordingMediaRetentionPolicy#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#days RecordingMediaRetentionPolicy#days}
   */
   readonly days?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#hours RecordingMediaRetentionPolicy#hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#hours RecordingMediaRetentionPolicy#hours}
   */
   readonly hours?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#months RecordingMediaRetentionPolicy#months}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#months RecordingMediaRetentionPolicy#months}
   */
   readonly months?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#weeks RecordingMediaRetentionPolicy#weeks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#weeks RecordingMediaRetentionPolicy#weeks}
   */
   readonly weeks?: number;
 }
@@ -4893,25 +4893,25 @@ export class RecordingMediaRetentionPolicyMediaPoliciesCallPolicyActionsAssignMe
 }
 export interface RecordingMediaRetentionPolicyMediaPoliciesCallPolicyActionsAssignMeteredEvaluations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#assign_to_active_user RecordingMediaRetentionPolicy#assign_to_active_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#assign_to_active_user RecordingMediaRetentionPolicy#assign_to_active_user}
   */
   readonly assignToActiveUser?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#evaluation_form_id RecordingMediaRetentionPolicy#evaluation_form_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#evaluation_form_id RecordingMediaRetentionPolicy#evaluation_form_id}
   */
   readonly evaluationFormId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#evaluator_ids RecordingMediaRetentionPolicy#evaluator_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#evaluator_ids RecordingMediaRetentionPolicy#evaluator_ids}
   */
   readonly evaluatorIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#max_number_evaluations RecordingMediaRetentionPolicy#max_number_evaluations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#max_number_evaluations RecordingMediaRetentionPolicy#max_number_evaluations}
   */
   readonly maxNumberEvaluations?: number;
   /**
   * time_interval block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#time_interval RecordingMediaRetentionPolicy#time_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#time_interval RecordingMediaRetentionPolicy#time_interval}
   */
   readonly timeInterval?: RecordingMediaRetentionPolicyMediaPoliciesCallPolicyActionsAssignMeteredEvaluationsTimeInterval;
 }
@@ -5145,31 +5145,31 @@ export interface RecordingMediaRetentionPolicyMediaPoliciesCallPolicyActionsAssi
   /**
   * The UUID reference to the flow associated with this survey.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#flow_id RecordingMediaRetentionPolicy#flow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#flow_id RecordingMediaRetentionPolicy#flow_id}
   */
   readonly flowId?: string;
   /**
   * An ISO 8601 repeated interval consisting of the number of repetitions, the start datetime, and the interval (e.g. R2/2018-03-01T13:00:00Z/P1M10DT2H30M). Total duration must not exceed 90 days. Defaults to `R1/P0M`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#invite_time_interval RecordingMediaRetentionPolicy#invite_time_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#invite_time_interval RecordingMediaRetentionPolicy#invite_time_interval}
   */
   readonly inviteTimeInterval?: string;
   /**
   * Validated email domain, required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#sending_domain RecordingMediaRetentionPolicy#sending_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#sending_domain RecordingMediaRetentionPolicy#sending_domain}
   */
   readonly sendingDomain: string;
   /**
   * User together with sendingDomain used to send email, null to use no-reply
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#sending_user RecordingMediaRetentionPolicy#sending_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#sending_user RecordingMediaRetentionPolicy#sending_user}
   */
   readonly sendingUser?: string;
   /**
   * The survey form used for this survey.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#survey_form_name RecordingMediaRetentionPolicy#survey_form_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#survey_form_name RecordingMediaRetentionPolicy#survey_form_name}
   */
   readonly surveyFormName?: string;
 }
@@ -5398,11 +5398,11 @@ export class RecordingMediaRetentionPolicyMediaPoliciesCallPolicyActionsAssignSu
 }
 export interface RecordingMediaRetentionPolicyMediaPoliciesCallPolicyActionsInitiateScreenRecordingArchiveRetention {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#days RecordingMediaRetentionPolicy#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#days RecordingMediaRetentionPolicy#days}
   */
   readonly days?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#storage_medium RecordingMediaRetentionPolicy#storage_medium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#storage_medium RecordingMediaRetentionPolicy#storage_medium}
   */
   readonly storageMedium?: string;
 }
@@ -5515,7 +5515,7 @@ export class RecordingMediaRetentionPolicyMediaPoliciesCallPolicyActionsInitiate
 }
 export interface RecordingMediaRetentionPolicyMediaPoliciesCallPolicyActionsInitiateScreenRecordingDeleteRetention {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#days RecordingMediaRetentionPolicy#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#days RecordingMediaRetentionPolicy#days}
   */
   readonly days?: number;
 }
@@ -5599,19 +5599,19 @@ export class RecordingMediaRetentionPolicyMediaPoliciesCallPolicyActionsInitiate
 }
 export interface RecordingMediaRetentionPolicyMediaPoliciesCallPolicyActionsInitiateScreenRecording {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#record_acw RecordingMediaRetentionPolicy#record_acw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#record_acw RecordingMediaRetentionPolicy#record_acw}
   */
   readonly recordAcw?: boolean | cdktf.IResolvable;
   /**
   * archive_retention block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#archive_retention RecordingMediaRetentionPolicy#archive_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#archive_retention RecordingMediaRetentionPolicy#archive_retention}
   */
   readonly archiveRetention?: RecordingMediaRetentionPolicyMediaPoliciesCallPolicyActionsInitiateScreenRecordingArchiveRetention;
   /**
   * delete_retention block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#delete_retention RecordingMediaRetentionPolicy#delete_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#delete_retention RecordingMediaRetentionPolicy#delete_retention}
   */
   readonly deleteRetention?: RecordingMediaRetentionPolicyMediaPoliciesCallPolicyActionsInitiateScreenRecordingDeleteRetention;
 }
@@ -5755,13 +5755,13 @@ export interface RecordingMediaRetentionPolicyMediaPoliciesCallPolicyActionsInte
   /**
   * The aws-s3-recording-bulk-actions-integration that the policy uses for exports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#integration_id RecordingMediaRetentionPolicy#integration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#integration_id RecordingMediaRetentionPolicy#integration_id}
   */
   readonly integrationId?: string;
   /**
   * True if the policy should export screen recordings in addition to the other conversation media. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#should_export_screen_recordings RecordingMediaRetentionPolicy#should_export_screen_recordings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#should_export_screen_recordings RecordingMediaRetentionPolicy#should_export_screen_recordings}
   */
   readonly shouldExportScreenRecordings?: boolean | cdktf.IResolvable;
 }
@@ -5874,15 +5874,15 @@ export class RecordingMediaRetentionPolicyMediaPoliciesCallPolicyActionsIntegrat
 }
 export interface RecordingMediaRetentionPolicyMediaPoliciesCallPolicyActionsMediaTranscriptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#display_name RecordingMediaRetentionPolicy#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#display_name RecordingMediaRetentionPolicy#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#integration_id RecordingMediaRetentionPolicy#integration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#integration_id RecordingMediaRetentionPolicy#integration_id}
   */
   readonly integrationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#transcription_provider RecordingMediaRetentionPolicy#transcription_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#transcription_provider RecordingMediaRetentionPolicy#transcription_provider}
   */
   readonly transcriptionProvider?: string;
 }
@@ -6056,11 +6056,11 @@ export class RecordingMediaRetentionPolicyMediaPoliciesCallPolicyActionsMediaTra
 }
 export interface RecordingMediaRetentionPolicyMediaPoliciesCallPolicyActionsRetentionDurationArchiveRetention {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#days RecordingMediaRetentionPolicy#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#days RecordingMediaRetentionPolicy#days}
   */
   readonly days?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#storage_medium RecordingMediaRetentionPolicy#storage_medium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#storage_medium RecordingMediaRetentionPolicy#storage_medium}
   */
   readonly storageMedium?: string;
 }
@@ -6173,7 +6173,7 @@ export class RecordingMediaRetentionPolicyMediaPoliciesCallPolicyActionsRetentio
 }
 export interface RecordingMediaRetentionPolicyMediaPoliciesCallPolicyActionsRetentionDurationDeleteRetention {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#days RecordingMediaRetentionPolicy#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#days RecordingMediaRetentionPolicy#days}
   */
   readonly days?: number;
 }
@@ -6259,13 +6259,13 @@ export interface RecordingMediaRetentionPolicyMediaPoliciesCallPolicyActionsRete
   /**
   * archive_retention block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#archive_retention RecordingMediaRetentionPolicy#archive_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#archive_retention RecordingMediaRetentionPolicy#archive_retention}
   */
   readonly archiveRetention?: RecordingMediaRetentionPolicyMediaPoliciesCallPolicyActionsRetentionDurationArchiveRetention;
   /**
   * delete_retention block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#delete_retention RecordingMediaRetentionPolicy#delete_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#delete_retention RecordingMediaRetentionPolicy#delete_retention}
   */
   readonly deleteRetention?: RecordingMediaRetentionPolicyMediaPoliciesCallPolicyActionsRetentionDurationDeleteRetention;
 }
@@ -6380,73 +6380,73 @@ export interface RecordingMediaRetentionPolicyMediaPoliciesCallPolicyActions {
   /**
   * true to delete the recording associated with the conversation regardless of the values of retainRecording or deleteRecording.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#always_delete RecordingMediaRetentionPolicy#always_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#always_delete RecordingMediaRetentionPolicy#always_delete}
   */
   readonly alwaysDelete?: boolean | cdktf.IResolvable;
   /**
   * true to delete the recording associated with the conversation. If retainRecording = true, this will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#delete_recording RecordingMediaRetentionPolicy#delete_recording}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#delete_recording RecordingMediaRetentionPolicy#delete_recording}
   */
   readonly deleteRecording?: boolean | cdktf.IResolvable;
   /**
   * true to retain the recording associated with the conversation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#retain_recording RecordingMediaRetentionPolicy#retain_recording}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#retain_recording RecordingMediaRetentionPolicy#retain_recording}
   */
   readonly retainRecording?: boolean | cdktf.IResolvable;
   /**
   * assign_calibrations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#assign_calibrations RecordingMediaRetentionPolicy#assign_calibrations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#assign_calibrations RecordingMediaRetentionPolicy#assign_calibrations}
   */
   readonly assignCalibrations?: RecordingMediaRetentionPolicyMediaPoliciesCallPolicyActionsAssignCalibrations[] | cdktf.IResolvable;
   /**
   * assign_evaluations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#assign_evaluations RecordingMediaRetentionPolicy#assign_evaluations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#assign_evaluations RecordingMediaRetentionPolicy#assign_evaluations}
   */
   readonly assignEvaluations?: RecordingMediaRetentionPolicyMediaPoliciesCallPolicyActionsAssignEvaluations[] | cdktf.IResolvable;
   /**
   * assign_metered_assignment_by_agent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#assign_metered_assignment_by_agent RecordingMediaRetentionPolicy#assign_metered_assignment_by_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#assign_metered_assignment_by_agent RecordingMediaRetentionPolicy#assign_metered_assignment_by_agent}
   */
   readonly assignMeteredAssignmentByAgent?: RecordingMediaRetentionPolicyMediaPoliciesCallPolicyActionsAssignMeteredAssignmentByAgent[] | cdktf.IResolvable;
   /**
   * assign_metered_evaluations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#assign_metered_evaluations RecordingMediaRetentionPolicy#assign_metered_evaluations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#assign_metered_evaluations RecordingMediaRetentionPolicy#assign_metered_evaluations}
   */
   readonly assignMeteredEvaluations?: RecordingMediaRetentionPolicyMediaPoliciesCallPolicyActionsAssignMeteredEvaluations[] | cdktf.IResolvable;
   /**
   * assign_surveys block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#assign_surveys RecordingMediaRetentionPolicy#assign_surveys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#assign_surveys RecordingMediaRetentionPolicy#assign_surveys}
   */
   readonly assignSurveys?: RecordingMediaRetentionPolicyMediaPoliciesCallPolicyActionsAssignSurveys[] | cdktf.IResolvable;
   /**
   * initiate_screen_recording block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#initiate_screen_recording RecordingMediaRetentionPolicy#initiate_screen_recording}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#initiate_screen_recording RecordingMediaRetentionPolicy#initiate_screen_recording}
   */
   readonly initiateScreenRecording?: RecordingMediaRetentionPolicyMediaPoliciesCallPolicyActionsInitiateScreenRecording;
   /**
   * integration_export block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#integration_export RecordingMediaRetentionPolicy#integration_export}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#integration_export RecordingMediaRetentionPolicy#integration_export}
   */
   readonly integrationExport?: RecordingMediaRetentionPolicyMediaPoliciesCallPolicyActionsIntegrationExport;
   /**
   * media_transcriptions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#media_transcriptions RecordingMediaRetentionPolicy#media_transcriptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#media_transcriptions RecordingMediaRetentionPolicy#media_transcriptions}
   */
   readonly mediaTranscriptions?: RecordingMediaRetentionPolicyMediaPoliciesCallPolicyActionsMediaTranscriptions[] | cdktf.IResolvable;
   /**
   * retention_duration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#retention_duration RecordingMediaRetentionPolicy#retention_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#retention_duration RecordingMediaRetentionPolicy#retention_duration}
   */
   readonly retentionDuration?: RecordingMediaRetentionPolicyMediaPoliciesCallPolicyActionsRetentionDuration;
 }
@@ -6849,19 +6849,19 @@ export class RecordingMediaRetentionPolicyMediaPoliciesCallPolicyActionsOutputRe
 }
 export interface RecordingMediaRetentionPolicyMediaPoliciesCallPolicyConditionsDuration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#duration_mode RecordingMediaRetentionPolicy#duration_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#duration_mode RecordingMediaRetentionPolicy#duration_mode}
   */
   readonly durationMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#duration_operator RecordingMediaRetentionPolicy#duration_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#duration_operator RecordingMediaRetentionPolicy#duration_operator}
   */
   readonly durationOperator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#duration_range RecordingMediaRetentionPolicy#duration_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#duration_range RecordingMediaRetentionPolicy#duration_range}
   */
   readonly durationRange?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#duration_target RecordingMediaRetentionPolicy#duration_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#duration_target RecordingMediaRetentionPolicy#duration_target}
   */
   readonly durationTarget?: string;
 }
@@ -7034,19 +7034,19 @@ export interface RecordingMediaRetentionPolicyMediaPoliciesCallPolicyConditionsT
   /**
   * Day for this time slot, Monday = 1 ... Sunday = 7
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#day RecordingMediaRetentionPolicy#day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#day RecordingMediaRetentionPolicy#day}
   */
   readonly day?: number;
   /**
   * start time in xx:xx:xx.xxx format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#start_time RecordingMediaRetentionPolicy#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#start_time RecordingMediaRetentionPolicy#start_time}
   */
   readonly startTime?: string;
   /**
   * stop time in xx:xx:xx.xxx format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#stop_time RecordingMediaRetentionPolicy#stop_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#stop_time RecordingMediaRetentionPolicy#stop_time}
   */
   readonly stopTime?: string;
 }
@@ -7220,17 +7220,17 @@ export class RecordingMediaRetentionPolicyMediaPoliciesCallPolicyConditionsTimeA
 }
 export interface RecordingMediaRetentionPolicyMediaPoliciesCallPolicyConditionsTimeAllowed {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#empty RecordingMediaRetentionPolicy#empty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#empty RecordingMediaRetentionPolicy#empty}
   */
   readonly empty?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#time_zone_id RecordingMediaRetentionPolicy#time_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#time_zone_id RecordingMediaRetentionPolicy#time_zone_id}
   */
   readonly timeZoneId?: string;
   /**
   * time_slots block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#time_slots RecordingMediaRetentionPolicy#time_slots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#time_slots RecordingMediaRetentionPolicy#time_slots}
   */
   readonly timeSlots?: RecordingMediaRetentionPolicyMediaPoliciesCallPolicyConditionsTimeAllowedTimeSlots[] | cdktf.IResolvable;
 }
@@ -7372,45 +7372,45 @@ export class RecordingMediaRetentionPolicyMediaPoliciesCallPolicyConditionsTimeA
 }
 export interface RecordingMediaRetentionPolicyMediaPoliciesCallPolicyConditions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#date_ranges RecordingMediaRetentionPolicy#date_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#date_ranges RecordingMediaRetentionPolicy#date_ranges}
   */
   readonly dateRanges?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#directions RecordingMediaRetentionPolicy#directions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#directions RecordingMediaRetentionPolicy#directions}
   */
   readonly directions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#for_queue_ids RecordingMediaRetentionPolicy#for_queue_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#for_queue_ids RecordingMediaRetentionPolicy#for_queue_ids}
   */
   readonly forQueueIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#for_user_ids RecordingMediaRetentionPolicy#for_user_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#for_user_ids RecordingMediaRetentionPolicy#for_user_ids}
   */
   readonly forUserIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#language_ids RecordingMediaRetentionPolicy#language_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#language_ids RecordingMediaRetentionPolicy#language_ids}
   */
   readonly languageIds?: string[];
   /**
   * Teams to match conversations against
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#team_ids RecordingMediaRetentionPolicy#team_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#team_ids RecordingMediaRetentionPolicy#team_ids}
   */
   readonly teamIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#wrapup_code_ids RecordingMediaRetentionPolicy#wrapup_code_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#wrapup_code_ids RecordingMediaRetentionPolicy#wrapup_code_ids}
   */
   readonly wrapupCodeIds?: string[];
   /**
   * duration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#duration RecordingMediaRetentionPolicy#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#duration RecordingMediaRetentionPolicy#duration}
   */
   readonly duration?: RecordingMediaRetentionPolicyMediaPoliciesCallPolicyConditionsDuration;
   /**
   * time_allowed block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#time_allowed RecordingMediaRetentionPolicy#time_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#time_allowed RecordingMediaRetentionPolicy#time_allowed}
   */
   readonly timeAllowed?: RecordingMediaRetentionPolicyMediaPoliciesCallPolicyConditionsTimeAllowed;
 }
@@ -7728,13 +7728,13 @@ export interface RecordingMediaRetentionPolicyMediaPoliciesCallPolicy {
   /**
   * actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#actions RecordingMediaRetentionPolicy#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#actions RecordingMediaRetentionPolicy#actions}
   */
   readonly actions?: RecordingMediaRetentionPolicyMediaPoliciesCallPolicyActions;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#conditions RecordingMediaRetentionPolicy#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#conditions RecordingMediaRetentionPolicy#conditions}
   */
   readonly conditions?: RecordingMediaRetentionPolicyMediaPoliciesCallPolicyConditions;
 }
@@ -7847,19 +7847,19 @@ export class RecordingMediaRetentionPolicyMediaPoliciesCallPolicyOutputReference
 }
 export interface RecordingMediaRetentionPolicyMediaPoliciesChatPolicyActionsAssignCalibrations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#calibrator_id RecordingMediaRetentionPolicy#calibrator_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#calibrator_id RecordingMediaRetentionPolicy#calibrator_id}
   */
   readonly calibratorId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#evaluation_form_id RecordingMediaRetentionPolicy#evaluation_form_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#evaluation_form_id RecordingMediaRetentionPolicy#evaluation_form_id}
   */
   readonly evaluationFormId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#evaluator_ids RecordingMediaRetentionPolicy#evaluator_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#evaluator_ids RecordingMediaRetentionPolicy#evaluator_ids}
   */
   readonly evaluatorIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#expert_evaluator_id RecordingMediaRetentionPolicy#expert_evaluator_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#expert_evaluator_id RecordingMediaRetentionPolicy#expert_evaluator_id}
   */
   readonly expertEvaluatorId?: string;
 }
@@ -8062,11 +8062,11 @@ export class RecordingMediaRetentionPolicyMediaPoliciesChatPolicyActionsAssignCa
 }
 export interface RecordingMediaRetentionPolicyMediaPoliciesChatPolicyActionsAssignEvaluations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#evaluation_form_id RecordingMediaRetentionPolicy#evaluation_form_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#evaluation_form_id RecordingMediaRetentionPolicy#evaluation_form_id}
   */
   readonly evaluationFormId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#user_id RecordingMediaRetentionPolicy#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#user_id RecordingMediaRetentionPolicy#user_id}
   */
   readonly userId?: string;
 }
@@ -8211,19 +8211,19 @@ export class RecordingMediaRetentionPolicyMediaPoliciesChatPolicyActionsAssignEv
 }
 export interface RecordingMediaRetentionPolicyMediaPoliciesChatPolicyActionsAssignMeteredAssignmentByAgentTimeInterval {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#days RecordingMediaRetentionPolicy#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#days RecordingMediaRetentionPolicy#days}
   */
   readonly days?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#hours RecordingMediaRetentionPolicy#hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#hours RecordingMediaRetentionPolicy#hours}
   */
   readonly hours?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#months RecordingMediaRetentionPolicy#months}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#months RecordingMediaRetentionPolicy#months}
   */
   readonly months?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#weeks RecordingMediaRetentionPolicy#weeks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#weeks RecordingMediaRetentionPolicy#weeks}
   */
   readonly weeks?: number;
 }
@@ -8394,25 +8394,25 @@ export class RecordingMediaRetentionPolicyMediaPoliciesChatPolicyActionsAssignMe
 }
 export interface RecordingMediaRetentionPolicyMediaPoliciesChatPolicyActionsAssignMeteredAssignmentByAgent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#evaluation_form_id RecordingMediaRetentionPolicy#evaluation_form_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#evaluation_form_id RecordingMediaRetentionPolicy#evaluation_form_id}
   */
   readonly evaluationFormId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#evaluator_ids RecordingMediaRetentionPolicy#evaluator_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#evaluator_ids RecordingMediaRetentionPolicy#evaluator_ids}
   */
   readonly evaluatorIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#max_number_evaluations RecordingMediaRetentionPolicy#max_number_evaluations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#max_number_evaluations RecordingMediaRetentionPolicy#max_number_evaluations}
   */
   readonly maxNumberEvaluations?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#time_zone RecordingMediaRetentionPolicy#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#time_zone RecordingMediaRetentionPolicy#time_zone}
   */
   readonly timeZone?: string;
   /**
   * time_interval block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#time_interval RecordingMediaRetentionPolicy#time_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#time_interval RecordingMediaRetentionPolicy#time_interval}
   */
   readonly timeInterval?: RecordingMediaRetentionPolicyMediaPoliciesChatPolicyActionsAssignMeteredAssignmentByAgentTimeInterval;
 }
@@ -8644,19 +8644,19 @@ export class RecordingMediaRetentionPolicyMediaPoliciesChatPolicyActionsAssignMe
 }
 export interface RecordingMediaRetentionPolicyMediaPoliciesChatPolicyActionsAssignMeteredEvaluationsTimeInterval {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#days RecordingMediaRetentionPolicy#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#days RecordingMediaRetentionPolicy#days}
   */
   readonly days?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#hours RecordingMediaRetentionPolicy#hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#hours RecordingMediaRetentionPolicy#hours}
   */
   readonly hours?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#months RecordingMediaRetentionPolicy#months}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#months RecordingMediaRetentionPolicy#months}
   */
   readonly months?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#weeks RecordingMediaRetentionPolicy#weeks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#weeks RecordingMediaRetentionPolicy#weeks}
   */
   readonly weeks?: number;
 }
@@ -8827,25 +8827,25 @@ export class RecordingMediaRetentionPolicyMediaPoliciesChatPolicyActionsAssignMe
 }
 export interface RecordingMediaRetentionPolicyMediaPoliciesChatPolicyActionsAssignMeteredEvaluations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#assign_to_active_user RecordingMediaRetentionPolicy#assign_to_active_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#assign_to_active_user RecordingMediaRetentionPolicy#assign_to_active_user}
   */
   readonly assignToActiveUser?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#evaluation_form_id RecordingMediaRetentionPolicy#evaluation_form_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#evaluation_form_id RecordingMediaRetentionPolicy#evaluation_form_id}
   */
   readonly evaluationFormId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#evaluator_ids RecordingMediaRetentionPolicy#evaluator_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#evaluator_ids RecordingMediaRetentionPolicy#evaluator_ids}
   */
   readonly evaluatorIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#max_number_evaluations RecordingMediaRetentionPolicy#max_number_evaluations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#max_number_evaluations RecordingMediaRetentionPolicy#max_number_evaluations}
   */
   readonly maxNumberEvaluations?: number;
   /**
   * time_interval block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#time_interval RecordingMediaRetentionPolicy#time_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#time_interval RecordingMediaRetentionPolicy#time_interval}
   */
   readonly timeInterval?: RecordingMediaRetentionPolicyMediaPoliciesChatPolicyActionsAssignMeteredEvaluationsTimeInterval;
 }
@@ -9079,31 +9079,31 @@ export interface RecordingMediaRetentionPolicyMediaPoliciesChatPolicyActionsAssi
   /**
   * The UUID reference to the flow associated with this survey.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#flow_id RecordingMediaRetentionPolicy#flow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#flow_id RecordingMediaRetentionPolicy#flow_id}
   */
   readonly flowId?: string;
   /**
   * An ISO 8601 repeated interval consisting of the number of repetitions, the start datetime, and the interval (e.g. R2/2018-03-01T13:00:00Z/P1M10DT2H30M). Total duration must not exceed 90 days. Defaults to `R1/P0M`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#invite_time_interval RecordingMediaRetentionPolicy#invite_time_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#invite_time_interval RecordingMediaRetentionPolicy#invite_time_interval}
   */
   readonly inviteTimeInterval?: string;
   /**
   * Validated email domain, required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#sending_domain RecordingMediaRetentionPolicy#sending_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#sending_domain RecordingMediaRetentionPolicy#sending_domain}
   */
   readonly sendingDomain: string;
   /**
   * User together with sendingDomain used to send email, null to use no-reply
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#sending_user RecordingMediaRetentionPolicy#sending_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#sending_user RecordingMediaRetentionPolicy#sending_user}
   */
   readonly sendingUser?: string;
   /**
   * The survey form used for this survey.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#survey_form_name RecordingMediaRetentionPolicy#survey_form_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#survey_form_name RecordingMediaRetentionPolicy#survey_form_name}
   */
   readonly surveyFormName?: string;
 }
@@ -9332,11 +9332,11 @@ export class RecordingMediaRetentionPolicyMediaPoliciesChatPolicyActionsAssignSu
 }
 export interface RecordingMediaRetentionPolicyMediaPoliciesChatPolicyActionsInitiateScreenRecordingArchiveRetention {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#days RecordingMediaRetentionPolicy#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#days RecordingMediaRetentionPolicy#days}
   */
   readonly days?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#storage_medium RecordingMediaRetentionPolicy#storage_medium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#storage_medium RecordingMediaRetentionPolicy#storage_medium}
   */
   readonly storageMedium?: string;
 }
@@ -9449,7 +9449,7 @@ export class RecordingMediaRetentionPolicyMediaPoliciesChatPolicyActionsInitiate
 }
 export interface RecordingMediaRetentionPolicyMediaPoliciesChatPolicyActionsInitiateScreenRecordingDeleteRetention {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#days RecordingMediaRetentionPolicy#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#days RecordingMediaRetentionPolicy#days}
   */
   readonly days?: number;
 }
@@ -9533,19 +9533,19 @@ export class RecordingMediaRetentionPolicyMediaPoliciesChatPolicyActionsInitiate
 }
 export interface RecordingMediaRetentionPolicyMediaPoliciesChatPolicyActionsInitiateScreenRecording {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#record_acw RecordingMediaRetentionPolicy#record_acw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#record_acw RecordingMediaRetentionPolicy#record_acw}
   */
   readonly recordAcw?: boolean | cdktf.IResolvable;
   /**
   * archive_retention block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#archive_retention RecordingMediaRetentionPolicy#archive_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#archive_retention RecordingMediaRetentionPolicy#archive_retention}
   */
   readonly archiveRetention?: RecordingMediaRetentionPolicyMediaPoliciesChatPolicyActionsInitiateScreenRecordingArchiveRetention;
   /**
   * delete_retention block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#delete_retention RecordingMediaRetentionPolicy#delete_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#delete_retention RecordingMediaRetentionPolicy#delete_retention}
   */
   readonly deleteRetention?: RecordingMediaRetentionPolicyMediaPoliciesChatPolicyActionsInitiateScreenRecordingDeleteRetention;
 }
@@ -9689,13 +9689,13 @@ export interface RecordingMediaRetentionPolicyMediaPoliciesChatPolicyActionsInte
   /**
   * The aws-s3-recording-bulk-actions-integration that the policy uses for exports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#integration_id RecordingMediaRetentionPolicy#integration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#integration_id RecordingMediaRetentionPolicy#integration_id}
   */
   readonly integrationId?: string;
   /**
   * True if the policy should export screen recordings in addition to the other conversation media. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#should_export_screen_recordings RecordingMediaRetentionPolicy#should_export_screen_recordings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#should_export_screen_recordings RecordingMediaRetentionPolicy#should_export_screen_recordings}
   */
   readonly shouldExportScreenRecordings?: boolean | cdktf.IResolvable;
 }
@@ -9808,15 +9808,15 @@ export class RecordingMediaRetentionPolicyMediaPoliciesChatPolicyActionsIntegrat
 }
 export interface RecordingMediaRetentionPolicyMediaPoliciesChatPolicyActionsMediaTranscriptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#display_name RecordingMediaRetentionPolicy#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#display_name RecordingMediaRetentionPolicy#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#integration_id RecordingMediaRetentionPolicy#integration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#integration_id RecordingMediaRetentionPolicy#integration_id}
   */
   readonly integrationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#transcription_provider RecordingMediaRetentionPolicy#transcription_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#transcription_provider RecordingMediaRetentionPolicy#transcription_provider}
   */
   readonly transcriptionProvider?: string;
 }
@@ -9990,11 +9990,11 @@ export class RecordingMediaRetentionPolicyMediaPoliciesChatPolicyActionsMediaTra
 }
 export interface RecordingMediaRetentionPolicyMediaPoliciesChatPolicyActionsRetentionDurationArchiveRetention {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#days RecordingMediaRetentionPolicy#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#days RecordingMediaRetentionPolicy#days}
   */
   readonly days?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#storage_medium RecordingMediaRetentionPolicy#storage_medium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#storage_medium RecordingMediaRetentionPolicy#storage_medium}
   */
   readonly storageMedium?: string;
 }
@@ -10107,7 +10107,7 @@ export class RecordingMediaRetentionPolicyMediaPoliciesChatPolicyActionsRetentio
 }
 export interface RecordingMediaRetentionPolicyMediaPoliciesChatPolicyActionsRetentionDurationDeleteRetention {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#days RecordingMediaRetentionPolicy#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#days RecordingMediaRetentionPolicy#days}
   */
   readonly days?: number;
 }
@@ -10193,13 +10193,13 @@ export interface RecordingMediaRetentionPolicyMediaPoliciesChatPolicyActionsRete
   /**
   * archive_retention block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#archive_retention RecordingMediaRetentionPolicy#archive_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#archive_retention RecordingMediaRetentionPolicy#archive_retention}
   */
   readonly archiveRetention?: RecordingMediaRetentionPolicyMediaPoliciesChatPolicyActionsRetentionDurationArchiveRetention;
   /**
   * delete_retention block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#delete_retention RecordingMediaRetentionPolicy#delete_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#delete_retention RecordingMediaRetentionPolicy#delete_retention}
   */
   readonly deleteRetention?: RecordingMediaRetentionPolicyMediaPoliciesChatPolicyActionsRetentionDurationDeleteRetention;
 }
@@ -10314,73 +10314,73 @@ export interface RecordingMediaRetentionPolicyMediaPoliciesChatPolicyActions {
   /**
   * true to delete the recording associated with the conversation regardless of the values of retainRecording or deleteRecording.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#always_delete RecordingMediaRetentionPolicy#always_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#always_delete RecordingMediaRetentionPolicy#always_delete}
   */
   readonly alwaysDelete?: boolean | cdktf.IResolvable;
   /**
   * true to delete the recording associated with the conversation. If retainRecording = true, this will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#delete_recording RecordingMediaRetentionPolicy#delete_recording}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#delete_recording RecordingMediaRetentionPolicy#delete_recording}
   */
   readonly deleteRecording?: boolean | cdktf.IResolvable;
   /**
   * true to retain the recording associated with the conversation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#retain_recording RecordingMediaRetentionPolicy#retain_recording}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#retain_recording RecordingMediaRetentionPolicy#retain_recording}
   */
   readonly retainRecording?: boolean | cdktf.IResolvable;
   /**
   * assign_calibrations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#assign_calibrations RecordingMediaRetentionPolicy#assign_calibrations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#assign_calibrations RecordingMediaRetentionPolicy#assign_calibrations}
   */
   readonly assignCalibrations?: RecordingMediaRetentionPolicyMediaPoliciesChatPolicyActionsAssignCalibrations[] | cdktf.IResolvable;
   /**
   * assign_evaluations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#assign_evaluations RecordingMediaRetentionPolicy#assign_evaluations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#assign_evaluations RecordingMediaRetentionPolicy#assign_evaluations}
   */
   readonly assignEvaluations?: RecordingMediaRetentionPolicyMediaPoliciesChatPolicyActionsAssignEvaluations[] | cdktf.IResolvable;
   /**
   * assign_metered_assignment_by_agent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#assign_metered_assignment_by_agent RecordingMediaRetentionPolicy#assign_metered_assignment_by_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#assign_metered_assignment_by_agent RecordingMediaRetentionPolicy#assign_metered_assignment_by_agent}
   */
   readonly assignMeteredAssignmentByAgent?: RecordingMediaRetentionPolicyMediaPoliciesChatPolicyActionsAssignMeteredAssignmentByAgent[] | cdktf.IResolvable;
   /**
   * assign_metered_evaluations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#assign_metered_evaluations RecordingMediaRetentionPolicy#assign_metered_evaluations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#assign_metered_evaluations RecordingMediaRetentionPolicy#assign_metered_evaluations}
   */
   readonly assignMeteredEvaluations?: RecordingMediaRetentionPolicyMediaPoliciesChatPolicyActionsAssignMeteredEvaluations[] | cdktf.IResolvable;
   /**
   * assign_surveys block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#assign_surveys RecordingMediaRetentionPolicy#assign_surveys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#assign_surveys RecordingMediaRetentionPolicy#assign_surveys}
   */
   readonly assignSurveys?: RecordingMediaRetentionPolicyMediaPoliciesChatPolicyActionsAssignSurveys[] | cdktf.IResolvable;
   /**
   * initiate_screen_recording block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#initiate_screen_recording RecordingMediaRetentionPolicy#initiate_screen_recording}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#initiate_screen_recording RecordingMediaRetentionPolicy#initiate_screen_recording}
   */
   readonly initiateScreenRecording?: RecordingMediaRetentionPolicyMediaPoliciesChatPolicyActionsInitiateScreenRecording;
   /**
   * integration_export block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#integration_export RecordingMediaRetentionPolicy#integration_export}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#integration_export RecordingMediaRetentionPolicy#integration_export}
   */
   readonly integrationExport?: RecordingMediaRetentionPolicyMediaPoliciesChatPolicyActionsIntegrationExport;
   /**
   * media_transcriptions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#media_transcriptions RecordingMediaRetentionPolicy#media_transcriptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#media_transcriptions RecordingMediaRetentionPolicy#media_transcriptions}
   */
   readonly mediaTranscriptions?: RecordingMediaRetentionPolicyMediaPoliciesChatPolicyActionsMediaTranscriptions[] | cdktf.IResolvable;
   /**
   * retention_duration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#retention_duration RecordingMediaRetentionPolicy#retention_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#retention_duration RecordingMediaRetentionPolicy#retention_duration}
   */
   readonly retentionDuration?: RecordingMediaRetentionPolicyMediaPoliciesChatPolicyActionsRetentionDuration;
 }
@@ -10783,19 +10783,19 @@ export class RecordingMediaRetentionPolicyMediaPoliciesChatPolicyActionsOutputRe
 }
 export interface RecordingMediaRetentionPolicyMediaPoliciesChatPolicyConditionsDuration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#duration_mode RecordingMediaRetentionPolicy#duration_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#duration_mode RecordingMediaRetentionPolicy#duration_mode}
   */
   readonly durationMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#duration_operator RecordingMediaRetentionPolicy#duration_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#duration_operator RecordingMediaRetentionPolicy#duration_operator}
   */
   readonly durationOperator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#duration_range RecordingMediaRetentionPolicy#duration_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#duration_range RecordingMediaRetentionPolicy#duration_range}
   */
   readonly durationRange?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#duration_target RecordingMediaRetentionPolicy#duration_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#duration_target RecordingMediaRetentionPolicy#duration_target}
   */
   readonly durationTarget?: string;
 }
@@ -10968,19 +10968,19 @@ export interface RecordingMediaRetentionPolicyMediaPoliciesChatPolicyConditionsT
   /**
   * Day for this time slot, Monday = 1 ... Sunday = 7
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#day RecordingMediaRetentionPolicy#day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#day RecordingMediaRetentionPolicy#day}
   */
   readonly day?: number;
   /**
   * start time in xx:xx:xx.xxx format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#start_time RecordingMediaRetentionPolicy#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#start_time RecordingMediaRetentionPolicy#start_time}
   */
   readonly startTime?: string;
   /**
   * stop time in xx:xx:xx.xxx format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#stop_time RecordingMediaRetentionPolicy#stop_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#stop_time RecordingMediaRetentionPolicy#stop_time}
   */
   readonly stopTime?: string;
 }
@@ -11154,17 +11154,17 @@ export class RecordingMediaRetentionPolicyMediaPoliciesChatPolicyConditionsTimeA
 }
 export interface RecordingMediaRetentionPolicyMediaPoliciesChatPolicyConditionsTimeAllowed {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#empty RecordingMediaRetentionPolicy#empty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#empty RecordingMediaRetentionPolicy#empty}
   */
   readonly empty?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#time_zone_id RecordingMediaRetentionPolicy#time_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#time_zone_id RecordingMediaRetentionPolicy#time_zone_id}
   */
   readonly timeZoneId?: string;
   /**
   * time_slots block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#time_slots RecordingMediaRetentionPolicy#time_slots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#time_slots RecordingMediaRetentionPolicy#time_slots}
   */
   readonly timeSlots?: RecordingMediaRetentionPolicyMediaPoliciesChatPolicyConditionsTimeAllowedTimeSlots[] | cdktf.IResolvable;
 }
@@ -11306,41 +11306,41 @@ export class RecordingMediaRetentionPolicyMediaPoliciesChatPolicyConditionsTimeA
 }
 export interface RecordingMediaRetentionPolicyMediaPoliciesChatPolicyConditions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#date_ranges RecordingMediaRetentionPolicy#date_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#date_ranges RecordingMediaRetentionPolicy#date_ranges}
   */
   readonly dateRanges?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#for_queue_ids RecordingMediaRetentionPolicy#for_queue_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#for_queue_ids RecordingMediaRetentionPolicy#for_queue_ids}
   */
   readonly forQueueIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#for_user_ids RecordingMediaRetentionPolicy#for_user_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#for_user_ids RecordingMediaRetentionPolicy#for_user_ids}
   */
   readonly forUserIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#language_ids RecordingMediaRetentionPolicy#language_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#language_ids RecordingMediaRetentionPolicy#language_ids}
   */
   readonly languageIds?: string[];
   /**
   * Teams to match conversations against
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#team_ids RecordingMediaRetentionPolicy#team_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#team_ids RecordingMediaRetentionPolicy#team_ids}
   */
   readonly teamIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#wrapup_code_ids RecordingMediaRetentionPolicy#wrapup_code_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#wrapup_code_ids RecordingMediaRetentionPolicy#wrapup_code_ids}
   */
   readonly wrapupCodeIds?: string[];
   /**
   * duration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#duration RecordingMediaRetentionPolicy#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#duration RecordingMediaRetentionPolicy#duration}
   */
   readonly duration?: RecordingMediaRetentionPolicyMediaPoliciesChatPolicyConditionsDuration;
   /**
   * time_allowed block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#time_allowed RecordingMediaRetentionPolicy#time_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#time_allowed RecordingMediaRetentionPolicy#time_allowed}
   */
   readonly timeAllowed?: RecordingMediaRetentionPolicyMediaPoliciesChatPolicyConditionsTimeAllowed;
 }
@@ -11629,13 +11629,13 @@ export interface RecordingMediaRetentionPolicyMediaPoliciesChatPolicy {
   /**
   * actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#actions RecordingMediaRetentionPolicy#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#actions RecordingMediaRetentionPolicy#actions}
   */
   readonly actions?: RecordingMediaRetentionPolicyMediaPoliciesChatPolicyActions;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#conditions RecordingMediaRetentionPolicy#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#conditions RecordingMediaRetentionPolicy#conditions}
   */
   readonly conditions?: RecordingMediaRetentionPolicyMediaPoliciesChatPolicyConditions;
 }
@@ -11748,19 +11748,19 @@ export class RecordingMediaRetentionPolicyMediaPoliciesChatPolicyOutputReference
 }
 export interface RecordingMediaRetentionPolicyMediaPoliciesEmailPolicyActionsAssignCalibrations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#calibrator_id RecordingMediaRetentionPolicy#calibrator_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#calibrator_id RecordingMediaRetentionPolicy#calibrator_id}
   */
   readonly calibratorId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#evaluation_form_id RecordingMediaRetentionPolicy#evaluation_form_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#evaluation_form_id RecordingMediaRetentionPolicy#evaluation_form_id}
   */
   readonly evaluationFormId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#evaluator_ids RecordingMediaRetentionPolicy#evaluator_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#evaluator_ids RecordingMediaRetentionPolicy#evaluator_ids}
   */
   readonly evaluatorIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#expert_evaluator_id RecordingMediaRetentionPolicy#expert_evaluator_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#expert_evaluator_id RecordingMediaRetentionPolicy#expert_evaluator_id}
   */
   readonly expertEvaluatorId?: string;
 }
@@ -11963,11 +11963,11 @@ export class RecordingMediaRetentionPolicyMediaPoliciesEmailPolicyActionsAssignC
 }
 export interface RecordingMediaRetentionPolicyMediaPoliciesEmailPolicyActionsAssignEvaluations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#evaluation_form_id RecordingMediaRetentionPolicy#evaluation_form_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#evaluation_form_id RecordingMediaRetentionPolicy#evaluation_form_id}
   */
   readonly evaluationFormId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#user_id RecordingMediaRetentionPolicy#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#user_id RecordingMediaRetentionPolicy#user_id}
   */
   readonly userId?: string;
 }
@@ -12112,19 +12112,19 @@ export class RecordingMediaRetentionPolicyMediaPoliciesEmailPolicyActionsAssignE
 }
 export interface RecordingMediaRetentionPolicyMediaPoliciesEmailPolicyActionsAssignMeteredAssignmentByAgentTimeInterval {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#days RecordingMediaRetentionPolicy#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#days RecordingMediaRetentionPolicy#days}
   */
   readonly days?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#hours RecordingMediaRetentionPolicy#hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#hours RecordingMediaRetentionPolicy#hours}
   */
   readonly hours?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#months RecordingMediaRetentionPolicy#months}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#months RecordingMediaRetentionPolicy#months}
   */
   readonly months?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#weeks RecordingMediaRetentionPolicy#weeks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#weeks RecordingMediaRetentionPolicy#weeks}
   */
   readonly weeks?: number;
 }
@@ -12295,25 +12295,25 @@ export class RecordingMediaRetentionPolicyMediaPoliciesEmailPolicyActionsAssignM
 }
 export interface RecordingMediaRetentionPolicyMediaPoliciesEmailPolicyActionsAssignMeteredAssignmentByAgent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#evaluation_form_id RecordingMediaRetentionPolicy#evaluation_form_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#evaluation_form_id RecordingMediaRetentionPolicy#evaluation_form_id}
   */
   readonly evaluationFormId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#evaluator_ids RecordingMediaRetentionPolicy#evaluator_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#evaluator_ids RecordingMediaRetentionPolicy#evaluator_ids}
   */
   readonly evaluatorIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#max_number_evaluations RecordingMediaRetentionPolicy#max_number_evaluations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#max_number_evaluations RecordingMediaRetentionPolicy#max_number_evaluations}
   */
   readonly maxNumberEvaluations?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#time_zone RecordingMediaRetentionPolicy#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#time_zone RecordingMediaRetentionPolicy#time_zone}
   */
   readonly timeZone?: string;
   /**
   * time_interval block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#time_interval RecordingMediaRetentionPolicy#time_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#time_interval RecordingMediaRetentionPolicy#time_interval}
   */
   readonly timeInterval?: RecordingMediaRetentionPolicyMediaPoliciesEmailPolicyActionsAssignMeteredAssignmentByAgentTimeInterval;
 }
@@ -12545,19 +12545,19 @@ export class RecordingMediaRetentionPolicyMediaPoliciesEmailPolicyActionsAssignM
 }
 export interface RecordingMediaRetentionPolicyMediaPoliciesEmailPolicyActionsAssignMeteredEvaluationsTimeInterval {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#days RecordingMediaRetentionPolicy#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#days RecordingMediaRetentionPolicy#days}
   */
   readonly days?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#hours RecordingMediaRetentionPolicy#hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#hours RecordingMediaRetentionPolicy#hours}
   */
   readonly hours?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#months RecordingMediaRetentionPolicy#months}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#months RecordingMediaRetentionPolicy#months}
   */
   readonly months?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#weeks RecordingMediaRetentionPolicy#weeks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#weeks RecordingMediaRetentionPolicy#weeks}
   */
   readonly weeks?: number;
 }
@@ -12728,25 +12728,25 @@ export class RecordingMediaRetentionPolicyMediaPoliciesEmailPolicyActionsAssignM
 }
 export interface RecordingMediaRetentionPolicyMediaPoliciesEmailPolicyActionsAssignMeteredEvaluations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#assign_to_active_user RecordingMediaRetentionPolicy#assign_to_active_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#assign_to_active_user RecordingMediaRetentionPolicy#assign_to_active_user}
   */
   readonly assignToActiveUser?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#evaluation_form_id RecordingMediaRetentionPolicy#evaluation_form_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#evaluation_form_id RecordingMediaRetentionPolicy#evaluation_form_id}
   */
   readonly evaluationFormId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#evaluator_ids RecordingMediaRetentionPolicy#evaluator_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#evaluator_ids RecordingMediaRetentionPolicy#evaluator_ids}
   */
   readonly evaluatorIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#max_number_evaluations RecordingMediaRetentionPolicy#max_number_evaluations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#max_number_evaluations RecordingMediaRetentionPolicy#max_number_evaluations}
   */
   readonly maxNumberEvaluations?: number;
   /**
   * time_interval block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#time_interval RecordingMediaRetentionPolicy#time_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#time_interval RecordingMediaRetentionPolicy#time_interval}
   */
   readonly timeInterval?: RecordingMediaRetentionPolicyMediaPoliciesEmailPolicyActionsAssignMeteredEvaluationsTimeInterval;
 }
@@ -12980,31 +12980,31 @@ export interface RecordingMediaRetentionPolicyMediaPoliciesEmailPolicyActionsAss
   /**
   * The UUID reference to the flow associated with this survey.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#flow_id RecordingMediaRetentionPolicy#flow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#flow_id RecordingMediaRetentionPolicy#flow_id}
   */
   readonly flowId?: string;
   /**
   * An ISO 8601 repeated interval consisting of the number of repetitions, the start datetime, and the interval (e.g. R2/2018-03-01T13:00:00Z/P1M10DT2H30M). Total duration must not exceed 90 days. Defaults to `R1/P0M`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#invite_time_interval RecordingMediaRetentionPolicy#invite_time_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#invite_time_interval RecordingMediaRetentionPolicy#invite_time_interval}
   */
   readonly inviteTimeInterval?: string;
   /**
   * Validated email domain, required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#sending_domain RecordingMediaRetentionPolicy#sending_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#sending_domain RecordingMediaRetentionPolicy#sending_domain}
   */
   readonly sendingDomain: string;
   /**
   * User together with sendingDomain used to send email, null to use no-reply
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#sending_user RecordingMediaRetentionPolicy#sending_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#sending_user RecordingMediaRetentionPolicy#sending_user}
   */
   readonly sendingUser?: string;
   /**
   * The survey form used for this survey.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#survey_form_name RecordingMediaRetentionPolicy#survey_form_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#survey_form_name RecordingMediaRetentionPolicy#survey_form_name}
   */
   readonly surveyFormName?: string;
 }
@@ -13233,11 +13233,11 @@ export class RecordingMediaRetentionPolicyMediaPoliciesEmailPolicyActionsAssignS
 }
 export interface RecordingMediaRetentionPolicyMediaPoliciesEmailPolicyActionsInitiateScreenRecordingArchiveRetention {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#days RecordingMediaRetentionPolicy#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#days RecordingMediaRetentionPolicy#days}
   */
   readonly days?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#storage_medium RecordingMediaRetentionPolicy#storage_medium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#storage_medium RecordingMediaRetentionPolicy#storage_medium}
   */
   readonly storageMedium?: string;
 }
@@ -13350,7 +13350,7 @@ export class RecordingMediaRetentionPolicyMediaPoliciesEmailPolicyActionsInitiat
 }
 export interface RecordingMediaRetentionPolicyMediaPoliciesEmailPolicyActionsInitiateScreenRecordingDeleteRetention {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#days RecordingMediaRetentionPolicy#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#days RecordingMediaRetentionPolicy#days}
   */
   readonly days?: number;
 }
@@ -13434,19 +13434,19 @@ export class RecordingMediaRetentionPolicyMediaPoliciesEmailPolicyActionsInitiat
 }
 export interface RecordingMediaRetentionPolicyMediaPoliciesEmailPolicyActionsInitiateScreenRecording {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#record_acw RecordingMediaRetentionPolicy#record_acw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#record_acw RecordingMediaRetentionPolicy#record_acw}
   */
   readonly recordAcw?: boolean | cdktf.IResolvable;
   /**
   * archive_retention block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#archive_retention RecordingMediaRetentionPolicy#archive_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#archive_retention RecordingMediaRetentionPolicy#archive_retention}
   */
   readonly archiveRetention?: RecordingMediaRetentionPolicyMediaPoliciesEmailPolicyActionsInitiateScreenRecordingArchiveRetention;
   /**
   * delete_retention block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#delete_retention RecordingMediaRetentionPolicy#delete_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#delete_retention RecordingMediaRetentionPolicy#delete_retention}
   */
   readonly deleteRetention?: RecordingMediaRetentionPolicyMediaPoliciesEmailPolicyActionsInitiateScreenRecordingDeleteRetention;
 }
@@ -13590,13 +13590,13 @@ export interface RecordingMediaRetentionPolicyMediaPoliciesEmailPolicyActionsInt
   /**
   * The aws-s3-recording-bulk-actions-integration that the policy uses for exports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#integration_id RecordingMediaRetentionPolicy#integration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#integration_id RecordingMediaRetentionPolicy#integration_id}
   */
   readonly integrationId?: string;
   /**
   * True if the policy should export screen recordings in addition to the other conversation media. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#should_export_screen_recordings RecordingMediaRetentionPolicy#should_export_screen_recordings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#should_export_screen_recordings RecordingMediaRetentionPolicy#should_export_screen_recordings}
   */
   readonly shouldExportScreenRecordings?: boolean | cdktf.IResolvable;
 }
@@ -13709,15 +13709,15 @@ export class RecordingMediaRetentionPolicyMediaPoliciesEmailPolicyActionsIntegra
 }
 export interface RecordingMediaRetentionPolicyMediaPoliciesEmailPolicyActionsMediaTranscriptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#display_name RecordingMediaRetentionPolicy#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#display_name RecordingMediaRetentionPolicy#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#integration_id RecordingMediaRetentionPolicy#integration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#integration_id RecordingMediaRetentionPolicy#integration_id}
   */
   readonly integrationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#transcription_provider RecordingMediaRetentionPolicy#transcription_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#transcription_provider RecordingMediaRetentionPolicy#transcription_provider}
   */
   readonly transcriptionProvider?: string;
 }
@@ -13891,11 +13891,11 @@ export class RecordingMediaRetentionPolicyMediaPoliciesEmailPolicyActionsMediaTr
 }
 export interface RecordingMediaRetentionPolicyMediaPoliciesEmailPolicyActionsRetentionDurationArchiveRetention {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#days RecordingMediaRetentionPolicy#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#days RecordingMediaRetentionPolicy#days}
   */
   readonly days?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#storage_medium RecordingMediaRetentionPolicy#storage_medium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#storage_medium RecordingMediaRetentionPolicy#storage_medium}
   */
   readonly storageMedium?: string;
 }
@@ -14008,7 +14008,7 @@ export class RecordingMediaRetentionPolicyMediaPoliciesEmailPolicyActionsRetenti
 }
 export interface RecordingMediaRetentionPolicyMediaPoliciesEmailPolicyActionsRetentionDurationDeleteRetention {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#days RecordingMediaRetentionPolicy#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#days RecordingMediaRetentionPolicy#days}
   */
   readonly days?: number;
 }
@@ -14094,13 +14094,13 @@ export interface RecordingMediaRetentionPolicyMediaPoliciesEmailPolicyActionsRet
   /**
   * archive_retention block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#archive_retention RecordingMediaRetentionPolicy#archive_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#archive_retention RecordingMediaRetentionPolicy#archive_retention}
   */
   readonly archiveRetention?: RecordingMediaRetentionPolicyMediaPoliciesEmailPolicyActionsRetentionDurationArchiveRetention;
   /**
   * delete_retention block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#delete_retention RecordingMediaRetentionPolicy#delete_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#delete_retention RecordingMediaRetentionPolicy#delete_retention}
   */
   readonly deleteRetention?: RecordingMediaRetentionPolicyMediaPoliciesEmailPolicyActionsRetentionDurationDeleteRetention;
 }
@@ -14215,73 +14215,73 @@ export interface RecordingMediaRetentionPolicyMediaPoliciesEmailPolicyActions {
   /**
   * true to delete the recording associated with the conversation regardless of the values of retainRecording or deleteRecording.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#always_delete RecordingMediaRetentionPolicy#always_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#always_delete RecordingMediaRetentionPolicy#always_delete}
   */
   readonly alwaysDelete?: boolean | cdktf.IResolvable;
   /**
   * true to delete the recording associated with the conversation. If retainRecording = true, this will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#delete_recording RecordingMediaRetentionPolicy#delete_recording}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#delete_recording RecordingMediaRetentionPolicy#delete_recording}
   */
   readonly deleteRecording?: boolean | cdktf.IResolvable;
   /**
   * true to retain the recording associated with the conversation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#retain_recording RecordingMediaRetentionPolicy#retain_recording}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#retain_recording RecordingMediaRetentionPolicy#retain_recording}
   */
   readonly retainRecording?: boolean | cdktf.IResolvable;
   /**
   * assign_calibrations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#assign_calibrations RecordingMediaRetentionPolicy#assign_calibrations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#assign_calibrations RecordingMediaRetentionPolicy#assign_calibrations}
   */
   readonly assignCalibrations?: RecordingMediaRetentionPolicyMediaPoliciesEmailPolicyActionsAssignCalibrations[] | cdktf.IResolvable;
   /**
   * assign_evaluations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#assign_evaluations RecordingMediaRetentionPolicy#assign_evaluations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#assign_evaluations RecordingMediaRetentionPolicy#assign_evaluations}
   */
   readonly assignEvaluations?: RecordingMediaRetentionPolicyMediaPoliciesEmailPolicyActionsAssignEvaluations[] | cdktf.IResolvable;
   /**
   * assign_metered_assignment_by_agent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#assign_metered_assignment_by_agent RecordingMediaRetentionPolicy#assign_metered_assignment_by_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#assign_metered_assignment_by_agent RecordingMediaRetentionPolicy#assign_metered_assignment_by_agent}
   */
   readonly assignMeteredAssignmentByAgent?: RecordingMediaRetentionPolicyMediaPoliciesEmailPolicyActionsAssignMeteredAssignmentByAgent[] | cdktf.IResolvable;
   /**
   * assign_metered_evaluations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#assign_metered_evaluations RecordingMediaRetentionPolicy#assign_metered_evaluations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#assign_metered_evaluations RecordingMediaRetentionPolicy#assign_metered_evaluations}
   */
   readonly assignMeteredEvaluations?: RecordingMediaRetentionPolicyMediaPoliciesEmailPolicyActionsAssignMeteredEvaluations[] | cdktf.IResolvable;
   /**
   * assign_surveys block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#assign_surveys RecordingMediaRetentionPolicy#assign_surveys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#assign_surveys RecordingMediaRetentionPolicy#assign_surveys}
   */
   readonly assignSurveys?: RecordingMediaRetentionPolicyMediaPoliciesEmailPolicyActionsAssignSurveys[] | cdktf.IResolvable;
   /**
   * initiate_screen_recording block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#initiate_screen_recording RecordingMediaRetentionPolicy#initiate_screen_recording}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#initiate_screen_recording RecordingMediaRetentionPolicy#initiate_screen_recording}
   */
   readonly initiateScreenRecording?: RecordingMediaRetentionPolicyMediaPoliciesEmailPolicyActionsInitiateScreenRecording;
   /**
   * integration_export block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#integration_export RecordingMediaRetentionPolicy#integration_export}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#integration_export RecordingMediaRetentionPolicy#integration_export}
   */
   readonly integrationExport?: RecordingMediaRetentionPolicyMediaPoliciesEmailPolicyActionsIntegrationExport;
   /**
   * media_transcriptions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#media_transcriptions RecordingMediaRetentionPolicy#media_transcriptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#media_transcriptions RecordingMediaRetentionPolicy#media_transcriptions}
   */
   readonly mediaTranscriptions?: RecordingMediaRetentionPolicyMediaPoliciesEmailPolicyActionsMediaTranscriptions[] | cdktf.IResolvable;
   /**
   * retention_duration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#retention_duration RecordingMediaRetentionPolicy#retention_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#retention_duration RecordingMediaRetentionPolicy#retention_duration}
   */
   readonly retentionDuration?: RecordingMediaRetentionPolicyMediaPoliciesEmailPolicyActionsRetentionDuration;
 }
@@ -14686,19 +14686,19 @@ export interface RecordingMediaRetentionPolicyMediaPoliciesEmailPolicyConditions
   /**
   * Day for this time slot, Monday = 1 ... Sunday = 7
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#day RecordingMediaRetentionPolicy#day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#day RecordingMediaRetentionPolicy#day}
   */
   readonly day?: number;
   /**
   * start time in xx:xx:xx.xxx format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#start_time RecordingMediaRetentionPolicy#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#start_time RecordingMediaRetentionPolicy#start_time}
   */
   readonly startTime?: string;
   /**
   * stop time in xx:xx:xx.xxx format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#stop_time RecordingMediaRetentionPolicy#stop_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#stop_time RecordingMediaRetentionPolicy#stop_time}
   */
   readonly stopTime?: string;
 }
@@ -14872,17 +14872,17 @@ export class RecordingMediaRetentionPolicyMediaPoliciesEmailPolicyConditionsTime
 }
 export interface RecordingMediaRetentionPolicyMediaPoliciesEmailPolicyConditionsTimeAllowed {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#empty RecordingMediaRetentionPolicy#empty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#empty RecordingMediaRetentionPolicy#empty}
   */
   readonly empty?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#time_zone_id RecordingMediaRetentionPolicy#time_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#time_zone_id RecordingMediaRetentionPolicy#time_zone_id}
   */
   readonly timeZoneId?: string;
   /**
   * time_slots block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#time_slots RecordingMediaRetentionPolicy#time_slots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#time_slots RecordingMediaRetentionPolicy#time_slots}
   */
   readonly timeSlots?: RecordingMediaRetentionPolicyMediaPoliciesEmailPolicyConditionsTimeAllowedTimeSlots[] | cdktf.IResolvable;
 }
@@ -15026,39 +15026,39 @@ export interface RecordingMediaRetentionPolicyMediaPoliciesEmailPolicyConditions
   /**
   * This condition is to filter out conversation with and without customer participation. Valid values: YES, NO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#customer_participation RecordingMediaRetentionPolicy#customer_participation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#customer_participation RecordingMediaRetentionPolicy#customer_participation}
   */
   readonly customerParticipation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#date_ranges RecordingMediaRetentionPolicy#date_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#date_ranges RecordingMediaRetentionPolicy#date_ranges}
   */
   readonly dateRanges?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#for_queue_ids RecordingMediaRetentionPolicy#for_queue_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#for_queue_ids RecordingMediaRetentionPolicy#for_queue_ids}
   */
   readonly forQueueIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#for_user_ids RecordingMediaRetentionPolicy#for_user_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#for_user_ids RecordingMediaRetentionPolicy#for_user_ids}
   */
   readonly forUserIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#language_ids RecordingMediaRetentionPolicy#language_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#language_ids RecordingMediaRetentionPolicy#language_ids}
   */
   readonly languageIds?: string[];
   /**
   * Teams to match conversations against
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#team_ids RecordingMediaRetentionPolicy#team_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#team_ids RecordingMediaRetentionPolicy#team_ids}
   */
   readonly teamIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#wrapup_code_ids RecordingMediaRetentionPolicy#wrapup_code_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#wrapup_code_ids RecordingMediaRetentionPolicy#wrapup_code_ids}
   */
   readonly wrapupCodeIds?: string[];
   /**
   * time_allowed block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#time_allowed RecordingMediaRetentionPolicy#time_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#time_allowed RecordingMediaRetentionPolicy#time_allowed}
   */
   readonly timeAllowed?: RecordingMediaRetentionPolicyMediaPoliciesEmailPolicyConditionsTimeAllowed;
 }
@@ -15347,13 +15347,13 @@ export interface RecordingMediaRetentionPolicyMediaPoliciesEmailPolicy {
   /**
   * actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#actions RecordingMediaRetentionPolicy#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#actions RecordingMediaRetentionPolicy#actions}
   */
   readonly actions?: RecordingMediaRetentionPolicyMediaPoliciesEmailPolicyActions;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#conditions RecordingMediaRetentionPolicy#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#conditions RecordingMediaRetentionPolicy#conditions}
   */
   readonly conditions?: RecordingMediaRetentionPolicyMediaPoliciesEmailPolicyConditions;
 }
@@ -15466,19 +15466,19 @@ export class RecordingMediaRetentionPolicyMediaPoliciesEmailPolicyOutputReferenc
 }
 export interface RecordingMediaRetentionPolicyMediaPoliciesMessagePolicyActionsAssignCalibrations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#calibrator_id RecordingMediaRetentionPolicy#calibrator_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#calibrator_id RecordingMediaRetentionPolicy#calibrator_id}
   */
   readonly calibratorId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#evaluation_form_id RecordingMediaRetentionPolicy#evaluation_form_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#evaluation_form_id RecordingMediaRetentionPolicy#evaluation_form_id}
   */
   readonly evaluationFormId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#evaluator_ids RecordingMediaRetentionPolicy#evaluator_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#evaluator_ids RecordingMediaRetentionPolicy#evaluator_ids}
   */
   readonly evaluatorIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#expert_evaluator_id RecordingMediaRetentionPolicy#expert_evaluator_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#expert_evaluator_id RecordingMediaRetentionPolicy#expert_evaluator_id}
   */
   readonly expertEvaluatorId?: string;
 }
@@ -15681,11 +15681,11 @@ export class RecordingMediaRetentionPolicyMediaPoliciesMessagePolicyActionsAssig
 }
 export interface RecordingMediaRetentionPolicyMediaPoliciesMessagePolicyActionsAssignEvaluations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#evaluation_form_id RecordingMediaRetentionPolicy#evaluation_form_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#evaluation_form_id RecordingMediaRetentionPolicy#evaluation_form_id}
   */
   readonly evaluationFormId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#user_id RecordingMediaRetentionPolicy#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#user_id RecordingMediaRetentionPolicy#user_id}
   */
   readonly userId?: string;
 }
@@ -15830,19 +15830,19 @@ export class RecordingMediaRetentionPolicyMediaPoliciesMessagePolicyActionsAssig
 }
 export interface RecordingMediaRetentionPolicyMediaPoliciesMessagePolicyActionsAssignMeteredAssignmentByAgentTimeInterval {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#days RecordingMediaRetentionPolicy#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#days RecordingMediaRetentionPolicy#days}
   */
   readonly days?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#hours RecordingMediaRetentionPolicy#hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#hours RecordingMediaRetentionPolicy#hours}
   */
   readonly hours?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#months RecordingMediaRetentionPolicy#months}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#months RecordingMediaRetentionPolicy#months}
   */
   readonly months?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#weeks RecordingMediaRetentionPolicy#weeks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#weeks RecordingMediaRetentionPolicy#weeks}
   */
   readonly weeks?: number;
 }
@@ -16013,25 +16013,25 @@ export class RecordingMediaRetentionPolicyMediaPoliciesMessagePolicyActionsAssig
 }
 export interface RecordingMediaRetentionPolicyMediaPoliciesMessagePolicyActionsAssignMeteredAssignmentByAgent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#evaluation_form_id RecordingMediaRetentionPolicy#evaluation_form_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#evaluation_form_id RecordingMediaRetentionPolicy#evaluation_form_id}
   */
   readonly evaluationFormId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#evaluator_ids RecordingMediaRetentionPolicy#evaluator_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#evaluator_ids RecordingMediaRetentionPolicy#evaluator_ids}
   */
   readonly evaluatorIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#max_number_evaluations RecordingMediaRetentionPolicy#max_number_evaluations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#max_number_evaluations RecordingMediaRetentionPolicy#max_number_evaluations}
   */
   readonly maxNumberEvaluations?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#time_zone RecordingMediaRetentionPolicy#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#time_zone RecordingMediaRetentionPolicy#time_zone}
   */
   readonly timeZone?: string;
   /**
   * time_interval block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#time_interval RecordingMediaRetentionPolicy#time_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#time_interval RecordingMediaRetentionPolicy#time_interval}
   */
   readonly timeInterval?: RecordingMediaRetentionPolicyMediaPoliciesMessagePolicyActionsAssignMeteredAssignmentByAgentTimeInterval;
 }
@@ -16263,19 +16263,19 @@ export class RecordingMediaRetentionPolicyMediaPoliciesMessagePolicyActionsAssig
 }
 export interface RecordingMediaRetentionPolicyMediaPoliciesMessagePolicyActionsAssignMeteredEvaluationsTimeInterval {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#days RecordingMediaRetentionPolicy#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#days RecordingMediaRetentionPolicy#days}
   */
   readonly days?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#hours RecordingMediaRetentionPolicy#hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#hours RecordingMediaRetentionPolicy#hours}
   */
   readonly hours?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#months RecordingMediaRetentionPolicy#months}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#months RecordingMediaRetentionPolicy#months}
   */
   readonly months?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#weeks RecordingMediaRetentionPolicy#weeks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#weeks RecordingMediaRetentionPolicy#weeks}
   */
   readonly weeks?: number;
 }
@@ -16446,25 +16446,25 @@ export class RecordingMediaRetentionPolicyMediaPoliciesMessagePolicyActionsAssig
 }
 export interface RecordingMediaRetentionPolicyMediaPoliciesMessagePolicyActionsAssignMeteredEvaluations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#assign_to_active_user RecordingMediaRetentionPolicy#assign_to_active_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#assign_to_active_user RecordingMediaRetentionPolicy#assign_to_active_user}
   */
   readonly assignToActiveUser?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#evaluation_form_id RecordingMediaRetentionPolicy#evaluation_form_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#evaluation_form_id RecordingMediaRetentionPolicy#evaluation_form_id}
   */
   readonly evaluationFormId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#evaluator_ids RecordingMediaRetentionPolicy#evaluator_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#evaluator_ids RecordingMediaRetentionPolicy#evaluator_ids}
   */
   readonly evaluatorIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#max_number_evaluations RecordingMediaRetentionPolicy#max_number_evaluations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#max_number_evaluations RecordingMediaRetentionPolicy#max_number_evaluations}
   */
   readonly maxNumberEvaluations?: number;
   /**
   * time_interval block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#time_interval RecordingMediaRetentionPolicy#time_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#time_interval RecordingMediaRetentionPolicy#time_interval}
   */
   readonly timeInterval?: RecordingMediaRetentionPolicyMediaPoliciesMessagePolicyActionsAssignMeteredEvaluationsTimeInterval;
 }
@@ -16698,31 +16698,31 @@ export interface RecordingMediaRetentionPolicyMediaPoliciesMessagePolicyActionsA
   /**
   * The UUID reference to the flow associated with this survey.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#flow_id RecordingMediaRetentionPolicy#flow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#flow_id RecordingMediaRetentionPolicy#flow_id}
   */
   readonly flowId?: string;
   /**
   * An ISO 8601 repeated interval consisting of the number of repetitions, the start datetime, and the interval (e.g. R2/2018-03-01T13:00:00Z/P1M10DT2H30M). Total duration must not exceed 90 days. Defaults to `R1/P0M`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#invite_time_interval RecordingMediaRetentionPolicy#invite_time_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#invite_time_interval RecordingMediaRetentionPolicy#invite_time_interval}
   */
   readonly inviteTimeInterval?: string;
   /**
   * Validated email domain, required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#sending_domain RecordingMediaRetentionPolicy#sending_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#sending_domain RecordingMediaRetentionPolicy#sending_domain}
   */
   readonly sendingDomain: string;
   /**
   * User together with sendingDomain used to send email, null to use no-reply
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#sending_user RecordingMediaRetentionPolicy#sending_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#sending_user RecordingMediaRetentionPolicy#sending_user}
   */
   readonly sendingUser?: string;
   /**
   * The survey form used for this survey.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#survey_form_name RecordingMediaRetentionPolicy#survey_form_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#survey_form_name RecordingMediaRetentionPolicy#survey_form_name}
   */
   readonly surveyFormName?: string;
 }
@@ -16951,11 +16951,11 @@ export class RecordingMediaRetentionPolicyMediaPoliciesMessagePolicyActionsAssig
 }
 export interface RecordingMediaRetentionPolicyMediaPoliciesMessagePolicyActionsInitiateScreenRecordingArchiveRetention {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#days RecordingMediaRetentionPolicy#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#days RecordingMediaRetentionPolicy#days}
   */
   readonly days?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#storage_medium RecordingMediaRetentionPolicy#storage_medium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#storage_medium RecordingMediaRetentionPolicy#storage_medium}
   */
   readonly storageMedium?: string;
 }
@@ -17068,7 +17068,7 @@ export class RecordingMediaRetentionPolicyMediaPoliciesMessagePolicyActionsIniti
 }
 export interface RecordingMediaRetentionPolicyMediaPoliciesMessagePolicyActionsInitiateScreenRecordingDeleteRetention {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#days RecordingMediaRetentionPolicy#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#days RecordingMediaRetentionPolicy#days}
   */
   readonly days?: number;
 }
@@ -17152,19 +17152,19 @@ export class RecordingMediaRetentionPolicyMediaPoliciesMessagePolicyActionsIniti
 }
 export interface RecordingMediaRetentionPolicyMediaPoliciesMessagePolicyActionsInitiateScreenRecording {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#record_acw RecordingMediaRetentionPolicy#record_acw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#record_acw RecordingMediaRetentionPolicy#record_acw}
   */
   readonly recordAcw?: boolean | cdktf.IResolvable;
   /**
   * archive_retention block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#archive_retention RecordingMediaRetentionPolicy#archive_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#archive_retention RecordingMediaRetentionPolicy#archive_retention}
   */
   readonly archiveRetention?: RecordingMediaRetentionPolicyMediaPoliciesMessagePolicyActionsInitiateScreenRecordingArchiveRetention;
   /**
   * delete_retention block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#delete_retention RecordingMediaRetentionPolicy#delete_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#delete_retention RecordingMediaRetentionPolicy#delete_retention}
   */
   readonly deleteRetention?: RecordingMediaRetentionPolicyMediaPoliciesMessagePolicyActionsInitiateScreenRecordingDeleteRetention;
 }
@@ -17308,13 +17308,13 @@ export interface RecordingMediaRetentionPolicyMediaPoliciesMessagePolicyActionsI
   /**
   * The aws-s3-recording-bulk-actions-integration that the policy uses for exports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#integration_id RecordingMediaRetentionPolicy#integration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#integration_id RecordingMediaRetentionPolicy#integration_id}
   */
   readonly integrationId?: string;
   /**
   * True if the policy should export screen recordings in addition to the other conversation media. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#should_export_screen_recordings RecordingMediaRetentionPolicy#should_export_screen_recordings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#should_export_screen_recordings RecordingMediaRetentionPolicy#should_export_screen_recordings}
   */
   readonly shouldExportScreenRecordings?: boolean | cdktf.IResolvable;
 }
@@ -17427,15 +17427,15 @@ export class RecordingMediaRetentionPolicyMediaPoliciesMessagePolicyActionsInteg
 }
 export interface RecordingMediaRetentionPolicyMediaPoliciesMessagePolicyActionsMediaTranscriptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#display_name RecordingMediaRetentionPolicy#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#display_name RecordingMediaRetentionPolicy#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#integration_id RecordingMediaRetentionPolicy#integration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#integration_id RecordingMediaRetentionPolicy#integration_id}
   */
   readonly integrationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#transcription_provider RecordingMediaRetentionPolicy#transcription_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#transcription_provider RecordingMediaRetentionPolicy#transcription_provider}
   */
   readonly transcriptionProvider?: string;
 }
@@ -17609,11 +17609,11 @@ export class RecordingMediaRetentionPolicyMediaPoliciesMessagePolicyActionsMedia
 }
 export interface RecordingMediaRetentionPolicyMediaPoliciesMessagePolicyActionsRetentionDurationArchiveRetention {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#days RecordingMediaRetentionPolicy#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#days RecordingMediaRetentionPolicy#days}
   */
   readonly days?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#storage_medium RecordingMediaRetentionPolicy#storage_medium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#storage_medium RecordingMediaRetentionPolicy#storage_medium}
   */
   readonly storageMedium?: string;
 }
@@ -17726,7 +17726,7 @@ export class RecordingMediaRetentionPolicyMediaPoliciesMessagePolicyActionsReten
 }
 export interface RecordingMediaRetentionPolicyMediaPoliciesMessagePolicyActionsRetentionDurationDeleteRetention {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#days RecordingMediaRetentionPolicy#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#days RecordingMediaRetentionPolicy#days}
   */
   readonly days?: number;
 }
@@ -17812,13 +17812,13 @@ export interface RecordingMediaRetentionPolicyMediaPoliciesMessagePolicyActionsR
   /**
   * archive_retention block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#archive_retention RecordingMediaRetentionPolicy#archive_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#archive_retention RecordingMediaRetentionPolicy#archive_retention}
   */
   readonly archiveRetention?: RecordingMediaRetentionPolicyMediaPoliciesMessagePolicyActionsRetentionDurationArchiveRetention;
   /**
   * delete_retention block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#delete_retention RecordingMediaRetentionPolicy#delete_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#delete_retention RecordingMediaRetentionPolicy#delete_retention}
   */
   readonly deleteRetention?: RecordingMediaRetentionPolicyMediaPoliciesMessagePolicyActionsRetentionDurationDeleteRetention;
 }
@@ -17933,73 +17933,73 @@ export interface RecordingMediaRetentionPolicyMediaPoliciesMessagePolicyActions 
   /**
   * true to delete the recording associated with the conversation regardless of the values of retainRecording or deleteRecording.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#always_delete RecordingMediaRetentionPolicy#always_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#always_delete RecordingMediaRetentionPolicy#always_delete}
   */
   readonly alwaysDelete?: boolean | cdktf.IResolvable;
   /**
   * true to delete the recording associated with the conversation. If retainRecording = true, this will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#delete_recording RecordingMediaRetentionPolicy#delete_recording}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#delete_recording RecordingMediaRetentionPolicy#delete_recording}
   */
   readonly deleteRecording?: boolean | cdktf.IResolvable;
   /**
   * true to retain the recording associated with the conversation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#retain_recording RecordingMediaRetentionPolicy#retain_recording}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#retain_recording RecordingMediaRetentionPolicy#retain_recording}
   */
   readonly retainRecording?: boolean | cdktf.IResolvable;
   /**
   * assign_calibrations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#assign_calibrations RecordingMediaRetentionPolicy#assign_calibrations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#assign_calibrations RecordingMediaRetentionPolicy#assign_calibrations}
   */
   readonly assignCalibrations?: RecordingMediaRetentionPolicyMediaPoliciesMessagePolicyActionsAssignCalibrations[] | cdktf.IResolvable;
   /**
   * assign_evaluations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#assign_evaluations RecordingMediaRetentionPolicy#assign_evaluations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#assign_evaluations RecordingMediaRetentionPolicy#assign_evaluations}
   */
   readonly assignEvaluations?: RecordingMediaRetentionPolicyMediaPoliciesMessagePolicyActionsAssignEvaluations[] | cdktf.IResolvable;
   /**
   * assign_metered_assignment_by_agent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#assign_metered_assignment_by_agent RecordingMediaRetentionPolicy#assign_metered_assignment_by_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#assign_metered_assignment_by_agent RecordingMediaRetentionPolicy#assign_metered_assignment_by_agent}
   */
   readonly assignMeteredAssignmentByAgent?: RecordingMediaRetentionPolicyMediaPoliciesMessagePolicyActionsAssignMeteredAssignmentByAgent[] | cdktf.IResolvable;
   /**
   * assign_metered_evaluations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#assign_metered_evaluations RecordingMediaRetentionPolicy#assign_metered_evaluations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#assign_metered_evaluations RecordingMediaRetentionPolicy#assign_metered_evaluations}
   */
   readonly assignMeteredEvaluations?: RecordingMediaRetentionPolicyMediaPoliciesMessagePolicyActionsAssignMeteredEvaluations[] | cdktf.IResolvable;
   /**
   * assign_surveys block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#assign_surveys RecordingMediaRetentionPolicy#assign_surveys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#assign_surveys RecordingMediaRetentionPolicy#assign_surveys}
   */
   readonly assignSurveys?: RecordingMediaRetentionPolicyMediaPoliciesMessagePolicyActionsAssignSurveys[] | cdktf.IResolvable;
   /**
   * initiate_screen_recording block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#initiate_screen_recording RecordingMediaRetentionPolicy#initiate_screen_recording}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#initiate_screen_recording RecordingMediaRetentionPolicy#initiate_screen_recording}
   */
   readonly initiateScreenRecording?: RecordingMediaRetentionPolicyMediaPoliciesMessagePolicyActionsInitiateScreenRecording;
   /**
   * integration_export block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#integration_export RecordingMediaRetentionPolicy#integration_export}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#integration_export RecordingMediaRetentionPolicy#integration_export}
   */
   readonly integrationExport?: RecordingMediaRetentionPolicyMediaPoliciesMessagePolicyActionsIntegrationExport;
   /**
   * media_transcriptions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#media_transcriptions RecordingMediaRetentionPolicy#media_transcriptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#media_transcriptions RecordingMediaRetentionPolicy#media_transcriptions}
   */
   readonly mediaTranscriptions?: RecordingMediaRetentionPolicyMediaPoliciesMessagePolicyActionsMediaTranscriptions[] | cdktf.IResolvable;
   /**
   * retention_duration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#retention_duration RecordingMediaRetentionPolicy#retention_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#retention_duration RecordingMediaRetentionPolicy#retention_duration}
   */
   readonly retentionDuration?: RecordingMediaRetentionPolicyMediaPoliciesMessagePolicyActionsRetentionDuration;
 }
@@ -18404,19 +18404,19 @@ export interface RecordingMediaRetentionPolicyMediaPoliciesMessagePolicyConditio
   /**
   * Day for this time slot, Monday = 1 ... Sunday = 7
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#day RecordingMediaRetentionPolicy#day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#day RecordingMediaRetentionPolicy#day}
   */
   readonly day?: number;
   /**
   * start time in xx:xx:xx.xxx format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#start_time RecordingMediaRetentionPolicy#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#start_time RecordingMediaRetentionPolicy#start_time}
   */
   readonly startTime?: string;
   /**
   * stop time in xx:xx:xx.xxx format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#stop_time RecordingMediaRetentionPolicy#stop_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#stop_time RecordingMediaRetentionPolicy#stop_time}
   */
   readonly stopTime?: string;
 }
@@ -18590,17 +18590,17 @@ export class RecordingMediaRetentionPolicyMediaPoliciesMessagePolicyConditionsTi
 }
 export interface RecordingMediaRetentionPolicyMediaPoliciesMessagePolicyConditionsTimeAllowed {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#empty RecordingMediaRetentionPolicy#empty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#empty RecordingMediaRetentionPolicy#empty}
   */
   readonly empty?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#time_zone_id RecordingMediaRetentionPolicy#time_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#time_zone_id RecordingMediaRetentionPolicy#time_zone_id}
   */
   readonly timeZoneId?: string;
   /**
   * time_slots block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#time_slots RecordingMediaRetentionPolicy#time_slots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#time_slots RecordingMediaRetentionPolicy#time_slots}
   */
   readonly timeSlots?: RecordingMediaRetentionPolicyMediaPoliciesMessagePolicyConditionsTimeAllowedTimeSlots[] | cdktf.IResolvable;
 }
@@ -18744,39 +18744,39 @@ export interface RecordingMediaRetentionPolicyMediaPoliciesMessagePolicyConditio
   /**
   * This condition is to filter out conversation with and without customer participation.Valid values: YES, NO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#customer_participation RecordingMediaRetentionPolicy#customer_participation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#customer_participation RecordingMediaRetentionPolicy#customer_participation}
   */
   readonly customerParticipation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#date_ranges RecordingMediaRetentionPolicy#date_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#date_ranges RecordingMediaRetentionPolicy#date_ranges}
   */
   readonly dateRanges?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#for_queue_ids RecordingMediaRetentionPolicy#for_queue_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#for_queue_ids RecordingMediaRetentionPolicy#for_queue_ids}
   */
   readonly forQueueIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#for_user_ids RecordingMediaRetentionPolicy#for_user_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#for_user_ids RecordingMediaRetentionPolicy#for_user_ids}
   */
   readonly forUserIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#language_ids RecordingMediaRetentionPolicy#language_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#language_ids RecordingMediaRetentionPolicy#language_ids}
   */
   readonly languageIds?: string[];
   /**
   * Teams to match conversations against
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#team_ids RecordingMediaRetentionPolicy#team_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#team_ids RecordingMediaRetentionPolicy#team_ids}
   */
   readonly teamIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#wrapup_code_ids RecordingMediaRetentionPolicy#wrapup_code_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#wrapup_code_ids RecordingMediaRetentionPolicy#wrapup_code_ids}
   */
   readonly wrapupCodeIds?: string[];
   /**
   * time_allowed block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#time_allowed RecordingMediaRetentionPolicy#time_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#time_allowed RecordingMediaRetentionPolicy#time_allowed}
   */
   readonly timeAllowed?: RecordingMediaRetentionPolicyMediaPoliciesMessagePolicyConditionsTimeAllowed;
 }
@@ -19065,13 +19065,13 @@ export interface RecordingMediaRetentionPolicyMediaPoliciesMessagePolicy {
   /**
   * actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#actions RecordingMediaRetentionPolicy#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#actions RecordingMediaRetentionPolicy#actions}
   */
   readonly actions?: RecordingMediaRetentionPolicyMediaPoliciesMessagePolicyActions;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#conditions RecordingMediaRetentionPolicy#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#conditions RecordingMediaRetentionPolicy#conditions}
   */
   readonly conditions?: RecordingMediaRetentionPolicyMediaPoliciesMessagePolicyConditions;
 }
@@ -19186,25 +19186,25 @@ export interface RecordingMediaRetentionPolicyMediaPolicies {
   /**
   * call_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#call_policy RecordingMediaRetentionPolicy#call_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#call_policy RecordingMediaRetentionPolicy#call_policy}
   */
   readonly callPolicy?: RecordingMediaRetentionPolicyMediaPoliciesCallPolicy;
   /**
   * chat_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#chat_policy RecordingMediaRetentionPolicy#chat_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#chat_policy RecordingMediaRetentionPolicy#chat_policy}
   */
   readonly chatPolicy?: RecordingMediaRetentionPolicyMediaPoliciesChatPolicy;
   /**
   * email_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#email_policy RecordingMediaRetentionPolicy#email_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#email_policy RecordingMediaRetentionPolicy#email_policy}
   */
   readonly emailPolicy?: RecordingMediaRetentionPolicyMediaPoliciesEmailPolicy;
   /**
   * message_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#message_policy RecordingMediaRetentionPolicy#message_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#message_policy RecordingMediaRetentionPolicy#message_policy}
   */
   readonly messagePolicy?: RecordingMediaRetentionPolicyMediaPoliciesMessagePolicy;
 }
@@ -19375,11 +19375,11 @@ export class RecordingMediaRetentionPolicyMediaPoliciesOutputReference extends c
 }
 export interface RecordingMediaRetentionPolicyPolicyErrorsPolicyErrorMessagesUserParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#key RecordingMediaRetentionPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#key RecordingMediaRetentionPolicy#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#value RecordingMediaRetentionPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#value RecordingMediaRetentionPolicy#value}
   */
   readonly value?: string;
 }
@@ -19524,35 +19524,35 @@ export class RecordingMediaRetentionPolicyPolicyErrorsPolicyErrorMessagesUserPar
 }
 export interface RecordingMediaRetentionPolicyPolicyErrorsPolicyErrorMessages {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#correlation_id RecordingMediaRetentionPolicy#correlation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#correlation_id RecordingMediaRetentionPolicy#correlation_id}
   */
   readonly correlationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#error_code RecordingMediaRetentionPolicy#error_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#error_code RecordingMediaRetentionPolicy#error_code}
   */
   readonly errorCode?: string;
   /**
   * Date time is represented as an ISO-8601 string. For example: yyyy-MM-ddTHH:mm:ss[.mmm]Z
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#insert_date RecordingMediaRetentionPolicy#insert_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#insert_date RecordingMediaRetentionPolicy#insert_date}
   */
   readonly insertDate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#status_code RecordingMediaRetentionPolicy#status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#status_code RecordingMediaRetentionPolicy#status_code}
   */
   readonly statusCode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#user_message RecordingMediaRetentionPolicy#user_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#user_message RecordingMediaRetentionPolicy#user_message}
   */
   readonly userMessage?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#user_params_message RecordingMediaRetentionPolicy#user_params_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#user_params_message RecordingMediaRetentionPolicy#user_params_message}
   */
   readonly userParamsMessage?: string;
   /**
   * user_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#user_params RecordingMediaRetentionPolicy#user_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#user_params RecordingMediaRetentionPolicy#user_params}
   */
   readonly userParams?: RecordingMediaRetentionPolicyPolicyErrorsPolicyErrorMessagesUserParams[] | cdktf.IResolvable;
 }
@@ -19844,7 +19844,7 @@ export interface RecordingMediaRetentionPolicyPolicyErrors {
   /**
   * policy_error_messages block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#policy_error_messages RecordingMediaRetentionPolicy#policy_error_messages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#policy_error_messages RecordingMediaRetentionPolicy#policy_error_messages}
   */
   readonly policyErrorMessages?: RecordingMediaRetentionPolicyPolicyErrorsPolicyErrorMessages[] | cdktf.IResolvable;
 }
@@ -19928,7 +19928,7 @@ export class RecordingMediaRetentionPolicyPolicyErrorsOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy genesyscloud_recording_media_retention_policy}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy genesyscloud_recording_media_retention_policy}
 */
 export class RecordingMediaRetentionPolicy extends cdktf.TerraformResource {
 
@@ -19944,7 +19944,7 @@ export class RecordingMediaRetentionPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RecordingMediaRetentionPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RecordingMediaRetentionPolicy to import
-  * @param importFromId The id of the existing RecordingMediaRetentionPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RecordingMediaRetentionPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RecordingMediaRetentionPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -19956,7 +19956,7 @@ export class RecordingMediaRetentionPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/recording_media_retention_policy genesyscloud_recording_media_retention_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/recording_media_retention_policy genesyscloud_recording_media_retention_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -19967,8 +19967,8 @@ export class RecordingMediaRetentionPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_recording_media_retention_policy',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.71.1',
-        providerVersionConstraint: '1.71.1'
+        providerVersion: '1.72.2',
+        providerVersionConstraint: '1.72.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

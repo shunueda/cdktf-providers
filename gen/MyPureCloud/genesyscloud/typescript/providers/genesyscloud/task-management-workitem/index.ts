@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_workitem
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_workitem
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,59 +10,59 @@ export interface TaskManagementWorkitemConfig extends cdktf.TerraformMetaArgumen
   /**
   * The id of the assignee of the Workitem.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_workitem#assignee_id TaskManagementWorkitem#assignee_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_workitem#assignee_id TaskManagementWorkitem#assignee_id}
   */
   readonly assigneeId?: string;
   /**
   * Set it to false to disable auto status transition. By default, it is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_workitem#auto_status_transition TaskManagementWorkitem#auto_status_transition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_workitem#auto_status_transition TaskManagementWorkitem#auto_status_transition}
   */
   readonly autoStatusTransition?: boolean | cdktf.IResolvable;
   /**
   * JSON formatted object for custom field values defined in the schema referenced by the worktype of the workitem.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_workitem#custom_fields TaskManagementWorkitem#custom_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_workitem#custom_fields TaskManagementWorkitem#custom_fields}
   */
   readonly customFields?: string;
   /**
   * The due date of the Workitem. Date time is represented as an ISO-8601 string. For example: yyyy-MM-ddTHH:mm:ss[.mmm]Z
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_workitem#date_due TaskManagementWorkitem#date_due}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_workitem#date_due TaskManagementWorkitem#date_due}
   */
   readonly dateDue?: string;
   /**
   * The expiry date of the Workitem. Date time is represented as an ISO-8601 string. For example: yyyy-MM-ddTHH:mm:ss[.mmm]Z
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_workitem#date_expires TaskManagementWorkitem#date_expires}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_workitem#date_expires TaskManagementWorkitem#date_expires}
   */
   readonly dateExpires?: string;
   /**
   * The description of the Workitem.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_workitem#description TaskManagementWorkitem#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_workitem#description TaskManagementWorkitem#description}
   */
   readonly description?: string;
   /**
   * The estimated duration in seconds to complete the workitem.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_workitem#duration_seconds TaskManagementWorkitem#duration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_workitem#duration_seconds TaskManagementWorkitem#duration_seconds}
   */
   readonly durationSeconds?: number;
   /**
   * The id of the external contact of the Workitem.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_workitem#external_contact_id TaskManagementWorkitem#external_contact_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_workitem#external_contact_id TaskManagementWorkitem#external_contact_id}
   */
   readonly externalContactId?: string;
   /**
   * The external tag of the Workitem.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_workitem#external_tag TaskManagementWorkitem#external_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_workitem#external_tag TaskManagementWorkitem#external_tag}
   */
   readonly externalTag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_workitem#id TaskManagementWorkitem#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_workitem#id TaskManagementWorkitem#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,67 +71,67 @@ export interface TaskManagementWorkitemConfig extends cdktf.TerraformMetaArgumen
   /**
   * The language of the Workitem.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_workitem#language_id TaskManagementWorkitem#language_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_workitem#language_id TaskManagementWorkitem#language_id}
   */
   readonly languageId?: string;
   /**
   * The name of the Workitem.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_workitem#name TaskManagementWorkitem#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_workitem#name TaskManagementWorkitem#name}
   */
   readonly name: string;
   /**
   * Ids of the preferred agents of the Workitem.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_workitem#preferred_agents_ids TaskManagementWorkitem#preferred_agents_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_workitem#preferred_agents_ids TaskManagementWorkitem#preferred_agents_ids}
   */
   readonly preferredAgentsIds?: string[];
   /**
   * The priority of the Workitem. The valid range is between -25,000,000 and 25,000,000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_workitem#priority TaskManagementWorkitem#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_workitem#priority TaskManagementWorkitem#priority}
   */
   readonly priority?: number;
   /**
   * The Workitem's queue id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_workitem#queue_id TaskManagementWorkitem#queue_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_workitem#queue_id TaskManagementWorkitem#queue_id}
   */
   readonly queueId?: string;
   /**
   * The ids of skills of the Workitem.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_workitem#skills_ids TaskManagementWorkitem#skills_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_workitem#skills_ids TaskManagementWorkitem#skills_ids}
   */
   readonly skillsIds?: string[];
   /**
   * The id of the current status of the Workitem.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_workitem#status_id TaskManagementWorkitem#status_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_workitem#status_id TaskManagementWorkitem#status_id}
   */
   readonly statusId?: string;
   /**
   * The time to live of the Workitem in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_workitem#ttl TaskManagementWorkitem#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_workitem#ttl TaskManagementWorkitem#ttl}
   */
   readonly ttl?: number;
   /**
   * The id of the Workbin that contains the Workitem.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_workitem#workbin_id TaskManagementWorkitem#workbin_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_workitem#workbin_id TaskManagementWorkitem#workbin_id}
   */
   readonly workbinId?: string;
   /**
   * The Worktype ID of the Workitem.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_workitem#worktype_id TaskManagementWorkitem#worktype_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_workitem#worktype_id TaskManagementWorkitem#worktype_id}
   */
   readonly worktypeId: string;
   /**
   * scored_agents block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_workitem#scored_agents TaskManagementWorkitem#scored_agents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_workitem#scored_agents TaskManagementWorkitem#scored_agents}
   */
   readonly scoredAgents?: TaskManagementWorkitemScoredAgents[] | cdktf.IResolvable;
 }
@@ -139,13 +139,13 @@ export interface TaskManagementWorkitemScoredAgents {
   /**
   * The agent id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_workitem#agent_id TaskManagementWorkitem#agent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_workitem#agent_id TaskManagementWorkitem#agent_id}
   */
   readonly agentId: string;
   /**
   * Agent's score for the workitem, from 0 - 100, higher being better
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_workitem#score TaskManagementWorkitem#score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_workitem#score TaskManagementWorkitem#score}
   */
   readonly score: number;
 }
@@ -284,7 +284,7 @@ export class TaskManagementWorkitemScoredAgentsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_workitem genesyscloud_task_management_workitem}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_workitem genesyscloud_task_management_workitem}
 */
 export class TaskManagementWorkitem extends cdktf.TerraformResource {
 
@@ -300,7 +300,7 @@ export class TaskManagementWorkitem extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TaskManagementWorkitem resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TaskManagementWorkitem to import
-  * @param importFromId The id of the existing TaskManagementWorkitem that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_workitem#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TaskManagementWorkitem that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_workitem#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TaskManagementWorkitem to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -312,7 +312,7 @@ export class TaskManagementWorkitem extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_workitem genesyscloud_task_management_workitem} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_workitem genesyscloud_task_management_workitem} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -323,8 +323,8 @@ export class TaskManagementWorkitem extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_task_management_workitem',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.71.1',
-        providerVersionConstraint: '1.71.1'
+        providerVersion: '1.72.2',
+        providerVersionConstraint: '1.72.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

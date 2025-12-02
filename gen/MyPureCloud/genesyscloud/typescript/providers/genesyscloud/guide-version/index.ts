@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/guide_version
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/guide_version
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface GuideVersionConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the guide this version belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/guide_version#guide_id GuideVersion#guide_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/guide_version#guide_id GuideVersion#guide_id}
   */
   readonly guideId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/guide_version#id GuideVersion#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/guide_version#id GuideVersion#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface GuideVersionConfig extends cdktf.TerraformMetaArguments {
   /**
   * The instruction given to this version of the guide, for how it should behave when interacting with a User.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/guide_version#instruction GuideVersion#instruction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/guide_version#instruction GuideVersion#instruction}
   */
   readonly instruction: string;
   /**
   * resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/guide_version#resources GuideVersion#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/guide_version#resources GuideVersion#resources}
   */
   readonly resources?: GuideVersionResources;
   /**
   * variables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/guide_version#variables GuideVersion#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/guide_version#variables GuideVersion#variables}
   */
   readonly variables?: GuideVersionVariables[] | cdktf.IResolvable;
 }
@@ -43,19 +43,19 @@ export interface GuideVersionResourcesDataAction {
   /**
   * The id of the data action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/guide_version#data_action_id GuideVersion#data_action_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/guide_version#data_action_id GuideVersion#data_action_id}
   */
   readonly dataActionId: string;
   /**
   * The optional description of the data action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/guide_version#description GuideVersion#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/guide_version#description GuideVersion#description}
   */
   readonly description?: string;
   /**
   * The label of the GC data action as referenced in the guide instruction.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/guide_version#label GuideVersion#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/guide_version#label GuideVersion#label}
   */
   readonly label: string;
 }
@@ -225,7 +225,7 @@ export interface GuideVersionResources {
   /**
   * data_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/guide_version#data_action GuideVersion#data_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/guide_version#data_action GuideVersion#data_action}
   */
   readonly dataAction?: GuideVersionResourcesDataAction[] | cdktf.IResolvable;
 }
@@ -311,25 +311,25 @@ export interface GuideVersionVariables {
   /**
   * The description of the variable used by Guides runtime for input/output handling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/guide_version#description GuideVersion#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/guide_version#description GuideVersion#description}
   */
   readonly description?: string;
   /**
   * The name of the variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/guide_version#name GuideVersion#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/guide_version#name GuideVersion#name}
   */
   readonly name: string;
   /**
   * The scope that determines the variable's usage context within Guides runtime.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/guide_version#scope GuideVersion#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/guide_version#scope GuideVersion#scope}
   */
   readonly scope: string;
   /**
   * The data type of the variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/guide_version#type GuideVersion#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/guide_version#type GuideVersion#type}
   */
   readonly type: string;
 }
@@ -523,7 +523,7 @@ export class GuideVersionVariablesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/guide_version genesyscloud_guide_version}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/guide_version genesyscloud_guide_version}
 */
 export class GuideVersion extends cdktf.TerraformResource {
 
@@ -539,7 +539,7 @@ export class GuideVersion extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GuideVersion resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GuideVersion to import
-  * @param importFromId The id of the existing GuideVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/guide_version#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GuideVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/guide_version#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GuideVersion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -551,7 +551,7 @@ export class GuideVersion extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/guide_version genesyscloud_guide_version} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/guide_version genesyscloud_guide_version} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -562,8 +562,8 @@ export class GuideVersion extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_guide_version',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.71.1',
-        providerVersionConstraint: '1.71.1'
+        providerVersion: '1.72.2',
+        providerVersionConstraint: '1.72.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

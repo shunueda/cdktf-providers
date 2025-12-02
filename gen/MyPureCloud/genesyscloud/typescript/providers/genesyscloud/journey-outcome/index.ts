@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_outcome
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_outcome
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface JourneyOutcomeConfig extends cdktf.TerraformMetaArguments {
   /**
   * A description of the outcome.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_outcome#description JourneyOutcome#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_outcome#description JourneyOutcome#description}
   */
   readonly description?: string;
   /**
   * The display name of the outcome.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_outcome#display_name JourneyOutcome#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_outcome#display_name JourneyOutcome#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_outcome#id JourneyOutcome#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_outcome#id JourneyOutcome#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface JourneyOutcomeConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether or not the outcome is active. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_outcome#is_active JourneyOutcome#is_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_outcome#is_active JourneyOutcome#is_active}
   */
   readonly isActive?: boolean | cdktf.IResolvable;
   /**
   * Whether or not the outcome is positive. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_outcome#is_positive JourneyOutcome#is_positive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_outcome#is_positive JourneyOutcome#is_positive}
   */
   readonly isPositive?: boolean | cdktf.IResolvable;
   /**
   * associated_value_field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_outcome#associated_value_field JourneyOutcome#associated_value_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_outcome#associated_value_field JourneyOutcome#associated_value_field}
   */
   readonly associatedValueField?: JourneyOutcomeAssociatedValueField;
   /**
   * context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_outcome#context JourneyOutcome#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_outcome#context JourneyOutcome#context}
   */
   readonly context?: JourneyOutcomeContext;
   /**
   * journey block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_outcome#journey JourneyOutcome#journey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_outcome#journey JourneyOutcome#journey}
   */
   readonly journey?: JourneyOutcomeJourney;
 }
@@ -61,13 +61,13 @@ export interface JourneyOutcomeAssociatedValueField {
   /**
   * The data type of the value field.Valid values: Number, Integer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_outcome#data_type JourneyOutcome#data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_outcome#data_type JourneyOutcome#data_type}
   */
   readonly dataType: string;
   /**
   * The field name for extracting value from event.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_outcome#name JourneyOutcome#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_outcome#name JourneyOutcome#name}
   */
   readonly name: string;
 }
@@ -176,31 +176,31 @@ export interface JourneyOutcomeContextPatternsCriteria {
   /**
   * The entity to match the pattern against.Valid values: visit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_outcome#entity_type JourneyOutcome#entity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_outcome#entity_type JourneyOutcome#entity_type}
   */
   readonly entityType: string;
   /**
   * The criteria key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_outcome#key JourneyOutcome#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_outcome#key JourneyOutcome#key}
   */
   readonly key: string;
   /**
   * The comparison operator. Valid values: containsAll, containsAny, notContainsAll, notContainsAny, equal, notEqual, greaterThan, greaterThanOrEqual, lessThan, lessThanOrEqual, startsWith, endsWith. Defaults to `equal`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_outcome#operator JourneyOutcome#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_outcome#operator JourneyOutcome#operator}
   */
   readonly operator?: string;
   /**
   * Should criteria be case insensitive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_outcome#should_ignore_case JourneyOutcome#should_ignore_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_outcome#should_ignore_case JourneyOutcome#should_ignore_case}
   */
   readonly shouldIgnoreCase: boolean | cdktf.IResolvable;
   /**
   * The criteria values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_outcome#values JourneyOutcome#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_outcome#values JourneyOutcome#values}
   */
   readonly values: string[];
 }
@@ -422,7 +422,7 @@ export interface JourneyOutcomeContextPatterns {
   /**
   * criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_outcome#criteria JourneyOutcome#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_outcome#criteria JourneyOutcome#criteria}
   */
   readonly criteria: JourneyOutcomeContextPatternsCriteria[] | cdktf.IResolvable;
 }
@@ -537,7 +537,7 @@ export interface JourneyOutcomeContext {
   /**
   * patterns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_outcome#patterns JourneyOutcome#patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_outcome#patterns JourneyOutcome#patterns}
   */
   readonly patterns: JourneyOutcomeContextPatterns[] | cdktf.IResolvable;
 }
@@ -620,25 +620,25 @@ export interface JourneyOutcomeJourneyPatternsCriteria {
   /**
   * The criteria key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_outcome#key JourneyOutcome#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_outcome#key JourneyOutcome#key}
   */
   readonly key: string;
   /**
   * The comparison operator.Valid values: containsAll, containsAny, notContainsAll, notContainsAny, equal, notEqual, greaterThan, greaterThanOrEqual, lessThan, lessThanOrEqual, startsWith, endsWith. Defaults to `equal`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_outcome#operator JourneyOutcome#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_outcome#operator JourneyOutcome#operator}
   */
   readonly operator?: string;
   /**
   * Should criteria be case insensitive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_outcome#should_ignore_case JourneyOutcome#should_ignore_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_outcome#should_ignore_case JourneyOutcome#should_ignore_case}
   */
   readonly shouldIgnoreCase: boolean | cdktf.IResolvable;
   /**
   * The criteria values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_outcome#values JourneyOutcome#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_outcome#values JourneyOutcome#values}
   */
   readonly values: string[];
 }
@@ -834,31 +834,31 @@ export interface JourneyOutcomeJourneyPatterns {
   /**
   * The number of times the pattern must match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_outcome#count JourneyOutcome#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_outcome#count JourneyOutcome#count}
   */
   readonly count: number;
   /**
   * The name of the event for which this pattern can be matched on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_outcome#event_name JourneyOutcome#event_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_outcome#event_name JourneyOutcome#event_name}
   */
   readonly eventName?: string;
   /**
   * The session type for which this pattern can be matched on. Valid values: web, app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_outcome#session_type JourneyOutcome#session_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_outcome#session_type JourneyOutcome#session_type}
   */
   readonly sessionType: string;
   /**
   * The stream type for which this pattern can be matched on. Valid values: Web, App.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_outcome#stream_type JourneyOutcome#stream_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_outcome#stream_type JourneyOutcome#stream_type}
   */
   readonly streamType: string;
   /**
   * criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_outcome#criteria JourneyOutcome#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_outcome#criteria JourneyOutcome#criteria}
   */
   readonly criteria: JourneyOutcomeJourneyPatternsCriteria[] | cdktf.IResolvable;
 }
@@ -1080,7 +1080,7 @@ export interface JourneyOutcomeJourney {
   /**
   * patterns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_outcome#patterns JourneyOutcome#patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_outcome#patterns JourneyOutcome#patterns}
   */
   readonly patterns: JourneyOutcomeJourneyPatterns[] | cdktf.IResolvable;
 }
@@ -1161,7 +1161,7 @@ export class JourneyOutcomeJourneyOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_outcome genesyscloud_journey_outcome}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_outcome genesyscloud_journey_outcome}
 */
 export class JourneyOutcome extends cdktf.TerraformResource {
 
@@ -1177,7 +1177,7 @@ export class JourneyOutcome extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a JourneyOutcome resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the JourneyOutcome to import
-  * @param importFromId The id of the existing JourneyOutcome that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_outcome#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing JourneyOutcome that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_outcome#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the JourneyOutcome to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1189,7 +1189,7 @@ export class JourneyOutcome extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_outcome genesyscloud_journey_outcome} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_outcome genesyscloud_journey_outcome} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1200,8 +1200,8 @@ export class JourneyOutcome extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_journey_outcome',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.71.1',
-        providerVersionConstraint: '1.71.1'
+        providerVersion: '1.72.2',
+        providerVersionConstraint: '1.72.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

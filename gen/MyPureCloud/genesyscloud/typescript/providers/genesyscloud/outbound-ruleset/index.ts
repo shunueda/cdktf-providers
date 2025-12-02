@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_ruleset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface OutboundRulesetConfig extends cdktf.TerraformMetaArguments {
   /**
   * A ContactList to provide user-interface suggestions for contact columns on relevant conditions and actions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#contact_list_id OutboundRuleset#contact_list_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_ruleset#contact_list_id OutboundRuleset#contact_list_id}
   */
   readonly contactListId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#id OutboundRuleset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_ruleset#id OutboundRuleset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface OutboundRulesetConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the RuleSet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#name OutboundRuleset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_ruleset#name OutboundRuleset#name}
   */
   readonly name: string;
   /**
   * A Queue to provide user-interface suggestions for wrap-up codes on relevant conditions and actions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#queue_id OutboundRuleset#queue_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_ruleset#queue_id OutboundRuleset#queue_id}
   */
   readonly queueId?: string;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#rules OutboundRuleset#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_ruleset#rules OutboundRuleset#rules}
   */
   readonly rules?: OutboundRulesetRules[] | cdktf.IResolvable;
 }
@@ -43,13 +43,13 @@ export interface OutboundRulesetRulesActionsContactColumnToDataActionFieldMappin
   /**
   * The name of a contact column whose data will be passed to the data action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#contact_column_name OutboundRuleset#contact_column_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_ruleset#contact_column_name OutboundRuleset#contact_column_name}
   */
   readonly contactColumnName: string;
   /**
   * The name of an input field from the data action that the contact column data will be passed to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#data_action_field OutboundRuleset#data_action_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_ruleset#data_action_field OutboundRuleset#data_action_field}
   */
   readonly dataActionField: string;
 }
@@ -190,55 +190,55 @@ export interface OutboundRulesetRulesActions {
   /**
   * Additional type specification for this DialerAction.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#action_type_name OutboundRuleset#action_type_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_ruleset#action_type_name OutboundRuleset#action_type_name}
   */
   readonly actionTypeName: string;
   /**
   * The input field from the data action that the agentWrapup will be passed to for this condition. Valid for a wrapup dataActionBehavior.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#agent_wrapup_field OutboundRuleset#agent_wrapup_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_ruleset#agent_wrapup_field OutboundRuleset#agent_wrapup_field}
   */
   readonly agentWrapupField?: string;
   /**
   * The input field from the data action that the callAnalysisResult will be passed to for this condition. Valid for a wrapup dataActionBehavior.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#call_analysis_result_field OutboundRuleset#call_analysis_result_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_ruleset#call_analysis_result_field OutboundRuleset#call_analysis_result_field}
   */
   readonly callAnalysisResultField?: string;
   /**
   * The input field from the data action that the contactId will be passed to for this condition. Valid for a dataActionBehavior.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#contact_id_field OutboundRuleset#contact_id_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_ruleset#contact_id_field OutboundRuleset#contact_id_field}
   */
   readonly contactIdField?: string;
   /**
   * The Data Action to use for this action. Required for a dataActionBehavior.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#data_action_id OutboundRuleset#data_action_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_ruleset#data_action_id OutboundRuleset#data_action_id}
   */
   readonly dataActionId?: string;
   /**
   * A map of key-value pairs pertinent to the DialerAction. Different types of DialerActions require different properties. MODIFY_CONTACT_ATTRIBUTE with an updateOption of SET takes a contact column as the key and accepts any value. SCHEDULE_CALLBACK takes a key 'callbackOffset' that specifies how far in the future the callback should be scheduled, in minutes. SET_CALLER_ID takes two keys: 'callerAddress', which should be the caller id phone number, and 'callerName'. For either key, you can also specify a column on the contact to get the value from. To do this, specify 'contact.Column', where 'Column' is the name of the contact column from which to get the value. SET_SKILLS takes a key 'skills' with an array of skill ids wrapped into a string (Example: {'skills': '['skillIdHere']'} ).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#properties OutboundRuleset#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_ruleset#properties OutboundRuleset#properties}
   */
   readonly properties?: { [key: string]: string };
   /**
   * The type of this DialerAction.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#type OutboundRuleset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_ruleset#type OutboundRuleset#type}
   */
   readonly type: string;
   /**
   * Specifies how a contact attribute should be updated. Required for MODIFY_CONTACT_ATTRIBUTE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#update_option OutboundRuleset#update_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_ruleset#update_option OutboundRuleset#update_option}
   */
   readonly updateOption?: string;
   /**
   * contact_column_to_data_action_field_mappings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#contact_column_to_data_action_field_mappings OutboundRuleset#contact_column_to_data_action_field_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_ruleset#contact_column_to_data_action_field_mappings OutboundRuleset#contact_column_to_data_action_field_mappings}
   */
   readonly contactColumnToDataActionFieldMappings?: OutboundRulesetRulesActionsContactColumnToDataActionFieldMappings[] | cdktf.IResolvable;
 }
@@ -582,13 +582,13 @@ export interface OutboundRulesetRulesConditionsContactColumnToDataActionFieldMap
   /**
   * The name of a contact column whose data will be passed to the data action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#contact_column_name OutboundRuleset#contact_column_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_ruleset#contact_column_name OutboundRuleset#contact_column_name}
   */
   readonly contactColumnName: string;
   /**
   * The name of an input field from the data action that the contact column data will be passed to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#data_action_field OutboundRuleset#data_action_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_ruleset#data_action_field OutboundRuleset#data_action_field}
   */
   readonly dataActionField: string;
 }
@@ -729,31 +729,31 @@ export interface OutboundRulesetRulesConditionsPredicates {
   /**
   * The value to compare against for this condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#comparison_value OutboundRuleset#comparison_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_ruleset#comparison_value OutboundRuleset#comparison_value}
   */
   readonly comparisonValue: string;
   /**
   * If true, inverts the result of evaluating this Predicate. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#inverted OutboundRuleset#inverted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_ruleset#inverted OutboundRuleset#inverted}
   */
   readonly inverted: boolean | cdktf.IResolvable;
   /**
   * The name of an output field from the data action's output to use for this condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#output_field OutboundRuleset#output_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_ruleset#output_field OutboundRuleset#output_field}
   */
   readonly outputField: string;
   /**
   * The result of this predicate if the requested output field is missing from the data action's result
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#output_field_missing_resolution OutboundRuleset#output_field_missing_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_ruleset#output_field_missing_resolution OutboundRuleset#output_field_missing_resolution}
   */
   readonly outputFieldMissingResolution: boolean | cdktf.IResolvable;
   /**
   * The operation with which to evaluate this condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#output_operator OutboundRuleset#output_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_ruleset#output_operator OutboundRuleset#output_operator}
   */
   readonly outputOperator: string;
 }
@@ -968,103 +968,564 @@ export class OutboundRulesetRulesConditionsPredicatesList extends cdktf.ComplexL
     return new OutboundRulesetRulesConditionsPredicatesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface OutboundRulesetRulesConditionsSubConditionsRange {
+  /**
+  * A set of values that the date/ time data should be in. Required for the IN operator. Format depends on type: dayOfWeek: 1-7 (Monday-Sunday), dayOfMonth: 1-31, and/ or LAST_DAY, ODD_DAY, EVEN_DAY,specificDate: yyyy-MM-dd (if includeYear=true) or MM-dd (if includeYear=false).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_ruleset#in_set OutboundRuleset#in_set}
+  */
+  readonly inSet?: string[];
+  /**
+  * The maximum value of the range. Required for the operator BETWEEN. Format follows the same rules as 'min'.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_ruleset#max OutboundRuleset#max}
+  */
+  readonly max?: string;
+  /**
+  * The minimum value of the range. Required for the operator BETWEEN. Format depends on type: timeOfDay: HH:mm, dayOfWeek: 1-7 (Monday-Sunday), dayOfMonth: 1-31, specificDate: yyyy-MM-dd (if includeYear=true) or MM-dd (if includeYear=false).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_ruleset#min OutboundRuleset#min}
+  */
+  readonly min?: string;
+}
+
+export function outboundRulesetRulesConditionsSubConditionsRangeToTerraform(struct?: OutboundRulesetRulesConditionsSubConditionsRangeOutputReference | OutboundRulesetRulesConditionsSubConditionsRange): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    in_set: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.inSet),
+    max: cdktf.stringToTerraform(struct!.max),
+    min: cdktf.stringToTerraform(struct!.min),
+  }
+}
+
+
+export function outboundRulesetRulesConditionsSubConditionsRangeToHclTerraform(struct?: OutboundRulesetRulesConditionsSubConditionsRangeOutputReference | OutboundRulesetRulesConditionsSubConditionsRange): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    in_set: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.inSet),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    max: {
+      value: cdktf.stringToHclTerraform(struct!.max),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    min: {
+      value: cdktf.stringToHclTerraform(struct!.min),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class OutboundRulesetRulesConditionsSubConditionsRangeOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): OutboundRulesetRulesConditionsSubConditionsRange | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._inSet !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.inSet = this._inSet;
+    }
+    if (this._max !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.max = this._max;
+    }
+    if (this._min !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.min = this._min;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OutboundRulesetRulesConditionsSubConditionsRange | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._inSet = undefined;
+      this._max = undefined;
+      this._min = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._inSet = value.inSet;
+      this._max = value.max;
+      this._min = value.min;
+    }
+  }
+
+  // in_set - computed: false, optional: true, required: false
+  private _inSet?: string[]; 
+  public get inSet() {
+    return this.getListAttribute('in_set');
+  }
+  public set inSet(value: string[]) {
+    this._inSet = value;
+  }
+  public resetInSet() {
+    this._inSet = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get inSetInput() {
+    return this._inSet;
+  }
+
+  // max - computed: false, optional: true, required: false
+  private _max?: string; 
+  public get max() {
+    return this.getStringAttribute('max');
+  }
+  public set max(value: string) {
+    this._max = value;
+  }
+  public resetMax() {
+    this._max = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxInput() {
+    return this._max;
+  }
+
+  // min - computed: false, optional: true, required: false
+  private _min?: string; 
+  public get min() {
+    return this.getStringAttribute('min');
+  }
+  public set min(value: string) {
+    this._min = value;
+  }
+  public resetMin() {
+    this._min = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minInput() {
+    return this._min;
+  }
+}
+export interface OutboundRulesetRulesConditionsSubConditions {
+  /**
+  * If true, includes year in date comparison for specificDate type. When false, only month and day are compared. Default is true. Only applicable for specificDate type. Defaults to `true`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_ruleset#include_year OutboundRuleset#include_year}
+  */
+  readonly includeYear?: boolean | cdktf.IResolvable;
+  /**
+  * If true, inverts the result of evaluating this sub-condition. Default is false.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_ruleset#inverted OutboundRuleset#inverted}
+  */
+  readonly inverted?: boolean | cdktf.IResolvable;
+  /**
+  * The operator to use for comparison.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_ruleset#operator OutboundRuleset#operator}
+  */
+  readonly operator: string;
+  /**
+  * Threshold value for BEFORE or AFTER operators. Format depends on type: timeOfDay: HH:mm, dayOfWeek: 1-7 (Monday-Sunday), dayOfMonth: 1-31 and/ or LAST_DAY, ODD_DAY, EVEN_DAY, specificDate: yyyy-MM-dd (if includeYear=true) or MM-dd (if includeYear=false). For single-value comparison, use a list with one element.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_ruleset#threshold_value OutboundRuleset#threshold_value}
+  */
+  readonly thresholdValue?: string;
+  /**
+  * The type of time/date sub-condition.Valid values: timeOfDay, dayOfWeek, dayOfMonth, specificDate.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_ruleset#type OutboundRuleset#type}
+  */
+  readonly type: string;
+  /**
+  * range block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_ruleset#range OutboundRuleset#range}
+  */
+  readonly range?: OutboundRulesetRulesConditionsSubConditionsRange;
+}
+
+export function outboundRulesetRulesConditionsSubConditionsToTerraform(struct?: OutboundRulesetRulesConditionsSubConditions | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    include_year: cdktf.booleanToTerraform(struct!.includeYear),
+    inverted: cdktf.booleanToTerraform(struct!.inverted),
+    operator: cdktf.stringToTerraform(struct!.operator),
+    threshold_value: cdktf.stringToTerraform(struct!.thresholdValue),
+    type: cdktf.stringToTerraform(struct!.type),
+    range: outboundRulesetRulesConditionsSubConditionsRangeToTerraform(struct!.range),
+  }
+}
+
+
+export function outboundRulesetRulesConditionsSubConditionsToHclTerraform(struct?: OutboundRulesetRulesConditionsSubConditions | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    include_year: {
+      value: cdktf.booleanToHclTerraform(struct!.includeYear),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    inverted: {
+      value: cdktf.booleanToHclTerraform(struct!.inverted),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    operator: {
+      value: cdktf.stringToHclTerraform(struct!.operator),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    threshold_value: {
+      value: cdktf.stringToHclTerraform(struct!.thresholdValue),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    type: {
+      value: cdktf.stringToHclTerraform(struct!.type),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    range: {
+      value: outboundRulesetRulesConditionsSubConditionsRangeToHclTerraform(struct!.range),
+      isBlock: true,
+      type: "list",
+      storageClassType: "OutboundRulesetRulesConditionsSubConditionsRangeList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class OutboundRulesetRulesConditionsSubConditionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): OutboundRulesetRulesConditionsSubConditions | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._includeYear !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.includeYear = this._includeYear;
+    }
+    if (this._inverted !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.inverted = this._inverted;
+    }
+    if (this._operator !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.operator = this._operator;
+    }
+    if (this._thresholdValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.thresholdValue = this._thresholdValue;
+    }
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    if (this._range?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.range = this._range?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OutboundRulesetRulesConditionsSubConditions | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._includeYear = undefined;
+      this._inverted = undefined;
+      this._operator = undefined;
+      this._thresholdValue = undefined;
+      this._type = undefined;
+      this._range.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._includeYear = value.includeYear;
+      this._inverted = value.inverted;
+      this._operator = value.operator;
+      this._thresholdValue = value.thresholdValue;
+      this._type = value.type;
+      this._range.internalValue = value.range;
+    }
+  }
+
+  // include_year - computed: false, optional: true, required: false
+  private _includeYear?: boolean | cdktf.IResolvable; 
+  public get includeYear() {
+    return this.getBooleanAttribute('include_year');
+  }
+  public set includeYear(value: boolean | cdktf.IResolvable) {
+    this._includeYear = value;
+  }
+  public resetIncludeYear() {
+    this._includeYear = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get includeYearInput() {
+    return this._includeYear;
+  }
+
+  // inverted - computed: false, optional: true, required: false
+  private _inverted?: boolean | cdktf.IResolvable; 
+  public get inverted() {
+    return this.getBooleanAttribute('inverted');
+  }
+  public set inverted(value: boolean | cdktf.IResolvable) {
+    this._inverted = value;
+  }
+  public resetInverted() {
+    this._inverted = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get invertedInput() {
+    return this._inverted;
+  }
+
+  // operator - computed: false, optional: false, required: true
+  private _operator?: string; 
+  public get operator() {
+    return this.getStringAttribute('operator');
+  }
+  public set operator(value: string) {
+    this._operator = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get operatorInput() {
+    return this._operator;
+  }
+
+  // threshold_value - computed: false, optional: true, required: false
+  private _thresholdValue?: string; 
+  public get thresholdValue() {
+    return this.getStringAttribute('threshold_value');
+  }
+  public set thresholdValue(value: string) {
+    this._thresholdValue = value;
+  }
+  public resetThresholdValue() {
+    this._thresholdValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get thresholdValueInput() {
+    return this._thresholdValue;
+  }
+
+  // type - computed: false, optional: false, required: true
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+
+  // range - computed: false, optional: true, required: false
+  private _range = new OutboundRulesetRulesConditionsSubConditionsRangeOutputReference(this, "range");
+  public get range() {
+    return this._range;
+  }
+  public putRange(value: OutboundRulesetRulesConditionsSubConditionsRange) {
+    this._range.internalValue = value;
+  }
+  public resetRange() {
+    this._range.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rangeInput() {
+    return this._range.internalValue;
+  }
+}
+
+export class OutboundRulesetRulesConditionsSubConditionsList extends cdktf.ComplexList {
+  public internalValue? : OutboundRulesetRulesConditionsSubConditions[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): OutboundRulesetRulesConditionsSubConditionsOutputReference {
+    return new OutboundRulesetRulesConditionsSubConditionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface OutboundRulesetRulesConditions {
   /**
   * The input field from the data action that the agentWrapup will be passed to for this condition. Valid for a wrapup dataActionCondition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#agent_wrapup_field OutboundRuleset#agent_wrapup_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_ruleset#agent_wrapup_field OutboundRuleset#agent_wrapup_field}
   */
   readonly agentWrapupField?: string;
   /**
   * An attribute name associated with this Condition. Required for a contactAttributeCondition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#attribute_name OutboundRuleset#attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_ruleset#attribute_name OutboundRuleset#attribute_name}
   */
   readonly attributeName?: string;
   /**
   * The input field from the data action that the callAnalysisResult will be passed to for this condition. Valid for a wrapup dataActionCondition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#call_analysis_result_field OutboundRuleset#call_analysis_result_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_ruleset#call_analysis_result_field OutboundRuleset#call_analysis_result_field}
   */
   readonly callAnalysisResultField?: string;
   /**
   * List of wrap-up code identifiers. Required for a wrapupCondition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#codes OutboundRuleset#codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_ruleset#codes OutboundRuleset#codes}
   */
   readonly codes?: string[];
   /**
   * The input field from the data action that the contactId will be passed to for this condition. Valid for a dataActionCondition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#contact_id_field OutboundRuleset#contact_id_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_ruleset#contact_id_field OutboundRuleset#contact_id_field}
   */
   readonly contactIdField?: string;
   /**
   * The Data Action to use for this condition. Required for a dataActionCondition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#data_action_id OutboundRuleset#data_action_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_ruleset#data_action_id OutboundRuleset#data_action_id}
   */
   readonly dataActionId?: string;
   /**
   * The result of this condition if the data action returns a result indicating there was no data. Required for a DataActionCondition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#data_not_found_resolution OutboundRuleset#data_not_found_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_ruleset#data_not_found_resolution OutboundRuleset#data_not_found_resolution}
   */
   readonly dataNotFoundResolution?: boolean | cdktf.IResolvable;
   /**
   * If true, inverts the result of evaluating this Condition. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#inverted OutboundRuleset#inverted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_ruleset#inverted OutboundRuleset#inverted}
   */
   readonly inverted?: boolean | cdktf.IResolvable;
   /**
+  * If true, only one sub-condition must match for the condition to be true. If false, all sub-conditions must match. Default is false. Required for a timeAndDateCondition.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_ruleset#match_any_conditions OutboundRuleset#match_any_conditions}
+  */
+  readonly matchAnyConditions?: boolean | cdktf.IResolvable;
+  /**
   * An operation with which to evaluate the Condition. Not used for a DataActionCondition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#operator OutboundRuleset#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_ruleset#operator OutboundRuleset#operator}
   */
   readonly operator?: string;
   /**
   * A value associated with the property type of this Condition. Required for a contactPropertyCondition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#property OutboundRuleset#property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_ruleset#property OutboundRuleset#property}
   */
   readonly property?: string;
   /**
   * The type of the property associated with this Condition. Required for a contactPropertyCondition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#property_type OutboundRuleset#property_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_ruleset#property_type OutboundRuleset#property_type}
   */
   readonly propertyType?: string;
   /**
+  * The time zone to use for this condition. Required for a timeAndDateCondition.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_ruleset#time_zone_id OutboundRuleset#time_zone_id}
+  */
+  readonly timeZoneId?: string;
+  /**
   * The type of the condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#type OutboundRuleset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_ruleset#type OutboundRuleset#type}
   */
   readonly type?: string;
   /**
   * A value associated with this Condition. This could be text, a number, or a relative time. Not used for a DataActionCondition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#value OutboundRuleset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_ruleset#value OutboundRuleset#value}
   */
   readonly value?: string;
   /**
   * The type of the value associated with this Condition. Not used for a DataActionCondition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#value_type OutboundRuleset#value_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_ruleset#value_type OutboundRuleset#value_type}
   */
   readonly valueType?: string;
   /**
   * contact_column_to_data_action_field_mappings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#contact_column_to_data_action_field_mappings OutboundRuleset#contact_column_to_data_action_field_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_ruleset#contact_column_to_data_action_field_mappings OutboundRuleset#contact_column_to_data_action_field_mappings}
   */
   readonly contactColumnToDataActionFieldMappings?: OutboundRulesetRulesConditionsContactColumnToDataActionFieldMappings[] | cdktf.IResolvable;
   /**
   * predicates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#predicates OutboundRuleset#predicates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_ruleset#predicates OutboundRuleset#predicates}
   */
   readonly predicates?: OutboundRulesetRulesConditionsPredicates[] | cdktf.IResolvable;
+  /**
+  * sub_conditions block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_ruleset#sub_conditions OutboundRuleset#sub_conditions}
+  */
+  readonly subConditions?: OutboundRulesetRulesConditionsSubConditions[] | cdktf.IResolvable;
 }
 
 export function outboundRulesetRulesConditionsToTerraform(struct?: OutboundRulesetRulesConditions | cdktf.IResolvable): any {
@@ -1081,14 +1542,17 @@ export function outboundRulesetRulesConditionsToTerraform(struct?: OutboundRules
     data_action_id: cdktf.stringToTerraform(struct!.dataActionId),
     data_not_found_resolution: cdktf.booleanToTerraform(struct!.dataNotFoundResolution),
     inverted: cdktf.booleanToTerraform(struct!.inverted),
+    match_any_conditions: cdktf.booleanToTerraform(struct!.matchAnyConditions),
     operator: cdktf.stringToTerraform(struct!.operator),
     property: cdktf.stringToTerraform(struct!.property),
     property_type: cdktf.stringToTerraform(struct!.propertyType),
+    time_zone_id: cdktf.stringToTerraform(struct!.timeZoneId),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     value_type: cdktf.stringToTerraform(struct!.valueType),
     contact_column_to_data_action_field_mappings: cdktf.listMapper(outboundRulesetRulesConditionsContactColumnToDataActionFieldMappingsToTerraform, true)(struct!.contactColumnToDataActionFieldMappings),
     predicates: cdktf.listMapper(outboundRulesetRulesConditionsPredicatesToTerraform, true)(struct!.predicates),
+    sub_conditions: cdktf.listMapper(outboundRulesetRulesConditionsSubConditionsToTerraform, true)(struct!.subConditions),
   }
 }
 
@@ -1147,6 +1611,12 @@ export function outboundRulesetRulesConditionsToHclTerraform(struct?: OutboundRu
       type: "simple",
       storageClassType: "boolean",
     },
+    match_any_conditions: {
+      value: cdktf.booleanToHclTerraform(struct!.matchAnyConditions),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
     operator: {
       value: cdktf.stringToHclTerraform(struct!.operator),
       isBlock: false,
@@ -1161,6 +1631,12 @@ export function outboundRulesetRulesConditionsToHclTerraform(struct?: OutboundRu
     },
     property_type: {
       value: cdktf.stringToHclTerraform(struct!.propertyType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    time_zone_id: {
+      value: cdktf.stringToHclTerraform(struct!.timeZoneId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1194,6 +1670,12 @@ export function outboundRulesetRulesConditionsToHclTerraform(struct?: OutboundRu
       isBlock: true,
       type: "list",
       storageClassType: "OutboundRulesetRulesConditionsPredicatesList",
+    },
+    sub_conditions: {
+      value: cdktf.listMapperHcl(outboundRulesetRulesConditionsSubConditionsToHclTerraform, true)(struct!.subConditions),
+      isBlock: true,
+      type: "list",
+      storageClassType: "OutboundRulesetRulesConditionsSubConditionsList",
     },
   };
 
@@ -1253,6 +1735,10 @@ export class OutboundRulesetRulesConditionsOutputReference extends cdktf.Complex
       hasAnyValues = true;
       internalValueResult.inverted = this._inverted;
     }
+    if (this._matchAnyConditions !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.matchAnyConditions = this._matchAnyConditions;
+    }
     if (this._operator !== undefined) {
       hasAnyValues = true;
       internalValueResult.operator = this._operator;
@@ -1264,6 +1750,10 @@ export class OutboundRulesetRulesConditionsOutputReference extends cdktf.Complex
     if (this._propertyType !== undefined) {
       hasAnyValues = true;
       internalValueResult.propertyType = this._propertyType;
+    }
+    if (this._timeZoneId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.timeZoneId = this._timeZoneId;
     }
     if (this._type !== undefined) {
       hasAnyValues = true;
@@ -1285,6 +1775,10 @@ export class OutboundRulesetRulesConditionsOutputReference extends cdktf.Complex
       hasAnyValues = true;
       internalValueResult.predicates = this._predicates?.internalValue;
     }
+    if (this._subConditions?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.subConditions = this._subConditions?.internalValue;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -1300,14 +1794,17 @@ export class OutboundRulesetRulesConditionsOutputReference extends cdktf.Complex
       this._dataActionId = undefined;
       this._dataNotFoundResolution = undefined;
       this._inverted = undefined;
+      this._matchAnyConditions = undefined;
       this._operator = undefined;
       this._property = undefined;
       this._propertyType = undefined;
+      this._timeZoneId = undefined;
       this._type = undefined;
       this._value = undefined;
       this._valueType = undefined;
       this._contactColumnToDataActionFieldMappings.internalValue = undefined;
       this._predicates.internalValue = undefined;
+      this._subConditions.internalValue = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -1324,14 +1821,17 @@ export class OutboundRulesetRulesConditionsOutputReference extends cdktf.Complex
       this._dataActionId = value.dataActionId;
       this._dataNotFoundResolution = value.dataNotFoundResolution;
       this._inverted = value.inverted;
+      this._matchAnyConditions = value.matchAnyConditions;
       this._operator = value.operator;
       this._property = value.property;
       this._propertyType = value.propertyType;
+      this._timeZoneId = value.timeZoneId;
       this._type = value.type;
       this._value = value.value;
       this._valueType = value.valueType;
       this._contactColumnToDataActionFieldMappings.internalValue = value.contactColumnToDataActionFieldMappings;
       this._predicates.internalValue = value.predicates;
+      this._subConditions.internalValue = value.subConditions;
     }
   }
 
@@ -1463,6 +1963,22 @@ export class OutboundRulesetRulesConditionsOutputReference extends cdktf.Complex
     return this._inverted;
   }
 
+  // match_any_conditions - computed: false, optional: true, required: false
+  private _matchAnyConditions?: boolean | cdktf.IResolvable; 
+  public get matchAnyConditions() {
+    return this.getBooleanAttribute('match_any_conditions');
+  }
+  public set matchAnyConditions(value: boolean | cdktf.IResolvable) {
+    this._matchAnyConditions = value;
+  }
+  public resetMatchAnyConditions() {
+    this._matchAnyConditions = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get matchAnyConditionsInput() {
+    return this._matchAnyConditions;
+  }
+
   // operator - computed: true, optional: true, required: false
   private _operator?: string; 
   public get operator() {
@@ -1509,6 +2025,22 @@ export class OutboundRulesetRulesConditionsOutputReference extends cdktf.Complex
   // Temporarily expose input value. Use with caution.
   public get propertyTypeInput() {
     return this._propertyType;
+  }
+
+  // time_zone_id - computed: false, optional: true, required: false
+  private _timeZoneId?: string; 
+  public get timeZoneId() {
+    return this.getStringAttribute('time_zone_id');
+  }
+  public set timeZoneId(value: string) {
+    this._timeZoneId = value;
+  }
+  public resetTimeZoneId() {
+    this._timeZoneId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get timeZoneIdInput() {
+    return this._timeZoneId;
   }
 
   // type - computed: false, optional: true, required: false
@@ -1590,6 +2122,22 @@ export class OutboundRulesetRulesConditionsOutputReference extends cdktf.Complex
   public get predicatesInput() {
     return this._predicates.internalValue;
   }
+
+  // sub_conditions - computed: false, optional: true, required: false
+  private _subConditions = new OutboundRulesetRulesConditionsSubConditionsList(this, "sub_conditions", false);
+  public get subConditions() {
+    return this._subConditions;
+  }
+  public putSubConditions(value: OutboundRulesetRulesConditionsSubConditions[] | cdktf.IResolvable) {
+    this._subConditions.internalValue = value;
+  }
+  public resetSubConditions() {
+    this._subConditions.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get subConditionsInput() {
+    return this._subConditions.internalValue;
+  }
 }
 
 export class OutboundRulesetRulesConditionsList extends cdktf.ComplexList {
@@ -1615,31 +2163,31 @@ export interface OutboundRulesetRules {
   /**
   * The category of the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#category OutboundRuleset#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_ruleset#category OutboundRuleset#category}
   */
   readonly category: string;
   /**
   * The name of the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#name OutboundRuleset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_ruleset#name OutboundRuleset#name}
   */
   readonly name: string;
   /**
   * The ranked order of the rule. Rules are processed from lowest number to highest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#order OutboundRuleset#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_ruleset#order OutboundRuleset#order}
   */
   readonly order?: number;
   /**
   * actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#actions OutboundRuleset#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_ruleset#actions OutboundRuleset#actions}
   */
   readonly actions: OutboundRulesetRulesActions[] | cdktf.IResolvable;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#conditions OutboundRuleset#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_ruleset#conditions OutboundRuleset#conditions}
   */
   readonly conditions: OutboundRulesetRulesConditions[] | cdktf.IResolvable;
 }
@@ -1859,7 +2407,7 @@ export class OutboundRulesetRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset genesyscloud_outbound_ruleset}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_ruleset genesyscloud_outbound_ruleset}
 */
 export class OutboundRuleset extends cdktf.TerraformResource {
 
@@ -1875,7 +2423,7 @@ export class OutboundRuleset extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OutboundRuleset resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OutboundRuleset to import
-  * @param importFromId The id of the existing OutboundRuleset that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OutboundRuleset that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_ruleset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OutboundRuleset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1887,7 +2435,7 @@ export class OutboundRuleset extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset genesyscloud_outbound_ruleset} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_ruleset genesyscloud_outbound_ruleset} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1898,8 +2446,8 @@ export class OutboundRuleset extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_outbound_ruleset',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.71.1',
-        providerVersionConstraint: '1.71.1'
+        providerVersion: '1.72.2',
+        providerVersionConstraint: '1.72.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

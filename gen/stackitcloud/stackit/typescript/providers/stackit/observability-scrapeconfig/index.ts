@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/observability_scrapeconfig
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/observability_scrapeconfig
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface ObservabilityScrapeconfigConfig extends cdktf.TerraformMetaArgu
   /**
   * A basic authentication block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/observability_scrapeconfig#basic_auth ObservabilityScrapeconfig#basic_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/observability_scrapeconfig#basic_auth ObservabilityScrapeconfig#basic_auth}
   */
   readonly basicAuth?: ObservabilityScrapeconfigBasicAuth;
   /**
   * Observability instance ID to which the scraping job is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/observability_scrapeconfig#instance_id ObservabilityScrapeconfig#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/observability_scrapeconfig#instance_id ObservabilityScrapeconfig#instance_id}
   */
   readonly instanceId: string;
   /**
   * Specifies the job scraping url path. E.g. `/metrics`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/observability_scrapeconfig#metrics_path ObservabilityScrapeconfig#metrics_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/observability_scrapeconfig#metrics_path ObservabilityScrapeconfig#metrics_path}
   */
   readonly metricsPath: string;
   /**
   * Specifies the name of the scraping job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/observability_scrapeconfig#name ObservabilityScrapeconfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/observability_scrapeconfig#name ObservabilityScrapeconfig#name}
   */
   readonly name: string;
   /**
   * STACKIT project ID to which the scraping job is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/observability_scrapeconfig#project_id ObservabilityScrapeconfig#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/observability_scrapeconfig#project_id ObservabilityScrapeconfig#project_id}
   */
   readonly projectId: string;
   /**
   * A SAML2 configuration block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/observability_scrapeconfig#saml2 ObservabilityScrapeconfig#saml2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/observability_scrapeconfig#saml2 ObservabilityScrapeconfig#saml2}
   */
   readonly saml2?: ObservabilityScrapeconfigSaml2;
   /**
   * Specifies the scrape sample limit. Upper limit depends on the service plan. Defaults to `5000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/observability_scrapeconfig#sample_limit ObservabilityScrapeconfig#sample_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/observability_scrapeconfig#sample_limit ObservabilityScrapeconfig#sample_limit}
   */
   readonly sampleLimit?: number;
   /**
   * Specifies the http scheme. Defaults to `https`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/observability_scrapeconfig#scheme ObservabilityScrapeconfig#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/observability_scrapeconfig#scheme ObservabilityScrapeconfig#scheme}
   */
   readonly scheme?: string;
   /**
   * Specifies the scrape interval as duration string. Defaults to `5m`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/observability_scrapeconfig#scrape_interval ObservabilityScrapeconfig#scrape_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/observability_scrapeconfig#scrape_interval ObservabilityScrapeconfig#scrape_interval}
   */
   readonly scrapeInterval?: string;
   /**
   * Specifies the scrape timeout as duration string. Defaults to `2m`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/observability_scrapeconfig#scrape_timeout ObservabilityScrapeconfig#scrape_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/observability_scrapeconfig#scrape_timeout ObservabilityScrapeconfig#scrape_timeout}
   */
   readonly scrapeTimeout?: string;
   /**
   * The targets list (specified by the static config).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/observability_scrapeconfig#targets ObservabilityScrapeconfig#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/observability_scrapeconfig#targets ObservabilityScrapeconfig#targets}
   */
   readonly targets: ObservabilityScrapeconfigTargets[] | cdktf.IResolvable;
 }
@@ -78,13 +78,13 @@ export interface ObservabilityScrapeconfigBasicAuth {
   /**
   * Specifies basic auth password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/observability_scrapeconfig#password ObservabilityScrapeconfig#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/observability_scrapeconfig#password ObservabilityScrapeconfig#password}
   */
   readonly password: string;
   /**
   * Specifies basic auth username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/observability_scrapeconfig#username ObservabilityScrapeconfig#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/observability_scrapeconfig#username ObservabilityScrapeconfig#username}
   */
   readonly username: string;
 }
@@ -203,7 +203,7 @@ export interface ObservabilityScrapeconfigSaml2 {
   /**
   * Specifies if URL parameters are enabled. Defaults to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/observability_scrapeconfig#enable_url_parameters ObservabilityScrapeconfig#enable_url_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/observability_scrapeconfig#enable_url_parameters ObservabilityScrapeconfig#enable_url_parameters}
   */
   readonly enableUrlParameters?: boolean | cdktf.IResolvable;
 }
@@ -299,13 +299,13 @@ export interface ObservabilityScrapeconfigTargets {
   /**
   * Specifies labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/observability_scrapeconfig#labels ObservabilityScrapeconfig#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/observability_scrapeconfig#labels ObservabilityScrapeconfig#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Specifies target URLs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/observability_scrapeconfig#urls ObservabilityScrapeconfig#urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/observability_scrapeconfig#urls ObservabilityScrapeconfig#urls}
   */
   readonly urls: string[];
 }
@@ -447,7 +447,7 @@ export class ObservabilityScrapeconfigTargetsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/observability_scrapeconfig stackit_observability_scrapeconfig}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/observability_scrapeconfig stackit_observability_scrapeconfig}
 */
 export class ObservabilityScrapeconfig extends cdktf.TerraformResource {
 
@@ -463,7 +463,7 @@ export class ObservabilityScrapeconfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObservabilityScrapeconfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObservabilityScrapeconfig to import
-  * @param importFromId The id of the existing ObservabilityScrapeconfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/observability_scrapeconfig#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObservabilityScrapeconfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/observability_scrapeconfig#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObservabilityScrapeconfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -475,7 +475,7 @@ export class ObservabilityScrapeconfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/observability_scrapeconfig stackit_observability_scrapeconfig} Resource
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/observability_scrapeconfig stackit_observability_scrapeconfig} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -486,8 +486,8 @@ export class ObservabilityScrapeconfig extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_observability_scrapeconfig',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.71.0',
-        providerVersionConstraint: '0.71.0'
+        providerVersion: '0.72.0',
+        providerVersionConstraint: '0.72.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

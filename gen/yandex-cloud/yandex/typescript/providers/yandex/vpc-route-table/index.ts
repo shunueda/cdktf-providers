@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/vpc_route_table
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/vpc_route_table
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface VpcRouteTableConfig extends cdktf.TerraformMetaArguments {
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/vpc_route_table#description VpcRouteTable#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/vpc_route_table#description VpcRouteTable#description}
   */
   readonly description?: string;
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/vpc_route_table#folder_id VpcRouteTable#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/vpc_route_table#folder_id VpcRouteTable#folder_id}
   */
   readonly folderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/vpc_route_table#id VpcRouteTable#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/vpc_route_table#id VpcRouteTable#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface VpcRouteTableConfig extends cdktf.TerraformMetaArguments {
   /**
   * A set of key/value label pairs which assigned to resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/vpc_route_table#labels VpcRouteTable#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/vpc_route_table#labels VpcRouteTable#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/vpc_route_table#name VpcRouteTable#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/vpc_route_table#name VpcRouteTable#name}
   */
   readonly name?: string;
   /**
   * ID of the network this route table belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/vpc_route_table#network_id VpcRouteTable#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/vpc_route_table#network_id VpcRouteTable#network_id}
   */
   readonly networkId: string;
   /**
   * static_route block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/vpc_route_table#static_route VpcRouteTable#static_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/vpc_route_table#static_route VpcRouteTable#static_route}
   */
   readonly staticRoute?: VpcRouteTableStaticRoute[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/vpc_route_table#timeouts VpcRouteTable#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/vpc_route_table#timeouts VpcRouteTable#timeouts}
   */
   readonly timeouts?: VpcRouteTableTimeouts;
 }
@@ -61,19 +61,19 @@ export interface VpcRouteTableStaticRoute {
   /**
   * Route prefix in CIDR notation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/vpc_route_table#destination_prefix VpcRouteTable#destination_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/vpc_route_table#destination_prefix VpcRouteTable#destination_prefix}
   */
   readonly destinationPrefix?: string;
   /**
   * ID of the gateway used ad next hop.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/vpc_route_table#gateway_id VpcRouteTable#gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/vpc_route_table#gateway_id VpcRouteTable#gateway_id}
   */
   readonly gatewayId?: string;
   /**
   * Address of the next hop.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/vpc_route_table#next_hop_address VpcRouteTable#next_hop_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/vpc_route_table#next_hop_address VpcRouteTable#next_hop_address}
   */
   readonly nextHopAddress?: string;
 }
@@ -247,15 +247,15 @@ export class VpcRouteTableStaticRouteList extends cdktf.ComplexList {
 }
 export interface VpcRouteTableTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/vpc_route_table#create VpcRouteTable#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/vpc_route_table#create VpcRouteTable#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/vpc_route_table#delete VpcRouteTable#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/vpc_route_table#delete VpcRouteTable#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/vpc_route_table#update VpcRouteTable#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/vpc_route_table#update VpcRouteTable#update}
   */
   readonly update?: string;
 }
@@ -407,7 +407,7 @@ export class VpcRouteTableTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/vpc_route_table yandex_vpc_route_table}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/vpc_route_table yandex_vpc_route_table}
 */
 export class VpcRouteTable extends cdktf.TerraformResource {
 
@@ -423,7 +423,7 @@ export class VpcRouteTable extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpcRouteTable resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpcRouteTable to import
-  * @param importFromId The id of the existing VpcRouteTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/vpc_route_table#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpcRouteTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/vpc_route_table#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpcRouteTable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -435,7 +435,7 @@ export class VpcRouteTable extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/vpc_route_table yandex_vpc_route_table} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/vpc_route_table yandex_vpc_route_table} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -446,8 +446,8 @@ export class VpcRouteTable extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_vpc_route_table',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.172.0',
-        providerVersionConstraint: '0.172.0'
+        providerVersion: '0.173.0',
+        providerVersionConstraint: '0.173.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

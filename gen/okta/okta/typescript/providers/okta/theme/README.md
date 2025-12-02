@@ -1,3 +1,3 @@
 # `okta_theme`
 
-Refer to the Terraform Registry for docs: [`okta_theme`](https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/theme).
+Refer to the Terraform Registry for docs: [`okta_theme`](https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/theme).

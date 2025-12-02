@@ -6,6 +6,7 @@ export * as functionality from './functionality';
 export * as inboundEmail from './inbound-email';
 export * as incidentRole from './incident-role';
 export * as incidentType from './incident-type';
+export * as lifecycleMilestone from './lifecycle-milestone';
 export * as onCallSchedule from './on-call-schedule';
 export * as priority from './priority';
 export * as role from './role';
@@ -24,6 +25,7 @@ export * as dataFirehydrantFunctionality from './data-firehydrant-functionality'
 export * as dataFirehydrantIncidentRole from './data-firehydrant-incident-role';
 export * as dataFirehydrantIncidentType from './data-firehydrant-incident-type';
 export * as dataFirehydrantIngestUrl from './data-firehydrant-ingest-url';
+export * as dataFirehydrantLifecyclePhase from './data-firehydrant-lifecycle-phase';
 export * as dataFirehydrantOnCallSchedule from './data-firehydrant-on-call-schedule';
 export * as dataFirehydrantOnCallSchedules from './data-firehydrant-on-call-schedules';
 export * as dataFirehydrantPermissions from './data-firehydrant-permissions';

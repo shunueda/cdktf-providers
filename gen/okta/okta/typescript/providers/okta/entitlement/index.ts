@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/entitlement
+// https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/entitlement
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface EntitlementConfig extends cdktf.TerraformMetaArguments {
   /**
   * The data type of the entitlement property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/entitlement#data_type Entitlement#data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/entitlement#data_type Entitlement#data_type}
   */
   readonly dataType: string;
   /**
   * The description of the entitlement property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/entitlement#description Entitlement#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/entitlement#description Entitlement#description}
   */
   readonly description?: string;
   /**
   * The value of an entitlement property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/entitlement#external_value Entitlement#external_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/entitlement#external_value Entitlement#external_value}
   */
   readonly externalValue: string;
   /**
   * The property that determines if the entitlement property can hold multiple values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/entitlement#multi_value Entitlement#multi_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/entitlement#multi_value Entitlement#multi_value}
   */
   readonly multiValue: boolean | cdktf.IResolvable;
   /**
   * The name of the entitlement property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/entitlement#name Entitlement#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/entitlement#name Entitlement#name}
   */
   readonly name?: string;
   /**
   * The Okta app instance, in ORN format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/entitlement#parent_resource_orn Entitlement#parent_resource_orn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/entitlement#parent_resource_orn Entitlement#parent_resource_orn}
   */
   readonly parentResourceOrn?: string;
   /**
   * The value of the entitlement property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/entitlement#value Entitlement#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/entitlement#value Entitlement#value}
   */
   readonly value?: string;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/entitlement#parent Entitlement#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/entitlement#parent Entitlement#parent}
   */
   readonly parent: EntitlementParent;
   /**
   * values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/entitlement#values Entitlement#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/entitlement#values Entitlement#values}
   */
   readonly values?: EntitlementValues[] | cdktf.IResolvable;
 }
@@ -66,13 +66,13 @@ export interface EntitlementParent {
   /**
   * The Okta app.id of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/entitlement#external_id Entitlement#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/entitlement#external_id Entitlement#external_id}
   */
   readonly externalId: string;
   /**
   * The type of resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/entitlement#type Entitlement#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/entitlement#type Entitlement#type}
   */
   readonly type: string;
 }
@@ -191,19 +191,19 @@ export interface EntitlementValues {
   /**
   * The description of the entitlement value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/entitlement#description Entitlement#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/entitlement#description Entitlement#description}
   */
   readonly description?: string;
   /**
   * The value of an entitlement property value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/entitlement#external_value Entitlement#external_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/entitlement#external_value Entitlement#external_value}
   */
   readonly externalValue?: string;
   /**
   * Collection of entitlement values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/entitlement#id Entitlement#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/entitlement#id Entitlement#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -212,7 +212,7 @@ export interface EntitlementValues {
   /**
   * The display name for an entitlement value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/entitlement#name Entitlement#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/entitlement#name Entitlement#name}
   */
   readonly name?: string;
 }
@@ -415,7 +415,7 @@ export class EntitlementValuesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/entitlement okta_entitlement}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/entitlement okta_entitlement}
 */
 export class Entitlement extends cdktf.TerraformResource {
 
@@ -431,7 +431,7 @@ export class Entitlement extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Entitlement resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Entitlement to import
-  * @param importFromId The id of the existing Entitlement that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/entitlement#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Entitlement that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/entitlement#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Entitlement to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -443,7 +443,7 @@ export class Entitlement extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/entitlement okta_entitlement} Resource
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/entitlement okta_entitlement} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -454,8 +454,8 @@ export class Entitlement extends cdktf.TerraformResource {
       terraformResourceType: 'okta_entitlement',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.5.0',
-        providerVersionConstraint: '6.5.0'
+        providerVersion: '6.5.1',
+        providerVersionConstraint: '6.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

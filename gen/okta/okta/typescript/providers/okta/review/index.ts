@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/review
+// https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/review
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface ReviewConfig extends cdktf.TerraformMetaArguments {
   /**
   * The id of the campaign.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/review#campaign_id Review#campaign_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/review#campaign_id Review#campaign_id}
   */
   readonly campaignId: string;
   /**
   * A note to justify the reassignment decision for the specified review.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/review#note Review#note}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/review#note Review#note}
   */
   readonly note: string;
   /**
   * A list of reviews (review id values) that are reassigned to the new reviewer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/review#review_ids Review#review_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/review#review_ids Review#review_ids}
   */
   readonly reviewIds: string[];
   /**
   * The Okta user id of the new reviewer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/review#reviewer_id Review#reviewer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/review#reviewer_id Review#reviewer_id}
   */
   readonly reviewerId: string;
   /**
   * Identifies the reviewer level of each reviews during access certification. Applicable for multi level campaigns only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/review#reviewer_level Review#reviewer_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/review#reviewer_level Review#reviewer_level}
   */
   readonly reviewerLevel?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/review okta_review}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/review okta_review}
 */
 export class Review extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class Review extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Review resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Review to import
-  * @param importFromId The id of the existing Review that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/review#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Review that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/review#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Review to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class Review extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/review okta_review} Resource
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/review okta_review} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class Review extends cdktf.TerraformResource {
       terraformResourceType: 'okta_review',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.5.0',
-        providerVersionConstraint: '6.5.0'
+        providerVersion: '6.5.1',
+        providerVersionConstraint: '6.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

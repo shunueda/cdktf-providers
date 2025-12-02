@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_settings
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface OutboundSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
   * The number of seconds used to determine if a call is abandoned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_settings#abandon_seconds OutboundSettings#abandon_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_settings#abandon_seconds OutboundSettings#abandon_seconds}
   */
   readonly abandonSeconds?: number;
   /**
   * The denominator to be used in determining the compliance abandon rate.Valid values: ALL_CALLS, CALLS_THAT_REACHED_QUEUE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_settings#compliance_abandon_rate_denominator OutboundSettings#compliance_abandon_rate_denominator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_settings#compliance_abandon_rate_denominator OutboundSettings#compliance_abandon_rate_denominator}
   */
   readonly complianceAbandonRateDenominator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_settings#id OutboundSettings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_settings#id OutboundSettings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface OutboundSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
   * The maximum number of calls that can be placed per agent on any campaign.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_settings#max_calls_per_agent OutboundSettings#max_calls_per_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_settings#max_calls_per_agent OutboundSettings#max_calls_per_agent}
   */
   readonly maxCallsPerAgent?: number;
   /**
   * The maximum percentage of lines that should be used for Outbound, expressed as a decimal in the range [0.0, 1.0].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_settings#max_line_utilization OutboundSettings#max_line_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_settings#max_line_utilization OutboundSettings#max_line_utilization}
   */
   readonly maxLineUtilization?: number;
   /**
   * Whether or not to reschedule time-zone blocked contacts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_settings#reschedule_time_zone_skipped_contacts OutboundSettings#reschedule_time_zone_skipped_contacts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_settings#reschedule_time_zone_skipped_contacts OutboundSettings#reschedule_time_zone_skipped_contacts}
   */
   readonly rescheduleTimeZoneSkippedContacts?: boolean | cdktf.IResolvable;
   /**
   * automatic_time_zone_mapping block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_settings#automatic_time_zone_mapping OutboundSettings#automatic_time_zone_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_settings#automatic_time_zone_mapping OutboundSettings#automatic_time_zone_mapping}
   */
   readonly automaticTimeZoneMapping?: OutboundSettingsAutomaticTimeZoneMapping[] | cdktf.IResolvable;
 }
@@ -55,13 +55,13 @@ export interface OutboundSettingsAutomaticTimeZoneMappingCallableWindowsMapped {
   /**
   * The earliest time to dial a contact. Valid format is HH:mm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_settings#earliest_callable_time OutboundSettings#earliest_callable_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_settings#earliest_callable_time OutboundSettings#earliest_callable_time}
   */
   readonly earliestCallableTime?: string;
   /**
   * The latest time to dial a contact. Valid format is HH:mm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_settings#latest_callable_time OutboundSettings#latest_callable_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_settings#latest_callable_time OutboundSettings#latest_callable_time}
   */
   readonly latestCallableTime?: string;
 }
@@ -176,19 +176,19 @@ export interface OutboundSettingsAutomaticTimeZoneMappingCallableWindowsUnmapped
   /**
   * The earliest time to dial a contact. Valid format is HH:mm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_settings#earliest_callable_time OutboundSettings#earliest_callable_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_settings#earliest_callable_time OutboundSettings#earliest_callable_time}
   */
   readonly earliestCallableTime?: string;
   /**
   * The latest time to dial a contact. Valid format is HH:mm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_settings#latest_callable_time OutboundSettings#latest_callable_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_settings#latest_callable_time OutboundSettings#latest_callable_time}
   */
   readonly latestCallableTime?: string;
   /**
   * The time zone to use for contacts that cannot be mapped.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_settings#time_zone_id OutboundSettings#time_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_settings#time_zone_id OutboundSettings#time_zone_id}
   */
   readonly timeZoneId?: string;
 }
@@ -332,13 +332,13 @@ export interface OutboundSettingsAutomaticTimeZoneMappingCallableWindows {
   /**
   * mapped block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_settings#mapped OutboundSettings#mapped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_settings#mapped OutboundSettings#mapped}
   */
   readonly mapped?: OutboundSettingsAutomaticTimeZoneMappingCallableWindowsMapped;
   /**
   * unmapped block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_settings#unmapped OutboundSettings#unmapped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_settings#unmapped OutboundSettings#unmapped}
   */
   readonly unmapped?: OutboundSettingsAutomaticTimeZoneMappingCallableWindowsUnmapped;
 }
@@ -453,13 +453,13 @@ export interface OutboundSettingsAutomaticTimeZoneMapping {
   /**
   * The countries that are supported for automatic time zone mapping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_settings#supported_countries OutboundSettings#supported_countries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_settings#supported_countries OutboundSettings#supported_countries}
   */
   readonly supportedCountries?: string[];
   /**
   * callable_windows block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_settings#callable_windows OutboundSettings#callable_windows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_settings#callable_windows OutboundSettings#callable_windows}
   */
   readonly callableWindows?: OutboundSettingsAutomaticTimeZoneMappingCallableWindows;
 }
@@ -604,7 +604,7 @@ export class OutboundSettingsAutomaticTimeZoneMappingList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_settings genesyscloud_outbound_settings}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_settings genesyscloud_outbound_settings}
 */
 export class OutboundSettings extends cdktf.TerraformResource {
 
@@ -620,7 +620,7 @@ export class OutboundSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OutboundSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OutboundSettings to import
-  * @param importFromId The id of the existing OutboundSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OutboundSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OutboundSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -632,7 +632,7 @@ export class OutboundSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_settings genesyscloud_outbound_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_settings genesyscloud_outbound_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -643,8 +643,8 @@ export class OutboundSettings extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_outbound_settings',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.71.1',
-        providerVersionConstraint: '1.71.1'
+        providerVersion: '1.72.2',
+        providerVersionConstraint: '1.72.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

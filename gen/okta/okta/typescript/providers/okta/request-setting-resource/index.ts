@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/request_setting_resource
+// https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/request_setting_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface RequestSettingResourceConfig extends cdktf.TerraformMetaArgumen
   /**
   * The id of the resource in Okta ID format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/request_setting_resource#id RequestSettingResource#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/request_setting_resource#id RequestSettingResource#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,13 +19,13 @@ export interface RequestSettingResourceConfig extends cdktf.TerraformMetaArgumen
   /**
   * request_on_behalf_of_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/request_setting_resource#request_on_behalf_of_settings RequestSettingResource#request_on_behalf_of_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/request_setting_resource#request_on_behalf_of_settings RequestSettingResource#request_on_behalf_of_settings}
   */
   readonly requestOnBehalfOfSettings?: RequestSettingResourceRequestOnBehalfOfSettings;
   /**
   * risk_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/request_setting_resource#risk_settings RequestSettingResource#risk_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/request_setting_resource#risk_settings RequestSettingResource#risk_settings}
   */
   readonly riskSettings?: RequestSettingResourceRiskSettings;
 }
@@ -33,7 +33,7 @@ export interface RequestSettingResourceRequestOnBehalfOfSettingsOnlyFor {
   /**
   * Which requesters the resource requester can request on behalf of. If onlyFor is not specified then any requester may request a resource on the behalf of any other user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/request_setting_resource#type RequestSettingResource#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/request_setting_resource#type RequestSettingResource#type}
   */
   readonly type?: string;
 }
@@ -151,13 +151,13 @@ export interface RequestSettingResourceRequestOnBehalfOfSettings {
   /**
   * Indicates that users who can request this resource could also request for another requester of the same resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/request_setting_resource#allowed RequestSettingResource#allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/request_setting_resource#allowed RequestSettingResource#allowed}
   */
   readonly allowed?: boolean | cdktf.IResolvable;
   /**
   * only_for block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/request_setting_resource#only_for RequestSettingResource#only_for}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/request_setting_resource#only_for RequestSettingResource#only_for}
   */
   readonly onlyFor?: RequestSettingResourceRequestOnBehalfOfSettingsOnlyFor[] | cdktf.IResolvable;
 }
@@ -280,11 +280,11 @@ export class RequestSettingResourceRequestOnBehalfOfSettingsOutputReference exte
 }
 export interface RequestSettingResourceRiskSettingsDefaultSettingAccessDurationSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/request_setting_resource#duration RequestSettingResource#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/request_setting_resource#duration RequestSettingResource#duration}
   */
   readonly duration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/request_setting_resource#type RequestSettingResource#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/request_setting_resource#type RequestSettingResource#type}
   */
   readonly type?: string;
 }
@@ -409,17 +409,17 @@ export interface RequestSettingResourceRiskSettingsDefaultSetting {
   /**
   * The ID of the approval sequence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/request_setting_resource#approval_sequence_id RequestSettingResource#approval_sequence_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/request_setting_resource#approval_sequence_id RequestSettingResource#approval_sequence_id}
   */
   readonly approvalSequenceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/request_setting_resource#request_submission_type RequestSettingResource#request_submission_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/request_setting_resource#request_submission_type RequestSettingResource#request_submission_type}
   */
   readonly requestSubmissionType?: string;
   /**
   * access_duration_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/request_setting_resource#access_duration_settings RequestSettingResource#access_duration_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/request_setting_resource#access_duration_settings RequestSettingResource#access_duration_settings}
   */
   readonly accessDurationSettings?: RequestSettingResourceRiskSettingsDefaultSettingAccessDurationSettings;
 }
@@ -578,7 +578,7 @@ export interface RequestSettingResourceRiskSettings {
   /**
   * default_setting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/request_setting_resource#default_setting RequestSettingResource#default_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/request_setting_resource#default_setting RequestSettingResource#default_setting}
   */
   readonly defaultSetting?: RequestSettingResourceRiskSettingsDefaultSetting;
 }
@@ -672,7 +672,7 @@ export class RequestSettingResourceRiskSettingsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/request_setting_resource okta_request_setting_resource}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/request_setting_resource okta_request_setting_resource}
 */
 export class RequestSettingResource extends cdktf.TerraformResource {
 
@@ -688,7 +688,7 @@ export class RequestSettingResource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RequestSettingResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RequestSettingResource to import
-  * @param importFromId The id of the existing RequestSettingResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/request_setting_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RequestSettingResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/request_setting_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RequestSettingResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -700,7 +700,7 @@ export class RequestSettingResource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/request_setting_resource okta_request_setting_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/request_setting_resource okta_request_setting_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -711,8 +711,8 @@ export class RequestSettingResource extends cdktf.TerraformResource {
       terraformResourceType: 'okta_request_setting_resource',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.5.0',
-        providerVersionConstraint: '6.5.0'
+        providerVersion: '6.5.1',
+        providerVersionConstraint: '6.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

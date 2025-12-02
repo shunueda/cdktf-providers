@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "warpstream": "2.3.3"
+    "warpstream": "2.3.4"
   }
 }

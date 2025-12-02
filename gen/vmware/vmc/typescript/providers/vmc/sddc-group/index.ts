@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc_group
+// https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface SddcGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Short description of the SDDC Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc_group#description SddcGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc_group#description SddcGroup#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc_group#dxgw_allowed_prefixes SddcGroup#dxgw_allowed_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc_group#dxgw_allowed_prefixes SddcGroup#dxgw_allowed_prefixes}
   */
   readonly dxgwAllowedPrefixes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc_group#dxgw_id SddcGroup#dxgw_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc_group#dxgw_id SddcGroup#dxgw_id}
   */
   readonly dxgwId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc_group#dxgw_owner SddcGroup#dxgw_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc_group#dxgw_owner SddcGroup#dxgw_owner}
   */
   readonly dxgwOwner?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc_group#dxgw_status SddcGroup#dxgw_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc_group#dxgw_status SddcGroup#dxgw_status}
   */
   readonly dxgwStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc_group#external_tgw_configured_prefixes SddcGroup#external_tgw_configured_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc_group#external_tgw_configured_prefixes SddcGroup#external_tgw_configured_prefixes}
   */
   readonly externalTgwConfiguredPrefixes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc_group#external_tgw_id SddcGroup#external_tgw_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc_group#external_tgw_id SddcGroup#external_tgw_id}
   */
   readonly externalTgwId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc_group#external_tgw_owner SddcGroup#external_tgw_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc_group#external_tgw_owner SddcGroup#external_tgw_owner}
   */
   readonly externalTgwOwner?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc_group#external_tgw_region SddcGroup#external_tgw_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc_group#external_tgw_region SddcGroup#external_tgw_region}
   */
   readonly externalTgwRegion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc_group#id SddcGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc_group#id SddcGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -55,59 +55,59 @@ export interface SddcGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the SDDC group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc_group#name SddcGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc_group#name SddcGroup#name}
   */
   readonly name: string;
   /**
   * A set of the IDs of SDDC members of the SDDC Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc_group#sddc_member_ids SddcGroup#sddc_member_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc_group#sddc_member_ids SddcGroup#sddc_member_ids}
   */
   readonly sddcMemberIds: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc_group#tgw_id SddcGroup#tgw_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc_group#tgw_id SddcGroup#tgw_id}
   */
   readonly tgwId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc_group#tgw_region SddcGroup#tgw_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc_group#tgw_region SddcGroup#tgw_region}
   */
   readonly tgwRegion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc_group#vpc_attachment_status SddcGroup#vpc_attachment_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc_group#vpc_attachment_status SddcGroup#vpc_attachment_status}
   */
   readonly vpcAttachmentStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc_group#vpc_aws_account SddcGroup#vpc_aws_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc_group#vpc_aws_account SddcGroup#vpc_aws_account}
   */
   readonly vpcAwsAccount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc_group#vpc_ram_share_id SddcGroup#vpc_ram_share_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc_group#vpc_ram_share_id SddcGroup#vpc_ram_share_id}
   */
   readonly vpcRamShareId?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc_group#timeouts SddcGroup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc_group#timeouts SddcGroup#timeouts}
   */
   readonly timeouts?: SddcGroupTimeouts;
   /**
   * vpc_attachments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc_group#vpc_attachments SddcGroup#vpc_attachments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc_group#vpc_attachments SddcGroup#vpc_attachments}
   */
   readonly vpcAttachments?: SddcGroupVpcAttachments[] | cdktf.IResolvable;
 }
 export interface SddcGroupTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc_group#create SddcGroup#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc_group#create SddcGroup#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc_group#delete SddcGroup#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc_group#delete SddcGroup#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc_group#update SddcGroup#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc_group#update SddcGroup#update}
   */
   readonly update?: string;
 }
@@ -259,7 +259,7 @@ export class SddcGroupTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 export interface SddcGroupVpcAttachments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc_group#configured_prefixes SddcGroup#configured_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc_group#configured_prefixes SddcGroup#configured_prefixes}
   */
   readonly configuredPrefixes?: string;
 }
@@ -390,7 +390,7 @@ export class SddcGroupVpcAttachmentsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc_group vmc_sddc_group}
+* Represents a {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc_group vmc_sddc_group}
 */
 export class SddcGroup extends cdktf.TerraformResource {
 
@@ -406,7 +406,7 @@ export class SddcGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SddcGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SddcGroup to import
-  * @param importFromId The id of the existing SddcGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SddcGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SddcGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -418,7 +418,7 @@ export class SddcGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/vmc/1.15.5/docs/resources/sddc_group vmc_sddc_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/vmc/1.15.6/docs/resources/sddc_group vmc_sddc_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -429,8 +429,8 @@ export class SddcGroup extends cdktf.TerraformResource {
       terraformResourceType: 'vmc_sddc_group',
       terraformGeneratorMetadata: {
         providerName: 'vmc',
-        providerVersion: '1.15.5',
-        providerVersionConstraint: '1.15.5'
+        providerVersion: '1.15.6',
+        providerVersionConstraint: '1.15.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

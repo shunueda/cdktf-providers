@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_filespecificationtemplate
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_filespecificationtemplate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface OutboundFilespecificationtemplateConfig extends cdktf.Terraform
   /**
   * Kind of delimiter Defaults to `Comma`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_filespecificationtemplate#delimiter OutboundFilespecificationtemplate#delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_filespecificationtemplate#delimiter OutboundFilespecificationtemplate#delimiter}
   */
   readonly delimiter?: string;
   /**
   * Delimiter character, used only when delimiter="Custom"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_filespecificationtemplate#delimiter_value OutboundFilespecificationtemplate#delimiter_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_filespecificationtemplate#delimiter_value OutboundFilespecificationtemplate#delimiter_value}
   */
   readonly delimiterValue?: string;
   /**
   * Description of the file specification template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_filespecificationtemplate#description OutboundFilespecificationtemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_filespecificationtemplate#description OutboundFilespecificationtemplate#description}
   */
   readonly description?: string;
   /**
   * File format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_filespecificationtemplate#format OutboundFilespecificationtemplate#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_filespecificationtemplate#format OutboundFilespecificationtemplate#format}
   */
   readonly format: string;
   /**
   * If true indicates that delimited file has a header row, which can provide column names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_filespecificationtemplate#header OutboundFilespecificationtemplate#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_filespecificationtemplate#header OutboundFilespecificationtemplate#header}
   */
   readonly header?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_filespecificationtemplate#id OutboundFilespecificationtemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_filespecificationtemplate#id OutboundFilespecificationtemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,31 +47,31 @@ export interface OutboundFilespecificationtemplateConfig extends cdktf.Terraform
   /**
   * The name of the File Specification template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_filespecificationtemplate#name OutboundFilespecificationtemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_filespecificationtemplate#name OutboundFilespecificationtemplate#name}
   */
   readonly name: string;
   /**
   * Number of heading lines to be skipped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_filespecificationtemplate#number_of_header_lines_skipped OutboundFilespecificationtemplate#number_of_header_lines_skipped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_filespecificationtemplate#number_of_header_lines_skipped OutboundFilespecificationtemplate#number_of_header_lines_skipped}
   */
   readonly numberOfHeaderLinesSkipped?: number;
   /**
   * Number of trailing lines to be skipped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_filespecificationtemplate#number_of_trailer_lines_skipped OutboundFilespecificationtemplate#number_of_trailer_lines_skipped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_filespecificationtemplate#number_of_trailer_lines_skipped OutboundFilespecificationtemplate#number_of_trailer_lines_skipped}
   */
   readonly numberOfTrailerLinesSkipped?: number;
   /**
   * column_information block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_filespecificationtemplate#column_information OutboundFilespecificationtemplate#column_information}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_filespecificationtemplate#column_information OutboundFilespecificationtemplate#column_information}
   */
   readonly columnInformation?: OutboundFilespecificationtemplateColumnInformation[] | cdktf.IResolvable;
   /**
   * preprocessing_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_filespecificationtemplate#preprocessing_rule OutboundFilespecificationtemplate#preprocessing_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_filespecificationtemplate#preprocessing_rule OutboundFilespecificationtemplate#preprocessing_rule}
   */
   readonly preprocessingRule?: OutboundFilespecificationtemplatePreprocessingRule[] | cdktf.IResolvable;
 }
@@ -79,25 +79,25 @@ export interface OutboundFilespecificationtemplateColumnInformation {
   /**
   * Column name. Mandatory for Fixed position/length file format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_filespecificationtemplate#column_name OutboundFilespecificationtemplate#column_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_filespecificationtemplate#column_name OutboundFilespecificationtemplate#column_name}
   */
   readonly columnName?: string;
   /**
   * 0 based column number in delimited file format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_filespecificationtemplate#column_number OutboundFilespecificationtemplate#column_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_filespecificationtemplate#column_number OutboundFilespecificationtemplate#column_number}
   */
   readonly columnNumber?: number;
   /**
   * Column width. Mandatory for Fixed position/length file format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_filespecificationtemplate#length OutboundFilespecificationtemplate#length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_filespecificationtemplate#length OutboundFilespecificationtemplate#length}
   */
   readonly length?: number;
   /**
   * Zero-based position of the first column's character. Mandatory for Fixed position/length file format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_filespecificationtemplate#start_position OutboundFilespecificationtemplate#start_position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_filespecificationtemplate#start_position OutboundFilespecificationtemplate#start_position}
   */
   readonly startPosition?: number;
 }
@@ -302,25 +302,25 @@ export interface OutboundFilespecificationtemplatePreprocessingRule {
   /**
   * The regular expression to which file lines are to be matched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_filespecificationtemplate#find OutboundFilespecificationtemplate#find}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_filespecificationtemplate#find OutboundFilespecificationtemplate#find}
   */
   readonly find?: string;
   /**
   * Replaces all matching substrings in every line.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_filespecificationtemplate#global OutboundFilespecificationtemplate#global}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_filespecificationtemplate#global OutboundFilespecificationtemplate#global}
   */
   readonly global?: boolean | cdktf.IResolvable;
   /**
   * Enables case-insensitive matching.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_filespecificationtemplate#ignore_case OutboundFilespecificationtemplate#ignore_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_filespecificationtemplate#ignore_case OutboundFilespecificationtemplate#ignore_case}
   */
   readonly ignoreCase?: boolean | cdktf.IResolvable;
   /**
   * The string to be substituted for each match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_filespecificationtemplate#replace_with OutboundFilespecificationtemplate#replace_with}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_filespecificationtemplate#replace_with OutboundFilespecificationtemplate#replace_with}
   */
   readonly replaceWith?: string;
 }
@@ -523,7 +523,7 @@ export class OutboundFilespecificationtemplatePreprocessingRuleList extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_filespecificationtemplate genesyscloud_outbound_filespecificationtemplate}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_filespecificationtemplate genesyscloud_outbound_filespecificationtemplate}
 */
 export class OutboundFilespecificationtemplate extends cdktf.TerraformResource {
 
@@ -539,7 +539,7 @@ export class OutboundFilespecificationtemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OutboundFilespecificationtemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OutboundFilespecificationtemplate to import
-  * @param importFromId The id of the existing OutboundFilespecificationtemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_filespecificationtemplate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OutboundFilespecificationtemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_filespecificationtemplate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OutboundFilespecificationtemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -551,7 +551,7 @@ export class OutboundFilespecificationtemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_filespecificationtemplate genesyscloud_outbound_filespecificationtemplate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_filespecificationtemplate genesyscloud_outbound_filespecificationtemplate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -562,8 +562,8 @@ export class OutboundFilespecificationtemplate extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_outbound_filespecificationtemplate',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.71.1',
-        providerVersionConstraint: '1.71.1'
+        providerVersion: '1.72.2',
+        providerVersionConstraint: '1.72.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

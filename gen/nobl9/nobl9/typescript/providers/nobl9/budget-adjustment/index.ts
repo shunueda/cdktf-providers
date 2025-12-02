@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/budget_adjustment
+// https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/budget_adjustment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface BudgetAdjustmentConfig extends cdktf.TerraformMetaArguments {
   /**
   * Optional description of the resource. Here, you can add details about who is responsible for the integration (team/owner) or the purpose of creating it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/budget_adjustment#description BudgetAdjustment#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/budget_adjustment#description BudgetAdjustment#description}
   */
   readonly description?: string;
   /**
   * User-friendly display name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/budget_adjustment#display_name BudgetAdjustment#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/budget_adjustment#display_name BudgetAdjustment#display_name}
   */
   readonly displayName?: string;
   /**
   * The duration of the budget adjustment event. The expected value for this field is a string formatted as a time duration. The duration must be defined with a precision of 1 minute. Example: `1h10m`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/budget_adjustment#duration BudgetAdjustment#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/budget_adjustment#duration BudgetAdjustment#duration}
   */
   readonly duration: string;
   /**
   * The time at which the first event is scheduled to start. The expected value must be a string representing the date and time in RFC3339 format. Example: `2022-12-31T00:00:00Z`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/budget_adjustment#first_event_start BudgetAdjustment#first_event_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/budget_adjustment#first_event_start BudgetAdjustment#first_event_start}
   */
   readonly firstEventStart: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/budget_adjustment#id BudgetAdjustment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/budget_adjustment#id BudgetAdjustment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,19 +41,19 @@ export interface BudgetAdjustmentConfig extends cdktf.TerraformMetaArguments {
   /**
   * Unique name of the resource, must conform to the naming convention from [DNS RFC1123](https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/budget_adjustment#name BudgetAdjustment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/budget_adjustment#name BudgetAdjustment#name}
   */
   readonly name: string;
   /**
   * The recurrence rule for the budget adjustment event. The expected value is a string in RRULE format. Example: `FREQ=MONTHLY;BYMONTHDAY=1`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/budget_adjustment#rrule BudgetAdjustment#rrule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/budget_adjustment#rrule BudgetAdjustment#rrule}
   */
   readonly rrule?: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/budget_adjustment#filters BudgetAdjustment#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/budget_adjustment#filters BudgetAdjustment#filters}
   */
   readonly filters?: BudgetAdjustmentFilters[] | cdktf.IResolvable;
 }
@@ -61,13 +61,13 @@ export interface BudgetAdjustmentFiltersSlosSlo {
   /**
   * Unique name of the resource, must conform to the naming convention from [DNS RFC1123](https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/budget_adjustment#name BudgetAdjustment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/budget_adjustment#name BudgetAdjustment#name}
   */
   readonly name: string;
   /**
   * Name of the Nobl9 project the resource sits in, must conform to the naming convention from [DNS RFC1123](https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/budget_adjustment#project BudgetAdjustment#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/budget_adjustment#project BudgetAdjustment#project}
   */
   readonly project: string;
 }
@@ -208,7 +208,7 @@ export interface BudgetAdjustmentFiltersSlos {
   /**
   * slo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/budget_adjustment#slo BudgetAdjustment#slo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/budget_adjustment#slo BudgetAdjustment#slo}
   */
   readonly slo: BudgetAdjustmentFiltersSlosSlo[] | cdktf.IResolvable;
 }
@@ -323,7 +323,7 @@ export interface BudgetAdjustmentFilters {
   /**
   * slos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/budget_adjustment#slos BudgetAdjustment#slos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/budget_adjustment#slos BudgetAdjustment#slos}
   */
   readonly slos: BudgetAdjustmentFiltersSlos[] | cdktf.IResolvable;
 }
@@ -436,7 +436,7 @@ export class BudgetAdjustmentFiltersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/budget_adjustment nobl9_budget_adjustment}
+* Represents a {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/budget_adjustment nobl9_budget_adjustment}
 */
 export class BudgetAdjustment extends cdktf.TerraformResource {
 
@@ -452,7 +452,7 @@ export class BudgetAdjustment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BudgetAdjustment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BudgetAdjustment to import
-  * @param importFromId The id of the existing BudgetAdjustment that should be imported. Refer to the {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/budget_adjustment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BudgetAdjustment that should be imported. Refer to the {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/budget_adjustment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BudgetAdjustment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -464,7 +464,7 @@ export class BudgetAdjustment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nobl9/nobl9/0.44.1/docs/resources/budget_adjustment nobl9_budget_adjustment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nobl9/nobl9/0.45.0/docs/resources/budget_adjustment nobl9_budget_adjustment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -475,8 +475,8 @@ export class BudgetAdjustment extends cdktf.TerraformResource {
       terraformResourceType: 'nobl9_budget_adjustment',
       terraformGeneratorMetadata: {
         providerName: 'nobl9',
-        providerVersion: '0.44.1',
-        providerVersionConstraint: '0.44.1'
+        providerVersion: '0.45.0',
+        providerVersionConstraint: '0.45.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

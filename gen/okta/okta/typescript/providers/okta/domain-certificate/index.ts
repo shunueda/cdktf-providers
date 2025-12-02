@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/domain_certificate
+// https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/domain_certificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DomainCertificateConfig extends cdktf.TerraformMetaArguments {
   /**
   * Certificate content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/domain_certificate#certificate DomainCertificate#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/domain_certificate#certificate DomainCertificate#certificate}
   */
   readonly certificate: string;
   /**
   * Certificate chain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/domain_certificate#certificate_chain DomainCertificate#certificate_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/domain_certificate#certificate_chain DomainCertificate#certificate_chain}
   */
   readonly certificateChain: string;
   /**
   * Domain's ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/domain_certificate#domain_id DomainCertificate#domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/domain_certificate#domain_id DomainCertificate#domain_id}
   */
   readonly domainId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/domain_certificate#id DomainCertificate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/domain_certificate#id DomainCertificate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,19 +35,19 @@ export interface DomainCertificateConfig extends cdktf.TerraformMetaArguments {
   /**
   * Certificate private key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/domain_certificate#private_key DomainCertificate#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/domain_certificate#private_key DomainCertificate#private_key}
   */
   readonly privateKey: string;
   /**
   * Certificate type. Valid value is `PEM`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/domain_certificate#type DomainCertificate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/domain_certificate#type DomainCertificate#type}
   */
   readonly type?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/domain_certificate okta_domain_certificate}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/domain_certificate okta_domain_certificate}
 */
 export class DomainCertificate extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class DomainCertificate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DomainCertificate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DomainCertificate to import
-  * @param importFromId The id of the existing DomainCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/domain_certificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DomainCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/domain_certificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DomainCertificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class DomainCertificate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/domain_certificate okta_domain_certificate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/domain_certificate okta_domain_certificate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class DomainCertificate extends cdktf.TerraformResource {
       terraformResourceType: 'okta_domain_certificate',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.5.0',
-        providerVersionConstraint: '6.5.0'
+        providerVersion: '6.5.1',
+        providerVersionConstraint: '6.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_worktype
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_worktype
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,89 +10,89 @@ export interface TaskManagementWorktypeConfig extends cdktf.TerraformMetaArgumen
   /**
   * When set to true, Workitems will be sent to the queue of the Worktype as they are created. Default value is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_worktype#assignment_enabled TaskManagementWorktype#assignment_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_worktype#assignment_enabled TaskManagementWorktype#assignment_enabled}
   */
   readonly assignmentEnabled?: boolean | cdktf.IResolvable;
   /**
   * The default due duration in seconds for Workitems created from the Worktype.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_worktype#default_due_duration_seconds TaskManagementWorktype#default_due_duration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_worktype#default_due_duration_seconds TaskManagementWorktype#default_due_duration_seconds}
   */
   readonly defaultDueDurationSeconds?: number;
   /**
   * The default duration in seconds for Workitems created from the Worktype.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_worktype#default_duration_seconds TaskManagementWorktype#default_duration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_worktype#default_duration_seconds TaskManagementWorktype#default_duration_seconds}
   */
   readonly defaultDurationSeconds?: number;
   /**
   * The default expiration time in seconds for Workitems created from the Worktype.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_worktype#default_expiration_seconds TaskManagementWorktype#default_expiration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_worktype#default_expiration_seconds TaskManagementWorktype#default_expiration_seconds}
   */
   readonly defaultExpirationSeconds?: number;
   /**
   * The default routing language for Workitems created from the Worktype.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_worktype#default_language_id TaskManagementWorktype#default_language_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_worktype#default_language_id TaskManagementWorktype#default_language_id}
   */
   readonly defaultLanguageId?: string;
   /**
   * The default priority for Workitems created from the Worktype. The valid range is between -25,000,000 and 25,000,000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_worktype#default_priority TaskManagementWorktype#default_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_worktype#default_priority TaskManagementWorktype#default_priority}
   */
   readonly defaultPriority?: number;
   /**
   * The default queue for Workitems created from the Worktype.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_worktype#default_queue_id TaskManagementWorktype#default_queue_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_worktype#default_queue_id TaskManagementWorktype#default_queue_id}
   */
   readonly defaultQueueId?: string;
   /**
   * The default script for Workitems created from the Worktype.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_worktype#default_script_id TaskManagementWorktype#default_script_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_worktype#default_script_id TaskManagementWorktype#default_script_id}
   */
   readonly defaultScriptId?: string;
   /**
   * The default skills for Workitems created from the Worktype.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_worktype#default_skills_ids TaskManagementWorktype#default_skills_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_worktype#default_skills_ids TaskManagementWorktype#default_skills_ids}
   */
   readonly defaultSkillsIds?: string[];
   /**
   * The default time to time to live in seconds for Workitems created from the Worktype.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_worktype#default_ttl_seconds TaskManagementWorktype#default_ttl_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_worktype#default_ttl_seconds TaskManagementWorktype#default_ttl_seconds}
   */
   readonly defaultTtlSeconds?: number;
   /**
   * The default Workbin for Workitems created from the Worktype.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_worktype#default_workbin_id TaskManagementWorktype#default_workbin_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_worktype#default_workbin_id TaskManagementWorktype#default_workbin_id}
   */
   readonly defaultWorkbinId: string;
   /**
   * The description of the Worktype.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_worktype#description TaskManagementWorktype#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_worktype#description TaskManagementWorktype#description}
   */
   readonly description?: string;
   /**
   * Optionally set this flag to disable Default Status creation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_worktype#disable_default_status_creation TaskManagementWorktype#disable_default_status_creation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_worktype#disable_default_status_creation TaskManagementWorktype#disable_default_status_creation}
   */
   readonly disableDefaultStatusCreation?: boolean | cdktf.IResolvable;
   /**
   * The division to which this entity belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_worktype#division_id TaskManagementWorktype#division_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_worktype#division_id TaskManagementWorktype#division_id}
   */
   readonly divisionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_worktype#id TaskManagementWorktype#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_worktype#id TaskManagementWorktype#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -101,25 +101,25 @@ export interface TaskManagementWorktypeConfig extends cdktf.TerraformMetaArgumen
   /**
   * The name of the Worktype.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_worktype#name TaskManagementWorktype#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_worktype#name TaskManagementWorktype#name}
   */
   readonly name: string;
   /**
   * Id of the workitem schema.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_worktype#schema_id TaskManagementWorktype#schema_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_worktype#schema_id TaskManagementWorktype#schema_id}
   */
   readonly schemaId?: string;
   /**
   * Version of the workitem schema to use. If not provided, the worktype will use the latest version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_worktype#schema_version TaskManagementWorktype#schema_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_worktype#schema_version TaskManagementWorktype#schema_version}
   */
   readonly schemaVersion?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_worktype genesyscloud_task_management_worktype}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_worktype genesyscloud_task_management_worktype}
 */
 export class TaskManagementWorktype extends cdktf.TerraformResource {
 
@@ -135,7 +135,7 @@ export class TaskManagementWorktype extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TaskManagementWorktype resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TaskManagementWorktype to import
-  * @param importFromId The id of the existing TaskManagementWorktype that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_worktype#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TaskManagementWorktype that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_worktype#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TaskManagementWorktype to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -147,7 +147,7 @@ export class TaskManagementWorktype extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_worktype genesyscloud_task_management_worktype} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_worktype genesyscloud_task_management_worktype} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -158,8 +158,8 @@ export class TaskManagementWorktype extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_task_management_worktype',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.71.1',
-        providerVersionConstraint: '1.71.1'
+        providerVersion: '1.72.2',
+        providerVersionConstraint: '1.72.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

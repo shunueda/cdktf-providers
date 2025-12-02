@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/responsemanagement_response
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/responsemanagement_response
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ResponsemanagementResponseConfig extends cdktf.TerraformMetaArg
   /**
   * Assets used in the response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/responsemanagement_response#asset_ids ResponsemanagementResponse#asset_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/responsemanagement_response#asset_ids ResponsemanagementResponse#asset_ids}
   */
   readonly assetIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/responsemanagement_response#id ResponsemanagementResponse#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/responsemanagement_response#id ResponsemanagementResponse#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,55 +23,55 @@ export interface ResponsemanagementResponseConfig extends cdktf.TerraformMetaArg
   /**
   * The interaction type for this response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/responsemanagement_response#interaction_type ResponsemanagementResponse#interaction_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/responsemanagement_response#interaction_type ResponsemanagementResponse#interaction_type}
   */
   readonly interactionType?: string;
   /**
   * One or more libraries response is associated with. Changing the library IDs will result in the resource being recreated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/responsemanagement_response#library_ids ResponsemanagementResponse#library_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/responsemanagement_response#library_ids ResponsemanagementResponse#library_ids}
   */
   readonly libraryIds: string[];
   /**
   * Name of the responsemanagement response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/responsemanagement_response#name ResponsemanagementResponse#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/responsemanagement_response#name ResponsemanagementResponse#name}
   */
   readonly name: string;
   /**
   * The response type represented by the response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/responsemanagement_response#response_type ResponsemanagementResponse#response_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/responsemanagement_response#response_type ResponsemanagementResponse#response_type}
   */
   readonly responseType?: string;
   /**
   * Metadata about the text substitutions in json schema format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/responsemanagement_response#substitutions_schema_id ResponsemanagementResponse#substitutions_schema_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/responsemanagement_response#substitutions_schema_id ResponsemanagementResponse#substitutions_schema_id}
   */
   readonly substitutionsSchemaId?: string;
   /**
   * footer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/responsemanagement_response#footer ResponsemanagementResponse#footer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/responsemanagement_response#footer ResponsemanagementResponse#footer}
   */
   readonly footer?: ResponsemanagementResponseFooter;
   /**
   * messaging_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/responsemanagement_response#messaging_template ResponsemanagementResponse#messaging_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/responsemanagement_response#messaging_template ResponsemanagementResponse#messaging_template}
   */
   readonly messagingTemplate?: ResponsemanagementResponseMessagingTemplate;
   /**
   * substitutions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/responsemanagement_response#substitutions ResponsemanagementResponse#substitutions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/responsemanagement_response#substitutions ResponsemanagementResponse#substitutions}
   */
   readonly substitutions?: ResponsemanagementResponseSubstitutions[] | cdktf.IResolvable;
   /**
   * texts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/responsemanagement_response#texts ResponsemanagementResponse#texts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/responsemanagement_response#texts ResponsemanagementResponse#texts}
   */
   readonly texts: ResponsemanagementResponseTexts[] | cdktf.IResolvable;
 }
@@ -79,13 +79,13 @@ export interface ResponsemanagementResponseFooter {
   /**
   * Specifies the canned response template where the footer can be used.Valid values: Campaign.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/responsemanagement_response#applicable_resources ResponsemanagementResponse#applicable_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/responsemanagement_response#applicable_resources ResponsemanagementResponse#applicable_resources}
   */
   readonly applicableResources?: string[];
   /**
   * Specifies the type represented by Footer.Valid values: Signature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/responsemanagement_response#type ResponsemanagementResponse#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/responsemanagement_response#type ResponsemanagementResponse#type}
   */
   readonly type?: string;
 }
@@ -200,19 +200,19 @@ export interface ResponsemanagementResponseMessagingTemplateWhatsApp {
   /**
   * The messaging template language configured for this template. This is a WhatsApp specific value. For example, 'en_US'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/responsemanagement_response#language ResponsemanagementResponse#language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/responsemanagement_response#language ResponsemanagementResponse#language}
   */
   readonly language: string;
   /**
   * The messaging template name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/responsemanagement_response#name ResponsemanagementResponse#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/responsemanagement_response#name ResponsemanagementResponse#name}
   */
   readonly name: string;
   /**
   * The messaging template namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/responsemanagement_response#namespace ResponsemanagementResponse#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/responsemanagement_response#namespace ResponsemanagementResponse#namespace}
   */
   readonly namespace: string;
 }
@@ -347,7 +347,7 @@ export interface ResponsemanagementResponseMessagingTemplate {
   /**
   * whats_app block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/responsemanagement_response#whats_app ResponsemanagementResponse#whats_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/responsemanagement_response#whats_app ResponsemanagementResponse#whats_app}
   */
   readonly whatsApp?: ResponsemanagementResponseMessagingTemplateWhatsApp;
 }
@@ -433,19 +433,19 @@ export interface ResponsemanagementResponseSubstitutions {
   /**
   * Response substitution default value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/responsemanagement_response#default_value ResponsemanagementResponse#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/responsemanagement_response#default_value ResponsemanagementResponse#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Response substitution description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/responsemanagement_response#description ResponsemanagementResponse#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/responsemanagement_response#description ResponsemanagementResponse#description}
   */
   readonly description?: string;
   /**
   * Response substitution identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/responsemanagement_response#id ResponsemanagementResponse#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/responsemanagement_response#id ResponsemanagementResponse#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -621,19 +621,19 @@ export interface ResponsemanagementResponseTexts {
   /**
   * Response text content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/responsemanagement_response#content ResponsemanagementResponse#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/responsemanagement_response#content ResponsemanagementResponse#content}
   */
   readonly content: string;
   /**
   * Response text content type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/responsemanagement_response#content_type ResponsemanagementResponse#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/responsemanagement_response#content_type ResponsemanagementResponse#content_type}
   */
   readonly contentType?: string;
   /**
   * Response text type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/responsemanagement_response#type ResponsemanagementResponse#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/responsemanagement_response#type ResponsemanagementResponse#type}
   */
   readonly type?: string;
 }
@@ -804,7 +804,7 @@ export class ResponsemanagementResponseTextsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/responsemanagement_response genesyscloud_responsemanagement_response}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/responsemanagement_response genesyscloud_responsemanagement_response}
 */
 export class ResponsemanagementResponse extends cdktf.TerraformResource {
 
@@ -820,7 +820,7 @@ export class ResponsemanagementResponse extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ResponsemanagementResponse resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ResponsemanagementResponse to import
-  * @param importFromId The id of the existing ResponsemanagementResponse that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/responsemanagement_response#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ResponsemanagementResponse that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/responsemanagement_response#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ResponsemanagementResponse to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -832,7 +832,7 @@ export class ResponsemanagementResponse extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/responsemanagement_response genesyscloud_responsemanagement_response} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/responsemanagement_response genesyscloud_responsemanagement_response} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -843,8 +843,8 @@ export class ResponsemanagementResponse extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_responsemanagement_response',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.71.1',
-        providerVersionConstraint: '1.71.1'
+        providerVersion: '1.72.2',
+        providerVersionConstraint: '1.72.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

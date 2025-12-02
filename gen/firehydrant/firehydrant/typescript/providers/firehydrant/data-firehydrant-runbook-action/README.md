@@ -1,3 +1,3 @@
 # `data_firehydrant_runbook_action`
 
-Refer to the Terraform Registry for docs: [`data_firehydrant_runbook_action`](https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.11/docs/data-sources/runbook_action).
+Refer to the Terraform Registry for docs: [`data_firehydrant_runbook_action`](https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.12/docs/data-sources/runbook_action).

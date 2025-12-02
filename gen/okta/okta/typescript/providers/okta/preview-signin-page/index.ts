@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/preview_signin_page
+// https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/preview_signin_page
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface PreviewSigninPageConfig extends cdktf.TerraformMetaArguments {
   /**
   * brand id of the preview signin page
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/preview_signin_page#brand_id PreviewSigninPage#brand_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/preview_signin_page#brand_id PreviewSigninPage#brand_id}
   */
   readonly brandId: string;
   /**
   * page content of the preview signin page
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/preview_signin_page#page_content PreviewSigninPage#page_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/preview_signin_page#page_content PreviewSigninPage#page_content}
   */
   readonly pageContent: string;
   /**
@@ -27,19 +27,19 @@ export interface PreviewSigninPageConfig extends cdktf.TerraformMetaArguments {
   * 			5.4, 5.5, 5.6, 5.7, 5.8, 5.9, 5.10, 5.11, 5.12, 5.13, 5.14, 5.15, 5.16, 6.0, 6.1, 6.2, 6.3, 6.4, 6.5,
   * 			6.6, 6.7, 6.8, 6.9, 7.0, 7.1, 7.2, 7.3, 7.4, 7.5, 7.6, 7.7, 7.8, 7.9, 7.10, 7.11, 7.12, 7.13.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/preview_signin_page#widget_version PreviewSigninPage#widget_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/preview_signin_page#widget_version PreviewSigninPage#widget_version}
   */
   readonly widgetVersion: string;
   /**
   * content_security_policy_setting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/preview_signin_page#content_security_policy_setting PreviewSigninPage#content_security_policy_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/preview_signin_page#content_security_policy_setting PreviewSigninPage#content_security_policy_setting}
   */
   readonly contentSecurityPolicySetting?: PreviewSigninPageContentSecurityPolicySetting;
   /**
   * widget_customizations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/preview_signin_page#widget_customizations PreviewSigninPage#widget_customizations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/preview_signin_page#widget_customizations PreviewSigninPage#widget_customizations}
   */
   readonly widgetCustomizations?: PreviewSigninPageWidgetCustomizations;
 }
@@ -47,15 +47,15 @@ export interface PreviewSigninPageContentSecurityPolicySetting {
   /**
   * enforced or report_only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/preview_signin_page#mode PreviewSigninPage#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/preview_signin_page#mode PreviewSigninPage#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/preview_signin_page#report_uri PreviewSigninPage#report_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/preview_signin_page#report_uri PreviewSigninPage#report_uri}
   */
   readonly reportUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/preview_signin_page#src_list PreviewSigninPage#src_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/preview_signin_page#src_list PreviewSigninPage#src_list}
   */
   readonly srcList?: string[];
 }
@@ -207,87 +207,87 @@ export class PreviewSigninPageContentSecurityPolicySettingOutputReference extend
 }
 export interface PreviewSigninPageWidgetCustomizations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/preview_signin_page#authenticator_page_custom_link_label PreviewSigninPage#authenticator_page_custom_link_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/preview_signin_page#authenticator_page_custom_link_label PreviewSigninPage#authenticator_page_custom_link_label}
   */
   readonly authenticatorPageCustomLinkLabel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/preview_signin_page#authenticator_page_custom_link_url PreviewSigninPage#authenticator_page_custom_link_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/preview_signin_page#authenticator_page_custom_link_url PreviewSigninPage#authenticator_page_custom_link_url}
   */
   readonly authenticatorPageCustomLinkUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/preview_signin_page#classic_recovery_flow_email_or_username_label PreviewSigninPage#classic_recovery_flow_email_or_username_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/preview_signin_page#classic_recovery_flow_email_or_username_label PreviewSigninPage#classic_recovery_flow_email_or_username_label}
   */
   readonly classicRecoveryFlowEmailOrUsernameLabel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/preview_signin_page#custom_link_1_label PreviewSigninPage#custom_link_1_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/preview_signin_page#custom_link_1_label PreviewSigninPage#custom_link_1_label}
   */
   readonly customLink1Label?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/preview_signin_page#custom_link_1_url PreviewSigninPage#custom_link_1_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/preview_signin_page#custom_link_1_url PreviewSigninPage#custom_link_1_url}
   */
   readonly customLink1Url?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/preview_signin_page#custom_link_2_label PreviewSigninPage#custom_link_2_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/preview_signin_page#custom_link_2_label PreviewSigninPage#custom_link_2_label}
   */
   readonly customLink2Label?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/preview_signin_page#custom_link_2_url PreviewSigninPage#custom_link_2_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/preview_signin_page#custom_link_2_url PreviewSigninPage#custom_link_2_url}
   */
   readonly customLink2Url?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/preview_signin_page#forgot_password_label PreviewSigninPage#forgot_password_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/preview_signin_page#forgot_password_label PreviewSigninPage#forgot_password_label}
   */
   readonly forgotPasswordLabel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/preview_signin_page#forgot_password_url PreviewSigninPage#forgot_password_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/preview_signin_page#forgot_password_url PreviewSigninPage#forgot_password_url}
   */
   readonly forgotPasswordUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/preview_signin_page#help_label PreviewSigninPage#help_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/preview_signin_page#help_label PreviewSigninPage#help_label}
   */
   readonly helpLabel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/preview_signin_page#help_url PreviewSigninPage#help_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/preview_signin_page#help_url PreviewSigninPage#help_url}
   */
   readonly helpUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/preview_signin_page#password_info_tip PreviewSigninPage#password_info_tip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/preview_signin_page#password_info_tip PreviewSigninPage#password_info_tip}
   */
   readonly passwordInfoTip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/preview_signin_page#password_label PreviewSigninPage#password_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/preview_signin_page#password_label PreviewSigninPage#password_label}
   */
   readonly passwordLabel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/preview_signin_page#show_password_visibility_toggle PreviewSigninPage#show_password_visibility_toggle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/preview_signin_page#show_password_visibility_toggle PreviewSigninPage#show_password_visibility_toggle}
   */
   readonly showPasswordVisibilityToggle?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/preview_signin_page#show_user_identifier PreviewSigninPage#show_user_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/preview_signin_page#show_user_identifier PreviewSigninPage#show_user_identifier}
   */
   readonly showUserIdentifier?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/preview_signin_page#sign_in_label PreviewSigninPage#sign_in_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/preview_signin_page#sign_in_label PreviewSigninPage#sign_in_label}
   */
   readonly signInLabel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/preview_signin_page#unlock_account_label PreviewSigninPage#unlock_account_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/preview_signin_page#unlock_account_label PreviewSigninPage#unlock_account_label}
   */
   readonly unlockAccountLabel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/preview_signin_page#unlock_account_url PreviewSigninPage#unlock_account_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/preview_signin_page#unlock_account_url PreviewSigninPage#unlock_account_url}
   */
   readonly unlockAccountUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/preview_signin_page#username_info_tip PreviewSigninPage#username_info_tip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/preview_signin_page#username_info_tip PreviewSigninPage#username_info_tip}
   */
   readonly usernameInfoTip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/preview_signin_page#username_label PreviewSigninPage#username_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/preview_signin_page#username_label PreviewSigninPage#username_label}
   */
   readonly usernameLabel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/preview_signin_page#widget_generation PreviewSigninPage#widget_generation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/preview_signin_page#widget_generation PreviewSigninPage#widget_generation}
   */
   readonly widgetGeneration: string;
 }
@@ -958,7 +958,7 @@ export class PreviewSigninPageWidgetCustomizationsOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/preview_signin_page okta_preview_signin_page}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/preview_signin_page okta_preview_signin_page}
 */
 export class PreviewSigninPage extends cdktf.TerraformResource {
 
@@ -974,7 +974,7 @@ export class PreviewSigninPage extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PreviewSigninPage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PreviewSigninPage to import
-  * @param importFromId The id of the existing PreviewSigninPage that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/preview_signin_page#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PreviewSigninPage that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/preview_signin_page#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PreviewSigninPage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -986,7 +986,7 @@ export class PreviewSigninPage extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/preview_signin_page okta_preview_signin_page} Resource
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.1/docs/resources/preview_signin_page okta_preview_signin_page} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -997,8 +997,8 @@ export class PreviewSigninPage extends cdktf.TerraformResource {
       terraformResourceType: 'okta_preview_signin_page',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.5.0',
-        providerVersionConstraint: '6.5.0'
+        providerVersion: '6.5.1',
+        providerVersionConstraint: '6.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

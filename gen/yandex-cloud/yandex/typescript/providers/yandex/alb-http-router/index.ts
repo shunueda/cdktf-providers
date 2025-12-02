@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/alb_http_router
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/alb_http_router
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface AlbHttpRouterConfig extends cdktf.TerraformMetaArguments {
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/alb_http_router#description AlbHttpRouter#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/alb_http_router#description AlbHttpRouter#description}
   */
   readonly description?: string;
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/alb_http_router#folder_id AlbHttpRouter#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/alb_http_router#folder_id AlbHttpRouter#folder_id}
   */
   readonly folderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/alb_http_router#id AlbHttpRouter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/alb_http_router#id AlbHttpRouter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface AlbHttpRouterConfig extends cdktf.TerraformMetaArguments {
   /**
   * A set of key/value label pairs which assigned to resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/alb_http_router#labels AlbHttpRouter#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/alb_http_router#labels AlbHttpRouter#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/alb_http_router#name AlbHttpRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/alb_http_router#name AlbHttpRouter#name}
   */
   readonly name?: string;
   /**
   * route_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/alb_http_router#route_options AlbHttpRouter#route_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/alb_http_router#route_options AlbHttpRouter#route_options}
   */
   readonly routeOptions?: AlbHttpRouterRouteOptions;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/alb_http_router#timeouts AlbHttpRouter#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/alb_http_router#timeouts AlbHttpRouter#timeouts}
   */
   readonly timeouts?: AlbHttpRouterTimeouts;
 }
@@ -55,19 +55,19 @@ export interface AlbHttpRouterRouteOptionsRbacPrincipalsAndPrincipalsHeaderValue
   /**
   * Match exactly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/alb_http_router#exact AlbHttpRouter#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/alb_http_router#exact AlbHttpRouter#exact}
   */
   readonly exact?: string;
   /**
   * Match prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/alb_http_router#prefix AlbHttpRouter#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/alb_http_router#prefix AlbHttpRouter#prefix}
   */
   readonly prefix?: string;
   /**
   * Match regex.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/alb_http_router#regex AlbHttpRouter#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/alb_http_router#regex AlbHttpRouter#regex}
   */
   readonly regex?: string;
 }
@@ -209,13 +209,13 @@ export class AlbHttpRouterRouteOptionsRbacPrincipalsAndPrincipalsHeaderValueOutp
 }
 export interface AlbHttpRouterRouteOptionsRbacPrincipalsAndPrincipalsHeader {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/alb_http_router#name AlbHttpRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/alb_http_router#name AlbHttpRouter#name}
   */
   readonly name: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/alb_http_router#value AlbHttpRouter#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/alb_http_router#value AlbHttpRouter#value}
   */
   readonly value?: AlbHttpRouterRouteOptionsRbacPrincipalsAndPrincipalsHeaderValue;
 }
@@ -325,17 +325,17 @@ export class AlbHttpRouterRouteOptionsRbacPrincipalsAndPrincipalsHeaderOutputRef
 }
 export interface AlbHttpRouterRouteOptionsRbacPrincipalsAndPrincipals {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/alb_http_router#any AlbHttpRouter#any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/alb_http_router#any AlbHttpRouter#any}
   */
   readonly any?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/alb_http_router#remote_ip AlbHttpRouter#remote_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/alb_http_router#remote_ip AlbHttpRouter#remote_ip}
   */
   readonly remoteIp?: string;
   /**
   * header block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/alb_http_router#header AlbHttpRouter#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/alb_http_router#header AlbHttpRouter#header}
   */
   readonly header?: AlbHttpRouterRouteOptionsRbacPrincipalsAndPrincipalsHeader;
 }
@@ -511,7 +511,7 @@ export interface AlbHttpRouterRouteOptionsRbacPrincipals {
   /**
   * and_principals block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/alb_http_router#and_principals AlbHttpRouter#and_principals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/alb_http_router#and_principals AlbHttpRouter#and_principals}
   */
   readonly andPrincipals: AlbHttpRouterRouteOptionsRbacPrincipalsAndPrincipals[] | cdktf.IResolvable;
 }
@@ -624,13 +624,13 @@ export class AlbHttpRouterRouteOptionsRbacPrincipalsList extends cdktf.ComplexLi
 }
 export interface AlbHttpRouterRouteOptionsRbac {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/alb_http_router#action AlbHttpRouter#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/alb_http_router#action AlbHttpRouter#action}
   */
   readonly action?: string;
   /**
   * principals block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/alb_http_router#principals AlbHttpRouter#principals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/alb_http_router#principals AlbHttpRouter#principals}
   */
   readonly principals: AlbHttpRouterRouteOptionsRbacPrincipals[] | cdktf.IResolvable;
 }
@@ -742,13 +742,13 @@ export interface AlbHttpRouterRouteOptions {
   /**
   * SWS profile ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/alb_http_router#security_profile_id AlbHttpRouter#security_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/alb_http_router#security_profile_id AlbHttpRouter#security_profile_id}
   */
   readonly securityProfileId?: string;
   /**
   * rbac block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/alb_http_router#rbac AlbHttpRouter#rbac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/alb_http_router#rbac AlbHttpRouter#rbac}
   */
   readonly rbac?: AlbHttpRouterRouteOptionsRbac;
 }
@@ -861,15 +861,15 @@ export class AlbHttpRouterRouteOptionsOutputReference extends cdktf.ComplexObjec
 }
 export interface AlbHttpRouterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/alb_http_router#create AlbHttpRouter#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/alb_http_router#create AlbHttpRouter#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/alb_http_router#delete AlbHttpRouter#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/alb_http_router#delete AlbHttpRouter#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/alb_http_router#update AlbHttpRouter#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/alb_http_router#update AlbHttpRouter#update}
   */
   readonly update?: string;
 }
@@ -1021,7 +1021,7 @@ export class AlbHttpRouterTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/alb_http_router yandex_alb_http_router}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/alb_http_router yandex_alb_http_router}
 */
 export class AlbHttpRouter extends cdktf.TerraformResource {
 
@@ -1037,7 +1037,7 @@ export class AlbHttpRouter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AlbHttpRouter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AlbHttpRouter to import
-  * @param importFromId The id of the existing AlbHttpRouter that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/alb_http_router#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AlbHttpRouter that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/alb_http_router#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AlbHttpRouter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1049,7 +1049,7 @@ export class AlbHttpRouter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.172.0/docs/resources/alb_http_router yandex_alb_http_router} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/alb_http_router yandex_alb_http_router} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1060,8 +1060,8 @@ export class AlbHttpRouter extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_alb_http_router',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.172.0',
-        providerVersionConstraint: '0.172.0'
+        providerVersion: '0.173.0',
+        providerVersionConstraint: '0.173.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
