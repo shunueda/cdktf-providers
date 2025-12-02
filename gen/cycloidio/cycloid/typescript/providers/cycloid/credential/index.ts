@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/credential
+// https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/credential
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface CredentialConfig extends cdktf.TerraformMetaArguments {
   /**
   * The credential values, use the fields related to the credential `type`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/credential#body Credential#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/credential#body Credential#body}
   */
   readonly body?: CredentialBody;
   /**
   * The canonical of the credential.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/credential#canonical Credential#canonical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/credential#canonical Credential#canonical}
   */
   readonly canonical?: string;
   /**
   * The description of the credential.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/credential#description Credential#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/credential#description Credential#description}
   */
   readonly description?: string;
   /**
   * The name displayed in the UI of the credential.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/credential#name Credential#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/credential#name Credential#name}
   */
   readonly name: string;
   /**
   * A canonical of an organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/credential#organization_canonical Credential#organization_canonical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/credential#organization_canonical Credential#organization_canonical}
   */
   readonly organizationCanonical?: string;
   /**
@@ -43,19 +43,19 @@ export interface CredentialConfig extends cdktf.TerraformMetaArguments {
   * all the permissions on it.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/credential#owner Credential#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/credential#owner Credential#owner}
   */
   readonly owner?: string;
   /**
   * The credential path written in vault and use for `pipelines`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/credential#path Credential#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/credential#path Credential#path}
   */
   readonly path: string;
   /**
   * The type of the credential, see [the docs](https://docs.cycloid.io/reference/credentials/concepts).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/credential#type Credential#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/credential#type Credential#type}
   */
   readonly type: string;
 }
@@ -63,19 +63,19 @@ export interface CredentialBody {
   /**
   * An AWS access key or Azure Storage Access key, required for type `aws` or `azure_storage`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/credential#access_key Credential#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/credential#access_key Credential#access_key}
   */
   readonly accessKey?: string;
   /**
   * Account name required for `azure_storage`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/credential#account_name Credential#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/credential#account_name Credential#account_name}
   */
   readonly accountName?: string;
   /**
   * Required for type `swift`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/credential#auth_url Credential#auth_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/credential#auth_url Credential#auth_url}
   */
   readonly authUrl?: string;
   /**
@@ -84,77 +84,77 @@ export interface CredentialBody {
   *   - `username` + `password`
   *   - `username` + `password` + `cacert`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/credential#ca_cert Credential#ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/credential#ca_cert Credential#ca_cert}
   */
   readonly caCert?: string;
   /**
   * Required for type `azure`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/credential#client_id Credential#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/credential#client_id Credential#client_id}
   */
   readonly clientId?: string;
   /**
   * Required for type `azure`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/credential#client_secret Credential#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/credential#client_secret Credential#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * Required for type `swift`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/credential#domain_id Credential#domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/credential#domain_id Credential#domain_id}
   */
   readonly domainId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/credential#environment Credential#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/credential#environment Credential#environment}
   */
   readonly environment?: string;
   /**
   * Required for type `gcp`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/credential#json_key Credential#json_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/credential#json_key Credential#json_key}
   */
   readonly jsonKey?: string;
   /**
   * Required for type `basic_auth`, `swift`, `vmware` or `elasticsearch`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/credential#password Credential#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/credential#password Credential#password}
   */
   readonly password?: string;
   /**
   * Credential fields required for type `custom`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/credential#raw Credential#raw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/credential#raw Credential#raw}
   */
   readonly raw?: { [key: string]: string };
   /**
   * An AWS secret key, required for type AWS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/credential#secret_key Credential#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/credential#secret_key Credential#secret_key}
   */
   readonly secretKey?: string;
   /**
   * Required for type `ssh`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/credential#ssh_key Credential#ssh_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/credential#ssh_key Credential#ssh_key}
   */
   readonly sshKey?: string;
   /**
   * Required for type `azure`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/credential#subscription_id Credential#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/credential#subscription_id Credential#subscription_id}
   */
   readonly subscriptionId?: string;
   /**
   * Required for type `swift`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/credential#tenant_id Credential#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/credential#tenant_id Credential#tenant_id}
   */
   readonly tenantId?: string;
   /**
   * Required for type `basic_auth`, `swift`, `vmware` or `elasticsearch`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/credential#username Credential#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/credential#username Credential#username}
   */
   readonly username?: string;
 }
@@ -683,7 +683,7 @@ export class CredentialBodyOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/credential cycloid_credential}
+* Represents a {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/credential cycloid_credential}
 */
 export class Credential extends cdktf.TerraformResource {
 
@@ -699,7 +699,7 @@ export class Credential extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Credential resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Credential to import
-  * @param importFromId The id of the existing Credential that should be imported. Refer to the {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/credential#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Credential that should be imported. Refer to the {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/credential#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Credential to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -711,7 +711,7 @@ export class Credential extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/credential cycloid_credential} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/credential cycloid_credential} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -722,8 +722,8 @@ export class Credential extends cdktf.TerraformResource {
       terraformResourceType: 'cycloid_credential',
       terraformGeneratorMetadata: {
         providerName: 'cycloid',
-        providerVersion: '0.0.23',
-        providerVersionConstraint: '0.0.23'
+        providerVersion: '0.0.24',
+        providerVersionConstraint: '0.0.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

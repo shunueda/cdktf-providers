@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/collector
+// https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/collector
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,103 +8,103 @@ import * as cdktf from 'cdktf';
 
 export interface CollectorConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/collector#arch Collector#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/collector#arch Collector#arch}
   */
   readonly arch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/collector#backup_agent_id Collector#backup_agent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/collector#backup_agent_id Collector#backup_agent_id}
   */
   readonly backupAgentId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/collector#build Collector#build}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/collector#build Collector#build}
   */
   readonly buildAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/collector#collector_group_id Collector#collector_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/collector#collector_group_id Collector#collector_group_id}
   */
   readonly collectorGroupId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/collector#collector_size Collector#collector_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/collector#collector_size Collector#collector_size}
   */
   readonly collectorSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/collector#company Collector#company}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/collector#company Collector#company}
   */
   readonly company?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/collector#custom_properties Collector#custom_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/collector#custom_properties Collector#custom_properties}
   */
   readonly customProperties?: CollectorCustomProperties[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/collector#description Collector#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/collector#description Collector#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/collector#ea Collector#ea}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/collector#ea Collector#ea}
   */
   readonly ea?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/collector#enable_fail_back Collector#enable_fail_back}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/collector#enable_fail_back Collector#enable_fail_back}
   */
   readonly enableFailBack?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/collector#enable_fail_over_on_collector_device Collector#enable_fail_over_on_collector_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/collector#enable_fail_over_on_collector_device Collector#enable_fail_over_on_collector_device}
   */
   readonly enableFailOverOnCollectorDevice?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/collector#escalating_chain_id Collector#escalating_chain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/collector#escalating_chain_id Collector#escalating_chain_id}
   */
   readonly escalatingChainId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/collector#monitor_others Collector#monitor_others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/collector#monitor_others Collector#monitor_others}
   */
   readonly monitorOthers?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/collector#need_auto_create_collector_device Collector#need_auto_create_collector_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/collector#need_auto_create_collector_device Collector#need_auto_create_collector_device}
   */
   readonly needAutoCreateCollectorDevice?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/collector#number_of_instances Collector#number_of_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/collector#number_of_instances Collector#number_of_instances}
   */
   readonly numberOfInstances?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/collector#resend_ival Collector#resend_ival}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/collector#resend_ival Collector#resend_ival}
   */
   readonly resendIval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/collector#specified_collector_device_group_id Collector#specified_collector_device_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/collector#specified_collector_device_group_id Collector#specified_collector_device_group_id}
   */
   readonly specifiedCollectorDeviceGroupId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/collector#suppress_alert_clear Collector#suppress_alert_clear}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/collector#suppress_alert_clear Collector#suppress_alert_clear}
   */
   readonly suppressAlertClear?: boolean | cdktf.IResolvable;
   /**
   * automatic_upgrade_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/collector#automatic_upgrade_info Collector#automatic_upgrade_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/collector#automatic_upgrade_info Collector#automatic_upgrade_info}
   */
   readonly automaticUpgradeInfo?: CollectorAutomaticUpgradeInfo[] | cdktf.IResolvable;
   /**
   * onetime_downgrade_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/collector#onetime_downgrade_info Collector#onetime_downgrade_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/collector#onetime_downgrade_info Collector#onetime_downgrade_info}
   */
   readonly onetimeDowngradeInfo?: CollectorOnetimeDowngradeInfo[] | cdktf.IResolvable;
   /**
   * onetime_upgrade_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/collector#onetime_upgrade_info Collector#onetime_upgrade_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/collector#onetime_upgrade_info Collector#onetime_upgrade_info}
   */
   readonly onetimeUpgradeInfo?: CollectorOnetimeUpgradeInfo[] | cdktf.IResolvable;
 }
 export interface CollectorCustomProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/collector#name Collector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/collector#name Collector#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/collector#value Collector#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/collector#value Collector#value}
   */
   readonly value?: string;
 }
@@ -349,31 +349,31 @@ export class CollectorNextUpgradeInfoList extends cdktf.ComplexList {
 }
 export interface CollectorAutomaticUpgradeInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/collector#day_of_week Collector#day_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/collector#day_of_week Collector#day_of_week}
   */
   readonly dayOfWeek: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/collector#description Collector#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/collector#description Collector#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/collector#hour Collector#hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/collector#hour Collector#hour}
   */
   readonly hour: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/collector#minute Collector#minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/collector#minute Collector#minute}
   */
   readonly minute: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/collector#occurrence Collector#occurrence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/collector#occurrence Collector#occurrence}
   */
   readonly occurrence: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/collector#timezone Collector#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/collector#timezone Collector#timezone}
   */
   readonly timezone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/collector#version Collector#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/collector#version Collector#version}
   */
   readonly version: string;
 }
@@ -663,23 +663,23 @@ export class CollectorAutomaticUpgradeInfoList extends cdktf.ComplexList {
 }
 export interface CollectorOnetimeDowngradeInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/collector#description Collector#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/collector#description Collector#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/collector#major_version Collector#major_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/collector#major_version Collector#major_version}
   */
   readonly majorVersion: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/collector#minor_version Collector#minor_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/collector#minor_version Collector#minor_version}
   */
   readonly minorVersion: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/collector#start_epoch Collector#start_epoch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/collector#start_epoch Collector#start_epoch}
   */
   readonly startEpoch: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/collector#timezone Collector#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/collector#timezone Collector#timezone}
   */
   readonly timezone?: string;
 }
@@ -922,23 +922,23 @@ export class CollectorOnetimeDowngradeInfoList extends cdktf.ComplexList {
 }
 export interface CollectorOnetimeUpgradeInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/collector#description Collector#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/collector#description Collector#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/collector#major_version Collector#major_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/collector#major_version Collector#major_version}
   */
   readonly majorVersion: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/collector#minor_version Collector#minor_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/collector#minor_version Collector#minor_version}
   */
   readonly minorVersion: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/collector#start_epoch Collector#start_epoch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/collector#start_epoch Collector#start_epoch}
   */
   readonly startEpoch: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/collector#timezone Collector#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/collector#timezone Collector#timezone}
   */
   readonly timezone?: string;
 }
@@ -1181,7 +1181,7 @@ export class CollectorOnetimeUpgradeInfoList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/collector logicmonitor_collector}
+* Represents a {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/collector logicmonitor_collector}
 */
 export class Collector extends cdktf.TerraformResource {
 
@@ -1197,7 +1197,7 @@ export class Collector extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Collector resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Collector to import
-  * @param importFromId The id of the existing Collector that should be imported. Refer to the {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/collector#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Collector that should be imported. Refer to the {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/collector#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Collector to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1209,7 +1209,7 @@ export class Collector extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/collector logicmonitor_collector} Resource
+  * Create a new {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/collector logicmonitor_collector} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1220,8 +1220,8 @@ export class Collector extends cdktf.TerraformResource {
       terraformResourceType: 'logicmonitor_collector',
       terraformGeneratorMetadata: {
         providerName: 'logicmonitor',
-        providerVersion: '2.0.25',
-        providerVersionConstraint: '2.0.25'
+        providerVersion: '2.0.27',
+        providerVersionConstraint: '2.0.27'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

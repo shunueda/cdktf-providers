@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/resources/rabbitmq_configuration
+// https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/rabbitmq_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,79 +10,79 @@ export interface RabbitmqConfigurationConfig extends cdktf.TerraformMetaArgument
   /**
   * Set the maximum permissible number of channels per connection. 0 means no limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/resources/rabbitmq_configuration#channel_max RabbitmqConfiguration#channel_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/rabbitmq_configuration#channel_max RabbitmqConfiguration#channel_max}
   */
   readonly channelMax?: number;
   /**
   * Set how the cluster should handle network partition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/resources/rabbitmq_configuration#cluster_partition_handling RabbitmqConfiguration#cluster_partition_handling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/rabbitmq_configuration#cluster_partition_handling RabbitmqConfiguration#cluster_partition_handling}
   */
   readonly clusterPartitionHandling?: string;
   /**
   * Set the maximum permissible number of connections, -1 means infinity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/resources/rabbitmq_configuration#connection_max RabbitmqConfiguration#connection_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/rabbitmq_configuration#connection_max RabbitmqConfiguration#connection_max}
   */
   readonly connectionMax?: number;
   /**
   * A consumer that has received a message and does not acknowledge that message within the timeout in milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/resources/rabbitmq_configuration#consumer_timeout RabbitmqConfiguration#consumer_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/rabbitmq_configuration#consumer_timeout RabbitmqConfiguration#consumer_timeout}
   */
   readonly consumerTimeout?: number;
   /**
   * Set the server AMQP 0-9-1 heartbeat timeout in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/resources/rabbitmq_configuration#heartbeat RabbitmqConfiguration#heartbeat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/rabbitmq_configuration#heartbeat RabbitmqConfiguration#heartbeat}
   */
   readonly heartbeat?: number;
   /**
   * Instance identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/resources/rabbitmq_configuration#instance_id RabbitmqConfiguration#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/rabbitmq_configuration#instance_id RabbitmqConfiguration#instance_id}
   */
   readonly instanceId: number;
   /**
   * Log level for the logger used for log integrations and the CloudAMQP Console log view.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/resources/rabbitmq_configuration#log_exchange_level RabbitmqConfiguration#log_exchange_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/rabbitmq_configuration#log_exchange_level RabbitmqConfiguration#log_exchange_level}
   */
   readonly logExchangeLevel?: string;
   /**
   * The largest allowed message payload size in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/resources/rabbitmq_configuration#max_message_size RabbitmqConfiguration#max_message_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/rabbitmq_configuration#max_message_size RabbitmqConfiguration#max_message_size}
   */
   readonly maxMessageSize?: number;
   /**
   * Size in bytes below which to embed messages in the queue index. 0 will turn off payload embedding in the queue index.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/resources/rabbitmq_configuration#queue_index_embed_msgs_below RabbitmqConfiguration#queue_index_embed_msgs_below}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/rabbitmq_configuration#queue_index_embed_msgs_below RabbitmqConfiguration#queue_index_embed_msgs_below}
   */
   readonly queueIndexEmbedMsgsBelow?: number;
   /**
   * Configurable sleep time in seconds between retries for RabbitMQ configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/resources/rabbitmq_configuration#sleep RabbitmqConfiguration#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/rabbitmq_configuration#sleep RabbitmqConfiguration#sleep}
   */
   readonly sleep?: number;
   /**
   * Configurable timeout time in seconds for RabbitMQ configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/resources/rabbitmq_configuration#timeout RabbitmqConfiguration#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/rabbitmq_configuration#timeout RabbitmqConfiguration#timeout}
   */
   readonly timeout?: number;
   /**
   * When the server will enter memory based flow-control as relative to the maximum available memory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/resources/rabbitmq_configuration#vm_memory_high_watermark RabbitmqConfiguration#vm_memory_high_watermark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/rabbitmq_configuration#vm_memory_high_watermark RabbitmqConfiguration#vm_memory_high_watermark}
   */
   readonly vmMemoryHighWatermark?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/resources/rabbitmq_configuration cloudamqp_rabbitmq_configuration}
+* Represents a {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/rabbitmq_configuration cloudamqp_rabbitmq_configuration}
 */
 export class RabbitmqConfiguration extends cdktf.TerraformResource {
 
@@ -98,7 +98,7 @@ export class RabbitmqConfiguration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RabbitmqConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RabbitmqConfiguration to import
-  * @param importFromId The id of the existing RabbitmqConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/resources/rabbitmq_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RabbitmqConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/rabbitmq_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RabbitmqConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -110,7 +110,7 @@ export class RabbitmqConfiguration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/resources/rabbitmq_configuration cloudamqp_rabbitmq_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/rabbitmq_configuration cloudamqp_rabbitmq_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -121,8 +121,8 @@ export class RabbitmqConfiguration extends cdktf.TerraformResource {
       terraformResourceType: 'cloudamqp_rabbitmq_configuration',
       terraformGeneratorMetadata: {
         providerName: 'cloudamqp',
-        providerVersion: '1.38.3',
-        providerVersionConstraint: '1.38.3'
+        providerVersion: '1.39.0',
+        providerVersionConstraint: '1.39.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

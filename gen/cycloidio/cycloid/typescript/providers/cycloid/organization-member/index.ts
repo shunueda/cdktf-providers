@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/organization_member
+// https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/organization_member
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface OrganizationMemberConfig extends cdktf.TerraformMetaArguments {
   /**
   * Invite user by email
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/organization_member#email OrganizationMember#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/organization_member#email OrganizationMember#email}
   */
   readonly email: string;
   /**
   * A member id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/organization_member#member_id OrganizationMember#member_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/organization_member#member_id OrganizationMember#member_id}
   */
   readonly memberId?: number;
   /**
   * A canonical of an organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/organization_member#organization_canonical OrganizationMember#organization_canonical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/organization_member#organization_canonical OrganizationMember#organization_canonical}
   */
   readonly organizationCanonical?: string;
   /**
   * The canonical of an entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/organization_member#role_canonical OrganizationMember#role_canonical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/organization_member#role_canonical OrganizationMember#role_canonical}
   */
   readonly roleCanonical: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/organization_member cycloid_organization_member}
+* Represents a {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/organization_member cycloid_organization_member}
 */
 export class OrganizationMember extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class OrganizationMember extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrganizationMember resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrganizationMember to import
-  * @param importFromId The id of the existing OrganizationMember that should be imported. Refer to the {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/organization_member#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrganizationMember that should be imported. Refer to the {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/organization_member#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrganizationMember to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class OrganizationMember extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/organization_member cycloid_organization_member} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/organization_member cycloid_organization_member} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class OrganizationMember extends cdktf.TerraformResource {
       terraformResourceType: 'cycloid_organization_member',
       terraformGeneratorMetadata: {
         providerName: 'cycloid',
-        providerVersion: '0.0.23',
-        providerVersionConstraint: '0.0.23'
+        providerVersion: '0.0.24',
+        providerVersionConstraint: '0.0.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/collector_group
+// https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/collector_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,37 +8,37 @@ import * as cdktf from 'cdktf';
 
 export interface CollectorGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/collector_group#auto_balance CollectorGroup#auto_balance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/collector_group#auto_balance CollectorGroup#auto_balance}
   */
   readonly autoBalance?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/collector_group#auto_balance_instance_count_threshold CollectorGroup#auto_balance_instance_count_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/collector_group#auto_balance_instance_count_threshold CollectorGroup#auto_balance_instance_count_threshold}
   */
   readonly autoBalanceInstanceCountThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/collector_group#auto_balance_strategy CollectorGroup#auto_balance_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/collector_group#auto_balance_strategy CollectorGroup#auto_balance_strategy}
   */
   readonly autoBalanceStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/collector_group#custom_properties CollectorGroup#custom_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/collector_group#custom_properties CollectorGroup#custom_properties}
   */
   readonly customProperties?: CollectorGroupCustomProperties[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/collector_group#description CollectorGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/collector_group#description CollectorGroup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/collector_group#name CollectorGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/collector_group#name CollectorGroup#name}
   */
   readonly name: string;
 }
 export interface CollectorGroupCustomProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/collector_group#name CollectorGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/collector_group#name CollectorGroup#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/collector_group#value CollectorGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/collector_group#value CollectorGroup#value}
   */
   readonly value?: string;
 }
@@ -273,7 +273,7 @@ export class CollectorGroupHighestPriorityCollectorStatusList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/collector_group logicmonitor_collector_group}
+* Represents a {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/collector_group logicmonitor_collector_group}
 */
 export class CollectorGroup extends cdktf.TerraformResource {
 
@@ -289,7 +289,7 @@ export class CollectorGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CollectorGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CollectorGroup to import
-  * @param importFromId The id of the existing CollectorGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/collector_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CollectorGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/collector_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CollectorGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -301,7 +301,7 @@ export class CollectorGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/collector_group logicmonitor_collector_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/collector_group logicmonitor_collector_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -312,8 +312,8 @@ export class CollectorGroup extends cdktf.TerraformResource {
       terraformResourceType: 'logicmonitor_collector_group',
       terraformGeneratorMetadata: {
         providerName: 'logicmonitor',
-        providerVersion: '2.0.25',
-        providerVersionConstraint: '2.0.25'
+        providerVersion: '2.0.27',
+        providerVersionConstraint: '2.0.27'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

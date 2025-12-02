@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/permission
+// https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/permission
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface PermissionConfig extends cdktf.TerraformMetaArguments {
   /**
   * Actions to be performed on the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/permission#actions Permission#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/permission#actions Permission#actions}
   */
   readonly actions: string[];
   /**
   * The consumer service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/permission#consumer Permission#consumer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/permission#consumer Permission#consumer}
   */
   readonly consumer: string;
   /**
   * The description of the Britive permission
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/permission#description Permission#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/permission#description Permission#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/permission#id Permission#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/permission#id Permission#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,19 +35,19 @@ export interface PermissionConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of Britive permission
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/permission#name Permission#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/permission#name Permission#name}
   */
   readonly name: string;
   /**
   * Comma separated list of resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/permission#resources Permission#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/permission#resources Permission#resources}
   */
   readonly resources: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/permission britive_permission}
+* Represents a {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/permission britive_permission}
 */
 export class Permission extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class Permission extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Permission resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Permission to import
-  * @param importFromId The id of the existing Permission that should be imported. Refer to the {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/permission#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Permission that should be imported. Refer to the {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/permission#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Permission to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class Permission extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/permission britive_permission} Resource
+  * Create a new {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/permission britive_permission} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class Permission extends cdktf.TerraformResource {
       terraformResourceType: 'britive_permission',
       terraformGeneratorMetadata: {
         providerName: 'britive',
-        providerVersion: '2.2.5',
-        providerVersionConstraint: '2.2.5'
+        providerVersion: '2.2.6',
+        providerVersionConstraint: '2.2.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -33,170 +33,170 @@ import { Construct } from 'constructs';
 import * as cdktf from 'cdktf';
 export interface DataLogicmonitorDeviceGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/device_group#applies_to DataLogicmonitorDeviceGroup#applies_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/device_group#applies_to DataLogicmonitorDeviceGroup#applies_to}
   */
   readonly appliesTo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/device_group#aws_regions_info DataLogicmonitorDeviceGroup#aws_regions_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/device_group#aws_regions_info DataLogicmonitorDeviceGroup#aws_regions_info}
   */
   readonly awsRegionsInfo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/device_group#aws_test_result_code DataLogicmonitorDeviceGroup#aws_test_result_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/device_group#aws_test_result_code DataLogicmonitorDeviceGroup#aws_test_result_code}
   */
   readonly awsTestResultCode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/device_group#azure_regions_info DataLogicmonitorDeviceGroup#azure_regions_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/device_group#azure_regions_info DataLogicmonitorDeviceGroup#azure_regions_info}
   */
   readonly azureRegionsInfo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/device_group#azure_test_result_code DataLogicmonitorDeviceGroup#azure_test_result_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/device_group#azure_test_result_code DataLogicmonitorDeviceGroup#azure_test_result_code}
   */
   readonly azureTestResultCode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/device_group#created_on DataLogicmonitorDeviceGroup#created_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/device_group#created_on DataLogicmonitorDeviceGroup#created_on}
   */
   readonly createdOn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/device_group#custom_properties DataLogicmonitorDeviceGroup#custom_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/device_group#custom_properties DataLogicmonitorDeviceGroup#custom_properties}
   */
   readonly customProperties?: DataLogicmonitorDeviceGroupCustomProperties[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/device_group#default_auto_balanced_collector_group_id DataLogicmonitorDeviceGroup#default_auto_balanced_collector_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/device_group#default_auto_balanced_collector_group_id DataLogicmonitorDeviceGroup#default_auto_balanced_collector_group_id}
   */
   readonly defaultAutoBalancedCollectorGroupId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/device_group#default_collector_description DataLogicmonitorDeviceGroup#default_collector_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/device_group#default_collector_description DataLogicmonitorDeviceGroup#default_collector_description}
   */
   readonly defaultCollectorDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/device_group#default_collector_id DataLogicmonitorDeviceGroup#default_collector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/device_group#default_collector_id DataLogicmonitorDeviceGroup#default_collector_id}
   */
   readonly defaultCollectorId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/device_group#description DataLogicmonitorDeviceGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/device_group#description DataLogicmonitorDeviceGroup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/device_group#disable_alerting DataLogicmonitorDeviceGroup#disable_alerting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/device_group#disable_alerting DataLogicmonitorDeviceGroup#disable_alerting}
   */
   readonly disableAlerting?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/device_group#effective_alert_enabled DataLogicmonitorDeviceGroup#effective_alert_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/device_group#effective_alert_enabled DataLogicmonitorDeviceGroup#effective_alert_enabled}
   */
   readonly effectiveAlertEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/device_group#enable_netflow DataLogicmonitorDeviceGroup#enable_netflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/device_group#enable_netflow DataLogicmonitorDeviceGroup#enable_netflow}
   */
   readonly enableNetflow?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/device_group#filter DataLogicmonitorDeviceGroup#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/device_group#filter DataLogicmonitorDeviceGroup#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/device_group#full_path DataLogicmonitorDeviceGroup#full_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/device_group#full_path DataLogicmonitorDeviceGroup#full_path}
   */
   readonly fullPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/device_group#gcp_regions_info DataLogicmonitorDeviceGroup#gcp_regions_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/device_group#gcp_regions_info DataLogicmonitorDeviceGroup#gcp_regions_info}
   */
   readonly gcpRegionsInfo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/device_group#gcp_test_result_code DataLogicmonitorDeviceGroup#gcp_test_result_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/device_group#gcp_test_result_code DataLogicmonitorDeviceGroup#gcp_test_result_code}
   */
   readonly gcpTestResultCode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/device_group#group_status DataLogicmonitorDeviceGroup#group_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/device_group#group_status DataLogicmonitorDeviceGroup#group_status}
   */
   readonly groupStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/device_group#group_type DataLogicmonitorDeviceGroup#group_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/device_group#group_type DataLogicmonitorDeviceGroup#group_type}
   */
   readonly groupType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/device_group#has_netflow_enabled_devices DataLogicmonitorDeviceGroup#has_netflow_enabled_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/device_group#has_netflow_enabled_devices DataLogicmonitorDeviceGroup#has_netflow_enabled_devices}
   */
   readonly hasNetflowEnabledDevices?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/device_group#id DataLogicmonitorDeviceGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/device_group#id DataLogicmonitorDeviceGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/device_group#name DataLogicmonitorDeviceGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/device_group#name DataLogicmonitorDeviceGroup#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/device_group#num_of_a_w_s_devices DataLogicmonitorDeviceGroup#num_of_a_w_s_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/device_group#num_of_a_w_s_devices DataLogicmonitorDeviceGroup#num_of_a_w_s_devices}
   */
   readonly numOfAWSDevices?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/device_group#num_of_azure_devices DataLogicmonitorDeviceGroup#num_of_azure_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/device_group#num_of_azure_devices DataLogicmonitorDeviceGroup#num_of_azure_devices}
   */
   readonly numOfAzureDevices?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/device_group#num_of_direct_devices DataLogicmonitorDeviceGroup#num_of_direct_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/device_group#num_of_direct_devices DataLogicmonitorDeviceGroup#num_of_direct_devices}
   */
   readonly numOfDirectDevices?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/device_group#num_of_direct_sub_groups DataLogicmonitorDeviceGroup#num_of_direct_sub_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/device_group#num_of_direct_sub_groups DataLogicmonitorDeviceGroup#num_of_direct_sub_groups}
   */
   readonly numOfDirectSubGroups?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/device_group#num_of_gcp_devices DataLogicmonitorDeviceGroup#num_of_gcp_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/device_group#num_of_gcp_devices DataLogicmonitorDeviceGroup#num_of_gcp_devices}
   */
   readonly numOfGcpDevices?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/device_group#num_of_hosts DataLogicmonitorDeviceGroup#num_of_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/device_group#num_of_hosts DataLogicmonitorDeviceGroup#num_of_hosts}
   */
   readonly numOfHosts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/device_group#parent_id DataLogicmonitorDeviceGroup#parent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/device_group#parent_id DataLogicmonitorDeviceGroup#parent_id}
   */
   readonly parentId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/device_group#sub_groups DataLogicmonitorDeviceGroup#sub_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/device_group#sub_groups DataLogicmonitorDeviceGroup#sub_groups}
   */
   readonly subGroups?: DataLogicmonitorDeviceGroupSubGroups[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/device_group#user_permission DataLogicmonitorDeviceGroup#user_permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/device_group#user_permission DataLogicmonitorDeviceGroup#user_permission}
   */
   readonly userPermission?: string;
   /**
   * aws_test_result block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/device_group#aws_test_result DataLogicmonitorDeviceGroup#aws_test_result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/device_group#aws_test_result DataLogicmonitorDeviceGroup#aws_test_result}
   */
   readonly awsTestResult?: DataLogicmonitorDeviceGroupAwsTestResult[] | cdktf.IResolvable;
   /**
   * azure_test_result block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/device_group#azure_test_result DataLogicmonitorDeviceGroup#azure_test_result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/device_group#azure_test_result DataLogicmonitorDeviceGroup#azure_test_result}
   */
   readonly azureTestResult?: DataLogicmonitorDeviceGroupAzureTestResult[] | cdktf.IResolvable;
   /**
   * extra block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/device_group#extra DataLogicmonitorDeviceGroup#extra}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/device_group#extra DataLogicmonitorDeviceGroup#extra}
   */
   readonly extra?: DataLogicmonitorDeviceGroupExtra[] | cdktf.IResolvable;
   /**
   * gcp_test_result block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/device_group#gcp_test_result DataLogicmonitorDeviceGroup#gcp_test_result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/device_group#gcp_test_result DataLogicmonitorDeviceGroup#gcp_test_result}
   */
   readonly gcpTestResult?: DataLogicmonitorDeviceGroupGcpTestResult[] | cdktf.IResolvable;
   /**
   * saas_test_result block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/device_group#saas_test_result DataLogicmonitorDeviceGroup#saas_test_result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/device_group#saas_test_result DataLogicmonitorDeviceGroup#saas_test_result}
   */
   readonly saasTestResult?: DataLogicmonitorDeviceGroupSaasTestResult[] | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/device_group logicmonitor_device_group}
+* Represents a {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/device_group logicmonitor_device_group}
 */
 export class DataLogicmonitorDeviceGroup extends cdktf.TerraformDataSource {
 
@@ -212,7 +212,7 @@ export class DataLogicmonitorDeviceGroup extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLogicmonitorDeviceGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLogicmonitorDeviceGroup to import
-  * @param importFromId The id of the existing DataLogicmonitorDeviceGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/device_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLogicmonitorDeviceGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/device_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLogicmonitorDeviceGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -224,7 +224,7 @@ export class DataLogicmonitorDeviceGroup extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/device_group logicmonitor_device_group} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/device_group logicmonitor_device_group} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -235,8 +235,8 @@ export class DataLogicmonitorDeviceGroup extends cdktf.TerraformDataSource {
       terraformResourceType: 'logicmonitor_device_group',
       terraformGeneratorMetadata: {
         providerName: 'logicmonitor',
-        providerVersion: '2.0.25',
-        providerVersionConstraint: '2.0.25'
+        providerVersion: '2.0.27',
+        providerVersionConstraint: '2.0.27'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

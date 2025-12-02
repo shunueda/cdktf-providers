@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/data-sources/vpc_gcp_info
+// https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/data-sources/vpc_gcp_info
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataCloudamqpVpcGcpInfoConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/data-sources/vpc_gcp_info#id DataCloudamqpVpcGcpInfo#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/data-sources/vpc_gcp_info#id DataCloudamqpVpcGcpInfo#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface DataCloudamqpVpcGcpInfoConfig extends cdktf.TerraformMetaArgume
   /**
   * Instance identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/data-sources/vpc_gcp_info#instance_id DataCloudamqpVpcGcpInfo#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/data-sources/vpc_gcp_info#instance_id DataCloudamqpVpcGcpInfo#instance_id}
   */
   readonly instanceId?: number;
   /**
   * Configurable sleep in seconds between retries when reading peering
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/data-sources/vpc_gcp_info#sleep DataCloudamqpVpcGcpInfo#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/data-sources/vpc_gcp_info#sleep DataCloudamqpVpcGcpInfo#sleep}
   */
   readonly sleep?: number;
   /**
   * Configurable timeout time (seconds) before retries times out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/data-sources/vpc_gcp_info#timeout DataCloudamqpVpcGcpInfo#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/data-sources/vpc_gcp_info#timeout DataCloudamqpVpcGcpInfo#timeout}
   */
   readonly timeout?: number;
   /**
   * VPC instance identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/data-sources/vpc_gcp_info#vpc_id DataCloudamqpVpcGcpInfo#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/data-sources/vpc_gcp_info#vpc_id DataCloudamqpVpcGcpInfo#vpc_id}
   */
   readonly vpcId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/data-sources/vpc_gcp_info cloudamqp_vpc_gcp_info}
+* Represents a {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/data-sources/vpc_gcp_info cloudamqp_vpc_gcp_info}
 */
 export class DataCloudamqpVpcGcpInfo extends cdktf.TerraformDataSource {
 
@@ -57,7 +57,7 @@ export class DataCloudamqpVpcGcpInfo extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCloudamqpVpcGcpInfo resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCloudamqpVpcGcpInfo to import
-  * @param importFromId The id of the existing DataCloudamqpVpcGcpInfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/data-sources/vpc_gcp_info#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCloudamqpVpcGcpInfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/data-sources/vpc_gcp_info#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCloudamqpVpcGcpInfo to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class DataCloudamqpVpcGcpInfo extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/data-sources/vpc_gcp_info cloudamqp_vpc_gcp_info} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/data-sources/vpc_gcp_info cloudamqp_vpc_gcp_info} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class DataCloudamqpVpcGcpInfo extends cdktf.TerraformDataSource {
       terraformResourceType: 'cloudamqp_vpc_gcp_info',
       terraformGeneratorMetadata: {
         providerName: 'cloudamqp',
-        providerVersion: '1.38.3',
-        providerVersionConstraint: '1.38.3'
+        providerVersion: '1.39.0',
+        providerVersionConstraint: '1.39.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

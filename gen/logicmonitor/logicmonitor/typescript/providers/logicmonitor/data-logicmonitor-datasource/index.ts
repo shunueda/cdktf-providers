@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource
+// https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,159 +8,159 @@ import * as cdktf from 'cdktf';
 
 export interface DataLogicmonitorDatasourceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#access_group_ids DataLogicmonitorDatasource#access_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#access_group_ids DataLogicmonitorDatasource#access_group_ids}
   */
   readonly accessGroupIds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#access_groups DataLogicmonitorDatasource#access_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#access_groups DataLogicmonitorDatasource#access_groups}
   */
   readonly accessGroups?: DataLogicmonitorDatasourceAccessGroups[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#applies_to DataLogicmonitorDatasource#applies_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#applies_to DataLogicmonitorDatasource#applies_to}
   */
   readonly appliesTo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#audit_version DataLogicmonitorDatasource#audit_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#audit_version DataLogicmonitorDatasource#audit_version}
   */
   readonly auditVersion?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#checksum DataLogicmonitorDatasource#checksum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#checksum DataLogicmonitorDatasource#checksum}
   */
   readonly checksum?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#collect_interval DataLogicmonitorDatasource#collect_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#collect_interval DataLogicmonitorDatasource#collect_interval}
   */
   readonly collectInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#collect_method DataLogicmonitorDatasource#collect_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#collect_method DataLogicmonitorDatasource#collect_method}
   */
   readonly collectMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#data_points DataLogicmonitorDatasource#data_points}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#data_points DataLogicmonitorDatasource#data_points}
   */
   readonly dataPoints?: DataLogicmonitorDatasourceDataPoints[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#description DataLogicmonitorDatasource#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#description DataLogicmonitorDatasource#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#display_name DataLogicmonitorDatasource#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#display_name DataLogicmonitorDatasource#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#enable_auto_discovery DataLogicmonitorDatasource#enable_auto_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#enable_auto_discovery DataLogicmonitorDatasource#enable_auto_discovery}
   */
   readonly enableAutoDiscovery?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#enable_eri_discovery DataLogicmonitorDatasource#enable_eri_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#enable_eri_discovery DataLogicmonitorDatasource#enable_eri_discovery}
   */
   readonly enableEriDiscovery?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#eri_discovery_interval DataLogicmonitorDatasource#eri_discovery_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#eri_discovery_interval DataLogicmonitorDatasource#eri_discovery_interval}
   */
   readonly eriDiscoveryInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#filter DataLogicmonitorDatasource#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#filter DataLogicmonitorDatasource#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#group DataLogicmonitorDatasource#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#group DataLogicmonitorDatasource#group}
   */
   readonly group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#has_multi_instances DataLogicmonitorDatasource#has_multi_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#has_multi_instances DataLogicmonitorDatasource#has_multi_instances}
   */
   readonly hasMultiInstances?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#id DataLogicmonitorDatasource#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#id DataLogicmonitorDatasource#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#lineage_id DataLogicmonitorDatasource#lineage_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#lineage_id DataLogicmonitorDatasource#lineage_id}
   */
   readonly lineageId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#name DataLogicmonitorDatasource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#name DataLogicmonitorDatasource#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#payload_version DataLogicmonitorDatasource#payload_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#payload_version DataLogicmonitorDatasource#payload_version}
   */
   readonly payloadVersion?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#tags DataLogicmonitorDatasource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#tags DataLogicmonitorDatasource#tags}
   */
   readonly tags?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#technology DataLogicmonitorDatasource#technology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#technology DataLogicmonitorDatasource#technology}
   */
   readonly technology?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#use_wild_value_as_uuid DataLogicmonitorDatasource#use_wild_value_as_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#use_wild_value_as_uuid DataLogicmonitorDatasource#use_wild_value_as_uuid}
   */
   readonly useWildValueAsUuid?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#version DataLogicmonitorDatasource#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#version DataLogicmonitorDatasource#version}
   */
   readonly version?: number;
   /**
   * auto_discovery_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#auto_discovery_config DataLogicmonitorDatasource#auto_discovery_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#auto_discovery_config DataLogicmonitorDatasource#auto_discovery_config}
   */
   readonly autoDiscoveryConfig?: DataLogicmonitorDatasourceAutoDiscoveryConfig[] | cdktf.IResolvable;
   /**
   * collector_attribute block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#collector_attribute DataLogicmonitorDatasource#collector_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#collector_attribute DataLogicmonitorDatasource#collector_attribute}
   */
   readonly collectorAttribute?: DataLogicmonitorDatasourceCollectorAttribute[] | cdktf.IResolvable;
   /**
   * eri_discovery_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#eri_discovery_config DataLogicmonitorDatasource#eri_discovery_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#eri_discovery_config DataLogicmonitorDatasource#eri_discovery_config}
   */
   readonly eriDiscoveryConfig?: DataLogicmonitorDatasourceEriDiscoveryConfig[] | cdktf.IResolvable;
   /**
   * installation_metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#installation_metadata DataLogicmonitorDatasource#installation_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#installation_metadata DataLogicmonitorDatasource#installation_metadata}
   */
   readonly installationMetadata?: DataLogicmonitorDatasourceInstallationMetadata[] | cdktf.IResolvable;
 }
 export interface DataLogicmonitorDatasourceAccessGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#created_by DataLogicmonitorDatasource#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#created_by DataLogicmonitorDatasource#created_by}
   */
   readonly createdBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#created_on DataLogicmonitorDatasource#created_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#created_on DataLogicmonitorDatasource#created_on}
   */
   readonly createdOn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#description DataLogicmonitorDatasource#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#description DataLogicmonitorDatasource#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#id DataLogicmonitorDatasource#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#id DataLogicmonitorDatasource#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#name DataLogicmonitorDatasource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#name DataLogicmonitorDatasource#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#tenant_id DataLogicmonitorDatasource#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#tenant_id DataLogicmonitorDatasource#tenant_id}
   */
   readonly tenantId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#updated_on DataLogicmonitorDatasource#updated_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#updated_on DataLogicmonitorDatasource#updated_on}
   */
   readonly updatedOn?: number;
 }
@@ -450,71 +450,71 @@ export class DataLogicmonitorDatasourceAccessGroupsList extends cdktf.ComplexLis
 }
 export interface DataLogicmonitorDatasourceDataPoints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#alert_body DataLogicmonitorDatasource#alert_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#alert_body DataLogicmonitorDatasource#alert_body}
   */
   readonly alertBody?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#alert_clear_transition_interval DataLogicmonitorDatasource#alert_clear_transition_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#alert_clear_transition_interval DataLogicmonitorDatasource#alert_clear_transition_interval}
   */
   readonly alertClearTransitionInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#alert_expr DataLogicmonitorDatasource#alert_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#alert_expr DataLogicmonitorDatasource#alert_expr}
   */
   readonly alertExpr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#alert_expr_note DataLogicmonitorDatasource#alert_expr_note}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#alert_expr_note DataLogicmonitorDatasource#alert_expr_note}
   */
   readonly alertExprNote?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#alert_for_no_data DataLogicmonitorDatasource#alert_for_no_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#alert_for_no_data DataLogicmonitorDatasource#alert_for_no_data}
   */
   readonly alertForNoData?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#alert_subject DataLogicmonitorDatasource#alert_subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#alert_subject DataLogicmonitorDatasource#alert_subject}
   */
   readonly alertSubject?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#alert_transition_interval DataLogicmonitorDatasource#alert_transition_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#alert_transition_interval DataLogicmonitorDatasource#alert_transition_interval}
   */
   readonly alertTransitionInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#data_type DataLogicmonitorDatasource#data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#data_type DataLogicmonitorDatasource#data_type}
   */
   readonly dataType?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#description DataLogicmonitorDatasource#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#description DataLogicmonitorDatasource#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#max_digits DataLogicmonitorDatasource#max_digits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#max_digits DataLogicmonitorDatasource#max_digits}
   */
   readonly maxDigits?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#max_value DataLogicmonitorDatasource#max_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#max_value DataLogicmonitorDatasource#max_value}
   */
   readonly maxValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#min_value DataLogicmonitorDatasource#min_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#min_value DataLogicmonitorDatasource#min_value}
   */
   readonly minValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#name DataLogicmonitorDatasource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#name DataLogicmonitorDatasource#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#post_processor_method DataLogicmonitorDatasource#post_processor_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#post_processor_method DataLogicmonitorDatasource#post_processor_method}
   */
   readonly postProcessorMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#post_processor_param DataLogicmonitorDatasource#post_processor_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#post_processor_param DataLogicmonitorDatasource#post_processor_param}
   */
   readonly postProcessorParam?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#raw_data_field_name DataLogicmonitorDatasource#raw_data_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#raw_data_field_name DataLogicmonitorDatasource#raw_data_field_name}
   */
   readonly rawDataFieldName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#type DataLogicmonitorDatasource#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#type DataLogicmonitorDatasource#type}
   */
   readonly type?: number;
 }
@@ -1094,19 +1094,19 @@ export class DataLogicmonitorDatasourceDataPointsList extends cdktf.ComplexList 
 }
 export interface DataLogicmonitorDatasourceAutoDiscoveryConfigFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#attribute DataLogicmonitorDatasource#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#attribute DataLogicmonitorDatasource#attribute}
   */
   readonly attribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#comment DataLogicmonitorDatasource#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#comment DataLogicmonitorDatasource#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#operation DataLogicmonitorDatasource#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#operation DataLogicmonitorDatasource#operation}
   */
   readonly operation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#value DataLogicmonitorDatasource#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#value DataLogicmonitorDatasource#value}
   */
   readonly value?: string;
 }
@@ -1309,7 +1309,7 @@ export class DataLogicmonitorDatasourceAutoDiscoveryConfigFiltersList extends cd
 }
 export interface DataLogicmonitorDatasourceAutoDiscoveryConfigMethod {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#name DataLogicmonitorDatasource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#name DataLogicmonitorDatasource#name}
   */
   readonly name: string;
 }
@@ -1422,37 +1422,37 @@ export class DataLogicmonitorDatasourceAutoDiscoveryConfigMethodList extends cdk
 }
 export interface DataLogicmonitorDatasourceAutoDiscoveryConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#delete_inactive_instance DataLogicmonitorDatasource#delete_inactive_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#delete_inactive_instance DataLogicmonitorDatasource#delete_inactive_instance}
   */
   readonly deleteInactiveInstance?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#disable_instance DataLogicmonitorDatasource#disable_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#disable_instance DataLogicmonitorDatasource#disable_instance}
   */
   readonly disableInstance?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#filters DataLogicmonitorDatasource#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#filters DataLogicmonitorDatasource#filters}
   */
   readonly filters?: DataLogicmonitorDatasourceAutoDiscoveryConfigFilters[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#instance_auto_group_method DataLogicmonitorDatasource#instance_auto_group_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#instance_auto_group_method DataLogicmonitorDatasource#instance_auto_group_method}
   */
   readonly instanceAutoGroupMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#instance_auto_group_method_params DataLogicmonitorDatasource#instance_auto_group_method_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#instance_auto_group_method_params DataLogicmonitorDatasource#instance_auto_group_method_params}
   */
   readonly instanceAutoGroupMethodParams?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#persistent_instance DataLogicmonitorDatasource#persistent_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#persistent_instance DataLogicmonitorDatasource#persistent_instance}
   */
   readonly persistentInstance?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#schedule_interval DataLogicmonitorDatasource#schedule_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#schedule_interval DataLogicmonitorDatasource#schedule_interval}
   */
   readonly scheduleInterval?: number;
   /**
   * method block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#method DataLogicmonitorDatasource#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#method DataLogicmonitorDatasource#method}
   */
   readonly method: DataLogicmonitorDatasourceAutoDiscoveryConfigMethod[] | cdktf.IResolvable;
 }
@@ -1773,7 +1773,7 @@ export class DataLogicmonitorDatasourceAutoDiscoveryConfigList extends cdktf.Com
 }
 export interface DataLogicmonitorDatasourceCollectorAttribute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#name DataLogicmonitorDatasource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#name DataLogicmonitorDatasource#name}
   */
   readonly name: string;
 }
@@ -1886,31 +1886,31 @@ export class DataLogicmonitorDatasourceCollectorAttributeList extends cdktf.Comp
 }
 export interface DataLogicmonitorDatasourceEriDiscoveryConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#groovy_script DataLogicmonitorDatasource#groovy_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#groovy_script DataLogicmonitorDatasource#groovy_script}
   */
   readonly groovyScript?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#linux_cmdline DataLogicmonitorDatasource#linux_cmdline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#linux_cmdline DataLogicmonitorDatasource#linux_cmdline}
   */
   readonly linuxCmdline?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#linux_script DataLogicmonitorDatasource#linux_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#linux_script DataLogicmonitorDatasource#linux_script}
   */
   readonly linuxScript?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#name DataLogicmonitorDatasource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#name DataLogicmonitorDatasource#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#type DataLogicmonitorDatasource#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#type DataLogicmonitorDatasource#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#win_cmdline DataLogicmonitorDatasource#win_cmdline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#win_cmdline DataLogicmonitorDatasource#win_cmdline}
   */
   readonly winCmdline?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#win_script DataLogicmonitorDatasource#win_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#win_script DataLogicmonitorDatasource#win_script}
   */
   readonly winScript?: string;
 }
@@ -2368,7 +2368,7 @@ export class DataLogicmonitorDatasourceInstallationMetadataList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource logicmonitor_datasource}
+* Represents a {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource logicmonitor_datasource}
 */
 export class DataLogicmonitorDatasource extends cdktf.TerraformDataSource {
 
@@ -2384,7 +2384,7 @@ export class DataLogicmonitorDatasource extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLogicmonitorDatasource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLogicmonitorDatasource to import
-  * @param importFromId The id of the existing DataLogicmonitorDatasource that should be imported. Refer to the {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLogicmonitorDatasource that should be imported. Refer to the {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLogicmonitorDatasource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2396,7 +2396,7 @@ export class DataLogicmonitorDatasource extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/datasource logicmonitor_datasource} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/datasource logicmonitor_datasource} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2407,8 +2407,8 @@ export class DataLogicmonitorDatasource extends cdktf.TerraformDataSource {
       terraformResourceType: 'logicmonitor_datasource',
       terraformGeneratorMetadata: {
         providerName: 'logicmonitor',
-        providerVersion: '2.0.25',
-        providerVersionConstraint: '2.0.25'
+        providerVersion: '2.0.27',
+        providerVersionConstraint: '2.0.27'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

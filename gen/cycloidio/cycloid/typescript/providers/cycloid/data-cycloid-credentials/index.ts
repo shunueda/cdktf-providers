@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/data-sources/credentials
+// https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/data-sources/credentials
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataCycloidCredentialsConfig extends cdktf.TerraformMetaArgumen
   /**
   * Filter credential by types, allowed types are [ssh aws custom azure azure_storage gcp basic_auth elasticsearch swift]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/data-sources/credentials#credential_types DataCycloidCredentials#credential_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/data-sources/credentials#credential_types DataCycloidCredentials#credential_types}
   */
   readonly credentialTypes?: string[];
   /**
   * The canonical of an organization, will default to the provider organization settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/data-sources/credentials#organization DataCycloidCredentials#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/data-sources/credentials#organization DataCycloidCredentials#organization}
   */
   readonly organization?: string;
 }
@@ -127,7 +127,7 @@ export class DataCycloidCredentialsCredentialsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/data-sources/credentials cycloid_credentials}
+* Represents a {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/data-sources/credentials cycloid_credentials}
 */
 export class DataCycloidCredentials extends cdktf.TerraformDataSource {
 
@@ -143,7 +143,7 @@ export class DataCycloidCredentials extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCycloidCredentials resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCycloidCredentials to import
-  * @param importFromId The id of the existing DataCycloidCredentials that should be imported. Refer to the {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/data-sources/credentials#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCycloidCredentials that should be imported. Refer to the {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/data-sources/credentials#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCycloidCredentials to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -155,7 +155,7 @@ export class DataCycloidCredentials extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/data-sources/credentials cycloid_credentials} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/data-sources/credentials cycloid_credentials} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -166,8 +166,8 @@ export class DataCycloidCredentials extends cdktf.TerraformDataSource {
       terraformResourceType: 'cycloid_credentials',
       terraformGeneratorMetadata: {
         providerName: 'cycloid',
-        providerVersion: '0.0.23',
-        providerVersionConstraint: '0.0.23'
+        providerVersion: '0.0.24',
+        providerVersionConstraint: '0.0.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

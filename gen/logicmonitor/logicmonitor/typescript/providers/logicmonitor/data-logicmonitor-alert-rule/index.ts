@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/alert_rule
+// https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/alert_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,84 +8,84 @@ import * as cdktf from 'cdktf';
 
 export interface DataLogicmonitorAlertRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/alert_rule#datapoint DataLogicmonitorAlertRule#datapoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/alert_rule#datapoint DataLogicmonitorAlertRule#datapoint}
   */
   readonly datapoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/alert_rule#datasource DataLogicmonitorAlertRule#datasource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/alert_rule#datasource DataLogicmonitorAlertRule#datasource}
   */
   readonly datasource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/alert_rule#device_groups DataLogicmonitorAlertRule#device_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/alert_rule#device_groups DataLogicmonitorAlertRule#device_groups}
   */
   readonly deviceGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/alert_rule#devices DataLogicmonitorAlertRule#devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/alert_rule#devices DataLogicmonitorAlertRule#devices}
   */
   readonly devices?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/alert_rule#escalating_chain DataLogicmonitorAlertRule#escalating_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/alert_rule#escalating_chain DataLogicmonitorAlertRule#escalating_chain}
   */
   readonly escalatingChain?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/alert_rule#escalating_chain_id DataLogicmonitorAlertRule#escalating_chain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/alert_rule#escalating_chain_id DataLogicmonitorAlertRule#escalating_chain_id}
   */
   readonly escalatingChainId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/alert_rule#escalation_interval DataLogicmonitorAlertRule#escalation_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/alert_rule#escalation_interval DataLogicmonitorAlertRule#escalation_interval}
   */
   readonly escalationInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/alert_rule#filter DataLogicmonitorAlertRule#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/alert_rule#filter DataLogicmonitorAlertRule#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/alert_rule#id DataLogicmonitorAlertRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/alert_rule#id DataLogicmonitorAlertRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/alert_rule#instance DataLogicmonitorAlertRule#instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/alert_rule#instance DataLogicmonitorAlertRule#instance}
   */
   readonly instance?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/alert_rule#level_str DataLogicmonitorAlertRule#level_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/alert_rule#level_str DataLogicmonitorAlertRule#level_str}
   */
   readonly levelStr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/alert_rule#name DataLogicmonitorAlertRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/alert_rule#name DataLogicmonitorAlertRule#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/alert_rule#priority DataLogicmonitorAlertRule#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/alert_rule#priority DataLogicmonitorAlertRule#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/alert_rule#resource_properties DataLogicmonitorAlertRule#resource_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/alert_rule#resource_properties DataLogicmonitorAlertRule#resource_properties}
   */
   readonly resourceProperties?: DataLogicmonitorAlertRuleResourceProperties[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/alert_rule#send_anomaly_suppressed_alert DataLogicmonitorAlertRule#send_anomaly_suppressed_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/alert_rule#send_anomaly_suppressed_alert DataLogicmonitorAlertRule#send_anomaly_suppressed_alert}
   */
   readonly sendAnomalySuppressedAlert?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/alert_rule#suppress_alert_ack_sdt DataLogicmonitorAlertRule#suppress_alert_ack_sdt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/alert_rule#suppress_alert_ack_sdt DataLogicmonitorAlertRule#suppress_alert_ack_sdt}
   */
   readonly suppressAlertAckSdt?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/alert_rule#suppress_alert_clear DataLogicmonitorAlertRule#suppress_alert_clear}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/alert_rule#suppress_alert_clear DataLogicmonitorAlertRule#suppress_alert_clear}
   */
   readonly suppressAlertClear?: boolean | cdktf.IResolvable;
 }
 export interface DataLogicmonitorAlertRuleResourceProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/alert_rule#name DataLogicmonitorAlertRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/alert_rule#name DataLogicmonitorAlertRule#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/alert_rule#value DataLogicmonitorAlertRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/alert_rule#value DataLogicmonitorAlertRule#value}
   */
   readonly value?: string;
 }
@@ -230,7 +230,7 @@ export class DataLogicmonitorAlertRuleResourcePropertiesList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/alert_rule logicmonitor_alert_rule}
+* Represents a {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/alert_rule logicmonitor_alert_rule}
 */
 export class DataLogicmonitorAlertRule extends cdktf.TerraformDataSource {
 
@@ -246,7 +246,7 @@ export class DataLogicmonitorAlertRule extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLogicmonitorAlertRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLogicmonitorAlertRule to import
-  * @param importFromId The id of the existing DataLogicmonitorAlertRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/alert_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLogicmonitorAlertRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/alert_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLogicmonitorAlertRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -258,7 +258,7 @@ export class DataLogicmonitorAlertRule extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/alert_rule logicmonitor_alert_rule} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/alert_rule logicmonitor_alert_rule} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -269,8 +269,8 @@ export class DataLogicmonitorAlertRule extends cdktf.TerraformDataSource {
       terraformResourceType: 'logicmonitor_alert_rule',
       terraformGeneratorMetadata: {
         providerName: 'logicmonitor',
-        providerVersion: '2.0.25',
-        providerVersionConstraint: '2.0.25'
+        providerVersion: '2.0.27',
+        providerVersionConstraint: '2.0.27'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

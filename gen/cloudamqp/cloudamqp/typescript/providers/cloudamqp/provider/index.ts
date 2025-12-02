@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs
+// https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface CloudamqpProviderConfig {
   /**
   * Key used to authentication to the CloudAMQP Customer API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs#apikey CloudamqpProvider#apikey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs#apikey CloudamqpProvider#apikey}
   */
   readonly apikey?: string;
   /**
   * Base URL to CloudAMQP Customer website
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs#baseurl CloudamqpProvider#baseurl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs#baseurl CloudamqpProvider#baseurl}
   */
   readonly baseurl?: string;
   /**
   * Skips destroying backend resources on 'terraform destroy'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs#enable_faster_instance_destroy CloudamqpProvider#enable_faster_instance_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs#enable_faster_instance_destroy CloudamqpProvider#enable_faster_instance_destroy}
   */
   readonly enableFasterInstanceDestroy?: boolean | cdktf.IResolvable;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs#alias CloudamqpProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs#alias CloudamqpProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs cloudamqp}
+* Represents a {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs cloudamqp}
 */
 export class CloudamqpProvider extends cdktf.TerraformProvider {
 
@@ -50,7 +50,7 @@ export class CloudamqpProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a CloudamqpProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudamqpProvider to import
-  * @param importFromId The id of the existing CloudamqpProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudamqpProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudamqpProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class CloudamqpProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs cloudamqp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs cloudamqp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class CloudamqpProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'cloudamqp',
       terraformGeneratorMetadata: {
         providerName: 'cloudamqp',
-        providerVersion: '1.38.3',
-        providerVersionConstraint: '1.38.3'
+        providerVersion: '1.39.0',
+        providerVersionConstraint: '1.39.0'
       },
       terraformProviderSource: 'cloudamqp/cloudamqp'
     });

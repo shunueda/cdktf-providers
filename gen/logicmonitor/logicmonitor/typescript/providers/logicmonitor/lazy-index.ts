@@ -8,6 +8,9 @@ Object.defineProperty(exports, 'datasource', { get: function () { return require
 Object.defineProperty(exports, 'device', { get: function () { return require('./device'); } });
 Object.defineProperty(exports, 'deviceGroup', { get: function () { return require('./device-group'); } });
 Object.defineProperty(exports, 'escalationChain', { get: function () { return require('./escalation-chain'); } });
+Object.defineProperty(exports, 'reportGroup', { get: function () { return require('./report-group'); } });
+Object.defineProperty(exports, 'role', { get: function () { return require('./role'); } });
+Object.defineProperty(exports, 'sdt', { get: function () { return require('./sdt'); } });
 Object.defineProperty(exports, 'website', { get: function () { return require('./website'); } });
 Object.defineProperty(exports, 'websiteGroup', { get: function () { return require('./website-group'); } });
 Object.defineProperty(exports, 'dataLogicmonitorAlertRule', { get: function () { return require('./data-logicmonitor-alert-rule'); } });
@@ -20,6 +23,9 @@ Object.defineProperty(exports, 'dataLogicmonitorDatasource', { get: function () 
 Object.defineProperty(exports, 'dataLogicmonitorDevice', { get: function () { return require('./data-logicmonitor-device'); } });
 Object.defineProperty(exports, 'dataLogicmonitorDeviceGroup', { get: function () { return require('./data-logicmonitor-device-group'); } });
 Object.defineProperty(exports, 'dataLogicmonitorEscalationChain', { get: function () { return require('./data-logicmonitor-escalation-chain'); } });
+Object.defineProperty(exports, 'dataLogicmonitorReportGroup', { get: function () { return require('./data-logicmonitor-report-group'); } });
+Object.defineProperty(exports, 'dataLogicmonitorRole', { get: function () { return require('./data-logicmonitor-role'); } });
+Object.defineProperty(exports, 'dataLogicmonitorSdt', { get: function () { return require('./data-logicmonitor-sdt'); } });
 Object.defineProperty(exports, 'dataLogicmonitorWebsite', { get: function () { return require('./data-logicmonitor-website'); } });
 Object.defineProperty(exports, 'dataLogicmonitorWebsiteGroup', { get: function () { return require('./data-logicmonitor-website-group'); } });
 Object.defineProperty(exports, 'provider', { get: function () { return require('./provider'); } });

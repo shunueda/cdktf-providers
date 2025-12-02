@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile_additional_settings
+// https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/profile_additional_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ProfileAdditionalSettingsConfig extends cdktf.TerraformMetaArgu
   /**
   * Provide the console access for the profile, overriden if use_app_credential_type is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile_additional_settings#console_access ProfileAdditionalSettings#console_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/profile_additional_settings#console_access ProfileAdditionalSettings#console_access}
   */
   readonly consoleAccess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile_additional_settings#id ProfileAdditionalSettings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/profile_additional_settings#id ProfileAdditionalSettings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface ProfileAdditionalSettingsConfig extends cdktf.TerraformMetaArgu
   /**
   * The identifier of the profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile_additional_settings#profile_id ProfileAdditionalSettings#profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/profile_additional_settings#profile_id ProfileAdditionalSettings#profile_id}
   */
   readonly profileId: string;
   /**
   * Provide the programmatic access for the profile, overriden if use_app_credential_type is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile_additional_settings#programmatic_access ProfileAdditionalSettings#programmatic_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/profile_additional_settings#programmatic_access ProfileAdditionalSettings#programmatic_access}
   */
   readonly programmaticAccess?: boolean | cdktf.IResolvable;
   /**
   * The project id for creating service accounts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile_additional_settings#project_id_for_service_account ProfileAdditionalSettings#project_id_for_service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/profile_additional_settings#project_id_for_service_account ProfileAdditionalSettings#project_id_for_service_account}
   */
   readonly projectIdForServiceAccount?: string;
   /**
   * Inherit the credential type settings from the application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile_additional_settings#use_app_credential_type ProfileAdditionalSettings#use_app_credential_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/profile_additional_settings#use_app_credential_type ProfileAdditionalSettings#use_app_credential_type}
   */
   readonly useAppCredentialType?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile_additional_settings britive_profile_additional_settings}
+* Represents a {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/profile_additional_settings britive_profile_additional_settings}
 */
 export class ProfileAdditionalSettings extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class ProfileAdditionalSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProfileAdditionalSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProfileAdditionalSettings to import
-  * @param importFromId The id of the existing ProfileAdditionalSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile_additional_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProfileAdditionalSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/profile_additional_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProfileAdditionalSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class ProfileAdditionalSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile_additional_settings britive_profile_additional_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/profile_additional_settings britive_profile_additional_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class ProfileAdditionalSettings extends cdktf.TerraformResource {
       terraformResourceType: 'britive_profile_additional_settings',
       terraformGeneratorMetadata: {
         providerName: 'britive',
-        providerVersion: '2.2.5',
-        providerVersionConstraint: '2.2.5'
+        providerVersion: '2.2.6',
+        providerVersionConstraint: '2.2.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

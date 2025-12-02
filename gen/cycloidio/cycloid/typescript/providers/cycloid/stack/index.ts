@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/stack
+// https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/stack
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface StackConfig extends cdktf.TerraformMetaArguments {
   /**
   * The canonical of a stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/stack#canonical Stack#canonical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/stack#canonical Stack#canonical}
   */
   readonly canonical: string;
   /**
   * The organization of the stack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/stack#organization_canonical Stack#organization_canonical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/stack#organization_canonical Stack#organization_canonical}
   */
   readonly organizationCanonical: string;
   /**
   * Assign a team as maintainer of a stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/stack#team Stack#team}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/stack#team Stack#team}
   */
   readonly team?: string;
   /**
   * Change the visibility of a stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/stack#visibility Stack#visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/stack#visibility Stack#visibility}
   */
   readonly visibility?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/stack cycloid_stack}
+* Represents a {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/stack cycloid_stack}
 */
 export class Stack extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class Stack extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Stack resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Stack to import
-  * @param importFromId The id of the existing Stack that should be imported. Refer to the {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/stack#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Stack that should be imported. Refer to the {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/stack#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Stack to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class Stack extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/stack cycloid_stack} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/stack cycloid_stack} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class Stack extends cdktf.TerraformResource {
       terraformResourceType: 'cycloid_stack',
       terraformGeneratorMetadata: {
         providerName: 'cycloid',
-        providerVersion: '0.0.23',
-        providerVersionConstraint: '0.0.23'
+        providerVersion: '0.0.24',
+        providerVersionConstraint: '0.0.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

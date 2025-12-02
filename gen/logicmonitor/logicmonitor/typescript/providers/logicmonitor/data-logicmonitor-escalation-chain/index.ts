@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/escalation_chain
+// https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/escalation_chain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,64 @@ import * as cdktf from 'cdktf';
 
 export interface DataLogicmonitorEscalationChainConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/escalation_chain#cc_destinations DataLogicmonitorEscalationChain#cc_destinations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/escalation_chain#cc_destinations DataLogicmonitorEscalationChain#cc_destinations}
   */
   readonly ccDestinations?: DataLogicmonitorEscalationChainCcDestinations[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/escalation_chain#description DataLogicmonitorEscalationChain#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/escalation_chain#description DataLogicmonitorEscalationChain#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/escalation_chain#destinations DataLogicmonitorEscalationChain#destinations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/escalation_chain#destinations DataLogicmonitorEscalationChain#destinations}
   */
   readonly destinations?: DataLogicmonitorEscalationChainDestinations[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/escalation_chain#enable_throttling DataLogicmonitorEscalationChain#enable_throttling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/escalation_chain#enable_throttling DataLogicmonitorEscalationChain#enable_throttling}
   */
   readonly enableThrottling?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/escalation_chain#filter DataLogicmonitorEscalationChain#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/escalation_chain#filter DataLogicmonitorEscalationChain#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/escalation_chain#id DataLogicmonitorEscalationChain#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/escalation_chain#id DataLogicmonitorEscalationChain#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/escalation_chain#in_alerting DataLogicmonitorEscalationChain#in_alerting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/escalation_chain#in_alerting DataLogicmonitorEscalationChain#in_alerting}
   */
   readonly inAlerting?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/escalation_chain#name DataLogicmonitorEscalationChain#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/escalation_chain#name DataLogicmonitorEscalationChain#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/escalation_chain#throttling_alerts DataLogicmonitorEscalationChain#throttling_alerts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/escalation_chain#throttling_alerts DataLogicmonitorEscalationChain#throttling_alerts}
   */
   readonly throttlingAlerts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/escalation_chain#throttling_period DataLogicmonitorEscalationChain#throttling_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/escalation_chain#throttling_period DataLogicmonitorEscalationChain#throttling_period}
   */
   readonly throttlingPeriod?: number;
 }
 export interface DataLogicmonitorEscalationChainCcDestinations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/escalation_chain#addr DataLogicmonitorEscalationChain#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/escalation_chain#addr DataLogicmonitorEscalationChain#addr}
   */
   readonly addr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/escalation_chain#contact DataLogicmonitorEscalationChain#contact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/escalation_chain#contact DataLogicmonitorEscalationChain#contact}
   */
   readonly contact?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/escalation_chain#method DataLogicmonitorEscalationChain#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/escalation_chain#method DataLogicmonitorEscalationChain#method}
   */
   readonly method?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/escalation_chain#type DataLogicmonitorEscalationChain#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/escalation_chain#type DataLogicmonitorEscalationChain#type}
   */
   readonly type?: string;
 }
@@ -268,19 +268,19 @@ export class DataLogicmonitorEscalationChainCcDestinationsList extends cdktf.Com
 }
 export interface DataLogicmonitorEscalationChainDestinationsPeriod {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/escalation_chain#end_minutes DataLogicmonitorEscalationChain#end_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/escalation_chain#end_minutes DataLogicmonitorEscalationChain#end_minutes}
   */
   readonly endMinutes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/escalation_chain#start_minutes DataLogicmonitorEscalationChain#start_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/escalation_chain#start_minutes DataLogicmonitorEscalationChain#start_minutes}
   */
   readonly startMinutes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/escalation_chain#timezone DataLogicmonitorEscalationChain#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/escalation_chain#timezone DataLogicmonitorEscalationChain#timezone}
   */
   readonly timezone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/escalation_chain#week_days DataLogicmonitorEscalationChain#week_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/escalation_chain#week_days DataLogicmonitorEscalationChain#week_days}
   */
   readonly weekDays?: number[];
 }
@@ -483,19 +483,19 @@ export class DataLogicmonitorEscalationChainDestinationsPeriodList extends cdktf
 }
 export interface DataLogicmonitorEscalationChainDestinationsStages {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/escalation_chain#addr DataLogicmonitorEscalationChain#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/escalation_chain#addr DataLogicmonitorEscalationChain#addr}
   */
   readonly addr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/escalation_chain#contact DataLogicmonitorEscalationChain#contact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/escalation_chain#contact DataLogicmonitorEscalationChain#contact}
   */
   readonly contact?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/escalation_chain#method DataLogicmonitorEscalationChain#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/escalation_chain#method DataLogicmonitorEscalationChain#method}
   */
   readonly method?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/escalation_chain#type DataLogicmonitorEscalationChain#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/escalation_chain#type DataLogicmonitorEscalationChain#type}
   */
   readonly type?: string;
 }
@@ -718,15 +718,15 @@ export class DataLogicmonitorEscalationChainDestinationsStagesList extends cdktf
 }
 export interface DataLogicmonitorEscalationChainDestinations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/escalation_chain#period DataLogicmonitorEscalationChain#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/escalation_chain#period DataLogicmonitorEscalationChain#period}
   */
   readonly period?: DataLogicmonitorEscalationChainDestinationsPeriod[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/escalation_chain#stages DataLogicmonitorEscalationChain#stages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/escalation_chain#stages DataLogicmonitorEscalationChain#stages}
   */
   readonly stages?: DataLogicmonitorEscalationChainDestinationsStagesList[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/escalation_chain#type DataLogicmonitorEscalationChain#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/escalation_chain#type DataLogicmonitorEscalationChain#type}
   */
   readonly type?: string;
 }
@@ -900,7 +900,7 @@ export class DataLogicmonitorEscalationChainDestinationsList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/escalation_chain logicmonitor_escalation_chain}
+* Represents a {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/escalation_chain logicmonitor_escalation_chain}
 */
 export class DataLogicmonitorEscalationChain extends cdktf.TerraformDataSource {
 
@@ -916,7 +916,7 @@ export class DataLogicmonitorEscalationChain extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLogicmonitorEscalationChain resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLogicmonitorEscalationChain to import
-  * @param importFromId The id of the existing DataLogicmonitorEscalationChain that should be imported. Refer to the {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/escalation_chain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLogicmonitorEscalationChain that should be imported. Refer to the {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/escalation_chain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLogicmonitorEscalationChain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -928,7 +928,7 @@ export class DataLogicmonitorEscalationChain extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/escalation_chain logicmonitor_escalation_chain} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/escalation_chain logicmonitor_escalation_chain} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -939,8 +939,8 @@ export class DataLogicmonitorEscalationChain extends cdktf.TerraformDataSource {
       terraformResourceType: 'logicmonitor_escalation_chain',
       terraformGeneratorMetadata: {
         providerName: 'logicmonitor',
-        providerVersion: '2.0.25',
-        providerVersionConstraint: '2.0.25'
+        providerVersion: '2.0.27',
+        providerVersionConstraint: '2.0.27'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

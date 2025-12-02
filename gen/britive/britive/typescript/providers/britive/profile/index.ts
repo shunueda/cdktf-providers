@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile
+// https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,65 +10,65 @@ export interface ProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable or disable delegation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile#allow_impersonation Profile#allow_impersonation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/profile#allow_impersonation Profile#allow_impersonation}
   */
   readonly allowImpersonation?: boolean | cdktf.IResolvable;
   /**
   * The identity of the Britive application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile#app_container_id Profile#app_container_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/profile#app_container_id Profile#app_container_id}
   */
   readonly appContainerId: string;
   /**
   * The name of the Britive application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile#app_name Profile#app_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/profile#app_name Profile#app_name}
   */
   readonly appName?: string;
   /**
   * The description of the Britive profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile#description Profile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/profile#description Profile#description}
   */
   readonly description?: string;
   /**
   * The destination url to redirect user after checkout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile#destination_url Profile#destination_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/profile#destination_url Profile#destination_url}
   */
   readonly destinationUrl?: string;
   /**
   * To disable the Britive profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile#disabled Profile#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/profile#disabled Profile#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * The expiration time for the Britive profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile#expiration_duration Profile#expiration_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/profile#expiration_duration Profile#expiration_duration}
   */
   readonly expirationDuration: string;
   /**
   * The Boolean flag that indicates whether profile expiry is extendable or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile#extendable Profile#extendable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/profile#extendable Profile#extendable}
   */
   readonly extendable?: boolean | cdktf.IResolvable;
   /**
   * The profile expiry extension as a time value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile#extension_duration Profile#extension_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/profile#extension_duration Profile#extension_duration}
   */
   readonly extensionDuration?: string;
   /**
   * The repetition limit for extending the profile expiry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile#extension_limit Profile#extension_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/profile#extension_limit Profile#extension_limit}
   */
   readonly extensionLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile#id Profile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/profile#id Profile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -77,19 +77,19 @@ export interface ProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the Britive profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile#name Profile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/profile#name Profile#name}
   */
   readonly name: string;
   /**
   * he profile expiry notification as a time value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile#notification_prior_to_expiration Profile#notification_prior_to_expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/profile#notification_prior_to_expiration Profile#notification_prior_to_expiration}
   */
   readonly notificationPriorToExpiration?: string;
   /**
   * associations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile#associations Profile#associations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/profile#associations Profile#associations}
   */
   readonly associations: ProfileAssociations[] | cdktf.IResolvable;
 }
@@ -97,19 +97,19 @@ export interface ProfileAssociations {
   /**
   * The parent name of the resource. Required only if the association type is ApplicationResource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile#parent_name Profile#parent_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/profile#parent_name Profile#parent_name}
   */
   readonly parentName?: string;
   /**
   * The type of association, should be one of [Environment, EnvironmentGroup, ApplicationResource]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile#type Profile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/profile#type Profile#type}
   */
   readonly type: string;
   /**
   * The association value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile#value Profile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/profile#value Profile#value}
   */
   readonly value: string;
 }
@@ -277,7 +277,7 @@ export class ProfileAssociationsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile britive_profile}
+* Represents a {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/profile britive_profile}
 */
 export class Profile extends cdktf.TerraformResource {
 
@@ -293,7 +293,7 @@ export class Profile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Profile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Profile to import
-  * @param importFromId The id of the existing Profile that should be imported. Refer to the {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Profile that should be imported. Refer to the {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Profile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -305,7 +305,7 @@ export class Profile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile britive_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/profile britive_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -316,8 +316,8 @@ export class Profile extends cdktf.TerraformResource {
       terraformResourceType: 'britive_profile',
       terraformGeneratorMetadata: {
         providerName: 'britive',
-        providerVersion: '2.2.5',
-        providerVersionConstraint: '2.2.5'
+        providerVersion: '2.2.6',
+        providerVersionConstraint: '2.2.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

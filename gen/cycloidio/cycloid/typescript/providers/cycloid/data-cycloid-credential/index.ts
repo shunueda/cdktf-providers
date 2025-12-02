@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/data-sources/credential
+// https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/data-sources/credential
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataCycloidCredentialConfig extends cdktf.TerraformMetaArgument
   /**
   * The canonical of the credential to fetch, use either this or path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/data-sources/credential#canonical DataCycloidCredential#canonical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/data-sources/credential#canonical DataCycloidCredential#canonical}
   */
   readonly canonical?: string;
   /**
   * The canonical of the organization where is store the credential, default to the provider's organization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/data-sources/credential#organization DataCycloidCredential#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/data-sources/credential#organization DataCycloidCredential#organization}
   */
   readonly organization?: string;
   /**
   * Vault path of the credential, mainly used in concourse.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/data-sources/credential#path DataCycloidCredential#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/data-sources/credential#path DataCycloidCredential#path}
   */
   readonly path?: string;
 }
@@ -30,7 +30,7 @@ export interface DataCycloidCredentialBody {
   /**
   * custom credential fields
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/data-sources/credential#raw DataCycloidCredential#raw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/data-sources/credential#raw DataCycloidCredential#raw}
   */
   readonly raw?: { [key: string]: string };
 }
@@ -189,7 +189,7 @@ export class DataCycloidCredentialBodyOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/data-sources/credential cycloid_credential}
+* Represents a {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/data-sources/credential cycloid_credential}
 */
 export class DataCycloidCredential extends cdktf.TerraformDataSource {
 
@@ -205,7 +205,7 @@ export class DataCycloidCredential extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCycloidCredential resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCycloidCredential to import
-  * @param importFromId The id of the existing DataCycloidCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/data-sources/credential#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCycloidCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/data-sources/credential#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCycloidCredential to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -217,7 +217,7 @@ export class DataCycloidCredential extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/data-sources/credential cycloid_credential} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/data-sources/credential cycloid_credential} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -228,8 +228,8 @@ export class DataCycloidCredential extends cdktf.TerraformDataSource {
       terraformResourceType: 'cycloid_credential',
       terraformGeneratorMetadata: {
         providerName: 'cycloid',
-        providerVersion: '0.0.23',
-        providerVersionConstraint: '0.0.23'
+        providerVersion: '0.0.24',
+        providerVersionConstraint: '0.0.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

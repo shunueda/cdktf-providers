@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "cycloid": "0.0.23"
+    "cycloid": "0.0.24"
   }
 }

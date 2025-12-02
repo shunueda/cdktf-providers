@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/data-sources/alarm
+// https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/data-sources/alarm
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataCloudamqpAlarmConfig extends cdktf.TerraformMetaArguments {
   /**
   * Alarm identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/data-sources/alarm#alarm_id DataCloudamqpAlarm#alarm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/data-sources/alarm#alarm_id DataCloudamqpAlarm#alarm_id}
   */
   readonly alarmId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/data-sources/alarm#id DataCloudamqpAlarm#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/data-sources/alarm#id DataCloudamqpAlarm#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface DataCloudamqpAlarmConfig extends cdktf.TerraformMetaArguments {
   /**
   * Instance identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/data-sources/alarm#instance_id DataCloudamqpAlarm#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/data-sources/alarm#instance_id DataCloudamqpAlarm#instance_id}
   */
   readonly instanceId: number;
   /**
   * Type of the alarm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/data-sources/alarm#type DataCloudamqpAlarm#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/data-sources/alarm#type DataCloudamqpAlarm#type}
   */
   readonly type?: string;
   /**
   * Disk value threshold calculation. Fixed or percentage of disk space remaining
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/data-sources/alarm#value_calculation DataCloudamqpAlarm#value_calculation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/data-sources/alarm#value_calculation DataCloudamqpAlarm#value_calculation}
   */
   readonly valueCalculation?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/data-sources/alarm cloudamqp_alarm}
+* Represents a {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/data-sources/alarm cloudamqp_alarm}
 */
 export class DataCloudamqpAlarm extends cdktf.TerraformDataSource {
 
@@ -57,7 +57,7 @@ export class DataCloudamqpAlarm extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCloudamqpAlarm resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCloudamqpAlarm to import
-  * @param importFromId The id of the existing DataCloudamqpAlarm that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/data-sources/alarm#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCloudamqpAlarm that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/data-sources/alarm#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCloudamqpAlarm to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class DataCloudamqpAlarm extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/data-sources/alarm cloudamqp_alarm} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/data-sources/alarm cloudamqp_alarm} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class DataCloudamqpAlarm extends cdktf.TerraformDataSource {
       terraformResourceType: 'cloudamqp_alarm',
       terraformGeneratorMetadata: {
         providerName: 'cloudamqp',
-        providerVersion: '1.38.3',
-        providerVersionConstraint: '1.38.3'
+        providerVersion: '1.39.0',
+        providerVersionConstraint: '1.39.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

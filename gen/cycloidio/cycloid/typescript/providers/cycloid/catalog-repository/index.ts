@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/catalog_repository
+// https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/catalog_repository
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,19 @@ import * as cdktf from 'cdktf';
 
 export interface CatalogRepositoryConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/catalog_repository#branch CatalogRepository#branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/catalog_repository#branch CatalogRepository#branch}
   */
   readonly branch: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/catalog_repository#canonical CatalogRepository#canonical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/catalog_repository#canonical CatalogRepository#canonical}
   */
   readonly canonical?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/catalog_repository#credential_canonical CatalogRepository#credential_canonical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/catalog_repository#credential_canonical CatalogRepository#credential_canonical}
   */
   readonly credentialCanonical?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/catalog_repository#name CatalogRepository#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/catalog_repository#name CatalogRepository#name}
   */
   readonly name: string;
   /**
@@ -28,20 +28,20 @@ export interface CatalogRepositoryConfig extends cdktf.TerraformMetaArguments {
   * This option is only applied during initial catalog repository creation, not for subsequent updates.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/catalog_repository#on_create_team CatalogRepository#on_create_team}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/catalog_repository#on_create_team CatalogRepository#on_create_team}
   */
   readonly onCreateTeam?: string;
   /**
   * Team responsible for the maintenance of the underlying service catalogs
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/catalog_repository#on_create_visibility CatalogRepository#on_create_visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/catalog_repository#on_create_visibility CatalogRepository#on_create_visibility}
   */
   readonly onCreateVisibility?: string;
   /**
   * A canonical of an organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/catalog_repository#organization_canonical CatalogRepository#organization_canonical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/catalog_repository#organization_canonical CatalogRepository#organization_canonical}
   */
   readonly organizationCanonical?: string;
   /**
@@ -50,11 +50,11 @@ export interface CatalogRepositoryConfig extends cdktf.TerraformMetaArguments {
   * owner of a service catalog source they has all the permissions on it.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/catalog_repository#owner CatalogRepository#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/catalog_repository#owner CatalogRepository#owner}
   */
   readonly owner?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/catalog_repository#url CatalogRepository#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/catalog_repository#url CatalogRepository#url}
   */
   readonly url: string;
 }
@@ -225,7 +225,7 @@ export class CatalogRepositoryDataOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/catalog_repository cycloid_catalog_repository}
+* Represents a {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/catalog_repository cycloid_catalog_repository}
 */
 export class CatalogRepository extends cdktf.TerraformResource {
 
@@ -241,7 +241,7 @@ export class CatalogRepository extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CatalogRepository resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CatalogRepository to import
-  * @param importFromId The id of the existing CatalogRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/catalog_repository#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CatalogRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/catalog_repository#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CatalogRepository to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -253,7 +253,7 @@ export class CatalogRepository extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/catalog_repository cycloid_catalog_repository} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/catalog_repository cycloid_catalog_repository} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -264,8 +264,8 @@ export class CatalogRepository extends cdktf.TerraformResource {
       terraformResourceType: 'cycloid_catalog_repository',
       terraformGeneratorMetadata: {
         providerName: 'cycloid',
-        providerVersion: '0.0.23',
-        providerVersionConstraint: '0.0.23'
+        providerVersion: '0.0.24',
+        providerVersionConstraint: '0.0.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

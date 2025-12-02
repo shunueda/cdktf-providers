@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/config_repository
+// https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/config_repository
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,50 +10,50 @@ export interface ConfigRepositoryConfig extends cdktf.TerraformMetaArguments {
   /**
   * Branch needs to be valid git repository branch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/config_repository#branch ConfigRepository#branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/config_repository#branch ConfigRepository#branch}
   */
   readonly branch: string;
   /**
   * The canonical of an entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/config_repository#canonical ConfigRepository#canonical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/config_repository#canonical ConfigRepository#canonical}
   */
   readonly canonical?: string;
   /**
   * The canonical of an entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/config_repository#credential_canonical ConfigRepository#credential_canonical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/config_repository#credential_canonical ConfigRepository#credential_canonical}
   */
   readonly credentialCanonical: string;
   /**
   * Whether the given entity is default one
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/config_repository#default ConfigRepository#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/config_repository#default ConfigRepository#default}
   */
   readonly default: boolean | cdktf.IResolvable;
   /**
   * The name of an entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/config_repository#name ConfigRepository#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/config_repository#name ConfigRepository#name}
   */
   readonly name: string;
   /**
   * A canonical of an organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/config_repository#organization_canonical ConfigRepository#organization_canonical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/config_repository#organization_canonical ConfigRepository#organization_canonical}
   */
   readonly organizationCanonical?: string;
   /**
   * GitURL represents all git URL formats we accept.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/config_repository#url ConfigRepository#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/config_repository#url ConfigRepository#url}
   */
   readonly url: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/config_repository cycloid_config_repository}
+* Represents a {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/config_repository cycloid_config_repository}
 */
 export class ConfigRepository extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class ConfigRepository extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ConfigRepository resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConfigRepository to import
-  * @param importFromId The id of the existing ConfigRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/config_repository#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConfigRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/config_repository#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConfigRepository to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class ConfigRepository extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/config_repository cycloid_config_repository} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/config_repository cycloid_config_repository} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class ConfigRepository extends cdktf.TerraformResource {
       terraformResourceType: 'cycloid_config_repository',
       terraformGeneratorMetadata: {
         providerName: 'cycloid',
-        providerVersion: '0.0.23',
-        providerVersionConstraint: '0.0.23'
+        providerVersion: '0.0.24',
+        providerVersionConstraint: '0.0.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

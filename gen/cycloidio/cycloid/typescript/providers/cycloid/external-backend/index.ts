@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/external_backend
+// https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/external_backend
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,35 +12,35 @@ export interface ExternalBackendConfig extends cdktf.TerraformMetaArguments {
   * Must be matched with a credential of the "aws" type.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/external_backend#aws_storage ExternalBackend#aws_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/external_backend#aws_storage ExternalBackend#aws_storage}
   */
   readonly awsStorage?: ExternalBackendAwsStorage;
   /**
   * The canonical of an entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/external_backend#credential_canonical ExternalBackend#credential_canonical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/external_backend#credential_canonical ExternalBackend#credential_canonical}
   */
   readonly credentialCanonical?: string;
   /**
   * Whether the given entity is default one
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/external_backend#default ExternalBackend#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/external_backend#default ExternalBackend#default}
   */
   readonly default?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/external_backend#engine ExternalBackend#engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/external_backend#engine ExternalBackend#engine}
   */
   readonly engine: string;
   /**
   * The canonical of an entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/external_backend#environment_canonical ExternalBackend#environment_canonical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/external_backend#environment_canonical ExternalBackend#environment_canonical}
   */
   readonly environmentCanonical?: string;
   /**
   * External Backend ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/external_backend#external_backend_id ExternalBackend#external_backend_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/external_backend#external_backend_id ExternalBackend#external_backend_id}
   */
   readonly externalBackendId?: number;
   /**
@@ -48,23 +48,23 @@ export interface ExternalBackendConfig extends cdktf.TerraformMetaArguments {
   * Must be matched with a credential of the "gcp" type.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/external_backend#gcp_storage ExternalBackend#gcp_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/external_backend#gcp_storage ExternalBackend#gcp_storage}
   */
   readonly gcpStorage?: ExternalBackendGcpStorage;
   /**
   * A canonical of an organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/external_backend#organization_canonical ExternalBackend#organization_canonical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/external_backend#organization_canonical ExternalBackend#organization_canonical}
   */
   readonly organizationCanonical?: string;
   /**
   * The canonical of an entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/external_backend#project_canonical ExternalBackend#project_canonical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/external_backend#project_canonical ExternalBackend#project_canonical}
   */
   readonly projectCanonical?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/external_backend#purpose ExternalBackend#purpose}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/external_backend#purpose ExternalBackend#purpose}
   */
   readonly purpose: string;
   /**
@@ -72,7 +72,7 @@ export interface ExternalBackendConfig extends cdktf.TerraformMetaArguments {
   * Must be matched with a credential of the "swift" type.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/external_backend#swift_storage ExternalBackend#swift_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/external_backend#swift_storage ExternalBackend#swift_storage}
   */
   readonly swiftStorage?: ExternalBackendSwiftStorage;
 }
@@ -81,42 +81,42 @@ export interface ExternalBackendAwsStorage {
   * The AWS bucket containing objects
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/external_backend#bucket ExternalBackend#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/external_backend#bucket ExternalBackend#bucket}
   */
   readonly bucket?: string;
   /**
   * A custom endpoint for the S3 API (default: s3.amazonaws.com)
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/external_backend#endpoint ExternalBackend#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/external_backend#endpoint ExternalBackend#endpoint}
   */
   readonly endpoint?: string;
   /**
   * The S3 Key uniquely identifies an object in a bucket
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/external_backend#key ExternalBackend#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/external_backend#key ExternalBackend#key}
   */
   readonly key?: string;
   /**
   * The AWS region where the resource exists
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/external_backend#region ExternalBackend#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/external_backend#region ExternalBackend#region}
   */
   readonly region?: string;
   /**
   * Always use path-style S3 URLs (https://<HOST>/<BUCKET> instead of https://<BUCKET>.<HOST>)
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/external_backend#s3_force_path_style ExternalBackend#s3_force_path_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/external_backend#s3_force_path_style ExternalBackend#s3_force_path_style}
   */
   readonly s3ForcePathStyle?: boolean | cdktf.IResolvable;
   /**
   * Set this to `true` to not verify SSL certificates
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/external_backend#skip_verify_ssl ExternalBackend#skip_verify_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/external_backend#skip_verify_ssl ExternalBackend#skip_verify_ssl}
   */
   readonly skipVerifySsl?: boolean | cdktf.IResolvable;
 }
@@ -358,7 +358,7 @@ export interface ExternalBackendGcpStorage {
   * The GCP bucket containing objects
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/external_backend#bucket ExternalBackend#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/external_backend#bucket ExternalBackend#bucket}
   */
   readonly bucket?: string;
   /**
@@ -366,7 +366,7 @@ export interface ExternalBackendGcpStorage {
   * will be required if the EB is not default
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/external_backend#object ExternalBackend#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/external_backend#object ExternalBackend#object}
   */
   readonly object?: string;
 }
@@ -492,7 +492,7 @@ export interface ExternalBackendSwiftStorage {
   * The Swift container containing objects
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/external_backend#container ExternalBackend#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/external_backend#container ExternalBackend#container}
   */
   readonly container?: string;
   /**
@@ -500,21 +500,21 @@ export interface ExternalBackendSwiftStorage {
   * will be required if the EB is not default
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/external_backend#object ExternalBackend#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/external_backend#object ExternalBackend#object}
   */
   readonly object?: string;
   /**
   * The Swift region where the resource exists
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/external_backend#region ExternalBackend#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/external_backend#region ExternalBackend#region}
   */
   readonly region?: string;
   /**
   * Set this to `true` to not verify SSL certificates
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/external_backend#skip_verify_ssl ExternalBackend#skip_verify_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/external_backend#skip_verify_ssl ExternalBackend#skip_verify_ssl}
   */
   readonly skipVerifySsl?: boolean | cdktf.IResolvable;
 }
@@ -695,7 +695,7 @@ export class ExternalBackendSwiftStorageOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/external_backend cycloid_external_backend}
+* Represents a {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/external_backend cycloid_external_backend}
 */
 export class ExternalBackend extends cdktf.TerraformResource {
 
@@ -711,7 +711,7 @@ export class ExternalBackend extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ExternalBackend resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ExternalBackend to import
-  * @param importFromId The id of the existing ExternalBackend that should be imported. Refer to the {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/external_backend#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ExternalBackend that should be imported. Refer to the {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/external_backend#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ExternalBackend to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -723,7 +723,7 @@ export class ExternalBackend extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs/resources/external_backend cycloid_external_backend} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs/resources/external_backend cycloid_external_backend} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -734,8 +734,8 @@ export class ExternalBackend extends cdktf.TerraformResource {
       terraformResourceType: 'cycloid_external_backend',
       terraformGeneratorMetadata: {
         providerName: 'cycloid',
-        providerVersion: '0.0.23',
-        providerVersionConstraint: '0.0.23'
+        providerVersion: '0.0.24',
+        providerVersionConstraint: '0.0.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

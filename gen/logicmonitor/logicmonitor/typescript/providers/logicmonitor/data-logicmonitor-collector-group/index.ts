@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/collector_group
+// https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/collector_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,66 +8,66 @@ import * as cdktf from 'cdktf';
 
 export interface DataLogicmonitorCollectorGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/collector_group#auto_balance DataLogicmonitorCollectorGroup#auto_balance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/collector_group#auto_balance DataLogicmonitorCollectorGroup#auto_balance}
   */
   readonly autoBalance?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/collector_group#auto_balance_instance_count_threshold DataLogicmonitorCollectorGroup#auto_balance_instance_count_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/collector_group#auto_balance_instance_count_threshold DataLogicmonitorCollectorGroup#auto_balance_instance_count_threshold}
   */
   readonly autoBalanceInstanceCountThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/collector_group#auto_balance_strategy DataLogicmonitorCollectorGroup#auto_balance_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/collector_group#auto_balance_strategy DataLogicmonitorCollectorGroup#auto_balance_strategy}
   */
   readonly autoBalanceStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/collector_group#create_on DataLogicmonitorCollectorGroup#create_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/collector_group#create_on DataLogicmonitorCollectorGroup#create_on}
   */
   readonly createOn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/collector_group#custom_properties DataLogicmonitorCollectorGroup#custom_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/collector_group#custom_properties DataLogicmonitorCollectorGroup#custom_properties}
   */
   readonly customProperties?: DataLogicmonitorCollectorGroupCustomProperties[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/collector_group#description DataLogicmonitorCollectorGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/collector_group#description DataLogicmonitorCollectorGroup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/collector_group#filter DataLogicmonitorCollectorGroup#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/collector_group#filter DataLogicmonitorCollectorGroup#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/collector_group#id DataLogicmonitorCollectorGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/collector_group#id DataLogicmonitorCollectorGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/collector_group#name DataLogicmonitorCollectorGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/collector_group#name DataLogicmonitorCollectorGroup#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/collector_group#num_of_collectors DataLogicmonitorCollectorGroup#num_of_collectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/collector_group#num_of_collectors DataLogicmonitorCollectorGroup#num_of_collectors}
   */
   readonly numOfCollectors?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/collector_group#user_permission DataLogicmonitorCollectorGroup#user_permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/collector_group#user_permission DataLogicmonitorCollectorGroup#user_permission}
   */
   readonly userPermission?: string;
   /**
   * highest_priority_collector_status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/collector_group#highest_priority_collector_status DataLogicmonitorCollectorGroup#highest_priority_collector_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/collector_group#highest_priority_collector_status DataLogicmonitorCollectorGroup#highest_priority_collector_status}
   */
   readonly highestPriorityCollectorStatus?: DataLogicmonitorCollectorGroupHighestPriorityCollectorStatus[] | cdktf.IResolvable;
 }
 export interface DataLogicmonitorCollectorGroupCustomProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/collector_group#name DataLogicmonitorCollectorGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/collector_group#name DataLogicmonitorCollectorGroup#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/collector_group#value DataLogicmonitorCollectorGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/collector_group#value DataLogicmonitorCollectorGroup#value}
   */
   readonly value?: string;
 }
@@ -313,7 +313,7 @@ export class DataLogicmonitorCollectorGroupHighestPriorityCollectorStatusList ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/collector_group logicmonitor_collector_group}
+* Represents a {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/collector_group logicmonitor_collector_group}
 */
 export class DataLogicmonitorCollectorGroup extends cdktf.TerraformDataSource {
 
@@ -329,7 +329,7 @@ export class DataLogicmonitorCollectorGroup extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLogicmonitorCollectorGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLogicmonitorCollectorGroup to import
-  * @param importFromId The id of the existing DataLogicmonitorCollectorGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/collector_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLogicmonitorCollectorGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/collector_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLogicmonitorCollectorGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -341,7 +341,7 @@ export class DataLogicmonitorCollectorGroup extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/collector_group logicmonitor_collector_group} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/collector_group logicmonitor_collector_group} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -352,8 +352,8 @@ export class DataLogicmonitorCollectorGroup extends cdktf.TerraformDataSource {
       terraformResourceType: 'logicmonitor_collector_group',
       terraformGeneratorMetadata: {
         providerName: 'logicmonitor',
-        providerVersion: '2.0.25',
-        providerVersionConstraint: '2.0.25'
+        providerVersion: '2.0.27',
+        providerVersionConstraint: '2.0.27'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

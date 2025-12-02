@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "logicmonitor": "2.0.25"
+    "logicmonitor": "2.0.27"
   }
 }

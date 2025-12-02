@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_resource_type
+// https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/resource_manager_resource_type
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ResourceManagerResourceTypeConfig extends cdktf.TerraformMetaAr
   /**
   * The description of the Britive resource type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_resource_type#description ResourceManagerResourceType#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/resource_manager_resource_type#description ResourceManagerResourceType#description}
   */
   readonly description?: string;
   /**
   * Icon of Britive resource type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_resource_type#icon ResourceManagerResourceType#icon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/resource_manager_resource_type#icon ResourceManagerResourceType#icon}
   */
   readonly icon?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_resource_type#id ResourceManagerResourceType#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/resource_manager_resource_type#id ResourceManagerResourceType#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,27 +29,27 @@ export interface ResourceManagerResourceTypeConfig extends cdktf.TerraformMetaAr
   /**
   * The name of Britive resource type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_resource_type#name ResourceManagerResourceType#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/resource_manager_resource_type#name ResourceManagerResourceType#name}
   */
   readonly name: string;
   /**
   * parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_resource_type#parameters ResourceManagerResourceType#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/resource_manager_resource_type#parameters ResourceManagerResourceType#parameters}
   */
   readonly parameters?: ResourceManagerResourceTypeParameters[] | cdktf.IResolvable;
 }
 export interface ResourceManagerResourceTypeParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_resource_type#is_mandatory ResourceManagerResourceType#is_mandatory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/resource_manager_resource_type#is_mandatory ResourceManagerResourceType#is_mandatory}
   */
   readonly isMandatory: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_resource_type#param_name ResourceManagerResourceType#param_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/resource_manager_resource_type#param_name ResourceManagerResourceType#param_name}
   */
   readonly paramName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_resource_type#param_type ResourceManagerResourceType#param_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/resource_manager_resource_type#param_type ResourceManagerResourceType#param_type}
   */
   readonly paramType: string;
 }
@@ -214,7 +214,7 @@ export class ResourceManagerResourceTypeParametersList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_resource_type britive_resource_manager_resource_type}
+* Represents a {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/resource_manager_resource_type britive_resource_manager_resource_type}
 */
 export class ResourceManagerResourceType extends cdktf.TerraformResource {
 
@@ -230,7 +230,7 @@ export class ResourceManagerResourceType extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ResourceManagerResourceType resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ResourceManagerResourceType to import
-  * @param importFromId The id of the existing ResourceManagerResourceType that should be imported. Refer to the {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_resource_type#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ResourceManagerResourceType that should be imported. Refer to the {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/resource_manager_resource_type#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ResourceManagerResourceType to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -242,7 +242,7 @@ export class ResourceManagerResourceType extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_resource_type britive_resource_manager_resource_type} Resource
+  * Create a new {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/resource_manager_resource_type britive_resource_manager_resource_type} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -253,8 +253,8 @@ export class ResourceManagerResourceType extends cdktf.TerraformResource {
       terraformResourceType: 'britive_resource_manager_resource_type',
       terraformGeneratorMetadata: {
         providerName: 'britive',
-        providerVersion: '2.2.5',
-        providerVersionConstraint: '2.2.5'
+        providerVersion: '2.2.6',
+        providerVersionConstraint: '2.2.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

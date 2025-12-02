@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/website_group
+// https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/website_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,78 +8,78 @@ import * as cdktf from 'cdktf';
 
 export interface DataLogicmonitorWebsiteGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/website_group#description DataLogicmonitorWebsiteGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/website_group#description DataLogicmonitorWebsiteGroup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/website_group#disable_alerting DataLogicmonitorWebsiteGroup#disable_alerting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/website_group#disable_alerting DataLogicmonitorWebsiteGroup#disable_alerting}
   */
   readonly disableAlerting?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/website_group#filter DataLogicmonitorWebsiteGroup#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/website_group#filter DataLogicmonitorWebsiteGroup#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/website_group#full_path DataLogicmonitorWebsiteGroup#full_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/website_group#full_path DataLogicmonitorWebsiteGroup#full_path}
   */
   readonly fullPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/website_group#has_websites_disabled DataLogicmonitorWebsiteGroup#has_websites_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/website_group#has_websites_disabled DataLogicmonitorWebsiteGroup#has_websites_disabled}
   */
   readonly hasWebsitesDisabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/website_group#id DataLogicmonitorWebsiteGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/website_group#id DataLogicmonitorWebsiteGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/website_group#name DataLogicmonitorWebsiteGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/website_group#name DataLogicmonitorWebsiteGroup#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/website_group#num_of_direct_sub_groups DataLogicmonitorWebsiteGroup#num_of_direct_sub_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/website_group#num_of_direct_sub_groups DataLogicmonitorWebsiteGroup#num_of_direct_sub_groups}
   */
   readonly numOfDirectSubGroups?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/website_group#num_of_direct_websites DataLogicmonitorWebsiteGroup#num_of_direct_websites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/website_group#num_of_direct_websites DataLogicmonitorWebsiteGroup#num_of_direct_websites}
   */
   readonly numOfDirectWebsites?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/website_group#num_of_websites DataLogicmonitorWebsiteGroup#num_of_websites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/website_group#num_of_websites DataLogicmonitorWebsiteGroup#num_of_websites}
   */
   readonly numOfWebsites?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/website_group#parent_id DataLogicmonitorWebsiteGroup#parent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/website_group#parent_id DataLogicmonitorWebsiteGroup#parent_id}
   */
   readonly parentId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/website_group#properties DataLogicmonitorWebsiteGroup#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/website_group#properties DataLogicmonitorWebsiteGroup#properties}
   */
   readonly properties?: DataLogicmonitorWebsiteGroupProperties[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/website_group#stop_monitoring DataLogicmonitorWebsiteGroup#stop_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/website_group#stop_monitoring DataLogicmonitorWebsiteGroup#stop_monitoring}
   */
   readonly stopMonitoring?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/website_group#user_permission DataLogicmonitorWebsiteGroup#user_permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/website_group#user_permission DataLogicmonitorWebsiteGroup#user_permission}
   */
   readonly userPermission?: string;
   /**
   * test_location block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/website_group#test_location DataLogicmonitorWebsiteGroup#test_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/website_group#test_location DataLogicmonitorWebsiteGroup#test_location}
   */
   readonly testLocation?: DataLogicmonitorWebsiteGroupTestLocation[] | cdktf.IResolvable;
 }
 export interface DataLogicmonitorWebsiteGroupProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/website_group#name DataLogicmonitorWebsiteGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/website_group#name DataLogicmonitorWebsiteGroup#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/website_group#value DataLogicmonitorWebsiteGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/website_group#value DataLogicmonitorWebsiteGroup#value}
   */
   readonly value?: string;
 }
@@ -224,30 +224,30 @@ export class DataLogicmonitorWebsiteGroupPropertiesList extends cdktf.ComplexLis
 }
 export interface DataLogicmonitorWebsiteGroupTestLocationCollectors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/website_group#collector_group_id DataLogicmonitorWebsiteGroup#collector_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/website_group#collector_group_id DataLogicmonitorWebsiteGroup#collector_group_id}
   */
   readonly collectorGroupId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/website_group#collector_group_name DataLogicmonitorWebsiteGroup#collector_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/website_group#collector_group_name DataLogicmonitorWebsiteGroup#collector_group_name}
   */
   readonly collectorGroupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/website_group#description DataLogicmonitorWebsiteGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/website_group#description DataLogicmonitorWebsiteGroup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/website_group#hostname DataLogicmonitorWebsiteGroup#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/website_group#hostname DataLogicmonitorWebsiteGroup#hostname}
   */
   readonly hostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/website_group#id DataLogicmonitorWebsiteGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/website_group#id DataLogicmonitorWebsiteGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/website_group#status DataLogicmonitorWebsiteGroup#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/website_group#status DataLogicmonitorWebsiteGroup#status}
   */
   readonly status?: string;
 }
@@ -508,19 +508,19 @@ export class DataLogicmonitorWebsiteGroupTestLocationCollectorsList extends cdkt
 }
 export interface DataLogicmonitorWebsiteGroupTestLocation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/website_group#all DataLogicmonitorWebsiteGroup#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/website_group#all DataLogicmonitorWebsiteGroup#all}
   */
   readonly all?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/website_group#collector_ids DataLogicmonitorWebsiteGroup#collector_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/website_group#collector_ids DataLogicmonitorWebsiteGroup#collector_ids}
   */
   readonly collectorIds?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/website_group#collectors DataLogicmonitorWebsiteGroup#collectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/website_group#collectors DataLogicmonitorWebsiteGroup#collectors}
   */
   readonly collectors?: DataLogicmonitorWebsiteGroupTestLocationCollectors[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/website_group#smg_ids DataLogicmonitorWebsiteGroup#smg_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/website_group#smg_ids DataLogicmonitorWebsiteGroup#smg_ids}
   */
   readonly smgIds?: number[];
 }
@@ -723,7 +723,7 @@ export class DataLogicmonitorWebsiteGroupTestLocationList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/website_group logicmonitor_website_group}
+* Represents a {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/website_group logicmonitor_website_group}
 */
 export class DataLogicmonitorWebsiteGroup extends cdktf.TerraformDataSource {
 
@@ -739,7 +739,7 @@ export class DataLogicmonitorWebsiteGroup extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLogicmonitorWebsiteGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLogicmonitorWebsiteGroup to import
-  * @param importFromId The id of the existing DataLogicmonitorWebsiteGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/website_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLogicmonitorWebsiteGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/website_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLogicmonitorWebsiteGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -751,7 +751,7 @@ export class DataLogicmonitorWebsiteGroup extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/website_group logicmonitor_website_group} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/website_group logicmonitor_website_group} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -762,8 +762,8 @@ export class DataLogicmonitorWebsiteGroup extends cdktf.TerraformDataSource {
       terraformResourceType: 'logicmonitor_website_group',
       terraformGeneratorMetadata: {
         providerName: 'logicmonitor',
-        providerVersion: '2.0.25',
-        providerVersionConstraint: '2.0.25'
+        providerVersion: '2.0.27',
+        providerVersionConstraint: '2.0.27'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_profile_permission
+// https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/resource_manager_profile_permission
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ResourceManagerProfilePermissionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_profile_permission#id ResourceManagerProfilePermission#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/resource_manager_profile_permission#id ResourceManagerProfilePermission#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface ResourceManagerProfilePermissionConfig extends cdktf.TerraformM
   /**
   * Name of the permission.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_profile_permission#name ResourceManagerProfilePermission#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/resource_manager_profile_permission#name ResourceManagerProfilePermission#name}
   */
   readonly name: string;
   /**
   * Profile Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_profile_permission#profile_id ResourceManagerProfilePermission#profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/resource_manager_profile_permission#profile_id ResourceManagerProfilePermission#profile_id}
   */
   readonly profileId: string;
   /**
   * Version of the permission.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_profile_permission#version ResourceManagerProfilePermission#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/resource_manager_profile_permission#version ResourceManagerProfilePermission#version}
   */
   readonly version: string;
   /**
   * variables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_profile_permission#variables ResourceManagerProfilePermission#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/resource_manager_profile_permission#variables ResourceManagerProfilePermission#variables}
   */
   readonly variables?: ResourceManagerProfilePermissionVariables[] | cdktf.IResolvable;
 }
@@ -43,19 +43,19 @@ export interface ResourceManagerProfilePermissionVariables {
   /**
   * State value is system designed or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_profile_permission#is_system_defined ResourceManagerProfilePermission#is_system_defined}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/resource_manager_profile_permission#is_system_defined ResourceManagerProfilePermission#is_system_defined}
   */
   readonly isSystemDefined: boolean | cdktf.IResolvable;
   /**
   * Name of variable associated with permission
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_profile_permission#name ResourceManagerProfilePermission#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/resource_manager_profile_permission#name ResourceManagerProfilePermission#name}
   */
   readonly name: string;
   /**
   * Value of variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_profile_permission#value ResourceManagerProfilePermission#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/resource_manager_profile_permission#value ResourceManagerProfilePermission#value}
   */
   readonly value: string;
 }
@@ -220,7 +220,7 @@ export class ResourceManagerProfilePermissionVariablesList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_profile_permission britive_resource_manager_profile_permission}
+* Represents a {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/resource_manager_profile_permission britive_resource_manager_profile_permission}
 */
 export class ResourceManagerProfilePermission extends cdktf.TerraformResource {
 
@@ -236,7 +236,7 @@ export class ResourceManagerProfilePermission extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ResourceManagerProfilePermission resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ResourceManagerProfilePermission to import
-  * @param importFromId The id of the existing ResourceManagerProfilePermission that should be imported. Refer to the {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_profile_permission#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ResourceManagerProfilePermission that should be imported. Refer to the {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/resource_manager_profile_permission#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ResourceManagerProfilePermission to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -248,7 +248,7 @@ export class ResourceManagerProfilePermission extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_profile_permission britive_resource_manager_profile_permission} Resource
+  * Create a new {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/resource_manager_profile_permission britive_resource_manager_profile_permission} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -259,8 +259,8 @@ export class ResourceManagerProfilePermission extends cdktf.TerraformResource {
       terraformResourceType: 'britive_resource_manager_profile_permission',
       terraformGeneratorMetadata: {
         providerName: 'britive',
-        providerVersion: '2.2.5',
-        providerVersionConstraint: '2.2.5'
+        providerVersion: '2.2.6',
+        providerVersionConstraint: '2.2.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

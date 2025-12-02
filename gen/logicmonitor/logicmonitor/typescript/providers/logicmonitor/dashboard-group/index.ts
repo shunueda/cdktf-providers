@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/dashboard_group
+// https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/dashboard_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,23 +8,23 @@ import * as cdktf from 'cdktf';
 
 export interface DashboardGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/dashboard_group#description DashboardGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/dashboard_group#description DashboardGroup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/dashboard_group#name DashboardGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/dashboard_group#name DashboardGroup#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/dashboard_group#parent_id DashboardGroup#parent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/dashboard_group#parent_id DashboardGroup#parent_id}
   */
   readonly parentId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/dashboard_group#template DashboardGroup#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/dashboard_group#template DashboardGroup#template}
   */
   readonly template?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/dashboard_group#widget_tokens DashboardGroup#widget_tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/dashboard_group#widget_tokens DashboardGroup#widget_tokens}
   */
   readonly widgetTokens?: DashboardGroupWidgetTokens[] | cdktf.IResolvable;
 }
@@ -120,11 +120,11 @@ export class DashboardGroupDashboardsList extends cdktf.ComplexList {
 }
 export interface DashboardGroupWidgetTokensInheritListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/dashboard_group#fullpath DashboardGroup#fullpath}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/dashboard_group#fullpath DashboardGroup#fullpath}
   */
   readonly fullpath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/dashboard_group#value DashboardGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/dashboard_group#value DashboardGroup#value}
   */
   readonly value?: string;
 }
@@ -269,19 +269,19 @@ export class DashboardGroupWidgetTokensInheritListStructList extends cdktf.Compl
 }
 export interface DashboardGroupWidgetTokens {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/dashboard_group#inherit_list DashboardGroup#inherit_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/dashboard_group#inherit_list DashboardGroup#inherit_list}
   */
   readonly inheritList?: DashboardGroupWidgetTokensInheritListStruct[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/dashboard_group#name DashboardGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/dashboard_group#name DashboardGroup#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/dashboard_group#type DashboardGroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/dashboard_group#type DashboardGroup#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/dashboard_group#value DashboardGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/dashboard_group#value DashboardGroup#value}
   */
   readonly value?: string;
 }
@@ -484,7 +484,7 @@ export class DashboardGroupWidgetTokensList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/dashboard_group logicmonitor_dashboard_group}
+* Represents a {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/dashboard_group logicmonitor_dashboard_group}
 */
 export class DashboardGroup extends cdktf.TerraformResource {
 
@@ -500,7 +500,7 @@ export class DashboardGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DashboardGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DashboardGroup to import
-  * @param importFromId The id of the existing DashboardGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/dashboard_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DashboardGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/dashboard_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DashboardGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -512,7 +512,7 @@ export class DashboardGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/resources/dashboard_group logicmonitor_dashboard_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/resources/dashboard_group logicmonitor_dashboard_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -523,8 +523,8 @@ export class DashboardGroup extends cdktf.TerraformResource {
       terraformResourceType: 'logicmonitor_dashboard_group',
       terraformGeneratorMetadata: {
         providerName: 'logicmonitor',
-        providerVersion: '2.0.25',
-        providerVersionConstraint: '2.0.25'
+        providerVersion: '2.0.27',
+        providerVersionConstraint: '2.0.27'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

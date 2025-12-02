@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/dashboard_group
+// https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/dashboard_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,79 +8,79 @@ import * as cdktf from 'cdktf';
 
 export interface DataLogicmonitorDashboardGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/dashboard_group#dashboards DataLogicmonitorDashboardGroup#dashboards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/dashboard_group#dashboards DataLogicmonitorDashboardGroup#dashboards}
   */
   readonly dashboards?: DataLogicmonitorDashboardGroupDashboards[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/dashboard_group#description DataLogicmonitorDashboardGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/dashboard_group#description DataLogicmonitorDashboardGroup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/dashboard_group#filter DataLogicmonitorDashboardGroup#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/dashboard_group#filter DataLogicmonitorDashboardGroup#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/dashboard_group#full_path DataLogicmonitorDashboardGroup#full_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/dashboard_group#full_path DataLogicmonitorDashboardGroup#full_path}
   */
   readonly fullPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/dashboard_group#id DataLogicmonitorDashboardGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/dashboard_group#id DataLogicmonitorDashboardGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/dashboard_group#name DataLogicmonitorDashboardGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/dashboard_group#name DataLogicmonitorDashboardGroup#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/dashboard_group#num_of_dashboards DataLogicmonitorDashboardGroup#num_of_dashboards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/dashboard_group#num_of_dashboards DataLogicmonitorDashboardGroup#num_of_dashboards}
   */
   readonly numOfDashboards?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/dashboard_group#num_of_direct_dashboards DataLogicmonitorDashboardGroup#num_of_direct_dashboards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/dashboard_group#num_of_direct_dashboards DataLogicmonitorDashboardGroup#num_of_direct_dashboards}
   */
   readonly numOfDirectDashboards?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/dashboard_group#num_of_direct_sub_groups DataLogicmonitorDashboardGroup#num_of_direct_sub_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/dashboard_group#num_of_direct_sub_groups DataLogicmonitorDashboardGroup#num_of_direct_sub_groups}
   */
   readonly numOfDirectSubGroups?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/dashboard_group#parent_id DataLogicmonitorDashboardGroup#parent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/dashboard_group#parent_id DataLogicmonitorDashboardGroup#parent_id}
   */
   readonly parentId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/dashboard_group#template DataLogicmonitorDashboardGroup#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/dashboard_group#template DataLogicmonitorDashboardGroup#template}
   */
   readonly template?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/dashboard_group#user_permission DataLogicmonitorDashboardGroup#user_permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/dashboard_group#user_permission DataLogicmonitorDashboardGroup#user_permission}
   */
   readonly userPermission?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/dashboard_group#widget_tokens DataLogicmonitorDashboardGroup#widget_tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/dashboard_group#widget_tokens DataLogicmonitorDashboardGroup#widget_tokens}
   */
   readonly widgetTokens?: DataLogicmonitorDashboardGroupWidgetTokens[] | cdktf.IResolvable;
 }
 export interface DataLogicmonitorDashboardGroupDashboards {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/dashboard_group#id DataLogicmonitorDashboardGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/dashboard_group#id DataLogicmonitorDashboardGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/dashboard_group#name DataLogicmonitorDashboardGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/dashboard_group#name DataLogicmonitorDashboardGroup#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/dashboard_group#sharable DataLogicmonitorDashboardGroup#sharable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/dashboard_group#sharable DataLogicmonitorDashboardGroup#sharable}
   */
   readonly sharable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/dashboard_group#user_permission DataLogicmonitorDashboardGroup#user_permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/dashboard_group#user_permission DataLogicmonitorDashboardGroup#user_permission}
   */
   readonly userPermission?: string;
 }
@@ -283,11 +283,11 @@ export class DataLogicmonitorDashboardGroupDashboardsList extends cdktf.ComplexL
 }
 export interface DataLogicmonitorDashboardGroupWidgetTokensInheritListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/dashboard_group#fullpath DataLogicmonitorDashboardGroup#fullpath}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/dashboard_group#fullpath DataLogicmonitorDashboardGroup#fullpath}
   */
   readonly fullpath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/dashboard_group#value DataLogicmonitorDashboardGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/dashboard_group#value DataLogicmonitorDashboardGroup#value}
   */
   readonly value?: string;
 }
@@ -432,19 +432,19 @@ export class DataLogicmonitorDashboardGroupWidgetTokensInheritListStructList ext
 }
 export interface DataLogicmonitorDashboardGroupWidgetTokens {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/dashboard_group#inherit_list DataLogicmonitorDashboardGroup#inherit_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/dashboard_group#inherit_list DataLogicmonitorDashboardGroup#inherit_list}
   */
   readonly inheritList?: DataLogicmonitorDashboardGroupWidgetTokensInheritListStruct[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/dashboard_group#name DataLogicmonitorDashboardGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/dashboard_group#name DataLogicmonitorDashboardGroup#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/dashboard_group#type DataLogicmonitorDashboardGroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/dashboard_group#type DataLogicmonitorDashboardGroup#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/dashboard_group#value DataLogicmonitorDashboardGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/dashboard_group#value DataLogicmonitorDashboardGroup#value}
   */
   readonly value?: string;
 }
@@ -647,7 +647,7 @@ export class DataLogicmonitorDashboardGroupWidgetTokensList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/dashboard_group logicmonitor_dashboard_group}
+* Represents a {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/dashboard_group logicmonitor_dashboard_group}
 */
 export class DataLogicmonitorDashboardGroup extends cdktf.TerraformDataSource {
 
@@ -663,7 +663,7 @@ export class DataLogicmonitorDashboardGroup extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLogicmonitorDashboardGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLogicmonitorDashboardGroup to import
-  * @param importFromId The id of the existing DataLogicmonitorDashboardGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/dashboard_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLogicmonitorDashboardGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/dashboard_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLogicmonitorDashboardGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -675,7 +675,7 @@ export class DataLogicmonitorDashboardGroup extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.25/docs/data-sources/dashboard_group logicmonitor_dashboard_group} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/logicmonitor/logicmonitor/2.0.27/docs/data-sources/dashboard_group logicmonitor_dashboard_group} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -686,8 +686,8 @@ export class DataLogicmonitorDashboardGroup extends cdktf.TerraformDataSource {
       terraformResourceType: 'logicmonitor_dashboard_group',
       terraformGeneratorMetadata: {
         providerName: 'logicmonitor',
-        providerVersion: '2.0.25',
-        providerVersionConstraint: '2.0.25'
+        providerVersion: '2.0.27',
+        providerVersionConstraint: '2.0.27'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

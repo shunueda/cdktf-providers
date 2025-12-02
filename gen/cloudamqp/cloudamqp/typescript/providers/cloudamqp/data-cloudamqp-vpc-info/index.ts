@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/data-sources/vpc_info
+// https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/data-sources/vpc_info
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataCloudamqpVpcInfoConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/data-sources/vpc_info#id DataCloudamqpVpcInfo#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/data-sources/vpc_info#id DataCloudamqpVpcInfo#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataCloudamqpVpcInfoConfig extends cdktf.TerraformMetaArguments
   /**
   * Instance identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/data-sources/vpc_info#instance_id DataCloudamqpVpcInfo#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/data-sources/vpc_info#instance_id DataCloudamqpVpcInfo#instance_id}
   */
   readonly instanceId?: number;
   /**
   * VPC instance identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/data-sources/vpc_info#vpc_id DataCloudamqpVpcInfo#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/data-sources/vpc_info#vpc_id DataCloudamqpVpcInfo#vpc_id}
   */
   readonly vpcId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/data-sources/vpc_info cloudamqp_vpc_info}
+* Represents a {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/data-sources/vpc_info cloudamqp_vpc_info}
 */
 export class DataCloudamqpVpcInfo extends cdktf.TerraformDataSource {
 
@@ -45,7 +45,7 @@ export class DataCloudamqpVpcInfo extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCloudamqpVpcInfo resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCloudamqpVpcInfo to import
-  * @param importFromId The id of the existing DataCloudamqpVpcInfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/data-sources/vpc_info#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCloudamqpVpcInfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/data-sources/vpc_info#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCloudamqpVpcInfo to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class DataCloudamqpVpcInfo extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.3/docs/data-sources/vpc_info cloudamqp_vpc_info} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/data-sources/vpc_info cloudamqp_vpc_info} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class DataCloudamqpVpcInfo extends cdktf.TerraformDataSource {
       terraformResourceType: 'cloudamqp_vpc_info',
       terraformGeneratorMetadata: {
         providerName: 'cloudamqp',
-        providerVersion: '1.38.3',
-        providerVersionConstraint: '1.38.3'
+        providerVersion: '1.39.0',
+        providerVersionConstraint: '1.39.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile_session_attribute
+// https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/profile_session_attribute
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface ProfileSessionAttributeConfig extends cdktf.TerraformMetaArgume
   /**
   * The application name of the application, profile is assciated with
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile_session_attribute#app_name ProfileSessionAttribute#app_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/profile_session_attribute#app_name ProfileSessionAttribute#app_name}
   */
   readonly appName?: string;
   /**
   * The attribute name associate with the profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile_session_attribute#attribute_name ProfileSessionAttribute#attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/profile_session_attribute#attribute_name ProfileSessionAttribute#attribute_name}
   */
   readonly attributeName?: string;
   /**
   * The type of attribute associate with the profile, should be one of [Static, Identity]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile_session_attribute#attribute_type ProfileSessionAttribute#attribute_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/profile_session_attribute#attribute_type ProfileSessionAttribute#attribute_type}
   */
   readonly attributeType?: string;
   /**
   * The attribute value associate with the profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile_session_attribute#attribute_value ProfileSessionAttribute#attribute_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/profile_session_attribute#attribute_value ProfileSessionAttribute#attribute_value}
   */
   readonly attributeValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile_session_attribute#id ProfileSessionAttribute#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/profile_session_attribute#id ProfileSessionAttribute#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,31 +41,31 @@ export interface ProfileSessionAttributeConfig extends cdktf.TerraformMetaArgume
   /**
   * The attribute mapping name associate with the profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile_session_attribute#mapping_name ProfileSessionAttribute#mapping_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/profile_session_attribute#mapping_name ProfileSessionAttribute#mapping_name}
   */
   readonly mappingName: string;
   /**
   * The identifier of the profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile_session_attribute#profile_id ProfileSessionAttribute#profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/profile_session_attribute#profile_id ProfileSessionAttribute#profile_id}
   */
   readonly profileId: string;
   /**
   * The name of the profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile_session_attribute#profile_name ProfileSessionAttribute#profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/profile_session_attribute#profile_name ProfileSessionAttribute#profile_name}
   */
   readonly profileName?: string;
   /**
   * The attribute transitive associate with the profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile_session_attribute#transitive ProfileSessionAttribute#transitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/profile_session_attribute#transitive ProfileSessionAttribute#transitive}
   */
   readonly transitive?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile_session_attribute britive_profile_session_attribute}
+* Represents a {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/profile_session_attribute britive_profile_session_attribute}
 */
 export class ProfileSessionAttribute extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class ProfileSessionAttribute extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProfileSessionAttribute resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProfileSessionAttribute to import
-  * @param importFromId The id of the existing ProfileSessionAttribute that should be imported. Refer to the {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile_session_attribute#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProfileSessionAttribute that should be imported. Refer to the {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/profile_session_attribute#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProfileSessionAttribute to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class ProfileSessionAttribute extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile_session_attribute britive_profile_session_attribute} Resource
+  * Create a new {@link https://registry.terraform.io/providers/britive/britive/2.2.6/docs/resources/profile_session_attribute britive_profile_session_attribute} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class ProfileSessionAttribute extends cdktf.TerraformResource {
       terraformResourceType: 'britive_profile_session_attribute',
       terraformGeneratorMetadata: {
         providerName: 'britive',
-        providerVersion: '2.2.5',
-        providerVersionConstraint: '2.2.5'
+        providerVersion: '2.2.6',
+        providerVersionConstraint: '2.2.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

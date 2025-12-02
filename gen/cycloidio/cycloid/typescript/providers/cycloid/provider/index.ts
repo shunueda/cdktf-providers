@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs
+// https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,27 +8,27 @@ import * as cdktf from 'cdktf';
 
 export interface CycloidProviderConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs#jwt CycloidProvider#jwt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs#jwt CycloidProvider#jwt}
   */
   readonly jwt: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs#organization_canonical CycloidProvider#organization_canonical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs#organization_canonical CycloidProvider#organization_canonical}
   */
   readonly organizationCanonical: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs#url CycloidProvider#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs#url CycloidProvider#url}
   */
   readonly url: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs#alias CycloidProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs#alias CycloidProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs cycloid}
+* Represents a {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs cycloid}
 */
 export class CycloidProvider extends cdktf.TerraformProvider {
 
@@ -44,7 +44,7 @@ export class CycloidProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a CycloidProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CycloidProvider to import
-  * @param importFromId The id of the existing CycloidProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CycloidProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CycloidProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class CycloidProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.23/docs cycloid} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cycloidio/cycloid/0.0.24/docs cycloid} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class CycloidProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'cycloid',
       terraformGeneratorMetadata: {
         providerName: 'cycloid',
-        providerVersion: '0.0.23',
-        providerVersionConstraint: '0.0.23'
+        providerVersion: '0.0.24',
+        providerVersionConstraint: '0.0.24'
       },
       terraformProviderSource: 'cycloidio/cycloid'
     });
