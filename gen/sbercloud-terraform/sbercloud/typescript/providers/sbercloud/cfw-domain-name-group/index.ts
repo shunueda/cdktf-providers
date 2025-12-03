@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_domain_name_group
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_domain_name_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface CfwDomainNameGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies the description of the domain name group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_domain_name_group#description CfwDomainNameGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_domain_name_group#description CfwDomainNameGroup#description}
   */
   readonly description?: string;
   /**
   * Specifies the firewall instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_domain_name_group#fw_instance_id CfwDomainNameGroup#fw_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_domain_name_group#fw_instance_id CfwDomainNameGroup#fw_instance_id}
   */
   readonly fwInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_domain_name_group#id CfwDomainNameGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_domain_name_group#id CfwDomainNameGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,29 +29,29 @@ export interface CfwDomainNameGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies the name of the domain name group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_domain_name_group#name CfwDomainNameGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_domain_name_group#name CfwDomainNameGroup#name}
   */
   readonly name: string;
   /**
   * Specifies the protected object ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_domain_name_group#object_id CfwDomainNameGroup#object_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_domain_name_group#object_id CfwDomainNameGroup#object_id}
   */
   readonly objectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_domain_name_group#region CfwDomainNameGroup#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_domain_name_group#region CfwDomainNameGroup#region}
   */
   readonly region?: string;
   /**
   * Specifies the type of the domain name group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_domain_name_group#type CfwDomainNameGroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_domain_name_group#type CfwDomainNameGroup#type}
   */
   readonly type: number;
   /**
   * domain_names block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_domain_name_group#domain_names CfwDomainNameGroup#domain_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_domain_name_group#domain_names CfwDomainNameGroup#domain_names}
   */
   readonly domainNames?: CfwDomainNameGroupDomainNames[] | cdktf.IResolvable;
 }
@@ -59,13 +59,13 @@ export interface CfwDomainNameGroupDomainNames {
   /**
   * Specifies the description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_domain_name_group#description CfwDomainNameGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_domain_name_group#description CfwDomainNameGroup#description}
   */
   readonly description?: string;
   /**
   * Specifies the domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_domain_name_group#domain_name CfwDomainNameGroup#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_domain_name_group#domain_name CfwDomainNameGroup#domain_name}
   */
   readonly domainName: string;
 }
@@ -217,7 +217,7 @@ export class CfwDomainNameGroupDomainNamesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_domain_name_group sbercloud_cfw_domain_name_group}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_domain_name_group sbercloud_cfw_domain_name_group}
 */
 export class CfwDomainNameGroup extends cdktf.TerraformResource {
 
@@ -233,7 +233,7 @@ export class CfwDomainNameGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CfwDomainNameGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CfwDomainNameGroup to import
-  * @param importFromId The id of the existing CfwDomainNameGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_domain_name_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CfwDomainNameGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_domain_name_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CfwDomainNameGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -245,7 +245,7 @@ export class CfwDomainNameGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_domain_name_group sbercloud_cfw_domain_name_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_domain_name_group sbercloud_cfw_domain_name_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -256,8 +256,8 @@ export class CfwDomainNameGroup extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_cfw_domain_name_group',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

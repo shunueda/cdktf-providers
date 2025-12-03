@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/elb_flavors
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/elb_flavors
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,62 +8,62 @@ import * as cdktf from 'cdktf';
 
 export interface DataSbercloudElbFlavorsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/elb_flavors#bandwidth DataSbercloudElbFlavors#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/elb_flavors#bandwidth DataSbercloudElbFlavors#bandwidth}
   */
   readonly bandwidth?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/elb_flavors#category DataSbercloudElbFlavors#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/elb_flavors#category DataSbercloudElbFlavors#category}
   */
   readonly category?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/elb_flavors#cps DataSbercloudElbFlavors#cps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/elb_flavors#cps DataSbercloudElbFlavors#cps}
   */
   readonly cps?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/elb_flavors#flavor_id DataSbercloudElbFlavors#flavor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/elb_flavors#flavor_id DataSbercloudElbFlavors#flavor_id}
   */
   readonly flavorId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/elb_flavors#flavor_sold_out DataSbercloudElbFlavors#flavor_sold_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/elb_flavors#flavor_sold_out DataSbercloudElbFlavors#flavor_sold_out}
   */
   readonly flavorSoldOut?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/elb_flavors#id DataSbercloudElbFlavors#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/elb_flavors#id DataSbercloudElbFlavors#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/elb_flavors#list_all DataSbercloudElbFlavors#list_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/elb_flavors#list_all DataSbercloudElbFlavors#list_all}
   */
   readonly listAll?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/elb_flavors#max_connections DataSbercloudElbFlavors#max_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/elb_flavors#max_connections DataSbercloudElbFlavors#max_connections}
   */
   readonly maxConnections?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/elb_flavors#name DataSbercloudElbFlavors#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/elb_flavors#name DataSbercloudElbFlavors#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/elb_flavors#public_border_group DataSbercloudElbFlavors#public_border_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/elb_flavors#public_border_group DataSbercloudElbFlavors#public_border_group}
   */
   readonly publicBorderGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/elb_flavors#qps DataSbercloudElbFlavors#qps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/elb_flavors#qps DataSbercloudElbFlavors#qps}
   */
   readonly qps?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/elb_flavors#region DataSbercloudElbFlavors#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/elb_flavors#region DataSbercloudElbFlavors#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/elb_flavors#shared DataSbercloudElbFlavors#shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/elb_flavors#shared DataSbercloudElbFlavors#shared}
   */
   readonly shared?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/elb_flavors#type DataSbercloudElbFlavors#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/elb_flavors#type DataSbercloudElbFlavors#type}
   */
   readonly type?: string;
 }
@@ -204,7 +204,7 @@ export class DataSbercloudElbFlavorsFlavorsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/elb_flavors sbercloud_elb_flavors}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/elb_flavors sbercloud_elb_flavors}
 */
 export class DataSbercloudElbFlavors extends cdktf.TerraformDataSource {
 
@@ -220,7 +220,7 @@ export class DataSbercloudElbFlavors extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSbercloudElbFlavors resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSbercloudElbFlavors to import
-  * @param importFromId The id of the existing DataSbercloudElbFlavors that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/elb_flavors#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSbercloudElbFlavors that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/elb_flavors#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSbercloudElbFlavors to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -232,7 +232,7 @@ export class DataSbercloudElbFlavors extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/elb_flavors sbercloud_elb_flavors} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/elb_flavors sbercloud_elb_flavors} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -243,8 +243,8 @@ export class DataSbercloudElbFlavors extends cdktf.TerraformDataSource {
       terraformResourceType: 'sbercloud_elb_flavors',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

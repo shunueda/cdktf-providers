@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/antiddos_scheduling_domain_user_name
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/antiddos_scheduling_domain_user_name
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface AntiddosSchedulingDomainUserNameConfig extends cdktf.TerraformM
   /**
   * user cname.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/antiddos_scheduling_domain_user_name#domain_name AntiddosSchedulingDomainUserName#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/antiddos_scheduling_domain_user_name#domain_name AntiddosSchedulingDomainUserName#domain_name}
   */
   readonly domainName: string;
   /**
   * domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/antiddos_scheduling_domain_user_name#domain_user_name AntiddosSchedulingDomainUserName#domain_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/antiddos_scheduling_domain_user_name#domain_user_name AntiddosSchedulingDomainUserName#domain_user_name}
   */
   readonly domainUserName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/antiddos_scheduling_domain_user_name#id AntiddosSchedulingDomainUserName#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/antiddos_scheduling_domain_user_name#id AntiddosSchedulingDomainUserName#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,7 +29,7 @@ export interface AntiddosSchedulingDomainUserNameConfig extends cdktf.TerraformM
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/antiddos_scheduling_domain_user_name tencentcloud_antiddos_scheduling_domain_user_name}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/antiddos_scheduling_domain_user_name tencentcloud_antiddos_scheduling_domain_user_name}
 */
 export class AntiddosSchedulingDomainUserName extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class AntiddosSchedulingDomainUserName extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AntiddosSchedulingDomainUserName resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AntiddosSchedulingDomainUserName to import
-  * @param importFromId The id of the existing AntiddosSchedulingDomainUserName that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/antiddos_scheduling_domain_user_name#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AntiddosSchedulingDomainUserName that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/antiddos_scheduling_domain_user_name#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AntiddosSchedulingDomainUserName to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class AntiddosSchedulingDomainUserName extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/antiddos_scheduling_domain_user_name tencentcloud_antiddos_scheduling_domain_user_name} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/antiddos_scheduling_domain_user_name tencentcloud_antiddos_scheduling_domain_user_name} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class AntiddosSchedulingDomainUserName extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_antiddos_scheduling_domain_user_name',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.39',
-        providerVersionConstraint: '1.82.39'
+        providerVersion: '1.82.40',
+        providerVersionConstraint: '1.82.40'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

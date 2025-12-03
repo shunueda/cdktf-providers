@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/infra_service
+// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/infra_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface InfraServiceConfig extends cdktf.TerraformMetaArguments {
   /**
   * The description of the Service (optional).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/infra_service#description InfraService#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/infra_service#description InfraService#description}
   */
   readonly description?: string;
   /**
   * The desired state of the Service. Should either be `"start"` or `"stop"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/infra_service#desired_state InfraService#desired_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/infra_service#desired_state InfraService#desired_state}
   */
   readonly desiredState?: string;
   /**
   * The desired version of the Service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/infra_service#desired_version InfraService#desired_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/infra_service#desired_version InfraService#desired_version}
   */
   readonly desiredVersion?: string;
   /**
   * List of interfaces on which this Service can operate. Note: The list can contain custom interface labels (Example: `["WAN","LAN","label1","label2"]`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/infra_service#interface_labels InfraService#interface_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/infra_service#interface_labels InfraService#interface_labels}
   */
   readonly interfaceLabels?: string[];
   /**
   * The name of the Service (unique).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/infra_service#name InfraService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/infra_service#name InfraService#name}
   */
   readonly name: string;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/infra_service#pool_id InfraService#pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/infra_service#pool_id InfraService#pool_id}
   */
   readonly poolId: string;
   /**
@@ -62,23 +62,23 @@ export interface InfraServiceConfig extends cdktf.TerraformMetaArguments {
   *   | OSPF                  | ospf         | 
   *   <br>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/infra_service#service_type InfraService#service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/infra_service#service_type InfraService#service_type}
   */
   readonly serviceType: string;
   /**
   * Tags associated with this Service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/infra_service#tags InfraService#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/infra_service#tags InfraService#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/infra_service#timeouts InfraService#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/infra_service#timeouts InfraService#timeouts}
   */
   readonly timeouts?: InfraServiceTimeouts;
   /**
   * If set to `true`, the resource will wait for the desired state to be reached before returning. If set to `false`, the resource will return immediately after the request is sent to the API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/infra_service#wait_for_state InfraService#wait_for_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/infra_service#wait_for_state InfraService#wait_for_state}
   */
   readonly waitForState?: boolean | cdktf.IResolvable;
 }
@@ -86,25 +86,25 @@ export interface InfraServiceConfigs {
   /**
   * The current version of the Service deployed on the Host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/infra_service#current_version InfraService#current_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/infra_service#current_version InfraService#current_version}
   */
   readonly currentVersion?: string;
   /**
   * The field to carry any extra data specific to this configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/infra_service#extra_data InfraService#extra_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/infra_service#extra_data InfraService#extra_data}
   */
   readonly extraData?: string;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/infra_service#host_id InfraService#host_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/infra_service#host_id InfraService#host_id}
   */
   readonly hostId?: string;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/infra_service#service_id InfraService#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/infra_service#service_id InfraService#service_id}
   */
   readonly serviceId?: string;
   /**
@@ -126,13 +126,13 @@ export interface InfraServiceConfigs {
   *   | OSPF | ospf | 
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/infra_service#service_type InfraService#service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/infra_service#service_type InfraService#service_type}
   */
   readonly serviceType?: string;
   /**
   * The timestamp of the latest upgrade of the Host-specific Service configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/infra_service#upgraded_at InfraService#upgraded_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/infra_service#upgraded_at InfraService#upgraded_at}
   */
   readonly upgradedAt?: string;
 }
@@ -390,13 +390,13 @@ export interface InfraServiceTimeouts {
   /**
   * [Duration](https://pkg.go.dev/time#ParseDuration) to wait before being considered a timeout during create operations. Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Default is 20m.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/infra_service#create InfraService#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/infra_service#create InfraService#create}
   */
   readonly create?: string;
   /**
   * [Duration](https://pkg.go.dev/time#ParseDuration) to wait before being considered a timeout during update operations. Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Default is 20m.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/infra_service#update InfraService#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/infra_service#update InfraService#update}
   */
   readonly update?: string;
 }
@@ -519,7 +519,7 @@ export class InfraServiceTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/infra_service bloxone_infra_service}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/infra_service bloxone_infra_service}
 */
 export class InfraService extends cdktf.TerraformResource {
 
@@ -535,7 +535,7 @@ export class InfraService extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InfraService resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InfraService to import
-  * @param importFromId The id of the existing InfraService that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/infra_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InfraService that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/infra_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InfraService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -547,7 +547,7 @@ export class InfraService extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/infra_service bloxone_infra_service} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/infra_service bloxone_infra_service} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -558,8 +558,8 @@ export class InfraService extends cdktf.TerraformResource {
       terraformResourceType: 'bloxone_infra_service',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.5.4',
+        providerVersionConstraint: '1.5.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

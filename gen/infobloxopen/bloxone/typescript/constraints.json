@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "bloxone": "1.5.3"
+    "bloxone": "1.5.4"
   }
 }

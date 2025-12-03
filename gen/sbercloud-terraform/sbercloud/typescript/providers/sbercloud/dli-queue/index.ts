@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dli_queue
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dli_queue
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,112 +8,112 @@ import * as cdktf from 'cdktf';
 
 export interface DliQueueConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dli_queue#cu_count DliQueue#cu_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dli_queue#cu_count DliQueue#cu_count}
   */
   readonly cuCount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dli_queue#description DliQueue#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dli_queue#description DliQueue#description}
   */
   readonly description?: string;
   /**
   * The name of the elastic resource pool to which the queue belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dli_queue#elastic_resource_pool_name DliQueue#elastic_resource_pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dli_queue#elastic_resource_pool_name DliQueue#elastic_resource_pool_name}
   */
   readonly elasticResourcePoolName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dli_queue#enterprise_project_id DliQueue#enterprise_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dli_queue#enterprise_project_id DliQueue#enterprise_project_id}
   */
   readonly enterpriseProjectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dli_queue#feature DliQueue#feature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dli_queue#feature DliQueue#feature}
   */
   readonly feature?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dli_queue#id DliQueue#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dli_queue#id DliQueue#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dli_queue#management_subnet_cidr DliQueue#management_subnet_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dli_queue#management_subnet_cidr DliQueue#management_subnet_cidr}
   */
   readonly managementSubnetCidr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dli_queue#name DliQueue#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dli_queue#name DliQueue#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dli_queue#platform DliQueue#platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dli_queue#platform DliQueue#platform}
   */
   readonly platform?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dli_queue#queue_type DliQueue#queue_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dli_queue#queue_type DliQueue#queue_type}
   */
   readonly queueType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dli_queue#region DliQueue#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dli_queue#region DliQueue#region}
   */
   readonly region?: string;
   /**
   * The queue resource mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dli_queue#resource_mode DliQueue#resource_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dli_queue#resource_mode DliQueue#resource_mode}
   */
   readonly resourceMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dli_queue#subnet_cidr DliQueue#subnet_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dli_queue#subnet_cidr DliQueue#subnet_cidr}
   */
   readonly subnetCidr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dli_queue#tags DliQueue#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dli_queue#tags DliQueue#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The CIDR block of the queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dli_queue#vpc_cidr DliQueue#vpc_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dli_queue#vpc_cidr DliQueue#vpc_cidr}
   */
   readonly vpcCidr?: string;
   /**
   * scaling_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dli_queue#scaling_policies DliQueue#scaling_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dli_queue#scaling_policies DliQueue#scaling_policies}
   */
   readonly scalingPolicies?: DliQueueScalingPolicies[] | cdktf.IResolvable;
   /**
   * spark_driver block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dli_queue#spark_driver DliQueue#spark_driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dli_queue#spark_driver DliQueue#spark_driver}
   */
   readonly sparkDriver?: DliQueueSparkDriver;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dli_queue#timeouts DliQueue#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dli_queue#timeouts DliQueue#timeouts}
   */
   readonly timeouts?: DliQueueTimeouts;
 }
 export interface DliQueueScalingPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dli_queue#impact_start_time DliQueue#impact_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dli_queue#impact_start_time DliQueue#impact_start_time}
   */
   readonly impactStartTime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dli_queue#impact_stop_time DliQueue#impact_stop_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dli_queue#impact_stop_time DliQueue#impact_stop_time}
   */
   readonly impactStopTime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dli_queue#max_cu DliQueue#max_cu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dli_queue#max_cu DliQueue#max_cu}
   */
   readonly maxCu: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dli_queue#min_cu DliQueue#min_cu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dli_queue#min_cu DliQueue#min_cu}
   */
   readonly minCu: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dli_queue#priority DliQueue#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dli_queue#priority DliQueue#priority}
   */
   readonly priority: number;
 }
@@ -330,15 +330,15 @@ export class DliQueueScalingPoliciesList extends cdktf.ComplexList {
 }
 export interface DliQueueSparkDriver {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dli_queue#max_concurrent DliQueue#max_concurrent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dli_queue#max_concurrent DliQueue#max_concurrent}
   */
   readonly maxConcurrent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dli_queue#max_instance DliQueue#max_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dli_queue#max_instance DliQueue#max_instance}
   */
   readonly maxInstance?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dli_queue#max_prefetch_instance DliQueue#max_prefetch_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dli_queue#max_prefetch_instance DliQueue#max_prefetch_instance}
   */
   readonly maxPrefetchInstance?: string;
 }
@@ -480,7 +480,7 @@ export class DliQueueSparkDriverOutputReference extends cdktf.ComplexObject {
 }
 export interface DliQueueTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dli_queue#update DliQueue#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dli_queue#update DliQueue#update}
   */
   readonly update?: string;
 }
@@ -574,7 +574,7 @@ export class DliQueueTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dli_queue sbercloud_dli_queue}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dli_queue sbercloud_dli_queue}
 */
 export class DliQueue extends cdktf.TerraformResource {
 
@@ -590,7 +590,7 @@ export class DliQueue extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DliQueue resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DliQueue to import
-  * @param importFromId The id of the existing DliQueue that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dli_queue#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DliQueue that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dli_queue#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DliQueue to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -602,7 +602,7 @@ export class DliQueue extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dli_queue sbercloud_dli_queue} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dli_queue sbercloud_dli_queue} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -613,8 +613,8 @@ export class DliQueue extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_dli_queue',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

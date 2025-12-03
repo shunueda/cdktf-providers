@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/fgs_dependency_version
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/fgs_dependency_version
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface FgsDependencyVersionConfig extends cdktf.TerraformMetaArguments
   /**
   * The description of the custom dependency version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/fgs_dependency_version#description FgsDependencyVersion#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/fgs_dependency_version#description FgsDependencyVersion#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/fgs_dependency_version#id FgsDependencyVersion#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/fgs_dependency_version#id FgsDependencyVersion#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface FgsDependencyVersionConfig extends cdktf.TerraformMetaArguments
   /**
   * The OBS bucket path where the dependency package is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/fgs_dependency_version#link FgsDependencyVersion#link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/fgs_dependency_version#link FgsDependencyVersion#link}
   */
   readonly link: string;
   /**
   * The name of the custom dependency package to which the version belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/fgs_dependency_version#name FgsDependencyVersion#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/fgs_dependency_version#name FgsDependencyVersion#name}
   */
   readonly name: string;
   /**
   * The region where the custom dependency version is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/fgs_dependency_version#region FgsDependencyVersion#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/fgs_dependency_version#region FgsDependencyVersion#region}
   */
   readonly region?: string;
   /**
   * The runtime of the custom dependency package version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/fgs_dependency_version#runtime FgsDependencyVersion#runtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/fgs_dependency_version#runtime FgsDependencyVersion#runtime}
   */
   readonly runtime: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/fgs_dependency_version sbercloud_fgs_dependency_version}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/fgs_dependency_version sbercloud_fgs_dependency_version}
 */
 export class FgsDependencyVersion extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class FgsDependencyVersion extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FgsDependencyVersion resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FgsDependencyVersion to import
-  * @param importFromId The id of the existing FgsDependencyVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/fgs_dependency_version#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FgsDependencyVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/fgs_dependency_version#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FgsDependencyVersion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class FgsDependencyVersion extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/fgs_dependency_version sbercloud_fgs_dependency_version} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/fgs_dependency_version sbercloud_fgs_dependency_version} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class FgsDependencyVersion extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_fgs_dependency_version',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

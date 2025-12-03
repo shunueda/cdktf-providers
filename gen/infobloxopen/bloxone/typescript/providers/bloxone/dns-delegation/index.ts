@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_delegation
+// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_delegation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface DnsDelegationConfig extends cdktf.TerraformMetaArguments {
   /**
   * Optional. Comment for zone delegation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_delegation#comment DnsDelegation#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_delegation#comment DnsDelegation#comment}
   */
   readonly comment?: string;
   /**
   * Required. DNS zone delegation servers. Order is not significant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_delegation#delegation_servers DnsDelegation#delegation_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_delegation#delegation_servers DnsDelegation#delegation_servers}
   */
   readonly delegationServers: DnsDelegationDelegationServers[] | cdktf.IResolvable;
   /**
   * Optional. _true_ to disable object. A disabled object is effectively non-existent when generating resource records.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_delegation#disabled DnsDelegation#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_delegation#disabled DnsDelegation#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Delegation FQDN. The FQDN supplied at creation will be converted to canonical form.  Read-only after creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_delegation#fqdn DnsDelegation#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_delegation#fqdn DnsDelegation#fqdn}
   */
   readonly fqdn: string;
   /**
   * Tagging specifics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_delegation#tags DnsDelegation#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_delegation#tags DnsDelegation#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_delegation#view DnsDelegation#view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_delegation#view DnsDelegation#view}
   */
   readonly view?: string;
 }
@@ -48,13 +48,13 @@ export interface DnsDelegationDelegationServers {
   /**
   * Optional. IP Address of nameserver.  Only required when fqdn of a delegation server falls under delegation fqdn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_delegation#address DnsDelegation#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_delegation#address DnsDelegation#address}
   */
   readonly address?: string;
   /**
   * Required. FQDN of nameserver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_delegation#fqdn DnsDelegation#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_delegation#fqdn DnsDelegation#fqdn}
   */
   readonly fqdn: string;
 }
@@ -201,7 +201,7 @@ export class DnsDelegationDelegationServersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_delegation bloxone_dns_delegation}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_delegation bloxone_dns_delegation}
 */
 export class DnsDelegation extends cdktf.TerraformResource {
 
@@ -217,7 +217,7 @@ export class DnsDelegation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DnsDelegation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DnsDelegation to import
-  * @param importFromId The id of the existing DnsDelegation that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_delegation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DnsDelegation that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_delegation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DnsDelegation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -229,7 +229,7 @@ export class DnsDelegation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_delegation bloxone_dns_delegation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_delegation bloxone_dns_delegation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -240,8 +240,8 @@ export class DnsDelegation extends cdktf.TerraformResource {
       terraformResourceType: 'bloxone_dns_delegation',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.5.4',
+        providerVersionConstraint: '1.5.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

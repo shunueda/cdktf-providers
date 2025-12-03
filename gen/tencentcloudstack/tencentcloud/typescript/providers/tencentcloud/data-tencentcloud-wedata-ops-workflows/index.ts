@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/wedata_ops_workflows
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/wedata_ops_workflows
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataTencentcloudWedataOpsWorkflowsConfig extends cdktf.Terrafor
   /**
   * Creation time, format yyyy-MM-dd HH:mm:ss.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/wedata_ops_workflows#create_time DataTencentcloudWedataOpsWorkflows#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/wedata_ops_workflows#create_time DataTencentcloudWedataOpsWorkflows#create_time}
   */
   readonly createTime?: string;
   /**
   * Creator ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/wedata_ops_workflows#create_user_uin DataTencentcloudWedataOpsWorkflows#create_user_uin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/wedata_ops_workflows#create_user_uin DataTencentcloudWedataOpsWorkflows#create_user_uin}
   */
   readonly createUserUin?: string;
   /**
   * File ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/wedata_ops_workflows#folder_id DataTencentcloudWedataOpsWorkflows#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/wedata_ops_workflows#folder_id DataTencentcloudWedataOpsWorkflows#folder_id}
   */
   readonly folderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/wedata_ops_workflows#id DataTencentcloudWedataOpsWorkflows#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/wedata_ops_workflows#id DataTencentcloudWedataOpsWorkflows#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,55 +35,55 @@ export interface DataTencentcloudWedataOpsWorkflowsConfig extends cdktf.Terrafor
   /**
   * Workflow keyword filter, supports fuzzy matching by workflow ID/name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/wedata_ops_workflows#key_word DataTencentcloudWedataOpsWorkflows#key_word}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/wedata_ops_workflows#key_word DataTencentcloudWedataOpsWorkflows#key_word}
   */
   readonly keyWord?: string;
   /**
   * Update time, format yyyy-MM-dd HH:mm:ss.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/wedata_ops_workflows#modify_time DataTencentcloudWedataOpsWorkflows#modify_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/wedata_ops_workflows#modify_time DataTencentcloudWedataOpsWorkflows#modify_time}
   */
   readonly modifyTime?: string;
   /**
   * Responsible person ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/wedata_ops_workflows#owner_uin DataTencentcloudWedataOpsWorkflows#owner_uin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/wedata_ops_workflows#owner_uin DataTencentcloudWedataOpsWorkflows#owner_uin}
   */
   readonly ownerUin?: string;
   /**
   * Project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/wedata_ops_workflows#project_id DataTencentcloudWedataOpsWorkflows#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/wedata_ops_workflows#project_id DataTencentcloudWedataOpsWorkflows#project_id}
   */
   readonly projectId: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/wedata_ops_workflows#result_output_file DataTencentcloudWedataOpsWorkflows#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/wedata_ops_workflows#result_output_file DataTencentcloudWedataOpsWorkflows#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Sorting field, optional values: `CreateTime`, `TaskCount`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/wedata_ops_workflows#sort_item DataTencentcloudWedataOpsWorkflows#sort_item}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/wedata_ops_workflows#sort_item DataTencentcloudWedataOpsWorkflows#sort_item}
   */
   readonly sortItem?: string;
   /**
   * Sorting order, `DESC` or `ASC`, uppercase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/wedata_ops_workflows#sort_type DataTencentcloudWedataOpsWorkflows#sort_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/wedata_ops_workflows#sort_type DataTencentcloudWedataOpsWorkflows#sort_type}
   */
   readonly sortType?: string;
   /**
   * Workflow status filter: `ALL_RUNNING`: All scheduled, `ALL_FREEZED`: All paused, `ALL_STOPPTED`: All offline, `PART_RUNNING`: Partially scheduled, `ALL_NO_RUNNING`: All unscheduled, `ALL_INVALID`: All invalid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/wedata_ops_workflows#status DataTencentcloudWedataOpsWorkflows#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/wedata_ops_workflows#status DataTencentcloudWedataOpsWorkflows#status}
   */
   readonly status?: string;
   /**
   * Workflow type filter, supported values: `Cycle` or `Manual`. By default, only `Cycle` is queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/wedata_ops_workflows#workflow_type DataTencentcloudWedataOpsWorkflows#workflow_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/wedata_ops_workflows#workflow_type DataTencentcloudWedataOpsWorkflows#workflow_type}
   */
   readonly workflowType?: string;
 }
@@ -229,7 +229,7 @@ export class DataTencentcloudWedataOpsWorkflowsDataList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/wedata_ops_workflows tencentcloud_wedata_ops_workflows}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/wedata_ops_workflows tencentcloud_wedata_ops_workflows}
 */
 export class DataTencentcloudWedataOpsWorkflows extends cdktf.TerraformDataSource {
 
@@ -245,7 +245,7 @@ export class DataTencentcloudWedataOpsWorkflows extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataTencentcloudWedataOpsWorkflows resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudWedataOpsWorkflows to import
-  * @param importFromId The id of the existing DataTencentcloudWedataOpsWorkflows that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/wedata_ops_workflows#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudWedataOpsWorkflows that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/wedata_ops_workflows#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudWedataOpsWorkflows to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -257,7 +257,7 @@ export class DataTencentcloudWedataOpsWorkflows extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/wedata_ops_workflows tencentcloud_wedata_ops_workflows} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/wedata_ops_workflows tencentcloud_wedata_ops_workflows} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -268,8 +268,8 @@ export class DataTencentcloudWedataOpsWorkflows extends cdktf.TerraformDataSourc
       terraformResourceType: 'tencentcloud_wedata_ops_workflows',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.39',
-        providerVersionConstraint: '1.82.39'
+        providerVersion: '1.82.40',
+        providerVersionConstraint: '1.82.40'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

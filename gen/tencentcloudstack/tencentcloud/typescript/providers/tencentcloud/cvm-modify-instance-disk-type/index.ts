@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_modify_instance_disk_type
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_modify_instance_disk_type
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface CvmModifyInstanceDiskTypeConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_modify_instance_disk_type#id CvmModifyInstanceDiskType#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_modify_instance_disk_type#id CvmModifyInstanceDiskType#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface CvmModifyInstanceDiskTypeConfig extends cdktf.TerraformMetaArgu
   /**
   * Instance ID. To obtain the instance IDs, you can call DescribeInstances and look for InstanceId in the response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_modify_instance_disk_type#instance_id CvmModifyInstanceDiskType#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_modify_instance_disk_type#instance_id CvmModifyInstanceDiskType#instance_id}
   */
   readonly instanceId: string;
   /**
   * data_disks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_modify_instance_disk_type#data_disks CvmModifyInstanceDiskType#data_disks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_modify_instance_disk_type#data_disks CvmModifyInstanceDiskType#data_disks}
   */
   readonly dataDisks?: CvmModifyInstanceDiskTypeDataDisks[] | cdktf.IResolvable;
   /**
   * system_disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_modify_instance_disk_type#system_disk CvmModifyInstanceDiskType#system_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_modify_instance_disk_type#system_disk CvmModifyInstanceDiskType#system_disk}
   */
   readonly systemDisk?: CvmModifyInstanceDiskTypeSystemDisk;
 }
@@ -37,7 +37,7 @@ export interface CvmModifyInstanceDiskTypeDataDisks {
   /**
   * ID of the dedicated cluster to which the instance belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_modify_instance_disk_type#cdc_id CvmModifyInstanceDiskType#cdc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_modify_instance_disk_type#cdc_id CvmModifyInstanceDiskType#cdc_id}
   */
   readonly cdcId?: string;
   /**
@@ -46,19 +46,19 @@ export interface CvmModifyInstanceDiskTypeDataDisks {
   * - FALSE: retain the data disk when its CVM is terminated.
   * Default value: TRUE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_modify_instance_disk_type#delete_with_instance CvmModifyInstanceDiskType#delete_with_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_modify_instance_disk_type#delete_with_instance CvmModifyInstanceDiskType#delete_with_instance}
   */
   readonly deleteWithInstance?: boolean | cdktf.IResolvable;
   /**
   * Data disk ID. Note that it's not available for LOCAL_BASIC and LOCAL_SSD disks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_modify_instance_disk_type#disk_id CvmModifyInstanceDiskType#disk_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_modify_instance_disk_type#disk_id CvmModifyInstanceDiskType#disk_id}
   */
   readonly diskId?: string;
   /**
   * Data disk size (in GB). The minimum adjustment increment is 10 GB. The value range varies by data disk type. The default value is 0, indicating that no data disk is purchased. For more information, see the product documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_modify_instance_disk_type#disk_size CvmModifyInstanceDiskType#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_modify_instance_disk_type#disk_size CvmModifyInstanceDiskType#disk_size}
   */
   readonly diskSize: number;
   /**
@@ -75,7 +75,7 @@ export interface CvmModifyInstanceDiskTypeDataDisks {
   * - CLOUD_BSSD: general-purpose SSD cloud disk;
   * Default value: LOCAL_BASIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_modify_instance_disk_type#disk_type CvmModifyInstanceDiskType#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_modify_instance_disk_type#disk_type CvmModifyInstanceDiskType#disk_type}
   */
   readonly diskType?: string;
   /**
@@ -84,25 +84,25 @@ export interface CvmModifyInstanceDiskTypeDataDisks {
   * - FALSE: not encrypted
   * Default value: FALSE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_modify_instance_disk_type#encrypt CvmModifyInstanceDiskType#encrypt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_modify_instance_disk_type#encrypt CvmModifyInstanceDiskType#encrypt}
   */
   readonly encrypt?: boolean | cdktf.IResolvable;
   /**
   * ID of the custom CMK in the format of UUID or “kms-abcd1234”. This parameter is used to encrypt cloud disks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_modify_instance_disk_type#kms_key_id CvmModifyInstanceDiskType#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_modify_instance_disk_type#kms_key_id CvmModifyInstanceDiskType#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * Data disk snapshot ID. The size of the selected data disk snapshot must be smaller than that of the data disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_modify_instance_disk_type#snapshot_id CvmModifyInstanceDiskType#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_modify_instance_disk_type#snapshot_id CvmModifyInstanceDiskType#snapshot_id}
   */
   readonly snapshotId?: string;
   /**
   * Cloud disk performance, in MB/s.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_modify_instance_disk_type#throughput_performance CvmModifyInstanceDiskType#throughput_performance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_modify_instance_disk_type#throughput_performance CvmModifyInstanceDiskType#throughput_performance}
   */
   readonly throughputPerformance?: number;
 }
@@ -449,19 +449,19 @@ export interface CvmModifyInstanceDiskTypeSystemDisk {
   /**
   * ID of the dedicated cluster to which the instance belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_modify_instance_disk_type#cdc_id CvmModifyInstanceDiskType#cdc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_modify_instance_disk_type#cdc_id CvmModifyInstanceDiskType#cdc_id}
   */
   readonly cdcId?: string;
   /**
   * System disk ID. System disks whose type is LOCAL_BASIC or LOCAL_SSD do not have an ID and do not support this parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_modify_instance_disk_type#disk_id CvmModifyInstanceDiskType#disk_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_modify_instance_disk_type#disk_id CvmModifyInstanceDiskType#disk_id}
   */
   readonly diskId?: string;
   /**
   * System disk size; unit: GB; default value: 50 GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_modify_instance_disk_type#disk_size CvmModifyInstanceDiskType#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_modify_instance_disk_type#disk_size CvmModifyInstanceDiskType#disk_size}
   */
   readonly diskSize?: number;
   /**
@@ -473,7 +473,7 @@ export interface CvmModifyInstanceDiskTypeSystemDisk {
   * - CLOUD_BSSD: Balanced SSD
   * The disk currently in stock will be used by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_modify_instance_disk_type#disk_type CvmModifyInstanceDiskType#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_modify_instance_disk_type#disk_type CvmModifyInstanceDiskType#disk_type}
   */
   readonly diskType?: string;
 }
@@ -644,7 +644,7 @@ export class CvmModifyInstanceDiskTypeSystemDiskOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_modify_instance_disk_type tencentcloud_cvm_modify_instance_disk_type}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_modify_instance_disk_type tencentcloud_cvm_modify_instance_disk_type}
 */
 export class CvmModifyInstanceDiskType extends cdktf.TerraformResource {
 
@@ -660,7 +660,7 @@ export class CvmModifyInstanceDiskType extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CvmModifyInstanceDiskType resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CvmModifyInstanceDiskType to import
-  * @param importFromId The id of the existing CvmModifyInstanceDiskType that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_modify_instance_disk_type#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CvmModifyInstanceDiskType that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_modify_instance_disk_type#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CvmModifyInstanceDiskType to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -672,7 +672,7 @@ export class CvmModifyInstanceDiskType extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_modify_instance_disk_type tencentcloud_cvm_modify_instance_disk_type} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_modify_instance_disk_type tencentcloud_cvm_modify_instance_disk_type} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -683,8 +683,8 @@ export class CvmModifyInstanceDiskType extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cvm_modify_instance_disk_type',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.39',
-        providerVersionConstraint: '1.82.39'
+        providerVersion: '1.82.40',
+        providerVersionConstraint: '1.82.40'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

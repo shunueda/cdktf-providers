@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api_action
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api_action
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,27 +10,27 @@ export interface ApigApiActionConfig extends cdktf.TerraformMetaArguments {
   /**
   * The operation on the API will be performed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api_action#action ApigApiAction#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api_action#action ApigApiAction#action}
   */
   readonly action: string;
   /**
   * The ID of the API to be published.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api_action#api_id ApigApiAction#api_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api_action#api_id ApigApiAction#api_id}
   */
   readonly apiId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api_action#enable_force_new ApigApiAction#enable_force_new}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api_action#enable_force_new ApigApiAction#enable_force_new}
   */
   readonly enableForceNew?: string;
   /**
   * The ID of the environment to which the API will be published.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api_action#env_id ApigApiAction#env_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api_action#env_id ApigApiAction#env_id}
   */
   readonly envId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api_action#id ApigApiAction#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api_action#id ApigApiAction#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -39,25 +39,25 @@ export interface ApigApiActionConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the dedicated instance to which the API belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api_action#instance_id ApigApiAction#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api_action#instance_id ApigApiAction#instance_id}
   */
   readonly instanceId: string;
   /**
   * The region where the APIG instance to which the API belongs is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api_action#region ApigApiAction#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api_action#region ApigApiAction#region}
   */
   readonly region?: string;
   /**
   * The description of the publish action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api_action#remark ApigApiAction#remark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api_action#remark ApigApiAction#remark}
   */
   readonly remark?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api_action sbercloud_apig_api_action}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api_action sbercloud_apig_api_action}
 */
 export class ApigApiAction extends cdktf.TerraformResource {
 
@@ -73,7 +73,7 @@ export class ApigApiAction extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApigApiAction resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApigApiAction to import
-  * @param importFromId The id of the existing ApigApiAction that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api_action#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApigApiAction that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api_action#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApigApiAction to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -85,7 +85,7 @@ export class ApigApiAction extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api_action sbercloud_apig_api_action} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api_action sbercloud_apig_api_action} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -96,8 +96,8 @@ export class ApigApiAction extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_apig_api_action',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

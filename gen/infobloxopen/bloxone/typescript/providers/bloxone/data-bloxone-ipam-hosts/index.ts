@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_hosts
+// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_hosts
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataBloxoneIpamHostsConfig extends cdktf.TerraformMetaArguments
   /**
   * Filter are used to return a more specific list of results. Filters can be used to match resources by specific attributes, e.g. name. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_hosts#filters DataBloxoneIpamHosts#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_hosts#filters DataBloxoneIpamHosts#filters}
   */
   readonly filters?: { [key: string]: string };
   /**
   * Tag Filters are used to return a more specific list of results filtered by tags. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_hosts#tag_filters DataBloxoneIpamHosts#tag_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_hosts#tag_filters DataBloxoneIpamHosts#tag_filters}
   */
   readonly tagFilters?: { [key: string]: string };
 }
@@ -30,25 +30,25 @@ export interface DataBloxoneIpamHostsResultsAddresses {
   *     * If the _Address_ already exists and is not pointing to any _Host_, it is linked to the _Host_.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_hosts#address DataBloxoneIpamHosts#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_hosts#address DataBloxoneIpamHosts#address}
   */
   readonly address?: string;
   /**
   * The resource identifier for the network container where the next available address should be generated for the host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_hosts#next_available_id DataBloxoneIpamHosts#next_available_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_hosts#next_available_id DataBloxoneIpamHosts#next_available_id}
   */
   readonly nextAvailableId?: string;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_hosts#ref DataBloxoneIpamHosts#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_hosts#ref DataBloxoneIpamHosts#ref}
   */
   readonly ref?: string;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_hosts#space DataBloxoneIpamHosts#space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_hosts#space DataBloxoneIpamHosts#space}
   */
   readonly space?: string;
 }
@@ -253,25 +253,25 @@ export interface DataBloxoneIpamHostsResultsHostNames {
   /**
   * When _true_, the name is treated as an alias.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_hosts#alias DataBloxoneIpamHosts#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_hosts#alias DataBloxoneIpamHosts#alias}
   */
   readonly alias?: boolean | cdktf.IResolvable;
   /**
   * A name for the host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_hosts#name DataBloxoneIpamHosts#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_hosts#name DataBloxoneIpamHosts#name}
   */
   readonly name: string;
   /**
   * When _true_, the name field is treated as primary name. There must be one and only one primary name in the list of host names. The primary name will be treated as the canonical name for all the aliases. PTR record will be generated only for the primary name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_hosts#primary_name DataBloxoneIpamHosts#primary_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_hosts#primary_name DataBloxoneIpamHosts#primary_name}
   */
   readonly primaryName?: boolean | cdktf.IResolvable;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_hosts#zone DataBloxoneIpamHosts#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_hosts#zone DataBloxoneIpamHosts#zone}
   */
   readonly zone: string;
 }
@@ -470,37 +470,37 @@ export interface DataBloxoneIpamHostsResults {
   /**
   * The list of all addresses associated with the IPAM host, which may be in different IP spaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_hosts#addresses DataBloxoneIpamHosts#addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_hosts#addresses DataBloxoneIpamHosts#addresses}
   */
   readonly addresses?: DataBloxoneIpamHostsResultsAddresses[] | cdktf.IResolvable;
   /**
   * This flag specifies if resource records have to be auto generated for the host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_hosts#auto_generate_records DataBloxoneIpamHosts#auto_generate_records}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_hosts#auto_generate_records DataBloxoneIpamHosts#auto_generate_records}
   */
   readonly autoGenerateRecords?: boolean | cdktf.IResolvable;
   /**
   * The description for the IPAM host. May contain 0 to 1024 characters. Can include UTF-8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_hosts#comment DataBloxoneIpamHosts#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_hosts#comment DataBloxoneIpamHosts#comment}
   */
   readonly comment?: string;
   /**
   * The name records to be generated for the host.  This field is required if _auto_generate_records_ is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_hosts#host_names DataBloxoneIpamHosts#host_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_hosts#host_names DataBloxoneIpamHosts#host_names}
   */
   readonly hostNames?: DataBloxoneIpamHostsResultsHostNames[] | cdktf.IResolvable;
   /**
   * The name of the IPAM host. Must contain 1 to 256 characters. Can include UTF-8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_hosts#name DataBloxoneIpamHosts#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_hosts#name DataBloxoneIpamHosts#name}
   */
   readonly name: string;
   /**
   * The tags for the IPAM host in JSON format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_hosts#tags DataBloxoneIpamHosts#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_hosts#tags DataBloxoneIpamHosts#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -769,7 +769,7 @@ export class DataBloxoneIpamHostsResultsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_hosts bloxone_ipam_hosts}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_hosts bloxone_ipam_hosts}
 */
 export class DataBloxoneIpamHosts extends cdktf.TerraformDataSource {
 
@@ -785,7 +785,7 @@ export class DataBloxoneIpamHosts extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataBloxoneIpamHosts resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataBloxoneIpamHosts to import
-  * @param importFromId The id of the existing DataBloxoneIpamHosts that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_hosts#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataBloxoneIpamHosts that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_hosts#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataBloxoneIpamHosts to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -797,7 +797,7 @@ export class DataBloxoneIpamHosts extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_hosts bloxone_ipam_hosts} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_hosts bloxone_ipam_hosts} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -808,8 +808,8 @@ export class DataBloxoneIpamHosts extends cdktf.TerraformDataSource {
       terraformResourceType: 'bloxone_ipam_hosts',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.5.4',
+        providerVersionConstraint: '1.5.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

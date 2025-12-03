@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/warehouse_source
+// https://registry.terraform.io/providers/betterstackhq/logtail/0.7.3/docs/resources/warehouse_source
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,61 +12,61 @@ export interface WarehouseSourceConfig extends cdktf.TerraformMetaArguments {
   * Possible values include `us_east`, `us_west`, `germany`, `singapore`, or a specific cluster name like `us-east-9`.
   * The actual region created may differ slightly due to dynamic load balancing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/warehouse_source#data_region WarehouseSource#data_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.3/docs/resources/warehouse_source#data_region WarehouseSource#data_region}
   */
   readonly dataRegion?: string;
   /**
   * The retention period for event data in days. Default is 9999999 days (effectively infinite).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/warehouse_source#events_retention WarehouseSource#events_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.3/docs/resources/warehouse_source#events_retention WarehouseSource#events_retention}
   */
   readonly eventsRetention?: number;
   /**
   * This property allows you to temporarily pause data ingesting for this source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/warehouse_source#ingesting_paused WarehouseSource#ingesting_paused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.3/docs/resources/warehouse_source#ingesting_paused WarehouseSource#ingesting_paused}
   */
   readonly ingestingPaused?: boolean | cdktf.IResolvable;
   /**
   * A display template for live tail messages. Default is `"{status} {message}"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/warehouse_source#live_tail_pattern WarehouseSource#live_tail_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.3/docs/resources/warehouse_source#live_tail_pattern WarehouseSource#live_tail_pattern}
   */
   readonly liveTailPattern?: string;
   /**
   * The name of the new Warehouse source. Can contain letters, numbers, spaces, and special characters. Source names do not need to be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/warehouse_source#name WarehouseSource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.3/docs/resources/warehouse_source#name WarehouseSource#name}
   */
   readonly name: string;
   /**
   * Used to specify the team the resource should be created in when using global tokens.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/warehouse_source#team_name WarehouseSource#team_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.3/docs/resources/warehouse_source#team_name WarehouseSource#team_name}
   */
   readonly teamName?: string;
   /**
   * The retention period for time series data in days. Default is 9999999 days (effectively infinite).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/warehouse_source#time_series_retention WarehouseSource#time_series_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.3/docs/resources/warehouse_source#time_series_retention WarehouseSource#time_series_retention}
   */
   readonly timeSeriesRetention?: number;
   /**
   * A VRL program for real-time data transformation. Read more about [VRL transformations](https://betterstack.com/docs/logs/using-logtail/transforming-ingested-data/logs-vrl/).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/warehouse_source#vrl_transformation WarehouseSource#vrl_transformation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.3/docs/resources/warehouse_source#vrl_transformation WarehouseSource#vrl_transformation}
   */
   readonly vrlTransformation?: string;
   /**
   * The ID of the warehouse source group this source belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/warehouse_source#warehouse_source_group_id WarehouseSource#warehouse_source_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.3/docs/resources/warehouse_source#warehouse_source_group_id WarehouseSource#warehouse_source_group_id}
   */
   readonly warehouseSourceGroupId: number;
   /**
   * custom_bucket block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/warehouse_source#custom_bucket WarehouseSource#custom_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.3/docs/resources/warehouse_source#custom_bucket WarehouseSource#custom_bucket}
   */
   readonly customBucket?: WarehouseSourceCustomBucket;
 }
@@ -74,31 +74,31 @@ export interface WarehouseSourceCustomBucket {
   /**
   * Access key ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/warehouse_source#access_key_id WarehouseSource#access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.3/docs/resources/warehouse_source#access_key_id WarehouseSource#access_key_id}
   */
   readonly accessKeyId: string;
   /**
   * Bucket endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/warehouse_source#endpoint WarehouseSource#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.3/docs/resources/warehouse_source#endpoint WarehouseSource#endpoint}
   */
   readonly endpoint: string;
   /**
   * Whether we should keep data in the bucket after the retention period.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/warehouse_source#keep_data_after_retention WarehouseSource#keep_data_after_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.3/docs/resources/warehouse_source#keep_data_after_retention WarehouseSource#keep_data_after_retention}
   */
   readonly keepDataAfterRetention?: boolean | cdktf.IResolvable;
   /**
   * Bucket name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/warehouse_source#name WarehouseSource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.3/docs/resources/warehouse_source#name WarehouseSource#name}
   */
   readonly name: string;
   /**
   * Secret access key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/warehouse_source#secret_access_key WarehouseSource#secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.3/docs/resources/warehouse_source#secret_access_key WarehouseSource#secret_access_key}
   */
   readonly secretAccessKey: string;
 }
@@ -286,7 +286,7 @@ export class WarehouseSourceCustomBucketOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/warehouse_source logtail_warehouse_source}
+* Represents a {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.3/docs/resources/warehouse_source logtail_warehouse_source}
 */
 export class WarehouseSource extends cdktf.TerraformResource {
 
@@ -302,7 +302,7 @@ export class WarehouseSource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WarehouseSource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WarehouseSource to import
-  * @param importFromId The id of the existing WarehouseSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/warehouse_source#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WarehouseSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.3/docs/resources/warehouse_source#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WarehouseSource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -314,7 +314,7 @@ export class WarehouseSource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/warehouse_source logtail_warehouse_source} Resource
+  * Create a new {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.3/docs/resources/warehouse_source logtail_warehouse_source} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -325,8 +325,8 @@ export class WarehouseSource extends cdktf.TerraformResource {
       terraformResourceType: 'logtail_warehouse_source',
       terraformGeneratorMetadata: {
         providerName: 'logtail',
-        providerVersion: '0.7.2',
-        providerVersionConstraint: '0.7.2'
+        providerVersion: '0.7.3',
+        providerVersionConstraint: '0.7.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

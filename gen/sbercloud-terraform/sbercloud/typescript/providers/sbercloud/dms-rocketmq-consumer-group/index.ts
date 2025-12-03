@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_consumer_group
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_consumer_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface DmsRocketmqConsumerGroupConfig extends cdktf.TerraformMetaArgum
   /**
   * Specifies whether to broadcast of the consumer group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_consumer_group#broadcast DmsRocketmqConsumerGroup#broadcast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_consumer_group#broadcast DmsRocketmqConsumerGroup#broadcast}
   */
   readonly broadcast?: boolean | cdktf.IResolvable;
   /**
   * Specifies the list of associated brokers of the consumer group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_consumer_group#brokers DmsRocketmqConsumerGroup#brokers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_consumer_group#brokers DmsRocketmqConsumerGroup#brokers}
   */
   readonly brokers?: string[];
   /**
   * Specifies whether to consume orderly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_consumer_group#consume_orderly DmsRocketmqConsumerGroup#consume_orderly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_consumer_group#consume_orderly DmsRocketmqConsumerGroup#consume_orderly}
   */
   readonly consumeOrderly?: boolean | cdktf.IResolvable;
   /**
   * Specifies the description of the consumer group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_consumer_group#description DmsRocketmqConsumerGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_consumer_group#description DmsRocketmqConsumerGroup#description}
   */
   readonly description?: string;
   /**
   * Specifies the consumer group is enabled or not. Default to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_consumer_group#enabled DmsRocketmqConsumerGroup#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_consumer_group#enabled DmsRocketmqConsumerGroup#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_consumer_group#id DmsRocketmqConsumerGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_consumer_group#id DmsRocketmqConsumerGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,29 +47,29 @@ export interface DmsRocketmqConsumerGroupConfig extends cdktf.TerraformMetaArgum
   /**
   * Specifies the ID of the rocketMQ instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_consumer_group#instance_id DmsRocketmqConsumerGroup#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_consumer_group#instance_id DmsRocketmqConsumerGroup#instance_id}
   */
   readonly instanceId: string;
   /**
   * Specifies the name of the consumer group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_consumer_group#name DmsRocketmqConsumerGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_consumer_group#name DmsRocketmqConsumerGroup#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_consumer_group#region DmsRocketmqConsumerGroup#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_consumer_group#region DmsRocketmqConsumerGroup#region}
   */
   readonly region?: string;
   /**
   * Specifies the maximum number of retry times.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_consumer_group#retry_max_times DmsRocketmqConsumerGroup#retry_max_times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_consumer_group#retry_max_times DmsRocketmqConsumerGroup#retry_max_times}
   */
   readonly retryMaxTimes: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_consumer_group sbercloud_dms_rocketmq_consumer_group}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_consumer_group sbercloud_dms_rocketmq_consumer_group}
 */
 export class DmsRocketmqConsumerGroup extends cdktf.TerraformResource {
 
@@ -85,7 +85,7 @@ export class DmsRocketmqConsumerGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DmsRocketmqConsumerGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DmsRocketmqConsumerGroup to import
-  * @param importFromId The id of the existing DmsRocketmqConsumerGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_consumer_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DmsRocketmqConsumerGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_consumer_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DmsRocketmqConsumerGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -97,7 +97,7 @@ export class DmsRocketmqConsumerGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_consumer_group sbercloud_dms_rocketmq_consumer_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_consumer_group sbercloud_dms_rocketmq_consumer_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -108,8 +108,8 @@ export class DmsRocketmqConsumerGroup extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_dms_rocketmq_consumer_group',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

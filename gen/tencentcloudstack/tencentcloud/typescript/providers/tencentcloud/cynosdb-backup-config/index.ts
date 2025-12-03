@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cynosdb_backup_config
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_backup_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface CynosdbBackupConfigConfig extends cdktf.TerraformMetaArguments 
   /**
   * Full backup start time. Value range: [0-24*3600]. For example, 0:00 AM, 1:00 AM, and 2:00 AM are represented by 0, 3600, and 7200, respectively.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cynosdb_backup_config#backup_time_beg CynosdbBackupConfig#backup_time_beg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_backup_config#backup_time_beg CynosdbBackupConfig#backup_time_beg}
   */
   readonly backupTimeBeg: number;
   /**
   * Full backup end time. Value range: [0-24*3600]. For example, 0:00 AM, 1:00 AM, and 2:00 AM are represented by 0, 3600, and 7200, respectively.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cynosdb_backup_config#backup_time_end CynosdbBackupConfig#backup_time_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_backup_config#backup_time_end CynosdbBackupConfig#backup_time_end}
   */
   readonly backupTimeEnd: number;
   /**
   * Cluster ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cynosdb_backup_config#cluster_id CynosdbBackupConfig#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_backup_config#cluster_id CynosdbBackupConfig#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cynosdb_backup_config#id CynosdbBackupConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_backup_config#id CynosdbBackupConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,13 +35,13 @@ export interface CynosdbBackupConfigConfig extends cdktf.TerraformMetaArguments 
   /**
   * Backup retention period in seconds. Backups will be cleared after this period elapses. 7 days is represented by 3600*24*7 = 604800. Maximum value: 158112000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cynosdb_backup_config#reserve_duration CynosdbBackupConfig#reserve_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_backup_config#reserve_duration CynosdbBackupConfig#reserve_duration}
   */
   readonly reserveDuration: number;
   /**
   * logic_backup_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cynosdb_backup_config#logic_backup_config CynosdbBackupConfig#logic_backup_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_backup_config#logic_backup_config CynosdbBackupConfig#logic_backup_config}
   */
   readonly logicBackupConfig?: CynosdbBackupConfigLogicBackupConfig;
 }
@@ -49,37 +49,37 @@ export interface CynosdbBackupConfigLogicBackupConfig {
   /**
   * Whether to enable automatic logical backup. Value: `ON`, `OFF`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cynosdb_backup_config#logic_backup_enable CynosdbBackupConfig#logic_backup_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_backup_config#logic_backup_enable CynosdbBackupConfig#logic_backup_enable}
   */
   readonly logicBackupEnable?: string;
   /**
   * Automatic logical backup start time. When `logic_backup_enable` is `OFF`, it must be `0` or not entered. Example value: 2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cynosdb_backup_config#logic_backup_time_beg CynosdbBackupConfig#logic_backup_time_beg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_backup_config#logic_backup_time_beg CynosdbBackupConfig#logic_backup_time_beg}
   */
   readonly logicBackupTimeBeg?: number;
   /**
   * Automatic logical backup end time. When `logic_backup_enable` is `OFF`, it must be `0` or not entered. Example value: 6.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cynosdb_backup_config#logic_backup_time_end CynosdbBackupConfig#logic_backup_time_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_backup_config#logic_backup_time_end CynosdbBackupConfig#logic_backup_time_end}
   */
   readonly logicBackupTimeEnd?: number;
   /**
   * Logical backup across regions. Example value: ["ap-guangzhou"]. When `logic_backup_enable` is `OFF`, it must be `[]` or not entered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cynosdb_backup_config#logic_cross_regions CynosdbBackupConfig#logic_cross_regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_backup_config#logic_cross_regions CynosdbBackupConfig#logic_cross_regions}
   */
   readonly logicCrossRegions?: string[];
   /**
   * Whether to enable cross-region logical backup. Cannot be input when `logic_backup_enable` is `OFF`. When `logic_backup_enable` is `ON`, `logic_cross_regions_enable` setting `ON` will take effect. Value: `ON`, `OFF`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cynosdb_backup_config#logic_cross_regions_enable CynosdbBackupConfig#logic_cross_regions_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_backup_config#logic_cross_regions_enable CynosdbBackupConfig#logic_cross_regions_enable}
   */
   readonly logicCrossRegionsEnable?: string;
   /**
   * Automatic logical backup retention period. When `logic_backup_enable` is `OFF`, it must be `0` or not entered. Value range: [259200,158112000]. `logic_backup_enable` is `OFF`, `logic_reserve_duration` cannot be set when creating.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cynosdb_backup_config#logic_reserve_duration CynosdbBackupConfig#logic_reserve_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_backup_config#logic_reserve_duration CynosdbBackupConfig#logic_reserve_duration}
   */
   readonly logicReserveDuration?: number;
 }
@@ -308,7 +308,7 @@ export class CynosdbBackupConfigLogicBackupConfigOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cynosdb_backup_config tencentcloud_cynosdb_backup_config}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_backup_config tencentcloud_cynosdb_backup_config}
 */
 export class CynosdbBackupConfig extends cdktf.TerraformResource {
 
@@ -324,7 +324,7 @@ export class CynosdbBackupConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CynosdbBackupConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CynosdbBackupConfig to import
-  * @param importFromId The id of the existing CynosdbBackupConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cynosdb_backup_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CynosdbBackupConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_backup_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CynosdbBackupConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -336,7 +336,7 @@ export class CynosdbBackupConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cynosdb_backup_config tencentcloud_cynosdb_backup_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_backup_config tencentcloud_cynosdb_backup_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -347,8 +347,8 @@ export class CynosdbBackupConfig extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cynosdb_backup_config',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.39',
-        providerVersionConstraint: '1.82.39'
+        providerVersion: '1.82.40',
+        providerVersionConstraint: '1.82.40'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api_batch_action
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api_batch_action
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,33 +10,33 @@ export interface ApigApiBatchActionConfig extends cdktf.TerraformMetaArguments {
   /**
   * The action to perform on the APIs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api_batch_action#action ApigApiBatchAction#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api_batch_action#action ApigApiBatchAction#action}
   */
   readonly action: string;
   /**
   * The list of API IDs to perform the action on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api_batch_action#apis ApigApiBatchAction#apis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api_batch_action#apis ApigApiBatchAction#apis}
   */
   readonly apis?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api_batch_action#enable_force_new ApigApiBatchAction#enable_force_new}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api_batch_action#enable_force_new ApigApiBatchAction#enable_force_new}
   */
   readonly enableForceNew?: string;
   /**
   * The ID of the environment where the action will be performed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api_batch_action#env_id ApigApiBatchAction#env_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api_batch_action#env_id ApigApiBatchAction#env_id}
   */
   readonly envId: string;
   /**
   * The ID of the API group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api_batch_action#group_id ApigApiBatchAction#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api_batch_action#group_id ApigApiBatchAction#group_id}
   */
   readonly groupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api_batch_action#id ApigApiBatchAction#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api_batch_action#id ApigApiBatchAction#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -45,25 +45,25 @@ export interface ApigApiBatchActionConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the dedicated instance to which the APIs belong.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api_batch_action#instance_id ApigApiBatchAction#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api_batch_action#instance_id ApigApiBatchAction#instance_id}
   */
   readonly instanceId: string;
   /**
   * The region where the APIG instance to which the API belongs is located
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api_batch_action#region ApigApiBatchAction#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api_batch_action#region ApigApiBatchAction#region}
   */
   readonly region?: string;
   /**
   * The remark for the batch operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api_batch_action#remark ApigApiBatchAction#remark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api_batch_action#remark ApigApiBatchAction#remark}
   */
   readonly remark?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api_batch_action sbercloud_apig_api_batch_action}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api_batch_action sbercloud_apig_api_batch_action}
 */
 export class ApigApiBatchAction extends cdktf.TerraformResource {
 
@@ -79,7 +79,7 @@ export class ApigApiBatchAction extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApigApiBatchAction resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApigApiBatchAction to import
-  * @param importFromId The id of the existing ApigApiBatchAction that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api_batch_action#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApigApiBatchAction that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api_batch_action#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApigApiBatchAction to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -91,7 +91,7 @@ export class ApigApiBatchAction extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api_batch_action sbercloud_apig_api_batch_action} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api_batch_action sbercloud_apig_api_batch_action} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -102,8 +102,8 @@ export class ApigApiBatchAction extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_apig_api_batch_action',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

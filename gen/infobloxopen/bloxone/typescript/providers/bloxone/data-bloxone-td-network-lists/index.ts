@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_network_lists
+// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_network_lists
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataBloxoneTdNetworkListsConfig extends cdktf.TerraformMetaArgu
   /**
   * Filter are used to return a more specific list of results. Filters can be used to match resources by specific attributes, e.g. name. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_network_lists#filters DataBloxoneTdNetworkLists#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_network_lists#filters DataBloxoneTdNetworkLists#filters}
   */
   readonly filters?: { [key: string]: string };
 }
@@ -18,19 +18,19 @@ export interface DataBloxoneTdNetworkListsResults {
   /**
   * The brief description for the network list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_network_lists#description DataBloxoneTdNetworkLists#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_network_lists#description DataBloxoneTdNetworkLists#description}
   */
   readonly description?: string;
   /**
   * The list of networks' CIDRs that are subject for malicious attacks protection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_network_lists#items DataBloxoneTdNetworkLists#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_network_lists#items DataBloxoneTdNetworkLists#items}
   */
   readonly items: string[];
   /**
   * The name of the network list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_network_lists#name DataBloxoneTdNetworkLists#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_network_lists#name DataBloxoneTdNetworkLists#name}
   */
   readonly name: string;
 }
@@ -208,7 +208,7 @@ export class DataBloxoneTdNetworkListsResultsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_network_lists bloxone_td_network_lists}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_network_lists bloxone_td_network_lists}
 */
 export class DataBloxoneTdNetworkLists extends cdktf.TerraformDataSource {
 
@@ -224,7 +224,7 @@ export class DataBloxoneTdNetworkLists extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataBloxoneTdNetworkLists resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataBloxoneTdNetworkLists to import
-  * @param importFromId The id of the existing DataBloxoneTdNetworkLists that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_network_lists#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataBloxoneTdNetworkLists that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_network_lists#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataBloxoneTdNetworkLists to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -236,7 +236,7 @@ export class DataBloxoneTdNetworkLists extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_network_lists bloxone_td_network_lists} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_network_lists bloxone_td_network_lists} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -247,8 +247,8 @@ export class DataBloxoneTdNetworkLists extends cdktf.TerraformDataSource {
       terraformResourceType: 'bloxone_td_network_lists',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.5.4',
+        providerVersionConstraint: '1.5.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

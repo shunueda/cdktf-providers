@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/kms_keys
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/kms_keys
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudKmsKeysConfig extends cdktf.TerraformMetaArgume
   /**
   * The HSM cluster ID corresponding to KMS Advanced Edition (only valid for KMS Exclusive/Managed Edition service instances).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/kms_keys#hsm_cluster_id DataTencentcloudKmsKeys#hsm_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/kms_keys#hsm_cluster_id DataTencentcloudKmsKeys#hsm_cluster_id}
   */
   readonly hsmClusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/kms_keys#id DataTencentcloudKmsKeys#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/kms_keys#id DataTencentcloudKmsKeys#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,49 +23,49 @@ export interface DataTencentcloudKmsKeysConfig extends cdktf.TerraformMetaArgume
   /**
   * Filter by state of CMK. `0` - all CMKs are queried, `1` - only Enabled CMKs are queried, `2` - only Disabled CMKs are queried, `3` - only PendingDelete CMKs are queried, `4` - only PendingImport CMKs are queried, `5` - only Archived CMKs are queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/kms_keys#key_state DataTencentcloudKmsKeys#key_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/kms_keys#key_state DataTencentcloudKmsKeys#key_state}
   */
   readonly keyState?: number;
   /**
   * Filter by usage of CMK. Available values include `ALL`, `ENCRYPT_DECRYPT`, `ASYMMETRIC_DECRYPT_RSA_2048`, `ASYMMETRIC_DECRYPT_SM2`, `ASYMMETRIC_SIGN_VERIFY_SM2`, `ASYMMETRIC_SIGN_VERIFY_RSA_2048`, `ASYMMETRIC_SIGN_VERIFY_ECC`. Default value is `ENCRYPT_DECRYPT`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/kms_keys#key_usage DataTencentcloudKmsKeys#key_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/kms_keys#key_usage DataTencentcloudKmsKeys#key_usage}
   */
   readonly keyUsage?: string;
   /**
   * Order to sort the CMK create time. `0` - desc, `1` - asc. Default value is `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/kms_keys#order_type DataTencentcloudKmsKeys#order_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/kms_keys#order_type DataTencentcloudKmsKeys#order_type}
   */
   readonly orderType?: number;
   /**
   * Filter by origin of CMK. `TENCENT_KMS` - CMK created by KMS, `EXTERNAL` - CMK imported by user, `ALL` - all CMKs. Default value is `ALL`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/kms_keys#origin DataTencentcloudKmsKeys#origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/kms_keys#origin DataTencentcloudKmsKeys#origin}
   */
   readonly origin?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/kms_keys#result_output_file DataTencentcloudKmsKeys#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/kms_keys#result_output_file DataTencentcloudKmsKeys#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Filter by role of the CMK creator. `0` - created by user, `1` - created by cloud product. Default value is `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/kms_keys#role DataTencentcloudKmsKeys#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/kms_keys#role DataTencentcloudKmsKeys#role}
   */
   readonly role?: number;
   /**
   * Words used to match the results, and the words can be: key_id and alias.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/kms_keys#search_key_alias DataTencentcloudKmsKeys#search_key_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/kms_keys#search_key_alias DataTencentcloudKmsKeys#search_key_alias}
   */
   readonly searchKeyAlias?: string;
   /**
   * Tags to filter CMK.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/kms_keys#tags DataTencentcloudKmsKeys#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/kms_keys#tags DataTencentcloudKmsKeys#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -211,7 +211,7 @@ export class DataTencentcloudKmsKeysKeyListStructList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/kms_keys tencentcloud_kms_keys}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/kms_keys tencentcloud_kms_keys}
 */
 export class DataTencentcloudKmsKeys extends cdktf.TerraformDataSource {
 
@@ -227,7 +227,7 @@ export class DataTencentcloudKmsKeys extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudKmsKeys resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudKmsKeys to import
-  * @param importFromId The id of the existing DataTencentcloudKmsKeys that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/kms_keys#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudKmsKeys that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/kms_keys#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudKmsKeys to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -239,7 +239,7 @@ export class DataTencentcloudKmsKeys extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/kms_keys tencentcloud_kms_keys} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/kms_keys tencentcloud_kms_keys} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -250,8 +250,8 @@ export class DataTencentcloudKmsKeys extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_kms_keys',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.39',
-        providerVersionConstraint: '1.82.39'
+        providerVersion: '1.82.40',
+        providerVersionConstraint: '1.82.40'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

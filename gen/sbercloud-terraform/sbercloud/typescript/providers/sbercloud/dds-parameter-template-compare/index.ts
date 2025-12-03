@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dds_parameter_template_compare
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dds_parameter_template_compare
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,22 +8,22 @@ import * as cdktf from 'cdktf';
 
 export interface DdsParameterTemplateCompareConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dds_parameter_template_compare#id DdsParameterTemplateCompare#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dds_parameter_template_compare#id DdsParameterTemplateCompare#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dds_parameter_template_compare#region DdsParameterTemplateCompare#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dds_parameter_template_compare#region DdsParameterTemplateCompare#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dds_parameter_template_compare#source_configuration_id DdsParameterTemplateCompare#source_configuration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dds_parameter_template_compare#source_configuration_id DdsParameterTemplateCompare#source_configuration_id}
   */
   readonly sourceConfigurationId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dds_parameter_template_compare#target_configuration_id DdsParameterTemplateCompare#target_configuration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dds_parameter_template_compare#target_configuration_id DdsParameterTemplateCompare#target_configuration_id}
   */
   readonly targetConfigurationId: string;
 }
@@ -114,7 +114,7 @@ export class DdsParameterTemplateCompareDifferencesList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dds_parameter_template_compare sbercloud_dds_parameter_template_compare}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dds_parameter_template_compare sbercloud_dds_parameter_template_compare}
 */
 export class DdsParameterTemplateCompare extends cdktf.TerraformResource {
 
@@ -130,7 +130,7 @@ export class DdsParameterTemplateCompare extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DdsParameterTemplateCompare resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdsParameterTemplateCompare to import
-  * @param importFromId The id of the existing DdsParameterTemplateCompare that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dds_parameter_template_compare#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdsParameterTemplateCompare that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dds_parameter_template_compare#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdsParameterTemplateCompare to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -142,7 +142,7 @@ export class DdsParameterTemplateCompare extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dds_parameter_template_compare sbercloud_dds_parameter_template_compare} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dds_parameter_template_compare sbercloud_dds_parameter_template_compare} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -153,8 +153,8 @@ export class DdsParameterTemplateCompare extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_dds_parameter_template_compare',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

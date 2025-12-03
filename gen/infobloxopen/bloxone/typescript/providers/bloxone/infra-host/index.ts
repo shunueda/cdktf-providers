@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/infra_host
+// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/infra_host
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface InfraHostConfig extends cdktf.TerraformMetaArguments {
   /**
   * The description of the Host (optional).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/infra_host#description InfraHost#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/infra_host#description InfraHost#description}
   */
   readonly description?: string;
   /**
   * The name of the Host (unique).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/infra_host#display_name InfraHost#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/infra_host#display_name InfraHost#display_name}
   */
   readonly displayName: string;
   /**
   * The IP Space of the Host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/infra_host#ip_space InfraHost#ip_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/infra_host#ip_space InfraHost#ip_space}
   */
   readonly ipSpace?: string;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/infra_host#location_id InfraHost#location_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/infra_host#location_id InfraHost#location_id}
   */
   readonly locationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/infra_host#maintenance_mode InfraHost#maintenance_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/infra_host#maintenance_mode InfraHost#maintenance_mode}
   */
   readonly maintenanceMode?: string;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/infra_host#pool_id InfraHost#pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/infra_host#pool_id InfraHost#pool_id}
   */
   readonly poolId?: string;
   /**
   * The unique serial number of the Host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/infra_host#serial_number InfraHost#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/infra_host#serial_number InfraHost#serial_number}
   */
   readonly serialNumber?: string;
   /**
   * Tags associated with this Host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/infra_host#tags InfraHost#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/infra_host#tags InfraHost#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -58,25 +58,25 @@ export interface InfraHostConfigs {
   /**
   * The current version of the Service deployed on the Host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/infra_host#current_version InfraHost#current_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/infra_host#current_version InfraHost#current_version}
   */
   readonly currentVersion?: string;
   /**
   * The field to carry any extra data specific to this configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/infra_host#extra_data InfraHost#extra_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/infra_host#extra_data InfraHost#extra_data}
   */
   readonly extraData?: string;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/infra_host#host_id InfraHost#host_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/infra_host#host_id InfraHost#host_id}
   */
   readonly hostId?: string;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/infra_host#service_id InfraHost#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/infra_host#service_id InfraHost#service_id}
   */
   readonly serviceId?: string;
   /**
@@ -98,13 +98,13 @@ export interface InfraHostConfigs {
   *   | OSPF | ospf | 
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/infra_host#service_type InfraHost#service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/infra_host#service_type InfraHost#service_type}
   */
   readonly serviceType?: string;
   /**
   * The timestamp of the latest upgrade of the Host-specific Service configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/infra_host#upgraded_at InfraHost#upgraded_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/infra_host#upgraded_at InfraHost#upgraded_at}
   */
   readonly upgradedAt?: string;
 }
@@ -360,7 +360,7 @@ export class InfraHostConfigsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/infra_host bloxone_infra_host}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/infra_host bloxone_infra_host}
 */
 export class InfraHost extends cdktf.TerraformResource {
 
@@ -376,7 +376,7 @@ export class InfraHost extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InfraHost resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InfraHost to import
-  * @param importFromId The id of the existing InfraHost that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/infra_host#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InfraHost that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/infra_host#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InfraHost to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -388,7 +388,7 @@ export class InfraHost extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/infra_host bloxone_infra_host} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/infra_host bloxone_infra_host} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -399,8 +399,8 @@ export class InfraHost extends cdktf.TerraformResource {
       terraformResourceType: 'bloxone_infra_host',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.5.4',
+        providerVersionConstraint: '1.5.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

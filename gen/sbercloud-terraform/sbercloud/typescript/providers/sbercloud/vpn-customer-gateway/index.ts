@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_customer_gateway
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_customer_gateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,15 +10,15 @@ export interface VpnCustomerGatewayConfig extends cdktf.TerraformMetaArguments {
   /**
   * The BGP ASN number of the customer gateway, the default value is 65000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_customer_gateway#asn VpnCustomerGateway#asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_customer_gateway#asn VpnCustomerGateway#asn}
   */
   readonly asn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_customer_gateway#certificate_content VpnCustomerGateway#certificate_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_customer_gateway#certificate_content VpnCustomerGateway#certificate_content}
   */
   readonly certificateContent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_customer_gateway#id VpnCustomerGateway#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_customer_gateway#id VpnCustomerGateway#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -27,45 +27,45 @@ export interface VpnCustomerGatewayConfig extends cdktf.TerraformMetaArguments {
   /**
   * The identifier type of a customer gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_customer_gateway#id_type VpnCustomerGateway#id_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_customer_gateway#id_type VpnCustomerGateway#id_type}
   */
   readonly idType?: string;
   /**
   * The identifier of a customer gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_customer_gateway#id_value VpnCustomerGateway#id_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_customer_gateway#id_value VpnCustomerGateway#id_value}
   */
   readonly idValue?: string;
   /**
   * The IP address of the customer gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_customer_gateway#ip VpnCustomerGateway#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_customer_gateway#ip VpnCustomerGateway#ip}
   */
   readonly ip?: string;
   /**
   * The customer gateway name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_customer_gateway#name VpnCustomerGateway#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_customer_gateway#name VpnCustomerGateway#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_customer_gateway#region VpnCustomerGateway#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_customer_gateway#region VpnCustomerGateway#region}
   */
   readonly region?: string;
   /**
   * The route mode of the customer gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_customer_gateway#route_mode VpnCustomerGateway#route_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_customer_gateway#route_mode VpnCustomerGateway#route_mode}
   */
   readonly routeMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_customer_gateway#tags VpnCustomerGateway#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_customer_gateway#tags VpnCustomerGateway#tags}
   */
   readonly tags?: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_customer_gateway sbercloud_vpn_customer_gateway}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_customer_gateway sbercloud_vpn_customer_gateway}
 */
 export class VpnCustomerGateway extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class VpnCustomerGateway extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpnCustomerGateway resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpnCustomerGateway to import
-  * @param importFromId The id of the existing VpnCustomerGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_customer_gateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpnCustomerGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_customer_gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpnCustomerGateway to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class VpnCustomerGateway extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_customer_gateway sbercloud_vpn_customer_gateway} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_customer_gateway sbercloud_vpn_customer_gateway} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class VpnCustomerGateway extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_vpn_customer_gateway',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

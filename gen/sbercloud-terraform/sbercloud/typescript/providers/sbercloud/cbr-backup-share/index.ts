@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_backup_share
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_backup_share
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface CbrBackupShareConfig extends cdktf.TerraformMetaArguments {
   /**
   * The backup ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_backup_share#backup_id CbrBackupShare#backup_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_backup_share#backup_id CbrBackupShare#backup_id}
   */
   readonly backupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_backup_share#id CbrBackupShare#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_backup_share#id CbrBackupShare#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface CbrBackupShareConfig extends cdktf.TerraformMetaArguments {
   /**
   * The region where the shared backup is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_backup_share#region CbrBackupShare#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_backup_share#region CbrBackupShare#region}
   */
   readonly region?: string;
   /**
   * members block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_backup_share#members CbrBackupShare#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_backup_share#members CbrBackupShare#members}
   */
   readonly members: CbrBackupShareMembers[] | cdktf.IResolvable;
 }
@@ -37,7 +37,7 @@ export interface CbrBackupShareMembers {
   /**
   * The ID of the project with which the backup is shared.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_backup_share#dest_project_id CbrBackupShare#dest_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_backup_share#dest_project_id CbrBackupShare#dest_project_id}
   */
   readonly destProjectId: string;
 }
@@ -180,7 +180,7 @@ export class CbrBackupShareMembersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_backup_share sbercloud_cbr_backup_share}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_backup_share sbercloud_cbr_backup_share}
 */
 export class CbrBackupShare extends cdktf.TerraformResource {
 
@@ -196,7 +196,7 @@ export class CbrBackupShare extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CbrBackupShare resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CbrBackupShare to import
-  * @param importFromId The id of the existing CbrBackupShare that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_backup_share#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CbrBackupShare that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_backup_share#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CbrBackupShare to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -208,7 +208,7 @@ export class CbrBackupShare extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_backup_share sbercloud_cbr_backup_share} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_backup_share sbercloud_cbr_backup_share} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -219,8 +219,8 @@ export class CbrBackupShare extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_cbr_backup_share',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

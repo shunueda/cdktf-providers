@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_alarm_config
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_alarm_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,39 +10,39 @@ export interface CfwAlarmConfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies the alarm period.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_alarm_config#alarm_time_period CfwAlarmConfig#alarm_time_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_alarm_config#alarm_time_period CfwAlarmConfig#alarm_time_period}
   */
   readonly alarmTimePeriod: number;
   /**
   * Specifies the alarm type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_alarm_config#alarm_type CfwAlarmConfig#alarm_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_alarm_config#alarm_type CfwAlarmConfig#alarm_type}
   */
   readonly alarmType: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_alarm_config#enable_force_new CfwAlarmConfig#enable_force_new}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_alarm_config#enable_force_new CfwAlarmConfig#enable_force_new}
   */
   readonly enableForceNew?: string;
   /**
   * Specifies the alarm triggering frequency.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_alarm_config#frequency_count CfwAlarmConfig#frequency_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_alarm_config#frequency_count CfwAlarmConfig#frequency_count}
   */
   readonly frequencyCount: number;
   /**
   * Specifies the alarm frequency time range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_alarm_config#frequency_time CfwAlarmConfig#frequency_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_alarm_config#frequency_time CfwAlarmConfig#frequency_time}
   */
   readonly frequencyTime: number;
   /**
   * Specifies the firewall ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_alarm_config#fw_instance_id CfwAlarmConfig#fw_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_alarm_config#fw_instance_id CfwAlarmConfig#fw_instance_id}
   */
   readonly fwInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_alarm_config#id CfwAlarmConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_alarm_config#id CfwAlarmConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -51,25 +51,25 @@ export interface CfwAlarmConfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * The region in which to create the resource. If omitted, the provider-level region will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_alarm_config#region CfwAlarmConfig#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_alarm_config#region CfwAlarmConfig#region}
   */
   readonly region?: string;
   /**
   * Specifies the alarm severity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_alarm_config#severity CfwAlarmConfig#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_alarm_config#severity CfwAlarmConfig#severity}
   */
   readonly severity: string;
   /**
   * Specifies the alarm URN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_alarm_config#topic_urn CfwAlarmConfig#topic_urn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_alarm_config#topic_urn CfwAlarmConfig#topic_urn}
   */
   readonly topicUrn: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_alarm_config sbercloud_cfw_alarm_config}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_alarm_config sbercloud_cfw_alarm_config}
 */
 export class CfwAlarmConfig extends cdktf.TerraformResource {
 
@@ -85,7 +85,7 @@ export class CfwAlarmConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CfwAlarmConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CfwAlarmConfig to import
-  * @param importFromId The id of the existing CfwAlarmConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_alarm_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CfwAlarmConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_alarm_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CfwAlarmConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -97,7 +97,7 @@ export class CfwAlarmConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_alarm_config sbercloud_cfw_alarm_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_alarm_config sbercloud_cfw_alarm_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -108,8 +108,8 @@ export class CfwAlarmConfig extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_cfw_alarm_config',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/er_vpc_attachment
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/er_vpc_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ErVpcAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether to automatically configure routes for the VPC which pointing to the ER instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/er_vpc_attachment#auto_create_vpc_routes ErVpcAttachment#auto_create_vpc_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/er_vpc_attachment#auto_create_vpc_routes ErVpcAttachment#auto_create_vpc_routes}
   */
   readonly autoCreateVpcRoutes?: boolean | cdktf.IResolvable;
   /**
   * The description of the VPC attachment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/er_vpc_attachment#description ErVpcAttachment#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/er_vpc_attachment#description ErVpcAttachment#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/er_vpc_attachment#id ErVpcAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/er_vpc_attachment#id ErVpcAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,55 +29,55 @@ export interface ErVpcAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the ER instance to which the VPC attachment belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/er_vpc_attachment#instance_id ErVpcAttachment#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/er_vpc_attachment#instance_id ErVpcAttachment#instance_id}
   */
   readonly instanceId: string;
   /**
   * The name of the VPC attachment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/er_vpc_attachment#name ErVpcAttachment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/er_vpc_attachment#name ErVpcAttachment#name}
   */
   readonly name: string;
   /**
   * The region where the ER instance and the VPC attachment are located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/er_vpc_attachment#region ErVpcAttachment#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/er_vpc_attachment#region ErVpcAttachment#region}
   */
   readonly region?: string;
   /**
   * The ID of the VPC subnet to which the VPC attachment belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/er_vpc_attachment#subnet_id ErVpcAttachment#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/er_vpc_attachment#subnet_id ErVpcAttachment#subnet_id}
   */
   readonly subnetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/er_vpc_attachment#tags ErVpcAttachment#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/er_vpc_attachment#tags ErVpcAttachment#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The ID of the VPC to which the VPC attachment belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/er_vpc_attachment#vpc_id ErVpcAttachment#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/er_vpc_attachment#vpc_id ErVpcAttachment#vpc_id}
   */
   readonly vpcId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/er_vpc_attachment#timeouts ErVpcAttachment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/er_vpc_attachment#timeouts ErVpcAttachment#timeouts}
   */
   readonly timeouts?: ErVpcAttachmentTimeouts;
 }
 export interface ErVpcAttachmentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/er_vpc_attachment#create ErVpcAttachment#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/er_vpc_attachment#create ErVpcAttachment#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/er_vpc_attachment#delete ErVpcAttachment#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/er_vpc_attachment#delete ErVpcAttachment#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/er_vpc_attachment#update ErVpcAttachment#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/er_vpc_attachment#update ErVpcAttachment#update}
   */
   readonly update?: string;
 }
@@ -229,7 +229,7 @@ export class ErVpcAttachmentTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/er_vpc_attachment sbercloud_er_vpc_attachment}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/er_vpc_attachment sbercloud_er_vpc_attachment}
 */
 export class ErVpcAttachment extends cdktf.TerraformResource {
 
@@ -245,7 +245,7 @@ export class ErVpcAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ErVpcAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ErVpcAttachment to import
-  * @param importFromId The id of the existing ErVpcAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/er_vpc_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ErVpcAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/er_vpc_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ErVpcAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -257,7 +257,7 @@ export class ErVpcAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/er_vpc_attachment sbercloud_er_vpc_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/er_vpc_attachment sbercloud_er_vpc_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -268,8 +268,8 @@ export class ErVpcAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_er_vpc_attachment',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

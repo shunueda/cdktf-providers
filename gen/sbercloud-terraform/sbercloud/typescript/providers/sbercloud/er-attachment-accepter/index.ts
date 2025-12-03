@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/er_attachment_accepter
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/er_attachment_accepter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ErAttachmentAccepterConfig extends cdktf.TerraformMetaArguments
   /**
   * The action type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/er_attachment_accepter#action ErAttachmentAccepter#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/er_attachment_accepter#action ErAttachmentAccepter#action}
   */
   readonly action: string;
   /**
   * The ID of the attachment to be action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/er_attachment_accepter#attachment_id ErAttachmentAccepter#attachment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/er_attachment_accepter#attachment_id ErAttachmentAccepter#attachment_id}
   */
   readonly attachmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/er_attachment_accepter#id ErAttachmentAccepter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/er_attachment_accepter#id ErAttachmentAccepter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,17 +29,17 @@ export interface ErAttachmentAccepterConfig extends cdktf.TerraformMetaArguments
   /**
   * The ID of the ER instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/er_attachment_accepter#instance_id ErAttachmentAccepter#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/er_attachment_accepter#instance_id ErAttachmentAccepter#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/er_attachment_accepter#region ErAttachmentAccepter#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/er_attachment_accepter#region ErAttachmentAccepter#region}
   */
   readonly region?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/er_attachment_accepter sbercloud_er_attachment_accepter}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/er_attachment_accepter sbercloud_er_attachment_accepter}
 */
 export class ErAttachmentAccepter extends cdktf.TerraformResource {
 
@@ -55,7 +55,7 @@ export class ErAttachmentAccepter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ErAttachmentAccepter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ErAttachmentAccepter to import
-  * @param importFromId The id of the existing ErAttachmentAccepter that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/er_attachment_accepter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ErAttachmentAccepter that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/er_attachment_accepter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ErAttachmentAccepter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -67,7 +67,7 @@ export class ErAttachmentAccepter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/er_attachment_accepter sbercloud_er_attachment_accepter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/er_attachment_accepter sbercloud_er_attachment_accepter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -78,8 +78,8 @@ export class ErAttachmentAccepter extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_er_attachment_accepter',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

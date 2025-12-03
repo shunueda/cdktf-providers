@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_deploy_group
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_deploy_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface MysqlDeployGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of deploy group. the maximum length cannot exceed 60 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_deploy_group#deploy_group_name MysqlDeployGroup#deploy_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_deploy_group#deploy_group_name MysqlDeployGroup#deploy_group_name}
   */
   readonly deployGroupName: string;
   /**
   * The description of deploy group. the maximum length cannot exceed 200 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_deploy_group#description MysqlDeployGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_deploy_group#description MysqlDeployGroup#description}
   */
   readonly description?: string;
   /**
   * The device class of deploy group. optional value is SH12+SH02, TS85, etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_deploy_group#dev_class MysqlDeployGroup#dev_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_deploy_group#dev_class MysqlDeployGroup#dev_class}
   */
   readonly devClass?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_deploy_group#id MysqlDeployGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_deploy_group#id MysqlDeployGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,13 +35,13 @@ export interface MysqlDeployGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * The limit on the number of instances on the same physical machine in deploy group affinity policy 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_deploy_group#limit_num MysqlDeployGroup#limit_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_deploy_group#limit_num MysqlDeployGroup#limit_num}
   */
   readonly limitNum?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_deploy_group tencentcloud_mysql_deploy_group}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_deploy_group tencentcloud_mysql_deploy_group}
 */
 export class MysqlDeployGroup extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class MysqlDeployGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MysqlDeployGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MysqlDeployGroup to import
-  * @param importFromId The id of the existing MysqlDeployGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_deploy_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MysqlDeployGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_deploy_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MysqlDeployGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class MysqlDeployGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_deploy_group tencentcloud_mysql_deploy_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_deploy_group tencentcloud_mysql_deploy_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class MysqlDeployGroup extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mysql_deploy_group',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.39',
-        providerVersionConstraint: '1.82.39'
+        providerVersion: '1.82.40',
+        providerVersionConstraint: '1.82.40'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

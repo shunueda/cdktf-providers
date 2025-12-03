@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_range
+// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_range
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,71 +10,71 @@ export interface IpamRangeConfig extends cdktf.TerraformMetaArguments {
   /**
   * The description for the range. May contain 0 to 1024 characters. Can include UTF-8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_range#comment IpamRange#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_range#comment IpamRange#comment}
   */
   readonly comment?: string;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_range#dhcp_host IpamRange#dhcp_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_range#dhcp_host IpamRange#dhcp_host}
   */
   readonly dhcpHost?: string;
   /**
   * The list of DHCP options. May be either a specific option or a group of options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_range#dhcp_options IpamRange#dhcp_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_range#dhcp_options IpamRange#dhcp_options}
   */
   readonly dhcpOptions?: IpamRangeDhcpOptions[] | cdktf.IResolvable;
   /**
   * Optional. _true_ to disable object. A disabled object is effectively non-existent when generating configuration.  Defaults to _false_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_range#disable_dhcp IpamRange#disable_dhcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_range#disable_dhcp IpamRange#disable_dhcp}
   */
   readonly disableDhcp?: boolean | cdktf.IResolvable;
   /**
   * The end IP address of the range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_range#end IpamRange#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_range#end IpamRange#end}
   */
   readonly end: string;
   /**
   * The list of all exclusion ranges in the scope of the range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_range#exclusion_ranges IpamRange#exclusion_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_range#exclusion_ranges IpamRange#exclusion_ranges}
   */
   readonly exclusionRanges?: IpamRangeExclusionRanges[] | cdktf.IResolvable;
   /**
   * The list of all allow/deny filters of the range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_range#filters IpamRange#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_range#filters IpamRange#filters}
   */
   readonly filters?: IpamRangeFilters[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_range#inheritance_sources IpamRange#inheritance_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_range#inheritance_sources IpamRange#inheritance_sources}
   */
   readonly inheritanceSources?: IpamRangeInheritanceSources;
   /**
   * The name of the range. May contain 1 to 256 characters. Can include UTF-8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_range#name IpamRange#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_range#name IpamRange#name}
   */
   readonly name?: string;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_range#space IpamRange#space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_range#space IpamRange#space}
   */
   readonly space: string;
   /**
   * The start IP address of the range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_range#start IpamRange#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_range#start IpamRange#start}
   */
   readonly start: string;
   /**
   * The tags for the range in JSON format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_range#tags IpamRange#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_range#tags IpamRange#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -82,19 +82,19 @@ export interface IpamRangeDhcpOptions {
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_range#group IpamRange#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_range#group IpamRange#group}
   */
   readonly group?: string;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_range#option_code IpamRange#option_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_range#option_code IpamRange#option_code}
   */
   readonly optionCode?: string;
   /**
   * The option value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_range#option_value IpamRange#option_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_range#option_value IpamRange#option_value}
   */
   readonly optionValue?: string;
   /**
@@ -103,7 +103,7 @@ export interface IpamRangeDhcpOptions {
   *   * _option_
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_range#type IpamRange#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_range#type IpamRange#type}
   */
   readonly type?: string;
 }
@@ -308,19 +308,19 @@ export interface IpamRangeExclusionRanges {
   /**
   * The description for the exclusion range. May contain 0 to 1024 characters. Can include UTF-8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_range#comment IpamRange#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_range#comment IpamRange#comment}
   */
   readonly comment?: string;
   /**
   * The end address of the exclusion range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_range#end IpamRange#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_range#end IpamRange#end}
   */
   readonly end: string;
   /**
   * The start address of the exclusion range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_range#start IpamRange#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_range#start IpamRange#start}
   */
   readonly start: string;
 }
@@ -490,19 +490,19 @@ export interface IpamRangeFilters {
   /**
   * The access type of DHCP filter (_allow_ or _deny_).  Defaults to _allow_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_range#access IpamRange#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_range#access IpamRange#access}
   */
   readonly access: string;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_range#hardware_filter_id IpamRange#hardware_filter_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_range#hardware_filter_id IpamRange#hardware_filter_id}
   */
   readonly hardwareFilterId?: string;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_range#option_filter_id IpamRange#option_filter_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_range#option_filter_id IpamRange#option_filter_id}
   */
   readonly optionFilterId?: string;
 }
@@ -675,7 +675,7 @@ export interface IpamRangeInheritanceAssignedHosts {
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_range#host IpamRange#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_range#host IpamRange#host}
   */
   readonly host?: string;
 }
@@ -926,7 +926,7 @@ export interface IpamRangeInheritanceSourcesDhcpOptionsValue {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_range#action IpamRange#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_range#action IpamRange#action}
   */
   readonly action?: string;
 }
@@ -1064,13 +1064,13 @@ export interface IpamRangeInheritanceSourcesDhcpOptions {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_range#action IpamRange#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_range#action IpamRange#action}
   */
   readonly action?: string;
   /**
   * The inherited DHCP option values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_range#value IpamRange#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_range#value IpamRange#value}
   */
   readonly value?: IpamRangeInheritanceSourcesDhcpOptionsValue[] | cdktf.IResolvable;
 }
@@ -1195,7 +1195,7 @@ export interface IpamRangeInheritanceSources {
   /**
   * The inheritance configuration for the _dhcp_options_ field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_range#dhcp_options IpamRange#dhcp_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_range#dhcp_options IpamRange#dhcp_options}
   */
   readonly dhcpOptions?: IpamRangeInheritanceSourcesDhcpOptions;
 }
@@ -1291,19 +1291,19 @@ export interface IpamRangeThreshold {
   /**
   * Indicates whether the utilization threshold for IP addresses is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_range#enabled IpamRange#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_range#enabled IpamRange#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * The high threshold value for the percentage of used IP addresses relative to the total IP addresses available in the scope of the object. Thresholds are inclusive in the comparison test.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_range#high IpamRange#high}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_range#high IpamRange#high}
   */
   readonly high: number;
   /**
   * The low threshold value for the percentage of used IP addresses relative to the total IP addresses available in the scope of the object. Thresholds are inclusive in the comparison test.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_range#low IpamRange#low}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_range#low IpamRange#low}
   */
   readonly low: number;
 }
@@ -1525,23 +1525,23 @@ export class IpamRangeUtilizationOutputReference extends cdktf.ComplexObject {
 }
 export interface IpamRangeUtilizationV6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_range#abandoned IpamRange#abandoned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_range#abandoned IpamRange#abandoned}
   */
   readonly abandoned?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_range#dynamic IpamRange#dynamic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_range#dynamic IpamRange#dynamic}
   */
   readonly dynamic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_range#static IpamRange#static}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_range#static IpamRange#static}
   */
   readonly static?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_range#total IpamRange#total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_range#total IpamRange#total}
   */
   readonly total?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_range#used IpamRange#used}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_range#used IpamRange#used}
   */
   readonly used?: string;
 }
@@ -1741,7 +1741,7 @@ export class IpamRangeUtilizationV6OutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_range bloxone_ipam_range}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_range bloxone_ipam_range}
 */
 export class IpamRange extends cdktf.TerraformResource {
 
@@ -1757,7 +1757,7 @@ export class IpamRange extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpamRange resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpamRange to import
-  * @param importFromId The id of the existing IpamRange that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_range#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpamRange that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_range#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpamRange to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1769,7 +1769,7 @@ export class IpamRange extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_range bloxone_ipam_range} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_range bloxone_ipam_range} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1780,8 +1780,8 @@ export class IpamRange extends cdktf.TerraformResource {
       terraformResourceType: 'bloxone_ipam_range',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.5.4',
+        providerVersionConstraint: '1.5.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

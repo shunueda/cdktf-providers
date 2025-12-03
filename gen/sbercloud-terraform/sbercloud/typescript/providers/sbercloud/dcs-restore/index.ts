@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_restore
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_restore
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,183 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface DcsRestoreConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_restore#backup_id DcsRestore#backup_id}
+  * Specifies the backup ID used to restore the DCS instance.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_restore#backup_id DcsRestore#backup_id}
   */
   readonly backupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_restore#id DcsRestore#id}
+  * Specifies the description of the DCS instance restoration.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_restore#description DcsRestore#description}
+  */
+  readonly description?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_restore#id DcsRestore#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_restore#instance_id DcsRestore#instance_id}
+  * Specifies the ID of the DCS instance to be restored.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_restore#instance_id DcsRestore#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_restore#project_id DcsRestore#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_restore#region DcsRestore#region}
   */
-  readonly projectId: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_restore#remark DcsRestore#remark}
-  */
-  readonly remark?: string;
+  readonly region?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_restore#timeouts DcsRestore#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_restore#timeouts DcsRestore#timeouts}
   */
   readonly timeouts?: DcsRestoreTimeouts;
 }
-export interface DcsRestoreRestoreRecords {
-}
-
-export function dcsRestoreRestoreRecordsToTerraform(struct?: DcsRestoreRestoreRecords): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dcsRestoreRestoreRecordsToHclTerraform(struct?: DcsRestoreRestoreRecords): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DcsRestoreRestoreRecordsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DcsRestoreRestoreRecords | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DcsRestoreRestoreRecords | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // backup_id - computed: true, optional: false, required: false
-  public get backupId() {
-    return this.getStringAttribute('backup_id');
-  }
-
-  // backup_name - computed: true, optional: false, required: false
-  public get backupName() {
-    return this.getStringAttribute('backup_name');
-  }
-
-  // backup_remark - computed: true, optional: false, required: false
-  public get backupRemark() {
-    return this.getStringAttribute('backup_remark');
-  }
-
-  // created_at - computed: true, optional: false, required: false
-  public get createdAt() {
-    return this.getStringAttribute('created_at');
-  }
-
-  // error_code - computed: true, optional: false, required: false
-  public get errorCode() {
-    return this.getStringAttribute('error_code');
-  }
-
-  // progress - computed: true, optional: false, required: false
-  public get progress() {
-    return this.getStringAttribute('progress');
-  }
-
-  // restore_id - computed: true, optional: false, required: false
-  public get restoreId() {
-    return this.getStringAttribute('restore_id');
-  }
-
-  // restore_name - computed: true, optional: false, required: false
-  public get restoreName() {
-    return this.getStringAttribute('restore_name');
-  }
-
-  // restore_remark - computed: true, optional: false, required: false
-  public get restoreRemark() {
-    return this.getStringAttribute('restore_remark');
-  }
-
-  // source_instance_id - computed: true, optional: false, required: false
-  public get sourceInstanceId() {
-    return this.getStringAttribute('source_instance_id');
-  }
-
-  // source_instance_name - computed: true, optional: false, required: false
-  public get sourceInstanceName() {
-    return this.getStringAttribute('source_instance_name');
-  }
-
-  // status - computed: true, optional: false, required: false
-  public get status() {
-    return this.getStringAttribute('status');
-  }
-
-  // updated_at - computed: true, optional: false, required: false
-  public get updatedAt() {
-    return this.getStringAttribute('updated_at');
-  }
-}
-
-export class DcsRestoreRestoreRecordsList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DcsRestoreRestoreRecordsOutputReference {
-    return new DcsRestoreRestoreRecordsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
 export interface DcsRestoreTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_restore#create DcsRestore#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_restore#create DcsRestore#create}
   */
   readonly create?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_restore#delete DcsRestore#delete}
-  */
-  readonly delete?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_restore#update DcsRestore#update}
-  */
-  readonly update?: string;
 }
 
 export function dcsRestoreTimeoutsToTerraform(struct?: DcsRestoreTimeouts | cdktf.IResolvable): any {
@@ -194,8 +57,6 @@ export function dcsRestoreTimeoutsToTerraform(struct?: DcsRestoreTimeouts | cdkt
   }
   return {
     create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
   }
 }
 
@@ -208,18 +69,6 @@ export function dcsRestoreTimeoutsToHclTerraform(struct?: DcsRestoreTimeouts | c
   const attrs = {
     create: {
       value: cdktf.stringToHclTerraform(struct!.create),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -252,14 +101,6 @@ export class DcsRestoreTimeoutsOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.create = this._create;
     }
-    if (this._delete !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.delete = this._delete;
-    }
-    if (this._update !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.update = this._update;
-    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -268,8 +109,6 @@ export class DcsRestoreTimeoutsOutputReference extends cdktf.ComplexObject {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._create = undefined;
-      this._delete = undefined;
-      this._update = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -279,8 +118,6 @@ export class DcsRestoreTimeoutsOutputReference extends cdktf.ComplexObject {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
       this._create = value.create;
-      this._delete = value.delete;
-      this._update = value.update;
     }
   }
 
@@ -299,42 +136,10 @@ export class DcsRestoreTimeoutsOutputReference extends cdktf.ComplexObject {
   public get createInput() {
     return this._create;
   }
-
-  // delete - computed: false, optional: true, required: false
-  private _delete?: string; 
-  public get delete() {
-    return this.getStringAttribute('delete');
-  }
-  public set delete(value: string) {
-    this._delete = value;
-  }
-  public resetDelete() {
-    this._delete = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get deleteInput() {
-    return this._delete;
-  }
-
-  // update - computed: false, optional: true, required: false
-  private _update?: string; 
-  public get update() {
-    return this.getStringAttribute('update');
-  }
-  public set update(value: string) {
-    this._update = value;
-  }
-  public resetUpdate() {
-    this._update = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get updateInput() {
-    return this._update;
-  }
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_restore sbercloud_dcs_restore}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_restore sbercloud_dcs_restore}
 */
 export class DcsRestore extends cdktf.TerraformResource {
 
@@ -350,7 +155,7 @@ export class DcsRestore extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DcsRestore resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DcsRestore to import
-  * @param importFromId The id of the existing DcsRestore that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_restore#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DcsRestore that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_restore#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DcsRestore to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -362,7 +167,7 @@ export class DcsRestore extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_restore sbercloud_dcs_restore} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_restore sbercloud_dcs_restore} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -373,8 +178,8 @@ export class DcsRestore extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_dcs_restore',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -385,10 +190,10 @@ export class DcsRestore extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._backupId = config.backupId;
+    this._description = config.description;
     this._id = config.id;
     this._instanceId = config.instanceId;
-    this._projectId = config.projectId;
-    this._remark = config.remark;
+    this._region = config.region;
     this._timeouts.internalValue = config.timeouts;
   }
 
@@ -407,6 +212,27 @@ export class DcsRestore extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get backupIdInput() {
     return this._backupId;
+  }
+
+  // created_at - computed: true, optional: false, required: false
+  public get createdAt() {
+    return this.getStringAttribute('created_at');
+  }
+
+  // description - computed: false, optional: true, required: false
+  private _description?: string; 
+  public get description() {
+    return this.getStringAttribute('description');
+  }
+  public set description(value: string) {
+    this._description = value;
+  }
+  public resetDescription() {
+    this._description = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get descriptionInput() {
+    return this._description;
   }
 
   // id - computed: true, optional: true, required: false
@@ -438,39 +264,30 @@ export class DcsRestore extends cdktf.TerraformResource {
     return this._instanceId;
   }
 
-  // project_id - computed: false, optional: false, required: true
-  private _projectId?: string; 
-  public get projectId() {
-    return this.getStringAttribute('project_id');
+  // region - computed: true, optional: true, required: false
+  private _region?: string; 
+  public get region() {
+    return this.getStringAttribute('region');
   }
-  public set projectId(value: string) {
-    this._projectId = value;
+  public set region(value: string) {
+    this._region = value;
   }
-  // Temporarily expose input value. Use with caution.
-  public get projectIdInput() {
-    return this._projectId;
-  }
-
-  // remark - computed: false, optional: true, required: false
-  private _remark?: string; 
-  public get remark() {
-    return this.getStringAttribute('remark');
-  }
-  public set remark(value: string) {
-    this._remark = value;
-  }
-  public resetRemark() {
-    this._remark = undefined;
+  public resetRegion() {
+    this._region = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get remarkInput() {
-    return this._remark;
+  public get regionInput() {
+    return this._region;
   }
 
-  // restore_records - computed: true, optional: false, required: false
-  private _restoreRecords = new DcsRestoreRestoreRecordsList(this, "restore_records", false);
-  public get restoreRecords() {
-    return this._restoreRecords;
+  // restore_name - computed: true, optional: false, required: false
+  public get restoreName() {
+    return this.getStringAttribute('restore_name');
+  }
+
+  // updated_at - computed: true, optional: false, required: false
+  public get updatedAt() {
+    return this.getStringAttribute('updated_at');
   }
 
   // timeouts - computed: false, optional: true, required: false
@@ -496,10 +313,10 @@ export class DcsRestore extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       backup_id: cdktf.stringToTerraform(this._backupId),
+      description: cdktf.stringToTerraform(this._description),
       id: cdktf.stringToTerraform(this._id),
       instance_id: cdktf.stringToTerraform(this._instanceId),
-      project_id: cdktf.stringToTerraform(this._projectId),
-      remark: cdktf.stringToTerraform(this._remark),
+      region: cdktf.stringToTerraform(this._region),
       timeouts: dcsRestoreTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -508,6 +325,12 @@ export class DcsRestore extends cdktf.TerraformResource {
     const attrs = {
       backup_id: {
         value: cdktf.stringToHclTerraform(this._backupId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      description: {
+        value: cdktf.stringToHclTerraform(this._description),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -524,14 +347,8 @@ export class DcsRestore extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
-      project_id: {
-        value: cdktf.stringToHclTerraform(this._projectId),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      remark: {
-        value: cdktf.stringToHclTerraform(this._remark),
+      region: {
+        value: cdktf.stringToHclTerraform(this._region),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

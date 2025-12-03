@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/postgresql_security_group_config
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/postgresql_security_group_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface PostgresqlSecurityGroupConfigConfig extends cdktf.TerraformMeta
   /**
   * Instance ID. Either this parameter or ReadOnlyGroupId must be passed in. If both parameters are passed in, ReadOnlyGroupId will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/postgresql_security_group_config#db_instance_id PostgresqlSecurityGroupConfig#db_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/postgresql_security_group_config#db_instance_id PostgresqlSecurityGroupConfig#db_instance_id}
   */
   readonly dbInstanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/postgresql_security_group_config#id PostgresqlSecurityGroupConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/postgresql_security_group_config#id PostgresqlSecurityGroupConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface PostgresqlSecurityGroupConfigConfig extends cdktf.TerraformMeta
   /**
   * RO group ID. Either this parameter or DBInstanceId must be passed in. To query the security groups associated with the RO groups, only pass in ReadOnlyGroupId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/postgresql_security_group_config#read_only_group_id PostgresqlSecurityGroupConfig#read_only_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/postgresql_security_group_config#read_only_group_id PostgresqlSecurityGroupConfig#read_only_group_id}
   */
   readonly readOnlyGroupId?: string;
   /**
   * Information of security groups in array.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/postgresql_security_group_config#security_group_id_set PostgresqlSecurityGroupConfig#security_group_id_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/postgresql_security_group_config#security_group_id_set PostgresqlSecurityGroupConfig#security_group_id_set}
   */
   readonly securityGroupIdSet: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/postgresql_security_group_config tencentcloud_postgresql_security_group_config}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/postgresql_security_group_config tencentcloud_postgresql_security_group_config}
 */
 export class PostgresqlSecurityGroupConfig extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class PostgresqlSecurityGroupConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PostgresqlSecurityGroupConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PostgresqlSecurityGroupConfig to import
-  * @param importFromId The id of the existing PostgresqlSecurityGroupConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/postgresql_security_group_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PostgresqlSecurityGroupConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/postgresql_security_group_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PostgresqlSecurityGroupConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class PostgresqlSecurityGroupConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/postgresql_security_group_config tencentcloud_postgresql_security_group_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/postgresql_security_group_config tencentcloud_postgresql_security_group_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class PostgresqlSecurityGroupConfig extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_postgresql_security_group_config',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.39',
-        providerVersionConstraint: '1.82.39'
+        providerVersion: '1.82.40',
+        providerVersionConstraint: '1.82.40'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

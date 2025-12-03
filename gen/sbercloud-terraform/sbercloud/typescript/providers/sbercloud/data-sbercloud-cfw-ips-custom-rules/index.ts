@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_ips_custom_rules
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_ips_custom_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface DataSbercloudCfwIpsCustomRulesConfig extends cdktf.TerraformMet
   /**
   * Specifies the action type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_ips_custom_rules#action_type DataSbercloudCfwIpsCustomRules#action_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_ips_custom_rules#action_type DataSbercloudCfwIpsCustomRules#action_type}
   */
   readonly actionType?: number;
   /**
   * Specifies the affected OS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_ips_custom_rules#affected_os DataSbercloudCfwIpsCustomRules#affected_os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_ips_custom_rules#affected_os DataSbercloudCfwIpsCustomRules#affected_os}
   */
   readonly affectedOs?: number;
   /**
   * Specifies the attack type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_ips_custom_rules#attack_type DataSbercloudCfwIpsCustomRules#attack_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_ips_custom_rules#attack_type DataSbercloudCfwIpsCustomRules#attack_type}
   */
   readonly attackType?: number;
   /**
   * Specifies the enterprise project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_ips_custom_rules#enterprise_project_id DataSbercloudCfwIpsCustomRules#enterprise_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_ips_custom_rules#enterprise_project_id DataSbercloudCfwIpsCustomRules#enterprise_project_id}
   */
   readonly enterpriseProjectId?: string;
   /**
   * Specifies the firewall ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_ips_custom_rules#fw_instance_id DataSbercloudCfwIpsCustomRules#fw_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_ips_custom_rules#fw_instance_id DataSbercloudCfwIpsCustomRules#fw_instance_id}
   */
   readonly fwInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_ips_custom_rules#id DataSbercloudCfwIpsCustomRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_ips_custom_rules#id DataSbercloudCfwIpsCustomRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,37 +47,37 @@ export interface DataSbercloudCfwIpsCustomRulesConfig extends cdktf.TerraformMet
   /**
   * Specifies the IPS custom rule name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_ips_custom_rules#ips_name DataSbercloudCfwIpsCustomRules#ips_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_ips_custom_rules#ips_name DataSbercloudCfwIpsCustomRules#ips_name}
   */
   readonly ipsName?: string;
   /**
   * Specifies the protected object ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_ips_custom_rules#object_id DataSbercloudCfwIpsCustomRules#object_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_ips_custom_rules#object_id DataSbercloudCfwIpsCustomRules#object_id}
   */
   readonly objectId: string;
   /**
   * Specifies the protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_ips_custom_rules#protocol DataSbercloudCfwIpsCustomRules#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_ips_custom_rules#protocol DataSbercloudCfwIpsCustomRules#protocol}
   */
   readonly protocol?: number;
   /**
   * Specifies the region in which to query the resource. If omitted, the provider-level region will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_ips_custom_rules#region DataSbercloudCfwIpsCustomRules#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_ips_custom_rules#region DataSbercloudCfwIpsCustomRules#region}
   */
   readonly region?: string;
   /**
   * Specifies the severity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_ips_custom_rules#severity DataSbercloudCfwIpsCustomRules#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_ips_custom_rules#severity DataSbercloudCfwIpsCustomRules#severity}
   */
   readonly severity?: number;
   /**
   * Specifies the affected software.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_ips_custom_rules#software DataSbercloudCfwIpsCustomRules#software}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_ips_custom_rules#software DataSbercloudCfwIpsCustomRules#software}
   */
   readonly softwareAttribute?: number;
 }
@@ -233,7 +233,7 @@ export class DataSbercloudCfwIpsCustomRulesRecordsList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_ips_custom_rules sbercloud_cfw_ips_custom_rules}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_ips_custom_rules sbercloud_cfw_ips_custom_rules}
 */
 export class DataSbercloudCfwIpsCustomRules extends cdktf.TerraformDataSource {
 
@@ -249,7 +249,7 @@ export class DataSbercloudCfwIpsCustomRules extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSbercloudCfwIpsCustomRules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSbercloudCfwIpsCustomRules to import
-  * @param importFromId The id of the existing DataSbercloudCfwIpsCustomRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_ips_custom_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSbercloudCfwIpsCustomRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_ips_custom_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSbercloudCfwIpsCustomRules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -261,7 +261,7 @@ export class DataSbercloudCfwIpsCustomRules extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_ips_custom_rules sbercloud_cfw_ips_custom_rules} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_ips_custom_rules sbercloud_cfw_ips_custom_rules} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -272,8 +272,8 @@ export class DataSbercloudCfwIpsCustomRules extends cdktf.TerraformDataSource {
       terraformResourceType: 'sbercloud_cfw_ips_custom_rules',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

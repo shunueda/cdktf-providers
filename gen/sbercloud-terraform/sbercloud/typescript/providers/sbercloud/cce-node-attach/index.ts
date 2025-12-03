@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_node_attach
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_node_attach
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,15 +8,15 @@ import * as cdktf from 'cdktf';
 
 export interface CceNodeAttachConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_node_attach#cluster_id CceNodeAttach#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_node_attach#cluster_id CceNodeAttach#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_node_attach#docker_base_size CceNodeAttach#docker_base_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_node_attach#docker_base_size CceNodeAttach#docker_base_size}
   */
   readonly dockerBaseSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_node_attach#id CceNodeAttach#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_node_attach#id CceNodeAttach#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,107 +25,107 @@ export interface CceNodeAttachConfig extends cdktf.TerraformMetaArguments {
   /**
   * schema: Internal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_node_attach#image_id CceNodeAttach#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_node_attach#image_id CceNodeAttach#image_id}
   */
   readonly imageId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_node_attach#initialized_conditions CceNodeAttach#initialized_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_node_attach#initialized_conditions CceNodeAttach#initialized_conditions}
   */
   readonly initializedConditions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_node_attach#key_pair CceNodeAttach#key_pair}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_node_attach#key_pair CceNodeAttach#key_pair}
   */
   readonly keyPair?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_node_attach#labels CceNodeAttach#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_node_attach#labels CceNodeAttach#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_node_attach#lvm_config CceNodeAttach#lvm_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_node_attach#lvm_config CceNodeAttach#lvm_config}
   */
   readonly lvmConfig?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_node_attach#max_pods CceNodeAttach#max_pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_node_attach#max_pods CceNodeAttach#max_pods}
   */
   readonly maxPods?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_node_attach#name CceNodeAttach#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_node_attach#name CceNodeAttach#name}
   */
   readonly name?: string;
   /**
   * schema: Internal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_node_attach#nic_multi_queue CceNodeAttach#nic_multi_queue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_node_attach#nic_multi_queue CceNodeAttach#nic_multi_queue}
   */
   readonly nicMultiQueue?: string;
   /**
   * schema: Internal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_node_attach#nic_threshold CceNodeAttach#nic_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_node_attach#nic_threshold CceNodeAttach#nic_threshold}
   */
   readonly nicThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_node_attach#os CceNodeAttach#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_node_attach#os CceNodeAttach#os}
   */
   readonly os: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_node_attach#password CceNodeAttach#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_node_attach#password CceNodeAttach#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_node_attach#postinstall CceNodeAttach#postinstall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_node_attach#postinstall CceNodeAttach#postinstall}
   */
   readonly postinstall?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_node_attach#preinstall CceNodeAttach#preinstall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_node_attach#preinstall CceNodeAttach#preinstall}
   */
   readonly preinstall?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_node_attach#private_key CceNodeAttach#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_node_attach#private_key CceNodeAttach#private_key}
   */
   readonly privateKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_node_attach#region CceNodeAttach#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_node_attach#region CceNodeAttach#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_node_attach#runtime CceNodeAttach#runtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_node_attach#runtime CceNodeAttach#runtime}
   */
   readonly runtime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_node_attach#server_id CceNodeAttach#server_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_node_attach#server_id CceNodeAttach#server_id}
   */
   readonly serverId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_node_attach#system_disk_kms_key_id CceNodeAttach#system_disk_kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_node_attach#system_disk_kms_key_id CceNodeAttach#system_disk_kms_key_id}
   */
   readonly systemDiskKmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_node_attach#tags CceNodeAttach#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_node_attach#tags CceNodeAttach#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * hostname_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_node_attach#hostname_config CceNodeAttach#hostname_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_node_attach#hostname_config CceNodeAttach#hostname_config}
   */
   readonly hostnameConfig?: CceNodeAttachHostnameConfig;
   /**
   * storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_node_attach#storage CceNodeAttach#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_node_attach#storage CceNodeAttach#storage}
   */
   readonly storage?: CceNodeAttachStorage;
   /**
   * taints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_node_attach#taints CceNodeAttach#taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_node_attach#taints CceNodeAttach#taints}
   */
   readonly taints?: CceNodeAttachTaints[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_node_attach#timeouts CceNodeAttach#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_node_attach#timeouts CceNodeAttach#timeouts}
   */
   readonly timeouts?: CceNodeAttachTimeouts;
 }
@@ -438,7 +438,7 @@ export class CceNodeAttachRootVolumeList extends cdktf.ComplexList {
 }
 export interface CceNodeAttachHostnameConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_node_attach#type CceNodeAttach#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_node_attach#type CceNodeAttach#type}
   */
   readonly type: string;
 }
@@ -519,23 +519,23 @@ export class CceNodeAttachHostnameConfigOutputReference extends cdktf.ComplexObj
 }
 export interface CceNodeAttachStorageGroupsVirtualSpaces {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_node_attach#lvm_lv_type CceNodeAttach#lvm_lv_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_node_attach#lvm_lv_type CceNodeAttach#lvm_lv_type}
   */
   readonly lvmLvType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_node_attach#lvm_path CceNodeAttach#lvm_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_node_attach#lvm_path CceNodeAttach#lvm_path}
   */
   readonly lvmPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_node_attach#name CceNodeAttach#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_node_attach#name CceNodeAttach#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_node_attach#runtime_lv_type CceNodeAttach#runtime_lv_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_node_attach#runtime_lv_type CceNodeAttach#runtime_lv_type}
   */
   readonly runtimeLvType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_node_attach#size CceNodeAttach#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_node_attach#size CceNodeAttach#size}
   */
   readonly size: string;
 }
@@ -761,21 +761,21 @@ export class CceNodeAttachStorageGroupsVirtualSpacesList extends cdktf.ComplexLi
 }
 export interface CceNodeAttachStorageGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_node_attach#cce_managed CceNodeAttach#cce_managed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_node_attach#cce_managed CceNodeAttach#cce_managed}
   */
   readonly cceManaged?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_node_attach#name CceNodeAttach#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_node_attach#name CceNodeAttach#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_node_attach#selector_names CceNodeAttach#selector_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_node_attach#selector_names CceNodeAttach#selector_names}
   */
   readonly selectorNames: string[];
   /**
   * virtual_spaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_node_attach#virtual_spaces CceNodeAttach#virtual_spaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_node_attach#virtual_spaces CceNodeAttach#virtual_spaces}
   */
   readonly virtualSpaces: CceNodeAttachStorageGroupsVirtualSpaces[] | cdktf.IResolvable;
 }
@@ -969,31 +969,31 @@ export class CceNodeAttachStorageGroupsList extends cdktf.ComplexList {
 }
 export interface CceNodeAttachStorageSelectors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_node_attach#match_label_count CceNodeAttach#match_label_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_node_attach#match_label_count CceNodeAttach#match_label_count}
   */
   readonly matchLabelCount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_node_attach#match_label_metadata_cmkid CceNodeAttach#match_label_metadata_cmkid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_node_attach#match_label_metadata_cmkid CceNodeAttach#match_label_metadata_cmkid}
   */
   readonly matchLabelMetadataCmkid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_node_attach#match_label_metadata_encrypted CceNodeAttach#match_label_metadata_encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_node_attach#match_label_metadata_encrypted CceNodeAttach#match_label_metadata_encrypted}
   */
   readonly matchLabelMetadataEncrypted?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_node_attach#match_label_size CceNodeAttach#match_label_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_node_attach#match_label_size CceNodeAttach#match_label_size}
   */
   readonly matchLabelSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_node_attach#match_label_volume_type CceNodeAttach#match_label_volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_node_attach#match_label_volume_type CceNodeAttach#match_label_volume_type}
   */
   readonly matchLabelVolumeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_node_attach#name CceNodeAttach#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_node_attach#name CceNodeAttach#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_node_attach#type CceNodeAttach#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_node_attach#type CceNodeAttach#type}
   */
   readonly type?: string;
 }
@@ -1282,13 +1282,13 @@ export interface CceNodeAttachStorage {
   /**
   * groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_node_attach#groups CceNodeAttach#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_node_attach#groups CceNodeAttach#groups}
   */
   readonly groups: CceNodeAttachStorageGroups[] | cdktf.IResolvable;
   /**
   * selectors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_node_attach#selectors CceNodeAttach#selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_node_attach#selectors CceNodeAttach#selectors}
   */
   readonly selectors: CceNodeAttachStorageSelectors[] | cdktf.IResolvable;
 }
@@ -1395,15 +1395,15 @@ export class CceNodeAttachStorageOutputReference extends cdktf.ComplexObject {
 }
 export interface CceNodeAttachTaints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_node_attach#effect CceNodeAttach#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_node_attach#effect CceNodeAttach#effect}
   */
   readonly effect: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_node_attach#key CceNodeAttach#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_node_attach#key CceNodeAttach#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_node_attach#value CceNodeAttach#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_node_attach#value CceNodeAttach#value}
   */
   readonly value: string;
 }
@@ -1568,15 +1568,15 @@ export class CceNodeAttachTaintsList extends cdktf.ComplexList {
 }
 export interface CceNodeAttachTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_node_attach#create CceNodeAttach#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_node_attach#create CceNodeAttach#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_node_attach#delete CceNodeAttach#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_node_attach#delete CceNodeAttach#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_node_attach#update CceNodeAttach#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_node_attach#update CceNodeAttach#update}
   */
   readonly update?: string;
 }
@@ -1728,7 +1728,7 @@ export class CceNodeAttachTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_node_attach sbercloud_cce_node_attach}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_node_attach sbercloud_cce_node_attach}
 */
 export class CceNodeAttach extends cdktf.TerraformResource {
 
@@ -1744,7 +1744,7 @@ export class CceNodeAttach extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CceNodeAttach resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CceNodeAttach to import
-  * @param importFromId The id of the existing CceNodeAttach that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_node_attach#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CceNodeAttach that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_node_attach#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CceNodeAttach to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1756,7 +1756,7 @@ export class CceNodeAttach extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_node_attach sbercloud_cce_node_attach} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_node_attach sbercloud_cce_node_attach} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1767,8 +1767,8 @@ export class CceNodeAttach extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_cce_node_attach',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

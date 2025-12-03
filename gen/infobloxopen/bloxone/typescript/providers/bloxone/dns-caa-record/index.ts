@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_caa_record
+// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_caa_record
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,57 +10,57 @@ export interface DnsCaaRecordConfig extends cdktf.TerraformMetaArguments {
   /**
   * Synthetic field, used to determine _zone_ and/or _name_in_zone_ field for records.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_caa_record#absolute_name_spec DnsCaaRecord#absolute_name_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_caa_record#absolute_name_spec DnsCaaRecord#absolute_name_spec}
   */
   readonly absoluteNameSpec?: string;
   /**
   * The description for the DNS resource record. May contain 0 to 1024 characters. Can include UTF-8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_caa_record#comment DnsCaaRecord#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_caa_record#comment DnsCaaRecord#comment}
   */
   readonly comment?: string;
   /**
   * Indicates if the DNS resource record is disabled. A disabled object is effectively non-existent when generating configuration.  Defaults to _false_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_caa_record#disabled DnsCaaRecord#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_caa_record#disabled DnsCaaRecord#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_caa_record#inheritance_sources DnsCaaRecord#inheritance_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_caa_record#inheritance_sources DnsCaaRecord#inheritance_sources}
   */
   readonly inheritanceSources?: DnsCaaRecordInheritanceSources;
   /**
   * The relative owner name to the zone origin. Must be specified for creating the DNS resource record and is read only for other operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_caa_record#name_in_zone DnsCaaRecord#name_in_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_caa_record#name_in_zone DnsCaaRecord#name_in_zone}
   */
   readonly nameInZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_caa_record#rdata DnsCaaRecord#rdata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_caa_record#rdata DnsCaaRecord#rdata}
   */
   readonly rdata: DnsCaaRecordRdata;
   /**
   * The tags for the DNS resource record in JSON format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_caa_record#tags DnsCaaRecord#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_caa_record#tags DnsCaaRecord#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The record time to live value in seconds. The range of this value is 0 to 2147483647.  Defaults to TTL value from the SOA record of the zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_caa_record#ttl DnsCaaRecord#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_caa_record#ttl DnsCaaRecord#ttl}
   */
   readonly ttl?: number;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_caa_record#view DnsCaaRecord#view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_caa_record#view DnsCaaRecord#view}
   */
   readonly view?: string;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_caa_record#zone DnsCaaRecord#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_caa_record#zone DnsCaaRecord#zone}
   */
   readonly zone?: string;
 }
@@ -72,7 +72,7 @@ export interface DnsCaaRecordInheritanceSourcesTtl {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_caa_record#action DnsCaaRecord#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_caa_record#action DnsCaaRecord#action}
   */
   readonly action?: string;
 }
@@ -181,7 +181,7 @@ export class DnsCaaRecordInheritanceSourcesTtlOutputReference extends cdktf.Comp
 }
 export interface DnsCaaRecordInheritanceSources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_caa_record#ttl DnsCaaRecord#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_caa_record#ttl DnsCaaRecord#ttl}
   */
   readonly ttl?: DnsCaaRecordInheritanceSourcesTtl;
 }
@@ -326,7 +326,7 @@ export interface DnsCaaRecordRdata {
   /**
   * An unsigned 8-bit integer which specifies the CAA record flags. RFC 6844 defines one (highest) bit in flag octet, remaining bits are deferred for future use. This bit is referenced as Critical. When the bit is set (flag value == 128), issuers must not issue certificates in case CAA records contain unknown property tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_caa_record#flags DnsCaaRecord#flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_caa_record#flags DnsCaaRecord#flags}
   */
   readonly flags?: number;
   /**
@@ -336,7 +336,7 @@ export interface DnsCaaRecordRdata {
   * iodef: Used to specify an email address or URL to report invalid certificate requests or issuers’ certificate policy violations.
   * Note: issuewild type takes precedence over issue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_caa_record#tag DnsCaaRecord#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_caa_record#tag DnsCaaRecord#tag}
   */
   readonly tag: string;
   /**
@@ -346,7 +346,7 @@ export interface DnsCaaRecordRdata {
   * 
   * Specifies the URL/email address to report CAA policy violation for the domain if the CAA record property tag is iodef.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_caa_record#value DnsCaaRecord#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_caa_record#value DnsCaaRecord#value}
   */
   readonly value: string;
 }
@@ -492,7 +492,7 @@ export class DnsCaaRecordRdataOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_caa_record bloxone_dns_caa_record}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_caa_record bloxone_dns_caa_record}
 */
 export class DnsCaaRecord extends cdktf.TerraformResource {
 
@@ -508,7 +508,7 @@ export class DnsCaaRecord extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DnsCaaRecord resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DnsCaaRecord to import
-  * @param importFromId The id of the existing DnsCaaRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_caa_record#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DnsCaaRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_caa_record#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DnsCaaRecord to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -520,7 +520,7 @@ export class DnsCaaRecord extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_caa_record bloxone_dns_caa_record} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_caa_record bloxone_dns_caa_record} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -531,8 +531,8 @@ export class DnsCaaRecord extends cdktf.TerraformResource {
       terraformResourceType: 'bloxone_dns_caa_record',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.5.4',
+        providerVersionConstraint: '1.5.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

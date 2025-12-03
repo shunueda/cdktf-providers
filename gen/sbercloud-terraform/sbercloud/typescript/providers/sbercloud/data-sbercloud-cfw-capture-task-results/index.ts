@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_capture_task_results
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_capture_task_results
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataSbercloudCfwCaptureTaskResultsConfig extends cdktf.Terrafor
   /**
   * Specifies the ID of the firewall instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_capture_task_results#fw_instance_id DataSbercloudCfwCaptureTaskResults#fw_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_capture_task_results#fw_instance_id DataSbercloudCfwCaptureTaskResults#fw_instance_id}
   */
   readonly fwInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_capture_task_results#id DataSbercloudCfwCaptureTaskResults#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_capture_task_results#id DataSbercloudCfwCaptureTaskResults#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface DataSbercloudCfwCaptureTaskResultsConfig extends cdktf.Terrafor
   /**
   * Specifies the public IP address ranges.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_capture_task_results#ip DataSbercloudCfwCaptureTaskResults#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_capture_task_results#ip DataSbercloudCfwCaptureTaskResults#ip}
   */
   readonly ip?: string[];
   /**
   * Specifies the region in which to query the resource. If omitted, the provider-level region will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_capture_task_results#region DataSbercloudCfwCaptureTaskResults#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_capture_task_results#region DataSbercloudCfwCaptureTaskResults#region}
   */
   readonly region?: string;
   /**
   * Specifies the capture task ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_capture_task_results#task_id DataSbercloudCfwCaptureTaskResults#task_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_capture_task_results#task_id DataSbercloudCfwCaptureTaskResults#task_id}
   */
   readonly taskId: string;
   /**
   * Specifies whether to set a public IP address for downloading.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_capture_task_results#type DataSbercloudCfwCaptureTaskResults#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_capture_task_results#type DataSbercloudCfwCaptureTaskResults#type}
   */
   readonly type?: number;
 }
@@ -207,7 +207,7 @@ export class DataSbercloudCfwCaptureTaskResultsRequestHeaderList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_capture_task_results sbercloud_cfw_capture_task_results}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_capture_task_results sbercloud_cfw_capture_task_results}
 */
 export class DataSbercloudCfwCaptureTaskResults extends cdktf.TerraformDataSource {
 
@@ -223,7 +223,7 @@ export class DataSbercloudCfwCaptureTaskResults extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataSbercloudCfwCaptureTaskResults resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSbercloudCfwCaptureTaskResults to import
-  * @param importFromId The id of the existing DataSbercloudCfwCaptureTaskResults that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_capture_task_results#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSbercloudCfwCaptureTaskResults that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_capture_task_results#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSbercloudCfwCaptureTaskResults to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -235,7 +235,7 @@ export class DataSbercloudCfwCaptureTaskResults extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_capture_task_results sbercloud_cfw_capture_task_results} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_capture_task_results sbercloud_cfw_capture_task_results} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -246,8 +246,8 @@ export class DataSbercloudCfwCaptureTaskResults extends cdktf.TerraformDataSourc
       terraformResourceType: 'sbercloud_cfw_capture_task_results',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

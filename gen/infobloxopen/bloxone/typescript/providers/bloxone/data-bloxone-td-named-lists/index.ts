@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_named_lists
+// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_named_lists
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataBloxoneTdNamedListsConfig extends cdktf.TerraformMetaArgume
   /**
   * Filter are used to return a more specific list of results. Filters can be used to match resources by specific attributes, e.g. name. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_named_lists#filters DataBloxoneTdNamedLists#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_named_lists#filters DataBloxoneTdNamedLists#filters}
   */
   readonly filters?: { [key: string]: string };
   /**
   * Tag Filters are used to return a more specific list of results filtered by tags. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_named_lists#tag_filters DataBloxoneTdNamedLists#tag_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_named_lists#tag_filters DataBloxoneTdNamedLists#tag_filters}
   */
   readonly tagFilters?: { [key: string]: string };
 }
@@ -24,13 +24,13 @@ export interface DataBloxoneTdNamedListsResultsItemsDescribed {
   /**
   * The description of the item
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_named_lists#description DataBloxoneTdNamedLists#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_named_lists#description DataBloxoneTdNamedLists#description}
   */
   readonly description?: string;
   /**
   * The data of the Item
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_named_lists#item DataBloxoneTdNamedLists#item}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_named_lists#item DataBloxoneTdNamedLists#item}
   */
   readonly item: string;
 }
@@ -174,43 +174,43 @@ export interface DataBloxoneTdNamedListsResults {
   /**
   * The confidence level for a custom list. The possible values are ["LOW", "MEDIUM", "HIGH"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_named_lists#confidence_level DataBloxoneTdNamedLists#confidence_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_named_lists#confidence_level DataBloxoneTdNamedLists#confidence_level}
   */
   readonly confidenceLevel?: string;
   /**
   * The brief description for the named list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_named_lists#description DataBloxoneTdNamedLists#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_named_lists#description DataBloxoneTdNamedLists#description}
   */
   readonly description?: string;
   /**
   * The List of ItemStructs structure which contains the item and its description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_named_lists#items_described DataBloxoneTdNamedLists#items_described}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_named_lists#items_described DataBloxoneTdNamedLists#items_described}
   */
   readonly itemsDescribed?: DataBloxoneTdNamedListsResultsItemsDescribed[] | cdktf.IResolvable;
   /**
   * The name of the named list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_named_lists#name DataBloxoneTdNamedLists#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_named_lists#name DataBloxoneTdNamedLists#name}
   */
   readonly name: string;
   /**
   * The tags for the named list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_named_lists#tags DataBloxoneTdNamedLists#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_named_lists#tags DataBloxoneTdNamedLists#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The threat level for a custom list. The possible values are ["INFO", "LOW", "MEDIUM", "HIGH"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_named_lists#threat_level DataBloxoneTdNamedLists#threat_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_named_lists#threat_level DataBloxoneTdNamedLists#threat_level}
   */
   readonly threatLevel?: string;
   /**
   * The type of the named list, that can be "custom_list", "threat_insight", "fast_flux", "dga", "dnsm", "threat_insight_nde", "default_allow", "default_block" or "threat_insight_nde".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_named_lists#type DataBloxoneTdNamedLists#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_named_lists#type DataBloxoneTdNamedLists#type}
   */
   readonly type?: string;
 }
@@ -523,7 +523,7 @@ export class DataBloxoneTdNamedListsResultsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_named_lists bloxone_td_named_lists}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_named_lists bloxone_td_named_lists}
 */
 export class DataBloxoneTdNamedLists extends cdktf.TerraformDataSource {
 
@@ -539,7 +539,7 @@ export class DataBloxoneTdNamedLists extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataBloxoneTdNamedLists resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataBloxoneTdNamedLists to import
-  * @param importFromId The id of the existing DataBloxoneTdNamedLists that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_named_lists#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataBloxoneTdNamedLists that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_named_lists#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataBloxoneTdNamedLists to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -551,7 +551,7 @@ export class DataBloxoneTdNamedLists extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_named_lists bloxone_td_named_lists} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_named_lists bloxone_td_named_lists} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -562,8 +562,8 @@ export class DataBloxoneTdNamedLists extends cdktf.TerraformDataSource {
       terraformResourceType: 'bloxone_td_named_lists',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.5.4',
+        providerVersionConstraint: '1.5.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

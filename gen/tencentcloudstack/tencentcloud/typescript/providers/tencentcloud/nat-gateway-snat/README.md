@@ -1,3 +1,3 @@
 # `tencentcloud_nat_gateway_snat`
 
-Refer to the Terraform Registry for docs: [`tencentcloud_nat_gateway_snat`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/nat_gateway_snat).
+Refer to the Terraform Registry for docs: [`tencentcloud_nat_gateway_snat`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/nat_gateway_snat).

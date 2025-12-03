@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/er_attachments
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/er_attachments
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataSbercloudErAttachmentsConfig extends cdktf.TerraformMetaArg
   /**
   * The specified attachment ID used to query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/er_attachments#attachment_id DataSbercloudErAttachments#attachment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/er_attachments#attachment_id DataSbercloudErAttachments#attachment_id}
   */
   readonly attachmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/er_attachments#id DataSbercloudErAttachments#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/er_attachments#id DataSbercloudErAttachments#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,43 +23,43 @@ export interface DataSbercloudErAttachmentsConfig extends cdktf.TerraformMetaArg
   /**
   * The ER instance ID to which the attachment belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/er_attachments#instance_id DataSbercloudErAttachments#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/er_attachments#instance_id DataSbercloudErAttachments#instance_id}
   */
   readonly instanceId: string;
   /**
   * The name used to filter the attachments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/er_attachments#name DataSbercloudErAttachments#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/er_attachments#name DataSbercloudErAttachments#name}
   */
   readonly name?: string;
   /**
   * The region where the ER attachments are located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/er_attachments#region DataSbercloudErAttachments#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/er_attachments#region DataSbercloudErAttachments#region}
   */
   readonly region?: string;
   /**
   * The associated resource ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/er_attachments#resource_id DataSbercloudErAttachments#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/er_attachments#resource_id DataSbercloudErAttachments#resource_id}
   */
   readonly resourceId?: string;
   /**
   * The status used to filter the attachments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/er_attachments#status DataSbercloudErAttachments#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/er_attachments#status DataSbercloudErAttachments#status}
   */
   readonly status?: string;
   /**
   * The key/value pairs used to filter the attachments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/er_attachments#tags DataSbercloudErAttachments#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/er_attachments#tags DataSbercloudErAttachments#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The resource type to be filtered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/er_attachments#type DataSbercloudErAttachments#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/er_attachments#type DataSbercloudErAttachments#type}
   */
   readonly type?: string;
 }
@@ -191,7 +191,7 @@ export class DataSbercloudErAttachmentsAttachmentsList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/er_attachments sbercloud_er_attachments}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/er_attachments sbercloud_er_attachments}
 */
 export class DataSbercloudErAttachments extends cdktf.TerraformDataSource {
 
@@ -207,7 +207,7 @@ export class DataSbercloudErAttachments extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSbercloudErAttachments resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSbercloudErAttachments to import
-  * @param importFromId The id of the existing DataSbercloudErAttachments that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/er_attachments#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSbercloudErAttachments that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/er_attachments#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSbercloudErAttachments to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -219,7 +219,7 @@ export class DataSbercloudErAttachments extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/er_attachments sbercloud_er_attachments} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/er_attachments sbercloud_er_attachments} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -230,8 +230,8 @@ export class DataSbercloudErAttachments extends cdktf.TerraformDataSource {
       terraformResourceType: 'sbercloud_er_attachments',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/identity_center_external_saml_identity_provider
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/identity_center_external_saml_identity_provider
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface IdentityCenterExternalSamlIdentityProviderConfig extends cdktf.
   /**
   * IdP metadata document (Base64 encoded). Provided by an IdP that supports the SAML 2.0 protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/identity_center_external_saml_identity_provider#encoded_metadata_document IdentityCenterExternalSamlIdentityProvider#encoded_metadata_document}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/identity_center_external_saml_identity_provider#encoded_metadata_document IdentityCenterExternalSamlIdentityProvider#encoded_metadata_document}
   */
   readonly encodedMetadataDocument?: string;
   /**
   * IdP identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/identity_center_external_saml_identity_provider#entity_id IdentityCenterExternalSamlIdentityProvider#entity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/identity_center_external_saml_identity_provider#entity_id IdentityCenterExternalSamlIdentityProvider#entity_id}
   */
   readonly entityId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/identity_center_external_saml_identity_provider#id IdentityCenterExternalSamlIdentityProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/identity_center_external_saml_identity_provider#id IdentityCenterExternalSamlIdentityProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface IdentityCenterExternalSamlIdentityProviderConfig extends cdktf.
   /**
   * IdP login URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/identity_center_external_saml_identity_provider#login_url IdentityCenterExternalSamlIdentityProvider#login_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/identity_center_external_saml_identity_provider#login_url IdentityCenterExternalSamlIdentityProvider#login_url}
   */
   readonly loginUrl?: string;
   /**
   * SSO enabling status. Valid values: Enabled, Disabled (default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/identity_center_external_saml_identity_provider#sso_status IdentityCenterExternalSamlIdentityProvider#sso_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/identity_center_external_saml_identity_provider#sso_status IdentityCenterExternalSamlIdentityProvider#sso_status}
   */
   readonly ssoStatus?: string;
   /**
   * X509 certificate in PEM format. If this parameter is specified, all existing certificates will be replaced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/identity_center_external_saml_identity_provider#x509_certificate IdentityCenterExternalSamlIdentityProvider#x509_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/identity_center_external_saml_identity_provider#x509_certificate IdentityCenterExternalSamlIdentityProvider#x509_certificate}
   */
   readonly x509Certificate?: string;
   /**
   * Space ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/identity_center_external_saml_identity_provider#zone_id IdentityCenterExternalSamlIdentityProvider#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/identity_center_external_saml_identity_provider#zone_id IdentityCenterExternalSamlIdentityProvider#zone_id}
   */
   readonly zoneId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/identity_center_external_saml_identity_provider tencentcloud_identity_center_external_saml_identity_provider}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/identity_center_external_saml_identity_provider tencentcloud_identity_center_external_saml_identity_provider}
 */
 export class IdentityCenterExternalSamlIdentityProvider extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class IdentityCenterExternalSamlIdentityProvider extends cdktf.TerraformR
   * Generates CDKTF code for importing a IdentityCenterExternalSamlIdentityProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IdentityCenterExternalSamlIdentityProvider to import
-  * @param importFromId The id of the existing IdentityCenterExternalSamlIdentityProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/identity_center_external_saml_identity_provider#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IdentityCenterExternalSamlIdentityProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/identity_center_external_saml_identity_provider#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IdentityCenterExternalSamlIdentityProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class IdentityCenterExternalSamlIdentityProvider extends cdktf.TerraformR
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/identity_center_external_saml_identity_provider tencentcloud_identity_center_external_saml_identity_provider} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/identity_center_external_saml_identity_provider tencentcloud_identity_center_external_saml_identity_provider} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class IdentityCenterExternalSamlIdentityProvider extends cdktf.TerraformR
       terraformResourceType: 'tencentcloud_identity_center_external_saml_identity_provider',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.39',
-        providerVersionConstraint: '1.82.39'
+        providerVersion: '1.82.40',
+        providerVersionConstraint: '1.82.40'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

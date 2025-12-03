@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_rocketmq_users
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_rocketmq_users
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface DataSbercloudDmsRocketmqUsersConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_rocketmq_users#access_key DataSbercloudDmsRocketmqUsers#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_rocketmq_users#access_key DataSbercloudDmsRocketmqUsers#access_key}
   */
   readonly accessKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_rocketmq_users#admin DataSbercloudDmsRocketmqUsers#admin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_rocketmq_users#admin DataSbercloudDmsRocketmqUsers#admin}
   */
   readonly admin?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_rocketmq_users#default_group_perm DataSbercloudDmsRocketmqUsers#default_group_perm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_rocketmq_users#default_group_perm DataSbercloudDmsRocketmqUsers#default_group_perm}
   */
   readonly defaultGroupPerm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_rocketmq_users#default_topic_perm DataSbercloudDmsRocketmqUsers#default_topic_perm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_rocketmq_users#default_topic_perm DataSbercloudDmsRocketmqUsers#default_topic_perm}
   */
   readonly defaultTopicPerm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_rocketmq_users#id DataSbercloudDmsRocketmqUsers#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_rocketmq_users#id DataSbercloudDmsRocketmqUsers#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_rocketmq_users#instance_id DataSbercloudDmsRocketmqUsers#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_rocketmq_users#instance_id DataSbercloudDmsRocketmqUsers#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_rocketmq_users#region DataSbercloudDmsRocketmqUsers#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_rocketmq_users#region DataSbercloudDmsRocketmqUsers#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_rocketmq_users#white_remote_address DataSbercloudDmsRocketmqUsers#white_remote_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_rocketmq_users#white_remote_address DataSbercloudDmsRocketmqUsers#white_remote_address}
   */
   readonly whiteRemoteAddress?: string;
 }
@@ -312,7 +312,7 @@ export class DataSbercloudDmsRocketmqUsersUsersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_rocketmq_users sbercloud_dms_rocketmq_users}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_rocketmq_users sbercloud_dms_rocketmq_users}
 */
 export class DataSbercloudDmsRocketmqUsers extends cdktf.TerraformDataSource {
 
@@ -328,7 +328,7 @@ export class DataSbercloudDmsRocketmqUsers extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSbercloudDmsRocketmqUsers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSbercloudDmsRocketmqUsers to import
-  * @param importFromId The id of the existing DataSbercloudDmsRocketmqUsers that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_rocketmq_users#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSbercloudDmsRocketmqUsers that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_rocketmq_users#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSbercloudDmsRocketmqUsers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -340,7 +340,7 @@ export class DataSbercloudDmsRocketmqUsers extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_rocketmq_users sbercloud_dms_rocketmq_users} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_rocketmq_users sbercloud_dms_rocketmq_users} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -351,8 +351,8 @@ export class DataSbercloudDmsRocketmqUsers extends cdktf.TerraformDataSource {
       terraformResourceType: 'sbercloud_dms_rocketmq_users',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_api_associated_throttling_policies
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_api_associated_throttling_policies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataSbercloudApigApiAssociatedThrottlingPoliciesConfig extends 
   /**
   * The ID of the API bound to the throttling policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_api_associated_throttling_policies#api_id DataSbercloudApigApiAssociatedThrottlingPolicies#api_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_api_associated_throttling_policies#api_id DataSbercloudApigApiAssociatedThrottlingPolicies#api_id}
   */
   readonly apiId: string;
   /**
   * The name of the environment where the API is published.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_api_associated_throttling_policies#env_name DataSbercloudApigApiAssociatedThrottlingPolicies#env_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_api_associated_throttling_policies#env_name DataSbercloudApigApiAssociatedThrottlingPolicies#env_name}
   */
   readonly envName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_api_associated_throttling_policies#id DataSbercloudApigApiAssociatedThrottlingPolicies#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_api_associated_throttling_policies#id DataSbercloudApigApiAssociatedThrottlingPolicies#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,35 +29,35 @@ export interface DataSbercloudApigApiAssociatedThrottlingPoliciesConfig extends 
   /**
   * The ID of the dedicated instance to which the throttling policies belong.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_api_associated_throttling_policies#instance_id DataSbercloudApigApiAssociatedThrottlingPolicies#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_api_associated_throttling_policies#instance_id DataSbercloudApigApiAssociatedThrottlingPolicies#instance_id}
   */
   readonly instanceId: string;
   /**
   * The name of the throttling policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_api_associated_throttling_policies#name DataSbercloudApigApiAssociatedThrottlingPolicies#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_api_associated_throttling_policies#name DataSbercloudApigApiAssociatedThrottlingPolicies#name}
   */
   readonly name?: string;
   /**
   * The time unit for limiting the number of API calls.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_api_associated_throttling_policies#period_unit DataSbercloudApigApiAssociatedThrottlingPolicies#period_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_api_associated_throttling_policies#period_unit DataSbercloudApigApiAssociatedThrottlingPolicies#period_unit}
   */
   readonly periodUnit?: string;
   /**
   * The ID of the throttling policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_api_associated_throttling_policies#policy_id DataSbercloudApigApiAssociatedThrottlingPolicies#policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_api_associated_throttling_policies#policy_id DataSbercloudApigApiAssociatedThrottlingPolicies#policy_id}
   */
   readonly policyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_api_associated_throttling_policies#region DataSbercloudApigApiAssociatedThrottlingPolicies#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_api_associated_throttling_policies#region DataSbercloudApigApiAssociatedThrottlingPolicies#region}
   */
   readonly region?: string;
   /**
   * The type of the throttling policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_api_associated_throttling_policies#type DataSbercloudApigApiAssociatedThrottlingPolicies#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_api_associated_throttling_policies#type DataSbercloudApigApiAssociatedThrottlingPolicies#type}
   */
   readonly type?: string;
 }
@@ -395,7 +395,7 @@ export class DataSbercloudApigApiAssociatedThrottlingPoliciesPoliciesList extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_api_associated_throttling_policies sbercloud_apig_api_associated_throttling_policies}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_api_associated_throttling_policies sbercloud_apig_api_associated_throttling_policies}
 */
 export class DataSbercloudApigApiAssociatedThrottlingPolicies extends cdktf.TerraformDataSource {
 
@@ -411,7 +411,7 @@ export class DataSbercloudApigApiAssociatedThrottlingPolicies extends cdktf.Terr
   * Generates CDKTF code for importing a DataSbercloudApigApiAssociatedThrottlingPolicies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSbercloudApigApiAssociatedThrottlingPolicies to import
-  * @param importFromId The id of the existing DataSbercloudApigApiAssociatedThrottlingPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_api_associated_throttling_policies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSbercloudApigApiAssociatedThrottlingPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_api_associated_throttling_policies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSbercloudApigApiAssociatedThrottlingPolicies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -423,7 +423,7 @@ export class DataSbercloudApigApiAssociatedThrottlingPolicies extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_api_associated_throttling_policies sbercloud_apig_api_associated_throttling_policies} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_api_associated_throttling_policies sbercloud_apig_api_associated_throttling_policies} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -434,8 +434,8 @@ export class DataSbercloudApigApiAssociatedThrottlingPolicies extends cdktf.Terr
       terraformResourceType: 'sbercloud_apig_api_associated_throttling_policies',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

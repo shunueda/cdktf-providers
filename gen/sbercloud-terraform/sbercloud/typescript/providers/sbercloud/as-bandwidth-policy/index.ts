@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/as_bandwidth_policy
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/as_bandwidth_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,78 +10,78 @@ export interface AsBandwidthPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies identification of operation the AS bandwidth policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/as_bandwidth_policy#action AsBandwidthPolicy#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/as_bandwidth_policy#action AsBandwidthPolicy#action}
   */
   readonly action?: string;
   /**
   * Specifies the alarm rule ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/as_bandwidth_policy#alarm_id AsBandwidthPolicy#alarm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/as_bandwidth_policy#alarm_id AsBandwidthPolicy#alarm_id}
   */
   readonly alarmId?: string;
   /**
   * Specifies the scaling bandwidth ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/as_bandwidth_policy#bandwidth_id AsBandwidthPolicy#bandwidth_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/as_bandwidth_policy#bandwidth_id AsBandwidthPolicy#bandwidth_id}
   */
   readonly bandwidthId: string;
   /**
   * Specifies the cooldown period (in seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/as_bandwidth_policy#cool_down_time AsBandwidthPolicy#cool_down_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/as_bandwidth_policy#cool_down_time AsBandwidthPolicy#cool_down_time}
   */
   readonly coolDownTime?: number;
   /**
   * Specifies the description of the AS policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/as_bandwidth_policy#description AsBandwidthPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/as_bandwidth_policy#description AsBandwidthPolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/as_bandwidth_policy#id AsBandwidthPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/as_bandwidth_policy#id AsBandwidthPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/as_bandwidth_policy#region AsBandwidthPolicy#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/as_bandwidth_policy#region AsBandwidthPolicy#region}
   */
   readonly region?: string;
   /**
   * Specifies the AS policy name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/as_bandwidth_policy#scaling_policy_name AsBandwidthPolicy#scaling_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/as_bandwidth_policy#scaling_policy_name AsBandwidthPolicy#scaling_policy_name}
   */
   readonly scalingPolicyName: string;
   /**
   * Specifies the AS policy type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/as_bandwidth_policy#scaling_policy_type AsBandwidthPolicy#scaling_policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/as_bandwidth_policy#scaling_policy_type AsBandwidthPolicy#scaling_policy_type}
   */
   readonly scalingPolicyType: string;
   /**
   * interval_alarm_actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/as_bandwidth_policy#interval_alarm_actions AsBandwidthPolicy#interval_alarm_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/as_bandwidth_policy#interval_alarm_actions AsBandwidthPolicy#interval_alarm_actions}
   */
   readonly intervalAlarmActions?: AsBandwidthPolicyIntervalAlarmActions[] | cdktf.IResolvable;
   /**
   * scaling_policy_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/as_bandwidth_policy#scaling_policy_action AsBandwidthPolicy#scaling_policy_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/as_bandwidth_policy#scaling_policy_action AsBandwidthPolicy#scaling_policy_action}
   */
   readonly scalingPolicyAction?: AsBandwidthPolicyScalingPolicyAction;
   /**
   * scheduled_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/as_bandwidth_policy#scheduled_policy AsBandwidthPolicy#scheduled_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/as_bandwidth_policy#scheduled_policy AsBandwidthPolicy#scheduled_policy}
   */
   readonly scheduledPolicy?: AsBandwidthPolicyScheduledPolicy;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/as_bandwidth_policy#timeouts AsBandwidthPolicy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/as_bandwidth_policy#timeouts AsBandwidthPolicy#timeouts}
   */
   readonly timeouts?: AsBandwidthPolicyTimeouts;
 }
@@ -174,31 +174,31 @@ export interface AsBandwidthPolicyIntervalAlarmActions {
   /**
   * Specifies the operation restrictions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/as_bandwidth_policy#limits AsBandwidthPolicy#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/as_bandwidth_policy#limits AsBandwidthPolicy#limits}
   */
   readonly limits?: number;
   /**
   * Specifies the lower limit of the value range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/as_bandwidth_policy#lower_bound AsBandwidthPolicy#lower_bound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/as_bandwidth_policy#lower_bound AsBandwidthPolicy#lower_bound}
   */
   readonly lowerBound?: string;
   /**
   * Specifies the operation to be performed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/as_bandwidth_policy#operation AsBandwidthPolicy#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/as_bandwidth_policy#operation AsBandwidthPolicy#operation}
   */
   readonly operation?: string;
   /**
   * Specifies the operation size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/as_bandwidth_policy#size AsBandwidthPolicy#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/as_bandwidth_policy#size AsBandwidthPolicy#size}
   */
   readonly size?: number;
   /**
   * Specifies the upper limit of the value range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/as_bandwidth_policy#upper_bound AsBandwidthPolicy#upper_bound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/as_bandwidth_policy#upper_bound AsBandwidthPolicy#upper_bound}
   */
   readonly upperBound?: string;
 }
@@ -432,19 +432,19 @@ export interface AsBandwidthPolicyScalingPolicyAction {
   /**
   * Specifies the operation restrictions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/as_bandwidth_policy#limits AsBandwidthPolicy#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/as_bandwidth_policy#limits AsBandwidthPolicy#limits}
   */
   readonly limits?: number;
   /**
   * Specifies the operation to be performed. The default operation is ADD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/as_bandwidth_policy#operation AsBandwidthPolicy#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/as_bandwidth_policy#operation AsBandwidthPolicy#operation}
   */
   readonly operation?: string;
   /**
   * Specifies the bandwidth (Mbit/s).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/as_bandwidth_policy#size AsBandwidthPolicy#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/as_bandwidth_policy#size AsBandwidthPolicy#size}
   */
   readonly size?: number;
 }
@@ -588,31 +588,31 @@ export interface AsBandwidthPolicyScheduledPolicy {
   /**
   * Specifies the end time of the scaling action triggered periodically.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/as_bandwidth_policy#end_time AsBandwidthPolicy#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/as_bandwidth_policy#end_time AsBandwidthPolicy#end_time}
   */
   readonly endTime?: string;
   /**
   * Specifies the time when the scaling action is triggered. The time format complies with UTC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/as_bandwidth_policy#launch_time AsBandwidthPolicy#launch_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/as_bandwidth_policy#launch_time AsBandwidthPolicy#launch_time}
   */
   readonly launchTime: string;
   /**
   * Specifies the periodic triggering type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/as_bandwidth_policy#recurrence_type AsBandwidthPolicy#recurrence_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/as_bandwidth_policy#recurrence_type AsBandwidthPolicy#recurrence_type}
   */
   readonly recurrenceType?: string;
   /**
   * Specifies the day when a periodic scaling action is triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/as_bandwidth_policy#recurrence_value AsBandwidthPolicy#recurrence_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/as_bandwidth_policy#recurrence_value AsBandwidthPolicy#recurrence_value}
   */
   readonly recurrenceValue?: string;
   /**
   * Specifies the start time of the scaling action triggered periodically.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/as_bandwidth_policy#start_time AsBandwidthPolicy#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/as_bandwidth_policy#start_time AsBandwidthPolicy#start_time}
   */
   readonly startTime?: string;
 }
@@ -809,11 +809,11 @@ export class AsBandwidthPolicyScheduledPolicyOutputReference extends cdktf.Compl
 }
 export interface AsBandwidthPolicyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/as_bandwidth_policy#create AsBandwidthPolicy#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/as_bandwidth_policy#create AsBandwidthPolicy#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/as_bandwidth_policy#update AsBandwidthPolicy#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/as_bandwidth_policy#update AsBandwidthPolicy#update}
   */
   readonly update?: string;
 }
@@ -936,7 +936,7 @@ export class AsBandwidthPolicyTimeoutsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/as_bandwidth_policy sbercloud_as_bandwidth_policy}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/as_bandwidth_policy sbercloud_as_bandwidth_policy}
 */
 export class AsBandwidthPolicy extends cdktf.TerraformResource {
 
@@ -952,7 +952,7 @@ export class AsBandwidthPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AsBandwidthPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AsBandwidthPolicy to import
-  * @param importFromId The id of the existing AsBandwidthPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/as_bandwidth_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AsBandwidthPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/as_bandwidth_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AsBandwidthPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -964,7 +964,7 @@ export class AsBandwidthPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/as_bandwidth_policy sbercloud_as_bandwidth_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/as_bandwidth_policy sbercloud_as_bandwidth_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -975,8 +975,8 @@ export class AsBandwidthPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_as_bandwidth_policy',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/fgs_functions
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/fgs_functions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataSbercloudFgsFunctionsConfig extends cdktf.TerraformMetaArgu
   /**
   * The ID of the enterprise project to which the functions belong.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/fgs_functions#enterprise_project_id DataSbercloudFgsFunctions#enterprise_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/fgs_functions#enterprise_project_id DataSbercloudFgsFunctions#enterprise_project_id}
   */
   readonly enterpriseProjectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/fgs_functions#id DataSbercloudFgsFunctions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/fgs_functions#id DataSbercloudFgsFunctions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface DataSbercloudFgsFunctionsConfig extends cdktf.TerraformMetaArgu
   /**
   * The function name used to query the specified function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/fgs_functions#name DataSbercloudFgsFunctions#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/fgs_functions#name DataSbercloudFgsFunctions#name}
   */
   readonly name?: string;
   /**
   * The package name used to query the functions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/fgs_functions#package_name DataSbercloudFgsFunctions#package_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/fgs_functions#package_name DataSbercloudFgsFunctions#package_name}
   */
   readonly packageName?: string;
   /**
   * The region where the functions are located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/fgs_functions#region DataSbercloudFgsFunctions#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/fgs_functions#region DataSbercloudFgsFunctions#region}
   */
   readonly region?: string;
   /**
   * The dependency package runtime used to query the functions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/fgs_functions#runtime DataSbercloudFgsFunctions#runtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/fgs_functions#runtime DataSbercloudFgsFunctions#runtime}
   */
   readonly runtime?: string;
   /**
   * The function URN used to query the specified function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/fgs_functions#urn DataSbercloudFgsFunctions#urn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/fgs_functions#urn DataSbercloudFgsFunctions#urn}
   */
   readonly urn?: string;
 }
@@ -248,7 +248,7 @@ export class DataSbercloudFgsFunctionsFunctionsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/fgs_functions sbercloud_fgs_functions}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/fgs_functions sbercloud_fgs_functions}
 */
 export class DataSbercloudFgsFunctions extends cdktf.TerraformDataSource {
 
@@ -264,7 +264,7 @@ export class DataSbercloudFgsFunctions extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSbercloudFgsFunctions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSbercloudFgsFunctions to import
-  * @param importFromId The id of the existing DataSbercloudFgsFunctions that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/fgs_functions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSbercloudFgsFunctions that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/fgs_functions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSbercloudFgsFunctions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -276,7 +276,7 @@ export class DataSbercloudFgsFunctions extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/fgs_functions sbercloud_fgs_functions} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/fgs_functions sbercloud_fgs_functions} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -287,8 +287,8 @@ export class DataSbercloudFgsFunctions extends cdktf.TerraformDataSource {
       terraformResourceType: 'sbercloud_fgs_functions',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

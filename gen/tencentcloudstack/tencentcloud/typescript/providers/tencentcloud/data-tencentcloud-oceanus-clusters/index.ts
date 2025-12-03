@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/oceanus_clusters
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/oceanus_clusters
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudOceanusClustersConfig extends cdktf.TerraformMe
   /**
   * Query one or more clusters by their ID. The maximum number of clusters that can be queried at once is 100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/oceanus_clusters#cluster_ids DataTencentcloudOceanusClusters#cluster_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/oceanus_clusters#cluster_ids DataTencentcloudOceanusClusters#cluster_ids}
   */
   readonly clusterIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/oceanus_clusters#id DataTencentcloudOceanusClusters#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/oceanus_clusters#id DataTencentcloudOceanusClusters#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface DataTencentcloudOceanusClustersConfig extends cdktf.TerraformMe
   /**
   * The sorting rule of the cluster information results. Possible values are 1 (sort by time in descending order), 2 (sort by time in ascending order), and 3 (sort by status).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/oceanus_clusters#order_type DataTencentcloudOceanusClusters#order_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/oceanus_clusters#order_type DataTencentcloudOceanusClusters#order_type}
   */
   readonly orderType?: number;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/oceanus_clusters#result_output_file DataTencentcloudOceanusClusters#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/oceanus_clusters#result_output_file DataTencentcloudOceanusClusters#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Workspace SerialId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/oceanus_clusters#work_space_id DataTencentcloudOceanusClusters#work_space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/oceanus_clusters#work_space_id DataTencentcloudOceanusClusters#work_space_id}
   */
   readonly workSpaceId?: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/oceanus_clusters#filters DataTencentcloudOceanusClusters#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/oceanus_clusters#filters DataTencentcloudOceanusClusters#filters}
   */
   readonly filters?: DataTencentcloudOceanusClustersFilters[] | cdktf.IResolvable;
 }
@@ -1133,13 +1133,13 @@ export interface DataTencentcloudOceanusClustersFilters {
   /**
   * The field to be filtered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/oceanus_clusters#name DataTencentcloudOceanusClusters#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/oceanus_clusters#name DataTencentcloudOceanusClusters#name}
   */
   readonly name: string;
   /**
   * The filtering values of the field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/oceanus_clusters#values DataTencentcloudOceanusClusters#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/oceanus_clusters#values DataTencentcloudOceanusClusters#values}
   */
   readonly values: string[];
 }
@@ -1278,7 +1278,7 @@ export class DataTencentcloudOceanusClustersFiltersList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/oceanus_clusters tencentcloud_oceanus_clusters}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/oceanus_clusters tencentcloud_oceanus_clusters}
 */
 export class DataTencentcloudOceanusClusters extends cdktf.TerraformDataSource {
 
@@ -1294,7 +1294,7 @@ export class DataTencentcloudOceanusClusters extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudOceanusClusters resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudOceanusClusters to import
-  * @param importFromId The id of the existing DataTencentcloudOceanusClusters that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/oceanus_clusters#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudOceanusClusters that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/oceanus_clusters#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudOceanusClusters to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1306,7 +1306,7 @@ export class DataTencentcloudOceanusClusters extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/oceanus_clusters tencentcloud_oceanus_clusters} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/oceanus_clusters tencentcloud_oceanus_clusters} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1317,8 +1317,8 @@ export class DataTencentcloudOceanusClusters extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_oceanus_clusters',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.39',
-        providerVersionConstraint: '1.82.39'
+        providerVersion: '1.82.40',
+        providerVersionConstraint: '1.82.40'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

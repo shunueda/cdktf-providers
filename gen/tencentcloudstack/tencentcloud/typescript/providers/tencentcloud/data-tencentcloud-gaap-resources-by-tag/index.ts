@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/gaap_resources_by_tag
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/gaap_resources_by_tag
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudGaapResourcesByTagConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/gaap_resources_by_tag#id DataTencentcloudGaapResourcesByTag#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/gaap_resources_by_tag#id DataTencentcloudGaapResourcesByTag#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface DataTencentcloudGaapResourcesByTagConfig extends cdktf.Terrafor
   /**
   * Resource type, where:Proxy represents the proxy;ProxyGroup represents a proxy group;RealServer represents the Real Server.If this field is not specified, all resources under the label will be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/gaap_resources_by_tag#resource_type DataTencentcloudGaapResourcesByTag#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/gaap_resources_by_tag#resource_type DataTencentcloudGaapResourcesByTag#resource_type}
   */
   readonly resourceType?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/gaap_resources_by_tag#result_output_file DataTencentcloudGaapResourcesByTag#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/gaap_resources_by_tag#result_output_file DataTencentcloudGaapResourcesByTag#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/gaap_resources_by_tag#tag_key DataTencentcloudGaapResourcesByTag#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/gaap_resources_by_tag#tag_key DataTencentcloudGaapResourcesByTag#tag_key}
   */
   readonly tagKey: string;
   /**
   * Tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/gaap_resources_by_tag#tag_value DataTencentcloudGaapResourcesByTag#tag_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/gaap_resources_by_tag#tag_value DataTencentcloudGaapResourcesByTag#tag_value}
   */
   readonly tagValue: string;
 }
@@ -121,7 +121,7 @@ export class DataTencentcloudGaapResourcesByTagResourceSetList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/gaap_resources_by_tag tencentcloud_gaap_resources_by_tag}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/gaap_resources_by_tag tencentcloud_gaap_resources_by_tag}
 */
 export class DataTencentcloudGaapResourcesByTag extends cdktf.TerraformDataSource {
 
@@ -137,7 +137,7 @@ export class DataTencentcloudGaapResourcesByTag extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataTencentcloudGaapResourcesByTag resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudGaapResourcesByTag to import
-  * @param importFromId The id of the existing DataTencentcloudGaapResourcesByTag that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/gaap_resources_by_tag#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudGaapResourcesByTag that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/gaap_resources_by_tag#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudGaapResourcesByTag to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -149,7 +149,7 @@ export class DataTencentcloudGaapResourcesByTag extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/gaap_resources_by_tag tencentcloud_gaap_resources_by_tag} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/gaap_resources_by_tag tencentcloud_gaap_resources_by_tag} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -160,8 +160,8 @@ export class DataTencentcloudGaapResourcesByTag extends cdktf.TerraformDataSourc
       terraformResourceType: 'tencentcloud_gaap_resources_by_tag',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.39',
-        providerVersionConstraint: '1.82.39'
+        providerVersion: '1.82.40',
+        providerVersionConstraint: '1.82.40'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

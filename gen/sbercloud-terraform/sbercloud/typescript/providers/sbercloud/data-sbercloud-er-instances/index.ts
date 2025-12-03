@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/er_instances
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/er_instances
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataSbercloudErInstancesConfig extends cdktf.TerraformMetaArgum
   /**
   * The enterprise project ID of the instances to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/er_instances#enterprise_project_id DataSbercloudErInstances#enterprise_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/er_instances#enterprise_project_id DataSbercloudErInstances#enterprise_project_id}
   */
   readonly enterpriseProjectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/er_instances#id DataSbercloudErInstances#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/er_instances#id DataSbercloudErInstances#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface DataSbercloudErInstancesConfig extends cdktf.TerraformMetaArgum
   /**
   * The ID used to query specified instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/er_instances#instance_id DataSbercloudErInstances#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/er_instances#instance_id DataSbercloudErInstances#instance_id}
   */
   readonly instanceId?: string;
   /**
   * The name used to filter the instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/er_instances#name DataSbercloudErInstances#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/er_instances#name DataSbercloudErInstances#name}
   */
   readonly name?: string;
   /**
   * Whether resources belong to the current renant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/er_instances#owned_by_self DataSbercloudErInstances#owned_by_self}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/er_instances#owned_by_self DataSbercloudErInstances#owned_by_self}
   */
   readonly ownedBySelf?: boolean | cdktf.IResolvable;
   /**
   * The region where the ER instances are located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/er_instances#region DataSbercloudErInstances#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/er_instances#region DataSbercloudErInstances#region}
   */
   readonly region?: string;
   /**
   * The status used to filter the instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/er_instances#status DataSbercloudErInstances#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/er_instances#status DataSbercloudErInstances#status}
   */
   readonly status?: string;
   /**
   * The key/value pairs used to filter the instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/er_instances#tags DataSbercloudErInstances#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/er_instances#tags DataSbercloudErInstances#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -205,7 +205,7 @@ export class DataSbercloudErInstancesInstancesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/er_instances sbercloud_er_instances}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/er_instances sbercloud_er_instances}
 */
 export class DataSbercloudErInstances extends cdktf.TerraformDataSource {
 
@@ -221,7 +221,7 @@ export class DataSbercloudErInstances extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSbercloudErInstances resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSbercloudErInstances to import
-  * @param importFromId The id of the existing DataSbercloudErInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/er_instances#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSbercloudErInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/er_instances#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSbercloudErInstances to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -233,7 +233,7 @@ export class DataSbercloudErInstances extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/er_instances sbercloud_er_instances} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/er_instances sbercloud_er_instances} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -244,8 +244,8 @@ export class DataSbercloudErInstances extends cdktf.TerraformDataSource {
       terraformResourceType: 'sbercloud_er_instances',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

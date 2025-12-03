@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ces_alarmrule
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ces_alarmrule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,88 +8,88 @@ import * as cdktf from 'cdktf';
 
 export interface CesAlarmruleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ces_alarmrule#alarm_action_enabled CesAlarmrule#alarm_action_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ces_alarmrule#alarm_action_enabled CesAlarmrule#alarm_action_enabled}
   */
   readonly alarmActionEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ces_alarmrule#alarm_description CesAlarmrule#alarm_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ces_alarmrule#alarm_description CesAlarmrule#alarm_description}
   */
   readonly alarmDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ces_alarmrule#alarm_enabled CesAlarmrule#alarm_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ces_alarmrule#alarm_enabled CesAlarmrule#alarm_enabled}
   */
   readonly alarmEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ces_alarmrule#alarm_level CesAlarmrule#alarm_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ces_alarmrule#alarm_level CesAlarmrule#alarm_level}
   */
   readonly alarmLevel?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ces_alarmrule#alarm_name CesAlarmrule#alarm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ces_alarmrule#alarm_name CesAlarmrule#alarm_name}
   */
   readonly alarmName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ces_alarmrule#alarm_type CesAlarmrule#alarm_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ces_alarmrule#alarm_type CesAlarmrule#alarm_type}
   */
   readonly alarmType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ces_alarmrule#enterprise_project_id CesAlarmrule#enterprise_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ces_alarmrule#enterprise_project_id CesAlarmrule#enterprise_project_id}
   */
   readonly enterpriseProjectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ces_alarmrule#id CesAlarmrule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ces_alarmrule#id CesAlarmrule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ces_alarmrule#region CesAlarmrule#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ces_alarmrule#region CesAlarmrule#region}
   */
   readonly region?: string;
   /**
   * alarm_actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ces_alarmrule#alarm_actions CesAlarmrule#alarm_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ces_alarmrule#alarm_actions CesAlarmrule#alarm_actions}
   */
   readonly alarmActions?: CesAlarmruleAlarmActions[] | cdktf.IResolvable;
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ces_alarmrule#condition CesAlarmrule#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ces_alarmrule#condition CesAlarmrule#condition}
   */
   readonly condition: CesAlarmruleCondition;
   /**
   * insufficientdata_actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ces_alarmrule#insufficientdata_actions CesAlarmrule#insufficientdata_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ces_alarmrule#insufficientdata_actions CesAlarmrule#insufficientdata_actions}
   */
   readonly insufficientdataActions?: CesAlarmruleInsufficientdataActions[] | cdktf.IResolvable;
   /**
   * metric block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ces_alarmrule#metric CesAlarmrule#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ces_alarmrule#metric CesAlarmrule#metric}
   */
   readonly metric: CesAlarmruleMetric;
   /**
   * ok_actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ces_alarmrule#ok_actions CesAlarmrule#ok_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ces_alarmrule#ok_actions CesAlarmrule#ok_actions}
   */
   readonly okActions?: CesAlarmruleOkActions[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ces_alarmrule#timeouts CesAlarmrule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ces_alarmrule#timeouts CesAlarmrule#timeouts}
   */
   readonly timeouts?: CesAlarmruleTimeouts;
 }
 export interface CesAlarmruleAlarmActions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ces_alarmrule#notification_list CesAlarmrule#notification_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ces_alarmrule#notification_list CesAlarmrule#notification_list}
   */
   readonly notificationList: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ces_alarmrule#type CesAlarmrule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ces_alarmrule#type CesAlarmrule#type}
   */
   readonly type: string;
 }
@@ -228,31 +228,31 @@ export class CesAlarmruleAlarmActionsList extends cdktf.ComplexList {
 }
 export interface CesAlarmruleCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ces_alarmrule#comparison_operator CesAlarmrule#comparison_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ces_alarmrule#comparison_operator CesAlarmrule#comparison_operator}
   */
   readonly comparisonOperator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ces_alarmrule#count CesAlarmrule#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ces_alarmrule#count CesAlarmrule#count}
   */
   readonly count: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ces_alarmrule#filter CesAlarmrule#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ces_alarmrule#filter CesAlarmrule#filter}
   */
   readonly filter: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ces_alarmrule#period CesAlarmrule#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ces_alarmrule#period CesAlarmrule#period}
   */
   readonly period: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ces_alarmrule#suppress_duration CesAlarmrule#suppress_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ces_alarmrule#suppress_duration CesAlarmrule#suppress_duration}
   */
   readonly suppressDuration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ces_alarmrule#unit CesAlarmrule#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ces_alarmrule#unit CesAlarmrule#unit}
   */
   readonly unit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ces_alarmrule#value CesAlarmrule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ces_alarmrule#value CesAlarmrule#value}
   */
   readonly value: number;
 }
@@ -495,11 +495,11 @@ export class CesAlarmruleConditionOutputReference extends cdktf.ComplexObject {
 }
 export interface CesAlarmruleInsufficientdataActions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ces_alarmrule#notification_list CesAlarmrule#notification_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ces_alarmrule#notification_list CesAlarmrule#notification_list}
   */
   readonly notificationList: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ces_alarmrule#type CesAlarmrule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ces_alarmrule#type CesAlarmrule#type}
   */
   readonly type: string;
 }
@@ -638,11 +638,11 @@ export class CesAlarmruleInsufficientdataActionsList extends cdktf.ComplexList {
 }
 export interface CesAlarmruleMetricDimensions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ces_alarmrule#name CesAlarmrule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ces_alarmrule#name CesAlarmrule#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ces_alarmrule#value CesAlarmrule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ces_alarmrule#value CesAlarmrule#value}
   */
   readonly value: string;
 }
@@ -781,17 +781,17 @@ export class CesAlarmruleMetricDimensionsList extends cdktf.ComplexList {
 }
 export interface CesAlarmruleMetric {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ces_alarmrule#metric_name CesAlarmrule#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ces_alarmrule#metric_name CesAlarmrule#metric_name}
   */
   readonly metricName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ces_alarmrule#namespace CesAlarmrule#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ces_alarmrule#namespace CesAlarmrule#namespace}
   */
   readonly namespace: string;
   /**
   * dimensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ces_alarmrule#dimensions CesAlarmrule#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ces_alarmrule#dimensions CesAlarmrule#dimensions}
   */
   readonly dimensions?: CesAlarmruleMetricDimensions[] | cdktf.IResolvable;
 }
@@ -927,11 +927,11 @@ export class CesAlarmruleMetricOutputReference extends cdktf.ComplexObject {
 }
 export interface CesAlarmruleOkActions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ces_alarmrule#notification_list CesAlarmrule#notification_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ces_alarmrule#notification_list CesAlarmrule#notification_list}
   */
   readonly notificationList: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ces_alarmrule#type CesAlarmrule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ces_alarmrule#type CesAlarmrule#type}
   */
   readonly type: string;
 }
@@ -1070,15 +1070,15 @@ export class CesAlarmruleOkActionsList extends cdktf.ComplexList {
 }
 export interface CesAlarmruleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ces_alarmrule#create CesAlarmrule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ces_alarmrule#create CesAlarmrule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ces_alarmrule#delete CesAlarmrule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ces_alarmrule#delete CesAlarmrule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ces_alarmrule#update CesAlarmrule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ces_alarmrule#update CesAlarmrule#update}
   */
   readonly update?: string;
 }
@@ -1230,7 +1230,7 @@ export class CesAlarmruleTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ces_alarmrule sbercloud_ces_alarmrule}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ces_alarmrule sbercloud_ces_alarmrule}
 */
 export class CesAlarmrule extends cdktf.TerraformResource {
 
@@ -1246,7 +1246,7 @@ export class CesAlarmrule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CesAlarmrule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CesAlarmrule to import
-  * @param importFromId The id of the existing CesAlarmrule that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ces_alarmrule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CesAlarmrule that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ces_alarmrule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CesAlarmrule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1258,7 +1258,7 @@ export class CesAlarmrule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ces_alarmrule sbercloud_ces_alarmrule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ces_alarmrule sbercloud_ces_alarmrule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1269,8 +1269,8 @@ export class CesAlarmrule extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_ces_alarmrule',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

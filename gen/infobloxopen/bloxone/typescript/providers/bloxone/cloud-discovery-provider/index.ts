@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/cloud_discovery_provider
+// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/cloud_discovery_provider
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,79 +10,79 @@ export interface CloudDiscoveryProviderConfig extends cdktf.TerraformMetaArgumen
   /**
   * Account preference. For ex.: single, multiple, auto_discover_multiple.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/cloud_discovery_provider#account_preference CloudDiscoveryProvider#account_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/cloud_discovery_provider#account_preference CloudDiscoveryProvider#account_preference}
   */
   readonly accountPreference: string;
   /**
   * Additional configuration for the Discovery Job
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/cloud_discovery_provider#additional_config CloudDiscoveryProvider#additional_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/cloud_discovery_provider#additional_config CloudDiscoveryProvider#additional_config}
   */
   readonly additionalConfig?: CloudDiscoveryProviderAdditionalConfig;
   /**
   * Credential preference for the discovery job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/cloud_discovery_provider#credential_preference CloudDiscoveryProvider#credential_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/cloud_discovery_provider#credential_preference CloudDiscoveryProvider#credential_preference}
   */
   readonly credentialPreference?: CloudDiscoveryProviderCredentialPreference;
   /**
   * Timestamp when the object has been deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/cloud_discovery_provider#deleted_at CloudDiscoveryProvider#deleted_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/cloud_discovery_provider#deleted_at CloudDiscoveryProvider#deleted_at}
   */
   readonly deletedAt?: string;
   /**
   * Description of the discovery config. Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/cloud_discovery_provider#description CloudDiscoveryProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/cloud_discovery_provider#description CloudDiscoveryProvider#description}
   */
   readonly description?: string;
   /**
   * Desired state. Default is "enabled".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/cloud_discovery_provider#desired_state CloudDiscoveryProvider#desired_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/cloud_discovery_provider#desired_state CloudDiscoveryProvider#desired_state}
   */
   readonly desiredState?: string;
   /**
   * Destinations types enabled: Ex.: DNS, IPAM and ACCOUNTS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/cloud_discovery_provider#destination_types_enabled CloudDiscoveryProvider#destination_types_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/cloud_discovery_provider#destination_types_enabled CloudDiscoveryProvider#destination_types_enabled}
   */
   readonly destinationTypesEnabled?: string[];
   /**
   * Destinations For the discovery config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/cloud_discovery_provider#destinations CloudDiscoveryProvider#destinations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/cloud_discovery_provider#destinations CloudDiscoveryProvider#destinations}
   */
   readonly destinations?: CloudDiscoveryProviderDestinations[] | cdktf.IResolvable;
   /**
   * Name of the discovery config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/cloud_discovery_provider#name CloudDiscoveryProvider#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/cloud_discovery_provider#name CloudDiscoveryProvider#name}
   */
   readonly name: string;
   /**
   * Provider type. Ex.: Amazon Web Services, Google Cloud Platform, Microsoft Azure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/cloud_discovery_provider#provider_type CloudDiscoveryProvider#provider_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/cloud_discovery_provider#provider_type CloudDiscoveryProvider#provider_type}
   */
   readonly providerType: string;
   /**
   * Source configs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/cloud_discovery_provider#source_configs CloudDiscoveryProvider#source_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/cloud_discovery_provider#source_configs CloudDiscoveryProvider#source_configs}
   */
   readonly sourceConfigs?: CloudDiscoveryProviderSourceConfigs[] | cdktf.IResolvable;
   /**
   * Sync interval. Default is "Auto".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/cloud_discovery_provider#sync_interval CloudDiscoveryProvider#sync_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/cloud_discovery_provider#sync_interval CloudDiscoveryProvider#sync_interval}
   */
   readonly syncInterval?: string;
   /**
   * Tagging specifics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/cloud_discovery_provider#tags CloudDiscoveryProvider#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/cloud_discovery_provider#tags CloudDiscoveryProvider#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -90,13 +90,13 @@ export interface CloudDiscoveryProviderAdditionalConfigObjectTypeObjectsCategory
   /**
   * If set true , the category is excluded from discovery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/cloud_discovery_provider#excluded CloudDiscoveryProvider#excluded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/cloud_discovery_provider#excluded CloudDiscoveryProvider#excluded}
   */
   readonly excluded?: boolean | cdktf.IResolvable;
   /**
   * Category ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/cloud_discovery_provider#id CloudDiscoveryProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/cloud_discovery_provider#id CloudDiscoveryProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -224,13 +224,13 @@ export interface CloudDiscoveryProviderAdditionalConfigObjectTypeObjectsResource
   /**
   * If set true , the resource set of a particular category is excluded from discovery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/cloud_discovery_provider#excluded CloudDiscoveryProvider#excluded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/cloud_discovery_provider#excluded CloudDiscoveryProvider#excluded}
   */
   readonly excluded?: boolean | cdktf.IResolvable;
   /**
   * The resource set ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/cloud_discovery_provider#id CloudDiscoveryProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/cloud_discovery_provider#id CloudDiscoveryProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -380,13 +380,13 @@ export interface CloudDiscoveryProviderAdditionalConfigObjectTypeObjects {
   /**
   * Category of the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/cloud_discovery_provider#category CloudDiscoveryProvider#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/cloud_discovery_provider#category CloudDiscoveryProvider#category}
   */
   readonly category?: CloudDiscoveryProviderAdditionalConfigObjectTypeObjectsCategory;
   /**
   * Resource set of the object .
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/cloud_discovery_provider#resource_set CloudDiscoveryProvider#resource_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/cloud_discovery_provider#resource_set CloudDiscoveryProvider#resource_set}
   */
   readonly resourceSet?: CloudDiscoveryProviderAdditionalConfigObjectTypeObjectsResourceSet[] | cdktf.IResolvable;
 }
@@ -533,19 +533,19 @@ export interface CloudDiscoveryProviderAdditionalConfigObjectType {
   /**
   * Discover new objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/cloud_discovery_provider#discover_new CloudDiscoveryProvider#discover_new}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/cloud_discovery_provider#discover_new CloudDiscoveryProvider#discover_new}
   */
   readonly discoverNew?: boolean | cdktf.IResolvable;
   /**
   * List of objects to discover.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/cloud_discovery_provider#objects CloudDiscoveryProvider#objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/cloud_discovery_provider#objects CloudDiscoveryProvider#objects}
   */
   readonly objects?: CloudDiscoveryProviderAdditionalConfigObjectTypeObjects[] | cdktf.IResolvable;
   /**
   * Version of the object type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/cloud_discovery_provider#version CloudDiscoveryProvider#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/cloud_discovery_provider#version CloudDiscoveryProvider#version}
   */
   readonly version?: number;
 }
@@ -699,25 +699,25 @@ export interface CloudDiscoveryProviderAdditionalConfig {
   /**
   * List of account IDs to exclude from discovery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/cloud_discovery_provider#excluded_accounts CloudDiscoveryProvider#excluded_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/cloud_discovery_provider#excluded_accounts CloudDiscoveryProvider#excluded_accounts}
   */
   readonly excludedAccounts?: string[];
   /**
   * Enable/Disable forward zone discovery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/cloud_discovery_provider#forward_zone_enabled CloudDiscoveryProvider#forward_zone_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/cloud_discovery_provider#forward_zone_enabled CloudDiscoveryProvider#forward_zone_enabled}
   */
   readonly forwardZoneEnabled?: boolean | cdktf.IResolvable;
   /**
   * Enable/Disable internal ranges discovery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/cloud_discovery_provider#internal_ranges_enabled CloudDiscoveryProvider#internal_ranges_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/cloud_discovery_provider#internal_ranges_enabled CloudDiscoveryProvider#internal_ranges_enabled}
   */
   readonly internalRangesEnabled?: boolean | cdktf.IResolvable;
   /**
   * Object type to discover.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/cloud_discovery_provider#object_type CloudDiscoveryProvider#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/cloud_discovery_provider#object_type CloudDiscoveryProvider#object_type}
   */
   readonly objectType?: CloudDiscoveryProviderAdditionalConfigObjectType;
 }
@@ -900,13 +900,13 @@ export interface CloudDiscoveryProviderCredentialPreference {
   /**
   * Access identifier type. Possible values: role_arn, tenant_id, project_id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/cloud_discovery_provider#access_identifier_type CloudDiscoveryProvider#access_identifier_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/cloud_discovery_provider#access_identifier_type CloudDiscoveryProvider#access_identifier_type}
   */
   readonly accessIdentifierType?: string;
   /**
   * Credential type. Possible values: dynamic, static .
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/cloud_discovery_provider#credential_type CloudDiscoveryProvider#credential_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/cloud_discovery_provider#credential_type CloudDiscoveryProvider#credential_type}
   */
   readonly credentialType?: string;
 }
@@ -1031,31 +1031,31 @@ export interface CloudDiscoveryProviderDestinationsConfigDns {
   /**
   * consolidated_zone_data_enabled consolidates private zones into a single view, which is separate from the public zone view.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/cloud_discovery_provider#consolidated_zone_data_enabled CloudDiscoveryProvider#consolidated_zone_data_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/cloud_discovery_provider#consolidated_zone_data_enabled CloudDiscoveryProvider#consolidated_zone_data_enabled}
   */
   readonly consolidatedZoneDataEnabled?: boolean | cdktf.IResolvable;
   /**
   * split_view_enabled consolidates private zones into a single view, which is separate from the public zone view.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/cloud_discovery_provider#split_view_enabled CloudDiscoveryProvider#split_view_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/cloud_discovery_provider#split_view_enabled CloudDiscoveryProvider#split_view_enabled}
   */
   readonly splitViewEnabled?: boolean | cdktf.IResolvable;
   /**
   * Type of sync.Sync_type values: "read_only", "read_write"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/cloud_discovery_provider#sync_type CloudDiscoveryProvider#sync_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/cloud_discovery_provider#sync_type CloudDiscoveryProvider#sync_type}
   */
   readonly syncType?: string;
   /**
   * Unique identifier of the view.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/cloud_discovery_provider#view_id CloudDiscoveryProvider#view_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/cloud_discovery_provider#view_id CloudDiscoveryProvider#view_id}
   */
   readonly viewId?: string;
   /**
   * Name of the view.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/cloud_discovery_provider#view_name CloudDiscoveryProvider#view_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/cloud_discovery_provider#view_name CloudDiscoveryProvider#view_name}
   */
   readonly viewName?: string;
 }
@@ -1267,19 +1267,19 @@ export interface CloudDiscoveryProviderDestinationsConfigIpam {
   /**
   * Address of the DHCP Server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/cloud_discovery_provider#dhcp_server CloudDiscoveryProvider#dhcp_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/cloud_discovery_provider#dhcp_server CloudDiscoveryProvider#dhcp_server}
   */
   readonly dhcpServer?: string;
   /**
   * This flag controls the IPAM Sync/Reconciliation for the provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/cloud_discovery_provider#disable_ipam_projection CloudDiscoveryProvider#disable_ipam_projection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/cloud_discovery_provider#disable_ipam_projection CloudDiscoveryProvider#disable_ipam_projection}
   */
   readonly disableIpamProjection?: boolean | cdktf.IResolvable;
   /**
   * IP Space.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/cloud_discovery_provider#ip_space CloudDiscoveryProvider#ip_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/cloud_discovery_provider#ip_space CloudDiscoveryProvider#ip_space}
   */
   readonly ipSpace?: string;
 }
@@ -1433,13 +1433,13 @@ export interface CloudDiscoveryProviderDestinationsConfig {
   /**
   * Destination Config for DNS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/cloud_discovery_provider#dns CloudDiscoveryProvider#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/cloud_discovery_provider#dns CloudDiscoveryProvider#dns}
   */
   readonly dns?: CloudDiscoveryProviderDestinationsConfigDns;
   /**
   * Destination Config for IPAM/DHCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/cloud_discovery_provider#ipam CloudDiscoveryProvider#ipam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/cloud_discovery_provider#ipam CloudDiscoveryProvider#ipam}
   */
   readonly ipam?: CloudDiscoveryProviderDestinationsConfigIpam;
 }
@@ -1564,13 +1564,13 @@ export interface CloudDiscoveryProviderDestinations {
   /**
   * Destination configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/cloud_discovery_provider#config CloudDiscoveryProvider#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/cloud_discovery_provider#config CloudDiscoveryProvider#config}
   */
   readonly config?: CloudDiscoveryProviderDestinationsConfig;
   /**
   * Destination type: DNS or IPAM/DHCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/cloud_discovery_provider#destination_type CloudDiscoveryProvider#destination_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/cloud_discovery_provider#destination_type CloudDiscoveryProvider#destination_type}
   */
   readonly destinationType?: string;
 }
@@ -1737,31 +1737,31 @@ export interface CloudDiscoveryProviderSourceConfigsAccounts {
   /**
   * Combined status of the account and the all the destinations statuses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/cloud_discovery_provider#composite_status CloudDiscoveryProvider#composite_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/cloud_discovery_provider#composite_status CloudDiscoveryProvider#composite_status}
   */
   readonly compositeStatus?: string;
   /**
   * Status message of the sync operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/cloud_discovery_provider#composite_status_message CloudDiscoveryProvider#composite_status_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/cloud_discovery_provider#composite_status_message CloudDiscoveryProvider#composite_status_message}
   */
   readonly compositeStatusMessage?: string;
   /**
   * Name of the source account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/cloud_discovery_provider#name CloudDiscoveryProvider#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/cloud_discovery_provider#name CloudDiscoveryProvider#name}
   */
   readonly name?: string;
   /**
   * Parent ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/cloud_discovery_provider#parent_id CloudDiscoveryProvider#parent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/cloud_discovery_provider#parent_id CloudDiscoveryProvider#parent_id}
   */
   readonly parentId?: string;
   /**
   * Provider Account ID value, such as aws account_id, azure subscription_id, gcp project_id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/cloud_discovery_provider#provider_account_id CloudDiscoveryProvider#provider_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/cloud_discovery_provider#provider_account_id CloudDiscoveryProvider#provider_account_id}
   */
   readonly providerAccountId?: string;
 }
@@ -2050,19 +2050,19 @@ export interface CloudDiscoveryProviderSourceConfigsCredentialConfig {
   /**
   * access_identifier values: role_arn_1, tenant_id_123,project_id_123
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/cloud_discovery_provider#access_identifier CloudDiscoveryProvider#access_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/cloud_discovery_provider#access_identifier CloudDiscoveryProvider#access_identifier}
   */
   readonly accessIdentifier?: string;
   /**
   * Enclave of the account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/cloud_discovery_provider#enclave CloudDiscoveryProvider#enclave}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/cloud_discovery_provider#enclave CloudDiscoveryProvider#enclave}
   */
   readonly enclave?: string;
   /**
   * Region of the account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/cloud_discovery_provider#region CloudDiscoveryProvider#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/cloud_discovery_provider#region CloudDiscoveryProvider#region}
   */
   readonly region?: string;
 }
@@ -2216,19 +2216,19 @@ export interface CloudDiscoveryProviderSourceConfigs {
   /**
   * Cloud Credential ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/cloud_discovery_provider#cloud_credential_id CloudDiscoveryProvider#cloud_credential_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/cloud_discovery_provider#cloud_credential_id CloudDiscoveryProvider#cloud_credential_id}
   */
   readonly cloudCredentialId?: string;
   /**
   * Credential configuration For the discovery job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/cloud_discovery_provider#credential_config CloudDiscoveryProvider#credential_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/cloud_discovery_provider#credential_config CloudDiscoveryProvider#credential_config}
   */
   readonly credentialConfig?: CloudDiscoveryProviderSourceConfigsCredentialConfig;
   /**
   * Provider account IDs such as accountID/ SubscriptionID to be restricted for a given source_config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/cloud_discovery_provider#restricted_to_accounts CloudDiscoveryProvider#restricted_to_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/cloud_discovery_provider#restricted_to_accounts CloudDiscoveryProvider#restricted_to_accounts}
   */
   readonly restrictedToAccounts?: string[];
 }
@@ -2433,7 +2433,7 @@ export class CloudDiscoveryProviderSourceConfigsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/cloud_discovery_provider bloxone_cloud_discovery_provider}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/cloud_discovery_provider bloxone_cloud_discovery_provider}
 */
 export class CloudDiscoveryProvider extends cdktf.TerraformResource {
 
@@ -2449,7 +2449,7 @@ export class CloudDiscoveryProvider extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudDiscoveryProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudDiscoveryProvider to import
-  * @param importFromId The id of the existing CloudDiscoveryProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/cloud_discovery_provider#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudDiscoveryProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/cloud_discovery_provider#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudDiscoveryProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2461,7 +2461,7 @@ export class CloudDiscoveryProvider extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/cloud_discovery_provider bloxone_cloud_discovery_provider} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/cloud_discovery_provider bloxone_cloud_discovery_provider} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2472,8 +2472,8 @@ export class CloudDiscoveryProvider extends cdktf.TerraformResource {
       terraformResourceType: 'bloxone_cloud_discovery_provider',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.5.4',
+        providerVersionConstraint: '1.5.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

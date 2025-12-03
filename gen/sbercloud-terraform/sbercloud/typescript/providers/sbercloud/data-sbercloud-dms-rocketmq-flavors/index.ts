@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_rocketmq_flavors
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_rocketmq_flavors
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,48 +10,48 @@ export interface DataSbercloudDmsRocketmqFlavorsConfig extends cdktf.TerraformMe
   /**
   * Specifies the type of CPU architecture.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_rocketmq_flavors#arch_type DataSbercloudDmsRocketmqFlavors#arch_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_rocketmq_flavors#arch_type DataSbercloudDmsRocketmqFlavors#arch_type}
   */
   readonly archType?: string;
   /**
   * Specifies the list of availability zone names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_rocketmq_flavors#availability_zones DataSbercloudDmsRocketmqFlavors#availability_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_rocketmq_flavors#availability_zones DataSbercloudDmsRocketmqFlavors#availability_zones}
   */
   readonly availabilityZones?: string[];
   /**
   * Specifies the billing mode of the flavor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_rocketmq_flavors#charging_mode DataSbercloudDmsRocketmqFlavors#charging_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_rocketmq_flavors#charging_mode DataSbercloudDmsRocketmqFlavors#charging_mode}
   */
   readonly chargingMode?: string;
   /**
   * Specifies the ID of the flavor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_rocketmq_flavors#flavor_id DataSbercloudDmsRocketmqFlavors#flavor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_rocketmq_flavors#flavor_id DataSbercloudDmsRocketmqFlavors#flavor_id}
   */
   readonly flavorId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_rocketmq_flavors#id DataSbercloudDmsRocketmqFlavors#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_rocketmq_flavors#id DataSbercloudDmsRocketmqFlavors#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_rocketmq_flavors#region DataSbercloudDmsRocketmqFlavors#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_rocketmq_flavors#region DataSbercloudDmsRocketmqFlavors#region}
   */
   readonly region?: string;
   /**
   * Specifies the disk IO encoding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_rocketmq_flavors#storage_spec_code DataSbercloudDmsRocketmqFlavors#storage_spec_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_rocketmq_flavors#storage_spec_code DataSbercloudDmsRocketmqFlavors#storage_spec_code}
   */
   readonly storageSpecCode?: string;
   /**
   * Specifies the type of the flavor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_rocketmq_flavors#type DataSbercloudDmsRocketmqFlavors#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_rocketmq_flavors#type DataSbercloudDmsRocketmqFlavors#type}
   */
   readonly type?: string;
 }
@@ -546,7 +546,7 @@ export class DataSbercloudDmsRocketmqFlavorsFlavorsList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_rocketmq_flavors sbercloud_dms_rocketmq_flavors}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_rocketmq_flavors sbercloud_dms_rocketmq_flavors}
 */
 export class DataSbercloudDmsRocketmqFlavors extends cdktf.TerraformDataSource {
 
@@ -562,7 +562,7 @@ export class DataSbercloudDmsRocketmqFlavors extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSbercloudDmsRocketmqFlavors resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSbercloudDmsRocketmqFlavors to import
-  * @param importFromId The id of the existing DataSbercloudDmsRocketmqFlavors that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_rocketmq_flavors#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSbercloudDmsRocketmqFlavors that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_rocketmq_flavors#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSbercloudDmsRocketmqFlavors to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -574,7 +574,7 @@ export class DataSbercloudDmsRocketmqFlavors extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_rocketmq_flavors sbercloud_dms_rocketmq_flavors} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_rocketmq_flavors sbercloud_dms_rocketmq_flavors} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -585,8 +585,8 @@ export class DataSbercloudDmsRocketmqFlavors extends cdktf.TerraformDataSource {
       terraformResourceType: 'sbercloud_dms_rocketmq_flavors',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

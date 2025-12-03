@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_backup_encryption_status
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_backup_encryption_status
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface MysqlBackupEncryptionStatusConfig extends cdktf.TerraformMetaAr
   /**
   * Whether physical backup encryption is enabled for the instance. Possible values are `on`, `off`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_backup_encryption_status#encryption_status MysqlBackupEncryptionStatus#encryption_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_backup_encryption_status#encryption_status MysqlBackupEncryptionStatus#encryption_status}
   */
   readonly encryptionStatus: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_backup_encryption_status#id MysqlBackupEncryptionStatus#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_backup_encryption_status#id MysqlBackupEncryptionStatus#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface MysqlBackupEncryptionStatusConfig extends cdktf.TerraformMetaAr
   /**
   * Instance ID, in the format: cdb-XXXX. Same instance ID as displayed in the ApsaraDB for Console page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_backup_encryption_status#instance_id MysqlBackupEncryptionStatus#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_backup_encryption_status#instance_id MysqlBackupEncryptionStatus#instance_id}
   */
   readonly instanceId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_backup_encryption_status tencentcloud_mysql_backup_encryption_status}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_backup_encryption_status tencentcloud_mysql_backup_encryption_status}
 */
 export class MysqlBackupEncryptionStatus extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class MysqlBackupEncryptionStatus extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MysqlBackupEncryptionStatus resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MysqlBackupEncryptionStatus to import
-  * @param importFromId The id of the existing MysqlBackupEncryptionStatus that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_backup_encryption_status#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MysqlBackupEncryptionStatus that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_backup_encryption_status#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MysqlBackupEncryptionStatus to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class MysqlBackupEncryptionStatus extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_backup_encryption_status tencentcloud_mysql_backup_encryption_status} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_backup_encryption_status tencentcloud_mysql_backup_encryption_status} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class MysqlBackupEncryptionStatus extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mysql_backup_encryption_status',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.39',
-        providerVersionConstraint: '1.82.39'
+        providerVersion: '1.82.40',
+        providerVersionConstraint: '1.82.40'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

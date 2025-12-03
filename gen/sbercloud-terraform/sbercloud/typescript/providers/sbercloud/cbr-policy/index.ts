@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_policy
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface CbrPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * The maximum number of retained backups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_policy#backup_quantity CbrPolicy#backup_quantity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_policy#backup_quantity CbrPolicy#backup_quantity}
   */
   readonly backupQuantity?: number;
   /**
   * The ID of the replication destination project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_policy#destination_project_id CbrPolicy#destination_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_policy#destination_project_id CbrPolicy#destination_project_id}
   */
   readonly destinationProjectId?: string;
   /**
   * The name of the replication destination region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_policy#destination_region CbrPolicy#destination_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_policy#destination_region CbrPolicy#destination_region}
   */
   readonly destinationRegion?: string;
   /**
   * Whether to enable the acceleration function to shorten the replication time for cross-region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_policy#enable_acceleration CbrPolicy#enable_acceleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_policy#enable_acceleration CbrPolicy#enable_acceleration}
   */
   readonly enableAcceleration?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the CBR policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_policy#enabled CbrPolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_policy#enabled CbrPolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_policy#id CbrPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_policy#id CbrPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,43 +47,43 @@ export interface CbrPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * The policy name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_policy#name CbrPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_policy#name CbrPolicy#name}
   */
   readonly name: string;
   /**
   * The region where the policy is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_policy#region CbrPolicy#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_policy#region CbrPolicy#region}
   */
   readonly region?: string;
   /**
   * The duration (in days) for retained backups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_policy#time_period CbrPolicy#time_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_policy#time_period CbrPolicy#time_period}
   */
   readonly timePeriod?: number;
   /**
   * The UTC time zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_policy#time_zone CbrPolicy#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_policy#time_zone CbrPolicy#time_zone}
   */
   readonly timeZone?: string;
   /**
   * The protection type of the CBR policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_policy#type CbrPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_policy#type CbrPolicy#type}
   */
   readonly type: string;
   /**
   * backup_cycle block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_policy#backup_cycle CbrPolicy#backup_cycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_policy#backup_cycle CbrPolicy#backup_cycle}
   */
   readonly backupCycle: CbrPolicyBackupCycle;
   /**
   * long_term_retention block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_policy#long_term_retention CbrPolicy#long_term_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_policy#long_term_retention CbrPolicy#long_term_retention}
   */
   readonly longTermRetention?: CbrPolicyLongTermRetention;
 }
@@ -91,19 +91,19 @@ export interface CbrPolicyBackupCycle {
   /**
   * The weekly backup time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_policy#days CbrPolicy#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_policy#days CbrPolicy#days}
   */
   readonly days?: string;
   /**
   * The execution time of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_policy#execution_times CbrPolicy#execution_times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_policy#execution_times CbrPolicy#execution_times}
   */
   readonly executionTimes: string[];
   /**
   * The number of days between each backup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_policy#interval CbrPolicy#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_policy#interval CbrPolicy#interval}
   */
   readonly interval?: number;
 }
@@ -244,31 +244,31 @@ export interface CbrPolicyLongTermRetention {
   /**
   * The latest backup of each day is saved in the long term.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_policy#daily CbrPolicy#daily}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_policy#daily CbrPolicy#daily}
   */
   readonly daily?: number;
   /**
   * How often (after how many incremental backups) a full backup is performed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_policy#full_backup_interval CbrPolicy#full_backup_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_policy#full_backup_interval CbrPolicy#full_backup_interval}
   */
   readonly fullBackupInterval?: number;
   /**
   * The latest backup of each month is saved in the long term.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_policy#monthly CbrPolicy#monthly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_policy#monthly CbrPolicy#monthly}
   */
   readonly monthly?: number;
   /**
   * The latest backup of each week is saved in the long term.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_policy#weekly CbrPolicy#weekly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_policy#weekly CbrPolicy#weekly}
   */
   readonly weekly?: number;
   /**
   * The latest backup of each year is saved in the long term.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_policy#yearly CbrPolicy#yearly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_policy#yearly CbrPolicy#yearly}
   */
   readonly yearly?: number;
 }
@@ -468,7 +468,7 @@ export class CbrPolicyLongTermRetentionOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_policy sbercloud_cbr_policy}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_policy sbercloud_cbr_policy}
 */
 export class CbrPolicy extends cdktf.TerraformResource {
 
@@ -484,7 +484,7 @@ export class CbrPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CbrPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CbrPolicy to import
-  * @param importFromId The id of the existing CbrPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CbrPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CbrPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -496,7 +496,7 @@ export class CbrPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_policy sbercloud_cbr_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_policy sbercloud_cbr_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -507,8 +507,8 @@ export class CbrPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_cbr_policy',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

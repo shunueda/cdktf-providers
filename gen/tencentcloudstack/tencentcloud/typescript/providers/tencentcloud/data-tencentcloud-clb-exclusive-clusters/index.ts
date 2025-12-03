@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/clb_exclusive_clusters
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/clb_exclusive_clusters
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudClbExclusiveClustersConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/clb_exclusive_clusters#id DataTencentcloudClbExclusiveClusters#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/clb_exclusive_clusters#id DataTencentcloudClbExclusiveClusters#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataTencentcloudClbExclusiveClustersConfig extends cdktf.Terraf
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/clb_exclusive_clusters#result_output_file DataTencentcloudClbExclusiveClusters#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/clb_exclusive_clusters#result_output_file DataTencentcloudClbExclusiveClusters#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/clb_exclusive_clusters#filters DataTencentcloudClbExclusiveClusters#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/clb_exclusive_clusters#filters DataTencentcloudClbExclusiveClusters#filters}
   */
   readonly filters?: DataTencentcloudClbExclusiveClustersFilters[] | cdktf.IResolvable;
 }
@@ -297,13 +297,13 @@ export interface DataTencentcloudClbExclusiveClustersFilters {
   /**
   * Filter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/clb_exclusive_clusters#name DataTencentcloudClbExclusiveClusters#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/clb_exclusive_clusters#name DataTencentcloudClbExclusiveClusters#name}
   */
   readonly name: string;
   /**
   * Filter value array.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/clb_exclusive_clusters#values DataTencentcloudClbExclusiveClusters#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/clb_exclusive_clusters#values DataTencentcloudClbExclusiveClusters#values}
   */
   readonly values: string[];
 }
@@ -442,7 +442,7 @@ export class DataTencentcloudClbExclusiveClustersFiltersList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/clb_exclusive_clusters tencentcloud_clb_exclusive_clusters}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/clb_exclusive_clusters tencentcloud_clb_exclusive_clusters}
 */
 export class DataTencentcloudClbExclusiveClusters extends cdktf.TerraformDataSource {
 
@@ -458,7 +458,7 @@ export class DataTencentcloudClbExclusiveClusters extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataTencentcloudClbExclusiveClusters resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudClbExclusiveClusters to import
-  * @param importFromId The id of the existing DataTencentcloudClbExclusiveClusters that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/clb_exclusive_clusters#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudClbExclusiveClusters that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/clb_exclusive_clusters#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudClbExclusiveClusters to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -470,7 +470,7 @@ export class DataTencentcloudClbExclusiveClusters extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/clb_exclusive_clusters tencentcloud_clb_exclusive_clusters} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/clb_exclusive_clusters tencentcloud_clb_exclusive_clusters} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -481,8 +481,8 @@ export class DataTencentcloudClbExclusiveClusters extends cdktf.TerraformDataSou
       terraformResourceType: 'tencentcloud_clb_exclusive_clusters',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.39',
-        providerVersionConstraint: '1.82.39'
+        providerVersion: '1.82.40',
+        providerVersionConstraint: '1.82.40'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

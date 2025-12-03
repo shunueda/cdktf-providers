@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/monitor_policy_group
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/monitor_policy_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface MonitorPolicyGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Policy group name, length should between 1 and 20.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/monitor_policy_group#group_name MonitorPolicyGroup#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/monitor_policy_group#group_name MonitorPolicyGroup#group_name}
   */
   readonly groupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/monitor_policy_group#id MonitorPolicyGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/monitor_policy_group#id MonitorPolicyGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface MonitorPolicyGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * The and or relation of indicator alarm rule. Valid values: `0`, `1`. `0` represents or rule (if any rule is met, the alarm will be raised), `1` represents and rule (if all rules are met, the alarm will be raised).The default is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/monitor_policy_group#is_union_rule MonitorPolicyGroup#is_union_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/monitor_policy_group#is_union_rule MonitorPolicyGroup#is_union_rule}
   */
   readonly isUnionRule?: number;
   /**
   * Policy view name, eg:`cvm_device`,`BANDWIDTHPACKAGE`, refer to `data.tencentcloud_monitor_policy_conditions(policy_view_name)`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/monitor_policy_group#policy_view_name MonitorPolicyGroup#policy_view_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/monitor_policy_group#policy_view_name MonitorPolicyGroup#policy_view_name}
   */
   readonly policyViewName: string;
   /**
   * The project id to which the policy group belongs, default is `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/monitor_policy_group#project_id MonitorPolicyGroup#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/monitor_policy_group#project_id MonitorPolicyGroup#project_id}
   */
   readonly projectId?: number;
   /**
   * Policy group's remark information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/monitor_policy_group#remark MonitorPolicyGroup#remark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/monitor_policy_group#remark MonitorPolicyGroup#remark}
   */
   readonly remark: string;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/monitor_policy_group#conditions MonitorPolicyGroup#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/monitor_policy_group#conditions MonitorPolicyGroup#conditions}
   */
   readonly conditions?: MonitorPolicyGroupConditions[] | cdktf.IResolvable;
   /**
   * event_conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/monitor_policy_group#event_conditions MonitorPolicyGroup#event_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/monitor_policy_group#event_conditions MonitorPolicyGroup#event_conditions}
   */
   readonly eventConditions?: MonitorPolicyGroupEventConditions[] | cdktf.IResolvable;
 }
@@ -291,43 +291,43 @@ export interface MonitorPolicyGroupConditions {
   /**
   * Alarm sending cycle per second. <0 does not fire, `0` only fires once, and >0 fires every triggerTime second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/monitor_policy_group#alarm_notify_period MonitorPolicyGroup#alarm_notify_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/monitor_policy_group#alarm_notify_period MonitorPolicyGroup#alarm_notify_period}
   */
   readonly alarmNotifyPeriod: number;
   /**
   * Alarm sending convergence type. `0` continuous alarm, `1` index alarm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/monitor_policy_group#alarm_notify_type MonitorPolicyGroup#alarm_notify_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/monitor_policy_group#alarm_notify_type MonitorPolicyGroup#alarm_notify_type}
   */
   readonly alarmNotifyType: number;
   /**
   * Data aggregation cycle (unit of second), if the metric has a default value can not be filled, refer to `data.tencentcloud_monitor_policy_conditions(period_keys)`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/monitor_policy_group#calc_period MonitorPolicyGroup#calc_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/monitor_policy_group#calc_period MonitorPolicyGroup#calc_period}
   */
   readonly calcPeriod?: number;
   /**
   * Compare type. Valid value ranges: [1~12]. `1` means more than, `2` means greater than or equal, `3` means less than, `4` means less than or equal to, `5` means equal, `6` means not equal, `7` means days rose, `8` means days fell, `9` means weeks rose, `10` means weeks fell, `11` means period rise, `12` means period fell, refer to `data.tencentcloud_monitor_policy_conditions(calc_type_keys)`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/monitor_policy_group#calc_type MonitorPolicyGroup#calc_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/monitor_policy_group#calc_type MonitorPolicyGroup#calc_type}
   */
   readonly calcType?: number;
   /**
   * Threshold value, refer to `data.tencentcloud_monitor_policy_conditions(calc_value_*)`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/monitor_policy_group#calc_value MonitorPolicyGroup#calc_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/monitor_policy_group#calc_value MonitorPolicyGroup#calc_value}
   */
   readonly calcValue?: number;
   /**
   * The rule triggers an alert that lasts for several detection cycles, refer to `data.tencentcloud_monitor_policy_conditions(period_num_keys)`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/monitor_policy_group#continue_period MonitorPolicyGroup#continue_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/monitor_policy_group#continue_period MonitorPolicyGroup#continue_period}
   */
   readonly continuePeriod?: number;
   /**
   * Id of the metric, refer to `data.tencentcloud_monitor_policy_conditions(metric_id)`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/monitor_policy_group#metric_id MonitorPolicyGroup#metric_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/monitor_policy_group#metric_id MonitorPolicyGroup#metric_id}
   */
   readonly metricId: number;
 }
@@ -610,19 +610,19 @@ export interface MonitorPolicyGroupEventConditions {
   /**
   * Alarm sending cycle per second. <0 does not fire, `0` only fires once, and >0 fires every triggerTime second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/monitor_policy_group#alarm_notify_period MonitorPolicyGroup#alarm_notify_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/monitor_policy_group#alarm_notify_period MonitorPolicyGroup#alarm_notify_period}
   */
   readonly alarmNotifyPeriod: number;
   /**
   * Alarm sending convergence type. `0` continuous alarm, `1` index alarm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/monitor_policy_group#alarm_notify_type MonitorPolicyGroup#alarm_notify_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/monitor_policy_group#alarm_notify_type MonitorPolicyGroup#alarm_notify_type}
   */
   readonly alarmNotifyType: number;
   /**
   * The ID of this event metric, refer to `data.tencentcloud_monitor_policy_conditions(event_id).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/monitor_policy_group#event_id MonitorPolicyGroup#event_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/monitor_policy_group#event_id MonitorPolicyGroup#event_id}
   */
   readonly eventId: number;
 }
@@ -787,7 +787,7 @@ export class MonitorPolicyGroupEventConditionsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/monitor_policy_group tencentcloud_monitor_policy_group}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/monitor_policy_group tencentcloud_monitor_policy_group}
 */
 export class MonitorPolicyGroup extends cdktf.TerraformResource {
 
@@ -803,7 +803,7 @@ export class MonitorPolicyGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MonitorPolicyGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MonitorPolicyGroup to import
-  * @param importFromId The id of the existing MonitorPolicyGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/monitor_policy_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MonitorPolicyGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/monitor_policy_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MonitorPolicyGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -815,7 +815,7 @@ export class MonitorPolicyGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/monitor_policy_group tencentcloud_monitor_policy_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/monitor_policy_group tencentcloud_monitor_policy_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -826,8 +826,8 @@ export class MonitorPolicyGroup extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_monitor_policy_group',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.39',
-        providerVersionConstraint: '1.82.39'
+        providerVersion: '1.82.40',
+        providerVersionConstraint: '1.82.40'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

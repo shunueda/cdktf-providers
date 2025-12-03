@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_kafka_topic
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_kafka_topic
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,66 +8,72 @@ import * as cdktf from 'cdktf';
 
 export interface DmsKafkaTopicConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_kafka_topic#aging_time DmsKafkaTopic#aging_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_kafka_topic#aging_time DmsKafkaTopic#aging_time}
   */
   readonly agingTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_kafka_topic#description DmsKafkaTopic#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_kafka_topic#description DmsKafkaTopic#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_kafka_topic#id DmsKafkaTopic#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_kafka_topic#id DmsKafkaTopic#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_kafka_topic#instance_id DmsKafkaTopic#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_kafka_topic#instance_id DmsKafkaTopic#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_kafka_topic#name DmsKafkaTopic#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_kafka_topic#name DmsKafkaTopic#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_kafka_topic#new_partition_brokers DmsKafkaTopic#new_partition_brokers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_kafka_topic#new_partition_brokers DmsKafkaTopic#new_partition_brokers}
   */
   readonly newPartitionBrokers?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_kafka_topic#partitions DmsKafkaTopic#partitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_kafka_topic#partitions DmsKafkaTopic#partitions}
   */
   readonly partitions: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_kafka_topic#region DmsKafkaTopic#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_kafka_topic#region DmsKafkaTopic#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_kafka_topic#replicas DmsKafkaTopic#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_kafka_topic#replicas DmsKafkaTopic#replicas}
   */
   readonly replicas?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_kafka_topic#sync_flushing DmsKafkaTopic#sync_flushing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_kafka_topic#sync_flushing DmsKafkaTopic#sync_flushing}
   */
   readonly syncFlushing?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_kafka_topic#sync_replication DmsKafkaTopic#sync_replication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_kafka_topic#sync_replication DmsKafkaTopic#sync_replication}
   */
   readonly syncReplication?: boolean | cdktf.IResolvable;
   /**
   * configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_kafka_topic#configs DmsKafkaTopic#configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_kafka_topic#configs DmsKafkaTopic#configs}
   */
   readonly configs?: DmsKafkaTopicConfigs[] | cdktf.IResolvable;
+  /**
+  * timeouts block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_kafka_topic#timeouts DmsKafkaTopic#timeouts}
+  */
+  readonly timeouts?: DmsKafkaTopicTimeouts;
 }
 export interface DmsKafkaTopicConfigs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_kafka_topic#name DmsKafkaTopic#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_kafka_topic#name DmsKafkaTopic#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_kafka_topic#value DmsKafkaTopic#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_kafka_topic#value DmsKafkaTopic#value}
   */
   readonly value: string;
 }
@@ -204,9 +210,103 @@ export class DmsKafkaTopicConfigsList extends cdktf.ComplexList {
     return new DmsKafkaTopicConfigsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface DmsKafkaTopicTimeouts {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_kafka_topic#create DmsKafkaTopic#create}
+  */
+  readonly create?: string;
+}
+
+export function dmsKafkaTopicTimeoutsToTerraform(struct?: DmsKafkaTopicTimeouts | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    create: cdktf.stringToTerraform(struct!.create),
+  }
+}
+
+
+export function dmsKafkaTopicTimeoutsToHclTerraform(struct?: DmsKafkaTopicTimeouts | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    create: {
+      value: cdktf.stringToHclTerraform(struct!.create),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DmsKafkaTopicTimeoutsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DmsKafkaTopicTimeouts | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._create !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.create = this._create;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DmsKafkaTopicTimeouts | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._create = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._create = value.create;
+    }
+  }
+
+  // create - computed: false, optional: true, required: false
+  private _create?: string; 
+  public get create() {
+    return this.getStringAttribute('create');
+  }
+  public set create(value: string) {
+    this._create = value;
+  }
+  public resetCreate() {
+    this._create = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get createInput() {
+    return this._create;
+  }
+}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_kafka_topic sbercloud_dms_kafka_topic}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_kafka_topic sbercloud_dms_kafka_topic}
 */
 export class DmsKafkaTopic extends cdktf.TerraformResource {
 
@@ -222,7 +322,7 @@ export class DmsKafkaTopic extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DmsKafkaTopic resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DmsKafkaTopic to import
-  * @param importFromId The id of the existing DmsKafkaTopic that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_kafka_topic#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DmsKafkaTopic that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_kafka_topic#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DmsKafkaTopic to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -234,7 +334,7 @@ export class DmsKafkaTopic extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_kafka_topic sbercloud_dms_kafka_topic} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_kafka_topic sbercloud_dms_kafka_topic} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -245,8 +345,8 @@ export class DmsKafkaTopic extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_dms_kafka_topic',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -268,6 +368,7 @@ export class DmsKafkaTopic extends cdktf.TerraformResource {
     this._syncFlushing = config.syncFlushing;
     this._syncReplication = config.syncReplication;
     this._configs.internalValue = config.configs;
+    this._timeouts.internalValue = config.timeouts;
   }
 
   // ==========
@@ -472,6 +573,22 @@ export class DmsKafkaTopic extends cdktf.TerraformResource {
     return this._configs.internalValue;
   }
 
+  // timeouts - computed: false, optional: true, required: false
+  private _timeouts = new DmsKafkaTopicTimeoutsOutputReference(this, "timeouts");
+  public get timeouts() {
+    return this._timeouts;
+  }
+  public putTimeouts(value: DmsKafkaTopicTimeouts) {
+    this._timeouts.internalValue = value;
+  }
+  public resetTimeouts() {
+    this._timeouts.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get timeoutsInput() {
+    return this._timeouts.internalValue;
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -490,6 +607,7 @@ export class DmsKafkaTopic extends cdktf.TerraformResource {
       sync_flushing: cdktf.booleanToTerraform(this._syncFlushing),
       sync_replication: cdktf.booleanToTerraform(this._syncReplication),
       configs: cdktf.listMapper(dmsKafkaTopicConfigsToTerraform, true)(this._configs.internalValue),
+      timeouts: dmsKafkaTopicTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
 
@@ -566,6 +684,12 @@ export class DmsKafkaTopic extends cdktf.TerraformResource {
         isBlock: true,
         type: "set",
         storageClassType: "DmsKafkaTopicConfigsList",
+      },
+      timeouts: {
+        value: dmsKafkaTopicTimeoutsToHclTerraform(this._timeouts.internalValue),
+        isBlock: true,
+        type: "struct",
+        storageClassType: "DmsKafkaTopicTimeouts",
       },
     };
 

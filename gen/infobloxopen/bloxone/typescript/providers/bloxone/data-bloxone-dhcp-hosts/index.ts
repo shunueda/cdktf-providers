@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_hosts
+// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_hosts
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataBloxoneDhcpHostsConfig extends cdktf.TerraformMetaArguments
   /**
   * Filter are used to return a more specific list of results. Filters can be used to match resources by specific attributes, e.g. name. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_hosts#filters DataBloxoneDhcpHosts#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_hosts#filters DataBloxoneDhcpHosts#filters}
   */
   readonly filters?: { [key: string]: string };
   /**
   * If set to `true`, the data source will retry until a matching host is found, or until the Read Timeout expires.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_hosts#retry_if_not_found DataBloxoneDhcpHosts#retry_if_not_found}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_hosts#retry_if_not_found DataBloxoneDhcpHosts#retry_if_not_found}
   */
   readonly retryIfNotFound?: boolean | cdktf.IResolvable;
   /**
   * Tag Filters are used to return a more specific list of results filtered by tags. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_hosts#tag_filters DataBloxoneDhcpHosts#tag_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_hosts#tag_filters DataBloxoneDhcpHosts#tag_filters}
   */
   readonly tagFilters?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_hosts#timeouts DataBloxoneDhcpHosts#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_hosts#timeouts DataBloxoneDhcpHosts#timeouts}
   */
   readonly timeouts?: DataBloxoneDhcpHostsTimeouts;
 }
@@ -103,25 +103,25 @@ export interface DataBloxoneDhcpHostsResults {
   /**
   * The DHCP Config Profile for the on-prem host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_hosts#associated_server DataBloxoneDhcpHosts#associated_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_hosts#associated_server DataBloxoneDhcpHosts#associated_server}
   */
   readonly associatedServer?: DataBloxoneDhcpHostsResultsAssociatedServer;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_hosts#ip_space DataBloxoneDhcpHosts#ip_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_hosts#ip_space DataBloxoneDhcpHosts#ip_space}
   */
   readonly ipSpace?: string;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_hosts#server DataBloxoneDhcpHosts#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_hosts#server DataBloxoneDhcpHosts#server}
   */
   readonly server?: string;
   /**
   * The tags of the on-prem host in JSON format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_hosts#tags DataBloxoneDhcpHosts#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_hosts#tags DataBloxoneDhcpHosts#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -367,7 +367,7 @@ export interface DataBloxoneDhcpHostsTimeouts {
   /**
   * [Duration](https://pkg.go.dev/time#ParseDuration) to wait before being considered a timeout during read operations. Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Default is 20m.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_hosts#read DataBloxoneDhcpHosts#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_hosts#read DataBloxoneDhcpHosts#read}
   */
   readonly read?: string;
 }
@@ -461,7 +461,7 @@ export class DataBloxoneDhcpHostsTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_hosts bloxone_dhcp_hosts}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_hosts bloxone_dhcp_hosts}
 */
 export class DataBloxoneDhcpHosts extends cdktf.TerraformDataSource {
 
@@ -477,7 +477,7 @@ export class DataBloxoneDhcpHosts extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataBloxoneDhcpHosts resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataBloxoneDhcpHosts to import
-  * @param importFromId The id of the existing DataBloxoneDhcpHosts that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_hosts#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataBloxoneDhcpHosts that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_hosts#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataBloxoneDhcpHosts to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -489,7 +489,7 @@ export class DataBloxoneDhcpHosts extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_hosts bloxone_dhcp_hosts} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_hosts bloxone_dhcp_hosts} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -500,8 +500,8 @@ export class DataBloxoneDhcpHosts extends cdktf.TerraformDataSource {
       terraformResourceType: 'bloxone_dhcp_hosts',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.5.4',
+        providerVersionConstraint: '1.5.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

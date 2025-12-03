@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/data-sources/opensearch_instance
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/data-sources/opensearch_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataStackitOpensearchInstanceConfig extends cdktf.TerraformMeta
   /**
   * ID of the OpenSearch instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/data-sources/opensearch_instance#instance_id DataStackitOpensearchInstance#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/data-sources/opensearch_instance#instance_id DataStackitOpensearchInstance#instance_id}
   */
   readonly instanceId: string;
   /**
   * STACKIT Project ID to which the instance is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/data-sources/opensearch_instance#project_id DataStackitOpensearchInstance#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/data-sources/opensearch_instance#project_id DataStackitOpensearchInstance#project_id}
   */
   readonly projectId: string;
 }
@@ -141,7 +141,7 @@ export class DataStackitOpensearchInstanceParametersOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/data-sources/opensearch_instance stackit_opensearch_instance}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/data-sources/opensearch_instance stackit_opensearch_instance}
 */
 export class DataStackitOpensearchInstance extends cdktf.TerraformDataSource {
 
@@ -157,7 +157,7 @@ export class DataStackitOpensearchInstance extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataStackitOpensearchInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataStackitOpensearchInstance to import
-  * @param importFromId The id of the existing DataStackitOpensearchInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/data-sources/opensearch_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataStackitOpensearchInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/data-sources/opensearch_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataStackitOpensearchInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -169,7 +169,7 @@ export class DataStackitOpensearchInstance extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/data-sources/opensearch_instance stackit_opensearch_instance} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/data-sources/opensearch_instance stackit_opensearch_instance} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -180,8 +180,8 @@ export class DataStackitOpensearchInstance extends cdktf.TerraformDataSource {
       terraformResourceType: 'stackit_opensearch_instance',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.72.0',
-        providerVersionConstraint: '0.72.0'
+        providerVersion: '0.73.0',
+        providerVersionConstraint: '0.73.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

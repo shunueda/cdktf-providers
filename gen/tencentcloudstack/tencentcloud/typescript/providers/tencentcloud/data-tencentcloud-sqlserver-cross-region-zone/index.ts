@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/sqlserver_cross_region_zone
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/sqlserver_cross_region_zone
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudSqlserverCrossRegionZoneConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/sqlserver_cross_region_zone#id DataTencentcloudSqlserverCrossRegionZone#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/sqlserver_cross_region_zone#id DataTencentcloudSqlserverCrossRegionZone#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataTencentcloudSqlserverCrossRegionZoneConfig extends cdktf.Te
   /**
   * Instance ID in the format of mssql-j8kv137v.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/sqlserver_cross_region_zone#instance_id DataTencentcloudSqlserverCrossRegionZone#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/sqlserver_cross_region_zone#instance_id DataTencentcloudSqlserverCrossRegionZone#instance_id}
   */
   readonly instanceId: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/sqlserver_cross_region_zone#result_output_file DataTencentcloudSqlserverCrossRegionZone#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/sqlserver_cross_region_zone#result_output_file DataTencentcloudSqlserverCrossRegionZone#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/sqlserver_cross_region_zone tencentcloud_sqlserver_cross_region_zone}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/sqlserver_cross_region_zone tencentcloud_sqlserver_cross_region_zone}
 */
 export class DataTencentcloudSqlserverCrossRegionZone extends cdktf.TerraformDataSource {
 
@@ -45,7 +45,7 @@ export class DataTencentcloudSqlserverCrossRegionZone extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataTencentcloudSqlserverCrossRegionZone resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudSqlserverCrossRegionZone to import
-  * @param importFromId The id of the existing DataTencentcloudSqlserverCrossRegionZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/sqlserver_cross_region_zone#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudSqlserverCrossRegionZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/sqlserver_cross_region_zone#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudSqlserverCrossRegionZone to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class DataTencentcloudSqlserverCrossRegionZone extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/sqlserver_cross_region_zone tencentcloud_sqlserver_cross_region_zone} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/sqlserver_cross_region_zone tencentcloud_sqlserver_cross_region_zone} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class DataTencentcloudSqlserverCrossRegionZone extends cdktf.TerraformDat
       terraformResourceType: 'tencentcloud_sqlserver_cross_region_zone',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.39',
-        providerVersionConstraint: '1.82.39'
+        providerVersion: '1.82.40',
+        providerVersionConstraint: '1.82.40'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cbr_vaults
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cbr_vaults
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataSbercloudCbrVaultsConfig extends cdktf.TerraformMetaArgumen
   /**
   * Whether to enable automatic expansion of the backup protection type vault.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cbr_vaults#auto_expand_enabled DataSbercloudCbrVaults#auto_expand_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cbr_vaults#auto_expand_enabled DataSbercloudCbrVaults#auto_expand_enabled}
   */
   readonly autoExpandEnabled?: boolean | cdktf.IResolvable;
   /**
   * The consistent level (specification) of the vault.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cbr_vaults#consistent_level DataSbercloudCbrVaults#consistent_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cbr_vaults#consistent_level DataSbercloudCbrVaults#consistent_level}
   */
   readonly consistentLevel?: string;
   /**
   * The ID of the enterprise project to which the vault belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cbr_vaults#enterprise_project_id DataSbercloudCbrVaults#enterprise_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cbr_vaults#enterprise_project_id DataSbercloudCbrVaults#enterprise_project_id}
   */
   readonly enterpriseProjectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cbr_vaults#id DataSbercloudCbrVaults#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cbr_vaults#id DataSbercloudCbrVaults#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,43 +35,43 @@ export interface DataSbercloudCbrVaultsConfig extends cdktf.TerraformMetaArgumen
   /**
   * The vault name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cbr_vaults#name DataSbercloudCbrVaults#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cbr_vaults#name DataSbercloudCbrVaults#name}
   */
   readonly name?: string;
   /**
   * The ID of the policy associated with the vault.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cbr_vaults#policy_id DataSbercloudCbrVaults#policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cbr_vaults#policy_id DataSbercloudCbrVaults#policy_id}
   */
   readonly policyId?: string;
   /**
   * The protection type of the vault.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cbr_vaults#protection_type DataSbercloudCbrVaults#protection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cbr_vaults#protection_type DataSbercloudCbrVaults#protection_type}
   */
   readonly protectionType?: string;
   /**
   * The region in which to query the vaults.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cbr_vaults#region DataSbercloudCbrVaults#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cbr_vaults#region DataSbercloudCbrVaults#region}
   */
   readonly region?: string;
   /**
   * The vault sapacity, in GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cbr_vaults#size DataSbercloudCbrVaults#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cbr_vaults#size DataSbercloudCbrVaults#size}
   */
   readonly size?: number;
   /**
   * The vault status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cbr_vaults#status DataSbercloudCbrVaults#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cbr_vaults#status DataSbercloudCbrVaults#status}
   */
   readonly status?: string;
   /**
   * The object type of the vault.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cbr_vaults#type DataSbercloudCbrVaults#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cbr_vaults#type DataSbercloudCbrVaults#type}
   */
   readonly type?: string;
 }
@@ -325,7 +325,7 @@ export class DataSbercloudCbrVaultsVaultsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cbr_vaults sbercloud_cbr_vaults}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cbr_vaults sbercloud_cbr_vaults}
 */
 export class DataSbercloudCbrVaults extends cdktf.TerraformDataSource {
 
@@ -341,7 +341,7 @@ export class DataSbercloudCbrVaults extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSbercloudCbrVaults resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSbercloudCbrVaults to import
-  * @param importFromId The id of the existing DataSbercloudCbrVaults that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cbr_vaults#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSbercloudCbrVaults that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cbr_vaults#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSbercloudCbrVaults to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -353,7 +353,7 @@ export class DataSbercloudCbrVaults extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cbr_vaults sbercloud_cbr_vaults} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cbr_vaults sbercloud_cbr_vaults} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -364,8 +364,8 @@ export class DataSbercloudCbrVaults extends cdktf.TerraformDataSource {
       terraformResourceType: 'sbercloud_cbr_vaults',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

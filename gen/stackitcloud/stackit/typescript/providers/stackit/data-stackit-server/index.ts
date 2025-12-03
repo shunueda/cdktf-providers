@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/data-sources/server
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/data-sources/server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataStackitServerConfig extends cdktf.TerraformMetaArguments {
   /**
   * STACKIT project ID to which the server is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/data-sources/server#project_id DataStackitServer#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/data-sources/server#project_id DataStackitServer#project_id}
   */
   readonly projectId: string;
   /**
   * The server ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/data-sources/server#server_id DataStackitServer#server_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/data-sources/server#server_id DataStackitServer#server_id}
   */
   readonly serverId: string;
 }
@@ -81,7 +81,7 @@ export class DataStackitServerBootVolumeOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/data-sources/server stackit_server}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/data-sources/server stackit_server}
 */
 export class DataStackitServer extends cdktf.TerraformDataSource {
 
@@ -97,7 +97,7 @@ export class DataStackitServer extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataStackitServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataStackitServer to import
-  * @param importFromId The id of the existing DataStackitServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/data-sources/server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataStackitServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/data-sources/server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataStackitServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -109,7 +109,7 @@ export class DataStackitServer extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/data-sources/server stackit_server} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/data-sources/server stackit_server} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -120,8 +120,8 @@ export class DataStackitServer extends cdktf.TerraformDataSource {
       terraformResourceType: 'stackit_server',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.72.0',
-        providerVersionConstraint: '0.72.0'
+        providerVersion: '0.73.0',
+        providerVersionConstraint: '0.73.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

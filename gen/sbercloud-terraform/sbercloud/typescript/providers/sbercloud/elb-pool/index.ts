@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_pool
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,120 +8,313 @@ import * as cdktf from 'cdktf';
 
 export interface ElbPoolConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_pool#any_port_enable ElbPool#any_port_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_pool#any_port_enable ElbPool#any_port_enable}
   */
   readonly anyPortEnable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_pool#connection_drain_enabled ElbPool#connection_drain_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_pool#cascade_delete ElbPool#cascade_delete}
+  */
+  readonly cascadeDelete?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_pool#connection_drain_enabled ElbPool#connection_drain_enabled}
   */
   readonly connectionDrainEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_pool#connection_drain_timeout ElbPool#connection_drain_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_pool#connection_drain_timeout ElbPool#connection_drain_timeout}
   */
   readonly connectionDrainTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_pool#deletion_protection_enable ElbPool#deletion_protection_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_pool#deletion_protection_enable ElbPool#deletion_protection_enable}
   */
   readonly deletionProtectionEnable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_pool#description ElbPool#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_pool#description ElbPool#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_pool#enable_force_new ElbPool#enable_force_new}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_pool#enable_force_new ElbPool#enable_force_new}
   */
   readonly enableForceNew?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_pool#id ElbPool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_pool#id ElbPool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_pool#ip_version ElbPool#ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_pool#ip_version ElbPool#ip_version}
   */
   readonly ipVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_pool#lb_method ElbPool#lb_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_pool#lb_method ElbPool#lb_method}
   */
   readonly lbMethod: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_pool#listener_id ElbPool#listener_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_pool#listener_id ElbPool#listener_id}
   */
   readonly listenerId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_pool#loadbalancer_id ElbPool#loadbalancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_pool#loadbalancer_id ElbPool#loadbalancer_id}
   */
   readonly loadbalancerId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_pool#minimum_healthy_member_count ElbPool#minimum_healthy_member_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_pool#minimum_healthy_member_count ElbPool#minimum_healthy_member_count}
   */
   readonly minimumHealthyMemberCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_pool#name ElbPool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_pool#name ElbPool#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_pool#protection_reason ElbPool#protection_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_pool#protection_reason ElbPool#protection_reason}
   */
   readonly protectionReason?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_pool#protection_status ElbPool#protection_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_pool#protection_status ElbPool#protection_status}
   */
   readonly protectionStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_pool#protocol ElbPool#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_pool#protocol ElbPool#protocol}
   */
   readonly protocol: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_pool#public_border_group ElbPool#public_border_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_pool#public_border_group ElbPool#public_border_group}
   */
   readonly publicBorderGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_pool#region ElbPool#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_pool#region ElbPool#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_pool#slow_start_duration ElbPool#slow_start_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_pool#slow_start_duration ElbPool#slow_start_duration}
   */
   readonly slowStartDuration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_pool#slow_start_enabled ElbPool#slow_start_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_pool#slow_start_enabled ElbPool#slow_start_enabled}
   */
   readonly slowStartEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_pool#type ElbPool#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_pool#type ElbPool#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_pool#vpc_id ElbPool#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_pool#vpc_id ElbPool#vpc_id}
   */
   readonly vpcId?: string;
   /**
+  * az_affinity block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_pool#az_affinity ElbPool#az_affinity}
+  */
+  readonly azAffinity?: ElbPoolAzAffinity;
+  /**
   * persistence block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_pool#persistence ElbPool#persistence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_pool#persistence ElbPool#persistence}
   */
   readonly persistence?: ElbPoolPersistence;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_pool#timeouts ElbPool#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_pool#timeouts ElbPool#timeouts}
   */
   readonly timeouts?: ElbPoolTimeouts;
 }
+export interface ElbPoolAzAffinity {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_pool#az_minimum_healthy_member_count ElbPool#az_minimum_healthy_member_count}
+  */
+  readonly azMinimumHealthyMemberCount?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_pool#az_minimum_healthy_member_percentage ElbPool#az_minimum_healthy_member_percentage}
+  */
+  readonly azMinimumHealthyMemberPercentage?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_pool#az_unhealthy_fallback_strategy ElbPool#az_unhealthy_fallback_strategy}
+  */
+  readonly azUnhealthyFallbackStrategy?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_pool#enable ElbPool#enable}
+  */
+  readonly enable?: string;
+}
+
+export function elbPoolAzAffinityToTerraform(struct?: ElbPoolAzAffinityOutputReference | ElbPoolAzAffinity): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    az_minimum_healthy_member_count: cdktf.stringToTerraform(struct!.azMinimumHealthyMemberCount),
+    az_minimum_healthy_member_percentage: cdktf.stringToTerraform(struct!.azMinimumHealthyMemberPercentage),
+    az_unhealthy_fallback_strategy: cdktf.stringToTerraform(struct!.azUnhealthyFallbackStrategy),
+    enable: cdktf.stringToTerraform(struct!.enable),
+  }
+}
+
+
+export function elbPoolAzAffinityToHclTerraform(struct?: ElbPoolAzAffinityOutputReference | ElbPoolAzAffinity): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    az_minimum_healthy_member_count: {
+      value: cdktf.stringToHclTerraform(struct!.azMinimumHealthyMemberCount),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    az_minimum_healthy_member_percentage: {
+      value: cdktf.stringToHclTerraform(struct!.azMinimumHealthyMemberPercentage),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    az_unhealthy_fallback_strategy: {
+      value: cdktf.stringToHclTerraform(struct!.azUnhealthyFallbackStrategy),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    enable: {
+      value: cdktf.stringToHclTerraform(struct!.enable),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ElbPoolAzAffinityOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ElbPoolAzAffinity | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._azMinimumHealthyMemberCount !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.azMinimumHealthyMemberCount = this._azMinimumHealthyMemberCount;
+    }
+    if (this._azMinimumHealthyMemberPercentage !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.azMinimumHealthyMemberPercentage = this._azMinimumHealthyMemberPercentage;
+    }
+    if (this._azUnhealthyFallbackStrategy !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.azUnhealthyFallbackStrategy = this._azUnhealthyFallbackStrategy;
+    }
+    if (this._enable !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enable = this._enable;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ElbPoolAzAffinity | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._azMinimumHealthyMemberCount = undefined;
+      this._azMinimumHealthyMemberPercentage = undefined;
+      this._azUnhealthyFallbackStrategy = undefined;
+      this._enable = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._azMinimumHealthyMemberCount = value.azMinimumHealthyMemberCount;
+      this._azMinimumHealthyMemberPercentage = value.azMinimumHealthyMemberPercentage;
+      this._azUnhealthyFallbackStrategy = value.azUnhealthyFallbackStrategy;
+      this._enable = value.enable;
+    }
+  }
+
+  // az_minimum_healthy_member_count - computed: true, optional: true, required: false
+  private _azMinimumHealthyMemberCount?: string; 
+  public get azMinimumHealthyMemberCount() {
+    return this.getStringAttribute('az_minimum_healthy_member_count');
+  }
+  public set azMinimumHealthyMemberCount(value: string) {
+    this._azMinimumHealthyMemberCount = value;
+  }
+  public resetAzMinimumHealthyMemberCount() {
+    this._azMinimumHealthyMemberCount = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get azMinimumHealthyMemberCountInput() {
+    return this._azMinimumHealthyMemberCount;
+  }
+
+  // az_minimum_healthy_member_percentage - computed: true, optional: true, required: false
+  private _azMinimumHealthyMemberPercentage?: string; 
+  public get azMinimumHealthyMemberPercentage() {
+    return this.getStringAttribute('az_minimum_healthy_member_percentage');
+  }
+  public set azMinimumHealthyMemberPercentage(value: string) {
+    this._azMinimumHealthyMemberPercentage = value;
+  }
+  public resetAzMinimumHealthyMemberPercentage() {
+    this._azMinimumHealthyMemberPercentage = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get azMinimumHealthyMemberPercentageInput() {
+    return this._azMinimumHealthyMemberPercentage;
+  }
+
+  // az_unhealthy_fallback_strategy - computed: true, optional: true, required: false
+  private _azUnhealthyFallbackStrategy?: string; 
+  public get azUnhealthyFallbackStrategy() {
+    return this.getStringAttribute('az_unhealthy_fallback_strategy');
+  }
+  public set azUnhealthyFallbackStrategy(value: string) {
+    this._azUnhealthyFallbackStrategy = value;
+  }
+  public resetAzUnhealthyFallbackStrategy() {
+    this._azUnhealthyFallbackStrategy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get azUnhealthyFallbackStrategyInput() {
+    return this._azUnhealthyFallbackStrategy;
+  }
+
+  // enable - computed: true, optional: true, required: false
+  private _enable?: string; 
+  public get enable() {
+    return this.getStringAttribute('enable');
+  }
+  public set enable(value: string) {
+    this._enable = value;
+  }
+  public resetEnable() {
+    this._enable = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableInput() {
+    return this._enable;
+  }
+}
 export interface ElbPoolPersistence {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_pool#cookie_name ElbPool#cookie_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_pool#cookie_name ElbPool#cookie_name}
   */
   readonly cookieName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_pool#timeout ElbPool#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_pool#timeout ElbPool#timeout}
   */
   readonly timeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_pool#type ElbPool#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_pool#type ElbPool#type}
   */
   readonly type: string;
 }
@@ -260,15 +453,15 @@ export class ElbPoolPersistenceOutputReference extends cdktf.ComplexObject {
 }
 export interface ElbPoolTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_pool#create ElbPool#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_pool#create ElbPool#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_pool#delete ElbPool#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_pool#delete ElbPool#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_pool#update ElbPool#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_pool#update ElbPool#update}
   */
   readonly update?: string;
 }
@@ -420,7 +613,7 @@ export class ElbPoolTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_pool sbercloud_elb_pool}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_pool sbercloud_elb_pool}
 */
 export class ElbPool extends cdktf.TerraformResource {
 
@@ -436,7 +629,7 @@ export class ElbPool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ElbPool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ElbPool to import
-  * @param importFromId The id of the existing ElbPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ElbPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ElbPool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -448,7 +641,7 @@ export class ElbPool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_pool sbercloud_elb_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_pool sbercloud_elb_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -459,8 +652,8 @@ export class ElbPool extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_elb_pool',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -471,6 +664,7 @@ export class ElbPool extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._anyPortEnable = config.anyPortEnable;
+    this._cascadeDelete = config.cascadeDelete;
     this._connectionDrainEnabled = config.connectionDrainEnabled;
     this._connectionDrainTimeout = config.connectionDrainTimeout;
     this._deletionProtectionEnable = config.deletionProtectionEnable;
@@ -492,6 +686,7 @@ export class ElbPool extends cdktf.TerraformResource {
     this._slowStartEnabled = config.slowStartEnabled;
     this._type = config.type;
     this._vpcId = config.vpcId;
+    this._azAffinity.internalValue = config.azAffinity;
     this._persistence.internalValue = config.persistence;
     this._timeouts.internalValue = config.timeouts;
   }
@@ -514,6 +709,22 @@ export class ElbPool extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get anyPortEnableInput() {
     return this._anyPortEnable;
+  }
+
+  // cascade_delete - computed: false, optional: true, required: false
+  private _cascadeDelete?: boolean | cdktf.IResolvable; 
+  public get cascadeDelete() {
+    return this.getBooleanAttribute('cascade_delete');
+  }
+  public set cascadeDelete(value: boolean | cdktf.IResolvable) {
+    this._cascadeDelete = value;
+  }
+  public resetCascadeDelete() {
+    this._cascadeDelete = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cascadeDeleteInput() {
+    return this._cascadeDelete;
   }
 
   // connection_drain_enabled - computed: true, optional: true, required: false
@@ -866,6 +1077,22 @@ export class ElbPool extends cdktf.TerraformResource {
     return this._vpcId;
   }
 
+  // az_affinity - computed: false, optional: true, required: false
+  private _azAffinity = new ElbPoolAzAffinityOutputReference(this, "az_affinity");
+  public get azAffinity() {
+    return this._azAffinity;
+  }
+  public putAzAffinity(value: ElbPoolAzAffinity) {
+    this._azAffinity.internalValue = value;
+  }
+  public resetAzAffinity() {
+    this._azAffinity.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get azAffinityInput() {
+    return this._azAffinity.internalValue;
+  }
+
   // persistence - computed: false, optional: true, required: false
   private _persistence = new ElbPoolPersistenceOutputReference(this, "persistence");
   public get persistence() {
@@ -905,6 +1132,7 @@ export class ElbPool extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       any_port_enable: cdktf.booleanToTerraform(this._anyPortEnable),
+      cascade_delete: cdktf.booleanToTerraform(this._cascadeDelete),
       connection_drain_enabled: cdktf.booleanToTerraform(this._connectionDrainEnabled),
       connection_drain_timeout: cdktf.numberToTerraform(this._connectionDrainTimeout),
       deletion_protection_enable: cdktf.booleanToTerraform(this._deletionProtectionEnable),
@@ -926,6 +1154,7 @@ export class ElbPool extends cdktf.TerraformResource {
       slow_start_enabled: cdktf.booleanToTerraform(this._slowStartEnabled),
       type: cdktf.stringToTerraform(this._type),
       vpc_id: cdktf.stringToTerraform(this._vpcId),
+      az_affinity: elbPoolAzAffinityToTerraform(this._azAffinity.internalValue),
       persistence: elbPoolPersistenceToTerraform(this._persistence.internalValue),
       timeouts: elbPoolTimeoutsToTerraform(this._timeouts.internalValue),
     };
@@ -935,6 +1164,12 @@ export class ElbPool extends cdktf.TerraformResource {
     const attrs = {
       any_port_enable: {
         value: cdktf.booleanToHclTerraform(this._anyPortEnable),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      cascade_delete: {
+        value: cdktf.booleanToHclTerraform(this._cascadeDelete),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
@@ -1064,6 +1299,12 @@ export class ElbPool extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      az_affinity: {
+        value: elbPoolAzAffinityToHclTerraform(this._azAffinity.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "ElbPoolAzAffinityList",
       },
       persistence: {
         value: elbPoolPersistenceToHclTerraform(this._persistence.internalValue),

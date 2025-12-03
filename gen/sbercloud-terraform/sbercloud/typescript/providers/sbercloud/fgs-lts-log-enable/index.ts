@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/fgs_lts_log_enable
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/fgs_lts_log_enable
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface FgsLtsLogEnableConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/fgs_lts_log_enable#id FgsLtsLogEnable#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/fgs_lts_log_enable#id FgsLtsLogEnable#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface FgsLtsLogEnableConfig extends cdktf.TerraformMetaArguments {
   /**
   * The region where the LTS log function is to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/fgs_lts_log_enable#region FgsLtsLogEnable#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/fgs_lts_log_enable#region FgsLtsLogEnable#region}
   */
   readonly region?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/fgs_lts_log_enable sbercloud_fgs_lts_log_enable}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/fgs_lts_log_enable sbercloud_fgs_lts_log_enable}
 */
 export class FgsLtsLogEnable extends cdktf.TerraformResource {
 
@@ -39,7 +39,7 @@ export class FgsLtsLogEnable extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FgsLtsLogEnable resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FgsLtsLogEnable to import
-  * @param importFromId The id of the existing FgsLtsLogEnable that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/fgs_lts_log_enable#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FgsLtsLogEnable that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/fgs_lts_log_enable#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FgsLtsLogEnable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -51,7 +51,7 @@ export class FgsLtsLogEnable extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/fgs_lts_log_enable sbercloud_fgs_lts_log_enable} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/fgs_lts_log_enable sbercloud_fgs_lts_log_enable} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -62,8 +62,8 @@ export class FgsLtsLogEnable extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_fgs_lts_log_enable',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

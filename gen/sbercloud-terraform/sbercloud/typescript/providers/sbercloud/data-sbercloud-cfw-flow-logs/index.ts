@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_flow_logs
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_flow_logs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,65 +10,65 @@ export interface DataSbercloudCfwFlowLogsConfig extends cdktf.TerraformMetaArgum
   /**
   * Specifies the application protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_flow_logs#app DataSbercloudCfwFlowLogs#app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_flow_logs#app DataSbercloudCfwFlowLogs#app}
   */
   readonly app?: string;
   /**
   * Specifies the direction. The values can be **out2in** and **in2out**.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_flow_logs#direction DataSbercloudCfwFlowLogs#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_flow_logs#direction DataSbercloudCfwFlowLogs#direction}
   */
   readonly direction?: string;
   /**
   * Specifies the destination city name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_flow_logs#dst_city_name DataSbercloudCfwFlowLogs#dst_city_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_flow_logs#dst_city_name DataSbercloudCfwFlowLogs#dst_city_name}
   */
   readonly dstCityName?: string;
   /**
   * Specifies the destination IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_flow_logs#dst_ip DataSbercloudCfwFlowLogs#dst_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_flow_logs#dst_ip DataSbercloudCfwFlowLogs#dst_ip}
   */
   readonly dstIp?: string;
   /**
   * Specifies the destination port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_flow_logs#dst_port DataSbercloudCfwFlowLogs#dst_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_flow_logs#dst_port DataSbercloudCfwFlowLogs#dst_port}
   */
   readonly dstPort?: number;
   /**
   * Specifies the destination province name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_flow_logs#dst_province_name DataSbercloudCfwFlowLogs#dst_province_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_flow_logs#dst_province_name DataSbercloudCfwFlowLogs#dst_province_name}
   */
   readonly dstProvinceName?: string;
   /**
   * Specifies the destination region name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_flow_logs#dst_region_name DataSbercloudCfwFlowLogs#dst_region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_flow_logs#dst_region_name DataSbercloudCfwFlowLogs#dst_region_name}
   */
   readonly dstRegionName?: string;
   /**
   * Specifies the end time. The time is in UTC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_flow_logs#end_time DataSbercloudCfwFlowLogs#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_flow_logs#end_time DataSbercloudCfwFlowLogs#end_time}
   */
   readonly endTime: string;
   /**
   * Specifies the enterprise project id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_flow_logs#enterprise_project_id DataSbercloudCfwFlowLogs#enterprise_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_flow_logs#enterprise_project_id DataSbercloudCfwFlowLogs#enterprise_project_id}
   */
   readonly enterpriseProjectId?: string;
   /**
   * Specifies the firewall instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_flow_logs#fw_instance_id DataSbercloudCfwFlowLogs#fw_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_flow_logs#fw_instance_id DataSbercloudCfwFlowLogs#fw_instance_id}
   */
   readonly fwInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_flow_logs#id DataSbercloudCfwFlowLogs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_flow_logs#id DataSbercloudCfwFlowLogs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -77,43 +77,43 @@ export interface DataSbercloudCfwFlowLogsConfig extends cdktf.TerraformMetaArgum
   /**
   * Specifies the region in which to query the resource. If omitted, the provider-level region will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_flow_logs#region DataSbercloudCfwFlowLogs#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_flow_logs#region DataSbercloudCfwFlowLogs#region}
   */
   readonly region?: string;
   /**
   * Specifies the source city name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_flow_logs#src_city_name DataSbercloudCfwFlowLogs#src_city_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_flow_logs#src_city_name DataSbercloudCfwFlowLogs#src_city_name}
   */
   readonly srcCityName?: string;
   /**
   * Specifies the source IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_flow_logs#src_ip DataSbercloudCfwFlowLogs#src_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_flow_logs#src_ip DataSbercloudCfwFlowLogs#src_ip}
   */
   readonly srcIp?: string;
   /**
   * Specifies the source port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_flow_logs#src_port DataSbercloudCfwFlowLogs#src_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_flow_logs#src_port DataSbercloudCfwFlowLogs#src_port}
   */
   readonly srcPort?: number;
   /**
   * Specifies the source province name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_flow_logs#src_province_name DataSbercloudCfwFlowLogs#src_province_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_flow_logs#src_province_name DataSbercloudCfwFlowLogs#src_province_name}
   */
   readonly srcProvinceName?: string;
   /**
   * Specifies the source region name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_flow_logs#src_region_name DataSbercloudCfwFlowLogs#src_region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_flow_logs#src_region_name DataSbercloudCfwFlowLogs#src_region_name}
   */
   readonly srcRegionName?: string;
   /**
   * Specifies the start time. The time is in UTC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_flow_logs#start_time DataSbercloudCfwFlowLogs#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_flow_logs#start_time DataSbercloudCfwFlowLogs#start_time}
   */
   readonly startTime: string;
 }
@@ -314,7 +314,7 @@ export class DataSbercloudCfwFlowLogsRecordsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_flow_logs sbercloud_cfw_flow_logs}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_flow_logs sbercloud_cfw_flow_logs}
 */
 export class DataSbercloudCfwFlowLogs extends cdktf.TerraformDataSource {
 
@@ -330,7 +330,7 @@ export class DataSbercloudCfwFlowLogs extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSbercloudCfwFlowLogs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSbercloudCfwFlowLogs to import
-  * @param importFromId The id of the existing DataSbercloudCfwFlowLogs that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_flow_logs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSbercloudCfwFlowLogs that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_flow_logs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSbercloudCfwFlowLogs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -342,7 +342,7 @@ export class DataSbercloudCfwFlowLogs extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_flow_logs sbercloud_cfw_flow_logs} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_flow_logs sbercloud_cfw_flow_logs} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -353,8 +353,8 @@ export class DataSbercloudCfwFlowLogs extends cdktf.TerraformDataSource {
       terraformResourceType: 'sbercloud_cfw_flow_logs',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

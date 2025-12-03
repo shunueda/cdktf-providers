@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/sfs_turbo_du_task
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/sfs_turbo_du_task
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,22 +8,22 @@ import * as cdktf from 'cdktf';
 
 export interface SfsTurboDuTaskConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/sfs_turbo_du_task#id SfsTurboDuTask#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/sfs_turbo_du_task#id SfsTurboDuTask#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/sfs_turbo_du_task#path SfsTurboDuTask#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/sfs_turbo_du_task#path SfsTurboDuTask#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/sfs_turbo_du_task#region SfsTurboDuTask#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/sfs_turbo_du_task#region SfsTurboDuTask#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/sfs_turbo_du_task#share_id SfsTurboDuTask#share_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/sfs_turbo_du_task#share_id SfsTurboDuTask#share_id}
   */
   readonly shareId: string;
 }
@@ -225,7 +225,7 @@ export class SfsTurboDuTaskDirUsageList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/sfs_turbo_du_task sbercloud_sfs_turbo_du_task}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/sfs_turbo_du_task sbercloud_sfs_turbo_du_task}
 */
 export class SfsTurboDuTask extends cdktf.TerraformResource {
 
@@ -241,7 +241,7 @@ export class SfsTurboDuTask extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SfsTurboDuTask resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SfsTurboDuTask to import
-  * @param importFromId The id of the existing SfsTurboDuTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/sfs_turbo_du_task#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SfsTurboDuTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/sfs_turbo_du_task#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SfsTurboDuTask to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -253,7 +253,7 @@ export class SfsTurboDuTask extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/sfs_turbo_du_task sbercloud_sfs_turbo_du_task} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/sfs_turbo_du_task sbercloud_sfs_turbo_du_task} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -264,8 +264,8 @@ export class SfsTurboDuTask extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_sfs_turbo_du_task',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

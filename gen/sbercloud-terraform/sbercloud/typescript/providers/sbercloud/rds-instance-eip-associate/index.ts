@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_instance_eip_associate
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_instance_eip_associate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface RdsInstanceEipAssociateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_instance_eip_associate#enable_force_new RdsInstanceEipAssociate#enable_force_new}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_instance_eip_associate#enable_force_new RdsInstanceEipAssociate#enable_force_new}
   */
   readonly enableForceNew?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_instance_eip_associate#id RdsInstanceEipAssociate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_instance_eip_associate#id RdsInstanceEipAssociate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_instance_eip_associate#instance_id RdsInstanceEipAssociate#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_instance_eip_associate#instance_id RdsInstanceEipAssociate#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_instance_eip_associate#public_ip RdsInstanceEipAssociate#public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_instance_eip_associate#public_ip RdsInstanceEipAssociate#public_ip}
   */
   readonly publicIp: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_instance_eip_associate#public_ip_id RdsInstanceEipAssociate#public_ip_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_instance_eip_associate#public_ip_id RdsInstanceEipAssociate#public_ip_id}
   */
   readonly publicIpId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_instance_eip_associate#region RdsInstanceEipAssociate#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_instance_eip_associate#region RdsInstanceEipAssociate#region}
   */
   readonly region?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_instance_eip_associate#timeouts RdsInstanceEipAssociate#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_instance_eip_associate#timeouts RdsInstanceEipAssociate#timeouts}
   */
   readonly timeouts?: RdsInstanceEipAssociateTimeouts;
 }
 export interface RdsInstanceEipAssociateTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_instance_eip_associate#create RdsInstanceEipAssociate#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_instance_eip_associate#create RdsInstanceEipAssociate#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_instance_eip_associate#delete RdsInstanceEipAssociate#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_instance_eip_associate#delete RdsInstanceEipAssociate#delete}
   */
   readonly delete?: string;
 }
@@ -170,7 +170,7 @@ export class RdsInstanceEipAssociateTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_instance_eip_associate sbercloud_rds_instance_eip_associate}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_instance_eip_associate sbercloud_rds_instance_eip_associate}
 */
 export class RdsInstanceEipAssociate extends cdktf.TerraformResource {
 
@@ -186,7 +186,7 @@ export class RdsInstanceEipAssociate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RdsInstanceEipAssociate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RdsInstanceEipAssociate to import
-  * @param importFromId The id of the existing RdsInstanceEipAssociate that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_instance_eip_associate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RdsInstanceEipAssociate that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_instance_eip_associate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RdsInstanceEipAssociate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -198,7 +198,7 @@ export class RdsInstanceEipAssociate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_instance_eip_associate sbercloud_rds_instance_eip_associate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_instance_eip_associate sbercloud_rds_instance_eip_associate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -209,8 +209,8 @@ export class RdsInstanceEipAssociate extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_rds_instance_eip_associate',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

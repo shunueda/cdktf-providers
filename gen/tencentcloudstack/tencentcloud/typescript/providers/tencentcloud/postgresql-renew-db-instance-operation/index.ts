@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/postgresql_renew_db_instance_operation
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/postgresql_renew_db_instance_operation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface PostgresqlRenewDbInstanceOperationConfig extends cdktf.Terrafor
   /**
   * Whether to automatically use vouchers. 1:yes, 0:no. Default value:0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/postgresql_renew_db_instance_operation#auto_voucher PostgresqlRenewDbInstanceOperation#auto_voucher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/postgresql_renew_db_instance_operation#auto_voucher PostgresqlRenewDbInstanceOperation#auto_voucher}
   */
   readonly autoVoucher?: number;
   /**
   * Instance ID in the format of postgres-6fego161.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/postgresql_renew_db_instance_operation#db_instance_id PostgresqlRenewDbInstanceOperation#db_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/postgresql_renew_db_instance_operation#db_instance_id PostgresqlRenewDbInstanceOperation#db_instance_id}
   */
   readonly dbInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/postgresql_renew_db_instance_operation#id PostgresqlRenewDbInstanceOperation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/postgresql_renew_db_instance_operation#id PostgresqlRenewDbInstanceOperation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface PostgresqlRenewDbInstanceOperationConfig extends cdktf.Terrafor
   /**
   * Renewal duration in months.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/postgresql_renew_db_instance_operation#period PostgresqlRenewDbInstanceOperation#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/postgresql_renew_db_instance_operation#period PostgresqlRenewDbInstanceOperation#period}
   */
   readonly period: number;
   /**
   * Voucher ID list (only one voucher can be specified currently).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/postgresql_renew_db_instance_operation#voucher_ids PostgresqlRenewDbInstanceOperation#voucher_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/postgresql_renew_db_instance_operation#voucher_ids PostgresqlRenewDbInstanceOperation#voucher_ids}
   */
   readonly voucherIds?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/postgresql_renew_db_instance_operation tencentcloud_postgresql_renew_db_instance_operation}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/postgresql_renew_db_instance_operation tencentcloud_postgresql_renew_db_instance_operation}
 */
 export class PostgresqlRenewDbInstanceOperation extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class PostgresqlRenewDbInstanceOperation extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a PostgresqlRenewDbInstanceOperation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PostgresqlRenewDbInstanceOperation to import
-  * @param importFromId The id of the existing PostgresqlRenewDbInstanceOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/postgresql_renew_db_instance_operation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PostgresqlRenewDbInstanceOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/postgresql_renew_db_instance_operation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PostgresqlRenewDbInstanceOperation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class PostgresqlRenewDbInstanceOperation extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/postgresql_renew_db_instance_operation tencentcloud_postgresql_renew_db_instance_operation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/postgresql_renew_db_instance_operation tencentcloud_postgresql_renew_db_instance_operation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class PostgresqlRenewDbInstanceOperation extends cdktf.TerraformResource 
       terraformResourceType: 'tencentcloud_postgresql_renew_db_instance_operation',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.39',
-        providerVersionConstraint: '1.82.39'
+        providerVersion: '1.82.40',
+        providerVersionConstraint: '1.82.40'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

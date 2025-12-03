@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/lb_listeners
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/lb_listeners
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,62 +8,62 @@ import * as cdktf from 'cdktf';
 
 export interface DataSbercloudLbListenersConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/lb_listeners#client_ca_tls_container_ref DataSbercloudLbListeners#client_ca_tls_container_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/lb_listeners#client_ca_tls_container_ref DataSbercloudLbListeners#client_ca_tls_container_ref}
   */
   readonly clientCaTlsContainerRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/lb_listeners#default_pool_id DataSbercloudLbListeners#default_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/lb_listeners#default_pool_id DataSbercloudLbListeners#default_pool_id}
   */
   readonly defaultPoolId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/lb_listeners#default_tls_container_ref DataSbercloudLbListeners#default_tls_container_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/lb_listeners#default_tls_container_ref DataSbercloudLbListeners#default_tls_container_ref}
   */
   readonly defaultTlsContainerRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/lb_listeners#description DataSbercloudLbListeners#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/lb_listeners#description DataSbercloudLbListeners#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/lb_listeners#enterprise_project_id DataSbercloudLbListeners#enterprise_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/lb_listeners#enterprise_project_id DataSbercloudLbListeners#enterprise_project_id}
   */
   readonly enterpriseProjectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/lb_listeners#http2_enable DataSbercloudLbListeners#http2_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/lb_listeners#http2_enable DataSbercloudLbListeners#http2_enable}
   */
   readonly http2Enable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/lb_listeners#id DataSbercloudLbListeners#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/lb_listeners#id DataSbercloudLbListeners#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/lb_listeners#listener_id DataSbercloudLbListeners#listener_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/lb_listeners#listener_id DataSbercloudLbListeners#listener_id}
   */
   readonly listenerId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/lb_listeners#loadbalancer_id DataSbercloudLbListeners#loadbalancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/lb_listeners#loadbalancer_id DataSbercloudLbListeners#loadbalancer_id}
   */
   readonly loadbalancerId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/lb_listeners#name DataSbercloudLbListeners#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/lb_listeners#name DataSbercloudLbListeners#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/lb_listeners#protocol DataSbercloudLbListeners#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/lb_listeners#protocol DataSbercloudLbListeners#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/lb_listeners#protocol_port DataSbercloudLbListeners#protocol_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/lb_listeners#protocol_port DataSbercloudLbListeners#protocol_port}
   */
   readonly protocolPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/lb_listeners#region DataSbercloudLbListeners#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/lb_listeners#region DataSbercloudLbListeners#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/lb_listeners#tls_ciphers_policy DataSbercloudLbListeners#tls_ciphers_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/lb_listeners#tls_ciphers_policy DataSbercloudLbListeners#tls_ciphers_policy}
   */
   readonly tlsCiphersPolicy?: string;
 }
@@ -392,7 +392,7 @@ export class DataSbercloudLbListenersListenersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/lb_listeners sbercloud_lb_listeners}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/lb_listeners sbercloud_lb_listeners}
 */
 export class DataSbercloudLbListeners extends cdktf.TerraformDataSource {
 
@@ -408,7 +408,7 @@ export class DataSbercloudLbListeners extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSbercloudLbListeners resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSbercloudLbListeners to import
-  * @param importFromId The id of the existing DataSbercloudLbListeners that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/lb_listeners#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSbercloudLbListeners that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/lb_listeners#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSbercloudLbListeners to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -420,7 +420,7 @@ export class DataSbercloudLbListeners extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/lb_listeners sbercloud_lb_listeners} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/lb_listeners sbercloud_lb_listeners} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -431,8 +431,8 @@ export class DataSbercloudLbListeners extends cdktf.TerraformDataSource {
       terraformResourceType: 'sbercloud_lb_listeners',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

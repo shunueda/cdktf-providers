@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_nodes_remove
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_nodes_remove
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface CceNodesRemoveConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_nodes_remove#cluster_id CceNodesRemove#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_nodes_remove#cluster_id CceNodesRemove#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_nodes_remove#enable_force_new CceNodesRemove#enable_force_new}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_nodes_remove#enable_force_new CceNodesRemove#enable_force_new}
   */
   readonly enableForceNew?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_nodes_remove#id CceNodesRemove#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_nodes_remove#id CceNodesRemove#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_nodes_remove#region CceNodesRemove#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_nodes_remove#region CceNodesRemove#region}
   */
   readonly region?: string;
   /**
   * nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_nodes_remove#nodes CceNodesRemove#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_nodes_remove#nodes CceNodesRemove#nodes}
   */
   readonly nodes: CceNodesRemoveNodes[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_nodes_remove#timeouts CceNodesRemove#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_nodes_remove#timeouts CceNodesRemove#timeouts}
   */
   readonly timeouts?: CceNodesRemoveTimeouts;
 }
 export interface CceNodesRemoveNodes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_nodes_remove#uid CceNodesRemove#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_nodes_remove#uid CceNodesRemove#uid}
   */
   readonly uid: string;
 }
@@ -154,7 +154,7 @@ export class CceNodesRemoveNodesList extends cdktf.ComplexList {
 }
 export interface CceNodesRemoveTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_nodes_remove#create CceNodesRemove#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_nodes_remove#create CceNodesRemove#create}
   */
   readonly create?: string;
 }
@@ -248,7 +248,7 @@ export class CceNodesRemoveTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_nodes_remove sbercloud_cce_nodes_remove}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_nodes_remove sbercloud_cce_nodes_remove}
 */
 export class CceNodesRemove extends cdktf.TerraformResource {
 
@@ -264,7 +264,7 @@ export class CceNodesRemove extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CceNodesRemove resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CceNodesRemove to import
-  * @param importFromId The id of the existing CceNodesRemove that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_nodes_remove#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CceNodesRemove that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_nodes_remove#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CceNodesRemove to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -276,7 +276,7 @@ export class CceNodesRemove extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_nodes_remove sbercloud_cce_nodes_remove} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_nodes_remove sbercloud_cce_nodes_remove} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -287,8 +287,8 @@ export class CceNodesRemove extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_cce_nodes_remove',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

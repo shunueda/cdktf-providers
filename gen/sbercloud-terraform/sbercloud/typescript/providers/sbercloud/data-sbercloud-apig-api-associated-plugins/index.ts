@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_api_associated_plugins
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_api_associated_plugins
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataSbercloudApigApiAssociatedPluginsConfig extends cdktf.Terra
   /**
   * The ID of the API bound to the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_api_associated_plugins#api_id DataSbercloudApigApiAssociatedPlugins#api_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_api_associated_plugins#api_id DataSbercloudApigApiAssociatedPlugins#api_id}
   */
   readonly apiId: string;
   /**
   * The ID of the environment where the API is published.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_api_associated_plugins#env_id DataSbercloudApigApiAssociatedPlugins#env_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_api_associated_plugins#env_id DataSbercloudApigApiAssociatedPlugins#env_id}
   */
   readonly envId?: string;
   /**
   * The name of the environment where the API is published.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_api_associated_plugins#env_name DataSbercloudApigApiAssociatedPlugins#env_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_api_associated_plugins#env_name DataSbercloudApigApiAssociatedPlugins#env_name}
   */
   readonly envName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_api_associated_plugins#id DataSbercloudApigApiAssociatedPlugins#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_api_associated_plugins#id DataSbercloudApigApiAssociatedPlugins#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,29 +35,29 @@ export interface DataSbercloudApigApiAssociatedPluginsConfig extends cdktf.Terra
   /**
   * The ID of the dedicated instance to which the plugins belong.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_api_associated_plugins#instance_id DataSbercloudApigApiAssociatedPlugins#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_api_associated_plugins#instance_id DataSbercloudApigApiAssociatedPlugins#instance_id}
   */
   readonly instanceId: string;
   /**
   * The name of the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_api_associated_plugins#name DataSbercloudApigApiAssociatedPlugins#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_api_associated_plugins#name DataSbercloudApigApiAssociatedPlugins#name}
   */
   readonly name?: string;
   /**
   * The ID of the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_api_associated_plugins#plugin_id DataSbercloudApigApiAssociatedPlugins#plugin_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_api_associated_plugins#plugin_id DataSbercloudApigApiAssociatedPlugins#plugin_id}
   */
   readonly pluginId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_api_associated_plugins#region DataSbercloudApigApiAssociatedPlugins#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_api_associated_plugins#region DataSbercloudApigApiAssociatedPlugins#region}
   */
   readonly region?: string;
   /**
   * The type of the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_api_associated_plugins#type DataSbercloudApigApiAssociatedPlugins#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_api_associated_plugins#type DataSbercloudApigApiAssociatedPlugins#type}
   */
   readonly type?: string;
 }
@@ -178,7 +178,7 @@ export class DataSbercloudApigApiAssociatedPluginsPluginsList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_api_associated_plugins sbercloud_apig_api_associated_plugins}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_api_associated_plugins sbercloud_apig_api_associated_plugins}
 */
 export class DataSbercloudApigApiAssociatedPlugins extends cdktf.TerraformDataSource {
 
@@ -194,7 +194,7 @@ export class DataSbercloudApigApiAssociatedPlugins extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataSbercloudApigApiAssociatedPlugins resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSbercloudApigApiAssociatedPlugins to import
-  * @param importFromId The id of the existing DataSbercloudApigApiAssociatedPlugins that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_api_associated_plugins#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSbercloudApigApiAssociatedPlugins that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_api_associated_plugins#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSbercloudApigApiAssociatedPlugins to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -206,7 +206,7 @@ export class DataSbercloudApigApiAssociatedPlugins extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_api_associated_plugins sbercloud_apig_api_associated_plugins} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_api_associated_plugins sbercloud_apig_api_associated_plugins} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -217,8 +217,8 @@ export class DataSbercloudApigApiAssociatedPlugins extends cdktf.TerraformDataSo
       terraformResourceType: 'sbercloud_apig_api_associated_plugins',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

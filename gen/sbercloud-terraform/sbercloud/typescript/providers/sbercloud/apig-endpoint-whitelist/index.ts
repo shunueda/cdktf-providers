@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_endpoint_whitelist
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_endpoint_whitelist
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ApigEndpointWhitelistConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_endpoint_whitelist#id ApigEndpointWhitelist#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_endpoint_whitelist#id ApigEndpointWhitelist#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface ApigEndpointWhitelistConfig extends cdktf.TerraformMetaArgument
   /**
   * The ID of the dedicated instance to which the endpoint service belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_endpoint_whitelist#instance_id ApigEndpointWhitelist#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_endpoint_whitelist#instance_id ApigEndpointWhitelist#instance_id}
   */
   readonly instanceId: string;
   /**
   * The region where the endpoint service is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_endpoint_whitelist#region ApigEndpointWhitelist#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_endpoint_whitelist#region ApigEndpointWhitelist#region}
   */
   readonly region?: string;
   /**
   * The whitelist records of the endpoint service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_endpoint_whitelist#whitelists ApigEndpointWhitelist#whitelists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_endpoint_whitelist#whitelists ApigEndpointWhitelist#whitelists}
   */
   readonly whitelists: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_endpoint_whitelist sbercloud_apig_endpoint_whitelist}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_endpoint_whitelist sbercloud_apig_endpoint_whitelist}
 */
 export class ApigEndpointWhitelist extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class ApigEndpointWhitelist extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApigEndpointWhitelist resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApigEndpointWhitelist to import
-  * @param importFromId The id of the existing ApigEndpointWhitelist that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_endpoint_whitelist#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApigEndpointWhitelist that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_endpoint_whitelist#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApigEndpointWhitelist to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class ApigEndpointWhitelist extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_endpoint_whitelist sbercloud_apig_endpoint_whitelist} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_endpoint_whitelist sbercloud_apig_endpoint_whitelist} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class ApigEndpointWhitelist extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_apig_endpoint_whitelist',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_basic_instance
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/sqlserver_basic_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface SqlserverBasicInstanceConfig extends cdktf.TerraformMetaArgumen
   /**
   * Automatic renewal sign. 0 for normal renewal, 1 for automatic renewal, the default is 1 automatic renewal. Only valid when purchasing a prepaid instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_basic_instance#auto_renew SqlserverBasicInstance#auto_renew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/sqlserver_basic_instance#auto_renew SqlserverBasicInstance#auto_renew}
   */
   readonly autoRenew?: number;
   /**
   * Whether to use the voucher automatically; 1 for yes, 0 for no, the default is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_basic_instance#auto_voucher SqlserverBasicInstance#auto_voucher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/sqlserver_basic_instance#auto_voucher SqlserverBasicInstance#auto_voucher}
   */
   readonly autoVoucher?: number;
   /**
   * Availability zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_basic_instance#availability_zone SqlserverBasicInstance#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/sqlserver_basic_instance#availability_zone SqlserverBasicInstance#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
   * Pay type of the SQL Server basic instance. For now, only `POSTPAID_BY_HOUR` is valid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_basic_instance#charge_type SqlserverBasicInstance#charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/sqlserver_basic_instance#charge_type SqlserverBasicInstance#charge_type}
   */
   readonly chargeType?: string;
   /**
   * System character set sorting rule, default: Chinese_PRC_CI_AS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_basic_instance#collation SqlserverBasicInstance#collation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/sqlserver_basic_instance#collation SqlserverBasicInstance#collation}
   */
   readonly collation?: string;
   /**
   * The CPU number of the SQL Server basic instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_basic_instance#cpu SqlserverBasicInstance#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/sqlserver_basic_instance#cpu SqlserverBasicInstance#cpu}
   */
   readonly cpu: number;
   /**
   * Version of the SQL Server basic database engine. Allowed values are `2008R2`(SQL Server 2008 Enterprise), `2012SP3`(SQL Server 2012 Enterprise), `2016SP1` (SQL Server 2016 Enterprise), `201602`(SQL Server 2016 Standard) and `2017`(SQL Server 2017 Enterprise). Default is `2008R2`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_basic_instance#engine_version SqlserverBasicInstance#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/sqlserver_basic_instance#engine_version SqlserverBasicInstance#engine_version}
   */
   readonly engineVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_basic_instance#id SqlserverBasicInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/sqlserver_basic_instance#id SqlserverBasicInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,91 +59,91 @@ export interface SqlserverBasicInstanceConfig extends cdktf.TerraformMetaArgumen
   /**
   * The host type of the purchased instance, `CLOUD_PREMIUM` for virtual machine high-performance cloud disk, `CLOUD_SSD` for virtual machine SSD cloud disk, `CLOUD_HSSD` for virtual machine enhanced cloud disk, `CLOUD_BSSD` for virtual machine general purpose SSD cloud disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_basic_instance#machine_type SqlserverBasicInstance#machine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/sqlserver_basic_instance#machine_type SqlserverBasicInstance#machine_type}
   */
   readonly machineType: string;
   /**
   * Start time of the maintenance in one day, format like `HH:mm`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_basic_instance#maintenance_start_time SqlserverBasicInstance#maintenance_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/sqlserver_basic_instance#maintenance_start_time SqlserverBasicInstance#maintenance_start_time}
   */
   readonly maintenanceStartTime?: string;
   /**
   * The timespan of maintenance in one day, unit is hour.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_basic_instance#maintenance_time_span SqlserverBasicInstance#maintenance_time_span}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/sqlserver_basic_instance#maintenance_time_span SqlserverBasicInstance#maintenance_time_span}
   */
   readonly maintenanceTimeSpan?: number;
   /**
   * A list of integer indicates weekly maintenance. For example, [1,7] presents do weekly maintenance on every Monday and Sunday.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_basic_instance#maintenance_week_set SqlserverBasicInstance#maintenance_week_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/sqlserver_basic_instance#maintenance_week_set SqlserverBasicInstance#maintenance_week_set}
   */
   readonly maintenanceWeekSet?: number[];
   /**
   * Memory size (in GB). Allowed value must be larger than `memory` that data source `tencentcloud_sqlserver_specinfos` provides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_basic_instance#memory SqlserverBasicInstance#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/sqlserver_basic_instance#memory SqlserverBasicInstance#memory}
   */
   readonly memory: number;
   /**
   * Name of the SQL Server basic instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_basic_instance#name SqlserverBasicInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/sqlserver_basic_instance#name SqlserverBasicInstance#name}
   */
   readonly name: string;
   /**
   * Purchase instance period, the default value is 1, which means one month. The value does not exceed 48.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_basic_instance#period SqlserverBasicInstance#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/sqlserver_basic_instance#period SqlserverBasicInstance#period}
   */
   readonly period?: number;
   /**
   * Project ID, default value is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_basic_instance#project_id SqlserverBasicInstance#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/sqlserver_basic_instance#project_id SqlserverBasicInstance#project_id}
   */
   readonly projectId?: number;
   /**
   * Security group bound to the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_basic_instance#security_groups SqlserverBasicInstance#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/sqlserver_basic_instance#security_groups SqlserverBasicInstance#security_groups}
   */
   readonly securityGroups?: string[];
   /**
   * Disk size (in GB). Allowed value must be a multiple of 10. The storage must be set with the limit of `storage_min` and `storage_max` which data source `tencentcloud_sqlserver_specinfos` provides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_basic_instance#storage SqlserverBasicInstance#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/sqlserver_basic_instance#storage SqlserverBasicInstance#storage}
   */
   readonly storage: number;
   /**
   * ID of subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_basic_instance#subnet_id SqlserverBasicInstance#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/sqlserver_basic_instance#subnet_id SqlserverBasicInstance#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * The tags of the SQL Server basic instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_basic_instance#tags SqlserverBasicInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/sqlserver_basic_instance#tags SqlserverBasicInstance#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * An array of voucher IDs, currently only one can be used for a single order.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_basic_instance#voucher_ids SqlserverBasicInstance#voucher_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/sqlserver_basic_instance#voucher_ids SqlserverBasicInstance#voucher_ids}
   */
   readonly voucherIds?: string[];
   /**
   * ID of VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_basic_instance#vpc_id SqlserverBasicInstance#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/sqlserver_basic_instance#vpc_id SqlserverBasicInstance#vpc_id}
   */
   readonly vpcId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_basic_instance tencentcloud_sqlserver_basic_instance}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/sqlserver_basic_instance tencentcloud_sqlserver_basic_instance}
 */
 export class SqlserverBasicInstance extends cdktf.TerraformResource {
 
@@ -159,7 +159,7 @@ export class SqlserverBasicInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SqlserverBasicInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SqlserverBasicInstance to import
-  * @param importFromId The id of the existing SqlserverBasicInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_basic_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SqlserverBasicInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/sqlserver_basic_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SqlserverBasicInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -171,7 +171,7 @@ export class SqlserverBasicInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_basic_instance tencentcloud_sqlserver_basic_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/sqlserver_basic_instance tencentcloud_sqlserver_basic_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -182,8 +182,8 @@ export class SqlserverBasicInstance extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_sqlserver_basic_instance',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.39',
-        providerVersionConstraint: '1.82.39'
+        providerVersion: '1.82.40',
+        providerVersionConstraint: '1.82.40'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

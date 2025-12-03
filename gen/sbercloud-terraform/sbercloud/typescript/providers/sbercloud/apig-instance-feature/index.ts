@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_instance_feature
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_instance_feature
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ApigInstanceFeatureConfig extends cdktf.TerraformMetaArguments 
   /**
   * Specified the detailed configuration of the feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_instance_feature#config ApigInstanceFeature#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_instance_feature#config ApigInstanceFeature#config}
   */
   readonly config?: string;
   /**
   * Specified whether to enable the feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_instance_feature#enabled ApigInstanceFeature#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_instance_feature#enabled ApigInstanceFeature#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_instance_feature#id ApigInstanceFeature#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_instance_feature#id ApigInstanceFeature#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,29 +29,29 @@ export interface ApigInstanceFeatureConfig extends cdktf.TerraformMetaArguments 
   /**
   * Specified the ID of the dedicated instance to which the feature belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_instance_feature#instance_id ApigInstanceFeature#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_instance_feature#instance_id ApigInstanceFeature#instance_id}
   */
   readonly instanceId: string;
   /**
   * Specified the name of the feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_instance_feature#name ApigInstanceFeature#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_instance_feature#name ApigInstanceFeature#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_instance_feature#region ApigInstanceFeature#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_instance_feature#region ApigInstanceFeature#region}
   */
   readonly region?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_instance_feature#timeouts ApigInstanceFeature#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_instance_feature#timeouts ApigInstanceFeature#timeouts}
   */
   readonly timeouts?: ApigInstanceFeatureTimeouts;
 }
 export interface ApigInstanceFeatureTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_instance_feature#create ApigInstanceFeature#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_instance_feature#create ApigInstanceFeature#create}
   */
   readonly create?: string;
 }
@@ -145,7 +145,7 @@ export class ApigInstanceFeatureTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_instance_feature sbercloud_apig_instance_feature}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_instance_feature sbercloud_apig_instance_feature}
 */
 export class ApigInstanceFeature extends cdktf.TerraformResource {
 
@@ -161,7 +161,7 @@ export class ApigInstanceFeature extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApigInstanceFeature resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApigInstanceFeature to import
-  * @param importFromId The id of the existing ApigInstanceFeature that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_instance_feature#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApigInstanceFeature that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_instance_feature#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApigInstanceFeature to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -173,7 +173,7 @@ export class ApigInstanceFeature extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_instance_feature sbercloud_apig_instance_feature} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_instance_feature sbercloud_apig_instance_feature} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -184,8 +184,8 @@ export class ApigInstanceFeature extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_apig_instance_feature',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

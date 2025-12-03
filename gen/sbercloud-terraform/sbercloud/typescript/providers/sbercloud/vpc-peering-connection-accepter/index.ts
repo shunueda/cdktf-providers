@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpc_peering_connection_accepter
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpc_peering_connection_accepter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface VpcPeeringConnectionAccepterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpc_peering_connection_accepter#accept VpcPeeringConnectionAccepter#accept}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpc_peering_connection_accepter#accept VpcPeeringConnectionAccepter#accept}
   */
   readonly accept?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpc_peering_connection_accepter#id VpcPeeringConnectionAccepter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpc_peering_connection_accepter#id VpcPeeringConnectionAccepter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpc_peering_connection_accepter#region VpcPeeringConnectionAccepter#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpc_peering_connection_accepter#region VpcPeeringConnectionAccepter#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpc_peering_connection_accepter#vpc_peering_connection_id VpcPeeringConnectionAccepter#vpc_peering_connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpc_peering_connection_accepter#vpc_peering_connection_id VpcPeeringConnectionAccepter#vpc_peering_connection_id}
   */
   readonly vpcPeeringConnectionId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpc_peering_connection_accepter#timeouts VpcPeeringConnectionAccepter#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpc_peering_connection_accepter#timeouts VpcPeeringConnectionAccepter#timeouts}
   */
   readonly timeouts?: VpcPeeringConnectionAccepterTimeouts;
 }
 export interface VpcPeeringConnectionAccepterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpc_peering_connection_accepter#create VpcPeeringConnectionAccepter#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpc_peering_connection_accepter#create VpcPeeringConnectionAccepter#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpc_peering_connection_accepter#delete VpcPeeringConnectionAccepter#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpc_peering_connection_accepter#delete VpcPeeringConnectionAccepter#delete}
   */
   readonly delete?: string;
 }
@@ -162,7 +162,7 @@ export class VpcPeeringConnectionAccepterTimeoutsOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpc_peering_connection_accepter sbercloud_vpc_peering_connection_accepter}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpc_peering_connection_accepter sbercloud_vpc_peering_connection_accepter}
 */
 export class VpcPeeringConnectionAccepter extends cdktf.TerraformResource {
 
@@ -178,7 +178,7 @@ export class VpcPeeringConnectionAccepter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpcPeeringConnectionAccepter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpcPeeringConnectionAccepter to import
-  * @param importFromId The id of the existing VpcPeeringConnectionAccepter that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpc_peering_connection_accepter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpcPeeringConnectionAccepter that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpc_peering_connection_accepter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpcPeeringConnectionAccepter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -190,7 +190,7 @@ export class VpcPeeringConnectionAccepter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpc_peering_connection_accepter sbercloud_vpc_peering_connection_accepter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpc_peering_connection_accepter sbercloud_vpc_peering_connection_accepter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -201,8 +201,8 @@ export class VpcPeeringConnectionAccepter extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_vpc_peering_connection_accepter',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

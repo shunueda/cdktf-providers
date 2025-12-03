@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/rds_pg_plugin_parameter_values
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/rds_pg_plugin_parameter_values
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataSbercloudRdsPgPluginParameterValuesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/rds_pg_plugin_parameter_values#id DataSbercloudRdsPgPluginParameterValues#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/rds_pg_plugin_parameter_values#id DataSbercloudRdsPgPluginParameterValues#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface DataSbercloudRdsPgPluginParameterValuesConfig extends cdktf.Ter
   /**
   * Specifies the ID of the RDS instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/rds_pg_plugin_parameter_values#instance_id DataSbercloudRdsPgPluginParameterValues#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/rds_pg_plugin_parameter_values#instance_id DataSbercloudRdsPgPluginParameterValues#instance_id}
   */
   readonly instanceId: string;
   /**
   * Specifies the parameter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/rds_pg_plugin_parameter_values#name DataSbercloudRdsPgPluginParameterValues#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/rds_pg_plugin_parameter_values#name DataSbercloudRdsPgPluginParameterValues#name}
   */
   readonly name: string;
   /**
   * Specifies the region in which to query the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/rds_pg_plugin_parameter_values#region DataSbercloudRdsPgPluginParameterValues#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/rds_pg_plugin_parameter_values#region DataSbercloudRdsPgPluginParameterValues#region}
   */
   readonly region?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/rds_pg_plugin_parameter_values sbercloud_rds_pg_plugin_parameter_values}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/rds_pg_plugin_parameter_values sbercloud_rds_pg_plugin_parameter_values}
 */
 export class DataSbercloudRdsPgPluginParameterValues extends cdktf.TerraformDataSource {
 
@@ -51,7 +51,7 @@ export class DataSbercloudRdsPgPluginParameterValues extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataSbercloudRdsPgPluginParameterValues resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSbercloudRdsPgPluginParameterValues to import
-  * @param importFromId The id of the existing DataSbercloudRdsPgPluginParameterValues that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/rds_pg_plugin_parameter_values#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSbercloudRdsPgPluginParameterValues that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/rds_pg_plugin_parameter_values#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSbercloudRdsPgPluginParameterValues to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class DataSbercloudRdsPgPluginParameterValues extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/rds_pg_plugin_parameter_values sbercloud_rds_pg_plugin_parameter_values} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/rds_pg_plugin_parameter_values sbercloud_rds_pg_plugin_parameter_values} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class DataSbercloudRdsPgPluginParameterValues extends cdktf.TerraformData
       terraformResourceType: 'sbercloud_rds_pg_plugin_parameter_values',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

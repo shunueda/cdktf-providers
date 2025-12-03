@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/anycast_host
+// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/anycast_host
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface AnycastHostConfig extends cdktf.TerraformMetaArguments {
   /**
   * Array of AnycastConfigRef structures, identifying the anycast configurations that this host is a member of.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/anycast_host#anycast_config_refs AnycastHost#anycast_config_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/anycast_host#anycast_config_refs AnycastHost#anycast_config_refs}
   */
   readonly anycastConfigRefs?: AnycastHostAnycastConfigRefs[] | cdktf.IResolvable;
   /**
   * Struct BGP configuration; defines BGP configuration for one anycast-enabled on-prem host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/anycast_host#config_bgp AnycastHost#config_bgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/anycast_host#config_bgp AnycastHost#config_bgp}
   */
   readonly configBgp?: AnycastHostConfigBgp;
   /**
   * Struct OSPF configuration; defines OSPF configuration for one anycast-enabled on-prem host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/anycast_host#config_ospf AnycastHost#config_ospf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/anycast_host#config_ospf AnycastHost#config_ospf}
   */
   readonly configOspf?: AnycastHostConfigOspf;
   /**
   * Struct OSPFv3 configuration; defines OSPFv3 configuration for one anycast-enabled on-prem host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/anycast_host#config_ospfv3 AnycastHost#config_ospfv3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/anycast_host#config_ospfv3 AnycastHost#config_ospfv3}
   */
   readonly configOspfv3?: AnycastHostConfigOspfv3;
   /**
   * Numeric host identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/anycast_host#id AnycastHost#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/anycast_host#id AnycastHost#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -43,13 +43,13 @@ export interface AnycastHostConfig extends cdktf.TerraformMetaArguments {
 }
 export interface AnycastHostAnycastConfigRefs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/anycast_host#anycast_config_name AnycastHost#anycast_config_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/anycast_host#anycast_config_name AnycastHost#anycast_config_name}
   */
   readonly anycastConfigName: string;
   /**
   * Routing protocols enabled for this anycast configuration, on a particular host. Valid protocol names are "BGP", "OSPF"/"OSPFv2", "OSPFv3".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/anycast_host#routing_protocols AnycastHost#routing_protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/anycast_host#routing_protocols AnycastHost#routing_protocols}
   */
   readonly routingProtocols?: string[];
 }
@@ -193,7 +193,7 @@ export interface AnycastHostConfigBgpFields {
   /**
   * The set of field mask paths.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/anycast_host#paths AnycastHost#paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/anycast_host#paths AnycastHost#paths}
   */
   readonly paths?: string[];
 }
@@ -289,7 +289,7 @@ export interface AnycastHostConfigBgpNeighbors {
   /**
   * Autonomous system number of this BGP/anycast enabled on-prem host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/anycast_host#asn AnycastHost#asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/anycast_host#asn AnycastHost#asn}
   */
   readonly asn: number;
   /**
@@ -315,31 +315,31 @@ export interface AnycastHostConfigBgpNeighbors {
   * 		|             | 4294967296  |             | Invalid       | 
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/anycast_host#asn_text AnycastHost#asn_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/anycast_host#asn_text AnycastHost#asn_text}
   */
   readonly asnText?: string;
   /**
   * IPv4 address of the BGP neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/anycast_host#ip_address AnycastHost#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/anycast_host#ip_address AnycastHost#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * Max hop count, if BGP multihop is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/anycast_host#max_hop_count AnycastHost#max_hop_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/anycast_host#max_hop_count AnycastHost#max_hop_count}
   */
   readonly maxHopCount?: number;
   /**
   * BGP multihop enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/anycast_host#multihop AnycastHost#multihop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/anycast_host#multihop AnycastHost#multihop}
   */
   readonly multihop?: boolean | cdktf.IResolvable;
   /**
   * BGP protocol access password for this BGP neighbor, max 25 characters long.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/anycast_host#password AnycastHost#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/anycast_host#password AnycastHost#password}
   */
   readonly password?: string;
 }
@@ -599,43 +599,43 @@ export interface AnycastHostConfigBgp {
   /**
   * Autonomous system number of this BGP/anycast enabled on-prem host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/anycast_host#asn AnycastHost#asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/anycast_host#asn AnycastHost#asn}
   */
   readonly asn: number;
   /**
   * Represents a set of symbolic field paths.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/anycast_host#fields AnycastHost#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/anycast_host#fields AnycastHost#fields}
   */
   readonly fields?: AnycastHostConfigBgpFields;
   /**
   * BGP route hold-down timer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/anycast_host#holddown_secs AnycastHost#holddown_secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/anycast_host#holddown_secs AnycastHost#holddown_secs}
   */
   readonly holddownSecs: number;
   /**
   * BGP keep-alive timer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/anycast_host#keep_alive_secs AnycastHost#keep_alive_secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/anycast_host#keep_alive_secs AnycastHost#keep_alive_secs}
   */
   readonly keepAliveSecs?: number;
   /**
   * Enable/disable link detection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/anycast_host#link_detect AnycastHost#link_detect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/anycast_host#link_detect AnycastHost#link_detect}
   */
   readonly linkDetect?: boolean | cdktf.IResolvable;
   /**
   * List of BgpNeighbor structs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/anycast_host#neighbors AnycastHost#neighbors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/anycast_host#neighbors AnycastHost#neighbors}
   */
   readonly neighbors?: AnycastHostConfigBgpNeighbors[] | cdktf.IResolvable;
   /**
   * Any predefined BGP configuration, with embedded new lines; the preamble will be prepended to the generated BGP configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/anycast_host#preamble AnycastHost#preamble}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/anycast_host#preamble AnycastHost#preamble}
   */
   readonly preamble?: string;
 }
@@ -904,73 +904,73 @@ export interface AnycastHostConfigOspf {
   /**
   * OSPF area identifier; usually in the format of an IPv4 address (although not an address itself)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/anycast_host#area AnycastHost#area}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/anycast_host#area AnycastHost#area}
   */
   readonly area?: string;
   /**
   * OSPF area type; one of: "STANDARD", "STUB", "NSSA".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/anycast_host#area_type AnycastHost#area_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/anycast_host#area_type AnycastHost#area_type}
   */
   readonly areaType?: string;
   /**
   * OSPF authentication key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/anycast_host#authentication_key AnycastHost#authentication_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/anycast_host#authentication_key AnycastHost#authentication_key}
   */
   readonly authenticationKey?: string;
   /**
   * title: Numeric OSPF authentication key identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/anycast_host#authentication_key_id AnycastHost#authentication_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/anycast_host#authentication_key_id AnycastHost#authentication_key_id}
   */
   readonly authenticationKeyId?: number;
   /**
   * OSPF authentication type; one of "Clear", "MD5".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/anycast_host#authentication_type AnycastHost#authentication_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/anycast_host#authentication_type AnycastHost#authentication_type}
   */
   readonly authenticationType?: string;
   /**
   * Explicit link cost for the interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/anycast_host#cost AnycastHost#cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/anycast_host#cost AnycastHost#cost}
   */
   readonly cost?: number;
   /**
   * OSPF router dead interval timer in seconds; must be the same for all the routers on the same network; default: 40 secs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/anycast_host#dead_interval AnycastHost#dead_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/anycast_host#dead_interval AnycastHost#dead_interval}
   */
   readonly deadInterval?: number;
   /**
   * Period (in seconds) of OSPF Hello packet, sent by the OSPF router; must be the same for all the routers on the same network; default: 10 secs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/anycast_host#hello_interval AnycastHost#hello_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/anycast_host#hello_interval AnycastHost#hello_interval}
   */
   readonly helloInterval?: number;
   /**
   * Name of the interface that is configured with external IP address of the host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/anycast_host#interface AnycastHost#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/anycast_host#interface AnycastHost#interface}
   */
   readonly interface?: string;
   /**
   * Any predefined OSPF configuration, with embedded new lines; the preamble will be prepended to the generated BGP configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/anycast_host#preamble AnycastHost#preamble}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/anycast_host#preamble AnycastHost#preamble}
   */
   readonly preamble?: string;
   /**
   * Period (in seconds) of retransmitting for OSPF Database Description and Link State Requests; default: 5 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/anycast_host#retransmit_interval AnycastHost#retransmit_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/anycast_host#retransmit_interval AnycastHost#retransmit_interval}
   */
   readonly retransmitInterval?: number;
   /**
   * Estimated time to transmit link state advertisements; default: 1 sec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/anycast_host#transmit_delay AnycastHost#transmit_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/anycast_host#transmit_delay AnycastHost#transmit_delay}
   */
   readonly transmitDelay?: number;
 }
@@ -1385,43 +1385,43 @@ export interface AnycastHostConfigOspfv3 {
   /**
   * OSPF area identifier; usually in the format of an IPv4 address (although not an address itself)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/anycast_host#area AnycastHost#area}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/anycast_host#area AnycastHost#area}
   */
   readonly area?: string;
   /**
   * Explicit link cost for the interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/anycast_host#cost AnycastHost#cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/anycast_host#cost AnycastHost#cost}
   */
   readonly cost?: number;
   /**
   * OSPF router dead interval timer in seconds; must be the same for all the routers on the same network; default: 40 sec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/anycast_host#dead_interval AnycastHost#dead_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/anycast_host#dead_interval AnycastHost#dead_interval}
   */
   readonly deadInterval?: number;
   /**
   * Period (in seconds) of OSPF Hello packet, sent by the OSPF router; must be the same for all the routers on the same network; default: 10 secs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/anycast_host#hello_interval AnycastHost#hello_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/anycast_host#hello_interval AnycastHost#hello_interval}
   */
   readonly helloInterval?: number;
   /**
   * Name of the interface that is configured with external IP address of the host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/anycast_host#interface AnycastHost#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/anycast_host#interface AnycastHost#interface}
   */
   readonly interface?: string;
   /**
   * Period (in seconds) of retransmitting for OSPF Database Description and Link State Requests; default: 5 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/anycast_host#retransmit_interval AnycastHost#retransmit_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/anycast_host#retransmit_interval AnycastHost#retransmit_interval}
   */
   readonly retransmitInterval?: number;
   /**
   * Estimated time to transmit link state advertisements; default: 1 sec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/anycast_host#transmit_delay AnycastHost#transmit_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/anycast_host#transmit_delay AnycastHost#transmit_delay}
   */
   readonly transmitDelay?: number;
 }
@@ -1689,7 +1689,7 @@ export class AnycastHostConfigOspfv3OutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/anycast_host bloxone_anycast_host}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/anycast_host bloxone_anycast_host}
 */
 export class AnycastHost extends cdktf.TerraformResource {
 
@@ -1705,7 +1705,7 @@ export class AnycastHost extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AnycastHost resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AnycastHost to import
-  * @param importFromId The id of the existing AnycastHost that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/anycast_host#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AnycastHost that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/anycast_host#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AnycastHost to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1717,7 +1717,7 @@ export class AnycastHost extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/anycast_host bloxone_anycast_host} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/anycast_host bloxone_anycast_host} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1728,8 +1728,8 @@ export class AnycastHost extends cdktf.TerraformResource {
       terraformResourceType: 'bloxone_anycast_host',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.5.4',
+        providerVersionConstraint: '1.5.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

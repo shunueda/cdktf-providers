@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/opensearch_instance
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/opensearch_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface OpensearchInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Instance name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/opensearch_instance#name OpensearchInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/opensearch_instance#name OpensearchInstance#name}
   */
   readonly name: string;
   /**
   * Configuration parameters. Please note that removing a previously configured field from your Terraform configuration won't replace its value in the API. To update a previously configured field, explicitly set a new value for it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/opensearch_instance#parameters OpensearchInstance#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/opensearch_instance#parameters OpensearchInstance#parameters}
   */
   readonly parameters?: OpensearchInstanceParameters;
   /**
   * The selected plan name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/opensearch_instance#plan_name OpensearchInstance#plan_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/opensearch_instance#plan_name OpensearchInstance#plan_name}
   */
   readonly planName: string;
   /**
   * STACKIT project ID to which the instance is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/opensearch_instance#project_id OpensearchInstance#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/opensearch_instance#project_id OpensearchInstance#project_id}
   */
   readonly projectId: string;
   /**
   * The service version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/opensearch_instance#version OpensearchInstance#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/opensearch_instance#version OpensearchInstance#version}
   */
   readonly version: string;
 }
@@ -42,85 +42,85 @@ export interface OpensearchInstanceParameters {
   /**
   * Enable monitoring.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/opensearch_instance#enable_monitoring OpensearchInstance#enable_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/opensearch_instance#enable_monitoring OpensearchInstance#enable_monitoring}
   */
   readonly enableMonitoring?: boolean | cdktf.IResolvable;
   /**
   * If set, monitoring with Graphite will be enabled. Expects the host and port where the Graphite metrics should be sent to (host:port).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/opensearch_instance#graphite OpensearchInstance#graphite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/opensearch_instance#graphite OpensearchInstance#graphite}
   */
   readonly graphite?: string;
   /**
   * The garbage collector to use for OpenSearch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/opensearch_instance#java_garbage_collector OpensearchInstance#java_garbage_collector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/opensearch_instance#java_garbage_collector OpensearchInstance#java_garbage_collector}
   */
   readonly javaGarbageCollector?: string;
   /**
   * The amount of memory (in MB) allocated as heap by the JVM for OpenSearch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/opensearch_instance#java_heapspace OpensearchInstance#java_heapspace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/opensearch_instance#java_heapspace OpensearchInstance#java_heapspace}
   */
   readonly javaHeapspace?: number;
   /**
   * The amount of memory (in MB) used by the JVM to store metadata for OpenSearch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/opensearch_instance#java_maxmetaspace OpensearchInstance#java_maxmetaspace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/opensearch_instance#java_maxmetaspace OpensearchInstance#java_maxmetaspace}
   */
   readonly javaMaxmetaspace?: number;
   /**
   * The maximum disk threshold in MB. If the disk usage exceeds this threshold, the instance will be stopped.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/opensearch_instance#max_disk_threshold OpensearchInstance#max_disk_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/opensearch_instance#max_disk_threshold OpensearchInstance#max_disk_threshold}
   */
   readonly maxDiskThreshold?: number;
   /**
   * The frequency in seconds at which metrics are emitted (in seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/opensearch_instance#metrics_frequency OpensearchInstance#metrics_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/opensearch_instance#metrics_frequency OpensearchInstance#metrics_frequency}
   */
   readonly metricsFrequency?: number;
   /**
   * The prefix for the metrics. Could be useful when using Graphite monitoring to prefix the metrics with a certain value, like an API key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/opensearch_instance#metrics_prefix OpensearchInstance#metrics_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/opensearch_instance#metrics_prefix OpensearchInstance#metrics_prefix}
   */
   readonly metricsPrefix?: string;
   /**
   * The ID of the STACKIT monitoring instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/opensearch_instance#monitoring_instance_id OpensearchInstance#monitoring_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/opensearch_instance#monitoring_instance_id OpensearchInstance#monitoring_instance_id}
   */
   readonly monitoringInstanceId?: string;
   /**
   * List of plugins to install. Must be a supported plugin name. The plugins `repository-s3` and `repository-azure` are enabled by default and cannot be disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/opensearch_instance#plugins OpensearchInstance#plugins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/opensearch_instance#plugins OpensearchInstance#plugins}
   */
   readonly plugins?: string[];
   /**
   * Comma separated list of IP networks in CIDR notation which are allowed to access this instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/opensearch_instance#sgw_acl OpensearchInstance#sgw_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/opensearch_instance#sgw_acl OpensearchInstance#sgw_acl}
   */
   readonly sgwAcl?: string;
   /**
   * List of syslog servers to send logs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/opensearch_instance#syslog OpensearchInstance#syslog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/opensearch_instance#syslog OpensearchInstance#syslog}
   */
   readonly syslog?: string[];
   /**
   * List of TLS ciphers to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/opensearch_instance#tls_ciphers OpensearchInstance#tls_ciphers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/opensearch_instance#tls_ciphers OpensearchInstance#tls_ciphers}
   */
   readonly tlsCiphers?: string[];
   /**
   * The TLS protocol to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/opensearch_instance#tls_protocols OpensearchInstance#tls_protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/opensearch_instance#tls_protocols OpensearchInstance#tls_protocols}
   */
   readonly tlsProtocols?: string[];
 }
@@ -591,7 +591,7 @@ export class OpensearchInstanceParametersOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/opensearch_instance stackit_opensearch_instance}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/opensearch_instance stackit_opensearch_instance}
 */
 export class OpensearchInstance extends cdktf.TerraformResource {
 
@@ -607,7 +607,7 @@ export class OpensearchInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OpensearchInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OpensearchInstance to import
-  * @param importFromId The id of the existing OpensearchInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/opensearch_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OpensearchInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/opensearch_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OpensearchInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -619,7 +619,7 @@ export class OpensearchInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/opensearch_instance stackit_opensearch_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/opensearch_instance stackit_opensearch_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -630,8 +630,8 @@ export class OpensearchInstance extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_opensearch_instance',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.72.0',
-        providerVersionConstraint: '0.72.0'
+        providerVersion: '0.73.0',
+        providerVersionConstraint: '0.73.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

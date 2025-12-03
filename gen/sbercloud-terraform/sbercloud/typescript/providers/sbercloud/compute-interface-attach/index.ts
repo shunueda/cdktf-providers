@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_interface_attach
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_interface_attach
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,62 +8,70 @@ import * as cdktf from 'cdktf';
 
 export interface ComputeInterfaceAttachConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_interface_attach#fixed_ip ComputeInterfaceAttach#fixed_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_interface_attach#delete_on_termination ComputeInterfaceAttach#delete_on_termination}
+  */
+  readonly deleteOnTermination?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_interface_attach#fixed_ip ComputeInterfaceAttach#fixed_ip}
   */
   readonly fixedIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_interface_attach#id ComputeInterfaceAttach#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_interface_attach#fixed_ipv6 ComputeInterfaceAttach#fixed_ipv6}
+  */
+  readonly fixedIpv6?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_interface_attach#id ComputeInterfaceAttach#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_interface_attach#instance_id ComputeInterfaceAttach#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_interface_attach#instance_id ComputeInterfaceAttach#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_interface_attach#ipv6_bandwidth_id ComputeInterfaceAttach#ipv6_bandwidth_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_interface_attach#ipv6_bandwidth_id ComputeInterfaceAttach#ipv6_bandwidth_id}
   */
   readonly ipv6BandwidthId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_interface_attach#ipv6_enable ComputeInterfaceAttach#ipv6_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_interface_attach#ipv6_enable ComputeInterfaceAttach#ipv6_enable}
   */
   readonly ipv6Enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_interface_attach#network_id ComputeInterfaceAttach#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_interface_attach#network_id ComputeInterfaceAttach#network_id}
   */
   readonly networkId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_interface_attach#port_id ComputeInterfaceAttach#port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_interface_attach#port_id ComputeInterfaceAttach#port_id}
   */
   readonly portId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_interface_attach#region ComputeInterfaceAttach#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_interface_attach#region ComputeInterfaceAttach#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_interface_attach#security_group_ids ComputeInterfaceAttach#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_interface_attach#security_group_ids ComputeInterfaceAttach#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_interface_attach#source_dest_check ComputeInterfaceAttach#source_dest_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_interface_attach#source_dest_check ComputeInterfaceAttach#source_dest_check}
   */
   readonly sourceDestCheck?: boolean | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_interface_attach#timeouts ComputeInterfaceAttach#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_interface_attach#timeouts ComputeInterfaceAttach#timeouts}
   */
   readonly timeouts?: ComputeInterfaceAttachTimeouts;
 }
 export interface ComputeInterfaceAttachTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_interface_attach#create ComputeInterfaceAttach#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_interface_attach#create ComputeInterfaceAttach#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_interface_attach#delete ComputeInterfaceAttach#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_interface_attach#delete ComputeInterfaceAttach#delete}
   */
   readonly delete?: string;
 }
@@ -186,7 +194,7 @@ export class ComputeInterfaceAttachTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_interface_attach sbercloud_compute_interface_attach}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_interface_attach sbercloud_compute_interface_attach}
 */
 export class ComputeInterfaceAttach extends cdktf.TerraformResource {
 
@@ -202,7 +210,7 @@ export class ComputeInterfaceAttach extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ComputeInterfaceAttach resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ComputeInterfaceAttach to import
-  * @param importFromId The id of the existing ComputeInterfaceAttach that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_interface_attach#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ComputeInterfaceAttach that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_interface_attach#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ComputeInterfaceAttach to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -214,7 +222,7 @@ export class ComputeInterfaceAttach extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_interface_attach sbercloud_compute_interface_attach} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_interface_attach sbercloud_compute_interface_attach} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -225,8 +233,8 @@ export class ComputeInterfaceAttach extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_compute_interface_attach',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -236,7 +244,9 @@ export class ComputeInterfaceAttach extends cdktf.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
+    this._deleteOnTermination = config.deleteOnTermination;
     this._fixedIp = config.fixedIp;
+    this._fixedIpv6 = config.fixedIpv6;
     this._id = config.id;
     this._instanceId = config.instanceId;
     this._ipv6BandwidthId = config.ipv6BandwidthId;
@@ -252,6 +262,22 @@ export class ComputeInterfaceAttach extends cdktf.TerraformResource {
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // delete_on_termination - computed: true, optional: true, required: false
+  private _deleteOnTermination?: string; 
+  public get deleteOnTermination() {
+    return this.getStringAttribute('delete_on_termination');
+  }
+  public set deleteOnTermination(value: string) {
+    this._deleteOnTermination = value;
+  }
+  public resetDeleteOnTermination() {
+    this._deleteOnTermination = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deleteOnTerminationInput() {
+    return this._deleteOnTermination;
+  }
 
   // fixed_ip - computed: true, optional: true, required: false
   private _fixedIp?: string; 
@@ -269,9 +295,20 @@ export class ComputeInterfaceAttach extends cdktf.TerraformResource {
     return this._fixedIp;
   }
 
-  // fixed_ipv6 - computed: true, optional: false, required: false
+  // fixed_ipv6 - computed: true, optional: true, required: false
+  private _fixedIpv6?: string; 
   public get fixedIpv6() {
     return this.getStringAttribute('fixed_ipv6');
+  }
+  public set fixedIpv6(value: string) {
+    this._fixedIpv6 = value;
+  }
+  public resetFixedIpv6() {
+    this._fixedIpv6 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fixedIpv6Input() {
+    return this._fixedIpv6;
   }
 
   // id - computed: true, optional: true, required: false
@@ -442,7 +479,9 @@ export class ComputeInterfaceAttach extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      delete_on_termination: cdktf.stringToTerraform(this._deleteOnTermination),
       fixed_ip: cdktf.stringToTerraform(this._fixedIp),
+      fixed_ipv6: cdktf.stringToTerraform(this._fixedIpv6),
       id: cdktf.stringToTerraform(this._id),
       instance_id: cdktf.stringToTerraform(this._instanceId),
       ipv6_bandwidth_id: cdktf.stringToTerraform(this._ipv6BandwidthId),
@@ -458,8 +497,20 @@ export class ComputeInterfaceAttach extends cdktf.TerraformResource {
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      delete_on_termination: {
+        value: cdktf.stringToHclTerraform(this._deleteOnTermination),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       fixed_ip: {
         value: cdktf.stringToHclTerraform(this._fixedIp),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      fixed_ipv6: {
+        value: cdktf.stringToHclTerraform(this._fixedIpv6),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

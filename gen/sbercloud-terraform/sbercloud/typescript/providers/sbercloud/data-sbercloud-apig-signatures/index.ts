@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_signatures
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_signatures
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataSbercloudApigSignaturesConfig extends cdktf.TerraformMetaAr
   /**
   * Specifies the algorithm of the signature to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_signatures#algorithm DataSbercloudApigSignatures#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_signatures#algorithm DataSbercloudApigSignatures#algorithm}
   */
   readonly algorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_signatures#id DataSbercloudApigSignatures#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_signatures#id DataSbercloudApigSignatures#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,29 +23,29 @@ export interface DataSbercloudApigSignaturesConfig extends cdktf.TerraformMetaAr
   /**
   * Specifies the ID of the dedicated instance to which the signatrues belong.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_signatures#instance_id DataSbercloudApigSignatures#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_signatures#instance_id DataSbercloudApigSignatures#instance_id}
   */
   readonly instanceId: string;
   /**
   * Specifies the name of signature to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_signatures#name DataSbercloudApigSignatures#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_signatures#name DataSbercloudApigSignatures#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_signatures#region DataSbercloudApigSignatures#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_signatures#region DataSbercloudApigSignatures#region}
   */
   readonly region?: string;
   /**
   * Specifies the ID of signature to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_signatures#signature_id DataSbercloudApigSignatures#signature_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_signatures#signature_id DataSbercloudApigSignatures#signature_id}
   */
   readonly signatureId?: string;
   /**
   * Specifies the type of signature to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_signatures#type DataSbercloudApigSignatures#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_signatures#type DataSbercloudApigSignatures#type}
   */
   readonly type?: string;
 }
@@ -166,7 +166,7 @@ export class DataSbercloudApigSignaturesSignaturesList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_signatures sbercloud_apig_signatures}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_signatures sbercloud_apig_signatures}
 */
 export class DataSbercloudApigSignatures extends cdktf.TerraformDataSource {
 
@@ -182,7 +182,7 @@ export class DataSbercloudApigSignatures extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSbercloudApigSignatures resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSbercloudApigSignatures to import
-  * @param importFromId The id of the existing DataSbercloudApigSignatures that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_signatures#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSbercloudApigSignatures that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_signatures#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSbercloudApigSignatures to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -194,7 +194,7 @@ export class DataSbercloudApigSignatures extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_signatures sbercloud_apig_signatures} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_signatures sbercloud_apig_signatures} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -205,8 +205,8 @@ export class DataSbercloudApigSignatures extends cdktf.TerraformDataSource {
       terraformResourceType: 'sbercloud_apig_signatures',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

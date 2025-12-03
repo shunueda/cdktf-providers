@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/rds_storage_types
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/rds_storage_types
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataSbercloudRdsStorageTypesConfig extends cdktf.TerraformMetaA
   /**
   * DB engine. The valid values are **MySQL**, **PostgreSQL**, **SQLServer**.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/rds_storage_types#db_type DataSbercloudRdsStorageTypes#db_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/rds_storage_types#db_type DataSbercloudRdsStorageTypes#db_type}
   */
   readonly dbType: string;
   /**
   * DB version number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/rds_storage_types#db_version DataSbercloudRdsStorageTypes#db_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/rds_storage_types#db_version DataSbercloudRdsStorageTypes#db_version}
   */
   readonly dbVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/rds_storage_types#id DataSbercloudRdsStorageTypes#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/rds_storage_types#id DataSbercloudRdsStorageTypes#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,11 +29,11 @@ export interface DataSbercloudRdsStorageTypesConfig extends cdktf.TerraformMetaA
   /**
   * HA mode. The valid values are **single**, **ha**, **replica**.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/rds_storage_types#instance_mode DataSbercloudRdsStorageTypes#instance_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/rds_storage_types#instance_mode DataSbercloudRdsStorageTypes#instance_mode}
   */
   readonly instanceMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/rds_storage_types#region DataSbercloudRdsStorageTypes#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/rds_storage_types#region DataSbercloudRdsStorageTypes#region}
   */
   readonly region?: string;
 }
@@ -125,7 +125,7 @@ export class DataSbercloudRdsStorageTypesStorageTypesList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/rds_storage_types sbercloud_rds_storage_types}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/rds_storage_types sbercloud_rds_storage_types}
 */
 export class DataSbercloudRdsStorageTypes extends cdktf.TerraformDataSource {
 
@@ -141,7 +141,7 @@ export class DataSbercloudRdsStorageTypes extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSbercloudRdsStorageTypes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSbercloudRdsStorageTypes to import
-  * @param importFromId The id of the existing DataSbercloudRdsStorageTypes that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/rds_storage_types#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSbercloudRdsStorageTypes that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/rds_storage_types#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSbercloudRdsStorageTypes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -153,7 +153,7 @@ export class DataSbercloudRdsStorageTypes extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/rds_storage_types sbercloud_rds_storage_types} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/rds_storage_types sbercloud_rds_storage_types} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -164,8 +164,8 @@ export class DataSbercloudRdsStorageTypes extends cdktf.TerraformDataSource {
       terraformResourceType: 'sbercloud_rds_storage_types',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

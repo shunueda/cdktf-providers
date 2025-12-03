@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_capture_task
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_capture_task
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,21 +10,21 @@ export interface CfwCaptureTaskConfig extends cdktf.TerraformMetaArguments {
   /**
   * The capture task duration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_capture_task#duration CfwCaptureTask#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_capture_task#duration CfwCaptureTask#duration}
   */
   readonly duration: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_capture_task#enable_force_new CfwCaptureTask#enable_force_new}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_capture_task#enable_force_new CfwCaptureTask#enable_force_new}
   */
   readonly enableForceNew?: string;
   /**
   * The ID of the firewall instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_capture_task#fw_instance_id CfwCaptureTask#fw_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_capture_task#fw_instance_id CfwCaptureTask#fw_instance_id}
   */
   readonly fwInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_capture_task#id CfwCaptureTask#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_capture_task#id CfwCaptureTask#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -33,47 +33,47 @@ export interface CfwCaptureTaskConfig extends cdktf.TerraformMetaArguments {
   /**
   * The maximum number of packets captured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_capture_task#max_packets CfwCaptureTask#max_packets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_capture_task#max_packets CfwCaptureTask#max_packets}
   */
   readonly maxPackets: number;
   /**
   * The capture task name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_capture_task#name CfwCaptureTask#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_capture_task#name CfwCaptureTask#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_capture_task#region CfwCaptureTask#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_capture_task#region CfwCaptureTask#region}
   */
   readonly region?: string;
   /**
   * Whether to stop the capture.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_capture_task#stop_capture CfwCaptureTask#stop_capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_capture_task#stop_capture CfwCaptureTask#stop_capture}
   */
   readonly stopCapture?: boolean | cdktf.IResolvable;
   /**
   * destination block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_capture_task#destination CfwCaptureTask#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_capture_task#destination CfwCaptureTask#destination}
   */
   readonly destination: CfwCaptureTaskDestination;
   /**
   * service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_capture_task#service CfwCaptureTask#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_capture_task#service CfwCaptureTask#service}
   */
   readonly service: CfwCaptureTaskService;
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_capture_task#source CfwCaptureTask#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_capture_task#source CfwCaptureTask#source}
   */
   readonly source: CfwCaptureTaskSource;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_capture_task#timeouts CfwCaptureTask#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_capture_task#timeouts CfwCaptureTask#timeouts}
   */
   readonly timeouts?: CfwCaptureTaskTimeouts;
 }
@@ -81,13 +81,13 @@ export interface CfwCaptureTaskDestination {
   /**
   * The address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_capture_task#address CfwCaptureTask#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_capture_task#address CfwCaptureTask#address}
   */
   readonly address: string;
   /**
   * The address type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_capture_task#address_type CfwCaptureTask#address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_capture_task#address_type CfwCaptureTask#address_type}
   */
   readonly addressType: number;
 }
@@ -196,19 +196,19 @@ export interface CfwCaptureTaskService {
   /**
   * The destination port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_capture_task#dest_port CfwCaptureTask#dest_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_capture_task#dest_port CfwCaptureTask#dest_port}
   */
   readonly destPort?: string;
   /**
   * The protocol type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_capture_task#protocol CfwCaptureTask#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_capture_task#protocol CfwCaptureTask#protocol}
   */
   readonly protocol: number;
   /**
   * The source port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_capture_task#source_port CfwCaptureTask#source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_capture_task#source_port CfwCaptureTask#source_port}
   */
   readonly sourcePort?: string;
 }
@@ -349,13 +349,13 @@ export interface CfwCaptureTaskSource {
   /**
   * The address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_capture_task#address CfwCaptureTask#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_capture_task#address CfwCaptureTask#address}
   */
   readonly address: string;
   /**
   * The address type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_capture_task#address_type CfwCaptureTask#address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_capture_task#address_type CfwCaptureTask#address_type}
   */
   readonly addressType: number;
 }
@@ -462,11 +462,11 @@ export class CfwCaptureTaskSourceOutputReference extends cdktf.ComplexObject {
 }
 export interface CfwCaptureTaskTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_capture_task#delete CfwCaptureTask#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_capture_task#delete CfwCaptureTask#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_capture_task#update CfwCaptureTask#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_capture_task#update CfwCaptureTask#update}
   */
   readonly update?: string;
 }
@@ -589,7 +589,7 @@ export class CfwCaptureTaskTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_capture_task sbercloud_cfw_capture_task}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_capture_task sbercloud_cfw_capture_task}
 */
 export class CfwCaptureTask extends cdktf.TerraformResource {
 
@@ -605,7 +605,7 @@ export class CfwCaptureTask extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CfwCaptureTask resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CfwCaptureTask to import
-  * @param importFromId The id of the existing CfwCaptureTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_capture_task#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CfwCaptureTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_capture_task#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CfwCaptureTask to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -617,7 +617,7 @@ export class CfwCaptureTask extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_capture_task sbercloud_cfw_capture_task} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_capture_task sbercloud_cfw_capture_task} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -628,8 +628,8 @@ export class CfwCaptureTask extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_cfw_capture_task',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

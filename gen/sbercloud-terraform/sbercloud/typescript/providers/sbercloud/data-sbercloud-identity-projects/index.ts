@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/identity_projects
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/identity_projects
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,16 +8,24 @@ import * as cdktf from 'cdktf';
 
 export interface DataSbercloudIdentityProjectsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/identity_projects#id DataSbercloudIdentityProjects#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/identity_projects#id DataSbercloudIdentityProjects#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/identity_projects#name DataSbercloudIdentityProjects#name}
+  * Specifies the IAM project name to query
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/identity_projects#name DataSbercloudIdentityProjects#name}
   */
   readonly name?: string;
+  /**
+  * Specifies the IAM project id to query. This parameter conflicts with `name`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/identity_projects#project_id DataSbercloudIdentityProjects#project_id}
+  */
+  readonly projectId?: string;
 }
 export interface DataSbercloudIdentityProjectsProjects {
 }
@@ -106,7 +114,7 @@ export class DataSbercloudIdentityProjectsProjectsList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/identity_projects sbercloud_identity_projects}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/identity_projects sbercloud_identity_projects}
 */
 export class DataSbercloudIdentityProjects extends cdktf.TerraformDataSource {
 
@@ -122,7 +130,7 @@ export class DataSbercloudIdentityProjects extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSbercloudIdentityProjects resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSbercloudIdentityProjects to import
-  * @param importFromId The id of the existing DataSbercloudIdentityProjects that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/identity_projects#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSbercloudIdentityProjects that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/identity_projects#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSbercloudIdentityProjects to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -134,7 +142,7 @@ export class DataSbercloudIdentityProjects extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/identity_projects sbercloud_identity_projects} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/identity_projects sbercloud_identity_projects} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -145,8 +153,8 @@ export class DataSbercloudIdentityProjects extends cdktf.TerraformDataSource {
       terraformResourceType: 'sbercloud_identity_projects',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -158,6 +166,7 @@ export class DataSbercloudIdentityProjects extends cdktf.TerraformDataSource {
     });
     this._id = config.id;
     this._name = config.name;
+    this._projectId = config.projectId;
   }
 
   // ==========
@@ -196,6 +205,22 @@ export class DataSbercloudIdentityProjects extends cdktf.TerraformDataSource {
     return this._name;
   }
 
+  // project_id - computed: false, optional: true, required: false
+  private _projectId?: string; 
+  public get projectId() {
+    return this.getStringAttribute('project_id');
+  }
+  public set projectId(value: string) {
+    this._projectId = value;
+  }
+  public resetProjectId() {
+    this._projectId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get projectIdInput() {
+    return this._projectId;
+  }
+
   // projects - computed: true, optional: false, required: false
   private _projects = new DataSbercloudIdentityProjectsProjectsList(this, "projects", false);
   public get projects() {
@@ -210,6 +235,7 @@ export class DataSbercloudIdentityProjects extends cdktf.TerraformDataSource {
     return {
       id: cdktf.stringToTerraform(this._id),
       name: cdktf.stringToTerraform(this._name),
+      project_id: cdktf.stringToTerraform(this._projectId),
     };
   }
 
@@ -223,6 +249,12 @@ export class DataSbercloudIdentityProjects extends cdktf.TerraformDataSource {
       },
       name: {
         value: cdktf.stringToHclTerraform(this._name),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      project_id: {
+        value: cdktf.stringToHclTerraform(this._projectId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

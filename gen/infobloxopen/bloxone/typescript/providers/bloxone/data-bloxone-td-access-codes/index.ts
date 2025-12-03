@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_access_codes
+// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_access_codes
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataBloxoneTdAccessCodesConfig extends cdktf.TerraformMetaArgum
   /**
   * Filter are used to return a more specific list of results. Filters can be used to match resources by specific attributes, e.g. name. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_access_codes#filters DataBloxoneTdAccessCodes#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_access_codes#filters DataBloxoneTdAccessCodes#filters}
   */
   readonly filters?: { [key: string]: string };
   /**
   * Tag Filters are used to return a more specific list of results filtered by tags. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_access_codes#tag_filters DataBloxoneTdAccessCodes#tag_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_access_codes#tag_filters DataBloxoneTdAccessCodes#tag_filters}
   */
   readonly tagFilters?: { [key: string]: string };
 }
@@ -24,31 +24,31 @@ export interface DataBloxoneTdAccessCodesResultsRules {
   /**
   * The action to be used in the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_access_codes#action DataBloxoneTdAccessCodes#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_access_codes#action DataBloxoneTdAccessCodes#action}
   */
   readonly action?: string;
   /**
   * The data to be used in the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_access_codes#data DataBloxoneTdAccessCodes#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_access_codes#data DataBloxoneTdAccessCodes#data}
   */
   readonly data?: string;
   /**
   * The brief description of the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_access_codes#description DataBloxoneTdAccessCodes#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_access_codes#description DataBloxoneTdAccessCodes#description}
   */
   readonly description?: string;
   /**
   * The name of the redirect to be used in the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_access_codes#redirect_name DataBloxoneTdAccessCodes#redirect_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_access_codes#redirect_name DataBloxoneTdAccessCodes#redirect_name}
   */
   readonly redirectName?: string;
   /**
   * The type of the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_access_codes#type DataBloxoneTdAccessCodes#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_access_codes#type DataBloxoneTdAccessCodes#type}
   */
   readonly type?: string;
 }
@@ -272,31 +272,31 @@ export interface DataBloxoneTdAccessCodesResults {
   /**
   * The time when the Bypass Code object was activated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_access_codes#activation DataBloxoneTdAccessCodes#activation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_access_codes#activation DataBloxoneTdAccessCodes#activation}
   */
   readonly activation: string;
   /**
   * The brief description for an access code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_access_codes#description DataBloxoneTdAccessCodes#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_access_codes#description DataBloxoneTdAccessCodes#description}
   */
   readonly description?: string;
   /**
   * The time when the Bypass Code object expires.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_access_codes#expiration DataBloxoneTdAccessCodes#expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_access_codes#expiration DataBloxoneTdAccessCodes#expiration}
   */
   readonly expiration: string;
   /**
   * The name of Bypass Code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_access_codes#name DataBloxoneTdAccessCodes#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_access_codes#name DataBloxoneTdAccessCodes#name}
   */
   readonly name: string;
   /**
   * The list of selected security rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_access_codes#rules DataBloxoneTdAccessCodes#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_access_codes#rules DataBloxoneTdAccessCodes#rules}
   */
   readonly rules: DataBloxoneTdAccessCodesResultsRules[] | cdktf.IResolvable;
 }
@@ -531,7 +531,7 @@ export class DataBloxoneTdAccessCodesResultsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_access_codes bloxone_td_access_codes}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_access_codes bloxone_td_access_codes}
 */
 export class DataBloxoneTdAccessCodes extends cdktf.TerraformDataSource {
 
@@ -547,7 +547,7 @@ export class DataBloxoneTdAccessCodes extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataBloxoneTdAccessCodes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataBloxoneTdAccessCodes to import
-  * @param importFromId The id of the existing DataBloxoneTdAccessCodes that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_access_codes#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataBloxoneTdAccessCodes that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_access_codes#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataBloxoneTdAccessCodes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -559,7 +559,7 @@ export class DataBloxoneTdAccessCodes extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_access_codes bloxone_td_access_codes} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_access_codes bloxone_td_access_codes} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -570,8 +570,8 @@ export class DataBloxoneTdAccessCodes extends cdktf.TerraformDataSource {
       terraformResourceType: 'bloxone_td_access_codes',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.5.4',
+        providerVersionConstraint: '1.5.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

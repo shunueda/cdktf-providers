@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/network
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/network
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,111 +10,111 @@ export interface NetworkConfig extends cdktf.TerraformMetaArguments {
   /**
   * The IPv4 gateway of a network. If not specified, the first IP of the network will be assigned as the gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/network#ipv4_gateway Network#ipv4_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/network#ipv4_gateway Network#ipv4_gateway}
   */
   readonly ipv4Gateway?: string;
   /**
   * The IPv4 nameservers of the network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/network#ipv4_nameservers Network#ipv4_nameservers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/network#ipv4_nameservers Network#ipv4_nameservers}
   */
   readonly ipv4Nameservers?: string[];
   /**
   * The IPv4 prefix of the network (CIDR).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/network#ipv4_prefix Network#ipv4_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/network#ipv4_prefix Network#ipv4_prefix}
   */
   readonly ipv4Prefix?: string;
   /**
   * The IPv4 prefix length of the network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/network#ipv4_prefix_length Network#ipv4_prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/network#ipv4_prefix_length Network#ipv4_prefix_length}
   */
   readonly ipv4PrefixLength?: number;
   /**
   * The IPv6 gateway of a network. If not specified, the first IP of the network will be assigned as the gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/network#ipv6_gateway Network#ipv6_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/network#ipv6_gateway Network#ipv6_gateway}
   */
   readonly ipv6Gateway?: string;
   /**
   * The IPv6 nameservers of the network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/network#ipv6_nameservers Network#ipv6_nameservers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/network#ipv6_nameservers Network#ipv6_nameservers}
   */
   readonly ipv6Nameservers?: string[];
   /**
   * The IPv6 prefix of the network (CIDR).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/network#ipv6_prefix Network#ipv6_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/network#ipv6_prefix Network#ipv6_prefix}
   */
   readonly ipv6Prefix?: string;
   /**
   * The IPv6 prefix length of the network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/network#ipv6_prefix_length Network#ipv6_prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/network#ipv6_prefix_length Network#ipv6_prefix_length}
   */
   readonly ipv6PrefixLength?: number;
   /**
   * Labels are key-value string pairs which can be attached to a resource container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/network#labels Network#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/network#labels Network#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The name of the network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/network#name Network#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/network#name Network#name}
   */
   readonly name: string;
   /**
   * The nameservers of the network. This field is deprecated and will be removed in January 2026, use `ipv4_nameservers` to configure the nameservers for IPv4.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/network#nameservers Network#nameservers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/network#nameservers Network#nameservers}
   */
   readonly nameservers?: string[];
   /**
   * If set to `true`, the network doesn't have a gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/network#no_ipv4_gateway Network#no_ipv4_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/network#no_ipv4_gateway Network#no_ipv4_gateway}
   */
   readonly noIpv4Gateway?: boolean | cdktf.IResolvable;
   /**
   * If set to `true`, the network doesn't have a gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/network#no_ipv6_gateway Network#no_ipv6_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/network#no_ipv6_gateway Network#no_ipv6_gateway}
   */
   readonly noIpv6Gateway?: boolean | cdktf.IResolvable;
   /**
   * STACKIT project ID to which the network is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/network#project_id Network#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/network#project_id Network#project_id}
   */
   readonly projectId: string;
   /**
   * Can only be used when experimental "network" is set.
   * The resource region. If not defined, the provider region is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/network#region Network#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/network#region Network#region}
   */
   readonly region?: string;
   /**
   * If set to `true`, the network is routed and therefore accessible from other networks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/network#routed Network#routed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/network#routed Network#routed}
   */
   readonly routed?: boolean | cdktf.IResolvable;
   /**
   * Can only be used when experimental "network" is set.
   * The ID of the routing table associated with the network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/network#routing_table_id Network#routing_table_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/network#routing_table_id Network#routing_table_id}
   */
   readonly routingTableId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/network stackit_network}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/network stackit_network}
 */
 export class Network extends cdktf.TerraformResource {
 
@@ -130,7 +130,7 @@ export class Network extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Network resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Network to import
-  * @param importFromId The id of the existing Network that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/network#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Network that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/network#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Network to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -142,7 +142,7 @@ export class Network extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/network stackit_network} Resource
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/network stackit_network} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -153,8 +153,8 @@ export class Network extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_network',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.72.0',
-        providerVersionConstraint: '0.72.0'
+        providerVersion: '0.73.0',
+        providerVersionConstraint: '0.73.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_plugin_associate
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_plugin_associate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,24 +10,24 @@ export interface ApigPluginAssociateConfig extends cdktf.TerraformMetaArguments 
   /**
   * The list of API IDs to be bound by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_plugin_associate#api_ids ApigPluginAssociate#api_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_plugin_associate#api_ids ApigPluginAssociate#api_ids}
   */
   readonly apiIds: string[];
   /**
   * The script configuration value of this change is also the original value used for comparison with
   * the new value next time the change is made. The corresponding parameter name is 'api_ids'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_plugin_associate#api_ids_origin ApigPluginAssociate#api_ids_origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_plugin_associate#api_ids_origin ApigPluginAssociate#api_ids_origin}
   */
   readonly apiIdsOrigin?: string[];
   /**
   * The environment ID where the API was published.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_plugin_associate#env_id ApigPluginAssociate#env_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_plugin_associate#env_id ApigPluginAssociate#env_id}
   */
   readonly envId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_plugin_associate#id ApigPluginAssociate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_plugin_associate#id ApigPluginAssociate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -36,25 +36,25 @@ export interface ApigPluginAssociateConfig extends cdktf.TerraformMetaArguments 
   /**
   * The ID of the dedicated instance to which the plugin belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_plugin_associate#instance_id ApigPluginAssociate#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_plugin_associate#instance_id ApigPluginAssociate#instance_id}
   */
   readonly instanceId: string;
   /**
   * The plugin ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_plugin_associate#plugin_id ApigPluginAssociate#plugin_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_plugin_associate#plugin_id ApigPluginAssociate#plugin_id}
   */
   readonly pluginId: string;
   /**
   * The region where the plugin is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_plugin_associate#region ApigPluginAssociate#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_plugin_associate#region ApigPluginAssociate#region}
   */
   readonly region?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_plugin_associate sbercloud_apig_plugin_associate}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_plugin_associate sbercloud_apig_plugin_associate}
 */
 export class ApigPluginAssociate extends cdktf.TerraformResource {
 
@@ -70,7 +70,7 @@ export class ApigPluginAssociate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApigPluginAssociate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApigPluginAssociate to import
-  * @param importFromId The id of the existing ApigPluginAssociate that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_plugin_associate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApigPluginAssociate that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_plugin_associate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApigPluginAssociate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -82,7 +82,7 @@ export class ApigPluginAssociate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_plugin_associate sbercloud_apig_plugin_associate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_plugin_associate sbercloud_apig_plugin_associate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -93,8 +93,8 @@ export class ApigPluginAssociate extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_apig_plugin_associate',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

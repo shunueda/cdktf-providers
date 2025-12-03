@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_forward_zone
+// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_forward_zone
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface DnsForwardZoneConfig extends cdktf.TerraformMetaArguments {
   /**
   * Optional. Comment for zone configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_forward_zone#comment DnsForwardZone#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_forward_zone#comment DnsForwardZone#comment}
   */
   readonly comment?: string;
   /**
   * Optional. _true_ to disable object. A disabled object is effectively non-existent when generating configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_forward_zone#disabled DnsForwardZone#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_forward_zone#disabled DnsForwardZone#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Optional. External DNS servers to forward to. Order is not significant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_forward_zone#external_forwarders DnsForwardZone#external_forwarders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_forward_zone#external_forwarders DnsForwardZone#external_forwarders}
   */
   readonly externalForwarders?: DnsForwardZoneExternalForwarders[] | cdktf.IResolvable;
   /**
   * Optional. _true_ to only forward.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_forward_zone#forward_only DnsForwardZone#forward_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_forward_zone#forward_only DnsForwardZone#forward_only}
   */
   readonly forwardOnly?: boolean | cdktf.IResolvable;
   /**
   * Zone FQDN. The FQDN supplied at creation will be converted to canonical form.  Read-only after creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_forward_zone#fqdn DnsForwardZone#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_forward_zone#fqdn DnsForwardZone#fqdn}
   */
   readonly fqdn?: string;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_forward_zone#hosts DnsForwardZone#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_forward_zone#hosts DnsForwardZone#hosts}
   */
   readonly hosts?: string[];
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_forward_zone#internal_forwarders DnsForwardZone#internal_forwarders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_forward_zone#internal_forwarders DnsForwardZone#internal_forwarders}
   */
   readonly internalForwarders?: string[];
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_forward_zone#nsgs DnsForwardZone#nsgs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_forward_zone#nsgs DnsForwardZone#nsgs}
   */
   readonly nsgs?: string[];
   /**
   * Tagging specifics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_forward_zone#tags DnsForwardZone#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_forward_zone#tags DnsForwardZone#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_forward_zone#view DnsForwardZone#view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_forward_zone#view DnsForwardZone#view}
   */
   readonly view?: string;
 }
@@ -72,13 +72,13 @@ export interface DnsForwardZoneExternalForwarders {
   /**
   * Server IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_forward_zone#address DnsForwardZone#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_forward_zone#address DnsForwardZone#address}
   */
   readonly address: string;
   /**
   * Server FQDN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_forward_zone#fqdn DnsForwardZone#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_forward_zone#fqdn DnsForwardZone#fqdn}
   */
   readonly fqdn?: string;
 }
@@ -227,13 +227,13 @@ export interface DnsForwardZoneWarnings {
   /**
   * Warning message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_forward_zone#message DnsForwardZone#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_forward_zone#message DnsForwardZone#message}
   */
   readonly message?: string;
   /**
   * Name of a warning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_forward_zone#name DnsForwardZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_forward_zone#name DnsForwardZone#name}
   */
   readonly name?: string;
 }
@@ -368,7 +368,7 @@ export class DnsForwardZoneWarningsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_forward_zone bloxone_dns_forward_zone}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_forward_zone bloxone_dns_forward_zone}
 */
 export class DnsForwardZone extends cdktf.TerraformResource {
 
@@ -384,7 +384,7 @@ export class DnsForwardZone extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DnsForwardZone resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DnsForwardZone to import
-  * @param importFromId The id of the existing DnsForwardZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_forward_zone#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DnsForwardZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_forward_zone#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DnsForwardZone to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -396,7 +396,7 @@ export class DnsForwardZone extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_forward_zone bloxone_dns_forward_zone} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_forward_zone bloxone_dns_forward_zone} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -407,8 +407,8 @@ export class DnsForwardZone extends cdktf.TerraformResource {
       terraformResourceType: 'bloxone_dns_forward_zone',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.5.4',
+        providerVersionConstraint: '1.5.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

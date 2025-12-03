@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/fgs_async_invoke_configuration
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/fgs_async_invoke_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface FgsAsyncInvokeConfigurationConfig extends cdktf.TerraformMetaAr
   /**
   * Whether to enable asynchronous invocation status persistence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/fgs_async_invoke_configuration#enable_async_status_log FgsAsyncInvokeConfiguration#enable_async_status_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/fgs_async_invoke_configuration#enable_async_status_log FgsAsyncInvokeConfiguration#enable_async_status_log}
   */
   readonly enableAsyncStatusLog?: boolean | cdktf.IResolvable;
   /**
   * The function URN to which the asynchronous invocation belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/fgs_async_invoke_configuration#function_urn FgsAsyncInvokeConfiguration#function_urn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/fgs_async_invoke_configuration#function_urn FgsAsyncInvokeConfiguration#function_urn}
   */
   readonly functionUrn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/fgs_async_invoke_configuration#id FgsAsyncInvokeConfiguration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/fgs_async_invoke_configuration#id FgsAsyncInvokeConfiguration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface FgsAsyncInvokeConfigurationConfig extends cdktf.TerraformMetaAr
   /**
   * The maximum validity period of a message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/fgs_async_invoke_configuration#max_async_event_age_in_seconds FgsAsyncInvokeConfiguration#max_async_event_age_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/fgs_async_invoke_configuration#max_async_event_age_in_seconds FgsAsyncInvokeConfiguration#max_async_event_age_in_seconds}
   */
   readonly maxAsyncEventAgeInSeconds: number;
   /**
   * The maximum number of retry attempts to be made if asynchronous invocation fails.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/fgs_async_invoke_configuration#max_async_retry_attempts FgsAsyncInvokeConfiguration#max_async_retry_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/fgs_async_invoke_configuration#max_async_retry_attempts FgsAsyncInvokeConfiguration#max_async_retry_attempts}
   */
   readonly maxAsyncRetryAttempts: number;
   /**
   * The region in which to configure the asynchronous invocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/fgs_async_invoke_configuration#region FgsAsyncInvokeConfiguration#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/fgs_async_invoke_configuration#region FgsAsyncInvokeConfiguration#region}
   */
   readonly region?: string;
   /**
   * on_failure block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/fgs_async_invoke_configuration#on_failure FgsAsyncInvokeConfiguration#on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/fgs_async_invoke_configuration#on_failure FgsAsyncInvokeConfiguration#on_failure}
   */
   readonly onFailure?: FgsAsyncInvokeConfigurationOnFailure;
   /**
   * on_success block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/fgs_async_invoke_configuration#on_success FgsAsyncInvokeConfiguration#on_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/fgs_async_invoke_configuration#on_success FgsAsyncInvokeConfiguration#on_success}
   */
   readonly onSuccess?: FgsAsyncInvokeConfigurationOnSuccess;
 }
@@ -61,13 +61,13 @@ export interface FgsAsyncInvokeConfigurationOnFailure {
   /**
   * The object type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/fgs_async_invoke_configuration#destination FgsAsyncInvokeConfiguration#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/fgs_async_invoke_configuration#destination FgsAsyncInvokeConfiguration#destination}
   */
   readonly destination: string;
   /**
   * The parameters (in JSON format) corresponding to the target service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/fgs_async_invoke_configuration#param FgsAsyncInvokeConfiguration#param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/fgs_async_invoke_configuration#param FgsAsyncInvokeConfiguration#param}
   */
   readonly param: string;
 }
@@ -176,13 +176,13 @@ export interface FgsAsyncInvokeConfigurationOnSuccess {
   /**
   * The object type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/fgs_async_invoke_configuration#destination FgsAsyncInvokeConfiguration#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/fgs_async_invoke_configuration#destination FgsAsyncInvokeConfiguration#destination}
   */
   readonly destination: string;
   /**
   * The parameters (in JSON format) corresponding to the target service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/fgs_async_invoke_configuration#param FgsAsyncInvokeConfiguration#param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/fgs_async_invoke_configuration#param FgsAsyncInvokeConfiguration#param}
   */
   readonly param: string;
 }
@@ -289,7 +289,7 @@ export class FgsAsyncInvokeConfigurationOnSuccessOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/fgs_async_invoke_configuration sbercloud_fgs_async_invoke_configuration}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/fgs_async_invoke_configuration sbercloud_fgs_async_invoke_configuration}
 */
 export class FgsAsyncInvokeConfiguration extends cdktf.TerraformResource {
 
@@ -305,7 +305,7 @@ export class FgsAsyncInvokeConfiguration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FgsAsyncInvokeConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FgsAsyncInvokeConfiguration to import
-  * @param importFromId The id of the existing FgsAsyncInvokeConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/fgs_async_invoke_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FgsAsyncInvokeConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/fgs_async_invoke_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FgsAsyncInvokeConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -317,7 +317,7 @@ export class FgsAsyncInvokeConfiguration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/fgs_async_invoke_configuration sbercloud_fgs_async_invoke_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/fgs_async_invoke_configuration sbercloud_fgs_async_invoke_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -328,8 +328,8 @@ export class FgsAsyncInvokeConfiguration extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_fgs_async_invoke_configuration',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

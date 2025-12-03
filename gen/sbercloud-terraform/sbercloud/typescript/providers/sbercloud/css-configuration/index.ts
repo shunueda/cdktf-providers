@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_configuration
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface CssConfigurationConfig extends cdktf.TerraformMetaArguments {
   /**
   * The CSS cluster ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_configuration#cluster_id CssConfiguration#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_configuration#cluster_id CssConfiguration#cluster_id}
   */
   readonly clusterId: string;
   /**
   * Whether to return the Access-Control-Allow-Credentials of the header during cross-domain access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_configuration#http_cors_allow_credetials CssConfiguration#http_cors_allow_credetials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_configuration#http_cors_allow_credetials CssConfiguration#http_cors_allow_credetials}
   */
   readonly httpCorsAllowCredetials?: string;
   /**
   * Headers allowed for cross-domain access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_configuration#http_cors_allow_headers CssConfiguration#http_cors_allow_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_configuration#http_cors_allow_headers CssConfiguration#http_cors_allow_headers}
   */
   readonly httpCorsAllowHeaders?: string;
   /**
   * Methods allowed for cross-domain access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_configuration#http_cors_allow_methods CssConfiguration#http_cors_allow_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_configuration#http_cors_allow_methods CssConfiguration#http_cors_allow_methods}
   */
   readonly httpCorsAllowMethods?: string;
   /**
   * Origin IP address allowed for cross-domain access, for example, **122.122.122.122:9200**.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_configuration#http_cors_allow_origin CssConfiguration#http_cors_allow_origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_configuration#http_cors_allow_origin CssConfiguration#http_cors_allow_origin}
   */
   readonly httpCorsAllowOrigin?: string;
   /**
   * Whether to allow cross-domain access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_configuration#http_cors_enabled CssConfiguration#http_cors_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_configuration#http_cors_enabled CssConfiguration#http_cors_enabled}
   */
   readonly httpCorsEnabled?: string;
   /**
   * Cache duration of the browser. The cache is automatically cleared after the time range you specify.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_configuration#http_cors_max_age CssConfiguration#http_cors_max_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_configuration#http_cors_max_age CssConfiguration#http_cors_max_age}
   */
   readonly httpCorsMaxAge?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_configuration#id CssConfiguration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_configuration#id CssConfiguration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,39 +59,39 @@ export interface CssConfigurationConfig extends cdktf.TerraformMetaArguments {
   /**
   * Cache size in the query phase. Value range: **1** to **100**.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_configuration#indices_queries_cache_size CssConfiguration#indices_queries_cache_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_configuration#indices_queries_cache_size CssConfiguration#indices_queries_cache_size}
   */
   readonly indicesQueriesCacheSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_configuration#region CssConfiguration#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_configuration#region CssConfiguration#region}
   */
   readonly region?: string;
   /**
   * Configured for migrating data from the current cluster to the target cluster through the reindex API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_configuration#reindex_remote_whitelist CssConfiguration#reindex_remote_whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_configuration#reindex_remote_whitelist CssConfiguration#reindex_remote_whitelist}
   */
   readonly reindexRemoteWhitelist?: string;
   /**
   * Queue size in the force merge thread pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_configuration#thread_pool_force_merge_size CssConfiguration#thread_pool_force_merge_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_configuration#thread_pool_force_merge_size CssConfiguration#thread_pool_force_merge_size}
   */
   readonly threadPoolForceMergeSize?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_configuration#timeouts CssConfiguration#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_configuration#timeouts CssConfiguration#timeouts}
   */
   readonly timeouts?: CssConfigurationTimeouts;
 }
 export interface CssConfigurationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_configuration#create CssConfiguration#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_configuration#create CssConfiguration#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_configuration#delete CssConfiguration#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_configuration#delete CssConfiguration#delete}
   */
   readonly delete?: string;
 }
@@ -214,7 +214,7 @@ export class CssConfigurationTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_configuration sbercloud_css_configuration}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_configuration sbercloud_css_configuration}
 */
 export class CssConfiguration extends cdktf.TerraformResource {
 
@@ -230,7 +230,7 @@ export class CssConfiguration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CssConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CssConfiguration to import
-  * @param importFromId The id of the existing CssConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CssConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CssConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -242,7 +242,7 @@ export class CssConfiguration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_configuration sbercloud_css_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_configuration sbercloud_css_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -253,8 +253,8 @@ export class CssConfiguration extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_css_configuration',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/sfs_turbo_obs_targets
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/sfs_turbo_obs_targets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataSbercloudSfsTurboObsTargetsConfig extends cdktf.TerraformMe
   /**
   * Specifies the name of the OBS bucket associated with the OBS target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/sfs_turbo_obs_targets#bucket DataSbercloudSfsTurboObsTargets#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/sfs_turbo_obs_targets#bucket DataSbercloudSfsTurboObsTargets#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/sfs_turbo_obs_targets#id DataSbercloudSfsTurboObsTargets#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/sfs_turbo_obs_targets#id DataSbercloudSfsTurboObsTargets#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface DataSbercloudSfsTurboObsTargetsConfig extends cdktf.TerraformMe
   /**
   * Specifies the region in which to query the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/sfs_turbo_obs_targets#region DataSbercloudSfsTurboObsTargets#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/sfs_turbo_obs_targets#region DataSbercloudSfsTurboObsTargets#region}
   */
   readonly region?: string;
   /**
   * Specifies the ID of the SFS Turbo file system to which the OBS target belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/sfs_turbo_obs_targets#share_id DataSbercloudSfsTurboObsTargets#share_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/sfs_turbo_obs_targets#share_id DataSbercloudSfsTurboObsTargets#share_id}
   */
   readonly shareId: string;
   /**
   * Specifies the status of the OBS target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/sfs_turbo_obs_targets#status DataSbercloudSfsTurboObsTargets#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/sfs_turbo_obs_targets#status DataSbercloudSfsTurboObsTargets#status}
   */
   readonly status?: string;
   /**
   * Specifies the ID of the OBS target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/sfs_turbo_obs_targets#target_id DataSbercloudSfsTurboObsTargets#target_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/sfs_turbo_obs_targets#target_id DataSbercloudSfsTurboObsTargets#target_id}
   */
   readonly targetId?: string;
 }
@@ -223,7 +223,7 @@ export class DataSbercloudSfsTurboObsTargetsTargetsList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/sfs_turbo_obs_targets sbercloud_sfs_turbo_obs_targets}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/sfs_turbo_obs_targets sbercloud_sfs_turbo_obs_targets}
 */
 export class DataSbercloudSfsTurboObsTargets extends cdktf.TerraformDataSource {
 
@@ -239,7 +239,7 @@ export class DataSbercloudSfsTurboObsTargets extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSbercloudSfsTurboObsTargets resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSbercloudSfsTurboObsTargets to import
-  * @param importFromId The id of the existing DataSbercloudSfsTurboObsTargets that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/sfs_turbo_obs_targets#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSbercloudSfsTurboObsTargets that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/sfs_turbo_obs_targets#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSbercloudSfsTurboObsTargets to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -251,7 +251,7 @@ export class DataSbercloudSfsTurboObsTargets extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/sfs_turbo_obs_targets sbercloud_sfs_turbo_obs_targets} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/sfs_turbo_obs_targets sbercloud_sfs_turbo_obs_targets} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -262,8 +262,8 @@ export class DataSbercloudSfsTurboObsTargets extends cdktf.TerraformDataSource {
       terraformResourceType: 'sbercloud_sfs_turbo_obs_targets',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

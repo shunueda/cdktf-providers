@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_application_acl
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_application_acl
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataSbercloudApigApplicationAclConfig extends cdktf.TerraformMe
   /**
   * The ID of the application to which the ACL rules belong.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_application_acl#application_id DataSbercloudApigApplicationAcl#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_application_acl#application_id DataSbercloudApigApplicationAcl#application_id}
   */
   readonly applicationId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_application_acl#id DataSbercloudApigApplicationAcl#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_application_acl#id DataSbercloudApigApplicationAcl#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface DataSbercloudApigApplicationAclConfig extends cdktf.TerraformMe
   /**
   * The ID of the dedicated instance to which the application belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_application_acl#instance_id DataSbercloudApigApplicationAcl#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_application_acl#instance_id DataSbercloudApigApplicationAcl#instance_id}
   */
   readonly instanceId: string;
   /**
   * The region where the application and ACL rules are located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_application_acl#region DataSbercloudApigApplicationAcl#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_application_acl#region DataSbercloudApigApplicationAcl#region}
   */
   readonly region?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_application_acl sbercloud_apig_application_acl}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_application_acl sbercloud_apig_application_acl}
 */
 export class DataSbercloudApigApplicationAcl extends cdktf.TerraformDataSource {
 
@@ -51,7 +51,7 @@ export class DataSbercloudApigApplicationAcl extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSbercloudApigApplicationAcl resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSbercloudApigApplicationAcl to import
-  * @param importFromId The id of the existing DataSbercloudApigApplicationAcl that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_application_acl#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSbercloudApigApplicationAcl that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_application_acl#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSbercloudApigApplicationAcl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class DataSbercloudApigApplicationAcl extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_application_acl sbercloud_apig_application_acl} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_application_acl sbercloud_apig_application_acl} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class DataSbercloudApigApplicationAcl extends cdktf.TerraformDataSource {
       terraformResourceType: 'sbercloud_apig_application_acl',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

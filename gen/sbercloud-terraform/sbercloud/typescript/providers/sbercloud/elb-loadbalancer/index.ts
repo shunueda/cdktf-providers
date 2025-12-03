@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_loadbalancer
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_loadbalancer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,174 +8,170 @@ import * as cdktf from 'cdktf';
 
 export interface ElbLoadbalancerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_loadbalancer#auto_pay ElbLoadbalancer#auto_pay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_loadbalancer#auto_pay ElbLoadbalancer#auto_pay}
   */
   readonly autoPay?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_loadbalancer#auto_renew ElbLoadbalancer#auto_renew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_loadbalancer#auto_renew ElbLoadbalancer#auto_renew}
   */
   readonly autoRenew?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_loadbalancer#autoscaling_enabled ElbLoadbalancer#autoscaling_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_loadbalancer#autoscaling_enabled ElbLoadbalancer#autoscaling_enabled}
   */
   readonly autoscalingEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_loadbalancer#availability_zone ElbLoadbalancer#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_loadbalancer#availability_zone ElbLoadbalancer#availability_zone}
   */
   readonly availabilityZone: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_loadbalancer#backend_subnets ElbLoadbalancer#backend_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_loadbalancer#backend_subnets ElbLoadbalancer#backend_subnets}
   */
   readonly backendSubnets?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_loadbalancer#bandwidth_charge_mode ElbLoadbalancer#bandwidth_charge_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_loadbalancer#bandwidth_charge_mode ElbLoadbalancer#bandwidth_charge_mode}
   */
   readonly bandwidthChargeMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_loadbalancer#bandwidth_id ElbLoadbalancer#bandwidth_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_loadbalancer#bandwidth_id ElbLoadbalancer#bandwidth_id}
   */
   readonly bandwidthId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_loadbalancer#bandwidth_size ElbLoadbalancer#bandwidth_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_loadbalancer#bandwidth_size ElbLoadbalancer#bandwidth_size}
   */
   readonly bandwidthSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_loadbalancer#charging_mode ElbLoadbalancer#charging_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_loadbalancer#charging_mode ElbLoadbalancer#charging_mode}
   */
   readonly chargingMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_loadbalancer#cross_vpc_backend ElbLoadbalancer#cross_vpc_backend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_loadbalancer#cross_vpc_backend ElbLoadbalancer#cross_vpc_backend}
   */
   readonly crossVpcBackend?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_loadbalancer#deletion_protection_enable ElbLoadbalancer#deletion_protection_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_loadbalancer#deletion_protection_enable ElbLoadbalancer#deletion_protection_enable}
   */
   readonly deletionProtectionEnable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_loadbalancer#description ElbLoadbalancer#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_loadbalancer#description ElbLoadbalancer#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_loadbalancer#enterprise_project_id ElbLoadbalancer#enterprise_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_loadbalancer#enterprise_project_id ElbLoadbalancer#enterprise_project_id}
   */
   readonly enterpriseProjectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_loadbalancer#force_delete ElbLoadbalancer#force_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_loadbalancer#force_delete ElbLoadbalancer#force_delete}
   */
   readonly forceDelete?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_loadbalancer#id ElbLoadbalancer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_loadbalancer#id ElbLoadbalancer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_loadbalancer#iptype ElbLoadbalancer#iptype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_loadbalancer#iptype ElbLoadbalancer#iptype}
   */
   readonly iptype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_loadbalancer#ipv4_address ElbLoadbalancer#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_loadbalancer#ipv4_address ElbLoadbalancer#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_loadbalancer#ipv4_eip_id ElbLoadbalancer#ipv4_eip_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_loadbalancer#ipv4_eip_id ElbLoadbalancer#ipv4_eip_id}
   */
   readonly ipv4EipId?: string;
   /**
-  * the IPv4 subnet ID of the subnet where the load balancer resides
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_loadbalancer#ipv4_subnet_id ElbLoadbalancer#ipv4_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_loadbalancer#ipv4_subnet_id ElbLoadbalancer#ipv4_subnet_id}
   */
   readonly ipv4SubnetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_loadbalancer#ipv6_address ElbLoadbalancer#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_loadbalancer#ipv6_address ElbLoadbalancer#ipv6_address}
   */
   readonly ipv6Address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_loadbalancer#ipv6_bandwidth_id ElbLoadbalancer#ipv6_bandwidth_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_loadbalancer#ipv6_bandwidth_id ElbLoadbalancer#ipv6_bandwidth_id}
   */
   readonly ipv6BandwidthId?: string;
   /**
-  * the ID of the subnet where the load balancer resides
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_loadbalancer#ipv6_network_id ElbLoadbalancer#ipv6_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_loadbalancer#ipv6_network_id ElbLoadbalancer#ipv6_network_id}
   */
   readonly ipv6NetworkId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_loadbalancer#l4_flavor_id ElbLoadbalancer#l4_flavor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_loadbalancer#l4_flavor_id ElbLoadbalancer#l4_flavor_id}
   */
   readonly l4FlavorId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_loadbalancer#l7_flavor_id ElbLoadbalancer#l7_flavor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_loadbalancer#l7_flavor_id ElbLoadbalancer#l7_flavor_id}
   */
   readonly l7FlavorId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_loadbalancer#loadbalancer_type ElbLoadbalancer#loadbalancer_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_loadbalancer#loadbalancer_type ElbLoadbalancer#loadbalancer_type}
   */
   readonly loadbalancerType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_loadbalancer#min_l7_flavor_id ElbLoadbalancer#min_l7_flavor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_loadbalancer#min_l7_flavor_id ElbLoadbalancer#min_l7_flavor_id}
   */
   readonly minL7FlavorId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_loadbalancer#name ElbLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_loadbalancer#name ElbLoadbalancer#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_loadbalancer#period ElbLoadbalancer#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_loadbalancer#period ElbLoadbalancer#period}
   */
   readonly period?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_loadbalancer#period_unit ElbLoadbalancer#period_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_loadbalancer#period_unit ElbLoadbalancer#period_unit}
   */
   readonly periodUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_loadbalancer#protection_reason ElbLoadbalancer#protection_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_loadbalancer#protection_reason ElbLoadbalancer#protection_reason}
   */
   readonly protectionReason?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_loadbalancer#protection_status ElbLoadbalancer#protection_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_loadbalancer#protection_status ElbLoadbalancer#protection_status}
   */
   readonly protectionStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_loadbalancer#region ElbLoadbalancer#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_loadbalancer#region ElbLoadbalancer#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_loadbalancer#sharetype ElbLoadbalancer#sharetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_loadbalancer#sharetype ElbLoadbalancer#sharetype}
   */
   readonly sharetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_loadbalancer#tags ElbLoadbalancer#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_loadbalancer#tags ElbLoadbalancer#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_loadbalancer#vpc_id ElbLoadbalancer#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_loadbalancer#vpc_id ElbLoadbalancer#vpc_id}
   */
   readonly vpcId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_loadbalancer#waf_failure_action ElbLoadbalancer#waf_failure_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_loadbalancer#waf_failure_action ElbLoadbalancer#waf_failure_action}
   */
   readonly wafFailureAction?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_loadbalancer#timeouts ElbLoadbalancer#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_loadbalancer#timeouts ElbLoadbalancer#timeouts}
   */
   readonly timeouts?: ElbLoadbalancerTimeouts;
 }
 export interface ElbLoadbalancerTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_loadbalancer#create ElbLoadbalancer#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_loadbalancer#create ElbLoadbalancer#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_loadbalancer#delete ElbLoadbalancer#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_loadbalancer#delete ElbLoadbalancer#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_loadbalancer#update ElbLoadbalancer#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_loadbalancer#update ElbLoadbalancer#update}
   */
   readonly update?: string;
 }
@@ -327,7 +323,7 @@ export class ElbLoadbalancerTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_loadbalancer sbercloud_elb_loadbalancer}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_loadbalancer sbercloud_elb_loadbalancer}
 */
 export class ElbLoadbalancer extends cdktf.TerraformResource {
 
@@ -343,7 +339,7 @@ export class ElbLoadbalancer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ElbLoadbalancer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ElbLoadbalancer to import
-  * @param importFromId The id of the existing ElbLoadbalancer that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_loadbalancer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ElbLoadbalancer that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_loadbalancer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ElbLoadbalancer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -355,7 +351,7 @@ export class ElbLoadbalancer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_loadbalancer sbercloud_elb_loadbalancer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_loadbalancer sbercloud_elb_loadbalancer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -366,8 +362,8 @@ export class ElbLoadbalancer extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_elb_loadbalancer',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -819,7 +815,7 @@ export class ElbLoadbalancer extends cdktf.TerraformResource {
     return this._ipv6NetworkId;
   }
 
-  // l4_flavor_id - computed: true, optional: true, required: false
+  // l4_flavor_id - computed: false, optional: true, required: false
   private _l4FlavorId?: string; 
   public get l4FlavorId() {
     return this.getStringAttribute('l4_flavor_id');
@@ -835,7 +831,7 @@ export class ElbLoadbalancer extends cdktf.TerraformResource {
     return this._l4FlavorId;
   }
 
-  // l7_flavor_id - computed: true, optional: true, required: false
+  // l7_flavor_id - computed: false, optional: true, required: false
   private _l7FlavorId?: string; 
   public get l7FlavorId() {
     return this.getStringAttribute('l7_flavor_id');

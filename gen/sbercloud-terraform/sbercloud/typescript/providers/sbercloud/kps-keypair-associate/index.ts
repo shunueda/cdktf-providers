@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/kps_keypair_associate
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/kps_keypair_associate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface KpsKeypairAssociateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/kps_keypair_associate#enable_force_new KpsKeypairAssociate#enable_force_new}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/kps_keypair_associate#enable_force_new KpsKeypairAssociate#enable_force_new}
   */
   readonly enableForceNew?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/kps_keypair_associate#id KpsKeypairAssociate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/kps_keypair_associate#id KpsKeypairAssociate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,25 +21,25 @@ export interface KpsKeypairAssociateConfig extends cdktf.TerraformMetaArguments 
   /**
   * Specifies the name of SSH keypair.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/kps_keypair_associate#keypair_name KpsKeypairAssociate#keypair_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/kps_keypair_associate#keypair_name KpsKeypairAssociate#keypair_name}
   */
   readonly keypairName: string;
   /**
   * Specifies the region in which to query the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/kps_keypair_associate#region KpsKeypairAssociate#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/kps_keypair_associate#region KpsKeypairAssociate#region}
   */
   readonly region?: string;
   /**
   * server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/kps_keypair_associate#server KpsKeypairAssociate#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/kps_keypair_associate#server KpsKeypairAssociate#server}
   */
   readonly server: KpsKeypairAssociateServer;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/kps_keypair_associate#timeouts KpsKeypairAssociate#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/kps_keypair_associate#timeouts KpsKeypairAssociate#timeouts}
   */
   readonly timeouts?: KpsKeypairAssociateTimeouts;
 }
@@ -47,13 +47,13 @@ export interface KpsKeypairAssociateServerAuth {
   /**
   * Specifies the value of the key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/kps_keypair_associate#key KpsKeypairAssociate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/kps_keypair_associate#key KpsKeypairAssociate#key}
   */
   readonly key?: string;
   /**
   * Specifies the value of the authentication type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/kps_keypair_associate#type KpsKeypairAssociate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/kps_keypair_associate#type KpsKeypairAssociate#type}
   */
   readonly type?: string;
 }
@@ -168,13 +168,13 @@ export interface KpsKeypairAssociateServer {
   /**
   * Specifies whether the password is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/kps_keypair_associate#disable_password KpsKeypairAssociate#disable_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/kps_keypair_associate#disable_password KpsKeypairAssociate#disable_password}
   */
   readonly disablePassword?: boolean | cdktf.IResolvable;
   /**
   * Specifies ID of the ECS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/kps_keypair_associate#id KpsKeypairAssociate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/kps_keypair_associate#id KpsKeypairAssociate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -183,13 +183,13 @@ export interface KpsKeypairAssociateServer {
   /**
   * Specifies the SSH listening port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/kps_keypair_associate#port KpsKeypairAssociate#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/kps_keypair_associate#port KpsKeypairAssociate#port}
   */
   readonly port?: number;
   /**
   * auth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/kps_keypair_associate#auth KpsKeypairAssociate#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/kps_keypair_associate#auth KpsKeypairAssociate#auth}
   */
   readonly auth?: KpsKeypairAssociateServerAuth;
 }
@@ -357,7 +357,7 @@ export class KpsKeypairAssociateServerOutputReference extends cdktf.ComplexObjec
 }
 export interface KpsKeypairAssociateTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/kps_keypair_associate#create KpsKeypairAssociate#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/kps_keypair_associate#create KpsKeypairAssociate#create}
   */
   readonly create?: string;
 }
@@ -451,7 +451,7 @@ export class KpsKeypairAssociateTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/kps_keypair_associate sbercloud_kps_keypair_associate}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/kps_keypair_associate sbercloud_kps_keypair_associate}
 */
 export class KpsKeypairAssociate extends cdktf.TerraformResource {
 
@@ -467,7 +467,7 @@ export class KpsKeypairAssociate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KpsKeypairAssociate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KpsKeypairAssociate to import
-  * @param importFromId The id of the existing KpsKeypairAssociate that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/kps_keypair_associate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KpsKeypairAssociate that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/kps_keypair_associate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KpsKeypairAssociate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -479,7 +479,7 @@ export class KpsKeypairAssociate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/kps_keypair_associate sbercloud_kps_keypair_associate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/kps_keypair_associate sbercloud_kps_keypair_associate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -490,8 +490,8 @@ export class KpsKeypairAssociate extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_kps_keypair_associate',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/identity_agency
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/identity_agency
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,58 +8,207 @@ import * as cdktf from 'cdktf';
 
 export interface IdentityAgencyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/identity_agency#all_resources_roles IdentityAgency#all_resources_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/identity_agency#all_resources_roles IdentityAgency#all_resources_roles}
   */
   readonly allResourcesRoles?: string[];
   /**
   * schema: Required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/identity_agency#delegated_domain_name IdentityAgency#delegated_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/identity_agency#delegated_domain_name IdentityAgency#delegated_domain_name}
   */
   readonly delegatedDomainName?: string;
   /**
   * schema: Internal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/identity_agency#delegated_service_name IdentityAgency#delegated_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/identity_agency#delegated_service_name IdentityAgency#delegated_service_name}
   */
   readonly delegatedServiceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/identity_agency#description IdentityAgency#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/identity_agency#description IdentityAgency#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/identity_agency#domain_roles IdentityAgency#domain_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/identity_agency#domain_roles IdentityAgency#domain_roles}
   */
   readonly domainRoles?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/identity_agency#duration IdentityAgency#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/identity_agency#duration IdentityAgency#duration}
   */
   readonly duration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/identity_agency#id IdentityAgency#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/identity_agency#id IdentityAgency#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/identity_agency#name IdentityAgency#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/identity_agency#name IdentityAgency#name}
   */
   readonly name: string;
   /**
+  * enterprise_project_roles block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/identity_agency#enterprise_project_roles IdentityAgency#enterprise_project_roles}
+  */
+  readonly enterpriseProjectRoles?: IdentityAgencyEnterpriseProjectRoles[] | cdktf.IResolvable;
+  /**
   * project_role block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/identity_agency#project_role IdentityAgency#project_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/identity_agency#project_role IdentityAgency#project_role}
   */
   readonly projectRole?: IdentityAgencyProjectRole[] | cdktf.IResolvable;
 }
+export interface IdentityAgencyEnterpriseProjectRoles {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/identity_agency#enterprise_project IdentityAgency#enterprise_project}
+  */
+  readonly enterpriseProject: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/identity_agency#roles IdentityAgency#roles}
+  */
+  readonly roles: string[];
+}
+
+export function identityAgencyEnterpriseProjectRolesToTerraform(struct?: IdentityAgencyEnterpriseProjectRoles | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    enterprise_project: cdktf.stringToTerraform(struct!.enterpriseProject),
+    roles: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.roles),
+  }
+}
+
+
+export function identityAgencyEnterpriseProjectRolesToHclTerraform(struct?: IdentityAgencyEnterpriseProjectRoles | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    enterprise_project: {
+      value: cdktf.stringToHclTerraform(struct!.enterpriseProject),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    roles: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.roles),
+      isBlock: false,
+      type: "set",
+      storageClassType: "stringList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class IdentityAgencyEnterpriseProjectRolesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): IdentityAgencyEnterpriseProjectRoles | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._enterpriseProject !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enterpriseProject = this._enterpriseProject;
+    }
+    if (this._roles !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.roles = this._roles;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: IdentityAgencyEnterpriseProjectRoles | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._enterpriseProject = undefined;
+      this._roles = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._enterpriseProject = value.enterpriseProject;
+      this._roles = value.roles;
+    }
+  }
+
+  // enterprise_project - computed: false, optional: false, required: true
+  private _enterpriseProject?: string; 
+  public get enterpriseProject() {
+    return this.getStringAttribute('enterprise_project');
+  }
+  public set enterpriseProject(value: string) {
+    this._enterpriseProject = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enterpriseProjectInput() {
+    return this._enterpriseProject;
+  }
+
+  // roles - computed: false, optional: false, required: true
+  private _roles?: string[]; 
+  public get roles() {
+    return cdktf.Fn.tolist(this.getListAttribute('roles'));
+  }
+  public set roles(value: string[]) {
+    this._roles = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rolesInput() {
+    return this._roles;
+  }
+}
+
+export class IdentityAgencyEnterpriseProjectRolesList extends cdktf.ComplexList {
+  public internalValue? : IdentityAgencyEnterpriseProjectRoles[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): IdentityAgencyEnterpriseProjectRolesOutputReference {
+    return new IdentityAgencyEnterpriseProjectRolesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface IdentityAgencyProjectRole {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/identity_agency#project IdentityAgency#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/identity_agency#project IdentityAgency#project}
   */
   readonly project: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/identity_agency#roles IdentityAgency#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/identity_agency#roles IdentityAgency#roles}
   */
   readonly roles: string[];
 }
@@ -198,7 +347,7 @@ export class IdentityAgencyProjectRoleList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/identity_agency sbercloud_identity_agency}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/identity_agency sbercloud_identity_agency}
 */
 export class IdentityAgency extends cdktf.TerraformResource {
 
@@ -214,7 +363,7 @@ export class IdentityAgency extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IdentityAgency resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IdentityAgency to import
-  * @param importFromId The id of the existing IdentityAgency that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/identity_agency#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IdentityAgency that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/identity_agency#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IdentityAgency to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -226,7 +375,7 @@ export class IdentityAgency extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/identity_agency sbercloud_identity_agency} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/identity_agency sbercloud_identity_agency} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -237,8 +386,8 @@ export class IdentityAgency extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_identity_agency',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -256,6 +405,7 @@ export class IdentityAgency extends cdktf.TerraformResource {
     this._duration = config.duration;
     this._id = config.id;
     this._name = config.name;
+    this._enterpriseProjectRoles.internalValue = config.enterpriseProjectRoles;
     this._projectRole.internalValue = config.projectRole;
   }
 
@@ -398,6 +548,22 @@ export class IdentityAgency extends cdktf.TerraformResource {
     return this._name;
   }
 
+  // enterprise_project_roles - computed: false, optional: true, required: false
+  private _enterpriseProjectRoles = new IdentityAgencyEnterpriseProjectRolesList(this, "enterprise_project_roles", true);
+  public get enterpriseProjectRoles() {
+    return this._enterpriseProjectRoles;
+  }
+  public putEnterpriseProjectRoles(value: IdentityAgencyEnterpriseProjectRoles[] | cdktf.IResolvable) {
+    this._enterpriseProjectRoles.internalValue = value;
+  }
+  public resetEnterpriseProjectRoles() {
+    this._enterpriseProjectRoles.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enterpriseProjectRolesInput() {
+    return this._enterpriseProjectRoles.internalValue;
+  }
+
   // project_role - computed: false, optional: true, required: false
   private _projectRole = new IdentityAgencyProjectRoleList(this, "project_role", true);
   public get projectRole() {
@@ -428,6 +594,7 @@ export class IdentityAgency extends cdktf.TerraformResource {
       duration: cdktf.stringToTerraform(this._duration),
       id: cdktf.stringToTerraform(this._id),
       name: cdktf.stringToTerraform(this._name),
+      enterprise_project_roles: cdktf.listMapper(identityAgencyEnterpriseProjectRolesToTerraform, true)(this._enterpriseProjectRoles.internalValue),
       project_role: cdktf.listMapper(identityAgencyProjectRoleToTerraform, true)(this._projectRole.internalValue),
     };
   }
@@ -481,6 +648,12 @@ export class IdentityAgency extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      enterprise_project_roles: {
+        value: cdktf.listMapperHcl(identityAgencyEnterpriseProjectRolesToHclTerraform, true)(this._enterpriseProjectRoles.internalValue),
+        isBlock: true,
+        type: "set",
+        storageClassType: "IdentityAgencyEnterpriseProjectRolesList",
       },
       project_role: {
         value: cdktf.listMapperHcl(identityAgencyProjectRoleToHclTerraform, true)(this._projectRole.internalValue),

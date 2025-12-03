@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_signature_associate
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_signature_associate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ApigSignatureAssociateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_signature_associate#id ApigSignatureAssociate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_signature_associate#id ApigSignatureAssociate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,45 +17,45 @@ export interface ApigSignatureAssociateConfig extends cdktf.TerraformMetaArgumen
   /**
   * The ID of the dedicated instance to which the APIs and the signature belong.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_signature_associate#instance_id ApigSignatureAssociate#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_signature_associate#instance_id ApigSignatureAssociate#instance_id}
   */
   readonly instanceId: string;
   /**
   * The publish IDs corresponding to the APIs bound by the signature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_signature_associate#publish_ids ApigSignatureAssociate#publish_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_signature_associate#publish_ids ApigSignatureAssociate#publish_ids}
   */
   readonly publishIds: string[];
   /**
   * The region where the signature and the APIs are located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_signature_associate#region ApigSignatureAssociate#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_signature_associate#region ApigSignatureAssociate#region}
   */
   readonly region?: string;
   /**
   * The signature ID for APIs binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_signature_associate#signature_id ApigSignatureAssociate#signature_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_signature_associate#signature_id ApigSignatureAssociate#signature_id}
   */
   readonly signatureId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_signature_associate#timeouts ApigSignatureAssociate#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_signature_associate#timeouts ApigSignatureAssociate#timeouts}
   */
   readonly timeouts?: ApigSignatureAssociateTimeouts;
 }
 export interface ApigSignatureAssociateTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_signature_associate#create ApigSignatureAssociate#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_signature_associate#create ApigSignatureAssociate#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_signature_associate#delete ApigSignatureAssociate#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_signature_associate#delete ApigSignatureAssociate#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_signature_associate#update ApigSignatureAssociate#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_signature_associate#update ApigSignatureAssociate#update}
   */
   readonly update?: string;
 }
@@ -207,7 +207,7 @@ export class ApigSignatureAssociateTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_signature_associate sbercloud_apig_signature_associate}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_signature_associate sbercloud_apig_signature_associate}
 */
 export class ApigSignatureAssociate extends cdktf.TerraformResource {
 
@@ -223,7 +223,7 @@ export class ApigSignatureAssociate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApigSignatureAssociate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApigSignatureAssociate to import
-  * @param importFromId The id of the existing ApigSignatureAssociate that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_signature_associate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApigSignatureAssociate that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_signature_associate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApigSignatureAssociate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -235,7 +235,7 @@ export class ApigSignatureAssociate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_signature_associate sbercloud_apig_signature_associate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_signature_associate sbercloud_apig_signature_associate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -246,8 +246,8 @@ export class ApigSignatureAssociate extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_apig_signature_associate',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

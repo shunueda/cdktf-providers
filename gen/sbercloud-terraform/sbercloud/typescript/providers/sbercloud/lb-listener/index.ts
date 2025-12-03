@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/lb_listener
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/lb_listener
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,104 +8,108 @@ import * as cdktf from 'cdktf';
 
 export interface LbListenerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/lb_listener#admin_state_up LbListener#admin_state_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/lb_listener#admin_state_up LbListener#admin_state_up}
   */
   readonly adminStateUp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/lb_listener#client_ca_tls_container_ref LbListener#client_ca_tls_container_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/lb_listener#client_ca_tls_container_ref LbListener#client_ca_tls_container_ref}
   */
   readonly clientCaTlsContainerRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/lb_listener#connection_limit LbListener#connection_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/lb_listener#connection_limit LbListener#connection_limit}
   */
   readonly connectionLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/lb_listener#default_pool_id LbListener#default_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/lb_listener#default_pool_id LbListener#default_pool_id}
   */
   readonly defaultPoolId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/lb_listener#default_tls_container_ref LbListener#default_tls_container_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/lb_listener#default_tls_container_ref LbListener#default_tls_container_ref}
   */
   readonly defaultTlsContainerRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/lb_listener#description LbListener#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/lb_listener#description LbListener#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/lb_listener#http2_enable LbListener#http2_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/lb_listener#enable_force_new LbListener#enable_force_new}
+  */
+  readonly enableForceNew?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/lb_listener#http2_enable LbListener#http2_enable}
   */
   readonly http2Enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/lb_listener#id LbListener#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/lb_listener#id LbListener#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/lb_listener#loadbalancer_id LbListener#loadbalancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/lb_listener#loadbalancer_id LbListener#loadbalancer_id}
   */
   readonly loadbalancerId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/lb_listener#name LbListener#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/lb_listener#name LbListener#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/lb_listener#protection_reason LbListener#protection_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/lb_listener#protection_reason LbListener#protection_reason}
   */
   readonly protectionReason?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/lb_listener#protection_status LbListener#protection_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/lb_listener#protection_status LbListener#protection_status}
   */
   readonly protectionStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/lb_listener#protocol LbListener#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/lb_listener#protocol LbListener#protocol}
   */
   readonly protocol: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/lb_listener#protocol_port LbListener#protocol_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/lb_listener#protocol_port LbListener#protocol_port}
   */
   readonly protocolPort: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/lb_listener#region LbListener#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/lb_listener#region LbListener#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/lb_listener#sni_container_refs LbListener#sni_container_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/lb_listener#sni_container_refs LbListener#sni_container_refs}
   */
   readonly sniContainerRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/lb_listener#tags LbListener#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/lb_listener#tags LbListener#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/lb_listener#tenant_id LbListener#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/lb_listener#tenant_id LbListener#tenant_id}
   */
   readonly tenantId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/lb_listener#tls_ciphers_policy LbListener#tls_ciphers_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/lb_listener#tls_ciphers_policy LbListener#tls_ciphers_policy}
   */
   readonly tlsCiphersPolicy?: string;
   /**
   * insert_headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/lb_listener#insert_headers LbListener#insert_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/lb_listener#insert_headers LbListener#insert_headers}
   */
   readonly insertHeaders?: LbListenerInsertHeaders;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/lb_listener#timeouts LbListener#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/lb_listener#timeouts LbListener#timeouts}
   */
   readonly timeouts?: LbListenerTimeouts;
 }
 export interface LbListenerInsertHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/lb_listener#x_forwarded_elb_ip LbListener#x_forwarded_elb_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/lb_listener#x_forwarded_elb_ip LbListener#x_forwarded_elb_ip}
   */
   readonly xForwardedElbIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/lb_listener#x_forwarded_host LbListener#x_forwarded_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/lb_listener#x_forwarded_host LbListener#x_forwarded_host}
   */
   readonly xForwardedHost?: string;
 }
@@ -218,15 +222,15 @@ export class LbListenerInsertHeadersOutputReference extends cdktf.ComplexObject 
 }
 export interface LbListenerTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/lb_listener#create LbListener#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/lb_listener#create LbListener#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/lb_listener#delete LbListener#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/lb_listener#delete LbListener#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/lb_listener#update LbListener#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/lb_listener#update LbListener#update}
   */
   readonly update?: string;
 }
@@ -378,7 +382,7 @@ export class LbListenerTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/lb_listener sbercloud_lb_listener}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/lb_listener sbercloud_lb_listener}
 */
 export class LbListener extends cdktf.TerraformResource {
 
@@ -394,7 +398,7 @@ export class LbListener extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LbListener resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LbListener to import
-  * @param importFromId The id of the existing LbListener that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/lb_listener#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LbListener that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/lb_listener#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LbListener to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -406,7 +410,7 @@ export class LbListener extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/lb_listener sbercloud_lb_listener} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/lb_listener sbercloud_lb_listener} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -417,8 +421,8 @@ export class LbListener extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_lb_listener',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -434,6 +438,7 @@ export class LbListener extends cdktf.TerraformResource {
     this._defaultPoolId = config.defaultPoolId;
     this._defaultTlsContainerRef = config.defaultTlsContainerRef;
     this._description = config.description;
+    this._enableForceNew = config.enableForceNew;
     this._http2Enable = config.http2Enable;
     this._id = config.id;
     this._loadbalancerId = config.loadbalancerId;
@@ -554,6 +559,22 @@ export class LbListener extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get descriptionInput() {
     return this._description;
+  }
+
+  // enable_force_new - computed: false, optional: true, required: false
+  private _enableForceNew?: string; 
+  public get enableForceNew() {
+    return this.getStringAttribute('enable_force_new');
+  }
+  public set enableForceNew(value: string) {
+    this._enableForceNew = value;
+  }
+  public resetEnableForceNew() {
+    this._enableForceNew = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableForceNewInput() {
+    return this._enableForceNew;
   }
 
   // http2_enable - computed: false, optional: true, required: false
@@ -804,6 +825,7 @@ export class LbListener extends cdktf.TerraformResource {
       default_pool_id: cdktf.stringToTerraform(this._defaultPoolId),
       default_tls_container_ref: cdktf.stringToTerraform(this._defaultTlsContainerRef),
       description: cdktf.stringToTerraform(this._description),
+      enable_force_new: cdktf.stringToTerraform(this._enableForceNew),
       http2_enable: cdktf.booleanToTerraform(this._http2Enable),
       id: cdktf.stringToTerraform(this._id),
       loadbalancer_id: cdktf.stringToTerraform(this._loadbalancerId),
@@ -856,6 +878,12 @@ export class LbListener extends cdktf.TerraformResource {
       },
       description: {
         value: cdktf.stringToHclTerraform(this._description),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      enable_force_new: {
+        value: cdktf.stringToHclTerraform(this._enableForceNew),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/vpn_gateways
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/vpn_gateways
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataSbercloudVpnGatewaysConfig extends cdktf.TerraformMetaArgum
   /**
   * Specifies the attachment type of the gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/vpn_gateways#attachment_type DataSbercloudVpnGateways#attachment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/vpn_gateways#attachment_type DataSbercloudVpnGateways#attachment_type}
   */
   readonly attachmentType?: string;
   /**
   * Specifies the enterprise project ID of the gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/vpn_gateways#enterprise_project_id DataSbercloudVpnGateways#enterprise_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/vpn_gateways#enterprise_project_id DataSbercloudVpnGateways#enterprise_project_id}
   */
   readonly enterpriseProjectId?: string;
   /**
   * Specifies the ID of the gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/vpn_gateways#gateway_id DataSbercloudVpnGateways#gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/vpn_gateways#gateway_id DataSbercloudVpnGateways#gateway_id}
   */
   readonly gatewayId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/vpn_gateways#id DataSbercloudVpnGateways#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/vpn_gateways#id DataSbercloudVpnGateways#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,17 +35,17 @@ export interface DataSbercloudVpnGatewaysConfig extends cdktf.TerraformMetaArgum
   /**
   * Specifies the name of the gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/vpn_gateways#name DataSbercloudVpnGateways#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/vpn_gateways#name DataSbercloudVpnGateways#name}
   */
   readonly name?: string;
   /**
   * Specifies the network type of the gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/vpn_gateways#network_type DataSbercloudVpnGateways#network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/vpn_gateways#network_type DataSbercloudVpnGateways#network_type}
   */
   readonly networkType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/vpn_gateways#region DataSbercloudVpnGateways#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/vpn_gateways#region DataSbercloudVpnGateways#region}
   */
   readonly region?: string;
 }
@@ -362,7 +362,7 @@ export class DataSbercloudVpnGatewaysGatewaysList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/vpn_gateways sbercloud_vpn_gateways}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/vpn_gateways sbercloud_vpn_gateways}
 */
 export class DataSbercloudVpnGateways extends cdktf.TerraformDataSource {
 
@@ -378,7 +378,7 @@ export class DataSbercloudVpnGateways extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSbercloudVpnGateways resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSbercloudVpnGateways to import
-  * @param importFromId The id of the existing DataSbercloudVpnGateways that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/vpn_gateways#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSbercloudVpnGateways that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/vpn_gateways#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSbercloudVpnGateways to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -390,7 +390,7 @@ export class DataSbercloudVpnGateways extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/vpn_gateways sbercloud_vpn_gateways} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/vpn_gateways sbercloud_vpn_gateways} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -401,8 +401,8 @@ export class DataSbercloudVpnGateways extends cdktf.TerraformDataSource {
       terraformResourceType: 'sbercloud_vpn_gateways',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

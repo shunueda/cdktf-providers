@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/federation_federated_blocks
+// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/federation_federated_blocks
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataBloxoneFederationFederatedBlocksConfig extends cdktf.Terraf
   /**
   * Filter are used to return a more specific list of results. Filters can be used to match resources by specific attributes, e.g. name. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/federation_federated_blocks#filters DataBloxoneFederationFederatedBlocks#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/federation_federated_blocks#filters DataBloxoneFederationFederatedBlocks#filters}
   */
   readonly filters?: { [key: string]: string };
   /**
   * Tag Filters are used to return a more specific list of results filtered by tags. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/federation_federated_blocks#tag_filters DataBloxoneFederationFederatedBlocks#tag_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/federation_federated_blocks#tag_filters DataBloxoneFederationFederatedBlocks#tag_filters}
   */
   readonly tagFilters?: { [key: string]: string };
 }
@@ -93,37 +93,37 @@ export interface DataBloxoneFederationFederatedBlocksResults {
   /**
   * The address of the subnet in the form “a.b.c.d”
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/federation_federated_blocks#address DataBloxoneFederationFederatedBlocks#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/federation_federated_blocks#address DataBloxoneFederationFederatedBlocks#address}
   */
   readonly address?: string;
   /**
   * The CIDR of the federated block. This is required, if _address_ does not specify it in its input.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/federation_federated_blocks#cidr DataBloxoneFederationFederatedBlocks#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/federation_federated_blocks#cidr DataBloxoneFederationFederatedBlocks#cidr}
   */
   readonly cidr: number;
   /**
   * The description for the federated block. May contain 0 to 1024 characters. Can include UTF-8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/federation_federated_blocks#comment DataBloxoneFederationFederatedBlocks#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/federation_federated_blocks#comment DataBloxoneFederationFederatedBlocks#comment}
   */
   readonly comment?: string;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/federation_federated_blocks#federated_realm DataBloxoneFederationFederatedBlocks#federated_realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/federation_federated_blocks#federated_realm DataBloxoneFederationFederatedBlocks#federated_realm}
   */
   readonly federatedRealm: string;
   /**
   * The name of the federated block. May contain 1 to 256 characters. Can include UTF-8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/federation_federated_blocks#name DataBloxoneFederationFederatedBlocks#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/federation_federated_blocks#name DataBloxoneFederationFederatedBlocks#name}
   */
   readonly name?: string;
   /**
   * The tags for the federated block in JSON format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/federation_federated_blocks#tags DataBloxoneFederationFederatedBlocks#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/federation_federated_blocks#tags DataBloxoneFederationFederatedBlocks#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -405,7 +405,7 @@ export class DataBloxoneFederationFederatedBlocksResultsList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/federation_federated_blocks bloxone_federation_federated_blocks}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/federation_federated_blocks bloxone_federation_federated_blocks}
 */
 export class DataBloxoneFederationFederatedBlocks extends cdktf.TerraformDataSource {
 
@@ -421,7 +421,7 @@ export class DataBloxoneFederationFederatedBlocks extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataBloxoneFederationFederatedBlocks resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataBloxoneFederationFederatedBlocks to import
-  * @param importFromId The id of the existing DataBloxoneFederationFederatedBlocks that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/federation_federated_blocks#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataBloxoneFederationFederatedBlocks that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/federation_federated_blocks#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataBloxoneFederationFederatedBlocks to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -433,7 +433,7 @@ export class DataBloxoneFederationFederatedBlocks extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/federation_federated_blocks bloxone_federation_federated_blocks} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/federation_federated_blocks bloxone_federation_federated_blocks} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -444,8 +444,8 @@ export class DataBloxoneFederationFederatedBlocks extends cdktf.TerraformDataSou
       terraformResourceType: 'bloxone_federation_federated_blocks',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.5.4',
+        providerVersionConstraint: '1.5.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

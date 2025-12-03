@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/fgs_function_triggers
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/fgs_function_triggers
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface DataSbercloudFgsFunctionTriggersConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Specifies end time of creation time of the function trigger.
+  * The end time of creation time of the function trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/fgs_function_triggers#end_time DataSbercloudFgsFunctionTriggers#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/fgs_function_triggers#end_time DataSbercloudFgsFunctionTriggers#end_time}
   */
   readonly endTime?: string;
   /**
-  * Specifies the function URN to which the trigger belongs.
+  * The URN of the function URN to which the triggers belong.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/fgs_function_triggers#function_urn DataSbercloudFgsFunctionTriggers#function_urn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/fgs_function_triggers#function_urn DataSbercloudFgsFunctionTriggers#function_urn}
   */
-  readonly functionUrn: string;
+  readonly functionUrn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/fgs_function_triggers#id DataSbercloudFgsFunctionTriggers#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/fgs_function_triggers#id DataSbercloudFgsFunctionTriggers#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/fgs_function_triggers#region DataSbercloudFgsFunctionTriggers#region}
+  * The region where the triggers are located.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/fgs_function_triggers#region DataSbercloudFgsFunctionTriggers#region}
   */
   readonly region?: string;
   /**
-  * Specifies start time of creation time of the function trigger.
+  * The start time of creation time of the function trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/fgs_function_triggers#start_time DataSbercloudFgsFunctionTriggers#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/fgs_function_triggers#start_time DataSbercloudFgsFunctionTriggers#start_time}
   */
   readonly startTime?: string;
   /**
-  * Specifies status of the function trigger.
+  * The status of the function trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/fgs_function_triggers#status DataSbercloudFgsFunctionTriggers#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/fgs_function_triggers#status DataSbercloudFgsFunctionTriggers#status}
   */
   readonly status?: string;
   /**
-  * Specifies the ID of the function trigger.
+  * The ID of the function trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/fgs_function_triggers#trigger_id DataSbercloudFgsFunctionTriggers#trigger_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/fgs_function_triggers#trigger_id DataSbercloudFgsFunctionTriggers#trigger_id}
   */
   readonly triggerId?: string;
   /**
-  * Specifies type of the function trigger.
+  * The type of the function trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/fgs_function_triggers#type DataSbercloudFgsFunctionTriggers#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/fgs_function_triggers#type DataSbercloudFgsFunctionTriggers#type}
   */
   readonly type?: string;
 }
@@ -116,6 +118,11 @@ export class DataSbercloudFgsFunctionTriggersTriggersOutputReference extends cdk
     return this.getStringAttribute('event_data');
   }
 
+  // function_urn - computed: true, optional: false, required: false
+  public get functionUrn() {
+    return this.getStringAttribute('function_urn');
+  }
+
   // id - computed: true, optional: false, required: false
   public get id() {
     return this.getStringAttribute('id');
@@ -157,7 +164,7 @@ export class DataSbercloudFgsFunctionTriggersTriggersList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/fgs_function_triggers sbercloud_fgs_function_triggers}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/fgs_function_triggers sbercloud_fgs_function_triggers}
 */
 export class DataSbercloudFgsFunctionTriggers extends cdktf.TerraformDataSource {
 
@@ -173,7 +180,7 @@ export class DataSbercloudFgsFunctionTriggers extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataSbercloudFgsFunctionTriggers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSbercloudFgsFunctionTriggers to import
-  * @param importFromId The id of the existing DataSbercloudFgsFunctionTriggers that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/fgs_function_triggers#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSbercloudFgsFunctionTriggers that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/fgs_function_triggers#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSbercloudFgsFunctionTriggers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -185,19 +192,19 @@ export class DataSbercloudFgsFunctionTriggers extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/fgs_function_triggers sbercloud_fgs_function_triggers} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/fgs_function_triggers sbercloud_fgs_function_triggers} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
-  * @param options DataSbercloudFgsFunctionTriggersConfig
+  * @param options DataSbercloudFgsFunctionTriggersConfig = {}
   */
-  public constructor(scope: Construct, id: string, config: DataSbercloudFgsFunctionTriggersConfig) {
+  public constructor(scope: Construct, id: string, config: DataSbercloudFgsFunctionTriggersConfig = {}) {
     super(scope, id, {
       terraformResourceType: 'sbercloud_fgs_function_triggers',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -237,13 +244,16 @@ export class DataSbercloudFgsFunctionTriggers extends cdktf.TerraformDataSource 
     return this._endTime;
   }
 
-  // function_urn - computed: false, optional: false, required: true
+  // function_urn - computed: false, optional: true, required: false
   private _functionUrn?: string; 
   public get functionUrn() {
     return this.getStringAttribute('function_urn');
   }
   public set functionUrn(value: string) {
     this._functionUrn = value;
+  }
+  public resetFunctionUrn() {
+    this._functionUrn = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get functionUrnInput() {

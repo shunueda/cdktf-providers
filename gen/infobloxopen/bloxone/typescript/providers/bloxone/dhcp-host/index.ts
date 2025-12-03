@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_host
+// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_host
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DhcpHostConfig extends cdktf.TerraformMetaArguments {
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_host#id DhcpHost#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_host#id DhcpHost#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,19 +19,19 @@ export interface DhcpHostConfig extends cdktf.TerraformMetaArguments {
   /**
   * If set to `true`, the resource will retry until a matching host is found, or until the Create Timeout expires.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_host#retry_if_not_found DhcpHost#retry_if_not_found}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_host#retry_if_not_found DhcpHost#retry_if_not_found}
   */
   readonly retryIfNotFound?: boolean | cdktf.IResolvable;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_host#server DhcpHost#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_host#server DhcpHost#server}
   */
   readonly server: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_host#timeouts DhcpHost#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_host#timeouts DhcpHost#timeouts}
   */
   readonly timeouts?: DhcpHostTimeouts;
 }
@@ -98,7 +98,7 @@ export interface DhcpHostTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_host#create DhcpHost#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_host#create DhcpHost#create}
   */
   readonly create?: string;
 }
@@ -192,7 +192,7 @@ export class DhcpHostTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_host bloxone_dhcp_host}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_host bloxone_dhcp_host}
 */
 export class DhcpHost extends cdktf.TerraformResource {
 
@@ -208,7 +208,7 @@ export class DhcpHost extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DhcpHost resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DhcpHost to import
-  * @param importFromId The id of the existing DhcpHost that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_host#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DhcpHost that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_host#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DhcpHost to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -220,7 +220,7 @@ export class DhcpHost extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_host bloxone_dhcp_host} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_host bloxone_dhcp_host} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -231,8 +231,8 @@ export class DhcpHost extends cdktf.TerraformResource {
       terraformResourceType: 'bloxone_dhcp_host',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.5.4',
+        providerVersionConstraint: '1.5.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

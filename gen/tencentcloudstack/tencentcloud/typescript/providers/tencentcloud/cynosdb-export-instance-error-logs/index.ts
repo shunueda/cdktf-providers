@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cynosdb_export_instance_error_logs
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_export_instance_error_logs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface CynosdbExportInstanceErrorLogsConfig extends cdktf.TerraformMet
   /**
   * Latest log time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cynosdb_export_instance_error_logs#end_time CynosdbExportInstanceErrorLogs#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_export_instance_error_logs#end_time CynosdbExportInstanceErrorLogs#end_time}
   */
   readonly endTime?: string;
   /**
   * File type, optional values: csv, original.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cynosdb_export_instance_error_logs#file_type CynosdbExportInstanceErrorLogs#file_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_export_instance_error_logs#file_type CynosdbExportInstanceErrorLogs#file_type}
   */
   readonly fileType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cynosdb_export_instance_error_logs#id CynosdbExportInstanceErrorLogs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_export_instance_error_logs#id CynosdbExportInstanceErrorLogs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,37 +29,37 @@ export interface CynosdbExportInstanceErrorLogsConfig extends cdktf.TerraformMet
   /**
   * Instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cynosdb_export_instance_error_logs#instance_id CynosdbExportInstanceErrorLogs#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_export_instance_error_logs#instance_id CynosdbExportInstanceErrorLogs#instance_id}
   */
   readonly instanceId: string;
   /**
   * keyword.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cynosdb_export_instance_error_logs#key_words CynosdbExportInstanceErrorLogs#key_words}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_export_instance_error_logs#key_words CynosdbExportInstanceErrorLogs#key_words}
   */
   readonly keyWords?: string[];
   /**
   * Log level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cynosdb_export_instance_error_logs#log_levels CynosdbExportInstanceErrorLogs#log_levels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_export_instance_error_logs#log_levels CynosdbExportInstanceErrorLogs#log_levels}
   */
   readonly logLevels?: string[];
   /**
   * Optional value Timestamp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cynosdb_export_instance_error_logs#order_by CynosdbExportInstanceErrorLogs#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_export_instance_error_logs#order_by CynosdbExportInstanceErrorLogs#order_by}
   */
   readonly orderBy?: string;
   /**
   * ASC or DESC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cynosdb_export_instance_error_logs#order_by_type CynosdbExportInstanceErrorLogs#order_by_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_export_instance_error_logs#order_by_type CynosdbExportInstanceErrorLogs#order_by_type}
   */
   readonly orderByType?: string;
   /**
   * Log earliest time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cynosdb_export_instance_error_logs#start_time CynosdbExportInstanceErrorLogs#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_export_instance_error_logs#start_time CynosdbExportInstanceErrorLogs#start_time}
   */
   readonly startTime?: string;
 }
@@ -150,7 +150,7 @@ export class CynosdbExportInstanceErrorLogsErrorLogItemExportList extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cynosdb_export_instance_error_logs tencentcloud_cynosdb_export_instance_error_logs}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_export_instance_error_logs tencentcloud_cynosdb_export_instance_error_logs}
 */
 export class CynosdbExportInstanceErrorLogs extends cdktf.TerraformResource {
 
@@ -166,7 +166,7 @@ export class CynosdbExportInstanceErrorLogs extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CynosdbExportInstanceErrorLogs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CynosdbExportInstanceErrorLogs to import
-  * @param importFromId The id of the existing CynosdbExportInstanceErrorLogs that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cynosdb_export_instance_error_logs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CynosdbExportInstanceErrorLogs that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_export_instance_error_logs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CynosdbExportInstanceErrorLogs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -178,7 +178,7 @@ export class CynosdbExportInstanceErrorLogs extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cynosdb_export_instance_error_logs tencentcloud_cynosdb_export_instance_error_logs} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_export_instance_error_logs tencentcloud_cynosdb_export_instance_error_logs} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -189,8 +189,8 @@ export class CynosdbExportInstanceErrorLogs extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cynosdb_export_instance_error_logs',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.39',
-        providerVersionConstraint: '1.82.39'
+        providerVersion: '1.82.40',
+        providerVersionConstraint: '1.82.40'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

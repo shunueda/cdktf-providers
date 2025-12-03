@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_rocketmq_message_traces
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_rocketmq_message_traces
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataSbercloudDmsRocketmqMessageTracesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_rocketmq_message_traces#id DataSbercloudDmsRocketmqMessageTraces#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_rocketmq_message_traces#id DataSbercloudDmsRocketmqMessageTraces#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataSbercloudDmsRocketmqMessageTracesConfig extends cdktf.Terra
   /**
   * Specifies the instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_rocketmq_message_traces#instance_id DataSbercloudDmsRocketmqMessageTraces#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_rocketmq_message_traces#instance_id DataSbercloudDmsRocketmqMessageTraces#instance_id}
   */
   readonly instanceId: string;
   /**
   * Specifies the message ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_rocketmq_message_traces#message_id DataSbercloudDmsRocketmqMessageTraces#message_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_rocketmq_message_traces#message_id DataSbercloudDmsRocketmqMessageTraces#message_id}
   */
   readonly messageId: string;
   /**
   * Specifies the region in which to query the resource. If omitted, the provider-level region will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_rocketmq_message_traces#region DataSbercloudDmsRocketmqMessageTraces#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_rocketmq_message_traces#region DataSbercloudDmsRocketmqMessageTraces#region}
   */
   readonly region?: string;
 }
@@ -205,7 +205,7 @@ export class DataSbercloudDmsRocketmqMessageTracesTracesList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_rocketmq_message_traces sbercloud_dms_rocketmq_message_traces}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_rocketmq_message_traces sbercloud_dms_rocketmq_message_traces}
 */
 export class DataSbercloudDmsRocketmqMessageTraces extends cdktf.TerraformDataSource {
 
@@ -221,7 +221,7 @@ export class DataSbercloudDmsRocketmqMessageTraces extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataSbercloudDmsRocketmqMessageTraces resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSbercloudDmsRocketmqMessageTraces to import
-  * @param importFromId The id of the existing DataSbercloudDmsRocketmqMessageTraces that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_rocketmq_message_traces#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSbercloudDmsRocketmqMessageTraces that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_rocketmq_message_traces#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSbercloudDmsRocketmqMessageTraces to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -233,7 +233,7 @@ export class DataSbercloudDmsRocketmqMessageTraces extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_rocketmq_message_traces sbercloud_dms_rocketmq_message_traces} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_rocketmq_message_traces sbercloud_dms_rocketmq_message_traces} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -244,8 +244,8 @@ export class DataSbercloudDmsRocketmqMessageTraces extends cdktf.TerraformDataSo
       terraformResourceType: 'sbercloud_dms_rocketmq_message_traces',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

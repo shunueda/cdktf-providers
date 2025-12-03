@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_connection
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,39 +10,39 @@ export interface VpnConnectionConfig extends cdktf.TerraformMetaArguments {
   /**
   * The customer gateway ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_connection#customer_gateway_id VpnConnection#customer_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_connection#customer_gateway_id VpnConnection#customer_gateway_id}
   */
   readonly customerGatewayId: string;
   /**
   * Whether to enable NQA check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_connection#enable_nqa VpnConnection#enable_nqa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_connection#enable_nqa VpnConnection#enable_nqa}
   */
   readonly enableNqa?: boolean | cdktf.IResolvable;
   /**
   * The enterprise project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_connection#enterprise_project_id VpnConnection#enterprise_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_connection#enterprise_project_id VpnConnection#enterprise_project_id}
   */
   readonly enterpriseProjectId?: string;
   /**
   * The VPN gateway ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_connection#gateway_id VpnConnection#gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_connection#gateway_id VpnConnection#gateway_id}
   */
   readonly gatewayId: string;
   /**
   * The VPN gateway IP ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_connection#gateway_ip VpnConnection#gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_connection#gateway_ip VpnConnection#gateway_ip}
   */
   readonly gatewayIp: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_connection#ha_role VpnConnection#ha_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_connection#ha_role VpnConnection#ha_role}
   */
   readonly haRole?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_connection#id VpnConnection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_connection#id VpnConnection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -51,69 +51,69 @@ export interface VpnConnectionConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the VPN connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_connection#name VpnConnection#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_connection#name VpnConnection#name}
   */
   readonly name: string;
   /**
   * The customer subnets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_connection#peer_subnets VpnConnection#peer_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_connection#peer_subnets VpnConnection#peer_subnets}
   */
   readonly peerSubnets?: string[];
   /**
   * The pre-shared key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_connection#psk VpnConnection#psk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_connection#psk VpnConnection#psk}
   */
   readonly psk: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_connection#region VpnConnection#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_connection#region VpnConnection#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_connection#tags VpnConnection#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_connection#tags VpnConnection#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The local tunnel address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_connection#tunnel_local_address VpnConnection#tunnel_local_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_connection#tunnel_local_address VpnConnection#tunnel_local_address}
   */
   readonly tunnelLocalAddress?: string;
   /**
   * The peer tunnel address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_connection#tunnel_peer_address VpnConnection#tunnel_peer_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_connection#tunnel_peer_address VpnConnection#tunnel_peer_address}
   */
   readonly tunnelPeerAddress?: string;
   /**
   * The connection type. The value can be **policy**, **static** or **bgp**.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_connection#vpn_type VpnConnection#vpn_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_connection#vpn_type VpnConnection#vpn_type}
   */
   readonly vpnType: string;
   /**
   * ikepolicy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_connection#ikepolicy VpnConnection#ikepolicy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_connection#ikepolicy VpnConnection#ikepolicy}
   */
   readonly ikepolicy?: VpnConnectionIkepolicy;
   /**
   * ipsecpolicy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_connection#ipsecpolicy VpnConnection#ipsecpolicy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_connection#ipsecpolicy VpnConnection#ipsecpolicy}
   */
   readonly ipsecpolicy?: VpnConnectionIpsecpolicy;
   /**
   * policy_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_connection#policy_rules VpnConnection#policy_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_connection#policy_rules VpnConnection#policy_rules}
   */
   readonly policyRules?: VpnConnectionPolicyRules[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_connection#timeouts VpnConnection#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_connection#timeouts VpnConnection#timeouts}
   */
   readonly timeouts?: VpnConnectionTimeouts;
 }
@@ -121,19 +121,19 @@ export interface VpnConnectionIkepolicyDpd {
   /**
   * Specifies the DPD idle timeout period.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_connection#interval VpnConnection#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_connection#interval VpnConnection#interval}
   */
   readonly interval?: number;
   /**
   * Specifies the format of DPD packets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_connection#msg VpnConnection#msg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_connection#msg VpnConnection#msg}
   */
   readonly msg?: string;
   /**
   * Specifies the interval for retransmitting DPD packets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_connection#timeout VpnConnection#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_connection#timeout VpnConnection#timeout}
   */
   readonly timeout?: number;
 }
@@ -277,79 +277,79 @@ export interface VpnConnectionIkepolicy {
   /**
   * The authentication algorithm, SHA1 and MD5 are less secure, please use them with caution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_connection#authentication_algorithm VpnConnection#authentication_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_connection#authentication_algorithm VpnConnection#authentication_algorithm}
   */
   readonly authenticationAlgorithm?: string;
   /**
   * The authentication method during IKE negotiation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_connection#authentication_method VpnConnection#authentication_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_connection#authentication_method VpnConnection#authentication_method}
   */
   readonly authenticationMethod?: string;
   /**
   * Specifies the DH group used for key exchange in phase 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_connection#dh_group VpnConnection#dh_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_connection#dh_group VpnConnection#dh_group}
   */
   readonly dhGroup?: string;
   /**
   * The encryption algorithm, 3DES is less secure, please use them with caution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_connection#encryption_algorithm VpnConnection#encryption_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_connection#encryption_algorithm VpnConnection#encryption_algorithm}
   */
   readonly encryptionAlgorithm?: string;
   /**
   * The IKE negotiation version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_connection#ike_version VpnConnection#ike_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_connection#ike_version VpnConnection#ike_version}
   */
   readonly ikeVersion?: string;
   /**
   * The life cycle of SA in seconds, when the life cycle expires, IKE SA will be automatically updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_connection#lifetime_seconds VpnConnection#lifetime_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_connection#lifetime_seconds VpnConnection#lifetime_seconds}
   */
   readonly lifetimeSeconds?: number;
   /**
   * The local ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_connection#local_id VpnConnection#local_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_connection#local_id VpnConnection#local_id}
   */
   readonly localId?: string;
   /**
   * The local ID type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_connection#local_id_type VpnConnection#local_id_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_connection#local_id_type VpnConnection#local_id_type}
   */
   readonly localIdType?: string;
   /**
   * The peer ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_connection#peer_id VpnConnection#peer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_connection#peer_id VpnConnection#peer_id}
   */
   readonly peerId?: string;
   /**
   * The peer ID type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_connection#peer_id_type VpnConnection#peer_id_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_connection#peer_id_type VpnConnection#peer_id_type}
   */
   readonly peerIdType?: string;
   /**
   * The DH key group used by PFS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_connection#pfs VpnConnection#pfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_connection#pfs VpnConnection#pfs}
   */
   readonly pfs?: string;
   /**
   * The negotiation mode, only works when the ike_version is v1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_connection#phase1_negotiation_mode VpnConnection#phase1_negotiation_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_connection#phase1_negotiation_mode VpnConnection#phase1_negotiation_mode}
   */
   readonly phase1NegotiationMode?: string;
   /**
   * dpd block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_connection#dpd VpnConnection#dpd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_connection#dpd VpnConnection#dpd}
   */
   readonly dpd?: VpnConnectionIkepolicyDpd;
 }
@@ -783,37 +783,37 @@ export interface VpnConnectionIpsecpolicy {
   /**
   * The authentication algorithm, SHA1 and MD5 are less secure, please use them with caution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_connection#authentication_algorithm VpnConnection#authentication_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_connection#authentication_algorithm VpnConnection#authentication_algorithm}
   */
   readonly authenticationAlgorithm?: string;
   /**
   * The encapsulation mode, only **tunnel** supported for now.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_connection#encapsulation_mode VpnConnection#encapsulation_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_connection#encapsulation_mode VpnConnection#encapsulation_mode}
   */
   readonly encapsulationMode?: string;
   /**
   * The encryption algorithm, 3DES is less secure, please use them with caution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_connection#encryption_algorithm VpnConnection#encryption_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_connection#encryption_algorithm VpnConnection#encryption_algorithm}
   */
   readonly encryptionAlgorithm?: string;
   /**
   * The lifecycle time of Ipsec tunnel in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_connection#lifetime_seconds VpnConnection#lifetime_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_connection#lifetime_seconds VpnConnection#lifetime_seconds}
   */
   readonly lifetimeSeconds?: number;
   /**
   * The DH key group used by PFS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_connection#pfs VpnConnection#pfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_connection#pfs VpnConnection#pfs}
   */
   readonly pfs?: string;
   /**
   * The transform protocol. Only **esp** supported for now.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_connection#transform_protocol VpnConnection#transform_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_connection#transform_protocol VpnConnection#transform_protocol}
   */
   readonly transformProtocol?: string;
 }
@@ -1044,19 +1044,19 @@ export interface VpnConnectionPolicyRules {
   /**
   * The list of destination CIDRs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_connection#destination VpnConnection#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_connection#destination VpnConnection#destination}
   */
   readonly destination?: string[];
   /**
   * The rule index.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_connection#rule_index VpnConnection#rule_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_connection#rule_index VpnConnection#rule_index}
   */
   readonly ruleIndex?: number;
   /**
   * The source CIDR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_connection#source VpnConnection#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_connection#source VpnConnection#source}
   */
   readonly source?: string;
 }
@@ -1230,15 +1230,15 @@ export class VpnConnectionPolicyRulesList extends cdktf.ComplexList {
 }
 export interface VpnConnectionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_connection#create VpnConnection#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_connection#create VpnConnection#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_connection#delete VpnConnection#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_connection#delete VpnConnection#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_connection#update VpnConnection#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_connection#update VpnConnection#update}
   */
   readonly update?: string;
 }
@@ -1390,7 +1390,7 @@ export class VpnConnectionTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_connection sbercloud_vpn_connection}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_connection sbercloud_vpn_connection}
 */
 export class VpnConnection extends cdktf.TerraformResource {
 
@@ -1406,7 +1406,7 @@ export class VpnConnection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpnConnection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpnConnection to import
-  * @param importFromId The id of the existing VpnConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpnConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpnConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1418,7 +1418,7 @@ export class VpnConnection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_connection sbercloud_vpn_connection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_connection sbercloud_vpn_connection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1429,8 +1429,8 @@ export class VpnConnection extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_vpn_connection',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

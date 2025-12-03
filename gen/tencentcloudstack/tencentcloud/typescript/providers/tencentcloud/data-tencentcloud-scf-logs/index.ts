@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/scf_logs
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/scf_logs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataTencentcloudScfLogsConfig extends cdktf.TerraformMetaArgume
   /**
   * The end time of the query, the format is `2017-05-16 20:00:00`, which can only be within one day from `start_time`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/scf_logs#end_time DataTencentcloudScfLogs#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/scf_logs#end_time DataTencentcloudScfLogs#end_time}
   */
   readonly endTime?: string;
   /**
   * Name of the SCF function to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/scf_logs#function_name DataTencentcloudScfLogs#function_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/scf_logs#function_name DataTencentcloudScfLogs#function_name}
   */
   readonly functionName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/scf_logs#id DataTencentcloudScfLogs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/scf_logs#id DataTencentcloudScfLogs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,55 +29,55 @@ export interface DataTencentcloudScfLogsConfig extends cdktf.TerraformMetaArgume
   /**
   * Corresponding requestId when executing function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/scf_logs#invoke_request_id DataTencentcloudScfLogs#invoke_request_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/scf_logs#invoke_request_id DataTencentcloudScfLogs#invoke_request_id}
   */
   readonly invokeRequestId?: string;
   /**
   * Number of logs, the default is `10000`, offset+limit cannot be greater than 10000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/scf_logs#limit DataTencentcloudScfLogs#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/scf_logs#limit DataTencentcloudScfLogs#limit}
   */
   readonly limit?: number;
   /**
   * Namespace of the SCF function to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/scf_logs#namespace DataTencentcloudScfLogs#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/scf_logs#namespace DataTencentcloudScfLogs#namespace}
   */
   readonly namespace?: string;
   /**
   * Log offset, default is `0`, offset+limit cannot be greater than 10000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/scf_logs#offset DataTencentcloudScfLogs#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/scf_logs#offset DataTencentcloudScfLogs#offset}
   */
   readonly offset?: number;
   /**
   * Order to sort the log, optional values `desc` and `asc`, default `desc`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/scf_logs#order DataTencentcloudScfLogs#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/scf_logs#order DataTencentcloudScfLogs#order}
   */
   readonly order?: string;
   /**
   * Sort the logs according to the following fields: `function_name`, `duration`, `mem_usage`, `start_time`, default `start_time`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/scf_logs#order_by DataTencentcloudScfLogs#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/scf_logs#order_by DataTencentcloudScfLogs#order_by}
   */
   readonly orderBy?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/scf_logs#result_output_file DataTencentcloudScfLogs#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/scf_logs#result_output_file DataTencentcloudScfLogs#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Use to filter log, optional value: `not0` only returns the error log. `is0` only returns the correct log. `TimeLimitExceeded` returns the log of the function call timeout. `ResourceLimitExceeded` returns the function call generation resource overrun log. `UserCodeException` returns logs of the user code error that occurred in the function call. Not passing the parameter means returning all logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/scf_logs#ret_code DataTencentcloudScfLogs#ret_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/scf_logs#ret_code DataTencentcloudScfLogs#ret_code}
   */
   readonly retCode?: string;
   /**
   * The start time of the query, the format is `2017-05-16 20:00:00`, which can only be within one day from `end_time`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/scf_logs#start_time DataTencentcloudScfLogs#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/scf_logs#start_time DataTencentcloudScfLogs#start_time}
   */
   readonly startTime?: string;
 }
@@ -213,7 +213,7 @@ export class DataTencentcloudScfLogsLogsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/scf_logs tencentcloud_scf_logs}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/scf_logs tencentcloud_scf_logs}
 */
 export class DataTencentcloudScfLogs extends cdktf.TerraformDataSource {
 
@@ -229,7 +229,7 @@ export class DataTencentcloudScfLogs extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudScfLogs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudScfLogs to import
-  * @param importFromId The id of the existing DataTencentcloudScfLogs that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/scf_logs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudScfLogs that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/scf_logs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudScfLogs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -241,7 +241,7 @@ export class DataTencentcloudScfLogs extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/scf_logs tencentcloud_scf_logs} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/scf_logs tencentcloud_scf_logs} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -252,8 +252,8 @@ export class DataTencentcloudScfLogs extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_scf_logs',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.39',
-        providerVersionConstraint: '1.82.39'
+        providerVersion: '1.82.40',
+        providerVersionConstraint: '1.82.40'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

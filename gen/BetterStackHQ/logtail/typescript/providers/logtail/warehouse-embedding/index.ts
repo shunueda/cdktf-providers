@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/warehouse_embedding
+// https://registry.terraform.io/providers/betterstackhq/logtail/0.7.3/docs/resources/warehouse_embedding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface WarehouseEmbeddingConfig extends cdktf.TerraformMetaArguments {
   /**
   * The vector dimension of the embeddings to generate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/warehouse_embedding#dimension WarehouseEmbedding#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.3/docs/resources/warehouse_embedding#dimension WarehouseEmbedding#dimension}
   */
   readonly dimension: number;
   /**
   * The source column name containing the text to embed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/warehouse_embedding#embed_from WarehouseEmbedding#embed_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.3/docs/resources/warehouse_embedding#embed_from WarehouseEmbedding#embed_from}
   */
   readonly embedFrom: string;
   /**
   * The target column name where the generated embeddings will be stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/warehouse_embedding#embed_to WarehouseEmbedding#embed_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.3/docs/resources/warehouse_embedding#embed_to WarehouseEmbedding#embed_to}
   */
   readonly embedTo: string;
   /**
   * The name of the embedding model to use (e.g., `embeddinggemma:300m`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/warehouse_embedding#model WarehouseEmbedding#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.3/docs/resources/warehouse_embedding#model WarehouseEmbedding#model}
   */
   readonly model: string;
   /**
   * The ID of the Warehouse source to create the embedding for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/warehouse_embedding#source_id WarehouseEmbedding#source_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.3/docs/resources/warehouse_embedding#source_id WarehouseEmbedding#source_id}
   */
   readonly sourceId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/warehouse_embedding logtail_warehouse_embedding}
+* Represents a {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.3/docs/resources/warehouse_embedding logtail_warehouse_embedding}
 */
 export class WarehouseEmbedding extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class WarehouseEmbedding extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WarehouseEmbedding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WarehouseEmbedding to import
-  * @param importFromId The id of the existing WarehouseEmbedding that should be imported. Refer to the {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/warehouse_embedding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WarehouseEmbedding that should be imported. Refer to the {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.3/docs/resources/warehouse_embedding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WarehouseEmbedding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class WarehouseEmbedding extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/warehouse_embedding logtail_warehouse_embedding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.3/docs/resources/warehouse_embedding logtail_warehouse_embedding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class WarehouseEmbedding extends cdktf.TerraformResource {
       terraformResourceType: 'logtail_warehouse_embedding',
       terraformGeneratorMetadata: {
         providerName: 'logtail',
-        providerVersion: '0.7.2',
-        providerVersionConstraint: '0.7.2'
+        providerVersion: '0.7.3',
+        providerVersionConstraint: '0.7.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

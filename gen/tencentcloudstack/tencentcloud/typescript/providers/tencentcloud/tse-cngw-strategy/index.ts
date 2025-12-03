@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tse_cngw_strategy
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_strategy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface TseCngwStrategyConfig extends cdktf.TerraformMetaArguments {
   /**
   * description information, up to 120 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tse_cngw_strategy#description TseCngwStrategy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_strategy#description TseCngwStrategy#description}
   */
   readonly description?: string;
   /**
   * gateway ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tse_cngw_strategy#gateway_id TseCngwStrategy#gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_strategy#gateway_id TseCngwStrategy#gateway_id}
   */
   readonly gatewayId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tse_cngw_strategy#id TseCngwStrategy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_strategy#id TseCngwStrategy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface TseCngwStrategyConfig extends cdktf.TerraformMetaArguments {
   /**
   * strategy name, up to 20 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tse_cngw_strategy#strategy_name TseCngwStrategy#strategy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_strategy#strategy_name TseCngwStrategy#strategy_name}
   */
   readonly strategyName: string;
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tse_cngw_strategy#config TseCngwStrategy#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_strategy#config TseCngwStrategy#config}
   */
   readonly config?: TseCngwStrategyConfigA;
   /**
   * cron_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tse_cngw_strategy#cron_config TseCngwStrategy#cron_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_strategy#cron_config TseCngwStrategy#cron_config}
   */
   readonly cronConfig?: TseCngwStrategyCronConfig;
 }
@@ -50,21 +50,21 @@ export interface TseCngwStrategyConfigBehaviorScaleDownPolicies {
   * period of scale down
   * Note: This field may return null, indicating that a valid value is not available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tse_cngw_strategy#period_seconds TseCngwStrategy#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_strategy#period_seconds TseCngwStrategy#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * type, default value: Pods
   * Note: This field may return null, indicating that a valid value is not available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tse_cngw_strategy#type TseCngwStrategy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_strategy#type TseCngwStrategy#type}
   */
   readonly type?: string;
   /**
   * value
   * Note: This field may return null, indicating that a valid value is not available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tse_cngw_strategy#value TseCngwStrategy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_strategy#value TseCngwStrategy#value}
   */
   readonly value?: number;
 }
@@ -241,20 +241,20 @@ export interface TseCngwStrategyConfigBehaviorScaleDown {
   * type of policy, default value: max
   * Note: This field may return null, indicating that a valid value is not available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tse_cngw_strategy#select_policy TseCngwStrategy#select_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_strategy#select_policy TseCngwStrategy#select_policy}
   */
   readonly selectPolicy?: string;
   /**
   * stability window time, unit:second, default 300 when scale down
   * Note: This field may return null, indicating that a valid value is not available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tse_cngw_strategy#stabilization_window_seconds TseCngwStrategy#stabilization_window_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_strategy#stabilization_window_seconds TseCngwStrategy#stabilization_window_seconds}
   */
   readonly stabilizationWindowSeconds?: number;
   /**
   * policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tse_cngw_strategy#policies TseCngwStrategy#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_strategy#policies TseCngwStrategy#policies}
   */
   readonly policies?: TseCngwStrategyConfigBehaviorScaleDownPolicies[] | cdktf.IResolvable;
 }
@@ -399,21 +399,21 @@ export interface TseCngwStrategyConfigBehaviorScaleUpPolicies {
   * period of scale up
   * Note: This field may return null, indicating that a valid value is not available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tse_cngw_strategy#period_seconds TseCngwStrategy#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_strategy#period_seconds TseCngwStrategy#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * type, default value: Pods
   * Note: This field may return null, indicating that a valid value is not available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tse_cngw_strategy#type TseCngwStrategy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_strategy#type TseCngwStrategy#type}
   */
   readonly type?: string;
   /**
   * value
   * Note: This field may return null, indicating that a valid value is not available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tse_cngw_strategy#value TseCngwStrategy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_strategy#value TseCngwStrategy#value}
   */
   readonly value?: number;
 }
@@ -590,20 +590,20 @@ export interface TseCngwStrategyConfigBehaviorScaleUp {
   * type of policy, default value: max
   * Note: This field may return null, indicating that a valid value is not available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tse_cngw_strategy#select_policy TseCngwStrategy#select_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_strategy#select_policy TseCngwStrategy#select_policy}
   */
   readonly selectPolicy?: string;
   /**
   * stability window time, unit:second, default 0 when scale up
   * Note: This field may return null, indicating that a valid value is not available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tse_cngw_strategy#stabilization_window_seconds TseCngwStrategy#stabilization_window_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_strategy#stabilization_window_seconds TseCngwStrategy#stabilization_window_seconds}
   */
   readonly stabilizationWindowSeconds?: number;
   /**
   * policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tse_cngw_strategy#policies TseCngwStrategy#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_strategy#policies TseCngwStrategy#policies}
   */
   readonly policies?: TseCngwStrategyConfigBehaviorScaleUpPolicies[] | cdktf.IResolvable;
 }
@@ -747,13 +747,13 @@ export interface TseCngwStrategyConfigBehavior {
   /**
   * scale_down block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tse_cngw_strategy#scale_down TseCngwStrategy#scale_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_strategy#scale_down TseCngwStrategy#scale_down}
   */
   readonly scaleDown?: TseCngwStrategyConfigBehaviorScaleDown;
   /**
   * scale_up block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tse_cngw_strategy#scale_up TseCngwStrategy#scale_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_strategy#scale_up TseCngwStrategy#scale_up}
   */
   readonly scaleUp?: TseCngwStrategyConfigBehaviorScaleUp;
 }
@@ -871,28 +871,28 @@ export interface TseCngwStrategyConfigMetrics {
   * - memory
   * Note: This field may return null, indicating that a valid value is not available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tse_cngw_strategy#resource_name TseCngwStrategy#resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_strategy#resource_name TseCngwStrategy#resource_name}
   */
   readonly resourceName?: string;
   /**
   * target type of metric, currently only supports `Utilization`
   * Note: This field may return null, indicating that a valid value is not available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tse_cngw_strategy#target_type TseCngwStrategy#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_strategy#target_type TseCngwStrategy#target_type}
   */
   readonly targetType?: string;
   /**
   * target value of metric
   * Note: This field may return null, indicating that a valid value is not available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tse_cngw_strategy#target_value TseCngwStrategy#target_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_strategy#target_value TseCngwStrategy#target_value}
   */
   readonly targetValue?: number;
   /**
   * metric type. Deafault value
   * - Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tse_cngw_strategy#type TseCngwStrategy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_strategy#type TseCngwStrategy#type}
   */
   readonly type?: string;
 }
@@ -1098,39 +1098,39 @@ export interface TseCngwStrategyConfigA {
   * create time
   * Note: This field may return null, indicating that a valid value is not available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tse_cngw_strategy#create_time TseCngwStrategy#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_strategy#create_time TseCngwStrategy#create_time}
   */
   readonly createTime?: string;
   /**
   * max number of replica for metric scaling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tse_cngw_strategy#max_replicas TseCngwStrategy#max_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_strategy#max_replicas TseCngwStrategy#max_replicas}
   */
   readonly maxReplicas?: number;
   /**
   * modify time
   * Note: This field may return null, indicating that a valid value is not available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tse_cngw_strategy#modify_time TseCngwStrategy#modify_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_strategy#modify_time TseCngwStrategy#modify_time}
   */
   readonly modifyTime?: string;
   /**
   * strategy ID
   * Note: This field may return null, indicating that a valid value is not available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tse_cngw_strategy#strategy_id TseCngwStrategy#strategy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_strategy#strategy_id TseCngwStrategy#strategy_id}
   */
   readonly strategyId?: string;
   /**
   * behavior block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tse_cngw_strategy#behavior TseCngwStrategy#behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_strategy#behavior TseCngwStrategy#behavior}
   */
   readonly behavior?: TseCngwStrategyConfigBehavior;
   /**
   * metrics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tse_cngw_strategy#metrics TseCngwStrategy#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_strategy#metrics TseCngwStrategy#metrics}
   */
   readonly metrics?: TseCngwStrategyConfigMetrics[] | cdktf.IResolvable;
 }
@@ -1362,28 +1362,28 @@ export interface TseCngwStrategyCronConfigParams {
   * cron expression of timed scaling, no input required
   * Note: This field may return null, indicating that a valid value is not available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tse_cngw_strategy#crontab TseCngwStrategy#crontab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_strategy#crontab TseCngwStrategy#crontab}
   */
   readonly crontab?: string;
   /**
   * period of timed scaling
   * Note: This field may return null, indicating that a valid value is not available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tse_cngw_strategy#period TseCngwStrategy#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_strategy#period TseCngwStrategy#period}
   */
   readonly period?: string;
   /**
   * start time of timed scaling
   * Note: This field may return null, indicating that a valid value is not available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tse_cngw_strategy#start_at TseCngwStrategy#start_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_strategy#start_at TseCngwStrategy#start_at}
   */
   readonly startAt?: string;
   /**
   * the number of target nodes for the timed scaling. Do not exceed the max number of replica for metric scaling
   * Note: This field may return null, indicating that a valid value is not available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tse_cngw_strategy#target_replicas TseCngwStrategy#target_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_strategy#target_replicas TseCngwStrategy#target_replicas}
   */
   readonly targetReplicas?: number;
 }
@@ -1589,13 +1589,13 @@ export interface TseCngwStrategyCronConfig {
   * strategy ID
   * Note: This field may return null, indicating that a valid value is not available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tse_cngw_strategy#strategy_id TseCngwStrategy#strategy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_strategy#strategy_id TseCngwStrategy#strategy_id}
   */
   readonly strategyId?: string;
   /**
   * params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tse_cngw_strategy#params TseCngwStrategy#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_strategy#params TseCngwStrategy#params}
   */
   readonly params?: TseCngwStrategyCronConfigParams[] | cdktf.IResolvable;
 }
@@ -1708,7 +1708,7 @@ export class TseCngwStrategyCronConfigOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tse_cngw_strategy tencentcloud_tse_cngw_strategy}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_strategy tencentcloud_tse_cngw_strategy}
 */
 export class TseCngwStrategy extends cdktf.TerraformResource {
 
@@ -1724,7 +1724,7 @@ export class TseCngwStrategy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TseCngwStrategy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TseCngwStrategy to import
-  * @param importFromId The id of the existing TseCngwStrategy that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tse_cngw_strategy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TseCngwStrategy that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_strategy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TseCngwStrategy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1736,7 +1736,7 @@ export class TseCngwStrategy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tse_cngw_strategy tencentcloud_tse_cngw_strategy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_strategy tencentcloud_tse_cngw_strategy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1747,8 +1747,8 @@ export class TseCngwStrategy extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tse_cngw_strategy',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.39',
-        providerVersionConstraint: '1.82.39'
+        providerVersion: '1.82.40',
+        providerVersionConstraint: '1.82.40'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

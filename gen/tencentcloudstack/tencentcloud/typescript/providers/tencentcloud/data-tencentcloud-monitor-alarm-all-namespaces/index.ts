@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/monitor_alarm_all_namespaces
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/monitor_alarm_all_namespaces
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudMonitorAlarmAllNamespacesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/monitor_alarm_all_namespaces#id DataTencentcloudMonitorAlarmAllNamespaces#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/monitor_alarm_all_namespaces#id DataTencentcloudMonitorAlarmAllNamespaces#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface DataTencentcloudMonitorAlarmAllNamespacesConfig extends cdktf.T
   /**
   * Filter based on the Id of the namespace without filling in the default query for all.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/monitor_alarm_all_namespaces#ids DataTencentcloudMonitorAlarmAllNamespaces#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/monitor_alarm_all_namespaces#ids DataTencentcloudMonitorAlarmAllNamespaces#ids}
   */
   readonly ids?: string[];
   /**
   * Fixed value, as `monitor`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/monitor_alarm_all_namespaces#module DataTencentcloudMonitorAlarmAllNamespaces#module}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/monitor_alarm_all_namespaces#module DataTencentcloudMonitorAlarmAllNamespaces#module}
   */
   readonly module: string;
   /**
   * Filter based on monitoring type, do not fill in default, check all types MT_QCE=cloud product monitoring.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/monitor_alarm_all_namespaces#monitor_types DataTencentcloudMonitorAlarmAllNamespaces#monitor_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/monitor_alarm_all_namespaces#monitor_types DataTencentcloudMonitorAlarmAllNamespaces#monitor_types}
   */
   readonly monitorTypes?: string[];
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/monitor_alarm_all_namespaces#result_output_file DataTencentcloudMonitorAlarmAllNamespaces#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/monitor_alarm_all_namespaces#result_output_file DataTencentcloudMonitorAlarmAllNamespaces#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Currently, only ST_ALARM=alarm type is filtered based on usage scenarios.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/monitor_alarm_all_namespaces#scene_type DataTencentcloudMonitorAlarmAllNamespaces#scene_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/monitor_alarm_all_namespaces#scene_type DataTencentcloudMonitorAlarmAllNamespaces#scene_type}
   */
   readonly sceneType: string;
 }
@@ -569,7 +569,7 @@ export class DataTencentcloudMonitorAlarmAllNamespacesQceNamespacesNewList exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/monitor_alarm_all_namespaces tencentcloud_monitor_alarm_all_namespaces}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/monitor_alarm_all_namespaces tencentcloud_monitor_alarm_all_namespaces}
 */
 export class DataTencentcloudMonitorAlarmAllNamespaces extends cdktf.TerraformDataSource {
 
@@ -585,7 +585,7 @@ export class DataTencentcloudMonitorAlarmAllNamespaces extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataTencentcloudMonitorAlarmAllNamespaces resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudMonitorAlarmAllNamespaces to import
-  * @param importFromId The id of the existing DataTencentcloudMonitorAlarmAllNamespaces that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/monitor_alarm_all_namespaces#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudMonitorAlarmAllNamespaces that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/monitor_alarm_all_namespaces#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudMonitorAlarmAllNamespaces to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -597,7 +597,7 @@ export class DataTencentcloudMonitorAlarmAllNamespaces extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/monitor_alarm_all_namespaces tencentcloud_monitor_alarm_all_namespaces} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/monitor_alarm_all_namespaces tencentcloud_monitor_alarm_all_namespaces} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -608,8 +608,8 @@ export class DataTencentcloudMonitorAlarmAllNamespaces extends cdktf.TerraformDa
       terraformResourceType: 'tencentcloud_monitor_alarm_all_namespaces',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.39',
-        providerVersionConstraint: '1.82.39'
+        providerVersion: '1.82.40',
+        providerVersionConstraint: '1.82.40'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/errors_application
+// https://registry.terraform.io/providers/betterstackhq/logtail/0.7.3/docs/resources/errors_application
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface ErrorsApplicationConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of the application group this application belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/errors_application#application_group_id ErrorsApplication#application_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.3/docs/resources/errors_application#application_group_id ErrorsApplication#application_group_id}
   */
   readonly applicationGroupId?: number;
   /**
   * Data region or cluster name where application data will be stored. If omitted, the default data region for your team will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/errors_application#data_region ErrorsApplication#data_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.3/docs/resources/errors_application#data_region ErrorsApplication#data_region}
   */
   readonly dataRegion?: string;
   /**
   * Error data retention period in days. Default retention is 90 days.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/errors_application#errors_retention ErrorsApplication#errors_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.3/docs/resources/errors_application#errors_retention ErrorsApplication#errors_retention}
   */
   readonly errorsRetention?: number;
   /**
   * This property allows you to temporarily pause data ingesting for this application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/errors_application#ingesting_paused ErrorsApplication#ingesting_paused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.3/docs/resources/errors_application#ingesting_paused ErrorsApplication#ingesting_paused}
   */
   readonly ingestingPaused?: boolean | cdktf.IResolvable;
   /**
   * Application name. Must be unique within your team.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/errors_application#name ErrorsApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.3/docs/resources/errors_application#name ErrorsApplication#name}
   */
   readonly name: string;
   /**
   * The platform type for the application. This helps configure appropriate SDKs and integrations. Examples: dot_net_errors, dot_net_maui_errors, dot_net_http_errors, aiohttp_errors, asgi_errors, asp_dot_net_errors, asp_dot_net_core_errors, aws_lambda_dot_net_errors, aws_lambda_node_errors, aws_lambda_python_errors... Must be suffixed with _errors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/errors_application#platform ErrorsApplication#platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.3/docs/resources/errors_application#platform ErrorsApplication#platform}
   */
   readonly platform: string;
   /**
   * Used to specify the team the resource should be created in when using global tokens.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/errors_application#team_name ErrorsApplication#team_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.3/docs/resources/errors_application#team_name ErrorsApplication#team_name}
   */
   readonly teamName?: string;
   /**
   * custom_bucket block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/errors_application#custom_bucket ErrorsApplication#custom_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.3/docs/resources/errors_application#custom_bucket ErrorsApplication#custom_bucket}
   */
   readonly customBucket?: ErrorsApplicationCustomBucket;
 }
@@ -60,31 +60,31 @@ export interface ErrorsApplicationCustomBucket {
   /**
   * Access key ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/errors_application#access_key_id ErrorsApplication#access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.3/docs/resources/errors_application#access_key_id ErrorsApplication#access_key_id}
   */
   readonly accessKeyId: string;
   /**
   * Bucket endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/errors_application#endpoint ErrorsApplication#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.3/docs/resources/errors_application#endpoint ErrorsApplication#endpoint}
   */
   readonly endpoint: string;
   /**
   * Whether we should keep data in the bucket after the retention period.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/errors_application#keep_data_after_retention ErrorsApplication#keep_data_after_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.3/docs/resources/errors_application#keep_data_after_retention ErrorsApplication#keep_data_after_retention}
   */
   readonly keepDataAfterRetention?: boolean | cdktf.IResolvable;
   /**
   * Bucket name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/errors_application#name ErrorsApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.3/docs/resources/errors_application#name ErrorsApplication#name}
   */
   readonly name: string;
   /**
   * Secret access key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/errors_application#secret_access_key ErrorsApplication#secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.3/docs/resources/errors_application#secret_access_key ErrorsApplication#secret_access_key}
   */
   readonly secretAccessKey: string;
 }
@@ -272,7 +272,7 @@ export class ErrorsApplicationCustomBucketOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/errors_application logtail_errors_application}
+* Represents a {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.3/docs/resources/errors_application logtail_errors_application}
 */
 export class ErrorsApplication extends cdktf.TerraformResource {
 
@@ -288,7 +288,7 @@ export class ErrorsApplication extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ErrorsApplication resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ErrorsApplication to import
-  * @param importFromId The id of the existing ErrorsApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/errors_application#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ErrorsApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.3/docs/resources/errors_application#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ErrorsApplication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -300,7 +300,7 @@ export class ErrorsApplication extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/errors_application logtail_errors_application} Resource
+  * Create a new {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.3/docs/resources/errors_application logtail_errors_application} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -311,8 +311,8 @@ export class ErrorsApplication extends cdktf.TerraformResource {
       terraformResourceType: 'logtail_errors_application',
       terraformGeneratorMetadata: {
         providerName: 'logtail',
-        providerVersion: '0.7.2',
-        providerVersionConstraint: '0.7.2'
+        providerVersion: '0.7.3',
+        providerVersionConstraint: '0.7.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_aaaa_record
+// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_aaaa_record
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,63 +10,63 @@ export interface DnsAaaaRecordConfig extends cdktf.TerraformMetaArguments {
   /**
   * Synthetic field, used to determine _zone_ and/or _name_in_zone_ field for records.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_aaaa_record#absolute_name_spec DnsAaaaRecord#absolute_name_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_aaaa_record#absolute_name_spec DnsAaaaRecord#absolute_name_spec}
   */
   readonly absoluteNameSpec?: string;
   /**
   * The description for the DNS resource record. May contain 0 to 1024 characters. Can include UTF-8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_aaaa_record#comment DnsAaaaRecord#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_aaaa_record#comment DnsAaaaRecord#comment}
   */
   readonly comment?: string;
   /**
   * Indicates if the DNS resource record is disabled. A disabled object is effectively non-existent when generating configuration.  Defaults to _false_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_aaaa_record#disabled DnsAaaaRecord#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_aaaa_record#disabled DnsAaaaRecord#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_aaaa_record#inheritance_sources DnsAaaaRecord#inheritance_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_aaaa_record#inheritance_sources DnsAaaaRecord#inheritance_sources}
   */
   readonly inheritanceSources?: DnsAaaaRecordInheritanceSources;
   /**
   * The relative owner name to the zone origin. Must be specified for creating the DNS resource record and is read only for other operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_aaaa_record#name_in_zone DnsAaaaRecord#name_in_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_aaaa_record#name_in_zone DnsAaaaRecord#name_in_zone}
   */
   readonly nameInZone?: string;
   /**
   * The DNS resource record type-specific non-protocol options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_aaaa_record#options DnsAaaaRecord#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_aaaa_record#options DnsAaaaRecord#options}
   */
   readonly options?: DnsAaaaRecordOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_aaaa_record#rdata DnsAaaaRecord#rdata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_aaaa_record#rdata DnsAaaaRecord#rdata}
   */
   readonly rdata: DnsAaaaRecordRdata;
   /**
   * The tags for the DNS resource record in JSON format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_aaaa_record#tags DnsAaaaRecord#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_aaaa_record#tags DnsAaaaRecord#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The record time to live value in seconds. The range of this value is 0 to 2147483647.  Defaults to TTL value from the SOA record of the zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_aaaa_record#ttl DnsAaaaRecord#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_aaaa_record#ttl DnsAaaaRecord#ttl}
   */
   readonly ttl?: number;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_aaaa_record#view DnsAaaaRecord#view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_aaaa_record#view DnsAaaaRecord#view}
   */
   readonly view?: string;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_aaaa_record#zone DnsAaaaRecord#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_aaaa_record#zone DnsAaaaRecord#zone}
   */
   readonly zone?: string;
 }
@@ -78,7 +78,7 @@ export interface DnsAaaaRecordInheritanceSourcesTtl {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_aaaa_record#action DnsAaaaRecord#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_aaaa_record#action DnsAaaaRecord#action}
   */
   readonly action?: string;
 }
@@ -187,7 +187,7 @@ export class DnsAaaaRecordInheritanceSourcesTtlOutputReference extends cdktf.Com
 }
 export interface DnsAaaaRecordInheritanceSources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_aaaa_record#ttl DnsAaaaRecord#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_aaaa_record#ttl DnsAaaaRecord#ttl}
   */
   readonly ttl?: DnsAaaaRecordInheritanceSourcesTtl;
 }
@@ -283,13 +283,13 @@ export interface DnsAaaaRecordOptions {
   /**
   * A boolean flag which can be set to _true_ for POST operation to check the existence of reverse zone for creating the corresponding PTR record. Only applicable if the _create_ptr_ option is set to _true_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_aaaa_record#check_rmz DnsAaaaRecord#check_rmz}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_aaaa_record#check_rmz DnsAaaaRecord#check_rmz}
   */
   readonly checkRmz?: boolean | cdktf.IResolvable;
   /**
   * A boolean flag which can be set to _true_ for POST operation to automatically create the corresponding PTR record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_aaaa_record#create_ptr DnsAaaaRecord#create_ptr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_aaaa_record#create_ptr DnsAaaaRecord#create_ptr}
   */
   readonly createPtr?: boolean | cdktf.IResolvable;
 }
@@ -414,7 +414,7 @@ export interface DnsAaaaRecordRdata {
   /**
   * The IPv6 address of the host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_aaaa_record#address DnsAaaaRecord#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_aaaa_record#address DnsAaaaRecord#address}
   */
   readonly address: string;
 }
@@ -505,7 +505,7 @@ export class DnsAaaaRecordRdataOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_aaaa_record bloxone_dns_aaaa_record}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_aaaa_record bloxone_dns_aaaa_record}
 */
 export class DnsAaaaRecord extends cdktf.TerraformResource {
 
@@ -521,7 +521,7 @@ export class DnsAaaaRecord extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DnsAaaaRecord resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DnsAaaaRecord to import
-  * @param importFromId The id of the existing DnsAaaaRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_aaaa_record#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DnsAaaaRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_aaaa_record#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DnsAaaaRecord to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -533,7 +533,7 @@ export class DnsAaaaRecord extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_aaaa_record bloxone_dns_aaaa_record} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_aaaa_record bloxone_dns_aaaa_record} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -544,8 +544,8 @@ export class DnsAaaaRecord extends cdktf.TerraformResource {
       terraformResourceType: 'bloxone_dns_aaaa_record',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.5.4',
+        providerVersionConstraint: '1.5.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

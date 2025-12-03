@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface CvmLaunchTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
   * The role name of CAM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#cam_role_name CvmLaunchTemplate#cam_role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#cam_role_name CvmLaunchTemplate#cam_role_name}
   */
   readonly camRoleName?: string;
   /**
   * A string to used guarantee request idempotency.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#client_token CvmLaunchTemplate#client_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#client_token CvmLaunchTemplate#client_token}
   */
   readonly clientToken?: string;
   /**
   * Instance destruction protection flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#disable_api_termination CvmLaunchTemplate#disable_api_termination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#disable_api_termination CvmLaunchTemplate#disable_api_termination}
   */
   readonly disableApiTermination?: boolean | cdktf.IResolvable;
   /**
   * The ID of disaster recover group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#disaster_recover_group_ids CvmLaunchTemplate#disaster_recover_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#disaster_recover_group_ids CvmLaunchTemplate#disaster_recover_group_ids}
   */
   readonly disasterRecoverGroupIds?: string[];
   /**
   * Whether to preflight only this request, true or false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#dry_run CvmLaunchTemplate#dry_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#dry_run CvmLaunchTemplate#dry_run}
   */
   readonly dryRun?: boolean | cdktf.IResolvable;
   /**
   * The host name of CVM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#host_name CvmLaunchTemplate#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#host_name CvmLaunchTemplate#host_name}
   */
   readonly hostName?: string;
   /**
   * The ID of HPC cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#hpc_cluster_id CvmLaunchTemplate#hpc_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#hpc_cluster_id CvmLaunchTemplate#hpc_cluster_id}
   */
   readonly hpcClusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#id CvmLaunchTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#id CvmLaunchTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,127 +59,127 @@ export interface CvmLaunchTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
   * Image ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#image_id CvmLaunchTemplate#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#image_id CvmLaunchTemplate#image_id}
   */
   readonly imageId: string;
   /**
   * The charge type of instance. Default value: POSTPAID_BY_HOUR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#instance_charge_type CvmLaunchTemplate#instance_charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#instance_charge_type CvmLaunchTemplate#instance_charge_type}
   */
   readonly instanceChargeType?: string;
   /**
   * The number of instances purchased.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#instance_count CvmLaunchTemplate#instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#instance_count CvmLaunchTemplate#instance_count}
   */
   readonly instanceCount?: number;
   /**
   * The name of instance. If you do not specify an instance display name, 'Unnamed' is displayed by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#instance_name CvmLaunchTemplate#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#instance_name CvmLaunchTemplate#instance_name}
   */
   readonly instanceName?: string;
   /**
   * The type of the instance. If this parameter is not specified, the system will dynamically specify the default model according to the resource sales in the current region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#instance_type CvmLaunchTemplate#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#instance_type CvmLaunchTemplate#instance_type}
   */
   readonly instanceType?: string;
   /**
   * The name of launch template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#launch_template_name CvmLaunchTemplate#launch_template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#launch_template_name CvmLaunchTemplate#launch_template_name}
   */
   readonly launchTemplateName: string;
   /**
   * Instance launch template version description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#launch_template_version_description CvmLaunchTemplate#launch_template_version_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#launch_template_version_description CvmLaunchTemplate#launch_template_version_description}
   */
   readonly launchTemplateVersionDescription?: string;
   /**
   * The security group ID of instance. If this parameter is not specified, the default security group is bound.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#security_group_ids CvmLaunchTemplate#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#security_group_ids CvmLaunchTemplate#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * Tag description list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#tags CvmLaunchTemplate#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#tags CvmLaunchTemplate#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The data of users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#user_data CvmLaunchTemplate#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#user_data CvmLaunchTemplate#user_data}
   */
   readonly userData?: string;
   /**
   * action_timer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#action_timer CvmLaunchTemplate#action_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#action_timer CvmLaunchTemplate#action_timer}
   */
   readonly actionTimer?: CvmLaunchTemplateActionTimer;
   /**
   * data_disks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#data_disks CvmLaunchTemplate#data_disks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#data_disks CvmLaunchTemplate#data_disks}
   */
   readonly dataDisks?: CvmLaunchTemplateDataDisks[] | cdktf.IResolvable;
   /**
   * enhanced_service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#enhanced_service CvmLaunchTemplate#enhanced_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#enhanced_service CvmLaunchTemplate#enhanced_service}
   */
   readonly enhancedService?: CvmLaunchTemplateEnhancedService;
   /**
   * instance_charge_prepaid block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#instance_charge_prepaid CvmLaunchTemplate#instance_charge_prepaid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#instance_charge_prepaid CvmLaunchTemplate#instance_charge_prepaid}
   */
   readonly instanceChargePrepaid?: CvmLaunchTemplateInstanceChargePrepaid;
   /**
   * instance_market_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#instance_market_options CvmLaunchTemplate#instance_market_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#instance_market_options CvmLaunchTemplate#instance_market_options}
   */
   readonly instanceMarketOptions?: CvmLaunchTemplateInstanceMarketOptions;
   /**
   * internet_accessible block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#internet_accessible CvmLaunchTemplate#internet_accessible}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#internet_accessible CvmLaunchTemplate#internet_accessible}
   */
   readonly internetAccessible?: CvmLaunchTemplateInternetAccessible;
   /**
   * login_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#login_settings CvmLaunchTemplate#login_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#login_settings CvmLaunchTemplate#login_settings}
   */
   readonly loginSettings?: CvmLaunchTemplateLoginSettings;
   /**
   * placement block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#placement CvmLaunchTemplate#placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#placement CvmLaunchTemplate#placement}
   */
   readonly placement: CvmLaunchTemplatePlacement;
   /**
   * system_disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#system_disk CvmLaunchTemplate#system_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#system_disk CvmLaunchTemplate#system_disk}
   */
   readonly systemDisk?: CvmLaunchTemplateSystemDisk;
   /**
   * tag_specification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#tag_specification CvmLaunchTemplate#tag_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#tag_specification CvmLaunchTemplate#tag_specification}
   */
   readonly tagSpecification?: CvmLaunchTemplateTagSpecification[] | cdktf.IResolvable;
   /**
   * virtual_private_cloud block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#virtual_private_cloud CvmLaunchTemplate#virtual_private_cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#virtual_private_cloud CvmLaunchTemplate#virtual_private_cloud}
   */
   readonly virtualPrivateCloud?: CvmLaunchTemplateVirtualPrivateCloud;
 }
@@ -187,19 +187,19 @@ export interface CvmLaunchTemplateActionTimerExternalsStorageBlockAttr {
   /**
   * The maximum capacity of HDD local storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#max_size CvmLaunchTemplate#max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#max_size CvmLaunchTemplate#max_size}
   */
   readonly maxSize: number;
   /**
   * The minimum capacity of HDD local storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#min_size CvmLaunchTemplate#min_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#min_size CvmLaunchTemplate#min_size}
   */
   readonly minSize: number;
   /**
   * The type of HDD local storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#type CvmLaunchTemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#type CvmLaunchTemplate#type}
   */
   readonly type: string;
 }
@@ -334,19 +334,19 @@ export interface CvmLaunchTemplateActionTimerExternals {
   /**
   * Release address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#release_address CvmLaunchTemplate#release_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#release_address CvmLaunchTemplate#release_address}
   */
   readonly releaseAddress?: boolean | cdktf.IResolvable;
   /**
   * Unsupported network type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#unsupport_networks CvmLaunchTemplate#unsupport_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#unsupport_networks CvmLaunchTemplate#unsupport_networks}
   */
   readonly unsupportNetworks?: string[];
   /**
   * storage_block_attr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#storage_block_attr CvmLaunchTemplate#storage_block_attr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#storage_block_attr CvmLaunchTemplate#storage_block_attr}
   */
   readonly storageBlockAttr?: CvmLaunchTemplateActionTimerExternalsStorageBlockAttr;
 }
@@ -490,19 +490,19 @@ export interface CvmLaunchTemplateActionTimer {
   /**
   * Execution time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#action_time CvmLaunchTemplate#action_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#action_time CvmLaunchTemplate#action_time}
   */
   readonly actionTime?: string;
   /**
   * Timer name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#timer_action CvmLaunchTemplate#timer_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#timer_action CvmLaunchTemplate#timer_action}
   */
   readonly timerAction?: string;
   /**
   * externals block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#externals CvmLaunchTemplate#externals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#externals CvmLaunchTemplate#externals}
   */
   readonly externals?: CvmLaunchTemplateActionTimerExternals;
 }
@@ -646,49 +646,49 @@ export interface CvmLaunchTemplateDataDisks {
   /**
   * Cloud Dedicated Cluster(CDC) ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#cdc_id CvmLaunchTemplate#cdc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#cdc_id CvmLaunchTemplate#cdc_id}
   */
   readonly cdcId?: string;
   /**
   * Whether the data disk is destroyed along with the instance, true or false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#delete_with_instance CvmLaunchTemplate#delete_with_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#delete_with_instance CvmLaunchTemplate#delete_with_instance}
   */
   readonly deleteWithInstance?: boolean | cdktf.IResolvable;
   /**
   * The size of the data disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#disk_size CvmLaunchTemplate#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#disk_size CvmLaunchTemplate#disk_size}
   */
   readonly diskSize: number;
   /**
   * The type of data disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#disk_type CvmLaunchTemplate#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#disk_type CvmLaunchTemplate#disk_type}
   */
   readonly diskType?: string;
   /**
   * Whether the data disk is encrypted, TRUE or FALSE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#encrypt CvmLaunchTemplate#encrypt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#encrypt CvmLaunchTemplate#encrypt}
   */
   readonly encrypt?: boolean | cdktf.IResolvable;
   /**
   * The id of custom CMK.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#kms_key_id CvmLaunchTemplate#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#kms_key_id CvmLaunchTemplate#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * Data disk snapshot ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#snapshot_id CvmLaunchTemplate#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#snapshot_id CvmLaunchTemplate#snapshot_id}
   */
   readonly snapshotId?: string;
   /**
   * Cloud disk performance, MB/s.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#throughput_performance CvmLaunchTemplate#throughput_performance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#throughput_performance CvmLaunchTemplate#throughput_performance}
   */
   readonly throughputPerformance?: number;
 }
@@ -1011,7 +1011,7 @@ export interface CvmLaunchTemplateEnhancedServiceAutomationService {
   /**
   * Whether to enable TencentCloud Automation Tools(TAT), TRUE or FALSE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#enabled CvmLaunchTemplate#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#enabled CvmLaunchTemplate#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -1097,7 +1097,7 @@ export interface CvmLaunchTemplateEnhancedServiceMonitorService {
   /**
   * Whether to enable cloud monitor service, TRUE or FALSE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#enabled CvmLaunchTemplate#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#enabled CvmLaunchTemplate#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -1183,7 +1183,7 @@ export interface CvmLaunchTemplateEnhancedServiceSecurityService {
   /**
   * Whether to enable cloud security service, TRUE or FALSE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#enabled CvmLaunchTemplate#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#enabled CvmLaunchTemplate#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -1269,19 +1269,19 @@ export interface CvmLaunchTemplateEnhancedService {
   /**
   * automation_service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#automation_service CvmLaunchTemplate#automation_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#automation_service CvmLaunchTemplate#automation_service}
   */
   readonly automationService?: CvmLaunchTemplateEnhancedServiceAutomationService;
   /**
   * monitor_service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#monitor_service CvmLaunchTemplate#monitor_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#monitor_service CvmLaunchTemplate#monitor_service}
   */
   readonly monitorService?: CvmLaunchTemplateEnhancedServiceMonitorService;
   /**
   * security_service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#security_service CvmLaunchTemplate#security_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#security_service CvmLaunchTemplate#security_service}
   */
   readonly securityService?: CvmLaunchTemplateEnhancedServiceSecurityService;
 }
@@ -1425,13 +1425,13 @@ export interface CvmLaunchTemplateInstanceChargePrepaid {
   /**
   * The period of purchasing instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#period CvmLaunchTemplate#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#period CvmLaunchTemplate#period}
   */
   readonly period: number;
   /**
   * Automatic renew flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#renew_flag CvmLaunchTemplate#renew_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#renew_flag CvmLaunchTemplate#renew_flag}
   */
   readonly renewFlag?: string;
 }
@@ -1543,13 +1543,13 @@ export interface CvmLaunchTemplateInstanceMarketOptionsSpotOptions {
   /**
   * Bidding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#max_price CvmLaunchTemplate#max_price}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#max_price CvmLaunchTemplate#max_price}
   */
   readonly maxPrice: string;
   /**
   * Bidding request type, currently only supported type: one-time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#spot_instance_type CvmLaunchTemplate#spot_instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#spot_instance_type CvmLaunchTemplate#spot_instance_type}
   */
   readonly spotInstanceType?: string;
 }
@@ -1661,13 +1661,13 @@ export interface CvmLaunchTemplateInstanceMarketOptions {
   /**
   * Market option type, currently only supports value: spot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#market_type CvmLaunchTemplate#market_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#market_type CvmLaunchTemplate#market_type}
   */
   readonly marketType?: string;
   /**
   * spot_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#spot_options CvmLaunchTemplate#spot_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#spot_options CvmLaunchTemplate#spot_options}
   */
   readonly spotOptions: CvmLaunchTemplateInstanceMarketOptionsSpotOptions;
 }
@@ -1779,25 +1779,25 @@ export interface CvmLaunchTemplateInternetAccessible {
   /**
   * The ID of bandwidth package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#bandwidth_package_id CvmLaunchTemplate#bandwidth_package_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#bandwidth_package_id CvmLaunchTemplate#bandwidth_package_id}
   */
   readonly bandwidthPackageId?: string;
   /**
   * The type of internet charge.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#internet_charge_type CvmLaunchTemplate#internet_charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#internet_charge_type CvmLaunchTemplate#internet_charge_type}
   */
   readonly internetChargeType?: string;
   /**
   * Internet outbound bandwidth upper limit, Mbps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#internet_max_bandwidth_out CvmLaunchTemplate#internet_max_bandwidth_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#internet_max_bandwidth_out CvmLaunchTemplate#internet_max_bandwidth_out}
   */
   readonly internetMaxBandwidthOut?: number;
   /**
   * Whether to allocate public network IP, TRUE or FALSE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#public_ip_assigned CvmLaunchTemplate#public_ip_assigned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#public_ip_assigned CvmLaunchTemplate#public_ip_assigned}
   */
   readonly publicIpAssigned?: boolean | cdktf.IResolvable;
 }
@@ -1970,19 +1970,19 @@ export interface CvmLaunchTemplateLoginSettings {
   /**
   * Keep the original settings of the mirror.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#keep_image_login CvmLaunchTemplate#keep_image_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#keep_image_login CvmLaunchTemplate#keep_image_login}
   */
   readonly keepImageLogin?: string;
   /**
   * List of key ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#key_ids CvmLaunchTemplate#key_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#key_ids CvmLaunchTemplate#key_ids}
   */
   readonly keyIds?: string[];
   /**
   * The login password of instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#password CvmLaunchTemplate#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#password CvmLaunchTemplate#password}
   */
   readonly password?: string;
 }
@@ -2126,25 +2126,25 @@ export interface CvmLaunchTemplatePlacement {
   /**
   * The CDH ID list of the instance(input).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#host_ids CvmLaunchTemplate#host_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#host_ids CvmLaunchTemplate#host_ids}
   */
   readonly hostIds?: string[];
   /**
   * Specify the host machine ip.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#host_ips CvmLaunchTemplate#host_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#host_ips CvmLaunchTemplate#host_ips}
   */
   readonly hostIps?: string[];
   /**
   * The project ID of the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#project_id CvmLaunchTemplate#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#project_id CvmLaunchTemplate#project_id}
   */
   readonly projectId?: number;
   /**
   * The available zone ID of the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#zone CvmLaunchTemplate#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#zone CvmLaunchTemplate#zone}
   */
   readonly zone: string;
 }
@@ -2314,19 +2314,19 @@ export interface CvmLaunchTemplateSystemDisk {
   /**
   * Cloud Dedicated Cluster(CDC) ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#cdc_id CvmLaunchTemplate#cdc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#cdc_id CvmLaunchTemplate#cdc_id}
   */
   readonly cdcId?: string;
   /**
   * The size of system disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#disk_size CvmLaunchTemplate#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#disk_size CvmLaunchTemplate#disk_size}
   */
   readonly diskSize?: number;
   /**
   * The type of system disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#disk_type CvmLaunchTemplate#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#disk_type CvmLaunchTemplate#disk_type}
   */
   readonly diskType?: string;
 }
@@ -2475,13 +2475,13 @@ export interface CvmLaunchTemplateTagSpecificationTags {
   /**
   * The key of tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#key CvmLaunchTemplate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#key CvmLaunchTemplate#key}
   */
   readonly key: string;
   /**
   * The value of tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#value CvmLaunchTemplate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#value CvmLaunchTemplate#value}
   */
   readonly value: string;
 }
@@ -2622,13 +2622,13 @@ export interface CvmLaunchTemplateTagSpecification {
   /**
   * The type of resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#resource_type CvmLaunchTemplate#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#resource_type CvmLaunchTemplate#resource_type}
   */
   readonly resourceType: string;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#tags CvmLaunchTemplate#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#tags CvmLaunchTemplate#tags}
   */
   readonly tags: CvmLaunchTemplateTagSpecificationTags[] | cdktf.IResolvable;
 }
@@ -2769,31 +2769,31 @@ export interface CvmLaunchTemplateVirtualPrivateCloud {
   /**
   * Is it used as a Public network gateway, TRUE or FALSE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#as_vpc_gateway CvmLaunchTemplate#as_vpc_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#as_vpc_gateway CvmLaunchTemplate#as_vpc_gateway}
   */
   readonly asVpcGateway?: boolean | cdktf.IResolvable;
   /**
   * The number of ipv6 addresses for Elastic Network Interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#ipv6_address_count CvmLaunchTemplate#ipv6_address_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#ipv6_address_count CvmLaunchTemplate#ipv6_address_count}
   */
   readonly ipv6AddressCount?: number;
   /**
   * The address of private ip.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#private_ip_addresses CvmLaunchTemplate#private_ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#private_ip_addresses CvmLaunchTemplate#private_ip_addresses}
   */
   readonly privateIpAddresses?: string[];
   /**
   * The id of subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#subnet_id CvmLaunchTemplate#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#subnet_id CvmLaunchTemplate#subnet_id}
   */
   readonly subnetId: string;
   /**
   * The id of VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#vpc_id CvmLaunchTemplate#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#vpc_id CvmLaunchTemplate#vpc_id}
   */
   readonly vpcId: string;
 }
@@ -2987,7 +2987,7 @@ export class CvmLaunchTemplateVirtualPrivateCloudOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template tencentcloud_cvm_launch_template}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template tencentcloud_cvm_launch_template}
 */
 export class CvmLaunchTemplate extends cdktf.TerraformResource {
 
@@ -3003,7 +3003,7 @@ export class CvmLaunchTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CvmLaunchTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CvmLaunchTemplate to import
-  * @param importFromId The id of the existing CvmLaunchTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CvmLaunchTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CvmLaunchTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3015,7 +3015,7 @@ export class CvmLaunchTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cvm_launch_template tencentcloud_cvm_launch_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cvm_launch_template tencentcloud_cvm_launch_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3026,8 +3026,8 @@ export class CvmLaunchTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cvm_launch_template',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.39',
-        providerVersionConstraint: '1.82.39'
+        providerVersion: '1.82.40',
+        providerVersionConstraint: '1.82.40'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

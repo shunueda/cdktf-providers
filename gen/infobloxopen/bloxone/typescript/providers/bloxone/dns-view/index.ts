@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view
+// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,101 +10,101 @@ export interface DnsViewConfig extends cdktf.TerraformMetaArguments {
   /**
   * _add_edns_option_in_outgoing_query_ adds client IP, MAC address and view name into outgoing recursive query. Defaults to _false_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#add_edns_option_in_outgoing_query DnsView#add_edns_option_in_outgoing_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#add_edns_option_in_outgoing_query DnsView#add_edns_option_in_outgoing_query}
   */
   readonly addEdnsOptionInOutgoingQuery?: boolean | cdktf.IResolvable;
   /**
   * Optional. Comment for view.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#comment DnsView#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#comment DnsView#comment}
   */
   readonly comment?: string;
   /**
   * Optional. List of custom root nameservers. The order does not matter.  Error if empty while _custom_root_ns_enabled_ is _true_. Error if there are duplicate items in the list.  Defaults to empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#custom_root_ns DnsView#custom_root_ns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#custom_root_ns DnsView#custom_root_ns}
   */
   readonly customRootNs?: DnsViewCustomRootNs[] | cdktf.IResolvable;
   /**
   * Optional. _true_ to use custom root nameservers instead of the default ones.  The _custom_root_ns_ is validated when enabled.  Defaults to _false_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#custom_root_ns_enabled DnsView#custom_root_ns_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#custom_root_ns_enabled DnsView#custom_root_ns_enabled}
   */
   readonly customRootNsEnabled?: boolean | cdktf.IResolvable;
   /**
   * Optional. _true_ to disable object. A disabled object is effectively non-existent when generating configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#disabled DnsView#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#disabled DnsView#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Optional. _true_ to perform DNSSEC validation. Ignored if _dnssec_enabled_ is _false_.  Defaults to _true_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#dnssec_enable_validation DnsView#dnssec_enable_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#dnssec_enable_validation DnsView#dnssec_enable_validation}
   */
   readonly dnssecEnableValidation?: boolean | cdktf.IResolvable;
   /**
   * Optional. Master toggle for all DNSSEC processing. Other _dnssec_*_ configuration is unused if this is disabled.  Defaults to _true_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#dnssec_enabled DnsView#dnssec_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#dnssec_enabled DnsView#dnssec_enabled}
   */
   readonly dnssecEnabled?: boolean | cdktf.IResolvable;
   /**
   * Optional. DNSSEC trust anchors.  Error if there are list items with duplicate (_zone_, _sep_, _algorithm_) combinations.  Defaults to empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#dnssec_trust_anchors DnsView#dnssec_trust_anchors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#dnssec_trust_anchors DnsView#dnssec_trust_anchors}
   */
   readonly dnssecTrustAnchors?: DnsViewDnssecTrustAnchors[] | cdktf.IResolvable;
   /**
   * Optional. _true_ to reject expired DNSSEC keys. Ignored if either _dnssec_enabled_ or _dnssec_enable_validation_ is _false_.  Defaults to _true_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#dnssec_validate_expiry DnsView#dnssec_validate_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#dnssec_validate_expiry DnsView#dnssec_validate_expiry}
   */
   readonly dnssecValidateExpiry?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#dtc_config DnsView#dtc_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#dtc_config DnsView#dtc_config}
   */
   readonly dtcConfig?: DnsViewDtcConfig;
   /**
   * Optional. _true_ to enable EDNS client subnet for recursive queries. Other _ecs_*_ fields are ignored if this field is not enabled.  Defaults to _false-.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#ecs_enabled DnsView#ecs_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#ecs_enabled DnsView#ecs_enabled}
   */
   readonly ecsEnabled?: boolean | cdktf.IResolvable;
   /**
   * Optional. _true_ to enable ECS options in outbound queries. This functionality has additional overhead so it is disabled by default.  Defaults to _false_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#ecs_forwarding DnsView#ecs_forwarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#ecs_forwarding DnsView#ecs_forwarding}
   */
   readonly ecsForwarding?: boolean | cdktf.IResolvable;
   /**
   * Optional. Maximum scope length for v4 ECS.  Unsigned integer, min 1 max 24  Defaults to 24.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#ecs_prefix_v4 DnsView#ecs_prefix_v4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#ecs_prefix_v4 DnsView#ecs_prefix_v4}
   */
   readonly ecsPrefixV4?: number;
   /**
   * Optional. Maximum scope length for v6 ECS.  Unsigned integer, min 1 max 56  Defaults to 56.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#ecs_prefix_v6 DnsView#ecs_prefix_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#ecs_prefix_v6 DnsView#ecs_prefix_v6}
   */
   readonly ecsPrefixV6?: number;
   /**
   * Optional. List of zones where ECS queries may be sent.  Error if empty while _ecs_enabled_ is _true_. Error if there are duplicate FQDNs in the list.  Defaults to empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#ecs_zones DnsView#ecs_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#ecs_zones DnsView#ecs_zones}
   */
   readonly ecsZones?: DnsViewEcsZones[] | cdktf.IResolvable;
   /**
   * Optional. _edns_udp_size_ represents the edns UDP size. The size a querying DNS server advertises to the DNS server it’s sending a query to.  Defaults to 1232 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#edns_udp_size DnsView#edns_udp_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#edns_udp_size DnsView#edns_udp_size}
   */
   readonly ednsUdpSize?: number;
   /**
   * Optional. Specifies a list of client addresses for which AAAA filtering is to be applied.  Defaults to _empty_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#filter_aaaa_acl DnsView#filter_aaaa_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#filter_aaaa_acl DnsView#filter_aaaa_acl}
   */
   readonly filterAaaaAcl?: DnsViewFilterAaaaAcl[] | cdktf.IResolvable;
   /**
@@ -115,159 +115,159 @@ export interface DnsViewConfig extends cdktf.TerraformMetaArguments {
   * 
   *   Defaults to _no_
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#filter_aaaa_on_v4 DnsView#filter_aaaa_on_v4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#filter_aaaa_on_v4 DnsView#filter_aaaa_on_v4}
   */
   readonly filterAaaaOnV4?: string;
   /**
   * Optional. List of forwarders.  Error if empty while _forwarders_only_ or _use_root_forwarders_for_local_resolution_with_b1td_ is _true_. Error if there are items in the list with duplicate addresses.  Defaults to empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#forwarders DnsView#forwarders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#forwarders DnsView#forwarders}
   */
   readonly forwarders?: DnsViewForwarders[] | cdktf.IResolvable;
   /**
   * Optional. _true_ to only forward.  Defaults to _false_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#forwarders_only DnsView#forwarders_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#forwarders_only DnsView#forwarders_only}
   */
   readonly forwardersOnly?: boolean | cdktf.IResolvable;
   /**
   * _gss_tsig_enabled_ enables/disables GSS-TSIG signed dynamic updates.  Defaults to _false_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#gss_tsig_enabled DnsView#gss_tsig_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#gss_tsig_enabled DnsView#gss_tsig_enabled}
   */
   readonly gssTsigEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#inheritance_sources DnsView#inheritance_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#inheritance_sources DnsView#inheritance_sources}
   */
   readonly inheritanceSources?: DnsViewInheritanceSources;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#ip_spaces DnsView#ip_spaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#ip_spaces DnsView#ip_spaces}
   */
   readonly ipSpaces?: string[];
   /**
   * Optional. Unused in the current on-prem DNS server implementation.  Unsigned integer, min 0 max 3600 (1h).  Defaults to 600.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#lame_ttl DnsView#lame_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#lame_ttl DnsView#lame_ttl}
   */
   readonly lameTtl?: number;
   /**
   * Optional. Specifies which clients have access to the view.  Defaults to empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#match_clients_acl DnsView#match_clients_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#match_clients_acl DnsView#match_clients_acl}
   */
   readonly matchClientsAcl?: DnsViewMatchClientsAcl[] | cdktf.IResolvable;
   /**
   * Optional. Specifies which destination addresses have access to the view.  Defaults to empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#match_destinations_acl DnsView#match_destinations_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#match_destinations_acl DnsView#match_destinations_acl}
   */
   readonly matchDestinationsAcl?: DnsViewMatchDestinationsAcl[] | cdktf.IResolvable;
   /**
   * Optional. If _true_ only recursive queries from matching clients access the view.  Defaults to _false_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#match_recursive_only DnsView#match_recursive_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#match_recursive_only DnsView#match_recursive_only}
   */
   readonly matchRecursiveOnly?: boolean | cdktf.IResolvable;
   /**
   * Optional. Seconds to cache positive responses.  Unsigned integer, min 1 max 604800 (7d).  Defaults to 604800 (7d).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#max_cache_ttl DnsView#max_cache_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#max_cache_ttl DnsView#max_cache_ttl}
   */
   readonly maxCacheTtl?: number;
   /**
   * Optional. Seconds to cache negative responses.  Unsigned integer, min 1 max 604800 (7d).  Defaults to 10800 (3h).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#max_negative_ttl DnsView#max_negative_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#max_negative_ttl DnsView#max_negative_ttl}
   */
   readonly maxNegativeTtl?: number;
   /**
   * Optional. _max_udp_size_ represents maximum UDP payload size. The maximum number of bytes a responding DNS server will send to a UDP datagram.  Defaults to 1232 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#max_udp_size DnsView#max_udp_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#max_udp_size DnsView#max_udp_size}
   */
   readonly maxUdpSize?: number;
   /**
   * Optional. When enabled, the DNS server will only add records to the authority and additional data sections when they are required.  Defaults to _false_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#minimal_responses DnsView#minimal_responses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#minimal_responses DnsView#minimal_responses}
   */
   readonly minimalResponses?: boolean | cdktf.IResolvable;
   /**
   * Name of view.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#name DnsView#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#name DnsView#name}
   */
   readonly name: string;
   /**
   * _notify_ all external secondary DNS servers.  Defaults to _false_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#notify DnsView#notify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#notify DnsView#notify}
   */
   readonly notify?: boolean | cdktf.IResolvable;
   /**
   * Optional. Clients must match this ACL to make authoritative queries. Also used for recursive queries if that ACL is unset.  Defaults to empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#query_acl DnsView#query_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#query_acl DnsView#query_acl}
   */
   readonly queryAcl?: DnsViewQueryAcl[] | cdktf.IResolvable;
   /**
   * Optional. Clients must match this ACL to make recursive queries. If this ACL is empty, then the _query_acl_ will be used instead.  Defaults to empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#recursion_acl DnsView#recursion_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#recursion_acl DnsView#recursion_acl}
   */
   readonly recursionAcl?: DnsViewRecursionAcl[] | cdktf.IResolvable;
   /**
   * Optional. _true_ to allow recursive DNS queries.  Defaults to _true_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#recursion_enabled DnsView#recursion_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#recursion_enabled DnsView#recursion_enabled}
   */
   readonly recursionEnabled?: boolean | cdktf.IResolvable;
   /**
   * Optional. Specifies a sorted network list for A/AAAA records in DNS query response.  Defaults to _empty_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#sort_list DnsView#sort_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#sort_list DnsView#sort_list}
   */
   readonly sortList?: DnsViewSortListStruct[] | cdktf.IResolvable;
   /**
   * _synthesize_address_records_from_https_ enables/disables creation of A/AAAA records from HTTPS RR Defaults to _false_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#synthesize_address_records_from_https DnsView#synthesize_address_records_from_https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#synthesize_address_records_from_https DnsView#synthesize_address_records_from_https}
   */
   readonly synthesizeAddressRecordsFromHttps?: boolean | cdktf.IResolvable;
   /**
   * Tagging specifics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#tags DnsView#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#tags DnsView#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Optional. Clients must match this ACL to receive zone transfers.  Defaults to empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#transfer_acl DnsView#transfer_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#transfer_acl DnsView#transfer_acl}
   */
   readonly transferAcl?: DnsViewTransferAcl[] | cdktf.IResolvable;
   /**
   * Optional. Specifies which hosts are allowed to issue Dynamic DNS updates for authoritative zones of _primary_type_ _cloud_.  Defaults to empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#update_acl DnsView#update_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#update_acl DnsView#update_acl}
   */
   readonly updateAcl?: DnsViewUpdateAcl[] | cdktf.IResolvable;
   /**
   * Optional. Use default forwarders to resolve queries for subzones.  Defaults to _true_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#use_forwarders_for_subzones DnsView#use_forwarders_for_subzones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#use_forwarders_for_subzones DnsView#use_forwarders_for_subzones}
   */
   readonly useForwardersForSubzones?: boolean | cdktf.IResolvable;
   /**
   * _use_root_forwarders_for_local_resolution_with_b1td_ allows DNS recursive queries sent to root forwarders for local resolution when deployed alongside BloxOne Thread Defense. Defaults to _false_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#use_root_forwarders_for_local_resolution_with_b1td DnsView#use_root_forwarders_for_local_resolution_with_b1td}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#use_root_forwarders_for_local_resolution_with_b1td DnsView#use_root_forwarders_for_local_resolution_with_b1td}
   */
   readonly useRootForwardersForLocalResolutionWithB1Td?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#zone_authority DnsView#zone_authority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#zone_authority DnsView#zone_authority}
   */
   readonly zoneAuthority?: DnsViewZoneAuthority;
 }
@@ -275,13 +275,13 @@ export interface DnsViewCustomRootNs {
   /**
   * IPv4 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#address DnsView#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#address DnsView#address}
   */
   readonly address: string;
   /**
   * FQDN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#fqdn DnsView#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#fqdn DnsView#fqdn}
   */
   readonly fqdn: string;
 }
@@ -425,25 +425,25 @@ export class DnsViewCustomRootNsList extends cdktf.ComplexList {
 }
 export interface DnsViewDnssecRootKeys {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#algorithm DnsView#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#algorithm DnsView#algorithm}
   */
   readonly algorithm: number;
   /**
   * DNSSEC key data. Non-empty, valid base64 string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#public_key DnsView#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#public_key DnsView#public_key}
   */
   readonly publicKey: string;
   /**
   * Optional. Secure Entry Point flag.  Defaults to _true_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#sep DnsView#sep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#sep DnsView#sep}
   */
   readonly sep?: boolean | cdktf.IResolvable;
   /**
   * Zone FQDN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#zone DnsView#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#zone DnsView#zone}
   */
   readonly zone: string;
 }
@@ -632,25 +632,25 @@ export class DnsViewDnssecRootKeysList extends cdktf.ComplexList {
 }
 export interface DnsViewDnssecTrustAnchors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#algorithm DnsView#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#algorithm DnsView#algorithm}
   */
   readonly algorithm: number;
   /**
   * DNSSEC key data. Non-empty, valid base64 string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#public_key DnsView#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#public_key DnsView#public_key}
   */
   readonly publicKey: string;
   /**
   * Optional. Secure Entry Point flag.  Defaults to _true_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#sep DnsView#sep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#sep DnsView#sep}
   */
   readonly sep?: boolean | cdktf.IResolvable;
   /**
   * Zone FQDN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#zone DnsView#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#zone DnsView#zone}
   */
   readonly zone: string;
 }
@@ -851,7 +851,7 @@ export interface DnsViewDtcConfig {
   /**
   * Optional. Default TTL for synthesized DTC records (value in seconds).  Defaults to 300.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#default_ttl DnsView#default_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#default_ttl DnsView#default_ttl}
   */
   readonly defaultTtl?: number;
 }
@@ -949,13 +949,13 @@ export interface DnsViewEcsZones {
   *  * _allow_
   *  * _deny_
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#access DnsView#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#access DnsView#access}
   */
   readonly access: string;
   /**
   * Zone FQDN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#fqdn DnsView#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#fqdn DnsView#fqdn}
   */
   readonly fqdn: string;
 }
@@ -1101,7 +1101,7 @@ export interface DnsViewFilterAaaaAclTsigKey {
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#key DnsView#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#key DnsView#key}
   */
   readonly key?: string;
 }
@@ -1228,19 +1228,19 @@ export interface DnsViewFilterAaaaAcl {
   * 
   *   Must be empty if _element_ is _acl_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#access DnsView#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#access DnsView#access}
   */
   readonly access?: string;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#acl DnsView#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#acl DnsView#acl}
   */
   readonly acl?: string;
   /**
   * Optional. Data for _ip_ _element_.  Must be empty if _element_ is not _ip_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#address DnsView#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#address DnsView#address}
   */
   readonly address?: string;
   /**
@@ -1252,11 +1252,11 @@ export interface DnsViewFilterAaaaAcl {
   *   * _acl_
   *   * _tsig_key_
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#element DnsView#element}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#element DnsView#element}
   */
   readonly element?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#tsig_key DnsView#tsig_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#tsig_key DnsView#tsig_key}
   */
   readonly tsigKey?: DnsViewFilterAaaaAclTsigKey;
 }
@@ -1490,13 +1490,13 @@ export interface DnsViewForwarders {
   /**
   * Server IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#address DnsView#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#address DnsView#address}
   */
   readonly address: string;
   /**
   * Server FQDN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#fqdn DnsView#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#fqdn DnsView#fqdn}
   */
   readonly fqdn: string;
 }
@@ -1646,7 +1646,7 @@ export interface DnsViewInheritanceSourcesAddEdnsOptionInOutgoingQuery {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#action DnsView#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#action DnsView#action}
   */
   readonly action?: string;
 }
@@ -1902,7 +1902,7 @@ export interface DnsViewInheritanceSourcesCustomRootNsBlock {
   /**
   * Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#action DnsView#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#action DnsView#action}
   */
   readonly action?: string;
 }
@@ -2179,7 +2179,7 @@ export interface DnsViewInheritanceSourcesDnssecValidationBlock {
   /**
   * Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#action DnsView#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#action DnsView#action}
   */
   readonly action?: string;
 }
@@ -2296,7 +2296,7 @@ export interface DnsViewInheritanceSourcesDtcConfigDefaultTtl {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#action DnsView#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#action DnsView#action}
   */
   readonly action?: string;
 }
@@ -2405,7 +2405,7 @@ export class DnsViewInheritanceSourcesDtcConfigDefaultTtlOutputReference extends
 }
 export interface DnsViewInheritanceSourcesDtcConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#default_ttl DnsView#default_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#default_ttl DnsView#default_ttl}
   */
   readonly defaultTtl?: DnsViewInheritanceSourcesDtcConfigDefaultTtl;
 }
@@ -2661,7 +2661,7 @@ export interface DnsViewInheritanceSourcesEcsBlock {
   /**
   * Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#action DnsView#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#action DnsView#action}
   */
   readonly action?: string;
 }
@@ -2778,7 +2778,7 @@ export interface DnsViewInheritanceSourcesEdnsUdpSize {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#action DnsView#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#action DnsView#action}
   */
   readonly action?: string;
 }
@@ -3064,7 +3064,7 @@ export interface DnsViewInheritanceSourcesFilterAaaaAcl {
   /**
   * Optional. Inheritance setting for a field. Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#action DnsView#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#action DnsView#action}
   */
   readonly action?: string;
 }
@@ -3181,7 +3181,7 @@ export interface DnsViewInheritanceSourcesFilterAaaaOnV4 {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#action DnsView#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#action DnsView#action}
   */
   readonly action?: string;
 }
@@ -3442,7 +3442,7 @@ export interface DnsViewInheritanceSourcesForwardersBlock {
   /**
   * Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#action DnsView#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#action DnsView#action}
   */
   readonly action?: string;
 }
@@ -3558,7 +3558,7 @@ export interface DnsViewInheritanceSourcesGssTsigEnabled {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#action DnsView#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#action DnsView#action}
   */
   readonly action?: string;
 }
@@ -3674,7 +3674,7 @@ export interface DnsViewInheritanceSourcesLameTtl {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#action DnsView#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#action DnsView#action}
   */
   readonly action?: string;
 }
@@ -3789,7 +3789,7 @@ export interface DnsViewInheritanceSourcesMatchRecursiveOnly {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#action DnsView#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#action DnsView#action}
   */
   readonly action?: string;
 }
@@ -3905,7 +3905,7 @@ export interface DnsViewInheritanceSourcesMaxCacheTtl {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#action DnsView#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#action DnsView#action}
   */
   readonly action?: string;
 }
@@ -4021,7 +4021,7 @@ export interface DnsViewInheritanceSourcesMaxNegativeTtl {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#action DnsView#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#action DnsView#action}
   */
   readonly action?: string;
 }
@@ -4137,7 +4137,7 @@ export interface DnsViewInheritanceSourcesMaxUdpSize {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#action DnsView#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#action DnsView#action}
   */
   readonly action?: string;
 }
@@ -4252,7 +4252,7 @@ export interface DnsViewInheritanceSourcesMinimalResponses {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#action DnsView#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#action DnsView#action}
   */
   readonly action?: string;
 }
@@ -4367,7 +4367,7 @@ export interface DnsViewInheritanceSourcesNotify {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#action DnsView#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#action DnsView#action}
   */
   readonly action?: string;
 }
@@ -4653,7 +4653,7 @@ export interface DnsViewInheritanceSourcesQueryAcl {
   /**
   * Optional. Inheritance setting for a field. Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#action DnsView#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#action DnsView#action}
   */
   readonly action?: string;
 }
@@ -4940,7 +4940,7 @@ export interface DnsViewInheritanceSourcesRecursionAcl {
   /**
   * Optional. Inheritance setting for a field. Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#action DnsView#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#action DnsView#action}
   */
   readonly action?: string;
 }
@@ -5056,7 +5056,7 @@ export interface DnsViewInheritanceSourcesRecursionEnabled {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#action DnsView#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#action DnsView#action}
   */
   readonly action?: string;
 }
@@ -5257,7 +5257,7 @@ export interface DnsViewInheritanceSourcesSortListStruct {
   /**
   * Optional. Inheritance setting for a field. Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#action DnsView#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#action DnsView#action}
   */
   readonly action?: string;
 }
@@ -5373,7 +5373,7 @@ export interface DnsViewInheritanceSourcesSynthesizeAddressRecordsFromHttps {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#action DnsView#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#action DnsView#action}
   */
   readonly action?: string;
 }
@@ -5659,7 +5659,7 @@ export interface DnsViewInheritanceSourcesTransferAcl {
   /**
   * Optional. Inheritance setting for a field. Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#action DnsView#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#action DnsView#action}
   */
   readonly action?: string;
 }
@@ -5946,7 +5946,7 @@ export interface DnsViewInheritanceSourcesUpdateAcl {
   /**
   * Optional. Inheritance setting for a field. Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#action DnsView#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#action DnsView#action}
   */
   readonly action?: string;
 }
@@ -6062,7 +6062,7 @@ export interface DnsViewInheritanceSourcesUseForwardersForSubzones {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#action DnsView#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#action DnsView#action}
   */
   readonly action?: string;
 }
@@ -6178,7 +6178,7 @@ export interface DnsViewInheritanceSourcesZoneAuthorityDefaultTtl {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#action DnsView#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#action DnsView#action}
   */
   readonly action?: string;
 }
@@ -6294,7 +6294,7 @@ export interface DnsViewInheritanceSourcesZoneAuthorityExpire {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#action DnsView#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#action DnsView#action}
   */
   readonly action?: string;
 }
@@ -6469,7 +6469,7 @@ export interface DnsViewInheritanceSourcesZoneAuthorityMnameBlock {
   /**
   * Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#action DnsView#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#action DnsView#action}
   */
   readonly action?: string;
 }
@@ -6586,7 +6586,7 @@ export interface DnsViewInheritanceSourcesZoneAuthorityNegativeTtl {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#action DnsView#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#action DnsView#action}
   */
   readonly action?: string;
 }
@@ -6702,7 +6702,7 @@ export interface DnsViewInheritanceSourcesZoneAuthorityProtocolRname {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#action DnsView#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#action DnsView#action}
   */
   readonly action?: string;
 }
@@ -6818,7 +6818,7 @@ export interface DnsViewInheritanceSourcesZoneAuthorityRefresh {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#action DnsView#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#action DnsView#action}
   */
   readonly action?: string;
 }
@@ -6934,7 +6934,7 @@ export interface DnsViewInheritanceSourcesZoneAuthorityRetry {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#action DnsView#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#action DnsView#action}
   */
   readonly action?: string;
 }
@@ -7050,7 +7050,7 @@ export interface DnsViewInheritanceSourcesZoneAuthorityRname {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#action DnsView#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#action DnsView#action}
   */
   readonly action?: string;
 }
@@ -7159,35 +7159,35 @@ export class DnsViewInheritanceSourcesZoneAuthorityRnameOutputReference extends 
 }
 export interface DnsViewInheritanceSourcesZoneAuthority {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#default_ttl DnsView#default_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#default_ttl DnsView#default_ttl}
   */
   readonly defaultTtl?: DnsViewInheritanceSourcesZoneAuthorityDefaultTtl;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#expire DnsView#expire}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#expire DnsView#expire}
   */
   readonly expire?: DnsViewInheritanceSourcesZoneAuthorityExpire;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#mname_block DnsView#mname_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#mname_block DnsView#mname_block}
   */
   readonly mnameBlock?: DnsViewInheritanceSourcesZoneAuthorityMnameBlock;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#negative_ttl DnsView#negative_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#negative_ttl DnsView#negative_ttl}
   */
   readonly negativeTtl?: DnsViewInheritanceSourcesZoneAuthorityNegativeTtl;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#protocol_rname DnsView#protocol_rname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#protocol_rname DnsView#protocol_rname}
   */
   readonly protocolRname?: DnsViewInheritanceSourcesZoneAuthorityProtocolRname;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#refresh DnsView#refresh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#refresh DnsView#refresh}
   */
   readonly refresh?: DnsViewInheritanceSourcesZoneAuthorityRefresh;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#retry DnsView#retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#retry DnsView#retry}
   */
   readonly retry?: DnsViewInheritanceSourcesZoneAuthorityRetry;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#rname DnsView#rname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#rname DnsView#rname}
   */
   readonly rname?: DnsViewInheritanceSourcesZoneAuthorityRname;
 }
@@ -7484,107 +7484,107 @@ export class DnsViewInheritanceSourcesZoneAuthorityOutputReference extends cdktf
 }
 export interface DnsViewInheritanceSources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#add_edns_option_in_outgoing_query DnsView#add_edns_option_in_outgoing_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#add_edns_option_in_outgoing_query DnsView#add_edns_option_in_outgoing_query}
   */
   readonly addEdnsOptionInOutgoingQuery?: DnsViewInheritanceSourcesAddEdnsOptionInOutgoingQuery;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#custom_root_ns_block DnsView#custom_root_ns_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#custom_root_ns_block DnsView#custom_root_ns_block}
   */
   readonly customRootNsBlock?: DnsViewInheritanceSourcesCustomRootNsBlock;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#dnssec_validation_block DnsView#dnssec_validation_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#dnssec_validation_block DnsView#dnssec_validation_block}
   */
   readonly dnssecValidationBlock?: DnsViewInheritanceSourcesDnssecValidationBlock;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#dtc_config DnsView#dtc_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#dtc_config DnsView#dtc_config}
   */
   readonly dtcConfig?: DnsViewInheritanceSourcesDtcConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#ecs_block DnsView#ecs_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#ecs_block DnsView#ecs_block}
   */
   readonly ecsBlock?: DnsViewInheritanceSourcesEcsBlock;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#edns_udp_size DnsView#edns_udp_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#edns_udp_size DnsView#edns_udp_size}
   */
   readonly ednsUdpSize?: DnsViewInheritanceSourcesEdnsUdpSize;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#filter_aaaa_acl DnsView#filter_aaaa_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#filter_aaaa_acl DnsView#filter_aaaa_acl}
   */
   readonly filterAaaaAcl?: DnsViewInheritanceSourcesFilterAaaaAcl;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#filter_aaaa_on_v4 DnsView#filter_aaaa_on_v4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#filter_aaaa_on_v4 DnsView#filter_aaaa_on_v4}
   */
   readonly filterAaaaOnV4?: DnsViewInheritanceSourcesFilterAaaaOnV4;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#forwarders_block DnsView#forwarders_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#forwarders_block DnsView#forwarders_block}
   */
   readonly forwardersBlock?: DnsViewInheritanceSourcesForwardersBlock;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#gss_tsig_enabled DnsView#gss_tsig_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#gss_tsig_enabled DnsView#gss_tsig_enabled}
   */
   readonly gssTsigEnabled?: DnsViewInheritanceSourcesGssTsigEnabled;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#lame_ttl DnsView#lame_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#lame_ttl DnsView#lame_ttl}
   */
   readonly lameTtl?: DnsViewInheritanceSourcesLameTtl;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#match_recursive_only DnsView#match_recursive_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#match_recursive_only DnsView#match_recursive_only}
   */
   readonly matchRecursiveOnly?: DnsViewInheritanceSourcesMatchRecursiveOnly;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#max_cache_ttl DnsView#max_cache_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#max_cache_ttl DnsView#max_cache_ttl}
   */
   readonly maxCacheTtl?: DnsViewInheritanceSourcesMaxCacheTtl;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#max_negative_ttl DnsView#max_negative_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#max_negative_ttl DnsView#max_negative_ttl}
   */
   readonly maxNegativeTtl?: DnsViewInheritanceSourcesMaxNegativeTtl;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#max_udp_size DnsView#max_udp_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#max_udp_size DnsView#max_udp_size}
   */
   readonly maxUdpSize?: DnsViewInheritanceSourcesMaxUdpSize;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#minimal_responses DnsView#minimal_responses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#minimal_responses DnsView#minimal_responses}
   */
   readonly minimalResponses?: DnsViewInheritanceSourcesMinimalResponses;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#notify DnsView#notify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#notify DnsView#notify}
   */
   readonly notify?: DnsViewInheritanceSourcesNotify;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#query_acl DnsView#query_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#query_acl DnsView#query_acl}
   */
   readonly queryAcl?: DnsViewInheritanceSourcesQueryAcl;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#recursion_acl DnsView#recursion_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#recursion_acl DnsView#recursion_acl}
   */
   readonly recursionAcl?: DnsViewInheritanceSourcesRecursionAcl;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#recursion_enabled DnsView#recursion_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#recursion_enabled DnsView#recursion_enabled}
   */
   readonly recursionEnabled?: DnsViewInheritanceSourcesRecursionEnabled;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#sort_list DnsView#sort_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#sort_list DnsView#sort_list}
   */
   readonly sortList?: DnsViewInheritanceSourcesSortListStruct;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#synthesize_address_records_from_https DnsView#synthesize_address_records_from_https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#synthesize_address_records_from_https DnsView#synthesize_address_records_from_https}
   */
   readonly synthesizeAddressRecordsFromHttps?: DnsViewInheritanceSourcesSynthesizeAddressRecordsFromHttps;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#transfer_acl DnsView#transfer_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#transfer_acl DnsView#transfer_acl}
   */
   readonly transferAcl?: DnsViewInheritanceSourcesTransferAcl;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#update_acl DnsView#update_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#update_acl DnsView#update_acl}
   */
   readonly updateAcl?: DnsViewInheritanceSourcesUpdateAcl;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#use_forwarders_for_subzones DnsView#use_forwarders_for_subzones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#use_forwarders_for_subzones DnsView#use_forwarders_for_subzones}
   */
   readonly useForwardersForSubzones?: DnsViewInheritanceSourcesUseForwardersForSubzones;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#zone_authority DnsView#zone_authority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#zone_authority DnsView#zone_authority}
   */
   readonly zoneAuthority?: DnsViewInheritanceSourcesZoneAuthority;
 }
@@ -8405,7 +8405,7 @@ export interface DnsViewMatchClientsAclTsigKey {
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#key DnsView#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#key DnsView#key}
   */
   readonly key?: string;
 }
@@ -8532,19 +8532,19 @@ export interface DnsViewMatchClientsAcl {
   * 
   *   Must be empty if _element_ is _acl_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#access DnsView#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#access DnsView#access}
   */
   readonly access?: string;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#acl DnsView#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#acl DnsView#acl}
   */
   readonly acl?: string;
   /**
   * Optional. Data for _ip_ _element_.  Must be empty if _element_ is not _ip_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#address DnsView#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#address DnsView#address}
   */
   readonly address?: string;
   /**
@@ -8556,11 +8556,11 @@ export interface DnsViewMatchClientsAcl {
   *   * _acl_
   *   * _tsig_key_
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#element DnsView#element}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#element DnsView#element}
   */
   readonly element?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#tsig_key DnsView#tsig_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#tsig_key DnsView#tsig_key}
   */
   readonly tsigKey?: DnsViewMatchClientsAclTsigKey;
 }
@@ -8794,7 +8794,7 @@ export interface DnsViewMatchDestinationsAclTsigKey {
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#key DnsView#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#key DnsView#key}
   */
   readonly key?: string;
 }
@@ -8921,19 +8921,19 @@ export interface DnsViewMatchDestinationsAcl {
   * 
   *   Must be empty if _element_ is _acl_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#access DnsView#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#access DnsView#access}
   */
   readonly access?: string;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#acl DnsView#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#acl DnsView#acl}
   */
   readonly acl?: string;
   /**
   * Optional. Data for _ip_ _element_.  Must be empty if _element_ is not _ip_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#address DnsView#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#address DnsView#address}
   */
   readonly address?: string;
   /**
@@ -8945,11 +8945,11 @@ export interface DnsViewMatchDestinationsAcl {
   *   * _acl_
   *   * _tsig_key_
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#element DnsView#element}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#element DnsView#element}
   */
   readonly element?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#tsig_key DnsView#tsig_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#tsig_key DnsView#tsig_key}
   */
   readonly tsigKey?: DnsViewMatchDestinationsAclTsigKey;
 }
@@ -9183,7 +9183,7 @@ export interface DnsViewQueryAclTsigKey {
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#key DnsView#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#key DnsView#key}
   */
   readonly key?: string;
 }
@@ -9310,19 +9310,19 @@ export interface DnsViewQueryAcl {
   * 
   *   Must be empty if _element_ is _acl_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#access DnsView#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#access DnsView#access}
   */
   readonly access?: string;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#acl DnsView#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#acl DnsView#acl}
   */
   readonly acl?: string;
   /**
   * Optional. Data for _ip_ _element_.  Must be empty if _element_ is not _ip_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#address DnsView#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#address DnsView#address}
   */
   readonly address?: string;
   /**
@@ -9334,11 +9334,11 @@ export interface DnsViewQueryAcl {
   *   * _acl_
   *   * _tsig_key_
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#element DnsView#element}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#element DnsView#element}
   */
   readonly element?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#tsig_key DnsView#tsig_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#tsig_key DnsView#tsig_key}
   */
   readonly tsigKey?: DnsViewQueryAclTsigKey;
 }
@@ -9572,7 +9572,7 @@ export interface DnsViewRecursionAclTsigKey {
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#key DnsView#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#key DnsView#key}
   */
   readonly key?: string;
 }
@@ -9699,19 +9699,19 @@ export interface DnsViewRecursionAcl {
   * 
   *   Must be empty if _element_ is _acl_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#access DnsView#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#access DnsView#access}
   */
   readonly access?: string;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#acl DnsView#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#acl DnsView#acl}
   */
   readonly acl?: string;
   /**
   * Optional. Data for _ip_ _element_.  Must be empty if _element_ is not _ip_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#address DnsView#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#address DnsView#address}
   */
   readonly address?: string;
   /**
@@ -9723,11 +9723,11 @@ export interface DnsViewRecursionAcl {
   *   * _acl_
   *   * _tsig_key_
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#element DnsView#element}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#element DnsView#element}
   */
   readonly element?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#tsig_key DnsView#tsig_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#tsig_key DnsView#tsig_key}
   */
   readonly tsigKey?: DnsViewRecursionAclTsigKey;
 }
@@ -9961,7 +9961,7 @@ export interface DnsViewSortListStruct {
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#acl DnsView#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#acl DnsView#acl}
   */
   readonly acl?: string;
   /**
@@ -9973,19 +9973,19 @@ export interface DnsViewSortListStruct {
   *   * _acl_
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#element DnsView#element}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#element DnsView#element}
   */
   readonly element: string;
   /**
   * Optional. The prioritized networks. If empty, the value of _source_ or networks from _acl_ is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#prioritized_networks DnsView#prioritized_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#prioritized_networks DnsView#prioritized_networks}
   */
   readonly prioritizedNetworks?: string[];
   /**
   * Must be empty if _element_ is not _ip_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#source DnsView#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#source DnsView#source}
   */
   readonly source?: string;
 }
@@ -10187,7 +10187,7 @@ export interface DnsViewTransferAclTsigKey {
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#key DnsView#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#key DnsView#key}
   */
   readonly key?: string;
 }
@@ -10314,19 +10314,19 @@ export interface DnsViewTransferAcl {
   * 
   *   Must be empty if _element_ is _acl_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#access DnsView#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#access DnsView#access}
   */
   readonly access?: string;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#acl DnsView#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#acl DnsView#acl}
   */
   readonly acl?: string;
   /**
   * Optional. Data for _ip_ _element_.  Must be empty if _element_ is not _ip_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#address DnsView#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#address DnsView#address}
   */
   readonly address?: string;
   /**
@@ -10338,11 +10338,11 @@ export interface DnsViewTransferAcl {
   *   * _acl_
   *   * _tsig_key_
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#element DnsView#element}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#element DnsView#element}
   */
   readonly element?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#tsig_key DnsView#tsig_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#tsig_key DnsView#tsig_key}
   */
   readonly tsigKey?: DnsViewTransferAclTsigKey;
 }
@@ -10576,7 +10576,7 @@ export interface DnsViewUpdateAclTsigKey {
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#key DnsView#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#key DnsView#key}
   */
   readonly key?: string;
 }
@@ -10703,19 +10703,19 @@ export interface DnsViewUpdateAcl {
   * 
   *   Must be empty if _element_ is _acl_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#access DnsView#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#access DnsView#access}
   */
   readonly access?: string;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#acl DnsView#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#acl DnsView#acl}
   */
   readonly acl?: string;
   /**
   * Optional. Data for _ip_ _element_.  Must be empty if _element_ is not _ip_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#address DnsView#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#address DnsView#address}
   */
   readonly address?: string;
   /**
@@ -10727,11 +10727,11 @@ export interface DnsViewUpdateAcl {
   *   * _acl_
   *   * _tsig_key_
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#element DnsView#element}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#element DnsView#element}
   */
   readonly element?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#tsig_key DnsView#tsig_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#tsig_key DnsView#tsig_key}
   */
   readonly tsigKey?: DnsViewUpdateAclTsigKey;
 }
@@ -10965,49 +10965,49 @@ export interface DnsViewZoneAuthority {
   /**
   * Optional. ZoneAuthority default ttl for resource records in zone (value in seconds).  Defaults to 28800.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#default_ttl DnsView#default_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#default_ttl DnsView#default_ttl}
   */
   readonly defaultTtl?: number;
   /**
   * Optional. ZoneAuthority expire time in seconds.  Defaults to 2419200.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#expire DnsView#expire}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#expire DnsView#expire}
   */
   readonly expire?: number;
   /**
   * Defaults to empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#mname DnsView#mname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#mname DnsView#mname}
   */
   readonly mname?: string;
   /**
   * Optional. ZoneAuthority negative caching (minimum) ttl in seconds.  Defaults to 900.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#negative_ttl DnsView#negative_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#negative_ttl DnsView#negative_ttl}
   */
   readonly negativeTtl?: number;
   /**
   * Optional. ZoneAuthority refresh.  Defaults to 10800.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#refresh DnsView#refresh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#refresh DnsView#refresh}
   */
   readonly refresh?: number;
   /**
   * Optional. ZoneAuthority retry.  Defaults to 3600.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#retry DnsView#retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#retry DnsView#retry}
   */
   readonly retry?: number;
   /**
   * Optional. ZoneAuthority rname.  Defaults to empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#rname DnsView#rname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#rname DnsView#rname}
   */
   readonly rname?: string;
   /**
   * Optional. Use default value for master name server.  Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#use_default_mname DnsView#use_default_mname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#use_default_mname DnsView#use_default_mname}
   */
   readonly useDefaultMname?: boolean | cdktf.IResolvable;
 }
@@ -11314,7 +11314,7 @@ export class DnsViewZoneAuthorityOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view bloxone_dns_view}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view bloxone_dns_view}
 */
 export class DnsView extends cdktf.TerraformResource {
 
@@ -11330,7 +11330,7 @@ export class DnsView extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DnsView resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DnsView to import
-  * @param importFromId The id of the existing DnsView that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DnsView that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DnsView to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -11342,7 +11342,7 @@ export class DnsView extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_view bloxone_dns_view} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_view bloxone_dns_view} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -11353,8 +11353,8 @@ export class DnsView extends cdktf.TerraformResource {
       terraformResourceType: 'bloxone_dns_view',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.5.4',
+        providerVersionConstraint: '1.5.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

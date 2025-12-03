@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_instance
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/sqlserver_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface SqlserverInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Automatic renewal sign. 0 for normal renewal, 1 for automatic renewal (Default). Only valid when purchasing a prepaid instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_instance#auto_renew SqlserverInstance#auto_renew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/sqlserver_instance#auto_renew SqlserverInstance#auto_renew}
   */
   readonly autoRenew?: number;
   /**
   * Whether to use the voucher automatically; 1 for yes, 0 for no, the default is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_instance#auto_voucher SqlserverInstance#auto_voucher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/sqlserver_instance#auto_voucher SqlserverInstance#auto_voucher}
   */
   readonly autoVoucher?: number;
   /**
   * Availability zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_instance#availability_zone SqlserverInstance#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/sqlserver_instance#availability_zone SqlserverInstance#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
   * Pay type of the SQL Server instance. Available values `PREPAID`, `POSTPAID_BY_HOUR`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_instance#charge_type SqlserverInstance#charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/sqlserver_instance#charge_type SqlserverInstance#charge_type}
   */
   readonly chargeType?: string;
   /**
   * Version of the SQL Server database engine. Allowed values are `2008R2`(SQL Server 2008 Enterprise), `2012SP3`(SQL Server 2012 Enterprise), `2016SP1` (SQL Server 2016 Enterprise), `201602`(SQL Server 2016 Standard) and `2017`(SQL Server 2017 Enterprise). Default is `2008R2`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_instance#engine_version SqlserverInstance#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/sqlserver_instance#engine_version SqlserverInstance#engine_version}
   */
   readonly engineVersion?: string;
   /**
   * Instance type. `DUAL` (dual-server high availability), `CLUSTER` (cluster). Default is `DUAL`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_instance#ha_type SqlserverInstance#ha_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/sqlserver_instance#ha_type SqlserverInstance#ha_type}
   */
   readonly haType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_instance#id SqlserverInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/sqlserver_instance#id SqlserverInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,103 +53,103 @@ export interface SqlserverInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Start time of the maintenance in one day, format like `HH:mm`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_instance#maintenance_start_time SqlserverInstance#maintenance_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/sqlserver_instance#maintenance_start_time SqlserverInstance#maintenance_start_time}
   */
   readonly maintenanceStartTime?: string;
   /**
   * The timespan of maintenance in one day, unit is hour.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_instance#maintenance_time_span SqlserverInstance#maintenance_time_span}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/sqlserver_instance#maintenance_time_span SqlserverInstance#maintenance_time_span}
   */
   readonly maintenanceTimeSpan?: number;
   /**
   * A list of integer indicates weekly maintenance. For example, [2,7] presents do weekly maintenance on every Tuesday and Sunday.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_instance#maintenance_week_set SqlserverInstance#maintenance_week_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/sqlserver_instance#maintenance_week_set SqlserverInstance#maintenance_week_set}
   */
   readonly maintenanceWeekSet?: number[];
   /**
   * Memory size (in GB). Allowed value must be larger than `memory` that data source `tencentcloud_sqlserver_specinfos` provides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_instance#memory SqlserverInstance#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/sqlserver_instance#memory SqlserverInstance#memory}
   */
   readonly memory: number;
   /**
   * Indicate whether to deploy across availability zones.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_instance#multi_zones SqlserverInstance#multi_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/sqlserver_instance#multi_zones SqlserverInstance#multi_zones}
   */
   readonly multiZones?: boolean | cdktf.IResolvable;
   /**
   * Name of the SQL Server instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_instance#name SqlserverInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/sqlserver_instance#name SqlserverInstance#name}
   */
   readonly name: string;
   /**
   * Purchase instance period in month. The value does not exceed 48.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_instance#period SqlserverInstance#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/sqlserver_instance#period SqlserverInstance#period}
   */
   readonly period?: number;
   /**
   * Project ID, default value is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_instance#project_id SqlserverInstance#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/sqlserver_instance#project_id SqlserverInstance#project_id}
   */
   readonly projectId?: number;
   /**
   * Security group bound to the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_instance#security_groups SqlserverInstance#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/sqlserver_instance#security_groups SqlserverInstance#security_groups}
   */
   readonly securityGroups?: string[];
   /**
   * Disk size (in GB). Allowed value must be a multiple of 10. The storage must be set with the limit of `storage_min` and `storage_max` which data source `tencentcloud_sqlserver_specinfos` provides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_instance#storage SqlserverInstance#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/sqlserver_instance#storage SqlserverInstance#storage}
   */
   readonly storage: number;
   /**
   * ID of subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_instance#subnet_id SqlserverInstance#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/sqlserver_instance#subnet_id SqlserverInstance#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * The tags of the SQL Server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_instance#tags SqlserverInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/sqlserver_instance#tags SqlserverInstance#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * System time zone, default: `China Standard Time`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_instance#time_zone SqlserverInstance#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/sqlserver_instance#time_zone SqlserverInstance#time_zone}
   */
   readonly timeZone?: string;
   /**
   * An array of voucher IDs, currently only one can be used for a single order.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_instance#voucher_ids SqlserverInstance#voucher_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/sqlserver_instance#voucher_ids SqlserverInstance#voucher_ids}
   */
   readonly voucherIds?: string[];
   /**
   * ID of VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_instance#vpc_id SqlserverInstance#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/sqlserver_instance#vpc_id SqlserverInstance#vpc_id}
   */
   readonly vpcId?: string;
   /**
   * The way to execute the allocation. Supported values include: 0 - execute immediately, 1 - execute in maintenance window.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_instance#wait_switch SqlserverInstance#wait_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/sqlserver_instance#wait_switch SqlserverInstance#wait_switch}
   */
   readonly waitSwitch?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_instance tencentcloud_sqlserver_instance}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/sqlserver_instance tencentcloud_sqlserver_instance}
 */
 export class SqlserverInstance extends cdktf.TerraformResource {
 
@@ -165,7 +165,7 @@ export class SqlserverInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SqlserverInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SqlserverInstance to import
-  * @param importFromId The id of the existing SqlserverInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SqlserverInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/sqlserver_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SqlserverInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -177,7 +177,7 @@ export class SqlserverInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/sqlserver_instance tencentcloud_sqlserver_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/sqlserver_instance tencentcloud_sqlserver_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -188,8 +188,8 @@ export class SqlserverInstance extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_sqlserver_instance',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.39',
-        providerVersionConstraint: '1.82.39'
+        providerVersion: '1.82.40',
+        providerVersionConstraint: '1.82.40'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

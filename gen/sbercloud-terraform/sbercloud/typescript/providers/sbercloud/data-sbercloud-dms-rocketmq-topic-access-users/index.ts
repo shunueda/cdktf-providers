@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_rocketmq_topic_access_users
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_rocketmq_topic_access_users
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataSbercloudDmsRocketmqTopicAccessUsersConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_rocketmq_topic_access_users#id DataSbercloudDmsRocketmqTopicAccessUsers#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_rocketmq_topic_access_users#id DataSbercloudDmsRocketmqTopicAccessUsers#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataSbercloudDmsRocketmqTopicAccessUsersConfig extends cdktf.Te
   /**
   * Specifies the instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_rocketmq_topic_access_users#instance_id DataSbercloudDmsRocketmqTopicAccessUsers#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_rocketmq_topic_access_users#instance_id DataSbercloudDmsRocketmqTopicAccessUsers#instance_id}
   */
   readonly instanceId: string;
   /**
   * Specifies the region in which to query the resource. If omitted, the provider-level region will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_rocketmq_topic_access_users#region DataSbercloudDmsRocketmqTopicAccessUsers#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_rocketmq_topic_access_users#region DataSbercloudDmsRocketmqTopicAccessUsers#region}
   */
   readonly region?: string;
   /**
   * Specifies the topic name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_rocketmq_topic_access_users#topic DataSbercloudDmsRocketmqTopicAccessUsers#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_rocketmq_topic_access_users#topic DataSbercloudDmsRocketmqTopicAccessUsers#topic}
   */
   readonly topic: string;
 }
@@ -125,7 +125,7 @@ export class DataSbercloudDmsRocketmqTopicAccessUsersPoliciesList extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_rocketmq_topic_access_users sbercloud_dms_rocketmq_topic_access_users}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_rocketmq_topic_access_users sbercloud_dms_rocketmq_topic_access_users}
 */
 export class DataSbercloudDmsRocketmqTopicAccessUsers extends cdktf.TerraformDataSource {
 
@@ -141,7 +141,7 @@ export class DataSbercloudDmsRocketmqTopicAccessUsers extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataSbercloudDmsRocketmqTopicAccessUsers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSbercloudDmsRocketmqTopicAccessUsers to import
-  * @param importFromId The id of the existing DataSbercloudDmsRocketmqTopicAccessUsers that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_rocketmq_topic_access_users#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSbercloudDmsRocketmqTopicAccessUsers that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_rocketmq_topic_access_users#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSbercloudDmsRocketmqTopicAccessUsers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -153,7 +153,7 @@ export class DataSbercloudDmsRocketmqTopicAccessUsers extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_rocketmq_topic_access_users sbercloud_dms_rocketmq_topic_access_users} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_rocketmq_topic_access_users sbercloud_dms_rocketmq_topic_access_users} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -164,8 +164,8 @@ export class DataSbercloudDmsRocketmqTopicAccessUsers extends cdktf.TerraformDat
       terraformResourceType: 'sbercloud_dms_rocketmq_topic_access_users',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

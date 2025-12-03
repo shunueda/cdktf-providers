@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/bi_datasource
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/bi_datasource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,71 +10,71 @@ export interface BiDatasourceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Catalog.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/bi_datasource#catalog BiDatasource#catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/bi_datasource#catalog BiDatasource#catalog}
   */
   readonly catalog?: string;
   /**
   * Charset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/bi_datasource#charset BiDatasource#charset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/bi_datasource#charset BiDatasource#charset}
   */
   readonly charset: string;
   /**
   * Third-party datasource identification, this parameter can be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/bi_datasource#data_origin BiDatasource#data_origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/bi_datasource#data_origin BiDatasource#data_origin}
   */
   readonly dataOrigin?: string;
   /**
   * Third-party datasource project id, this parameter can be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/bi_datasource#data_origin_datasource_id BiDatasource#data_origin_datasource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/bi_datasource#data_origin_datasource_id BiDatasource#data_origin_datasource_id}
   */
   readonly dataOriginDatasourceId?: string;
   /**
   * Third-party datasource project id, this parameter can be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/bi_datasource#data_origin_project_id BiDatasource#data_origin_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/bi_datasource#data_origin_project_id BiDatasource#data_origin_project_id}
   */
   readonly dataOriginProjectId?: string;
   /**
   * Host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/bi_datasource#db_host BiDatasource#db_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/bi_datasource#db_host BiDatasource#db_host}
   */
   readonly dbHost: string;
   /**
   * Database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/bi_datasource#db_name BiDatasource#db_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/bi_datasource#db_name BiDatasource#db_name}
   */
   readonly dbName: string;
   /**
   * Port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/bi_datasource#db_port BiDatasource#db_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/bi_datasource#db_port BiDatasource#db_port}
   */
   readonly dbPort: number;
   /**
   * Password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/bi_datasource#db_pwd BiDatasource#db_pwd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/bi_datasource#db_pwd BiDatasource#db_pwd}
   */
   readonly dbPwd: string;
   /**
   * `MYSQL`, `MSSQL`, `POSTGRE`, `ORACLE`, `CLICKHOUSE`, `TIDB`, `HIVE`, `PRESTO`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/bi_datasource#db_type BiDatasource#db_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/bi_datasource#db_type BiDatasource#db_type}
   */
   readonly dbType: string;
   /**
   * User name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/bi_datasource#db_user BiDatasource#db_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/bi_datasource#db_user BiDatasource#db_user}
   */
   readonly dbUser: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/bi_datasource#id BiDatasource#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/bi_datasource#id BiDatasource#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,37 +83,37 @@ export interface BiDatasourceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Project id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/bi_datasource#project_id BiDatasource#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/bi_datasource#project_id BiDatasource#project_id}
   */
   readonly projectId: number;
   /**
   * Own or Cloud, default: `Own`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/bi_datasource#service_type BiDatasource#service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/bi_datasource#service_type BiDatasource#service_type}
   */
   readonly serviceType?: string;
   /**
   * Datasource name in BI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/bi_datasource#source_name BiDatasource#source_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/bi_datasource#source_name BiDatasource#source_name}
   */
   readonly sourceName: string;
   /**
   * Tencent cloud private network unified identity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/bi_datasource#uniq_vpc_id BiDatasource#uniq_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/bi_datasource#uniq_vpc_id BiDatasource#uniq_vpc_id}
   */
   readonly uniqVpcId?: string;
   /**
   * Tencent cloud private network identity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/bi_datasource#vpc_id BiDatasource#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/bi_datasource#vpc_id BiDatasource#vpc_id}
   */
   readonly vpcId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/bi_datasource tencentcloud_bi_datasource}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/bi_datasource tencentcloud_bi_datasource}
 */
 export class BiDatasource extends cdktf.TerraformResource {
 
@@ -129,7 +129,7 @@ export class BiDatasource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BiDatasource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BiDatasource to import
-  * @param importFromId The id of the existing BiDatasource that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/bi_datasource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BiDatasource that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/bi_datasource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BiDatasource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -141,7 +141,7 @@ export class BiDatasource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/bi_datasource tencentcloud_bi_datasource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/bi_datasource tencentcloud_bi_datasource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -152,8 +152,8 @@ export class BiDatasource extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_bi_datasource',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.39',
-        providerVersionConstraint: '1.82.39'
+        providerVersion: '1.82.40',
+        providerVersionConstraint: '1.82.40'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

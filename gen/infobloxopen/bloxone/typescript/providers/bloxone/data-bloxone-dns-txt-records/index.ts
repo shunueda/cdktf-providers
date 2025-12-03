@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_txt_records
+// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_txt_records
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataBloxoneDnsTxtRecordsConfig extends cdktf.TerraformMetaArgum
   /**
   * Filter are used to return a more specific list of results. Filters can be used to match resources by specific attributes, e.g. name. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_txt_records#filters DataBloxoneDnsTxtRecords#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_txt_records#filters DataBloxoneDnsTxtRecords#filters}
   */
   readonly filters?: { [key: string]: string };
   /**
   * Tag Filters are used to return a more specific list of results filtered by tags. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_txt_records#tag_filters DataBloxoneDnsTxtRecords#tag_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_txt_records#tag_filters DataBloxoneDnsTxtRecords#tag_filters}
   */
   readonly tagFilters?: { [key: string]: string };
 }
@@ -28,7 +28,7 @@ export interface DataBloxoneDnsTxtRecordsResultsInheritanceSourcesTtl {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_txt_records#action DataBloxoneDnsTxtRecords#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_txt_records#action DataBloxoneDnsTxtRecords#action}
   */
   readonly action?: string;
 }
@@ -137,7 +137,7 @@ export class DataBloxoneDnsTxtRecordsResultsInheritanceSourcesTtlOutputReference
 }
 export interface DataBloxoneDnsTxtRecordsResultsInheritanceSources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_txt_records#ttl DataBloxoneDnsTxtRecords#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_txt_records#ttl DataBloxoneDnsTxtRecords#ttl}
   */
   readonly ttl?: DataBloxoneDnsTxtRecordsResultsInheritanceSourcesTtl;
 }
@@ -280,7 +280,7 @@ export class DataBloxoneDnsTxtRecordsResultsOptionsOutputReference extends cdktf
 }
 export interface DataBloxoneDnsTxtRecordsResultsRdata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_txt_records#text DataBloxoneDnsTxtRecords#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_txt_records#text DataBloxoneDnsTxtRecords#text}
   */
   readonly text: string;
 }
@@ -363,57 +363,57 @@ export interface DataBloxoneDnsTxtRecordsResults {
   /**
   * Synthetic field, used to determine _zone_ and/or _name_in_zone_ field for records.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_txt_records#absolute_name_spec DataBloxoneDnsTxtRecords#absolute_name_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_txt_records#absolute_name_spec DataBloxoneDnsTxtRecords#absolute_name_spec}
   */
   readonly absoluteNameSpec?: string;
   /**
   * The description for the DNS resource record. May contain 0 to 1024 characters. Can include UTF-8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_txt_records#comment DataBloxoneDnsTxtRecords#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_txt_records#comment DataBloxoneDnsTxtRecords#comment}
   */
   readonly comment?: string;
   /**
   * Indicates if the DNS resource record is disabled. A disabled object is effectively non-existent when generating configuration.  Defaults to _false_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_txt_records#disabled DataBloxoneDnsTxtRecords#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_txt_records#disabled DataBloxoneDnsTxtRecords#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_txt_records#inheritance_sources DataBloxoneDnsTxtRecords#inheritance_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_txt_records#inheritance_sources DataBloxoneDnsTxtRecords#inheritance_sources}
   */
   readonly inheritanceSources?: DataBloxoneDnsTxtRecordsResultsInheritanceSources;
   /**
   * The relative owner name to the zone origin. Must be specified for creating the DNS resource record and is read only for other operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_txt_records#name_in_zone DataBloxoneDnsTxtRecords#name_in_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_txt_records#name_in_zone DataBloxoneDnsTxtRecords#name_in_zone}
   */
   readonly nameInZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_txt_records#rdata DataBloxoneDnsTxtRecords#rdata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_txt_records#rdata DataBloxoneDnsTxtRecords#rdata}
   */
   readonly rdata: DataBloxoneDnsTxtRecordsResultsRdata;
   /**
   * The tags for the DNS resource record in JSON format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_txt_records#tags DataBloxoneDnsTxtRecords#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_txt_records#tags DataBloxoneDnsTxtRecords#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The record time to live value in seconds. The range of this value is 0 to 2147483647.  Defaults to TTL value from the SOA record of the zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_txt_records#ttl DataBloxoneDnsTxtRecords#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_txt_records#ttl DataBloxoneDnsTxtRecords#ttl}
   */
   readonly ttl?: number;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_txt_records#view DataBloxoneDnsTxtRecords#view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_txt_records#view DataBloxoneDnsTxtRecords#view}
   */
   readonly view?: string;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_txt_records#zone DataBloxoneDnsTxtRecords#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_txt_records#zone DataBloxoneDnsTxtRecords#zone}
   */
   readonly zone?: string;
 }
@@ -865,7 +865,7 @@ export class DataBloxoneDnsTxtRecordsResultsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_txt_records bloxone_dns_txt_records}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_txt_records bloxone_dns_txt_records}
 */
 export class DataBloxoneDnsTxtRecords extends cdktf.TerraformDataSource {
 
@@ -881,7 +881,7 @@ export class DataBloxoneDnsTxtRecords extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataBloxoneDnsTxtRecords resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataBloxoneDnsTxtRecords to import
-  * @param importFromId The id of the existing DataBloxoneDnsTxtRecords that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_txt_records#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataBloxoneDnsTxtRecords that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_txt_records#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataBloxoneDnsTxtRecords to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -893,7 +893,7 @@ export class DataBloxoneDnsTxtRecords extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_txt_records bloxone_dns_txt_records} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_txt_records bloxone_dns_txt_records} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -904,8 +904,8 @@ export class DataBloxoneDnsTxtRecords extends cdktf.TerraformDataSource {
       terraformResourceType: 'bloxone_dns_txt_records',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.5.4',
+        providerVersionConstraint: '1.5.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_network_list
+// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_network_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface TdNetworkListConfig extends cdktf.TerraformMetaArguments {
   /**
   * The brief description for the network list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_network_list#description TdNetworkList#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_network_list#description TdNetworkList#description}
   */
   readonly description?: string;
   /**
   * The list of networks' CIDRs that are subject for malicious attacks protection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_network_list#items TdNetworkList#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_network_list#items TdNetworkList#items}
   */
   readonly items: string[];
   /**
   * The name of the network list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_network_list#name TdNetworkList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_network_list#name TdNetworkList#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_network_list bloxone_td_network_list}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_network_list bloxone_td_network_list}
 */
 export class TdNetworkList extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class TdNetworkList extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TdNetworkList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TdNetworkList to import
-  * @param importFromId The id of the existing TdNetworkList that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_network_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TdNetworkList that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_network_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TdNetworkList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class TdNetworkList extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_network_list bloxone_td_network_list} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_network_list bloxone_td_network_list} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class TdNetworkList extends cdktf.TerraformResource {
       terraformResourceType: 'bloxone_td_network_list',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.5.4',
+        providerVersionConstraint: '1.5.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

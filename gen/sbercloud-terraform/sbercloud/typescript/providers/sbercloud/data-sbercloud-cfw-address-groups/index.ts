@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_address_groups
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_address_groups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface DataSbercloudCfwAddressGroupsConfig extends cdktf.TerraformMeta
   /**
   * Specifies IP address of the IP address group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_address_groups#address DataSbercloudCfwAddressGroups#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_address_groups#address DataSbercloudCfwAddressGroups#address}
   */
   readonly address?: string;
   /**
   * Specifies the IP address type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_address_groups#address_type DataSbercloudCfwAddressGroups#address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_address_groups#address_type DataSbercloudCfwAddressGroups#address_type}
   */
   readonly addressType?: string;
   /**
   * Specifies the enterprise project id to which the IP address group belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_address_groups#enterprise_project_id DataSbercloudCfwAddressGroups#enterprise_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_address_groups#enterprise_project_id DataSbercloudCfwAddressGroups#enterprise_project_id}
   */
   readonly enterpriseProjectId?: string;
   /**
   * Specifies the firewall instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_address_groups#fw_instance_id DataSbercloudCfwAddressGroups#fw_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_address_groups#fw_instance_id DataSbercloudCfwAddressGroups#fw_instance_id}
   */
   readonly fwInstanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_address_groups#id DataSbercloudCfwAddressGroups#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_address_groups#id DataSbercloudCfwAddressGroups#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,31 +41,31 @@ export interface DataSbercloudCfwAddressGroupsConfig extends cdktf.TerraformMeta
   /**
   * Specifies the keyword of the address group description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_address_groups#key_word DataSbercloudCfwAddressGroups#key_word}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_address_groups#key_word DataSbercloudCfwAddressGroups#key_word}
   */
   readonly keyWord?: string;
   /**
   * Specifies the name of the address group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_address_groups#name DataSbercloudCfwAddressGroups#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_address_groups#name DataSbercloudCfwAddressGroups#name}
   */
   readonly name?: string;
   /**
   * Specifies the protected object ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_address_groups#object_id DataSbercloudCfwAddressGroups#object_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_address_groups#object_id DataSbercloudCfwAddressGroups#object_id}
   */
   readonly objectId: string;
   /**
   * Specifies the address group type of the query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_address_groups#query_address_set_type DataSbercloudCfwAddressGroups#query_address_set_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_address_groups#query_address_set_type DataSbercloudCfwAddressGroups#query_address_set_type}
   */
   readonly queryAddressSetType?: number;
   /**
   * Specifies the region in which to query the resource. If omitted, the provider-level region will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_address_groups#region DataSbercloudCfwAddressGroups#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_address_groups#region DataSbercloudCfwAddressGroups#region}
   */
   readonly region?: string;
 }
@@ -176,7 +176,7 @@ export class DataSbercloudCfwAddressGroupsAddressGroupsList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_address_groups sbercloud_cfw_address_groups}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_address_groups sbercloud_cfw_address_groups}
 */
 export class DataSbercloudCfwAddressGroups extends cdktf.TerraformDataSource {
 
@@ -192,7 +192,7 @@ export class DataSbercloudCfwAddressGroups extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSbercloudCfwAddressGroups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSbercloudCfwAddressGroups to import
-  * @param importFromId The id of the existing DataSbercloudCfwAddressGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_address_groups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSbercloudCfwAddressGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_address_groups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSbercloudCfwAddressGroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -204,7 +204,7 @@ export class DataSbercloudCfwAddressGroups extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_address_groups sbercloud_cfw_address_groups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_address_groups sbercloud_cfw_address_groups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -215,8 +215,8 @@ export class DataSbercloudCfwAddressGroups extends cdktf.TerraformDataSource {
       terraformResourceType: 'sbercloud_cfw_address_groups',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

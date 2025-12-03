@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_access_code
+// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_access_code
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface TdAccessCodeConfig extends cdktf.TerraformMetaArguments {
   /**
   * The time when the Bypass Code object was activated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_access_code#activation TdAccessCode#activation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_access_code#activation TdAccessCode#activation}
   */
   readonly activation: string;
   /**
   * The brief description for an access code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_access_code#description TdAccessCode#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_access_code#description TdAccessCode#description}
   */
   readonly description?: string;
   /**
   * The time when the Bypass Code object expires.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_access_code#expiration TdAccessCode#expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_access_code#expiration TdAccessCode#expiration}
   */
   readonly expiration: string;
   /**
   * The name of Bypass Code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_access_code#name TdAccessCode#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_access_code#name TdAccessCode#name}
   */
   readonly name: string;
   /**
   * The list of selected security rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_access_code#rules TdAccessCode#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_access_code#rules TdAccessCode#rules}
   */
   readonly rules: TdAccessCodeRules[] | cdktf.IResolvable;
 }
@@ -42,31 +42,31 @@ export interface TdAccessCodeRules {
   /**
   * The action to be used in the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_access_code#action TdAccessCode#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_access_code#action TdAccessCode#action}
   */
   readonly action?: string;
   /**
   * The data to be used in the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_access_code#data TdAccessCode#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_access_code#data TdAccessCode#data}
   */
   readonly data?: string;
   /**
   * The brief description of the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_access_code#description TdAccessCode#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_access_code#description TdAccessCode#description}
   */
   readonly description?: string;
   /**
   * The name of the redirect to be used in the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_access_code#redirect_name TdAccessCode#redirect_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_access_code#redirect_name TdAccessCode#redirect_name}
   */
   readonly redirectName?: string;
   /**
   * The type of the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_access_code#type TdAccessCode#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_access_code#type TdAccessCode#type}
   */
   readonly type?: string;
 }
@@ -298,7 +298,7 @@ export class TdAccessCodeRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_access_code bloxone_td_access_code}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_access_code bloxone_td_access_code}
 */
 export class TdAccessCode extends cdktf.TerraformResource {
 
@@ -314,7 +314,7 @@ export class TdAccessCode extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TdAccessCode resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TdAccessCode to import
-  * @param importFromId The id of the existing TdAccessCode that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_access_code#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TdAccessCode that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_access_code#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TdAccessCode to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -326,7 +326,7 @@ export class TdAccessCode extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_access_code bloxone_td_access_code} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_access_code bloxone_td_access_code} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -337,8 +337,8 @@ export class TdAccessCode extends cdktf.TerraformResource {
       terraformResourceType: 'bloxone_td_access_code',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.5.4',
+        providerVersionConstraint: '1.5.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

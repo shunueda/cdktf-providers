@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones
+// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataBloxoneDnsAuthZonesConfig extends cdktf.TerraformMetaArgume
   /**
   * Filter are used to return a more specific list of results. Filters can be used to match resources by specific attributes, e.g. name. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#filters DataBloxoneDnsAuthZones#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#filters DataBloxoneDnsAuthZones#filters}
   */
   readonly filters?: { [key: string]: string };
   /**
   * Tag Filters are used to return a more specific list of results filtered by tags. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#tag_filters DataBloxoneDnsAuthZones#tag_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#tag_filters DataBloxoneDnsAuthZones#tag_filters}
   */
   readonly tagFilters?: { [key: string]: string };
 }
@@ -24,7 +24,7 @@ export interface DataBloxoneDnsAuthZonesResultsExternalPrimariesTsigKey {
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#key DataBloxoneDnsAuthZones#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#key DataBloxoneDnsAuthZones#key}
   */
   readonly key?: string;
 }
@@ -145,35 +145,35 @@ export interface DataBloxoneDnsAuthZonesResultsExternalPrimaries {
   /**
   * Optional. Required only if _type_ is _server_. IP Address of nameserver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#address DataBloxoneDnsAuthZones#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#address DataBloxoneDnsAuthZones#address}
   */
   readonly address?: string;
   /**
   * Optional. Required only if _type_ is _server_. FQDN of nameserver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#fqdn DataBloxoneDnsAuthZones#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#fqdn DataBloxoneDnsAuthZones#fqdn}
   */
   readonly fqdn?: string;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#nsg DataBloxoneDnsAuthZones#nsg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#nsg DataBloxoneDnsAuthZones#nsg}
   */
   readonly nsg?: string;
   /**
   * Optional. If enabled, secondaries will use the configured TSIG key when requesting a zone transfer from this primary.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#tsig_enabled DataBloxoneDnsAuthZones#tsig_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#tsig_enabled DataBloxoneDnsAuthZones#tsig_enabled}
   */
   readonly tsigEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#tsig_key DataBloxoneDnsAuthZones#tsig_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#tsig_key DataBloxoneDnsAuthZones#tsig_key}
   */
   readonly tsigKey?: DataBloxoneDnsAuthZonesResultsExternalPrimariesTsigKey;
   /**
   * Allowed values: * _nsg_, * _primary_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#type DataBloxoneDnsAuthZones#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#type DataBloxoneDnsAuthZones#type}
   */
   readonly type: string;
 }
@@ -438,13 +438,13 @@ export interface DataBloxoneDnsAuthZonesResultsExternalProviders {
   /**
   * The name of the external provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#name DataBloxoneDnsAuthZones#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#name DataBloxoneDnsAuthZones#name}
   */
   readonly name?: string;
   /**
   * Defines the type of external provider. Allowed values:  * _bloxone_ddi_: host type is BloxOne DDI,  * _microsoft_azure_: host type is Microsoft Azure,  * _amazon_web_service_: host type is Amazon Web Services,  * _microsoft_active_directory_: host type is Microsoft Active Directory,  * _google_cloud_platform_: host type is Google Cloud Platform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#type DataBloxoneDnsAuthZones#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#type DataBloxoneDnsAuthZones#type}
   */
   readonly type?: string;
 }
@@ -586,7 +586,7 @@ export interface DataBloxoneDnsAuthZonesResultsExternalSecondariesTsigKey {
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#key DataBloxoneDnsAuthZones#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#key DataBloxoneDnsAuthZones#key}
   */
   readonly key?: string;
 }
@@ -707,29 +707,29 @@ export interface DataBloxoneDnsAuthZonesResultsExternalSecondaries {
   /**
   * IP Address of nameserver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#address DataBloxoneDnsAuthZones#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#address DataBloxoneDnsAuthZones#address}
   */
   readonly address: string;
   /**
   * FQDN of nameserver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#fqdn DataBloxoneDnsAuthZones#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#fqdn DataBloxoneDnsAuthZones#fqdn}
   */
   readonly fqdn: string;
   /**
   * If enabled, the NS record and glue record will NOT be automatically generated according to secondaries nameserver assignment.  Default: _false_
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#stealth DataBloxoneDnsAuthZones#stealth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#stealth DataBloxoneDnsAuthZones#stealth}
   */
   readonly stealth?: boolean | cdktf.IResolvable;
   /**
   * If enabled, secondaries will use the configured TSIG key when requesting a zone transfer.  Default: _false_
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#tsig_enabled DataBloxoneDnsAuthZones#tsig_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#tsig_enabled DataBloxoneDnsAuthZones#tsig_enabled}
   */
   readonly tsigEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#tsig_key DataBloxoneDnsAuthZones#tsig_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#tsig_key DataBloxoneDnsAuthZones#tsig_key}
   */
   readonly tsigKey?: DataBloxoneDnsAuthZonesResultsExternalSecondariesTsigKey;
 }
@@ -962,7 +962,7 @@ export interface DataBloxoneDnsAuthZonesResultsInheritanceAssignedHosts {
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#host DataBloxoneDnsAuthZones#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#host DataBloxoneDnsAuthZones#host}
   */
   readonly host?: string;
 }
@@ -1084,7 +1084,7 @@ export interface DataBloxoneDnsAuthZonesResultsInheritanceSourcesGssTsigEnabled 
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#action DataBloxoneDnsAuthZones#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#action DataBloxoneDnsAuthZones#action}
   */
   readonly action?: string;
 }
@@ -1199,7 +1199,7 @@ export interface DataBloxoneDnsAuthZonesResultsInheritanceSourcesNotify {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#action DataBloxoneDnsAuthZones#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#action DataBloxoneDnsAuthZones#action}
   */
   readonly action?: string;
 }
@@ -1485,7 +1485,7 @@ export interface DataBloxoneDnsAuthZonesResultsInheritanceSourcesQueryAcl {
   /**
   * Optional. Inheritance setting for a field. Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#action DataBloxoneDnsAuthZones#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#action DataBloxoneDnsAuthZones#action}
   */
   readonly action?: string;
 }
@@ -1772,7 +1772,7 @@ export interface DataBloxoneDnsAuthZonesResultsInheritanceSourcesTransferAcl {
   /**
   * Optional. Inheritance setting for a field. Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#action DataBloxoneDnsAuthZones#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#action DataBloxoneDnsAuthZones#action}
   */
   readonly action?: string;
 }
@@ -2059,7 +2059,7 @@ export interface DataBloxoneDnsAuthZonesResultsInheritanceSourcesUpdateAcl {
   /**
   * Optional. Inheritance setting for a field. Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#action DataBloxoneDnsAuthZones#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#action DataBloxoneDnsAuthZones#action}
   */
   readonly action?: string;
 }
@@ -2175,7 +2175,7 @@ export interface DataBloxoneDnsAuthZonesResultsInheritanceSourcesUseForwardersFo
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#action DataBloxoneDnsAuthZones#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#action DataBloxoneDnsAuthZones#action}
   */
   readonly action?: string;
 }
@@ -2291,7 +2291,7 @@ export interface DataBloxoneDnsAuthZonesResultsInheritanceSourcesZoneAuthorityDe
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#action DataBloxoneDnsAuthZones#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#action DataBloxoneDnsAuthZones#action}
   */
   readonly action?: string;
 }
@@ -2407,7 +2407,7 @@ export interface DataBloxoneDnsAuthZonesResultsInheritanceSourcesZoneAuthorityEx
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#action DataBloxoneDnsAuthZones#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#action DataBloxoneDnsAuthZones#action}
   */
   readonly action?: string;
 }
@@ -2582,7 +2582,7 @@ export interface DataBloxoneDnsAuthZonesResultsInheritanceSourcesZoneAuthorityMn
   /**
   * Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#action DataBloxoneDnsAuthZones#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#action DataBloxoneDnsAuthZones#action}
   */
   readonly action?: string;
 }
@@ -2699,7 +2699,7 @@ export interface DataBloxoneDnsAuthZonesResultsInheritanceSourcesZoneAuthorityNe
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#action DataBloxoneDnsAuthZones#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#action DataBloxoneDnsAuthZones#action}
   */
   readonly action?: string;
 }
@@ -2815,7 +2815,7 @@ export interface DataBloxoneDnsAuthZonesResultsInheritanceSourcesZoneAuthorityPr
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#action DataBloxoneDnsAuthZones#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#action DataBloxoneDnsAuthZones#action}
   */
   readonly action?: string;
 }
@@ -2931,7 +2931,7 @@ export interface DataBloxoneDnsAuthZonesResultsInheritanceSourcesZoneAuthorityRe
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#action DataBloxoneDnsAuthZones#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#action DataBloxoneDnsAuthZones#action}
   */
   readonly action?: string;
 }
@@ -3047,7 +3047,7 @@ export interface DataBloxoneDnsAuthZonesResultsInheritanceSourcesZoneAuthorityRe
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#action DataBloxoneDnsAuthZones#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#action DataBloxoneDnsAuthZones#action}
   */
   readonly action?: string;
 }
@@ -3163,7 +3163,7 @@ export interface DataBloxoneDnsAuthZonesResultsInheritanceSourcesZoneAuthorityRn
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#action DataBloxoneDnsAuthZones#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#action DataBloxoneDnsAuthZones#action}
   */
   readonly action?: string;
 }
@@ -3272,35 +3272,35 @@ export class DataBloxoneDnsAuthZonesResultsInheritanceSourcesZoneAuthorityRnameO
 }
 export interface DataBloxoneDnsAuthZonesResultsInheritanceSourcesZoneAuthority {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#default_ttl DataBloxoneDnsAuthZones#default_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#default_ttl DataBloxoneDnsAuthZones#default_ttl}
   */
   readonly defaultTtl?: DataBloxoneDnsAuthZonesResultsInheritanceSourcesZoneAuthorityDefaultTtl;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#expire DataBloxoneDnsAuthZones#expire}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#expire DataBloxoneDnsAuthZones#expire}
   */
   readonly expire?: DataBloxoneDnsAuthZonesResultsInheritanceSourcesZoneAuthorityExpire;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#mname_block DataBloxoneDnsAuthZones#mname_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#mname_block DataBloxoneDnsAuthZones#mname_block}
   */
   readonly mnameBlock?: DataBloxoneDnsAuthZonesResultsInheritanceSourcesZoneAuthorityMnameBlock;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#negative_ttl DataBloxoneDnsAuthZones#negative_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#negative_ttl DataBloxoneDnsAuthZones#negative_ttl}
   */
   readonly negativeTtl?: DataBloxoneDnsAuthZonesResultsInheritanceSourcesZoneAuthorityNegativeTtl;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#protocol_rname DataBloxoneDnsAuthZones#protocol_rname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#protocol_rname DataBloxoneDnsAuthZones#protocol_rname}
   */
   readonly protocolRname?: DataBloxoneDnsAuthZonesResultsInheritanceSourcesZoneAuthorityProtocolRname;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#refresh DataBloxoneDnsAuthZones#refresh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#refresh DataBloxoneDnsAuthZones#refresh}
   */
   readonly refresh?: DataBloxoneDnsAuthZonesResultsInheritanceSourcesZoneAuthorityRefresh;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#retry DataBloxoneDnsAuthZones#retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#retry DataBloxoneDnsAuthZones#retry}
   */
   readonly retry?: DataBloxoneDnsAuthZonesResultsInheritanceSourcesZoneAuthorityRetry;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#rname DataBloxoneDnsAuthZones#rname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#rname DataBloxoneDnsAuthZones#rname}
   */
   readonly rname?: DataBloxoneDnsAuthZonesResultsInheritanceSourcesZoneAuthorityRname;
 }
@@ -3597,31 +3597,31 @@ export class DataBloxoneDnsAuthZonesResultsInheritanceSourcesZoneAuthorityOutput
 }
 export interface DataBloxoneDnsAuthZonesResultsInheritanceSources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#gss_tsig_enabled DataBloxoneDnsAuthZones#gss_tsig_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#gss_tsig_enabled DataBloxoneDnsAuthZones#gss_tsig_enabled}
   */
   readonly gssTsigEnabled?: DataBloxoneDnsAuthZonesResultsInheritanceSourcesGssTsigEnabled;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#notify DataBloxoneDnsAuthZones#notify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#notify DataBloxoneDnsAuthZones#notify}
   */
   readonly notify?: DataBloxoneDnsAuthZonesResultsInheritanceSourcesNotify;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#query_acl DataBloxoneDnsAuthZones#query_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#query_acl DataBloxoneDnsAuthZones#query_acl}
   */
   readonly queryAcl?: DataBloxoneDnsAuthZonesResultsInheritanceSourcesQueryAcl;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#transfer_acl DataBloxoneDnsAuthZones#transfer_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#transfer_acl DataBloxoneDnsAuthZones#transfer_acl}
   */
   readonly transferAcl?: DataBloxoneDnsAuthZonesResultsInheritanceSourcesTransferAcl;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#update_acl DataBloxoneDnsAuthZones#update_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#update_acl DataBloxoneDnsAuthZones#update_acl}
   */
   readonly updateAcl?: DataBloxoneDnsAuthZonesResultsInheritanceSourcesUpdateAcl;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#use_forwarders_for_subzones DataBloxoneDnsAuthZones#use_forwarders_for_subzones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#use_forwarders_for_subzones DataBloxoneDnsAuthZones#use_forwarders_for_subzones}
   */
   readonly useForwardersForSubzones?: DataBloxoneDnsAuthZonesResultsInheritanceSourcesUseForwardersForSubzones;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#zone_authority DataBloxoneDnsAuthZones#zone_authority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#zone_authority DataBloxoneDnsAuthZones#zone_authority}
   */
   readonly zoneAuthority?: DataBloxoneDnsAuthZonesResultsInheritanceSourcesZoneAuthority;
 }
@@ -3891,7 +3891,7 @@ export interface DataBloxoneDnsAuthZonesResultsInternalSecondaries {
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#host DataBloxoneDnsAuthZones#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#host DataBloxoneDnsAuthZones#host}
   */
   readonly host: string;
 }
@@ -4006,7 +4006,7 @@ export interface DataBloxoneDnsAuthZonesResultsQueryAclTsigKey {
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#key DataBloxoneDnsAuthZones#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#key DataBloxoneDnsAuthZones#key}
   */
   readonly key?: string;
 }
@@ -4133,19 +4133,19 @@ export interface DataBloxoneDnsAuthZonesResultsQueryAcl {
   * 
   *   Must be empty if _element_ is _acl_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#access DataBloxoneDnsAuthZones#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#access DataBloxoneDnsAuthZones#access}
   */
   readonly access?: string;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#acl DataBloxoneDnsAuthZones#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#acl DataBloxoneDnsAuthZones#acl}
   */
   readonly acl?: string;
   /**
   * Optional. Data for _ip_ _element_.  Must be empty if _element_ is not _ip_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#address DataBloxoneDnsAuthZones#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#address DataBloxoneDnsAuthZones#address}
   */
   readonly address?: string;
   /**
@@ -4157,11 +4157,11 @@ export interface DataBloxoneDnsAuthZonesResultsQueryAcl {
   *   * _acl_
   *   * _tsig_key_
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#element DataBloxoneDnsAuthZones#element}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#element DataBloxoneDnsAuthZones#element}
   */
   readonly element?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#tsig_key DataBloxoneDnsAuthZones#tsig_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#tsig_key DataBloxoneDnsAuthZones#tsig_key}
   */
   readonly tsigKey?: DataBloxoneDnsAuthZonesResultsQueryAclTsigKey;
 }
@@ -4395,7 +4395,7 @@ export interface DataBloxoneDnsAuthZonesResultsTransferAclTsigKey {
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#key DataBloxoneDnsAuthZones#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#key DataBloxoneDnsAuthZones#key}
   */
   readonly key?: string;
 }
@@ -4522,19 +4522,19 @@ export interface DataBloxoneDnsAuthZonesResultsTransferAcl {
   * 
   *   Must be empty if _element_ is _acl_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#access DataBloxoneDnsAuthZones#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#access DataBloxoneDnsAuthZones#access}
   */
   readonly access?: string;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#acl DataBloxoneDnsAuthZones#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#acl DataBloxoneDnsAuthZones#acl}
   */
   readonly acl?: string;
   /**
   * Optional. Data for _ip_ _element_.  Must be empty if _element_ is not _ip_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#address DataBloxoneDnsAuthZones#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#address DataBloxoneDnsAuthZones#address}
   */
   readonly address?: string;
   /**
@@ -4546,11 +4546,11 @@ export interface DataBloxoneDnsAuthZonesResultsTransferAcl {
   *   * _acl_
   *   * _tsig_key_
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#element DataBloxoneDnsAuthZones#element}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#element DataBloxoneDnsAuthZones#element}
   */
   readonly element?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#tsig_key DataBloxoneDnsAuthZones#tsig_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#tsig_key DataBloxoneDnsAuthZones#tsig_key}
   */
   readonly tsigKey?: DataBloxoneDnsAuthZonesResultsTransferAclTsigKey;
 }
@@ -4784,7 +4784,7 @@ export interface DataBloxoneDnsAuthZonesResultsUpdateAclTsigKey {
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#key DataBloxoneDnsAuthZones#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#key DataBloxoneDnsAuthZones#key}
   */
   readonly key?: string;
 }
@@ -4911,19 +4911,19 @@ export interface DataBloxoneDnsAuthZonesResultsUpdateAcl {
   * 
   *   Must be empty if _element_ is _acl_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#access DataBloxoneDnsAuthZones#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#access DataBloxoneDnsAuthZones#access}
   */
   readonly access?: string;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#acl DataBloxoneDnsAuthZones#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#acl DataBloxoneDnsAuthZones#acl}
   */
   readonly acl?: string;
   /**
   * Optional. Data for _ip_ _element_.  Must be empty if _element_ is not _ip_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#address DataBloxoneDnsAuthZones#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#address DataBloxoneDnsAuthZones#address}
   */
   readonly address?: string;
   /**
@@ -4935,11 +4935,11 @@ export interface DataBloxoneDnsAuthZonesResultsUpdateAcl {
   *   * _acl_
   *   * _tsig_key_
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#element DataBloxoneDnsAuthZones#element}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#element DataBloxoneDnsAuthZones#element}
   */
   readonly element?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#tsig_key DataBloxoneDnsAuthZones#tsig_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#tsig_key DataBloxoneDnsAuthZones#tsig_key}
   */
   readonly tsigKey?: DataBloxoneDnsAuthZonesResultsUpdateAclTsigKey;
 }
@@ -5173,13 +5173,13 @@ export interface DataBloxoneDnsAuthZonesResultsWarnings {
   /**
   * Warning message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#message DataBloxoneDnsAuthZones#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#message DataBloxoneDnsAuthZones#message}
   */
   readonly message?: string;
   /**
   * Name of a warning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#name DataBloxoneDnsAuthZones#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#name DataBloxoneDnsAuthZones#name}
   */
   readonly name?: string;
 }
@@ -5316,49 +5316,49 @@ export interface DataBloxoneDnsAuthZonesResultsZoneAuthority {
   /**
   * Optional. ZoneAuthority default ttl for resource records in zone (value in seconds).  Defaults to 28800.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#default_ttl DataBloxoneDnsAuthZones#default_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#default_ttl DataBloxoneDnsAuthZones#default_ttl}
   */
   readonly defaultTtl?: number;
   /**
   * Optional. ZoneAuthority expire time in seconds.  Defaults to 2419200.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#expire DataBloxoneDnsAuthZones#expire}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#expire DataBloxoneDnsAuthZones#expire}
   */
   readonly expire?: number;
   /**
   * Defaults to empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#mname DataBloxoneDnsAuthZones#mname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#mname DataBloxoneDnsAuthZones#mname}
   */
   readonly mname?: string;
   /**
   * Optional. ZoneAuthority negative caching (minimum) ttl in seconds.  Defaults to 900.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#negative_ttl DataBloxoneDnsAuthZones#negative_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#negative_ttl DataBloxoneDnsAuthZones#negative_ttl}
   */
   readonly negativeTtl?: number;
   /**
   * Optional. ZoneAuthority refresh.  Defaults to 10800.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#refresh DataBloxoneDnsAuthZones#refresh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#refresh DataBloxoneDnsAuthZones#refresh}
   */
   readonly refresh?: number;
   /**
   * Optional. ZoneAuthority retry.  Defaults to 3600.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#retry DataBloxoneDnsAuthZones#retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#retry DataBloxoneDnsAuthZones#retry}
   */
   readonly retry?: number;
   /**
   * Optional. ZoneAuthority rname.  Defaults to empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#rname DataBloxoneDnsAuthZones#rname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#rname DataBloxoneDnsAuthZones#rname}
   */
   readonly rname?: string;
   /**
   * Optional. Use default value for master name server.  Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#use_default_mname DataBloxoneDnsAuthZones#use_default_mname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#use_default_mname DataBloxoneDnsAuthZones#use_default_mname}
   */
   readonly useDefaultMname?: boolean | cdktf.IResolvable;
 }
@@ -5657,107 +5657,107 @@ export interface DataBloxoneDnsAuthZonesResults {
   /**
   * Optional. Comment for zone configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#comment DataBloxoneDnsAuthZones#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#comment DataBloxoneDnsAuthZones#comment}
   */
   readonly comment?: string;
   /**
   * Optional. _true_ to disable object. A disabled object is effectively non-existent when generating configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#disabled DataBloxoneDnsAuthZones#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#disabled DataBloxoneDnsAuthZones#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Optional. DNS primaries external to BloxOne DDI. Order is not significant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#external_primaries DataBloxoneDnsAuthZones#external_primaries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#external_primaries DataBloxoneDnsAuthZones#external_primaries}
   */
   readonly externalPrimaries?: DataBloxoneDnsAuthZonesResultsExternalPrimaries[] | cdktf.IResolvable;
   /**
   * DNS secondaries external to BloxOne DDI. Order is not significant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#external_secondaries DataBloxoneDnsAuthZones#external_secondaries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#external_secondaries DataBloxoneDnsAuthZones#external_secondaries}
   */
   readonly externalSecondaries?: DataBloxoneDnsAuthZonesResultsExternalSecondaries[] | cdktf.IResolvable;
   /**
   * Zone FQDN. The FQDN supplied at creation will be converted to canonical form.  Read-only after creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#fqdn DataBloxoneDnsAuthZones#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#fqdn DataBloxoneDnsAuthZones#fqdn}
   */
   readonly fqdn: string;
   /**
   * _gss_tsig_enabled_ enables/disables GSS-TSIG signed dynamic updates.  Defaults to _false_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#gss_tsig_enabled DataBloxoneDnsAuthZones#gss_tsig_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#gss_tsig_enabled DataBloxoneDnsAuthZones#gss_tsig_enabled}
   */
   readonly gssTsigEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#inheritance_sources DataBloxoneDnsAuthZones#inheritance_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#inheritance_sources DataBloxoneDnsAuthZones#inheritance_sources}
   */
   readonly inheritanceSources?: DataBloxoneDnsAuthZonesResultsInheritanceSources;
   /**
   * On-create-only. SOA serial is allowed to be set when the authoritative zone is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#initial_soa_serial DataBloxoneDnsAuthZones#initial_soa_serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#initial_soa_serial DataBloxoneDnsAuthZones#initial_soa_serial}
   */
   readonly initialSoaSerial?: number;
   /**
   * Optional. BloxOne DDI hosts acting as internal secondaries. Order is not significant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#internal_secondaries DataBloxoneDnsAuthZones#internal_secondaries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#internal_secondaries DataBloxoneDnsAuthZones#internal_secondaries}
   */
   readonly internalSecondaries?: DataBloxoneDnsAuthZonesResultsInternalSecondaries[] | cdktf.IResolvable;
   /**
   * Also notify all external secondary DNS servers if enabled.  Defaults to _false_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#notify DataBloxoneDnsAuthZones#notify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#notify DataBloxoneDnsAuthZones#notify}
   */
   readonly notify?: boolean | cdktf.IResolvable;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#nsgs DataBloxoneDnsAuthZones#nsgs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#nsgs DataBloxoneDnsAuthZones#nsgs}
   */
   readonly nsgs?: string[];
   /**
   * Primary type for an authoritative zone. Read only after creation. Allowed values:  * _external_: zone data owned by an external nameserver,  * _cloud_: zone data is owned by a BloxOne DDI host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#primary_type DataBloxoneDnsAuthZones#primary_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#primary_type DataBloxoneDnsAuthZones#primary_type}
   */
   readonly primaryType: string;
   /**
   * Optional. Clients must match this ACL to make authoritative queries. Also used for recursive queries if that ACL is unset.  Defaults to empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#query_acl DataBloxoneDnsAuthZones#query_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#query_acl DataBloxoneDnsAuthZones#query_acl}
   */
   readonly queryAcl?: DataBloxoneDnsAuthZonesResultsQueryAcl[] | cdktf.IResolvable;
   /**
   * Tagging specifics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#tags DataBloxoneDnsAuthZones#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#tags DataBloxoneDnsAuthZones#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Optional. Clients must match this ACL to receive zone transfers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#transfer_acl DataBloxoneDnsAuthZones#transfer_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#transfer_acl DataBloxoneDnsAuthZones#transfer_acl}
   */
   readonly transferAcl?: DataBloxoneDnsAuthZonesResultsTransferAcl[] | cdktf.IResolvable;
   /**
   * Optional. Specifies which hosts are allowed to submit Dynamic DNS updates for authoritative zones of _primary_type_ _cloud_.  Defaults to empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#update_acl DataBloxoneDnsAuthZones#update_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#update_acl DataBloxoneDnsAuthZones#update_acl}
   */
   readonly updateAcl?: DataBloxoneDnsAuthZonesResultsUpdateAcl[] | cdktf.IResolvable;
   /**
   * Optional. Use default forwarders to resolve queries for subzones.  Defaults to _true_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#use_forwarders_for_subzones DataBloxoneDnsAuthZones#use_forwarders_for_subzones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#use_forwarders_for_subzones DataBloxoneDnsAuthZones#use_forwarders_for_subzones}
   */
   readonly useForwardersForSubzones?: boolean | cdktf.IResolvable;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#view DataBloxoneDnsAuthZones#view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#view DataBloxoneDnsAuthZones#view}
   */
   readonly view?: string;
 }
@@ -6415,7 +6415,7 @@ export class DataBloxoneDnsAuthZonesResultsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones bloxone_dns_auth_zones}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones bloxone_dns_auth_zones}
 */
 export class DataBloxoneDnsAuthZones extends cdktf.TerraformDataSource {
 
@@ -6431,7 +6431,7 @@ export class DataBloxoneDnsAuthZones extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataBloxoneDnsAuthZones resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataBloxoneDnsAuthZones to import
-  * @param importFromId The id of the existing DataBloxoneDnsAuthZones that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataBloxoneDnsAuthZones that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataBloxoneDnsAuthZones to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6443,7 +6443,7 @@ export class DataBloxoneDnsAuthZones extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_zones bloxone_dns_auth_zones} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_zones bloxone_dns_auth_zones} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6454,8 +6454,8 @@ export class DataBloxoneDnsAuthZones extends cdktf.TerraformDataSource {
       terraformResourceType: 'bloxone_dns_auth_zones',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.5.4',
+        providerVersionConstraint: '1.5.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

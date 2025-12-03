@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/infra_hosts
+// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/infra_hosts
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataBloxoneInfraHostsConfig extends cdktf.TerraformMetaArgument
   /**
   * Filter are used to return a more specific list of results. Filters can be used to match resources by specific attributes, e.g. name. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/infra_hosts#filters DataBloxoneInfraHosts#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/infra_hosts#filters DataBloxoneInfraHosts#filters}
   */
   readonly filters?: { [key: string]: string };
   /**
   * If set to `true`, the data source will retry until a matching host is found, or until the Read Timeout expires.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/infra_hosts#retry_if_not_found DataBloxoneInfraHosts#retry_if_not_found}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/infra_hosts#retry_if_not_found DataBloxoneInfraHosts#retry_if_not_found}
   */
   readonly retryIfNotFound?: boolean | cdktf.IResolvable;
   /**
   * Tag Filters are used to return a more specific list of results filtered by tags. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/infra_hosts#tag_filters DataBloxoneInfraHosts#tag_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/infra_hosts#tag_filters DataBloxoneInfraHosts#tag_filters}
   */
   readonly tagFilters?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/infra_hosts#timeouts DataBloxoneInfraHosts#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/infra_hosts#timeouts DataBloxoneInfraHosts#timeouts}
   */
   readonly timeouts?: DataBloxoneInfraHostsTimeouts;
 }
@@ -34,25 +34,25 @@ export interface DataBloxoneInfraHostsResultsConfigs {
   /**
   * The current version of the Service deployed on the Host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/infra_hosts#current_version DataBloxoneInfraHosts#current_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/infra_hosts#current_version DataBloxoneInfraHosts#current_version}
   */
   readonly currentVersion?: string;
   /**
   * The field to carry any extra data specific to this configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/infra_hosts#extra_data DataBloxoneInfraHosts#extra_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/infra_hosts#extra_data DataBloxoneInfraHosts#extra_data}
   */
   readonly extraData?: string;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/infra_hosts#host_id DataBloxoneInfraHosts#host_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/infra_hosts#host_id DataBloxoneInfraHosts#host_id}
   */
   readonly hostId?: string;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/infra_hosts#service_id DataBloxoneInfraHosts#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/infra_hosts#service_id DataBloxoneInfraHosts#service_id}
   */
   readonly serviceId?: string;
   /**
@@ -74,13 +74,13 @@ export interface DataBloxoneInfraHostsResultsConfigs {
   *   | OSPF | ospf | 
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/infra_hosts#service_type DataBloxoneInfraHosts#service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/infra_hosts#service_type DataBloxoneInfraHosts#service_type}
   */
   readonly serviceType?: string;
   /**
   * The timestamp of the latest upgrade of the Host-specific Service configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/infra_hosts#upgraded_at DataBloxoneInfraHosts#upgraded_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/infra_hosts#upgraded_at DataBloxoneInfraHosts#upgraded_at}
   */
   readonly upgradedAt?: string;
 }
@@ -338,47 +338,47 @@ export interface DataBloxoneInfraHostsResults {
   /**
   * The description of the Host (optional).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/infra_hosts#description DataBloxoneInfraHosts#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/infra_hosts#description DataBloxoneInfraHosts#description}
   */
   readonly description?: string;
   /**
   * The name of the Host (unique).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/infra_hosts#display_name DataBloxoneInfraHosts#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/infra_hosts#display_name DataBloxoneInfraHosts#display_name}
   */
   readonly displayName: string;
   /**
   * The IP Space of the Host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/infra_hosts#ip_space DataBloxoneInfraHosts#ip_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/infra_hosts#ip_space DataBloxoneInfraHosts#ip_space}
   */
   readonly ipSpace?: string;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/infra_hosts#location_id DataBloxoneInfraHosts#location_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/infra_hosts#location_id DataBloxoneInfraHosts#location_id}
   */
   readonly locationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/infra_hosts#maintenance_mode DataBloxoneInfraHosts#maintenance_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/infra_hosts#maintenance_mode DataBloxoneInfraHosts#maintenance_mode}
   */
   readonly maintenanceMode?: string;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/infra_hosts#pool_id DataBloxoneInfraHosts#pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/infra_hosts#pool_id DataBloxoneInfraHosts#pool_id}
   */
   readonly poolId?: string;
   /**
   * The unique serial number of the Host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/infra_hosts#serial_number DataBloxoneInfraHosts#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/infra_hosts#serial_number DataBloxoneInfraHosts#serial_number}
   */
   readonly serialNumber?: string;
   /**
   * Tags associated with this Host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/infra_hosts#tags DataBloxoneInfraHosts#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/infra_hosts#tags DataBloxoneInfraHosts#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -774,7 +774,7 @@ export interface DataBloxoneInfraHostsTimeouts {
   /**
   * [Duration](https://pkg.go.dev/time#ParseDuration) to wait before being considered a timeout during read operations. Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Default is 20m.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/infra_hosts#read DataBloxoneInfraHosts#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/infra_hosts#read DataBloxoneInfraHosts#read}
   */
   readonly read?: string;
 }
@@ -868,7 +868,7 @@ export class DataBloxoneInfraHostsTimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/infra_hosts bloxone_infra_hosts}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/infra_hosts bloxone_infra_hosts}
 */
 export class DataBloxoneInfraHosts extends cdktf.TerraformDataSource {
 
@@ -884,7 +884,7 @@ export class DataBloxoneInfraHosts extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataBloxoneInfraHosts resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataBloxoneInfraHosts to import
-  * @param importFromId The id of the existing DataBloxoneInfraHosts that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/infra_hosts#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataBloxoneInfraHosts that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/infra_hosts#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataBloxoneInfraHosts to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -896,7 +896,7 @@ export class DataBloxoneInfraHosts extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/infra_hosts bloxone_infra_hosts} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/infra_hosts bloxone_infra_hosts} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -907,8 +907,8 @@ export class DataBloxoneInfraHosts extends cdktf.TerraformDataSource {
       terraformResourceType: 'bloxone_infra_hosts',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.5.4',
+        providerVersionConstraint: '1.5.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,220 +8,234 @@ import * as cdktf from 'cdktf';
 
 export interface ComputeInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#admin_pass ComputeInstance#admin_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#admin_pass ComputeInstance#admin_pass}
   */
   readonly adminPass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#agency_name ComputeInstance#agency_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#agency_name ComputeInstance#agency_name}
   */
   readonly agencyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#agent_list ComputeInstance#agent_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#agent_list ComputeInstance#agent_list}
   */
   readonly agentList?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#auto_pay ComputeInstance#auto_pay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#auto_pay ComputeInstance#auto_pay}
   */
   readonly autoPay?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#auto_renew ComputeInstance#auto_renew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#auto_renew ComputeInstance#auto_renew}
   */
   readonly autoRenew?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#auto_terminate_time ComputeInstance#auto_terminate_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#auto_terminate_time ComputeInstance#auto_terminate_time}
   */
   readonly autoTerminateTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#availability_zone ComputeInstance#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#availability_zone ComputeInstance#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#charging_mode ComputeInstance#charging_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#charging_mode ComputeInstance#charging_mode}
   */
   readonly chargingMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#delete_disks_on_termination ComputeInstance#delete_disks_on_termination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#delete_disks_on_termination ComputeInstance#delete_disks_on_termination}
   */
   readonly deleteDisksOnTermination?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#delete_eip_on_termination ComputeInstance#delete_eip_on_termination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#delete_eip_on_termination ComputeInstance#delete_eip_on_termination}
   */
   readonly deleteEipOnTermination?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#description ComputeInstance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#description ComputeInstance#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#eip_id ComputeInstance#eip_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#eip_id ComputeInstance#eip_id}
   */
   readonly eipId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#eip_type ComputeInstance#eip_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#eip_type ComputeInstance#eip_type}
   */
   readonly eipType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#enterprise_project_id ComputeInstance#enterprise_project_id}
+  * schema: Internal
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#enable_jumbo_frame ComputeInstance#enable_jumbo_frame}
+  */
+  readonly enableJumboFrame?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#enterprise_project_id ComputeInstance#enterprise_project_id}
   */
   readonly enterpriseProjectId?: string;
   /**
   * schema: Required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#flavor_id ComputeInstance#flavor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#flavor_id ComputeInstance#flavor_id}
   */
   readonly flavorId?: string;
   /**
   * schema: Computed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#flavor_name ComputeInstance#flavor_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#flavor_name ComputeInstance#flavor_name}
   */
   readonly flavorName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#hostname ComputeInstance#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#hostname ComputeInstance#hostname}
   */
   readonly hostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#id ComputeInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#id ComputeInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#image_id ComputeInstance#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#image_id ComputeInstance#image_id}
   */
   readonly imageId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#image_name ComputeInstance#image_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#image_name ComputeInstance#image_name}
   */
   readonly imageName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#key_pair ComputeInstance#key_pair}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#include_data_disks_on_update ComputeInstance#include_data_disks_on_update}
+  */
+  readonly includeDataDisksOnUpdate?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#include_publicips_on_update ComputeInstance#include_publicips_on_update}
+  */
+  readonly includePublicipsOnUpdate?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#key_pair ComputeInstance#key_pair}
   */
   readonly keyPair?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#metadata ComputeInstance#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#metadata ComputeInstance#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#name ComputeInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#name ComputeInstance#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#period ComputeInstance#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#period ComputeInstance#period}
   */
   readonly period?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#period_unit ComputeInstance#period_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#period_unit ComputeInstance#period_unit}
   */
   readonly periodUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#power_action ComputeInstance#power_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#power_action ComputeInstance#power_action}
   */
   readonly powerAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#private_key ComputeInstance#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#private_key ComputeInstance#private_key}
   */
   readonly privateKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#region ComputeInstance#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#region ComputeInstance#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#security_group_ids ComputeInstance#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#security_group_ids ComputeInstance#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * schema: Computed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#security_groups ComputeInstance#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#security_groups ComputeInstance#security_groups}
   */
   readonly securityGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#spot_duration ComputeInstance#spot_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#spot_duration ComputeInstance#spot_duration}
   */
   readonly spotDuration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#spot_duration_count ComputeInstance#spot_duration_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#spot_duration_count ComputeInstance#spot_duration_count}
   */
   readonly spotDurationCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#spot_maximum_price ComputeInstance#spot_maximum_price}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#spot_maximum_price ComputeInstance#spot_maximum_price}
   */
   readonly spotMaximumPrice?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#stop_before_destroy ComputeInstance#stop_before_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#stop_before_destroy ComputeInstance#stop_before_destroy}
   */
   readonly stopBeforeDestroy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#system_disk_dss_pool_id ComputeInstance#system_disk_dss_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#system_disk_dss_pool_id ComputeInstance#system_disk_dss_pool_id}
   */
   readonly systemDiskDssPoolId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#system_disk_iops ComputeInstance#system_disk_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#system_disk_iops ComputeInstance#system_disk_iops}
   */
   readonly systemDiskIops?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#system_disk_kms_key_id ComputeInstance#system_disk_kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#system_disk_kms_key_id ComputeInstance#system_disk_kms_key_id}
   */
   readonly systemDiskKmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#system_disk_size ComputeInstance#system_disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#system_disk_size ComputeInstance#system_disk_size}
   */
   readonly systemDiskSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#system_disk_throughput ComputeInstance#system_disk_throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#system_disk_throughput ComputeInstance#system_disk_throughput}
   */
   readonly systemDiskThroughput?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#system_disk_type ComputeInstance#system_disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#system_disk_type ComputeInstance#system_disk_type}
   */
   readonly systemDiskType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#tags ComputeInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#tags ComputeInstance#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#user_data ComputeInstance#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#user_data ComputeInstance#user_data}
   */
   readonly userData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#user_id ComputeInstance#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#user_id ComputeInstance#user_id}
   */
   readonly userId?: string;
   /**
   * bandwidth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#bandwidth ComputeInstance#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#bandwidth ComputeInstance#bandwidth}
   */
   readonly bandwidth?: ComputeInstanceBandwidth;
   /**
   * data_disks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#data_disks ComputeInstance#data_disks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#data_disks ComputeInstance#data_disks}
   */
   readonly dataDisks?: ComputeInstanceDataDisks[] | cdktf.IResolvable;
   /**
   * enclave_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#enclave_options ComputeInstance#enclave_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#enclave_options ComputeInstance#enclave_options}
   */
   readonly enclaveOptions?: ComputeInstanceEnclaveOptions;
   /**
   * network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#network ComputeInstance#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#network ComputeInstance#network}
   */
   readonly network: ComputeInstanceNetwork[] | cdktf.IResolvable;
   /**
   * scheduler_hints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#scheduler_hints ComputeInstance#scheduler_hints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#scheduler_hints ComputeInstance#scheduler_hints}
   */
   readonly schedulerHints?: ComputeInstanceSchedulerHints[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#timeouts ComputeInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#timeouts ComputeInstance#timeouts}
   */
   readonly timeouts?: ComputeInstanceTimeouts;
 }
@@ -327,26 +341,26 @@ export class ComputeInstanceVolumeAttachedList extends cdktf.ComplexList {
 }
 export interface ComputeInstanceBandwidth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#charge_mode ComputeInstance#charge_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#charge_mode ComputeInstance#charge_mode}
   */
   readonly chargeMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#extend_param ComputeInstance#extend_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#extend_param ComputeInstance#extend_param}
   */
   readonly extendParam?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#id ComputeInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#id ComputeInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#share_type ComputeInstance#share_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#share_type ComputeInstance#share_type}
   */
   readonly shareType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#size ComputeInstance#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#size ComputeInstance#size}
   */
   readonly size?: number;
 }
@@ -543,31 +557,31 @@ export class ComputeInstanceBandwidthOutputReference extends cdktf.ComplexObject
 }
 export interface ComputeInstanceDataDisks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#dss_pool_id ComputeInstance#dss_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#dss_pool_id ComputeInstance#dss_pool_id}
   */
   readonly dssPoolId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#iops ComputeInstance#iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#iops ComputeInstance#iops}
   */
   readonly iops?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#kms_key_id ComputeInstance#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#kms_key_id ComputeInstance#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#size ComputeInstance#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#size ComputeInstance#size}
   */
   readonly size: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#snapshot_id ComputeInstance#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#snapshot_id ComputeInstance#snapshot_id}
   */
   readonly snapshotId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#throughput ComputeInstance#throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#throughput ComputeInstance#throughput}
   */
   readonly throughput?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#type ComputeInstance#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#type ComputeInstance#type}
   */
   readonly type: string;
 }
@@ -851,7 +865,7 @@ export class ComputeInstanceDataDisksList extends cdktf.ComplexList {
 }
 export interface ComputeInstanceEnclaveOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#enabled ComputeInstance#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#enabled ComputeInstance#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
 }
@@ -932,37 +946,37 @@ export class ComputeInstanceEnclaveOptionsOutputReference extends cdktf.ComplexO
 }
 export interface ComputeInstanceNetwork {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#access_network ComputeInstance#access_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#access_network ComputeInstance#access_network}
   */
   readonly accessNetwork?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#fixed_ip_v4 ComputeInstance#fixed_ip_v4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#fixed_ip_v4 ComputeInstance#fixed_ip_v4}
   */
   readonly fixedIpV4?: string;
   /**
   * schema: Computed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#fixed_ip_v6 ComputeInstance#fixed_ip_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#fixed_ip_v6 ComputeInstance#fixed_ip_v6}
   */
   readonly fixedIpV6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#ipv6_enable ComputeInstance#ipv6_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#ipv6_enable ComputeInstance#ipv6_enable}
   */
   readonly ipv6Enable?: boolean | cdktf.IResolvable;
   /**
   * schema: Computed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#port ComputeInstance#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#port ComputeInstance#port}
   */
   readonly port?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#source_dest_check ComputeInstance#source_dest_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#source_dest_check ComputeInstance#source_dest_check}
   */
   readonly sourceDestCheck?: boolean | cdktf.IResolvable;
   /**
   * schema: Required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#uuid ComputeInstance#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#uuid ComputeInstance#uuid}
   */
   readonly uuid?: string;
 }
@@ -1257,21 +1271,21 @@ export class ComputeInstanceNetworkList extends cdktf.ComplexList {
 }
 export interface ComputeInstanceSchedulerHints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#deh_id ComputeInstance#deh_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#deh_id ComputeInstance#deh_id}
   */
   readonly dehId?: string;
   /**
   * schema: Internal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#fault_domain ComputeInstance#fault_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#fault_domain ComputeInstance#fault_domain}
   */
   readonly faultDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#group ComputeInstance#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#group ComputeInstance#group}
   */
   readonly group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#tenancy ComputeInstance#tenancy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#tenancy ComputeInstance#tenancy}
   */
   readonly tenancy?: string;
 }
@@ -1436,7 +1450,7 @@ export class ComputeInstanceSchedulerHintsOutputReference extends cdktf.ComplexO
     return this._group;
   }
 
-  // tenancy - computed: false, optional: true, required: false
+  // tenancy - computed: true, optional: true, required: false
   private _tenancy?: string; 
   public get tenancy() {
     return this.getStringAttribute('tenancy');
@@ -1474,15 +1488,15 @@ export class ComputeInstanceSchedulerHintsList extends cdktf.ComplexList {
 }
 export interface ComputeInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#create ComputeInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#create ComputeInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#delete ComputeInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#delete ComputeInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#update ComputeInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#update ComputeInstance#update}
   */
   readonly update?: string;
 }
@@ -1634,7 +1648,7 @@ export class ComputeInstanceTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance sbercloud_compute_instance}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance sbercloud_compute_instance}
 */
 export class ComputeInstance extends cdktf.TerraformResource {
 
@@ -1650,7 +1664,7 @@ export class ComputeInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ComputeInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ComputeInstance to import
-  * @param importFromId The id of the existing ComputeInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ComputeInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ComputeInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1662,7 +1676,7 @@ export class ComputeInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/compute_instance sbercloud_compute_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/compute_instance sbercloud_compute_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1673,8 +1687,8 @@ export class ComputeInstance extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_compute_instance',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1697,6 +1711,7 @@ export class ComputeInstance extends cdktf.TerraformResource {
     this._description = config.description;
     this._eipId = config.eipId;
     this._eipType = config.eipType;
+    this._enableJumboFrame = config.enableJumboFrame;
     this._enterpriseProjectId = config.enterpriseProjectId;
     this._flavorId = config.flavorId;
     this._flavorName = config.flavorName;
@@ -1704,6 +1719,8 @@ export class ComputeInstance extends cdktf.TerraformResource {
     this._id = config.id;
     this._imageId = config.imageId;
     this._imageName = config.imageName;
+    this._includeDataDisksOnUpdate = config.includeDataDisksOnUpdate;
+    this._includePublicipsOnUpdate = config.includePublicipsOnUpdate;
     this._keyPair = config.keyPair;
     this._metadata = config.metadata;
     this._name = config.name;
@@ -1962,6 +1979,22 @@ export class ComputeInstance extends cdktf.TerraformResource {
     return this._eipType;
   }
 
+  // enable_jumbo_frame - computed: false, optional: true, required: false
+  private _enableJumboFrame?: boolean | cdktf.IResolvable; 
+  public get enableJumboFrame() {
+    return this.getBooleanAttribute('enable_jumbo_frame');
+  }
+  public set enableJumboFrame(value: boolean | cdktf.IResolvable) {
+    this._enableJumboFrame = value;
+  }
+  public resetEnableJumboFrame() {
+    this._enableJumboFrame = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableJumboFrameInput() {
+    return this._enableJumboFrame;
+  }
+
   // enterprise_project_id - computed: true, optional: true, required: false
   private _enterpriseProjectId?: string; 
   public get enterpriseProjectId() {
@@ -2077,6 +2110,38 @@ export class ComputeInstance extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get imageNameInput() {
     return this._imageName;
+  }
+
+  // include_data_disks_on_update - computed: false, optional: true, required: false
+  private _includeDataDisksOnUpdate?: boolean | cdktf.IResolvable; 
+  public get includeDataDisksOnUpdate() {
+    return this.getBooleanAttribute('include_data_disks_on_update');
+  }
+  public set includeDataDisksOnUpdate(value: boolean | cdktf.IResolvable) {
+    this._includeDataDisksOnUpdate = value;
+  }
+  public resetIncludeDataDisksOnUpdate() {
+    this._includeDataDisksOnUpdate = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get includeDataDisksOnUpdateInput() {
+    return this._includeDataDisksOnUpdate;
+  }
+
+  // include_publicips_on_update - computed: false, optional: true, required: false
+  private _includePublicipsOnUpdate?: boolean | cdktf.IResolvable; 
+  public get includePublicipsOnUpdate() {
+    return this.getBooleanAttribute('include_publicips_on_update');
+  }
+  public set includePublicipsOnUpdate(value: boolean | cdktf.IResolvable) {
+    this._includePublicipsOnUpdate = value;
+  }
+  public resetIncludePublicipsOnUpdate() {
+    this._includePublicipsOnUpdate = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get includePublicipsOnUpdateInput() {
+    return this._includePublicipsOnUpdate;
   }
 
   // key_pair - computed: false, optional: true, required: false
@@ -2532,7 +2597,7 @@ export class ComputeInstance extends cdktf.TerraformResource {
   }
 
   // scheduler_hints - computed: false, optional: true, required: false
-  private _schedulerHints = new ComputeInstanceSchedulerHintsList(this, "scheduler_hints", true);
+  private _schedulerHints = new ComputeInstanceSchedulerHintsList(this, "scheduler_hints", false);
   public get schedulerHints() {
     return this._schedulerHints;
   }
@@ -2582,6 +2647,7 @@ export class ComputeInstance extends cdktf.TerraformResource {
       description: cdktf.stringToTerraform(this._description),
       eip_id: cdktf.stringToTerraform(this._eipId),
       eip_type: cdktf.stringToTerraform(this._eipType),
+      enable_jumbo_frame: cdktf.booleanToTerraform(this._enableJumboFrame),
       enterprise_project_id: cdktf.stringToTerraform(this._enterpriseProjectId),
       flavor_id: cdktf.stringToTerraform(this._flavorId),
       flavor_name: cdktf.stringToTerraform(this._flavorName),
@@ -2589,6 +2655,8 @@ export class ComputeInstance extends cdktf.TerraformResource {
       id: cdktf.stringToTerraform(this._id),
       image_id: cdktf.stringToTerraform(this._imageId),
       image_name: cdktf.stringToTerraform(this._imageName),
+      include_data_disks_on_update: cdktf.booleanToTerraform(this._includeDataDisksOnUpdate),
+      include_publicips_on_update: cdktf.booleanToTerraform(this._includePublicipsOnUpdate),
       key_pair: cdktf.stringToTerraform(this._keyPair),
       metadata: cdktf.hashMapper(cdktf.stringToTerraform)(this._metadata),
       name: cdktf.stringToTerraform(this._name),
@@ -2701,6 +2769,12 @@ export class ComputeInstance extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      enable_jumbo_frame: {
+        value: cdktf.booleanToHclTerraform(this._enableJumboFrame),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
       enterprise_project_id: {
         value: cdktf.stringToHclTerraform(this._enterpriseProjectId),
         isBlock: false,
@@ -2742,6 +2816,18 @@ export class ComputeInstance extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      include_data_disks_on_update: {
+        value: cdktf.booleanToHclTerraform(this._includeDataDisksOnUpdate),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      include_publicips_on_update: {
+        value: cdktf.booleanToHclTerraform(this._includePublicipsOnUpdate),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
       },
       key_pair: {
         value: cdktf.stringToHclTerraform(this._keyPair),
@@ -2908,7 +2994,7 @@ export class ComputeInstance extends cdktf.TerraformResource {
       scheduler_hints: {
         value: cdktf.listMapperHcl(computeInstanceSchedulerHintsToHclTerraform, true)(this._schedulerHints.internalValue),
         isBlock: true,
-        type: "set",
+        type: "list",
         storageClassType: "ComputeInstanceSchedulerHintsList",
       },
       timeouts: {

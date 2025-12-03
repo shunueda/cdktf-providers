@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_endpoint_connections
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_endpoint_connections
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataSbercloudApigEndpointConnectionsConfig extends cdktf.Terraf
   /**
   * Specifies the ID of the endpoint connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_endpoint_connections#endpoint_id DataSbercloudApigEndpointConnections#endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_endpoint_connections#endpoint_id DataSbercloudApigEndpointConnections#endpoint_id}
   */
   readonly endpointId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_endpoint_connections#id DataSbercloudApigEndpointConnections#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_endpoint_connections#id DataSbercloudApigEndpointConnections#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface DataSbercloudApigEndpointConnectionsConfig extends cdktf.Terraf
   /**
   * Specifies the dedicated instance ID to which the endpoint connections belong.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_endpoint_connections#instance_id DataSbercloudApigEndpointConnections#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_endpoint_connections#instance_id DataSbercloudApigEndpointConnections#instance_id}
   */
   readonly instanceId: string;
   /**
   * Specifies packet ID of endpoint connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_endpoint_connections#packet_id DataSbercloudApigEndpointConnections#packet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_endpoint_connections#packet_id DataSbercloudApigEndpointConnections#packet_id}
   */
   readonly packetId?: number;
   /**
   * Specifies the region in which to query the resource. If omitted, the provider-level region will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_endpoint_connections#region DataSbercloudApigEndpointConnections#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_endpoint_connections#region DataSbercloudApigEndpointConnections#region}
   */
   readonly region?: string;
   /**
   * Specifies status of endpoint connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_endpoint_connections#status DataSbercloudApigEndpointConnections#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_endpoint_connections#status DataSbercloudApigEndpointConnections#status}
   */
   readonly status?: string;
 }
@@ -147,7 +147,7 @@ export class DataSbercloudApigEndpointConnectionsConnectionsList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_endpoint_connections sbercloud_apig_endpoint_connections}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_endpoint_connections sbercloud_apig_endpoint_connections}
 */
 export class DataSbercloudApigEndpointConnections extends cdktf.TerraformDataSource {
 
@@ -163,7 +163,7 @@ export class DataSbercloudApigEndpointConnections extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataSbercloudApigEndpointConnections resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSbercloudApigEndpointConnections to import
-  * @param importFromId The id of the existing DataSbercloudApigEndpointConnections that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_endpoint_connections#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSbercloudApigEndpointConnections that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_endpoint_connections#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSbercloudApigEndpointConnections to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -175,7 +175,7 @@ export class DataSbercloudApigEndpointConnections extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_endpoint_connections sbercloud_apig_endpoint_connections} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_endpoint_connections sbercloud_apig_endpoint_connections} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -186,8 +186,8 @@ export class DataSbercloudApigEndpointConnections extends cdktf.TerraformDataSou
       terraformResourceType: 'sbercloud_apig_endpoint_connections',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

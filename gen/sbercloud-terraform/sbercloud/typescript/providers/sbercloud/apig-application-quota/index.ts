@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_application_quota
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_application_quota
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ApigApplicationQuotaConfig extends cdktf.TerraformMetaArguments
   /**
   * Specifies the access limit of the application quota.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_application_quota#call_limits ApigApplicationQuota#call_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_application_quota#call_limits ApigApplicationQuota#call_limits}
   */
   readonly callLimits: number;
   /**
   * Specifies the description of the application quota.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_application_quota#description ApigApplicationQuota#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_application_quota#description ApigApplicationQuota#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_application_quota#id ApigApplicationQuota#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_application_quota#id ApigApplicationQuota#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,35 +29,35 @@ export interface ApigApplicationQuotaConfig extends cdktf.TerraformMetaArguments
   /**
   * Specifies the ID of the dedicated instance to which the application quota belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_application_quota#instance_id ApigApplicationQuota#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_application_quota#instance_id ApigApplicationQuota#instance_id}
   */
   readonly instanceId: string;
   /**
   * Specifies the name of the application quota.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_application_quota#name ApigApplicationQuota#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_application_quota#name ApigApplicationQuota#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_application_quota#region ApigApplicationQuota#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_application_quota#region ApigApplicationQuota#region}
   */
   readonly region?: string;
   /**
   * Specifies the limited time value for flow control of the application quota.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_application_quota#time_interval ApigApplicationQuota#time_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_application_quota#time_interval ApigApplicationQuota#time_interval}
   */
   readonly timeInterval: number;
   /**
   * Specifies the limited time unit of the application quota.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_application_quota#time_unit ApigApplicationQuota#time_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_application_quota#time_unit ApigApplicationQuota#time_unit}
   */
   readonly timeUnit: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_application_quota sbercloud_apig_application_quota}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_application_quota sbercloud_apig_application_quota}
 */
 export class ApigApplicationQuota extends cdktf.TerraformResource {
 
@@ -73,7 +73,7 @@ export class ApigApplicationQuota extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApigApplicationQuota resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApigApplicationQuota to import
-  * @param importFromId The id of the existing ApigApplicationQuota that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_application_quota#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApigApplicationQuota that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_application_quota#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApigApplicationQuota to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -85,7 +85,7 @@ export class ApigApplicationQuota extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_application_quota sbercloud_apig_application_quota} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_application_quota sbercloud_apig_application_quota} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -96,8 +96,8 @@ export class ApigApplicationQuota extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_apig_application_quota',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

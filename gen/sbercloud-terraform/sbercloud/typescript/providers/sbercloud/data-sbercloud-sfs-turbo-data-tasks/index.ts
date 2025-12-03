@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/sfs_turbo_data_tasks
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/sfs_turbo_data_tasks
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataSbercloudSfsTurboDataTasksConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/sfs_turbo_data_tasks#id DataSbercloudSfsTurboDataTasks#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/sfs_turbo_data_tasks#id DataSbercloudSfsTurboDataTasks#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface DataSbercloudSfsTurboDataTasksConfig extends cdktf.TerraformMet
   /**
   * Specifies the region in which to query the resource. If omitted, the provider-level region will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/sfs_turbo_data_tasks#region DataSbercloudSfsTurboDataTasks#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/sfs_turbo_data_tasks#region DataSbercloudSfsTurboDataTasks#region}
   */
   readonly region?: string;
   /**
   * Specifies the ID of the SFS Turbo file system to which the data tasks belong.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/sfs_turbo_data_tasks#share_id DataSbercloudSfsTurboDataTasks#share_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/sfs_turbo_data_tasks#share_id DataSbercloudSfsTurboDataTasks#share_id}
   */
   readonly shareId: string;
   /**
   * Specifies the status of the data task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/sfs_turbo_data_tasks#status DataSbercloudSfsTurboDataTasks#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/sfs_turbo_data_tasks#status DataSbercloudSfsTurboDataTasks#status}
   */
   readonly status?: string;
   /**
   * Specifies the type of the data task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/sfs_turbo_data_tasks#type DataSbercloudSfsTurboDataTasks#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/sfs_turbo_data_tasks#type DataSbercloudSfsTurboDataTasks#type}
   */
   readonly type?: string;
 }
@@ -161,7 +161,7 @@ export class DataSbercloudSfsTurboDataTasksTasksList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/sfs_turbo_data_tasks sbercloud_sfs_turbo_data_tasks}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/sfs_turbo_data_tasks sbercloud_sfs_turbo_data_tasks}
 */
 export class DataSbercloudSfsTurboDataTasks extends cdktf.TerraformDataSource {
 
@@ -177,7 +177,7 @@ export class DataSbercloudSfsTurboDataTasks extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSbercloudSfsTurboDataTasks resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSbercloudSfsTurboDataTasks to import
-  * @param importFromId The id of the existing DataSbercloudSfsTurboDataTasks that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/sfs_turbo_data_tasks#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSbercloudSfsTurboDataTasks that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/sfs_turbo_data_tasks#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSbercloudSfsTurboDataTasks to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -189,7 +189,7 @@ export class DataSbercloudSfsTurboDataTasks extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/sfs_turbo_data_tasks sbercloud_sfs_turbo_data_tasks} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/sfs_turbo_data_tasks sbercloud_sfs_turbo_data_tasks} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -200,8 +200,8 @@ export class DataSbercloudSfsTurboDataTasks extends cdktf.TerraformDataSource {
       terraformResourceType: 'sbercloud_sfs_turbo_data_tasks',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbh_instance
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbh_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface CbhInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies the size of the additional data disk for the CBH instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbh_instance#attach_disk_size CbhInstance#attach_disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbh_instance#attach_disk_size CbhInstance#attach_disk_size}
   */
   readonly attachDiskSize?: number;
   /**
   * Specifies whether auto renew is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbh_instance#auto_renew CbhInstance#auto_renew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbh_instance#auto_renew CbhInstance#auto_renew}
   */
   readonly autoRenew?: string;
   /**
   * Specifies the availability zone name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbh_instance#availability_zone CbhInstance#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbh_instance#availability_zone CbhInstance#availability_zone}
   */
   readonly availabilityZone: string;
   /**
   * Specifies the charging mode of the CBH instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbh_instance#charging_mode CbhInstance#charging_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbh_instance#charging_mode CbhInstance#charging_mode}
   */
   readonly chargingMode: string;
   /**
   * Specifies the enterprise project ID to which the CBH instance belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbh_instance#enterprise_project_id CbhInstance#enterprise_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbh_instance#enterprise_project_id CbhInstance#enterprise_project_id}
   */
   readonly enterpriseProjectId?: string;
   /**
   * Specifies the product ID of the CBH server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbh_instance#flavor_id CbhInstance#flavor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbh_instance#flavor_id CbhInstance#flavor_id}
   */
   readonly flavorId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbh_instance#id CbhInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbh_instance#id CbhInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,101 +53,101 @@ export interface CbhInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies whether the IPv6 network is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbh_instance#ipv6_enable CbhInstance#ipv6_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbh_instance#ipv6_enable CbhInstance#ipv6_enable}
   */
   readonly ipv6Enable?: boolean | cdktf.IResolvable;
   /**
   * Specifies the name of the CBH instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbh_instance#name CbhInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbh_instance#name CbhInstance#name}
   */
   readonly name: string;
   /**
   * Specifies the password for logging in to the management console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbh_instance#password CbhInstance#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbh_instance#password CbhInstance#password}
   */
   readonly password: string;
   /**
   * Specifies the charging period of the CBH instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbh_instance#period CbhInstance#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbh_instance#period CbhInstance#period}
   */
   readonly period: number;
   /**
   * Specifies the charging period unit of the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbh_instance#period_unit CbhInstance#period_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbh_instance#period_unit CbhInstance#period_unit}
   */
   readonly periodUnit: string;
   /**
   * Specifies the power action after the CBH instance is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbh_instance#power_action CbhInstance#power_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbh_instance#power_action CbhInstance#power_action}
   */
   readonly powerAction?: string;
   /**
   * schema: Computed; The elastic IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbh_instance#public_ip CbhInstance#public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbh_instance#public_ip CbhInstance#public_ip}
   */
   readonly publicIp?: string;
   /**
   * Specifies the ID of the elastic IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbh_instance#public_ip_id CbhInstance#public_ip_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbh_instance#public_ip_id CbhInstance#public_ip_id}
   */
   readonly publicIpId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbh_instance#region CbhInstance#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbh_instance#region CbhInstance#region}
   */
   readonly region?: string;
   /**
   * Specifies the IDs of the security group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbh_instance#security_group_id CbhInstance#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbh_instance#security_group_id CbhInstance#security_group_id}
   */
   readonly securityGroupId: string;
   /**
   * Specifies the IP address of the subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbh_instance#subnet_address CbhInstance#subnet_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbh_instance#subnet_address CbhInstance#subnet_address}
   */
   readonly subnetAddress?: string;
   /**
   * Specifies the ID of a subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbh_instance#subnet_id CbhInstance#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbh_instance#subnet_id CbhInstance#subnet_id}
   */
   readonly subnetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbh_instance#tags CbhInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbh_instance#tags CbhInstance#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Specifies the ID of a VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbh_instance#vpc_id CbhInstance#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbh_instance#vpc_id CbhInstance#vpc_id}
   */
   readonly vpcId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbh_instance#timeouts CbhInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbh_instance#timeouts CbhInstance#timeouts}
   */
   readonly timeouts?: CbhInstanceTimeouts;
 }
 export interface CbhInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbh_instance#create CbhInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbh_instance#create CbhInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbh_instance#delete CbhInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbh_instance#delete CbhInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbh_instance#update CbhInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbh_instance#update CbhInstance#update}
   */
   readonly update?: string;
 }
@@ -299,7 +299,7 @@ export class CbhInstanceTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbh_instance sbercloud_cbh_instance}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbh_instance sbercloud_cbh_instance}
 */
 export class CbhInstance extends cdktf.TerraformResource {
 
@@ -315,7 +315,7 @@ export class CbhInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CbhInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CbhInstance to import
-  * @param importFromId The id of the existing CbhInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbh_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CbhInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbh_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CbhInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -327,7 +327,7 @@ export class CbhInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbh_instance sbercloud_cbh_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbh_instance sbercloud_cbh_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -338,8 +338,8 @@ export class CbhInstance extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_cbh_instance',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

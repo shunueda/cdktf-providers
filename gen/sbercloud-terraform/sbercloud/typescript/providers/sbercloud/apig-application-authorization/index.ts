@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_application_authorization
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_application_authorization
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,30 +10,30 @@ export interface ApigApplicationAuthorizationConfig extends cdktf.TerraformMetaA
   /**
   * The list of API IDs to be authorized for the application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_application_authorization#api_ids ApigApplicationAuthorization#api_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_application_authorization#api_ids ApigApplicationAuthorization#api_ids}
   */
   readonly apiIds: string[];
   /**
   * The script configuration value of this change is also the original value used for comparison with
   * the new value next time the change is made. The corresponding parameter name is 'api_ids'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_application_authorization#api_ids_origin ApigApplicationAuthorization#api_ids_origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_application_authorization#api_ids_origin ApigApplicationAuthorization#api_ids_origin}
   */
   readonly apiIdsOrigin?: string[];
   /**
   * The ID of the application authorized to access the APIs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_application_authorization#application_id ApigApplicationAuthorization#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_application_authorization#application_id ApigApplicationAuthorization#application_id}
   */
   readonly applicationId: string;
   /**
   * The environment ID where the APIs were published.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_application_authorization#env_id ApigApplicationAuthorization#env_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_application_authorization#env_id ApigApplicationAuthorization#env_id}
   */
   readonly envId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_application_authorization#id ApigApplicationAuthorization#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_application_authorization#id ApigApplicationAuthorization#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -42,19 +42,19 @@ export interface ApigApplicationAuthorizationConfig extends cdktf.TerraformMetaA
   /**
   * The ID of the dedicated instance to which the application and APIs belong.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_application_authorization#instance_id ApigApplicationAuthorization#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_application_authorization#instance_id ApigApplicationAuthorization#instance_id}
   */
   readonly instanceId: string;
   /**
   * The region where the application and APPCODEs are located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_application_authorization#region ApigApplicationAuthorization#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_application_authorization#region ApigApplicationAuthorization#region}
   */
   readonly region?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_application_authorization sbercloud_apig_application_authorization}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_application_authorization sbercloud_apig_application_authorization}
 */
 export class ApigApplicationAuthorization extends cdktf.TerraformResource {
 
@@ -70,7 +70,7 @@ export class ApigApplicationAuthorization extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApigApplicationAuthorization resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApigApplicationAuthorization to import
-  * @param importFromId The id of the existing ApigApplicationAuthorization that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_application_authorization#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApigApplicationAuthorization that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_application_authorization#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApigApplicationAuthorization to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -82,7 +82,7 @@ export class ApigApplicationAuthorization extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_application_authorization sbercloud_apig_application_authorization} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_application_authorization sbercloud_apig_application_authorization} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -93,8 +93,8 @@ export class ApigApplicationAuthorization extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_apig_application_authorization',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

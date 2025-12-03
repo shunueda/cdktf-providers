@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/waf_attack_log_list
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/waf_attack_log_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataTencentcloudWafAttackLogListConfig extends cdktf.TerraformM
   /**
   * Domain for query, all domain use all.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/waf_attack_log_list#domain DataTencentcloudWafAttackLogList#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/waf_attack_log_list#domain DataTencentcloudWafAttackLogList#domain}
   */
   readonly domain: string;
   /**
   * End time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/waf_attack_log_list#end_time DataTencentcloudWafAttackLogList#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/waf_attack_log_list#end_time DataTencentcloudWafAttackLogList#end_time}
   */
   readonly endTime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/waf_attack_log_list#id DataTencentcloudWafAttackLogList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/waf_attack_log_list#id DataTencentcloudWafAttackLogList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,37 +29,37 @@ export interface DataTencentcloudWafAttackLogListConfig extends cdktf.TerraformM
   /**
   * Number of pages, starting from 0 by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/waf_attack_log_list#page DataTencentcloudWafAttackLogList#page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/waf_attack_log_list#page DataTencentcloudWafAttackLogList#page}
   */
   readonly page?: number;
   /**
   * Number of queries, default to 10, maximum of 100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/waf_attack_log_list#query_count DataTencentcloudWafAttackLogList#query_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/waf_attack_log_list#query_count DataTencentcloudWafAttackLogList#query_count}
   */
   readonly queryCount?: number;
   /**
   * Lucene grammar.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/waf_attack_log_list#query_string DataTencentcloudWafAttackLogList#query_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/waf_attack_log_list#query_string DataTencentcloudWafAttackLogList#query_string}
   */
   readonly queryString: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/waf_attack_log_list#result_output_file DataTencentcloudWafAttackLogList#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/waf_attack_log_list#result_output_file DataTencentcloudWafAttackLogList#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Default desc, support desc, asc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/waf_attack_log_list#sort DataTencentcloudWafAttackLogList#sort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/waf_attack_log_list#sort DataTencentcloudWafAttackLogList#sort}
   */
   readonly sort?: string;
   /**
   * Begin time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/waf_attack_log_list#start_time DataTencentcloudWafAttackLogList#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/waf_attack_log_list#start_time DataTencentcloudWafAttackLogList#start_time}
   */
   readonly startTime: string;
 }
@@ -155,7 +155,7 @@ export class DataTencentcloudWafAttackLogListDataList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/waf_attack_log_list tencentcloud_waf_attack_log_list}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/waf_attack_log_list tencentcloud_waf_attack_log_list}
 */
 export class DataTencentcloudWafAttackLogList extends cdktf.TerraformDataSource {
 
@@ -171,7 +171,7 @@ export class DataTencentcloudWafAttackLogList extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataTencentcloudWafAttackLogList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudWafAttackLogList to import
-  * @param importFromId The id of the existing DataTencentcloudWafAttackLogList that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/waf_attack_log_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudWafAttackLogList that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/waf_attack_log_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudWafAttackLogList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -183,7 +183,7 @@ export class DataTencentcloudWafAttackLogList extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/waf_attack_log_list tencentcloud_waf_attack_log_list} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/waf_attack_log_list tencentcloud_waf_attack_log_list} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -194,8 +194,8 @@ export class DataTencentcloudWafAttackLogList extends cdktf.TerraformDataSource 
       terraformResourceType: 'tencentcloud_waf_attack_log_list',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.39',
-        providerVersionConstraint: '1.82.39'
+        providerVersion: '1.82.40',
+        providerVersionConstraint: '1.82.40'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

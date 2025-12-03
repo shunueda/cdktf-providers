@@ -586,6 +586,7 @@ export * as mongodbInstanceBackup from './mongodb-instance-backup';
 export * as mongodbInstanceBackupDownloadTask from './mongodb-instance-backup-download-task';
 export * as mongodbInstanceBackupRule from './mongodb-instance-backup-rule';
 export * as mongodbInstanceParams from './mongodb-instance-params';
+export * as mongodbInstanceSsl from './mongodb-instance-ssl';
 export * as mongodbInstanceTransparentDataEncryption from './mongodb-instance-transparent-data-encryption';
 export * as mongodbReadonlyInstance from './mongodb-readonly-instance';
 export * as mongodbShardingInstance from './mongodb-sharding-instance';

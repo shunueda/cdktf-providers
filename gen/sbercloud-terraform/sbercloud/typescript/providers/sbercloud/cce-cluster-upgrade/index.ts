@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_cluster_upgrade
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_cluster_upgrade
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,78 +8,78 @@ import * as cdktf from 'cdktf';
 
 export interface CceClusterUpgradeConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_cluster_upgrade#cluster_id CceClusterUpgrade#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_cluster_upgrade#cluster_id CceClusterUpgrade#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_cluster_upgrade#current_version CceClusterUpgrade#current_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_cluster_upgrade#current_version CceClusterUpgrade#current_version}
   */
   readonly currentVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_cluster_upgrade#enable_force_new CceClusterUpgrade#enable_force_new}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_cluster_upgrade#enable_force_new CceClusterUpgrade#enable_force_new}
   */
   readonly enableForceNew?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_cluster_upgrade#id CceClusterUpgrade#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_cluster_upgrade#id CceClusterUpgrade#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_cluster_upgrade#is_postcheck CceClusterUpgrade#is_postcheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_cluster_upgrade#is_postcheck CceClusterUpgrade#is_postcheck}
   */
   readonly isPostcheck?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_cluster_upgrade#is_snapshot CceClusterUpgrade#is_snapshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_cluster_upgrade#is_snapshot CceClusterUpgrade#is_snapshot}
   */
   readonly isSnapshot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_cluster_upgrade#node_order CceClusterUpgrade#node_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_cluster_upgrade#node_order CceClusterUpgrade#node_order}
   */
   readonly nodeOrder?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_cluster_upgrade#nodepool_order CceClusterUpgrade#nodepool_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_cluster_upgrade#nodepool_order CceClusterUpgrade#nodepool_order}
   */
   readonly nodepoolOrder?: { [key: string]: number };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_cluster_upgrade#region CceClusterUpgrade#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_cluster_upgrade#region CceClusterUpgrade#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_cluster_upgrade#target_version CceClusterUpgrade#target_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_cluster_upgrade#target_version CceClusterUpgrade#target_version}
   */
   readonly targetVersion: string;
   /**
   * addons block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_cluster_upgrade#addons CceClusterUpgrade#addons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_cluster_upgrade#addons CceClusterUpgrade#addons}
   */
   readonly addons?: CceClusterUpgradeAddons[] | cdktf.IResolvable;
   /**
   * strategy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_cluster_upgrade#strategy CceClusterUpgrade#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_cluster_upgrade#strategy CceClusterUpgrade#strategy}
   */
   readonly strategy: CceClusterUpgradeStrategy;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_cluster_upgrade#timeouts CceClusterUpgrade#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_cluster_upgrade#timeouts CceClusterUpgrade#timeouts}
   */
   readonly timeouts?: CceClusterUpgradeTimeouts;
 }
 export interface CceClusterUpgradeAddonsValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_cluster_upgrade#basic_json CceClusterUpgrade#basic_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_cluster_upgrade#basic_json CceClusterUpgrade#basic_json}
   */
   readonly basicJson?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_cluster_upgrade#custom_json CceClusterUpgrade#custom_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_cluster_upgrade#custom_json CceClusterUpgrade#custom_json}
   */
   readonly customJson?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_cluster_upgrade#flavor_json CceClusterUpgrade#flavor_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_cluster_upgrade#flavor_json CceClusterUpgrade#flavor_json}
   */
   readonly flavorJson?: string;
 }
@@ -221,21 +221,21 @@ export class CceClusterUpgradeAddonsValuesOutputReference extends cdktf.ComplexO
 }
 export interface CceClusterUpgradeAddons {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_cluster_upgrade#addon_template_name CceClusterUpgrade#addon_template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_cluster_upgrade#addon_template_name CceClusterUpgrade#addon_template_name}
   */
   readonly addonTemplateName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_cluster_upgrade#operation CceClusterUpgrade#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_cluster_upgrade#operation CceClusterUpgrade#operation}
   */
   readonly operation: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_cluster_upgrade#version CceClusterUpgrade#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_cluster_upgrade#version CceClusterUpgrade#version}
   */
   readonly version: string;
   /**
   * values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_cluster_upgrade#values CceClusterUpgrade#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_cluster_upgrade#values CceClusterUpgrade#values}
   */
   readonly values?: CceClusterUpgradeAddonsValues;
 }
@@ -429,7 +429,7 @@ export class CceClusterUpgradeAddonsList extends cdktf.ComplexList {
 }
 export interface CceClusterUpgradeStrategyInPlaceRollingUpdate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_cluster_upgrade#user_defined_step CceClusterUpgrade#user_defined_step}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_cluster_upgrade#user_defined_step CceClusterUpgrade#user_defined_step}
   */
   readonly userDefinedStep?: number;
 }
@@ -513,13 +513,13 @@ export class CceClusterUpgradeStrategyInPlaceRollingUpdateOutputReference extend
 }
 export interface CceClusterUpgradeStrategy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_cluster_upgrade#type CceClusterUpgrade#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_cluster_upgrade#type CceClusterUpgrade#type}
   */
   readonly type: string;
   /**
   * in_place_rolling_update block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_cluster_upgrade#in_place_rolling_update CceClusterUpgrade#in_place_rolling_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_cluster_upgrade#in_place_rolling_update CceClusterUpgrade#in_place_rolling_update}
   */
   readonly inPlaceRollingUpdate?: CceClusterUpgradeStrategyInPlaceRollingUpdate;
 }
@@ -629,7 +629,7 @@ export class CceClusterUpgradeStrategyOutputReference extends cdktf.ComplexObjec
 }
 export interface CceClusterUpgradeTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_cluster_upgrade#create CceClusterUpgrade#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_cluster_upgrade#create CceClusterUpgrade#create}
   */
   readonly create?: string;
 }
@@ -723,7 +723,7 @@ export class CceClusterUpgradeTimeoutsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_cluster_upgrade sbercloud_cce_cluster_upgrade}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_cluster_upgrade sbercloud_cce_cluster_upgrade}
 */
 export class CceClusterUpgrade extends cdktf.TerraformResource {
 
@@ -739,7 +739,7 @@ export class CceClusterUpgrade extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CceClusterUpgrade resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CceClusterUpgrade to import
-  * @param importFromId The id of the existing CceClusterUpgrade that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_cluster_upgrade#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CceClusterUpgrade that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_cluster_upgrade#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CceClusterUpgrade to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -751,7 +751,7 @@ export class CceClusterUpgrade extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cce_cluster_upgrade sbercloud_cce_cluster_upgrade} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cce_cluster_upgrade sbercloud_cce_cluster_upgrade} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -762,8 +762,8 @@ export class CceClusterUpgrade extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_cce_cluster_upgrade',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

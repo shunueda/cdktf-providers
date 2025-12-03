@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_mysql_database_table_restore
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_mysql_database_table_restore
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface RdsMysqlDatabaseTableRestoreConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_mysql_database_table_restore#id RdsMysqlDatabaseTableRestore#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_mysql_database_table_restore#id RdsMysqlDatabaseTableRestore#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,41 +17,41 @@ export interface RdsMysqlDatabaseTableRestoreConfig extends cdktf.TerraformMetaA
   /**
   * Specifies the ID of RDS MySQL instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_mysql_database_table_restore#instance_id RdsMysqlDatabaseTableRestore#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_mysql_database_table_restore#instance_id RdsMysqlDatabaseTableRestore#instance_id}
   */
   readonly instanceId: string;
   /**
   * Specifies whether to use fast restoration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_mysql_database_table_restore#is_fast_restore RdsMysqlDatabaseTableRestore#is_fast_restore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_mysql_database_table_restore#is_fast_restore RdsMysqlDatabaseTableRestore#is_fast_restore}
   */
   readonly isFastRestore?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_mysql_database_table_restore#region RdsMysqlDatabaseTableRestore#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_mysql_database_table_restore#region RdsMysqlDatabaseTableRestore#region}
   */
   readonly region?: string;
   /**
   * Specifies the restoration time point.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_mysql_database_table_restore#restore_time RdsMysqlDatabaseTableRestore#restore_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_mysql_database_table_restore#restore_time RdsMysqlDatabaseTableRestore#restore_time}
   */
   readonly restoreTime: number;
   /**
   * databases block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_mysql_database_table_restore#databases RdsMysqlDatabaseTableRestore#databases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_mysql_database_table_restore#databases RdsMysqlDatabaseTableRestore#databases}
   */
   readonly databases?: RdsMysqlDatabaseTableRestoreDatabases[] | cdktf.IResolvable;
   /**
   * restore_tables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_mysql_database_table_restore#restore_tables RdsMysqlDatabaseTableRestore#restore_tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_mysql_database_table_restore#restore_tables RdsMysqlDatabaseTableRestore#restore_tables}
   */
   readonly restoreTables?: RdsMysqlDatabaseTableRestoreRestoreTables[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_mysql_database_table_restore#timeouts RdsMysqlDatabaseTableRestore#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_mysql_database_table_restore#timeouts RdsMysqlDatabaseTableRestore#timeouts}
   */
   readonly timeouts?: RdsMysqlDatabaseTableRestoreTimeouts;
 }
@@ -59,13 +59,13 @@ export interface RdsMysqlDatabaseTableRestoreDatabases {
   /**
   * Specifies the name of the database after restoration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_mysql_database_table_restore#new_name RdsMysqlDatabaseTableRestore#new_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_mysql_database_table_restore#new_name RdsMysqlDatabaseTableRestore#new_name}
   */
   readonly newName: string;
   /**
   * Specifies the name of the database before restoration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_mysql_database_table_restore#old_name RdsMysqlDatabaseTableRestore#old_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_mysql_database_table_restore#old_name RdsMysqlDatabaseTableRestore#old_name}
   */
   readonly oldName: string;
 }
@@ -206,13 +206,13 @@ export interface RdsMysqlDatabaseTableRestoreRestoreTablesTables {
   /**
   * Specifies the name of the table after restoration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_mysql_database_table_restore#new_name RdsMysqlDatabaseTableRestore#new_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_mysql_database_table_restore#new_name RdsMysqlDatabaseTableRestore#new_name}
   */
   readonly newName: string;
   /**
   * Specifies the name of the table before restoration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_mysql_database_table_restore#old_name RdsMysqlDatabaseTableRestore#old_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_mysql_database_table_restore#old_name RdsMysqlDatabaseTableRestore#old_name}
   */
   readonly oldName: string;
 }
@@ -353,13 +353,13 @@ export interface RdsMysqlDatabaseTableRestoreRestoreTables {
   /**
   * Specifies the database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_mysql_database_table_restore#database RdsMysqlDatabaseTableRestore#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_mysql_database_table_restore#database RdsMysqlDatabaseTableRestore#database}
   */
   readonly database: string;
   /**
   * tables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_mysql_database_table_restore#tables RdsMysqlDatabaseTableRestore#tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_mysql_database_table_restore#tables RdsMysqlDatabaseTableRestore#tables}
   */
   readonly tables: RdsMysqlDatabaseTableRestoreRestoreTablesTables[] | cdktf.IResolvable;
 }
@@ -498,7 +498,7 @@ export class RdsMysqlDatabaseTableRestoreRestoreTablesList extends cdktf.Complex
 }
 export interface RdsMysqlDatabaseTableRestoreTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_mysql_database_table_restore#create RdsMysqlDatabaseTableRestore#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_mysql_database_table_restore#create RdsMysqlDatabaseTableRestore#create}
   */
   readonly create?: string;
 }
@@ -592,7 +592,7 @@ export class RdsMysqlDatabaseTableRestoreTimeoutsOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_mysql_database_table_restore sbercloud_rds_mysql_database_table_restore}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_mysql_database_table_restore sbercloud_rds_mysql_database_table_restore}
 */
 export class RdsMysqlDatabaseTableRestore extends cdktf.TerraformResource {
 
@@ -608,7 +608,7 @@ export class RdsMysqlDatabaseTableRestore extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RdsMysqlDatabaseTableRestore resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RdsMysqlDatabaseTableRestore to import
-  * @param importFromId The id of the existing RdsMysqlDatabaseTableRestore that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_mysql_database_table_restore#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RdsMysqlDatabaseTableRestore that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_mysql_database_table_restore#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RdsMysqlDatabaseTableRestore to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -620,7 +620,7 @@ export class RdsMysqlDatabaseTableRestore extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_mysql_database_table_restore sbercloud_rds_mysql_database_table_restore} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_mysql_database_table_restore sbercloud_rds_mysql_database_table_restore} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -631,8 +631,8 @@ export class RdsMysqlDatabaseTableRestore extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_rds_mysql_database_table_restore',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_dead_letter_resend
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_dead_letter_resend
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,26 +8,26 @@ import * as cdktf from 'cdktf';
 
 export interface DmsRocketmqDeadLetterResendConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_dead_letter_resend#id DmsRocketmqDeadLetterResend#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_dead_letter_resend#id DmsRocketmqDeadLetterResend#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_dead_letter_resend#instance_id DmsRocketmqDeadLetterResend#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_dead_letter_resend#instance_id DmsRocketmqDeadLetterResend#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_dead_letter_resend#message_id_list DmsRocketmqDeadLetterResend#message_id_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_dead_letter_resend#message_id_list DmsRocketmqDeadLetterResend#message_id_list}
   */
   readonly messageIdList: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_dead_letter_resend#region DmsRocketmqDeadLetterResend#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_dead_letter_resend#region DmsRocketmqDeadLetterResend#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_dead_letter_resend#topic DmsRocketmqDeadLetterResend#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_dead_letter_resend#topic DmsRocketmqDeadLetterResend#topic}
   */
   readonly topic: string;
 }
@@ -118,7 +118,7 @@ export class DmsRocketmqDeadLetterResendResendResultsList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_dead_letter_resend sbercloud_dms_rocketmq_dead_letter_resend}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_dead_letter_resend sbercloud_dms_rocketmq_dead_letter_resend}
 */
 export class DmsRocketmqDeadLetterResend extends cdktf.TerraformResource {
 
@@ -134,7 +134,7 @@ export class DmsRocketmqDeadLetterResend extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DmsRocketmqDeadLetterResend resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DmsRocketmqDeadLetterResend to import
-  * @param importFromId The id of the existing DmsRocketmqDeadLetterResend that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_dead_letter_resend#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DmsRocketmqDeadLetterResend that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_dead_letter_resend#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DmsRocketmqDeadLetterResend to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -146,7 +146,7 @@ export class DmsRocketmqDeadLetterResend extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_dead_letter_resend sbercloud_dms_rocketmq_dead_letter_resend} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_dead_letter_resend sbercloud_dms_rocketmq_dead_letter_resend} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -157,8 +157,8 @@ export class DmsRocketmqDeadLetterResend extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_dms_rocketmq_dead_letter_resend',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_application_quota_associate
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_application_quota_associate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ApigApplicationQuotaAssociateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_application_quota_associate#id ApigApplicationQuotaAssociate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_application_quota_associate#id ApigApplicationQuotaAssociate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface ApigApplicationQuotaAssociateConfig extends cdktf.TerraformMeta
   /**
   * The ID of the dedicated instance to which the application quota (policy) belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_application_quota_associate#instance_id ApigApplicationQuotaAssociate#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_application_quota_associate#instance_id ApigApplicationQuotaAssociate#instance_id}
   */
   readonly instanceId: string;
   /**
   * The ID of the application quota (policy).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_application_quota_associate#quota_id ApigApplicationQuotaAssociate#quota_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_application_quota_associate#quota_id ApigApplicationQuotaAssociate#quota_id}
   */
   readonly quotaId: string;
   /**
   * The region where the application quota (policy) is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_application_quota_associate#region ApigApplicationQuotaAssociate#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_application_quota_associate#region ApigApplicationQuotaAssociate#region}
   */
   readonly region?: string;
   /**
   * applications block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_application_quota_associate#applications ApigApplicationQuotaAssociate#applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_application_quota_associate#applications ApigApplicationQuotaAssociate#applications}
   */
   readonly applications: ApigApplicationQuotaAssociateApplications[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_application_quota_associate#timeouts ApigApplicationQuotaAssociate#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_application_quota_associate#timeouts ApigApplicationQuotaAssociate#timeouts}
   */
   readonly timeouts?: ApigApplicationQuotaAssociateTimeouts;
 }
@@ -49,7 +49,7 @@ export interface ApigApplicationQuotaAssociateApplications {
   /**
   * The application ID bound to the application quota.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_application_quota_associate#id ApigApplicationQuotaAssociate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_application_quota_associate#id ApigApplicationQuotaAssociate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -170,15 +170,15 @@ export class ApigApplicationQuotaAssociateApplicationsList extends cdktf.Complex
 }
 export interface ApigApplicationQuotaAssociateTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_application_quota_associate#create ApigApplicationQuotaAssociate#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_application_quota_associate#create ApigApplicationQuotaAssociate#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_application_quota_associate#delete ApigApplicationQuotaAssociate#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_application_quota_associate#delete ApigApplicationQuotaAssociate#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_application_quota_associate#update ApigApplicationQuotaAssociate#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_application_quota_associate#update ApigApplicationQuotaAssociate#update}
   */
   readonly update?: string;
 }
@@ -330,7 +330,7 @@ export class ApigApplicationQuotaAssociateTimeoutsOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_application_quota_associate sbercloud_apig_application_quota_associate}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_application_quota_associate sbercloud_apig_application_quota_associate}
 */
 export class ApigApplicationQuotaAssociate extends cdktf.TerraformResource {
 
@@ -346,7 +346,7 @@ export class ApigApplicationQuotaAssociate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApigApplicationQuotaAssociate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApigApplicationQuotaAssociate to import
-  * @param importFromId The id of the existing ApigApplicationQuotaAssociate that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_application_quota_associate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApigApplicationQuotaAssociate that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_application_quota_associate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApigApplicationQuotaAssociate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -358,7 +358,7 @@ export class ApigApplicationQuotaAssociate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_application_quota_associate sbercloud_apig_application_quota_associate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_application_quota_associate sbercloud_apig_application_quota_associate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -369,8 +369,8 @@ export class ApigApplicationQuotaAssociate extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_apig_application_quota_associate',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

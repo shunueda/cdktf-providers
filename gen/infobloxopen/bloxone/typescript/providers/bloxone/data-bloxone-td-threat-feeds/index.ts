@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_threat_feeds
+// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_threat_feeds
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataBloxoneTdThreatFeedsConfig extends cdktf.TerraformMetaArgum
   /**
   * Filter are used to return a more specific list of results. Filters can be used to match resources by specific attributes, e.g. name. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_threat_feeds#filters DataBloxoneTdThreatFeeds#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_threat_feeds#filters DataBloxoneTdThreatFeeds#filters}
   */
   readonly filters?: { [key: string]: string };
 }
@@ -18,7 +18,7 @@ export interface DataBloxoneTdThreatFeedsResults {
   /**
   * The source of the threat feed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_threat_feeds#source DataBloxoneTdThreatFeeds#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_threat_feeds#source DataBloxoneTdThreatFeeds#source}
   */
   readonly source?: string;
 }
@@ -149,7 +149,7 @@ export class DataBloxoneTdThreatFeedsResultsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_threat_feeds bloxone_td_threat_feeds}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_threat_feeds bloxone_td_threat_feeds}
 */
 export class DataBloxoneTdThreatFeeds extends cdktf.TerraformDataSource {
 
@@ -165,7 +165,7 @@ export class DataBloxoneTdThreatFeeds extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataBloxoneTdThreatFeeds resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataBloxoneTdThreatFeeds to import
-  * @param importFromId The id of the existing DataBloxoneTdThreatFeeds that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_threat_feeds#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataBloxoneTdThreatFeeds that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_threat_feeds#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataBloxoneTdThreatFeeds to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -177,7 +177,7 @@ export class DataBloxoneTdThreatFeeds extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_threat_feeds bloxone_td_threat_feeds} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_threat_feeds bloxone_td_threat_feeds} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -188,8 +188,8 @@ export class DataBloxoneTdThreatFeeds extends cdktf.TerraformDataSource {
       terraformResourceType: 'bloxone_td_threat_feeds',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.5.4',
+        providerVersionConstraint: '1.5.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

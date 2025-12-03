@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dfp_services
+// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dfp_services
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataBloxoneDfpServicesConfig extends cdktf.TerraformMetaArgumen
   /**
   * Filter are used to return a more specific list of results. Filters can be used to match resources by specific attributes, e.g. name. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dfp_services#filters DataBloxoneDfpServices#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dfp_services#filters DataBloxoneDfpServices#filters}
   */
   readonly filters?: { [key: string]: string };
 }
@@ -18,7 +18,7 @@ export interface DataBloxoneDfpServicesResultsHost {
   /**
   * The DNS Forwarding Proxy legacy ID object identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dfp_services#legacy_host_id DataBloxoneDfpServices#legacy_host_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dfp_services#legacy_host_id DataBloxoneDfpServices#legacy_host_id}
   */
   readonly legacyHostId?: number;
 }
@@ -141,13 +141,13 @@ export interface DataBloxoneDfpServicesResultsNetAddrPolicyIds {
   /**
   * Network address in IPv4 CIDR (address/bitmask length) string format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dfp_services#addr_net DataBloxoneDfpServices#addr_net}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dfp_services#addr_net DataBloxoneDfpServices#addr_net}
   */
   readonly addrNet?: string;
   /**
   * Identifier of the security policy associated with this address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dfp_services#policy_id DataBloxoneDfpServices#policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dfp_services#policy_id DataBloxoneDfpServices#policy_id}
   */
   readonly policyId?: number;
 }
@@ -294,25 +294,25 @@ export interface DataBloxoneDfpServicesResultsResolversAll {
   /**
   * Address that can be used as resolver
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dfp_services#address DataBloxoneDfpServices#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dfp_services#address DataBloxoneDfpServices#address}
   */
   readonly address?: string;
   /**
   * Mark it true to set default DNS resolvers that will be used in case if the BloxOne Cloud is unreachable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dfp_services#is_fallback DataBloxoneDfpServices#is_fallback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dfp_services#is_fallback DataBloxoneDfpServices#is_fallback}
   */
   readonly isFallback?: boolean | cdktf.IResolvable;
   /**
   * Mark it true to set internal or local DNS servers' IPv4 or IPv6 addresses that are used as DNS resolvers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dfp_services#is_local DataBloxoneDfpServices#is_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dfp_services#is_local DataBloxoneDfpServices#is_local}
   */
   readonly isLocal?: boolean | cdktf.IResolvable;
   /**
   * The list of DNS resolver communication protocols.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dfp_services#protocols DataBloxoneDfpServices#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dfp_services#protocols DataBloxoneDfpServices#protocols}
   */
   readonly protocols?: string[];
 }
@@ -517,31 +517,31 @@ export interface DataBloxoneDfpServicesResults {
   /**
   * Policy Identifier for DNS Forwarding Proxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dfp_services#forwarding_policy DataBloxoneDfpServices#forwarding_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dfp_services#forwarding_policy DataBloxoneDfpServices#forwarding_policy}
   */
   readonly forwardingPolicy?: string;
   /**
   * The list of internal domains list IDs that are associated with this DFP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dfp_services#internal_domain_lists DataBloxoneDfpServices#internal_domain_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dfp_services#internal_domain_lists DataBloxoneDfpServices#internal_domain_lists}
   */
   readonly internalDomainLists?: number[];
   /**
   * List of network-address-scoped security policy assignments
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dfp_services#net_addr_policy_ids DataBloxoneDfpServices#net_addr_policy_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dfp_services#net_addr_policy_ids DataBloxoneDfpServices#net_addr_policy_ids}
   */
   readonly netAddrPolicyIds?: DataBloxoneDfpServicesResultsNetAddrPolicyIds[] | cdktf.IResolvable;
   /**
   * List of DNS resolvers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dfp_services#resolvers_all DataBloxoneDfpServices#resolvers_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dfp_services#resolvers_all DataBloxoneDfpServices#resolvers_all}
   */
   readonly resolversAll?: DataBloxoneDfpServicesResultsResolversAll[] | cdktf.IResolvable;
   /**
   * The On-Prem Application Service identifier. For internal Use only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dfp_services#service_id DataBloxoneDfpServices#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dfp_services#service_id DataBloxoneDfpServices#service_id}
   */
   readonly serviceId: string;
 }
@@ -816,7 +816,7 @@ export class DataBloxoneDfpServicesResultsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dfp_services bloxone_dfp_services}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dfp_services bloxone_dfp_services}
 */
 export class DataBloxoneDfpServices extends cdktf.TerraformDataSource {
 
@@ -832,7 +832,7 @@ export class DataBloxoneDfpServices extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataBloxoneDfpServices resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataBloxoneDfpServices to import
-  * @param importFromId The id of the existing DataBloxoneDfpServices that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dfp_services#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataBloxoneDfpServices that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dfp_services#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataBloxoneDfpServices to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -844,7 +844,7 @@ export class DataBloxoneDfpServices extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dfp_services bloxone_dfp_services} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dfp_services bloxone_dfp_services} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -855,8 +855,8 @@ export class DataBloxoneDfpServices extends cdktf.TerraformDataSource {
       terraformResourceType: 'bloxone_dfp_services',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.5.4',
+        providerVersionConstraint: '1.5.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

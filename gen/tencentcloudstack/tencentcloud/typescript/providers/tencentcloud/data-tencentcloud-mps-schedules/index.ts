@@ -6,7 +6,7 @@ import { Construct } from 'constructs';
 import * as cdktf from 'cdktf';
 export interface DataTencentcloudMpsSchedulesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/mps_schedules#id DataTencentcloudMpsSchedules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/mps_schedules#id DataTencentcloudMpsSchedules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -15,31 +15,31 @@ export interface DataTencentcloudMpsSchedulesConfig extends cdktf.TerraformMetaA
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/mps_schedules#result_output_file DataTencentcloudMpsSchedules#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/mps_schedules#result_output_file DataTencentcloudMpsSchedules#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * The IDs of the schemes to query. Array length limit: 100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/mps_schedules#schedule_ids DataTencentcloudMpsSchedules#schedule_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/mps_schedules#schedule_ids DataTencentcloudMpsSchedules#schedule_ids}
   */
   readonly scheduleIds?: number[];
   /**
   * The scheme status. Valid values:`Enabled`, `Disabled`. If you do not specify this parameter, all schemes will be returned regardless of the status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/mps_schedules#status DataTencentcloudMpsSchedules#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/mps_schedules#status DataTencentcloudMpsSchedules#status}
   */
   readonly status?: string;
   /**
   * The trigger type. Valid values:`CosFileUpload`: The scheme is triggered when a file is uploaded to Tencent Cloud Object Storage (COS).`AwsS3FileUpload`: The scheme is triggered when a file is uploaded to AWS S3.If you do not specify this parameter or leave it empty, all schemes will be returned regardless of the trigger type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/mps_schedules#trigger_type DataTencentcloudMpsSchedules#trigger_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/mps_schedules#trigger_type DataTencentcloudMpsSchedules#trigger_type}
   */
   readonly triggerType?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/mps_schedules tencentcloud_mps_schedules}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/mps_schedules tencentcloud_mps_schedules}
 */
 export class DataTencentcloudMpsSchedules extends cdktf.TerraformDataSource {
 
@@ -55,7 +55,7 @@ export class DataTencentcloudMpsSchedules extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudMpsSchedules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudMpsSchedules to import
-  * @param importFromId The id of the existing DataTencentcloudMpsSchedules that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/mps_schedules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudMpsSchedules that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/mps_schedules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudMpsSchedules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -67,7 +67,7 @@ export class DataTencentcloudMpsSchedules extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/mps_schedules tencentcloud_mps_schedules} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/mps_schedules tencentcloud_mps_schedules} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -78,8 +78,8 @@ export class DataTencentcloudMpsSchedules extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_mps_schedules',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.39',
-        providerVersionConstraint: '1.82.39'
+        providerVersion: '1.82.40',
+        providerVersionConstraint: '1.82.40'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

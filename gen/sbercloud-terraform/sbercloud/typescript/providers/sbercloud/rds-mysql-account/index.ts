@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_mysql_account
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_mysql_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface RdsMysqlAccountConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies remarks of the DB account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_mysql_account#description RdsMysqlAccount#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_mysql_account#description RdsMysqlAccount#description}
   */
   readonly description?: string;
   /**
   * Specifies the IP addresses that are allowed to access your DB instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_mysql_account#hosts RdsMysqlAccount#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_mysql_account#hosts RdsMysqlAccount#hosts}
   */
   readonly hosts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_mysql_account#id RdsMysqlAccount#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_mysql_account#id RdsMysqlAccount#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,43 +29,43 @@ export interface RdsMysqlAccountConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies the ID of the RDS Mysql instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_mysql_account#instance_id RdsMysqlAccount#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_mysql_account#instance_id RdsMysqlAccount#instance_id}
   */
   readonly instanceId: string;
   /**
   * Specifies the username of the DB account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_mysql_account#name RdsMysqlAccount#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_mysql_account#name RdsMysqlAccount#name}
   */
   readonly name: string;
   /**
   * Specifies the password of the DB account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_mysql_account#password RdsMysqlAccount#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_mysql_account#password RdsMysqlAccount#password}
   */
   readonly password: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_mysql_account#region RdsMysqlAccount#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_mysql_account#region RdsMysqlAccount#region}
   */
   readonly region?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_mysql_account#timeouts RdsMysqlAccount#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_mysql_account#timeouts RdsMysqlAccount#timeouts}
   */
   readonly timeouts?: RdsMysqlAccountTimeouts;
 }
 export interface RdsMysqlAccountTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_mysql_account#create RdsMysqlAccount#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_mysql_account#create RdsMysqlAccount#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_mysql_account#delete RdsMysqlAccount#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_mysql_account#delete RdsMysqlAccount#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_mysql_account#update RdsMysqlAccount#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_mysql_account#update RdsMysqlAccount#update}
   */
   readonly update?: string;
 }
@@ -217,7 +217,7 @@ export class RdsMysqlAccountTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_mysql_account sbercloud_rds_mysql_account}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_mysql_account sbercloud_rds_mysql_account}
 */
 export class RdsMysqlAccount extends cdktf.TerraformResource {
 
@@ -233,7 +233,7 @@ export class RdsMysqlAccount extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RdsMysqlAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RdsMysqlAccount to import
-  * @param importFromId The id of the existing RdsMysqlAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_mysql_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RdsMysqlAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_mysql_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RdsMysqlAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -245,7 +245,7 @@ export class RdsMysqlAccount extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_mysql_account sbercloud_rds_mysql_account} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_mysql_account sbercloud_rds_mysql_account} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -256,8 +256,8 @@ export class RdsMysqlAccount extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_rds_mysql_account',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

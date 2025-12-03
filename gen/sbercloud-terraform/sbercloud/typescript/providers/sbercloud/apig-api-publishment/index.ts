@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api_publishment
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api_publishment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ApigApiPublishmentConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the API to be published or already published.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api_publishment#api_id ApigApiPublishment#api_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api_publishment#api_id ApigApiPublishment#api_id}
   */
   readonly apiId: string;
   /**
   * The description of the current publishment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api_publishment#description ApigApiPublishment#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api_publishment#description ApigApiPublishment#description}
   */
   readonly description?: string;
   /**
   * The ID of the environment to which the current version of the API will be published or has been published.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api_publishment#env_id ApigApiPublishment#env_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api_publishment#env_id ApigApiPublishment#env_id}
   */
   readonly envId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api_publishment#id ApigApiPublishment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api_publishment#id ApigApiPublishment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,19 +35,19 @@ export interface ApigApiPublishmentConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the dedicated instance to which the API and the environment belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api_publishment#instance_id ApigApiPublishment#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api_publishment#instance_id ApigApiPublishment#instance_id}
   */
   readonly instanceId: string;
   /**
   * The region in which to publish API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api_publishment#region ApigApiPublishment#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api_publishment#region ApigApiPublishment#region}
   */
   readonly region?: string;
   /**
   * The version ID of the current publishment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api_publishment#version_id ApigApiPublishment#version_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api_publishment#version_id ApigApiPublishment#version_id}
   */
   readonly versionId?: string;
 }
@@ -133,7 +133,7 @@ export class ApigApiPublishmentHistoriesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api_publishment sbercloud_apig_api_publishment}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api_publishment sbercloud_apig_api_publishment}
 */
 export class ApigApiPublishment extends cdktf.TerraformResource {
 
@@ -149,7 +149,7 @@ export class ApigApiPublishment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApigApiPublishment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApigApiPublishment to import
-  * @param importFromId The id of the existing ApigApiPublishment that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api_publishment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApigApiPublishment that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api_publishment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApigApiPublishment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -161,7 +161,7 @@ export class ApigApiPublishment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api_publishment sbercloud_apig_api_publishment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api_publishment sbercloud_apig_api_publishment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -172,8 +172,8 @@ export class ApigApiPublishment extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_apig_api_publishment',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_application_filter
+// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_application_filter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface TdApplicationFilterConfig extends cdktf.TerraformMetaArguments 
   /**
   * The array of key-value pairs specifying criteria for the search.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_application_filter#criteria TdApplicationFilter#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_application_filter#criteria TdApplicationFilter#criteria}
   */
   readonly criteria: TdApplicationFilterCriteria[] | cdktf.IResolvable;
   /**
   * The brief description for the application filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_application_filter#description TdApplicationFilter#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_application_filter#description TdApplicationFilter#description}
   */
   readonly description?: string;
   /**
   * The name of the application filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_application_filter#name TdApplicationFilter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_application_filter#name TdApplicationFilter#name}
   */
   readonly name: string;
   /**
   * Enables tag support for resource where tags attribute contains user-defined key value pairs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_application_filter#tags TdApplicationFilter#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_application_filter#tags TdApplicationFilter#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -36,19 +36,19 @@ export interface TdApplicationFilterCriteria {
   /**
   * The category of the application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_application_filter#category TdApplicationFilter#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_application_filter#category TdApplicationFilter#category}
   */
   readonly category?: string;
   /**
   * Name for the application. Since the name of application is unique it may be used as alternate key for the application. The 'name' is used for import-export workflow and should be resolved to the 'id' before continue processing Create/Update operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_application_filter#name TdApplicationFilter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_application_filter#name TdApplicationFilter#name}
   */
   readonly name?: string;
   /**
   * The subcategory of the application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_application_filter#subcategory TdApplicationFilter#subcategory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_application_filter#subcategory TdApplicationFilter#subcategory}
   */
   readonly subcategory?: string;
 }
@@ -227,7 +227,7 @@ export class TdApplicationFilterCriteriaList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_application_filter bloxone_td_application_filter}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_application_filter bloxone_td_application_filter}
 */
 export class TdApplicationFilter extends cdktf.TerraformResource {
 
@@ -243,7 +243,7 @@ export class TdApplicationFilter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TdApplicationFilter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TdApplicationFilter to import
-  * @param importFromId The id of the existing TdApplicationFilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_application_filter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TdApplicationFilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_application_filter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TdApplicationFilter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -255,7 +255,7 @@ export class TdApplicationFilter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_application_filter bloxone_td_application_filter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_application_filter bloxone_td_application_filter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -266,8 +266,8 @@ export class TdApplicationFilter extends cdktf.TerraformResource {
       terraformResourceType: 'bloxone_td_application_filter',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.5.4',
+        providerVersionConstraint: '1.5.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

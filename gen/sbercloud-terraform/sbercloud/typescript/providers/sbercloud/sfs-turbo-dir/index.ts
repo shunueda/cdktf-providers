@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/sfs_turbo_dir
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/sfs_turbo_dir
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface SfsTurboDirConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies the group ID of the SFS Turbo directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/sfs_turbo_dir#gid SfsTurboDir#gid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/sfs_turbo_dir#gid SfsTurboDir#gid}
   */
   readonly gid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/sfs_turbo_dir#id SfsTurboDir#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/sfs_turbo_dir#id SfsTurboDir#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,35 +23,35 @@ export interface SfsTurboDirConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies the SFS Turbo directory permissions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/sfs_turbo_dir#mode SfsTurboDir#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/sfs_turbo_dir#mode SfsTurboDir#mode}
   */
   readonly mode?: number;
   /**
   * Specifies the valid full path of SFS Turbo directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/sfs_turbo_dir#path SfsTurboDir#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/sfs_turbo_dir#path SfsTurboDir#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/sfs_turbo_dir#region SfsTurboDir#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/sfs_turbo_dir#region SfsTurboDir#region}
   */
   readonly region?: string;
   /**
   * Specifies the SFS Turbo ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/sfs_turbo_dir#share_id SfsTurboDir#share_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/sfs_turbo_dir#share_id SfsTurboDir#share_id}
   */
   readonly shareId: string;
   /**
   * Specifies the user ID of the SFS Turbo directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/sfs_turbo_dir#uid SfsTurboDir#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/sfs_turbo_dir#uid SfsTurboDir#uid}
   */
   readonly uid?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/sfs_turbo_dir sbercloud_sfs_turbo_dir}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/sfs_turbo_dir sbercloud_sfs_turbo_dir}
 */
 export class SfsTurboDir extends cdktf.TerraformResource {
 
@@ -67,7 +67,7 @@ export class SfsTurboDir extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SfsTurboDir resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SfsTurboDir to import
-  * @param importFromId The id of the existing SfsTurboDir that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/sfs_turbo_dir#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SfsTurboDir that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/sfs_turbo_dir#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SfsTurboDir to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -79,7 +79,7 @@ export class SfsTurboDir extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/sfs_turbo_dir sbercloud_sfs_turbo_dir} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/sfs_turbo_dir sbercloud_sfs_turbo_dir} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -90,8 +90,8 @@ export class SfsTurboDir extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_sfs_turbo_dir',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

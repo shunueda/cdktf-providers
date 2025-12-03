@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/server_service_account_attach
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/server_service_account_attach
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface ServerServiceAccountAttachConfig extends cdktf.TerraformMetaArg
   /**
   * STACKIT project ID to which the service account attachment is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/server_service_account_attach#project_id ServerServiceAccountAttach#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/server_service_account_attach#project_id ServerServiceAccountAttach#project_id}
   */
   readonly projectId: string;
   /**
   * The server ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/server_service_account_attach#server_id ServerServiceAccountAttach#server_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/server_service_account_attach#server_id ServerServiceAccountAttach#server_id}
   */
   readonly serverId: string;
   /**
   * The service account email.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/server_service_account_attach#service_account_email ServerServiceAccountAttach#service_account_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/server_service_account_attach#service_account_email ServerServiceAccountAttach#service_account_email}
   */
   readonly serviceAccountEmail: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/server_service_account_attach stackit_server_service_account_attach}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/server_service_account_attach stackit_server_service_account_attach}
 */
 export class ServerServiceAccountAttach extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class ServerServiceAccountAttach extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServerServiceAccountAttach resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServerServiceAccountAttach to import
-  * @param importFromId The id of the existing ServerServiceAccountAttach that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/server_service_account_attach#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServerServiceAccountAttach that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/server_service_account_attach#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServerServiceAccountAttach to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class ServerServiceAccountAttach extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/server_service_account_attach stackit_server_service_account_attach} Resource
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/server_service_account_attach stackit_server_service_account_attach} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class ServerServiceAccountAttach extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_server_service_account_attach',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.72.0',
-        providerVersionConstraint: '0.72.0'
+        providerVersion: '0.73.0',
+        providerVersionConstraint: '0.73.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

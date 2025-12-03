@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_custom_authorizer
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_custom_authorizer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface ApigCustomAuthorizerConfig extends cdktf.TerraformMetaArguments
   /**
   * The maximum cache age.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_custom_authorizer#cache_age ApigCustomAuthorizer#cache_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_custom_authorizer#cache_age ApigCustomAuthorizer#cache_age}
   */
   readonly cacheAge?: number;
   /**
   * The version alias URI of the FGS function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_custom_authorizer#function_alias_uri ApigCustomAuthorizer#function_alias_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_custom_authorizer#function_alias_uri ApigCustomAuthorizer#function_alias_uri}
   */
   readonly functionAliasUri?: string;
   /**
   * The URN of the FGS function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_custom_authorizer#function_urn ApigCustomAuthorizer#function_urn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_custom_authorizer#function_urn ApigCustomAuthorizer#function_urn}
   */
   readonly functionUrn: string;
   /**
   * The version of the FGS function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_custom_authorizer#function_version ApigCustomAuthorizer#function_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_custom_authorizer#function_version ApigCustomAuthorizer#function_version}
   */
   readonly functionVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_custom_authorizer#id ApigCustomAuthorizer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_custom_authorizer#id ApigCustomAuthorizer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,49 +41,49 @@ export interface ApigCustomAuthorizerConfig extends cdktf.TerraformMetaArguments
   /**
   * The ID of the dedicated instance to which the custom authorizer belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_custom_authorizer#instance_id ApigCustomAuthorizer#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_custom_authorizer#instance_id ApigCustomAuthorizer#instance_id}
   */
   readonly instanceId: string;
   /**
   * Whether to send the body.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_custom_authorizer#is_body_send ApigCustomAuthorizer#is_body_send}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_custom_authorizer#is_body_send ApigCustomAuthorizer#is_body_send}
   */
   readonly isBodySend?: boolean | cdktf.IResolvable;
   /**
   * The name of the custom authorizer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_custom_authorizer#name ApigCustomAuthorizer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_custom_authorizer#name ApigCustomAuthorizer#name}
   */
   readonly name: string;
   /**
   * The framework type of the function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_custom_authorizer#network_type ApigCustomAuthorizer#network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_custom_authorizer#network_type ApigCustomAuthorizer#network_type}
   */
   readonly networkType?: string;
   /**
   * The region where the custom authorizer is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_custom_authorizer#region ApigCustomAuthorizer#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_custom_authorizer#region ApigCustomAuthorizer#region}
   */
   readonly region?: string;
   /**
   * The custom authorization type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_custom_authorizer#type ApigCustomAuthorizer#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_custom_authorizer#type ApigCustomAuthorizer#type}
   */
   readonly type?: string;
   /**
   * The user data for custom authorizer function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_custom_authorizer#user_data ApigCustomAuthorizer#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_custom_authorizer#user_data ApigCustomAuthorizer#user_data}
   */
   readonly userData?: string;
   /**
   * identity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_custom_authorizer#identity ApigCustomAuthorizer#identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_custom_authorizer#identity ApigCustomAuthorizer#identity}
   */
   readonly identity?: ApigCustomAuthorizerIdentity[] | cdktf.IResolvable;
 }
@@ -91,19 +91,19 @@ export interface ApigCustomAuthorizerIdentity {
   /**
   * The parameter location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_custom_authorizer#location ApigCustomAuthorizer#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_custom_authorizer#location ApigCustomAuthorizer#location}
   */
   readonly location: string;
   /**
   * The name of the parameter to be verified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_custom_authorizer#name ApigCustomAuthorizer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_custom_authorizer#name ApigCustomAuthorizer#name}
   */
   readonly name: string;
   /**
   * The parameter verification expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_custom_authorizer#validation ApigCustomAuthorizer#validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_custom_authorizer#validation ApigCustomAuthorizer#validation}
   */
   readonly validation?: string;
 }
@@ -271,7 +271,7 @@ export class ApigCustomAuthorizerIdentityList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_custom_authorizer sbercloud_apig_custom_authorizer}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_custom_authorizer sbercloud_apig_custom_authorizer}
 */
 export class ApigCustomAuthorizer extends cdktf.TerraformResource {
 
@@ -287,7 +287,7 @@ export class ApigCustomAuthorizer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApigCustomAuthorizer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApigCustomAuthorizer to import
-  * @param importFromId The id of the existing ApigCustomAuthorizer that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_custom_authorizer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApigCustomAuthorizer that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_custom_authorizer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApigCustomAuthorizer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -299,7 +299,7 @@ export class ApigCustomAuthorizer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_custom_authorizer sbercloud_apig_custom_authorizer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_custom_authorizer sbercloud_apig_custom_authorizer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -310,8 +310,8 @@ export class ApigCustomAuthorizer extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_apig_custom_authorizer',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

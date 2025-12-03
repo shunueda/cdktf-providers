@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dns_zones
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dns_zones
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataSbercloudDnsZonesConfig extends cdktf.TerraformMetaArgument
   /**
   * The enterprise project ID which the zone associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dns_zones#enterprise_project_id DataSbercloudDnsZones#enterprise_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dns_zones#enterprise_project_id DataSbercloudDnsZones#enterprise_project_id}
   */
   readonly enterpriseProjectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dns_zones#id DataSbercloudDnsZones#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dns_zones#id DataSbercloudDnsZones#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,59 +23,61 @@ export interface DataSbercloudDnsZonesConfig extends cdktf.TerraformMetaArgument
   /**
   * The zone name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dns_zones#name DataSbercloudDnsZones#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dns_zones#name DataSbercloudDnsZones#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dns_zones#region DataSbercloudDnsZones#region}
+  * The region where the zones are located.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dns_zones#region DataSbercloudDnsZones#region}
   */
   readonly region?: string;
   /**
   * The ID of the VPC associated with the private zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dns_zones#router_id DataSbercloudDnsZones#router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dns_zones#router_id DataSbercloudDnsZones#router_id}
   */
   readonly routerId?: string;
   /**
   * The query criteria search mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dns_zones#search_mode DataSbercloudDnsZones#search_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dns_zones#search_mode DataSbercloudDnsZones#search_mode}
   */
   readonly searchMode?: string;
   /**
   * The sorting mode for the list of the zones.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dns_zones#sort_dir DataSbercloudDnsZones#sort_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dns_zones#sort_dir DataSbercloudDnsZones#sort_dir}
   */
   readonly sortDir?: string;
   /**
   * The sorting filed for the list of the zones.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dns_zones#sort_key DataSbercloudDnsZones#sort_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dns_zones#sort_key DataSbercloudDnsZones#sort_key}
   */
   readonly sortKey?: string;
   /**
   * The zone status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dns_zones#status DataSbercloudDnsZones#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dns_zones#status DataSbercloudDnsZones#status}
   */
   readonly status?: string;
   /**
   * The resource tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dns_zones#tags DataSbercloudDnsZones#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dns_zones#tags DataSbercloudDnsZones#tags}
   */
   readonly tags?: string;
   /**
   * The ID of the zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dns_zones#zone_id DataSbercloudDnsZones#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dns_zones#zone_id DataSbercloudDnsZones#zone_id}
   */
   readonly zoneId?: string;
   /**
   * The zone type. The value can be **public** or **private**.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dns_zones#zone_type DataSbercloudDnsZones#zone_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dns_zones#zone_type DataSbercloudDnsZones#zone_type}
   */
   readonly zoneType: string;
 }
@@ -313,7 +315,7 @@ export class DataSbercloudDnsZonesZonesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dns_zones sbercloud_dns_zones}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dns_zones sbercloud_dns_zones}
 */
 export class DataSbercloudDnsZones extends cdktf.TerraformDataSource {
 
@@ -329,7 +331,7 @@ export class DataSbercloudDnsZones extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSbercloudDnsZones resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSbercloudDnsZones to import
-  * @param importFromId The id of the existing DataSbercloudDnsZones that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dns_zones#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSbercloudDnsZones that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dns_zones#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSbercloudDnsZones to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -341,7 +343,7 @@ export class DataSbercloudDnsZones extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dns_zones sbercloud_dns_zones} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dns_zones sbercloud_dns_zones} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -352,8 +354,8 @@ export class DataSbercloudDnsZones extends cdktf.TerraformDataSource {
       terraformResourceType: 'sbercloud_dns_zones',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

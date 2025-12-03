@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_group
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ApigGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * The group description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_group#description ApigGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_group#description ApigGroup#description}
   */
   readonly description?: string;
   /**
   * Specifies whether to use the debugging domain name to access the APIs within the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_group#domain_access_enabled ApigGroup#domain_access_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_group#domain_access_enabled ApigGroup#domain_access_enabled}
   */
   readonly domainAccessEnabled?: boolean | cdktf.IResolvable;
   /**
   * Whether to delete all sub-resources (for API) from this group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_group#force_destroy ApigGroup#force_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_group#force_destroy ApigGroup#force_destroy}
   */
   readonly forceDestroy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_group#id ApigGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_group#id ApigGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,31 @@ export interface ApigGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the dedicated instance to which the group belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_group#instance_id ApigGroup#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_group#instance_id ApigGroup#instance_id}
   */
   readonly instanceId: string;
   /**
   * The group name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_group#name ApigGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_group#name ApigGroup#name}
   */
   readonly name: string;
   /**
   * The region where the dedicated instance is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_group#region ApigGroup#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_group#region ApigGroup#region}
   */
   readonly region?: string;
   /**
   * environment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_group#environment ApigGroup#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_group#environment ApigGroup#environment}
   */
   readonly environment?: ApigGroupEnvironment[] | cdktf.IResolvable;
   /**
   * url_domains block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_group#url_domains ApigGroup#url_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_group#url_domains ApigGroup#url_domains}
   */
   readonly urlDomains?: ApigGroupUrlDomains[] | cdktf.IResolvable;
 }
@@ -67,13 +67,13 @@ export interface ApigGroupEnvironmentVariable {
   /**
   * The variable name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_group#name ApigGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_group#name ApigGroup#name}
   */
   readonly name: string;
   /**
   * The variable value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_group#value ApigGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_group#value ApigGroup#value}
   */
   readonly value: string;
 }
@@ -224,13 +224,13 @@ export interface ApigGroupEnvironment {
   /**
   * The ID of the environment to which the variables belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_group#environment_id ApigGroup#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_group#environment_id ApigGroup#environment_id}
   */
   readonly environmentId: string;
   /**
   * variable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_group#variable ApigGroup#variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_group#variable ApigGroup#variable}
   */
   readonly variable: ApigGroupEnvironmentVariable[] | cdktf.IResolvable;
 }
@@ -371,19 +371,19 @@ export interface ApigGroupUrlDomains {
   /**
   * Whether to enable redirection from HTTP to HTTPS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_group#is_http_redirect_to_https ApigGroup#is_http_redirect_to_https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_group#is_http_redirect_to_https ApigGroup#is_http_redirect_to_https}
   */
   readonly isHttpRedirectToHttps?: boolean | cdktf.IResolvable;
   /**
   * The minimum SSL protocol version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_group#min_ssl_version ApigGroup#min_ssl_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_group#min_ssl_version ApigGroup#min_ssl_version}
   */
   readonly minSslVersion?: string;
   /**
   * The associated domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_group#name ApigGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_group#name ApigGroup#name}
   */
   readonly name: string;
 }
@@ -554,7 +554,7 @@ export class ApigGroupUrlDomainsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_group sbercloud_apig_group}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_group sbercloud_apig_group}
 */
 export class ApigGroup extends cdktf.TerraformResource {
 
@@ -570,7 +570,7 @@ export class ApigGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApigGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApigGroup to import
-  * @param importFromId The id of the existing ApigGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApigGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApigGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -582,7 +582,7 @@ export class ApigGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_group sbercloud_apig_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_group sbercloud_apig_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -593,8 +593,8 @@ export class ApigGroup extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_apig_group',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

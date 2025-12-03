@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/vod_adaptive_dynamic_streaming_templates
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/vod_adaptive_dynamic_streaming_templates
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudVodAdaptiveDynamicStreamingTemplatesConfig exte
   /**
   * Unique ID filter of adaptive dynamic streaming template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/vod_adaptive_dynamic_streaming_templates#definition DataTencentcloudVodAdaptiveDynamicStreamingTemplates#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/vod_adaptive_dynamic_streaming_templates#definition DataTencentcloudVodAdaptiveDynamicStreamingTemplates#definition}
   */
   readonly definition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/vod_adaptive_dynamic_streaming_templates#id DataTencentcloudVodAdaptiveDynamicStreamingTemplates#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/vod_adaptive_dynamic_streaming_templates#id DataTencentcloudVodAdaptiveDynamicStreamingTemplates#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface DataTencentcloudVodAdaptiveDynamicStreamingTemplatesConfig exte
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/vod_adaptive_dynamic_streaming_templates#result_output_file DataTencentcloudVodAdaptiveDynamicStreamingTemplates#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/vod_adaptive_dynamic_streaming_templates#result_output_file DataTencentcloudVodAdaptiveDynamicStreamingTemplates#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Subapplication ID in VOD. If you need to access a resource in a subapplication, enter the subapplication ID in this field; otherwise, leave it empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/vod_adaptive_dynamic_streaming_templates#sub_app_id DataTencentcloudVodAdaptiveDynamicStreamingTemplates#sub_app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/vod_adaptive_dynamic_streaming_templates#sub_app_id DataTencentcloudVodAdaptiveDynamicStreamingTemplates#sub_app_id}
   */
   readonly subAppId?: number;
   /**
   * Template type filter. Valid values: `Preset`, `Custom`. `Preset`: preset template; `Custom`: custom template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/vod_adaptive_dynamic_streaming_templates#type DataTencentcloudVodAdaptiveDynamicStreamingTemplates#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/vod_adaptive_dynamic_streaming_templates#type DataTencentcloudVodAdaptiveDynamicStreamingTemplates#type}
   */
   readonly type?: string;
 }
@@ -449,7 +449,7 @@ export class DataTencentcloudVodAdaptiveDynamicStreamingTemplatesTemplateListStr
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/vod_adaptive_dynamic_streaming_templates tencentcloud_vod_adaptive_dynamic_streaming_templates}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/vod_adaptive_dynamic_streaming_templates tencentcloud_vod_adaptive_dynamic_streaming_templates}
 */
 export class DataTencentcloudVodAdaptiveDynamicStreamingTemplates extends cdktf.TerraformDataSource {
 
@@ -465,7 +465,7 @@ export class DataTencentcloudVodAdaptiveDynamicStreamingTemplates extends cdktf.
   * Generates CDKTF code for importing a DataTencentcloudVodAdaptiveDynamicStreamingTemplates resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudVodAdaptiveDynamicStreamingTemplates to import
-  * @param importFromId The id of the existing DataTencentcloudVodAdaptiveDynamicStreamingTemplates that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/vod_adaptive_dynamic_streaming_templates#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudVodAdaptiveDynamicStreamingTemplates that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/vod_adaptive_dynamic_streaming_templates#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudVodAdaptiveDynamicStreamingTemplates to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -477,7 +477,7 @@ export class DataTencentcloudVodAdaptiveDynamicStreamingTemplates extends cdktf.
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/vod_adaptive_dynamic_streaming_templates tencentcloud_vod_adaptive_dynamic_streaming_templates} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/vod_adaptive_dynamic_streaming_templates tencentcloud_vod_adaptive_dynamic_streaming_templates} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -488,8 +488,8 @@ export class DataTencentcloudVodAdaptiveDynamicStreamingTemplates extends cdktf.
       terraformResourceType: 'tencentcloud_vod_adaptive_dynamic_streaming_templates',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.39',
-        providerVersionConstraint: '1.82.39'
+        providerVersion: '1.82.40',
+        providerVersionConstraint: '1.82.40'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

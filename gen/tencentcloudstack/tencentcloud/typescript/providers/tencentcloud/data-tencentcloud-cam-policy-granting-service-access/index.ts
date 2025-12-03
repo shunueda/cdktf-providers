@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cam_policy_granting_service_access
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/cam_policy_granting_service_access
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudCamPolicyGrantingServiceAccessConfig extends cd
   /**
   * Group Id, one of the three (TargetUin, RoleId, GroupId) must be passed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cam_policy_granting_service_access#group_id DataTencentcloudCamPolicyGrantingServiceAccess#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/cam_policy_granting_service_access#group_id DataTencentcloudCamPolicyGrantingServiceAccess#group_id}
   */
   readonly groupId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cam_policy_granting_service_access#id DataTencentcloudCamPolicyGrantingServiceAccess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/cam_policy_granting_service_access#id DataTencentcloudCamPolicyGrantingServiceAccess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface DataTencentcloudCamPolicyGrantingServiceAccessConfig extends cd
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cam_policy_granting_service_access#result_output_file DataTencentcloudCamPolicyGrantingServiceAccess#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/cam_policy_granting_service_access#result_output_file DataTencentcloudCamPolicyGrantingServiceAccess#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Role Id, one of the three (TargetUin, RoleId, GroupId) must be passed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cam_policy_granting_service_access#role_id DataTencentcloudCamPolicyGrantingServiceAccess#role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/cam_policy_granting_service_access#role_id DataTencentcloudCamPolicyGrantingServiceAccess#role_id}
   */
   readonly roleId?: number;
   /**
   * Service type, this field needs to be passed when viewing the details of the service authorization interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cam_policy_granting_service_access#service_type DataTencentcloudCamPolicyGrantingServiceAccess#service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/cam_policy_granting_service_access#service_type DataTencentcloudCamPolicyGrantingServiceAccess#service_type}
   */
   readonly serviceType?: string;
   /**
   * Sub-account uin, one of the three (TargetUin, RoleId, GroupId) must be passed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cam_policy_granting_service_access#target_uin DataTencentcloudCamPolicyGrantingServiceAccess#target_uin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/cam_policy_granting_service_access#target_uin DataTencentcloudCamPolicyGrantingServiceAccess#target_uin}
   */
   readonly targetUin?: number;
 }
@@ -385,7 +385,7 @@ export class DataTencentcloudCamPolicyGrantingServiceAccessListStructList extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cam_policy_granting_service_access tencentcloud_cam_policy_granting_service_access}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/cam_policy_granting_service_access tencentcloud_cam_policy_granting_service_access}
 */
 export class DataTencentcloudCamPolicyGrantingServiceAccess extends cdktf.TerraformDataSource {
 
@@ -401,7 +401,7 @@ export class DataTencentcloudCamPolicyGrantingServiceAccess extends cdktf.Terraf
   * Generates CDKTF code for importing a DataTencentcloudCamPolicyGrantingServiceAccess resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudCamPolicyGrantingServiceAccess to import
-  * @param importFromId The id of the existing DataTencentcloudCamPolicyGrantingServiceAccess that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cam_policy_granting_service_access#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudCamPolicyGrantingServiceAccess that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/cam_policy_granting_service_access#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudCamPolicyGrantingServiceAccess to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -413,7 +413,7 @@ export class DataTencentcloudCamPolicyGrantingServiceAccess extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cam_policy_granting_service_access tencentcloud_cam_policy_granting_service_access} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/cam_policy_granting_service_access tencentcloud_cam_policy_granting_service_access} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -424,8 +424,8 @@ export class DataTencentcloudCamPolicyGrantingServiceAccess extends cdktf.Terraf
       terraformResourceType: 'tencentcloud_cam_policy_granting_service_access',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.39',
-        providerVersionConstraint: '1.82.39'
+        providerVersion: '1.82.40',
+        providerVersionConstraint: '1.82.40'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

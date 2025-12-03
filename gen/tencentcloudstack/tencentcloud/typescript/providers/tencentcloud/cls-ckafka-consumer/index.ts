@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cls_ckafka_consumer
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cls_ckafka_consumer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ClsCkafkaConsumerConfig extends cdktf.TerraformMetaArguments {
   /**
   * compression method. 0 for NONE, 2 for SNAPPY, 3 for LZ4.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cls_ckafka_consumer#compression ClsCkafkaConsumer#compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cls_ckafka_consumer#compression ClsCkafkaConsumer#compression}
   */
   readonly compression?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cls_ckafka_consumer#id ClsCkafkaConsumer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cls_ckafka_consumer#id ClsCkafkaConsumer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface ClsCkafkaConsumerConfig extends cdktf.TerraformMetaArguments {
   /**
   * whether to deliver the metadata information of the log.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cls_ckafka_consumer#need_content ClsCkafkaConsumer#need_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cls_ckafka_consumer#need_content ClsCkafkaConsumer#need_content}
   */
   readonly needContent?: boolean | cdktf.IResolvable;
   /**
   * topic id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cls_ckafka_consumer#topic_id ClsCkafkaConsumer#topic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cls_ckafka_consumer#topic_id ClsCkafkaConsumer#topic_id}
   */
   readonly topicId: string;
   /**
   * ckafka block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cls_ckafka_consumer#ckafka ClsCkafkaConsumer#ckafka}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cls_ckafka_consumer#ckafka ClsCkafkaConsumer#ckafka}
   */
   readonly ckafka?: ClsCkafkaConsumerCkafka;
   /**
   * content block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cls_ckafka_consumer#content ClsCkafkaConsumer#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cls_ckafka_consumer#content ClsCkafkaConsumer#content}
   */
   readonly content?: ClsCkafkaConsumerContent;
 }
@@ -49,37 +49,37 @@ export interface ClsCkafkaConsumerCkafka {
   /**
   * instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cls_ckafka_consumer#instance_id ClsCkafkaConsumer#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cls_ckafka_consumer#instance_id ClsCkafkaConsumer#instance_id}
   */
   readonly instanceId: string;
   /**
   * instance name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cls_ckafka_consumer#instance_name ClsCkafkaConsumer#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cls_ckafka_consumer#instance_name ClsCkafkaConsumer#instance_name}
   */
   readonly instanceName: string;
   /**
   * topic id of ckafka.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cls_ckafka_consumer#topic_id ClsCkafkaConsumer#topic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cls_ckafka_consumer#topic_id ClsCkafkaConsumer#topic_id}
   */
   readonly topicId: string;
   /**
   * topic name of ckafka.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cls_ckafka_consumer#topic_name ClsCkafkaConsumer#topic_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cls_ckafka_consumer#topic_name ClsCkafkaConsumer#topic_name}
   */
   readonly topicName: string;
   /**
   * vip.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cls_ckafka_consumer#vip ClsCkafkaConsumer#vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cls_ckafka_consumer#vip ClsCkafkaConsumer#vip}
   */
   readonly vip: string;
   /**
   * vport.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cls_ckafka_consumer#vport ClsCkafkaConsumer#vport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cls_ckafka_consumer#vport ClsCkafkaConsumer#vport}
   */
   readonly vport: string;
 }
@@ -292,25 +292,25 @@ export interface ClsCkafkaConsumerContent {
   /**
   * whether to deliver the TAG info.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cls_ckafka_consumer#enable_tag ClsCkafkaConsumer#enable_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cls_ckafka_consumer#enable_tag ClsCkafkaConsumer#enable_tag}
   */
   readonly enableTag: boolean | cdktf.IResolvable;
   /**
   * metadata info list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cls_ckafka_consumer#meta_fields ClsCkafkaConsumer#meta_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cls_ckafka_consumer#meta_fields ClsCkafkaConsumer#meta_fields}
   */
   readonly metaFields: string[];
   /**
   * whether to tiling tag json.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cls_ckafka_consumer#tag_json_not_tiled ClsCkafkaConsumer#tag_json_not_tiled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cls_ckafka_consumer#tag_json_not_tiled ClsCkafkaConsumer#tag_json_not_tiled}
   */
   readonly tagJsonNotTiled?: boolean | cdktf.IResolvable;
   /**
   * delivery timestamp precision,1 for second, 2 for millisecond.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cls_ckafka_consumer#timestamp_accuracy ClsCkafkaConsumer#timestamp_accuracy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cls_ckafka_consumer#timestamp_accuracy ClsCkafkaConsumer#timestamp_accuracy}
   */
   readonly timestampAccuracy?: number;
 }
@@ -475,7 +475,7 @@ export class ClsCkafkaConsumerContentOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cls_ckafka_consumer tencentcloud_cls_ckafka_consumer}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cls_ckafka_consumer tencentcloud_cls_ckafka_consumer}
 */
 export class ClsCkafkaConsumer extends cdktf.TerraformResource {
 
@@ -491,7 +491,7 @@ export class ClsCkafkaConsumer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClsCkafkaConsumer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClsCkafkaConsumer to import
-  * @param importFromId The id of the existing ClsCkafkaConsumer that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cls_ckafka_consumer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClsCkafkaConsumer that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cls_ckafka_consumer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClsCkafkaConsumer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -503,7 +503,7 @@ export class ClsCkafkaConsumer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cls_ckafka_consumer tencentcloud_cls_ckafka_consumer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cls_ckafka_consumer tencentcloud_cls_ckafka_consumer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -514,8 +514,8 @@ export class ClsCkafkaConsumer extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cls_ckafka_consumer',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.39',
-        providerVersionConstraint: '1.82.39'
+        providerVersion: '1.82.40',
+        providerVersionConstraint: '1.82.40'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

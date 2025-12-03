@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_vault
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_vault
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,59 +10,59 @@ export interface CbrVaultConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether automatic association is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_vault#auto_bind CbrVault#auto_bind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_vault#auto_bind CbrVault#auto_bind}
   */
   readonly autoBind?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable auto capacity expansion for the vault.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_vault#auto_expand CbrVault#auto_expand}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_vault#auto_expand CbrVault#auto_expand}
   */
   readonly autoExpand?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_vault#auto_pay CbrVault#auto_pay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_vault#auto_pay CbrVault#auto_pay}
   */
   readonly autoPay?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_vault#auto_renew CbrVault#auto_renew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_vault#auto_renew CbrVault#auto_renew}
   */
   readonly autoRenew?: string;
   /**
   * The backup name prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_vault#backup_name_prefix CbrVault#backup_name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_vault#backup_name_prefix CbrVault#backup_name_prefix}
   */
   readonly backupNamePrefix?: string;
   /**
   * The rules for automatic association.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_vault#bind_rules CbrVault#bind_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_vault#bind_rules CbrVault#bind_rules}
   */
   readonly bindRules?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_vault#charging_mode CbrVault#charging_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_vault#charging_mode CbrVault#charging_mode}
   */
   readonly chargingMode?: string;
   /**
   * The cloud type of the vault.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_vault#cloud_type CbrVault#cloud_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_vault#cloud_type CbrVault#cloud_type}
   */
   readonly cloudType?: string;
   /**
   * The consistent level (specification) of the vault.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_vault#consistent_level CbrVault#consistent_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_vault#consistent_level CbrVault#consistent_level}
   */
   readonly consistentLevel?: string;
   /**
   * The enterprise project ID to which the vault belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_vault#enterprise_project_id CbrVault#enterprise_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_vault#enterprise_project_id CbrVault#enterprise_project_id}
   */
   readonly enterpriseProjectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_vault#id CbrVault#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_vault#id CbrVault#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,73 +71,73 @@ export interface CbrVaultConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether multiple availability zones are used for backing up.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_vault#is_multi_az CbrVault#is_multi_az}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_vault#is_multi_az CbrVault#is_multi_az}
   */
   readonly isMultiAz?: boolean | cdktf.IResolvable;
   /**
   * The name of the vault.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_vault#name CbrVault#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_vault#name CbrVault#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_vault#period CbrVault#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_vault#period CbrVault#period}
   */
   readonly period?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_vault#period_unit CbrVault#period_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_vault#period_unit CbrVault#period_unit}
   */
   readonly periodUnit?: string;
   /**
   * schema:Deprecated; Using parameter 'policy' instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_vault#policy_id CbrVault#policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_vault#policy_id CbrVault#policy_id}
   */
   readonly policyId?: string;
   /**
   * The protection type of the vault.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_vault#protection_type CbrVault#protection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_vault#protection_type CbrVault#protection_type}
   */
   readonly protectionType: string;
   /**
   * The region where the vault is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_vault#region CbrVault#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_vault#region CbrVault#region}
   */
   readonly region?: string;
   /**
   * The capacity of the vault, in GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_vault#size CbrVault#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_vault#size CbrVault#size}
   */
   readonly size: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_vault#tags CbrVault#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_vault#tags CbrVault#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The type of the vault.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_vault#type CbrVault#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_vault#type CbrVault#type}
   */
   readonly type: string;
   /**
   * policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_vault#policy CbrVault#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_vault#policy CbrVault#policy}
   */
   readonly policy?: CbrVaultPolicy[] | cdktf.IResolvable;
   /**
   * resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_vault#resources CbrVault#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_vault#resources CbrVault#resources}
   */
   readonly resources?: CbrVaultResources[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_vault#timeouts CbrVault#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_vault#timeouts CbrVault#timeouts}
   */
   readonly timeouts?: CbrVaultTimeouts;
 }
@@ -145,13 +145,13 @@ export interface CbrVaultPolicy {
   /**
   * The ID of destination vault to which the replication policy will associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_vault#destination_vault_id CbrVault#destination_vault_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_vault#destination_vault_id CbrVault#destination_vault_id}
   */
   readonly destinationVaultId?: string;
   /**
   * The policy ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_vault#id CbrVault#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_vault#id CbrVault#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -298,19 +298,19 @@ export interface CbrVaultResources {
   /**
   * The array of disk IDs which will be excluded in the backup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_vault#excludes CbrVault#excludes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_vault#excludes CbrVault#excludes}
   */
   readonly excludes?: string[];
   /**
   * The array of disk or SFS file systems which will be included in the backup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_vault#includes CbrVault#includes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_vault#includes CbrVault#includes}
   */
   readonly includes?: string[];
   /**
   * The ID of the ECS instance to be backed up.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_vault#server_id CbrVault#server_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_vault#server_id CbrVault#server_id}
   */
   readonly serverId?: string;
 }
@@ -484,11 +484,11 @@ export class CbrVaultResourcesList extends cdktf.ComplexList {
 }
 export interface CbrVaultTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_vault#create CbrVault#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_vault#create CbrVault#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_vault#delete CbrVault#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_vault#delete CbrVault#delete}
   */
   readonly delete?: string;
 }
@@ -611,7 +611,7 @@ export class CbrVaultTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_vault sbercloud_cbr_vault}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_vault sbercloud_cbr_vault}
 */
 export class CbrVault extends cdktf.TerraformResource {
 
@@ -627,7 +627,7 @@ export class CbrVault extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CbrVault resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CbrVault to import
-  * @param importFromId The id of the existing CbrVault that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_vault#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CbrVault that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_vault#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CbrVault to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -639,7 +639,7 @@ export class CbrVault extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cbr_vault sbercloud_cbr_vault} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cbr_vault sbercloud_cbr_vault} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -650,8 +650,8 @@ export class CbrVault extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_cbr_vault',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

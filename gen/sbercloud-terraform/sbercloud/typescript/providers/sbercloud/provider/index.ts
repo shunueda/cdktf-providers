@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,105 +10,105 @@ export interface SbercloudProviderConfig {
   /**
   * The access key of the SberCloud to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs#access_key SbercloudProvider#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs#access_key SbercloudProvider#access_key}
   */
   readonly accessKey?: string;
   /**
   * The name of the Account to login with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs#account_name SbercloudProvider#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs#account_name SbercloudProvider#account_name}
   */
   readonly accountName?: string;
   /**
   * The Identity authentication URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs#auth_url SbercloudProvider#auth_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs#auth_url SbercloudProvider#auth_url}
   */
   readonly authUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs#domain_id SbercloudProvider#domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs#domain_id SbercloudProvider#domain_id}
   */
   readonly domainId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs#domain_name SbercloudProvider#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs#domain_name SbercloudProvider#domain_name}
   */
   readonly domainName?: string;
   /**
   * The custom endpoints used to override the default endpoint URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs#endpoints SbercloudProvider#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs#endpoints SbercloudProvider#endpoints}
   */
   readonly endpoints?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs#enterprise_project_id SbercloudProvider#enterprise_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs#enterprise_project_id SbercloudProvider#enterprise_project_id}
   */
   readonly enterpriseProjectId?: string;
   /**
   * Trust self-signed certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs#insecure SbercloudProvider#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs#insecure SbercloudProvider#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs#max_retries SbercloudProvider#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs#max_retries SbercloudProvider#max_retries}
   */
   readonly maxRetries?: number;
   /**
   * Password to login with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs#password SbercloudProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs#password SbercloudProvider#password}
   */
   readonly password?: string;
   /**
   * The name of the Project to login with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs#project_name SbercloudProvider#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs#project_name SbercloudProvider#project_name}
   */
   readonly projectName?: string;
   /**
   * The SberCloud region to connect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs#region SbercloudProvider#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs#region SbercloudProvider#region}
   */
   readonly region: string;
   /**
   * The secret key of the SberCloud to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs#secret_key SbercloudProvider#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs#secret_key SbercloudProvider#secret_key}
   */
   readonly secretKey?: string;
   /**
   * The security token to authenticate with a temporary security credential.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs#security_token SbercloudProvider#security_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs#security_token SbercloudProvider#security_token}
   */
   readonly securityToken?: string;
   /**
   * Username to login with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs#user_name SbercloudProvider#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs#user_name SbercloudProvider#user_name}
   */
   readonly userName?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs#alias SbercloudProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs#alias SbercloudProvider#alias}
   */
   readonly alias?: string;
   /**
   * assume_role block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs#assume_role SbercloudProvider#assume_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs#assume_role SbercloudProvider#assume_role}
   */
   readonly assumeRole?: SbercloudProviderAssumeRole;
 }
 export interface SbercloudProviderAssumeRole {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs#agency_name SbercloudProvider#agency_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs#agency_name SbercloudProvider#agency_name}
   */
   readonly agencyName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs#domain_name SbercloudProvider#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs#domain_name SbercloudProvider#domain_name}
   */
   readonly domainName: string;
 }
@@ -151,7 +151,7 @@ export function sbercloudProviderAssumeRoleToHclTerraform(struct?: SbercloudProv
 
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs sbercloud}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs sbercloud}
 */
 export class SbercloudProvider extends cdktf.TerraformProvider {
 
@@ -167,7 +167,7 @@ export class SbercloudProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a SbercloudProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SbercloudProvider to import
-  * @param importFromId The id of the existing SbercloudProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SbercloudProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SbercloudProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -179,7 +179,7 @@ export class SbercloudProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs sbercloud} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs sbercloud} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -190,8 +190,8 @@ export class SbercloudProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'sbercloud',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       terraformProviderSource: 'sbercloud-terraform/sbercloud'
     });

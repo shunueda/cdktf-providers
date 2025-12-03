@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/kms_keyring
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/kms_keyring
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface KmsKeyringConfig extends cdktf.TerraformMetaArguments {
   /**
   * A user chosen description to distinguish multiple keyrings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/kms_keyring#description KmsKeyring#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/kms_keyring#description KmsKeyring#description}
   */
   readonly description?: string;
   /**
   * The display name to distinguish multiple keyrings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/kms_keyring#display_name KmsKeyring#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/kms_keyring#display_name KmsKeyring#display_name}
   */
   readonly displayName: string;
   /**
   * STACKIT project ID to which the keyring is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/kms_keyring#project_id KmsKeyring#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/kms_keyring#project_id KmsKeyring#project_id}
   */
   readonly projectId: string;
   /**
   * The resource region. If not defined, the provider region is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/kms_keyring#region KmsKeyring#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/kms_keyring#region KmsKeyring#region}
   */
   readonly region?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/kms_keyring stackit_kms_keyring}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/kms_keyring stackit_kms_keyring}
 */
 export class KmsKeyring extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class KmsKeyring extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KmsKeyring resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KmsKeyring to import
-  * @param importFromId The id of the existing KmsKeyring that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/kms_keyring#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KmsKeyring that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/kms_keyring#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KmsKeyring to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class KmsKeyring extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/kms_keyring stackit_kms_keyring} Resource
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/kms_keyring stackit_kms_keyring} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class KmsKeyring extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_kms_keyring',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.72.0',
-        providerVersionConstraint: '0.72.0'
+        providerVersion: '0.73.0',
+        providerVersionConstraint: '0.73.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

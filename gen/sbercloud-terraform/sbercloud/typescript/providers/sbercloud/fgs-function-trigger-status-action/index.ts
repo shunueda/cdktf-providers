@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/fgs_function_trigger_status_action
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/fgs_function_trigger_status_action
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,23 +8,23 @@ import * as cdktf from 'cdktf';
 
 export interface FgsFunctionTriggerStatusActionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/fgs_function_trigger_status_action#enable_force_new FgsFunctionTriggerStatusAction#enable_force_new}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/fgs_function_trigger_status_action#enable_force_new FgsFunctionTriggerStatusAction#enable_force_new}
   */
   readonly enableForceNew?: string;
   /**
   * The event data of the trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/fgs_function_trigger_status_action#event_data FgsFunctionTriggerStatusAction#event_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/fgs_function_trigger_status_action#event_data FgsFunctionTriggerStatusAction#event_data}
   */
   readonly eventData: string;
   /**
   * The URN of the function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/fgs_function_trigger_status_action#function_urn FgsFunctionTriggerStatusAction#function_urn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/fgs_function_trigger_status_action#function_urn FgsFunctionTriggerStatusAction#function_urn}
   */
   readonly functionUrn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/fgs_function_trigger_status_action#id FgsFunctionTriggerStatusAction#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/fgs_function_trigger_status_action#id FgsFunctionTriggerStatusAction#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -33,31 +33,31 @@ export interface FgsFunctionTriggerStatusActionConfig extends cdktf.TerraformMet
   /**
   * The region where the function trigger is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/fgs_function_trigger_status_action#region FgsFunctionTriggerStatusAction#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/fgs_function_trigger_status_action#region FgsFunctionTriggerStatusAction#region}
   */
   readonly region?: string;
   /**
   * The trigger ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/fgs_function_trigger_status_action#trigger_id FgsFunctionTriggerStatusAction#trigger_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/fgs_function_trigger_status_action#trigger_id FgsFunctionTriggerStatusAction#trigger_id}
   */
   readonly triggerId: string;
   /**
   * The status of the trigger. Valid values are ACTIVE and DISABLED.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/fgs_function_trigger_status_action#trigger_status FgsFunctionTriggerStatusAction#trigger_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/fgs_function_trigger_status_action#trigger_status FgsFunctionTriggerStatusAction#trigger_status}
   */
   readonly triggerStatus: string;
   /**
   * The trigger type code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/fgs_function_trigger_status_action#trigger_type_code FgsFunctionTriggerStatusAction#trigger_type_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/fgs_function_trigger_status_action#trigger_type_code FgsFunctionTriggerStatusAction#trigger_type_code}
   */
   readonly triggerTypeCode: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/fgs_function_trigger_status_action sbercloud_fgs_function_trigger_status_action}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/fgs_function_trigger_status_action sbercloud_fgs_function_trigger_status_action}
 */
 export class FgsFunctionTriggerStatusAction extends cdktf.TerraformResource {
 
@@ -73,7 +73,7 @@ export class FgsFunctionTriggerStatusAction extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FgsFunctionTriggerStatusAction resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FgsFunctionTriggerStatusAction to import
-  * @param importFromId The id of the existing FgsFunctionTriggerStatusAction that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/fgs_function_trigger_status_action#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FgsFunctionTriggerStatusAction that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/fgs_function_trigger_status_action#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FgsFunctionTriggerStatusAction to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -85,7 +85,7 @@ export class FgsFunctionTriggerStatusAction extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/fgs_function_trigger_status_action sbercloud_fgs_function_trigger_status_action} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/fgs_function_trigger_status_action sbercloud_fgs_function_trigger_status_action} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -96,8 +96,8 @@ export class FgsFunctionTriggerStatusAction extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_fgs_function_trigger_status_action',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

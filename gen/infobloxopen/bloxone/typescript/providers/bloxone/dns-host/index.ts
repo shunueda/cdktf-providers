@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_host
+// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_host
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DnsHostConfig extends cdktf.TerraformMetaArguments {
   /**
   * Host FQDN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_host#absolute_name DnsHost#absolute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_host#absolute_name DnsHost#absolute_name}
   */
   readonly absoluteName?: string;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_host#id DnsHost#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_host#id DnsHost#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,31 +25,31 @@ export interface DnsHostConfig extends cdktf.TerraformMetaArguments {
   /**
   * Optional. Inheritance configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_host#inheritance_sources DnsHost#inheritance_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_host#inheritance_sources DnsHost#inheritance_sources}
   */
   readonly inheritanceSources?: DnsHostInheritanceSources;
   /**
   * Optional. _kerberos_keys_ contains a list of keys for GSS-TSIG signed dynamic updates.  Defaults to empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_host#kerberos_keys DnsHost#kerberos_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_host#kerberos_keys DnsHost#kerberos_keys}
   */
   readonly kerberosKeys?: DnsHostKerberosKeys[] | cdktf.IResolvable;
   /**
   * If set to `true`, the resource will retry until a matching host is found, or until the Create Timeout expires.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_host#retry_if_not_found DnsHost#retry_if_not_found}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_host#retry_if_not_found DnsHost#retry_if_not_found}
   */
   readonly retryIfNotFound?: boolean | cdktf.IResolvable;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_host#server DnsHost#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_host#server DnsHost#server}
   */
   readonly server?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_host#timeouts DnsHost#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_host#timeouts DnsHost#timeouts}
   */
   readonly timeouts?: DnsHostTimeouts;
 }
@@ -216,7 +216,7 @@ export interface DnsHostInheritanceSourcesKerberosKeys {
   /**
   * Optional. Inheritance setting for a field. Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_host#action DnsHost#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_host#action DnsHost#action}
   */
   readonly action?: string;
 }
@@ -326,7 +326,7 @@ export class DnsHostInheritanceSourcesKerberosKeysOutputReference extends cdktf.
 }
 export interface DnsHostInheritanceSources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_host#kerberos_keys DnsHost#kerberos_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_host#kerberos_keys DnsHost#kerberos_keys}
   */
   readonly kerberosKeys?: DnsHostInheritanceSourcesKerberosKeys;
 }
@@ -422,7 +422,7 @@ export interface DnsHostKerberosKeys {
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_host#key DnsHost#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_host#key DnsHost#key}
   */
   readonly key: string;
 }
@@ -562,7 +562,7 @@ export interface DnsHostTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_host#create DnsHost#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_host#create DnsHost#create}
   */
   readonly create?: string;
 }
@@ -656,7 +656,7 @@ export class DnsHostTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_host bloxone_dns_host}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_host bloxone_dns_host}
 */
 export class DnsHost extends cdktf.TerraformResource {
 
@@ -672,7 +672,7 @@ export class DnsHost extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DnsHost resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DnsHost to import
-  * @param importFromId The id of the existing DnsHost that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_host#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DnsHost that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_host#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DnsHost to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -684,7 +684,7 @@ export class DnsHost extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dns_host bloxone_dns_host} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dns_host bloxone_dns_host} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -695,8 +695,8 @@ export class DnsHost extends cdktf.TerraformResource {
       terraformResourceType: 'bloxone_dns_host',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.5.4',
+        providerVersionConstraint: '1.5.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

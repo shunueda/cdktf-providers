@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_content_categories
+// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_content_categories
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,19 +12,19 @@ export interface DataBloxoneTdContentCategoriesResults {
   /**
   * The category code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_content_categories#category_code DataBloxoneTdContentCategories#category_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_content_categories#category_code DataBloxoneTdContentCategories#category_code}
   */
   readonly categoryCode?: number;
   /**
   * The name of the category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_content_categories#category_name DataBloxoneTdContentCategories#category_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_content_categories#category_name DataBloxoneTdContentCategories#category_name}
   */
   readonly categoryName?: string;
   /**
   * The functional group name of the category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_content_categories#functional_group DataBloxoneTdContentCategories#functional_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_content_categories#functional_group DataBloxoneTdContentCategories#functional_group}
   */
   readonly functionalGroup?: string;
 }
@@ -188,7 +188,7 @@ export class DataBloxoneTdContentCategoriesResultsList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_content_categories bloxone_td_content_categories}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_content_categories bloxone_td_content_categories}
 */
 export class DataBloxoneTdContentCategories extends cdktf.TerraformDataSource {
 
@@ -204,7 +204,7 @@ export class DataBloxoneTdContentCategories extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataBloxoneTdContentCategories resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataBloxoneTdContentCategories to import
-  * @param importFromId The id of the existing DataBloxoneTdContentCategories that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_content_categories#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataBloxoneTdContentCategories that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_content_categories#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataBloxoneTdContentCategories to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -216,7 +216,7 @@ export class DataBloxoneTdContentCategories extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_content_categories bloxone_td_content_categories} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_content_categories bloxone_td_content_categories} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -227,8 +227,8 @@ export class DataBloxoneTdContentCategories extends cdktf.TerraformDataSource {
       terraformResourceType: 'bloxone_td_content_categories',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.5.4',
+        providerVersionConstraint: '1.5.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

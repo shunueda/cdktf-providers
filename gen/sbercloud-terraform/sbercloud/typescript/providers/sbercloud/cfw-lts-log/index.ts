@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_lts_log
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_lts_log
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface CfwLtsLogConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the firewall.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_lts_log#fw_instance_id CfwLtsLog#fw_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_lts_log#fw_instance_id CfwLtsLog#fw_instance_id}
   */
   readonly fwInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_lts_log#id CfwLtsLog#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_lts_log#id CfwLtsLog#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,53 +23,53 @@ export interface CfwLtsLogConfig extends cdktf.TerraformMetaArguments {
   /**
   * LTS access log stream switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_lts_log#lts_access_log_stream_enable CfwLtsLog#lts_access_log_stream_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_lts_log#lts_access_log_stream_enable CfwLtsLog#lts_access_log_stream_enable}
   */
   readonly ltsAccessLogStreamEnable: number;
   /**
   * LTS access log stream ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_lts_log#lts_access_log_stream_id CfwLtsLog#lts_access_log_stream_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_lts_log#lts_access_log_stream_id CfwLtsLog#lts_access_log_stream_id}
   */
   readonly ltsAccessLogStreamId?: string;
   /**
   * LTS attack log stream switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_lts_log#lts_attack_log_stream_enable CfwLtsLog#lts_attack_log_stream_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_lts_log#lts_attack_log_stream_enable CfwLtsLog#lts_attack_log_stream_enable}
   */
   readonly ltsAttackLogStreamEnable: number;
   /**
   * LTS attack log stream ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_lts_log#lts_attack_log_stream_id CfwLtsLog#lts_attack_log_stream_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_lts_log#lts_attack_log_stream_id CfwLtsLog#lts_attack_log_stream_id}
   */
   readonly ltsAttackLogStreamId?: string;
   /**
   * LTS flow log stream switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_lts_log#lts_flow_log_stream_enable CfwLtsLog#lts_flow_log_stream_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_lts_log#lts_flow_log_stream_enable CfwLtsLog#lts_flow_log_stream_enable}
   */
   readonly ltsFlowLogStreamEnable: number;
   /**
   * LTS flow log stream ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_lts_log#lts_flow_log_stream_id CfwLtsLog#lts_flow_log_stream_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_lts_log#lts_flow_log_stream_id CfwLtsLog#lts_flow_log_stream_id}
   */
   readonly ltsFlowLogStreamId?: string;
   /**
   * LTS log group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_lts_log#lts_log_group_id CfwLtsLog#lts_log_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_lts_log#lts_log_group_id CfwLtsLog#lts_log_group_id}
   */
   readonly ltsLogGroupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_lts_log#region CfwLtsLog#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_lts_log#region CfwLtsLog#region}
   */
   readonly region?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_lts_log sbercloud_cfw_lts_log}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_lts_log sbercloud_cfw_lts_log}
 */
 export class CfwLtsLog extends cdktf.TerraformResource {
 
@@ -85,7 +85,7 @@ export class CfwLtsLog extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CfwLtsLog resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CfwLtsLog to import
-  * @param importFromId The id of the existing CfwLtsLog that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_lts_log#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CfwLtsLog that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_lts_log#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CfwLtsLog to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -97,7 +97,7 @@ export class CfwLtsLog extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_lts_log sbercloud_cfw_lts_log} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_lts_log sbercloud_cfw_lts_log} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -108,8 +108,8 @@ export class CfwLtsLog extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_cfw_lts_log',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

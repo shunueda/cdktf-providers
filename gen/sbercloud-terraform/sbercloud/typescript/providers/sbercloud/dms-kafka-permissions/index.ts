@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_kafka_permissions
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_kafka_permissions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface DmsKafkaPermissionsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_kafka_permissions#id DmsKafkaPermissions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_kafka_permissions#id DmsKafkaPermissions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_kafka_permissions#instance_id DmsKafkaPermissions#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_kafka_permissions#instance_id DmsKafkaPermissions#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_kafka_permissions#region DmsKafkaPermissions#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_kafka_permissions#region DmsKafkaPermissions#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_kafka_permissions#topic_name DmsKafkaPermissions#topic_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_kafka_permissions#topic_name DmsKafkaPermissions#topic_name}
   */
   readonly topicName: string;
   /**
   * policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_kafka_permissions#policies DmsKafkaPermissions#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_kafka_permissions#policies DmsKafkaPermissions#policies}
   */
   readonly policies: DmsKafkaPermissionsPolicies[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_kafka_permissions#timeouts DmsKafkaPermissions#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_kafka_permissions#timeouts DmsKafkaPermissions#timeouts}
   */
   readonly timeouts?: DmsKafkaPermissionsTimeouts;
 }
 export interface DmsKafkaPermissionsPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_kafka_permissions#access_policy DmsKafkaPermissions#access_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_kafka_permissions#access_policy DmsKafkaPermissions#access_policy}
   */
   readonly accessPolicy: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_kafka_permissions#user_name DmsKafkaPermissions#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_kafka_permissions#user_name DmsKafkaPermissions#user_name}
   */
   readonly userName: string;
 }
@@ -184,11 +184,11 @@ export class DmsKafkaPermissionsPoliciesList extends cdktf.ComplexList {
 }
 export interface DmsKafkaPermissionsTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_kafka_permissions#create DmsKafkaPermissions#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_kafka_permissions#create DmsKafkaPermissions#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_kafka_permissions#delete DmsKafkaPermissions#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_kafka_permissions#delete DmsKafkaPermissions#delete}
   */
   readonly delete?: string;
 }
@@ -311,7 +311,7 @@ export class DmsKafkaPermissionsTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_kafka_permissions sbercloud_dms_kafka_permissions}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_kafka_permissions sbercloud_dms_kafka_permissions}
 */
 export class DmsKafkaPermissions extends cdktf.TerraformResource {
 
@@ -327,7 +327,7 @@ export class DmsKafkaPermissions extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DmsKafkaPermissions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DmsKafkaPermissions to import
-  * @param importFromId The id of the existing DmsKafkaPermissions that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_kafka_permissions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DmsKafkaPermissions that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_kafka_permissions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DmsKafkaPermissions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -339,7 +339,7 @@ export class DmsKafkaPermissions extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_kafka_permissions sbercloud_dms_kafka_permissions} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_kafka_permissions sbercloud_dms_kafka_permissions} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -350,8 +350,8 @@ export class DmsKafkaPermissions extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_dms_kafka_permissions',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

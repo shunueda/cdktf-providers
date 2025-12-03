@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/fgs_function_events
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/fgs_function_events
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataSbercloudFgsFunctionEventsConfig extends cdktf.TerraformMet
   /**
   * The function URN to which the events belong.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/fgs_function_events#function_urn DataSbercloudFgsFunctionEvents#function_urn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/fgs_function_events#function_urn DataSbercloudFgsFunctionEvents#function_urn}
   */
   readonly functionUrn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/fgs_function_events#id DataSbercloudFgsFunctionEvents#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/fgs_function_events#id DataSbercloudFgsFunctionEvents#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface DataSbercloudFgsFunctionEventsConfig extends cdktf.TerraformMet
   /**
   * The region in which to query the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/fgs_function_events#region DataSbercloudFgsFunctionEvents#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/fgs_function_events#region DataSbercloudFgsFunctionEvents#region}
   */
   readonly region?: string;
 }
@@ -114,7 +114,7 @@ export class DataSbercloudFgsFunctionEventsEventsList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/fgs_function_events sbercloud_fgs_function_events}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/fgs_function_events sbercloud_fgs_function_events}
 */
 export class DataSbercloudFgsFunctionEvents extends cdktf.TerraformDataSource {
 
@@ -130,7 +130,7 @@ export class DataSbercloudFgsFunctionEvents extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSbercloudFgsFunctionEvents resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSbercloudFgsFunctionEvents to import
-  * @param importFromId The id of the existing DataSbercloudFgsFunctionEvents that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/fgs_function_events#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSbercloudFgsFunctionEvents that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/fgs_function_events#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSbercloudFgsFunctionEvents to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -142,7 +142,7 @@ export class DataSbercloudFgsFunctionEvents extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/fgs_function_events sbercloud_fgs_function_events} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/fgs_function_events sbercloud_fgs_function_events} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -153,8 +153,8 @@ export class DataSbercloudFgsFunctionEvents extends cdktf.TerraformDataSource {
       terraformResourceType: 'sbercloud_fgs_function_events',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

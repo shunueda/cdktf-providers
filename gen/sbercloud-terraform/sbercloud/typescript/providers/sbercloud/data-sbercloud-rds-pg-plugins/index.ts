@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/rds_pg_plugins
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/rds_pg_plugins
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataSbercloudRdsPgPluginsConfig extends cdktf.TerraformMetaArgu
   /**
   * Specifies whether the plugin has been created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/rds_pg_plugins#created DataSbercloudRdsPgPlugins#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/rds_pg_plugins#created DataSbercloudRdsPgPlugins#created}
   */
   readonly created?: boolean | cdktf.IResolvable;
   /**
   * Specifies the database name of a PostgreSQL instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/rds_pg_plugins#database_name DataSbercloudRdsPgPlugins#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/rds_pg_plugins#database_name DataSbercloudRdsPgPlugins#database_name}
   */
   readonly databaseName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/rds_pg_plugins#id DataSbercloudRdsPgPlugins#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/rds_pg_plugins#id DataSbercloudRdsPgPlugins#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,23 +29,23 @@ export interface DataSbercloudRdsPgPluginsConfig extends cdktf.TerraformMetaArgu
   /**
   * Specifies the ID of a PostgreSQL instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/rds_pg_plugins#instance_id DataSbercloudRdsPgPlugins#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/rds_pg_plugins#instance_id DataSbercloudRdsPgPlugins#instance_id}
   */
   readonly instanceId: string;
   /**
   * Specifies the plugin name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/rds_pg_plugins#name DataSbercloudRdsPgPlugins#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/rds_pg_plugins#name DataSbercloudRdsPgPlugins#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/rds_pg_plugins#region DataSbercloudRdsPgPlugins#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/rds_pg_plugins#region DataSbercloudRdsPgPlugins#region}
   */
   readonly region?: string;
   /**
   * Specifies the plugin version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/rds_pg_plugins#version DataSbercloudRdsPgPlugins#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/rds_pg_plugins#version DataSbercloudRdsPgPlugins#version}
   */
   readonly version?: string;
 }
@@ -146,7 +146,7 @@ export class DataSbercloudRdsPgPluginsPluginsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/rds_pg_plugins sbercloud_rds_pg_plugins}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/rds_pg_plugins sbercloud_rds_pg_plugins}
 */
 export class DataSbercloudRdsPgPlugins extends cdktf.TerraformDataSource {
 
@@ -162,7 +162,7 @@ export class DataSbercloudRdsPgPlugins extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSbercloudRdsPgPlugins resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSbercloudRdsPgPlugins to import
-  * @param importFromId The id of the existing DataSbercloudRdsPgPlugins that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/rds_pg_plugins#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSbercloudRdsPgPlugins that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/rds_pg_plugins#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSbercloudRdsPgPlugins to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -174,7 +174,7 @@ export class DataSbercloudRdsPgPlugins extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/rds_pg_plugins sbercloud_rds_pg_plugins} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/rds_pg_plugins sbercloud_rds_pg_plugins} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -185,8 +185,8 @@ export class DataSbercloudRdsPgPlugins extends cdktf.TerraformDataSource {
       terraformResourceType: 'sbercloud_rds_pg_plugins',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

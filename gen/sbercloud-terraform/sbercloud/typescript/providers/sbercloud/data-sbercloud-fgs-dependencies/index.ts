@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/fgs_dependencies
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/fgs_dependencies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataSbercloudFgsDependenciesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/fgs_dependencies#id DataSbercloudFgsDependencies#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/fgs_dependencies#id DataSbercloudFgsDependencies#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface DataSbercloudFgsDependenciesConfig extends cdktf.TerraformMetaA
   /**
   * Whether to query the versions of each dependency package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/fgs_dependencies#is_versions_query_allowed DataSbercloudFgsDependencies#is_versions_query_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/fgs_dependencies#is_versions_query_allowed DataSbercloudFgsDependencies#is_versions_query_allowed}
   */
   readonly isVersionsQueryAllowed?: boolean | cdktf.IResolvable;
   /**
   * The name of the dependency package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/fgs_dependencies#name DataSbercloudFgsDependencies#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/fgs_dependencies#name DataSbercloudFgsDependencies#name}
   */
   readonly name?: string;
   /**
   * The region where the dependency packages are located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/fgs_dependencies#region DataSbercloudFgsDependencies#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/fgs_dependencies#region DataSbercloudFgsDependencies#region}
   */
   readonly region?: string;
   /**
   * The runtime of the dependency package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/fgs_dependencies#runtime DataSbercloudFgsDependencies#runtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/fgs_dependencies#runtime DataSbercloudFgsDependencies#runtime}
   */
   readonly runtime?: string;
   /**
   * The type of the dependency package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/fgs_dependencies#type DataSbercloudFgsDependencies#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/fgs_dependencies#type DataSbercloudFgsDependencies#type}
   */
   readonly type?: string;
 }
@@ -243,7 +243,7 @@ export class DataSbercloudFgsDependenciesPackagesList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/fgs_dependencies sbercloud_fgs_dependencies}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/fgs_dependencies sbercloud_fgs_dependencies}
 */
 export class DataSbercloudFgsDependencies extends cdktf.TerraformDataSource {
 
@@ -259,7 +259,7 @@ export class DataSbercloudFgsDependencies extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSbercloudFgsDependencies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSbercloudFgsDependencies to import
-  * @param importFromId The id of the existing DataSbercloudFgsDependencies that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/fgs_dependencies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSbercloudFgsDependencies that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/fgs_dependencies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSbercloudFgsDependencies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -271,7 +271,7 @@ export class DataSbercloudFgsDependencies extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/fgs_dependencies sbercloud_fgs_dependencies} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/fgs_dependencies sbercloud_fgs_dependencies} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -282,8 +282,8 @@ export class DataSbercloudFgsDependencies extends cdktf.TerraformDataSource {
       terraformResourceType: 'sbercloud_fgs_dependencies',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

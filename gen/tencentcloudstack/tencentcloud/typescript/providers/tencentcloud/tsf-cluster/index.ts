@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tsf_cluster
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface TsfClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * CIDR assigned to cluster containers and service IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tsf_cluster#cluster_cidr TsfCluster#cluster_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_cluster#cluster_cidr TsfCluster#cluster_cidr}
   */
   readonly clusterCidr?: string;
   /**
   * cluster notes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tsf_cluster#cluster_desc TsfCluster#cluster_desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_cluster#cluster_desc TsfCluster#cluster_desc}
   */
   readonly clusterDesc?: string;
   /**
   * Cluster name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tsf_cluster#cluster_name TsfCluster#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_cluster#cluster_name TsfCluster#cluster_name}
   */
   readonly clusterName: string;
   /**
   * cluster remark name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tsf_cluster#cluster_remark_name TsfCluster#cluster_remark_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_cluster#cluster_remark_name TsfCluster#cluster_remark_name}
   */
   readonly clusterRemarkName?: string;
   /**
   * Cluster type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tsf_cluster#cluster_type TsfCluster#cluster_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_cluster#cluster_type TsfCluster#cluster_type}
   */
   readonly clusterType: string;
   /**
   * cluster version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tsf_cluster#cluster_version TsfCluster#cluster_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_cluster#cluster_version TsfCluster#cluster_version}
   */
   readonly clusterVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tsf_cluster#id TsfCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_cluster#id TsfCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,73 +53,73 @@ export interface TsfClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * api address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tsf_cluster#kubernete_api_server TsfCluster#kubernete_api_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_cluster#kubernete_api_server TsfCluster#kubernete_api_server}
   */
   readonly kuberneteApiServer?: string;
   /**
   * native secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tsf_cluster#kubernete_native_secret TsfCluster#kubernete_native_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_cluster#kubernete_native_secret TsfCluster#kubernete_native_secret}
   */
   readonly kuberneteNativeSecret?: string;
   /**
   * `K`:kubeconfig, `S`:service account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tsf_cluster#kubernete_native_type TsfCluster#kubernete_native_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_cluster#kubernete_native_type TsfCluster#kubernete_native_type}
   */
   readonly kuberneteNativeType?: string;
   /**
   * The maximum number of services in the cluster. The value ranges from 32 to 32768. If it is not a power of 2, the nearest power of 2 will be taken up.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tsf_cluster#max_cluster_service_num TsfCluster#max_cluster_service_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_cluster#max_cluster_service_num TsfCluster#max_cluster_service_num}
   */
   readonly maxClusterServiceNum?: number;
   /**
   * The maximum number of Pods on each Node in the cluster. The value ranges from 4 to 256. When the value is not a power of 2, the nearest power of 2 will be taken up.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tsf_cluster#max_node_pod_num TsfCluster#max_node_pod_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_cluster#max_node_pod_num TsfCluster#max_node_pod_num}
   */
   readonly maxNodePodNum?: number;
   /**
   * The dataset ID to be bound.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tsf_cluster#program_id TsfCluster#program_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_cluster#program_id TsfCluster#program_id}
   */
   readonly programId?: string;
   /**
   * Program id list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tsf_cluster#program_id_list TsfCluster#program_id_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_cluster#program_id_list TsfCluster#program_id_list}
   */
   readonly programIdList?: string[];
   /**
   * Subnet id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tsf_cluster#subnet_id TsfCluster#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_cluster#subnet_id TsfCluster#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * Tag description list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tsf_cluster#tags TsfCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_cluster#tags TsfCluster#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The TSF region to which the cluster belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tsf_cluster#tsf_region_id TsfCluster#tsf_region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_cluster#tsf_region_id TsfCluster#tsf_region_id}
   */
   readonly tsfRegionId?: string;
   /**
   * The TSF availability zone to which the cluster belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tsf_cluster#tsf_zone_id TsfCluster#tsf_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_cluster#tsf_zone_id TsfCluster#tsf_zone_id}
   */
   readonly tsfZoneId?: string;
   /**
   * Vpc id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tsf_cluster#vpc_id TsfCluster#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_cluster#vpc_id TsfCluster#vpc_id}
   */
   readonly vpcId: string;
 }
@@ -468,7 +468,7 @@ export class TsfClusterOperationInfoList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tsf_cluster tencentcloud_tsf_cluster}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_cluster tencentcloud_tsf_cluster}
 */
 export class TsfCluster extends cdktf.TerraformResource {
 
@@ -484,7 +484,7 @@ export class TsfCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TsfCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TsfCluster to import
-  * @param importFromId The id of the existing TsfCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tsf_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TsfCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TsfCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -496,7 +496,7 @@ export class TsfCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tsf_cluster tencentcloud_tsf_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_cluster tencentcloud_tsf_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -507,8 +507,8 @@ export class TsfCluster extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tsf_cluster',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.39',
-        providerVersionConstraint: '1.82.39'
+        providerVersion: '1.82.40',
+        providerVersionConstraint: '1.82.40'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

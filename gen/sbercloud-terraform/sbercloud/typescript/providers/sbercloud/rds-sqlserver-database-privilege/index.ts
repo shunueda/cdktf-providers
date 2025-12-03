@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_sqlserver_database_privilege
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_sqlserver_database_privilege
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface RdsSqlserverDatabasePrivilegeConfig extends cdktf.TerraformMeta
   /**
   * Specifies the database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_sqlserver_database_privilege#db_name RdsSqlserverDatabasePrivilege#db_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_sqlserver_database_privilege#db_name RdsSqlserverDatabasePrivilege#db_name}
   */
   readonly dbName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_sqlserver_database_privilege#id RdsSqlserverDatabasePrivilege#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_sqlserver_database_privilege#id RdsSqlserverDatabasePrivilege#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface RdsSqlserverDatabasePrivilegeConfig extends cdktf.TerraformMeta
   /**
   * Specifies the ID of the RDS SQL Server instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_sqlserver_database_privilege#instance_id RdsSqlserverDatabasePrivilege#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_sqlserver_database_privilege#instance_id RdsSqlserverDatabasePrivilege#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_sqlserver_database_privilege#region RdsSqlserverDatabasePrivilege#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_sqlserver_database_privilege#region RdsSqlserverDatabasePrivilege#region}
   */
   readonly region?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_sqlserver_database_privilege#timeouts RdsSqlserverDatabasePrivilege#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_sqlserver_database_privilege#timeouts RdsSqlserverDatabasePrivilege#timeouts}
   */
   readonly timeouts?: RdsSqlserverDatabasePrivilegeTimeouts;
   /**
   * users block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_sqlserver_database_privilege#users RdsSqlserverDatabasePrivilege#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_sqlserver_database_privilege#users RdsSqlserverDatabasePrivilege#users}
   */
   readonly users: RdsSqlserverDatabasePrivilegeUsers[] | cdktf.IResolvable;
 }
 export interface RdsSqlserverDatabasePrivilegeTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_sqlserver_database_privilege#create RdsSqlserverDatabasePrivilege#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_sqlserver_database_privilege#create RdsSqlserverDatabasePrivilege#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_sqlserver_database_privilege#delete RdsSqlserverDatabasePrivilege#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_sqlserver_database_privilege#delete RdsSqlserverDatabasePrivilege#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_sqlserver_database_privilege#update RdsSqlserverDatabasePrivilege#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_sqlserver_database_privilege#update RdsSqlserverDatabasePrivilege#update}
   */
   readonly update?: string;
 }
@@ -207,13 +207,13 @@ export interface RdsSqlserverDatabasePrivilegeUsers {
   /**
   * Specifies the username of the database account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_sqlserver_database_privilege#name RdsSqlserverDatabasePrivilege#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_sqlserver_database_privilege#name RdsSqlserverDatabasePrivilege#name}
   */
   readonly name: string;
   /**
   * Specifies the read-only permission.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_sqlserver_database_privilege#readonly RdsSqlserverDatabasePrivilege#readonly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_sqlserver_database_privilege#readonly RdsSqlserverDatabasePrivilege#readonly}
   */
   readonly readonly?: boolean | cdktf.IResolvable;
 }
@@ -355,7 +355,7 @@ export class RdsSqlserverDatabasePrivilegeUsersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_sqlserver_database_privilege sbercloud_rds_sqlserver_database_privilege}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_sqlserver_database_privilege sbercloud_rds_sqlserver_database_privilege}
 */
 export class RdsSqlserverDatabasePrivilege extends cdktf.TerraformResource {
 
@@ -371,7 +371,7 @@ export class RdsSqlserverDatabasePrivilege extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RdsSqlserverDatabasePrivilege resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RdsSqlserverDatabasePrivilege to import
-  * @param importFromId The id of the existing RdsSqlserverDatabasePrivilege that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_sqlserver_database_privilege#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RdsSqlserverDatabasePrivilege that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_sqlserver_database_privilege#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RdsSqlserverDatabasePrivilege to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -383,7 +383,7 @@ export class RdsSqlserverDatabasePrivilege extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_sqlserver_database_privilege sbercloud_rds_sqlserver_database_privilege} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_sqlserver_database_privilege sbercloud_rds_sqlserver_database_privilege} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -394,8 +394,8 @@ export class RdsSqlserverDatabasePrivilege extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_rds_sqlserver_database_privilege',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

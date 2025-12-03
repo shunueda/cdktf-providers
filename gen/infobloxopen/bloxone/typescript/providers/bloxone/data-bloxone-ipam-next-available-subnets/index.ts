@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_next_available_subnets
+// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_next_available_subnets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataBloxoneIpamNextAvailableSubnetsConfig extends cdktf.Terrafo
   /**
   * The cidr value of subnets to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_next_available_subnets#cidr DataBloxoneIpamNextAvailableSubnets#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_next_available_subnets#cidr DataBloxoneIpamNextAvailableSubnets#cidr}
   */
   readonly cidr: number;
   /**
   * An application specific resource identity of a resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_next_available_subnets#id DataBloxoneIpamNextAvailableSubnets#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_next_available_subnets#id DataBloxoneIpamNextAvailableSubnets#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,19 +25,19 @@ export interface DataBloxoneIpamNextAvailableSubnetsConfig extends cdktf.Terrafo
   /**
   * Number of subnets to generate. Default 1 if not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_next_available_subnets#subnet_count DataBloxoneIpamNextAvailableSubnets#subnet_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_next_available_subnets#subnet_count DataBloxoneIpamNextAvailableSubnets#subnet_count}
   */
   readonly subnetCount?: number;
   /**
   * Key-value pairs to filter subnets by tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_next_available_subnets#tag_filters DataBloxoneIpamNextAvailableSubnets#tag_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_next_available_subnets#tag_filters DataBloxoneIpamNextAvailableSubnets#tag_filters}
   */
   readonly tagFilters?: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_next_available_subnets bloxone_ipam_next_available_subnets}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_next_available_subnets bloxone_ipam_next_available_subnets}
 */
 export class DataBloxoneIpamNextAvailableSubnets extends cdktf.TerraformDataSource {
 
@@ -53,7 +53,7 @@ export class DataBloxoneIpamNextAvailableSubnets extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataBloxoneIpamNextAvailableSubnets resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataBloxoneIpamNextAvailableSubnets to import
-  * @param importFromId The id of the existing DataBloxoneIpamNextAvailableSubnets that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_next_available_subnets#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataBloxoneIpamNextAvailableSubnets that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_next_available_subnets#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataBloxoneIpamNextAvailableSubnets to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -65,7 +65,7 @@ export class DataBloxoneIpamNextAvailableSubnets extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_next_available_subnets bloxone_ipam_next_available_subnets} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_next_available_subnets bloxone_ipam_next_available_subnets} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -76,8 +76,8 @@ export class DataBloxoneIpamNextAvailableSubnets extends cdktf.TerraformDataSour
       terraformResourceType: 'bloxone_ipam_next_available_subnets',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.5.4',
+        providerVersionConstraint: '1.5.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_topic
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_topic
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,66 +8,66 @@ import * as cdktf from 'cdktf';
 
 export interface DmsRocketmqTopicConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_topic#id DmsRocketmqTopic#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_topic#id DmsRocketmqTopic#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_topic#instance_id DmsRocketmqTopic#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_topic#instance_id DmsRocketmqTopic#instance_id}
   */
   readonly instanceId: string;
   /**
   * Specifies the message type of the topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_topic#message_type DmsRocketmqTopic#message_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_topic#message_type DmsRocketmqTopic#message_type}
   */
   readonly messageType?: string;
   /**
   * Specifies the name of the topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_topic#name DmsRocketmqTopic#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_topic#name DmsRocketmqTopic#name}
   */
   readonly name: string;
   /**
   * Specifies the permissions of the topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_topic#permission DmsRocketmqTopic#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_topic#permission DmsRocketmqTopic#permission}
   */
   readonly permission?: string;
   /**
   * Specifies the number of queues.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_topic#queue_num DmsRocketmqTopic#queue_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_topic#queue_num DmsRocketmqTopic#queue_num}
   */
   readonly queueNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_topic#region DmsRocketmqTopic#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_topic#region DmsRocketmqTopic#region}
   */
   readonly region?: string;
   /**
   * Specifies the total number of read queues.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_topic#total_read_queue_num DmsRocketmqTopic#total_read_queue_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_topic#total_read_queue_num DmsRocketmqTopic#total_read_queue_num}
   */
   readonly totalReadQueueNum?: number;
   /**
   * Specifies the total number of write queues.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_topic#total_write_queue_num DmsRocketmqTopic#total_write_queue_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_topic#total_write_queue_num DmsRocketmqTopic#total_write_queue_num}
   */
   readonly totalWriteQueueNum?: number;
   /**
   * brokers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_topic#brokers DmsRocketmqTopic#brokers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_topic#brokers DmsRocketmqTopic#brokers}
   */
   readonly brokers?: DmsRocketmqTopicBrokers[] | cdktf.IResolvable;
   /**
   * queues block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_topic#queues DmsRocketmqTopic#queues}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_topic#queues DmsRocketmqTopic#queues}
   */
   readonly queues?: DmsRocketmqTopicQueues[] | cdktf.IResolvable;
 }
@@ -75,7 +75,7 @@ export interface DmsRocketmqTopicBrokers {
   /**
   * Indicates the name of the broker.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_topic#name DmsRocketmqTopic#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_topic#name DmsRocketmqTopic#name}
   */
   readonly name?: string;
 }
@@ -203,13 +203,13 @@ export interface DmsRocketmqTopicQueues {
   /**
   * Specifies the associated broker.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_topic#broker DmsRocketmqTopic#broker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_topic#broker DmsRocketmqTopic#broker}
   */
   readonly broker?: string;
   /**
   * Specifies the number of the queues.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_topic#queue_num DmsRocketmqTopic#queue_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_topic#queue_num DmsRocketmqTopic#queue_num}
   */
   readonly queueNum?: number;
 }
@@ -354,7 +354,7 @@ export class DmsRocketmqTopicQueuesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_topic sbercloud_dms_rocketmq_topic}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_topic sbercloud_dms_rocketmq_topic}
 */
 export class DmsRocketmqTopic extends cdktf.TerraformResource {
 
@@ -370,7 +370,7 @@ export class DmsRocketmqTopic extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DmsRocketmqTopic resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DmsRocketmqTopic to import
-  * @param importFromId The id of the existing DmsRocketmqTopic that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_topic#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DmsRocketmqTopic that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_topic#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DmsRocketmqTopic to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -382,7 +382,7 @@ export class DmsRocketmqTopic extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_topic sbercloud_dms_rocketmq_topic} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_topic sbercloud_dms_rocketmq_topic} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -393,8 +393,8 @@ export class DmsRocketmqTopic extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_dms_rocketmq_topic',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

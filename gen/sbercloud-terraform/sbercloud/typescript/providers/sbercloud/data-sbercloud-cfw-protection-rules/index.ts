@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_protection_rules
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_protection_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface DataSbercloudCfwProtectionRulesConfig extends cdktf.TerraformMe
   /**
   * Specifies the rule action type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_protection_rules#action_type DataSbercloudCfwProtectionRules#action_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_protection_rules#action_type DataSbercloudCfwProtectionRules#action_type}
   */
   readonly actionType?: string;
   /**
   * Specifies the destination address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_protection_rules#destination DataSbercloudCfwProtectionRules#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_protection_rules#destination DataSbercloudCfwProtectionRules#destination}
   */
   readonly destination?: string;
   /**
   * Specifies the rule direction.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_protection_rules#direction DataSbercloudCfwProtectionRules#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_protection_rules#direction DataSbercloudCfwProtectionRules#direction}
   */
   readonly direction?: string;
   /**
   * Specifies the firewall instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_protection_rules#fw_instance_id DataSbercloudCfwProtectionRules#fw_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_protection_rules#fw_instance_id DataSbercloudCfwProtectionRules#fw_instance_id}
   */
   readonly fwInstanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_protection_rules#id DataSbercloudCfwProtectionRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_protection_rules#id DataSbercloudCfwProtectionRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,49 +41,49 @@ export interface DataSbercloudCfwProtectionRulesConfig extends cdktf.TerraformMe
   /**
   * Specifies the rule name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_protection_rules#name DataSbercloudCfwProtectionRules#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_protection_rules#name DataSbercloudCfwProtectionRules#name}
   */
   readonly name?: string;
   /**
   * Specifies the protected object ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_protection_rules#object_id DataSbercloudCfwProtectionRules#object_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_protection_rules#object_id DataSbercloudCfwProtectionRules#object_id}
   */
   readonly objectId: string;
   /**
   * Specifies the region in which to query the resource. If omitted, the provider-level region will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_protection_rules#region DataSbercloudCfwProtectionRules#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_protection_rules#region DataSbercloudCfwProtectionRules#region}
   */
   readonly region?: string;
   /**
   * Specifies the rule ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_protection_rules#rule_id DataSbercloudCfwProtectionRules#rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_protection_rules#rule_id DataSbercloudCfwProtectionRules#rule_id}
   */
   readonly ruleId?: string;
   /**
   * Specifies the source address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_protection_rules#source DataSbercloudCfwProtectionRules#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_protection_rules#source DataSbercloudCfwProtectionRules#source}
   */
   readonly source?: string;
   /**
   * Specifies the rule status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_protection_rules#status DataSbercloudCfwProtectionRules#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_protection_rules#status DataSbercloudCfwProtectionRules#status}
   */
   readonly status?: string;
   /**
   * Specifies the key/value pairs to associate with the protection rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_protection_rules#tags DataSbercloudCfwProtectionRules#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_protection_rules#tags DataSbercloudCfwProtectionRules#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Specifies the rule type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_protection_rules#type DataSbercloudCfwProtectionRules#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_protection_rules#type DataSbercloudCfwProtectionRules#type}
   */
   readonly type?: string;
 }
@@ -906,7 +906,7 @@ export class DataSbercloudCfwProtectionRulesRecordsList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_protection_rules sbercloud_cfw_protection_rules}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_protection_rules sbercloud_cfw_protection_rules}
 */
 export class DataSbercloudCfwProtectionRules extends cdktf.TerraformDataSource {
 
@@ -922,7 +922,7 @@ export class DataSbercloudCfwProtectionRules extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSbercloudCfwProtectionRules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSbercloudCfwProtectionRules to import
-  * @param importFromId The id of the existing DataSbercloudCfwProtectionRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_protection_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSbercloudCfwProtectionRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_protection_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSbercloudCfwProtectionRules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -934,7 +934,7 @@ export class DataSbercloudCfwProtectionRules extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_protection_rules sbercloud_cfw_protection_rules} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_protection_rules sbercloud_cfw_protection_rules} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -945,8 +945,8 @@ export class DataSbercloudCfwProtectionRules extends cdktf.TerraformDataSource {
       terraformResourceType: 'sbercloud_cfw_protection_rules',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

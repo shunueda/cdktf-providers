@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_fixed_address
+// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_fixed_address
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,65 +10,65 @@ export interface DhcpFixedAddressConfig extends cdktf.TerraformMetaArguments {
   /**
   * The reserved address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_fixed_address#address DhcpFixedAddress#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_fixed_address#address DhcpFixedAddress#address}
   */
   readonly address?: string;
   /**
   * The description for the fixed address. May contain 0 to 1024 characters. Can include UTF-8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_fixed_address#comment DhcpFixedAddress#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_fixed_address#comment DhcpFixedAddress#comment}
   */
   readonly comment?: string;
   /**
   * The list of DHCP options. May be either a specific option or a group of options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_fixed_address#dhcp_options DhcpFixedAddress#dhcp_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_fixed_address#dhcp_options DhcpFixedAddress#dhcp_options}
   */
   readonly dhcpOptions?: DhcpFixedAddressDhcpOptions[] | cdktf.IResolvable;
   /**
   * Optional. _true_ to disable object. The fixed address is converted to an exclusion when generating configuration.  Defaults to _false_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_fixed_address#disable_dhcp DhcpFixedAddress#disable_dhcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_fixed_address#disable_dhcp DhcpFixedAddress#disable_dhcp}
   */
   readonly disableDhcp?: boolean | cdktf.IResolvable;
   /**
   * The configuration for header option filename field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_fixed_address#header_option_filename DhcpFixedAddress#header_option_filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_fixed_address#header_option_filename DhcpFixedAddress#header_option_filename}
   */
   readonly headerOptionFilename?: string;
   /**
   * The configuration for header option server address field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_fixed_address#header_option_server_address DhcpFixedAddress#header_option_server_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_fixed_address#header_option_server_address DhcpFixedAddress#header_option_server_address}
   */
   readonly headerOptionServerAddress?: string;
   /**
   * The configuration for header option server name field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_fixed_address#header_option_server_name DhcpFixedAddress#header_option_server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_fixed_address#header_option_server_name DhcpFixedAddress#header_option_server_name}
   */
   readonly headerOptionServerName?: string;
   /**
   * The DHCP host name associated with this fixed address. It is of FQDN type and it defaults to empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_fixed_address#hostname DhcpFixedAddress#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_fixed_address#hostname DhcpFixedAddress#hostname}
   */
   readonly hostname?: string;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_fixed_address#inheritance_parent DhcpFixedAddress#inheritance_parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_fixed_address#inheritance_parent DhcpFixedAddress#inheritance_parent}
   */
   readonly inheritanceParent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_fixed_address#inheritance_sources DhcpFixedAddress#inheritance_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_fixed_address#inheritance_sources DhcpFixedAddress#inheritance_sources}
   */
   readonly inheritanceSources?: DhcpFixedAddressInheritanceSources;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_fixed_address#ip_space DhcpFixedAddress#ip_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_fixed_address#ip_space DhcpFixedAddress#ip_space}
   */
   readonly ipSpace?: string;
   /**
@@ -78,31 +78,31 @@ export interface DhcpFixedAddressConfig extends cdktf.TerraformMetaArguments {
   *   * _relay_text_ or _relay_hex_: match the circuit ID or remote ID in the DHCP relay agent option (82) for IPv4 only
   *   * _duid_: match the DHCP unique identifier, currently match only for IPv6 protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_fixed_address#match_type DhcpFixedAddress#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_fixed_address#match_type DhcpFixedAddress#match_type}
   */
   readonly matchType: string;
   /**
   * The value to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_fixed_address#match_value DhcpFixedAddress#match_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_fixed_address#match_value DhcpFixedAddress#match_value}
   */
   readonly matchValue: string;
   /**
   * The name of the fixed address. May contain 1 to 256 characters. Can include UTF-8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_fixed_address#name DhcpFixedAddress#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_fixed_address#name DhcpFixedAddress#name}
   */
   readonly name?: string;
   /**
   * The resource identifier for the address block where the next available fixed address should be generated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_fixed_address#next_available_id DhcpFixedAddress#next_available_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_fixed_address#next_available_id DhcpFixedAddress#next_available_id}
   */
   readonly nextAvailableId?: string;
   /**
   * The tags for the fixed address in JSON format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_fixed_address#tags DhcpFixedAddress#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_fixed_address#tags DhcpFixedAddress#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -110,19 +110,19 @@ export interface DhcpFixedAddressDhcpOptions {
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_fixed_address#group DhcpFixedAddress#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_fixed_address#group DhcpFixedAddress#group}
   */
   readonly group?: string;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_fixed_address#option_code DhcpFixedAddress#option_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_fixed_address#option_code DhcpFixedAddress#option_code}
   */
   readonly optionCode?: string;
   /**
   * The option value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_fixed_address#option_value DhcpFixedAddress#option_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_fixed_address#option_value DhcpFixedAddress#option_value}
   */
   readonly optionValue?: string;
   /**
@@ -131,7 +131,7 @@ export interface DhcpFixedAddressDhcpOptions {
   *   * _option_
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_fixed_address#type DhcpFixedAddress#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_fixed_address#type DhcpFixedAddress#type}
   */
   readonly type?: string;
 }
@@ -336,7 +336,7 @@ export interface DhcpFixedAddressInheritanceAssignedHosts {
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_fixed_address#host DhcpFixedAddress#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_fixed_address#host DhcpFixedAddress#host}
   */
   readonly host?: string;
 }
@@ -587,7 +587,7 @@ export interface DhcpFixedAddressInheritanceSourcesDhcpOptionsValue {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_fixed_address#action DhcpFixedAddress#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_fixed_address#action DhcpFixedAddress#action}
   */
   readonly action?: string;
 }
@@ -725,13 +725,13 @@ export interface DhcpFixedAddressInheritanceSourcesDhcpOptions {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_fixed_address#action DhcpFixedAddress#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_fixed_address#action DhcpFixedAddress#action}
   */
   readonly action?: string;
   /**
   * The inherited DHCP option values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_fixed_address#value DhcpFixedAddress#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_fixed_address#value DhcpFixedAddress#value}
   */
   readonly value?: DhcpFixedAddressInheritanceSourcesDhcpOptionsValue[] | cdktf.IResolvable;
 }
@@ -860,7 +860,7 @@ export interface DhcpFixedAddressInheritanceSourcesHeaderOptionFilename {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_fixed_address#action DhcpFixedAddress#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_fixed_address#action DhcpFixedAddress#action}
   */
   readonly action?: string;
 }
@@ -975,7 +975,7 @@ export interface DhcpFixedAddressInheritanceSourcesHeaderOptionServerAddress {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_fixed_address#action DhcpFixedAddress#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_fixed_address#action DhcpFixedAddress#action}
   */
   readonly action?: string;
 }
@@ -1090,7 +1090,7 @@ export interface DhcpFixedAddressInheritanceSourcesHeaderOptionServerName {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_fixed_address#action DhcpFixedAddress#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_fixed_address#action DhcpFixedAddress#action}
   */
   readonly action?: string;
 }
@@ -1201,25 +1201,25 @@ export interface DhcpFixedAddressInheritanceSources {
   /**
   * The inheritance configuration for _dhcp_options_ field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_fixed_address#dhcp_options DhcpFixedAddress#dhcp_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_fixed_address#dhcp_options DhcpFixedAddress#dhcp_options}
   */
   readonly dhcpOptions?: DhcpFixedAddressInheritanceSourcesDhcpOptions;
   /**
   * The inheritance configuration for _header_option_filename_ field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_fixed_address#header_option_filename DhcpFixedAddress#header_option_filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_fixed_address#header_option_filename DhcpFixedAddress#header_option_filename}
   */
   readonly headerOptionFilename?: DhcpFixedAddressInheritanceSourcesHeaderOptionFilename;
   /**
   * The inheritance configuration for _header_option_server_address_ field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_fixed_address#header_option_server_address DhcpFixedAddress#header_option_server_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_fixed_address#header_option_server_address DhcpFixedAddress#header_option_server_address}
   */
   readonly headerOptionServerAddress?: DhcpFixedAddressInheritanceSourcesHeaderOptionServerAddress;
   /**
   * The inheritance configuration for _header_option_server_name_ field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_fixed_address#header_option_server_name DhcpFixedAddress#header_option_server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_fixed_address#header_option_server_name DhcpFixedAddress#header_option_server_name}
   */
   readonly headerOptionServerName?: DhcpFixedAddressInheritanceSourcesHeaderOptionServerName;
 }
@@ -1400,7 +1400,7 @@ export class DhcpFixedAddressInheritanceSourcesOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_fixed_address bloxone_dhcp_fixed_address}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_fixed_address bloxone_dhcp_fixed_address}
 */
 export class DhcpFixedAddress extends cdktf.TerraformResource {
 
@@ -1416,7 +1416,7 @@ export class DhcpFixedAddress extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DhcpFixedAddress resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DhcpFixedAddress to import
-  * @param importFromId The id of the existing DhcpFixedAddress that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_fixed_address#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DhcpFixedAddress that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_fixed_address#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DhcpFixedAddress to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1428,7 +1428,7 @@ export class DhcpFixedAddress extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_fixed_address bloxone_dhcp_fixed_address} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_fixed_address bloxone_dhcp_fixed_address} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1439,8 +1439,8 @@ export class DhcpFixedAddress extends cdktf.TerraformResource {
       terraformResourceType: 'bloxone_dhcp_fixed_address',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.5.4',
+        providerVersionConstraint: '1.5.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_nsgs
+// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_nsgs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataBloxoneDnsAuthNsgsConfig extends cdktf.TerraformMetaArgumen
   /**
   * Filter are used to return a more specific list of results. Filters can be used to match resources by specific attributes, e.g. name. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_nsgs#filters DataBloxoneDnsAuthNsgs#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_nsgs#filters DataBloxoneDnsAuthNsgs#filters}
   */
   readonly filters?: { [key: string]: string };
   /**
   * Tag Filters are used to return a more specific list of results filtered by tags. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_nsgs#tag_filters DataBloxoneDnsAuthNsgs#tag_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_nsgs#tag_filters DataBloxoneDnsAuthNsgs#tag_filters}
   */
   readonly tagFilters?: { [key: string]: string };
 }
@@ -24,7 +24,7 @@ export interface DataBloxoneDnsAuthNsgsResultsExternalPrimariesTsigKey {
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_nsgs#key DataBloxoneDnsAuthNsgs#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_nsgs#key DataBloxoneDnsAuthNsgs#key}
   */
   readonly key?: string;
 }
@@ -145,35 +145,35 @@ export interface DataBloxoneDnsAuthNsgsResultsExternalPrimaries {
   /**
   * Optional. Required only if _type_ is _server_. IP Address of nameserver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_nsgs#address DataBloxoneDnsAuthNsgs#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_nsgs#address DataBloxoneDnsAuthNsgs#address}
   */
   readonly address?: string;
   /**
   * Optional. Required only if _type_ is _server_. FQDN of nameserver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_nsgs#fqdn DataBloxoneDnsAuthNsgs#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_nsgs#fqdn DataBloxoneDnsAuthNsgs#fqdn}
   */
   readonly fqdn?: string;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_nsgs#nsg DataBloxoneDnsAuthNsgs#nsg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_nsgs#nsg DataBloxoneDnsAuthNsgs#nsg}
   */
   readonly nsg?: string;
   /**
   * Optional. If enabled, secondaries will use the configured TSIG key when requesting a zone transfer from this primary.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_nsgs#tsig_enabled DataBloxoneDnsAuthNsgs#tsig_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_nsgs#tsig_enabled DataBloxoneDnsAuthNsgs#tsig_enabled}
   */
   readonly tsigEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_nsgs#tsig_key DataBloxoneDnsAuthNsgs#tsig_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_nsgs#tsig_key DataBloxoneDnsAuthNsgs#tsig_key}
   */
   readonly tsigKey?: DataBloxoneDnsAuthNsgsResultsExternalPrimariesTsigKey;
   /**
   * Allowed values: * _nsg_, * _primary_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_nsgs#type DataBloxoneDnsAuthNsgs#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_nsgs#type DataBloxoneDnsAuthNsgs#type}
   */
   readonly type: string;
 }
@@ -438,7 +438,7 @@ export interface DataBloxoneDnsAuthNsgsResultsExternalSecondariesTsigKey {
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_nsgs#key DataBloxoneDnsAuthNsgs#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_nsgs#key DataBloxoneDnsAuthNsgs#key}
   */
   readonly key?: string;
 }
@@ -559,29 +559,29 @@ export interface DataBloxoneDnsAuthNsgsResultsExternalSecondaries {
   /**
   * IP Address of nameserver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_nsgs#address DataBloxoneDnsAuthNsgs#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_nsgs#address DataBloxoneDnsAuthNsgs#address}
   */
   readonly address: string;
   /**
   * FQDN of nameserver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_nsgs#fqdn DataBloxoneDnsAuthNsgs#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_nsgs#fqdn DataBloxoneDnsAuthNsgs#fqdn}
   */
   readonly fqdn: string;
   /**
   * If enabled, the NS record and glue record will NOT be automatically generated according to secondaries nameserver assignment.  Default: _false_
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_nsgs#stealth DataBloxoneDnsAuthNsgs#stealth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_nsgs#stealth DataBloxoneDnsAuthNsgs#stealth}
   */
   readonly stealth?: boolean | cdktf.IResolvable;
   /**
   * If enabled, secondaries will use the configured TSIG key when requesting a zone transfer.  Default: _false_
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_nsgs#tsig_enabled DataBloxoneDnsAuthNsgs#tsig_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_nsgs#tsig_enabled DataBloxoneDnsAuthNsgs#tsig_enabled}
   */
   readonly tsigEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_nsgs#tsig_key DataBloxoneDnsAuthNsgs#tsig_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_nsgs#tsig_key DataBloxoneDnsAuthNsgs#tsig_key}
   */
   readonly tsigKey?: DataBloxoneDnsAuthNsgsResultsExternalSecondariesTsigKey;
 }
@@ -814,7 +814,7 @@ export interface DataBloxoneDnsAuthNsgsResultsInternalSecondaries {
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_nsgs#host DataBloxoneDnsAuthNsgs#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_nsgs#host DataBloxoneDnsAuthNsgs#host}
   */
   readonly host: string;
 }
@@ -929,43 +929,43 @@ export interface DataBloxoneDnsAuthNsgsResults {
   /**
   * Optional. Comment for the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_nsgs#comment DataBloxoneDnsAuthNsgs#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_nsgs#comment DataBloxoneDnsAuthNsgs#comment}
   */
   readonly comment?: string;
   /**
   * Optional. DNS primaries external to BloxOne DDI. Order is not significant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_nsgs#external_primaries DataBloxoneDnsAuthNsgs#external_primaries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_nsgs#external_primaries DataBloxoneDnsAuthNsgs#external_primaries}
   */
   readonly externalPrimaries?: DataBloxoneDnsAuthNsgsResultsExternalPrimaries[] | cdktf.IResolvable;
   /**
   * DNS secondaries external to BloxOne DDI. Order is not significant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_nsgs#external_secondaries DataBloxoneDnsAuthNsgs#external_secondaries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_nsgs#external_secondaries DataBloxoneDnsAuthNsgs#external_secondaries}
   */
   readonly externalSecondaries?: DataBloxoneDnsAuthNsgsResultsExternalSecondaries[] | cdktf.IResolvable;
   /**
   * Optional. BloxOne DDI hosts acting as internal secondaries. Order is not significant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_nsgs#internal_secondaries DataBloxoneDnsAuthNsgs#internal_secondaries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_nsgs#internal_secondaries DataBloxoneDnsAuthNsgs#internal_secondaries}
   */
   readonly internalSecondaries?: DataBloxoneDnsAuthNsgsResultsInternalSecondaries[] | cdktf.IResolvable;
   /**
   * Name of the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_nsgs#name DataBloxoneDnsAuthNsgs#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_nsgs#name DataBloxoneDnsAuthNsgs#name}
   */
   readonly name: string;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_nsgs#nsgs DataBloxoneDnsAuthNsgs#nsgs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_nsgs#nsgs DataBloxoneDnsAuthNsgs#nsgs}
   */
   readonly nsgs?: string[];
   /**
   * Tagging specifics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_nsgs#tags DataBloxoneDnsAuthNsgs#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_nsgs#tags DataBloxoneDnsAuthNsgs#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -1253,7 +1253,7 @@ export class DataBloxoneDnsAuthNsgsResultsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_nsgs bloxone_dns_auth_nsgs}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_nsgs bloxone_dns_auth_nsgs}
 */
 export class DataBloxoneDnsAuthNsgs extends cdktf.TerraformDataSource {
 
@@ -1269,7 +1269,7 @@ export class DataBloxoneDnsAuthNsgs extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataBloxoneDnsAuthNsgs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataBloxoneDnsAuthNsgs to import
-  * @param importFromId The id of the existing DataBloxoneDnsAuthNsgs that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_nsgs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataBloxoneDnsAuthNsgs that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_nsgs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataBloxoneDnsAuthNsgs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1281,7 +1281,7 @@ export class DataBloxoneDnsAuthNsgs extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_auth_nsgs bloxone_dns_auth_nsgs} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_auth_nsgs bloxone_dns_auth_nsgs} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1292,8 +1292,8 @@ export class DataBloxoneDnsAuthNsgs extends cdktf.TerraformDataSource {
       terraformResourceType: 'bloxone_dns_auth_nsgs',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.5.4',
+        providerVersionConstraint: '1.5.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

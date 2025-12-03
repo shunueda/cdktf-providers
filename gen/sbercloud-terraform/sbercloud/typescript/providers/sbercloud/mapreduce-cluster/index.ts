@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,218 +8,218 @@ import * as cdktf from 'cdktf';
 
 export interface MapreduceClusterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#auto_renew MapreduceCluster#auto_renew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#auto_renew MapreduceCluster#auto_renew}
   */
   readonly autoRenew?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#availability_zone MapreduceCluster#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#availability_zone MapreduceCluster#availability_zone}
   */
   readonly availabilityZone: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#charging_mode MapreduceCluster#charging_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#charging_mode MapreduceCluster#charging_mode}
   */
   readonly chargingMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#component_list MapreduceCluster#component_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#component_list MapreduceCluster#component_list}
   */
   readonly componentList: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#eip_id MapreduceCluster#eip_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#eip_id MapreduceCluster#eip_id}
   */
   readonly eipId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#enterprise_project_id MapreduceCluster#enterprise_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#enterprise_project_id MapreduceCluster#enterprise_project_id}
   */
   readonly enterpriseProjectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#id MapreduceCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#id MapreduceCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#log_collection MapreduceCluster#log_collection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#log_collection MapreduceCluster#log_collection}
   */
   readonly logCollection?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#manager_admin_pass MapreduceCluster#manager_admin_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#manager_admin_pass MapreduceCluster#manager_admin_pass}
   */
   readonly managerAdminPass: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#name MapreduceCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#name MapreduceCluster#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#node_admin_pass MapreduceCluster#node_admin_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#node_admin_pass MapreduceCluster#node_admin_pass}
   */
   readonly nodeAdminPass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#node_key_pair MapreduceCluster#node_key_pair}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#node_key_pair MapreduceCluster#node_key_pair}
   */
   readonly nodeKeyPair?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#period MapreduceCluster#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#period MapreduceCluster#period}
   */
   readonly period?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#period_unit MapreduceCluster#period_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#period_unit MapreduceCluster#period_unit}
   */
   readonly periodUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#public_ip MapreduceCluster#public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#public_ip MapreduceCluster#public_ip}
   */
   readonly publicIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#region MapreduceCluster#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#region MapreduceCluster#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#safe_mode MapreduceCluster#safe_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#safe_mode MapreduceCluster#safe_mode}
   */
   readonly safeMode?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#security_group_ids MapreduceCluster#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#security_group_ids MapreduceCluster#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#subnet_id MapreduceCluster#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#subnet_id MapreduceCluster#subnet_id}
   */
   readonly subnetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#tags MapreduceCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#tags MapreduceCluster#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#template_id MapreduceCluster#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#template_id MapreduceCluster#template_id}
   */
   readonly templateId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#type MapreduceCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#type MapreduceCluster#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#version MapreduceCluster#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#version MapreduceCluster#version}
   */
   readonly version: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#vpc_id MapreduceCluster#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#vpc_id MapreduceCluster#vpc_id}
   */
   readonly vpcId: string;
   /**
   * analysis_core_nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#analysis_core_nodes MapreduceCluster#analysis_core_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#analysis_core_nodes MapreduceCluster#analysis_core_nodes}
   */
   readonly analysisCoreNodes?: MapreduceClusterAnalysisCoreNodes;
   /**
   * analysis_task_nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#analysis_task_nodes MapreduceCluster#analysis_task_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#analysis_task_nodes MapreduceCluster#analysis_task_nodes}
   */
   readonly analysisTaskNodes?: MapreduceClusterAnalysisTaskNodes;
   /**
   * bootstrap_scripts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#bootstrap_scripts MapreduceCluster#bootstrap_scripts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#bootstrap_scripts MapreduceCluster#bootstrap_scripts}
   */
   readonly bootstrapScripts?: MapreduceClusterBootstrapScripts[] | cdktf.IResolvable;
   /**
   * component_configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#component_configs MapreduceCluster#component_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#component_configs MapreduceCluster#component_configs}
   */
   readonly componentConfigs?: MapreduceClusterComponentConfigs[] | cdktf.IResolvable;
   /**
   * custom_nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#custom_nodes MapreduceCluster#custom_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#custom_nodes MapreduceCluster#custom_nodes}
   */
   readonly customNodes?: MapreduceClusterCustomNodes[] | cdktf.IResolvable;
   /**
   * external_datasources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#external_datasources MapreduceCluster#external_datasources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#external_datasources MapreduceCluster#external_datasources}
   */
   readonly externalDatasources?: MapreduceClusterExternalDatasources[] | cdktf.IResolvable;
   /**
   * master_nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#master_nodes MapreduceCluster#master_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#master_nodes MapreduceCluster#master_nodes}
   */
   readonly masterNodes: MapreduceClusterMasterNodes;
   /**
   * smn_notify block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#smn_notify MapreduceCluster#smn_notify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#smn_notify MapreduceCluster#smn_notify}
   */
   readonly smnNotify?: MapreduceClusterSmnNotify;
   /**
   * streaming_core_nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#streaming_core_nodes MapreduceCluster#streaming_core_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#streaming_core_nodes MapreduceCluster#streaming_core_nodes}
   */
   readonly streamingCoreNodes?: MapreduceClusterStreamingCoreNodes;
   /**
   * streaming_task_nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#streaming_task_nodes MapreduceCluster#streaming_task_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#streaming_task_nodes MapreduceCluster#streaming_task_nodes}
   */
   readonly streamingTaskNodes?: MapreduceClusterStreamingTaskNodes;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#timeouts MapreduceCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#timeouts MapreduceCluster#timeouts}
   */
   readonly timeouts?: MapreduceClusterTimeouts;
 }
 export interface MapreduceClusterAnalysisCoreNodes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#assigned_roles MapreduceCluster#assigned_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#assigned_roles MapreduceCluster#assigned_roles}
   */
   readonly assignedRoles?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#auto_renew MapreduceCluster#auto_renew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#auto_renew MapreduceCluster#auto_renew}
   */
   readonly autoRenew?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#charging_mode MapreduceCluster#charging_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#charging_mode MapreduceCluster#charging_mode}
   */
   readonly chargingMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#data_volume_count MapreduceCluster#data_volume_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#data_volume_count MapreduceCluster#data_volume_count}
   */
   readonly dataVolumeCount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#data_volume_size MapreduceCluster#data_volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#data_volume_size MapreduceCluster#data_volume_size}
   */
   readonly dataVolumeSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#data_volume_type MapreduceCluster#data_volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#data_volume_type MapreduceCluster#data_volume_type}
   */
   readonly dataVolumeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#flavor MapreduceCluster#flavor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#flavor MapreduceCluster#flavor}
   */
   readonly flavor: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#node_number MapreduceCluster#node_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#node_number MapreduceCluster#node_number}
   */
   readonly nodeNumber: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#period MapreduceCluster#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#period MapreduceCluster#period}
   */
   readonly period?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#period_unit MapreduceCluster#period_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#period_unit MapreduceCluster#period_unit}
   */
   readonly periodUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#root_volume_size MapreduceCluster#root_volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#root_volume_size MapreduceCluster#root_volume_size}
   */
   readonly rootVolumeSize: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#root_volume_type MapreduceCluster#root_volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#root_volume_type MapreduceCluster#root_volume_type}
   */
   readonly rootVolumeType: string;
 }
@@ -612,35 +612,35 @@ export class MapreduceClusterAnalysisCoreNodesOutputReference extends cdktf.Comp
 }
 export interface MapreduceClusterAnalysisTaskNodes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#assigned_roles MapreduceCluster#assigned_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#assigned_roles MapreduceCluster#assigned_roles}
   */
   readonly assignedRoles?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#data_volume_count MapreduceCluster#data_volume_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#data_volume_count MapreduceCluster#data_volume_count}
   */
   readonly dataVolumeCount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#data_volume_size MapreduceCluster#data_volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#data_volume_size MapreduceCluster#data_volume_size}
   */
   readonly dataVolumeSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#data_volume_type MapreduceCluster#data_volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#data_volume_type MapreduceCluster#data_volume_type}
   */
   readonly dataVolumeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#flavor MapreduceCluster#flavor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#flavor MapreduceCluster#flavor}
   */
   readonly flavor: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#node_number MapreduceCluster#node_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#node_number MapreduceCluster#node_number}
   */
   readonly nodeNumber: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#root_volume_size MapreduceCluster#root_volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#root_volume_size MapreduceCluster#root_volume_size}
   */
   readonly rootVolumeSize: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#root_volume_type MapreduceCluster#root_volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#root_volume_type MapreduceCluster#root_volume_type}
   */
   readonly rootVolumeType: string;
 }
@@ -919,49 +919,49 @@ export interface MapreduceClusterBootstrapScripts {
   /**
   * Whether the bootstrap action script runs only on active master nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#active_master MapreduceCluster#active_master}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#active_master MapreduceCluster#active_master}
   */
   readonly activeMaster?: boolean | cdktf.IResolvable;
   /**
   * Whether the bootstrap action script is executed before component start.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#before_component_start MapreduceCluster#before_component_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#before_component_start MapreduceCluster#before_component_start}
   */
   readonly beforeComponentStart?: boolean | cdktf.IResolvable;
   /**
   * Whether the bootstrap action script involves root user operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#execute_need_sudo_root MapreduceCluster#execute_need_sudo_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#execute_need_sudo_root MapreduceCluster#execute_need_sudo_root}
   */
   readonly executeNeedSudoRoot?: boolean | cdktf.IResolvable;
   /**
   * The action after the bootstrap action script fails to be executed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#fail_action MapreduceCluster#fail_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#fail_action MapreduceCluster#fail_action}
   */
   readonly failAction: string;
   /**
   * Name of a bootstrap action script.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#name MapreduceCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#name MapreduceCluster#name}
   */
   readonly name: string;
   /**
   * Name of the node group where the bootstrap action script is executed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#nodes MapreduceCluster#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#nodes MapreduceCluster#nodes}
   */
   readonly nodes: string[];
   /**
   * Bootstrap action script parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#parameters MapreduceCluster#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#parameters MapreduceCluster#parameters}
   */
   readonly parameters?: string;
   /**
   * Path of a bootstrap action script. Set this parameter to an OBS bucket path or a local VM path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#uri MapreduceCluster#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#uri MapreduceCluster#uri}
   */
   readonly uri: string;
 }
@@ -1278,15 +1278,15 @@ export class MapreduceClusterBootstrapScriptsList extends cdktf.ComplexList {
 }
 export interface MapreduceClusterComponentConfigsConfigs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#config_file_name MapreduceCluster#config_file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#config_file_name MapreduceCluster#config_file_name}
   */
   readonly configFileName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#key MapreduceCluster#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#key MapreduceCluster#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#value MapreduceCluster#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#value MapreduceCluster#value}
   */
   readonly value: string;
 }
@@ -1451,13 +1451,13 @@ export class MapreduceClusterComponentConfigsConfigsList extends cdktf.ComplexLi
 }
 export interface MapreduceClusterComponentConfigs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#name MapreduceCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#name MapreduceCluster#name}
   */
   readonly name: string;
   /**
   * configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#configs MapreduceCluster#configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#configs MapreduceCluster#configs}
   */
   readonly configs: MapreduceClusterComponentConfigsConfigs[] | cdktf.IResolvable;
 }
@@ -1596,55 +1596,55 @@ export class MapreduceClusterComponentConfigsList extends cdktf.ComplexList {
 }
 export interface MapreduceClusterCustomNodes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#assigned_roles MapreduceCluster#assigned_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#assigned_roles MapreduceCluster#assigned_roles}
   */
   readonly assignedRoles?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#auto_renew MapreduceCluster#auto_renew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#auto_renew MapreduceCluster#auto_renew}
   */
   readonly autoRenew?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#charging_mode MapreduceCluster#charging_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#charging_mode MapreduceCluster#charging_mode}
   */
   readonly chargingMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#data_volume_count MapreduceCluster#data_volume_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#data_volume_count MapreduceCluster#data_volume_count}
   */
   readonly dataVolumeCount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#data_volume_size MapreduceCluster#data_volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#data_volume_size MapreduceCluster#data_volume_size}
   */
   readonly dataVolumeSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#data_volume_type MapreduceCluster#data_volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#data_volume_type MapreduceCluster#data_volume_type}
   */
   readonly dataVolumeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#flavor MapreduceCluster#flavor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#flavor MapreduceCluster#flavor}
   */
   readonly flavor: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#group_name MapreduceCluster#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#group_name MapreduceCluster#group_name}
   */
   readonly groupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#node_number MapreduceCluster#node_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#node_number MapreduceCluster#node_number}
   */
   readonly nodeNumber: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#period MapreduceCluster#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#period MapreduceCluster#period}
   */
   readonly period?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#period_unit MapreduceCluster#period_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#period_unit MapreduceCluster#period_unit}
   */
   readonly periodUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#root_volume_size MapreduceCluster#root_volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#root_volume_size MapreduceCluster#root_volume_size}
   */
   readonly rootVolumeSize: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#root_volume_type MapreduceCluster#root_volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#root_volume_type MapreduceCluster#root_volume_type}
   */
   readonly rootVolumeType: string;
 }
@@ -2095,19 +2095,19 @@ export class MapreduceClusterCustomNodesList extends cdktf.ComplexList {
 }
 export interface MapreduceClusterExternalDatasources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#component_name MapreduceCluster#component_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#component_name MapreduceCluster#component_name}
   */
   readonly componentName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#data_connection_id MapreduceCluster#data_connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#data_connection_id MapreduceCluster#data_connection_id}
   */
   readonly dataConnectionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#role_type MapreduceCluster#role_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#role_type MapreduceCluster#role_type}
   */
   readonly roleType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#source_type MapreduceCluster#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#source_type MapreduceCluster#source_type}
   */
   readonly sourceType: string;
 }
@@ -2301,51 +2301,51 @@ export class MapreduceClusterExternalDatasourcesList extends cdktf.ComplexList {
 }
 export interface MapreduceClusterMasterNodes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#assigned_roles MapreduceCluster#assigned_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#assigned_roles MapreduceCluster#assigned_roles}
   */
   readonly assignedRoles?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#auto_renew MapreduceCluster#auto_renew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#auto_renew MapreduceCluster#auto_renew}
   */
   readonly autoRenew?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#charging_mode MapreduceCluster#charging_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#charging_mode MapreduceCluster#charging_mode}
   */
   readonly chargingMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#data_volume_count MapreduceCluster#data_volume_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#data_volume_count MapreduceCluster#data_volume_count}
   */
   readonly dataVolumeCount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#data_volume_size MapreduceCluster#data_volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#data_volume_size MapreduceCluster#data_volume_size}
   */
   readonly dataVolumeSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#data_volume_type MapreduceCluster#data_volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#data_volume_type MapreduceCluster#data_volume_type}
   */
   readonly dataVolumeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#flavor MapreduceCluster#flavor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#flavor MapreduceCluster#flavor}
   */
   readonly flavor: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#node_number MapreduceCluster#node_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#node_number MapreduceCluster#node_number}
   */
   readonly nodeNumber: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#period MapreduceCluster#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#period MapreduceCluster#period}
   */
   readonly period?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#period_unit MapreduceCluster#period_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#period_unit MapreduceCluster#period_unit}
   */
   readonly periodUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#root_volume_size MapreduceCluster#root_volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#root_volume_size MapreduceCluster#root_volume_size}
   */
   readonly rootVolumeSize: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#root_volume_type MapreduceCluster#root_volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#root_volume_type MapreduceCluster#root_volume_type}
   */
   readonly rootVolumeType: string;
 }
@@ -2740,13 +2740,13 @@ export interface MapreduceClusterSmnNotify {
   /**
   * The subscription rule name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#subscription_name MapreduceCluster#subscription_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#subscription_name MapreduceCluster#subscription_name}
   */
   readonly subscriptionName: string;
   /**
   * The Uniform Resource Name (URN) of the topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#topic_urn MapreduceCluster#topic_urn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#topic_urn MapreduceCluster#topic_urn}
   */
   readonly topicUrn: string;
 }
@@ -2853,51 +2853,51 @@ export class MapreduceClusterSmnNotifyOutputReference extends cdktf.ComplexObjec
 }
 export interface MapreduceClusterStreamingCoreNodes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#assigned_roles MapreduceCluster#assigned_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#assigned_roles MapreduceCluster#assigned_roles}
   */
   readonly assignedRoles?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#auto_renew MapreduceCluster#auto_renew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#auto_renew MapreduceCluster#auto_renew}
   */
   readonly autoRenew?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#charging_mode MapreduceCluster#charging_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#charging_mode MapreduceCluster#charging_mode}
   */
   readonly chargingMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#data_volume_count MapreduceCluster#data_volume_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#data_volume_count MapreduceCluster#data_volume_count}
   */
   readonly dataVolumeCount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#data_volume_size MapreduceCluster#data_volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#data_volume_size MapreduceCluster#data_volume_size}
   */
   readonly dataVolumeSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#data_volume_type MapreduceCluster#data_volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#data_volume_type MapreduceCluster#data_volume_type}
   */
   readonly dataVolumeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#flavor MapreduceCluster#flavor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#flavor MapreduceCluster#flavor}
   */
   readonly flavor: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#node_number MapreduceCluster#node_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#node_number MapreduceCluster#node_number}
   */
   readonly nodeNumber: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#period MapreduceCluster#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#period MapreduceCluster#period}
   */
   readonly period?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#period_unit MapreduceCluster#period_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#period_unit MapreduceCluster#period_unit}
   */
   readonly periodUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#root_volume_size MapreduceCluster#root_volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#root_volume_size MapreduceCluster#root_volume_size}
   */
   readonly rootVolumeSize: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#root_volume_type MapreduceCluster#root_volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#root_volume_type MapreduceCluster#root_volume_type}
   */
   readonly rootVolumeType: string;
 }
@@ -3290,35 +3290,35 @@ export class MapreduceClusterStreamingCoreNodesOutputReference extends cdktf.Com
 }
 export interface MapreduceClusterStreamingTaskNodes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#assigned_roles MapreduceCluster#assigned_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#assigned_roles MapreduceCluster#assigned_roles}
   */
   readonly assignedRoles?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#data_volume_count MapreduceCluster#data_volume_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#data_volume_count MapreduceCluster#data_volume_count}
   */
   readonly dataVolumeCount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#data_volume_size MapreduceCluster#data_volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#data_volume_size MapreduceCluster#data_volume_size}
   */
   readonly dataVolumeSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#data_volume_type MapreduceCluster#data_volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#data_volume_type MapreduceCluster#data_volume_type}
   */
   readonly dataVolumeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#flavor MapreduceCluster#flavor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#flavor MapreduceCluster#flavor}
   */
   readonly flavor: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#node_number MapreduceCluster#node_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#node_number MapreduceCluster#node_number}
   */
   readonly nodeNumber: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#root_volume_size MapreduceCluster#root_volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#root_volume_size MapreduceCluster#root_volume_size}
   */
   readonly rootVolumeSize: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#root_volume_type MapreduceCluster#root_volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#root_volume_type MapreduceCluster#root_volume_type}
   */
   readonly rootVolumeType: string;
 }
@@ -3595,15 +3595,15 @@ export class MapreduceClusterStreamingTaskNodesOutputReference extends cdktf.Com
 }
 export interface MapreduceClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#create MapreduceCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#create MapreduceCluster#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#delete MapreduceCluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#delete MapreduceCluster#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#update MapreduceCluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#update MapreduceCluster#update}
   */
   readonly update?: string;
 }
@@ -3755,7 +3755,7 @@ export class MapreduceClusterTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster sbercloud_mapreduce_cluster}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster sbercloud_mapreduce_cluster}
 */
 export class MapreduceCluster extends cdktf.TerraformResource {
 
@@ -3771,7 +3771,7 @@ export class MapreduceCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MapreduceCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MapreduceCluster to import
-  * @param importFromId The id of the existing MapreduceCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MapreduceCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MapreduceCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3783,7 +3783,7 @@ export class MapreduceCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/mapreduce_cluster sbercloud_mapreduce_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/mapreduce_cluster sbercloud_mapreduce_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3794,8 +3794,8 @@ export class MapreduceCluster extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_mapreduce_cluster',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

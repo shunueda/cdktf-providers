@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address
+// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface IpamAddressConfig extends cdktf.TerraformMetaArguments {
   /**
   * The address in form "a.b.c.d".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address#address IpamAddress#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address#address IpamAddress#address}
   */
   readonly address?: string;
   /**
   * The description for the address object. May contain 0 to 1024 characters. Can include UTF-8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address#comment IpamAddress#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address#comment IpamAddress#comment}
   */
   readonly comment?: string;
   /**
   * The external keys (source key) for this address in JSON format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address#external_keys IpamAddress#external_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address#external_keys IpamAddress#external_keys}
   */
   readonly externalKeys?: { [key: string]: string };
   /**
   * The hardware address associated with this IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address#hwaddr IpamAddress#hwaddr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address#hwaddr IpamAddress#hwaddr}
   */
   readonly hwaddr?: string;
   /**
   * The name of the network interface card (NIC) associated with the address, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address#interface IpamAddress#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address#interface IpamAddress#interface}
   */
   readonly interface?: string;
   /**
   * The list of all names associated with this address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address#names IpamAddress#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address#names IpamAddress#names}
   */
   readonly names?: IpamAddressNames[] | cdktf.IResolvable;
   /**
   * The resource identifier for the address block, subnet or range where the next available address should be generated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address#next_available_id IpamAddress#next_available_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address#next_available_id IpamAddress#next_available_id}
   */
   readonly nextAvailableId?: string;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address#space IpamAddress#space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address#space IpamAddress#space}
   */
   readonly space: string;
   /**
   * The tags for this address in JSON format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address#tags IpamAddress#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address#tags IpamAddress#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -175,13 +175,13 @@ export interface IpamAddressNames {
   /**
   * The name expressed as a single label or FQDN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address#name IpamAddress#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address#name IpamAddress#name}
   */
   readonly name: string;
   /**
   * The origin of the name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address#type IpamAddress#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address#type IpamAddress#type}
   */
   readonly type: string;
 }
@@ -320,7 +320,7 @@ export class IpamAddressNamesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address bloxone_ipam_address}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address bloxone_ipam_address}
 */
 export class IpamAddress extends cdktf.TerraformResource {
 
@@ -336,7 +336,7 @@ export class IpamAddress extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpamAddress resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpamAddress to import
-  * @param importFromId The id of the existing IpamAddress that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpamAddress that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpamAddress to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -348,7 +348,7 @@ export class IpamAddress extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address bloxone_ipam_address} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address bloxone_ipam_address} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -359,8 +359,8 @@ export class IpamAddress extends cdktf.TerraformResource {
       terraformResourceType: 'bloxone_ipam_address',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.5.4',
+        providerVersionConstraint: '1.5.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

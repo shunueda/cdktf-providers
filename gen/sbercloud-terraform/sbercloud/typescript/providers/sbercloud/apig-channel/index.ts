@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_channel
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_channel
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ApigChannelConfig extends cdktf.TerraformMetaArguments {
   /**
   * The distribution algorithm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_channel#balance_strategy ApigChannel#balance_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_channel#balance_strategy ApigChannel#balance_strategy}
   */
   readonly balanceStrategy: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_channel#id ApigChannel#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_channel#id ApigChannel#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,61 +23,61 @@ export interface ApigChannelConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the dedicated instance to which the channel belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_channel#instance_id ApigChannel#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_channel#instance_id ApigChannel#instance_id}
   */
   readonly instanceId: string;
   /**
   * The member type of the channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_channel#member_type ApigChannel#member_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_channel#member_type ApigChannel#member_type}
   */
   readonly memberType?: string;
   /**
   * The channel name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_channel#name ApigChannel#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_channel#name ApigChannel#name}
   */
   readonly name: string;
   /**
   * The default port for health check in channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_channel#port ApigChannel#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_channel#port ApigChannel#port}
   */
   readonly port: number;
   /**
   * The region where the dedicated instance is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_channel#region ApigChannel#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_channel#region ApigChannel#region}
   */
   readonly region?: string;
   /**
   * The type of the channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_channel#type ApigChannel#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_channel#type ApigChannel#type}
   */
   readonly type?: string;
   /**
   * health_check block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_channel#health_check ApigChannel#health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_channel#health_check ApigChannel#health_check}
   */
   readonly healthCheck?: ApigChannelHealthCheck;
   /**
   * member block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_channel#member ApigChannel#member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_channel#member ApigChannel#member}
   */
   readonly member?: ApigChannelMember[] | cdktf.IResolvable;
   /**
   * member_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_channel#member_group ApigChannel#member_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_channel#member_group ApigChannel#member_group}
   */
   readonly memberGroup?: ApigChannelMemberGroup[] | cdktf.IResolvable;
   /**
   * microservice block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_channel#microservice ApigChannel#microservice}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_channel#microservice ApigChannel#microservice}
   */
   readonly microservice?: ApigChannelMicroservice;
 }
@@ -85,67 +85,67 @@ export interface ApigChannelHealthCheck {
   /**
   * Whether to enable two-way authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_channel#enable_client_ssl ApigChannel#enable_client_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_channel#enable_client_ssl ApigChannel#enable_client_ssl}
   */
   readonly enableClientSsl?: boolean | cdktf.IResolvable;
   /**
   * The response codes for determining a successful HTTP response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_channel#http_codes ApigChannel#http_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_channel#http_codes ApigChannel#http_codes}
   */
   readonly httpCodes?: string;
   /**
   * The interval between consecutive check, in second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_channel#interval ApigChannel#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_channel#interval ApigChannel#interval}
   */
   readonly interval: number;
   /**
   * The request method for health check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_channel#method ApigChannel#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_channel#method ApigChannel#method}
   */
   readonly method?: string;
   /**
   * The destination path for health check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_channel#path ApigChannel#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_channel#path ApigChannel#path}
   */
   readonly path?: string;
   /**
   * The destination host port for health check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_channel#port ApigChannel#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_channel#port ApigChannel#port}
   */
   readonly port?: number;
   /**
   * The rotocol for performing health check on backend servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_channel#protocol ApigChannel#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_channel#protocol ApigChannel#protocol}
   */
   readonly protocol: string;
   /**
   * The status of health check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_channel#status ApigChannel#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_channel#status ApigChannel#status}
   */
   readonly status?: number;
   /**
   * The unhealthy threshold, which refers to the number of consecutive failed check required for a backend server to be considered unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_channel#threshold_abnormal ApigChannel#threshold_abnormal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_channel#threshold_abnormal ApigChannel#threshold_abnormal}
   */
   readonly thresholdAbnormal: number;
   /**
   * The the healthy threshold, which refers to the number of consecutive successful checks required for a backend server to be considered healthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_channel#threshold_normal ApigChannel#threshold_normal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_channel#threshold_normal ApigChannel#threshold_normal}
   */
   readonly thresholdNormal: number;
   /**
   * The timeout for determining whether a health check fails, in second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_channel#timeout ApigChannel#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_channel#timeout ApigChannel#timeout}
   */
   readonly timeout: number;
 }
@@ -506,19 +506,19 @@ export interface ApigChannelMember {
   /**
   * The group name of the backend server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_channel#group_name ApigChannel#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_channel#group_name ApigChannel#group_name}
   */
   readonly groupName?: string;
   /**
   * The IP address of the backend server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_channel#host ApigChannel#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_channel#host ApigChannel#host}
   */
   readonly host?: string;
   /**
   * The ID of the backend server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_channel#id ApigChannel#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_channel#id ApigChannel#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -527,31 +527,31 @@ export interface ApigChannelMember {
   /**
   * Whether this member is the backup member.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_channel#is_backup ApigChannel#is_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_channel#is_backup ApigChannel#is_backup}
   */
   readonly isBackup?: boolean | cdktf.IResolvable;
   /**
   * The name of the backend server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_channel#name ApigChannel#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_channel#name ApigChannel#name}
   */
   readonly name?: string;
   /**
   * The port of the backend server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_channel#port ApigChannel#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_channel#port ApigChannel#port}
   */
   readonly port?: number;
   /**
   * The status of the backend server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_channel#status ApigChannel#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_channel#status ApigChannel#status}
   */
   readonly status?: number;
   /**
   * The weight of current backend server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_channel#weight ApigChannel#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_channel#weight ApigChannel#weight}
   */
   readonly weight?: number;
 }
@@ -872,43 +872,43 @@ export interface ApigChannelMemberGroup {
   /**
   * The description of the member group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_channel#description ApigChannel#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_channel#description ApigChannel#description}
   */
   readonly description?: string;
   /**
   * The microservice tags of the backend server group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_channel#microservice_labels ApigChannel#microservice_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_channel#microservice_labels ApigChannel#microservice_labels}
   */
   readonly microserviceLabels?: { [key: string]: string };
   /**
   * The microservice port of the backend server group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_channel#microservice_port ApigChannel#microservice_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_channel#microservice_port ApigChannel#microservice_port}
   */
   readonly microservicePort?: number;
   /**
   * The microservice version of the backend server group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_channel#microservice_version ApigChannel#microservice_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_channel#microservice_version ApigChannel#microservice_version}
   */
   readonly microserviceVersion?: string;
   /**
   * The name of the member group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_channel#name ApigChannel#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_channel#name ApigChannel#name}
   */
   readonly name: string;
   /**
   * The ID of the reference load balance channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_channel#reference_vpc_channel_id ApigChannel#reference_vpc_channel_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_channel#reference_vpc_channel_id ApigChannel#reference_vpc_channel_id}
   */
   readonly referenceVpcChannelId?: string;
   /**
   * The weight of the current member group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_channel#weight ApigChannel#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_channel#weight ApigChannel#weight}
   */
   readonly weight?: number;
 }
@@ -1197,37 +1197,37 @@ export interface ApigChannelMicroserviceCceConfig {
   /**
   * The ID of the CCE cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_channel#cluster_id ApigChannel#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_channel#cluster_id ApigChannel#cluster_id}
   */
   readonly clusterId: string;
   /**
   * The service label key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_channel#label_key ApigChannel#label_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_channel#label_key ApigChannel#label_key}
   */
   readonly labelKey?: string;
   /**
   * The service label value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_channel#label_value ApigChannel#label_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_channel#label_value ApigChannel#label_value}
   */
   readonly labelValue?: string;
   /**
   * The name of the CCE namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_channel#namespace ApigChannel#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_channel#namespace ApigChannel#namespace}
   */
   readonly namespace: string;
   /**
   * The workload name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_channel#workload_name ApigChannel#workload_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_channel#workload_name ApigChannel#workload_name}
   */
   readonly workloadName?: string;
   /**
   * The workload type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_channel#workload_type ApigChannel#workload_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_channel#workload_type ApigChannel#workload_type}
   */
   readonly workloadType: string;
 }
@@ -1449,13 +1449,13 @@ export interface ApigChannelMicroserviceCseConfig {
   /**
   * schema:Internal; The microservice engine ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_channel#engine_id ApigChannel#engine_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_channel#engine_id ApigChannel#engine_id}
   */
   readonly engineId: string;
   /**
   * schema:Internal; The microservice ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_channel#service_id ApigChannel#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_channel#service_id ApigChannel#service_id}
   */
   readonly serviceId: string;
 }
@@ -1564,13 +1564,13 @@ export interface ApigChannelMicroservice {
   /**
   * cce_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_channel#cce_config ApigChannel#cce_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_channel#cce_config ApigChannel#cce_config}
   */
   readonly cceConfig?: ApigChannelMicroserviceCceConfig;
   /**
   * cse_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_channel#cse_config ApigChannel#cse_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_channel#cse_config ApigChannel#cse_config}
   */
   readonly cseConfig?: ApigChannelMicroserviceCseConfig;
 }
@@ -1683,7 +1683,7 @@ export class ApigChannelMicroserviceOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_channel sbercloud_apig_channel}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_channel sbercloud_apig_channel}
 */
 export class ApigChannel extends cdktf.TerraformResource {
 
@@ -1699,7 +1699,7 @@ export class ApigChannel extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApigChannel resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApigChannel to import
-  * @param importFromId The id of the existing ApigChannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_channel#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApigChannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_channel#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApigChannel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1711,7 +1711,7 @@ export class ApigChannel extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_channel sbercloud_apig_channel} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_channel sbercloud_apig_channel} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1722,8 +1722,8 @@ export class ApigChannel extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_apig_channel',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

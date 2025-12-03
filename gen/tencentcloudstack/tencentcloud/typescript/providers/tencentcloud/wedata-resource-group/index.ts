@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_resource_group
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/wedata_resource_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface WedataResourceGroupConfig extends cdktf.TerraformMetaArguments 
   /**
   * Associated project space project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_resource_group#associated_project_id WedataResourceGroup#associated_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/wedata_resource_group#associated_project_id WedataResourceGroup#associated_project_id}
   */
   readonly associatedProjectId?: string;
   /**
   * Whether auto-renewal is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_resource_group#auto_renew_enabled WedataResourceGroup#auto_renew_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/wedata_resource_group#auto_renew_enabled WedataResourceGroup#auto_renew_enabled}
   */
   readonly autoRenewEnabled: boolean | cdktf.IResolvable;
   /**
   * Resource group description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_resource_group#description WedataResourceGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/wedata_resource_group#description WedataResourceGroup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_resource_group#id WedataResourceGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/wedata_resource_group#id WedataResourceGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,37 +35,37 @@ export interface WedataResourceGroupConfig extends cdktf.TerraformMetaArguments 
   /**
   * Resource group name. The name for creating a general resource group must start with a letter, can contain letters, numbers, underscores (_), and up to 64 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_resource_group#name WedataResourceGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/wedata_resource_group#name WedataResourceGroup#name}
   */
   readonly name: string;
   /**
   * Purchase duration, in months.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_resource_group#purchase_period WedataResourceGroup#purchase_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/wedata_resource_group#purchase_period WedataResourceGroup#purchase_period}
   */
   readonly purchasePeriod: number;
   /**
   * Resource purchase region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_resource_group#resource_region WedataResourceGroup#resource_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/wedata_resource_group#resource_region WedataResourceGroup#resource_region}
   */
   readonly resourceRegion: string;
   /**
   * Subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_resource_group#subnet WedataResourceGroup#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/wedata_resource_group#subnet WedataResourceGroup#subnet}
   */
   readonly subnet: string;
   /**
   * VPC ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_resource_group#vpc_id WedataResourceGroup#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/wedata_resource_group#vpc_id WedataResourceGroup#vpc_id}
   */
   readonly vpcId: string;
   /**
   * type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_resource_group#type WedataResourceGroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/wedata_resource_group#type WedataResourceGroup#type}
   */
   readonly type: WedataResourceGroupType;
 }
@@ -73,13 +73,13 @@ export interface WedataResourceGroupTypeDataService {
   /**
   * Quantity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_resource_group#number WedataResourceGroup#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/wedata_resource_group#number WedataResourceGroup#number}
   */
   readonly number: number;
   /**
   * Resource group specification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_resource_group#specification WedataResourceGroup#specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/wedata_resource_group#specification WedataResourceGroup#specification}
   */
   readonly specification: string;
 }
@@ -188,13 +188,13 @@ export interface WedataResourceGroupTypeIntegrationOfflineDataSync {
   /**
   * Quantity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_resource_group#number WedataResourceGroup#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/wedata_resource_group#number WedataResourceGroup#number}
   */
   readonly number: number;
   /**
   * Resource group specification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_resource_group#specification WedataResourceGroup#specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/wedata_resource_group#specification WedataResourceGroup#specification}
   */
   readonly specification: string;
 }
@@ -303,13 +303,13 @@ export interface WedataResourceGroupTypeIntegrationRealTimeDataSync {
   /**
   * Quantity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_resource_group#number WedataResourceGroup#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/wedata_resource_group#number WedataResourceGroup#number}
   */
   readonly number: number;
   /**
   * Resource group specification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_resource_group#specification WedataResourceGroup#specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/wedata_resource_group#specification WedataResourceGroup#specification}
   */
   readonly specification: string;
 }
@@ -418,13 +418,13 @@ export interface WedataResourceGroupTypeIntegration {
   /**
   * offline_data_sync block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_resource_group#offline_data_sync WedataResourceGroup#offline_data_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/wedata_resource_group#offline_data_sync WedataResourceGroup#offline_data_sync}
   */
   readonly offlineDataSync?: WedataResourceGroupTypeIntegrationOfflineDataSync;
   /**
   * real_time_data_sync block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_resource_group#real_time_data_sync WedataResourceGroup#real_time_data_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/wedata_resource_group#real_time_data_sync WedataResourceGroup#real_time_data_sync}
   */
   readonly realTimeDataSync?: WedataResourceGroupTypeIntegrationRealTimeDataSync;
 }
@@ -539,13 +539,13 @@ export interface WedataResourceGroupTypeSchedule {
   /**
   * Quantity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_resource_group#number WedataResourceGroup#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/wedata_resource_group#number WedataResourceGroup#number}
   */
   readonly number: number;
   /**
   * Resource group specification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_resource_group#specification WedataResourceGroup#specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/wedata_resource_group#specification WedataResourceGroup#specification}
   */
   readonly specification: string;
 }
@@ -658,25 +658,25 @@ export interface WedataResourceGroupType {
   * - Integration --- Integration resource group  
   * - DataService -- Data service resource group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_resource_group#resource_group_type WedataResourceGroup#resource_group_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/wedata_resource_group#resource_group_type WedataResourceGroup#resource_group_type}
   */
   readonly resourceGroupType: string;
   /**
   * data_service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_resource_group#data_service WedataResourceGroup#data_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/wedata_resource_group#data_service WedataResourceGroup#data_service}
   */
   readonly dataService?: WedataResourceGroupTypeDataService;
   /**
   * integration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_resource_group#integration WedataResourceGroup#integration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/wedata_resource_group#integration WedataResourceGroup#integration}
   */
   readonly integration?: WedataResourceGroupTypeIntegration;
   /**
   * schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_resource_group#schedule WedataResourceGroup#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/wedata_resource_group#schedule WedataResourceGroup#schedule}
   */
   readonly schedule?: WedataResourceGroupTypeSchedule;
 }
@@ -844,7 +844,7 @@ export class WedataResourceGroupTypeOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_resource_group tencentcloud_wedata_resource_group}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/wedata_resource_group tencentcloud_wedata_resource_group}
 */
 export class WedataResourceGroup extends cdktf.TerraformResource {
 
@@ -860,7 +860,7 @@ export class WedataResourceGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WedataResourceGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WedataResourceGroup to import
-  * @param importFromId The id of the existing WedataResourceGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_resource_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WedataResourceGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/wedata_resource_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WedataResourceGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -872,7 +872,7 @@ export class WedataResourceGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/wedata_resource_group tencentcloud_wedata_resource_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/wedata_resource_group tencentcloud_wedata_resource_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -883,8 +883,8 @@ export class WedataResourceGroup extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_wedata_resource_group',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.39',
-        providerVersionConstraint: '1.82.39'
+        providerVersion: '1.82.40',
+        providerVersionConstraint: '1.82.40'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/er_flow_logs
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/er_flow_logs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataSbercloudErFlowLogsConfig extends cdktf.TerraformMetaArgume
   /**
   * The switch status of the flow log.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/er_flow_logs#enabled DataSbercloudErFlowLogs#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/er_flow_logs#enabled DataSbercloudErFlowLogs#enabled}
   */
   readonly enabled?: string;
   /**
   * The ID of the flow log.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/er_flow_logs#flow_log_id DataSbercloudErFlowLogs#flow_log_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/er_flow_logs#flow_log_id DataSbercloudErFlowLogs#flow_log_id}
   */
   readonly flowLogId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/er_flow_logs#id DataSbercloudErFlowLogs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/er_flow_logs#id DataSbercloudErFlowLogs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,49 +29,49 @@ export interface DataSbercloudErFlowLogsConfig extends cdktf.TerraformMetaArgume
   /**
   * The ID of the ER instance to which the flow logs belong.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/er_flow_logs#instance_id DataSbercloudErFlowLogs#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/er_flow_logs#instance_id DataSbercloudErFlowLogs#instance_id}
   */
   readonly instanceId: string;
   /**
   * The ID of the log group to which the flow logs belong.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/er_flow_logs#log_group_id DataSbercloudErFlowLogs#log_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/er_flow_logs#log_group_id DataSbercloudErFlowLogs#log_group_id}
   */
   readonly logGroupId?: string;
   /**
   * The ID of the log stream to which the flow logs belong.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/er_flow_logs#log_stream_id DataSbercloudErFlowLogs#log_stream_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/er_flow_logs#log_stream_id DataSbercloudErFlowLogs#log_stream_id}
   */
   readonly logStreamId?: string;
   /**
   * The name of the flow log.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/er_flow_logs#name DataSbercloudErFlowLogs#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/er_flow_logs#name DataSbercloudErFlowLogs#name}
   */
   readonly name?: string;
   /**
   * The region where the flow logs are located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/er_flow_logs#region DataSbercloudErFlowLogs#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/er_flow_logs#region DataSbercloudErFlowLogs#region}
   */
   readonly region?: string;
   /**
   * The ID of the attachment to which the flow logs belong.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/er_flow_logs#resource_id DataSbercloudErFlowLogs#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/er_flow_logs#resource_id DataSbercloudErFlowLogs#resource_id}
   */
   readonly resourceId?: string;
   /**
   * The type of the flow logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/er_flow_logs#resource_type DataSbercloudErFlowLogs#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/er_flow_logs#resource_type DataSbercloudErFlowLogs#resource_type}
   */
   readonly resourceType?: string;
   /**
   * The status of the flow logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/er_flow_logs#status DataSbercloudErFlowLogs#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/er_flow_logs#status DataSbercloudErFlowLogs#status}
   */
   readonly status?: string;
 }
@@ -207,7 +207,7 @@ export class DataSbercloudErFlowLogsFlowLogsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/er_flow_logs sbercloud_er_flow_logs}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/er_flow_logs sbercloud_er_flow_logs}
 */
 export class DataSbercloudErFlowLogs extends cdktf.TerraformDataSource {
 
@@ -223,7 +223,7 @@ export class DataSbercloudErFlowLogs extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSbercloudErFlowLogs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSbercloudErFlowLogs to import
-  * @param importFromId The id of the existing DataSbercloudErFlowLogs that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/er_flow_logs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSbercloudErFlowLogs that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/er_flow_logs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSbercloudErFlowLogs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -235,7 +235,7 @@ export class DataSbercloudErFlowLogs extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/er_flow_logs sbercloud_er_flow_logs} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/er_flow_logs sbercloud_er_flow_logs} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -246,8 +246,8 @@ export class DataSbercloudErFlowLogs extends cdktf.TerraformDataSource {
       terraformResourceType: 'sbercloud_er_flow_logs',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

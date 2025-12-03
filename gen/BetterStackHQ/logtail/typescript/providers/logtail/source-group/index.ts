@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/source_group
+// https://registry.terraform.io/providers/betterstackhq/logtail/0.7.3/docs/resources/source_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface SourceGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of this source group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/source_group#name SourceGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.3/docs/resources/source_group#name SourceGroup#name}
   */
   readonly name: string;
   /**
   * The sort index of this source group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/source_group#sort_index SourceGroup#sort_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.3/docs/resources/source_group#sort_index SourceGroup#sort_index}
   */
   readonly sortIndex?: number;
   /**
   * Used to specify the team the resource should be created in when using global tokens.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/source_group#team_name SourceGroup#team_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.3/docs/resources/source_group#team_name SourceGroup#team_name}
   */
   readonly teamName?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/source_group logtail_source_group}
+* Represents a {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.3/docs/resources/source_group logtail_source_group}
 */
 export class SourceGroup extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class SourceGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SourceGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SourceGroup to import
-  * @param importFromId The id of the existing SourceGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/source_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SourceGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.3/docs/resources/source_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SourceGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class SourceGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/source_group logtail_source_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.3/docs/resources/source_group logtail_source_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class SourceGroup extends cdktf.TerraformResource {
       terraformResourceType: 'logtail_source_group',
       terraformGeneratorMetadata: {
         providerName: 'logtail',
-        providerVersion: '0.7.2',
-        providerVersionConstraint: '0.7.2'
+        providerVersion: '0.7.3',
+        providerVersionConstraint: '0.7.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

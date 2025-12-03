@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/sqlserverflex_instance
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/sqlserverflex_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,57 +10,57 @@ export interface SqlserverflexInstanceConfig extends cdktf.TerraformMetaArgument
   /**
   * The Access Control List (ACL) for the SQLServer Flex instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/sqlserverflex_instance#acl SqlserverflexInstance#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/sqlserverflex_instance#acl SqlserverflexInstance#acl}
   */
   readonly acl?: string[];
   /**
   * The backup schedule. Should follow the cron scheduling system format (e.g. "0 0 * * *")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/sqlserverflex_instance#backup_schedule SqlserverflexInstance#backup_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/sqlserverflex_instance#backup_schedule SqlserverflexInstance#backup_schedule}
   */
   readonly backupSchedule?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/sqlserverflex_instance#flavor SqlserverflexInstance#flavor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/sqlserverflex_instance#flavor SqlserverflexInstance#flavor}
   */
   readonly flavor: SqlserverflexInstanceFlavor;
   /**
   * Instance name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/sqlserverflex_instance#name SqlserverflexInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/sqlserverflex_instance#name SqlserverflexInstance#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/sqlserverflex_instance#options SqlserverflexInstance#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/sqlserverflex_instance#options SqlserverflexInstance#options}
   */
   readonly options?: SqlserverflexInstanceOptions;
   /**
   * STACKIT project ID to which the instance is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/sqlserverflex_instance#project_id SqlserverflexInstance#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/sqlserverflex_instance#project_id SqlserverflexInstance#project_id}
   */
   readonly projectId: string;
   /**
   * The resource region. If not defined, the provider region is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/sqlserverflex_instance#region SqlserverflexInstance#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/sqlserverflex_instance#region SqlserverflexInstance#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/sqlserverflex_instance#storage SqlserverflexInstance#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/sqlserverflex_instance#storage SqlserverflexInstance#storage}
   */
   readonly storage?: SqlserverflexInstanceStorage;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/sqlserverflex_instance#version SqlserverflexInstance#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/sqlserverflex_instance#version SqlserverflexInstance#version}
   */
   readonly version?: string;
 }
 export interface SqlserverflexInstanceFlavor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/sqlserverflex_instance#cpu SqlserverflexInstance#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/sqlserverflex_instance#cpu SqlserverflexInstance#cpu}
   */
   readonly cpu: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/sqlserverflex_instance#ram SqlserverflexInstance#ram}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/sqlserverflex_instance#ram SqlserverflexInstance#ram}
   */
   readonly ram: number;
 }
@@ -187,7 +187,7 @@ export class SqlserverflexInstanceFlavorOutputReference extends cdktf.ComplexObj
 }
 export interface SqlserverflexInstanceOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/sqlserverflex_instance#retention_days SqlserverflexInstance#retention_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/sqlserverflex_instance#retention_days SqlserverflexInstance#retention_days}
   */
   readonly retentionDays?: number;
 }
@@ -286,11 +286,11 @@ export class SqlserverflexInstanceOptionsOutputReference extends cdktf.ComplexOb
 }
 export interface SqlserverflexInstanceStorage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/sqlserverflex_instance#class SqlserverflexInstance#class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/sqlserverflex_instance#class SqlserverflexInstance#class}
   */
   readonly class?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/sqlserverflex_instance#size SqlserverflexInstance#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/sqlserverflex_instance#size SqlserverflexInstance#size}
   */
   readonly size?: number;
 }
@@ -413,7 +413,7 @@ export class SqlserverflexInstanceStorageOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/sqlserverflex_instance stackit_sqlserverflex_instance}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/sqlserverflex_instance stackit_sqlserverflex_instance}
 */
 export class SqlserverflexInstance extends cdktf.TerraformResource {
 
@@ -429,7 +429,7 @@ export class SqlserverflexInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SqlserverflexInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SqlserverflexInstance to import
-  * @param importFromId The id of the existing SqlserverflexInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/sqlserverflex_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SqlserverflexInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/sqlserverflex_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SqlserverflexInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -441,7 +441,7 @@ export class SqlserverflexInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/sqlserverflex_instance stackit_sqlserverflex_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/sqlserverflex_instance stackit_sqlserverflex_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -452,8 +452,8 @@ export class SqlserverflexInstance extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_sqlserverflex_instance',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.72.0',
-        providerVersionConstraint: '0.72.0'
+        providerVersion: '0.73.0',
+        providerVersionConstraint: '0.73.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

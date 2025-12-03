@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/teo_zones
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/teo_zones
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudTeoZonesConfig extends cdktf.TerraformMetaArgum
   /**
   * Sort direction. If the field value is a number, sort by the numeric value. If the field value is text, sort by the ascill code. Values include: `asc`: From the smallest to largest; `desc`: From the largest to smallest. Default value: `desc`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/teo_zones#direction DataTencentcloudTeoZones#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/teo_zones#direction DataTencentcloudTeoZones#direction}
   */
   readonly direction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/teo_zones#id DataTencentcloudTeoZones#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/teo_zones#id DataTencentcloudTeoZones#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface DataTencentcloudTeoZonesConfig extends cdktf.TerraformMetaArgum
   /**
   * Sort the returned results according to this field. Values include: `type`: Connection mode; `area`: Acceleration region; `create-time`: Creation time; `zone-name`: Site name; `use-time`: Last used time; `active-status` Effective status. Default value: `create-time`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/teo_zones#order DataTencentcloudTeoZones#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/teo_zones#order DataTencentcloudTeoZones#order}
   */
   readonly order?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/teo_zones#result_output_file DataTencentcloudTeoZones#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/teo_zones#result_output_file DataTencentcloudTeoZones#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/teo_zones#filters DataTencentcloudTeoZones#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/teo_zones#filters DataTencentcloudTeoZones#filters}
   */
   readonly filters?: DataTencentcloudTeoZonesFilters[] | cdktf.IResolvable;
 }
@@ -1022,19 +1022,19 @@ export interface DataTencentcloudTeoZonesFilters {
   /**
   * Whether to enable fuzzy query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/teo_zones#fuzzy DataTencentcloudTeoZones#fuzzy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/teo_zones#fuzzy DataTencentcloudTeoZones#fuzzy}
   */
   readonly fuzzy?: boolean | cdktf.IResolvable;
   /**
   * Field to be filtered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/teo_zones#name DataTencentcloudTeoZones#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/teo_zones#name DataTencentcloudTeoZones#name}
   */
   readonly name: string;
   /**
   * Value of the filtered field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/teo_zones#values DataTencentcloudTeoZones#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/teo_zones#values DataTencentcloudTeoZones#values}
   */
   readonly values: string[];
 }
@@ -1202,7 +1202,7 @@ export class DataTencentcloudTeoZonesFiltersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/teo_zones tencentcloud_teo_zones}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/teo_zones tencentcloud_teo_zones}
 */
 export class DataTencentcloudTeoZones extends cdktf.TerraformDataSource {
 
@@ -1218,7 +1218,7 @@ export class DataTencentcloudTeoZones extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudTeoZones resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudTeoZones to import
-  * @param importFromId The id of the existing DataTencentcloudTeoZones that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/teo_zones#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudTeoZones that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/teo_zones#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudTeoZones to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1230,7 +1230,7 @@ export class DataTencentcloudTeoZones extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/teo_zones tencentcloud_teo_zones} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/teo_zones tencentcloud_teo_zones} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1241,8 +1241,8 @@ export class DataTencentcloudTeoZones extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_teo_zones',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.39',
-        providerVersionConstraint: '1.82.39'
+        providerVersion: '1.82.40',
+        providerVersionConstraint: '1.82.40'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

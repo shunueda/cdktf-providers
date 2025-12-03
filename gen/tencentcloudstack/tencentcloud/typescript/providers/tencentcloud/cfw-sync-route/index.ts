@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cfw_sync_route
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cfw_sync_route
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface CfwSyncRouteConfig extends cdktf.TerraformMetaArguments {
   /**
   * Firewall type; nat: nat firewall; ew: inter-vpc firewall.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cfw_sync_route#fw_type CfwSyncRoute#fw_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cfw_sync_route#fw_type CfwSyncRoute#fw_type}
   */
   readonly fwType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cfw_sync_route#id CfwSyncRoute#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cfw_sync_route#id CfwSyncRoute#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface CfwSyncRouteConfig extends cdktf.TerraformMetaArguments {
   /**
   * Synchronization operation type: Route, synchronize firewall routing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cfw_sync_route#sync_type CfwSyncRoute#sync_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cfw_sync_route#sync_type CfwSyncRoute#sync_type}
   */
   readonly syncType: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cfw_sync_route tencentcloud_cfw_sync_route}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cfw_sync_route tencentcloud_cfw_sync_route}
 */
 export class CfwSyncRoute extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class CfwSyncRoute extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CfwSyncRoute resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CfwSyncRoute to import
-  * @param importFromId The id of the existing CfwSyncRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cfw_sync_route#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CfwSyncRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cfw_sync_route#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CfwSyncRoute to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class CfwSyncRoute extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cfw_sync_route tencentcloud_cfw_sync_route} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cfw_sync_route tencentcloud_cfw_sync_route} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class CfwSyncRoute extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cfw_sync_route',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.39',
-        providerVersionConstraint: '1.82.39'
+        providerVersion: '1.82.40',
+        providerVersionConstraint: '1.82.40'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

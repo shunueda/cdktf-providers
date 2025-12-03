@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block
+// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface IpamAddressBlockConfig extends cdktf.TerraformMetaArguments {
   /**
   * The address field in form 'a.b.c.d'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#address IpamAddressBlock#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#address IpamAddressBlock#address}
   */
   readonly address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#asm_config IpamAddressBlock#asm_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#asm_config IpamAddressBlock#asm_config}
   */
   readonly asmConfig?: IpamAddressBlockAsmConfig;
   /**
   * The CIDR of the address block. This is required, if _address_ does not specify it in its input.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#cidr IpamAddressBlock#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#cidr IpamAddressBlock#cidr}
   */
   readonly cidr: number;
   /**
   * The description for the address block. May contain 0 to 1024 characters. Can include UTF-8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#comment IpamAddressBlock#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#comment IpamAddressBlock#comment}
   */
   readonly comment?: string;
   /**
   * The compartment associated with the object. If no compartment is associated with the object, the value defaults to empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#compartment_id IpamAddressBlock#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#compartment_id IpamAddressBlock#compartment_id}
   */
   readonly compartmentId?: string;
   /**
@@ -45,7 +45,7 @@ export interface IpamAddressBlockConfig extends cdktf.TerraformMetaArguments {
   *   Defaults to _client_.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#ddns_client_update IpamAddressBlock#ddns_client_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#ddns_client_update IpamAddressBlock#ddns_client_update}
   */
   readonly ddnsClientUpdate?: string;
   /**
@@ -57,157 +57,157 @@ export interface IpamAddressBlockConfig extends cdktf.TerraformMetaArguments {
   *   * _no_check_without_dhcid_: This ignores conflict detection and will not add a DHCID record when creating/updating a DDNS entry.
   *   Defaults to _check_with_dhcid_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#ddns_conflict_resolution_mode IpamAddressBlock#ddns_conflict_resolution_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#ddns_conflict_resolution_mode IpamAddressBlock#ddns_conflict_resolution_mode}
   */
   readonly ddnsConflictResolutionMode?: string;
   /**
   * The domain suffix for DDNS updates. FQDN, may be empty.  Defaults to empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#ddns_domain IpamAddressBlock#ddns_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#ddns_domain IpamAddressBlock#ddns_domain}
   */
   readonly ddnsDomain?: string;
   /**
   * Indicates if DDNS needs to generate a hostname when not supplied by the client.  Defaults to _false_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#ddns_generate_name IpamAddressBlock#ddns_generate_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#ddns_generate_name IpamAddressBlock#ddns_generate_name}
   */
   readonly ddnsGenerateName?: boolean | cdktf.IResolvable;
   /**
   * The prefix used in the generation of an FQDN.  When generating a name, DHCP server will construct the name in the format: [ddns-generated-prefix]-[address-text].[ddns-qualifying-suffix]. where address-text is simply the lease IP address converted to a hyphenated string.  Defaults to "myhost".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#ddns_generated_prefix IpamAddressBlock#ddns_generated_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#ddns_generated_prefix IpamAddressBlock#ddns_generated_prefix}
   */
   readonly ddnsGeneratedPrefix?: string;
   /**
   * Determines if DDNS updates are enabled at the address block level. Defaults to _true_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#ddns_send_updates IpamAddressBlock#ddns_send_updates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#ddns_send_updates IpamAddressBlock#ddns_send_updates}
   */
   readonly ddnsSendUpdates?: boolean | cdktf.IResolvable;
   /**
   * DDNS TTL value - to be calculated as a simple percentage of the lease's lifetime, using the parameter's value as the percentage. It is specified as a percentage (e.g. 25, 75). Defaults to unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#ddns_ttl_percent IpamAddressBlock#ddns_ttl_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#ddns_ttl_percent IpamAddressBlock#ddns_ttl_percent}
   */
   readonly ddnsTtlPercent?: number;
   /**
   * Instructs the DHCP server to always update the DNS information when a lease is renewed even if its DNS information has not changed.  Defaults to _false_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#ddns_update_on_renew IpamAddressBlock#ddns_update_on_renew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#ddns_update_on_renew IpamAddressBlock#ddns_update_on_renew}
   */
   readonly ddnsUpdateOnRenew?: boolean | cdktf.IResolvable;
   /**
   * When true, DHCP server will apply conflict resolution, as described in RFC 4703, when attempting to fulfill the update request.  When false, DHCP server will simply attempt to update the DNS entries per the request, regardless of whether or not they conflict with existing entries owned by other DHCP4 clients.  Defaults to _true_. Can be set to true only when ddns_conflict_resolution_mode is check_with_dhcid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#ddns_use_conflict_resolution IpamAddressBlock#ddns_use_conflict_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#ddns_use_conflict_resolution IpamAddressBlock#ddns_use_conflict_resolution}
   */
   readonly ddnsUseConflictResolution?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#dhcp_config IpamAddressBlock#dhcp_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#dhcp_config IpamAddressBlock#dhcp_config}
   */
   readonly dhcpConfig?: IpamAddressBlockDhcpConfig;
   /**
   * The list of DHCP options for the address block. May be either a specific option or a group of options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#dhcp_options IpamAddressBlock#dhcp_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#dhcp_options IpamAddressBlock#dhcp_options}
   */
   readonly dhcpOptions?: IpamAddressBlockDhcpOptions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#dhcp_utilization IpamAddressBlock#dhcp_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#dhcp_utilization IpamAddressBlock#dhcp_utilization}
   */
   readonly dhcpUtilization?: IpamAddressBlockDhcpUtilization;
   /**
   * The discovery attributes for this address block in JSON format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#discovery_attrs IpamAddressBlock#discovery_attrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#discovery_attrs IpamAddressBlock#discovery_attrs}
   */
   readonly discoveryAttrs?: { [key: string]: string };
   /**
   * The discovery metadata for this address block in JSON format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#discovery_metadata IpamAddressBlock#discovery_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#discovery_metadata IpamAddressBlock#discovery_metadata}
   */
   readonly discoveryMetadata?: { [key: string]: string };
   /**
   * The external keys (source key) for this address block in JSON format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#external_keys IpamAddressBlock#external_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#external_keys IpamAddressBlock#external_keys}
   */
   readonly externalKeys?: { [key: string]: string };
   /**
   * Federated realms to which this address block belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#federated_realms IpamAddressBlock#federated_realms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#federated_realms IpamAddressBlock#federated_realms}
   */
   readonly federatedRealms?: string[];
   /**
   * The configuration for header option filename field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#header_option_filename IpamAddressBlock#header_option_filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#header_option_filename IpamAddressBlock#header_option_filename}
   */
   readonly headerOptionFilename?: string;
   /**
   * The configuration for header option server address field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#header_option_server_address IpamAddressBlock#header_option_server_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#header_option_server_address IpamAddressBlock#header_option_server_address}
   */
   readonly headerOptionServerAddress?: string;
   /**
   * The configuration for header option server name field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#header_option_server_name IpamAddressBlock#header_option_server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#header_option_server_name IpamAddressBlock#header_option_server_name}
   */
   readonly headerOptionServerName?: string;
   /**
   * The character to replace non-matching characters with, when hostname rewrite is enabled.  Any single ASCII character or no character if the invalid characters should be removed without replacement.  Defaults to "-".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#hostname_rewrite_char IpamAddressBlock#hostname_rewrite_char}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#hostname_rewrite_char IpamAddressBlock#hostname_rewrite_char}
   */
   readonly hostnameRewriteChar?: string;
   /**
   * Indicates if client supplied hostnames will be rewritten prior to DDNS update by replacing every character that does not match _hostname_rewrite_regex_ by _hostname_rewrite_char_.  Defaults to _false_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#hostname_rewrite_enabled IpamAddressBlock#hostname_rewrite_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#hostname_rewrite_enabled IpamAddressBlock#hostname_rewrite_enabled}
   */
   readonly hostnameRewriteEnabled?: boolean | cdktf.IResolvable;
   /**
   * The regex bracket expression to match valid characters.  Must begin with "[" and end with "]" and be a compilable POSIX regex.  Defaults to "[^a-zA-Z0-9_.]".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#hostname_rewrite_regex IpamAddressBlock#hostname_rewrite_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#hostname_rewrite_regex IpamAddressBlock#hostname_rewrite_regex}
   */
   readonly hostnameRewriteRegex?: string;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#inheritance_parent IpamAddressBlock#inheritance_parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#inheritance_parent IpamAddressBlock#inheritance_parent}
   */
   readonly inheritanceParent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#inheritance_sources IpamAddressBlock#inheritance_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#inheritance_sources IpamAddressBlock#inheritance_sources}
   */
   readonly inheritanceSources?: IpamAddressBlockInheritanceSources;
   /**
   * The name of the address block. May contain 1 to 256 characters. Can include UTF-8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#name IpamAddressBlock#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#name IpamAddressBlock#name}
   */
   readonly name?: string;
   /**
   * The resource identifier for the address block where the next available address block should be generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#next_available_id IpamAddressBlock#next_available_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#next_available_id IpamAddressBlock#next_available_id}
   */
   readonly nextAvailableId?: string;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#space IpamAddressBlock#space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#space IpamAddressBlock#space}
   */
   readonly space: string;
   /**
   * The tags for the address block in JSON format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#tags IpamAddressBlock#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#tags IpamAddressBlock#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -215,59 +215,59 @@ export interface IpamAddressBlockAsmConfig {
   /**
   * ASM shows the number of addresses forecast to be used _forecast_period_ days in the future, if it is greater than _asm_threshold_ percent * _dhcp_total_ (see _dhcp_utilization_) then the subnet is flagged.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#asm_threshold IpamAddressBlock#asm_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#asm_threshold IpamAddressBlock#asm_threshold}
   */
   readonly asmThreshold?: number;
   /**
   * Indicates if Automated Scope Management is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#enable IpamAddressBlock#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#enable IpamAddressBlock#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Indicates if ASM should send notifications to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#enable_notification IpamAddressBlock#enable_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#enable_notification IpamAddressBlock#enable_notification}
   */
   readonly enableNotification?: boolean | cdktf.IResolvable;
   /**
   * The forecast period in days.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#forecast_period IpamAddressBlock#forecast_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#forecast_period IpamAddressBlock#forecast_period}
   */
   readonly forecastPeriod?: number;
   /**
   * Indicates the growth in the number or percentage of IP addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#growth_factor IpamAddressBlock#growth_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#growth_factor IpamAddressBlock#growth_factor}
   */
   readonly growthFactor?: number;
   /**
   * The type of factor to use: _percent_ or _count_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#growth_type IpamAddressBlock#growth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#growth_type IpamAddressBlock#growth_type}
   */
   readonly growthType?: string;
   /**
   * The minimum amount of history needed before ASM can run on this subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#history IpamAddressBlock#history}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#history IpamAddressBlock#history}
   */
   readonly history?: number;
   /**
   * The minimum size of range needed for ASM to run on this subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#min_total IpamAddressBlock#min_total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#min_total IpamAddressBlock#min_total}
   */
   readonly minTotal?: number;
   /**
   * The minimum percentage of addresses that must be available outside of the DHCP ranges and fixed addresses when making a suggested change..
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#min_unused IpamAddressBlock#min_unused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#min_unused IpamAddressBlock#min_unused}
   */
   readonly minUnused?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#reenable_date IpamAddressBlock#reenable_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#reenable_date IpamAddressBlock#reenable_date}
   */
   readonly reenableDate?: string;
 }
@@ -627,13 +627,13 @@ export interface IpamAddressBlockDhcpConfigIgnoreListStruct {
   *   * _client_text_
   *   * _hardware_
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#type IpamAddressBlock#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#type IpamAddressBlock#type}
   */
   readonly type: string;
   /**
   * Value to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#value IpamAddressBlock#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#value IpamAddressBlock#value}
   */
   readonly value: string;
 }
@@ -774,55 +774,55 @@ export interface IpamAddressBlockDhcpConfig {
   /**
   * Disable to allow leases only for known IPv4 clients, those for which a fixed address is configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#allow_unknown IpamAddressBlock#allow_unknown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#allow_unknown IpamAddressBlock#allow_unknown}
   */
   readonly allowUnknown?: boolean | cdktf.IResolvable;
   /**
   * Disable to allow leases only for known IPV6 clients, those for which a fixed address is configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#allow_unknown_v6 IpamAddressBlock#allow_unknown_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#allow_unknown_v6 IpamAddressBlock#allow_unknown_v6}
   */
   readonly allowUnknownV6?: boolean | cdktf.IResolvable;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#filters IpamAddressBlock#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#filters IpamAddressBlock#filters}
   */
   readonly filters?: string[];
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#filters_large_selection IpamAddressBlock#filters_large_selection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#filters_large_selection IpamAddressBlock#filters_large_selection}
   */
   readonly filtersLargeSelection?: string[];
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#filters_v6 IpamAddressBlock#filters_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#filters_v6 IpamAddressBlock#filters_v6}
   */
   readonly filtersV6?: string[];
   /**
   * Enable to ignore the client UID when issuing a DHCP lease. Use this option to prevent assigning two IP addresses for a client which does not have a UID during one phase of PXE boot but acquires one for the other phase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#ignore_client_uid IpamAddressBlock#ignore_client_uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#ignore_client_uid IpamAddressBlock#ignore_client_uid}
   */
   readonly ignoreClientUid?: boolean | cdktf.IResolvable;
   /**
   * The list of clients to ignore requests from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#ignore_list IpamAddressBlock#ignore_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#ignore_list IpamAddressBlock#ignore_list}
   */
   readonly ignoreList?: IpamAddressBlockDhcpConfigIgnoreListStruct[] | cdktf.IResolvable;
   /**
   * The lease duration in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#lease_time IpamAddressBlock#lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#lease_time IpamAddressBlock#lease_time}
   */
   readonly leaseTime?: number;
   /**
   * The lease duration in seconds for IPV6 clients.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#lease_time_v6 IpamAddressBlock#lease_time_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#lease_time_v6 IpamAddressBlock#lease_time_v6}
   */
   readonly leaseTimeV6?: number;
 }
@@ -1165,19 +1165,19 @@ export interface IpamAddressBlockDhcpOptions {
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#group IpamAddressBlock#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#group IpamAddressBlock#group}
   */
   readonly group?: string;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#option_code IpamAddressBlock#option_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#option_code IpamAddressBlock#option_code}
   */
   readonly optionCode?: string;
   /**
   * The option value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#option_value IpamAddressBlock#option_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#option_value IpamAddressBlock#option_value}
   */
   readonly optionValue?: string;
   /**
@@ -1186,7 +1186,7 @@ export interface IpamAddressBlockDhcpOptions {
   *   * _option_
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#type IpamAddressBlock#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#type IpamAddressBlock#type}
   */
   readonly type?: string;
 }
@@ -1538,7 +1538,7 @@ export interface IpamAddressBlockInheritanceSourcesAsmConfigAsmEnableBlock {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#action IpamAddressBlock#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#action IpamAddressBlock#action}
   */
   readonly action?: string;
 }
@@ -1713,7 +1713,7 @@ export interface IpamAddressBlockInheritanceSourcesAsmConfigAsmGrowthBlock {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#action IpamAddressBlock#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#action IpamAddressBlock#action}
   */
   readonly action?: string;
 }
@@ -1829,7 +1829,7 @@ export interface IpamAddressBlockInheritanceSourcesAsmConfigAsmThreshold {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#action IpamAddressBlock#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#action IpamAddressBlock#action}
   */
   readonly action?: string;
 }
@@ -1944,7 +1944,7 @@ export interface IpamAddressBlockInheritanceSourcesAsmConfigForecastPeriod {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#action IpamAddressBlock#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#action IpamAddressBlock#action}
   */
   readonly action?: string;
 }
@@ -2059,7 +2059,7 @@ export interface IpamAddressBlockInheritanceSourcesAsmConfigHistory {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#action IpamAddressBlock#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#action IpamAddressBlock#action}
   */
   readonly action?: string;
 }
@@ -2174,7 +2174,7 @@ export interface IpamAddressBlockInheritanceSourcesAsmConfigMinTotal {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#action IpamAddressBlock#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#action IpamAddressBlock#action}
   */
   readonly action?: string;
 }
@@ -2289,7 +2289,7 @@ export interface IpamAddressBlockInheritanceSourcesAsmConfigMinUnused {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#action IpamAddressBlock#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#action IpamAddressBlock#action}
   */
   readonly action?: string;
 }
@@ -2400,43 +2400,43 @@ export interface IpamAddressBlockInheritanceSourcesAsmConfig {
   /**
   * The block of ASM fields: _enable_, _enable_notification_, _reenable_date_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#asm_enable_block IpamAddressBlock#asm_enable_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#asm_enable_block IpamAddressBlock#asm_enable_block}
   */
   readonly asmEnableBlock?: IpamAddressBlockInheritanceSourcesAsmConfigAsmEnableBlock;
   /**
   * The block of ASM fields: _growth_factor_, _growth_type_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#asm_growth_block IpamAddressBlock#asm_growth_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#asm_growth_block IpamAddressBlock#asm_growth_block}
   */
   readonly asmGrowthBlock?: IpamAddressBlockInheritanceSourcesAsmConfigAsmGrowthBlock;
   /**
   * ASM shows the number of addresses forecast to be used _forecast_period_ days in the future, if it is greater than _asm_threshold_percent_ * _dhcp_total_ (see _dhcp_utilization_) then the subnet is flagged.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#asm_threshold IpamAddressBlock#asm_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#asm_threshold IpamAddressBlock#asm_threshold}
   */
   readonly asmThreshold?: IpamAddressBlockInheritanceSourcesAsmConfigAsmThreshold;
   /**
   * The forecast period in days.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#forecast_period IpamAddressBlock#forecast_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#forecast_period IpamAddressBlock#forecast_period}
   */
   readonly forecastPeriod?: IpamAddressBlockInheritanceSourcesAsmConfigForecastPeriod;
   /**
   * The minimum amount of history needed before ASM can run on this subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#history IpamAddressBlock#history}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#history IpamAddressBlock#history}
   */
   readonly history?: IpamAddressBlockInheritanceSourcesAsmConfigHistory;
   /**
   * The minimum size of range needed for ASM to run on this subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#min_total IpamAddressBlock#min_total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#min_total IpamAddressBlock#min_total}
   */
   readonly minTotal?: IpamAddressBlockInheritanceSourcesAsmConfigMinTotal;
   /**
   * The minimum percentage of addresses that must be available outside of the DHCP ranges and fixed addresses when making a suggested change.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#min_unused IpamAddressBlock#min_unused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#min_unused IpamAddressBlock#min_unused}
   */
   readonly minUnused?: IpamAddressBlockInheritanceSourcesAsmConfigMinUnused;
 }
@@ -2710,7 +2710,7 @@ export interface IpamAddressBlockInheritanceSourcesDdnsClientUpdate {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#action IpamAddressBlock#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#action IpamAddressBlock#action}
   */
   readonly action?: string;
 }
@@ -2825,7 +2825,7 @@ export interface IpamAddressBlockInheritanceSourcesDdnsConflictResolutionMode {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#action IpamAddressBlock#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#action IpamAddressBlock#action}
   */
   readonly action?: string;
 }
@@ -2940,7 +2940,7 @@ export interface IpamAddressBlockInheritanceSourcesDdnsEnabled {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#action IpamAddressBlock#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#action IpamAddressBlock#action}
   */
   readonly action?: string;
 }
@@ -3114,7 +3114,7 @@ export interface IpamAddressBlockInheritanceSourcesDdnsHostnameBlock {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#action IpamAddressBlock#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#action IpamAddressBlock#action}
   */
   readonly action?: string;
 }
@@ -3230,7 +3230,7 @@ export interface IpamAddressBlockInheritanceSourcesDdnsTtlPercent {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#action IpamAddressBlock#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#action IpamAddressBlock#action}
   */
   readonly action?: string;
 }
@@ -3404,7 +3404,7 @@ export interface IpamAddressBlockInheritanceSourcesDdnsUpdateBlock {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#action IpamAddressBlock#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#action IpamAddressBlock#action}
   */
   readonly action?: string;
 }
@@ -3520,7 +3520,7 @@ export interface IpamAddressBlockInheritanceSourcesDdnsUpdateOnRenew {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#action IpamAddressBlock#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#action IpamAddressBlock#action}
   */
   readonly action?: string;
 }
@@ -3635,7 +3635,7 @@ export interface IpamAddressBlockInheritanceSourcesDdnsUseConflictResolution {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#action IpamAddressBlock#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#action IpamAddressBlock#action}
   */
   readonly action?: string;
 }
@@ -3750,7 +3750,7 @@ export interface IpamAddressBlockInheritanceSourcesDhcpConfigAbandonedReclaimTim
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#action IpamAddressBlock#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#action IpamAddressBlock#action}
   */
   readonly action?: string;
 }
@@ -3865,7 +3865,7 @@ export interface IpamAddressBlockInheritanceSourcesDhcpConfigAbandonedReclaimTim
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#action IpamAddressBlock#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#action IpamAddressBlock#action}
   */
   readonly action?: string;
 }
@@ -3980,7 +3980,7 @@ export interface IpamAddressBlockInheritanceSourcesDhcpConfigAllowUnknown {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#action IpamAddressBlock#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#action IpamAddressBlock#action}
   */
   readonly action?: string;
 }
@@ -4095,7 +4095,7 @@ export interface IpamAddressBlockInheritanceSourcesDhcpConfigAllowUnknownV6 {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#action IpamAddressBlock#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#action IpamAddressBlock#action}
   */
   readonly action?: string;
 }
@@ -4210,7 +4210,7 @@ export interface IpamAddressBlockInheritanceSourcesDhcpConfigAuthoritativeDhcp {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#action IpamAddressBlock#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#action IpamAddressBlock#action}
   */
   readonly action?: string;
 }
@@ -4325,7 +4325,7 @@ export interface IpamAddressBlockInheritanceSourcesDhcpConfigEchoClientId {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#action IpamAddressBlock#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#action IpamAddressBlock#action}
   */
   readonly action?: string;
 }
@@ -4440,7 +4440,7 @@ export interface IpamAddressBlockInheritanceSourcesDhcpConfigFilters {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#action IpamAddressBlock#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#action IpamAddressBlock#action}
   */
   readonly action?: string;
 }
@@ -4555,7 +4555,7 @@ export interface IpamAddressBlockInheritanceSourcesDhcpConfigFiltersV6 {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#action IpamAddressBlock#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#action IpamAddressBlock#action}
   */
   readonly action?: string;
 }
@@ -4670,7 +4670,7 @@ export interface IpamAddressBlockInheritanceSourcesDhcpConfigHoldReclaimedTime {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#action IpamAddressBlock#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#action IpamAddressBlock#action}
   */
   readonly action?: string;
 }
@@ -4785,7 +4785,7 @@ export interface IpamAddressBlockInheritanceSourcesDhcpConfigHoldReclaimedTimeV6
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#action IpamAddressBlock#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#action IpamAddressBlock#action}
   */
   readonly action?: string;
 }
@@ -4900,7 +4900,7 @@ export interface IpamAddressBlockInheritanceSourcesDhcpConfigIgnoreClientUid {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#action IpamAddressBlock#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#action IpamAddressBlock#action}
   */
   readonly action?: string;
 }
@@ -5095,7 +5095,7 @@ export interface IpamAddressBlockInheritanceSourcesDhcpConfigIgnoreListStruct {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#action IpamAddressBlock#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#action IpamAddressBlock#action}
   */
   readonly action?: string;
 }
@@ -5211,7 +5211,7 @@ export interface IpamAddressBlockInheritanceSourcesDhcpConfigLeaseTime {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#action IpamAddressBlock#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#action IpamAddressBlock#action}
   */
   readonly action?: string;
 }
@@ -5326,7 +5326,7 @@ export interface IpamAddressBlockInheritanceSourcesDhcpConfigLeaseTimeV6 {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#action IpamAddressBlock#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#action IpamAddressBlock#action}
   */
   readonly action?: string;
 }
@@ -5437,85 +5437,85 @@ export interface IpamAddressBlockInheritanceSourcesDhcpConfig {
   /**
   * The inheritance configuration for _abandoned_reclaim_time_ field from _DHCPConfig_ object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#abandoned_reclaim_time IpamAddressBlock#abandoned_reclaim_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#abandoned_reclaim_time IpamAddressBlock#abandoned_reclaim_time}
   */
   readonly abandonedReclaimTime?: IpamAddressBlockInheritanceSourcesDhcpConfigAbandonedReclaimTime;
   /**
   * The inheritance configuration for _abandoned_reclaim_time_v6_ field from _DHCPConfig_ object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#abandoned_reclaim_time_v6 IpamAddressBlock#abandoned_reclaim_time_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#abandoned_reclaim_time_v6 IpamAddressBlock#abandoned_reclaim_time_v6}
   */
   readonly abandonedReclaimTimeV6?: IpamAddressBlockInheritanceSourcesDhcpConfigAbandonedReclaimTimeV6;
   /**
   * The inheritance configuration for _allow_unknown_ field from _DHCPConfig_ object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#allow_unknown IpamAddressBlock#allow_unknown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#allow_unknown IpamAddressBlock#allow_unknown}
   */
   readonly allowUnknown?: IpamAddressBlockInheritanceSourcesDhcpConfigAllowUnknown;
   /**
   * The inheritance configuration for _allow_unknown_v6_ field from _DHCPConfig_ object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#allow_unknown_v6 IpamAddressBlock#allow_unknown_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#allow_unknown_v6 IpamAddressBlock#allow_unknown_v6}
   */
   readonly allowUnknownV6?: IpamAddressBlockInheritanceSourcesDhcpConfigAllowUnknownV6;
   /**
   * The inheritance configuration for authoritative_dhcp field to set DHCP server as authoritative.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#authoritative_dhcp IpamAddressBlock#authoritative_dhcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#authoritative_dhcp IpamAddressBlock#authoritative_dhcp}
   */
   readonly authoritativeDhcp?: IpamAddressBlockInheritanceSourcesDhcpConfigAuthoritativeDhcp;
   /**
   * The inheritance configuration for _echo_client_id_ field from _DHCPConfig_ object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#echo_client_id IpamAddressBlock#echo_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#echo_client_id IpamAddressBlock#echo_client_id}
   */
   readonly echoClientId?: IpamAddressBlockInheritanceSourcesDhcpConfigEchoClientId;
   /**
   * The inheritance configuration for filters field from _DHCPConfig_ object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#filters IpamAddressBlock#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#filters IpamAddressBlock#filters}
   */
   readonly filters?: IpamAddressBlockInheritanceSourcesDhcpConfigFilters;
   /**
   * The inheritance configuration for _filters_v6_ field from _DHCPConfig_ object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#filters_v6 IpamAddressBlock#filters_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#filters_v6 IpamAddressBlock#filters_v6}
   */
   readonly filtersV6?: IpamAddressBlockInheritanceSourcesDhcpConfigFiltersV6;
   /**
   * The inheritance configuration for hold_reclaimed_time in seconds from _DHCPConfig_ object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#hold_reclaimed_time IpamAddressBlock#hold_reclaimed_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#hold_reclaimed_time IpamAddressBlock#hold_reclaimed_time}
   */
   readonly holdReclaimedTime?: IpamAddressBlockInheritanceSourcesDhcpConfigHoldReclaimedTime;
   /**
   * The inheritance configuration for hold_reclaimed_time_v6 in seconds from _DHCPConfig_ object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#hold_reclaimed_time_v6 IpamAddressBlock#hold_reclaimed_time_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#hold_reclaimed_time_v6 IpamAddressBlock#hold_reclaimed_time_v6}
   */
   readonly holdReclaimedTimeV6?: IpamAddressBlockInheritanceSourcesDhcpConfigHoldReclaimedTimeV6;
   /**
   * The inheritance configuration for _ignore_client_uid_ field from _DHCPConfig_ object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#ignore_client_uid IpamAddressBlock#ignore_client_uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#ignore_client_uid IpamAddressBlock#ignore_client_uid}
   */
   readonly ignoreClientUid?: IpamAddressBlockInheritanceSourcesDhcpConfigIgnoreClientUid;
   /**
   * The inheritance configuration for _ignore_list_ field from _DHCPConfig_ object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#ignore_list IpamAddressBlock#ignore_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#ignore_list IpamAddressBlock#ignore_list}
   */
   readonly ignoreList?: IpamAddressBlockInheritanceSourcesDhcpConfigIgnoreListStruct;
   /**
   * The inheritance configuration for _lease_time_ field from _DHCPConfig_ object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#lease_time IpamAddressBlock#lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#lease_time IpamAddressBlock#lease_time}
   */
   readonly leaseTime?: IpamAddressBlockInheritanceSourcesDhcpConfigLeaseTime;
   /**
   * The inheritance configuration for _lease_time_v6_ field from _DHCPConfig_ object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#lease_time_v6 IpamAddressBlock#lease_time_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#lease_time_v6 IpamAddressBlock#lease_time_v6}
   */
   readonly leaseTimeV6?: IpamAddressBlockInheritanceSourcesDhcpConfigLeaseTimeV6;
 }
@@ -6121,7 +6121,7 @@ export interface IpamAddressBlockInheritanceSourcesDhcpOptionsValue {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#action IpamAddressBlock#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#action IpamAddressBlock#action}
   */
   readonly action?: string;
 }
@@ -6259,13 +6259,13 @@ export interface IpamAddressBlockInheritanceSourcesDhcpOptions {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#action IpamAddressBlock#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#action IpamAddressBlock#action}
   */
   readonly action?: string;
   /**
   * The inherited DHCP option values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#value IpamAddressBlock#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#value IpamAddressBlock#value}
   */
   readonly value?: IpamAddressBlockInheritanceSourcesDhcpOptionsValue[] | cdktf.IResolvable;
 }
@@ -6394,7 +6394,7 @@ export interface IpamAddressBlockInheritanceSourcesHeaderOptionFilename {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#action IpamAddressBlock#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#action IpamAddressBlock#action}
   */
   readonly action?: string;
 }
@@ -6509,7 +6509,7 @@ export interface IpamAddressBlockInheritanceSourcesHeaderOptionServerAddress {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#action IpamAddressBlock#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#action IpamAddressBlock#action}
   */
   readonly action?: string;
 }
@@ -6624,7 +6624,7 @@ export interface IpamAddressBlockInheritanceSourcesHeaderOptionServerName {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#action IpamAddressBlock#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#action IpamAddressBlock#action}
   */
   readonly action?: string;
 }
@@ -6803,7 +6803,7 @@ export interface IpamAddressBlockInheritanceSourcesHostnameRewriteBlock {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#action IpamAddressBlock#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#action IpamAddressBlock#action}
   */
   readonly action?: string;
 }
@@ -6915,91 +6915,91 @@ export interface IpamAddressBlockInheritanceSources {
   /**
   * The inheritance configuration for _asm_config_ field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#asm_config IpamAddressBlock#asm_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#asm_config IpamAddressBlock#asm_config}
   */
   readonly asmConfig?: IpamAddressBlockInheritanceSourcesAsmConfig;
   /**
   * The inheritance configuration for _ddns_client_update_ field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#ddns_client_update IpamAddressBlock#ddns_client_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#ddns_client_update IpamAddressBlock#ddns_client_update}
   */
   readonly ddnsClientUpdate?: IpamAddressBlockInheritanceSourcesDdnsClientUpdate;
   /**
   * The inheritance configuration for _ddns_conflict_resolution_mode_ field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#ddns_conflict_resolution_mode IpamAddressBlock#ddns_conflict_resolution_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#ddns_conflict_resolution_mode IpamAddressBlock#ddns_conflict_resolution_mode}
   */
   readonly ddnsConflictResolutionMode?: IpamAddressBlockInheritanceSourcesDdnsConflictResolutionMode;
   /**
   * The inheritance configuration for _ddns_enabled_ field. Only action allowed is 'inherit'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#ddns_enabled IpamAddressBlock#ddns_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#ddns_enabled IpamAddressBlock#ddns_enabled}
   */
   readonly ddnsEnabled?: IpamAddressBlockInheritanceSourcesDdnsEnabled;
   /**
   * The inheritance configuration for _ddns_generate_name_ and _ddns_generated_prefix_ fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#ddns_hostname_block IpamAddressBlock#ddns_hostname_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#ddns_hostname_block IpamAddressBlock#ddns_hostname_block}
   */
   readonly ddnsHostnameBlock?: IpamAddressBlockInheritanceSourcesDdnsHostnameBlock;
   /**
   * The inheritance configuration for _ddns_ttl_percent_ field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#ddns_ttl_percent IpamAddressBlock#ddns_ttl_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#ddns_ttl_percent IpamAddressBlock#ddns_ttl_percent}
   */
   readonly ddnsTtlPercent?: IpamAddressBlockInheritanceSourcesDdnsTtlPercent;
   /**
   * The inheritance configuration for _ddns_send_updates_ and _ddns_domain_ fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#ddns_update_block IpamAddressBlock#ddns_update_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#ddns_update_block IpamAddressBlock#ddns_update_block}
   */
   readonly ddnsUpdateBlock?: IpamAddressBlockInheritanceSourcesDdnsUpdateBlock;
   /**
   * The inheritance configuration for _ddns_update_on_renew_ field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#ddns_update_on_renew IpamAddressBlock#ddns_update_on_renew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#ddns_update_on_renew IpamAddressBlock#ddns_update_on_renew}
   */
   readonly ddnsUpdateOnRenew?: IpamAddressBlockInheritanceSourcesDdnsUpdateOnRenew;
   /**
   * The inheritance configuration for _ddns_use_conflict_resolution_ field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#ddns_use_conflict_resolution IpamAddressBlock#ddns_use_conflict_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#ddns_use_conflict_resolution IpamAddressBlock#ddns_use_conflict_resolution}
   */
   readonly ddnsUseConflictResolution?: IpamAddressBlockInheritanceSourcesDdnsUseConflictResolution;
   /**
   * The inheritance configuration for _dhcp_config_ field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#dhcp_config IpamAddressBlock#dhcp_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#dhcp_config IpamAddressBlock#dhcp_config}
   */
   readonly dhcpConfig?: IpamAddressBlockInheritanceSourcesDhcpConfig;
   /**
   * The inheritance configuration for _dhcp_options_ field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#dhcp_options IpamAddressBlock#dhcp_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#dhcp_options IpamAddressBlock#dhcp_options}
   */
   readonly dhcpOptions?: IpamAddressBlockInheritanceSourcesDhcpOptions;
   /**
   * The inheritance configuration for _header_option_filename_ field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#header_option_filename IpamAddressBlock#header_option_filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#header_option_filename IpamAddressBlock#header_option_filename}
   */
   readonly headerOptionFilename?: IpamAddressBlockInheritanceSourcesHeaderOptionFilename;
   /**
   * The inheritance configuration for _header_option_server_address_ field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#header_option_server_address IpamAddressBlock#header_option_server_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#header_option_server_address IpamAddressBlock#header_option_server_address}
   */
   readonly headerOptionServerAddress?: IpamAddressBlockInheritanceSourcesHeaderOptionServerAddress;
   /**
   * The inheritance configuration for _header_option_server_name_ field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#header_option_server_name IpamAddressBlock#header_option_server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#header_option_server_name IpamAddressBlock#header_option_server_name}
   */
   readonly headerOptionServerName?: IpamAddressBlockInheritanceSourcesHeaderOptionServerName;
   /**
   * The inheritance configuration for _hostname_rewrite_enabled_, _hostname_rewrite_regex_, and _hostname_rewrite_char_ fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#hostname_rewrite_block IpamAddressBlock#hostname_rewrite_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#hostname_rewrite_block IpamAddressBlock#hostname_rewrite_block}
   */
   readonly hostnameRewriteBlock?: IpamAddressBlockInheritanceSourcesHostnameRewriteBlock;
 }
@@ -7501,19 +7501,19 @@ export interface IpamAddressBlockThreshold {
   /**
   * Indicates whether the utilization threshold for IP addresses is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#enabled IpamAddressBlock#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#enabled IpamAddressBlock#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * The high threshold value for the percentage of used IP addresses relative to the total IP addresses available in the scope of the object. Thresholds are inclusive in the comparison test.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#high IpamAddressBlock#high}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#high IpamAddressBlock#high}
   */
   readonly high: number;
   /**
   * The low threshold value for the percentage of used IP addresses relative to the total IP addresses available in the scope of the object. Thresholds are inclusive in the comparison test.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#low IpamAddressBlock#low}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#low IpamAddressBlock#low}
   */
   readonly low: number;
 }
@@ -7735,23 +7735,23 @@ export class IpamAddressBlockUtilizationOutputReference extends cdktf.ComplexObj
 }
 export interface IpamAddressBlockUtilizationV6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#abandoned IpamAddressBlock#abandoned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#abandoned IpamAddressBlock#abandoned}
   */
   readonly abandoned?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#dynamic IpamAddressBlock#dynamic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#dynamic IpamAddressBlock#dynamic}
   */
   readonly dynamic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#static IpamAddressBlock#static}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#static IpamAddressBlock#static}
   */
   readonly static?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#total IpamAddressBlock#total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#total IpamAddressBlock#total}
   */
   readonly total?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#used IpamAddressBlock#used}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#used IpamAddressBlock#used}
   */
   readonly used?: string;
 }
@@ -7951,7 +7951,7 @@ export class IpamAddressBlockUtilizationV6OutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block bloxone_ipam_address_block}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block bloxone_ipam_address_block}
 */
 export class IpamAddressBlock extends cdktf.TerraformResource {
 
@@ -7967,7 +7967,7 @@ export class IpamAddressBlock extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpamAddressBlock resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpamAddressBlock to import
-  * @param importFromId The id of the existing IpamAddressBlock that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpamAddressBlock that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpamAddressBlock to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7979,7 +7979,7 @@ export class IpamAddressBlock extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/ipam_address_block bloxone_ipam_address_block} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/ipam_address_block bloxone_ipam_address_block} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7990,8 +7990,8 @@ export class IpamAddressBlock extends cdktf.TerraformResource {
       terraformResourceType: 'bloxone_ipam_address_block',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.5.4',
+        providerVersionConstraint: '1.5.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

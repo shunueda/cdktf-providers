@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_custom_authorizers
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_custom_authorizers
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataSbercloudApigCustomAuthorizersConfig extends cdktf.Terrafor
   /**
   * Specifies the ID of the custom authorizer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_custom_authorizers#authorizer_id DataSbercloudApigCustomAuthorizers#authorizer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_custom_authorizers#authorizer_id DataSbercloudApigCustomAuthorizers#authorizer_id}
   */
   readonly authorizerId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_custom_authorizers#id DataSbercloudApigCustomAuthorizers#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_custom_authorizers#id DataSbercloudApigCustomAuthorizers#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,23 +23,23 @@ export interface DataSbercloudApigCustomAuthorizersConfig extends cdktf.Terrafor
   /**
   * Specifies the ID of the dedicated instance to which the custom authorizers belong.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_custom_authorizers#instance_id DataSbercloudApigCustomAuthorizers#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_custom_authorizers#instance_id DataSbercloudApigCustomAuthorizers#instance_id}
   */
   readonly instanceId: string;
   /**
   * Specifies the name of the custom authorizer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_custom_authorizers#name DataSbercloudApigCustomAuthorizers#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_custom_authorizers#name DataSbercloudApigCustomAuthorizers#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_custom_authorizers#region DataSbercloudApigCustomAuthorizers#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_custom_authorizers#region DataSbercloudApigCustomAuthorizers#region}
   */
   readonly region?: string;
   /**
   * Specifies the type of the custom authorizer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_custom_authorizers#type DataSbercloudApigCustomAuthorizers#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_custom_authorizers#type DataSbercloudApigCustomAuthorizers#type}
   */
   readonly type?: string;
 }
@@ -266,7 +266,7 @@ export class DataSbercloudApigCustomAuthorizersAuthorizersList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_custom_authorizers sbercloud_apig_custom_authorizers}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_custom_authorizers sbercloud_apig_custom_authorizers}
 */
 export class DataSbercloudApigCustomAuthorizers extends cdktf.TerraformDataSource {
 
@@ -282,7 +282,7 @@ export class DataSbercloudApigCustomAuthorizers extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataSbercloudApigCustomAuthorizers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSbercloudApigCustomAuthorizers to import
-  * @param importFromId The id of the existing DataSbercloudApigCustomAuthorizers that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_custom_authorizers#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSbercloudApigCustomAuthorizers that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_custom_authorizers#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSbercloudApigCustomAuthorizers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -294,7 +294,7 @@ export class DataSbercloudApigCustomAuthorizers extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_custom_authorizers sbercloud_apig_custom_authorizers} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_custom_authorizers sbercloud_apig_custom_authorizers} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -305,8 +305,8 @@ export class DataSbercloudApigCustomAuthorizers extends cdktf.TerraformDataSourc
       terraformResourceType: 'sbercloud_apig_custom_authorizers',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

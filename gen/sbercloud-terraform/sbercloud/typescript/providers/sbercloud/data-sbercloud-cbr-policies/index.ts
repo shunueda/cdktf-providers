@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cbr_policies
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cbr_policies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataSbercloudCbrPoliciesConfig extends cdktf.TerraformMetaArgum
   /**
   * Whether to enable the CBR policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cbr_policies#enabled DataSbercloudCbrPolicies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cbr_policies#enabled DataSbercloudCbrPolicies#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cbr_policies#id DataSbercloudCbrPolicies#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cbr_policies#id DataSbercloudCbrPolicies#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface DataSbercloudCbrPoliciesConfig extends cdktf.TerraformMetaArgum
   /**
   * The name of CBR policies to query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cbr_policies#name DataSbercloudCbrPolicies#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cbr_policies#name DataSbercloudCbrPolicies#name}
   */
   readonly name?: string;
   /**
   * The ID of CBR policies to query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cbr_policies#policy_id DataSbercloudCbrPolicies#policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cbr_policies#policy_id DataSbercloudCbrPolicies#policy_id}
   */
   readonly policyId?: string;
   /**
   * The region in which to query the CBR policies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cbr_policies#region DataSbercloudCbrPolicies#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cbr_policies#region DataSbercloudCbrPolicies#region}
   */
   readonly region?: string;
   /**
   * The type of CBR policies to query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cbr_policies#type DataSbercloudCbrPolicies#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cbr_policies#type DataSbercloudCbrPolicies#type}
   */
   readonly type?: string;
   /**
   * The ID of vault to which the CBR policy resource belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cbr_policies#vault_id DataSbercloudCbrPolicies#vault_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cbr_policies#vault_id DataSbercloudCbrPolicies#vault_id}
   */
   readonly vaultId?: string;
 }
@@ -451,7 +451,7 @@ export class DataSbercloudCbrPoliciesPoliciesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cbr_policies sbercloud_cbr_policies}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cbr_policies sbercloud_cbr_policies}
 */
 export class DataSbercloudCbrPolicies extends cdktf.TerraformDataSource {
 
@@ -467,7 +467,7 @@ export class DataSbercloudCbrPolicies extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSbercloudCbrPolicies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSbercloudCbrPolicies to import
-  * @param importFromId The id of the existing DataSbercloudCbrPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cbr_policies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSbercloudCbrPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cbr_policies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSbercloudCbrPolicies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -479,7 +479,7 @@ export class DataSbercloudCbrPolicies extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cbr_policies sbercloud_cbr_policies} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cbr_policies sbercloud_cbr_policies} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -490,8 +490,8 @@ export class DataSbercloudCbrPolicies extends cdktf.TerraformDataSource {
       terraformResourceType: 'sbercloud_cbr_policies',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

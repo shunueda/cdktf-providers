@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/network_area
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/network_area
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface NetworkAreaConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of DNS Servers/Nameservers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/network_area#default_nameservers NetworkArea#default_nameservers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/network_area#default_nameservers NetworkArea#default_nameservers}
   */
   readonly defaultNameservers?: string[];
   /**
   * The default prefix length for networks in the network area.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/network_area#default_prefix_length NetworkArea#default_prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/network_area#default_prefix_length NetworkArea#default_prefix_length}
   */
   readonly defaultPrefixLength?: number;
   /**
   * Labels are key-value string pairs which can be attached to a resource container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/network_area#labels NetworkArea#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/network_area#labels NetworkArea#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The maximal prefix length for networks in the network area.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/network_area#max_prefix_length NetworkArea#max_prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/network_area#max_prefix_length NetworkArea#max_prefix_length}
   */
   readonly maxPrefixLength?: number;
   /**
   * The minimal prefix length for networks in the network area.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/network_area#min_prefix_length NetworkArea#min_prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/network_area#min_prefix_length NetworkArea#min_prefix_length}
   */
   readonly minPrefixLength?: number;
   /**
   * The name of the network area.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/network_area#name NetworkArea#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/network_area#name NetworkArea#name}
   */
   readonly name: string;
   /**
   * List of Network ranges.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/network_area#network_ranges NetworkArea#network_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/network_area#network_ranges NetworkArea#network_ranges}
   */
   readonly networkRanges: NetworkAreaNetworkRanges[] | cdktf.IResolvable;
   /**
   * STACKIT organization ID to which the network area is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/network_area#organization_id NetworkArea#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/network_area#organization_id NetworkArea#organization_id}
   */
   readonly organizationId: string;
   /**
   * Classless Inter-Domain Routing (CIDR).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/network_area#transfer_network NetworkArea#transfer_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/network_area#transfer_network NetworkArea#transfer_network}
   */
   readonly transferNetwork: string;
 }
@@ -66,7 +66,7 @@ export interface NetworkAreaNetworkRanges {
   /**
   * Classless Inter-Domain Routing (CIDR).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/network_area#prefix NetworkArea#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/network_area#prefix NetworkArea#prefix}
   */
   readonly prefix: string;
 }
@@ -184,7 +184,7 @@ export class NetworkAreaNetworkRangesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/network_area stackit_network_area}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/network_area stackit_network_area}
 */
 export class NetworkArea extends cdktf.TerraformResource {
 
@@ -200,7 +200,7 @@ export class NetworkArea extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkArea resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkArea to import
-  * @param importFromId The id of the existing NetworkArea that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/network_area#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkArea that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/network_area#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkArea to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -212,7 +212,7 @@ export class NetworkArea extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/network_area stackit_network_area} Resource
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/network_area stackit_network_area} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -223,8 +223,8 @@ export class NetworkArea extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_network_area',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.72.0',
-        providerVersionConstraint: '0.72.0'
+        providerVersion: '0.73.0',
+        providerVersionConstraint: '0.73.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

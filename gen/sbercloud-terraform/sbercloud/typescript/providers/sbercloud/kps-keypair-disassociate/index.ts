@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/kps_keypair_disassociate
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/kps_keypair_disassociate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface KpsKeypairDisassociateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/kps_keypair_disassociate#enable_force_new KpsKeypairDisassociate#enable_force_new}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/kps_keypair_disassociate#enable_force_new KpsKeypairDisassociate#enable_force_new}
   */
   readonly enableForceNew?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/kps_keypair_disassociate#id KpsKeypairDisassociate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/kps_keypair_disassociate#id KpsKeypairDisassociate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,19 +21,19 @@ export interface KpsKeypairDisassociateConfig extends cdktf.TerraformMetaArgumen
   /**
   * Specifies the region in which to query the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/kps_keypair_disassociate#region KpsKeypairDisassociate#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/kps_keypair_disassociate#region KpsKeypairDisassociate#region}
   */
   readonly region?: string;
   /**
   * server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/kps_keypair_disassociate#server KpsKeypairDisassociate#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/kps_keypair_disassociate#server KpsKeypairDisassociate#server}
   */
   readonly server: KpsKeypairDisassociateServer;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/kps_keypair_disassociate#timeouts KpsKeypairDisassociate#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/kps_keypair_disassociate#timeouts KpsKeypairDisassociate#timeouts}
   */
   readonly timeouts?: KpsKeypairDisassociateTimeouts;
 }
@@ -41,13 +41,13 @@ export interface KpsKeypairDisassociateServerAuth {
   /**
   * Specifies the value of the key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/kps_keypair_disassociate#key KpsKeypairDisassociate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/kps_keypair_disassociate#key KpsKeypairDisassociate#key}
   */
   readonly key?: string;
   /**
   * Specifies the value of an enumeration type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/kps_keypair_disassociate#type KpsKeypairDisassociate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/kps_keypair_disassociate#type KpsKeypairDisassociate#type}
   */
   readonly type?: string;
 }
@@ -162,7 +162,7 @@ export interface KpsKeypairDisassociateServer {
   /**
   * Specifies ID of the ECS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/kps_keypair_disassociate#id KpsKeypairDisassociate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/kps_keypair_disassociate#id KpsKeypairDisassociate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -171,13 +171,13 @@ export interface KpsKeypairDisassociateServer {
   /**
   * Specifies the SSH listening port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/kps_keypair_disassociate#port KpsKeypairDisassociate#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/kps_keypair_disassociate#port KpsKeypairDisassociate#port}
   */
   readonly port?: number;
   /**
   * auth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/kps_keypair_disassociate#auth KpsKeypairDisassociate#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/kps_keypair_disassociate#auth KpsKeypairDisassociate#auth}
   */
   readonly auth?: KpsKeypairDisassociateServerAuth;
 }
@@ -316,7 +316,7 @@ export class KpsKeypairDisassociateServerOutputReference extends cdktf.ComplexOb
 }
 export interface KpsKeypairDisassociateTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/kps_keypair_disassociate#create KpsKeypairDisassociate#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/kps_keypair_disassociate#create KpsKeypairDisassociate#create}
   */
   readonly create?: string;
 }
@@ -410,7 +410,7 @@ export class KpsKeypairDisassociateTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/kps_keypair_disassociate sbercloud_kps_keypair_disassociate}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/kps_keypair_disassociate sbercloud_kps_keypair_disassociate}
 */
 export class KpsKeypairDisassociate extends cdktf.TerraformResource {
 
@@ -426,7 +426,7 @@ export class KpsKeypairDisassociate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KpsKeypairDisassociate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KpsKeypairDisassociate to import
-  * @param importFromId The id of the existing KpsKeypairDisassociate that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/kps_keypair_disassociate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KpsKeypairDisassociate that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/kps_keypair_disassociate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KpsKeypairDisassociate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -438,7 +438,7 @@ export class KpsKeypairDisassociate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/kps_keypair_disassociate sbercloud_kps_keypair_disassociate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/kps_keypair_disassociate sbercloud_kps_keypair_disassociate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -449,8 +449,8 @@ export class KpsKeypairDisassociate extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_kps_keypair_disassociate',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

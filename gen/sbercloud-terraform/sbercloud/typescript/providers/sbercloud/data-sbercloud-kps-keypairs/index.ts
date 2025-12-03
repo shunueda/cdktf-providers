@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/kps_keypairs
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/kps_keypairs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,30 +8,30 @@ import * as cdktf from 'cdktf';
 
 export interface DataSbercloudKpsKeypairsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/kps_keypairs#fingerprint DataSbercloudKpsKeypairs#fingerprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/kps_keypairs#fingerprint DataSbercloudKpsKeypairs#fingerprint}
   */
   readonly fingerprint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/kps_keypairs#id DataSbercloudKpsKeypairs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/kps_keypairs#id DataSbercloudKpsKeypairs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/kps_keypairs#is_managed DataSbercloudKpsKeypairs#is_managed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/kps_keypairs#is_managed DataSbercloudKpsKeypairs#is_managed}
   */
   readonly isManaged?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/kps_keypairs#name DataSbercloudKpsKeypairs#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/kps_keypairs#name DataSbercloudKpsKeypairs#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/kps_keypairs#public_key DataSbercloudKpsKeypairs#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/kps_keypairs#public_key DataSbercloudKpsKeypairs#public_key}
   */
   readonly publicKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/kps_keypairs#region DataSbercloudKpsKeypairs#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/kps_keypairs#region DataSbercloudKpsKeypairs#region}
   */
   readonly region?: string;
 }
@@ -91,6 +91,11 @@ export class DataSbercloudKpsKeypairsKeypairsOutputReference extends cdktf.Compl
     return this.getStringAttribute('fingerprint');
   }
 
+  // frozen_state - computed: true, optional: false, required: false
+  public get frozenState() {
+    return this.getStringAttribute('frozen_state');
+  }
+
   // is_managed - computed: true, optional: false, required: false
   public get isManaged() {
     return this.getBooleanAttribute('is_managed');
@@ -109,6 +114,11 @@ export class DataSbercloudKpsKeypairsKeypairsOutputReference extends cdktf.Compl
   // scope - computed: true, optional: false, required: false
   public get scope() {
     return this.getStringAttribute('scope');
+  }
+
+  // type - computed: true, optional: false, required: false
+  public get type() {
+    return this.getStringAttribute('type');
   }
 }
 
@@ -132,7 +142,7 @@ export class DataSbercloudKpsKeypairsKeypairsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/kps_keypairs sbercloud_kps_keypairs}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/kps_keypairs sbercloud_kps_keypairs}
 */
 export class DataSbercloudKpsKeypairs extends cdktf.TerraformDataSource {
 
@@ -148,7 +158,7 @@ export class DataSbercloudKpsKeypairs extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSbercloudKpsKeypairs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSbercloudKpsKeypairs to import
-  * @param importFromId The id of the existing DataSbercloudKpsKeypairs that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/kps_keypairs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSbercloudKpsKeypairs that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/kps_keypairs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSbercloudKpsKeypairs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -160,7 +170,7 @@ export class DataSbercloudKpsKeypairs extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/kps_keypairs sbercloud_kps_keypairs} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/kps_keypairs sbercloud_kps_keypairs} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -171,8 +181,8 @@ export class DataSbercloudKpsKeypairs extends cdktf.TerraformDataSource {
       terraformResourceType: 'sbercloud_kps_keypairs',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

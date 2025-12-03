@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_hour_db_instance
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mariadb_hour_db_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface MariadbHourDbInstanceConfig extends cdktf.TerraformMetaArgument
   /**
   * db engine version, default to 10.1.9.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_hour_db_instance#db_version_id MariadbHourDbInstance#db_version_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mariadb_hour_db_instance#db_version_id MariadbHourDbInstance#db_version_id}
   */
   readonly dbVersionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_hour_db_instance#id MariadbHourDbInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mariadb_hour_db_instance#id MariadbHourDbInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,67 +23,67 @@ export interface MariadbHourDbInstanceConfig extends cdktf.TerraformMetaArgument
   /**
   * name of this instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_hour_db_instance#instance_name MariadbHourDbInstance#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mariadb_hour_db_instance#instance_name MariadbHourDbInstance#instance_name}
   */
   readonly instanceName?: string;
   /**
   * instance memory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_hour_db_instance#memory MariadbHourDbInstance#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mariadb_hour_db_instance#memory MariadbHourDbInstance#memory}
   */
   readonly memory: number;
   /**
   * number of node for instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_hour_db_instance#node_count MariadbHourDbInstance#node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mariadb_hour_db_instance#node_count MariadbHourDbInstance#node_count}
   */
   readonly nodeCount: number;
   /**
   * project id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_hour_db_instance#project_id MariadbHourDbInstance#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mariadb_hour_db_instance#project_id MariadbHourDbInstance#project_id}
   */
   readonly projectId?: number;
   /**
   * instance disk storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_hour_db_instance#storage MariadbHourDbInstance#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mariadb_hour_db_instance#storage MariadbHourDbInstance#storage}
   */
   readonly storage: number;
   /**
   * subnet id, it&amp;#39;s required when vpcId is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_hour_db_instance#subnet_id MariadbHourDbInstance#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mariadb_hour_db_instance#subnet_id MariadbHourDbInstance#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * Tag description list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_hour_db_instance#tags MariadbHourDbInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mariadb_hour_db_instance#tags MariadbHourDbInstance#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * vip.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_hour_db_instance#vip MariadbHourDbInstance#vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mariadb_hour_db_instance#vip MariadbHourDbInstance#vip}
   */
   readonly vip?: string;
   /**
   * vpc id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_hour_db_instance#vpc_id MariadbHourDbInstance#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mariadb_hour_db_instance#vpc_id MariadbHourDbInstance#vpc_id}
   */
   readonly vpcId?: string;
   /**
   * available zone of instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_hour_db_instance#zones MariadbHourDbInstance#zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mariadb_hour_db_instance#zones MariadbHourDbInstance#zones}
   */
   readonly zones: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_hour_db_instance tencentcloud_mariadb_hour_db_instance}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mariadb_hour_db_instance tencentcloud_mariadb_hour_db_instance}
 */
 export class MariadbHourDbInstance extends cdktf.TerraformResource {
 
@@ -99,7 +99,7 @@ export class MariadbHourDbInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MariadbHourDbInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MariadbHourDbInstance to import
-  * @param importFromId The id of the existing MariadbHourDbInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_hour_db_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MariadbHourDbInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mariadb_hour_db_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MariadbHourDbInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -111,7 +111,7 @@ export class MariadbHourDbInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_hour_db_instance tencentcloud_mariadb_hour_db_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mariadb_hour_db_instance tencentcloud_mariadb_hour_db_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -122,8 +122,8 @@ export class MariadbHourDbInstance extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mariadb_hour_db_instance',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.39',
-        providerVersionConstraint: '1.82.39'
+        providerVersion: '1.82.40',
+        providerVersionConstraint: '1.82.40'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

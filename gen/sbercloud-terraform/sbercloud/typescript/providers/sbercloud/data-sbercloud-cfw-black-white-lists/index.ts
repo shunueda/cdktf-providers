@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_black_white_lists
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_black_white_lists
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface DataSbercloudCfwBlackWhiteListsConfig extends cdktf.TerraformMe
   /**
   * Specifies the IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_black_white_lists#address DataSbercloudCfwBlackWhiteLists#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_black_white_lists#address DataSbercloudCfwBlackWhiteLists#address}
   */
   readonly address?: string;
   /**
   * Specifies the IP address type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_black_white_lists#address_type DataSbercloudCfwBlackWhiteLists#address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_black_white_lists#address_type DataSbercloudCfwBlackWhiteLists#address_type}
   */
   readonly addressType?: string;
   /**
   * Specifies the description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_black_white_lists#description DataSbercloudCfwBlackWhiteLists#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_black_white_lists#description DataSbercloudCfwBlackWhiteLists#description}
   */
   readonly description?: string;
   /**
   * Specifies the direction of a black or white address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_black_white_lists#direction DataSbercloudCfwBlackWhiteLists#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_black_white_lists#direction DataSbercloudCfwBlackWhiteLists#direction}
   */
   readonly direction?: string;
   /**
   * Specifies the firewall instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_black_white_lists#fw_instance_id DataSbercloudCfwBlackWhiteLists#fw_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_black_white_lists#fw_instance_id DataSbercloudCfwBlackWhiteLists#fw_instance_id}
   */
   readonly fwInstanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_black_white_lists#id DataSbercloudCfwBlackWhiteLists#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_black_white_lists#id DataSbercloudCfwBlackWhiteLists#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,37 +47,37 @@ export interface DataSbercloudCfwBlackWhiteListsConfig extends cdktf.TerraformMe
   /**
   * Specifies the blacklist/whitelist ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_black_white_lists#list_id DataSbercloudCfwBlackWhiteLists#list_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_black_white_lists#list_id DataSbercloudCfwBlackWhiteLists#list_id}
   */
   readonly listId?: string;
   /**
   * Specifies the blacklist/whitelist type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_black_white_lists#list_type DataSbercloudCfwBlackWhiteLists#list_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_black_white_lists#list_type DataSbercloudCfwBlackWhiteLists#list_type}
   */
   readonly listType: number;
   /**
   * Specifies the protected object ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_black_white_lists#object_id DataSbercloudCfwBlackWhiteLists#object_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_black_white_lists#object_id DataSbercloudCfwBlackWhiteLists#object_id}
   */
   readonly objectId: string;
   /**
   * Specifies the port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_black_white_lists#port DataSbercloudCfwBlackWhiteLists#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_black_white_lists#port DataSbercloudCfwBlackWhiteLists#port}
   */
   readonly port?: string;
   /**
   * Specifies The protocol type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_black_white_lists#protocol DataSbercloudCfwBlackWhiteLists#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_black_white_lists#protocol DataSbercloudCfwBlackWhiteLists#protocol}
   */
   readonly protocol?: number;
   /**
   * Specifies the region in which to query the resource. If omitted, the provider-level region will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_black_white_lists#region DataSbercloudCfwBlackWhiteLists#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_black_white_lists#region DataSbercloudCfwBlackWhiteLists#region}
   */
   readonly region?: string;
 }
@@ -188,7 +188,7 @@ export class DataSbercloudCfwBlackWhiteListsRecordsList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_black_white_lists sbercloud_cfw_black_white_lists}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_black_white_lists sbercloud_cfw_black_white_lists}
 */
 export class DataSbercloudCfwBlackWhiteLists extends cdktf.TerraformDataSource {
 
@@ -204,7 +204,7 @@ export class DataSbercloudCfwBlackWhiteLists extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSbercloudCfwBlackWhiteLists resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSbercloudCfwBlackWhiteLists to import
-  * @param importFromId The id of the existing DataSbercloudCfwBlackWhiteLists that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_black_white_lists#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSbercloudCfwBlackWhiteLists that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_black_white_lists#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSbercloudCfwBlackWhiteLists to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -216,7 +216,7 @@ export class DataSbercloudCfwBlackWhiteLists extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_black_white_lists sbercloud_cfw_black_white_lists} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_black_white_lists sbercloud_cfw_black_white_lists} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -227,8 +227,8 @@ export class DataSbercloudCfwBlackWhiteLists extends cdktf.TerraformDataSource {
       terraformResourceType: 'sbercloud_cfw_black_white_lists',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

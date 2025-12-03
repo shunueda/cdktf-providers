@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_group
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ApiGatewayGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * The group description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_group#description ApiGatewayGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_group#description ApiGatewayGroup#description}
   */
   readonly description?: string;
   /**
   * Specifies whether to use the debugging domain name to access the APIs within the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_group#domain_access_enabled ApiGatewayGroup#domain_access_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_group#domain_access_enabled ApiGatewayGroup#domain_access_enabled}
   */
   readonly domainAccessEnabled?: boolean | cdktf.IResolvable;
   /**
   * Whether to delete all sub-resources (for API) from this group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_group#force_destroy ApiGatewayGroup#force_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_group#force_destroy ApiGatewayGroup#force_destroy}
   */
   readonly forceDestroy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_group#id ApiGatewayGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_group#id ApiGatewayGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,31 @@ export interface ApiGatewayGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the dedicated instance to which the group belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_group#instance_id ApiGatewayGroup#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_group#instance_id ApiGatewayGroup#instance_id}
   */
   readonly instanceId: string;
   /**
   * The group name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_group#name ApiGatewayGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_group#name ApiGatewayGroup#name}
   */
   readonly name: string;
   /**
   * The region where the dedicated instance is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_group#region ApiGatewayGroup#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_group#region ApiGatewayGroup#region}
   */
   readonly region?: string;
   /**
   * environment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_group#environment ApiGatewayGroup#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_group#environment ApiGatewayGroup#environment}
   */
   readonly environment?: ApiGatewayGroupEnvironment[] | cdktf.IResolvable;
   /**
   * url_domains block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_group#url_domains ApiGatewayGroup#url_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_group#url_domains ApiGatewayGroup#url_domains}
   */
   readonly urlDomains?: ApiGatewayGroupUrlDomains[] | cdktf.IResolvable;
 }
@@ -67,13 +67,13 @@ export interface ApiGatewayGroupEnvironmentVariable {
   /**
   * The variable name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_group#name ApiGatewayGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_group#name ApiGatewayGroup#name}
   */
   readonly name: string;
   /**
   * The variable value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_group#value ApiGatewayGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_group#value ApiGatewayGroup#value}
   */
   readonly value: string;
 }
@@ -224,13 +224,13 @@ export interface ApiGatewayGroupEnvironment {
   /**
   * The ID of the environment to which the variables belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_group#environment_id ApiGatewayGroup#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_group#environment_id ApiGatewayGroup#environment_id}
   */
   readonly environmentId: string;
   /**
   * variable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_group#variable ApiGatewayGroup#variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_group#variable ApiGatewayGroup#variable}
   */
   readonly variable: ApiGatewayGroupEnvironmentVariable[] | cdktf.IResolvable;
 }
@@ -371,19 +371,19 @@ export interface ApiGatewayGroupUrlDomains {
   /**
   * Whether to enable redirection from HTTP to HTTPS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_group#is_http_redirect_to_https ApiGatewayGroup#is_http_redirect_to_https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_group#is_http_redirect_to_https ApiGatewayGroup#is_http_redirect_to_https}
   */
   readonly isHttpRedirectToHttps?: boolean | cdktf.IResolvable;
   /**
   * The minimum SSL protocol version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_group#min_ssl_version ApiGatewayGroup#min_ssl_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_group#min_ssl_version ApiGatewayGroup#min_ssl_version}
   */
   readonly minSslVersion?: string;
   /**
   * The associated domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_group#name ApiGatewayGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_group#name ApiGatewayGroup#name}
   */
   readonly name: string;
 }
@@ -554,7 +554,7 @@ export class ApiGatewayGroupUrlDomainsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_group sbercloud_api_gateway_group}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_group sbercloud_api_gateway_group}
 */
 export class ApiGatewayGroup extends cdktf.TerraformResource {
 
@@ -570,7 +570,7 @@ export class ApiGatewayGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApiGatewayGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApiGatewayGroup to import
-  * @param importFromId The id of the existing ApiGatewayGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApiGatewayGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApiGatewayGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -582,7 +582,7 @@ export class ApiGatewayGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_group sbercloud_api_gateway_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_group sbercloud_api_gateway_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -593,8 +593,8 @@ export class ApiGatewayGroup extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_api_gateway_group',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

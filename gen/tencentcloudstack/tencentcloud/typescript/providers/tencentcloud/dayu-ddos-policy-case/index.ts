@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_ddos_policy_case
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dayu_ddos_policy_case
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface DayuDdosPolicyCaseConfig extends cdktf.TerraformMetaArguments {
   /**
   * App protocol set of the DDoS policy case.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_ddos_policy_case#app_protocols DayuDdosPolicyCase#app_protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dayu_ddos_policy_case#app_protocols DayuDdosPolicyCase#app_protocols}
   */
   readonly appProtocols: string[];
   /**
   * App type of the DDoS policy case. Valid values: `WEB`, `GAME`, `APP` and `OTHER`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_ddos_policy_case#app_type DayuDdosPolicyCase#app_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dayu_ddos_policy_case#app_type DayuDdosPolicyCase#app_type}
   */
   readonly appType: string;
   /**
   * Indicate whether the service involves overseas or not. Valid values: `no` and `yes`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_ddos_policy_case#has_abroad DayuDdosPolicyCase#has_abroad}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dayu_ddos_policy_case#has_abroad DayuDdosPolicyCase#has_abroad}
   */
   readonly hasAbroad: string;
   /**
   * Indicate whether the service actively initiates TCP requests or not. Valid values: `no` and `yes`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_ddos_policy_case#has_initiate_tcp DayuDdosPolicyCase#has_initiate_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dayu_ddos_policy_case#has_initiate_tcp DayuDdosPolicyCase#has_initiate_tcp}
   */
   readonly hasInitiateTcp: string;
   /**
   * Indicate whether the actively initiate UDP requests or not. Valid values: `no` and `yes`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_ddos_policy_case#has_initiate_udp DayuDdosPolicyCase#has_initiate_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dayu_ddos_policy_case#has_initiate_udp DayuDdosPolicyCase#has_initiate_udp}
   */
   readonly hasInitiateUdp?: string;
   /**
   * Indicate whether the service involves VPN service or not. Valid values: `no` and `yes`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_ddos_policy_case#has_vpn DayuDdosPolicyCase#has_vpn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dayu_ddos_policy_case#has_vpn DayuDdosPolicyCase#has_vpn}
   */
   readonly hasVpn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_ddos_policy_case#id DayuDdosPolicyCase#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dayu_ddos_policy_case#id DayuDdosPolicyCase#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,103 +53,103 @@ export interface DayuDdosPolicyCaseConfig extends cdktf.TerraformMetaArguments {
   /**
   * The max length of TCP message package, valid value length should be greater than 0 and less than 1500. It should be greater than `min_tcp_package_len`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_ddos_policy_case#max_tcp_package_len DayuDdosPolicyCase#max_tcp_package_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dayu_ddos_policy_case#max_tcp_package_len DayuDdosPolicyCase#max_tcp_package_len}
   */
   readonly maxTcpPackageLen?: string;
   /**
   * The max length of UDP message package, valid value length should be greater than 0 and less than 1500. It should be greater than `min_udp_package_len`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_ddos_policy_case#max_udp_package_len DayuDdosPolicyCase#max_udp_package_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dayu_ddos_policy_case#max_udp_package_len DayuDdosPolicyCase#max_udp_package_len}
   */
   readonly maxUdpPackageLen?: string;
   /**
   * The minimum length of TCP message package, valid value length should be greater than 0 and less than 1500.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_ddos_policy_case#min_tcp_package_len DayuDdosPolicyCase#min_tcp_package_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dayu_ddos_policy_case#min_tcp_package_len DayuDdosPolicyCase#min_tcp_package_len}
   */
   readonly minTcpPackageLen?: string;
   /**
   * The minimum length of UDP message package, valid value length should be greater than 0 and less than 1500.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_ddos_policy_case#min_udp_package_len DayuDdosPolicyCase#min_udp_package_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dayu_ddos_policy_case#min_udp_package_len DayuDdosPolicyCase#min_udp_package_len}
   */
   readonly minUdpPackageLen?: string;
   /**
   * Name of the DDoS policy case. Length should between 1 and 64.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_ddos_policy_case#name DayuDdosPolicyCase#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dayu_ddos_policy_case#name DayuDdosPolicyCase#name}
   */
   readonly name: string;
   /**
   * The port that actively initiates TCP requests. Valid value ranges: (1~65535).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_ddos_policy_case#peer_tcp_port DayuDdosPolicyCase#peer_tcp_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dayu_ddos_policy_case#peer_tcp_port DayuDdosPolicyCase#peer_tcp_port}
   */
   readonly peerTcpPort?: string;
   /**
   * The port that actively initiates UDP requests. Valid value ranges: (1~65535).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_ddos_policy_case#peer_udp_port DayuDdosPolicyCase#peer_udp_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dayu_ddos_policy_case#peer_udp_port DayuDdosPolicyCase#peer_udp_port}
   */
   readonly peerUdpPort?: string;
   /**
   * Platform set of the DDoS policy case.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_ddos_policy_case#platform_types DayuDdosPolicyCase#platform_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dayu_ddos_policy_case#platform_types DayuDdosPolicyCase#platform_types}
   */
   readonly platformTypes: string[];
   /**
   * Type of the resource that the DDoS policy case works for. Valid values: `bgpip`, `bgp` and `bgp-multip`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_ddos_policy_case#resource_type DayuDdosPolicyCase#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dayu_ddos_policy_case#resource_type DayuDdosPolicyCase#resource_type}
   */
   readonly resourceType: string;
   /**
   * End port of the TCP service. Valid value ranges: (0~65535). It must be greater than `tcp_start_port`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_ddos_policy_case#tcp_end_port DayuDdosPolicyCase#tcp_end_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dayu_ddos_policy_case#tcp_end_port DayuDdosPolicyCase#tcp_end_port}
   */
   readonly tcpEndPort: string;
   /**
   * The fixed signature of TCP protocol load, valid value length is range from 1 to 512.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_ddos_policy_case#tcp_footprint DayuDdosPolicyCase#tcp_footprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dayu_ddos_policy_case#tcp_footprint DayuDdosPolicyCase#tcp_footprint}
   */
   readonly tcpFootprint?: string;
   /**
   * Start port of the TCP service. Valid value ranges: (0~65535).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_ddos_policy_case#tcp_start_port DayuDdosPolicyCase#tcp_start_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dayu_ddos_policy_case#tcp_start_port DayuDdosPolicyCase#tcp_start_port}
   */
   readonly tcpStartPort: string;
   /**
   * End port of the UDP service. Valid value ranges: (0~65535). It must be greater than `udp_start_port`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_ddos_policy_case#udp_end_port DayuDdosPolicyCase#udp_end_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dayu_ddos_policy_case#udp_end_port DayuDdosPolicyCase#udp_end_port}
   */
   readonly udpEndPort: string;
   /**
   * The fixed signature of TCP protocol load, valid value length is range from 1 to 512.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_ddos_policy_case#udp_footprint DayuDdosPolicyCase#udp_footprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dayu_ddos_policy_case#udp_footprint DayuDdosPolicyCase#udp_footprint}
   */
   readonly udpFootprint?: string;
   /**
   * Start port of the UDP service. Valid value ranges: (0~65535).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_ddos_policy_case#udp_start_port DayuDdosPolicyCase#udp_start_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dayu_ddos_policy_case#udp_start_port DayuDdosPolicyCase#udp_start_port}
   */
   readonly udpStartPort: string;
   /**
   * Web API url set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_ddos_policy_case#web_api_urls DayuDdosPolicyCase#web_api_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dayu_ddos_policy_case#web_api_urls DayuDdosPolicyCase#web_api_urls}
   */
   readonly webApiUrls: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_ddos_policy_case tencentcloud_dayu_ddos_policy_case}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dayu_ddos_policy_case tencentcloud_dayu_ddos_policy_case}
 */
 export class DayuDdosPolicyCase extends cdktf.TerraformResource {
 
@@ -165,7 +165,7 @@ export class DayuDdosPolicyCase extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DayuDdosPolicyCase resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DayuDdosPolicyCase to import
-  * @param importFromId The id of the existing DayuDdosPolicyCase that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_ddos_policy_case#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DayuDdosPolicyCase that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dayu_ddos_policy_case#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DayuDdosPolicyCase to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -177,7 +177,7 @@ export class DayuDdosPolicyCase extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/dayu_ddos_policy_case tencentcloud_dayu_ddos_policy_case} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dayu_ddos_policy_case tencentcloud_dayu_ddos_policy_case} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -188,8 +188,8 @@ export class DayuDdosPolicyCase extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_dayu_ddos_policy_case',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.39',
-        providerVersionConstraint: '1.82.39'
+        providerVersion: '1.82.40',
+        providerVersionConstraint: '1.82.40'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

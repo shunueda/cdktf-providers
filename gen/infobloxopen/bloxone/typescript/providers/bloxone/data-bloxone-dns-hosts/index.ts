@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_hosts
+// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_hosts
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataBloxoneDnsHostsConfig extends cdktf.TerraformMetaArguments 
   /**
   * Filter are used to return a more specific list of results. Filters can be used to match resources by specific attributes, e.g. name. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_hosts#filters DataBloxoneDnsHosts#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_hosts#filters DataBloxoneDnsHosts#filters}
   */
   readonly filters?: { [key: string]: string };
   /**
   * If set to `true`, the data source will retry until a matching host is found, or until the Read Timeout expires.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_hosts#retry_if_not_found DataBloxoneDnsHosts#retry_if_not_found}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_hosts#retry_if_not_found DataBloxoneDnsHosts#retry_if_not_found}
   */
   readonly retryIfNotFound?: boolean | cdktf.IResolvable;
   /**
   * Tag Filters are used to return a more specific list of results filtered by tags. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_hosts#tag_filters DataBloxoneDnsHosts#tag_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_hosts#tag_filters DataBloxoneDnsHosts#tag_filters}
   */
   readonly tagFilters?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_hosts#timeouts DataBloxoneDnsHosts#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_hosts#timeouts DataBloxoneDnsHosts#timeouts}
   */
   readonly timeouts?: DataBloxoneDnsHostsTimeouts;
 }
@@ -193,7 +193,7 @@ export interface DataBloxoneDnsHostsResultsInheritanceSourcesKerberosKeys {
   /**
   * Optional. Inheritance setting for a field. Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_hosts#action DataBloxoneDnsHosts#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_hosts#action DataBloxoneDnsHosts#action}
   */
   readonly action?: string;
 }
@@ -303,7 +303,7 @@ export class DataBloxoneDnsHostsResultsInheritanceSourcesKerberosKeysOutputRefer
 }
 export interface DataBloxoneDnsHostsResultsInheritanceSources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_hosts#kerberos_keys DataBloxoneDnsHosts#kerberos_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_hosts#kerberos_keys DataBloxoneDnsHosts#kerberos_keys}
   */
   readonly kerberosKeys?: DataBloxoneDnsHostsResultsInheritanceSourcesKerberosKeys;
 }
@@ -399,7 +399,7 @@ export interface DataBloxoneDnsHostsResultsKerberosKeys {
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_hosts#key DataBloxoneDnsHosts#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_hosts#key DataBloxoneDnsHosts#key}
   */
   readonly key: string;
 }
@@ -539,25 +539,25 @@ export interface DataBloxoneDnsHostsResults {
   /**
   * Optional. Inheritance configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_hosts#inheritance_sources DataBloxoneDnsHosts#inheritance_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_hosts#inheritance_sources DataBloxoneDnsHosts#inheritance_sources}
   */
   readonly inheritanceSources?: DataBloxoneDnsHostsResultsInheritanceSources;
   /**
   * Optional. _kerberos_keys_ contains a list of keys for GSS-TSIG signed dynamic updates.  Defaults to empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_hosts#kerberos_keys DataBloxoneDnsHosts#kerberos_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_hosts#kerberos_keys DataBloxoneDnsHosts#kerberos_keys}
   */
   readonly kerberosKeys?: DataBloxoneDnsHostsResultsKerberosKeys[] | cdktf.IResolvable;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_hosts#server DataBloxoneDnsHosts#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_hosts#server DataBloxoneDnsHosts#server}
   */
   readonly server?: string;
   /**
   * Host tagging specifics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_hosts#tags DataBloxoneDnsHosts#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_hosts#tags DataBloxoneDnsHosts#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -834,7 +834,7 @@ export interface DataBloxoneDnsHostsTimeouts {
   /**
   * [Duration](https://pkg.go.dev/time#ParseDuration) to wait before being considered a timeout during read operations. Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Default is 20m.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_hosts#read DataBloxoneDnsHosts#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_hosts#read DataBloxoneDnsHosts#read}
   */
   readonly read?: string;
 }
@@ -928,7 +928,7 @@ export class DataBloxoneDnsHostsTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_hosts bloxone_dns_hosts}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_hosts bloxone_dns_hosts}
 */
 export class DataBloxoneDnsHosts extends cdktf.TerraformDataSource {
 
@@ -944,7 +944,7 @@ export class DataBloxoneDnsHosts extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataBloxoneDnsHosts resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataBloxoneDnsHosts to import
-  * @param importFromId The id of the existing DataBloxoneDnsHosts that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_hosts#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataBloxoneDnsHosts that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_hosts#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataBloxoneDnsHosts to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -956,7 +956,7 @@ export class DataBloxoneDnsHosts extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_hosts bloxone_dns_hosts} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_hosts bloxone_dns_hosts} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -967,8 +967,8 @@ export class DataBloxoneDnsHosts extends cdktf.TerraformDataSource {
       terraformResourceType: 'bloxone_dns_hosts',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.5.4',
+        providerVersionConstraint: '1.5.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

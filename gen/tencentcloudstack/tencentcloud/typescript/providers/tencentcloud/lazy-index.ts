@@ -586,6 +586,7 @@ Object.defineProperty(exports, 'mongodbInstanceBackup', { get: function () { ret
 Object.defineProperty(exports, 'mongodbInstanceBackupDownloadTask', { get: function () { return require('./mongodb-instance-backup-download-task'); } });
 Object.defineProperty(exports, 'mongodbInstanceBackupRule', { get: function () { return require('./mongodb-instance-backup-rule'); } });
 Object.defineProperty(exports, 'mongodbInstanceParams', { get: function () { return require('./mongodb-instance-params'); } });
+Object.defineProperty(exports, 'mongodbInstanceSsl', { get: function () { return require('./mongodb-instance-ssl'); } });
 Object.defineProperty(exports, 'mongodbInstanceTransparentDataEncryption', { get: function () { return require('./mongodb-instance-transparent-data-encryption'); } });
 Object.defineProperty(exports, 'mongodbReadonlyInstance', { get: function () { return require('./mongodb-readonly-instance'); } });
 Object.defineProperty(exports, 'mongodbShardingInstance', { get: function () { return require('./mongodb-sharding-instance'); } });

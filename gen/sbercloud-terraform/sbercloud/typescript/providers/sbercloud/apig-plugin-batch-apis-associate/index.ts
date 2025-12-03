@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_plugin_batch_apis_associate
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_plugin_batch_apis_associate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,24 +10,24 @@ export interface ApigPluginBatchApisAssociateConfig extends cdktf.TerraformMetaA
   /**
   * The list of API IDs to be bound by the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_plugin_batch_apis_associate#api_ids ApigPluginBatchApisAssociate#api_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_plugin_batch_apis_associate#api_ids ApigPluginBatchApisAssociate#api_ids}
   */
   readonly apiIds: string[];
   /**
   * The script configuration value of this change is also the original value used for comparison with
   * the new value next time the change is made. The corresponding parameter name is 'api_ids'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_plugin_batch_apis_associate#api_ids_origin ApigPluginBatchApisAssociate#api_ids_origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_plugin_batch_apis_associate#api_ids_origin ApigPluginBatchApisAssociate#api_ids_origin}
   */
   readonly apiIdsOrigin?: string[];
   /**
   * The environment ID where the API was published.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_plugin_batch_apis_associate#env_id ApigPluginBatchApisAssociate#env_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_plugin_batch_apis_associate#env_id ApigPluginBatchApisAssociate#env_id}
   */
   readonly envId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_plugin_batch_apis_associate#id ApigPluginBatchApisAssociate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_plugin_batch_apis_associate#id ApigPluginBatchApisAssociate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -36,25 +36,25 @@ export interface ApigPluginBatchApisAssociateConfig extends cdktf.TerraformMetaA
   /**
   * The ID of the dedicated instance to which the plugin belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_plugin_batch_apis_associate#instance_id ApigPluginBatchApisAssociate#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_plugin_batch_apis_associate#instance_id ApigPluginBatchApisAssociate#instance_id}
   */
   readonly instanceId: string;
   /**
   * The plugin ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_plugin_batch_apis_associate#plugin_id ApigPluginBatchApisAssociate#plugin_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_plugin_batch_apis_associate#plugin_id ApigPluginBatchApisAssociate#plugin_id}
   */
   readonly pluginId: string;
   /**
   * The region where the plugin is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_plugin_batch_apis_associate#region ApigPluginBatchApisAssociate#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_plugin_batch_apis_associate#region ApigPluginBatchApisAssociate#region}
   */
   readonly region?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_plugin_batch_apis_associate sbercloud_apig_plugin_batch_apis_associate}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_plugin_batch_apis_associate sbercloud_apig_plugin_batch_apis_associate}
 */
 export class ApigPluginBatchApisAssociate extends cdktf.TerraformResource {
 
@@ -70,7 +70,7 @@ export class ApigPluginBatchApisAssociate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApigPluginBatchApisAssociate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApigPluginBatchApisAssociate to import
-  * @param importFromId The id of the existing ApigPluginBatchApisAssociate that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_plugin_batch_apis_associate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApigPluginBatchApisAssociate that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_plugin_batch_apis_associate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApigPluginBatchApisAssociate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -82,7 +82,7 @@ export class ApigPluginBatchApisAssociate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_plugin_batch_apis_associate sbercloud_apig_plugin_batch_apis_associate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_plugin_batch_apis_associate sbercloud_apig_plugin_batch_apis_associate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -93,8 +93,8 @@ export class ApigPluginBatchApisAssociate extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_apig_plugin_batch_apis_associate',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

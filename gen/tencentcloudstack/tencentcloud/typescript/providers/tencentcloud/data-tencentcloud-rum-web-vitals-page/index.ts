@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/rum_web_vitals_page
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/rum_web_vitals_page
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,77 +10,77 @@ export interface DataTencentcloudRumWebVitalsPageConfig extends cdktf.TerraformM
   /**
   * The region where the data reporting takes place.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/rum_web_vitals_page#area DataTencentcloudRumWebVitalsPage#area}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/rum_web_vitals_page#area DataTencentcloudRumWebVitalsPage#area}
   */
   readonly area?: string;
   /**
   * The mobile phone brand used for data reporting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/rum_web_vitals_page#brand DataTencentcloudRumWebVitalsPage#brand}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/rum_web_vitals_page#brand DataTencentcloudRumWebVitalsPage#brand}
   */
   readonly brand?: string;
   /**
   * The browser type used for data reporting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/rum_web_vitals_page#browser DataTencentcloudRumWebVitalsPage#browser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/rum_web_vitals_page#browser DataTencentcloudRumWebVitalsPage#browser}
   */
   readonly browser?: string;
   /**
   * The method used for calculating the elapsed time `50`: 50th percentile, `75`: 75th percentile., `90`: 90th percentile., `95`: 95th percentile., `99`: 99th percentile., `99.5`: 99.5th percentile., `avg`: Mean.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/rum_web_vitals_page#cost_type DataTencentcloudRumWebVitalsPage#cost_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/rum_web_vitals_page#cost_type DataTencentcloudRumWebVitalsPage#cost_type}
   */
   readonly costType?: string;
   /**
   * The device used for data reporting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/rum_web_vitals_page#device DataTencentcloudRumWebVitalsPage#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/rum_web_vitals_page#device DataTencentcloudRumWebVitalsPage#device}
   */
   readonly device?: string;
   /**
   * End time but is represented using a timestamp in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/rum_web_vitals_page#end_time DataTencentcloudRumWebVitalsPage#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/rum_web_vitals_page#end_time DataTencentcloudRumWebVitalsPage#end_time}
   */
   readonly endTime: number;
   /**
   * The browser engine used for data reporting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/rum_web_vitals_page#engine DataTencentcloudRumWebVitalsPage#engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/rum_web_vitals_page#engine DataTencentcloudRumWebVitalsPage#engine}
   */
   readonly engine?: string;
   /**
   * The code environment where the data reporting takes place.(`production`: production env, `development`: development env, `gray`: gray env, `pre`: pre env, `daily`: daily env, `local`: local env, `others`: others env).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/rum_web_vitals_page#env DataTencentcloudRumWebVitalsPage#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/rum_web_vitals_page#env DataTencentcloudRumWebVitalsPage#env}
   */
   readonly env?: string;
   /**
   * First Expansion parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/rum_web_vitals_page#ext_first DataTencentcloudRumWebVitalsPage#ext_first}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/rum_web_vitals_page#ext_first DataTencentcloudRumWebVitalsPage#ext_first}
   */
   readonly extFirst?: string;
   /**
   * Second Expansion parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/rum_web_vitals_page#ext_second DataTencentcloudRumWebVitalsPage#ext_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/rum_web_vitals_page#ext_second DataTencentcloudRumWebVitalsPage#ext_second}
   */
   readonly extSecond?: string;
   /**
   * Third Expansion parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/rum_web_vitals_page#ext_third DataTencentcloudRumWebVitalsPage#ext_third}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/rum_web_vitals_page#ext_third DataTencentcloudRumWebVitalsPage#ext_third}
   */
   readonly extThird?: string;
   /**
   * The source page of the data reporting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/rum_web_vitals_page#from DataTencentcloudRumWebVitalsPage#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/rum_web_vitals_page#from DataTencentcloudRumWebVitalsPage#from}
   */
   readonly from?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/rum_web_vitals_page#id DataTencentcloudRumWebVitalsPage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/rum_web_vitals_page#id DataTencentcloudRumWebVitalsPage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -89,73 +89,73 @@ export interface DataTencentcloudRumWebVitalsPageConfig extends cdktf.TerraformM
   /**
   * Whether it is non-China region.`1`: yes; `0`: no.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/rum_web_vitals_page#is_abroad DataTencentcloudRumWebVitalsPage#is_abroad}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/rum_web_vitals_page#is_abroad DataTencentcloudRumWebVitalsPage#is_abroad}
   */
   readonly isAbroad?: string;
   /**
   * The internet service provider used for data reporting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/rum_web_vitals_page#isp DataTencentcloudRumWebVitalsPage#isp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/rum_web_vitals_page#isp DataTencentcloudRumWebVitalsPage#isp}
   */
   readonly isp?: string;
   /**
   * Log level for data reporting(`1`: whitelist, `2`: normal, `4`: error, `8`: promise error, `16`: ajax request error, `32`: js resource load error, `64`: image resource load error, `128`: css resource load error, `256`: console.error, `512`: video resource load error, `1024`: request retcode error, `2048`: sdk self monitor error, `4096`: pv log, `8192`: event log).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/rum_web_vitals_page#level DataTencentcloudRumWebVitalsPage#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/rum_web_vitals_page#level DataTencentcloudRumWebVitalsPage#level}
   */
   readonly level?: string;
   /**
   * The network type used for data reporting.(`1`: Wifi, `2`: 2G, `3`: 3G, `4`: 4G, `5`: 5G, `6`: 6G, `100`: Unknown).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/rum_web_vitals_page#net_type DataTencentcloudRumWebVitalsPage#net_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/rum_web_vitals_page#net_type DataTencentcloudRumWebVitalsPage#net_type}
   */
   readonly netType?: string;
   /**
   * The operating system used for data reporting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/rum_web_vitals_page#os DataTencentcloudRumWebVitalsPage#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/rum_web_vitals_page#os DataTencentcloudRumWebVitalsPage#os}
   */
   readonly os?: string;
   /**
   * The platform where the data reporting takes place.(`1`: Android, `2`: IOS, `3`: Windows, `4`: Mac, `5`: Linux, `100`: Other).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/rum_web_vitals_page#platform DataTencentcloudRumWebVitalsPage#platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/rum_web_vitals_page#platform DataTencentcloudRumWebVitalsPage#platform}
   */
   readonly platform?: string;
   /**
   * Project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/rum_web_vitals_page#project_id DataTencentcloudRumWebVitalsPage#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/rum_web_vitals_page#project_id DataTencentcloudRumWebVitalsPage#project_id}
   */
   readonly projectId: number;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/rum_web_vitals_page#result_output_file DataTencentcloudRumWebVitalsPage#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/rum_web_vitals_page#result_output_file DataTencentcloudRumWebVitalsPage#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Start time but is represented using a timestamp in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/rum_web_vitals_page#start_time DataTencentcloudRumWebVitalsPage#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/rum_web_vitals_page#start_time DataTencentcloudRumWebVitalsPage#start_time}
   */
   readonly startTime: number;
   /**
   * Query Data Type(from or empty). `from`: CostType query by from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/rum_web_vitals_page#type DataTencentcloudRumWebVitalsPage#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/rum_web_vitals_page#type DataTencentcloudRumWebVitalsPage#type}
   */
   readonly type?: string;
   /**
   * The SDK version used for data reporting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/rum_web_vitals_page#version_num DataTencentcloudRumWebVitalsPage#version_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/rum_web_vitals_page#version_num DataTencentcloudRumWebVitalsPage#version_num}
   */
   readonly versionNum?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/rum_web_vitals_page tencentcloud_rum_web_vitals_page}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/rum_web_vitals_page tencentcloud_rum_web_vitals_page}
 */
 export class DataTencentcloudRumWebVitalsPage extends cdktf.TerraformDataSource {
 
@@ -171,7 +171,7 @@ export class DataTencentcloudRumWebVitalsPage extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataTencentcloudRumWebVitalsPage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudRumWebVitalsPage to import
-  * @param importFromId The id of the existing DataTencentcloudRumWebVitalsPage that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/rum_web_vitals_page#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudRumWebVitalsPage that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/rum_web_vitals_page#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudRumWebVitalsPage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -183,7 +183,7 @@ export class DataTencentcloudRumWebVitalsPage extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/rum_web_vitals_page tencentcloud_rum_web_vitals_page} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/rum_web_vitals_page tencentcloud_rum_web_vitals_page} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -194,8 +194,8 @@ export class DataTencentcloudRumWebVitalsPage extends cdktf.TerraformDataSource 
       terraformResourceType: 'tencentcloud_rum_web_vitals_page',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.39',
-        providerVersionConstraint: '1.82.39'
+        providerVersion: '1.82.40',
+        providerVersionConstraint: '1.82.40'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

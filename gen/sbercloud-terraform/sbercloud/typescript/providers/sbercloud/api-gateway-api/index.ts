@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface ApiGatewayApiConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the authorizer to which the API request used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#authorizer_id ApiGatewayApi#authorizer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#authorizer_id ApiGatewayApi#authorizer_id}
   */
   readonly authorizerId?: string;
   /**
   * The description of the API request body, which can be an example request body, media type or parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#body_description ApiGatewayApi#body_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#body_description ApiGatewayApi#body_description}
   */
   readonly bodyDescription?: string;
   /**
   * The content type of the request body.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#content_type ApiGatewayApi#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#content_type ApiGatewayApi#content_type}
   */
   readonly contentType?: string;
   /**
   * Whether CORS is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#cors ApiGatewayApi#cors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#cors ApiGatewayApi#cors}
   */
   readonly cors?: boolean | cdktf.IResolvable;
   /**
   * The API description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#description ApiGatewayApi#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#description ApiGatewayApi#description}
   */
   readonly description?: string;
   /**
   * The example response for a failure request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#failure_response ApiGatewayApi#failure_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#failure_response ApiGatewayApi#failure_response}
   */
   readonly failureResponse?: string;
   /**
   * The ID of the API group to which the API belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#group_id ApiGatewayApi#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#group_id ApiGatewayApi#group_id}
   */
   readonly groupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#id ApiGatewayApi#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#id ApiGatewayApi#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,133 +59,133 @@ export interface ApiGatewayApiConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the instance to which the API belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#instance_id ApiGatewayApi#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#instance_id ApiGatewayApi#instance_id}
   */
   readonly instanceId: string;
   /**
   * Whether to perform Base64 encoding on the body for interaction with FunctionGraph.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#is_send_fg_body_base64 ApiGatewayApi#is_send_fg_body_base64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#is_send_fg_body_base64 ApiGatewayApi#is_send_fg_body_base64}
   */
   readonly isSendFgBodyBase64?: boolean | cdktf.IResolvable;
   /**
   * The matching mode of the API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#matching ApiGatewayApi#matching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#matching ApiGatewayApi#matching}
   */
   readonly matching?: string;
   /**
   * The API name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#name ApiGatewayApi#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#name ApiGatewayApi#name}
   */
   readonly name: string;
   /**
   * The region where the API is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#region ApiGatewayApi#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#region ApiGatewayApi#region}
   */
   readonly region?: string;
   /**
   * The request method of the API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#request_method ApiGatewayApi#request_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#request_method ApiGatewayApi#request_method}
   */
   readonly requestMethod: string;
   /**
   * The request address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#request_path ApiGatewayApi#request_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#request_path ApiGatewayApi#request_path}
   */
   readonly requestPath: string;
   /**
   * The request protocol of the API request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#request_protocol ApiGatewayApi#request_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#request_protocol ApiGatewayApi#request_protocol}
   */
   readonly requestProtocol: string;
   /**
   * The ID of the custom response that API used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#response_id ApiGatewayApi#response_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#response_id ApiGatewayApi#response_id}
   */
   readonly responseId?: string;
   /**
   * The security authentication mode of the API request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#security_authentication ApiGatewayApi#security_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#security_authentication ApiGatewayApi#security_authentication}
   */
   readonly securityAuthentication?: string;
   /**
   * Whether the authentication of the application code is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#simple_authentication ApiGatewayApi#simple_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#simple_authentication ApiGatewayApi#simple_authentication}
   */
   readonly simpleAuthentication?: boolean | cdktf.IResolvable;
   /**
   * The example response for a successful request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#success_response ApiGatewayApi#success_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#success_response ApiGatewayApi#success_response}
   */
   readonly successResponse?: string;
   /**
   * The list of tags configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#tags ApiGatewayApi#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#tags ApiGatewayApi#tags}
   */
   readonly tags?: string[];
   /**
   * The API type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#type ApiGatewayApi#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#type ApiGatewayApi#type}
   */
   readonly type: string;
   /**
   * backend_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#backend_params ApiGatewayApi#backend_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#backend_params ApiGatewayApi#backend_params}
   */
   readonly backendParams?: ApiGatewayApiBackendParams[] | cdktf.IResolvable;
   /**
   * func_graph block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#func_graph ApiGatewayApi#func_graph}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#func_graph ApiGatewayApi#func_graph}
   */
   readonly funcGraph?: ApiGatewayApiFuncGraph;
   /**
   * func_graph_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#func_graph_policy ApiGatewayApi#func_graph_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#func_graph_policy ApiGatewayApi#func_graph_policy}
   */
   readonly funcGraphPolicy?: ApiGatewayApiFuncGraphPolicy[] | cdktf.IResolvable;
   /**
   * mock block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#mock ApiGatewayApi#mock}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#mock ApiGatewayApi#mock}
   */
   readonly mock?: ApiGatewayApiMock;
   /**
   * mock_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#mock_policy ApiGatewayApi#mock_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#mock_policy ApiGatewayApi#mock_policy}
   */
   readonly mockPolicy?: ApiGatewayApiMockPolicy[] | cdktf.IResolvable;
   /**
   * request_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#request_params ApiGatewayApi#request_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#request_params ApiGatewayApi#request_params}
   */
   readonly requestParams?: ApiGatewayApiRequestParams[] | cdktf.IResolvable;
   /**
   * web block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#web ApiGatewayApi#web}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#web ApiGatewayApi#web}
   */
   readonly web?: ApiGatewayApiWeb;
   /**
   * web_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#web_policy ApiGatewayApi#web_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#web_policy ApiGatewayApi#web_policy}
   */
   readonly webPolicy?: ApiGatewayApiWebPolicy[] | cdktf.IResolvable;
 }
@@ -193,35 +193,35 @@ export interface ApiGatewayApiBackendParams {
   /**
   * The description of the parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#description ApiGatewayApi#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#description ApiGatewayApi#description}
   */
   readonly description?: string;
   /**
   * Where the parameter is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#location ApiGatewayApi#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#location ApiGatewayApi#location}
   */
   readonly location: string;
   /**
   * The parameter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#name ApiGatewayApi#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#name ApiGatewayApi#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#system_param_type ApiGatewayApi#system_param_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#system_param_type ApiGatewayApi#system_param_type}
   */
   readonly systemParamType?: string;
   /**
   * The parameter type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#type ApiGatewayApi#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#type ApiGatewayApi#type}
   */
   readonly type: string;
   /**
   * The value of the parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#value ApiGatewayApi#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#value ApiGatewayApi#value}
   */
   readonly value: string;
 }
@@ -472,49 +472,49 @@ export interface ApiGatewayApiFuncGraph {
   /**
   * The ID of the backend custom authorization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#authorizer_id ApiGatewayApi#authorizer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#authorizer_id ApiGatewayApi#authorizer_id}
   */
   readonly authorizerId?: string;
   /**
   * The alias URN of the FunctionGraph function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#function_alias_urn ApiGatewayApi#function_alias_urn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#function_alias_urn ApiGatewayApi#function_alias_urn}
   */
   readonly functionAliasUrn?: string;
   /**
   * The URN of the FunctionGraph function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#function_urn ApiGatewayApi#function_urn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#function_urn ApiGatewayApi#function_urn}
   */
   readonly functionUrn: string;
   /**
   * The invocation type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#invocation_type ApiGatewayApi#invocation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#invocation_type ApiGatewayApi#invocation_type}
   */
   readonly invocationType?: string;
   /**
   * The network architecture (framework) type of the FunctionGraph function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#network_type ApiGatewayApi#network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#network_type ApiGatewayApi#network_type}
   */
   readonly networkType?: string;
   /**
   * The request protocol of the FunctionGraph function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#request_protocol ApiGatewayApi#request_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#request_protocol ApiGatewayApi#request_protocol}
   */
   readonly requestProtocol?: string;
   /**
   * The timeout for API requests to backend service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#timeout ApiGatewayApi#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#timeout ApiGatewayApi#timeout}
   */
   readonly timeout?: number;
   /**
   * The version of the FunctionGraph function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#version ApiGatewayApi#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#version ApiGatewayApi#version}
   */
   readonly version?: string;
 }
@@ -800,35 +800,35 @@ export interface ApiGatewayApiFuncGraphPolicyBackendParams {
   /**
   * The description of the parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#description ApiGatewayApi#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#description ApiGatewayApi#description}
   */
   readonly description?: string;
   /**
   * Where the parameter is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#location ApiGatewayApi#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#location ApiGatewayApi#location}
   */
   readonly location: string;
   /**
   * The parameter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#name ApiGatewayApi#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#name ApiGatewayApi#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#system_param_type ApiGatewayApi#system_param_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#system_param_type ApiGatewayApi#system_param_type}
   */
   readonly systemParamType?: string;
   /**
   * The parameter type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#type ApiGatewayApi#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#type ApiGatewayApi#type}
   */
   readonly type: string;
   /**
   * The value of the parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#value ApiGatewayApi#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#value ApiGatewayApi#value}
   */
   readonly value: string;
 }
@@ -1079,55 +1079,55 @@ export interface ApiGatewayApiFuncGraphPolicyConditions {
   /**
   * The cookie parameter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#cookie_name ApiGatewayApi#cookie_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#cookie_name ApiGatewayApi#cookie_name}
   */
   readonly cookieName?: string;
   /**
   * The frontend authentication parameter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#frontend_authorizer_name ApiGatewayApi#frontend_authorizer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#frontend_authorizer_name ApiGatewayApi#frontend_authorizer_name}
   */
   readonly frontendAuthorizerName?: string;
   /**
   * The location of a parameter generated after orchestration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#mapped_param_location ApiGatewayApi#mapped_param_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#mapped_param_location ApiGatewayApi#mapped_param_location}
   */
   readonly mappedParamLocation?: string;
   /**
   * The name of a parameter generated after orchestration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#mapped_param_name ApiGatewayApi#mapped_param_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#mapped_param_name ApiGatewayApi#mapped_param_name}
   */
   readonly mappedParamName?: string;
   /**
   * The request parameter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#param_name ApiGatewayApi#param_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#param_name ApiGatewayApi#param_name}
   */
   readonly paramName?: string;
   /**
   * The type of the backend policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#source ApiGatewayApi#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#source ApiGatewayApi#source}
   */
   readonly source?: string;
   /**
   * The gateway built-in parameter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#sys_name ApiGatewayApi#sys_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#sys_name ApiGatewayApi#sys_name}
   */
   readonly sysName?: string;
   /**
   * The condition type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#type ApiGatewayApi#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#type ApiGatewayApi#type}
   */
   readonly type?: string;
   /**
   * The value of the backend policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#value ApiGatewayApi#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#value ApiGatewayApi#value}
   */
   readonly value: string;
 }
@@ -1474,79 +1474,79 @@ export interface ApiGatewayApiFuncGraphPolicy {
   /**
   * The ID of the backend custom authorization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#authorizer_id ApiGatewayApi#authorizer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#authorizer_id ApiGatewayApi#authorizer_id}
   */
   readonly authorizerId?: string;
   /**
   * The effective mode of the backend policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#effective_mode ApiGatewayApi#effective_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#effective_mode ApiGatewayApi#effective_mode}
   */
   readonly effectiveMode?: string;
   /**
   * The alias URN of the FunctionGraph function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#function_alias_urn ApiGatewayApi#function_alias_urn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#function_alias_urn ApiGatewayApi#function_alias_urn}
   */
   readonly functionAliasUrn?: string;
   /**
   * The URN of the FunctionGraph function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#function_urn ApiGatewayApi#function_urn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#function_urn ApiGatewayApi#function_urn}
   */
   readonly functionUrn: string;
   /**
   * The invocation mode of the FunctionGraph function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#invocation_mode ApiGatewayApi#invocation_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#invocation_mode ApiGatewayApi#invocation_mode}
   */
   readonly invocationMode?: string;
   /**
   * The invocation mode of the FunctionGraph function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#invocation_type ApiGatewayApi#invocation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#invocation_type ApiGatewayApi#invocation_type}
   */
   readonly invocationType?: string;
   /**
   * The name of the backend policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#name ApiGatewayApi#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#name ApiGatewayApi#name}
   */
   readonly name: string;
   /**
   * The network (framework) type of the FunctionGraph function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#network_type ApiGatewayApi#network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#network_type ApiGatewayApi#network_type}
   */
   readonly networkType?: string;
   /**
   * The request protocol of the FunctionGraph function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#request_protocol ApiGatewayApi#request_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#request_protocol ApiGatewayApi#request_protocol}
   */
   readonly requestProtocol?: string;
   /**
   * The timeout for API requests to backend service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#timeout ApiGatewayApi#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#timeout ApiGatewayApi#timeout}
   */
   readonly timeout?: number;
   /**
   * The version of the FunctionGraph function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#version ApiGatewayApi#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#version ApiGatewayApi#version}
   */
   readonly version?: string;
   /**
   * backend_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#backend_params ApiGatewayApi#backend_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#backend_params ApiGatewayApi#backend_params}
   */
   readonly backendParams?: ApiGatewayApiFuncGraphPolicyBackendParams[] | cdktf.IResolvable;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#conditions ApiGatewayApi#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#conditions ApiGatewayApi#conditions}
   */
   readonly conditions: ApiGatewayApiFuncGraphPolicyConditions[] | cdktf.IResolvable;
 }
@@ -2003,19 +2003,19 @@ export interface ApiGatewayApiMock {
   /**
   * The ID of the backend custom authorization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#authorizer_id ApiGatewayApi#authorizer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#authorizer_id ApiGatewayApi#authorizer_id}
   */
   readonly authorizerId?: string;
   /**
   * The response content of the mock.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#response ApiGatewayApi#response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#response ApiGatewayApi#response}
   */
   readonly response?: string;
   /**
   * The custom status code of the mock response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#status_code ApiGatewayApi#status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#status_code ApiGatewayApi#status_code}
   */
   readonly statusCode?: number;
 }
@@ -2159,35 +2159,35 @@ export interface ApiGatewayApiMockPolicyBackendParams {
   /**
   * The description of the parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#description ApiGatewayApi#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#description ApiGatewayApi#description}
   */
   readonly description?: string;
   /**
   * Where the parameter is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#location ApiGatewayApi#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#location ApiGatewayApi#location}
   */
   readonly location: string;
   /**
   * The parameter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#name ApiGatewayApi#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#name ApiGatewayApi#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#system_param_type ApiGatewayApi#system_param_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#system_param_type ApiGatewayApi#system_param_type}
   */
   readonly systemParamType?: string;
   /**
   * The parameter type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#type ApiGatewayApi#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#type ApiGatewayApi#type}
   */
   readonly type: string;
   /**
   * The value of the parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#value ApiGatewayApi#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#value ApiGatewayApi#value}
   */
   readonly value: string;
 }
@@ -2438,55 +2438,55 @@ export interface ApiGatewayApiMockPolicyConditions {
   /**
   * The cookie parameter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#cookie_name ApiGatewayApi#cookie_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#cookie_name ApiGatewayApi#cookie_name}
   */
   readonly cookieName?: string;
   /**
   * The frontend authentication parameter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#frontend_authorizer_name ApiGatewayApi#frontend_authorizer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#frontend_authorizer_name ApiGatewayApi#frontend_authorizer_name}
   */
   readonly frontendAuthorizerName?: string;
   /**
   * The location of a parameter generated after orchestration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#mapped_param_location ApiGatewayApi#mapped_param_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#mapped_param_location ApiGatewayApi#mapped_param_location}
   */
   readonly mappedParamLocation?: string;
   /**
   * The name of a parameter generated after orchestration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#mapped_param_name ApiGatewayApi#mapped_param_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#mapped_param_name ApiGatewayApi#mapped_param_name}
   */
   readonly mappedParamName?: string;
   /**
   * The request parameter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#param_name ApiGatewayApi#param_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#param_name ApiGatewayApi#param_name}
   */
   readonly paramName?: string;
   /**
   * The type of the backend policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#source ApiGatewayApi#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#source ApiGatewayApi#source}
   */
   readonly source?: string;
   /**
   * The gateway built-in parameter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#sys_name ApiGatewayApi#sys_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#sys_name ApiGatewayApi#sys_name}
   */
   readonly sysName?: string;
   /**
   * The condition type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#type ApiGatewayApi#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#type ApiGatewayApi#type}
   */
   readonly type?: string;
   /**
   * The value of the backend policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#value ApiGatewayApi#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#value ApiGatewayApi#value}
   */
   readonly value: string;
 }
@@ -2833,43 +2833,43 @@ export interface ApiGatewayApiMockPolicy {
   /**
   * The ID of the backend custom authorization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#authorizer_id ApiGatewayApi#authorizer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#authorizer_id ApiGatewayApi#authorizer_id}
   */
   readonly authorizerId?: string;
   /**
   * The effective mode of the backend policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#effective_mode ApiGatewayApi#effective_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#effective_mode ApiGatewayApi#effective_mode}
   */
   readonly effectiveMode?: string;
   /**
   * The backend policy name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#name ApiGatewayApi#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#name ApiGatewayApi#name}
   */
   readonly name: string;
   /**
   * The response content of the mock.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#response ApiGatewayApi#response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#response ApiGatewayApi#response}
   */
   readonly response?: string;
   /**
   * The custom status code of the mock response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#status_code ApiGatewayApi#status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#status_code ApiGatewayApi#status_code}
   */
   readonly statusCode?: number;
   /**
   * backend_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#backend_params ApiGatewayApi#backend_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#backend_params ApiGatewayApi#backend_params}
   */
   readonly backendParams?: ApiGatewayApiMockPolicyBackendParams[] | cdktf.IResolvable;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#conditions ApiGatewayApi#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#conditions ApiGatewayApi#conditions}
   */
   readonly conditions: ApiGatewayApiMockPolicyConditions[] | cdktf.IResolvable;
 }
@@ -3155,79 +3155,79 @@ export interface ApiGatewayApiRequestParams {
   /**
   * The default value of the parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#default ApiGatewayApi#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#default ApiGatewayApi#default}
   */
   readonly default?: string;
   /**
   * The parameter description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#description ApiGatewayApi#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#description ApiGatewayApi#description}
   */
   readonly description?: string;
   /**
   * The enumerated value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#enumeration ApiGatewayApi#enumeration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#enumeration ApiGatewayApi#enumeration}
   */
   readonly enumeration?: string;
   /**
   * The parameter example.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#example ApiGatewayApi#example}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#example ApiGatewayApi#example}
   */
   readonly example?: string;
   /**
   * Where this parameter is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#location ApiGatewayApi#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#location ApiGatewayApi#location}
   */
   readonly location?: string;
   /**
   * The maximum value or length (string parameter) for parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#maximum ApiGatewayApi#maximum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#maximum ApiGatewayApi#maximum}
   */
   readonly maximum?: number;
   /**
   * The minimum value or length (string parameter) for parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#minimum ApiGatewayApi#minimum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#minimum ApiGatewayApi#minimum}
   */
   readonly minimum?: number;
   /**
   * The name of the request parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#name ApiGatewayApi#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#name ApiGatewayApi#name}
   */
   readonly name: string;
   /**
   * The list of orchestration rules that parameter used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#orchestrations ApiGatewayApi#orchestrations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#orchestrations ApiGatewayApi#orchestrations}
   */
   readonly orchestrations?: string[];
   /**
   * Whether to transparently transfer the parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#passthrough ApiGatewayApi#passthrough}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#passthrough ApiGatewayApi#passthrough}
   */
   readonly passthrough?: boolean | cdktf.IResolvable;
   /**
   * Whether this parameter is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#required ApiGatewayApi#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#required ApiGatewayApi#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * The parameter type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#type ApiGatewayApi#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#type ApiGatewayApi#type}
   */
   readonly type?: string;
   /**
   * Whether to enable the parameter validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#valid_enable ApiGatewayApi#valid_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#valid_enable ApiGatewayApi#valid_enable}
   */
   readonly validEnable?: number;
 }
@@ -3690,61 +3690,61 @@ export interface ApiGatewayApiWeb {
   /**
   * The ID of the backend custom authorization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#authorizer_id ApiGatewayApi#authorizer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#authorizer_id ApiGatewayApi#authorizer_id}
   */
   readonly authorizerId?: string;
   /**
   * The backend service address, which consists of a domain name or IP address, and a port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#backend_address ApiGatewayApi#backend_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#backend_address ApiGatewayApi#backend_address}
   */
   readonly backendAddress?: string;
   /**
   * The proxy host header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#host_header ApiGatewayApi#host_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#host_header ApiGatewayApi#host_header}
   */
   readonly hostHeader?: string;
   /**
   * The backend request path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#path ApiGatewayApi#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#path ApiGatewayApi#path}
   */
   readonly path: string;
   /**
   * The backend request method of the API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#request_method ApiGatewayApi#request_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#request_method ApiGatewayApi#request_method}
   */
   readonly requestMethod?: string;
   /**
   * The web protocol type of the API request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#request_protocol ApiGatewayApi#request_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#request_protocol ApiGatewayApi#request_protocol}
   */
   readonly requestProtocol?: string;
   /**
   * The number of retry attempts to request the backend service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#retry_count ApiGatewayApi#retry_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#retry_count ApiGatewayApi#retry_count}
   */
   readonly retryCount?: number;
   /**
   * Whether to enable two-way authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#ssl_enable ApiGatewayApi#ssl_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#ssl_enable ApiGatewayApi#ssl_enable}
   */
   readonly sslEnable?: boolean | cdktf.IResolvable;
   /**
   * The timeout for API requests to backend service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#timeout ApiGatewayApi#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#timeout ApiGatewayApi#timeout}
   */
   readonly timeout?: number;
   /**
   * The VPC channel ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#vpc_channel_id ApiGatewayApi#vpc_channel_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#vpc_channel_id ApiGatewayApi#vpc_channel_id}
   */
   readonly vpcChannelId?: string;
 }
@@ -4088,35 +4088,35 @@ export interface ApiGatewayApiWebPolicyBackendParams {
   /**
   * The description of the parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#description ApiGatewayApi#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#description ApiGatewayApi#description}
   */
   readonly description?: string;
   /**
   * Where the parameter is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#location ApiGatewayApi#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#location ApiGatewayApi#location}
   */
   readonly location: string;
   /**
   * The parameter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#name ApiGatewayApi#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#name ApiGatewayApi#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#system_param_type ApiGatewayApi#system_param_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#system_param_type ApiGatewayApi#system_param_type}
   */
   readonly systemParamType?: string;
   /**
   * The parameter type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#type ApiGatewayApi#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#type ApiGatewayApi#type}
   */
   readonly type: string;
   /**
   * The value of the parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#value ApiGatewayApi#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#value ApiGatewayApi#value}
   */
   readonly value: string;
 }
@@ -4367,55 +4367,55 @@ export interface ApiGatewayApiWebPolicyConditions {
   /**
   * The cookie parameter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#cookie_name ApiGatewayApi#cookie_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#cookie_name ApiGatewayApi#cookie_name}
   */
   readonly cookieName?: string;
   /**
   * The frontend authentication parameter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#frontend_authorizer_name ApiGatewayApi#frontend_authorizer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#frontend_authorizer_name ApiGatewayApi#frontend_authorizer_name}
   */
   readonly frontendAuthorizerName?: string;
   /**
   * The location of a parameter generated after orchestration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#mapped_param_location ApiGatewayApi#mapped_param_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#mapped_param_location ApiGatewayApi#mapped_param_location}
   */
   readonly mappedParamLocation?: string;
   /**
   * The name of a parameter generated after orchestration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#mapped_param_name ApiGatewayApi#mapped_param_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#mapped_param_name ApiGatewayApi#mapped_param_name}
   */
   readonly mappedParamName?: string;
   /**
   * The request parameter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#param_name ApiGatewayApi#param_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#param_name ApiGatewayApi#param_name}
   */
   readonly paramName?: string;
   /**
   * The type of the backend policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#source ApiGatewayApi#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#source ApiGatewayApi#source}
   */
   readonly source?: string;
   /**
   * The gateway built-in parameter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#sys_name ApiGatewayApi#sys_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#sys_name ApiGatewayApi#sys_name}
   */
   readonly sysName?: string;
   /**
   * The condition type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#type ApiGatewayApi#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#type ApiGatewayApi#type}
   */
   readonly type?: string;
   /**
   * The value of the backend policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#value ApiGatewayApi#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#value ApiGatewayApi#value}
   */
   readonly value: string;
 }
@@ -4762,79 +4762,79 @@ export interface ApiGatewayApiWebPolicy {
   /**
   * The ID of the backend custom authorization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#authorizer_id ApiGatewayApi#authorizer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#authorizer_id ApiGatewayApi#authorizer_id}
   */
   readonly authorizerId?: string;
   /**
   * The backend service address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#backend_address ApiGatewayApi#backend_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#backend_address ApiGatewayApi#backend_address}
   */
   readonly backendAddress?: string;
   /**
   * The effective mode of the backend policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#effective_mode ApiGatewayApi#effective_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#effective_mode ApiGatewayApi#effective_mode}
   */
   readonly effectiveMode?: string;
   /**
   * The proxy host header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#host_header ApiGatewayApi#host_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#host_header ApiGatewayApi#host_header}
   */
   readonly hostHeader?: string;
   /**
   * The name of the web policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#name ApiGatewayApi#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#name ApiGatewayApi#name}
   */
   readonly name: string;
   /**
   * The backend request address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#path ApiGatewayApi#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#path ApiGatewayApi#path}
   */
   readonly path: string;
   /**
   * The backend request method of the API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#request_method ApiGatewayApi#request_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#request_method ApiGatewayApi#request_method}
   */
   readonly requestMethod: string;
   /**
   * The backend request protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#request_protocol ApiGatewayApi#request_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#request_protocol ApiGatewayApi#request_protocol}
   */
   readonly requestProtocol?: string;
   /**
   * The number of retry attempts to request the backend service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#retry_count ApiGatewayApi#retry_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#retry_count ApiGatewayApi#retry_count}
   */
   readonly retryCount?: number;
   /**
   * The timeout for API requests to backend service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#timeout ApiGatewayApi#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#timeout ApiGatewayApi#timeout}
   */
   readonly timeout?: number;
   /**
   * The VPC channel ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#vpc_channel_id ApiGatewayApi#vpc_channel_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#vpc_channel_id ApiGatewayApi#vpc_channel_id}
   */
   readonly vpcChannelId?: string;
   /**
   * backend_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#backend_params ApiGatewayApi#backend_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#backend_params ApiGatewayApi#backend_params}
   */
   readonly backendParams?: ApiGatewayApiWebPolicyBackendParams[] | cdktf.IResolvable;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#conditions ApiGatewayApi#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#conditions ApiGatewayApi#conditions}
   */
   readonly conditions: ApiGatewayApiWebPolicyConditions[] | cdktf.IResolvable;
 }
@@ -5286,7 +5286,7 @@ export class ApiGatewayApiWebPolicyList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api sbercloud_api_gateway_api}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api sbercloud_api_gateway_api}
 */
 export class ApiGatewayApi extends cdktf.TerraformResource {
 
@@ -5302,7 +5302,7 @@ export class ApiGatewayApi extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApiGatewayApi resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApiGatewayApi to import
-  * @param importFromId The id of the existing ApiGatewayApi that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApiGatewayApi that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApiGatewayApi to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5314,7 +5314,7 @@ export class ApiGatewayApi extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/api_gateway_api sbercloud_api_gateway_api} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/api_gateway_api sbercloud_api_gateway_api} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5325,8 +5325,8 @@ export class ApiGatewayApi extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_api_gateway_api',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

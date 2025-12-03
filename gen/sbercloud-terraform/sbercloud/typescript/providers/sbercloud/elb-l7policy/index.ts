@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,92 +8,92 @@ import * as cdktf from 'cdktf';
 
 export interface ElbL7PolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#action ElbL7Policy#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#action ElbL7Policy#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#description ElbL7Policy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#description ElbL7Policy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#id ElbL7Policy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#id ElbL7Policy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#listener_id ElbL7Policy#listener_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#listener_id ElbL7Policy#listener_id}
   */
   readonly listenerId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#name ElbL7Policy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#name ElbL7Policy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#priority ElbL7Policy#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#priority ElbL7Policy#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#redirect_listener_id ElbL7Policy#redirect_listener_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#redirect_listener_id ElbL7Policy#redirect_listener_id}
   */
   readonly redirectListenerId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#redirect_pool_id ElbL7Policy#redirect_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#redirect_pool_id ElbL7Policy#redirect_pool_id}
   */
   readonly redirectPoolId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#region ElbL7Policy#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#region ElbL7Policy#region}
   */
   readonly region?: string;
   /**
   * fixed_response_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#fixed_response_config ElbL7Policy#fixed_response_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#fixed_response_config ElbL7Policy#fixed_response_config}
   */
   readonly fixedResponseConfig?: ElbL7PolicyFixedResponseConfig;
   /**
   * redirect_pools_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#redirect_pools_config ElbL7Policy#redirect_pools_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#redirect_pools_config ElbL7Policy#redirect_pools_config}
   */
   readonly redirectPoolsConfig?: ElbL7PolicyRedirectPoolsConfig[] | cdktf.IResolvable;
   /**
   * redirect_pools_extend_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#redirect_pools_extend_config ElbL7Policy#redirect_pools_extend_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#redirect_pools_extend_config ElbL7Policy#redirect_pools_extend_config}
   */
   readonly redirectPoolsExtendConfig?: ElbL7PolicyRedirectPoolsExtendConfig;
   /**
   * redirect_pools_sticky_session_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#redirect_pools_sticky_session_config ElbL7Policy#redirect_pools_sticky_session_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#redirect_pools_sticky_session_config ElbL7Policy#redirect_pools_sticky_session_config}
   */
   readonly redirectPoolsStickySessionConfig?: ElbL7PolicyRedirectPoolsStickySessionConfig;
   /**
   * redirect_url_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#redirect_url_config ElbL7Policy#redirect_url_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#redirect_url_config ElbL7Policy#redirect_url_config}
   */
   readonly redirectUrlConfig?: ElbL7PolicyRedirectUrlConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#timeouts ElbL7Policy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#timeouts ElbL7Policy#timeouts}
   */
   readonly timeouts?: ElbL7PolicyTimeouts;
 }
 export interface ElbL7PolicyFixedResponseConfigInsertHeadersConfigConfigs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#key ElbL7Policy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#key ElbL7Policy#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#value ElbL7Policy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#value ElbL7Policy#value}
   */
   readonly value: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#value_type ElbL7Policy#value_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#value_type ElbL7Policy#value_type}
   */
   readonly valueType: string;
 }
@@ -260,7 +260,7 @@ export interface ElbL7PolicyFixedResponseConfigInsertHeadersConfig {
   /**
   * configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#configs ElbL7Policy#configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#configs ElbL7Policy#configs}
   */
   readonly configs: ElbL7PolicyFixedResponseConfigInsertHeadersConfigConfigs[] | cdktf.IResolvable;
 }
@@ -341,7 +341,7 @@ export class ElbL7PolicyFixedResponseConfigInsertHeadersConfigOutputReference ex
 }
 export interface ElbL7PolicyFixedResponseConfigRemoveHeadersConfigConfigs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#key ElbL7Policy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#key ElbL7Policy#key}
   */
   readonly key: string;
 }
@@ -456,7 +456,7 @@ export interface ElbL7PolicyFixedResponseConfigRemoveHeadersConfig {
   /**
   * configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#configs ElbL7Policy#configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#configs ElbL7Policy#configs}
   */
   readonly configs: ElbL7PolicyFixedResponseConfigRemoveHeadersConfigConfigs[] | cdktf.IResolvable;
 }
@@ -537,15 +537,15 @@ export class ElbL7PolicyFixedResponseConfigRemoveHeadersConfigOutputReference ex
 }
 export interface ElbL7PolicyFixedResponseConfigTrafficLimitConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#burst ElbL7Policy#burst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#burst ElbL7Policy#burst}
   */
   readonly burst?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#per_source_ip_qps ElbL7Policy#per_source_ip_qps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#per_source_ip_qps ElbL7Policy#per_source_ip_qps}
   */
   readonly perSourceIpQps?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#qps ElbL7Policy#qps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#qps ElbL7Policy#qps}
   */
   readonly qps?: number;
 }
@@ -687,33 +687,33 @@ export class ElbL7PolicyFixedResponseConfigTrafficLimitConfigOutputReference ext
 }
 export interface ElbL7PolicyFixedResponseConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#content_type ElbL7Policy#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#content_type ElbL7Policy#content_type}
   */
   readonly contentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#message_body ElbL7Policy#message_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#message_body ElbL7Policy#message_body}
   */
   readonly messageBody?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#status_code ElbL7Policy#status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#status_code ElbL7Policy#status_code}
   */
   readonly statusCode: string;
   /**
   * insert_headers_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#insert_headers_config ElbL7Policy#insert_headers_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#insert_headers_config ElbL7Policy#insert_headers_config}
   */
   readonly insertHeadersConfig?: ElbL7PolicyFixedResponseConfigInsertHeadersConfig;
   /**
   * remove_headers_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#remove_headers_config ElbL7Policy#remove_headers_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#remove_headers_config ElbL7Policy#remove_headers_config}
   */
   readonly removeHeadersConfig?: ElbL7PolicyFixedResponseConfigRemoveHeadersConfig;
   /**
   * traffic_limit_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#traffic_limit_config ElbL7Policy#traffic_limit_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#traffic_limit_config ElbL7Policy#traffic_limit_config}
   */
   readonly trafficLimitConfig?: ElbL7PolicyFixedResponseConfigTrafficLimitConfig;
 }
@@ -939,11 +939,11 @@ export class ElbL7PolicyFixedResponseConfigOutputReference extends cdktf.Complex
 }
 export interface ElbL7PolicyRedirectPoolsConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#pool_id ElbL7Policy#pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#pool_id ElbL7Policy#pool_id}
   */
   readonly poolId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#weight ElbL7Policy#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#weight ElbL7Policy#weight}
   */
   readonly weight?: number;
 }
@@ -1085,15 +1085,15 @@ export class ElbL7PolicyRedirectPoolsConfigList extends cdktf.ComplexList {
 }
 export interface ElbL7PolicyRedirectPoolsExtendConfigInsertHeadersConfigConfigs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#key ElbL7Policy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#key ElbL7Policy#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#value ElbL7Policy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#value ElbL7Policy#value}
   */
   readonly value: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#value_type ElbL7Policy#value_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#value_type ElbL7Policy#value_type}
   */
   readonly valueType: string;
 }
@@ -1260,7 +1260,7 @@ export interface ElbL7PolicyRedirectPoolsExtendConfigInsertHeadersConfig {
   /**
   * configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#configs ElbL7Policy#configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#configs ElbL7Policy#configs}
   */
   readonly configs: ElbL7PolicyRedirectPoolsExtendConfigInsertHeadersConfigConfigs[] | cdktf.IResolvable;
 }
@@ -1341,7 +1341,7 @@ export class ElbL7PolicyRedirectPoolsExtendConfigInsertHeadersConfigOutputRefere
 }
 export interface ElbL7PolicyRedirectPoolsExtendConfigRemoveHeadersConfigConfigs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#key ElbL7Policy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#key ElbL7Policy#key}
   */
   readonly key: string;
 }
@@ -1456,7 +1456,7 @@ export interface ElbL7PolicyRedirectPoolsExtendConfigRemoveHeadersConfig {
   /**
   * configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#configs ElbL7Policy#configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#configs ElbL7Policy#configs}
   */
   readonly configs: ElbL7PolicyRedirectPoolsExtendConfigRemoveHeadersConfigConfigs[] | cdktf.IResolvable;
 }
@@ -1537,15 +1537,15 @@ export class ElbL7PolicyRedirectPoolsExtendConfigRemoveHeadersConfigOutputRefere
 }
 export interface ElbL7PolicyRedirectPoolsExtendConfigRewriteUrlConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#host ElbL7Policy#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#host ElbL7Policy#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#path ElbL7Policy#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#path ElbL7Policy#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#query ElbL7Policy#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#query ElbL7Policy#query}
   */
   readonly query?: string;
 }
@@ -1687,15 +1687,15 @@ export class ElbL7PolicyRedirectPoolsExtendConfigRewriteUrlConfigOutputReference
 }
 export interface ElbL7PolicyRedirectPoolsExtendConfigTrafficLimitConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#burst ElbL7Policy#burst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#burst ElbL7Policy#burst}
   */
   readonly burst?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#per_source_ip_qps ElbL7Policy#per_source_ip_qps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#per_source_ip_qps ElbL7Policy#per_source_ip_qps}
   */
   readonly perSourceIpQps?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#qps ElbL7Policy#qps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#qps ElbL7Policy#qps}
   */
   readonly qps?: number;
 }
@@ -1837,31 +1837,31 @@ export class ElbL7PolicyRedirectPoolsExtendConfigTrafficLimitConfigOutputReferen
 }
 export interface ElbL7PolicyRedirectPoolsExtendConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#rewrite_url_enabled ElbL7Policy#rewrite_url_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#rewrite_url_enabled ElbL7Policy#rewrite_url_enabled}
   */
   readonly rewriteUrlEnabled?: boolean | cdktf.IResolvable;
   /**
   * insert_headers_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#insert_headers_config ElbL7Policy#insert_headers_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#insert_headers_config ElbL7Policy#insert_headers_config}
   */
   readonly insertHeadersConfig?: ElbL7PolicyRedirectPoolsExtendConfigInsertHeadersConfig;
   /**
   * remove_headers_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#remove_headers_config ElbL7Policy#remove_headers_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#remove_headers_config ElbL7Policy#remove_headers_config}
   */
   readonly removeHeadersConfig?: ElbL7PolicyRedirectPoolsExtendConfigRemoveHeadersConfig;
   /**
   * rewrite_url_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#rewrite_url_config ElbL7Policy#rewrite_url_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#rewrite_url_config ElbL7Policy#rewrite_url_config}
   */
   readonly rewriteUrlConfig?: ElbL7PolicyRedirectPoolsExtendConfigRewriteUrlConfig;
   /**
   * traffic_limit_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#traffic_limit_config ElbL7Policy#traffic_limit_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#traffic_limit_config ElbL7Policy#traffic_limit_config}
   */
   readonly trafficLimitConfig?: ElbL7PolicyRedirectPoolsExtendConfigTrafficLimitConfig;
 }
@@ -2061,11 +2061,11 @@ export class ElbL7PolicyRedirectPoolsExtendConfigOutputReference extends cdktf.C
 }
 export interface ElbL7PolicyRedirectPoolsStickySessionConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#enable ElbL7Policy#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#enable ElbL7Policy#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#timeout ElbL7Policy#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#timeout ElbL7Policy#timeout}
   */
   readonly timeout?: number;
 }
@@ -2178,15 +2178,15 @@ export class ElbL7PolicyRedirectPoolsStickySessionConfigOutputReference extends 
 }
 export interface ElbL7PolicyRedirectUrlConfigInsertHeadersConfigConfigs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#key ElbL7Policy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#key ElbL7Policy#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#value ElbL7Policy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#value ElbL7Policy#value}
   */
   readonly value: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#value_type ElbL7Policy#value_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#value_type ElbL7Policy#value_type}
   */
   readonly valueType: string;
 }
@@ -2353,7 +2353,7 @@ export interface ElbL7PolicyRedirectUrlConfigInsertHeadersConfig {
   /**
   * configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#configs ElbL7Policy#configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#configs ElbL7Policy#configs}
   */
   readonly configs: ElbL7PolicyRedirectUrlConfigInsertHeadersConfigConfigs[] | cdktf.IResolvable;
 }
@@ -2434,7 +2434,7 @@ export class ElbL7PolicyRedirectUrlConfigInsertHeadersConfigOutputReference exte
 }
 export interface ElbL7PolicyRedirectUrlConfigRemoveHeadersConfigConfigs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#key ElbL7Policy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#key ElbL7Policy#key}
   */
   readonly key: string;
 }
@@ -2549,7 +2549,7 @@ export interface ElbL7PolicyRedirectUrlConfigRemoveHeadersConfig {
   /**
   * configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#configs ElbL7Policy#configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#configs ElbL7Policy#configs}
   */
   readonly configs: ElbL7PolicyRedirectUrlConfigRemoveHeadersConfigConfigs[] | cdktf.IResolvable;
 }
@@ -2630,39 +2630,39 @@ export class ElbL7PolicyRedirectUrlConfigRemoveHeadersConfigOutputReference exte
 }
 export interface ElbL7PolicyRedirectUrlConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#host ElbL7Policy#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#host ElbL7Policy#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#path ElbL7Policy#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#path ElbL7Policy#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#port ElbL7Policy#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#port ElbL7Policy#port}
   */
   readonly port?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#protocol ElbL7Policy#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#protocol ElbL7Policy#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#query ElbL7Policy#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#query ElbL7Policy#query}
   */
   readonly query?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#status_code ElbL7Policy#status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#status_code ElbL7Policy#status_code}
   */
   readonly statusCode: string;
   /**
   * insert_headers_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#insert_headers_config ElbL7Policy#insert_headers_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#insert_headers_config ElbL7Policy#insert_headers_config}
   */
   readonly insertHeadersConfig?: ElbL7PolicyRedirectUrlConfigInsertHeadersConfig;
   /**
   * remove_headers_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#remove_headers_config ElbL7Policy#remove_headers_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#remove_headers_config ElbL7Policy#remove_headers_config}
   */
   readonly removeHeadersConfig?: ElbL7PolicyRedirectUrlConfigRemoveHeadersConfig;
 }
@@ -2946,15 +2946,15 @@ export class ElbL7PolicyRedirectUrlConfigOutputReference extends cdktf.ComplexOb
 }
 export interface ElbL7PolicyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#create ElbL7Policy#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#create ElbL7Policy#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#delete ElbL7Policy#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#delete ElbL7Policy#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#update ElbL7Policy#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#update ElbL7Policy#update}
   */
   readonly update?: string;
 }
@@ -3106,7 +3106,7 @@ export class ElbL7PolicyTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy sbercloud_elb_l7policy}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy sbercloud_elb_l7policy}
 */
 export class ElbL7Policy extends cdktf.TerraformResource {
 
@@ -3122,7 +3122,7 @@ export class ElbL7Policy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ElbL7Policy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ElbL7Policy to import
-  * @param importFromId The id of the existing ElbL7Policy that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ElbL7Policy that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ElbL7Policy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3134,7 +3134,7 @@ export class ElbL7Policy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/elb_l7policy sbercloud_elb_l7policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/elb_l7policy sbercloud_elb_l7policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3145,8 +3145,8 @@ export class ElbL7Policy extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_elb_l7policy',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

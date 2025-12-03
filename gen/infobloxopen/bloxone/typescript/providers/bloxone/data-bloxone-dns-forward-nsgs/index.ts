@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_forward_nsgs
+// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_forward_nsgs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataBloxoneDnsForwardNsgsConfig extends cdktf.TerraformMetaArgu
   /**
   * Filter are used to return a more specific list of results. Filters can be used to match resources by specific attributes, e.g. name. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_forward_nsgs#filters DataBloxoneDnsForwardNsgs#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_forward_nsgs#filters DataBloxoneDnsForwardNsgs#filters}
   */
   readonly filters?: { [key: string]: string };
   /**
   * Tag Filters are used to return a more specific list of results filtered by tags. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_forward_nsgs#tag_filters DataBloxoneDnsForwardNsgs#tag_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_forward_nsgs#tag_filters DataBloxoneDnsForwardNsgs#tag_filters}
   */
   readonly tagFilters?: { [key: string]: string };
 }
@@ -24,13 +24,13 @@ export interface DataBloxoneDnsForwardNsgsResultsExternalForwarders {
   /**
   * Server IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_forward_nsgs#address DataBloxoneDnsForwardNsgs#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_forward_nsgs#address DataBloxoneDnsForwardNsgs#address}
   */
   readonly address: string;
   /**
   * Server FQDN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_forward_nsgs#fqdn DataBloxoneDnsForwardNsgs#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_forward_nsgs#fqdn DataBloxoneDnsForwardNsgs#fqdn}
   */
   readonly fqdn?: string;
 }
@@ -179,49 +179,49 @@ export interface DataBloxoneDnsForwardNsgsResults {
   /**
   * Optional. Comment for the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_forward_nsgs#comment DataBloxoneDnsForwardNsgs#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_forward_nsgs#comment DataBloxoneDnsForwardNsgs#comment}
   */
   readonly comment?: string;
   /**
   * Optional. External DNS servers to forward to. Order is not significant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_forward_nsgs#external_forwarders DataBloxoneDnsForwardNsgs#external_forwarders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_forward_nsgs#external_forwarders DataBloxoneDnsForwardNsgs#external_forwarders}
   */
   readonly externalForwarders?: DataBloxoneDnsForwardNsgsResultsExternalForwarders[] | cdktf.IResolvable;
   /**
   * Optional. _true_ to only forward.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_forward_nsgs#forwarders_only DataBloxoneDnsForwardNsgs#forwarders_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_forward_nsgs#forwarders_only DataBloxoneDnsForwardNsgs#forwarders_only}
   */
   readonly forwardersOnly?: boolean | cdktf.IResolvable;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_forward_nsgs#hosts DataBloxoneDnsForwardNsgs#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_forward_nsgs#hosts DataBloxoneDnsForwardNsgs#hosts}
   */
   readonly hosts?: string[];
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_forward_nsgs#internal_forwarders DataBloxoneDnsForwardNsgs#internal_forwarders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_forward_nsgs#internal_forwarders DataBloxoneDnsForwardNsgs#internal_forwarders}
   */
   readonly internalForwarders?: string[];
   /**
   * Name of the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_forward_nsgs#name DataBloxoneDnsForwardNsgs#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_forward_nsgs#name DataBloxoneDnsForwardNsgs#name}
   */
   readonly name: string;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_forward_nsgs#nsgs DataBloxoneDnsForwardNsgs#nsgs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_forward_nsgs#nsgs DataBloxoneDnsForwardNsgs#nsgs}
   */
   readonly nsgs?: string[];
   /**
   * Tagging specifics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_forward_nsgs#tags DataBloxoneDnsForwardNsgs#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_forward_nsgs#tags DataBloxoneDnsForwardNsgs#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -538,7 +538,7 @@ export class DataBloxoneDnsForwardNsgsResultsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_forward_nsgs bloxone_dns_forward_nsgs}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_forward_nsgs bloxone_dns_forward_nsgs}
 */
 export class DataBloxoneDnsForwardNsgs extends cdktf.TerraformDataSource {
 
@@ -554,7 +554,7 @@ export class DataBloxoneDnsForwardNsgs extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataBloxoneDnsForwardNsgs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataBloxoneDnsForwardNsgs to import
-  * @param importFromId The id of the existing DataBloxoneDnsForwardNsgs that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_forward_nsgs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataBloxoneDnsForwardNsgs that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_forward_nsgs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataBloxoneDnsForwardNsgs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -566,7 +566,7 @@ export class DataBloxoneDnsForwardNsgs extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_forward_nsgs bloxone_dns_forward_nsgs} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_forward_nsgs bloxone_dns_forward_nsgs} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -577,8 +577,8 @@ export class DataBloxoneDnsForwardNsgs extends cdktf.TerraformDataSource {
       terraformResourceType: 'bloxone_dns_forward_nsgs',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.5.4',
+        providerVersionConstraint: '1.5.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

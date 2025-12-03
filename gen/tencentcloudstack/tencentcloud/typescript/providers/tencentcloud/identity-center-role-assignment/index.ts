@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/identity_center_role_assignment
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/identity_center_role_assignment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface IdentityCenterRoleAssignmentConfig extends cdktf.TerraformMetaA
   /**
   * When you remove the last authorization configured with a certain privilege on a group account target account, whether to cancel the privilege configuration deployment at the same time. Value: DeprovisionForLastRoleAssignmentOnAccount: Remove privileges to configure deployment. None (default): Configure deployment without delegating privileges.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/identity_center_role_assignment#deprovision_strategy IdentityCenterRoleAssignment#deprovision_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/identity_center_role_assignment#deprovision_strategy IdentityCenterRoleAssignment#deprovision_strategy}
   */
   readonly deprovisionStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/identity_center_role_assignment#id IdentityCenterRoleAssignment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/identity_center_role_assignment#id IdentityCenterRoleAssignment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,7 +25,7 @@ export interface IdentityCenterRoleAssignmentConfig extends cdktf.TerraformMetaA
   * When the PrincipalType value is Group, it is the CIC user group ID (g-********).
   * When the PrincipalType value is User, it is the CIC user ID (u-********).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/identity_center_role_assignment#principal_id IdentityCenterRoleAssignment#principal_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/identity_center_role_assignment#principal_id IdentityCenterRoleAssignment#principal_id}
   */
   readonly principalId: string;
   /**
@@ -34,37 +34,37 @@ export interface IdentityCenterRoleAssignmentConfig extends cdktf.TerraformMetaA
   * User: indicates that the identity for the CAM user synchronization is a CIC user.
   * Group: indicates that the identity for the CAM user synchronization is a CIC user group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/identity_center_role_assignment#principal_type IdentityCenterRoleAssignment#principal_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/identity_center_role_assignment#principal_type IdentityCenterRoleAssignment#principal_type}
   */
   readonly principalType: string;
   /**
   * Permission configuration ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/identity_center_role_assignment#role_configuration_id IdentityCenterRoleAssignment#role_configuration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/identity_center_role_assignment#role_configuration_id IdentityCenterRoleAssignment#role_configuration_id}
   */
   readonly roleConfigurationId: string;
   /**
   * Type of the synchronized target account of the Tencent Cloud Organization. ManagerUin: admin account; MemberUin: member account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/identity_center_role_assignment#target_type IdentityCenterRoleAssignment#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/identity_center_role_assignment#target_type IdentityCenterRoleAssignment#target_type}
   */
   readonly targetType: string;
   /**
   * UIN of the synchronized target account of the Tencent Cloud Organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/identity_center_role_assignment#target_uin IdentityCenterRoleAssignment#target_uin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/identity_center_role_assignment#target_uin IdentityCenterRoleAssignment#target_uin}
   */
   readonly targetUin: number;
   /**
   * Space ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/identity_center_role_assignment#zone_id IdentityCenterRoleAssignment#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/identity_center_role_assignment#zone_id IdentityCenterRoleAssignment#zone_id}
   */
   readonly zoneId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/identity_center_role_assignment tencentcloud_identity_center_role_assignment}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/identity_center_role_assignment tencentcloud_identity_center_role_assignment}
 */
 export class IdentityCenterRoleAssignment extends cdktf.TerraformResource {
 
@@ -80,7 +80,7 @@ export class IdentityCenterRoleAssignment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IdentityCenterRoleAssignment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IdentityCenterRoleAssignment to import
-  * @param importFromId The id of the existing IdentityCenterRoleAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/identity_center_role_assignment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IdentityCenterRoleAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/identity_center_role_assignment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IdentityCenterRoleAssignment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -92,7 +92,7 @@ export class IdentityCenterRoleAssignment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/identity_center_role_assignment tencentcloud_identity_center_role_assignment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/identity_center_role_assignment tencentcloud_identity_center_role_assignment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -103,8 +103,8 @@ export class IdentityCenterRoleAssignment extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_identity_center_role_assignment',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.39',
-        providerVersionConstraint: '1.82.39'
+        providerVersion: '1.82.40',
+        providerVersionConstraint: '1.82.40'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

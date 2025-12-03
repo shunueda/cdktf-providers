@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_rocketmq_consumer_group_access_users
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_rocketmq_consumer_group_access_users
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataSbercloudDmsRocketmqConsumerGroupAccessUsersConfig extends 
   /**
   * Specifies the consumer group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_rocketmq_consumer_group_access_users#group DataSbercloudDmsRocketmqConsumerGroupAccessUsers#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_rocketmq_consumer_group_access_users#group DataSbercloudDmsRocketmqConsumerGroupAccessUsers#group}
   */
   readonly group: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_rocketmq_consumer_group_access_users#id DataSbercloudDmsRocketmqConsumerGroupAccessUsers#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_rocketmq_consumer_group_access_users#id DataSbercloudDmsRocketmqConsumerGroupAccessUsers#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface DataSbercloudDmsRocketmqConsumerGroupAccessUsersConfig extends 
   /**
   * Specifies the instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_rocketmq_consumer_group_access_users#instance_id DataSbercloudDmsRocketmqConsumerGroupAccessUsers#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_rocketmq_consumer_group_access_users#instance_id DataSbercloudDmsRocketmqConsumerGroupAccessUsers#instance_id}
   */
   readonly instanceId: string;
   /**
   * Specifies the region in which to query the resource. If omitted, the provider-level region will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_rocketmq_consumer_group_access_users#region DataSbercloudDmsRocketmqConsumerGroupAccessUsers#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_rocketmq_consumer_group_access_users#region DataSbercloudDmsRocketmqConsumerGroupAccessUsers#region}
   */
   readonly region?: string;
 }
@@ -125,7 +125,7 @@ export class DataSbercloudDmsRocketmqConsumerGroupAccessUsersPoliciesList extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_rocketmq_consumer_group_access_users sbercloud_dms_rocketmq_consumer_group_access_users}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_rocketmq_consumer_group_access_users sbercloud_dms_rocketmq_consumer_group_access_users}
 */
 export class DataSbercloudDmsRocketmqConsumerGroupAccessUsers extends cdktf.TerraformDataSource {
 
@@ -141,7 +141,7 @@ export class DataSbercloudDmsRocketmqConsumerGroupAccessUsers extends cdktf.Terr
   * Generates CDKTF code for importing a DataSbercloudDmsRocketmqConsumerGroupAccessUsers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSbercloudDmsRocketmqConsumerGroupAccessUsers to import
-  * @param importFromId The id of the existing DataSbercloudDmsRocketmqConsumerGroupAccessUsers that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_rocketmq_consumer_group_access_users#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSbercloudDmsRocketmqConsumerGroupAccessUsers that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_rocketmq_consumer_group_access_users#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSbercloudDmsRocketmqConsumerGroupAccessUsers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -153,7 +153,7 @@ export class DataSbercloudDmsRocketmqConsumerGroupAccessUsers extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_rocketmq_consumer_group_access_users sbercloud_dms_rocketmq_consumer_group_access_users} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_rocketmq_consumer_group_access_users sbercloud_dms_rocketmq_consumer_group_access_users} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -164,8 +164,8 @@ export class DataSbercloudDmsRocketmqConsumerGroupAccessUsers extends cdktf.Terr
       terraformResourceType: 'sbercloud_dms_rocketmq_consumer_group_access_users',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

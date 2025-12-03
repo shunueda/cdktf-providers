@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/rds_pg_sql_limits
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/rds_pg_sql_limits
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataSbercloudRdsPgSqlLimitsConfig extends cdktf.TerraformMetaAr
   /**
   * Specifies the name of the database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/rds_pg_sql_limits#db_name DataSbercloudRdsPgSqlLimits#db_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/rds_pg_sql_limits#db_name DataSbercloudRdsPgSqlLimits#db_name}
   */
   readonly dbName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/rds_pg_sql_limits#id DataSbercloudRdsPgSqlLimits#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/rds_pg_sql_limits#id DataSbercloudRdsPgSqlLimits#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,55 +23,55 @@ export interface DataSbercloudRdsPgSqlLimitsConfig extends cdktf.TerraformMetaAr
   /**
   * Specifies the ID of RDS PostgreSQL instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/rds_pg_sql_limits#instance_id DataSbercloudRdsPgSqlLimits#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/rds_pg_sql_limits#instance_id DataSbercloudRdsPgSqlLimits#instance_id}
   */
   readonly instanceId: string;
   /**
   * Specifies whether the SQL limit is effective.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/rds_pg_sql_limits#is_effective DataSbercloudRdsPgSqlLimits#is_effective}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/rds_pg_sql_limits#is_effective DataSbercloudRdsPgSqlLimits#is_effective}
   */
   readonly isEffective?: string;
   /**
   * Specifies the number of SQL statements executed simultaneously.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/rds_pg_sql_limits#max_concurrency DataSbercloudRdsPgSqlLimits#max_concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/rds_pg_sql_limits#max_concurrency DataSbercloudRdsPgSqlLimits#max_concurrency}
   */
   readonly maxConcurrency?: string;
   /**
   * Specifies the max waiting time in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/rds_pg_sql_limits#max_waiting DataSbercloudRdsPgSqlLimits#max_waiting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/rds_pg_sql_limits#max_waiting DataSbercloudRdsPgSqlLimits#max_waiting}
   */
   readonly maxWaiting?: string;
   /**
   * Specifies the query ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/rds_pg_sql_limits#query_id DataSbercloudRdsPgSqlLimits#query_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/rds_pg_sql_limits#query_id DataSbercloudRdsPgSqlLimits#query_id}
   */
   readonly queryId?: string;
   /**
   * Specifies the text form of SQL statement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/rds_pg_sql_limits#query_string DataSbercloudRdsPgSqlLimits#query_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/rds_pg_sql_limits#query_string DataSbercloudRdsPgSqlLimits#query_string}
   */
   readonly queryString?: string;
   /**
   * Specifies the region in which to query the resource. If omitted, the provider-level region will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/rds_pg_sql_limits#region DataSbercloudRdsPgSqlLimits#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/rds_pg_sql_limits#region DataSbercloudRdsPgSqlLimits#region}
   */
   readonly region?: string;
   /**
   * Specifies the query order for names that are not schema qualified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/rds_pg_sql_limits#search_path DataSbercloudRdsPgSqlLimits#search_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/rds_pg_sql_limits#search_path DataSbercloudRdsPgSqlLimits#search_path}
   */
   readonly searchPath?: string;
   /**
   * Specifies the ID of SQL limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/rds_pg_sql_limits#sql_limit_id DataSbercloudRdsPgSqlLimits#sql_limit_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/rds_pg_sql_limits#sql_limit_id DataSbercloudRdsPgSqlLimits#sql_limit_id}
   */
   readonly sqlLimitId?: string;
 }
@@ -182,7 +182,7 @@ export class DataSbercloudRdsPgSqlLimitsSqlLimitsList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/rds_pg_sql_limits sbercloud_rds_pg_sql_limits}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/rds_pg_sql_limits sbercloud_rds_pg_sql_limits}
 */
 export class DataSbercloudRdsPgSqlLimits extends cdktf.TerraformDataSource {
 
@@ -198,7 +198,7 @@ export class DataSbercloudRdsPgSqlLimits extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSbercloudRdsPgSqlLimits resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSbercloudRdsPgSqlLimits to import
-  * @param importFromId The id of the existing DataSbercloudRdsPgSqlLimits that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/rds_pg_sql_limits#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSbercloudRdsPgSqlLimits that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/rds_pg_sql_limits#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSbercloudRdsPgSqlLimits to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -210,7 +210,7 @@ export class DataSbercloudRdsPgSqlLimits extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/rds_pg_sql_limits sbercloud_rds_pg_sql_limits} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/rds_pg_sql_limits sbercloud_rds_pg_sql_limits} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -221,8 +221,8 @@ export class DataSbercloudRdsPgSqlLimits extends cdktf.TerraformDataSource {
       terraformResourceType: 'sbercloud_rds_pg_sql_limits',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

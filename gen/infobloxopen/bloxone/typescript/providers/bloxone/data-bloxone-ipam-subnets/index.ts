@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets
+// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataBloxoneIpamSubnetsConfig extends cdktf.TerraformMetaArgumen
   /**
   * Filter are used to return a more specific list of results. Filters can be used to match resources by specific attributes, e.g. name. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#filters DataBloxoneIpamSubnets#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#filters DataBloxoneIpamSubnets#filters}
   */
   readonly filters?: { [key: string]: string };
   /**
   * Tag Filters are used to return a more specific list of results filtered by tags. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#tag_filters DataBloxoneIpamSubnets#tag_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#tag_filters DataBloxoneIpamSubnets#tag_filters}
   */
   readonly tagFilters?: { [key: string]: string };
 }
@@ -24,59 +24,59 @@ export interface DataBloxoneIpamSubnetsResultsAsmConfig {
   /**
   * ASM shows the number of addresses forecast to be used _forecast_period_ days in the future, if it is greater than _asm_threshold_ percent * _dhcp_total_ (see _dhcp_utilization_) then the subnet is flagged.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#asm_threshold DataBloxoneIpamSubnets#asm_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#asm_threshold DataBloxoneIpamSubnets#asm_threshold}
   */
   readonly asmThreshold?: number;
   /**
   * Indicates if Automated Scope Management is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#enable DataBloxoneIpamSubnets#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#enable DataBloxoneIpamSubnets#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Indicates if ASM should send notifications to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#enable_notification DataBloxoneIpamSubnets#enable_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#enable_notification DataBloxoneIpamSubnets#enable_notification}
   */
   readonly enableNotification?: boolean | cdktf.IResolvable;
   /**
   * The forecast period in days.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#forecast_period DataBloxoneIpamSubnets#forecast_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#forecast_period DataBloxoneIpamSubnets#forecast_period}
   */
   readonly forecastPeriod?: number;
   /**
   * Indicates the growth in the number or percentage of IP addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#growth_factor DataBloxoneIpamSubnets#growth_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#growth_factor DataBloxoneIpamSubnets#growth_factor}
   */
   readonly growthFactor?: number;
   /**
   * The type of factor to use: _percent_ or _count_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#growth_type DataBloxoneIpamSubnets#growth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#growth_type DataBloxoneIpamSubnets#growth_type}
   */
   readonly growthType?: string;
   /**
   * The minimum amount of history needed before ASM can run on this subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#history DataBloxoneIpamSubnets#history}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#history DataBloxoneIpamSubnets#history}
   */
   readonly history?: number;
   /**
   * The minimum size of range needed for ASM to run on this subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#min_total DataBloxoneIpamSubnets#min_total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#min_total DataBloxoneIpamSubnets#min_total}
   */
   readonly minTotal?: number;
   /**
   * The minimum percentage of addresses that must be available outside of the DHCP ranges and fixed addresses when making a suggested change..
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#min_unused DataBloxoneIpamSubnets#min_unused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#min_unused DataBloxoneIpamSubnets#min_unused}
   */
   readonly minUnused?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#reenable_date DataBloxoneIpamSubnets#reenable_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#reenable_date DataBloxoneIpamSubnets#reenable_date}
   */
   readonly reenableDate?: string;
 }
@@ -436,13 +436,13 @@ export interface DataBloxoneIpamSubnetsResultsDhcpConfigIgnoreListStruct {
   *   * _client_text_
   *   * _hardware_
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#type DataBloxoneIpamSubnets#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#type DataBloxoneIpamSubnets#type}
   */
   readonly type: string;
   /**
   * Value to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#value DataBloxoneIpamSubnets#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#value DataBloxoneIpamSubnets#value}
   */
   readonly value: string;
 }
@@ -583,55 +583,55 @@ export interface DataBloxoneIpamSubnetsResultsDhcpConfig {
   /**
   * Disable to allow leases only for known IPv4 clients, those for which a fixed address is configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#allow_unknown DataBloxoneIpamSubnets#allow_unknown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#allow_unknown DataBloxoneIpamSubnets#allow_unknown}
   */
   readonly allowUnknown?: boolean | cdktf.IResolvable;
   /**
   * Disable to allow leases only for known IPV6 clients, those for which a fixed address is configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#allow_unknown_v6 DataBloxoneIpamSubnets#allow_unknown_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#allow_unknown_v6 DataBloxoneIpamSubnets#allow_unknown_v6}
   */
   readonly allowUnknownV6?: boolean | cdktf.IResolvable;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#filters DataBloxoneIpamSubnets#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#filters DataBloxoneIpamSubnets#filters}
   */
   readonly filters?: string[];
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#filters_large_selection DataBloxoneIpamSubnets#filters_large_selection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#filters_large_selection DataBloxoneIpamSubnets#filters_large_selection}
   */
   readonly filtersLargeSelection?: string[];
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#filters_v6 DataBloxoneIpamSubnets#filters_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#filters_v6 DataBloxoneIpamSubnets#filters_v6}
   */
   readonly filtersV6?: string[];
   /**
   * Enable to ignore the client UID when issuing a DHCP lease. Use this option to prevent assigning two IP addresses for a client which does not have a UID during one phase of PXE boot but acquires one for the other phase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#ignore_client_uid DataBloxoneIpamSubnets#ignore_client_uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#ignore_client_uid DataBloxoneIpamSubnets#ignore_client_uid}
   */
   readonly ignoreClientUid?: boolean | cdktf.IResolvable;
   /**
   * The list of clients to ignore requests from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#ignore_list DataBloxoneIpamSubnets#ignore_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#ignore_list DataBloxoneIpamSubnets#ignore_list}
   */
   readonly ignoreList?: DataBloxoneIpamSubnetsResultsDhcpConfigIgnoreListStruct[] | cdktf.IResolvable;
   /**
   * The lease duration in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#lease_time DataBloxoneIpamSubnets#lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#lease_time DataBloxoneIpamSubnets#lease_time}
   */
   readonly leaseTime?: number;
   /**
   * The lease duration in seconds for IPV6 clients.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#lease_time_v6 DataBloxoneIpamSubnets#lease_time_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#lease_time_v6 DataBloxoneIpamSubnets#lease_time_v6}
   */
   readonly leaseTimeV6?: number;
 }
@@ -974,19 +974,19 @@ export interface DataBloxoneIpamSubnetsResultsDhcpOptions {
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#group DataBloxoneIpamSubnets#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#group DataBloxoneIpamSubnets#group}
   */
   readonly group?: string;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#option_code DataBloxoneIpamSubnets#option_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#option_code DataBloxoneIpamSubnets#option_code}
   */
   readonly optionCode?: string;
   /**
   * The option value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#option_value DataBloxoneIpamSubnets#option_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#option_value DataBloxoneIpamSubnets#option_value}
   */
   readonly optionValue?: string;
   /**
@@ -995,7 +995,7 @@ export interface DataBloxoneIpamSubnetsResultsDhcpOptions {
   *   * _option_
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#type DataBloxoneIpamSubnets#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#type DataBloxoneIpamSubnets#type}
   */
   readonly type?: string;
 }
@@ -1269,7 +1269,7 @@ export interface DataBloxoneIpamSubnetsResultsInheritanceAssignedHosts {
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#host DataBloxoneIpamSubnets#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#host DataBloxoneIpamSubnets#host}
   */
   readonly host?: string;
 }
@@ -1455,7 +1455,7 @@ export interface DataBloxoneIpamSubnetsResultsInheritanceSourcesAsmConfigAsmEnab
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
   */
   readonly action?: string;
 }
@@ -1630,7 +1630,7 @@ export interface DataBloxoneIpamSubnetsResultsInheritanceSourcesAsmConfigAsmGrow
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
   */
   readonly action?: string;
 }
@@ -1746,7 +1746,7 @@ export interface DataBloxoneIpamSubnetsResultsInheritanceSourcesAsmConfigAsmThre
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
   */
   readonly action?: string;
 }
@@ -1861,7 +1861,7 @@ export interface DataBloxoneIpamSubnetsResultsInheritanceSourcesAsmConfigForecas
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
   */
   readonly action?: string;
 }
@@ -1976,7 +1976,7 @@ export interface DataBloxoneIpamSubnetsResultsInheritanceSourcesAsmConfigHistory
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
   */
   readonly action?: string;
 }
@@ -2091,7 +2091,7 @@ export interface DataBloxoneIpamSubnetsResultsInheritanceSourcesAsmConfigMinTota
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
   */
   readonly action?: string;
 }
@@ -2206,7 +2206,7 @@ export interface DataBloxoneIpamSubnetsResultsInheritanceSourcesAsmConfigMinUnus
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
   */
   readonly action?: string;
 }
@@ -2317,43 +2317,43 @@ export interface DataBloxoneIpamSubnetsResultsInheritanceSourcesAsmConfig {
   /**
   * The block of ASM fields: _enable_, _enable_notification_, _reenable_date_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#asm_enable_block DataBloxoneIpamSubnets#asm_enable_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#asm_enable_block DataBloxoneIpamSubnets#asm_enable_block}
   */
   readonly asmEnableBlock?: DataBloxoneIpamSubnetsResultsInheritanceSourcesAsmConfigAsmEnableBlock;
   /**
   * The block of ASM fields: _growth_factor_, _growth_type_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#asm_growth_block DataBloxoneIpamSubnets#asm_growth_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#asm_growth_block DataBloxoneIpamSubnets#asm_growth_block}
   */
   readonly asmGrowthBlock?: DataBloxoneIpamSubnetsResultsInheritanceSourcesAsmConfigAsmGrowthBlock;
   /**
   * ASM shows the number of addresses forecast to be used _forecast_period_ days in the future, if it is greater than _asm_threshold_percent_ * _dhcp_total_ (see _dhcp_utilization_) then the subnet is flagged.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#asm_threshold DataBloxoneIpamSubnets#asm_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#asm_threshold DataBloxoneIpamSubnets#asm_threshold}
   */
   readonly asmThreshold?: DataBloxoneIpamSubnetsResultsInheritanceSourcesAsmConfigAsmThreshold;
   /**
   * The forecast period in days.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#forecast_period DataBloxoneIpamSubnets#forecast_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#forecast_period DataBloxoneIpamSubnets#forecast_period}
   */
   readonly forecastPeriod?: DataBloxoneIpamSubnetsResultsInheritanceSourcesAsmConfigForecastPeriod;
   /**
   * The minimum amount of history needed before ASM can run on this subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#history DataBloxoneIpamSubnets#history}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#history DataBloxoneIpamSubnets#history}
   */
   readonly history?: DataBloxoneIpamSubnetsResultsInheritanceSourcesAsmConfigHistory;
   /**
   * The minimum size of range needed for ASM to run on this subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#min_total DataBloxoneIpamSubnets#min_total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#min_total DataBloxoneIpamSubnets#min_total}
   */
   readonly minTotal?: DataBloxoneIpamSubnetsResultsInheritanceSourcesAsmConfigMinTotal;
   /**
   * The minimum percentage of addresses that must be available outside of the DHCP ranges and fixed addresses when making a suggested change.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#min_unused DataBloxoneIpamSubnets#min_unused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#min_unused DataBloxoneIpamSubnets#min_unused}
   */
   readonly minUnused?: DataBloxoneIpamSubnetsResultsInheritanceSourcesAsmConfigMinUnused;
 }
@@ -2627,7 +2627,7 @@ export interface DataBloxoneIpamSubnetsResultsInheritanceSourcesDdnsClientUpdate
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
   */
   readonly action?: string;
 }
@@ -2742,7 +2742,7 @@ export interface DataBloxoneIpamSubnetsResultsInheritanceSourcesDdnsConflictReso
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
   */
   readonly action?: string;
 }
@@ -2857,7 +2857,7 @@ export interface DataBloxoneIpamSubnetsResultsInheritanceSourcesDdnsEnabled {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
   */
   readonly action?: string;
 }
@@ -3031,7 +3031,7 @@ export interface DataBloxoneIpamSubnetsResultsInheritanceSourcesDdnsHostnameBloc
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
   */
   readonly action?: string;
 }
@@ -3147,7 +3147,7 @@ export interface DataBloxoneIpamSubnetsResultsInheritanceSourcesDdnsTtlPercent {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
   */
   readonly action?: string;
 }
@@ -3321,7 +3321,7 @@ export interface DataBloxoneIpamSubnetsResultsInheritanceSourcesDdnsUpdateBlock 
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
   */
   readonly action?: string;
 }
@@ -3437,7 +3437,7 @@ export interface DataBloxoneIpamSubnetsResultsInheritanceSourcesDdnsUpdateOnRene
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
   */
   readonly action?: string;
 }
@@ -3552,7 +3552,7 @@ export interface DataBloxoneIpamSubnetsResultsInheritanceSourcesDdnsUseConflictR
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
   */
   readonly action?: string;
 }
@@ -3667,7 +3667,7 @@ export interface DataBloxoneIpamSubnetsResultsInheritanceSourcesDhcpConfigAbando
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
   */
   readonly action?: string;
 }
@@ -3782,7 +3782,7 @@ export interface DataBloxoneIpamSubnetsResultsInheritanceSourcesDhcpConfigAbando
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
   */
   readonly action?: string;
 }
@@ -3897,7 +3897,7 @@ export interface DataBloxoneIpamSubnetsResultsInheritanceSourcesDhcpConfigAllowU
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
   */
   readonly action?: string;
 }
@@ -4012,7 +4012,7 @@ export interface DataBloxoneIpamSubnetsResultsInheritanceSourcesDhcpConfigAllowU
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
   */
   readonly action?: string;
 }
@@ -4127,7 +4127,7 @@ export interface DataBloxoneIpamSubnetsResultsInheritanceSourcesDhcpConfigAuthor
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
   */
   readonly action?: string;
 }
@@ -4242,7 +4242,7 @@ export interface DataBloxoneIpamSubnetsResultsInheritanceSourcesDhcpConfigEchoCl
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
   */
   readonly action?: string;
 }
@@ -4357,7 +4357,7 @@ export interface DataBloxoneIpamSubnetsResultsInheritanceSourcesDhcpConfigFilter
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
   */
   readonly action?: string;
 }
@@ -4472,7 +4472,7 @@ export interface DataBloxoneIpamSubnetsResultsInheritanceSourcesDhcpConfigFilter
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
   */
   readonly action?: string;
 }
@@ -4587,7 +4587,7 @@ export interface DataBloxoneIpamSubnetsResultsInheritanceSourcesDhcpConfigHoldRe
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
   */
   readonly action?: string;
 }
@@ -4702,7 +4702,7 @@ export interface DataBloxoneIpamSubnetsResultsInheritanceSourcesDhcpConfigHoldRe
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
   */
   readonly action?: string;
 }
@@ -4817,7 +4817,7 @@ export interface DataBloxoneIpamSubnetsResultsInheritanceSourcesDhcpConfigIgnore
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
   */
   readonly action?: string;
 }
@@ -5012,7 +5012,7 @@ export interface DataBloxoneIpamSubnetsResultsInheritanceSourcesDhcpConfigIgnore
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
   */
   readonly action?: string;
 }
@@ -5128,7 +5128,7 @@ export interface DataBloxoneIpamSubnetsResultsInheritanceSourcesDhcpConfigLeaseT
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
   */
   readonly action?: string;
 }
@@ -5243,7 +5243,7 @@ export interface DataBloxoneIpamSubnetsResultsInheritanceSourcesDhcpConfigLeaseT
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
   */
   readonly action?: string;
 }
@@ -5354,85 +5354,85 @@ export interface DataBloxoneIpamSubnetsResultsInheritanceSourcesDhcpConfig {
   /**
   * The inheritance configuration for _abandoned_reclaim_time_ field from _DHCPConfig_ object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#abandoned_reclaim_time DataBloxoneIpamSubnets#abandoned_reclaim_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#abandoned_reclaim_time DataBloxoneIpamSubnets#abandoned_reclaim_time}
   */
   readonly abandonedReclaimTime?: DataBloxoneIpamSubnetsResultsInheritanceSourcesDhcpConfigAbandonedReclaimTime;
   /**
   * The inheritance configuration for _abandoned_reclaim_time_v6_ field from _DHCPConfig_ object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#abandoned_reclaim_time_v6 DataBloxoneIpamSubnets#abandoned_reclaim_time_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#abandoned_reclaim_time_v6 DataBloxoneIpamSubnets#abandoned_reclaim_time_v6}
   */
   readonly abandonedReclaimTimeV6?: DataBloxoneIpamSubnetsResultsInheritanceSourcesDhcpConfigAbandonedReclaimTimeV6;
   /**
   * The inheritance configuration for _allow_unknown_ field from _DHCPConfig_ object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#allow_unknown DataBloxoneIpamSubnets#allow_unknown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#allow_unknown DataBloxoneIpamSubnets#allow_unknown}
   */
   readonly allowUnknown?: DataBloxoneIpamSubnetsResultsInheritanceSourcesDhcpConfigAllowUnknown;
   /**
   * The inheritance configuration for _allow_unknown_v6_ field from _DHCPConfig_ object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#allow_unknown_v6 DataBloxoneIpamSubnets#allow_unknown_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#allow_unknown_v6 DataBloxoneIpamSubnets#allow_unknown_v6}
   */
   readonly allowUnknownV6?: DataBloxoneIpamSubnetsResultsInheritanceSourcesDhcpConfigAllowUnknownV6;
   /**
   * The inheritance configuration for authoritative_dhcp field to set DHCP server as authoritative.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#authoritative_dhcp DataBloxoneIpamSubnets#authoritative_dhcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#authoritative_dhcp DataBloxoneIpamSubnets#authoritative_dhcp}
   */
   readonly authoritativeDhcp?: DataBloxoneIpamSubnetsResultsInheritanceSourcesDhcpConfigAuthoritativeDhcp;
   /**
   * The inheritance configuration for _echo_client_id_ field from _DHCPConfig_ object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#echo_client_id DataBloxoneIpamSubnets#echo_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#echo_client_id DataBloxoneIpamSubnets#echo_client_id}
   */
   readonly echoClientId?: DataBloxoneIpamSubnetsResultsInheritanceSourcesDhcpConfigEchoClientId;
   /**
   * The inheritance configuration for filters field from _DHCPConfig_ object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#filters DataBloxoneIpamSubnets#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#filters DataBloxoneIpamSubnets#filters}
   */
   readonly filters?: DataBloxoneIpamSubnetsResultsInheritanceSourcesDhcpConfigFilters;
   /**
   * The inheritance configuration for _filters_v6_ field from _DHCPConfig_ object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#filters_v6 DataBloxoneIpamSubnets#filters_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#filters_v6 DataBloxoneIpamSubnets#filters_v6}
   */
   readonly filtersV6?: DataBloxoneIpamSubnetsResultsInheritanceSourcesDhcpConfigFiltersV6;
   /**
   * The inheritance configuration for hold_reclaimed_time in seconds from _DHCPConfig_ object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#hold_reclaimed_time DataBloxoneIpamSubnets#hold_reclaimed_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#hold_reclaimed_time DataBloxoneIpamSubnets#hold_reclaimed_time}
   */
   readonly holdReclaimedTime?: DataBloxoneIpamSubnetsResultsInheritanceSourcesDhcpConfigHoldReclaimedTime;
   /**
   * The inheritance configuration for hold_reclaimed_time_v6 in seconds from _DHCPConfig_ object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#hold_reclaimed_time_v6 DataBloxoneIpamSubnets#hold_reclaimed_time_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#hold_reclaimed_time_v6 DataBloxoneIpamSubnets#hold_reclaimed_time_v6}
   */
   readonly holdReclaimedTimeV6?: DataBloxoneIpamSubnetsResultsInheritanceSourcesDhcpConfigHoldReclaimedTimeV6;
   /**
   * The inheritance configuration for _ignore_client_uid_ field from _DHCPConfig_ object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#ignore_client_uid DataBloxoneIpamSubnets#ignore_client_uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#ignore_client_uid DataBloxoneIpamSubnets#ignore_client_uid}
   */
   readonly ignoreClientUid?: DataBloxoneIpamSubnetsResultsInheritanceSourcesDhcpConfigIgnoreClientUid;
   /**
   * The inheritance configuration for _ignore_list_ field from _DHCPConfig_ object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#ignore_list DataBloxoneIpamSubnets#ignore_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#ignore_list DataBloxoneIpamSubnets#ignore_list}
   */
   readonly ignoreList?: DataBloxoneIpamSubnetsResultsInheritanceSourcesDhcpConfigIgnoreListStruct;
   /**
   * The inheritance configuration for _lease_time_ field from _DHCPConfig_ object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#lease_time DataBloxoneIpamSubnets#lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#lease_time DataBloxoneIpamSubnets#lease_time}
   */
   readonly leaseTime?: DataBloxoneIpamSubnetsResultsInheritanceSourcesDhcpConfigLeaseTime;
   /**
   * The inheritance configuration for _lease_time_v6_ field from _DHCPConfig_ object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#lease_time_v6 DataBloxoneIpamSubnets#lease_time_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#lease_time_v6 DataBloxoneIpamSubnets#lease_time_v6}
   */
   readonly leaseTimeV6?: DataBloxoneIpamSubnetsResultsInheritanceSourcesDhcpConfigLeaseTimeV6;
 }
@@ -6038,7 +6038,7 @@ export interface DataBloxoneIpamSubnetsResultsInheritanceSourcesDhcpOptionsValue
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
   */
   readonly action?: string;
 }
@@ -6176,13 +6176,13 @@ export interface DataBloxoneIpamSubnetsResultsInheritanceSourcesDhcpOptions {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
   */
   readonly action?: string;
   /**
   * The inherited DHCP option values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#value DataBloxoneIpamSubnets#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#value DataBloxoneIpamSubnets#value}
   */
   readonly value?: DataBloxoneIpamSubnetsResultsInheritanceSourcesDhcpOptionsValue[] | cdktf.IResolvable;
 }
@@ -6311,7 +6311,7 @@ export interface DataBloxoneIpamSubnetsResultsInheritanceSourcesHeaderOptionFile
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
   */
   readonly action?: string;
 }
@@ -6426,7 +6426,7 @@ export interface DataBloxoneIpamSubnetsResultsInheritanceSourcesHeaderOptionServ
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
   */
   readonly action?: string;
 }
@@ -6541,7 +6541,7 @@ export interface DataBloxoneIpamSubnetsResultsInheritanceSourcesHeaderOptionServ
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
   */
   readonly action?: string;
 }
@@ -6720,7 +6720,7 @@ export interface DataBloxoneIpamSubnetsResultsInheritanceSourcesHostnameRewriteB
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#action DataBloxoneIpamSubnets#action}
   */
   readonly action?: string;
 }
@@ -6832,91 +6832,91 @@ export interface DataBloxoneIpamSubnetsResultsInheritanceSources {
   /**
   * The inheritance configuration for _asm_config_ field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#asm_config DataBloxoneIpamSubnets#asm_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#asm_config DataBloxoneIpamSubnets#asm_config}
   */
   readonly asmConfig?: DataBloxoneIpamSubnetsResultsInheritanceSourcesAsmConfig;
   /**
   * The inheritance configuration for _ddns_client_update_ field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#ddns_client_update DataBloxoneIpamSubnets#ddns_client_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#ddns_client_update DataBloxoneIpamSubnets#ddns_client_update}
   */
   readonly ddnsClientUpdate?: DataBloxoneIpamSubnetsResultsInheritanceSourcesDdnsClientUpdate;
   /**
   * The inheritance configuration for _ddns_conflict_resolution_mode_ field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#ddns_conflict_resolution_mode DataBloxoneIpamSubnets#ddns_conflict_resolution_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#ddns_conflict_resolution_mode DataBloxoneIpamSubnets#ddns_conflict_resolution_mode}
   */
   readonly ddnsConflictResolutionMode?: DataBloxoneIpamSubnetsResultsInheritanceSourcesDdnsConflictResolutionMode;
   /**
   * The inheritance configuration for _ddns_enabled_ field. Only action allowed is 'inherit'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#ddns_enabled DataBloxoneIpamSubnets#ddns_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#ddns_enabled DataBloxoneIpamSubnets#ddns_enabled}
   */
   readonly ddnsEnabled?: DataBloxoneIpamSubnetsResultsInheritanceSourcesDdnsEnabled;
   /**
   * The inheritance configuration for _ddns_generate_name_ and _ddns_generated_prefix_ fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#ddns_hostname_block DataBloxoneIpamSubnets#ddns_hostname_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#ddns_hostname_block DataBloxoneIpamSubnets#ddns_hostname_block}
   */
   readonly ddnsHostnameBlock?: DataBloxoneIpamSubnetsResultsInheritanceSourcesDdnsHostnameBlock;
   /**
   * The inheritance configuration for _ddns_ttl_percent_ field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#ddns_ttl_percent DataBloxoneIpamSubnets#ddns_ttl_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#ddns_ttl_percent DataBloxoneIpamSubnets#ddns_ttl_percent}
   */
   readonly ddnsTtlPercent?: DataBloxoneIpamSubnetsResultsInheritanceSourcesDdnsTtlPercent;
   /**
   * The inheritance configuration for _ddns_send_updates_ and _ddns_domain_ fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#ddns_update_block DataBloxoneIpamSubnets#ddns_update_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#ddns_update_block DataBloxoneIpamSubnets#ddns_update_block}
   */
   readonly ddnsUpdateBlock?: DataBloxoneIpamSubnetsResultsInheritanceSourcesDdnsUpdateBlock;
   /**
   * The inheritance configuration for _ddns_update_on_renew_ field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#ddns_update_on_renew DataBloxoneIpamSubnets#ddns_update_on_renew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#ddns_update_on_renew DataBloxoneIpamSubnets#ddns_update_on_renew}
   */
   readonly ddnsUpdateOnRenew?: DataBloxoneIpamSubnetsResultsInheritanceSourcesDdnsUpdateOnRenew;
   /**
   * The inheritance configuration for _ddns_use_conflict_resolution_ field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#ddns_use_conflict_resolution DataBloxoneIpamSubnets#ddns_use_conflict_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#ddns_use_conflict_resolution DataBloxoneIpamSubnets#ddns_use_conflict_resolution}
   */
   readonly ddnsUseConflictResolution?: DataBloxoneIpamSubnetsResultsInheritanceSourcesDdnsUseConflictResolution;
   /**
   * The inheritance configuration for _dhcp_config_ field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#dhcp_config DataBloxoneIpamSubnets#dhcp_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#dhcp_config DataBloxoneIpamSubnets#dhcp_config}
   */
   readonly dhcpConfig?: DataBloxoneIpamSubnetsResultsInheritanceSourcesDhcpConfig;
   /**
   * The inheritance configuration for _dhcp_options_ field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#dhcp_options DataBloxoneIpamSubnets#dhcp_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#dhcp_options DataBloxoneIpamSubnets#dhcp_options}
   */
   readonly dhcpOptions?: DataBloxoneIpamSubnetsResultsInheritanceSourcesDhcpOptions;
   /**
   * The inheritance configuration for _header_option_filename_ field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#header_option_filename DataBloxoneIpamSubnets#header_option_filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#header_option_filename DataBloxoneIpamSubnets#header_option_filename}
   */
   readonly headerOptionFilename?: DataBloxoneIpamSubnetsResultsInheritanceSourcesHeaderOptionFilename;
   /**
   * The inheritance configuration for _header_option_server_address_ field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#header_option_server_address DataBloxoneIpamSubnets#header_option_server_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#header_option_server_address DataBloxoneIpamSubnets#header_option_server_address}
   */
   readonly headerOptionServerAddress?: DataBloxoneIpamSubnetsResultsInheritanceSourcesHeaderOptionServerAddress;
   /**
   * The inheritance configuration for _header_option_server_name_ field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#header_option_server_name DataBloxoneIpamSubnets#header_option_server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#header_option_server_name DataBloxoneIpamSubnets#header_option_server_name}
   */
   readonly headerOptionServerName?: DataBloxoneIpamSubnetsResultsInheritanceSourcesHeaderOptionServerName;
   /**
   * The inheritance configuration for _hostname_rewrite_enabled_, _hostname_rewrite_regex_, and _hostname_rewrite_char_ fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#hostname_rewrite_block DataBloxoneIpamSubnets#hostname_rewrite_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#hostname_rewrite_block DataBloxoneIpamSubnets#hostname_rewrite_block}
   */
   readonly hostnameRewriteBlock?: DataBloxoneIpamSubnetsResultsInheritanceSourcesHostnameRewriteBlock;
 }
@@ -7418,19 +7418,19 @@ export interface DataBloxoneIpamSubnetsResultsThreshold {
   /**
   * Indicates whether the utilization threshold for IP addresses is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#enabled DataBloxoneIpamSubnets#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#enabled DataBloxoneIpamSubnets#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * The high threshold value for the percentage of used IP addresses relative to the total IP addresses available in the scope of the object. Thresholds are inclusive in the comparison test.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#high DataBloxoneIpamSubnets#high}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#high DataBloxoneIpamSubnets#high}
   */
   readonly high: number;
   /**
   * The low threshold value for the percentage of used IP addresses relative to the total IP addresses available in the scope of the object. Thresholds are inclusive in the comparison test.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#low DataBloxoneIpamSubnets#low}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#low DataBloxoneIpamSubnets#low}
   */
   readonly low: number;
 }
@@ -7652,23 +7652,23 @@ export class DataBloxoneIpamSubnetsResultsUtilizationOutputReference extends cdk
 }
 export interface DataBloxoneIpamSubnetsResultsUtilizationV6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#abandoned DataBloxoneIpamSubnets#abandoned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#abandoned DataBloxoneIpamSubnets#abandoned}
   */
   readonly abandoned?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#dynamic DataBloxoneIpamSubnets#dynamic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#dynamic DataBloxoneIpamSubnets#dynamic}
   */
   readonly dynamic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#static DataBloxoneIpamSubnets#static}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#static DataBloxoneIpamSubnets#static}
   */
   readonly static?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#total DataBloxoneIpamSubnets#total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#total DataBloxoneIpamSubnets#total}
   */
   readonly total?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#used DataBloxoneIpamSubnets#used}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#used DataBloxoneIpamSubnets#used}
   */
   readonly used?: string;
 }
@@ -7870,29 +7870,29 @@ export interface DataBloxoneIpamSubnetsResults {
   /**
   * The address of the subnet in the form “a.b.c.d”
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#address DataBloxoneIpamSubnets#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#address DataBloxoneIpamSubnets#address}
   */
   readonly address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#asm_config DataBloxoneIpamSubnets#asm_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#asm_config DataBloxoneIpamSubnets#asm_config}
   */
   readonly asmConfig?: DataBloxoneIpamSubnetsResultsAsmConfig;
   /**
   * The CIDR of the subnet. This is required if _address_ does not include CIDR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#cidr DataBloxoneIpamSubnets#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#cidr DataBloxoneIpamSubnets#cidr}
   */
   readonly cidr: number;
   /**
   * The description for the subnet. May contain 0 to 1024 characters. Can include UTF-8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#comment DataBloxoneIpamSubnets#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#comment DataBloxoneIpamSubnets#comment}
   */
   readonly comment?: string;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#config_profiles DataBloxoneIpamSubnets#config_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#config_profiles DataBloxoneIpamSubnets#config_profiles}
   */
   readonly configProfiles?: string[];
   /**
@@ -7905,7 +7905,7 @@ export interface DataBloxoneIpamSubnetsResults {
   *   Defaults to _client_.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#ddns_client_update DataBloxoneIpamSubnets#ddns_client_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#ddns_client_update DataBloxoneIpamSubnets#ddns_client_update}
   */
   readonly ddnsClientUpdate?: string;
   /**
@@ -7917,159 +7917,159 @@ export interface DataBloxoneIpamSubnetsResults {
   *   * _no_check_without_dhcid_: This ignores conflict detection and will not add a DHCID record when creating/updating a DDNS entry.
   *   Defaults to _check_with_dhcid_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#ddns_conflict_resolution_mode DataBloxoneIpamSubnets#ddns_conflict_resolution_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#ddns_conflict_resolution_mode DataBloxoneIpamSubnets#ddns_conflict_resolution_mode}
   */
   readonly ddnsConflictResolutionMode?: string;
   /**
   * The domain suffix for DDNS updates. FQDN, may be empty.  Defaults to empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#ddns_domain DataBloxoneIpamSubnets#ddns_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#ddns_domain DataBloxoneIpamSubnets#ddns_domain}
   */
   readonly ddnsDomain?: string;
   /**
   * Indicates if DDNS needs to generate a hostname when not supplied by the client.  Defaults to _false_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#ddns_generate_name DataBloxoneIpamSubnets#ddns_generate_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#ddns_generate_name DataBloxoneIpamSubnets#ddns_generate_name}
   */
   readonly ddnsGenerateName?: boolean | cdktf.IResolvable;
   /**
   * The prefix used in the generation of an FQDN.  When generating a name, DHCP server will construct the name in the format: [ddns-generated-prefix]-[address-text].[ddns-qualifying-suffix]. where address-text is simply the lease IP address converted to a hyphenated string.  Defaults to "myhost".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#ddns_generated_prefix DataBloxoneIpamSubnets#ddns_generated_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#ddns_generated_prefix DataBloxoneIpamSubnets#ddns_generated_prefix}
   */
   readonly ddnsGeneratedPrefix?: string;
   /**
   * Determines if DDNS updates are enabled at the subnet level. Defaults to _true_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#ddns_send_updates DataBloxoneIpamSubnets#ddns_send_updates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#ddns_send_updates DataBloxoneIpamSubnets#ddns_send_updates}
   */
   readonly ddnsSendUpdates?: boolean | cdktf.IResolvable;
   /**
   * DDNS TTL value - to be calculated as a simple percentage of the lease's lifetime, using the parameter's value as the percentage. It is specified as a percentage (e.g. 25, 75). Defaults to unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#ddns_ttl_percent DataBloxoneIpamSubnets#ddns_ttl_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#ddns_ttl_percent DataBloxoneIpamSubnets#ddns_ttl_percent}
   */
   readonly ddnsTtlPercent?: number;
   /**
   * Instructs the DHCP server to always update the DNS information when a lease is renewed even if its DNS information has not changed.  Defaults to _false_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#ddns_update_on_renew DataBloxoneIpamSubnets#ddns_update_on_renew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#ddns_update_on_renew DataBloxoneIpamSubnets#ddns_update_on_renew}
   */
   readonly ddnsUpdateOnRenew?: boolean | cdktf.IResolvable;
   /**
   * When true, DHCP server will apply conflict resolution, as described in RFC 4703, when attempting to fulfill the update request.  When false, DHCP server will simply attempt to update the DNS entries per the request, regardless of whether or not they conflict with existing entries owned by other DHCP4 clients.  Defaults to _true_. Can be set to true only when ddns_conflict_resolution_mode is check_with_dhcid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#ddns_use_conflict_resolution DataBloxoneIpamSubnets#ddns_use_conflict_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#ddns_use_conflict_resolution DataBloxoneIpamSubnets#ddns_use_conflict_resolution}
   */
   readonly ddnsUseConflictResolution?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#dhcp_config DataBloxoneIpamSubnets#dhcp_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#dhcp_config DataBloxoneIpamSubnets#dhcp_config}
   */
   readonly dhcpConfig?: DataBloxoneIpamSubnetsResultsDhcpConfig;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#dhcp_host DataBloxoneIpamSubnets#dhcp_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#dhcp_host DataBloxoneIpamSubnets#dhcp_host}
   */
   readonly dhcpHost?: string;
   /**
   * The DHCP options of the subnet. This can either be a specific option or a group of options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#dhcp_options DataBloxoneIpamSubnets#dhcp_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#dhcp_options DataBloxoneIpamSubnets#dhcp_options}
   */
   readonly dhcpOptions?: DataBloxoneIpamSubnetsResultsDhcpOptions[] | cdktf.IResolvable;
   /**
   * Optional. _true_ to disable object. A disabled object is effectively non-existent when generating configuration.  Defaults to _false_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#disable_dhcp DataBloxoneIpamSubnets#disable_dhcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#disable_dhcp DataBloxoneIpamSubnets#disable_dhcp}
   */
   readonly disableDhcp?: boolean | cdktf.IResolvable;
   /**
   * The external keys (source key) for this subnet in JSON format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#external_keys DataBloxoneIpamSubnets#external_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#external_keys DataBloxoneIpamSubnets#external_keys}
   */
   readonly externalKeys?: { [key: string]: string };
   /**
   * Federated realms to which this subnet belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#federated_realms DataBloxoneIpamSubnets#federated_realms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#federated_realms DataBloxoneIpamSubnets#federated_realms}
   */
   readonly federatedRealms?: string[];
   /**
   * The configuration for header option filename field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#header_option_filename DataBloxoneIpamSubnets#header_option_filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#header_option_filename DataBloxoneIpamSubnets#header_option_filename}
   */
   readonly headerOptionFilename?: string;
   /**
   * The configuration for header option server address field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#header_option_server_address DataBloxoneIpamSubnets#header_option_server_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#header_option_server_address DataBloxoneIpamSubnets#header_option_server_address}
   */
   readonly headerOptionServerAddress?: string;
   /**
   * The configuration for header option server name field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#header_option_server_name DataBloxoneIpamSubnets#header_option_server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#header_option_server_name DataBloxoneIpamSubnets#header_option_server_name}
   */
   readonly headerOptionServerName?: string;
   /**
   * The character to replace non-matching characters with, when hostname rewrite is enabled.  Any single ASCII character or no character if the invalid characters should be removed without replacement.  Defaults to "-".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#hostname_rewrite_char DataBloxoneIpamSubnets#hostname_rewrite_char}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#hostname_rewrite_char DataBloxoneIpamSubnets#hostname_rewrite_char}
   */
   readonly hostnameRewriteChar?: string;
   /**
   * Indicates if client supplied hostnames will be rewritten prior to DDNS update by replacing every character that does not match _hostname_rewrite_regex_ by _hostname_rewrite_char_.  Defaults to _false_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#hostname_rewrite_enabled DataBloxoneIpamSubnets#hostname_rewrite_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#hostname_rewrite_enabled DataBloxoneIpamSubnets#hostname_rewrite_enabled}
   */
   readonly hostnameRewriteEnabled?: boolean | cdktf.IResolvable;
   /**
   * The regex bracket expression to match valid characters.  Must begin with "[" and end with "]" and be a compilable POSIX regex.  Defaults to "[^a-zA-Z0-9_.]".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#hostname_rewrite_regex DataBloxoneIpamSubnets#hostname_rewrite_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#hostname_rewrite_regex DataBloxoneIpamSubnets#hostname_rewrite_regex}
   */
   readonly hostnameRewriteRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#inheritance_sources DataBloxoneIpamSubnets#inheritance_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#inheritance_sources DataBloxoneIpamSubnets#inheritance_sources}
   */
   readonly inheritanceSources?: DataBloxoneIpamSubnetsResultsInheritanceSources;
   /**
   * The name of the subnet. May contain 1 to 256 characters. Can include UTF-8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#name DataBloxoneIpamSubnets#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#name DataBloxoneIpamSubnets#name}
   */
   readonly name?: string;
   /**
   * The resource identifier for the address block where the next available subnet should be generated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#next_available_id DataBloxoneIpamSubnets#next_available_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#next_available_id DataBloxoneIpamSubnets#next_available_id}
   */
   readonly nextAvailableId?: string;
   /**
   * The lease rebind time (T2) in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#rebind_time DataBloxoneIpamSubnets#rebind_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#rebind_time DataBloxoneIpamSubnets#rebind_time}
   */
   readonly rebindTime?: number;
   /**
   * The lease renew time (T1) in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#renew_time DataBloxoneIpamSubnets#renew_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#renew_time DataBloxoneIpamSubnets#renew_time}
   */
   readonly renewTime?: number;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#space DataBloxoneIpamSubnets#space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#space DataBloxoneIpamSubnets#space}
   */
   readonly space: string;
   /**
   * The tags for the subnet in JSON format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#tags DataBloxoneIpamSubnets#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#tags DataBloxoneIpamSubnets#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -9195,7 +9195,7 @@ export class DataBloxoneIpamSubnetsResultsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets bloxone_ipam_subnets}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets bloxone_ipam_subnets}
 */
 export class DataBloxoneIpamSubnets extends cdktf.TerraformDataSource {
 
@@ -9211,7 +9211,7 @@ export class DataBloxoneIpamSubnets extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataBloxoneIpamSubnets resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataBloxoneIpamSubnets to import
-  * @param importFromId The id of the existing DataBloxoneIpamSubnets that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataBloxoneIpamSubnets that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataBloxoneIpamSubnets to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -9223,7 +9223,7 @@ export class DataBloxoneIpamSubnets extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_subnets bloxone_ipam_subnets} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_subnets bloxone_ipam_subnets} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -9234,8 +9234,8 @@ export class DataBloxoneIpamSubnets extends cdktf.TerraformDataSource {
       terraformResourceType: 'bloxone_ipam_subnets',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.5.4',
+        providerVersionConstraint: '1.5.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

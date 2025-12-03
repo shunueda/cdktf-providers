@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "grafana": "4.20.2"
+    "grafana": "4.21.0"
   }
 }

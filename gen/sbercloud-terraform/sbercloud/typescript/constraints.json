@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "sbercloud": "1.12.14"
+    "sbercloud": "1.12.15"
   }
 }

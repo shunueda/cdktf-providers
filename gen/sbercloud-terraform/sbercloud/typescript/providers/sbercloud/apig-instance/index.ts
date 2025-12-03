@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_instance
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,128 +10,128 @@ export interface ApigInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * schema: Required; The name list of availability zones for the dedicated instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_instance#availability_zones ApigInstance#availability_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_instance#availability_zones ApigInstance#availability_zones}
   */
   readonly availabilityZones?: string[];
   /**
   * schema: Deprecated; The name list of availability zones for the dedicated instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_instance#available_zones ApigInstance#available_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_instance#available_zones ApigInstance#available_zones}
   */
   readonly availableZones?: string[];
   /**
   * The egress bandwidth size of the dedicated instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_instance#bandwidth_size ApigInstance#bandwidth_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_instance#bandwidth_size ApigInstance#bandwidth_size}
   */
   readonly bandwidthSize?: number;
   /**
   * The description of the dedicated instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_instance#description ApigInstance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_instance#description ApigInstance#description}
   */
   readonly description?: string;
   /**
   * The edition of the dedicated instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_instance#edition ApigInstance#edition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_instance#edition ApigInstance#edition}
   */
   readonly edition: string;
   /**
   * The EIP ID associated with the dedicated instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_instance#eip_id ApigInstance#eip_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_instance#eip_id ApigInstance#eip_id}
   */
   readonly eipId?: string;
   /**
   * The enterprise project ID to which the dedicated instance belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_instance#enterprise_project_id ApigInstance#enterprise_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_instance#enterprise_project_id ApigInstance#enterprise_project_id}
   */
   readonly enterpriseProjectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_instance#id ApigInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_instance#id ApigInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_instance#ingress_bandwidth_charging_mode ApigInstance#ingress_bandwidth_charging_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_instance#ingress_bandwidth_charging_mode ApigInstance#ingress_bandwidth_charging_mode}
   */
   readonly ingressBandwidthChargingMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_instance#ingress_bandwidth_size ApigInstance#ingress_bandwidth_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_instance#ingress_bandwidth_size ApigInstance#ingress_bandwidth_size}
   */
   readonly ingressBandwidthSize?: number;
   /**
   * Whether public access with an IPv6 address is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_instance#ipv6_enable ApigInstance#ipv6_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_instance#ipv6_enable ApigInstance#ipv6_enable}
   */
   readonly ipv6Enable?: boolean | cdktf.IResolvable;
   /**
   * The type of loadbalancer provider used by the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_instance#loadbalancer_provider ApigInstance#loadbalancer_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_instance#loadbalancer_provider ApigInstance#loadbalancer_provider}
   */
   readonly loadbalancerProvider?: string;
   /**
   * The start time of the maintenance time window.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_instance#maintain_begin ApigInstance#maintain_begin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_instance#maintain_begin ApigInstance#maintain_begin}
   */
   readonly maintainBegin?: string;
   /**
   * The name of the dedicated instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_instance#name ApigInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_instance#name ApigInstance#name}
   */
   readonly name: string;
   /**
   * The region in which to create the dedicated instance resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_instance#region ApigInstance#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_instance#region ApigInstance#region}
   */
   readonly region?: string;
   /**
   * The ID of the security group to which the dedicated instance belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_instance#security_group_id ApigInstance#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_instance#security_group_id ApigInstance#security_group_id}
   */
   readonly securityGroupId: string;
   /**
   * The ID of the VPC subnet used to create the dedicated instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_instance#subnet_id ApigInstance#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_instance#subnet_id ApigInstance#subnet_id}
   */
   readonly subnetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_instance#tags ApigInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_instance#tags ApigInstance#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The ID of the VPC used to create the dedicated instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_instance#vpc_id ApigInstance#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_instance#vpc_id ApigInstance#vpc_id}
   */
   readonly vpcId: string;
   /**
   * Name of the VPC endpoint service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_instance#vpcep_service_name ApigInstance#vpcep_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_instance#vpcep_service_name ApigInstance#vpcep_service_name}
   */
   readonly vpcepServiceName?: string;
   /**
   * custom_ingress_ports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_instance#custom_ingress_ports ApigInstance#custom_ingress_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_instance#custom_ingress_ports ApigInstance#custom_ingress_ports}
   */
   readonly customIngressPorts?: ApigInstanceCustomIngressPorts[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_instance#timeouts ApigInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_instance#timeouts ApigInstance#timeouts}
   */
   readonly timeouts?: ApigInstanceTimeouts;
 }
@@ -139,13 +139,13 @@ export interface ApigInstanceCustomIngressPorts {
   /**
   * Specified port of the custom ingress port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_instance#port ApigInstance#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_instance#port ApigInstance#port}
   */
   readonly port: number;
   /**
   * Specified protocol of the custom ingress port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_instance#protocol ApigInstance#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_instance#protocol ApigInstance#protocol}
   */
   readonly protocol: string;
 }
@@ -294,15 +294,15 @@ export class ApigInstanceCustomIngressPortsList extends cdktf.ComplexList {
 }
 export interface ApigInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_instance#create ApigInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_instance#create ApigInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_instance#delete ApigInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_instance#delete ApigInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_instance#update ApigInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_instance#update ApigInstance#update}
   */
   readonly update?: string;
 }
@@ -454,7 +454,7 @@ export class ApigInstanceTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_instance sbercloud_apig_instance}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_instance sbercloud_apig_instance}
 */
 export class ApigInstance extends cdktf.TerraformResource {
 
@@ -470,7 +470,7 @@ export class ApigInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApigInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApigInstance to import
-  * @param importFromId The id of the existing ApigInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApigInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApigInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -482,7 +482,7 @@ export class ApigInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_instance sbercloud_apig_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_instance sbercloud_apig_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -493,8 +493,8 @@ export class ApigInstance extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_apig_instance',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

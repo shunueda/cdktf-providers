@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/ske_cluster
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/ske_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface SkeClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * A single extensions block as defined below.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/ske_cluster#extensions SkeCluster#extensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/ske_cluster#extensions SkeCluster#extensions}
   */
   readonly extensions?: SkeClusterExtensions;
   /**
   * One or more hibernation block as defined below.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/ske_cluster#hibernations SkeCluster#hibernations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/ske_cluster#hibernations SkeCluster#hibernations}
   */
   readonly hibernations?: SkeClusterHibernations[] | cdktf.IResolvable;
   /**
   * The minimum Kubernetes version. This field will be used to set the minimum kubernetes version on creation/update of the cluster. If unset, the latest supported Kubernetes version will be used. SKE automatically updates the cluster Kubernetes version if you have set `maintenance.enable_kubernetes_version_updates` to true or if there is a mandatory update, as described in [Updates for Kubernetes versions and Operating System versions in SKE](https://docs.stackit.cloud/stackit/en/version-updates-in-ske-10125631.html). To get the current kubernetes version being used for your cluster, use the read-only `kubernetes_version_used` field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/ske_cluster#kubernetes_version_min SkeCluster#kubernetes_version_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/ske_cluster#kubernetes_version_min SkeCluster#kubernetes_version_min}
   */
   readonly kubernetesVersionMin?: string;
   /**
   * A single maintenance block as defined below.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/ske_cluster#maintenance SkeCluster#maintenance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/ske_cluster#maintenance SkeCluster#maintenance}
   */
   readonly maintenance?: SkeClusterMaintenance;
   /**
   * The cluster name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/ske_cluster#name SkeCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/ske_cluster#name SkeCluster#name}
   */
   readonly name: string;
   /**
   * Network block as defined below.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/ske_cluster#network SkeCluster#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/ske_cluster#network SkeCluster#network}
   */
   readonly network?: SkeClusterNetwork;
   /**
   * One or more `node_pool` block as defined below.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/ske_cluster#node_pools SkeCluster#node_pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/ske_cluster#node_pools SkeCluster#node_pools}
   */
   readonly nodePools: SkeClusterNodePools[] | cdktf.IResolvable;
   /**
   * STACKIT project ID to which the cluster is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/ske_cluster#project_id SkeCluster#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/ske_cluster#project_id SkeCluster#project_id}
   */
   readonly projectId: string;
   /**
   * The resource region. If not defined, the provider region is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/ske_cluster#region SkeCluster#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/ske_cluster#region SkeCluster#region}
   */
   readonly region?: string;
 }
@@ -66,13 +66,13 @@ export interface SkeClusterExtensionsAcl {
   /**
   * Specify a list of CIDRs to whitelist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/ske_cluster#allowed_cidrs SkeCluster#allowed_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/ske_cluster#allowed_cidrs SkeCluster#allowed_cidrs}
   */
   readonly allowedCidrs: string[];
   /**
   * Is ACL enabled?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/ske_cluster#enabled SkeCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/ske_cluster#enabled SkeCluster#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
 }
@@ -191,13 +191,13 @@ export interface SkeClusterExtensionsArgus {
   /**
   * Argus instance ID to choose which Argus instance is used. Required when enabled is set to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/ske_cluster#argus_instance_id SkeCluster#argus_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/ske_cluster#argus_instance_id SkeCluster#argus_instance_id}
   */
   readonly argusInstanceId?: string;
   /**
   * Flag to enable/disable Argus extensions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/ske_cluster#enabled SkeCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/ske_cluster#enabled SkeCluster#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
 }
@@ -319,13 +319,13 @@ export interface SkeClusterExtensionsDns {
   /**
   * Flag to enable/disable DNS extensions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/ske_cluster#enabled SkeCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/ske_cluster#enabled SkeCluster#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Specify a list of domain filters for externalDNS (e.g., `foo.runs.onstackit.cloud`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/ske_cluster#zones SkeCluster#zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/ske_cluster#zones SkeCluster#zones}
   */
   readonly zones?: string[];
 }
@@ -447,13 +447,13 @@ export interface SkeClusterExtensionsObservability {
   /**
   * Flag to enable/disable Observability extensions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/ske_cluster#enabled SkeCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/ske_cluster#enabled SkeCluster#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Observability instance ID to choose which Observability instance is used. Required when enabled is set to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/ske_cluster#instance_id SkeCluster#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/ske_cluster#instance_id SkeCluster#instance_id}
   */
   readonly instanceId?: string;
 }
@@ -575,25 +575,25 @@ export interface SkeClusterExtensions {
   /**
   * Cluster access control configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/ske_cluster#acl SkeCluster#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/ske_cluster#acl SkeCluster#acl}
   */
   readonly acl?: SkeClusterExtensionsAcl;
   /**
   * A single argus block as defined below. This field is deprecated and will be removed 06 January 2026.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/ske_cluster#argus SkeCluster#argus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/ske_cluster#argus SkeCluster#argus}
   */
   readonly argus?: SkeClusterExtensionsArgus;
   /**
   * DNS extension configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/ske_cluster#dns SkeCluster#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/ske_cluster#dns SkeCluster#dns}
   */
   readonly dns?: SkeClusterExtensionsDns;
   /**
   * A single observability block as defined below.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/ske_cluster#observability SkeCluster#observability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/ske_cluster#observability SkeCluster#observability}
   */
   readonly observability?: SkeClusterExtensionsObservability;
 }
@@ -776,19 +776,19 @@ export interface SkeClusterHibernations {
   /**
   * End time of hibernation in crontab syntax. E.g. `0 8 * * *` for waking up the cluster at 8am.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/ske_cluster#end SkeCluster#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/ske_cluster#end SkeCluster#end}
   */
   readonly end: string;
   /**
   * Start time of cluster hibernation in crontab syntax. E.g. `0 18 * * *` for starting everyday at 6pm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/ske_cluster#start SkeCluster#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/ske_cluster#start SkeCluster#start}
   */
   readonly start: string;
   /**
   * Timezone name corresponding to a file in the IANA Time Zone database. i.e. `Europe/Berlin`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/ske_cluster#timezone SkeCluster#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/ske_cluster#timezone SkeCluster#timezone}
   */
   readonly timezone?: string;
 }
@@ -958,25 +958,25 @@ export interface SkeClusterMaintenance {
   /**
   * Flag to enable/disable auto-updates of the Kubernetes version. Defaults to `true`. SKE automatically updates the cluster Kubernetes version if you have set `maintenance.enable_kubernetes_version_updates` to true or if there is a mandatory update, as described in [Updates for Kubernetes versions and Operating System versions in SKE](https://docs.stackit.cloud/stackit/en/version-updates-in-ske-10125631.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/ske_cluster#enable_kubernetes_version_updates SkeCluster#enable_kubernetes_version_updates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/ske_cluster#enable_kubernetes_version_updates SkeCluster#enable_kubernetes_version_updates}
   */
   readonly enableKubernetesVersionUpdates?: boolean | cdktf.IResolvable;
   /**
   * Flag to enable/disable auto-updates of the OS image version. Defaults to `true`. SKE automatically updates the cluster Kubernetes version if you have set `maintenance.enable_kubernetes_version_updates` to true or if there is a mandatory update, as described in [Updates for Kubernetes versions and Operating System versions in SKE](https://docs.stackit.cloud/stackit/en/version-updates-in-ske-10125631.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/ske_cluster#enable_machine_image_version_updates SkeCluster#enable_machine_image_version_updates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/ske_cluster#enable_machine_image_version_updates SkeCluster#enable_machine_image_version_updates}
   */
   readonly enableMachineImageVersionUpdates?: boolean | cdktf.IResolvable;
   /**
   * Time for maintenance window end. E.g. `01:23:45Z`, `05:00:00+02:00`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/ske_cluster#end SkeCluster#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/ske_cluster#end SkeCluster#end}
   */
   readonly end: string;
   /**
   * Time for maintenance window start. E.g. `01:23:45Z`, `05:00:00+02:00`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/ske_cluster#start SkeCluster#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/ske_cluster#start SkeCluster#start}
   */
   readonly start: string;
 }
@@ -1153,7 +1153,7 @@ export interface SkeClusterNetwork {
   /**
   * ID of the STACKIT Network Area (SNA) network into which the cluster will be deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/ske_cluster#id SkeCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/ske_cluster#id SkeCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1252,19 +1252,19 @@ export interface SkeClusterNodePoolsTaints {
   /**
   * The taint effect. E.g `PreferNoSchedule`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/ske_cluster#effect SkeCluster#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/ske_cluster#effect SkeCluster#effect}
   */
   readonly effect: string;
   /**
   * Taint key to be applied to a node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/ske_cluster#key SkeCluster#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/ske_cluster#key SkeCluster#key}
   */
   readonly key: string;
   /**
   * Taint value corresponding to the taint key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/ske_cluster#value SkeCluster#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/ske_cluster#value SkeCluster#value}
   */
   readonly value?: string;
 }
@@ -1434,97 +1434,97 @@ export interface SkeClusterNodePools {
   /**
   * Allow system components to run on this node pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/ske_cluster#allow_system_components SkeCluster#allow_system_components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/ske_cluster#allow_system_components SkeCluster#allow_system_components}
   */
   readonly allowSystemComponents?: boolean | cdktf.IResolvable;
   /**
   * Specify a list of availability zones. E.g. `eu01-m`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/ske_cluster#availability_zones SkeCluster#availability_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/ske_cluster#availability_zones SkeCluster#availability_zones}
   */
   readonly availabilityZones: string[];
   /**
   * Specifies the container runtime. Defaults to `containerd`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/ske_cluster#cri SkeCluster#cri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/ske_cluster#cri SkeCluster#cri}
   */
   readonly cri?: string;
   /**
   * Labels to add to each node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/ske_cluster#labels SkeCluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/ske_cluster#labels SkeCluster#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The machine type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/ske_cluster#machine_type SkeCluster#machine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/ske_cluster#machine_type SkeCluster#machine_type}
   */
   readonly machineType: string;
   /**
   * Maximum number of additional VMs that are created during an update. If set (larger than 0), then it must be at least the amount of zones configured for the nodepool. The `max_surge` and `max_unavailable` fields cannot both be unset at the same time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/ske_cluster#max_surge SkeCluster#max_surge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/ske_cluster#max_surge SkeCluster#max_surge}
   */
   readonly maxSurge?: number;
   /**
   * Maximum number of VMs that that can be unavailable during an update. If set (larger than 0), then it must be at least the amount of zones configured for the nodepool. The `max_surge` and `max_unavailable` fields cannot both be unset at the same time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/ske_cluster#max_unavailable SkeCluster#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/ske_cluster#max_unavailable SkeCluster#max_unavailable}
   */
   readonly maxUnavailable?: number;
   /**
   * Maximum number of nodes in the pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/ske_cluster#maximum SkeCluster#maximum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/ske_cluster#maximum SkeCluster#maximum}
   */
   readonly maximum: number;
   /**
   * Minimum number of nodes in the pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/ske_cluster#minimum SkeCluster#minimum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/ske_cluster#minimum SkeCluster#minimum}
   */
   readonly minimum: number;
   /**
   * Specifies the name of the node pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/ske_cluster#name SkeCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/ske_cluster#name SkeCluster#name}
   */
   readonly name: string;
   /**
   * The name of the OS image. Defaults to `flatcar`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/ske_cluster#os_name SkeCluster#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/ske_cluster#os_name SkeCluster#os_name}
   */
   readonly osName?: string;
   /**
   * This field is deprecated, use `os_version_min` to configure the version and `os_version_used` to get the currently used version instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/ske_cluster#os_version SkeCluster#os_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/ske_cluster#os_version SkeCluster#os_version}
   */
   readonly osVersion?: string;
   /**
   * The minimum OS image version. This field will be used to set the minimum OS image version on creation/update of the cluster. If unset, the latest supported OS image version will be used. SKE automatically updates the cluster Kubernetes version if you have set `maintenance.enable_kubernetes_version_updates` to true or if there is a mandatory update, as described in [Updates for Kubernetes versions and Operating System versions in SKE](https://docs.stackit.cloud/stackit/en/version-updates-in-ske-10125631.html). To get the current OS image version being used for the node pool, use the read-only `os_version_used` field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/ske_cluster#os_version_min SkeCluster#os_version_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/ske_cluster#os_version_min SkeCluster#os_version_min}
   */
   readonly osVersionMin?: string;
   /**
   * Specifies a taint list as defined below.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/ske_cluster#taints SkeCluster#taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/ske_cluster#taints SkeCluster#taints}
   */
   readonly taints?: SkeClusterNodePoolsTaints[] | cdktf.IResolvable;
   /**
   * The volume size in GB. Defaults to `20`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/ske_cluster#volume_size SkeCluster#volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/ske_cluster#volume_size SkeCluster#volume_size}
   */
   readonly volumeSize?: number;
   /**
   * Specifies the volume type. Defaults to `storage_premium_perf1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/ske_cluster#volume_type SkeCluster#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/ske_cluster#volume_type SkeCluster#volume_type}
   */
   readonly volumeType?: string;
 }
@@ -2065,7 +2065,7 @@ export class SkeClusterNodePoolsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/ske_cluster stackit_ske_cluster}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/ske_cluster stackit_ske_cluster}
 */
 export class SkeCluster extends cdktf.TerraformResource {
 
@@ -2081,7 +2081,7 @@ export class SkeCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SkeCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SkeCluster to import
-  * @param importFromId The id of the existing SkeCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/ske_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SkeCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/ske_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SkeCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2093,7 +2093,7 @@ export class SkeCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/ske_cluster stackit_ske_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/ske_cluster stackit_ske_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2104,8 +2104,8 @@ export class SkeCluster extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_ske_cluster',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.72.0',
-        providerVersionConstraint: '0.72.0'
+        providerVersion: '0.73.0',
+        providerVersionConstraint: '0.73.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

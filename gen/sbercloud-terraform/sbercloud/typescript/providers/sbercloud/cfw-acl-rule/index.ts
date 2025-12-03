@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_acl_rule
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_acl_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,81 +10,81 @@ export interface CfwAclRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The action type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_acl_rule#action_type CfwAclRule#action_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_acl_rule#action_type CfwAclRule#action_type}
   */
   readonly actionType: number;
   /**
   * The address type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_acl_rule#address_type CfwAclRule#address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_acl_rule#address_type CfwAclRule#address_type}
   */
   readonly addressType: number;
   /**
   * The application list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_acl_rule#applications CfwAclRule#applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_acl_rule#applications CfwAclRule#applications}
   */
   readonly applications?: string[];
   /**
   * The rule description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_acl_rule#description CfwAclRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_acl_rule#description CfwAclRule#description}
   */
   readonly description?: string;
   /**
   * The destination address group list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_acl_rule#destination_address_groups CfwAclRule#destination_address_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_acl_rule#destination_address_groups CfwAclRule#destination_address_groups}
   */
   readonly destinationAddressGroups?: string[];
   /**
   * The destination address type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_acl_rule#destination_address_type CfwAclRule#destination_address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_acl_rule#destination_address_type CfwAclRule#destination_address_type}
   */
   readonly destinationAddressType?: number;
   /**
   * The destination IP address list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_acl_rule#destination_addresses CfwAclRule#destination_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_acl_rule#destination_addresses CfwAclRule#destination_addresses}
   */
   readonly destinationAddresses?: string[];
   /**
   * The destination domain address name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_acl_rule#destination_domain_address_name CfwAclRule#destination_domain_address_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_acl_rule#destination_domain_address_name CfwAclRule#destination_domain_address_name}
   */
   readonly destinationDomainAddressName?: string;
   /**
   * The destination domain group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_acl_rule#destination_domain_group_id CfwAclRule#destination_domain_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_acl_rule#destination_domain_group_id CfwAclRule#destination_domain_group_id}
   */
   readonly destinationDomainGroupId?: string;
   /**
   * The destination domain group name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_acl_rule#destination_domain_group_name CfwAclRule#destination_domain_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_acl_rule#destination_domain_group_name CfwAclRule#destination_domain_group_name}
   */
   readonly destinationDomainGroupName?: string;
   /**
   * The destination domain group type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_acl_rule#destination_domain_group_type CfwAclRule#destination_domain_group_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_acl_rule#destination_domain_group_type CfwAclRule#destination_domain_group_type}
   */
   readonly destinationDomainGroupType?: number;
   /**
   * The rule direction.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_acl_rule#direction CfwAclRule#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_acl_rule#direction CfwAclRule#direction}
   */
   readonly direction?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_acl_rule#enable_force_new CfwAclRule#enable_force_new}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_acl_rule#enable_force_new CfwAclRule#enable_force_new}
   */
   readonly enableForceNew?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_acl_rule#id CfwAclRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_acl_rule#id CfwAclRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -93,123 +93,123 @@ export interface CfwAclRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether to support persistent connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_acl_rule#long_connect_enable CfwAclRule#long_connect_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_acl_rule#long_connect_enable CfwAclRule#long_connect_enable}
   */
   readonly longConnectEnable: number;
   /**
   * The persistent connection duration (hour).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_acl_rule#long_connect_time_hour CfwAclRule#long_connect_time_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_acl_rule#long_connect_time_hour CfwAclRule#long_connect_time_hour}
   */
   readonly longConnectTimeHour?: number;
   /**
   * The persistent connection duration (minute).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_acl_rule#long_connect_time_minute CfwAclRule#long_connect_time_minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_acl_rule#long_connect_time_minute CfwAclRule#long_connect_time_minute}
   */
   readonly longConnectTimeMinute?: number;
   /**
   * The persistent Connection Duration (second).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_acl_rule#long_connect_time_second CfwAclRule#long_connect_time_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_acl_rule#long_connect_time_second CfwAclRule#long_connect_time_second}
   */
   readonly longConnectTimeSecond?: number;
   /**
   * The rule name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_acl_rule#name CfwAclRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_acl_rule#name CfwAclRule#name}
   */
   readonly name: string;
   /**
   * The protected object ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_acl_rule#object_id CfwAclRule#object_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_acl_rule#object_id CfwAclRule#object_id}
   */
   readonly objectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_acl_rule#region CfwAclRule#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_acl_rule#region CfwAclRule#region}
   */
   readonly region?: string;
   /**
   * The number of times the ACL rule is hit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_acl_rule#rule_hit_count CfwAclRule#rule_hit_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_acl_rule#rule_hit_count CfwAclRule#rule_hit_count}
   */
   readonly ruleHitCount?: string;
   /**
   * The source address group list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_acl_rule#source_address_groups CfwAclRule#source_address_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_acl_rule#source_address_groups CfwAclRule#source_address_groups}
   */
   readonly sourceAddressGroups?: string[];
   /**
   * The source address type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_acl_rule#source_address_type CfwAclRule#source_address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_acl_rule#source_address_type CfwAclRule#source_address_type}
   */
   readonly sourceAddressType?: number;
   /**
   * The source IP address list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_acl_rule#source_addresses CfwAclRule#source_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_acl_rule#source_addresses CfwAclRule#source_addresses}
   */
   readonly sourceAddresses?: string[];
   /**
   * The source predefined address group list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_acl_rule#source_predefined_groups CfwAclRule#source_predefined_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_acl_rule#source_predefined_groups CfwAclRule#source_predefined_groups}
   */
   readonly sourcePredefinedGroups?: string[];
   /**
   * The rule status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_acl_rule#status CfwAclRule#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_acl_rule#status CfwAclRule#status}
   */
   readonly status: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_acl_rule#tags CfwAclRule#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_acl_rule#tags CfwAclRule#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The rule type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_acl_rule#type CfwAclRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_acl_rule#type CfwAclRule#type}
   */
   readonly type: number;
   /**
   * custom_service_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_acl_rule#custom_service_groups CfwAclRule#custom_service_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_acl_rule#custom_service_groups CfwAclRule#custom_service_groups}
   */
   readonly customServiceGroups?: CfwAclRuleCustomServiceGroups;
   /**
   * custom_services block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_acl_rule#custom_services CfwAclRule#custom_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_acl_rule#custom_services CfwAclRule#custom_services}
   */
   readonly customServices?: CfwAclRuleCustomServices[] | cdktf.IResolvable;
   /**
   * destination_region_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_acl_rule#destination_region_list CfwAclRule#destination_region_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_acl_rule#destination_region_list CfwAclRule#destination_region_list}
   */
   readonly destinationRegionList?: CfwAclRuleDestinationRegionListStruct[] | cdktf.IResolvable;
   /**
   * predefined_service_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_acl_rule#predefined_service_groups CfwAclRule#predefined_service_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_acl_rule#predefined_service_groups CfwAclRule#predefined_service_groups}
   */
   readonly predefinedServiceGroups?: CfwAclRulePredefinedServiceGroups;
   /**
   * sequence block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_acl_rule#sequence CfwAclRule#sequence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_acl_rule#sequence CfwAclRule#sequence}
   */
   readonly sequence: CfwAclRuleSequence;
   /**
   * source_region_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_acl_rule#source_region_list CfwAclRule#source_region_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_acl_rule#source_region_list CfwAclRule#source_region_list}
   */
   readonly sourceRegionList?: CfwAclRuleSourceRegionListStruct[] | cdktf.IResolvable;
 }
@@ -217,13 +217,13 @@ export interface CfwAclRuleCustomServiceGroups {
   /**
   * The IDs of the service groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_acl_rule#group_ids CfwAclRule#group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_acl_rule#group_ids CfwAclRule#group_ids}
   */
   readonly groupIds: string[];
   /**
   * The protocols used in the service groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_acl_rule#protocols CfwAclRule#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_acl_rule#protocols CfwAclRule#protocols}
   */
   readonly protocols: number[];
 }
@@ -332,19 +332,19 @@ export interface CfwAclRuleCustomServices {
   /**
   * The destination port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_acl_rule#dest_port CfwAclRule#dest_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_acl_rule#dest_port CfwAclRule#dest_port}
   */
   readonly destPort: string;
   /**
   * The protocol type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_acl_rule#protocol CfwAclRule#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_acl_rule#protocol CfwAclRule#protocol}
   */
   readonly protocol: number;
   /**
   * The source port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_acl_rule#source_port CfwAclRule#source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_acl_rule#source_port CfwAclRule#source_port}
   */
   readonly sourcePort: string;
 }
@@ -511,25 +511,25 @@ export interface CfwAclRuleDestinationRegionListStruct {
   /**
   * The Chinese description of the region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_acl_rule#description_cn CfwAclRule#description_cn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_acl_rule#description_cn CfwAclRule#description_cn}
   */
   readonly descriptionCn?: string;
   /**
   * The English description of the region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_acl_rule#description_en CfwAclRule#description_en}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_acl_rule#description_en CfwAclRule#description_en}
   */
   readonly descriptionEn?: string;
   /**
   * The region ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_acl_rule#region_id CfwAclRule#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_acl_rule#region_id CfwAclRule#region_id}
   */
   readonly regionId: string;
   /**
   * The region type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_acl_rule#region_type CfwAclRule#region_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_acl_rule#region_type CfwAclRule#region_type}
   */
   readonly regionType: number;
 }
@@ -728,13 +728,13 @@ export interface CfwAclRulePredefinedServiceGroups {
   /**
   * The IDs of the service groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_acl_rule#group_ids CfwAclRule#group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_acl_rule#group_ids CfwAclRule#group_ids}
   */
   readonly groupIds: string[];
   /**
   * The protocols used in the service groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_acl_rule#protocols CfwAclRule#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_acl_rule#protocols CfwAclRule#protocols}
   */
   readonly protocols: number[];
 }
@@ -843,19 +843,19 @@ export interface CfwAclRuleSequence {
   /**
   * Whether to pin on bottom.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_acl_rule#bottom CfwAclRule#bottom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_acl_rule#bottom CfwAclRule#bottom}
   */
   readonly bottom?: number;
   /**
   * The ID of the rule that the added rule will follow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_acl_rule#dest_rule_id CfwAclRule#dest_rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_acl_rule#dest_rule_id CfwAclRule#dest_rule_id}
   */
   readonly destRuleId?: string;
   /**
   * Whether to pin on top.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_acl_rule#top CfwAclRule#top}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_acl_rule#top CfwAclRule#top}
   */
   readonly top?: number;
 }
@@ -999,25 +999,25 @@ export interface CfwAclRuleSourceRegionListStruct {
   /**
   * The Chinese description of the region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_acl_rule#description_cn CfwAclRule#description_cn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_acl_rule#description_cn CfwAclRule#description_cn}
   */
   readonly descriptionCn?: string;
   /**
   * The English description of the region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_acl_rule#description_en CfwAclRule#description_en}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_acl_rule#description_en CfwAclRule#description_en}
   */
   readonly descriptionEn?: string;
   /**
   * The region ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_acl_rule#region_id CfwAclRule#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_acl_rule#region_id CfwAclRule#region_id}
   */
   readonly regionId: string;
   /**
   * The region type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_acl_rule#region_type CfwAclRule#region_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_acl_rule#region_type CfwAclRule#region_type}
   */
   readonly regionType: number;
 }
@@ -1214,7 +1214,7 @@ export class CfwAclRuleSourceRegionListStructList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_acl_rule sbercloud_cfw_acl_rule}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_acl_rule sbercloud_cfw_acl_rule}
 */
 export class CfwAclRule extends cdktf.TerraformResource {
 
@@ -1230,7 +1230,7 @@ export class CfwAclRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CfwAclRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CfwAclRule to import
-  * @param importFromId The id of the existing CfwAclRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_acl_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CfwAclRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_acl_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CfwAclRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1242,7 +1242,7 @@ export class CfwAclRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_acl_rule sbercloud_cfw_acl_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_acl_rule sbercloud_cfw_acl_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1253,8 +1253,8 @@ export class CfwAclRule extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_cfw_acl_rule',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

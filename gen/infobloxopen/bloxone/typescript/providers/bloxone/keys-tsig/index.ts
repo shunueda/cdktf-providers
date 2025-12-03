@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/keys_tsig
+// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/keys_tsig
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -19,37 +19,37 @@ export interface KeysTsigConfig extends cdktf.TerraformMetaArguments {
   * 
   *   Defaults to _hmac_sha256_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/keys_tsig#algorithm KeysTsig#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/keys_tsig#algorithm KeysTsig#algorithm}
   */
   readonly algorithm?: string;
   /**
   * The description for the TSIG key. May contain 0 to 1024 characters. Can include UTF-8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/keys_tsig#comment KeysTsig#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/keys_tsig#comment KeysTsig#comment}
   */
   readonly comment?: string;
   /**
   * The TSIG key name in the absolute domain name format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/keys_tsig#name KeysTsig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/keys_tsig#name KeysTsig#name}
   */
   readonly name: string;
   /**
   * The TSIG key secret as a Base64 encoded string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/keys_tsig#secret KeysTsig#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/keys_tsig#secret KeysTsig#secret}
   */
   readonly secret?: string;
   /**
   * The tags for the TSIG key in JSON format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/keys_tsig#tags KeysTsig#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/keys_tsig#tags KeysTsig#tags}
   */
   readonly tags?: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/keys_tsig bloxone_keys_tsig}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/keys_tsig bloxone_keys_tsig}
 */
 export class KeysTsig extends cdktf.TerraformResource {
 
@@ -65,7 +65,7 @@ export class KeysTsig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KeysTsig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KeysTsig to import
-  * @param importFromId The id of the existing KeysTsig that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/keys_tsig#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KeysTsig that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/keys_tsig#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KeysTsig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -77,7 +77,7 @@ export class KeysTsig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/keys_tsig bloxone_keys_tsig} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/keys_tsig bloxone_keys_tsig} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -88,8 +88,8 @@ export class KeysTsig extends cdktf.TerraformResource {
       terraformResourceType: 'bloxone_keys_tsig',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.5.4',
+        providerVersionConstraint: '1.5.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

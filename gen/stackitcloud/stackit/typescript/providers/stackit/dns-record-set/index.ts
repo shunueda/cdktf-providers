@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/dns_record_set
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/dns_record_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface DnsRecordSetConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies if the record set is active or not. Defaults to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/dns_record_set#active DnsRecordSet#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/dns_record_set#active DnsRecordSet#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
   * Comment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/dns_record_set#comment DnsRecordSet#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/dns_record_set#comment DnsRecordSet#comment}
   */
   readonly comment?: string;
   /**
   * Name of the record which should be a valid domain according to rfc1035 Section 2.3.4. E.g. `example.com`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/dns_record_set#name DnsRecordSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/dns_record_set#name DnsRecordSet#name}
   */
   readonly name: string;
   /**
   * STACKIT project ID to which the dns record set is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/dns_record_set#project_id DnsRecordSet#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/dns_record_set#project_id DnsRecordSet#project_id}
   */
   readonly projectId: string;
   /**
   * Records.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/dns_record_set#records DnsRecordSet#records}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/dns_record_set#records DnsRecordSet#records}
   */
   readonly records: string[];
   /**
   * Time to live. E.g. 3600
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/dns_record_set#ttl DnsRecordSet#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/dns_record_set#ttl DnsRecordSet#ttl}
   */
   readonly ttl?: number;
   /**
   * The record set type. E.g. `A` or `CNAME`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/dns_record_set#type DnsRecordSet#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/dns_record_set#type DnsRecordSet#type}
   */
   readonly type: string;
   /**
   * The zone ID to which is dns record set is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/dns_record_set#zone_id DnsRecordSet#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/dns_record_set#zone_id DnsRecordSet#zone_id}
   */
   readonly zoneId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/dns_record_set stackit_dns_record_set}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/dns_record_set stackit_dns_record_set}
 */
 export class DnsRecordSet extends cdktf.TerraformResource {
 
@@ -74,7 +74,7 @@ export class DnsRecordSet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DnsRecordSet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DnsRecordSet to import
-  * @param importFromId The id of the existing DnsRecordSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/dns_record_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DnsRecordSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/dns_record_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DnsRecordSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +86,7 @@ export class DnsRecordSet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/dns_record_set stackit_dns_record_set} Resource
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/dns_record_set stackit_dns_record_set} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,8 +97,8 @@ export class DnsRecordSet extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_dns_record_set',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.72.0',
-        providerVersionConstraint: '0.72.0'
+        providerVersion: '0.73.0',
+        providerVersionConstraint: '0.73.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

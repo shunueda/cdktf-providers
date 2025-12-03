@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tcr_vpc_attachment
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tcr_vpc_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface TcrVpcAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether to enable public domain dns. Default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tcr_vpc_attachment#enable_public_domain_dns TcrVpcAttachment#enable_public_domain_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tcr_vpc_attachment#enable_public_domain_dns TcrVpcAttachment#enable_public_domain_dns}
   */
   readonly enablePublicDomainDns?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable vpc domain dns. Default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tcr_vpc_attachment#enable_vpc_domain_dns TcrVpcAttachment#enable_vpc_domain_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tcr_vpc_attachment#enable_vpc_domain_dns TcrVpcAttachment#enable_vpc_domain_dns}
   */
   readonly enableVpcDomainDns?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tcr_vpc_attachment#id TcrVpcAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tcr_vpc_attachment#id TcrVpcAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,37 +29,37 @@ export interface TcrVpcAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of the TCR instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tcr_vpc_attachment#instance_id TcrVpcAttachment#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tcr_vpc_attachment#instance_id TcrVpcAttachment#instance_id}
   */
   readonly instanceId: string;
   /**
   * ID of region. Conflict with region_name, can not be set at the same time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tcr_vpc_attachment#region_id TcrVpcAttachment#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tcr_vpc_attachment#region_id TcrVpcAttachment#region_id}
   */
   readonly regionId?: number;
   /**
   * Name of region. Conflict with region_id, can not be set at the same time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tcr_vpc_attachment#region_name TcrVpcAttachment#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tcr_vpc_attachment#region_name TcrVpcAttachment#region_name}
   */
   readonly regionName?: string;
   /**
   * ID of subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tcr_vpc_attachment#subnet_id TcrVpcAttachment#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tcr_vpc_attachment#subnet_id TcrVpcAttachment#subnet_id}
   */
   readonly subnetId: string;
   /**
   * ID of VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tcr_vpc_attachment#vpc_id TcrVpcAttachment#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tcr_vpc_attachment#vpc_id TcrVpcAttachment#vpc_id}
   */
   readonly vpcId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tcr_vpc_attachment tencentcloud_tcr_vpc_attachment}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tcr_vpc_attachment tencentcloud_tcr_vpc_attachment}
 */
 export class TcrVpcAttachment extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class TcrVpcAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TcrVpcAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TcrVpcAttachment to import
-  * @param importFromId The id of the existing TcrVpcAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tcr_vpc_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TcrVpcAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tcr_vpc_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TcrVpcAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class TcrVpcAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tcr_vpc_attachment tencentcloud_tcr_vpc_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tcr_vpc_attachment tencentcloud_tcr_vpc_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class TcrVpcAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tcr_vpc_attachment',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.39',
-        providerVersionConstraint: '1.82.39'
+        providerVersion: '1.82.40',
+        providerVersionConstraint: '1.82.40'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

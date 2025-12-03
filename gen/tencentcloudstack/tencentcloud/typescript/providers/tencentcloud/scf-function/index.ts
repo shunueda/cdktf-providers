@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/scf_function
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/scf_function
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,83 +10,83 @@ export interface ScfFunctionConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether SCF function asynchronous attribute is enabled. `TRUE` is open, `FALSE` is close.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/scf_function#async_run_enable ScfFunction#async_run_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/scf_function#async_run_enable ScfFunction#async_run_enable}
   */
   readonly asyncRunEnable?: string;
   /**
   * cls logset id of the SCF function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/scf_function#cls_logset_id ScfFunction#cls_logset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/scf_function#cls_logset_id ScfFunction#cls_logset_id}
   */
   readonly clsLogsetId?: string;
   /**
   * cls topic id of the SCF function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/scf_function#cls_topic_id ScfFunction#cls_topic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/scf_function#cls_topic_id ScfFunction#cls_topic_id}
   */
   readonly clsTopicId?: string;
   /**
   * Cos bucket name of the SCF function, such as `cos-1234567890`, conflict with `zip_file`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/scf_function#cos_bucket_name ScfFunction#cos_bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/scf_function#cos_bucket_name ScfFunction#cos_bucket_name}
   */
   readonly cosBucketName?: string;
   /**
   * Cos bucket region of the SCF function, conflict with `zip_file`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/scf_function#cos_bucket_region ScfFunction#cos_bucket_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/scf_function#cos_bucket_region ScfFunction#cos_bucket_region}
   */
   readonly cosBucketRegion?: string;
   /**
   * Cos object name of the SCF function, should have suffix `.zip` or `.jar`, conflict with `zip_file`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/scf_function#cos_object_name ScfFunction#cos_object_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/scf_function#cos_object_name ScfFunction#cos_object_name}
   */
   readonly cosObjectName?: string;
   /**
   * Description of the SCF function. Description supports English letters, numbers, spaces, commas, newlines, periods and Chinese, the maximum length is 1000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/scf_function#description ScfFunction#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/scf_function#description ScfFunction#description}
   */
   readonly description?: string;
   /**
   * Whether to enable Dns caching capability, only the EVENT function is supported. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/scf_function#dns_cache ScfFunction#dns_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/scf_function#dns_cache ScfFunction#dns_cache}
   */
   readonly dnsCache?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether EIP config set to `ENABLE` when `enable_public_net` was true. Default `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/scf_function#enable_eip_config ScfFunction#enable_eip_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/scf_function#enable_eip_config ScfFunction#enable_eip_config}
   */
   readonly enableEipConfig?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether public net config enabled. Default `false`. NOTE: only `vpc_id` specified can disable public net config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/scf_function#enable_public_net ScfFunction#enable_public_net}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/scf_function#enable_public_net ScfFunction#enable_public_net}
   */
   readonly enablePublicNet?: boolean | cdktf.IResolvable;
   /**
   * Environment of the SCF function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/scf_function#environment ScfFunction#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/scf_function#environment ScfFunction#environment}
   */
   readonly environment?: { [key: string]: string };
   /**
   * Function type. The default value is Event. Enter Event if you need to create a trigger function. Enter HTTP if you need to create an HTTP function service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/scf_function#func_type ScfFunction#func_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/scf_function#func_type ScfFunction#func_type}
   */
   readonly funcType?: string;
   /**
   * Handler of the SCF function. The format of name is `<filename>.<method_name>`, and it supports 26 English letters, numbers, connectors, and underscores, it should start with a letter. The last character cannot be `-` or `_`. Available length is 2-60.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/scf_function#handler ScfFunction#handler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/scf_function#handler ScfFunction#handler}
   */
   readonly handler?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/scf_function#id ScfFunction#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/scf_function#id ScfFunction#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -95,97 +95,97 @@ export interface ScfFunctionConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable L5 for SCF function, default is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/scf_function#l5_enable ScfFunction#l5_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/scf_function#l5_enable ScfFunction#l5_enable}
   */
   readonly l5Enable?: boolean | cdktf.IResolvable;
   /**
   * Memory size of the SCF function, unit is MB. The default is `128`MB. The ladder is 128M.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/scf_function#mem_size ScfFunction#mem_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/scf_function#mem_size ScfFunction#mem_size}
   */
   readonly memSize?: number;
   /**
   * Name of the SCF function. Name supports 26 English letters, numbers, connectors, and underscores, it should start with a letter. The last character cannot be `-` or `_`. Available length is 2-60.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/scf_function#name ScfFunction#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/scf_function#name ScfFunction#name}
   */
   readonly name: string;
   /**
   * Namespace of the SCF function, default is `default`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/scf_function#namespace ScfFunction#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/scf_function#namespace ScfFunction#namespace}
   */
   readonly namespace?: string;
   /**
   * Role of the SCF function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/scf_function#role ScfFunction#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/scf_function#role ScfFunction#role}
   */
   readonly role?: string;
   /**
   * Runtime of the SCF function, only supports `Python2.7`, `Python3.6`, `Nodejs6.10`, `Nodejs8.9`, `Nodejs10.15`, `Nodejs12.16`, `Php5.2`, `Php7.4`, `Go1`, `Java8`, and `CustomRuntime`, default is `Python2.7`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/scf_function#runtime ScfFunction#runtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/scf_function#runtime ScfFunction#runtime}
   */
   readonly runtime?: string;
   /**
   * Subnet ID of the SCF function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/scf_function#subnet_id ScfFunction#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/scf_function#subnet_id ScfFunction#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * Tags of the SCF function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/scf_function#tags ScfFunction#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/scf_function#tags ScfFunction#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Timeout of the SCF function, unit is second. Default `3`. Available value is 1-900.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/scf_function#timeout ScfFunction#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/scf_function#timeout ScfFunction#timeout}
   */
   readonly timeout?: number;
   /**
   * VPC ID of the SCF function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/scf_function#vpc_id ScfFunction#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/scf_function#vpc_id ScfFunction#vpc_id}
   */
   readonly vpcId?: string;
   /**
   * Zip file of the SCF function, conflict with `cos_bucket_name`, `cos_object_name`, `cos_bucket_region`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/scf_function#zip_file ScfFunction#zip_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/scf_function#zip_file ScfFunction#zip_file}
   */
   readonly zipFile?: string;
   /**
   * cfs_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/scf_function#cfs_config ScfFunction#cfs_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/scf_function#cfs_config ScfFunction#cfs_config}
   */
   readonly cfsConfig?: ScfFunctionCfsConfig[] | cdktf.IResolvable;
   /**
   * image_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/scf_function#image_config ScfFunction#image_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/scf_function#image_config ScfFunction#image_config}
   */
   readonly imageConfig?: ScfFunctionImageConfig[] | cdktf.IResolvable;
   /**
   * intranet_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/scf_function#intranet_config ScfFunction#intranet_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/scf_function#intranet_config ScfFunction#intranet_config}
   */
   readonly intranetConfig?: ScfFunctionIntranetConfig;
   /**
   * layers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/scf_function#layers ScfFunction#layers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/scf_function#layers ScfFunction#layers}
   */
   readonly layers?: ScfFunctionLayers[] | cdktf.IResolvable;
   /**
   * triggers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/scf_function#triggers ScfFunction#triggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/scf_function#triggers ScfFunction#triggers}
   */
   readonly triggers?: ScfFunctionTriggers[] | cdktf.IResolvable;
 }
@@ -298,37 +298,37 @@ export interface ScfFunctionCfsConfig {
   /**
   * File system instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/scf_function#cfs_id ScfFunction#cfs_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/scf_function#cfs_id ScfFunction#cfs_id}
   */
   readonly cfsId: string;
   /**
   * Local mount directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/scf_function#local_mount_dir ScfFunction#local_mount_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/scf_function#local_mount_dir ScfFunction#local_mount_dir}
   */
   readonly localMountDir: string;
   /**
   * File system mount instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/scf_function#mount_ins_id ScfFunction#mount_ins_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/scf_function#mount_ins_id ScfFunction#mount_ins_id}
   */
   readonly mountInsId: string;
   /**
   * Remote mount directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/scf_function#remote_mount_dir ScfFunction#remote_mount_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/scf_function#remote_mount_dir ScfFunction#remote_mount_dir}
   */
   readonly remoteMountDir: string;
   /**
   * ID of user group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/scf_function#user_group_id ScfFunction#user_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/scf_function#user_group_id ScfFunction#user_group_id}
   */
   readonly userGroupId: string;
   /**
   * ID of user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/scf_function#user_id ScfFunction#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/scf_function#user_id ScfFunction#user_id}
   */
   readonly userId: string;
 }
@@ -588,49 +588,49 @@ export interface ScfFunctionImageConfig {
   /**
   * the parameters of command.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/scf_function#args ScfFunction#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/scf_function#args ScfFunction#args}
   */
   readonly args?: string;
   /**
   * The command of entrypoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/scf_function#command ScfFunction#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/scf_function#command ScfFunction#command}
   */
   readonly command?: string;
   /**
   * Image accelerate switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/scf_function#container_image_accelerate ScfFunction#container_image_accelerate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/scf_function#container_image_accelerate ScfFunction#container_image_accelerate}
   */
   readonly containerImageAccelerate?: boolean | cdktf.IResolvable;
   /**
   * The entrypoint of app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/scf_function#entry_point ScfFunction#entry_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/scf_function#entry_point ScfFunction#entry_point}
   */
   readonly entryPoint?: string;
   /**
   * Image function port setting. Default is `9000`, -1 indicates no port mirroring function. Other value ranges 0 ~ 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/scf_function#image_port ScfFunction#image_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/scf_function#image_port ScfFunction#image_port}
   */
   readonly imagePort?: number;
   /**
   * The image type. personal or enterprise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/scf_function#image_type ScfFunction#image_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/scf_function#image_type ScfFunction#image_type}
   */
   readonly imageType: string;
   /**
   * The uri of image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/scf_function#image_uri ScfFunction#image_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/scf_function#image_uri ScfFunction#image_uri}
   */
   readonly imageUri: string;
   /**
   * The registry id of TCR. When image type is enterprise, it must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/scf_function#registry_id ScfFunction#registry_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/scf_function#registry_id ScfFunction#registry_id}
   */
   readonly registryId?: string;
 }
@@ -945,7 +945,7 @@ export interface ScfFunctionIntranetConfig {
   /**
   * Whether to enable fixed intranet IP, ENABLE is enabled, DISABLE is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/scf_function#ip_fixed ScfFunction#ip_fixed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/scf_function#ip_fixed ScfFunction#ip_fixed}
   */
   readonly ipFixed: string;
 }
@@ -1033,13 +1033,13 @@ export interface ScfFunctionLayers {
   /**
   * The name of Layer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/scf_function#layer_name ScfFunction#layer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/scf_function#layer_name ScfFunction#layer_name}
   */
   readonly layerName: string;
   /**
   * The version of layer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/scf_function#layer_version ScfFunction#layer_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/scf_function#layer_version ScfFunction#layer_version}
   */
   readonly layerVersion: number;
 }
@@ -1180,25 +1180,25 @@ export interface ScfFunctionTriggers {
   /**
   * Region of cos bucket. if `type` is `cos`, `cos_region` is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/scf_function#cos_region ScfFunction#cos_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/scf_function#cos_region ScfFunction#cos_region}
   */
   readonly cosRegion?: string;
   /**
   * Name of the SCF function trigger, if `type` is `ckafka`, the format of name must be `<ckafkaInstanceId>-<topicId>`; if `type` is `cos`, the name is cos bucket id, other In any case, it can be combined arbitrarily. It can only contain English letters, numbers, connectors and underscores. The maximum length is 100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/scf_function#name ScfFunction#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/scf_function#name ScfFunction#name}
   */
   readonly name: string;
   /**
   * TriggerDesc of the SCF function trigger, parameter format of `timer` is linux cron expression; parameter of `cos` type is json string `{"bucketUrl":"<name-appid>.cos.<region>.myqcloud.com","event":"cos:ObjectCreated:*","filter":{"Prefix":"","Suffix":""}}`, where `bucketUrl` is cos bucket (optional), `event` is the cos event trigger, `Prefix` is the corresponding file prefix filter condition, `Suffix` is the suffix filter condition, if not need filter condition can not pass; `cmq` type does not pass this parameter; `ckafka` type parameter format is json string `{"maxMsgNum":"1","offset":"latest"}`; `apigw` type parameter format is json string `{"api":{"authRequired":"FALSE","requestConfig":{"method":"ANY"},"isIntegratedResponse":"FALSE"},"service":{"serviceId":"service-dqzh68sg"},"release":{"environmentName":"test"}}`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/scf_function#trigger_desc ScfFunction#trigger_desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/scf_function#trigger_desc ScfFunction#trigger_desc}
   */
   readonly triggerDesc: string;
   /**
   * Type of the SCF function trigger, support `timer`, `ckafka`, `custom_kafka`, `apigw`, `cmq`, `cos`, `mqtt`, `cls`, `clb`, `mps`, `vod`, `cm`, `eb`, `http`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/scf_function#type ScfFunction#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/scf_function#type ScfFunction#type}
   */
   readonly type: string;
 }
@@ -1392,7 +1392,7 @@ export class ScfFunctionTriggersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/scf_function tencentcloud_scf_function}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/scf_function tencentcloud_scf_function}
 */
 export class ScfFunction extends cdktf.TerraformResource {
 
@@ -1408,7 +1408,7 @@ export class ScfFunction extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ScfFunction resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ScfFunction to import
-  * @param importFromId The id of the existing ScfFunction that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/scf_function#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ScfFunction that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/scf_function#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ScfFunction to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1420,7 +1420,7 @@ export class ScfFunction extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/scf_function tencentcloud_scf_function} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/scf_function tencentcloud_scf_function} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1431,8 +1431,8 @@ export class ScfFunction extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_scf_function',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.39',
-        providerVersionConstraint: '1.82.39'
+        providerVersion: '1.82.40',
+        providerVersionConstraint: '1.82.40'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

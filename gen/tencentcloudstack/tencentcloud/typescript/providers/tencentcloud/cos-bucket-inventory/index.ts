@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cos_bucket_inventory
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_bucket_inventory
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface CosBucketInventoryConfig extends cdktf.TerraformMetaArguments {
   /**
   * Bucket name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cos_bucket_inventory#bucket CosBucketInventory#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_bucket_inventory#bucket CosBucketInventory#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cos_bucket_inventory#id CosBucketInventory#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_bucket_inventory#id CosBucketInventory#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,43 +23,43 @@ export interface CosBucketInventoryConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether to include object versions in the inventory. All or No.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cos_bucket_inventory#included_object_versions CosBucketInventory#included_object_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_bucket_inventory#included_object_versions CosBucketInventory#included_object_versions}
   */
   readonly includedObjectVersions: string;
   /**
   * Whether to enable the inventory. true or false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cos_bucket_inventory#is_enabled CosBucketInventory#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_bucket_inventory#is_enabled CosBucketInventory#is_enabled}
   */
   readonly isEnabled: string;
   /**
   * Inventory Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cos_bucket_inventory#name CosBucketInventory#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_bucket_inventory#name CosBucketInventory#name}
   */
   readonly name: string;
   /**
   * destination block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cos_bucket_inventory#destination CosBucketInventory#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_bucket_inventory#destination CosBucketInventory#destination}
   */
   readonly destination: CosBucketInventoryDestination;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cos_bucket_inventory#filter CosBucketInventory#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_bucket_inventory#filter CosBucketInventory#filter}
   */
   readonly filter?: CosBucketInventoryFilter;
   /**
   * optional_fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cos_bucket_inventory#optional_fields CosBucketInventory#optional_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_bucket_inventory#optional_fields CosBucketInventory#optional_fields}
   */
   readonly optionalFields?: CosBucketInventoryOptionalFields;
   /**
   * schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cos_bucket_inventory#schedule CosBucketInventory#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_bucket_inventory#schedule CosBucketInventory#schedule}
   */
   readonly schedule: CosBucketInventorySchedule;
 }
@@ -67,7 +67,7 @@ export interface CosBucketInventoryDestinationEncryption {
   /**
   * Encryption with COS-managed key. This field can be left empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cos_bucket_inventory#sse_cos CosBucketInventory#sse_cos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_bucket_inventory#sse_cos CosBucketInventory#sse_cos}
   */
   readonly sseCos?: string;
 }
@@ -153,31 +153,31 @@ export interface CosBucketInventoryDestination {
   /**
   * ID of the bucket owner.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cos_bucket_inventory#account_id CosBucketInventory#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_bucket_inventory#account_id CosBucketInventory#account_id}
   */
   readonly accountId?: string;
   /**
   * Bucket name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cos_bucket_inventory#bucket CosBucketInventory#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_bucket_inventory#bucket CosBucketInventory#bucket}
   */
   readonly bucket: string;
   /**
   * Format of the inventory result. Valid value: CSV.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cos_bucket_inventory#format CosBucketInventory#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_bucket_inventory#format CosBucketInventory#format}
   */
   readonly format: string;
   /**
   * Prefix of the inventory result.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cos_bucket_inventory#prefix CosBucketInventory#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_bucket_inventory#prefix CosBucketInventory#prefix}
   */
   readonly prefix?: string;
   /**
   * encryption block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cos_bucket_inventory#encryption CosBucketInventory#encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_bucket_inventory#encryption CosBucketInventory#encryption}
   */
   readonly encryption?: CosBucketInventoryDestinationEncryption;
 }
@@ -373,13 +373,13 @@ export interface CosBucketInventoryFilterPeriod {
   /**
   * Creation end time of the objects to analyze. The parameter is a timestamp in seconds, for example, 1568688762.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cos_bucket_inventory#end_time CosBucketInventory#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_bucket_inventory#end_time CosBucketInventory#end_time}
   */
   readonly endTime?: string;
   /**
   * Creation start time of the objects to analyze. The parameter is a timestamp in seconds, for example, 1568688761.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cos_bucket_inventory#start_time CosBucketInventory#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_bucket_inventory#start_time CosBucketInventory#start_time}
   */
   readonly startTime?: string;
 }
@@ -494,13 +494,13 @@ export interface CosBucketInventoryFilter {
   /**
   * Prefix of the objects to analyze.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cos_bucket_inventory#prefix CosBucketInventory#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_bucket_inventory#prefix CosBucketInventory#prefix}
   */
   readonly prefix?: string;
   /**
   * period block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cos_bucket_inventory#period CosBucketInventory#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_bucket_inventory#period CosBucketInventory#period}
   */
   readonly period?: CosBucketInventoryFilterPeriod;
 }
@@ -615,7 +615,7 @@ export interface CosBucketInventoryOptionalFields {
   /**
   * Optional analysis items to include in the inventory result. The optional fields include Size, LastModifiedDate, StorageClass, ETag, IsMultipartUploaded, ReplicationStatus, Tag, Crc64, and x-cos-meta-*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cos_bucket_inventory#fields CosBucketInventory#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_bucket_inventory#fields CosBucketInventory#fields}
   */
   readonly fields?: string[];
 }
@@ -701,7 +701,7 @@ export interface CosBucketInventorySchedule {
   /**
   * Frequency of the inventory job. Enumerated values: Daily, Weekly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cos_bucket_inventory#frequency CosBucketInventory#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_bucket_inventory#frequency CosBucketInventory#frequency}
   */
   readonly frequency: string;
 }
@@ -782,7 +782,7 @@ export class CosBucketInventoryScheduleOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cos_bucket_inventory tencentcloud_cos_bucket_inventory}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_bucket_inventory tencentcloud_cos_bucket_inventory}
 */
 export class CosBucketInventory extends cdktf.TerraformResource {
 
@@ -798,7 +798,7 @@ export class CosBucketInventory extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CosBucketInventory resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CosBucketInventory to import
-  * @param importFromId The id of the existing CosBucketInventory that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cos_bucket_inventory#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CosBucketInventory that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_bucket_inventory#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CosBucketInventory to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -810,7 +810,7 @@ export class CosBucketInventory extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cos_bucket_inventory tencentcloud_cos_bucket_inventory} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_bucket_inventory tencentcloud_cos_bucket_inventory} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -821,8 +821,8 @@ export class CosBucketInventory extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cos_bucket_inventory',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.39',
-        providerVersionConstraint: '1.82.39'
+        providerVersion: '1.82.40',
+        providerVersionConstraint: '1.82.40'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

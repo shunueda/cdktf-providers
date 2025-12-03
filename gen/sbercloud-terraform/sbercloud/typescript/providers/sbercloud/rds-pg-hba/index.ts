@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_pg_hba
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_pg_hba
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface RdsPgHbaConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_pg_hba#id RdsPgHba#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_pg_hba#id RdsPgHba#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,17 +17,17 @@ export interface RdsPgHbaConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies the ID of the RDS PostgreSQL instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_pg_hba#instance_id RdsPgHba#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_pg_hba#instance_id RdsPgHba#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_pg_hba#region RdsPgHba#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_pg_hba#region RdsPgHba#region}
   */
   readonly region?: string;
   /**
   * host_based_authentications block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_pg_hba#host_based_authentications RdsPgHba#host_based_authentications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_pg_hba#host_based_authentications RdsPgHba#host_based_authentications}
   */
   readonly hostBasedAuthentications: RdsPgHbaHostBasedAuthentications[] | cdktf.IResolvable;
 }
@@ -35,37 +35,37 @@ export interface RdsPgHbaHostBasedAuthentications {
   /**
   * Specifies the client IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_pg_hba#address RdsPgHba#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_pg_hba#address RdsPgHba#address}
   */
   readonly address: string;
   /**
   * Specifies the database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_pg_hba#database RdsPgHba#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_pg_hba#database RdsPgHba#database}
   */
   readonly database: string;
   /**
   * Specifies the subnet mask.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_pg_hba#mask RdsPgHba#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_pg_hba#mask RdsPgHba#mask}
   */
   readonly mask?: string;
   /**
   * Specifies the authentication mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_pg_hba#method RdsPgHba#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_pg_hba#method RdsPgHba#method}
   */
   readonly method: string;
   /**
   * Specifies the connection type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_pg_hba#type RdsPgHba#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_pg_hba#type RdsPgHba#type}
   */
   readonly type: string;
   /**
   * Specifies the Name of a user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_pg_hba#user RdsPgHba#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_pg_hba#user RdsPgHba#user}
   */
   readonly user: string;
 }
@@ -311,7 +311,7 @@ export class RdsPgHbaHostBasedAuthenticationsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_pg_hba sbercloud_rds_pg_hba}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_pg_hba sbercloud_rds_pg_hba}
 */
 export class RdsPgHba extends cdktf.TerraformResource {
 
@@ -327,7 +327,7 @@ export class RdsPgHba extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RdsPgHba resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RdsPgHba to import
-  * @param importFromId The id of the existing RdsPgHba that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_pg_hba#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RdsPgHba that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_pg_hba#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RdsPgHba to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -339,7 +339,7 @@ export class RdsPgHba extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_pg_hba sbercloud_rds_pg_hba} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_pg_hba sbercloud_rds_pg_hba} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -350,8 +350,8 @@ export class RdsPgHba extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_rds_pg_hba',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

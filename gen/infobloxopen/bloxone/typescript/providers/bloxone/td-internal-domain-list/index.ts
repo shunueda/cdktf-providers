@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_internal_domain_list
+// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_internal_domain_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface TdInternalDomainListConfig extends cdktf.TerraformMetaArguments
   /**
   * The brief description for the internal domain list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_internal_domain_list#description TdInternalDomainList#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_internal_domain_list#description TdInternalDomainList#description}
   */
   readonly description?: string;
   /**
   * The list of internal domains, should be unique to each other and has to be read-only from the API level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_internal_domain_list#internal_domains TdInternalDomainList#internal_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_internal_domain_list#internal_domains TdInternalDomainList#internal_domains}
   */
   readonly internalDomains?: string[];
   /**
   * The name of the internal domain list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_internal_domain_list#name TdInternalDomainList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_internal_domain_list#name TdInternalDomainList#name}
   */
   readonly name?: string;
   /**
   * The tags for the internal domain list in JSON format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_internal_domain_list#tags TdInternalDomainList#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_internal_domain_list#tags TdInternalDomainList#tags}
   */
   readonly tags?: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_internal_domain_list bloxone_td_internal_domain_list}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_internal_domain_list bloxone_td_internal_domain_list}
 */
 export class TdInternalDomainList extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class TdInternalDomainList extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TdInternalDomainList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TdInternalDomainList to import
-  * @param importFromId The id of the existing TdInternalDomainList that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_internal_domain_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TdInternalDomainList that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_internal_domain_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TdInternalDomainList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class TdInternalDomainList extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_internal_domain_list bloxone_td_internal_domain_list} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_internal_domain_list bloxone_td_internal_domain_list} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class TdInternalDomainList extends cdktf.TerraformResource {
       terraformResourceType: 'bloxone_td_internal_domain_list',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.5.4',
+        providerVersionConstraint: '1.5.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

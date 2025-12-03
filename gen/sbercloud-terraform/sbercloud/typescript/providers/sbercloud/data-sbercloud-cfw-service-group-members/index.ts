@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_service_group_members
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_service_group_members
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface DataSbercloudCfwServiceGroupMembersConfig extends cdktf.Terrafo
   /**
   * Specifies the destination port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_service_group_members#dest_port DataSbercloudCfwServiceGroupMembers#dest_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_service_group_members#dest_port DataSbercloudCfwServiceGroupMembers#dest_port}
   */
   readonly destPort?: string;
   /**
   * Specifies the firewall instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_service_group_members#fw_instance_id DataSbercloudCfwServiceGroupMembers#fw_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_service_group_members#fw_instance_id DataSbercloudCfwServiceGroupMembers#fw_instance_id}
   */
   readonly fwInstanceId?: string;
   /**
   * Specifies the service group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_service_group_members#group_id DataSbercloudCfwServiceGroupMembers#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_service_group_members#group_id DataSbercloudCfwServiceGroupMembers#group_id}
   */
   readonly groupId: string;
   /**
   * Specifies the service group type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_service_group_members#group_type DataSbercloudCfwServiceGroupMembers#group_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_service_group_members#group_type DataSbercloudCfwServiceGroupMembers#group_type}
   */
   readonly groupType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_service_group_members#id DataSbercloudCfwServiceGroupMembers#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_service_group_members#id DataSbercloudCfwServiceGroupMembers#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,31 +41,31 @@ export interface DataSbercloudCfwServiceGroupMembersConfig extends cdktf.Terrafo
   /**
   * Specifies the service group member ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_service_group_members#item_id DataSbercloudCfwServiceGroupMembers#item_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_service_group_members#item_id DataSbercloudCfwServiceGroupMembers#item_id}
   */
   readonly itemId?: string;
   /**
   * Specifies the key word.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_service_group_members#key_word DataSbercloudCfwServiceGroupMembers#key_word}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_service_group_members#key_word DataSbercloudCfwServiceGroupMembers#key_word}
   */
   readonly keyWord?: string;
   /**
   * Specifies the protocol type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_service_group_members#protocol DataSbercloudCfwServiceGroupMembers#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_service_group_members#protocol DataSbercloudCfwServiceGroupMembers#protocol}
   */
   readonly protocol?: number;
   /**
   * Specifies the region in which to query the resource. If omitted, the provider-level region will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_service_group_members#region DataSbercloudCfwServiceGroupMembers#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_service_group_members#region DataSbercloudCfwServiceGroupMembers#region}
   */
   readonly region?: string;
   /**
   * Specifies the source port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_service_group_members#source_port DataSbercloudCfwServiceGroupMembers#source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_service_group_members#source_port DataSbercloudCfwServiceGroupMembers#source_port}
   */
   readonly sourcePort?: string;
 }
@@ -166,7 +166,7 @@ export class DataSbercloudCfwServiceGroupMembersRecordsList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_service_group_members sbercloud_cfw_service_group_members}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_service_group_members sbercloud_cfw_service_group_members}
 */
 export class DataSbercloudCfwServiceGroupMembers extends cdktf.TerraformDataSource {
 
@@ -182,7 +182,7 @@ export class DataSbercloudCfwServiceGroupMembers extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataSbercloudCfwServiceGroupMembers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSbercloudCfwServiceGroupMembers to import
-  * @param importFromId The id of the existing DataSbercloudCfwServiceGroupMembers that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_service_group_members#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSbercloudCfwServiceGroupMembers that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_service_group_members#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSbercloudCfwServiceGroupMembers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -194,7 +194,7 @@ export class DataSbercloudCfwServiceGroupMembers extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_service_group_members sbercloud_cfw_service_group_members} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_service_group_members sbercloud_cfw_service_group_members} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -205,8 +205,8 @@ export class DataSbercloudCfwServiceGroupMembers extends cdktf.TerraformDataSour
       terraformResourceType: 'sbercloud_cfw_service_group_members',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

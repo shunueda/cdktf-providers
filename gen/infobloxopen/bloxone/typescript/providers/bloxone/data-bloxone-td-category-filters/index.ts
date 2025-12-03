@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_category_filters
+// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_category_filters
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataBloxoneTdCategoryFiltersConfig extends cdktf.TerraformMetaA
   /**
   * Filter are used to return a more specific list of results. Filters can be used to match resources by specific attributes, e.g. name. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_category_filters#filters DataBloxoneTdCategoryFilters#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_category_filters#filters DataBloxoneTdCategoryFilters#filters}
   */
   readonly filters?: { [key: string]: string };
   /**
   * Tag Filters are used to return a more specific list of results filtered by tags. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_category_filters#tag_filters DataBloxoneTdCategoryFilters#tag_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_category_filters#tag_filters DataBloxoneTdCategoryFilters#tag_filters}
   */
   readonly tagFilters?: { [key: string]: string };
 }
@@ -24,25 +24,25 @@ export interface DataBloxoneTdCategoryFiltersResults {
   /**
   * The list of content category names that falls into this category filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_category_filters#categories DataBloxoneTdCategoryFilters#categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_category_filters#categories DataBloxoneTdCategoryFilters#categories}
   */
   readonly categories: string[];
   /**
   * The brief description for the category filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_category_filters#description DataBloxoneTdCategoryFilters#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_category_filters#description DataBloxoneTdCategoryFilters#description}
   */
   readonly description?: string;
   /**
   * The name of the category filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_category_filters#name DataBloxoneTdCategoryFilters#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_category_filters#name DataBloxoneTdCategoryFilters#name}
   */
   readonly name: string;
   /**
   * Enables tag support for resource where tags attribute contains user-defined key value pairs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_category_filters#tags DataBloxoneTdCategoryFilters#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_category_filters#tags DataBloxoneTdCategoryFilters#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -249,7 +249,7 @@ export class DataBloxoneTdCategoryFiltersResultsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_category_filters bloxone_td_category_filters}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_category_filters bloxone_td_category_filters}
 */
 export class DataBloxoneTdCategoryFilters extends cdktf.TerraformDataSource {
 
@@ -265,7 +265,7 @@ export class DataBloxoneTdCategoryFilters extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataBloxoneTdCategoryFilters resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataBloxoneTdCategoryFilters to import
-  * @param importFromId The id of the existing DataBloxoneTdCategoryFilters that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_category_filters#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataBloxoneTdCategoryFilters that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_category_filters#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataBloxoneTdCategoryFilters to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -277,7 +277,7 @@ export class DataBloxoneTdCategoryFilters extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_category_filters bloxone_td_category_filters} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_category_filters bloxone_td_category_filters} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -288,8 +288,8 @@ export class DataBloxoneTdCategoryFilters extends cdktf.TerraformDataSource {
       terraformResourceType: 'bloxone_td_category_filters',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.5.4',
+        providerVersionConstraint: '1.5.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

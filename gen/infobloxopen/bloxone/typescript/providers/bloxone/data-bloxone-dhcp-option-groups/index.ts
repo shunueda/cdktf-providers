@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_option_groups
+// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_option_groups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataBloxoneDhcpOptionGroupsConfig extends cdktf.TerraformMetaAr
   /**
   * Filter are used to return a more specific list of results. Filters can be used to match resources by specific attributes, e.g. name. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_option_groups#filters DataBloxoneDhcpOptionGroups#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_option_groups#filters DataBloxoneDhcpOptionGroups#filters}
   */
   readonly filters?: { [key: string]: string };
   /**
   * Tag Filters are used to return a more specific list of results filtered by tags. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_option_groups#tag_filters DataBloxoneDhcpOptionGroups#tag_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_option_groups#tag_filters DataBloxoneDhcpOptionGroups#tag_filters}
   */
   readonly tagFilters?: { [key: string]: string };
 }
@@ -24,19 +24,19 @@ export interface DataBloxoneDhcpOptionGroupsResultsDhcpOptions {
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_option_groups#group DataBloxoneDhcpOptionGroups#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_option_groups#group DataBloxoneDhcpOptionGroups#group}
   */
   readonly group?: string;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_option_groups#option_code DataBloxoneDhcpOptionGroups#option_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_option_groups#option_code DataBloxoneDhcpOptionGroups#option_code}
   */
   readonly optionCode?: string;
   /**
   * The option value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_option_groups#option_value DataBloxoneDhcpOptionGroups#option_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_option_groups#option_value DataBloxoneDhcpOptionGroups#option_value}
   */
   readonly optionValue?: string;
   /**
@@ -45,7 +45,7 @@ export interface DataBloxoneDhcpOptionGroupsResultsDhcpOptions {
   *   * _option_
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_option_groups#type DataBloxoneDhcpOptionGroups#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_option_groups#type DataBloxoneDhcpOptionGroups#type}
   */
   readonly type?: string;
 }
@@ -250,31 +250,31 @@ export interface DataBloxoneDhcpOptionGroupsResults {
   /**
   * The description for the option group. May contain 0 to 1024 characters. Can include UTF-8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_option_groups#comment DataBloxoneDhcpOptionGroups#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_option_groups#comment DataBloxoneDhcpOptionGroups#comment}
   */
   readonly comment?: string;
   /**
   * The list of DHCP options for the option group. May be either a specific option or a group of options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_option_groups#dhcp_options DataBloxoneDhcpOptionGroups#dhcp_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_option_groups#dhcp_options DataBloxoneDhcpOptionGroups#dhcp_options}
   */
   readonly dhcpOptions?: DataBloxoneDhcpOptionGroupsResultsDhcpOptions[] | cdktf.IResolvable;
   /**
   * The name of the option group. Must contain 1 to 256 characters. Can include UTF-8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_option_groups#name DataBloxoneDhcpOptionGroups#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_option_groups#name DataBloxoneDhcpOptionGroups#name}
   */
   readonly name: string;
   /**
   * The type of protocol (_ip4_ or _ip6_).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_option_groups#protocol DataBloxoneDhcpOptionGroups#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_option_groups#protocol DataBloxoneDhcpOptionGroups#protocol}
   */
   readonly protocol: string;
   /**
   * The tags for the option group in JSON format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_option_groups#tags DataBloxoneDhcpOptionGroups#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_option_groups#tags DataBloxoneDhcpOptionGroups#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -511,7 +511,7 @@ export class DataBloxoneDhcpOptionGroupsResultsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_option_groups bloxone_dhcp_option_groups}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_option_groups bloxone_dhcp_option_groups}
 */
 export class DataBloxoneDhcpOptionGroups extends cdktf.TerraformDataSource {
 
@@ -527,7 +527,7 @@ export class DataBloxoneDhcpOptionGroups extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataBloxoneDhcpOptionGroups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataBloxoneDhcpOptionGroups to import
-  * @param importFromId The id of the existing DataBloxoneDhcpOptionGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_option_groups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataBloxoneDhcpOptionGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_option_groups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataBloxoneDhcpOptionGroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -539,7 +539,7 @@ export class DataBloxoneDhcpOptionGroups extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_option_groups bloxone_dhcp_option_groups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_option_groups bloxone_dhcp_option_groups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -550,8 +550,8 @@ export class DataBloxoneDhcpOptionGroups extends cdktf.TerraformDataSource {
       terraformResourceType: 'bloxone_dhcp_option_groups',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.5.4',
+        providerVersionConstraint: '1.5.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

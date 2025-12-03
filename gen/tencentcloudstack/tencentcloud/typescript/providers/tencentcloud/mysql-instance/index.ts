@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_instance
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface MysqlInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Auto renew flag. NOTES: Only supported prepaid instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_instance#auto_renew_flag MysqlInstance#auto_renew_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_instance#auto_renew_flag MysqlInstance#auto_renew_flag}
   */
   readonly autoRenewFlag?: number;
   /**
   * Indicates which availability zone will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_instance#availability_zone MysqlInstance#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_instance#availability_zone MysqlInstance#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
   * Pay type of instance. Valid values:`PREPAID`, `POSTPAID`. Default is `POSTPAID`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_instance#charge_type MysqlInstance#charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_instance#charge_type MysqlInstance#charge_type}
   */
   readonly chargeType?: string;
   /**
   * CPU cores.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_instance#cpu MysqlInstance#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_instance#cpu MysqlInstance#cpu}
   */
   readonly cpu?: number;
   /**
@@ -40,41 +40,41 @@ export interface MysqlInstanceConfig extends cdktf.TerraformMetaArguments {
   * 	- `CLOUD_NATIVE_CLUSTER_EXCLUSIVE`: cluster version enhanced type.
   * If it is not specified, it defaults to a universal instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_instance#device_type MysqlInstance#device_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_instance#device_type MysqlInstance#device_type}
   */
   readonly deviceType?: string;
   /**
   * Instance engine type. The default value is `InnoDB`. Supported values include `InnoDB` and `RocksDB`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_instance#engine_type MysqlInstance#engine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_instance#engine_type MysqlInstance#engine_type}
   */
   readonly engineType?: string;
   /**
   * The version number of the database engine to use. Supported versions include 5.5/5.6/5.7/8.0, and default is 5.7. Upgrade the instance engine version to support 5.6/5.7 and switch immediately.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_instance#engine_version MysqlInstance#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_instance#engine_version MysqlInstance#engine_version}
   */
   readonly engineVersion?: string;
   /**
   * Specify whether to enable fast upgrade when upgrade instance spec, available value: `1` - enabled, `0` - disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_instance#fast_upgrade MysqlInstance#fast_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_instance#fast_upgrade MysqlInstance#fast_upgrade}
   */
   readonly fastUpgrade?: number;
   /**
   * Zone information about first slave instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_instance#first_slave_zone MysqlInstance#first_slave_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_instance#first_slave_zone MysqlInstance#first_slave_zone}
   */
   readonly firstSlaveZone?: string;
   /**
   * Indicate whether to delete instance directly or not. Default is `false`. If set true, the instance will be deleted instead of staying recycle bin. Note: only works for `PREPAID` instance. When the main mysql instance set true, this para of the readonly mysql instance will not take effect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_instance#force_delete MysqlInstance#force_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_instance#force_delete MysqlInstance#force_delete}
   */
   readonly forceDelete?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_instance#id MysqlInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_instance#id MysqlInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,145 +83,145 @@ export interface MysqlInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of a mysql instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_instance#instance_name MysqlInstance#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_instance#instance_name MysqlInstance#instance_name}
   */
   readonly instanceName: string;
   /**
   * Indicates whether to enable the access to an instance from public network: 0 - No, 1 - Yes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_instance#internet_service MysqlInstance#internet_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_instance#internet_service MysqlInstance#internet_service}
   */
   readonly internetService?: number;
   /**
   * Public access port. Valid value ranges: [1024~65535]. The default value is `3306`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_instance#intranet_port MysqlInstance#intranet_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_instance#intranet_port MysqlInstance#intranet_port}
   */
   readonly intranetPort?: number;
   /**
   * Latency threshold. Value range 1~10. Only need to fill in when upgrading kernel subversion and engine version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_instance#max_deay_time MysqlInstance#max_deay_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_instance#max_deay_time MysqlInstance#max_deay_time}
   */
   readonly maxDeayTime?: number;
   /**
   * Memory size (in MB).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_instance#mem_size MysqlInstance#mem_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_instance#mem_size MysqlInstance#mem_size}
   */
   readonly memSize: number;
   /**
   * Specify parameter template id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_instance#param_template_id MysqlInstance#param_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_instance#param_template_id MysqlInstance#param_template_id}
   */
   readonly paramTemplateId?: number;
   /**
   * List of parameters to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_instance#parameters MysqlInstance#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_instance#parameters MysqlInstance#parameters}
   */
   readonly parameters?: { [key: string]: string };
   /**
   * Pay type of instance. Valid values: `0`, `1`. `0`: prepaid, `1`: postpaid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_instance#pay_type MysqlInstance#pay_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_instance#pay_type MysqlInstance#pay_type}
   */
   readonly payType?: number;
   /**
   * Period of instance. NOTES: Only supported prepaid instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_instance#period MysqlInstance#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_instance#period MysqlInstance#period}
   */
   readonly period?: number;
   /**
   * Period of instance. NOTES: Only supported prepaid instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_instance#prepaid_period MysqlInstance#prepaid_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_instance#prepaid_period MysqlInstance#prepaid_period}
   */
   readonly prepaidPeriod?: number;
   /**
   * Project ID, default value is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_instance#project_id MysqlInstance#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_instance#project_id MysqlInstance#project_id}
   */
   readonly projectId?: number;
   /**
   * Password of root account. This parameter can be specified when you purchase master instances, but it should be ignored when you purchase read-only instances or disaster recovery instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_instance#root_password MysqlInstance#root_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_instance#root_password MysqlInstance#root_password}
   */
   readonly rootPassword?: string;
   /**
   * Zone information about second slave instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_instance#second_slave_zone MysqlInstance#second_slave_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_instance#second_slave_zone MysqlInstance#second_slave_zone}
   */
   readonly secondSlaveZone?: string;
   /**
   * Security groups to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_instance#security_groups MysqlInstance#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_instance#security_groups MysqlInstance#security_groups}
   */
   readonly securityGroups?: string[];
   /**
   * Availability zone deployment method. Available values: 0 - Single availability zone; 1 - Multiple availability zones. Readonly instance settings are not supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_instance#slave_deploy_mode MysqlInstance#slave_deploy_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_instance#slave_deploy_mode MysqlInstance#slave_deploy_mode}
   */
   readonly slaveDeployMode?: number;
   /**
   * Data replication mode. 0 - Async replication; 1 - Semisync replication; 2 - Strongsync replication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_instance#slave_sync_mode MysqlInstance#slave_sync_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_instance#slave_sync_mode MysqlInstance#slave_sync_mode}
   */
   readonly slaveSyncMode?: number;
   /**
   * Private network ID. If `vpc_id` is set, this value is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_instance#subnet_id MysqlInstance#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_instance#subnet_id MysqlInstance#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * Instance tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_instance#tags MysqlInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_instance#tags MysqlInstance#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Whether it is a kernel subversion upgrade, supported values: 1 - upgrade the kernel subversion; 0 - upgrade the database engine version. Only need to fill in when upgrading kernel subversion and engine version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_instance#upgrade_subversion MysqlInstance#upgrade_subversion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_instance#upgrade_subversion MysqlInstance#upgrade_subversion}
   */
   readonly upgradeSubversion?: number;
   /**
   * Disk size (in GB).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_instance#volume_size MysqlInstance#volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_instance#volume_size MysqlInstance#volume_size}
   */
   readonly volumeSize: number;
   /**
   * ID of VPC, which can be modified once every 24 hours and can't be removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_instance#vpc_id MysqlInstance#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_instance#vpc_id MysqlInstance#vpc_id}
   */
   readonly vpcId?: string;
   /**
   * Switch the method of accessing new instances, default is `0`. Supported values include: `0` - switch immediately, `1` - switch in time window.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_instance#wait_switch MysqlInstance#wait_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_instance#wait_switch MysqlInstance#wait_switch}
   */
   readonly waitSwitch?: number;
   /**
   * cluster_topology block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_instance#cluster_topology MysqlInstance#cluster_topology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_instance#cluster_topology MysqlInstance#cluster_topology}
   */
   readonly clusterTopology?: MysqlInstanceClusterTopology;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_instance#timeouts MysqlInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_instance#timeouts MysqlInstance#timeouts}
   */
   readonly timeouts?: MysqlInstanceTimeouts;
 }
@@ -229,19 +229,19 @@ export interface MysqlInstanceClusterTopologyReadOnlyNodes {
   /**
   * Whether to distribute in random availability zones. Enter `true` to specify a random availability zone. Otherwise, use the availability zone specified by Zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_instance#is_random_zone MysqlInstance#is_random_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_instance#is_random_zone MysqlInstance#is_random_zone}
   */
   readonly isRandomZone?: boolean | cdktf.IResolvable;
   /**
   * When upgrading a cluster instance, if you want to adjust the availability zone of a read-only node, you need to specify the node ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_instance#node_id MysqlInstance#node_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_instance#node_id MysqlInstance#node_id}
   */
   readonly nodeId?: string;
   /**
   * Specifies the availability zone where the node is distributed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_instance#zone MysqlInstance#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_instance#zone MysqlInstance#zone}
   */
   readonly zone?: string;
 }
@@ -417,13 +417,13 @@ export interface MysqlInstanceClusterTopologyReadWriteNode {
   /**
   * When upgrading a cluster instance, if you want to adjust the availability zone of a read-only node, you need to specify the node ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_instance#node_id MysqlInstance#node_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_instance#node_id MysqlInstance#node_id}
   */
   readonly nodeId?: string;
   /**
   * The availability zone where the RW node is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_instance#zone MysqlInstance#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_instance#zone MysqlInstance#zone}
   */
   readonly zone: string;
 }
@@ -535,13 +535,13 @@ export interface MysqlInstanceClusterTopology {
   /**
   * read_only_nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_instance#read_only_nodes MysqlInstance#read_only_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_instance#read_only_nodes MysqlInstance#read_only_nodes}
   */
   readonly readOnlyNodes?: MysqlInstanceClusterTopologyReadOnlyNodes[] | cdktf.IResolvable;
   /**
   * read_write_node block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_instance#read_write_node MysqlInstance#read_write_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_instance#read_write_node MysqlInstance#read_write_node}
   */
   readonly readWriteNode?: MysqlInstanceClusterTopologyReadWriteNode;
 }
@@ -654,11 +654,11 @@ export class MysqlInstanceClusterTopologyOutputReference extends cdktf.ComplexOb
 }
 export interface MysqlInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_instance#create MysqlInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_instance#create MysqlInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_instance#delete MysqlInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_instance#delete MysqlInstance#delete}
   */
   readonly delete?: string;
 }
@@ -781,7 +781,7 @@ export class MysqlInstanceTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_instance tencentcloud_mysql_instance}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_instance tencentcloud_mysql_instance}
 */
 export class MysqlInstance extends cdktf.TerraformResource {
 
@@ -797,7 +797,7 @@ export class MysqlInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MysqlInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MysqlInstance to import
-  * @param importFromId The id of the existing MysqlInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MysqlInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MysqlInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -809,7 +809,7 @@ export class MysqlInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mysql_instance tencentcloud_mysql_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_instance tencentcloud_mysql_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -820,8 +820,8 @@ export class MysqlInstance extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mysql_instance',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.39',
-        providerVersionConstraint: '1.82.39'
+        providerVersion: '1.82.40',
+        providerVersionConstraint: '1.82.40'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

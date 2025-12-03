@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/rabbitmq_credential
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/rabbitmq_credential
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface RabbitmqCredentialConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of the RabbitMQ instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/rabbitmq_credential#instance_id RabbitmqCredential#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/rabbitmq_credential#instance_id RabbitmqCredential#instance_id}
   */
   readonly instanceId: string;
   /**
   * STACKIT Project ID to which the instance is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/rabbitmq_credential#project_id RabbitmqCredential#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/rabbitmq_credential#project_id RabbitmqCredential#project_id}
   */
   readonly projectId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/rabbitmq_credential stackit_rabbitmq_credential}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/rabbitmq_credential stackit_rabbitmq_credential}
 */
 export class RabbitmqCredential extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class RabbitmqCredential extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RabbitmqCredential resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RabbitmqCredential to import
-  * @param importFromId The id of the existing RabbitmqCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/rabbitmq_credential#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RabbitmqCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/rabbitmq_credential#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RabbitmqCredential to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class RabbitmqCredential extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/rabbitmq_credential stackit_rabbitmq_credential} Resource
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/rabbitmq_credential stackit_rabbitmq_credential} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class RabbitmqCredential extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_rabbitmq_credential',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.72.0',
-        providerVersionConstraint: '0.72.0'
+        providerVersion: '0.73.0',
+        providerVersionConstraint: '0.73.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

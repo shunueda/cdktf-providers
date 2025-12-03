@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cynosdb_cluster_param_logs
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/cynosdb_cluster_param_logs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudCynosdbClusterParamLogsConfig extends cdktf.Ter
   /**
   * Cluster ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cynosdb_cluster_param_logs#cluster_id DataTencentcloudCynosdbClusterParamLogs#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/cynosdb_cluster_param_logs#cluster_id DataTencentcloudCynosdbClusterParamLogs#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cynosdb_cluster_param_logs#id DataTencentcloudCynosdbClusterParamLogs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/cynosdb_cluster_param_logs#id DataTencentcloudCynosdbClusterParamLogs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface DataTencentcloudCynosdbClusterParamLogsConfig extends cdktf.Ter
   /**
   * Instance ID list, used to record specific instances of operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cynosdb_cluster_param_logs#instance_ids DataTencentcloudCynosdbClusterParamLogs#instance_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/cynosdb_cluster_param_logs#instance_ids DataTencentcloudCynosdbClusterParamLogs#instance_ids}
   */
   readonly instanceIds?: string[];
   /**
   * Sort field, defining which field to sort based on when returning results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cynosdb_cluster_param_logs#order_by DataTencentcloudCynosdbClusterParamLogs#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/cynosdb_cluster_param_logs#order_by DataTencentcloudCynosdbClusterParamLogs#order_by}
   */
   readonly orderBy?: string;
   /**
   * Define specific sorting rules, limited to one of desc, asc, DESC, or ASC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cynosdb_cluster_param_logs#order_by_type DataTencentcloudCynosdbClusterParamLogs#order_by_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/cynosdb_cluster_param_logs#order_by_type DataTencentcloudCynosdbClusterParamLogs#order_by_type}
   */
   readonly orderByType?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cynosdb_cluster_param_logs#result_output_file DataTencentcloudCynosdbClusterParamLogs#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/cynosdb_cluster_param_logs#result_output_file DataTencentcloudCynosdbClusterParamLogs#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -157,7 +157,7 @@ export class DataTencentcloudCynosdbClusterParamLogsClusterParamLogsList extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cynosdb_cluster_param_logs tencentcloud_cynosdb_cluster_param_logs}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/cynosdb_cluster_param_logs tencentcloud_cynosdb_cluster_param_logs}
 */
 export class DataTencentcloudCynosdbClusterParamLogs extends cdktf.TerraformDataSource {
 
@@ -173,7 +173,7 @@ export class DataTencentcloudCynosdbClusterParamLogs extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataTencentcloudCynosdbClusterParamLogs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudCynosdbClusterParamLogs to import
-  * @param importFromId The id of the existing DataTencentcloudCynosdbClusterParamLogs that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cynosdb_cluster_param_logs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudCynosdbClusterParamLogs that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/cynosdb_cluster_param_logs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudCynosdbClusterParamLogs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -185,7 +185,7 @@ export class DataTencentcloudCynosdbClusterParamLogs extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/cynosdb_cluster_param_logs tencentcloud_cynosdb_cluster_param_logs} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/cynosdb_cluster_param_logs tencentcloud_cynosdb_cluster_param_logs} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -196,8 +196,8 @@ export class DataTencentcloudCynosdbClusterParamLogs extends cdktf.TerraformData
       terraformResourceType: 'tencentcloud_cynosdb_cluster_param_logs',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.39',
-        providerVersionConstraint: '1.82.39'
+        providerVersion: '1.82.40',
+        providerVersionConstraint: '1.82.40'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/anycast_config
+// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/anycast_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface AnycastConfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * IPv4 address of the host in string format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/anycast_config#anycast_ip_address AnycastConfig#anycast_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/anycast_config#anycast_ip_address AnycastConfig#anycast_ip_address}
   */
   readonly anycastIpAddress: string;
   /**
   * IPv6 address of the host in string format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/anycast_config#anycast_ipv6_address AnycastConfig#anycast_ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/anycast_config#anycast_ipv6_address AnycastConfig#anycast_ipv6_address}
   */
   readonly anycastIpv6Address?: string;
   /**
   * The description for the address object. May contain 0 to 1024 characters. Can include UTF-8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/anycast_config#description AnycastConfig#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/anycast_config#description AnycastConfig#description}
   */
   readonly description?: string;
   /**
   * The name of the anycast configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/anycast_config#name AnycastConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/anycast_config#name AnycastConfig#name}
   */
   readonly name: string;
   /**
   * The type of the Service used in anycast configuration, supports (`dns`, `dhcp`, `dfp`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/anycast_config#service AnycastConfig#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/anycast_config#service AnycastConfig#service}
   */
   readonly service: string;
   /**
   * The tags for the anycast configuration object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/anycast_config#tags AnycastConfig#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/anycast_config#tags AnycastConfig#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -48,7 +48,7 @@ export interface AnycastConfigOnpremHosts {
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/anycast_config#id AnycastConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/anycast_config#id AnycastConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -57,13 +57,13 @@ export interface AnycastConfigOnpremHosts {
   /**
   * IPv4 address of the host in string format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/anycast_config#ip_address AnycastConfig#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/anycast_config#ip_address AnycastConfig#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * IPv6 address of the host in string format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/anycast_config#ipv6_address AnycastConfig#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/anycast_config#ipv6_address AnycastConfig#ipv6_address}
   */
   readonly ipv6Address?: string;
 }
@@ -239,7 +239,7 @@ export class AnycastConfigOnpremHostsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/anycast_config bloxone_anycast_config}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/anycast_config bloxone_anycast_config}
 */
 export class AnycastConfig extends cdktf.TerraformResource {
 
@@ -255,7 +255,7 @@ export class AnycastConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AnycastConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AnycastConfig to import
-  * @param importFromId The id of the existing AnycastConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/anycast_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AnycastConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/anycast_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AnycastConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -267,7 +267,7 @@ export class AnycastConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/anycast_config bloxone_anycast_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/anycast_config bloxone_anycast_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -278,8 +278,8 @@ export class AnycastConfig extends cdktf.TerraformResource {
       terraformResourceType: 'bloxone_anycast_config',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.5.4',
+        providerVersionConstraint: '1.5.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

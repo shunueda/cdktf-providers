@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/data-sources/dns_zone
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/data-sources/dns_zone
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataStackitDnsZoneConfig extends cdktf.TerraformMetaArguments {
   /**
   * The zone name. E.g. `example.com`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/data-sources/dns_zone#dns_name DataStackitDnsZone#dns_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/data-sources/dns_zone#dns_name DataStackitDnsZone#dns_name}
   */
   readonly dnsName?: string;
   /**
   * STACKIT project ID to which the dns zone is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/data-sources/dns_zone#project_id DataStackitDnsZone#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/data-sources/dns_zone#project_id DataStackitDnsZone#project_id}
   */
   readonly projectId: string;
   /**
   * The zone ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/data-sources/dns_zone#zone_id DataStackitDnsZone#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/data-sources/dns_zone#zone_id DataStackitDnsZone#zone_id}
   */
   readonly zoneId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/data-sources/dns_zone stackit_dns_zone}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/data-sources/dns_zone stackit_dns_zone}
 */
 export class DataStackitDnsZone extends cdktf.TerraformDataSource {
 
@@ -44,7 +44,7 @@ export class DataStackitDnsZone extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataStackitDnsZone resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataStackitDnsZone to import
-  * @param importFromId The id of the existing DataStackitDnsZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/data-sources/dns_zone#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataStackitDnsZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/data-sources/dns_zone#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataStackitDnsZone to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class DataStackitDnsZone extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/data-sources/dns_zone stackit_dns_zone} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/data-sources/dns_zone stackit_dns_zone} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class DataStackitDnsZone extends cdktf.TerraformDataSource {
       terraformResourceType: 'stackit_dns_zone',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.72.0',
-        providerVersionConstraint: '0.72.0'
+        providerVersion: '0.73.0',
+        providerVersionConstraint: '0.73.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

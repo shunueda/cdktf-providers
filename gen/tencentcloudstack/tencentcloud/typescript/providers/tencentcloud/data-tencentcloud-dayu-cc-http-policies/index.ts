@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dayu_cc_http_policies
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dayu_cc_http_policies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudDayuCcHttpPoliciesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dayu_cc_http_policies#id DataTencentcloudDayuCcHttpPolicies#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dayu_cc_http_policies#id DataTencentcloudDayuCcHttpPolicies#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface DataTencentcloudDayuCcHttpPoliciesConfig extends cdktf.Terrafor
   /**
   * Name of the CC http policy to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dayu_cc_http_policies#name DataTencentcloudDayuCcHttpPolicies#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dayu_cc_http_policies#name DataTencentcloudDayuCcHttpPolicies#name}
   */
   readonly name?: string;
   /**
   * Id of the CC http policy to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dayu_cc_http_policies#policy_id DataTencentcloudDayuCcHttpPolicies#policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dayu_cc_http_policies#policy_id DataTencentcloudDayuCcHttpPolicies#policy_id}
   */
   readonly policyId?: string;
   /**
   * ID of the resource that the CC http policy works for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dayu_cc_http_policies#resource_id DataTencentcloudDayuCcHttpPolicies#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dayu_cc_http_policies#resource_id DataTencentcloudDayuCcHttpPolicies#resource_id}
   */
   readonly resourceId: string;
   /**
   * Type of the resource that the CC http policy works for, valid values are `bgpip`, `bgp`, `bgp-multip` and `net`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dayu_cc_http_policies#resource_type DataTencentcloudDayuCcHttpPolicies#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dayu_cc_http_policies#resource_type DataTencentcloudDayuCcHttpPolicies#resource_type}
   */
   readonly resourceType: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dayu_cc_http_policies#result_output_file DataTencentcloudDayuCcHttpPolicies#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dayu_cc_http_policies#result_output_file DataTencentcloudDayuCcHttpPolicies#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -258,7 +258,7 @@ export class DataTencentcloudDayuCcHttpPoliciesListStructList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dayu_cc_http_policies tencentcloud_dayu_cc_http_policies}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dayu_cc_http_policies tencentcloud_dayu_cc_http_policies}
 */
 export class DataTencentcloudDayuCcHttpPolicies extends cdktf.TerraformDataSource {
 
@@ -274,7 +274,7 @@ export class DataTencentcloudDayuCcHttpPolicies extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataTencentcloudDayuCcHttpPolicies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudDayuCcHttpPolicies to import
-  * @param importFromId The id of the existing DataTencentcloudDayuCcHttpPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dayu_cc_http_policies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudDayuCcHttpPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dayu_cc_http_policies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudDayuCcHttpPolicies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -286,7 +286,7 @@ export class DataTencentcloudDayuCcHttpPolicies extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dayu_cc_http_policies tencentcloud_dayu_cc_http_policies} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dayu_cc_http_policies tencentcloud_dayu_cc_http_policies} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -297,8 +297,8 @@ export class DataTencentcloudDayuCcHttpPolicies extends cdktf.TerraformDataSourc
       terraformResourceType: 'tencentcloud_dayu_cc_http_policies',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.39',
-        providerVersionConstraint: '1.82.39'
+        providerVersion: '1.82.40',
+        providerVersionConstraint: '1.82.40'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

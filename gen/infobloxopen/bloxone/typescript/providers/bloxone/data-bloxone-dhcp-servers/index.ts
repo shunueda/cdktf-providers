@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers
+// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataBloxoneDhcpServersConfig extends cdktf.TerraformMetaArgumen
   /**
   * Filter are used to return a more specific list of results. Filters can be used to match resources by specific attributes, e.g. name. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#filters DataBloxoneDhcpServers#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#filters DataBloxoneDhcpServers#filters}
   */
   readonly filters?: { [key: string]: string };
   /**
   * Tag Filters are used to return a more specific list of results filtered by tags. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#tag_filters DataBloxoneDhcpServers#tag_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#tag_filters DataBloxoneDhcpServers#tag_filters}
   */
   readonly tagFilters?: { [key: string]: string };
 }
@@ -24,47 +24,47 @@ export interface DataBloxoneDhcpServersResultsDdnsZonesNameservers {
   /**
   * The Kerberos principal name. It uses the typical Kerberos notation: <SERVICE-NAME>/<server-domain-name>@<REALM>.  Defaults to empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#client_principal DataBloxoneDhcpServers#client_principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#client_principal DataBloxoneDhcpServers#client_principal}
   */
   readonly clientPrincipal?: string;
   /**
   * The behavior when GSS-TSIG should be used (a matching external DNS server is configured) but no GSS-TSIG key is available. If configured to _false_ (the default) this DNS server is skipped, if configured to _true_ the DNS server is ignored and the DNS update is sent with the configured DHCP-DDNS protection e.g. TSIG key or without any protection when none was configured.  Defaults to _false_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#gss_tsig_fallback DataBloxoneDhcpServers#gss_tsig_fallback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#gss_tsig_fallback DataBloxoneDhcpServers#gss_tsig_fallback}
   */
   readonly gssTsigFallback?: boolean | cdktf.IResolvable;
   /**
   * Time interval (in seconds) the keys for each configured external DNS server are checked for rekeying, i.e. a new key is created to replace the current usable one when its age is greater than the _kerberos_rekey_interval_ value.  Defaults to 120 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#kerberos_rekey_interval DataBloxoneDhcpServers#kerberos_rekey_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#kerberos_rekey_interval DataBloxoneDhcpServers#kerberos_rekey_interval}
   */
   readonly kerberosRekeyInterval?: number;
   /**
   * Time interval (in seconds) to retry to create a key if any error occurred previously for any configured external DNS server.  Defaults to 30 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#kerberos_retry_interval DataBloxoneDhcpServers#kerberos_retry_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#kerberos_retry_interval DataBloxoneDhcpServers#kerberos_retry_interval}
   */
   readonly kerberosRetryInterval?: number;
   /**
   * Lifetime (in seconds) of GSS-TSIG keys in the TKEY protocol.  Defaults to 160 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#kerberos_tkey_lifetime DataBloxoneDhcpServers#kerberos_tkey_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#kerberos_tkey_lifetime DataBloxoneDhcpServers#kerberos_tkey_lifetime}
   */
   readonly kerberosTkeyLifetime?: number;
   /**
   * Determines which protocol is used to establish the security context with the external DNS servers, TCP or UDP.  Defaults to _tcp_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#kerberos_tkey_protocol DataBloxoneDhcpServers#kerberos_tkey_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#kerberos_tkey_protocol DataBloxoneDhcpServers#kerberos_tkey_protocol}
   */
   readonly kerberosTkeyProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#nameserver DataBloxoneDhcpServers#nameserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#nameserver DataBloxoneDhcpServers#nameserver}
   */
   readonly nameserver?: string;
   /**
   * The Kerberos principal name of this DNS server that will receive updates.  Defaults to empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#server_principal DataBloxoneDhcpServers#server_principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#server_principal DataBloxoneDhcpServers#server_principal}
   */
   readonly serverPrincipal?: string;
 }
@@ -393,31 +393,31 @@ export interface DataBloxoneDhcpServersResultsDdnsZonesTsigKey {
   *   * _hmac_sha512_
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#algorithm DataBloxoneDhcpServers#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#algorithm DataBloxoneDhcpServers#algorithm}
   */
   readonly algorithm?: string;
   /**
   * The description for the TSIG key. May contain 0 to 1024 characters. Can include UTF-8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#comment DataBloxoneDhcpServers#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#comment DataBloxoneDhcpServers#comment}
   */
   readonly comment?: string;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#key DataBloxoneDhcpServers#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#key DataBloxoneDhcpServers#key}
   */
   readonly key: string;
   /**
   * The TSIG key name, FQDN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#name DataBloxoneDhcpServers#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#name DataBloxoneDhcpServers#name}
   */
   readonly name?: string;
   /**
   * The TSIG key secret, base64 string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#secret DataBloxoneDhcpServers#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#secret DataBloxoneDhcpServers#secret}
   */
   readonly secret?: string;
 }
@@ -631,35 +631,35 @@ export interface DataBloxoneDhcpServersResultsDdnsZones {
   /**
   * Zone FQDN.  If _zone_ is defined, the _fqdn_ field must be empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#fqdn DataBloxoneDhcpServers#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#fqdn DataBloxoneDhcpServers#fqdn}
   */
   readonly fqdn?: string;
   /**
   * _gss_tsig_enabled_ enables/disables GSS-TSIG signed dynamic updates.  Defaults to _false_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#gss_tsig_enabled DataBloxoneDhcpServers#gss_tsig_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#gss_tsig_enabled DataBloxoneDhcpServers#gss_tsig_enabled}
   */
   readonly gssTsigEnabled?: boolean | cdktf.IResolvable;
   /**
   * The Nameservers in the zone.  Each nameserver IP should be unique across the list of nameservers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#nameservers DataBloxoneDhcpServers#nameservers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#nameservers DataBloxoneDhcpServers#nameservers}
   */
   readonly nameservers?: DataBloxoneDhcpServersResultsDdnsZonesNameservers[] | cdktf.IResolvable;
   /**
   * Indicates if TSIG key should be used for the update.  Defaults to _false_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#tsig_enabled DataBloxoneDhcpServers#tsig_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#tsig_enabled DataBloxoneDhcpServers#tsig_enabled}
   */
   readonly tsigEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#tsig_key DataBloxoneDhcpServers#tsig_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#tsig_key DataBloxoneDhcpServers#tsig_key}
   */
   readonly tsigKey?: DataBloxoneDhcpServersResultsDdnsZonesTsigKey;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#zone DataBloxoneDhcpServers#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#zone DataBloxoneDhcpServers#zone}
   */
   readonly zone: string;
 }
@@ -932,13 +932,13 @@ export interface DataBloxoneDhcpServersResultsDhcpConfigIgnoreListStruct {
   *   * _client_text_
   *   * _hardware_
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#type DataBloxoneDhcpServers#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#type DataBloxoneDhcpServers#type}
   */
   readonly type: string;
   /**
   * Value to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#value DataBloxoneDhcpServers#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#value DataBloxoneDhcpServers#value}
   */
   readonly value: string;
 }
@@ -1079,73 +1079,73 @@ export interface DataBloxoneDhcpServersResultsDhcpConfig {
   /**
   * The abandoned reclaim time in seconds for IPV4 clients.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#abandoned_reclaim_time DataBloxoneDhcpServers#abandoned_reclaim_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#abandoned_reclaim_time DataBloxoneDhcpServers#abandoned_reclaim_time}
   */
   readonly abandonedReclaimTime?: number;
   /**
   * The abandoned reclaim time in seconds for IPV6 clients.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#abandoned_reclaim_time_v6 DataBloxoneDhcpServers#abandoned_reclaim_time_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#abandoned_reclaim_time_v6 DataBloxoneDhcpServers#abandoned_reclaim_time_v6}
   */
   readonly abandonedReclaimTimeV6?: number;
   /**
   * Disable to allow leases only for known IPv4 clients, those for which a fixed address is configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#allow_unknown DataBloxoneDhcpServers#allow_unknown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#allow_unknown DataBloxoneDhcpServers#allow_unknown}
   */
   readonly allowUnknown?: boolean | cdktf.IResolvable;
   /**
   * Disable to allow leases only for known IPV6 clients, those for which a fixed address is configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#allow_unknown_v6 DataBloxoneDhcpServers#allow_unknown_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#allow_unknown_v6 DataBloxoneDhcpServers#allow_unknown_v6}
   */
   readonly allowUnknownV6?: boolean | cdktf.IResolvable;
   /**
   * Enable/disable to include/exclude the client id when responding to discover or request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#echo_client_id DataBloxoneDhcpServers#echo_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#echo_client_id DataBloxoneDhcpServers#echo_client_id}
   */
   readonly echoClientId?: boolean | cdktf.IResolvable;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#filters DataBloxoneDhcpServers#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#filters DataBloxoneDhcpServers#filters}
   */
   readonly filters?: string[];
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#filters_large_selection DataBloxoneDhcpServers#filters_large_selection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#filters_large_selection DataBloxoneDhcpServers#filters_large_selection}
   */
   readonly filtersLargeSelection?: string[];
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#filters_v6 DataBloxoneDhcpServers#filters_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#filters_v6 DataBloxoneDhcpServers#filters_v6}
   */
   readonly filtersV6?: string[];
   /**
   * Enable to ignore the client UID when issuing a DHCP lease. Use this option to prevent assigning two IP addresses for a client which does not have a UID during one phase of PXE boot but acquires one for the other phase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#ignore_client_uid DataBloxoneDhcpServers#ignore_client_uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#ignore_client_uid DataBloxoneDhcpServers#ignore_client_uid}
   */
   readonly ignoreClientUid?: boolean | cdktf.IResolvable;
   /**
   * The list of clients to ignore requests from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#ignore_list DataBloxoneDhcpServers#ignore_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#ignore_list DataBloxoneDhcpServers#ignore_list}
   */
   readonly ignoreList?: DataBloxoneDhcpServersResultsDhcpConfigIgnoreListStruct[] | cdktf.IResolvable;
   /**
   * The lease duration in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#lease_time DataBloxoneDhcpServers#lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#lease_time DataBloxoneDhcpServers#lease_time}
   */
   readonly leaseTime?: number;
   /**
   * The lease duration in seconds for IPV6 clients.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#lease_time_v6 DataBloxoneDhcpServers#lease_time_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#lease_time_v6 DataBloxoneDhcpServers#lease_time_v6}
   */
   readonly leaseTimeV6?: number;
 }
@@ -1560,19 +1560,19 @@ export interface DataBloxoneDhcpServersResultsDhcpOptions {
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#group DataBloxoneDhcpServers#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#group DataBloxoneDhcpServers#group}
   */
   readonly group?: string;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#option_code DataBloxoneDhcpServers#option_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#option_code DataBloxoneDhcpServers#option_code}
   */
   readonly optionCode?: string;
   /**
   * The option value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#option_value DataBloxoneDhcpServers#option_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#option_value DataBloxoneDhcpServers#option_value}
   */
   readonly optionValue?: string;
   /**
@@ -1581,7 +1581,7 @@ export interface DataBloxoneDhcpServersResultsDhcpOptions {
   *   * _option_
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#type DataBloxoneDhcpServers#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#type DataBloxoneDhcpServers#type}
   */
   readonly type?: string;
 }
@@ -1786,19 +1786,19 @@ export interface DataBloxoneDhcpServersResultsDhcpOptionsV6 {
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#group DataBloxoneDhcpServers#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#group DataBloxoneDhcpServers#group}
   */
   readonly group?: string;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#option_code DataBloxoneDhcpServers#option_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#option_code DataBloxoneDhcpServers#option_code}
   */
   readonly optionCode?: string;
   /**
   * The option value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#option_value DataBloxoneDhcpServers#option_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#option_value DataBloxoneDhcpServers#option_value}
   */
   readonly optionValue?: string;
   /**
@@ -1807,7 +1807,7 @@ export interface DataBloxoneDhcpServersResultsDhcpOptionsV6 {
   *   * _option_
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#type DataBloxoneDhcpServers#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#type DataBloxoneDhcpServers#type}
   */
   readonly type?: string;
 }
@@ -2533,7 +2533,7 @@ export interface DataBloxoneDhcpServersResultsInheritanceSourcesDdnsBlock {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#action DataBloxoneDhcpServers#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#action DataBloxoneDhcpServers#action}
   */
   readonly action?: string;
 }
@@ -2649,7 +2649,7 @@ export interface DataBloxoneDhcpServersResultsInheritanceSourcesDdnsClientUpdate
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#action DataBloxoneDhcpServers#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#action DataBloxoneDhcpServers#action}
   */
   readonly action?: string;
 }
@@ -2764,7 +2764,7 @@ export interface DataBloxoneDhcpServersResultsInheritanceSourcesDdnsConflictReso
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#action DataBloxoneDhcpServers#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#action DataBloxoneDhcpServers#action}
   */
   readonly action?: string;
 }
@@ -2938,7 +2938,7 @@ export interface DataBloxoneDhcpServersResultsInheritanceSourcesDdnsHostnameBloc
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#action DataBloxoneDhcpServers#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#action DataBloxoneDhcpServers#action}
   */
   readonly action?: string;
 }
@@ -3054,7 +3054,7 @@ export interface DataBloxoneDhcpServersResultsInheritanceSourcesDdnsTtlPercent {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#action DataBloxoneDhcpServers#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#action DataBloxoneDhcpServers#action}
   */
   readonly action?: string;
 }
@@ -3169,7 +3169,7 @@ export interface DataBloxoneDhcpServersResultsInheritanceSourcesDdnsUpdateOnRene
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#action DataBloxoneDhcpServers#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#action DataBloxoneDhcpServers#action}
   */
   readonly action?: string;
 }
@@ -3284,7 +3284,7 @@ export interface DataBloxoneDhcpServersResultsInheritanceSourcesDdnsUseConflictR
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#action DataBloxoneDhcpServers#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#action DataBloxoneDhcpServers#action}
   */
   readonly action?: string;
 }
@@ -3399,7 +3399,7 @@ export interface DataBloxoneDhcpServersResultsInheritanceSourcesDhcpConfigAbando
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#action DataBloxoneDhcpServers#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#action DataBloxoneDhcpServers#action}
   */
   readonly action?: string;
 }
@@ -3514,7 +3514,7 @@ export interface DataBloxoneDhcpServersResultsInheritanceSourcesDhcpConfigAbando
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#action DataBloxoneDhcpServers#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#action DataBloxoneDhcpServers#action}
   */
   readonly action?: string;
 }
@@ -3629,7 +3629,7 @@ export interface DataBloxoneDhcpServersResultsInheritanceSourcesDhcpConfigAllowU
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#action DataBloxoneDhcpServers#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#action DataBloxoneDhcpServers#action}
   */
   readonly action?: string;
 }
@@ -3744,7 +3744,7 @@ export interface DataBloxoneDhcpServersResultsInheritanceSourcesDhcpConfigAllowU
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#action DataBloxoneDhcpServers#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#action DataBloxoneDhcpServers#action}
   */
   readonly action?: string;
 }
@@ -3859,7 +3859,7 @@ export interface DataBloxoneDhcpServersResultsInheritanceSourcesDhcpConfigAuthor
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#action DataBloxoneDhcpServers#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#action DataBloxoneDhcpServers#action}
   */
   readonly action?: string;
 }
@@ -3974,7 +3974,7 @@ export interface DataBloxoneDhcpServersResultsInheritanceSourcesDhcpConfigEchoCl
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#action DataBloxoneDhcpServers#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#action DataBloxoneDhcpServers#action}
   */
   readonly action?: string;
 }
@@ -4089,7 +4089,7 @@ export interface DataBloxoneDhcpServersResultsInheritanceSourcesDhcpConfigFilter
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#action DataBloxoneDhcpServers#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#action DataBloxoneDhcpServers#action}
   */
   readonly action?: string;
 }
@@ -4204,7 +4204,7 @@ export interface DataBloxoneDhcpServersResultsInheritanceSourcesDhcpConfigFilter
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#action DataBloxoneDhcpServers#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#action DataBloxoneDhcpServers#action}
   */
   readonly action?: string;
 }
@@ -4319,7 +4319,7 @@ export interface DataBloxoneDhcpServersResultsInheritanceSourcesDhcpConfigHoldRe
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#action DataBloxoneDhcpServers#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#action DataBloxoneDhcpServers#action}
   */
   readonly action?: string;
 }
@@ -4434,7 +4434,7 @@ export interface DataBloxoneDhcpServersResultsInheritanceSourcesDhcpConfigHoldRe
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#action DataBloxoneDhcpServers#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#action DataBloxoneDhcpServers#action}
   */
   readonly action?: string;
 }
@@ -4549,7 +4549,7 @@ export interface DataBloxoneDhcpServersResultsInheritanceSourcesDhcpConfigIgnore
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#action DataBloxoneDhcpServers#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#action DataBloxoneDhcpServers#action}
   */
   readonly action?: string;
 }
@@ -4744,7 +4744,7 @@ export interface DataBloxoneDhcpServersResultsInheritanceSourcesDhcpConfigIgnore
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#action DataBloxoneDhcpServers#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#action DataBloxoneDhcpServers#action}
   */
   readonly action?: string;
 }
@@ -4860,7 +4860,7 @@ export interface DataBloxoneDhcpServersResultsInheritanceSourcesDhcpConfigLeaseT
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#action DataBloxoneDhcpServers#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#action DataBloxoneDhcpServers#action}
   */
   readonly action?: string;
 }
@@ -4975,7 +4975,7 @@ export interface DataBloxoneDhcpServersResultsInheritanceSourcesDhcpConfigLeaseT
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#action DataBloxoneDhcpServers#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#action DataBloxoneDhcpServers#action}
   */
   readonly action?: string;
 }
@@ -5086,85 +5086,85 @@ export interface DataBloxoneDhcpServersResultsInheritanceSourcesDhcpConfig {
   /**
   * The inheritance configuration for _abandoned_reclaim_time_ field from _DHCPConfig_ object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#abandoned_reclaim_time DataBloxoneDhcpServers#abandoned_reclaim_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#abandoned_reclaim_time DataBloxoneDhcpServers#abandoned_reclaim_time}
   */
   readonly abandonedReclaimTime?: DataBloxoneDhcpServersResultsInheritanceSourcesDhcpConfigAbandonedReclaimTime;
   /**
   * The inheritance configuration for _abandoned_reclaim_time_v6_ field from _DHCPConfig_ object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#abandoned_reclaim_time_v6 DataBloxoneDhcpServers#abandoned_reclaim_time_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#abandoned_reclaim_time_v6 DataBloxoneDhcpServers#abandoned_reclaim_time_v6}
   */
   readonly abandonedReclaimTimeV6?: DataBloxoneDhcpServersResultsInheritanceSourcesDhcpConfigAbandonedReclaimTimeV6;
   /**
   * The inheritance configuration for _allow_unknown_ field from _DHCPConfig_ object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#allow_unknown DataBloxoneDhcpServers#allow_unknown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#allow_unknown DataBloxoneDhcpServers#allow_unknown}
   */
   readonly allowUnknown?: DataBloxoneDhcpServersResultsInheritanceSourcesDhcpConfigAllowUnknown;
   /**
   * The inheritance configuration for _allow_unknown_v6_ field from _DHCPConfig_ object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#allow_unknown_v6 DataBloxoneDhcpServers#allow_unknown_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#allow_unknown_v6 DataBloxoneDhcpServers#allow_unknown_v6}
   */
   readonly allowUnknownV6?: DataBloxoneDhcpServersResultsInheritanceSourcesDhcpConfigAllowUnknownV6;
   /**
   * The inheritance configuration for authoritative_dhcp field to set DHCP server as authoritative.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#authoritative_dhcp DataBloxoneDhcpServers#authoritative_dhcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#authoritative_dhcp DataBloxoneDhcpServers#authoritative_dhcp}
   */
   readonly authoritativeDhcp?: DataBloxoneDhcpServersResultsInheritanceSourcesDhcpConfigAuthoritativeDhcp;
   /**
   * The inheritance configuration for _echo_client_id_ field from _DHCPConfig_ object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#echo_client_id DataBloxoneDhcpServers#echo_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#echo_client_id DataBloxoneDhcpServers#echo_client_id}
   */
   readonly echoClientId?: DataBloxoneDhcpServersResultsInheritanceSourcesDhcpConfigEchoClientId;
   /**
   * The inheritance configuration for filters field from _DHCPConfig_ object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#filters DataBloxoneDhcpServers#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#filters DataBloxoneDhcpServers#filters}
   */
   readonly filters?: DataBloxoneDhcpServersResultsInheritanceSourcesDhcpConfigFilters;
   /**
   * The inheritance configuration for _filters_v6_ field from _DHCPConfig_ object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#filters_v6 DataBloxoneDhcpServers#filters_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#filters_v6 DataBloxoneDhcpServers#filters_v6}
   */
   readonly filtersV6?: DataBloxoneDhcpServersResultsInheritanceSourcesDhcpConfigFiltersV6;
   /**
   * The inheritance configuration for hold_reclaimed_time in seconds from _DHCPConfig_ object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#hold_reclaimed_time DataBloxoneDhcpServers#hold_reclaimed_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#hold_reclaimed_time DataBloxoneDhcpServers#hold_reclaimed_time}
   */
   readonly holdReclaimedTime?: DataBloxoneDhcpServersResultsInheritanceSourcesDhcpConfigHoldReclaimedTime;
   /**
   * The inheritance configuration for hold_reclaimed_time_v6 in seconds from _DHCPConfig_ object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#hold_reclaimed_time_v6 DataBloxoneDhcpServers#hold_reclaimed_time_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#hold_reclaimed_time_v6 DataBloxoneDhcpServers#hold_reclaimed_time_v6}
   */
   readonly holdReclaimedTimeV6?: DataBloxoneDhcpServersResultsInheritanceSourcesDhcpConfigHoldReclaimedTimeV6;
   /**
   * The inheritance configuration for _ignore_client_uid_ field from _DHCPConfig_ object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#ignore_client_uid DataBloxoneDhcpServers#ignore_client_uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#ignore_client_uid DataBloxoneDhcpServers#ignore_client_uid}
   */
   readonly ignoreClientUid?: DataBloxoneDhcpServersResultsInheritanceSourcesDhcpConfigIgnoreClientUid;
   /**
   * The inheritance configuration for _ignore_list_ field from _DHCPConfig_ object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#ignore_list DataBloxoneDhcpServers#ignore_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#ignore_list DataBloxoneDhcpServers#ignore_list}
   */
   readonly ignoreList?: DataBloxoneDhcpServersResultsInheritanceSourcesDhcpConfigIgnoreListStruct;
   /**
   * The inheritance configuration for _lease_time_ field from _DHCPConfig_ object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#lease_time DataBloxoneDhcpServers#lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#lease_time DataBloxoneDhcpServers#lease_time}
   */
   readonly leaseTime?: DataBloxoneDhcpServersResultsInheritanceSourcesDhcpConfigLeaseTime;
   /**
   * The inheritance configuration for _lease_time_v6_ field from _DHCPConfig_ object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#lease_time_v6 DataBloxoneDhcpServers#lease_time_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#lease_time_v6 DataBloxoneDhcpServers#lease_time_v6}
   */
   readonly leaseTimeV6?: DataBloxoneDhcpServersResultsInheritanceSourcesDhcpConfigLeaseTimeV6;
 }
@@ -5770,7 +5770,7 @@ export interface DataBloxoneDhcpServersResultsInheritanceSourcesDhcpOptionsValue
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#action DataBloxoneDhcpServers#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#action DataBloxoneDhcpServers#action}
   */
   readonly action?: string;
 }
@@ -5908,13 +5908,13 @@ export interface DataBloxoneDhcpServersResultsInheritanceSourcesDhcpOptions {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#action DataBloxoneDhcpServers#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#action DataBloxoneDhcpServers#action}
   */
   readonly action?: string;
   /**
   * The inherited DHCP option values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#value DataBloxoneDhcpServers#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#value DataBloxoneDhcpServers#value}
   */
   readonly value?: DataBloxoneDhcpServersResultsInheritanceSourcesDhcpOptionsValue[] | cdktf.IResolvable;
 }
@@ -6172,7 +6172,7 @@ export interface DataBloxoneDhcpServersResultsInheritanceSourcesDhcpOptionsV6Val
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#action DataBloxoneDhcpServers#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#action DataBloxoneDhcpServers#action}
   */
   readonly action?: string;
 }
@@ -6310,13 +6310,13 @@ export interface DataBloxoneDhcpServersResultsInheritanceSourcesDhcpOptionsV6 {
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#action DataBloxoneDhcpServers#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#action DataBloxoneDhcpServers#action}
   */
   readonly action?: string;
   /**
   * The inherited DHCP option values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#value DataBloxoneDhcpServers#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#value DataBloxoneDhcpServers#value}
   */
   readonly value?: DataBloxoneDhcpServersResultsInheritanceSourcesDhcpOptionsV6Value[] | cdktf.IResolvable;
 }
@@ -6445,7 +6445,7 @@ export interface DataBloxoneDhcpServersResultsInheritanceSourcesHeaderOptionFile
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#action DataBloxoneDhcpServers#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#action DataBloxoneDhcpServers#action}
   */
   readonly action?: string;
 }
@@ -6560,7 +6560,7 @@ export interface DataBloxoneDhcpServersResultsInheritanceSourcesHeaderOptionServ
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#action DataBloxoneDhcpServers#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#action DataBloxoneDhcpServers#action}
   */
   readonly action?: string;
 }
@@ -6675,7 +6675,7 @@ export interface DataBloxoneDhcpServersResultsInheritanceSourcesHeaderOptionServ
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#action DataBloxoneDhcpServers#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#action DataBloxoneDhcpServers#action}
   */
   readonly action?: string;
 }
@@ -6854,7 +6854,7 @@ export interface DataBloxoneDhcpServersResultsInheritanceSourcesHostnameRewriteB
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#action DataBloxoneDhcpServers#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#action DataBloxoneDhcpServers#action}
   */
   readonly action?: string;
 }
@@ -6970,7 +6970,7 @@ export interface DataBloxoneDhcpServersResultsInheritanceSourcesVendorSpecificOp
   * 
   *   Defaults to _inherit_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#action DataBloxoneDhcpServers#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#action DataBloxoneDhcpServers#action}
   */
   readonly action?: string;
 }
@@ -7079,63 +7079,63 @@ export class DataBloxoneDhcpServersResultsInheritanceSourcesVendorSpecificOption
 }
 export interface DataBloxoneDhcpServersResultsInheritanceSources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#ddns_block DataBloxoneDhcpServers#ddns_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#ddns_block DataBloxoneDhcpServers#ddns_block}
   */
   readonly ddnsBlock?: DataBloxoneDhcpServersResultsInheritanceSourcesDdnsBlock;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#ddns_client_update DataBloxoneDhcpServers#ddns_client_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#ddns_client_update DataBloxoneDhcpServers#ddns_client_update}
   */
   readonly ddnsClientUpdate?: DataBloxoneDhcpServersResultsInheritanceSourcesDdnsClientUpdate;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#ddns_conflict_resolution_mode DataBloxoneDhcpServers#ddns_conflict_resolution_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#ddns_conflict_resolution_mode DataBloxoneDhcpServers#ddns_conflict_resolution_mode}
   */
   readonly ddnsConflictResolutionMode?: DataBloxoneDhcpServersResultsInheritanceSourcesDdnsConflictResolutionMode;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#ddns_hostname_block DataBloxoneDhcpServers#ddns_hostname_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#ddns_hostname_block DataBloxoneDhcpServers#ddns_hostname_block}
   */
   readonly ddnsHostnameBlock?: DataBloxoneDhcpServersResultsInheritanceSourcesDdnsHostnameBlock;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#ddns_ttl_percent DataBloxoneDhcpServers#ddns_ttl_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#ddns_ttl_percent DataBloxoneDhcpServers#ddns_ttl_percent}
   */
   readonly ddnsTtlPercent?: DataBloxoneDhcpServersResultsInheritanceSourcesDdnsTtlPercent;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#ddns_update_on_renew DataBloxoneDhcpServers#ddns_update_on_renew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#ddns_update_on_renew DataBloxoneDhcpServers#ddns_update_on_renew}
   */
   readonly ddnsUpdateOnRenew?: DataBloxoneDhcpServersResultsInheritanceSourcesDdnsUpdateOnRenew;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#ddns_use_conflict_resolution DataBloxoneDhcpServers#ddns_use_conflict_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#ddns_use_conflict_resolution DataBloxoneDhcpServers#ddns_use_conflict_resolution}
   */
   readonly ddnsUseConflictResolution?: DataBloxoneDhcpServersResultsInheritanceSourcesDdnsUseConflictResolution;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#dhcp_config DataBloxoneDhcpServers#dhcp_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#dhcp_config DataBloxoneDhcpServers#dhcp_config}
   */
   readonly dhcpConfig?: DataBloxoneDhcpServersResultsInheritanceSourcesDhcpConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#dhcp_options DataBloxoneDhcpServers#dhcp_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#dhcp_options DataBloxoneDhcpServers#dhcp_options}
   */
   readonly dhcpOptions?: DataBloxoneDhcpServersResultsInheritanceSourcesDhcpOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#dhcp_options_v6 DataBloxoneDhcpServers#dhcp_options_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#dhcp_options_v6 DataBloxoneDhcpServers#dhcp_options_v6}
   */
   readonly dhcpOptionsV6?: DataBloxoneDhcpServersResultsInheritanceSourcesDhcpOptionsV6;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#header_option_filename DataBloxoneDhcpServers#header_option_filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#header_option_filename DataBloxoneDhcpServers#header_option_filename}
   */
   readonly headerOptionFilename?: DataBloxoneDhcpServersResultsInheritanceSourcesHeaderOptionFilename;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#header_option_server_address DataBloxoneDhcpServers#header_option_server_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#header_option_server_address DataBloxoneDhcpServers#header_option_server_address}
   */
   readonly headerOptionServerAddress?: DataBloxoneDhcpServersResultsInheritanceSourcesHeaderOptionServerAddress;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#header_option_server_name DataBloxoneDhcpServers#header_option_server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#header_option_server_name DataBloxoneDhcpServers#header_option_server_name}
   */
   readonly headerOptionServerName?: DataBloxoneDhcpServersResultsInheritanceSourcesHeaderOptionServerName;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#hostname_rewrite_block DataBloxoneDhcpServers#hostname_rewrite_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#hostname_rewrite_block DataBloxoneDhcpServers#hostname_rewrite_block}
   */
   readonly hostnameRewriteBlock?: DataBloxoneDhcpServersResultsInheritanceSourcesHostnameRewriteBlock;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#vendor_specific_option_option_space DataBloxoneDhcpServers#vendor_specific_option_option_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#vendor_specific_option_option_space DataBloxoneDhcpServers#vendor_specific_option_option_space}
   */
   readonly vendorSpecificOptionOptionSpace?: DataBloxoneDhcpServersResultsInheritanceSourcesVendorSpecificOptionOptionSpace;
 }
@@ -7637,7 +7637,7 @@ export interface DataBloxoneDhcpServersResultsKerberosKeys {
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#key DataBloxoneDhcpServers#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#key DataBloxoneDhcpServers#key}
   */
   readonly key: string;
 }
@@ -7777,13 +7777,13 @@ export interface DataBloxoneDhcpServersResults {
   /**
   * The Kerberos principal name. It uses the typical Kerberos notation: `<SERVICE-NAME>/<server-domain-name>@<REALM>`. Defaults to empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#client_principal DataBloxoneDhcpServers#client_principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#client_principal DataBloxoneDhcpServers#client_principal}
   */
   readonly clientPrincipal?: string;
   /**
   * The description for the DHCP Config Profile. May contain 0 to 1024 characters. Can include UTF-8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#comment DataBloxoneDhcpServers#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#comment DataBloxoneDhcpServers#comment}
   */
   readonly comment?: string;
   /**
@@ -7796,7 +7796,7 @@ export interface DataBloxoneDhcpServersResults {
   * 
   *   Defaults to _client_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#ddns_client_update DataBloxoneDhcpServers#ddns_client_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#ddns_client_update DataBloxoneDhcpServers#ddns_client_update}
   */
   readonly ddnsClientUpdate?: string;
   /**
@@ -7808,191 +7808,191 @@ export interface DataBloxoneDhcpServersResults {
   * 
   *   Defaults to _check_with_dhcid_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#ddns_conflict_resolution_mode DataBloxoneDhcpServers#ddns_conflict_resolution_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#ddns_conflict_resolution_mode DataBloxoneDhcpServers#ddns_conflict_resolution_mode}
   */
   readonly ddnsConflictResolutionMode?: string;
   /**
   * The domain suffix for DDNS updates. FQDN, may be empty. Required if _ddns_enabled_ is true.  Defaults to empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#ddns_domain DataBloxoneDhcpServers#ddns_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#ddns_domain DataBloxoneDhcpServers#ddns_domain}
   */
   readonly ddnsDomain?: string;
   /**
   * Indicates if DDNS updates should be performed for leases. All other _ddns_*_ configuration is ignored when this flag is unset. At a minimum, _ddns_domain_ and _ddns_zones_ must be configured to enable DDNS. Defaults to _false_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#ddns_enabled DataBloxoneDhcpServers#ddns_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#ddns_enabled DataBloxoneDhcpServers#ddns_enabled}
   */
   readonly ddnsEnabled?: boolean | cdktf.IResolvable;
   /**
   * Indicates if DDNS should generate a hostname when not supplied by the client.  Defaults to _false_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#ddns_generate_name DataBloxoneDhcpServers#ddns_generate_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#ddns_generate_name DataBloxoneDhcpServers#ddns_generate_name}
   */
   readonly ddnsGenerateName?: boolean | cdktf.IResolvable;
   /**
   * The prefix used in the generation of an FQDN.  When generating a name, DHCP server will construct the name in the format: [ddns-generated-prefix]-[address-text].[ddns-qualifying-suffix]. where address-text is simply the lease IP address converted to a hyphenated string. Defaults to \"myhost\".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#ddns_generated_prefix DataBloxoneDhcpServers#ddns_generated_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#ddns_generated_prefix DataBloxoneDhcpServers#ddns_generated_prefix}
   */
   readonly ddnsGeneratedPrefix?: string;
   /**
   * Determines if DDNS updates are enabled at the IP space level. Defaults to _true_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#ddns_send_updates DataBloxoneDhcpServers#ddns_send_updates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#ddns_send_updates DataBloxoneDhcpServers#ddns_send_updates}
   */
   readonly ddnsSendUpdates?: boolean | cdktf.IResolvable;
   /**
   * DDNS TTL value - to be calculated as a simple percentage of the lease's lifetime, using the parameter's value as the percentage. It is specified as a percentage (e.g. 25, 75). Defaults to unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#ddns_ttl_percent DataBloxoneDhcpServers#ddns_ttl_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#ddns_ttl_percent DataBloxoneDhcpServers#ddns_ttl_percent}
   */
   readonly ddnsTtlPercent?: number;
   /**
   * Instructs the DHCP server to always update the DNS information when a lease is renewed even if its DNS information has not changed.  Defaults to _false_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#ddns_update_on_renew DataBloxoneDhcpServers#ddns_update_on_renew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#ddns_update_on_renew DataBloxoneDhcpServers#ddns_update_on_renew}
   */
   readonly ddnsUpdateOnRenew?: boolean | cdktf.IResolvable;
   /**
   * When true, DHCP server will apply conflict resolution, as described in RFC 4703, when attempting to fulfill the update request.  When false, DHCP server will simply attempt to update the DNS entries per the request, regardless of whether or not they conflict with existing entries owned by other DHCP4 clients.  Defaults to _true_. Can be set to true only when ddns_conflict_resolution_mode is check_with_dhcid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#ddns_use_conflict_resolution DataBloxoneDhcpServers#ddns_use_conflict_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#ddns_use_conflict_resolution DataBloxoneDhcpServers#ddns_use_conflict_resolution}
   */
   readonly ddnsUseConflictResolution?: boolean | cdktf.IResolvable;
   /**
   * The DNS zones that DDNS updates can be sent to. There is no resolver fallback. The target zone must be explicitly configured for the update to be performed.  Updates are sent to the closest enclosing zone.  Error if _ddns_enabled_ is _true_ and the _ddns_domain_ does not have a corresponding entry in _ddns_zones_.  Error if there are items with duplicate zone in the list.  Defaults to empty list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#ddns_zones DataBloxoneDhcpServers#ddns_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#ddns_zones DataBloxoneDhcpServers#ddns_zones}
   */
   readonly ddnsZones?: DataBloxoneDhcpServersResultsDdnsZones[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#dhcp_config DataBloxoneDhcpServers#dhcp_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#dhcp_config DataBloxoneDhcpServers#dhcp_config}
   */
   readonly dhcpConfig?: DataBloxoneDhcpServersResultsDhcpConfig;
   /**
   * The list of DHCP options or group of options for IPv4. An option list is ordered and may include both option groups and specific options. Multiple occurrences of the same option or group is not an error. The last occurrence of an option in the list will be used. Error if the graph of referenced groups contains cycles. Defaults to empty list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#dhcp_options DataBloxoneDhcpServers#dhcp_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#dhcp_options DataBloxoneDhcpServers#dhcp_options}
   */
   readonly dhcpOptions?: DataBloxoneDhcpServersResultsDhcpOptions[] | cdktf.IResolvable;
   /**
   * The list of DHCP options or group of options for IPv6. An option list is ordered and may include both option groups and specific options. Multiple occurrences of the same option or group is not an error. The last occurrence of an option in the list will be used. Error if the graph of referenced groups contains cycles. Defaults to empty list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#dhcp_options_v6 DataBloxoneDhcpServers#dhcp_options_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#dhcp_options_v6 DataBloxoneDhcpServers#dhcp_options_v6}
   */
   readonly dhcpOptionsV6?: DataBloxoneDhcpServersResultsDhcpOptionsV6[] | cdktf.IResolvable;
   /**
   * The behavior when GSS-TSIG should be used (a matching external DNS server is configured) but no GSS-TSIG key is available. If configured to _false_ (the default) this DNS server is skipped, if configured to _true_ the DNS server is ignored and the DNS update is sent with the configured DHCP-DDNS protection e.g. TSIG key or without any protection when none was configured.  Defaults to _false_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#gss_tsig_fallback DataBloxoneDhcpServers#gss_tsig_fallback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#gss_tsig_fallback DataBloxoneDhcpServers#gss_tsig_fallback}
   */
   readonly gssTsigFallback?: boolean | cdktf.IResolvable;
   /**
   * The configuration for header option filename field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#header_option_filename DataBloxoneDhcpServers#header_option_filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#header_option_filename DataBloxoneDhcpServers#header_option_filename}
   */
   readonly headerOptionFilename?: string;
   /**
   * The configuration for header option server address field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#header_option_server_address DataBloxoneDhcpServers#header_option_server_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#header_option_server_address DataBloxoneDhcpServers#header_option_server_address}
   */
   readonly headerOptionServerAddress?: string;
   /**
   * The configuration for header option server name field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#header_option_server_name DataBloxoneDhcpServers#header_option_server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#header_option_server_name DataBloxoneDhcpServers#header_option_server_name}
   */
   readonly headerOptionServerName?: string;
   /**
   * The character to replace non-matching characters with, when hostname rewrite is enabled.  Any single ASCII character or no character if the invalid characters should be removed without replacement.  Defaults to \"-\".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#hostname_rewrite_char DataBloxoneDhcpServers#hostname_rewrite_char}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#hostname_rewrite_char DataBloxoneDhcpServers#hostname_rewrite_char}
   */
   readonly hostnameRewriteChar?: string;
   /**
   * Indicates if client supplied hostnames will be rewritten prior to DDNS update by replacing every character that does not match _hostname_rewrite_regex_ by _hostname_rewrite_char_.  Defaults to _false_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#hostname_rewrite_enabled DataBloxoneDhcpServers#hostname_rewrite_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#hostname_rewrite_enabled DataBloxoneDhcpServers#hostname_rewrite_enabled}
   */
   readonly hostnameRewriteEnabled?: boolean | cdktf.IResolvable;
   /**
   * The regex bracket expression to match valid characters.  Must begin with \"[\" and end with \"]\" and be a compilable POSIX regex.  Defaults to \"[^a-zA-Z0-9_.]\".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#hostname_rewrite_regex DataBloxoneDhcpServers#hostname_rewrite_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#hostname_rewrite_regex DataBloxoneDhcpServers#hostname_rewrite_regex}
   */
   readonly hostnameRewriteRegex?: string;
   /**
   * The inheritance configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#inheritance_sources DataBloxoneDhcpServers#inheritance_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#inheritance_sources DataBloxoneDhcpServers#inheritance_sources}
   */
   readonly inheritanceSources?: DataBloxoneDhcpServersResultsInheritanceSources;
   /**
   * Address of Kerberos Key Distribution Center.  Defaults to empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#kerberos_kdc DataBloxoneDhcpServers#kerberos_kdc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#kerberos_kdc DataBloxoneDhcpServers#kerberos_kdc}
   */
   readonly kerberosKdc?: string;
   /**
   * _kerberos_keys_ contains a list of keys for GSS-TSIG signed dynamic updates.  Defaults to empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#kerberos_keys DataBloxoneDhcpServers#kerberos_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#kerberos_keys DataBloxoneDhcpServers#kerberos_keys}
   */
   readonly kerberosKeys?: DataBloxoneDhcpServersResultsKerberosKeys[] | cdktf.IResolvable;
   /**
   * Time interval (in seconds) the keys for each configured external DNS server are checked for rekeying, i.e. a new key is created to replace the current usable one when its age is greater than the _kerberos_rekey_interval_ value.  Defaults to 120 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#kerberos_rekey_interval DataBloxoneDhcpServers#kerberos_rekey_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#kerberos_rekey_interval DataBloxoneDhcpServers#kerberos_rekey_interval}
   */
   readonly kerberosRekeyInterval?: number;
   /**
   * Time interval (in seconds) to retry to create a key if any error occurred previously for any configured external DNS server.  Defaults to 30 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#kerberos_retry_interval DataBloxoneDhcpServers#kerberos_retry_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#kerberos_retry_interval DataBloxoneDhcpServers#kerberos_retry_interval}
   */
   readonly kerberosRetryInterval?: number;
   /**
   * Lifetime (in seconds) of GSS-TSIG keys in the TKEY protocol.  Defaults to 160 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#kerberos_tkey_lifetime DataBloxoneDhcpServers#kerberos_tkey_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#kerberos_tkey_lifetime DataBloxoneDhcpServers#kerberos_tkey_lifetime}
   */
   readonly kerberosTkeyLifetime?: number;
   /**
   * Determines which protocol is used to establish the security context with the external DNS servers, TCP or UDP.  Defaults to _tcp_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#kerberos_tkey_protocol DataBloxoneDhcpServers#kerberos_tkey_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#kerberos_tkey_protocol DataBloxoneDhcpServers#kerberos_tkey_protocol}
   */
   readonly kerberosTkeyProtocol?: string;
   /**
   * The name of the DHCP Config Profile. Must contain 1 to 256 characters. Can include UTF-8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#name DataBloxoneDhcpServers#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#name DataBloxoneDhcpServers#name}
   */
   readonly name: string;
   /**
   * The type of server object.  Defaults to _server_.  Valid values are: * _server_: The server profile type. * _subnet_: The subnet profile type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#profile_type DataBloxoneDhcpServers#profile_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#profile_type DataBloxoneDhcpServers#profile_type}
   */
   readonly profileType?: string;
   /**
   * The Kerberos principal name of the external DNS server that will receive updates.  Defaults to empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#server_principal DataBloxoneDhcpServers#server_principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#server_principal DataBloxoneDhcpServers#server_principal}
   */
   readonly serverPrincipal?: string;
   /**
   * The tags for the DHCP Config Profile in JSON format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#tags DataBloxoneDhcpServers#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#tags DataBloxoneDhcpServers#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#vendor_specific_option_option_space DataBloxoneDhcpServers#vendor_specific_option_option_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#vendor_specific_option_option_space DataBloxoneDhcpServers#vendor_specific_option_option_space}
   */
   readonly vendorSpecificOptionOptionSpace?: string;
 }
@@ -9102,7 +9102,7 @@ export class DataBloxoneDhcpServersResultsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers bloxone_dhcp_servers}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers bloxone_dhcp_servers}
 */
 export class DataBloxoneDhcpServers extends cdktf.TerraformDataSource {
 
@@ -9118,7 +9118,7 @@ export class DataBloxoneDhcpServers extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataBloxoneDhcpServers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataBloxoneDhcpServers to import
-  * @param importFromId The id of the existing DataBloxoneDhcpServers that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataBloxoneDhcpServers that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataBloxoneDhcpServers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -9130,7 +9130,7 @@ export class DataBloxoneDhcpServers extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_servers bloxone_dhcp_servers} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_servers bloxone_dhcp_servers} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -9141,8 +9141,8 @@ export class DataBloxoneDhcpServers extends cdktf.TerraformDataSource {
       terraformResourceType: 'bloxone_dhcp_servers',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.5.4',
+        providerVersionConstraint: '1.5.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

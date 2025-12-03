@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/data-sources/kms_keyring
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/data-sources/kms_keyring
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataStackitKmsKeyringConfig extends cdktf.TerraformMetaArgument
   /**
   * An auto generated unique id which identifies the keyring.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/data-sources/kms_keyring#keyring_id DataStackitKmsKeyring#keyring_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/data-sources/kms_keyring#keyring_id DataStackitKmsKeyring#keyring_id}
   */
   readonly keyringId: string;
   /**
   * STACKIT project ID to which the keyring is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/data-sources/kms_keyring#project_id DataStackitKmsKeyring#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/data-sources/kms_keyring#project_id DataStackitKmsKeyring#project_id}
   */
   readonly projectId: string;
   /**
   * The resource region. If not defined, the provider region is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/data-sources/kms_keyring#region DataStackitKmsKeyring#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/data-sources/kms_keyring#region DataStackitKmsKeyring#region}
   */
   readonly region?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/data-sources/kms_keyring stackit_kms_keyring}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/data-sources/kms_keyring stackit_kms_keyring}
 */
 export class DataStackitKmsKeyring extends cdktf.TerraformDataSource {
 
@@ -44,7 +44,7 @@ export class DataStackitKmsKeyring extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataStackitKmsKeyring resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataStackitKmsKeyring to import
-  * @param importFromId The id of the existing DataStackitKmsKeyring that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/data-sources/kms_keyring#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataStackitKmsKeyring that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/data-sources/kms_keyring#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataStackitKmsKeyring to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class DataStackitKmsKeyring extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/data-sources/kms_keyring stackit_kms_keyring} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/data-sources/kms_keyring stackit_kms_keyring} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class DataStackitKmsKeyring extends cdktf.TerraformDataSource {
       terraformResourceType: 'stackit_kms_keyring',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.72.0',
-        providerVersionConstraint: '0.72.0'
+        providerVersion: '0.73.0',
+        providerVersionConstraint: '0.73.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

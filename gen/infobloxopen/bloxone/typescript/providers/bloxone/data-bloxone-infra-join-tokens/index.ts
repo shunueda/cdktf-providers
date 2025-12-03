@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/infra_join_tokens
+// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/infra_join_tokens
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DataBloxoneInfraJoinTokensConfig extends cdktf.TerraformMetaArg
   /**
   * Filter are used to return a more specific list of results. Filters can be used to match resources by specific attributes, e.g. name. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/infra_join_tokens#filters DataBloxoneInfraJoinTokens#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/infra_join_tokens#filters DataBloxoneInfraJoinTokens#filters}
   */
   readonly filters?: { [key: string]: string };
   /**
   * Tag Filters are used to return a more specific list of results filtered by tags. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/infra_join_tokens#tag_filters DataBloxoneInfraJoinTokens#tag_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/infra_join_tokens#tag_filters DataBloxoneInfraJoinTokens#tag_filters}
   */
   readonly tagFilters?: { [key: string]: string };
 }
 export interface DataBloxoneInfraJoinTokensResults {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/infra_join_tokens#description DataBloxoneInfraJoinTokens#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/infra_join_tokens#description DataBloxoneInfraJoinTokens#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/infra_join_tokens#expires_at DataBloxoneInfraJoinTokens#expires_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/infra_join_tokens#expires_at DataBloxoneInfraJoinTokens#expires_at}
   */
   readonly expiresAt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/infra_join_tokens#name DataBloxoneInfraJoinTokens#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/infra_join_tokens#name DataBloxoneInfraJoinTokens#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/infra_join_tokens#tags DataBloxoneInfraJoinTokens#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/infra_join_tokens#tags DataBloxoneInfraJoinTokens#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -265,7 +265,7 @@ export class DataBloxoneInfraJoinTokensResultsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/infra_join_tokens bloxone_infra_join_tokens}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/infra_join_tokens bloxone_infra_join_tokens}
 */
 export class DataBloxoneInfraJoinTokens extends cdktf.TerraformDataSource {
 
@@ -281,7 +281,7 @@ export class DataBloxoneInfraJoinTokens extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataBloxoneInfraJoinTokens resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataBloxoneInfraJoinTokens to import
-  * @param importFromId The id of the existing DataBloxoneInfraJoinTokens that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/infra_join_tokens#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataBloxoneInfraJoinTokens that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/infra_join_tokens#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataBloxoneInfraJoinTokens to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -293,7 +293,7 @@ export class DataBloxoneInfraJoinTokens extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/infra_join_tokens bloxone_infra_join_tokens} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/infra_join_tokens bloxone_infra_join_tokens} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -304,8 +304,8 @@ export class DataBloxoneInfraJoinTokens extends cdktf.TerraformDataSource {
       terraformResourceType: 'bloxone_infra_join_tokens',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.5.4',
+        providerVersionConstraint: '1.5.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

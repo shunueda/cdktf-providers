@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_account_privileges
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mariadb_account_privileges
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface MariadbAccountPrivilegesConfig extends cdktf.TerraformMetaArgum
   /**
   * Global permission. Valid values of `GlobalPrivileges`: `SELECT`, `INSERT`, `UPDATE`, `DELETE`, `CREATE`, `PROCESS`, `DROP`, `REFERENCES`, `INDEX`, `ALTER`, `SHOW DATABASES`, `CREATE TEMPORARY TABLES`, `LOCK TABLES`, `EXECUTE`, `CREATE VIEW`, `SHOW VIEW`, `CREATE ROUTINE`, `ALTER ROUTINE`, `EVENT`, `TRIGGER`.Note: if the parameter is left empty, no change will be made to the granted global permissions. To clear the granted global permissions, set the parameter to an empty array.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_account_privileges#global_privileges MariadbAccountPrivileges#global_privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mariadb_account_privileges#global_privileges MariadbAccountPrivileges#global_privileges}
   */
   readonly globalPrivileges?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_account_privileges#id MariadbAccountPrivileges#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mariadb_account_privileges#id MariadbAccountPrivileges#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,49 +23,49 @@ export interface MariadbAccountPrivilegesConfig extends cdktf.TerraformMetaArgum
   /**
   * instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_account_privileges#instance_id MariadbAccountPrivileges#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mariadb_account_privileges#instance_id MariadbAccountPrivileges#instance_id}
   */
   readonly instanceId: string;
   /**
   * accounts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_account_privileges#accounts MariadbAccountPrivileges#accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mariadb_account_privileges#accounts MariadbAccountPrivileges#accounts}
   */
   readonly accounts: MariadbAccountPrivilegesAccounts;
   /**
   * column_privileges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_account_privileges#column_privileges MariadbAccountPrivileges#column_privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mariadb_account_privileges#column_privileges MariadbAccountPrivileges#column_privileges}
   */
   readonly columnPrivileges?: MariadbAccountPrivilegesColumnPrivileges[] | cdktf.IResolvable;
   /**
   * database_privileges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_account_privileges#database_privileges MariadbAccountPrivileges#database_privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mariadb_account_privileges#database_privileges MariadbAccountPrivileges#database_privileges}
   */
   readonly databasePrivileges?: MariadbAccountPrivilegesDatabasePrivileges[] | cdktf.IResolvable;
   /**
   * function_privileges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_account_privileges#function_privileges MariadbAccountPrivileges#function_privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mariadb_account_privileges#function_privileges MariadbAccountPrivileges#function_privileges}
   */
   readonly functionPrivileges?: MariadbAccountPrivilegesFunctionPrivileges[] | cdktf.IResolvable;
   /**
   * procedure_privileges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_account_privileges#procedure_privileges MariadbAccountPrivileges#procedure_privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mariadb_account_privileges#procedure_privileges MariadbAccountPrivileges#procedure_privileges}
   */
   readonly procedurePrivileges?: MariadbAccountPrivilegesProcedurePrivileges[] | cdktf.IResolvable;
   /**
   * table_privileges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_account_privileges#table_privileges MariadbAccountPrivileges#table_privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mariadb_account_privileges#table_privileges MariadbAccountPrivileges#table_privileges}
   */
   readonly tablePrivileges?: MariadbAccountPrivilegesTablePrivileges[] | cdktf.IResolvable;
   /**
   * view_privileges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_account_privileges#view_privileges MariadbAccountPrivileges#view_privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mariadb_account_privileges#view_privileges MariadbAccountPrivileges#view_privileges}
   */
   readonly viewPrivileges?: MariadbAccountPrivilegesViewPrivileges[] | cdktf.IResolvable;
 }
@@ -73,13 +73,13 @@ export interface MariadbAccountPrivilegesAccounts {
   /**
   * user host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_account_privileges#host MariadbAccountPrivileges#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mariadb_account_privileges#host MariadbAccountPrivileges#host}
   */
   readonly host: string;
   /**
   * user name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_account_privileges#user MariadbAccountPrivileges#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mariadb_account_privileges#user MariadbAccountPrivileges#user}
   */
   readonly user: string;
 }
@@ -188,25 +188,25 @@ export interface MariadbAccountPrivilegesColumnPrivileges {
   /**
   * Column name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_account_privileges#column MariadbAccountPrivileges#column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mariadb_account_privileges#column MariadbAccountPrivileges#column}
   */
   readonly column: string;
   /**
   * Database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_account_privileges#database MariadbAccountPrivileges#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mariadb_account_privileges#database MariadbAccountPrivileges#database}
   */
   readonly database: string;
   /**
   * Permission information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_account_privileges#privileges MariadbAccountPrivileges#privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mariadb_account_privileges#privileges MariadbAccountPrivileges#privileges}
   */
   readonly privileges: string[];
   /**
   * Table name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_account_privileges#table MariadbAccountPrivileges#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mariadb_account_privileges#table MariadbAccountPrivileges#table}
   */
   readonly table: string;
 }
@@ -399,13 +399,13 @@ export interface MariadbAccountPrivilegesDatabasePrivileges {
   /**
   * Database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_account_privileges#database MariadbAccountPrivileges#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mariadb_account_privileges#database MariadbAccountPrivileges#database}
   */
   readonly database: string;
   /**
   * Permission information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_account_privileges#privileges MariadbAccountPrivileges#privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mariadb_account_privileges#privileges MariadbAccountPrivileges#privileges}
   */
   readonly privileges: string[];
 }
@@ -546,19 +546,19 @@ export interface MariadbAccountPrivilegesFunctionPrivileges {
   /**
   * Database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_account_privileges#database MariadbAccountPrivileges#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mariadb_account_privileges#database MariadbAccountPrivileges#database}
   */
   readonly database: string;
   /**
   * Function name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_account_privileges#function_name MariadbAccountPrivileges#function_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mariadb_account_privileges#function_name MariadbAccountPrivileges#function_name}
   */
   readonly functionName: string;
   /**
   * Permission information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_account_privileges#privileges MariadbAccountPrivileges#privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mariadb_account_privileges#privileges MariadbAccountPrivileges#privileges}
   */
   readonly privileges: string[];
 }
@@ -725,19 +725,19 @@ export interface MariadbAccountPrivilegesProcedurePrivileges {
   /**
   * Database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_account_privileges#database MariadbAccountPrivileges#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mariadb_account_privileges#database MariadbAccountPrivileges#database}
   */
   readonly database: string;
   /**
   * Permission information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_account_privileges#privileges MariadbAccountPrivileges#privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mariadb_account_privileges#privileges MariadbAccountPrivileges#privileges}
   */
   readonly privileges: string[];
   /**
   * Procedure name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_account_privileges#procedure MariadbAccountPrivileges#procedure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mariadb_account_privileges#procedure MariadbAccountPrivileges#procedure}
   */
   readonly procedure: string;
 }
@@ -904,19 +904,19 @@ export interface MariadbAccountPrivilegesTablePrivileges {
   /**
   * Database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_account_privileges#database MariadbAccountPrivileges#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mariadb_account_privileges#database MariadbAccountPrivileges#database}
   */
   readonly database: string;
   /**
   * Permission information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_account_privileges#privileges MariadbAccountPrivileges#privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mariadb_account_privileges#privileges MariadbAccountPrivileges#privileges}
   */
   readonly privileges: string[];
   /**
   * Table name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_account_privileges#table MariadbAccountPrivileges#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mariadb_account_privileges#table MariadbAccountPrivileges#table}
   */
   readonly table: string;
 }
@@ -1083,19 +1083,19 @@ export interface MariadbAccountPrivilegesViewPrivileges {
   /**
   * Database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_account_privileges#database MariadbAccountPrivileges#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mariadb_account_privileges#database MariadbAccountPrivileges#database}
   */
   readonly database: string;
   /**
   * Permission information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_account_privileges#privileges MariadbAccountPrivileges#privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mariadb_account_privileges#privileges MariadbAccountPrivileges#privileges}
   */
   readonly privileges: string[];
   /**
   * View name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_account_privileges#view MariadbAccountPrivileges#view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mariadb_account_privileges#view MariadbAccountPrivileges#view}
   */
   readonly view: string;
 }
@@ -1260,7 +1260,7 @@ export class MariadbAccountPrivilegesViewPrivilegesList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_account_privileges tencentcloud_mariadb_account_privileges}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mariadb_account_privileges tencentcloud_mariadb_account_privileges}
 */
 export class MariadbAccountPrivileges extends cdktf.TerraformResource {
 
@@ -1276,7 +1276,7 @@ export class MariadbAccountPrivileges extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MariadbAccountPrivileges resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MariadbAccountPrivileges to import
-  * @param importFromId The id of the existing MariadbAccountPrivileges that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_account_privileges#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MariadbAccountPrivileges that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mariadb_account_privileges#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MariadbAccountPrivileges to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1288,7 +1288,7 @@ export class MariadbAccountPrivileges extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mariadb_account_privileges tencentcloud_mariadb_account_privileges} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mariadb_account_privileges tencentcloud_mariadb_account_privileges} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1299,8 +1299,8 @@ export class MariadbAccountPrivileges extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mariadb_account_privileges',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.39',
-        providerVersionConstraint: '1.82.39'
+        providerVersion: '1.82.40',
+        providerVersionConstraint: '1.82.40'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

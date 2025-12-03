@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_gateway
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_gateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,81 +8,81 @@ import * as cdktf from 'cdktf';
 
 export interface VpnGatewayConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_gateway#access_private_ip_1 VpnGateway#access_private_ip_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_gateway#access_private_ip_1 VpnGateway#access_private_ip_1}
   */
   readonly accessPrivateIp1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_gateway#access_private_ip_2 VpnGateway#access_private_ip_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_gateway#access_private_ip_2 VpnGateway#access_private_ip_2}
   */
   readonly accessPrivateIp2?: string;
   /**
   * The access subnet ID of the VPN gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_gateway#access_subnet_id VpnGateway#access_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_gateway#access_subnet_id VpnGateway#access_subnet_id}
   */
   readonly accessSubnetId?: string;
   /**
   * The access VPC ID of the VPN gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_gateway#access_vpc_id VpnGateway#access_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_gateway#access_vpc_id VpnGateway#access_vpc_id}
   */
   readonly accessVpcId?: string;
   /**
   * The ASN number of BGP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_gateway#asn VpnGateway#asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_gateway#asn VpnGateway#asn}
   */
   readonly asn?: number;
   /**
   * The attachment type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_gateway#attachment_type VpnGateway#attachment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_gateway#attachment_type VpnGateway#attachment_type}
   */
   readonly attachmentType?: string;
   /**
   * The availability zone IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_gateway#availability_zones VpnGateway#availability_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_gateway#availability_zones VpnGateway#availability_zones}
   */
   readonly availabilityZones: string[];
   /**
   * The Network ID of the VPC subnet used by the VPN gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_gateway#connect_subnet VpnGateway#connect_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_gateway#connect_subnet VpnGateway#connect_subnet}
   */
   readonly connectSubnet?: string;
   /**
   * Whether to delete the EIP when the VPN gateway is deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_gateway#delete_eip_on_termination VpnGateway#delete_eip_on_termination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_gateway#delete_eip_on_termination VpnGateway#delete_eip_on_termination}
   */
   readonly deleteEipOnTermination?: boolean | cdktf.IResolvable;
   /**
   * The enterprise project ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_gateway#enterprise_project_id VpnGateway#enterprise_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_gateway#enterprise_project_id VpnGateway#enterprise_project_id}
   */
   readonly enterpriseProjectId?: string;
   /**
   * The enterprise router ID to attach with to VPN gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_gateway#er_id VpnGateway#er_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_gateway#er_id VpnGateway#er_id}
   */
   readonly erId?: string;
   /**
   * The flavor of the VPN gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_gateway#flavor VpnGateway#flavor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_gateway#flavor VpnGateway#flavor}
   */
   readonly flavor?: string;
   /**
   * The HA mode of the VPN gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_gateway#ha_mode VpnGateway#ha_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_gateway#ha_mode VpnGateway#ha_mode}
   */
   readonly haMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_gateway#id VpnGateway#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_gateway#id VpnGateway#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -91,95 +91,95 @@ export interface VpnGatewayConfig extends cdktf.TerraformMetaArguments {
   /**
   * The local subnets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_gateway#local_subnets VpnGateway#local_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_gateway#local_subnets VpnGateway#local_subnets}
   */
   readonly localSubnets?: string[];
   /**
   * The name of the VPN gateway. Only letters, digits, underscores(_) and hypens(-) are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_gateway#name VpnGateway#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_gateway#name VpnGateway#name}
   */
   readonly name: string;
   /**
   * The network type of the VPN gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_gateway#network_type VpnGateway#network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_gateway#network_type VpnGateway#network_type}
   */
   readonly networkType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_gateway#region VpnGateway#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_gateway#region VpnGateway#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_gateway#tags VpnGateway#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_gateway#tags VpnGateway#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The ID of the VPC to which the VPN gateway is connected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_gateway#vpc_id VpnGateway#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_gateway#vpc_id VpnGateway#vpc_id}
   */
   readonly vpcId?: string;
   /**
   * certificate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_gateway#certificate VpnGateway#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_gateway#certificate VpnGateway#certificate}
   */
   readonly certificate?: VpnGatewayCertificate;
   /**
   * eip1 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_gateway#eip1 VpnGateway#eip1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_gateway#eip1 VpnGateway#eip1}
   */
   readonly eip1?: VpnGatewayEip1;
   /**
   * eip2 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_gateway#eip2 VpnGateway#eip2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_gateway#eip2 VpnGateway#eip2}
   */
   readonly eip2?: VpnGatewayEip2;
   /**
   * master_eip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_gateway#master_eip VpnGateway#master_eip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_gateway#master_eip VpnGateway#master_eip}
   */
   readonly masterEip?: VpnGatewayMasterEip;
   /**
   * slave_eip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_gateway#slave_eip VpnGateway#slave_eip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_gateway#slave_eip VpnGateway#slave_eip}
   */
   readonly slaveEip?: VpnGatewaySlaveEip;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_gateway#timeouts VpnGateway#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_gateway#timeouts VpnGateway#timeouts}
   */
   readonly timeouts?: VpnGatewayTimeouts;
 }
 export interface VpnGatewayCertificate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_gateway#certificate_chain VpnGateway#certificate_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_gateway#certificate_chain VpnGateway#certificate_chain}
   */
   readonly certificateChain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_gateway#content VpnGateway#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_gateway#content VpnGateway#content}
   */
   readonly content: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_gateway#enc_certificate VpnGateway#enc_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_gateway#enc_certificate VpnGateway#enc_certificate}
   */
   readonly encCertificate: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_gateway#enc_private_key VpnGateway#enc_private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_gateway#enc_private_key VpnGateway#enc_private_key}
   */
   readonly encPrivateKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_gateway#name VpnGateway#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_gateway#name VpnGateway#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_gateway#private_key VpnGateway#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_gateway#private_key VpnGateway#private_key}
   */
   readonly privateKey: string;
 }
@@ -467,26 +467,26 @@ export interface VpnGatewayEip1 {
   /**
   * The bandwidth name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_gateway#bandwidth_name VpnGateway#bandwidth_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_gateway#bandwidth_name VpnGateway#bandwidth_name}
   */
   readonly bandwidthName?: string;
   /**
   * Bandwidth size in Mbit/s. When the flavor is **V300**, the value cannot be greater than **300**.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_gateway#bandwidth_size VpnGateway#bandwidth_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_gateway#bandwidth_size VpnGateway#bandwidth_size}
   */
   readonly bandwidthSize?: number;
   /**
   * The charge mode of the bandwidth. The value can be **bandwidth** and **traffic**.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_gateway#charge_mode VpnGateway#charge_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_gateway#charge_mode VpnGateway#charge_mode}
   */
   readonly chargeMode?: string;
   /**
   * The public IP ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_gateway#id VpnGateway#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_gateway#id VpnGateway#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -495,7 +495,7 @@ export interface VpnGatewayEip1 {
   /**
   * The EIP type. The value can be **5_bgp** and **5_sbgp**.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_gateway#type VpnGateway#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_gateway#type VpnGateway#type}
   */
   readonly type?: string;
 }
@@ -712,26 +712,26 @@ export interface VpnGatewayEip2 {
   /**
   * The bandwidth name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_gateway#bandwidth_name VpnGateway#bandwidth_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_gateway#bandwidth_name VpnGateway#bandwidth_name}
   */
   readonly bandwidthName?: string;
   /**
   * Bandwidth size in Mbit/s. When the flavor is **V300**, the value cannot be greater than **300**.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_gateway#bandwidth_size VpnGateway#bandwidth_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_gateway#bandwidth_size VpnGateway#bandwidth_size}
   */
   readonly bandwidthSize?: number;
   /**
   * The charge mode of the bandwidth. The value can be **bandwidth** and **traffic**.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_gateway#charge_mode VpnGateway#charge_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_gateway#charge_mode VpnGateway#charge_mode}
   */
   readonly chargeMode?: string;
   /**
   * The public IP ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_gateway#id VpnGateway#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_gateway#id VpnGateway#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -740,7 +740,7 @@ export interface VpnGatewayEip2 {
   /**
   * The EIP type. The value can be **5_bgp** and **5_sbgp**.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_gateway#type VpnGateway#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_gateway#type VpnGateway#type}
   */
   readonly type?: string;
 }
@@ -957,26 +957,26 @@ export interface VpnGatewayMasterEip {
   /**
   * The bandwidth name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_gateway#bandwidth_name VpnGateway#bandwidth_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_gateway#bandwidth_name VpnGateway#bandwidth_name}
   */
   readonly bandwidthName?: string;
   /**
   * Bandwidth size in Mbit/s. When the flavor is **V300**, the value cannot be greater than **300**.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_gateway#bandwidth_size VpnGateway#bandwidth_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_gateway#bandwidth_size VpnGateway#bandwidth_size}
   */
   readonly bandwidthSize?: number;
   /**
   * The charge mode of the bandwidth. The value can be **bandwidth** and **traffic**.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_gateway#charge_mode VpnGateway#charge_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_gateway#charge_mode VpnGateway#charge_mode}
   */
   readonly chargeMode?: string;
   /**
   * The public IP ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_gateway#id VpnGateway#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_gateway#id VpnGateway#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -985,7 +985,7 @@ export interface VpnGatewayMasterEip {
   /**
   * The EIP type. The value can be **5_bgp** and **5_sbgp**.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_gateway#type VpnGateway#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_gateway#type VpnGateway#type}
   */
   readonly type?: string;
 }
@@ -1202,26 +1202,26 @@ export interface VpnGatewaySlaveEip {
   /**
   * The bandwidth name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_gateway#bandwidth_name VpnGateway#bandwidth_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_gateway#bandwidth_name VpnGateway#bandwidth_name}
   */
   readonly bandwidthName?: string;
   /**
   * Bandwidth size in Mbit/s. When the flavor is **V300**, the value cannot be greater than **300**.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_gateway#bandwidth_size VpnGateway#bandwidth_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_gateway#bandwidth_size VpnGateway#bandwidth_size}
   */
   readonly bandwidthSize?: number;
   /**
   * The charge mode of the bandwidth. The value can be **bandwidth** and **traffic**.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_gateway#charge_mode VpnGateway#charge_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_gateway#charge_mode VpnGateway#charge_mode}
   */
   readonly chargeMode?: string;
   /**
   * The public IP ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_gateway#id VpnGateway#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_gateway#id VpnGateway#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1230,7 +1230,7 @@ export interface VpnGatewaySlaveEip {
   /**
   * The EIP type. The value can be **5_bgp** and **5_sbgp**.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_gateway#type VpnGateway#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_gateway#type VpnGateway#type}
   */
   readonly type?: string;
 }
@@ -1445,15 +1445,15 @@ export class VpnGatewaySlaveEipOutputReference extends cdktf.ComplexObject {
 }
 export interface VpnGatewayTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_gateway#create VpnGateway#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_gateway#create VpnGateway#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_gateway#delete VpnGateway#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_gateway#delete VpnGateway#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_gateway#update VpnGateway#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_gateway#update VpnGateway#update}
   */
   readonly update?: string;
 }
@@ -1605,7 +1605,7 @@ export class VpnGatewayTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_gateway sbercloud_vpn_gateway}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_gateway sbercloud_vpn_gateway}
 */
 export class VpnGateway extends cdktf.TerraformResource {
 
@@ -1621,7 +1621,7 @@ export class VpnGateway extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpnGateway resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpnGateway to import
-  * @param importFromId The id of the existing VpnGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_gateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpnGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpnGateway to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1633,7 +1633,7 @@ export class VpnGateway extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/vpn_gateway sbercloud_vpn_gateway} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/vpn_gateway sbercloud_vpn_gateway} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1644,8 +1644,8 @@ export class VpnGateway extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_vpn_gateway',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

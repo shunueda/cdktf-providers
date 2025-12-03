@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/identity_users
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/identity_users
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,20 +8,30 @@ import * as cdktf from 'cdktf';
 
 export interface DataSbercloudIdentityUsersConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/identity_users#enabled DataSbercloudIdentityUsers#enabled}
+  * Specifies the status of the IAM user, the default value is **true**.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/identity_users#enabled DataSbercloudIdentityUsers#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/identity_users#id DataSbercloudIdentityUsers#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/identity_users#id DataSbercloudIdentityUsers#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/identity_users#name DataSbercloudIdentityUsers#name}
+  * Specifies the IAM username.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/identity_users#name DataSbercloudIdentityUsers#name}
   */
   readonly name?: string;
+  /**
+  * Specifies the id of the IAM user. This parameter conflicts with `name` and `enabled`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/identity_users#user_id DataSbercloudIdentityUsers#user_id}
+  */
+  readonly userId?: string;
 }
 export interface DataSbercloudIdentityUsersUsers {
 }
@@ -130,7 +140,7 @@ export class DataSbercloudIdentityUsersUsersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/identity_users sbercloud_identity_users}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/identity_users sbercloud_identity_users}
 */
 export class DataSbercloudIdentityUsers extends cdktf.TerraformDataSource {
 
@@ -146,7 +156,7 @@ export class DataSbercloudIdentityUsers extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSbercloudIdentityUsers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSbercloudIdentityUsers to import
-  * @param importFromId The id of the existing DataSbercloudIdentityUsers that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/identity_users#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSbercloudIdentityUsers that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/identity_users#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSbercloudIdentityUsers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -158,7 +168,7 @@ export class DataSbercloudIdentityUsers extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/identity_users sbercloud_identity_users} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/identity_users sbercloud_identity_users} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -169,8 +179,8 @@ export class DataSbercloudIdentityUsers extends cdktf.TerraformDataSource {
       terraformResourceType: 'sbercloud_identity_users',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -183,6 +193,7 @@ export class DataSbercloudIdentityUsers extends cdktf.TerraformDataSource {
     this._enabled = config.enabled;
     this._id = config.id;
     this._name = config.name;
+    this._userId = config.userId;
   }
 
   // ==========
@@ -237,6 +248,22 @@ export class DataSbercloudIdentityUsers extends cdktf.TerraformDataSource {
     return this._name;
   }
 
+  // user_id - computed: false, optional: true, required: false
+  private _userId?: string; 
+  public get userId() {
+    return this.getStringAttribute('user_id');
+  }
+  public set userId(value: string) {
+    this._userId = value;
+  }
+  public resetUserId() {
+    this._userId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get userIdInput() {
+    return this._userId;
+  }
+
   // users - computed: true, optional: false, required: false
   private _users = new DataSbercloudIdentityUsersUsersList(this, "users", false);
   public get users() {
@@ -252,6 +279,7 @@ export class DataSbercloudIdentityUsers extends cdktf.TerraformDataSource {
       enabled: cdktf.booleanToTerraform(this._enabled),
       id: cdktf.stringToTerraform(this._id),
       name: cdktf.stringToTerraform(this._name),
+      user_id: cdktf.stringToTerraform(this._userId),
     };
   }
 
@@ -271,6 +299,12 @@ export class DataSbercloudIdentityUsers extends cdktf.TerraformDataSource {
       },
       name: {
         value: cdktf.stringToHclTerraform(this._name),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      user_id: {
+        value: cdktf.stringToHclTerraform(this._userId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

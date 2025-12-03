@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_option_codes
+// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_option_codes
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataBloxoneDhcpOptionCodesConfig extends cdktf.TerraformMetaArg
   /**
   * Filter are used to return a more specific list of results. Filters can be used to match resources by specific attributes, e.g. name. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_option_codes#filters DataBloxoneDhcpOptionCodes#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_option_codes#filters DataBloxoneDhcpOptionCodes#filters}
   */
   readonly filters?: { [key: string]: string };
 }
@@ -18,31 +18,31 @@ export interface DataBloxoneDhcpOptionCodesResults {
   /**
   * Indicates whether the option value is an array of the type or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_option_codes#array DataBloxoneDhcpOptionCodes#array}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_option_codes#array DataBloxoneDhcpOptionCodes#array}
   */
   readonly array?: boolean | cdktf.IResolvable;
   /**
   * The option code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_option_codes#code DataBloxoneDhcpOptionCodes#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_option_codes#code DataBloxoneDhcpOptionCodes#code}
   */
   readonly code: number;
   /**
   * The description for the option code. May contain 0 to 1024 characters. Can include UTF-8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_option_codes#comment DataBloxoneDhcpOptionCodes#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_option_codes#comment DataBloxoneDhcpOptionCodes#comment}
   */
   readonly comment?: string;
   /**
   * The name of the option code. Must contain 1 to 256 characters. Can include UTF-8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_option_codes#name DataBloxoneDhcpOptionCodes#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_option_codes#name DataBloxoneDhcpOptionCodes#name}
   */
   readonly name: string;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_option_codes#option_space DataBloxoneDhcpOptionCodes#option_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_option_codes#option_space DataBloxoneDhcpOptionCodes#option_space}
   */
   readonly optionSpace: string;
   /**
@@ -60,7 +60,7 @@ export interface DataBloxoneDhcpOptionCodesResults {
   *   * _uint16_
   *   * _uint32_
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_option_codes#type DataBloxoneDhcpOptionCodes#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_option_codes#type DataBloxoneDhcpOptionCodes#type}
   */
   readonly type: string;
 }
@@ -319,7 +319,7 @@ export class DataBloxoneDhcpOptionCodesResultsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_option_codes bloxone_dhcp_option_codes}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_option_codes bloxone_dhcp_option_codes}
 */
 export class DataBloxoneDhcpOptionCodes extends cdktf.TerraformDataSource {
 
@@ -335,7 +335,7 @@ export class DataBloxoneDhcpOptionCodes extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataBloxoneDhcpOptionCodes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataBloxoneDhcpOptionCodes to import
-  * @param importFromId The id of the existing DataBloxoneDhcpOptionCodes that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_option_codes#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataBloxoneDhcpOptionCodes that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_option_codes#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataBloxoneDhcpOptionCodes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -347,7 +347,7 @@ export class DataBloxoneDhcpOptionCodes extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_option_codes bloxone_dhcp_option_codes} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_option_codes bloxone_dhcp_option_codes} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -358,8 +358,8 @@ export class DataBloxoneDhcpOptionCodes extends cdktf.TerraformDataSource {
       terraformResourceType: 'bloxone_dhcp_option_codes',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.5.4',
+        providerVersionConstraint: '1.5.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

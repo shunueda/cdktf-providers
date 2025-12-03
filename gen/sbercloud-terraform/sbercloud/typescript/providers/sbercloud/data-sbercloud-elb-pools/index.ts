@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/elb_pools
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/elb_pools
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,130 +8,224 @@ import * as cdktf from 'cdktf';
 
 export interface DataSbercloudElbPoolsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/elb_pools#any_port_enable DataSbercloudElbPools#any_port_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/elb_pools#any_port_enable DataSbercloudElbPools#any_port_enable}
   */
   readonly anyPortEnable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/elb_pools#connection_drain DataSbercloudElbPools#connection_drain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/elb_pools#az_affinity DataSbercloudElbPools#az_affinity}
+  */
+  readonly azAffinity?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/elb_pools#connection_drain DataSbercloudElbPools#connection_drain}
   */
   readonly connectionDrain?: string;
   /**
   * Specifies the description of the ELB pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/elb_pools#description DataSbercloudElbPools#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/elb_pools#description DataSbercloudElbPools#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/elb_pools#enterprise_project_id DataSbercloudElbPools#enterprise_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/elb_pools#enterprise_project_id DataSbercloudElbPools#enterprise_project_id}
   */
   readonly enterpriseProjectId?: string;
   /**
   * Specifies the health monitor ID of the ELB pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/elb_pools#healthmonitor_id DataSbercloudElbPools#healthmonitor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/elb_pools#healthmonitor_id DataSbercloudElbPools#healthmonitor_id}
   */
   readonly healthmonitorId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/elb_pools#id DataSbercloudElbPools#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/elb_pools#id DataSbercloudElbPools#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/elb_pools#ip_version DataSbercloudElbPools#ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/elb_pools#ip_version DataSbercloudElbPools#ip_version}
   */
   readonly ipVersion?: string;
   /**
   * Specifies the method of the ELB pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/elb_pools#lb_method DataSbercloudElbPools#lb_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/elb_pools#lb_method DataSbercloudElbPools#lb_method}
   */
   readonly lbMethod?: string;
   /**
   * Specifies the listener ID of the ELB pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/elb_pools#listener_id DataSbercloudElbPools#listener_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/elb_pools#listener_id DataSbercloudElbPools#listener_id}
   */
   readonly listenerId?: string;
   /**
   * Specifies the loadbalancer ID of the ELB pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/elb_pools#loadbalancer_id DataSbercloudElbPools#loadbalancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/elb_pools#loadbalancer_id DataSbercloudElbPools#loadbalancer_id}
   */
   readonly loadbalancerId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/elb_pools#member_address DataSbercloudElbPools#member_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/elb_pools#member_address DataSbercloudElbPools#member_address}
   */
   readonly memberAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/elb_pools#member_deletion_protection_enable DataSbercloudElbPools#member_deletion_protection_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/elb_pools#member_deletion_protection_enable DataSbercloudElbPools#member_deletion_protection_enable}
   */
   readonly memberDeletionProtectionEnable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/elb_pools#member_device_id DataSbercloudElbPools#member_device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/elb_pools#member_device_id DataSbercloudElbPools#member_device_id}
   */
   readonly memberDeviceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/elb_pools#member_instance_id DataSbercloudElbPools#member_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/elb_pools#member_instance_id DataSbercloudElbPools#member_instance_id}
   */
   readonly memberInstanceId?: string;
   /**
   * Specifies the name of the ELB pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/elb_pools#name DataSbercloudElbPools#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/elb_pools#name DataSbercloudElbPools#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/elb_pools#pool_health DataSbercloudElbPools#pool_health}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/elb_pools#pool_health DataSbercloudElbPools#pool_health}
   */
   readonly poolHealth?: string;
   /**
   * Specifies the ID of the ELB pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/elb_pools#pool_id DataSbercloudElbPools#pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/elb_pools#pool_id DataSbercloudElbPools#pool_id}
   */
   readonly poolId?: string;
   /**
   * Specifies the protection status for update.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/elb_pools#protection_status DataSbercloudElbPools#protection_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/elb_pools#protection_status DataSbercloudElbPools#protection_status}
   */
   readonly protectionStatus?: string;
   /**
   * Specifies the protocol of the ELB pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/elb_pools#protocol DataSbercloudElbPools#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/elb_pools#protocol DataSbercloudElbPools#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/elb_pools#public_border_group DataSbercloudElbPools#public_border_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/elb_pools#public_border_group DataSbercloudElbPools#public_border_group}
   */
   readonly publicBorderGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/elb_pools#quic_cid_len DataSbercloudElbPools#quic_cid_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/elb_pools#quic_cid_len DataSbercloudElbPools#quic_cid_len}
   */
   readonly quicCidLen?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/elb_pools#quic_cid_offset DataSbercloudElbPools#quic_cid_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/elb_pools#quic_cid_offset DataSbercloudElbPools#quic_cid_offset}
   */
   readonly quicCidOffset?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/elb_pools#region DataSbercloudElbPools#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/elb_pools#region DataSbercloudElbPools#region}
   */
   readonly region?: string;
   /**
   * Specifies the type of the backend server group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/elb_pools#type DataSbercloudElbPools#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/elb_pools#type DataSbercloudElbPools#type}
   */
   readonly type?: string;
   /**
   * Specifies the ID of the VPC where the backend server group works.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/elb_pools#vpc_id DataSbercloudElbPools#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/elb_pools#vpc_id DataSbercloudElbPools#vpc_id}
   */
   readonly vpcId?: string;
+}
+export interface DataSbercloudElbPoolsPoolsAzAffinity {
+}
+
+export function dataSbercloudElbPoolsPoolsAzAffinityToTerraform(struct?: DataSbercloudElbPoolsPoolsAzAffinity): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataSbercloudElbPoolsPoolsAzAffinityToHclTerraform(struct?: DataSbercloudElbPoolsPoolsAzAffinity): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataSbercloudElbPoolsPoolsAzAffinityOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataSbercloudElbPoolsPoolsAzAffinity | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataSbercloudElbPoolsPoolsAzAffinity | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // az_minimum_healthy_member_count - computed: true, optional: false, required: false
+  public get azMinimumHealthyMemberCount() {
+    return this.getNumberAttribute('az_minimum_healthy_member_count');
+  }
+
+  // az_minimum_healthy_member_percentage - computed: true, optional: false, required: false
+  public get azMinimumHealthyMemberPercentage() {
+    return this.getNumberAttribute('az_minimum_healthy_member_percentage');
+  }
+
+  // az_unhealthy_fallback_strategy - computed: true, optional: false, required: false
+  public get azUnhealthyFallbackStrategy() {
+    return this.getStringAttribute('az_unhealthy_fallback_strategy');
+  }
+
+  // enable - computed: true, optional: false, required: false
+  public get enable() {
+    return this.getBooleanAttribute('enable');
+  }
+}
+
+export class DataSbercloudElbPoolsPoolsAzAffinityList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataSbercloudElbPoolsPoolsAzAffinityOutputReference {
+    return new DataSbercloudElbPoolsPoolsAzAffinityOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
 }
 export interface DataSbercloudElbPoolsPoolsListeners {
 }
@@ -579,6 +673,12 @@ export class DataSbercloudElbPoolsPoolsOutputReference extends cdktf.ComplexObje
     return this.getBooleanAttribute('any_port_enable');
   }
 
+  // az_affinity - computed: true, optional: false, required: false
+  private _azAffinity = new DataSbercloudElbPoolsPoolsAzAffinityList(this, "az_affinity", false);
+  public get azAffinity() {
+    return this._azAffinity;
+  }
+
   // connection_drain_enabled - computed: true, optional: false, required: false
   public get connectionDrainEnabled() {
     return this.getBooleanAttribute('connection_drain_enabled');
@@ -735,7 +835,7 @@ export class DataSbercloudElbPoolsPoolsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/elb_pools sbercloud_elb_pools}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/elb_pools sbercloud_elb_pools}
 */
 export class DataSbercloudElbPools extends cdktf.TerraformDataSource {
 
@@ -751,7 +851,7 @@ export class DataSbercloudElbPools extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSbercloudElbPools resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSbercloudElbPools to import
-  * @param importFromId The id of the existing DataSbercloudElbPools that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/elb_pools#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSbercloudElbPools that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/elb_pools#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSbercloudElbPools to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -763,7 +863,7 @@ export class DataSbercloudElbPools extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/elb_pools sbercloud_elb_pools} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/elb_pools sbercloud_elb_pools} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -774,8 +874,8 @@ export class DataSbercloudElbPools extends cdktf.TerraformDataSource {
       terraformResourceType: 'sbercloud_elb_pools',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -786,6 +886,7 @@ export class DataSbercloudElbPools extends cdktf.TerraformDataSource {
       forEach: config.forEach
     });
     this._anyPortEnable = config.anyPortEnable;
+    this._azAffinity = config.azAffinity;
     this._connectionDrain = config.connectionDrain;
     this._description = config.description;
     this._enterpriseProjectId = config.enterpriseProjectId;
@@ -830,6 +931,22 @@ export class DataSbercloudElbPools extends cdktf.TerraformDataSource {
   // Temporarily expose input value. Use with caution.
   public get anyPortEnableInput() {
     return this._anyPortEnable;
+  }
+
+  // az_affinity - computed: false, optional: true, required: false
+  private _azAffinity?: string; 
+  public get azAffinity() {
+    return this.getStringAttribute('az_affinity');
+  }
+  public set azAffinity(value: string) {
+    this._azAffinity = value;
+  }
+  public resetAzAffinity() {
+    this._azAffinity = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get azAffinityInput() {
+    return this._azAffinity;
   }
 
   // connection_drain - computed: false, optional: true, required: false
@@ -1229,6 +1346,7 @@ export class DataSbercloudElbPools extends cdktf.TerraformDataSource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       any_port_enable: cdktf.stringToTerraform(this._anyPortEnable),
+      az_affinity: cdktf.stringToTerraform(this._azAffinity),
       connection_drain: cdktf.stringToTerraform(this._connectionDrain),
       description: cdktf.stringToTerraform(this._description),
       enterprise_project_id: cdktf.stringToTerraform(this._enterpriseProjectId),
@@ -1260,6 +1378,12 @@ export class DataSbercloudElbPools extends cdktf.TerraformDataSource {
     const attrs = {
       any_port_enable: {
         value: cdktf.stringToHclTerraform(this._anyPortEnable),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      az_affinity: {
+        value: cdktf.stringToHclTerraform(this._azAffinity),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

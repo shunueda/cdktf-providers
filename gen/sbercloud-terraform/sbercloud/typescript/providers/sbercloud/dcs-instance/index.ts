@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_instance
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,190 +8,230 @@ import * as cdktf from 'cdktf';
 
 export interface DcsInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_instance#access_user DcsInstance#access_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#access_user DcsInstance#access_user}
   */
   readonly accessUser?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_instance#auto_pay DcsInstance#auto_pay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#auto_pay DcsInstance#auto_pay}
   */
   readonly autoPay?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_instance#auto_renew DcsInstance#auto_renew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#auto_renew DcsInstance#auto_renew}
   */
   readonly autoRenew?: string;
   /**
   * schema: Required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_instance#availability_zones DcsInstance#availability_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#availability_zones DcsInstance#availability_zones}
   */
   readonly availabilityZones?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_instance#available_zones DcsInstance#available_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#available_zones DcsInstance#available_zones}
   */
   readonly availableZones?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_instance#backup_at DcsInstance#backup_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#backup_at DcsInstance#backup_at}
   */
   readonly backupAt?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_instance#backup_type DcsInstance#backup_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#backup_type DcsInstance#backup_type}
   */
   readonly backupType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_instance#begin_at DcsInstance#begin_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#begin_at DcsInstance#begin_at}
   */
   readonly beginAt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_instance#capacity DcsInstance#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#big_key_enable_auto_scan DcsInstance#big_key_enable_auto_scan}
+  */
+  readonly bigKeyEnableAutoScan?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#big_key_schedule_at DcsInstance#big_key_schedule_at}
+  */
+  readonly bigKeyScheduleAt?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#capacity DcsInstance#capacity}
   */
   readonly capacity: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_instance#charging_mode DcsInstance#charging_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#charging_mode DcsInstance#charging_mode}
   */
   readonly chargingMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_instance#deleted_nodes DcsInstance#deleted_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#deleted_nodes DcsInstance#deleted_nodes}
   */
   readonly deletedNodes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_instance#description DcsInstance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#description DcsInstance#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_instance#engine DcsInstance#engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#engine DcsInstance#engine}
   */
   readonly engine: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_instance#engine_version DcsInstance#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#engine_version DcsInstance#engine_version}
   */
   readonly engineVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_instance#enterprise_project_id DcsInstance#enterprise_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#enterprise_project_id DcsInstance#enterprise_project_id}
   */
   readonly enterpriseProjectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_instance#enterprise_project_name DcsInstance#enterprise_project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#enterprise_project_name DcsInstance#enterprise_project_name}
   */
   readonly enterpriseProjectName?: string;
   /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#expire_key_enable_auto_scan DcsInstance#expire_key_enable_auto_scan}
+  */
+  readonly expireKeyEnableAutoScan?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#expire_key_first_scan_at DcsInstance#expire_key_first_scan_at}
+  */
+  readonly expireKeyFirstScanAt?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#expire_key_interval DcsInstance#expire_key_interval}
+  */
+  readonly expireKeyInterval?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#expire_key_scan_keys_count DcsInstance#expire_key_scan_keys_count}
+  */
+  readonly expireKeyScanKeysCount?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#expire_key_timeout DcsInstance#expire_key_timeout}
+  */
+  readonly expireKeyTimeout?: number;
+  /**
   * schema: Required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_instance#flavor DcsInstance#flavor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#flavor DcsInstance#flavor}
   */
   readonly flavor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_instance#id DcsInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#hot_key_enable_auto_scan DcsInstance#hot_key_enable_auto_scan}
+  */
+  readonly hotKeyEnableAutoScan?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#hot_key_schedule_at DcsInstance#hot_key_schedule_at}
+  */
+  readonly hotKeyScheduleAt?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#id DcsInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_instance#maintain_begin DcsInstance#maintain_begin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#maintain_begin DcsInstance#maintain_begin}
   */
   readonly maintainBegin?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_instance#maintain_end DcsInstance#maintain_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#maintain_end DcsInstance#maintain_end}
   */
   readonly maintainEnd?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_instance#name DcsInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#name DcsInstance#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_instance#password DcsInstance#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#password DcsInstance#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_instance#period DcsInstance#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#period DcsInstance#period}
   */
   readonly period?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_instance#period_type DcsInstance#period_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#period_type DcsInstance#period_type}
   */
   readonly periodType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_instance#period_unit DcsInstance#period_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#period_unit DcsInstance#period_unit}
   */
   readonly periodUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_instance#port DcsInstance#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#port DcsInstance#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_instance#private_ip DcsInstance#private_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#private_ip DcsInstance#private_ip}
   */
   readonly privateIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_instance#product_id DcsInstance#product_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#product_id DcsInstance#product_id}
   */
   readonly productId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_instance#region DcsInstance#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#region DcsInstance#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_instance#rename_commands DcsInstance#rename_commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#rename_commands DcsInstance#rename_commands}
   */
   readonly renameCommands?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_instance#reserved_ips DcsInstance#reserved_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#reserved_ips DcsInstance#reserved_ips}
   */
   readonly reservedIps?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_instance#save_days DcsInstance#save_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#save_days DcsInstance#save_days}
   */
   readonly saveDays?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_instance#security_group_id DcsInstance#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#security_group_id DcsInstance#security_group_id}
   */
   readonly securityGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_instance#ssl_enable DcsInstance#ssl_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#ssl_enable DcsInstance#ssl_enable}
   */
   readonly sslEnable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_instance#subnet_id DcsInstance#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#subnet_id DcsInstance#subnet_id}
   */
   readonly subnetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_instance#tags DcsInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#tags DcsInstance#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_instance#template_id DcsInstance#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#template_id DcsInstance#template_id}
   */
   readonly templateId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_instance#vpc_id DcsInstance#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#transparent_client_ip_enable DcsInstance#transparent_client_ip_enable}
+  */
+  readonly transparentClientIpEnable?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#vpc_id DcsInstance#vpc_id}
   */
   readonly vpcId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_instance#whitelist_enable DcsInstance#whitelist_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#whitelist_enable DcsInstance#whitelist_enable}
   */
   readonly whitelistEnable?: boolean | cdktf.IResolvable;
   /**
   * backup_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_instance#backup_policy DcsInstance#backup_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#backup_policy DcsInstance#backup_policy}
   */
   readonly backupPolicy?: DcsInstanceBackupPolicy;
   /**
   * parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_instance#parameters DcsInstance#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#parameters DcsInstance#parameters}
   */
   readonly parameters?: DcsInstanceParameters[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_instance#timeouts DcsInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#timeouts DcsInstance#timeouts}
   */
   readonly timeouts?: DcsInstanceTimeouts;
   /**
   * whitelists block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_instance#whitelists DcsInstance#whitelists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#whitelists DcsInstance#whitelists}
   */
   readonly whitelists?: DcsInstanceWhitelists[] | cdktf.IResolvable;
 }
@@ -317,23 +357,23 @@ export class DcsInstanceBandwidthInfoList extends cdktf.ComplexList {
 }
 export interface DcsInstanceBackupPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_instance#backup_at DcsInstance#backup_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#backup_at DcsInstance#backup_at}
   */
   readonly backupAt: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_instance#backup_type DcsInstance#backup_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#backup_type DcsInstance#backup_type}
   */
   readonly backupType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_instance#begin_at DcsInstance#begin_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#begin_at DcsInstance#begin_at}
   */
   readonly beginAt: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_instance#period_type DcsInstance#period_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#period_type DcsInstance#period_type}
   */
   readonly periodType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_instance#save_days DcsInstance#save_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#save_days DcsInstance#save_days}
   */
   readonly saveDays?: number;
 }
@@ -527,18 +567,18 @@ export class DcsInstanceBackupPolicyOutputReference extends cdktf.ComplexObject 
 }
 export interface DcsInstanceParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_instance#id DcsInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#id DcsInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_instance#name DcsInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#name DcsInstance#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_instance#value DcsInstance#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#value DcsInstance#value}
   */
   readonly value: string;
 }
@@ -703,15 +743,15 @@ export class DcsInstanceParametersList extends cdktf.ComplexList {
 }
 export interface DcsInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_instance#create DcsInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#create DcsInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_instance#delete DcsInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#delete DcsInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_instance#update DcsInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#update DcsInstance#update}
   */
   readonly update?: string;
 }
@@ -863,11 +903,11 @@ export class DcsInstanceTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 export interface DcsInstanceWhitelists {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_instance#group_name DcsInstance#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#group_name DcsInstance#group_name}
   */
   readonly groupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_instance#ip_address DcsInstance#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#ip_address DcsInstance#ip_address}
   */
   readonly ipAddress: string[];
 }
@@ -1006,7 +1046,7 @@ export class DcsInstanceWhitelistsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_instance sbercloud_dcs_instance}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance sbercloud_dcs_instance}
 */
 export class DcsInstance extends cdktf.TerraformResource {
 
@@ -1022,7 +1062,7 @@ export class DcsInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DcsInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DcsInstance to import
-  * @param importFromId The id of the existing DcsInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DcsInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DcsInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1034,7 +1074,7 @@ export class DcsInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dcs_instance sbercloud_dcs_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dcs_instance sbercloud_dcs_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1045,8 +1085,8 @@ export class DcsInstance extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_dcs_instance',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1064,6 +1104,8 @@ export class DcsInstance extends cdktf.TerraformResource {
     this._backupAt = config.backupAt;
     this._backupType = config.backupType;
     this._beginAt = config.beginAt;
+    this._bigKeyEnableAutoScan = config.bigKeyEnableAutoScan;
+    this._bigKeyScheduleAt = config.bigKeyScheduleAt;
     this._capacity = config.capacity;
     this._chargingMode = config.chargingMode;
     this._deletedNodes = config.deletedNodes;
@@ -1072,7 +1114,14 @@ export class DcsInstance extends cdktf.TerraformResource {
     this._engineVersion = config.engineVersion;
     this._enterpriseProjectId = config.enterpriseProjectId;
     this._enterpriseProjectName = config.enterpriseProjectName;
+    this._expireKeyEnableAutoScan = config.expireKeyEnableAutoScan;
+    this._expireKeyFirstScanAt = config.expireKeyFirstScanAt;
+    this._expireKeyInterval = config.expireKeyInterval;
+    this._expireKeyScanKeysCount = config.expireKeyScanKeysCount;
+    this._expireKeyTimeout = config.expireKeyTimeout;
     this._flavor = config.flavor;
+    this._hotKeyEnableAutoScan = config.hotKeyEnableAutoScan;
+    this._hotKeyScheduleAt = config.hotKeyScheduleAt;
     this._id = config.id;
     this._maintainBegin = config.maintainBegin;
     this._maintainEnd = config.maintainEnd;
@@ -1093,6 +1142,7 @@ export class DcsInstance extends cdktf.TerraformResource {
     this._subnetId = config.subnetId;
     this._tags = config.tags;
     this._templateId = config.templateId;
+    this._transparentClientIpEnable = config.transparentClientIpEnable;
     this._vpcId = config.vpcId;
     this._whitelistEnable = config.whitelistEnable;
     this._backupPolicy.internalValue = config.backupPolicy;
@@ -1239,6 +1289,43 @@ export class DcsInstance extends cdktf.TerraformResource {
     return this._beginAt;
   }
 
+  // big_key_enable_auto_scan - computed: true, optional: true, required: false
+  private _bigKeyEnableAutoScan?: boolean | cdktf.IResolvable; 
+  public get bigKeyEnableAutoScan() {
+    return this.getBooleanAttribute('big_key_enable_auto_scan');
+  }
+  public set bigKeyEnableAutoScan(value: boolean | cdktf.IResolvable) {
+    this._bigKeyEnableAutoScan = value;
+  }
+  public resetBigKeyEnableAutoScan() {
+    this._bigKeyEnableAutoScan = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bigKeyEnableAutoScanInput() {
+    return this._bigKeyEnableAutoScan;
+  }
+
+  // big_key_schedule_at - computed: true, optional: true, required: false
+  private _bigKeyScheduleAt?: string[]; 
+  public get bigKeyScheduleAt() {
+    return this.getListAttribute('big_key_schedule_at');
+  }
+  public set bigKeyScheduleAt(value: string[]) {
+    this._bigKeyScheduleAt = value;
+  }
+  public resetBigKeyScheduleAt() {
+    this._bigKeyScheduleAt = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bigKeyScheduleAtInput() {
+    return this._bigKeyScheduleAt;
+  }
+
+  // big_key_updated_at - computed: true, optional: false, required: false
+  public get bigKeyUpdatedAt() {
+    return this.getStringAttribute('big_key_updated_at');
+  }
+
   // cache_mode - computed: true, optional: false, required: false
   public get cacheMode() {
     return this.getStringAttribute('cache_mode');
@@ -1381,6 +1468,91 @@ export class DcsInstance extends cdktf.TerraformResource {
     return this._enterpriseProjectName;
   }
 
+  // expire_key_enable_auto_scan - computed: true, optional: true, required: false
+  private _expireKeyEnableAutoScan?: boolean | cdktf.IResolvable; 
+  public get expireKeyEnableAutoScan() {
+    return this.getBooleanAttribute('expire_key_enable_auto_scan');
+  }
+  public set expireKeyEnableAutoScan(value: boolean | cdktf.IResolvable) {
+    this._expireKeyEnableAutoScan = value;
+  }
+  public resetExpireKeyEnableAutoScan() {
+    this._expireKeyEnableAutoScan = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get expireKeyEnableAutoScanInput() {
+    return this._expireKeyEnableAutoScan;
+  }
+
+  // expire_key_first_scan_at - computed: true, optional: true, required: false
+  private _expireKeyFirstScanAt?: string; 
+  public get expireKeyFirstScanAt() {
+    return this.getStringAttribute('expire_key_first_scan_at');
+  }
+  public set expireKeyFirstScanAt(value: string) {
+    this._expireKeyFirstScanAt = value;
+  }
+  public resetExpireKeyFirstScanAt() {
+    this._expireKeyFirstScanAt = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get expireKeyFirstScanAtInput() {
+    return this._expireKeyFirstScanAt;
+  }
+
+  // expire_key_interval - computed: true, optional: true, required: false
+  private _expireKeyInterval?: number; 
+  public get expireKeyInterval() {
+    return this.getNumberAttribute('expire_key_interval');
+  }
+  public set expireKeyInterval(value: number) {
+    this._expireKeyInterval = value;
+  }
+  public resetExpireKeyInterval() {
+    this._expireKeyInterval = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get expireKeyIntervalInput() {
+    return this._expireKeyInterval;
+  }
+
+  // expire_key_scan_keys_count - computed: true, optional: true, required: false
+  private _expireKeyScanKeysCount?: number; 
+  public get expireKeyScanKeysCount() {
+    return this.getNumberAttribute('expire_key_scan_keys_count');
+  }
+  public set expireKeyScanKeysCount(value: number) {
+    this._expireKeyScanKeysCount = value;
+  }
+  public resetExpireKeyScanKeysCount() {
+    this._expireKeyScanKeysCount = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get expireKeyScanKeysCountInput() {
+    return this._expireKeyScanKeysCount;
+  }
+
+  // expire_key_timeout - computed: true, optional: true, required: false
+  private _expireKeyTimeout?: number; 
+  public get expireKeyTimeout() {
+    return this.getNumberAttribute('expire_key_timeout');
+  }
+  public set expireKeyTimeout(value: number) {
+    this._expireKeyTimeout = value;
+  }
+  public resetExpireKeyTimeout() {
+    this._expireKeyTimeout = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get expireKeyTimeoutInput() {
+    return this._expireKeyTimeout;
+  }
+
+  // expire_key_updated_at - computed: true, optional: false, required: false
+  public get expireKeyUpdatedAt() {
+    return this.getStringAttribute('expire_key_updated_at');
+  }
+
   // flavor - computed: true, optional: true, required: false
   private _flavor?: string; 
   public get flavor() {
@@ -1395,6 +1567,43 @@ export class DcsInstance extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get flavorInput() {
     return this._flavor;
+  }
+
+  // hot_key_enable_auto_scan - computed: true, optional: true, required: false
+  private _hotKeyEnableAutoScan?: boolean | cdktf.IResolvable; 
+  public get hotKeyEnableAutoScan() {
+    return this.getBooleanAttribute('hot_key_enable_auto_scan');
+  }
+  public set hotKeyEnableAutoScan(value: boolean | cdktf.IResolvable) {
+    this._hotKeyEnableAutoScan = value;
+  }
+  public resetHotKeyEnableAutoScan() {
+    this._hotKeyEnableAutoScan = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hotKeyEnableAutoScanInput() {
+    return this._hotKeyEnableAutoScan;
+  }
+
+  // hot_key_schedule_at - computed: true, optional: true, required: false
+  private _hotKeyScheduleAt?: string[]; 
+  public get hotKeyScheduleAt() {
+    return this.getListAttribute('hot_key_schedule_at');
+  }
+  public set hotKeyScheduleAt(value: string[]) {
+    this._hotKeyScheduleAt = value;
+  }
+  public resetHotKeyScheduleAt() {
+    this._hotKeyScheduleAt = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hotKeyScheduleAtInput() {
+    return this._hotKeyScheduleAt;
+  }
+
+  // hot_key_updated_at - computed: true, optional: false, required: false
+  public get hotKeyUpdatedAt() {
+    return this.getStringAttribute('hot_key_updated_at');
   }
 
   // id - computed: true, optional: true, required: false
@@ -1776,9 +1985,20 @@ export class DcsInstance extends cdktf.TerraformResource {
     return this._templateId;
   }
 
-  // transparent_client_ip_enable - computed: true, optional: false, required: false
+  // transparent_client_ip_enable - computed: true, optional: true, required: false
+  private _transparentClientIpEnable?: boolean | cdktf.IResolvable; 
   public get transparentClientIpEnable() {
     return this.getBooleanAttribute('transparent_client_ip_enable');
+  }
+  public set transparentClientIpEnable(value: boolean | cdktf.IResolvable) {
+    this._transparentClientIpEnable = value;
+  }
+  public resetTransparentClientIpEnable() {
+    this._transparentClientIpEnable = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get transparentClientIpEnableInput() {
+    return this._transparentClientIpEnable;
   }
 
   // used_memory - computed: true, optional: false, required: false
@@ -1908,6 +2128,8 @@ export class DcsInstance extends cdktf.TerraformResource {
       backup_at: cdktf.listMapper(cdktf.numberToTerraform, false)(this._backupAt),
       backup_type: cdktf.stringToTerraform(this._backupType),
       begin_at: cdktf.stringToTerraform(this._beginAt),
+      big_key_enable_auto_scan: cdktf.booleanToTerraform(this._bigKeyEnableAutoScan),
+      big_key_schedule_at: cdktf.listMapper(cdktf.stringToTerraform, false)(this._bigKeyScheduleAt),
       capacity: cdktf.numberToTerraform(this._capacity),
       charging_mode: cdktf.stringToTerraform(this._chargingMode),
       deleted_nodes: cdktf.listMapper(cdktf.stringToTerraform, false)(this._deletedNodes),
@@ -1916,7 +2138,14 @@ export class DcsInstance extends cdktf.TerraformResource {
       engine_version: cdktf.stringToTerraform(this._engineVersion),
       enterprise_project_id: cdktf.stringToTerraform(this._enterpriseProjectId),
       enterprise_project_name: cdktf.stringToTerraform(this._enterpriseProjectName),
+      expire_key_enable_auto_scan: cdktf.booleanToTerraform(this._expireKeyEnableAutoScan),
+      expire_key_first_scan_at: cdktf.stringToTerraform(this._expireKeyFirstScanAt),
+      expire_key_interval: cdktf.numberToTerraform(this._expireKeyInterval),
+      expire_key_scan_keys_count: cdktf.numberToTerraform(this._expireKeyScanKeysCount),
+      expire_key_timeout: cdktf.numberToTerraform(this._expireKeyTimeout),
       flavor: cdktf.stringToTerraform(this._flavor),
+      hot_key_enable_auto_scan: cdktf.booleanToTerraform(this._hotKeyEnableAutoScan),
+      hot_key_schedule_at: cdktf.listMapper(cdktf.stringToTerraform, false)(this._hotKeyScheduleAt),
       id: cdktf.stringToTerraform(this._id),
       maintain_begin: cdktf.stringToTerraform(this._maintainBegin),
       maintain_end: cdktf.stringToTerraform(this._maintainEnd),
@@ -1937,6 +2166,7 @@ export class DcsInstance extends cdktf.TerraformResource {
       subnet_id: cdktf.stringToTerraform(this._subnetId),
       tags: cdktf.hashMapper(cdktf.stringToTerraform)(this._tags),
       template_id: cdktf.stringToTerraform(this._templateId),
+      transparent_client_ip_enable: cdktf.booleanToTerraform(this._transparentClientIpEnable),
       vpc_id: cdktf.stringToTerraform(this._vpcId),
       whitelist_enable: cdktf.booleanToTerraform(this._whitelistEnable),
       backup_policy: dcsInstanceBackupPolicyToTerraform(this._backupPolicy.internalValue),
@@ -1996,6 +2226,18 @@ export class DcsInstance extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      big_key_enable_auto_scan: {
+        value: cdktf.booleanToHclTerraform(this._bigKeyEnableAutoScan),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      big_key_schedule_at: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._bigKeyScheduleAt),
+        isBlock: false,
+        type: "list",
+        storageClassType: "stringList",
+      },
       capacity: {
         value: cdktf.numberToHclTerraform(this._capacity),
         isBlock: false,
@@ -2044,11 +2286,53 @@ export class DcsInstance extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      expire_key_enable_auto_scan: {
+        value: cdktf.booleanToHclTerraform(this._expireKeyEnableAutoScan),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      expire_key_first_scan_at: {
+        value: cdktf.stringToHclTerraform(this._expireKeyFirstScanAt),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      expire_key_interval: {
+        value: cdktf.numberToHclTerraform(this._expireKeyInterval),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      expire_key_scan_keys_count: {
+        value: cdktf.numberToHclTerraform(this._expireKeyScanKeysCount),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      expire_key_timeout: {
+        value: cdktf.numberToHclTerraform(this._expireKeyTimeout),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
       flavor: {
         value: cdktf.stringToHclTerraform(this._flavor),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      hot_key_enable_auto_scan: {
+        value: cdktf.booleanToHclTerraform(this._hotKeyEnableAutoScan),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      hot_key_schedule_at: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._hotKeyScheduleAt),
+        isBlock: false,
+        type: "list",
+        storageClassType: "stringList",
       },
       id: {
         value: cdktf.stringToHclTerraform(this._id),
@@ -2169,6 +2453,12 @@ export class DcsInstance extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      transparent_client_ip_enable: {
+        value: cdktf.booleanToHclTerraform(this._transparentClientIpEnable),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
       },
       vpc_id: {
         value: cdktf.stringToHclTerraform(this._vpcId),

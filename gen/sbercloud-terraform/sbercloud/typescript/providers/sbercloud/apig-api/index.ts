@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface ApigApiConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the authorizer to which the API request used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#authorizer_id ApigApi#authorizer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#authorizer_id ApigApi#authorizer_id}
   */
   readonly authorizerId?: string;
   /**
   * The description of the API request body, which can be an example request body, media type or parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#body_description ApigApi#body_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#body_description ApigApi#body_description}
   */
   readonly bodyDescription?: string;
   /**
   * The content type of the request body.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#content_type ApigApi#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#content_type ApigApi#content_type}
   */
   readonly contentType?: string;
   /**
   * Whether CORS is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#cors ApigApi#cors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#cors ApigApi#cors}
   */
   readonly cors?: boolean | cdktf.IResolvable;
   /**
   * The API description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#description ApigApi#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#description ApigApi#description}
   */
   readonly description?: string;
   /**
   * The example response for a failure request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#failure_response ApigApi#failure_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#failure_response ApigApi#failure_response}
   */
   readonly failureResponse?: string;
   /**
   * The ID of the API group to which the API belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#group_id ApigApi#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#group_id ApigApi#group_id}
   */
   readonly groupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#id ApigApi#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#id ApigApi#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,133 +59,133 @@ export interface ApigApiConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the instance to which the API belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#instance_id ApigApi#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#instance_id ApigApi#instance_id}
   */
   readonly instanceId: string;
   /**
   * Whether to perform Base64 encoding on the body for interaction with FunctionGraph.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#is_send_fg_body_base64 ApigApi#is_send_fg_body_base64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#is_send_fg_body_base64 ApigApi#is_send_fg_body_base64}
   */
   readonly isSendFgBodyBase64?: boolean | cdktf.IResolvable;
   /**
   * The matching mode of the API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#matching ApigApi#matching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#matching ApigApi#matching}
   */
   readonly matching?: string;
   /**
   * The API name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#name ApigApi#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#name ApigApi#name}
   */
   readonly name: string;
   /**
   * The region where the API is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#region ApigApi#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#region ApigApi#region}
   */
   readonly region?: string;
   /**
   * The request method of the API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#request_method ApigApi#request_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#request_method ApigApi#request_method}
   */
   readonly requestMethod: string;
   /**
   * The request address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#request_path ApigApi#request_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#request_path ApigApi#request_path}
   */
   readonly requestPath: string;
   /**
   * The request protocol of the API request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#request_protocol ApigApi#request_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#request_protocol ApigApi#request_protocol}
   */
   readonly requestProtocol: string;
   /**
   * The ID of the custom response that API used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#response_id ApigApi#response_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#response_id ApigApi#response_id}
   */
   readonly responseId?: string;
   /**
   * The security authentication mode of the API request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#security_authentication ApigApi#security_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#security_authentication ApigApi#security_authentication}
   */
   readonly securityAuthentication?: string;
   /**
   * Whether the authentication of the application code is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#simple_authentication ApigApi#simple_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#simple_authentication ApigApi#simple_authentication}
   */
   readonly simpleAuthentication?: boolean | cdktf.IResolvable;
   /**
   * The example response for a successful request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#success_response ApigApi#success_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#success_response ApigApi#success_response}
   */
   readonly successResponse?: string;
   /**
   * The list of tags configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#tags ApigApi#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#tags ApigApi#tags}
   */
   readonly tags?: string[];
   /**
   * The API type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#type ApigApi#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#type ApigApi#type}
   */
   readonly type: string;
   /**
   * backend_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#backend_params ApigApi#backend_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#backend_params ApigApi#backend_params}
   */
   readonly backendParams?: ApigApiBackendParams[] | cdktf.IResolvable;
   /**
   * func_graph block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#func_graph ApigApi#func_graph}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#func_graph ApigApi#func_graph}
   */
   readonly funcGraph?: ApigApiFuncGraph;
   /**
   * func_graph_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#func_graph_policy ApigApi#func_graph_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#func_graph_policy ApigApi#func_graph_policy}
   */
   readonly funcGraphPolicy?: ApigApiFuncGraphPolicy[] | cdktf.IResolvable;
   /**
   * mock block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#mock ApigApi#mock}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#mock ApigApi#mock}
   */
   readonly mock?: ApigApiMock;
   /**
   * mock_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#mock_policy ApigApi#mock_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#mock_policy ApigApi#mock_policy}
   */
   readonly mockPolicy?: ApigApiMockPolicy[] | cdktf.IResolvable;
   /**
   * request_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#request_params ApigApi#request_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#request_params ApigApi#request_params}
   */
   readonly requestParams?: ApigApiRequestParams[] | cdktf.IResolvable;
   /**
   * web block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#web ApigApi#web}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#web ApigApi#web}
   */
   readonly web?: ApigApiWeb;
   /**
   * web_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#web_policy ApigApi#web_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#web_policy ApigApi#web_policy}
   */
   readonly webPolicy?: ApigApiWebPolicy[] | cdktf.IResolvable;
 }
@@ -193,35 +193,35 @@ export interface ApigApiBackendParams {
   /**
   * The description of the parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#description ApigApi#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#description ApigApi#description}
   */
   readonly description?: string;
   /**
   * Where the parameter is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#location ApigApi#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#location ApigApi#location}
   */
   readonly location: string;
   /**
   * The parameter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#name ApigApi#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#name ApigApi#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#system_param_type ApigApi#system_param_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#system_param_type ApigApi#system_param_type}
   */
   readonly systemParamType?: string;
   /**
   * The parameter type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#type ApigApi#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#type ApigApi#type}
   */
   readonly type: string;
   /**
   * The value of the parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#value ApigApi#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#value ApigApi#value}
   */
   readonly value: string;
 }
@@ -472,49 +472,49 @@ export interface ApigApiFuncGraph {
   /**
   * The ID of the backend custom authorization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#authorizer_id ApigApi#authorizer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#authorizer_id ApigApi#authorizer_id}
   */
   readonly authorizerId?: string;
   /**
   * The alias URN of the FunctionGraph function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#function_alias_urn ApigApi#function_alias_urn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#function_alias_urn ApigApi#function_alias_urn}
   */
   readonly functionAliasUrn?: string;
   /**
   * The URN of the FunctionGraph function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#function_urn ApigApi#function_urn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#function_urn ApigApi#function_urn}
   */
   readonly functionUrn: string;
   /**
   * The invocation type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#invocation_type ApigApi#invocation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#invocation_type ApigApi#invocation_type}
   */
   readonly invocationType?: string;
   /**
   * The network architecture (framework) type of the FunctionGraph function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#network_type ApigApi#network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#network_type ApigApi#network_type}
   */
   readonly networkType?: string;
   /**
   * The request protocol of the FunctionGraph function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#request_protocol ApigApi#request_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#request_protocol ApigApi#request_protocol}
   */
   readonly requestProtocol?: string;
   /**
   * The timeout for API requests to backend service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#timeout ApigApi#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#timeout ApigApi#timeout}
   */
   readonly timeout?: number;
   /**
   * The version of the FunctionGraph function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#version ApigApi#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#version ApigApi#version}
   */
   readonly version?: string;
 }
@@ -800,35 +800,35 @@ export interface ApigApiFuncGraphPolicyBackendParams {
   /**
   * The description of the parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#description ApigApi#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#description ApigApi#description}
   */
   readonly description?: string;
   /**
   * Where the parameter is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#location ApigApi#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#location ApigApi#location}
   */
   readonly location: string;
   /**
   * The parameter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#name ApigApi#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#name ApigApi#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#system_param_type ApigApi#system_param_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#system_param_type ApigApi#system_param_type}
   */
   readonly systemParamType?: string;
   /**
   * The parameter type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#type ApigApi#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#type ApigApi#type}
   */
   readonly type: string;
   /**
   * The value of the parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#value ApigApi#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#value ApigApi#value}
   */
   readonly value: string;
 }
@@ -1079,55 +1079,55 @@ export interface ApigApiFuncGraphPolicyConditions {
   /**
   * The cookie parameter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#cookie_name ApigApi#cookie_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#cookie_name ApigApi#cookie_name}
   */
   readonly cookieName?: string;
   /**
   * The frontend authentication parameter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#frontend_authorizer_name ApigApi#frontend_authorizer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#frontend_authorizer_name ApigApi#frontend_authorizer_name}
   */
   readonly frontendAuthorizerName?: string;
   /**
   * The location of a parameter generated after orchestration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#mapped_param_location ApigApi#mapped_param_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#mapped_param_location ApigApi#mapped_param_location}
   */
   readonly mappedParamLocation?: string;
   /**
   * The name of a parameter generated after orchestration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#mapped_param_name ApigApi#mapped_param_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#mapped_param_name ApigApi#mapped_param_name}
   */
   readonly mappedParamName?: string;
   /**
   * The request parameter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#param_name ApigApi#param_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#param_name ApigApi#param_name}
   */
   readonly paramName?: string;
   /**
   * The type of the backend policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#source ApigApi#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#source ApigApi#source}
   */
   readonly source?: string;
   /**
   * The gateway built-in parameter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#sys_name ApigApi#sys_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#sys_name ApigApi#sys_name}
   */
   readonly sysName?: string;
   /**
   * The condition type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#type ApigApi#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#type ApigApi#type}
   */
   readonly type?: string;
   /**
   * The value of the backend policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#value ApigApi#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#value ApigApi#value}
   */
   readonly value: string;
 }
@@ -1474,79 +1474,79 @@ export interface ApigApiFuncGraphPolicy {
   /**
   * The ID of the backend custom authorization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#authorizer_id ApigApi#authorizer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#authorizer_id ApigApi#authorizer_id}
   */
   readonly authorizerId?: string;
   /**
   * The effective mode of the backend policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#effective_mode ApigApi#effective_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#effective_mode ApigApi#effective_mode}
   */
   readonly effectiveMode?: string;
   /**
   * The alias URN of the FunctionGraph function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#function_alias_urn ApigApi#function_alias_urn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#function_alias_urn ApigApi#function_alias_urn}
   */
   readonly functionAliasUrn?: string;
   /**
   * The URN of the FunctionGraph function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#function_urn ApigApi#function_urn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#function_urn ApigApi#function_urn}
   */
   readonly functionUrn: string;
   /**
   * The invocation mode of the FunctionGraph function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#invocation_mode ApigApi#invocation_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#invocation_mode ApigApi#invocation_mode}
   */
   readonly invocationMode?: string;
   /**
   * The invocation mode of the FunctionGraph function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#invocation_type ApigApi#invocation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#invocation_type ApigApi#invocation_type}
   */
   readonly invocationType?: string;
   /**
   * The name of the backend policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#name ApigApi#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#name ApigApi#name}
   */
   readonly name: string;
   /**
   * The network (framework) type of the FunctionGraph function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#network_type ApigApi#network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#network_type ApigApi#network_type}
   */
   readonly networkType?: string;
   /**
   * The request protocol of the FunctionGraph function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#request_protocol ApigApi#request_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#request_protocol ApigApi#request_protocol}
   */
   readonly requestProtocol?: string;
   /**
   * The timeout for API requests to backend service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#timeout ApigApi#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#timeout ApigApi#timeout}
   */
   readonly timeout?: number;
   /**
   * The version of the FunctionGraph function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#version ApigApi#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#version ApigApi#version}
   */
   readonly version?: string;
   /**
   * backend_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#backend_params ApigApi#backend_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#backend_params ApigApi#backend_params}
   */
   readonly backendParams?: ApigApiFuncGraphPolicyBackendParams[] | cdktf.IResolvable;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#conditions ApigApi#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#conditions ApigApi#conditions}
   */
   readonly conditions: ApigApiFuncGraphPolicyConditions[] | cdktf.IResolvable;
 }
@@ -2003,19 +2003,19 @@ export interface ApigApiMock {
   /**
   * The ID of the backend custom authorization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#authorizer_id ApigApi#authorizer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#authorizer_id ApigApi#authorizer_id}
   */
   readonly authorizerId?: string;
   /**
   * The response content of the mock.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#response ApigApi#response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#response ApigApi#response}
   */
   readonly response?: string;
   /**
   * The custom status code of the mock response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#status_code ApigApi#status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#status_code ApigApi#status_code}
   */
   readonly statusCode?: number;
 }
@@ -2159,35 +2159,35 @@ export interface ApigApiMockPolicyBackendParams {
   /**
   * The description of the parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#description ApigApi#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#description ApigApi#description}
   */
   readonly description?: string;
   /**
   * Where the parameter is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#location ApigApi#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#location ApigApi#location}
   */
   readonly location: string;
   /**
   * The parameter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#name ApigApi#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#name ApigApi#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#system_param_type ApigApi#system_param_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#system_param_type ApigApi#system_param_type}
   */
   readonly systemParamType?: string;
   /**
   * The parameter type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#type ApigApi#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#type ApigApi#type}
   */
   readonly type: string;
   /**
   * The value of the parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#value ApigApi#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#value ApigApi#value}
   */
   readonly value: string;
 }
@@ -2438,55 +2438,55 @@ export interface ApigApiMockPolicyConditions {
   /**
   * The cookie parameter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#cookie_name ApigApi#cookie_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#cookie_name ApigApi#cookie_name}
   */
   readonly cookieName?: string;
   /**
   * The frontend authentication parameter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#frontend_authorizer_name ApigApi#frontend_authorizer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#frontend_authorizer_name ApigApi#frontend_authorizer_name}
   */
   readonly frontendAuthorizerName?: string;
   /**
   * The location of a parameter generated after orchestration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#mapped_param_location ApigApi#mapped_param_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#mapped_param_location ApigApi#mapped_param_location}
   */
   readonly mappedParamLocation?: string;
   /**
   * The name of a parameter generated after orchestration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#mapped_param_name ApigApi#mapped_param_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#mapped_param_name ApigApi#mapped_param_name}
   */
   readonly mappedParamName?: string;
   /**
   * The request parameter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#param_name ApigApi#param_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#param_name ApigApi#param_name}
   */
   readonly paramName?: string;
   /**
   * The type of the backend policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#source ApigApi#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#source ApigApi#source}
   */
   readonly source?: string;
   /**
   * The gateway built-in parameter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#sys_name ApigApi#sys_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#sys_name ApigApi#sys_name}
   */
   readonly sysName?: string;
   /**
   * The condition type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#type ApigApi#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#type ApigApi#type}
   */
   readonly type?: string;
   /**
   * The value of the backend policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#value ApigApi#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#value ApigApi#value}
   */
   readonly value: string;
 }
@@ -2833,43 +2833,43 @@ export interface ApigApiMockPolicy {
   /**
   * The ID of the backend custom authorization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#authorizer_id ApigApi#authorizer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#authorizer_id ApigApi#authorizer_id}
   */
   readonly authorizerId?: string;
   /**
   * The effective mode of the backend policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#effective_mode ApigApi#effective_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#effective_mode ApigApi#effective_mode}
   */
   readonly effectiveMode?: string;
   /**
   * The backend policy name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#name ApigApi#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#name ApigApi#name}
   */
   readonly name: string;
   /**
   * The response content of the mock.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#response ApigApi#response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#response ApigApi#response}
   */
   readonly response?: string;
   /**
   * The custom status code of the mock response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#status_code ApigApi#status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#status_code ApigApi#status_code}
   */
   readonly statusCode?: number;
   /**
   * backend_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#backend_params ApigApi#backend_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#backend_params ApigApi#backend_params}
   */
   readonly backendParams?: ApigApiMockPolicyBackendParams[] | cdktf.IResolvable;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#conditions ApigApi#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#conditions ApigApi#conditions}
   */
   readonly conditions: ApigApiMockPolicyConditions[] | cdktf.IResolvable;
 }
@@ -3155,79 +3155,79 @@ export interface ApigApiRequestParams {
   /**
   * The default value of the parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#default ApigApi#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#default ApigApi#default}
   */
   readonly default?: string;
   /**
   * The parameter description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#description ApigApi#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#description ApigApi#description}
   */
   readonly description?: string;
   /**
   * The enumerated value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#enumeration ApigApi#enumeration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#enumeration ApigApi#enumeration}
   */
   readonly enumeration?: string;
   /**
   * The parameter example.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#example ApigApi#example}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#example ApigApi#example}
   */
   readonly example?: string;
   /**
   * Where this parameter is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#location ApigApi#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#location ApigApi#location}
   */
   readonly location?: string;
   /**
   * The maximum value or length (string parameter) for parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#maximum ApigApi#maximum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#maximum ApigApi#maximum}
   */
   readonly maximum?: number;
   /**
   * The minimum value or length (string parameter) for parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#minimum ApigApi#minimum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#minimum ApigApi#minimum}
   */
   readonly minimum?: number;
   /**
   * The name of the request parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#name ApigApi#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#name ApigApi#name}
   */
   readonly name: string;
   /**
   * The list of orchestration rules that parameter used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#orchestrations ApigApi#orchestrations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#orchestrations ApigApi#orchestrations}
   */
   readonly orchestrations?: string[];
   /**
   * Whether to transparently transfer the parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#passthrough ApigApi#passthrough}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#passthrough ApigApi#passthrough}
   */
   readonly passthrough?: boolean | cdktf.IResolvable;
   /**
   * Whether this parameter is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#required ApigApi#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#required ApigApi#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * The parameter type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#type ApigApi#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#type ApigApi#type}
   */
   readonly type?: string;
   /**
   * Whether to enable the parameter validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#valid_enable ApigApi#valid_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#valid_enable ApigApi#valid_enable}
   */
   readonly validEnable?: number;
 }
@@ -3690,61 +3690,61 @@ export interface ApigApiWeb {
   /**
   * The ID of the backend custom authorization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#authorizer_id ApigApi#authorizer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#authorizer_id ApigApi#authorizer_id}
   */
   readonly authorizerId?: string;
   /**
   * The backend service address, which consists of a domain name or IP address, and a port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#backend_address ApigApi#backend_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#backend_address ApigApi#backend_address}
   */
   readonly backendAddress?: string;
   /**
   * The proxy host header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#host_header ApigApi#host_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#host_header ApigApi#host_header}
   */
   readonly hostHeader?: string;
   /**
   * The backend request path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#path ApigApi#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#path ApigApi#path}
   */
   readonly path: string;
   /**
   * The backend request method of the API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#request_method ApigApi#request_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#request_method ApigApi#request_method}
   */
   readonly requestMethod?: string;
   /**
   * The web protocol type of the API request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#request_protocol ApigApi#request_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#request_protocol ApigApi#request_protocol}
   */
   readonly requestProtocol?: string;
   /**
   * The number of retry attempts to request the backend service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#retry_count ApigApi#retry_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#retry_count ApigApi#retry_count}
   */
   readonly retryCount?: number;
   /**
   * Whether to enable two-way authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#ssl_enable ApigApi#ssl_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#ssl_enable ApigApi#ssl_enable}
   */
   readonly sslEnable?: boolean | cdktf.IResolvable;
   /**
   * The timeout for API requests to backend service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#timeout ApigApi#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#timeout ApigApi#timeout}
   */
   readonly timeout?: number;
   /**
   * The VPC channel ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#vpc_channel_id ApigApi#vpc_channel_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#vpc_channel_id ApigApi#vpc_channel_id}
   */
   readonly vpcChannelId?: string;
 }
@@ -4088,35 +4088,35 @@ export interface ApigApiWebPolicyBackendParams {
   /**
   * The description of the parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#description ApigApi#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#description ApigApi#description}
   */
   readonly description?: string;
   /**
   * Where the parameter is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#location ApigApi#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#location ApigApi#location}
   */
   readonly location: string;
   /**
   * The parameter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#name ApigApi#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#name ApigApi#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#system_param_type ApigApi#system_param_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#system_param_type ApigApi#system_param_type}
   */
   readonly systemParamType?: string;
   /**
   * The parameter type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#type ApigApi#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#type ApigApi#type}
   */
   readonly type: string;
   /**
   * The value of the parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#value ApigApi#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#value ApigApi#value}
   */
   readonly value: string;
 }
@@ -4367,55 +4367,55 @@ export interface ApigApiWebPolicyConditions {
   /**
   * The cookie parameter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#cookie_name ApigApi#cookie_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#cookie_name ApigApi#cookie_name}
   */
   readonly cookieName?: string;
   /**
   * The frontend authentication parameter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#frontend_authorizer_name ApigApi#frontend_authorizer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#frontend_authorizer_name ApigApi#frontend_authorizer_name}
   */
   readonly frontendAuthorizerName?: string;
   /**
   * The location of a parameter generated after orchestration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#mapped_param_location ApigApi#mapped_param_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#mapped_param_location ApigApi#mapped_param_location}
   */
   readonly mappedParamLocation?: string;
   /**
   * The name of a parameter generated after orchestration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#mapped_param_name ApigApi#mapped_param_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#mapped_param_name ApigApi#mapped_param_name}
   */
   readonly mappedParamName?: string;
   /**
   * The request parameter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#param_name ApigApi#param_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#param_name ApigApi#param_name}
   */
   readonly paramName?: string;
   /**
   * The type of the backend policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#source ApigApi#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#source ApigApi#source}
   */
   readonly source?: string;
   /**
   * The gateway built-in parameter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#sys_name ApigApi#sys_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#sys_name ApigApi#sys_name}
   */
   readonly sysName?: string;
   /**
   * The condition type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#type ApigApi#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#type ApigApi#type}
   */
   readonly type?: string;
   /**
   * The value of the backend policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#value ApigApi#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#value ApigApi#value}
   */
   readonly value: string;
 }
@@ -4762,79 +4762,79 @@ export interface ApigApiWebPolicy {
   /**
   * The ID of the backend custom authorization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#authorizer_id ApigApi#authorizer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#authorizer_id ApigApi#authorizer_id}
   */
   readonly authorizerId?: string;
   /**
   * The backend service address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#backend_address ApigApi#backend_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#backend_address ApigApi#backend_address}
   */
   readonly backendAddress?: string;
   /**
   * The effective mode of the backend policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#effective_mode ApigApi#effective_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#effective_mode ApigApi#effective_mode}
   */
   readonly effectiveMode?: string;
   /**
   * The proxy host header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#host_header ApigApi#host_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#host_header ApigApi#host_header}
   */
   readonly hostHeader?: string;
   /**
   * The name of the web policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#name ApigApi#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#name ApigApi#name}
   */
   readonly name: string;
   /**
   * The backend request address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#path ApigApi#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#path ApigApi#path}
   */
   readonly path: string;
   /**
   * The backend request method of the API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#request_method ApigApi#request_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#request_method ApigApi#request_method}
   */
   readonly requestMethod: string;
   /**
   * The backend request protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#request_protocol ApigApi#request_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#request_protocol ApigApi#request_protocol}
   */
   readonly requestProtocol?: string;
   /**
   * The number of retry attempts to request the backend service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#retry_count ApigApi#retry_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#retry_count ApigApi#retry_count}
   */
   readonly retryCount?: number;
   /**
   * The timeout for API requests to backend service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#timeout ApigApi#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#timeout ApigApi#timeout}
   */
   readonly timeout?: number;
   /**
   * The VPC channel ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#vpc_channel_id ApigApi#vpc_channel_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#vpc_channel_id ApigApi#vpc_channel_id}
   */
   readonly vpcChannelId?: string;
   /**
   * backend_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#backend_params ApigApi#backend_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#backend_params ApigApi#backend_params}
   */
   readonly backendParams?: ApigApiWebPolicyBackendParams[] | cdktf.IResolvable;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#conditions ApigApi#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#conditions ApigApi#conditions}
   */
   readonly conditions: ApigApiWebPolicyConditions[] | cdktf.IResolvable;
 }
@@ -5286,7 +5286,7 @@ export class ApigApiWebPolicyList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api sbercloud_apig_api}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api sbercloud_apig_api}
 */
 export class ApigApi extends cdktf.TerraformResource {
 
@@ -5302,7 +5302,7 @@ export class ApigApi extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApigApi resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApigApi to import
-  * @param importFromId The id of the existing ApigApi that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApigApi that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApigApi to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5314,7 +5314,7 @@ export class ApigApi extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api sbercloud_apig_api} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api sbercloud_apig_api} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5325,8 +5325,8 @@ export class ApigApi extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_apig_api',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

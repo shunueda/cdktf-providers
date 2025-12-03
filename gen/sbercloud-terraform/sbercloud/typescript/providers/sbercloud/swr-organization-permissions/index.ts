@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/swr_organization_permissions
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/swr_organization_permissions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,30 +8,30 @@ import * as cdktf from 'cdktf';
 
 export interface SwrOrganizationPermissionsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/swr_organization_permissions#id SwrOrganizationPermissions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/swr_organization_permissions#id SwrOrganizationPermissions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/swr_organization_permissions#organization SwrOrganizationPermissions#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/swr_organization_permissions#organization SwrOrganizationPermissions#organization}
   */
   readonly organization: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/swr_organization_permissions#region SwrOrganizationPermissions#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/swr_organization_permissions#region SwrOrganizationPermissions#region}
   */
   readonly region?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/swr_organization_permissions#timeouts SwrOrganizationPermissions#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/swr_organization_permissions#timeouts SwrOrganizationPermissions#timeouts}
   */
   readonly timeouts?: SwrOrganizationPermissionsTimeouts;
   /**
   * users block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/swr_organization_permissions#users SwrOrganizationPermissions#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/swr_organization_permissions#users SwrOrganizationPermissions#users}
   */
   readonly users: SwrOrganizationPermissionsUsers[] | cdktf.IResolvable;
 }
@@ -122,11 +122,11 @@ export class SwrOrganizationPermissionsSelfPermissionList extends cdktf.ComplexL
 }
 export interface SwrOrganizationPermissionsTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/swr_organization_permissions#create SwrOrganizationPermissions#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/swr_organization_permissions#create SwrOrganizationPermissions#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/swr_organization_permissions#delete SwrOrganizationPermissions#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/swr_organization_permissions#delete SwrOrganizationPermissions#delete}
   */
   readonly delete?: string;
 }
@@ -249,15 +249,15 @@ export class SwrOrganizationPermissionsTimeoutsOutputReference extends cdktf.Com
 }
 export interface SwrOrganizationPermissionsUsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/swr_organization_permissions#permission SwrOrganizationPermissions#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/swr_organization_permissions#permission SwrOrganizationPermissions#permission}
   */
   readonly permission: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/swr_organization_permissions#user_id SwrOrganizationPermissions#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/swr_organization_permissions#user_id SwrOrganizationPermissions#user_id}
   */
   readonly userId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/swr_organization_permissions#user_name SwrOrganizationPermissions#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/swr_organization_permissions#user_name SwrOrganizationPermissions#user_name}
   */
   readonly userName?: string;
 }
@@ -425,7 +425,7 @@ export class SwrOrganizationPermissionsUsersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/swr_organization_permissions sbercloud_swr_organization_permissions}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/swr_organization_permissions sbercloud_swr_organization_permissions}
 */
 export class SwrOrganizationPermissions extends cdktf.TerraformResource {
 
@@ -441,7 +441,7 @@ export class SwrOrganizationPermissions extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SwrOrganizationPermissions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SwrOrganizationPermissions to import
-  * @param importFromId The id of the existing SwrOrganizationPermissions that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/swr_organization_permissions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SwrOrganizationPermissions that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/swr_organization_permissions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SwrOrganizationPermissions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -453,7 +453,7 @@ export class SwrOrganizationPermissions extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/swr_organization_permissions sbercloud_swr_organization_permissions} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/swr_organization_permissions sbercloud_swr_organization_permissions} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -464,8 +464,8 @@ export class SwrOrganizationPermissions extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_swr_organization_permissions',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

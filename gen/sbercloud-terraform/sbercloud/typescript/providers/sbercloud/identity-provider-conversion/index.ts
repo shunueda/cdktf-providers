@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/identity_provider_conversion
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/identity_provider_conversion
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,30 +8,30 @@ import * as cdktf from 'cdktf';
 
 export interface IdentityProviderConversionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/identity_provider_conversion#id IdentityProviderConversion#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/identity_provider_conversion#id IdentityProviderConversion#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/identity_provider_conversion#provider_id IdentityProviderConversion#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/identity_provider_conversion#provider_id IdentityProviderConversion#provider_id}
   */
   readonly providerId: string;
   /**
   * conversion_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/identity_provider_conversion#conversion_rules IdentityProviderConversion#conversion_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/identity_provider_conversion#conversion_rules IdentityProviderConversion#conversion_rules}
   */
   readonly conversionRules: IdentityProviderConversionConversionRules[] | cdktf.IResolvable;
 }
 export interface IdentityProviderConversionConversionRulesLocal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/identity_provider_conversion#group IdentityProviderConversion#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/identity_provider_conversion#group IdentityProviderConversion#group}
   */
   readonly group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/identity_provider_conversion#username IdentityProviderConversion#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/identity_provider_conversion#username IdentityProviderConversion#username}
   */
   readonly username?: string;
 }
@@ -176,15 +176,15 @@ export class IdentityProviderConversionConversionRulesLocalList extends cdktf.Co
 }
 export interface IdentityProviderConversionConversionRulesRemote {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/identity_provider_conversion#attribute IdentityProviderConversion#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/identity_provider_conversion#attribute IdentityProviderConversion#attribute}
   */
   readonly attribute: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/identity_provider_conversion#condition IdentityProviderConversion#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/identity_provider_conversion#condition IdentityProviderConversion#condition}
   */
   readonly condition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/identity_provider_conversion#value IdentityProviderConversion#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/identity_provider_conversion#value IdentityProviderConversion#value}
   */
   readonly value?: string[];
 }
@@ -357,13 +357,13 @@ export interface IdentityProviderConversionConversionRules {
   /**
   * local block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/identity_provider_conversion#local IdentityProviderConversion#local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/identity_provider_conversion#local IdentityProviderConversion#local}
   */
   readonly local: IdentityProviderConversionConversionRulesLocal[] | cdktf.IResolvable;
   /**
   * remote block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/identity_provider_conversion#remote IdentityProviderConversion#remote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/identity_provider_conversion#remote IdentityProviderConversion#remote}
   */
   readonly remote: IdentityProviderConversionConversionRulesRemote[] | cdktf.IResolvable;
 }
@@ -502,7 +502,7 @@ export class IdentityProviderConversionConversionRulesList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/identity_provider_conversion sbercloud_identity_provider_conversion}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/identity_provider_conversion sbercloud_identity_provider_conversion}
 */
 export class IdentityProviderConversion extends cdktf.TerraformResource {
 
@@ -518,7 +518,7 @@ export class IdentityProviderConversion extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IdentityProviderConversion resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IdentityProviderConversion to import
-  * @param importFromId The id of the existing IdentityProviderConversion that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/identity_provider_conversion#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IdentityProviderConversion that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/identity_provider_conversion#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IdentityProviderConversion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -530,7 +530,7 @@ export class IdentityProviderConversion extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/identity_provider_conversion sbercloud_identity_provider_conversion} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/identity_provider_conversion sbercloud_identity_provider_conversion} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -541,8 +541,8 @@ export class IdentityProviderConversion extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_identity_provider_conversion',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

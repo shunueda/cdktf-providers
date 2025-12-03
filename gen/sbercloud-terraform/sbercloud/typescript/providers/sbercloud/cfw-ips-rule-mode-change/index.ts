@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_ips_rule_mode_change
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_ips_rule_mode_change
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface CfwIpsRuleModeChangeConfig extends cdktf.TerraformMetaArguments
   /**
   * Specifies the enterprise project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_ips_rule_mode_change#enterprise_project_id CfwIpsRuleModeChange#enterprise_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_ips_rule_mode_change#enterprise_project_id CfwIpsRuleModeChange#enterprise_project_id}
   */
   readonly enterpriseProjectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_ips_rule_mode_change#id CfwIpsRuleModeChange#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_ips_rule_mode_change#id CfwIpsRuleModeChange#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface CfwIpsRuleModeChangeConfig extends cdktf.TerraformMetaArguments
   /**
   * Specifies the IPS ID list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_ips_rule_mode_change#ips_ids CfwIpsRuleModeChange#ips_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_ips_rule_mode_change#ips_ids CfwIpsRuleModeChange#ips_ids}
   */
   readonly ipsIds?: string[];
   /**
   * Specifies the protected object ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_ips_rule_mode_change#object_id CfwIpsRuleModeChange#object_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_ips_rule_mode_change#object_id CfwIpsRuleModeChange#object_id}
   */
   readonly objectId: string;
   /**
   * The region in which to create the resource. If omitted, the provider-level region will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_ips_rule_mode_change#region CfwIpsRuleModeChange#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_ips_rule_mode_change#region CfwIpsRuleModeChange#region}
   */
   readonly region?: string;
   /**
   * Specifies the IPS rule status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_ips_rule_mode_change#status CfwIpsRuleModeChange#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_ips_rule_mode_change#status CfwIpsRuleModeChange#status}
   */
   readonly status: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_ips_rule_mode_change sbercloud_cfw_ips_rule_mode_change}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_ips_rule_mode_change sbercloud_cfw_ips_rule_mode_change}
 */
 export class CfwIpsRuleModeChange extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class CfwIpsRuleModeChange extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CfwIpsRuleModeChange resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CfwIpsRuleModeChange to import
-  * @param importFromId The id of the existing CfwIpsRuleModeChange that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_ips_rule_mode_change#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CfwIpsRuleModeChange that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_ips_rule_mode_change#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CfwIpsRuleModeChange to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class CfwIpsRuleModeChange extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_ips_rule_mode_change sbercloud_cfw_ips_rule_mode_change} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_ips_rule_mode_change sbercloud_cfw_ips_rule_mode_change} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class CfwIpsRuleModeChange extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_cfw_ips_rule_mode_change',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

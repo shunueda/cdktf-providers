@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/federation_federated_block
+// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/federation_federated_block
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface FederationFederatedBlockConfig extends cdktf.TerraformMetaArgum
   /**
   * The address of the subnet in the form “a.b.c.d”
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/federation_federated_block#address FederationFederatedBlock#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/federation_federated_block#address FederationFederatedBlock#address}
   */
   readonly address?: string;
   /**
   * The CIDR of the federated block. This is required, if _address_ does not specify it in its input.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/federation_federated_block#cidr FederationFederatedBlock#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/federation_federated_block#cidr FederationFederatedBlock#cidr}
   */
   readonly cidr: number;
   /**
   * The description for the federated block. May contain 0 to 1024 characters. Can include UTF-8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/federation_federated_block#comment FederationFederatedBlock#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/federation_federated_block#comment FederationFederatedBlock#comment}
   */
   readonly comment?: string;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/federation_federated_block#federated_realm FederationFederatedBlock#federated_realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/federation_federated_block#federated_realm FederationFederatedBlock#federated_realm}
   */
   readonly federatedRealm: string;
   /**
   * The name of the federated block. May contain 1 to 256 characters. Can include UTF-8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/federation_federated_block#name FederationFederatedBlock#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/federation_federated_block#name FederationFederatedBlock#name}
   */
   readonly name?: string;
   /**
   * The tags for the federated block in JSON format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/federation_federated_block#tags FederationFederatedBlock#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/federation_federated_block#tags FederationFederatedBlock#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -115,7 +115,7 @@ export class FederationFederatedBlockAllocationV4OutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/federation_federated_block bloxone_federation_federated_block}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/federation_federated_block bloxone_federation_federated_block}
 */
 export class FederationFederatedBlock extends cdktf.TerraformResource {
 
@@ -131,7 +131,7 @@ export class FederationFederatedBlock extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FederationFederatedBlock resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FederationFederatedBlock to import
-  * @param importFromId The id of the existing FederationFederatedBlock that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/federation_federated_block#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FederationFederatedBlock that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/federation_federated_block#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FederationFederatedBlock to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -143,7 +143,7 @@ export class FederationFederatedBlock extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/federation_federated_block bloxone_federation_federated_block} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/federation_federated_block bloxone_federation_federated_block} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -154,8 +154,8 @@ export class FederationFederatedBlock extends cdktf.TerraformResource {
       terraformResourceType: 'bloxone_federation_federated_block',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.5.4',
+        providerVersionConstraint: '1.5.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_pg_plugin_update
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_pg_plugin_update
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface RdsPgPluginUpdateConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies the database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_pg_plugin_update#database_name RdsPgPluginUpdate#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_pg_plugin_update#database_name RdsPgPluginUpdate#database_name}
   */
   readonly databaseName: string;
   /**
   * Specifies the extension name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_pg_plugin_update#extension_name RdsPgPluginUpdate#extension_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_pg_plugin_update#extension_name RdsPgPluginUpdate#extension_name}
   */
   readonly extensionName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_pg_plugin_update#id RdsPgPluginUpdate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_pg_plugin_update#id RdsPgPluginUpdate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,17 +29,17 @@ export interface RdsPgPluginUpdateConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies the ID of the RDS instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_pg_plugin_update#instance_id RdsPgPluginUpdate#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_pg_plugin_update#instance_id RdsPgPluginUpdate#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_pg_plugin_update#region RdsPgPluginUpdate#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_pg_plugin_update#region RdsPgPluginUpdate#region}
   */
   readonly region?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_pg_plugin_update sbercloud_rds_pg_plugin_update}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_pg_plugin_update sbercloud_rds_pg_plugin_update}
 */
 export class RdsPgPluginUpdate extends cdktf.TerraformResource {
 
@@ -55,7 +55,7 @@ export class RdsPgPluginUpdate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RdsPgPluginUpdate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RdsPgPluginUpdate to import
-  * @param importFromId The id of the existing RdsPgPluginUpdate that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_pg_plugin_update#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RdsPgPluginUpdate that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_pg_plugin_update#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RdsPgPluginUpdate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -67,7 +67,7 @@ export class RdsPgPluginUpdate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_pg_plugin_update sbercloud_rds_pg_plugin_update} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_pg_plugin_update sbercloud_rds_pg_plugin_update} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -78,8 +78,8 @@ export class RdsPgPluginUpdate extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_rds_pg_plugin_update',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

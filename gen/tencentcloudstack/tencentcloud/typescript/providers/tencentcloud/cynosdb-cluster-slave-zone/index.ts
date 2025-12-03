@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cynosdb_cluster_slave_zone
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_cluster_slave_zone
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface CynosdbClusterSlaveZoneConfig extends cdktf.TerraformMetaArgume
   /**
   * The ID of cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cynosdb_cluster_slave_zone#cluster_id CynosdbClusterSlaveZone#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_cluster_slave_zone#cluster_id CynosdbClusterSlaveZone#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cynosdb_cluster_slave_zone#id CynosdbClusterSlaveZone#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_cluster_slave_zone#id CynosdbClusterSlaveZone#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,27 +23,27 @@ export interface CynosdbClusterSlaveZoneConfig extends cdktf.TerraformMetaArgume
   /**
   * Slave zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cynosdb_cluster_slave_zone#slave_zone CynosdbClusterSlaveZone#slave_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_cluster_slave_zone#slave_zone CynosdbClusterSlaveZone#slave_zone}
   */
   readonly slaveZone: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cynosdb_cluster_slave_zone#timeouts CynosdbClusterSlaveZone#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_cluster_slave_zone#timeouts CynosdbClusterSlaveZone#timeouts}
   */
   readonly timeouts?: CynosdbClusterSlaveZoneTimeouts;
 }
 export interface CynosdbClusterSlaveZoneTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cynosdb_cluster_slave_zone#create CynosdbClusterSlaveZone#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_cluster_slave_zone#create CynosdbClusterSlaveZone#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cynosdb_cluster_slave_zone#delete CynosdbClusterSlaveZone#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_cluster_slave_zone#delete CynosdbClusterSlaveZone#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cynosdb_cluster_slave_zone#update CynosdbClusterSlaveZone#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_cluster_slave_zone#update CynosdbClusterSlaveZone#update}
   */
   readonly update?: string;
 }
@@ -195,7 +195,7 @@ export class CynosdbClusterSlaveZoneTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cynosdb_cluster_slave_zone tencentcloud_cynosdb_cluster_slave_zone}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_cluster_slave_zone tencentcloud_cynosdb_cluster_slave_zone}
 */
 export class CynosdbClusterSlaveZone extends cdktf.TerraformResource {
 
@@ -211,7 +211,7 @@ export class CynosdbClusterSlaveZone extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CynosdbClusterSlaveZone resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CynosdbClusterSlaveZone to import
-  * @param importFromId The id of the existing CynosdbClusterSlaveZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cynosdb_cluster_slave_zone#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CynosdbClusterSlaveZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_cluster_slave_zone#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CynosdbClusterSlaveZone to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -223,7 +223,7 @@ export class CynosdbClusterSlaveZone extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cynosdb_cluster_slave_zone tencentcloud_cynosdb_cluster_slave_zone} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_cluster_slave_zone tencentcloud_cynosdb_cluster_slave_zone} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -234,8 +234,8 @@ export class CynosdbClusterSlaveZone extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cynosdb_cluster_slave_zone',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.39',
-        providerVersionConstraint: '1.82.39'
+        providerVersion: '1.82.40',
+        providerVersionConstraint: '1.82.40'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/vpc_enable_end_point_connect
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vpc_enable_end_point_connect
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface VpcEnableEndPointConnectConfig extends cdktf.TerraformMetaArgum
   /**
   * Whether to accept endpoint connection requests. `true`: Accept automatically. `false`: Do not automatically accept.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/vpc_enable_end_point_connect#accept_flag VpcEnableEndPointConnect#accept_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vpc_enable_end_point_connect#accept_flag VpcEnableEndPointConnect#accept_flag}
   */
   readonly acceptFlag: boolean | cdktf.IResolvable;
   /**
   * Endpoint ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/vpc_enable_end_point_connect#end_point_id VpcEnableEndPointConnect#end_point_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vpc_enable_end_point_connect#end_point_id VpcEnableEndPointConnect#end_point_id}
   */
   readonly endPointId: string[];
   /**
   * Endpoint service ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/vpc_enable_end_point_connect#end_point_service_id VpcEnableEndPointConnect#end_point_service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vpc_enable_end_point_connect#end_point_service_id VpcEnableEndPointConnect#end_point_service_id}
   */
   readonly endPointServiceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/vpc_enable_end_point_connect#id VpcEnableEndPointConnect#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vpc_enable_end_point_connect#id VpcEnableEndPointConnect#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,7 +35,7 @@ export interface VpcEnableEndPointConnectConfig extends cdktf.TerraformMetaArgum
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/vpc_enable_end_point_connect tencentcloud_vpc_enable_end_point_connect}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vpc_enable_end_point_connect tencentcloud_vpc_enable_end_point_connect}
 */
 export class VpcEnableEndPointConnect extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class VpcEnableEndPointConnect extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpcEnableEndPointConnect resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpcEnableEndPointConnect to import
-  * @param importFromId The id of the existing VpcEnableEndPointConnect that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/vpc_enable_end_point_connect#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpcEnableEndPointConnect that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vpc_enable_end_point_connect#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpcEnableEndPointConnect to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class VpcEnableEndPointConnect extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/vpc_enable_end_point_connect tencentcloud_vpc_enable_end_point_connect} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vpc_enable_end_point_connect tencentcloud_vpc_enable_end_point_connect} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class VpcEnableEndPointConnect extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_vpc_enable_end_point_connect',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.39',
-        providerVersionConstraint: '1.82.39'
+        providerVersion: '1.82.40',
+        providerVersionConstraint: '1.82.40'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

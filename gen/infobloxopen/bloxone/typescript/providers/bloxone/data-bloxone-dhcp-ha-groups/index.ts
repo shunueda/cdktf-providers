@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_ha_groups
+// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_ha_groups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataBloxoneDhcpHaGroupsConfig extends cdktf.TerraformMetaArgume
   /**
   * collect_stats gets the HA group stats(state, status, heartbeat) if set to true. Defaults to false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_ha_groups#collect_stats DataBloxoneDhcpHaGroups#collect_stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_ha_groups#collect_stats DataBloxoneDhcpHaGroups#collect_stats}
   */
   readonly collectStats?: boolean | cdktf.IResolvable;
   /**
   * Filter are used to return a more specific list of results. Filters can be used to match resources by specific attributes, e.g. name. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_ha_groups#filters DataBloxoneDhcpHaGroups#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_ha_groups#filters DataBloxoneDhcpHaGroups#filters}
   */
   readonly filters?: { [key: string]: string };
   /**
   * Tag Filters are used to return a more specific list of results filtered by tags. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_ha_groups#tag_filters DataBloxoneDhcpHaGroups#tag_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_ha_groups#tag_filters DataBloxoneDhcpHaGroups#tag_filters}
   */
   readonly tagFilters?: { [key: string]: string };
 }
@@ -115,19 +115,19 @@ export interface DataBloxoneDhcpHaGroupsResultsHosts {
   /**
   * The address on which this host listens.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_ha_groups#address DataBloxoneDhcpHaGroups#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_ha_groups#address DataBloxoneDhcpHaGroups#address}
   */
   readonly address?: string;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_ha_groups#host DataBloxoneDhcpHaGroups#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_ha_groups#host DataBloxoneDhcpHaGroups#host}
   */
   readonly host: string;
   /**
   * The role of this host in the HA relationship: _active_ or _passive_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_ha_groups#role DataBloxoneDhcpHaGroups#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_ha_groups#role DataBloxoneDhcpHaGroups#role}
   */
   readonly role: string;
 }
@@ -313,25 +313,25 @@ export interface DataBloxoneDhcpHaGroupsResults {
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_ha_groups#anycast_config_id DataBloxoneDhcpHaGroups#anycast_config_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_ha_groups#anycast_config_id DataBloxoneDhcpHaGroups#anycast_config_id}
   */
   readonly anycastConfigId?: string;
   /**
   * collect_stats gets the HA group stats(state, status, heartbeat) if set to true. Defaults to false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_ha_groups#collect_stats DataBloxoneDhcpHaGroups#collect_stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_ha_groups#collect_stats DataBloxoneDhcpHaGroups#collect_stats}
   */
   readonly collectStats?: boolean | cdktf.IResolvable;
   /**
   * The description for the HA group. May contain 0 to 1024 characters. Can include UTF-8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_ha_groups#comment DataBloxoneDhcpHaGroups#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_ha_groups#comment DataBloxoneDhcpHaGroups#comment}
   */
   readonly comment?: string;
   /**
   * The list of hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_ha_groups#hosts DataBloxoneDhcpHaGroups#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_ha_groups#hosts DataBloxoneDhcpHaGroups#hosts}
   */
   readonly hosts: DataBloxoneDhcpHaGroupsResultsHosts[] | cdktf.IResolvable;
   /**
@@ -340,19 +340,19 @@ export interface DataBloxoneDhcpHaGroupsResults {
   *   * _active-passive_: One on-prem host remains active and one remains passive. When the active on-prem host is down, the passive on-prem host takes over.
   *   * _advanced-active-passive_: One on-prem host may be part of multiple HA groups. When the active on-prem host is down, the passive on-prem host takes over.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_ha_groups#mode DataBloxoneDhcpHaGroups#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_ha_groups#mode DataBloxoneDhcpHaGroups#mode}
   */
   readonly mode: string;
   /**
   * The name of the HA group. Must contain 1 to 256 characters. Can include UTF-8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_ha_groups#name DataBloxoneDhcpHaGroups#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_ha_groups#name DataBloxoneDhcpHaGroups#name}
   */
   readonly name: string;
   /**
   * The tags for the HA group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_ha_groups#tags DataBloxoneDhcpHaGroups#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_ha_groups#tags DataBloxoneDhcpHaGroups#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -659,7 +659,7 @@ export class DataBloxoneDhcpHaGroupsResultsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_ha_groups bloxone_dhcp_ha_groups}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_ha_groups bloxone_dhcp_ha_groups}
 */
 export class DataBloxoneDhcpHaGroups extends cdktf.TerraformDataSource {
 
@@ -675,7 +675,7 @@ export class DataBloxoneDhcpHaGroups extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataBloxoneDhcpHaGroups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataBloxoneDhcpHaGroups to import
-  * @param importFromId The id of the existing DataBloxoneDhcpHaGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_ha_groups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataBloxoneDhcpHaGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_ha_groups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataBloxoneDhcpHaGroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -687,7 +687,7 @@ export class DataBloxoneDhcpHaGroups extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dhcp_ha_groups bloxone_dhcp_ha_groups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dhcp_ha_groups bloxone_dhcp_ha_groups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -698,8 +698,8 @@ export class DataBloxoneDhcpHaGroups extends cdktf.TerraformDataSource {
       terraformResourceType: 'bloxone_dhcp_ha_groups',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.5.4',
+        providerVersionConstraint: '1.5.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

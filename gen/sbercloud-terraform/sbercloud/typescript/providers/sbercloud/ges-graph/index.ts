@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ges_graph
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ges_graph
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,59 +10,59 @@ export interface GesGraphConfig extends cdktf.TerraformMetaArguments {
   /**
   * Graph instance's CPU architecture type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ges_graph#cpu_arch GesGraph#cpu_arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ges_graph#cpu_arch GesGraph#cpu_arch}
   */
   readonly cpuArch?: string;
   /**
   * Graph instance cryptography algorithm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ges_graph#crypt_algorithm GesGraph#crypt_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ges_graph#crypt_algorithm GesGraph#crypt_algorithm}
   */
   readonly cryptAlgorithm: string;
   /**
   * Whether to enable full-text index control for the created graph.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ges_graph#enable_full_text_index GesGraph#enable_full_text_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ges_graph#enable_full_text_index GesGraph#enable_full_text_index}
   */
   readonly enableFullTextIndex?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the security mode. This mode may damage GES performance greatly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ges_graph#enable_https GesGraph#enable_https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ges_graph#enable_https GesGraph#enable_https}
   */
   readonly enableHttps: boolean | cdktf.IResolvable;
   /**
   * Whether to enable HyG for the graph. This parameter is available for database edition graphs only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ges_graph#enable_hyg GesGraph#enable_hyg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ges_graph#enable_hyg GesGraph#enable_hyg}
   */
   readonly enableHyg?: boolean | cdktf.IResolvable;
   /**
   * Whether the created graph supports the cross-AZ mode. The default value is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ges_graph#enable_multi_az GesGraph#enable_multi_az}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ges_graph#enable_multi_az GesGraph#enable_multi_az}
   */
   readonly enableMultiAz?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable granular permission control for the created graph.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ges_graph#enable_rbac GesGraph#enable_rbac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ges_graph#enable_rbac GesGraph#enable_rbac}
   */
   readonly enableRbac?: boolean | cdktf.IResolvable;
   /**
   * The enterprise project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ges_graph#enterprise_project_id GesGraph#enterprise_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ges_graph#enterprise_project_id GesGraph#enterprise_project_id}
   */
   readonly enterpriseProjectId?: string;
   /**
   * Graph size type index.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ges_graph#graph_size_type_index GesGraph#graph_size_type_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ges_graph#graph_size_type_index GesGraph#graph_size_type_index}
   */
   readonly graphSizeTypeIndex: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ges_graph#id GesGraph#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ges_graph#id GesGraph#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,81 +71,81 @@ export interface GesGraphConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether to retain the backups of a graph after it is deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ges_graph#keep_backup GesGraph#keep_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ges_graph#keep_backup GesGraph#keep_backup}
   */
   readonly keepBackup?: boolean | cdktf.IResolvable;
   /**
   * The graph name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ges_graph#name GesGraph#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ges_graph#name GesGraph#name}
   */
   readonly name: string;
   /**
   * Graph product type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ges_graph#product_type GesGraph#product_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ges_graph#product_type GesGraph#product_type}
   */
   readonly productType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ges_graph#region GesGraph#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ges_graph#region GesGraph#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ges_graph#replication GesGraph#replication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ges_graph#replication GesGraph#replication}
   */
   readonly replication?: number;
   /**
   * The security group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ges_graph#security_group_id GesGraph#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ges_graph#security_group_id GesGraph#security_group_id}
   */
   readonly securityGroupId: string;
   /**
   * The subnet ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ges_graph#subnet_id GesGraph#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ges_graph#subnet_id GesGraph#subnet_id}
   */
   readonly subnetId: string;
   /**
   * The key/value pairs to associate with the graph.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ges_graph#tags GesGraph#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ges_graph#tags GesGraph#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The VPC ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ges_graph#vpc_id GesGraph#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ges_graph#vpc_id GesGraph#vpc_id}
   */
   readonly vpcId: string;
   /**
   * encryption block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ges_graph#encryption GesGraph#encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ges_graph#encryption GesGraph#encryption}
   */
   readonly encryption?: GesGraphEncryption;
   /**
   * lts_operation_trace block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ges_graph#lts_operation_trace GesGraph#lts_operation_trace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ges_graph#lts_operation_trace GesGraph#lts_operation_trace}
   */
   readonly ltsOperationTrace?: GesGraphLtsOperationTrace;
   /**
   * public_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ges_graph#public_ip GesGraph#public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ges_graph#public_ip GesGraph#public_ip}
   */
   readonly publicIp?: GesGraphPublicIp;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ges_graph#timeouts GesGraph#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ges_graph#timeouts GesGraph#timeouts}
   */
   readonly timeouts?: GesGraphTimeouts;
   /**
   * vertex_id_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ges_graph#vertex_id_type GesGraph#vertex_id_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ges_graph#vertex_id_type GesGraph#vertex_id_type}
   */
   readonly vertexIdType?: GesGraphVertexIdType;
 }
@@ -153,13 +153,13 @@ export interface GesGraphEncryption {
   /**
   * Whether to enable data encryption The value can be true or false. The default value is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ges_graph#enable GesGraph#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ges_graph#enable GesGraph#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * ID of the customer master key created by DEW in the project corresponding to the graph creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ges_graph#master_key_id GesGraph#master_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ges_graph#master_key_id GesGraph#master_key_id}
   */
   readonly masterKeyId?: string;
 }
@@ -274,13 +274,13 @@ export interface GesGraphLtsOperationTrace {
   /**
   * LTS log group name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ges_graph#audit_log_group_name GesGraph#audit_log_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ges_graph#audit_log_group_name GesGraph#audit_log_group_name}
   */
   readonly auditLogGroupName?: string;
   /**
   * Whether to enable graph audit. The default value is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ges_graph#enable_audit GesGraph#enable_audit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ges_graph#enable_audit GesGraph#enable_audit}
   */
   readonly enableAudit?: boolean | cdktf.IResolvable;
 }
@@ -395,13 +395,13 @@ export interface GesGraphPublicIp {
   /**
   * The EIP ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ges_graph#eip_id GesGraph#eip_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ges_graph#eip_id GesGraph#eip_id}
   */
   readonly eipId?: string;
   /**
   * The bind type of public IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ges_graph#public_bind_type GesGraph#public_bind_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ges_graph#public_bind_type GesGraph#public_bind_type}
   */
   readonly publicBindType?: string;
 }
@@ -514,15 +514,15 @@ export class GesGraphPublicIpOutputReference extends cdktf.ComplexObject {
 }
 export interface GesGraphTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ges_graph#create GesGraph#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ges_graph#create GesGraph#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ges_graph#delete GesGraph#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ges_graph#delete GesGraph#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ges_graph#update GesGraph#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ges_graph#update GesGraph#update}
   */
   readonly update?: string;
 }
@@ -676,13 +676,13 @@ export interface GesGraphVertexIdType {
   /**
   * The length of ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ges_graph#id_length GesGraph#id_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ges_graph#id_length GesGraph#id_length}
   */
   readonly idLength?: number;
   /**
   * Vertex ID type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ges_graph#id_type GesGraph#id_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ges_graph#id_type GesGraph#id_type}
   */
   readonly idType?: string;
 }
@@ -795,7 +795,7 @@ export class GesGraphVertexIdTypeOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ges_graph sbercloud_ges_graph}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ges_graph sbercloud_ges_graph}
 */
 export class GesGraph extends cdktf.TerraformResource {
 
@@ -811,7 +811,7 @@ export class GesGraph extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GesGraph resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GesGraph to import
-  * @param importFromId The id of the existing GesGraph that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ges_graph#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GesGraph that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ges_graph#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GesGraph to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -823,7 +823,7 @@ export class GesGraph extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/ges_graph sbercloud_ges_graph} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/ges_graph sbercloud_ges_graph} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -834,8 +834,8 @@ export class GesGraph extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_ges_graph',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

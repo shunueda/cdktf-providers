@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dds_parameter_template_copy
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dds_parameter_template_copy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DdsParameterTemplateCopyConfig extends cdktf.TerraformMetaArgum
   /**
   * Specifies the parameter template ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dds_parameter_template_copy#configuration_id DdsParameterTemplateCopy#configuration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dds_parameter_template_copy#configuration_id DdsParameterTemplateCopy#configuration_id}
   */
   readonly configurationId: string;
   /**
   * Specifies the description of replicated parameter template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dds_parameter_template_copy#description DdsParameterTemplateCopy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dds_parameter_template_copy#description DdsParameterTemplateCopy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dds_parameter_template_copy#id DdsParameterTemplateCopy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dds_parameter_template_copy#id DdsParameterTemplateCopy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,17 +29,17 @@ export interface DdsParameterTemplateCopyConfig extends cdktf.TerraformMetaArgum
   /**
   * Specifies the name of replicated parameter template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dds_parameter_template_copy#name DdsParameterTemplateCopy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dds_parameter_template_copy#name DdsParameterTemplateCopy#name}
   */
   readonly name: string;
   /**
   * Specifies the mapping between parameter names and parameter values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dds_parameter_template_copy#parameter_values DdsParameterTemplateCopy#parameter_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dds_parameter_template_copy#parameter_values DdsParameterTemplateCopy#parameter_values}
   */
   readonly parameterValues?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dds_parameter_template_copy#region DdsParameterTemplateCopy#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dds_parameter_template_copy#region DdsParameterTemplateCopy#region}
   */
   readonly region?: string;
 }
@@ -150,7 +150,7 @@ export class DdsParameterTemplateCopyParametersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dds_parameter_template_copy sbercloud_dds_parameter_template_copy}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dds_parameter_template_copy sbercloud_dds_parameter_template_copy}
 */
 export class DdsParameterTemplateCopy extends cdktf.TerraformResource {
 
@@ -166,7 +166,7 @@ export class DdsParameterTemplateCopy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DdsParameterTemplateCopy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdsParameterTemplateCopy to import
-  * @param importFromId The id of the existing DdsParameterTemplateCopy that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dds_parameter_template_copy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdsParameterTemplateCopy that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dds_parameter_template_copy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdsParameterTemplateCopy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -178,7 +178,7 @@ export class DdsParameterTemplateCopy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dds_parameter_template_copy sbercloud_dds_parameter_template_copy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dds_parameter_template_copy sbercloud_dds_parameter_template_copy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -189,8 +189,8 @@ export class DdsParameterTemplateCopy extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_dds_parameter_template_copy',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

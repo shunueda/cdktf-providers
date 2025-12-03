@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_dns_resolution
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_dns_resolution
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,42 +10,42 @@ export interface CfwDnsResolutionConfig extends cdktf.TerraformMetaArguments {
   /**
   * The custom DNS servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_dns_resolution#custom_dns_servers CfwDnsResolution#custom_dns_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_dns_resolution#custom_dns_servers CfwDnsResolution#custom_dns_servers}
   */
   readonly customDnsServers?: string[];
   /**
   * The default DNS servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_dns_resolution#default_dns_servers CfwDnsResolution#default_dns_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_dns_resolution#default_dns_servers CfwDnsResolution#default_dns_servers}
   */
   readonly defaultDnsServers?: string[];
   /**
   * The ID of the firewall.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_dns_resolution#fw_instance_id CfwDnsResolution#fw_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_dns_resolution#fw_instance_id CfwDnsResolution#fw_instance_id}
   */
   readonly fwInstanceId: string;
   /**
   * The health check domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_dns_resolution#health_check_domain_name CfwDnsResolution#health_check_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_dns_resolution#health_check_domain_name CfwDnsResolution#health_check_domain_name}
   */
   readonly healthCheckDomainName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_dns_resolution#id CfwDnsResolution#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_dns_resolution#id CfwDnsResolution#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_dns_resolution#region CfwDnsResolution#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_dns_resolution#region CfwDnsResolution#region}
   */
   readonly region?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_dns_resolution sbercloud_cfw_dns_resolution}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_dns_resolution sbercloud_cfw_dns_resolution}
 */
 export class CfwDnsResolution extends cdktf.TerraformResource {
 
@@ -61,7 +61,7 @@ export class CfwDnsResolution extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CfwDnsResolution resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CfwDnsResolution to import
-  * @param importFromId The id of the existing CfwDnsResolution that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_dns_resolution#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CfwDnsResolution that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_dns_resolution#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CfwDnsResolution to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -73,7 +73,7 @@ export class CfwDnsResolution extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_dns_resolution sbercloud_cfw_dns_resolution} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_dns_resolution sbercloud_cfw_dns_resolution} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -84,8 +84,8 @@ export class CfwDnsResolution extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_cfw_dns_resolution',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

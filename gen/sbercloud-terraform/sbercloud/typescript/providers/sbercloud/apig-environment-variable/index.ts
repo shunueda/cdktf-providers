@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_environment_variable
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_environment_variable
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ApigEnvironmentVariableConfig extends cdktf.TerraformMetaArgume
   /**
   * Specifies the ID of the environment to which the environment variable belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_environment_variable#env_id ApigEnvironmentVariable#env_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_environment_variable#env_id ApigEnvironmentVariable#env_id}
   */
   readonly envId: string;
   /**
   * Specifies the ID of the group to which the environment variable belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_environment_variable#group_id ApigEnvironmentVariable#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_environment_variable#group_id ApigEnvironmentVariable#group_id}
   */
   readonly groupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_environment_variable#id ApigEnvironmentVariable#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_environment_variable#id ApigEnvironmentVariable#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface ApigEnvironmentVariableConfig extends cdktf.TerraformMetaArgume
   /**
   * Specifies the ID of the dedicated instance to which the environment variable belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_environment_variable#instance_id ApigEnvironmentVariable#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_environment_variable#instance_id ApigEnvironmentVariable#instance_id}
   */
   readonly instanceId: string;
   /**
   * Specifies the name of the environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_environment_variable#name ApigEnvironmentVariable#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_environment_variable#name ApigEnvironmentVariable#name}
   */
   readonly name: string;
   /**
   * Specifies the region in which to create the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_environment_variable#region ApigEnvironmentVariable#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_environment_variable#region ApigEnvironmentVariable#region}
   */
   readonly region?: string;
   /**
   * Specifies the value of the environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_environment_variable#value ApigEnvironmentVariable#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_environment_variable#value ApigEnvironmentVariable#value}
   */
   readonly value: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_environment_variable sbercloud_apig_environment_variable}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_environment_variable sbercloud_apig_environment_variable}
 */
 export class ApigEnvironmentVariable extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class ApigEnvironmentVariable extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApigEnvironmentVariable resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApigEnvironmentVariable to import
-  * @param importFromId The id of the existing ApigEnvironmentVariable that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_environment_variable#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApigEnvironmentVariable that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_environment_variable#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApigEnvironmentVariable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class ApigEnvironmentVariable extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_environment_variable sbercloud_apig_environment_variable} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_environment_variable sbercloud_apig_environment_variable} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class ApigEnvironmentVariable extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_apig_environment_variable',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_pg_plugin_parameter
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_pg_plugin_parameter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface RdsPgPluginParameterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_pg_plugin_parameter#id RdsPgPluginParameter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_pg_plugin_parameter#id RdsPgPluginParameter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,39 +17,39 @@ export interface RdsPgPluginParameterConfig extends cdktf.TerraformMetaArguments
   /**
   * Specifies the ID of RDS instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_pg_plugin_parameter#instance_id RdsPgPluginParameter#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_pg_plugin_parameter#instance_id RdsPgPluginParameter#instance_id}
   */
   readonly instanceId: string;
   /**
   * Specifies the name of the plugin parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_pg_plugin_parameter#name RdsPgPluginParameter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_pg_plugin_parameter#name RdsPgPluginParameter#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_pg_plugin_parameter#region RdsPgPluginParameter#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_pg_plugin_parameter#region RdsPgPluginParameter#region}
   */
   readonly region?: string;
   /**
   * Specifies the list of plugin parameter values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_pg_plugin_parameter#values RdsPgPluginParameter#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_pg_plugin_parameter#values RdsPgPluginParameter#values}
   */
   readonly values: string[];
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_pg_plugin_parameter#timeouts RdsPgPluginParameter#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_pg_plugin_parameter#timeouts RdsPgPluginParameter#timeouts}
   */
   readonly timeouts?: RdsPgPluginParameterTimeouts;
 }
 export interface RdsPgPluginParameterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_pg_plugin_parameter#create RdsPgPluginParameter#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_pg_plugin_parameter#create RdsPgPluginParameter#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_pg_plugin_parameter#delete RdsPgPluginParameter#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_pg_plugin_parameter#delete RdsPgPluginParameter#delete}
   */
   readonly delete?: string;
 }
@@ -172,7 +172,7 @@ export class RdsPgPluginParameterTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_pg_plugin_parameter sbercloud_rds_pg_plugin_parameter}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_pg_plugin_parameter sbercloud_rds_pg_plugin_parameter}
 */
 export class RdsPgPluginParameter extends cdktf.TerraformResource {
 
@@ -188,7 +188,7 @@ export class RdsPgPluginParameter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RdsPgPluginParameter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RdsPgPluginParameter to import
-  * @param importFromId The id of the existing RdsPgPluginParameter that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_pg_plugin_parameter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RdsPgPluginParameter that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_pg_plugin_parameter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RdsPgPluginParameter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -200,7 +200,7 @@ export class RdsPgPluginParameter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/rds_pg_plugin_parameter sbercloud_rds_pg_plugin_parameter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/rds_pg_plugin_parameter sbercloud_rds_pg_plugin_parameter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -211,8 +211,8 @@ export class RdsPgPluginParameter extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_rds_pg_plugin_parameter',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

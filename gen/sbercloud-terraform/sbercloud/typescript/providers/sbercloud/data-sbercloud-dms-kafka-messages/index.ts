@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_kafka_messages
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_kafka_messages
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataSbercloudDmsKafkaMessagesConfig extends cdktf.TerraformMeta
   /**
   * Whether download is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_kafka_messages#download DataSbercloudDmsKafkaMessages#download}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_kafka_messages#download DataSbercloudDmsKafkaMessages#download}
   */
   readonly download?: boolean | cdktf.IResolvable;
   /**
   * Specifies the end time, a Unix timestamp in millisecond.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_kafka_messages#end_time DataSbercloudDmsKafkaMessages#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_kafka_messages#end_time DataSbercloudDmsKafkaMessages#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_kafka_messages#id DataSbercloudDmsKafkaMessages#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_kafka_messages#id DataSbercloudDmsKafkaMessages#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,43 +29,43 @@ export interface DataSbercloudDmsKafkaMessagesConfig extends cdktf.TerraformMeta
   /**
   * Specifies the instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_kafka_messages#instance_id DataSbercloudDmsKafkaMessages#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_kafka_messages#instance_id DataSbercloudDmsKafkaMessages#instance_id}
   */
   readonly instanceId: string;
   /**
   * Specifies the keyword.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_kafka_messages#keyword DataSbercloudDmsKafkaMessages#keyword}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_kafka_messages#keyword DataSbercloudDmsKafkaMessages#keyword}
   */
   readonly keyword?: string;
   /**
   * Specifies the message offset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_kafka_messages#message_offset DataSbercloudDmsKafkaMessages#message_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_kafka_messages#message_offset DataSbercloudDmsKafkaMessages#message_offset}
   */
   readonly messageOffset?: string;
   /**
   * Specifies the partition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_kafka_messages#partition DataSbercloudDmsKafkaMessages#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_kafka_messages#partition DataSbercloudDmsKafkaMessages#partition}
   */
   readonly partition?: string;
   /**
   * Specifies the region in which to query the resource. If omitted, the provider-level region will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_kafka_messages#region DataSbercloudDmsKafkaMessages#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_kafka_messages#region DataSbercloudDmsKafkaMessages#region}
   */
   readonly region?: string;
   /**
   * Specifies the start time, a Unix timestamp in millisecond.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_kafka_messages#start_time DataSbercloudDmsKafkaMessages#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_kafka_messages#start_time DataSbercloudDmsKafkaMessages#start_time}
   */
   readonly startTime?: string;
   /**
   * Specifies the topic name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_kafka_messages#topic DataSbercloudDmsKafkaMessages#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_kafka_messages#topic DataSbercloudDmsKafkaMessages#topic}
   */
   readonly topic: string;
 }
@@ -191,7 +191,7 @@ export class DataSbercloudDmsKafkaMessagesMessagesList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_kafka_messages sbercloud_dms_kafka_messages}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_kafka_messages sbercloud_dms_kafka_messages}
 */
 export class DataSbercloudDmsKafkaMessages extends cdktf.TerraformDataSource {
 
@@ -207,7 +207,7 @@ export class DataSbercloudDmsKafkaMessages extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSbercloudDmsKafkaMessages resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSbercloudDmsKafkaMessages to import
-  * @param importFromId The id of the existing DataSbercloudDmsKafkaMessages that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_kafka_messages#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSbercloudDmsKafkaMessages that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_kafka_messages#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSbercloudDmsKafkaMessages to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -219,7 +219,7 @@ export class DataSbercloudDmsKafkaMessages extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_kafka_messages sbercloud_dms_kafka_messages} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_kafka_messages sbercloud_dms_kafka_messages} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -230,8 +230,8 @@ export class DataSbercloudDmsKafkaMessages extends cdktf.TerraformDataSource {
       terraformResourceType: 'sbercloud_dms_kafka_messages',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dds_parameter_template
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dds_parameter_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DdsParameterTemplateConfig extends cdktf.TerraformMetaArguments
   /**
   * Specifies the parameter template description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dds_parameter_template#description DdsParameterTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dds_parameter_template#description DdsParameterTemplate#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dds_parameter_template#id DdsParameterTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dds_parameter_template#id DdsParameterTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,29 +23,29 @@ export interface DdsParameterTemplateConfig extends cdktf.TerraformMetaArguments
   /**
   * Specifies the parameter template name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dds_parameter_template#name DdsParameterTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dds_parameter_template#name DdsParameterTemplate#name}
   */
   readonly name: string;
   /**
   * Specifies the node type of parameter template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dds_parameter_template#node_type DdsParameterTemplate#node_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dds_parameter_template#node_type DdsParameterTemplate#node_type}
   */
   readonly nodeType: string;
   /**
   * Specifies the database version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dds_parameter_template#node_version DdsParameterTemplate#node_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dds_parameter_template#node_version DdsParameterTemplate#node_version}
   */
   readonly nodeVersion: string;
   /**
   * Specifies the mapping between parameter names and parameter values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dds_parameter_template#parameter_values DdsParameterTemplate#parameter_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dds_parameter_template#parameter_values DdsParameterTemplate#parameter_values}
   */
   readonly parameterValues?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dds_parameter_template#region DdsParameterTemplate#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dds_parameter_template#region DdsParameterTemplate#region}
   */
   readonly region?: string;
 }
@@ -156,7 +156,7 @@ export class DdsParameterTemplateParametersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dds_parameter_template sbercloud_dds_parameter_template}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dds_parameter_template sbercloud_dds_parameter_template}
 */
 export class DdsParameterTemplate extends cdktf.TerraformResource {
 
@@ -172,7 +172,7 @@ export class DdsParameterTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DdsParameterTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdsParameterTemplate to import
-  * @param importFromId The id of the existing DdsParameterTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dds_parameter_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdsParameterTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dds_parameter_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdsParameterTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -184,7 +184,7 @@ export class DdsParameterTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dds_parameter_template sbercloud_dds_parameter_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dds_parameter_template sbercloud_dds_parameter_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -195,8 +195,8 @@ export class DdsParameterTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_dds_parameter_template',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

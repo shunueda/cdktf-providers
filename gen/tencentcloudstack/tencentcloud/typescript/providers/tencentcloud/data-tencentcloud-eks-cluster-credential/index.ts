@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/eks_cluster_credential
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/eks_cluster_credential
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudEksClusterCredentialConfig extends cdktf.Terraf
   /**
   * EKS Cluster ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/eks_cluster_credential#cluster_id DataTencentcloudEksClusterCredential#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/eks_cluster_credential#cluster_id DataTencentcloudEksClusterCredential#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/eks_cluster_credential#id DataTencentcloudEksClusterCredential#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/eks_cluster_credential#id DataTencentcloudEksClusterCredential#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface DataTencentcloudEksClusterCredentialConfig extends cdktf.Terraf
   /**
   * Used for save result.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/eks_cluster_credential#result_output_file DataTencentcloudEksClusterCredential#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/eks_cluster_credential#result_output_file DataTencentcloudEksClusterCredential#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -289,7 +289,7 @@ export class DataTencentcloudEksClusterCredentialPublicLbList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/eks_cluster_credential tencentcloud_eks_cluster_credential}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/eks_cluster_credential tencentcloud_eks_cluster_credential}
 */
 export class DataTencentcloudEksClusterCredential extends cdktf.TerraformDataSource {
 
@@ -305,7 +305,7 @@ export class DataTencentcloudEksClusterCredential extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataTencentcloudEksClusterCredential resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudEksClusterCredential to import
-  * @param importFromId The id of the existing DataTencentcloudEksClusterCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/eks_cluster_credential#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudEksClusterCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/eks_cluster_credential#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudEksClusterCredential to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -317,7 +317,7 @@ export class DataTencentcloudEksClusterCredential extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/eks_cluster_credential tencentcloud_eks_cluster_credential} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/eks_cluster_credential tencentcloud_eks_cluster_credential} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -328,8 +328,8 @@ export class DataTencentcloudEksClusterCredential extends cdktf.TerraformDataSou
       terraformResourceType: 'tencentcloud_eks_cluster_credential',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.39',
-        providerVersionConstraint: '1.82.39'
+        providerVersion: '1.82.40',
+        providerVersionConstraint: '1.82.40'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

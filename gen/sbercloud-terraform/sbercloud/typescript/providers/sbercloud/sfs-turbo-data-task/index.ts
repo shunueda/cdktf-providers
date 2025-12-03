@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/sfs_turbo_data_task
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/sfs_turbo_data_task
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktf from 'cdktf';
 
 export interface SfsTurboDataTaskConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/sfs_turbo_data_task#dest_prefix SfsTurboDataTask#dest_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/sfs_turbo_data_task#dest_prefix SfsTurboDataTask#dest_prefix}
   */
   readonly destPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/sfs_turbo_data_task#dest_target SfsTurboDataTask#dest_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/sfs_turbo_data_task#dest_target SfsTurboDataTask#dest_target}
   */
   readonly destTarget: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/sfs_turbo_data_task#id SfsTurboDataTask#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/sfs_turbo_data_task#id SfsTurboDataTask#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/sfs_turbo_data_task#region SfsTurboDataTask#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/sfs_turbo_data_task#region SfsTurboDataTask#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/sfs_turbo_data_task#share_id SfsTurboDataTask#share_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/sfs_turbo_data_task#share_id SfsTurboDataTask#share_id}
   */
   readonly shareId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/sfs_turbo_data_task#src_prefix SfsTurboDataTask#src_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/sfs_turbo_data_task#src_prefix SfsTurboDataTask#src_prefix}
   */
   readonly srcPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/sfs_turbo_data_task#src_target SfsTurboDataTask#src_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/sfs_turbo_data_task#src_target SfsTurboDataTask#src_target}
   */
   readonly srcTarget: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/sfs_turbo_data_task#type SfsTurboDataTask#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/sfs_turbo_data_task#type SfsTurboDataTask#type}
   */
   readonly type: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/sfs_turbo_data_task#timeouts SfsTurboDataTask#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/sfs_turbo_data_task#timeouts SfsTurboDataTask#timeouts}
   */
   readonly timeouts?: SfsTurboDataTaskTimeouts;
 }
 export interface SfsTurboDataTaskTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/sfs_turbo_data_task#create SfsTurboDataTask#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/sfs_turbo_data_task#create SfsTurboDataTask#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/sfs_turbo_data_task#delete SfsTurboDataTask#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/sfs_turbo_data_task#delete SfsTurboDataTask#delete}
   */
   readonly delete?: string;
 }
@@ -178,7 +178,7 @@ export class SfsTurboDataTaskTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/sfs_turbo_data_task sbercloud_sfs_turbo_data_task}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/sfs_turbo_data_task sbercloud_sfs_turbo_data_task}
 */
 export class SfsTurboDataTask extends cdktf.TerraformResource {
 
@@ -194,7 +194,7 @@ export class SfsTurboDataTask extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SfsTurboDataTask resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SfsTurboDataTask to import
-  * @param importFromId The id of the existing SfsTurboDataTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/sfs_turbo_data_task#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SfsTurboDataTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/sfs_turbo_data_task#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SfsTurboDataTask to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -206,7 +206,7 @@ export class SfsTurboDataTask extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/sfs_turbo_data_task sbercloud_sfs_turbo_data_task} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/sfs_turbo_data_task sbercloud_sfs_turbo_data_task} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -217,8 +217,8 @@ export class SfsTurboDataTask extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_sfs_turbo_data_task',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

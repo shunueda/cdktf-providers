@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_firewalls
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_firewalls
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,18 +11,18 @@ export interface DataSbercloudCfwFirewallsConfig extends cdktf.TerraformMetaArgu
   * |-
   *                     The firewall instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_firewalls#fw_instance_id DataSbercloudCfwFirewalls#fw_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_firewalls#fw_instance_id DataSbercloudCfwFirewalls#fw_instance_id}
   */
   readonly fwInstanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_firewalls#id DataSbercloudCfwFirewalls#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_firewalls#id DataSbercloudCfwFirewalls#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_firewalls#region DataSbercloudCfwFirewalls#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_firewalls#region DataSbercloudCfwFirewalls#region}
   */
   readonly region?: string;
   /**
@@ -31,7 +31,7 @@ export interface DataSbercloudCfwFirewallsConfig extends cdktf.TerraformMetaArgu
   *                       0. North-south firewall
   *                       1. East-west firewall
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_firewalls#service_type DataSbercloudCfwFirewalls#service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_firewalls#service_type DataSbercloudCfwFirewalls#service_type}
   */
   readonly serviceType?: number;
 }
@@ -456,7 +456,7 @@ export class DataSbercloudCfwFirewallsRecordsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_firewalls sbercloud_cfw_firewalls}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_firewalls sbercloud_cfw_firewalls}
 */
 export class DataSbercloudCfwFirewalls extends cdktf.TerraformDataSource {
 
@@ -472,7 +472,7 @@ export class DataSbercloudCfwFirewalls extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSbercloudCfwFirewalls resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSbercloudCfwFirewalls to import
-  * @param importFromId The id of the existing DataSbercloudCfwFirewalls that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_firewalls#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSbercloudCfwFirewalls that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_firewalls#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSbercloudCfwFirewalls to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -484,7 +484,7 @@ export class DataSbercloudCfwFirewalls extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_firewalls sbercloud_cfw_firewalls} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_firewalls sbercloud_cfw_firewalls} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -495,8 +495,8 @@ export class DataSbercloudCfwFirewalls extends cdktf.TerraformDataSource {
       terraformResourceType: 'sbercloud_cfw_firewalls',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

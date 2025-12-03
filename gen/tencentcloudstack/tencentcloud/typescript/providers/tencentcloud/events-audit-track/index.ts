@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/events_audit_track
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/events_audit_track
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface EventsAuditTrackConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/events_audit_track#id EventsAuditTrack#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/events_audit_track#id EventsAuditTrack#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface EventsAuditTrackConfig extends cdktf.TerraformMetaArguments {
   /**
   * Tracking set name, which can only contain 3-48 letters, digits, hyphens, and underscores.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/events_audit_track#name EventsAuditTrack#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/events_audit_track#name EventsAuditTrack#name}
   */
   readonly name: string;
   /**
   * Tracking set status (0: Not enabled; 1: Enabled).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/events_audit_track#status EventsAuditTrack#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/events_audit_track#status EventsAuditTrack#status}
   */
   readonly status: number;
   /**
   * Whether to enable the feature of shipping organization members operation logs to the organization admin account or the trusted service admin account (0: Not enabled; 1: Enabled. This feature can only be enabled by the organization admin account or the trusted service admin account).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/events_audit_track#track_for_all_members EventsAuditTrack#track_for_all_members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/events_audit_track#track_for_all_members EventsAuditTrack#track_for_all_members}
   */
   readonly trackForAllMembers?: number;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/events_audit_track#filters EventsAuditTrack#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/events_audit_track#filters EventsAuditTrack#filters}
   */
   readonly filters: EventsAuditTrackFilters;
   /**
   * storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/events_audit_track#storage EventsAuditTrack#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/events_audit_track#storage EventsAuditTrack#storage}
   */
   readonly storage: EventsAuditTrackStorage;
 }
@@ -49,19 +49,19 @@ export interface EventsAuditTrackFiltersResourceFields {
   /**
   * Tracking set event type (`Read`: Read; `Write`: Write; `*`: All).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/events_audit_track#action_type EventsAuditTrack#action_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/events_audit_track#action_type EventsAuditTrack#action_type}
   */
   readonly actionType: string;
   /**
   * The list of API names of tracking set events. When `ResourceType` is `*`, the value of `EventNames` must be `*`. When `ResourceType` is a specified product, the value of `EventNames` can be `*`. When `ResourceType` is `cos` or `cls`, up to 10 APIs are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/events_audit_track#event_names EventsAuditTrack#event_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/events_audit_track#event_names EventsAuditTrack#event_names}
   */
   readonly eventNames: string[];
   /**
   * The product to which the tracking set event belongs. The value can be a single product such as `cos`, or `*` that indicates all products.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/events_audit_track#resource_type EventsAuditTrack#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/events_audit_track#resource_type EventsAuditTrack#resource_type}
   */
   readonly resourceType: string;
 }
@@ -228,7 +228,7 @@ export interface EventsAuditTrackFilters {
   /**
   * resource_fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/events_audit_track#resource_fields EventsAuditTrack#resource_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/events_audit_track#resource_fields EventsAuditTrack#resource_fields}
   */
   readonly resourceFields?: EventsAuditTrackFiltersResourceFields[] | cdktf.IResolvable;
 }
@@ -314,37 +314,37 @@ export interface EventsAuditTrackStorage {
   /**
   * Designated to store user ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/events_audit_track#storage_account_id EventsAuditTrack#storage_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/events_audit_track#storage_account_id EventsAuditTrack#storage_account_id}
   */
   readonly storageAccountId?: string;
   /**
   * Designated to store user app ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/events_audit_track#storage_app_id EventsAuditTrack#storage_app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/events_audit_track#storage_app_id EventsAuditTrack#storage_app_id}
   */
   readonly storageAppId?: string;
   /**
   * Storage name. For COS, the storage name is the custom bucket name, which can contain up to 50 lowercase letters, digits, and hyphens. It cannot contain "-APPID" and cannot start or end with a hyphen. For CLS, the storage name is the log topic ID, which can contain 1-50 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/events_audit_track#storage_name EventsAuditTrack#storage_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/events_audit_track#storage_name EventsAuditTrack#storage_name}
   */
   readonly storageName: string;
   /**
   * Storage directory prefix. The COS log file prefix can only contain 3-40 letters and digits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/events_audit_track#storage_prefix EventsAuditTrack#storage_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/events_audit_track#storage_prefix EventsAuditTrack#storage_prefix}
   */
   readonly storagePrefix: string;
   /**
   * StorageRegion *string `json:'StorageRegion,omitnil,omitempty' name: 'StorageRegion'`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/events_audit_track#storage_region EventsAuditTrack#storage_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/events_audit_track#storage_region EventsAuditTrack#storage_region}
   */
   readonly storageRegion: string;
   /**
   * Storage type (Valid values: cos, cls).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/events_audit_track#storage_type EventsAuditTrack#storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/events_audit_track#storage_type EventsAuditTrack#storage_type}
   */
   readonly storageType: string;
 }
@@ -561,7 +561,7 @@ export class EventsAuditTrackStorageOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/events_audit_track tencentcloud_events_audit_track}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/events_audit_track tencentcloud_events_audit_track}
 */
 export class EventsAuditTrack extends cdktf.TerraformResource {
 
@@ -577,7 +577,7 @@ export class EventsAuditTrack extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EventsAuditTrack resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EventsAuditTrack to import
-  * @param importFromId The id of the existing EventsAuditTrack that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/events_audit_track#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EventsAuditTrack that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/events_audit_track#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EventsAuditTrack to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -589,7 +589,7 @@ export class EventsAuditTrack extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/events_audit_track tencentcloud_events_audit_track} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/events_audit_track tencentcloud_events_audit_track} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -600,8 +600,8 @@ export class EventsAuditTrack extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_events_audit_track',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.39',
-        providerVersionConstraint: '1.82.39'
+        providerVersion: '1.82.40',
+        providerVersionConstraint: '1.82.40'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/ckafka_topics
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/ckafka_topics
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudCkafkaTopicsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/ckafka_topics#id DataTencentcloudCkafkaTopics#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/ckafka_topics#id DataTencentcloudCkafkaTopics#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataTencentcloudCkafkaTopicsConfig extends cdktf.TerraformMetaA
   /**
   * Ckafka instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/ckafka_topics#instance_id DataTencentcloudCkafkaTopics#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/ckafka_topics#instance_id DataTencentcloudCkafkaTopics#instance_id}
   */
   readonly instanceId: string;
   /**
   * Used to store results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/ckafka_topics#result_output_file DataTencentcloudCkafkaTopics#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/ckafka_topics#result_output_file DataTencentcloudCkafkaTopics#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Name of the CKafka topic. It must start with a letter, the rest can contain letters, numbers and dashes(-). The length range is from 1 to 64.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/ckafka_topics#topic_name DataTencentcloudCkafkaTopics#topic_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/ckafka_topics#topic_name DataTencentcloudCkafkaTopics#topic_name}
   */
   readonly topicName?: string;
 }
@@ -195,7 +195,7 @@ export class DataTencentcloudCkafkaTopicsInstanceListStructList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/ckafka_topics tencentcloud_ckafka_topics}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/ckafka_topics tencentcloud_ckafka_topics}
 */
 export class DataTencentcloudCkafkaTopics extends cdktf.TerraformDataSource {
 
@@ -211,7 +211,7 @@ export class DataTencentcloudCkafkaTopics extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudCkafkaTopics resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudCkafkaTopics to import
-  * @param importFromId The id of the existing DataTencentcloudCkafkaTopics that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/ckafka_topics#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudCkafkaTopics that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/ckafka_topics#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudCkafkaTopics to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -223,7 +223,7 @@ export class DataTencentcloudCkafkaTopics extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/ckafka_topics tencentcloud_ckafka_topics} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/ckafka_topics tencentcloud_ckafka_topics} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -234,8 +234,8 @@ export class DataTencentcloudCkafkaTopics extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_ckafka_topics',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.39',
-        providerVersionConstraint: '1.82.39'
+        providerVersion: '1.82.40',
+        providerVersionConstraint: '1.82.40'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cam_role_policy_attachment_by_name
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cam_role_policy_attachment_by_name
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface CamRolePolicyAttachmentByNameConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cam_role_policy_attachment_by_name#id CamRolePolicyAttachmentByName#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cam_role_policy_attachment_by_name#id CamRolePolicyAttachmentByName#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface CamRolePolicyAttachmentByNameConfig extends cdktf.TerraformMeta
   /**
   * Name of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cam_role_policy_attachment_by_name#policy_name CamRolePolicyAttachmentByName#policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cam_role_policy_attachment_by_name#policy_name CamRolePolicyAttachmentByName#policy_name}
   */
   readonly policyName: string;
   /**
   * Name of the attached CAM role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cam_role_policy_attachment_by_name#role_name CamRolePolicyAttachmentByName#role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cam_role_policy_attachment_by_name#role_name CamRolePolicyAttachmentByName#role_name}
   */
   readonly roleName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cam_role_policy_attachment_by_name tencentcloud_cam_role_policy_attachment_by_name}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cam_role_policy_attachment_by_name tencentcloud_cam_role_policy_attachment_by_name}
 */
 export class CamRolePolicyAttachmentByName extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class CamRolePolicyAttachmentByName extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CamRolePolicyAttachmentByName resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CamRolePolicyAttachmentByName to import
-  * @param importFromId The id of the existing CamRolePolicyAttachmentByName that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cam_role_policy_attachment_by_name#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CamRolePolicyAttachmentByName that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cam_role_policy_attachment_by_name#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CamRolePolicyAttachmentByName to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class CamRolePolicyAttachmentByName extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/cam_role_policy_attachment_by_name tencentcloud_cam_role_policy_attachment_by_name} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cam_role_policy_attachment_by_name tencentcloud_cam_role_policy_attachment_by_name} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class CamRolePolicyAttachmentByName extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cam_role_policy_attachment_by_name',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.39',
-        providerVersionConstraint: '1.82.39'
+        providerVersion: '1.82.40',
+        providerVersionConstraint: '1.82.40'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_next_available_address_blocks
+// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_next_available_address_blocks
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataBloxoneIpamNextAvailableAddressBlocksConfig extends cdktf.T
   /**
   * Number of address blocks to generate. Default 1 if not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_next_available_address_blocks#address_block_count DataBloxoneIpamNextAvailableAddressBlocks#address_block_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_next_available_address_blocks#address_block_count DataBloxoneIpamNextAvailableAddressBlocks#address_block_count}
   */
   readonly addressBlockCount?: number;
   /**
   * The cidr value of address blocks to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_next_available_address_blocks#cidr DataBloxoneIpamNextAvailableAddressBlocks#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_next_available_address_blocks#cidr DataBloxoneIpamNextAvailableAddressBlocks#cidr}
   */
   readonly cidr: number;
   /**
   * An application specific resource identity of a resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_next_available_address_blocks#id DataBloxoneIpamNextAvailableAddressBlocks#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_next_available_address_blocks#id DataBloxoneIpamNextAvailableAddressBlocks#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,13 +31,13 @@ export interface DataBloxoneIpamNextAvailableAddressBlocksConfig extends cdktf.T
   /**
   * Key-value pairs to filter address blocks by tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_next_available_address_blocks#tag_filters DataBloxoneIpamNextAvailableAddressBlocks#tag_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_next_available_address_blocks#tag_filters DataBloxoneIpamNextAvailableAddressBlocks#tag_filters}
   */
   readonly tagFilters?: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_next_available_address_blocks bloxone_ipam_next_available_address_blocks}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_next_available_address_blocks bloxone_ipam_next_available_address_blocks}
 */
 export class DataBloxoneIpamNextAvailableAddressBlocks extends cdktf.TerraformDataSource {
 
@@ -53,7 +53,7 @@ export class DataBloxoneIpamNextAvailableAddressBlocks extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataBloxoneIpamNextAvailableAddressBlocks resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataBloxoneIpamNextAvailableAddressBlocks to import
-  * @param importFromId The id of the existing DataBloxoneIpamNextAvailableAddressBlocks that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_next_available_address_blocks#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataBloxoneIpamNextAvailableAddressBlocks that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_next_available_address_blocks#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataBloxoneIpamNextAvailableAddressBlocks to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -65,7 +65,7 @@ export class DataBloxoneIpamNextAvailableAddressBlocks extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/ipam_next_available_address_blocks bloxone_ipam_next_available_address_blocks} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/ipam_next_available_address_blocks bloxone_ipam_next_available_address_blocks} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -76,8 +76,8 @@ export class DataBloxoneIpamNextAvailableAddressBlocks extends cdktf.TerraformDa
       terraformResourceType: 'bloxone_ipam_next_available_address_blocks',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.5.4',
+        providerVersionConstraint: '1.5.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

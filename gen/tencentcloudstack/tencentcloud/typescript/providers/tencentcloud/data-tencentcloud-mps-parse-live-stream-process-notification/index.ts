@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/mps_parse_live_stream_process_notification
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/mps_parse_live_stream_process_notification
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudMpsParseLiveStreamProcessNotificationConfig ext
   /**
   * Live stream event notification obtained from CMQ.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/mps_parse_live_stream_process_notification#content DataTencentcloudMpsParseLiveStreamProcessNotification#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/mps_parse_live_stream_process_notification#content DataTencentcloudMpsParseLiveStreamProcessNotification#content}
   */
   readonly content: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/mps_parse_live_stream_process_notification#id DataTencentcloudMpsParseLiveStreamProcessNotification#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/mps_parse_live_stream_process_notification#id DataTencentcloudMpsParseLiveStreamProcessNotification#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface DataTencentcloudMpsParseLiveStreamProcessNotificationConfig ext
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/mps_parse_live_stream_process_notification#result_output_file DataTencentcloudMpsParseLiveStreamProcessNotification#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/mps_parse_live_stream_process_notification#result_output_file DataTencentcloudMpsParseLiveStreamProcessNotification#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/mps_parse_live_stream_process_notification tencentcloud_mps_parse_live_stream_process_notification}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/mps_parse_live_stream_process_notification tencentcloud_mps_parse_live_stream_process_notification}
 */
 export class DataTencentcloudMpsParseLiveStreamProcessNotification extends cdktf.TerraformDataSource {
 
@@ -45,7 +45,7 @@ export class DataTencentcloudMpsParseLiveStreamProcessNotification extends cdktf
   * Generates CDKTF code for importing a DataTencentcloudMpsParseLiveStreamProcessNotification resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudMpsParseLiveStreamProcessNotification to import
-  * @param importFromId The id of the existing DataTencentcloudMpsParseLiveStreamProcessNotification that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/mps_parse_live_stream_process_notification#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudMpsParseLiveStreamProcessNotification that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/mps_parse_live_stream_process_notification#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudMpsParseLiveStreamProcessNotification to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class DataTencentcloudMpsParseLiveStreamProcessNotification extends cdktf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/mps_parse_live_stream_process_notification tencentcloud_mps_parse_live_stream_process_notification} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/mps_parse_live_stream_process_notification tencentcloud_mps_parse_live_stream_process_notification} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class DataTencentcloudMpsParseLiveStreamProcessNotification extends cdktf
       terraformResourceType: 'tencentcloud_mps_parse_live_stream_process_notification',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.39',
-        providerVersionConstraint: '1.82.39'
+        providerVersion: '1.82.40',
+        providerVersionConstraint: '1.82.40'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

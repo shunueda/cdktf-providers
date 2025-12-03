@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_acl_policy_associate
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_acl_policy_associate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ApigAclPolicyAssociateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_acl_policy_associate#id ApigAclPolicyAssociate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_acl_policy_associate#id ApigAclPolicyAssociate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,45 +17,45 @@ export interface ApigAclPolicyAssociateConfig extends cdktf.TerraformMetaArgumen
   /**
   * The ID of the dedicated instance to which the APIs and the ACL policy belong.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_acl_policy_associate#instance_id ApigAclPolicyAssociate#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_acl_policy_associate#instance_id ApigAclPolicyAssociate#instance_id}
   */
   readonly instanceId: string;
   /**
   * The ACL Policy ID for APIs binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_acl_policy_associate#policy_id ApigAclPolicyAssociate#policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_acl_policy_associate#policy_id ApigAclPolicyAssociate#policy_id}
   */
   readonly policyId: string;
   /**
   * The publish IDs corresponding to the APIs bound by the ACL policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_acl_policy_associate#publish_ids ApigAclPolicyAssociate#publish_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_acl_policy_associate#publish_ids ApigAclPolicyAssociate#publish_ids}
   */
   readonly publishIds: string[];
   /**
   * The region where the ACL policy and the APIs are located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_acl_policy_associate#region ApigAclPolicyAssociate#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_acl_policy_associate#region ApigAclPolicyAssociate#region}
   */
   readonly region?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_acl_policy_associate#timeouts ApigAclPolicyAssociate#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_acl_policy_associate#timeouts ApigAclPolicyAssociate#timeouts}
   */
   readonly timeouts?: ApigAclPolicyAssociateTimeouts;
 }
 export interface ApigAclPolicyAssociateTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_acl_policy_associate#create ApigAclPolicyAssociate#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_acl_policy_associate#create ApigAclPolicyAssociate#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_acl_policy_associate#delete ApigAclPolicyAssociate#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_acl_policy_associate#delete ApigAclPolicyAssociate#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_acl_policy_associate#update ApigAclPolicyAssociate#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_acl_policy_associate#update ApigAclPolicyAssociate#update}
   */
   readonly update?: string;
 }
@@ -207,7 +207,7 @@ export class ApigAclPolicyAssociateTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_acl_policy_associate sbercloud_apig_acl_policy_associate}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_acl_policy_associate sbercloud_apig_acl_policy_associate}
 */
 export class ApigAclPolicyAssociate extends cdktf.TerraformResource {
 
@@ -223,7 +223,7 @@ export class ApigAclPolicyAssociate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApigAclPolicyAssociate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApigAclPolicyAssociate to import
-  * @param importFromId The id of the existing ApigAclPolicyAssociate that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_acl_policy_associate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApigAclPolicyAssociate that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_acl_policy_associate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApigAclPolicyAssociate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -235,7 +235,7 @@ export class ApigAclPolicyAssociate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_acl_policy_associate sbercloud_apig_acl_policy_associate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_acl_policy_associate sbercloud_apig_acl_policy_associate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -246,8 +246,8 @@ export class ApigAclPolicyAssociate extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_apig_acl_policy_associate',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

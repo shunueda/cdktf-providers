@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_domain_name_parse_ip_list
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_domain_name_parse_ip_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface DataSbercloudCfwDomainNameParseIpListConfig extends cdktf.Terra
   /**
   * Specifies the address type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_domain_name_parse_ip_list#address_type DataSbercloudCfwDomainNameParseIpList#address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_domain_name_parse_ip_list#address_type DataSbercloudCfwDomainNameParseIpList#address_type}
   */
   readonly addressType?: string;
   /**
   * Specifies the domain name ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_domain_name_parse_ip_list#domain_address_id DataSbercloudCfwDomainNameParseIpList#domain_address_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_domain_name_parse_ip_list#domain_address_id DataSbercloudCfwDomainNameParseIpList#domain_address_id}
   */
   readonly domainAddressId?: string;
   /**
   * Specifies the domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_domain_name_parse_ip_list#domain_name DataSbercloudCfwDomainNameParseIpList#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_domain_name_parse_ip_list#domain_name DataSbercloudCfwDomainNameParseIpList#domain_name}
   */
   readonly domainName?: string;
   /**
   * Specifies the enterprise project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_domain_name_parse_ip_list#enterprise_project_id DataSbercloudCfwDomainNameParseIpList#enterprise_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_domain_name_parse_ip_list#enterprise_project_id DataSbercloudCfwDomainNameParseIpList#enterprise_project_id}
   */
   readonly enterpriseProjectId?: string;
   /**
   * Specifies the firewall ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_domain_name_parse_ip_list#fw_instance_id DataSbercloudCfwDomainNameParseIpList#fw_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_domain_name_parse_ip_list#fw_instance_id DataSbercloudCfwDomainNameParseIpList#fw_instance_id}
   */
   readonly fwInstanceId?: string;
   /**
   * Specifies the domain name group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_domain_name_parse_ip_list#group_id DataSbercloudCfwDomainNameParseIpList#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_domain_name_parse_ip_list#group_id DataSbercloudCfwDomainNameParseIpList#group_id}
   */
   readonly groupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_domain_name_parse_ip_list#id DataSbercloudCfwDomainNameParseIpList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_domain_name_parse_ip_list#id DataSbercloudCfwDomainNameParseIpList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,13 +53,13 @@ export interface DataSbercloudCfwDomainNameParseIpListConfig extends cdktf.Terra
   /**
   * Specifies the region in which to query the resource. If omitted, the provider-level region will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_domain_name_parse_ip_list#region DataSbercloudCfwDomainNameParseIpList#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_domain_name_parse_ip_list#region DataSbercloudCfwDomainNameParseIpList#region}
   */
   readonly region?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_domain_name_parse_ip_list sbercloud_cfw_domain_name_parse_ip_list}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_domain_name_parse_ip_list sbercloud_cfw_domain_name_parse_ip_list}
 */
 export class DataSbercloudCfwDomainNameParseIpList extends cdktf.TerraformDataSource {
 
@@ -75,7 +75,7 @@ export class DataSbercloudCfwDomainNameParseIpList extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataSbercloudCfwDomainNameParseIpList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSbercloudCfwDomainNameParseIpList to import
-  * @param importFromId The id of the existing DataSbercloudCfwDomainNameParseIpList that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_domain_name_parse_ip_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSbercloudCfwDomainNameParseIpList that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_domain_name_parse_ip_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSbercloudCfwDomainNameParseIpList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class DataSbercloudCfwDomainNameParseIpList extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/cfw_domain_name_parse_ip_list sbercloud_cfw_domain_name_parse_ip_list} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/cfw_domain_name_parse_ip_list sbercloud_cfw_domain_name_parse_ip_list} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class DataSbercloudCfwDomainNameParseIpList extends cdktf.TerraformDataSo
       terraformResourceType: 'sbercloud_cfw_domain_name_parse_ip_list',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

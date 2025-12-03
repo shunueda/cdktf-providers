@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/sfs_turbo_obs_target
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/sfs_turbo_obs_target
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,56 +8,56 @@ import * as cdktf from 'cdktf';
 
 export interface SfsTurboObsTargetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/sfs_turbo_obs_target#delete_data_in_file_system SfsTurboObsTarget#delete_data_in_file_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/sfs_turbo_obs_target#delete_data_in_file_system SfsTurboObsTarget#delete_data_in_file_system}
   */
   readonly deleteDataInFileSystem?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/sfs_turbo_obs_target#file_system_path SfsTurboObsTarget#file_system_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/sfs_turbo_obs_target#file_system_path SfsTurboObsTarget#file_system_path}
   */
   readonly fileSystemPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/sfs_turbo_obs_target#id SfsTurboObsTarget#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/sfs_turbo_obs_target#id SfsTurboObsTarget#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/sfs_turbo_obs_target#region SfsTurboObsTarget#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/sfs_turbo_obs_target#region SfsTurboObsTarget#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/sfs_turbo_obs_target#share_id SfsTurboObsTarget#share_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/sfs_turbo_obs_target#share_id SfsTurboObsTarget#share_id}
   */
   readonly shareId: string;
   /**
   * obs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/sfs_turbo_obs_target#obs SfsTurboObsTarget#obs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/sfs_turbo_obs_target#obs SfsTurboObsTarget#obs}
   */
   readonly obs: SfsTurboObsTargetObs;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/sfs_turbo_obs_target#timeouts SfsTurboObsTarget#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/sfs_turbo_obs_target#timeouts SfsTurboObsTarget#timeouts}
   */
   readonly timeouts?: SfsTurboObsTargetTimeouts;
 }
 export interface SfsTurboObsTargetObsAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/sfs_turbo_obs_target#dir_mode SfsTurboObsTarget#dir_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/sfs_turbo_obs_target#dir_mode SfsTurboObsTarget#dir_mode}
   */
   readonly dirMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/sfs_turbo_obs_target#file_mode SfsTurboObsTarget#file_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/sfs_turbo_obs_target#file_mode SfsTurboObsTarget#file_mode}
   */
   readonly fileMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/sfs_turbo_obs_target#gid SfsTurboObsTarget#gid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/sfs_turbo_obs_target#gid SfsTurboObsTarget#gid}
   */
   readonly gid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/sfs_turbo_obs_target#uid SfsTurboObsTarget#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/sfs_turbo_obs_target#uid SfsTurboObsTarget#uid}
   */
   readonly uid?: number;
 }
@@ -228,15 +228,15 @@ export class SfsTurboObsTargetObsAttributesOutputReference extends cdktf.Complex
 }
 export interface SfsTurboObsTargetObsPolicyAutoExportPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/sfs_turbo_obs_target#events SfsTurboObsTarget#events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/sfs_turbo_obs_target#events SfsTurboObsTarget#events}
   */
   readonly events?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/sfs_turbo_obs_target#prefix SfsTurboObsTarget#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/sfs_turbo_obs_target#prefix SfsTurboObsTarget#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/sfs_turbo_obs_target#suffix SfsTurboObsTarget#suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/sfs_turbo_obs_target#suffix SfsTurboObsTarget#suffix}
   */
   readonly suffix?: string;
 }
@@ -380,7 +380,7 @@ export interface SfsTurboObsTargetObsPolicy {
   /**
   * auto_export_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/sfs_turbo_obs_target#auto_export_policy SfsTurboObsTarget#auto_export_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/sfs_turbo_obs_target#auto_export_policy SfsTurboObsTarget#auto_export_policy}
   */
   readonly autoExportPolicy?: SfsTurboObsTargetObsPolicyAutoExportPolicy;
 }
@@ -464,23 +464,23 @@ export class SfsTurboObsTargetObsPolicyOutputReference extends cdktf.ComplexObje
 }
 export interface SfsTurboObsTargetObs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/sfs_turbo_obs_target#bucket SfsTurboObsTarget#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/sfs_turbo_obs_target#bucket SfsTurboObsTarget#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/sfs_turbo_obs_target#endpoint SfsTurboObsTarget#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/sfs_turbo_obs_target#endpoint SfsTurboObsTarget#endpoint}
   */
   readonly endpoint: string;
   /**
   * attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/sfs_turbo_obs_target#attributes SfsTurboObsTarget#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/sfs_turbo_obs_target#attributes SfsTurboObsTarget#attributes}
   */
   readonly attributes?: SfsTurboObsTargetObsAttributes;
   /**
   * policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/sfs_turbo_obs_target#policy SfsTurboObsTarget#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/sfs_turbo_obs_target#policy SfsTurboObsTarget#policy}
   */
   readonly policy?: SfsTurboObsTargetObsPolicy;
 }
@@ -645,11 +645,11 @@ export class SfsTurboObsTargetObsOutputReference extends cdktf.ComplexObject {
 }
 export interface SfsTurboObsTargetTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/sfs_turbo_obs_target#create SfsTurboObsTarget#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/sfs_turbo_obs_target#create SfsTurboObsTarget#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/sfs_turbo_obs_target#delete SfsTurboObsTarget#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/sfs_turbo_obs_target#delete SfsTurboObsTarget#delete}
   */
   readonly delete?: string;
 }
@@ -772,7 +772,7 @@ export class SfsTurboObsTargetTimeoutsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/sfs_turbo_obs_target sbercloud_sfs_turbo_obs_target}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/sfs_turbo_obs_target sbercloud_sfs_turbo_obs_target}
 */
 export class SfsTurboObsTarget extends cdktf.TerraformResource {
 
@@ -788,7 +788,7 @@ export class SfsTurboObsTarget extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SfsTurboObsTarget resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SfsTurboObsTarget to import
-  * @param importFromId The id of the existing SfsTurboObsTarget that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/sfs_turbo_obs_target#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SfsTurboObsTarget that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/sfs_turbo_obs_target#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SfsTurboObsTarget to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -800,7 +800,7 @@ export class SfsTurboObsTarget extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/sfs_turbo_obs_target sbercloud_sfs_turbo_obs_target} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/sfs_turbo_obs_target sbercloud_sfs_turbo_obs_target} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -811,8 +811,8 @@ export class SfsTurboObsTarget extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_sfs_turbo_obs_target',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

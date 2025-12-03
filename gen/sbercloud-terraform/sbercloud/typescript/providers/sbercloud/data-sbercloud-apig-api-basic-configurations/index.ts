@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_api_basic_configurations
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_api_basic_configurations
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface DataSbercloudApigApiBasicConfigurationsConfig extends cdktf.Ter
   /**
   * Specifies the ID of the API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_api_basic_configurations#api_id DataSbercloudApigApiBasicConfigurations#api_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_api_basic_configurations#api_id DataSbercloudApigApiBasicConfigurations#api_id}
   */
   readonly apiId?: string;
   /**
   * Specifies the backend type of the API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_api_basic_configurations#backend_type DataSbercloudApigApiBasicConfigurations#backend_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_api_basic_configurations#backend_type DataSbercloudApigApiBasicConfigurations#backend_type}
   */
   readonly backendType?: string;
   /**
   * Specifies the ID of the environment where the API is published.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_api_basic_configurations#env_id DataSbercloudApigApiBasicConfigurations#env_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_api_basic_configurations#env_id DataSbercloudApigApiBasicConfigurations#env_id}
   */
   readonly envId?: string;
   /**
   * Specifies the name of the environment where the API is published.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_api_basic_configurations#env_name DataSbercloudApigApiBasicConfigurations#env_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_api_basic_configurations#env_name DataSbercloudApigApiBasicConfigurations#env_name}
   */
   readonly envName?: string;
   /**
   * Specifies the ID of the API group to which the APIs belong.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_api_basic_configurations#group_id DataSbercloudApigApiBasicConfigurations#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_api_basic_configurations#group_id DataSbercloudApigApiBasicConfigurations#group_id}
   */
   readonly groupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_api_basic_configurations#id DataSbercloudApigApiBasicConfigurations#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_api_basic_configurations#id DataSbercloudApigApiBasicConfigurations#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,59 +47,59 @@ export interface DataSbercloudApigApiBasicConfigurationsConfig extends cdktf.Ter
   /**
   * Specifies the ID of the dedicated instance to which the APIs belong.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_api_basic_configurations#instance_id DataSbercloudApigApiBasicConfigurations#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_api_basic_configurations#instance_id DataSbercloudApigApiBasicConfigurations#instance_id}
   */
   readonly instanceId: string;
   /**
   * Specifies the name of the API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_api_basic_configurations#name DataSbercloudApigApiBasicConfigurations#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_api_basic_configurations#name DataSbercloudApigApiBasicConfigurations#name}
   */
   readonly name?: string;
   /**
   * Specifies the parameter name for exact matching.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_api_basic_configurations#precise_search DataSbercloudApigApiBasicConfigurations#precise_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_api_basic_configurations#precise_search DataSbercloudApigApiBasicConfigurations#precise_search}
   */
   readonly preciseSearch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_api_basic_configurations#region DataSbercloudApigApiBasicConfigurations#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_api_basic_configurations#region DataSbercloudApigApiBasicConfigurations#region}
   */
   readonly region?: string;
   /**
   * Specifies the request method of the API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_api_basic_configurations#request_method DataSbercloudApigApiBasicConfigurations#request_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_api_basic_configurations#request_method DataSbercloudApigApiBasicConfigurations#request_method}
   */
   readonly requestMethod?: string;
   /**
   * Specifies the request address of the API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_api_basic_configurations#request_path DataSbercloudApigApiBasicConfigurations#request_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_api_basic_configurations#request_path DataSbercloudApigApiBasicConfigurations#request_path}
   */
   readonly requestPath?: string;
   /**
   * Specifies the request protocol of the API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_api_basic_configurations#request_protocol DataSbercloudApigApiBasicConfigurations#request_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_api_basic_configurations#request_protocol DataSbercloudApigApiBasicConfigurations#request_protocol}
   */
   readonly requestProtocol?: string;
   /**
   * Specifies the security authentication mode of the API request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_api_basic_configurations#security_authentication DataSbercloudApigApiBasicConfigurations#security_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_api_basic_configurations#security_authentication DataSbercloudApigApiBasicConfigurations#security_authentication}
   */
   readonly securityAuthentication?: string;
   /**
   * Specifies the type of the API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_api_basic_configurations#type DataSbercloudApigApiBasicConfigurations#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_api_basic_configurations#type DataSbercloudApigApiBasicConfigurations#type}
   */
   readonly type?: string;
   /**
   * Specifies the name of the VPC channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_api_basic_configurations#vpc_channel_name DataSbercloudApigApiBasicConfigurations#vpc_channel_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_api_basic_configurations#vpc_channel_name DataSbercloudApigApiBasicConfigurations#vpc_channel_name}
   */
   readonly vpcChannelName?: string;
 }
@@ -290,7 +290,7 @@ export class DataSbercloudApigApiBasicConfigurationsConfigurationsList extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_api_basic_configurations sbercloud_apig_api_basic_configurations}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_api_basic_configurations sbercloud_apig_api_basic_configurations}
 */
 export class DataSbercloudApigApiBasicConfigurations extends cdktf.TerraformDataSource {
 
@@ -306,7 +306,7 @@ export class DataSbercloudApigApiBasicConfigurations extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataSbercloudApigApiBasicConfigurations resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSbercloudApigApiBasicConfigurations to import
-  * @param importFromId The id of the existing DataSbercloudApigApiBasicConfigurations that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_api_basic_configurations#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSbercloudApigApiBasicConfigurations that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_api_basic_configurations#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSbercloudApigApiBasicConfigurations to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -318,7 +318,7 @@ export class DataSbercloudApigApiBasicConfigurations extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/apig_api_basic_configurations sbercloud_apig_api_basic_configurations} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/apig_api_basic_configurations sbercloud_apig_api_basic_configurations} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -329,8 +329,8 @@ export class DataSbercloudApigApiBasicConfigurations extends cdktf.TerraformData
       terraformResourceType: 'sbercloud_apig_api_basic_configurations',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

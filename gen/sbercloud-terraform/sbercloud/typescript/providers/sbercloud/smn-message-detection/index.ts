@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/smn_message_detection
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/smn_message_detection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,23 +8,23 @@ import * as cdktf from 'cdktf';
 
 export interface SmnMessageDetectionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/smn_message_detection#enable_force_new SmnMessageDetection#enable_force_new}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/smn_message_detection#enable_force_new SmnMessageDetection#enable_force_new}
   */
   readonly enableForceNew?: string;
   /**
   * Specifies the endpoint address to be detected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/smn_message_detection#endpoint SmnMessageDetection#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/smn_message_detection#endpoint SmnMessageDetection#endpoint}
   */
   readonly endpoint: string;
   /**
   * Specifies the extended key/value for subscriptions over HTTP or HTTPS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/smn_message_detection#extension SmnMessageDetection#extension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/smn_message_detection#extension SmnMessageDetection#extension}
   */
   readonly extension?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/smn_message_detection#id SmnMessageDetection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/smn_message_detection#id SmnMessageDetection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -33,29 +33,29 @@ export interface SmnMessageDetectionConfig extends cdktf.TerraformMetaArguments 
   /**
   * Specifies the protocol type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/smn_message_detection#protocol SmnMessageDetection#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/smn_message_detection#protocol SmnMessageDetection#protocol}
   */
   readonly protocol: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/smn_message_detection#region SmnMessageDetection#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/smn_message_detection#region SmnMessageDetection#region}
   */
   readonly region?: string;
   /**
   * Specifies the resource identifier of a topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/smn_message_detection#topic_urn SmnMessageDetection#topic_urn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/smn_message_detection#topic_urn SmnMessageDetection#topic_urn}
   */
   readonly topicUrn: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/smn_message_detection#timeouts SmnMessageDetection#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/smn_message_detection#timeouts SmnMessageDetection#timeouts}
   */
   readonly timeouts?: SmnMessageDetectionTimeouts;
 }
 export interface SmnMessageDetectionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/smn_message_detection#create SmnMessageDetection#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/smn_message_detection#create SmnMessageDetection#create}
   */
   readonly create?: string;
 }
@@ -149,7 +149,7 @@ export class SmnMessageDetectionTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/smn_message_detection sbercloud_smn_message_detection}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/smn_message_detection sbercloud_smn_message_detection}
 */
 export class SmnMessageDetection extends cdktf.TerraformResource {
 
@@ -165,7 +165,7 @@ export class SmnMessageDetection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SmnMessageDetection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SmnMessageDetection to import
-  * @param importFromId The id of the existing SmnMessageDetection that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/smn_message_detection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SmnMessageDetection that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/smn_message_detection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SmnMessageDetection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -177,7 +177,7 @@ export class SmnMessageDetection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/smn_message_detection sbercloud_smn_message_detection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/smn_message_detection sbercloud_smn_message_detection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -188,8 +188,8 @@ export class SmnMessageDetection extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_smn_message_detection',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

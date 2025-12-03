@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tcss_image_registry
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tcss_image_registry
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface TcssImageRegistryConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tcss_image_registry#id TcssImageRegistry#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tcss_image_registry#id TcssImageRegistry#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,73 +17,73 @@ export interface TcssImageRegistryConfig extends cdktf.TerraformMetaArguments {
   /**
   * Valid values: `0` (secure mode with certificate verification, which is the default value); `1` (unsecure mode that skips certificate verification).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tcss_image_registry#insecure TcssImageRegistry#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tcss_image_registry#insecure TcssImageRegistry#insecure}
   */
   readonly insecure?: number;
   /**
   * Repository name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tcss_image_registry#name TcssImageRegistry#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tcss_image_registry#name TcssImageRegistry#name}
   */
   readonly name: string;
   /**
   * Whether to scan the latest image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tcss_image_registry#need_scan TcssImageRegistry#need_scan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tcss_image_registry#need_scan TcssImageRegistry#need_scan}
   */
   readonly needScan?: boolean | cdktf.IResolvable;
   /**
   * Network type, which can be `public` (public network).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tcss_image_registry#net_type TcssImageRegistry#net_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tcss_image_registry#net_type TcssImageRegistry#net_type}
   */
   readonly netType: string;
   /**
   * Password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tcss_image_registry#password TcssImageRegistry#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tcss_image_registry#password TcssImageRegistry#password}
   */
   readonly password: string;
   /**
   * Region. Default value: `default`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tcss_image_registry#registry_region TcssImageRegistry#registry_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tcss_image_registry#registry_region TcssImageRegistry#registry_region}
   */
   readonly registryRegion?: string;
   /**
   * Repository type, which can be `harbor`. Valid values: harbor, quay, jfrog, aws, azure, other-tcr.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tcss_image_registry#registry_type TcssImageRegistry#registry_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tcss_image_registry#registry_type TcssImageRegistry#registry_type}
   */
   readonly registryType: string;
   /**
   * Repository version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tcss_image_registry#registry_version TcssImageRegistry#registry_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tcss_image_registry#registry_version TcssImageRegistry#registry_version}
   */
   readonly registryVersion?: string;
   /**
   * Speed limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tcss_image_registry#speed_limit TcssImageRegistry#speed_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tcss_image_registry#speed_limit TcssImageRegistry#speed_limit}
   */
   readonly speedLimit?: number;
   /**
   * Repository URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tcss_image_registry#url TcssImageRegistry#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tcss_image_registry#url TcssImageRegistry#url}
   */
   readonly url: string;
   /**
   * Username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tcss_image_registry#username TcssImageRegistry#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tcss_image_registry#username TcssImageRegistry#username}
   */
   readonly username: string;
   /**
   * conn_detect_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tcss_image_registry#conn_detect_config TcssImageRegistry#conn_detect_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tcss_image_registry#conn_detect_config TcssImageRegistry#conn_detect_config}
   */
   readonly connDetectConfig?: TcssImageRegistryConnDetectConfig[] | cdktf.IResolvable;
 }
@@ -91,13 +91,13 @@ export interface TcssImageRegistryConnDetectConfig {
   /**
   * Host Quuid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tcss_image_registry#quuid TcssImageRegistry#quuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tcss_image_registry#quuid TcssImageRegistry#quuid}
   */
   readonly quuid?: string;
   /**
   * Host uuid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tcss_image_registry#uuid TcssImageRegistry#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tcss_image_registry#uuid TcssImageRegistry#uuid}
   */
   readonly uuid?: string;
 }
@@ -242,7 +242,7 @@ export class TcssImageRegistryConnDetectConfigList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tcss_image_registry tencentcloud_tcss_image_registry}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tcss_image_registry tencentcloud_tcss_image_registry}
 */
 export class TcssImageRegistry extends cdktf.TerraformResource {
 
@@ -258,7 +258,7 @@ export class TcssImageRegistry extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TcssImageRegistry resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TcssImageRegistry to import
-  * @param importFromId The id of the existing TcssImageRegistry that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tcss_image_registry#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TcssImageRegistry that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tcss_image_registry#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TcssImageRegistry to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -270,7 +270,7 @@ export class TcssImageRegistry extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tcss_image_registry tencentcloud_tcss_image_registry} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tcss_image_registry tencentcloud_tcss_image_registry} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -281,8 +281,8 @@ export class TcssImageRegistry extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tcss_image_registry',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.39',
-        providerVersionConstraint: '1.82.39'
+        providerVersion: '1.82.40',
+        providerVersionConstraint: '1.82.40'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_rocketmq_instances
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_rocketmq_instances
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,11 +11,11 @@ export interface DataSbercloudDmsRocketmqInstancesConfig extends cdktf.Terraform
   * Specifies whether to search for the instance that precisely matches a specified
   * instance name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_rocketmq_instances#exact_match_name DataSbercloudDmsRocketmqInstances#exact_match_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_rocketmq_instances#exact_match_name DataSbercloudDmsRocketmqInstances#exact_match_name}
   */
   readonly exactMatchName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_rocketmq_instances#id DataSbercloudDmsRocketmqInstances#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_rocketmq_instances#id DataSbercloudDmsRocketmqInstances#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -24,23 +24,23 @@ export interface DataSbercloudDmsRocketmqInstancesConfig extends cdktf.Terraform
   /**
   * Specifies the ID of the rocketMQ instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_rocketmq_instances#instance_id DataSbercloudDmsRocketmqInstances#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_rocketmq_instances#instance_id DataSbercloudDmsRocketmqInstances#instance_id}
   */
   readonly instanceId?: string;
   /**
   * Specifies the name of the DMS RocketMQ instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_rocketmq_instances#name DataSbercloudDmsRocketmqInstances#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_rocketmq_instances#name DataSbercloudDmsRocketmqInstances#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_rocketmq_instances#region DataSbercloudDmsRocketmqInstances#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_rocketmq_instances#region DataSbercloudDmsRocketmqInstances#region}
   */
   readonly region?: string;
   /**
   * Specifies the status of the DMS RocketMQ instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_rocketmq_instances#status DataSbercloudDmsRocketmqInstances#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_rocketmq_instances#status DataSbercloudDmsRocketmqInstances#status}
   */
   readonly status?: string;
 }
@@ -372,7 +372,7 @@ export class DataSbercloudDmsRocketmqInstancesInstancesList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_rocketmq_instances sbercloud_dms_rocketmq_instances}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_rocketmq_instances sbercloud_dms_rocketmq_instances}
 */
 export class DataSbercloudDmsRocketmqInstances extends cdktf.TerraformDataSource {
 
@@ -388,7 +388,7 @@ export class DataSbercloudDmsRocketmqInstances extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataSbercloudDmsRocketmqInstances resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSbercloudDmsRocketmqInstances to import
-  * @param importFromId The id of the existing DataSbercloudDmsRocketmqInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_rocketmq_instances#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSbercloudDmsRocketmqInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_rocketmq_instances#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSbercloudDmsRocketmqInstances to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -400,7 +400,7 @@ export class DataSbercloudDmsRocketmqInstances extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dms_rocketmq_instances sbercloud_dms_rocketmq_instances} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dms_rocketmq_instances sbercloud_dms_rocketmq_instances} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -411,8 +411,8 @@ export class DataSbercloudDmsRocketmqInstances extends cdktf.TerraformDataSource
       terraformResourceType: 'sbercloud_dms_rocketmq_instances',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

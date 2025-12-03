@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_migration_task
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_migration_task
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DmsRocketmqMigrationTaskConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_migration_task#id DmsRocketmqMigrationTask#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_migration_task#id DmsRocketmqMigrationTask#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,71 +17,71 @@ export interface DmsRocketmqMigrationTaskConfig extends cdktf.TerraformMetaArgum
   /**
   * Specifies the ID of the RocketMQ instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_migration_task#instance_id DmsRocketmqMigrationTask#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_migration_task#instance_id DmsRocketmqMigrationTask#instance_id}
   */
   readonly instanceId: string;
   /**
   * Specifies the name of the migration task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_migration_task#name DmsRocketmqMigrationTask#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_migration_task#name DmsRocketmqMigrationTask#name}
   */
   readonly name: string;
   /**
   * Specifies whether to overwrite configurations with the same name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_migration_task#overwrite DmsRocketmqMigrationTask#overwrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_migration_task#overwrite DmsRocketmqMigrationTask#overwrite}
   */
   readonly overwrite: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_migration_task#region DmsRocketmqMigrationTask#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_migration_task#region DmsRocketmqMigrationTask#region}
   */
   readonly region?: string;
   /**
   * Specifies the migration task type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_migration_task#type DmsRocketmqMigrationTask#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_migration_task#type DmsRocketmqMigrationTask#type}
   */
   readonly type: string;
   /**
   * bindings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_migration_task#bindings DmsRocketmqMigrationTask#bindings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_migration_task#bindings DmsRocketmqMigrationTask#bindings}
   */
   readonly bindings?: DmsRocketmqMigrationTaskBindings[] | cdktf.IResolvable;
   /**
   * exchanges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_migration_task#exchanges DmsRocketmqMigrationTask#exchanges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_migration_task#exchanges DmsRocketmqMigrationTask#exchanges}
   */
   readonly exchanges?: DmsRocketmqMigrationTaskExchanges[] | cdktf.IResolvable;
   /**
   * queues block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_migration_task#queues DmsRocketmqMigrationTask#queues}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_migration_task#queues DmsRocketmqMigrationTask#queues}
   */
   readonly queues?: DmsRocketmqMigrationTaskQueues[] | cdktf.IResolvable;
   /**
   * subscription_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_migration_task#subscription_groups DmsRocketmqMigrationTask#subscription_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_migration_task#subscription_groups DmsRocketmqMigrationTask#subscription_groups}
   */
   readonly subscriptionGroups?: DmsRocketmqMigrationTaskSubscriptionGroups[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_migration_task#timeouts DmsRocketmqMigrationTask#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_migration_task#timeouts DmsRocketmqMigrationTask#timeouts}
   */
   readonly timeouts?: DmsRocketmqMigrationTaskTimeouts;
   /**
   * topic_configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_migration_task#topic_configs DmsRocketmqMigrationTask#topic_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_migration_task#topic_configs DmsRocketmqMigrationTask#topic_configs}
   */
   readonly topicConfigs?: DmsRocketmqMigrationTaskTopicConfigs[] | cdktf.IResolvable;
   /**
   * vhosts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_migration_task#vhosts DmsRocketmqMigrationTask#vhosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_migration_task#vhosts DmsRocketmqMigrationTask#vhosts}
   */
   readonly vhosts?: DmsRocketmqMigrationTaskVhosts[] | cdktf.IResolvable;
 }
@@ -89,31 +89,31 @@ export interface DmsRocketmqMigrationTaskBindings {
   /**
   * Specifies the message target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_migration_task#destination DmsRocketmqMigrationTask#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_migration_task#destination DmsRocketmqMigrationTask#destination}
   */
   readonly destination?: string;
   /**
   * Specifies the message target type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_migration_task#destination_type DmsRocketmqMigrationTask#destination_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_migration_task#destination_type DmsRocketmqMigrationTask#destination_type}
   */
   readonly destinationType?: string;
   /**
   * Specifies the routing key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_migration_task#routing_key DmsRocketmqMigrationTask#routing_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_migration_task#routing_key DmsRocketmqMigrationTask#routing_key}
   */
   readonly routingKey?: string;
   /**
   * Specifies the message source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_migration_task#source DmsRocketmqMigrationTask#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_migration_task#source DmsRocketmqMigrationTask#source}
   */
   readonly source?: string;
   /**
   * Specifies the virtual host name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_migration_task#vhost DmsRocketmqMigrationTask#vhost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_migration_task#vhost DmsRocketmqMigrationTask#vhost}
   */
   readonly vhost?: string;
 }
@@ -347,25 +347,25 @@ export interface DmsRocketmqMigrationTaskExchanges {
   /**
   * Specifies whether to enable data persistence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_migration_task#durable DmsRocketmqMigrationTask#durable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_migration_task#durable DmsRocketmqMigrationTask#durable}
   */
   readonly durable?: boolean | cdktf.IResolvable;
   /**
   * Specifies the switch name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_migration_task#name DmsRocketmqMigrationTask#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_migration_task#name DmsRocketmqMigrationTask#name}
   */
   readonly name?: string;
   /**
   * Specifies the exchange type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_migration_task#type DmsRocketmqMigrationTask#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_migration_task#type DmsRocketmqMigrationTask#type}
   */
   readonly type?: string;
   /**
   * Specifies the virtual host name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_migration_task#vhost DmsRocketmqMigrationTask#vhost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_migration_task#vhost DmsRocketmqMigrationTask#vhost}
   */
   readonly vhost?: string;
 }
@@ -570,19 +570,19 @@ export interface DmsRocketmqMigrationTaskQueues {
   /**
   * Specifies whether to enable data persistence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_migration_task#durable DmsRocketmqMigrationTask#durable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_migration_task#durable DmsRocketmqMigrationTask#durable}
   */
   readonly durable?: boolean | cdktf.IResolvable;
   /**
   * Specifies the queue name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_migration_task#name DmsRocketmqMigrationTask#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_migration_task#name DmsRocketmqMigrationTask#name}
   */
   readonly name?: string;
   /**
   * Specifies the virtual host name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_migration_task#vhost DmsRocketmqMigrationTask#vhost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_migration_task#vhost DmsRocketmqMigrationTask#vhost}
   */
   readonly vhost?: string;
 }
@@ -758,49 +758,49 @@ export interface DmsRocketmqMigrationTaskSubscriptionGroups {
   /**
   * Specifies whether to enable broadcast.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_migration_task#consume_broadcast_enable DmsRocketmqMigrationTask#consume_broadcast_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_migration_task#consume_broadcast_enable DmsRocketmqMigrationTask#consume_broadcast_enable}
   */
   readonly consumeBroadcastEnable?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether to enable consumption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_migration_task#consume_enable DmsRocketmqMigrationTask#consume_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_migration_task#consume_enable DmsRocketmqMigrationTask#consume_enable}
   */
   readonly consumeEnable?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether to enable consumption from the earliest offset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_migration_task#consume_from_min_enable DmsRocketmqMigrationTask#consume_from_min_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_migration_task#consume_from_min_enable DmsRocketmqMigrationTask#consume_from_min_enable}
   */
   readonly consumeFromMinEnable?: boolean | cdktf.IResolvable;
   /**
   * Specifies the name of a consumer group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_migration_task#group_name DmsRocketmqMigrationTask#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_migration_task#group_name DmsRocketmqMigrationTask#group_name}
   */
   readonly groupName: string;
   /**
   * Specifies whether to notify changes of consumer IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_migration_task#notify_consumerids_changed_enable DmsRocketmqMigrationTask#notify_consumerids_changed_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_migration_task#notify_consumerids_changed_enable DmsRocketmqMigrationTask#notify_consumerids_changed_enable}
   */
   readonly notifyConsumeridsChangedEnable?: boolean | cdktf.IResolvable;
   /**
   * Specifies the maximum number of consumption retries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_migration_task#retry_max_times DmsRocketmqMigrationTask#retry_max_times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_migration_task#retry_max_times DmsRocketmqMigrationTask#retry_max_times}
   */
   readonly retryMaxTimes?: number;
   /**
   * Specifies the number of retry queues.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_migration_task#retry_queue_num DmsRocketmqMigrationTask#retry_queue_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_migration_task#retry_queue_num DmsRocketmqMigrationTask#retry_queue_num}
   */
   readonly retryQueueNum?: number;
   /**
   * Specifies the ID of the broker selected for slow consumption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_migration_task#which_broker_when_consume_slow DmsRocketmqMigrationTask#which_broker_when_consume_slow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_migration_task#which_broker_when_consume_slow DmsRocketmqMigrationTask#which_broker_when_consume_slow}
   */
   readonly whichBrokerWhenConsumeSlow?: number;
 }
@@ -1116,11 +1116,11 @@ export class DmsRocketmqMigrationTaskSubscriptionGroupsList extends cdktf.Comple
 }
 export interface DmsRocketmqMigrationTaskTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_migration_task#create DmsRocketmqMigrationTask#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_migration_task#create DmsRocketmqMigrationTask#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_migration_task#delete DmsRocketmqMigrationTask#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_migration_task#delete DmsRocketmqMigrationTask#delete}
   */
   readonly delete?: string;
 }
@@ -1245,43 +1245,43 @@ export interface DmsRocketmqMigrationTaskTopicConfigs {
   /**
   * Specifies whether a message is an ordered message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_migration_task#order DmsRocketmqMigrationTask#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_migration_task#order DmsRocketmqMigrationTask#order}
   */
   readonly order?: boolean | cdktf.IResolvable;
   /**
   * Specifies the number of permission.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_migration_task#perm DmsRocketmqMigrationTask#perm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_migration_task#perm DmsRocketmqMigrationTask#perm}
   */
   readonly perm?: number;
   /**
   * Specifies the number of read queues.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_migration_task#read_queue_num DmsRocketmqMigrationTask#read_queue_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_migration_task#read_queue_num DmsRocketmqMigrationTask#read_queue_num}
   */
   readonly readQueueNum?: number;
   /**
   * Specifies the filter type of a topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_migration_task#topic_filter_type DmsRocketmqMigrationTask#topic_filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_migration_task#topic_filter_type DmsRocketmqMigrationTask#topic_filter_type}
   */
   readonly topicFilterType?: string;
   /**
   * Specifies the topic name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_migration_task#topic_name DmsRocketmqMigrationTask#topic_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_migration_task#topic_name DmsRocketmqMigrationTask#topic_name}
   */
   readonly topicName: string;
   /**
   * Specifies the system flag of a topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_migration_task#topic_sys_flag DmsRocketmqMigrationTask#topic_sys_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_migration_task#topic_sys_flag DmsRocketmqMigrationTask#topic_sys_flag}
   */
   readonly topicSysFlag?: number;
   /**
   * Specifies the number of write queues.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_migration_task#write_queue_num DmsRocketmqMigrationTask#write_queue_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_migration_task#write_queue_num DmsRocketmqMigrationTask#write_queue_num}
   */
   readonly writeQueueNum?: number;
 }
@@ -1570,7 +1570,7 @@ export interface DmsRocketmqMigrationTaskVhosts {
   /**
   * Specifies the virtual host name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_migration_task#name DmsRocketmqMigrationTask#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_migration_task#name DmsRocketmqMigrationTask#name}
   */
   readonly name?: string;
 }
@@ -1686,7 +1686,7 @@ export class DmsRocketmqMigrationTaskVhostsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_migration_task sbercloud_dms_rocketmq_migration_task}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_migration_task sbercloud_dms_rocketmq_migration_task}
 */
 export class DmsRocketmqMigrationTask extends cdktf.TerraformResource {
 
@@ -1702,7 +1702,7 @@ export class DmsRocketmqMigrationTask extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DmsRocketmqMigrationTask resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DmsRocketmqMigrationTask to import
-  * @param importFromId The id of the existing DmsRocketmqMigrationTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_migration_task#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DmsRocketmqMigrationTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_migration_task#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DmsRocketmqMigrationTask to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1714,7 +1714,7 @@ export class DmsRocketmqMigrationTask extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/dms_rocketmq_migration_task sbercloud_dms_rocketmq_migration_task} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/dms_rocketmq_migration_task sbercloud_dms_rocketmq_migration_task} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1725,8 +1725,8 @@ export class DmsRocketmqMigrationTask extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_dms_rocketmq_migration_task',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

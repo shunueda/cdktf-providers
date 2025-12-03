@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_output
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mps_output
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface MpsOutputConfig extends cdktf.TerraformMetaArguments {
   /**
   * Flow ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_output#flow_id MpsOutput#flow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mps_output#flow_id MpsOutput#flow_id}
   */
   readonly flowId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_output#id MpsOutput#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mps_output#id MpsOutput#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface MpsOutputConfig extends cdktf.TerraformMetaArguments {
   /**
   * output block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_output#output MpsOutput#output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mps_output#output MpsOutput#output}
   */
   readonly output: MpsOutputOutput;
 }
@@ -31,13 +31,13 @@ export interface MpsOutputOutputRtmpSettingsDestinations {
   /**
   * relayed StreamKey, in the format: stream?key=value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_output#stream_key MpsOutput#stream_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mps_output#stream_key MpsOutput#stream_key}
   */
   readonly streamKey: string;
   /**
   * relayed URL, the format is: rtmp://domain/live.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_output#url MpsOutput#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mps_output#url MpsOutput#url}
   */
   readonly url: string;
 }
@@ -178,13 +178,13 @@ export interface MpsOutputOutputRtmpSettings {
   /**
   * RTMP Chunk size, range is [4096, 40960].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_output#chunk_size MpsOutput#chunk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mps_output#chunk_size MpsOutput#chunk_size}
   */
   readonly chunkSize?: number;
   /**
   * destinations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_output#destinations MpsOutput#destinations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mps_output#destinations MpsOutput#destinations}
   */
   readonly destinations: MpsOutputOutputRtmpSettingsDestinations[] | cdktf.IResolvable;
 }
@@ -296,13 +296,13 @@ export interface MpsOutputOutputRtpSettingsDestinations {
   /**
   * The target IP of the relay.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_output#ip MpsOutput#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mps_output#ip MpsOutput#ip}
   */
   readonly ip: string;
   /**
   * Destination port for relays.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_output#port MpsOutput#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mps_output#port MpsOutput#port}
   */
   readonly port: number;
 }
@@ -443,19 +443,19 @@ export interface MpsOutputOutputRtpSettings {
   /**
   * You can only fill in none.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_output#fec MpsOutput#fec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mps_output#fec MpsOutput#fec}
   */
   readonly fec: string;
   /**
   * Idle timeout, unit ms.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_output#idle_timeout MpsOutput#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mps_output#idle_timeout MpsOutput#idle_timeout}
   */
   readonly idleTimeout: number;
   /**
   * destinations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_output#destinations MpsOutput#destinations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mps_output#destinations MpsOutput#destinations}
   */
   readonly destinations: MpsOutputOutputRtpSettingsDestinations[] | cdktf.IResolvable;
 }
@@ -590,13 +590,13 @@ export interface MpsOutputOutputSrtSettingsDestinations {
   /**
   * Output IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_output#ip MpsOutput#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mps_output#ip MpsOutput#ip}
   */
   readonly ip: string;
   /**
   * output port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_output#port MpsOutput#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mps_output#port MpsOutput#port}
   */
   readonly port: number;
 }
@@ -737,55 +737,55 @@ export interface MpsOutputOutputSrtSettings {
   /**
   * The total delay of relaying SRT, the default is 0, the unit is ms, and the range is [0, 3000].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_output#latency MpsOutput#latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mps_output#latency MpsOutput#latency}
   */
   readonly latency?: number;
   /**
   * SRT mode, optional [LISTENER|CALLER], default is CALLER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_output#mode MpsOutput#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mps_output#mode MpsOutput#mode}
   */
   readonly mode?: string;
   /**
   * The encryption key for relaying SRT, which is empty by default, indicating no encryption. Only ascii code values can be filled in, and the length is [10, 79].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_output#passphrase MpsOutput#passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mps_output#passphrase MpsOutput#passphrase}
   */
   readonly passphrase?: string;
   /**
   * The key length of relay SRT, the default is 0, optional [0|16|24|32].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_output#pb_key_len MpsOutput#pb_key_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mps_output#pb_key_len MpsOutput#pb_key_len}
   */
   readonly pbKeyLen?: number;
   /**
   * The peer idle timeout for relaying SRT, the default is 5000, the unit is ms, and the range is [1000, 10000].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_output#peer_idle_timeout MpsOutput#peer_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mps_output#peer_idle_timeout MpsOutput#peer_idle_timeout}
   */
   readonly peerIdleTimeout?: number;
   /**
   * The peer delay of relaying SRT, the default is 0, the unit is ms, and the range is [0, 3000].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_output#peer_latency MpsOutput#peer_latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mps_output#peer_latency MpsOutput#peer_latency}
   */
   readonly peerLatency?: number;
   /**
   * The reception delay of relay SRT, the default is 120, the unit is ms, the range is [0, 3000].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_output#recv_latency MpsOutput#recv_latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mps_output#recv_latency MpsOutput#recv_latency}
   */
   readonly recvLatency?: number;
   /**
   * relay the stream ID of SRT. You can choose uppercase and lowercase letters, numbers and special characters (.#!:&amp;,=_-). The length is 0~512.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_output#stream_id MpsOutput#stream_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mps_output#stream_id MpsOutput#stream_id}
   */
   readonly streamId?: string;
   /**
   * destinations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_output#destinations MpsOutput#destinations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mps_output#destinations MpsOutput#destinations}
   */
   readonly destinations: MpsOutputOutputSrtSettingsDestinations[] | cdktf.IResolvable;
 }
@@ -1100,55 +1100,55 @@ export interface MpsOutputOutput {
   /**
   * IP whitelist list, the format is CIDR, such as 0.0.0.0/0. When the Protocol is RTMP_PULL, it is valid, and if it is empty, it means that the client IP is not limited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_output#allow_ip_list MpsOutput#allow_ip_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mps_output#allow_ip_list MpsOutput#allow_ip_list}
   */
   readonly allowIpList?: string[];
   /**
   * Output description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_output#description MpsOutput#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mps_output#description MpsOutput#description}
   */
   readonly description: string;
   /**
   * The maximum number of concurrent pull streams, the maximum is 4, and the default is 4. Only SRT or RTMP_PULL can set this parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_output#max_concurrent MpsOutput#max_concurrent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mps_output#max_concurrent MpsOutput#max_concurrent}
   */
   readonly maxConcurrent?: number;
   /**
   * The name of the output.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_output#output_name MpsOutput#output_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mps_output#output_name MpsOutput#output_name}
   */
   readonly outputName: string;
   /**
   * Output region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_output#output_region MpsOutput#output_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mps_output#output_region MpsOutput#output_region}
   */
   readonly outputRegion: string;
   /**
   * Output protocol, optional [SRT|RTP|RTMP|RTMP_PULL].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_output#protocol MpsOutput#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mps_output#protocol MpsOutput#protocol}
   */
   readonly protocol: string;
   /**
   * rtmp_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_output#rtmp_settings MpsOutput#rtmp_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mps_output#rtmp_settings MpsOutput#rtmp_settings}
   */
   readonly rtmpSettings?: MpsOutputOutputRtmpSettings;
   /**
   * rtp_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_output#rtp_settings MpsOutput#rtp_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mps_output#rtp_settings MpsOutput#rtp_settings}
   */
   readonly rtpSettings?: MpsOutputOutputRtpSettings;
   /**
   * srt_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_output#srt_settings MpsOutput#srt_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mps_output#srt_settings MpsOutput#srt_settings}
   */
   readonly srtSettings?: MpsOutputOutputSrtSettings;
 }
@@ -1452,7 +1452,7 @@ export class MpsOutputOutputOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_output tencentcloud_mps_output}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mps_output tencentcloud_mps_output}
 */
 export class MpsOutput extends cdktf.TerraformResource {
 
@@ -1468,7 +1468,7 @@ export class MpsOutput extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MpsOutput resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MpsOutput to import
-  * @param importFromId The id of the existing MpsOutput that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_output#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MpsOutput that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mps_output#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MpsOutput to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1480,7 +1480,7 @@ export class MpsOutput extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/mps_output tencentcloud_mps_output} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mps_output tencentcloud_mps_output} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1491,8 +1491,8 @@ export class MpsOutput extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mps_output',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.39',
-        providerVersionConstraint: '1.82.39'
+        providerVersion: '1.82.40',
+        providerVersionConstraint: '1.82.40'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

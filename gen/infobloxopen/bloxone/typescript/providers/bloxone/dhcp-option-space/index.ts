@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_option_space
+// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_option_space
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DhcpOptionSpaceConfig extends cdktf.TerraformMetaArguments {
   /**
   * The description for the option space. May contain 0 to 1024 characters. Can include UTF-8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_option_space#comment DhcpOptionSpace#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_option_space#comment DhcpOptionSpace#comment}
   */
   readonly comment?: string;
   /**
   * The name of the option space. Must contain 1 to 256 characters. Can include UTF-8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_option_space#name DhcpOptionSpace#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_option_space#name DhcpOptionSpace#name}
   */
   readonly name: string;
   /**
   * The type of protocol for the option space (_ip4_ or _ip6_).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_option_space#protocol DhcpOptionSpace#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_option_space#protocol DhcpOptionSpace#protocol}
   */
   readonly protocol: string;
   /**
   * The tags for the option space in JSON format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_option_space#tags DhcpOptionSpace#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_option_space#tags DhcpOptionSpace#tags}
   */
   readonly tags?: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_option_space bloxone_dhcp_option_space}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_option_space bloxone_dhcp_option_space}
 */
 export class DhcpOptionSpace extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class DhcpOptionSpace extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DhcpOptionSpace resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DhcpOptionSpace to import
-  * @param importFromId The id of the existing DhcpOptionSpace that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_option_space#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DhcpOptionSpace that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_option_space#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DhcpOptionSpace to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class DhcpOptionSpace extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_option_space bloxone_dhcp_option_space} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_option_space bloxone_dhcp_option_space} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class DhcpOptionSpace extends cdktf.TerraformResource {
       terraformResourceType: 'bloxone_dhcp_option_space',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.5.4',
+        providerVersionConstraint: '1.5.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

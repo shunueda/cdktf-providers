@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/fgs_application_templates
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/fgs_application_templates
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataSbercloudFgsApplicationTemplatesConfig extends cdktf.Terraf
   /**
   * The category used to query the application templates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/fgs_application_templates#category DataSbercloudFgsApplicationTemplates#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/fgs_application_templates#category DataSbercloudFgsApplicationTemplates#category}
   */
   readonly category?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/fgs_application_templates#id DataSbercloudFgsApplicationTemplates#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/fgs_application_templates#id DataSbercloudFgsApplicationTemplates#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface DataSbercloudFgsApplicationTemplatesConfig extends cdktf.Terraf
   /**
   * The region where the application templates are located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/fgs_application_templates#region DataSbercloudFgsApplicationTemplates#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/fgs_application_templates#region DataSbercloudFgsApplicationTemplates#region}
   */
   readonly region?: string;
   /**
   * The runtime name used to query the application templates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/fgs_application_templates#runtime DataSbercloudFgsApplicationTemplates#runtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/fgs_application_templates#runtime DataSbercloudFgsApplicationTemplates#runtime}
   */
   readonly runtime?: string;
 }
@@ -135,7 +135,7 @@ export class DataSbercloudFgsApplicationTemplatesTemplatesList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/fgs_application_templates sbercloud_fgs_application_templates}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/fgs_application_templates sbercloud_fgs_application_templates}
 */
 export class DataSbercloudFgsApplicationTemplates extends cdktf.TerraformDataSource {
 
@@ -151,7 +151,7 @@ export class DataSbercloudFgsApplicationTemplates extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataSbercloudFgsApplicationTemplates resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSbercloudFgsApplicationTemplates to import
-  * @param importFromId The id of the existing DataSbercloudFgsApplicationTemplates that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/fgs_application_templates#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSbercloudFgsApplicationTemplates that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/fgs_application_templates#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSbercloudFgsApplicationTemplates to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -163,7 +163,7 @@ export class DataSbercloudFgsApplicationTemplates extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/fgs_application_templates sbercloud_fgs_application_templates} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/fgs_application_templates sbercloud_fgs_application_templates} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -174,8 +174,8 @@ export class DataSbercloudFgsApplicationTemplates extends cdktf.TerraformDataSou
       terraformResourceType: 'sbercloud_fgs_application_templates',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

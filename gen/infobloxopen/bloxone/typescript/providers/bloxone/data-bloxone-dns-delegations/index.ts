@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_delegations
+// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_delegations
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataBloxoneDnsDelegationsConfig extends cdktf.TerraformMetaArgu
   /**
   * Filter are used to return a more specific list of results. Filters can be used to match resources by specific attributes, e.g. name. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_delegations#filters DataBloxoneDnsDelegations#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_delegations#filters DataBloxoneDnsDelegations#filters}
   */
   readonly filters?: { [key: string]: string };
   /**
   * Tag Filters are used to return a more specific list of results filtered by tags. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_delegations#tag_filters DataBloxoneDnsDelegations#tag_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_delegations#tag_filters DataBloxoneDnsDelegations#tag_filters}
   */
   readonly tagFilters?: { [key: string]: string };
 }
@@ -24,13 +24,13 @@ export interface DataBloxoneDnsDelegationsResultsDelegationServers {
   /**
   * Optional. IP Address of nameserver.  Only required when fqdn of a delegation server falls under delegation fqdn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_delegations#address DataBloxoneDnsDelegations#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_delegations#address DataBloxoneDnsDelegations#address}
   */
   readonly address?: string;
   /**
   * Required. FQDN of nameserver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_delegations#fqdn DataBloxoneDnsDelegations#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_delegations#fqdn DataBloxoneDnsDelegations#fqdn}
   */
   readonly fqdn: string;
 }
@@ -169,37 +169,37 @@ export interface DataBloxoneDnsDelegationsResults {
   /**
   * Optional. Comment for zone delegation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_delegations#comment DataBloxoneDnsDelegations#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_delegations#comment DataBloxoneDnsDelegations#comment}
   */
   readonly comment?: string;
   /**
   * Required. DNS zone delegation servers. Order is not significant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_delegations#delegation_servers DataBloxoneDnsDelegations#delegation_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_delegations#delegation_servers DataBloxoneDnsDelegations#delegation_servers}
   */
   readonly delegationServers: DataBloxoneDnsDelegationsResultsDelegationServers[] | cdktf.IResolvable;
   /**
   * Optional. _true_ to disable object. A disabled object is effectively non-existent when generating resource records.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_delegations#disabled DataBloxoneDnsDelegations#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_delegations#disabled DataBloxoneDnsDelegations#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Delegation FQDN. The FQDN supplied at creation will be converted to canonical form.  Read-only after creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_delegations#fqdn DataBloxoneDnsDelegations#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_delegations#fqdn DataBloxoneDnsDelegations#fqdn}
   */
   readonly fqdn: string;
   /**
   * Tagging specifics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_delegations#tags DataBloxoneDnsDelegations#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_delegations#tags DataBloxoneDnsDelegations#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_delegations#view DataBloxoneDnsDelegations#view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_delegations#view DataBloxoneDnsDelegations#view}
   */
   readonly view?: string;
 }
@@ -465,7 +465,7 @@ export class DataBloxoneDnsDelegationsResultsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_delegations bloxone_dns_delegations}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_delegations bloxone_dns_delegations}
 */
 export class DataBloxoneDnsDelegations extends cdktf.TerraformDataSource {
 
@@ -481,7 +481,7 @@ export class DataBloxoneDnsDelegations extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataBloxoneDnsDelegations resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataBloxoneDnsDelegations to import
-  * @param importFromId The id of the existing DataBloxoneDnsDelegations that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_delegations#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataBloxoneDnsDelegations that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_delegations#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataBloxoneDnsDelegations to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -493,7 +493,7 @@ export class DataBloxoneDnsDelegations extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/dns_delegations bloxone_dns_delegations} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/dns_delegations bloxone_dns_delegations} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -504,8 +504,8 @@ export class DataBloxoneDnsDelegations extends cdktf.TerraformDataSource {
       terraformResourceType: 'bloxone_dns_delegations',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.5.4',
+        providerVersionConstraint: '1.5.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

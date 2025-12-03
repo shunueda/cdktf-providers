@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_security_policy
+// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_security_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,97 +10,97 @@ export interface TdSecurityPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Access codes assigned to Security Policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_security_policy#access_codes TdSecurityPolicy#access_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_security_policy#access_codes TdSecurityPolicy#access_codes}
   */
   readonly accessCodes?: string[];
   /**
   * The policy-level action gets applied when none of the policy rules apply/match. The default value for default_action is "action_allow".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_security_policy#default_action TdSecurityPolicy#default_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_security_policy#default_action TdSecurityPolicy#default_action}
   */
   readonly defaultAction?: string;
   /**
   * Name of the custom redirect, if the default_action is "action_redirect".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_security_policy#default_redirect_name TdSecurityPolicy#default_redirect_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_security_policy#default_redirect_name TdSecurityPolicy#default_redirect_name}
   */
   readonly defaultRedirectName?: string;
   /**
   * The brief description for the security policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_security_policy#description TdSecurityPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_security_policy#description TdSecurityPolicy#description}
   */
   readonly description?: string;
   /**
   * The list of DNS Forwarding Proxy object identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_security_policy#dfps TdSecurityPolicy#dfps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_security_policy#dfps TdSecurityPolicy#dfps}
   */
   readonly dfps?: number[];
   /**
   * Use ECS for handling policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_security_policy#ecs TdSecurityPolicy#ecs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_security_policy#ecs TdSecurityPolicy#ecs}
   */
   readonly ecs?: boolean | cdktf.IResolvable;
   /**
   * The name of the security policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_security_policy#name TdSecurityPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_security_policy#name TdSecurityPolicy#name}
   */
   readonly name: string;
   /**
   * List of DFPs associated with this policy via network address (with corresponding network address)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_security_policy#net_address_dfps TdSecurityPolicy#net_address_dfps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_security_policy#net_address_dfps TdSecurityPolicy#net_address_dfps}
   */
   readonly netAddressDfps?: TdSecurityPolicyNetAddressDfps[] | cdktf.IResolvable;
   /**
   * The list of Network Lists identifiers that represents networks that you want to protect from malicious attacks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_security_policy#network_lists TdSecurityPolicy#network_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_security_policy#network_lists TdSecurityPolicy#network_lists}
   */
   readonly networkLists?: number[];
   /**
   * Use DNS resolve on onprem side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_security_policy#onprem_resolve TdSecurityPolicy#onprem_resolve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_security_policy#onprem_resolve TdSecurityPolicy#onprem_resolve}
   */
   readonly onpremResolve?: boolean | cdktf.IResolvable;
   /**
   * Security precedence enable selection of the highest priority policy, in cases where a query matches multiple policies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_security_policy#precedence TdSecurityPolicy#precedence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_security_policy#precedence TdSecurityPolicy#precedence}
   */
   readonly precedence?: number;
   /**
   * The list of BloxOne Endpoint groups identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_security_policy#roaming_device_groups TdSecurityPolicy#roaming_device_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_security_policy#roaming_device_groups TdSecurityPolicy#roaming_device_groups}
   */
   readonly roamingDeviceGroups?: number[];
   /**
   * The list of Security Policy Rules objects that represent the set of rules and actions that you define to balance access and constraints so you can mitigate malicious attacks and provide security for your networks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_security_policy#rules TdSecurityPolicy#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_security_policy#rules TdSecurityPolicy#rules}
   */
   readonly rules?: TdSecurityPolicyRules[] | cdktf.IResolvable;
   /**
   * Apply automated rules to enforce safe search
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_security_policy#safe_search TdSecurityPolicy#safe_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_security_policy#safe_search TdSecurityPolicy#safe_search}
   */
   readonly safeSearch?: boolean | cdktf.IResolvable;
   /**
   * Enables tag support for resource where tags attribute contains user-defined key value pairs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_security_policy#tags TdSecurityPolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_security_policy#tags TdSecurityPolicy#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * List of user groups associated with this policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_security_policy#user_groups TdSecurityPolicy#user_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_security_policy#user_groups TdSecurityPolicy#user_groups}
   */
   readonly userGroups?: string[];
 }
@@ -108,39 +108,39 @@ export interface TdSecurityPolicyNetAddressDfps {
   /**
   * network address in IPv4 CIDR (address/bitmask length) string format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_security_policy#addr_net TdSecurityPolicy#addr_net}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_security_policy#addr_net TdSecurityPolicy#addr_net}
   */
   readonly addrNet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_security_policy#end TdSecurityPolicy#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_security_policy#end TdSecurityPolicy#end}
   */
   readonly end?: string;
   /**
   * external scope ID, UUID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_security_policy#external_scope_id TdSecurityPolicy#external_scope_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_security_policy#external_scope_id TdSecurityPolicy#external_scope_id}
   */
   readonly externalScopeId?: string;
   /**
   * Host reference, UUID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_security_policy#host_id TdSecurityPolicy#host_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_security_policy#host_id TdSecurityPolicy#host_id}
   */
   readonly hostId?: string;
   /**
   * IPSpace reference, UUID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_security_policy#ip_space_id TdSecurityPolicy#ip_space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_security_policy#ip_space_id TdSecurityPolicy#ip_space_id}
   */
   readonly ipSpaceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_security_policy#scope_type TdSecurityPolicy#scope_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_security_policy#scope_type TdSecurityPolicy#scope_type}
   */
   readonly scopeType?: string;
   /**
   * Start and end pair of addresses used for range scope type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_security_policy#start TdSecurityPolicy#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_security_policy#start TdSecurityPolicy#start}
   */
   readonly start?: string;
 }
@@ -442,31 +442,31 @@ export interface TdSecurityPolicyRules {
   /**
   * The action for the policy rule that can be either "action_allow" or "action_log" or "action_redirect" or "action_block" or "action_allow_with_local_resolution". "action_allow_with_local_resolution" only supported for application filter rule with enabled onprem_resolve flag on the Security policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_security_policy#action TdSecurityPolicy#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_security_policy#action TdSecurityPolicy#action}
   */
   readonly action?: string;
   /**
   * The data source for the policy rule, that can be either a name of the predefined feed for "named_feed", custom list name for "custom_list" type, category filter name for "category_filter" type and application filter name for "application_filter" type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_security_policy#data TdSecurityPolicy#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_security_policy#data TdSecurityPolicy#data}
   */
   readonly data?: string;
   /**
   * The name of the security policy with which the policy rule is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_security_policy#policy_name TdSecurityPolicy#policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_security_policy#policy_name TdSecurityPolicy#policy_name}
   */
   readonly policyName?: string;
   /**
   * The name of the redirect address for redirect actions that can be either IPv4 address or a domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_security_policy#redirect_name TdSecurityPolicy#redirect_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_security_policy#redirect_name TdSecurityPolicy#redirect_name}
   */
   readonly redirectName?: string;
   /**
   * The policy rule type that can be either "named_feed" or "custom_list" or "category_filter" or "application_filter".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_security_policy#type TdSecurityPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_security_policy#type TdSecurityPolicy#type}
   */
   readonly type?: string;
 }
@@ -708,7 +708,7 @@ export class TdSecurityPolicyRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_security_policy bloxone_td_security_policy}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_security_policy bloxone_td_security_policy}
 */
 export class TdSecurityPolicy extends cdktf.TerraformResource {
 
@@ -724,7 +724,7 @@ export class TdSecurityPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TdSecurityPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TdSecurityPolicy to import
-  * @param importFromId The id of the existing TdSecurityPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_security_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TdSecurityPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_security_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TdSecurityPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -736,7 +736,7 @@ export class TdSecurityPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/td_security_policy bloxone_td_security_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/td_security_policy bloxone_td_security_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -747,8 +747,8 @@ export class TdSecurityPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'bloxone_td_security_policy',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.5.4',
+        providerVersionConstraint: '1.5.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

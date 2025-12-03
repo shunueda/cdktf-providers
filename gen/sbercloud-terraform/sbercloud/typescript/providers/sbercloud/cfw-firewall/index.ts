@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_firewall
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_firewall
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,47 +8,47 @@ import * as cdktf from 'cdktf';
 
 export interface CfwFirewallConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_firewall#auto_renew CfwFirewall#auto_renew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_firewall#auto_renew CfwFirewall#auto_renew}
   */
   readonly autoRenew?: string;
   /**
   * Specifies the charging mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_firewall#charging_mode CfwFirewall#charging_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_firewall#charging_mode CfwFirewall#charging_mode}
   */
   readonly chargingMode?: string;
   /**
   * Specifies the ER ID of the east-west firewall.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_firewall#east_west_firewall_er_id CfwFirewall#east_west_firewall_er_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_firewall#east_west_firewall_er_id CfwFirewall#east_west_firewall_er_id}
   */
   readonly eastWestFirewallErId?: string;
   /**
   * Specifies the inspection cidr of the east-west firewall.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_firewall#east_west_firewall_inspection_cidr CfwFirewall#east_west_firewall_inspection_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_firewall#east_west_firewall_inspection_cidr CfwFirewall#east_west_firewall_inspection_cidr}
   */
   readonly eastWestFirewallInspectionCidr?: string;
   /**
   * Specifies the mode of the east-west firewall.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_firewall#east_west_firewall_mode CfwFirewall#east_west_firewall_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_firewall#east_west_firewall_mode CfwFirewall#east_west_firewall_mode}
   */
   readonly eastWestFirewallMode?: string;
   /**
   * Specifies the protection statue of the east-west firewall.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_firewall#east_west_firewall_status CfwFirewall#east_west_firewall_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_firewall#east_west_firewall_status CfwFirewall#east_west_firewall_status}
   */
   readonly eastWestFirewallStatus?: number;
   /**
   * Specifies the enterprise project ID of the firewall.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_firewall#enterprise_project_id CfwFirewall#enterprise_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_firewall#enterprise_project_id CfwFirewall#enterprise_project_id}
   */
   readonly enterpriseProjectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_firewall#id CfwFirewall#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_firewall#id CfwFirewall#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -57,47 +57,47 @@ export interface CfwFirewallConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies the IPS protection mode of the firewall.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_firewall#ips_protection_mode CfwFirewall#ips_protection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_firewall#ips_protection_mode CfwFirewall#ips_protection_mode}
   */
   readonly ipsProtectionMode?: number;
   /**
   * Specifies the IPS patch switch status of the firewall.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_firewall#ips_switch_status CfwFirewall#ips_switch_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_firewall#ips_switch_status CfwFirewall#ips_switch_status}
   */
   readonly ipsSwitchStatus?: number;
   /**
   * Specifies the firewall name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_firewall#name CfwFirewall#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_firewall#name CfwFirewall#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_firewall#period CfwFirewall#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_firewall#period CfwFirewall#period}
   */
   readonly period?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_firewall#period_unit CfwFirewall#period_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_firewall#period_unit CfwFirewall#period_unit}
   */
   readonly periodUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_firewall#region CfwFirewall#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_firewall#region CfwFirewall#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_firewall#tags CfwFirewall#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_firewall#tags CfwFirewall#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * flavor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_firewall#flavor CfwFirewall#flavor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_firewall#flavor CfwFirewall#flavor}
   */
   readonly flavor: CfwFirewallFlavor;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_firewall#timeouts CfwFirewall#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_firewall#timeouts CfwFirewall#timeouts}
   */
   readonly timeouts?: CfwFirewallTimeouts;
 }
@@ -190,25 +190,25 @@ export interface CfwFirewallFlavor {
   /**
   * Specifies the extend bandwidth of the firewall.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_firewall#extend_bandwidth CfwFirewall#extend_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_firewall#extend_bandwidth CfwFirewall#extend_bandwidth}
   */
   readonly extendBandwidth?: number;
   /**
   * Specifies the extend EIP number of the firewall.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_firewall#extend_eip_count CfwFirewall#extend_eip_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_firewall#extend_eip_count CfwFirewall#extend_eip_count}
   */
   readonly extendEipCount?: number;
   /**
   * Specifies the extend VPC number of the firewall.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_firewall#extend_vpc_count CfwFirewall#extend_vpc_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_firewall#extend_vpc_count CfwFirewall#extend_vpc_count}
   */
   readonly extendVpcCount?: number;
   /**
   * Specifies the version of the firewall.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_firewall#version CfwFirewall#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_firewall#version CfwFirewall#version}
   */
   readonly version: string;
 }
@@ -431,11 +431,11 @@ export class CfwFirewallFlavorOutputReference extends cdktf.ComplexObject {
 }
 export interface CfwFirewallTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_firewall#create CfwFirewall#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_firewall#create CfwFirewall#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_firewall#delete CfwFirewall#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_firewall#delete CfwFirewall#delete}
   */
   readonly delete?: string;
 }
@@ -558,7 +558,7 @@ export class CfwFirewallTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_firewall sbercloud_cfw_firewall}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_firewall sbercloud_cfw_firewall}
 */
 export class CfwFirewall extends cdktf.TerraformResource {
 
@@ -574,7 +574,7 @@ export class CfwFirewall extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CfwFirewall resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CfwFirewall to import
-  * @param importFromId The id of the existing CfwFirewall that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_firewall#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CfwFirewall that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_firewall#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CfwFirewall to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -586,7 +586,7 @@ export class CfwFirewall extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/cfw_firewall sbercloud_cfw_firewall} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/cfw_firewall sbercloud_cfw_firewall} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -597,8 +597,8 @@ export class CfwFirewall extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_cfw_firewall',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,154 +8,154 @@ import * as cdktf from 'cdktf';
 
 export interface CssClusterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#auto_renew CssCluster#auto_renew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#auto_renew CssCluster#auto_renew}
   */
   readonly autoRenew?: string;
   /**
   * schema: Required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#availability_zone CssCluster#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#availability_zone CssCluster#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#charging_mode CssCluster#charging_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#charging_mode CssCluster#charging_mode}
   */
   readonly chargingMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#enable_force_new CssCluster#enable_force_new}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#enable_force_new CssCluster#enable_force_new}
   */
   readonly enableForceNew?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#engine_type CssCluster#engine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#engine_type CssCluster#engine_type}
   */
   readonly engineType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#engine_version CssCluster#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#engine_version CssCluster#engine_version}
   */
   readonly engineVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#enterprise_project_id CssCluster#enterprise_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#enterprise_project_id CssCluster#enterprise_project_id}
   */
   readonly enterpriseProjectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#expect_node_num CssCluster#expect_node_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#expect_node_num CssCluster#expect_node_num}
   */
   readonly expectNodeNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#https_enabled CssCluster#https_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#https_enabled CssCluster#https_enabled}
   */
   readonly httpsEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#id CssCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#id CssCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#name CssCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#name CssCluster#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#password CssCluster#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#password CssCluster#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#period CssCluster#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#period CssCluster#period}
   */
   readonly period?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#period_unit CssCluster#period_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#period_unit CssCluster#period_unit}
   */
   readonly periodUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#region CssCluster#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#region CssCluster#region}
   */
   readonly region?: string;
   /**
   * schema: Required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#security_group_id CssCluster#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#security_group_id CssCluster#security_group_id}
   */
   readonly securityGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#security_mode CssCluster#security_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#security_mode CssCluster#security_mode}
   */
   readonly securityMode?: boolean | cdktf.IResolvable;
   /**
   * schema: Required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#subnet_id CssCluster#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#subnet_id CssCluster#subnet_id}
   */
   readonly subnetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#tags CssCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#tags CssCluster#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * schema: Required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#vpc_id CssCluster#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#vpc_id CssCluster#vpc_id}
   */
   readonly vpcId?: string;
   /**
   * backup_strategy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#backup_strategy CssCluster#backup_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#backup_strategy CssCluster#backup_strategy}
   */
   readonly backupStrategy?: CssClusterBackupStrategy;
   /**
   * client_node_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#client_node_config CssCluster#client_node_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#client_node_config CssCluster#client_node_config}
   */
   readonly clientNodeConfig?: CssClusterClientNodeConfig;
   /**
   * cold_node_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#cold_node_config CssCluster#cold_node_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#cold_node_config CssCluster#cold_node_config}
   */
   readonly coldNodeConfig?: CssClusterColdNodeConfig;
   /**
   * ess_node_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#ess_node_config CssCluster#ess_node_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#ess_node_config CssCluster#ess_node_config}
   */
   readonly essNodeConfig?: CssClusterEssNodeConfig;
   /**
   * kibana_public_access block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#kibana_public_access CssCluster#kibana_public_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#kibana_public_access CssCluster#kibana_public_access}
   */
   readonly kibanaPublicAccess?: CssClusterKibanaPublicAccess;
   /**
   * master_node_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#master_node_config CssCluster#master_node_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#master_node_config CssCluster#master_node_config}
   */
   readonly masterNodeConfig?: CssClusterMasterNodeConfig;
   /**
   * node_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#node_config CssCluster#node_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#node_config CssCluster#node_config}
   */
   readonly nodeConfig?: CssClusterNodeConfig;
   /**
   * public_access block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#public_access CssCluster#public_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#public_access CssCluster#public_access}
   */
   readonly publicAccess?: CssClusterPublicAccess;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#timeouts CssCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#timeouts CssCluster#timeouts}
   */
   readonly timeouts?: CssClusterTimeouts;
   /**
   * vpcep_endpoint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#vpcep_endpoint CssCluster#vpcep_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#vpcep_endpoint CssCluster#vpcep_endpoint}
   */
   readonly vpcepEndpoint?: CssClusterVpcepEndpoint;
 }
@@ -271,27 +271,27 @@ export class CssClusterNodesList extends cdktf.ComplexList {
 }
 export interface CssClusterBackupStrategy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#agency CssCluster#agency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#agency CssCluster#agency}
   */
   readonly agency?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#backup_path CssCluster#backup_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#backup_path CssCluster#backup_path}
   */
   readonly backupPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#bucket CssCluster#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#bucket CssCluster#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#keep_days CssCluster#keep_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#keep_days CssCluster#keep_days}
   */
   readonly keepDays?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#prefix CssCluster#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#prefix CssCluster#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#start_time CssCluster#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#start_time CssCluster#start_time}
   */
   readonly startTime: string;
 }
@@ -517,11 +517,11 @@ export class CssClusterBackupStrategyOutputReference extends cdktf.ComplexObject
 }
 export interface CssClusterClientNodeConfigVolume {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#size CssCluster#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#size CssCluster#size}
   */
   readonly size: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#volume_type CssCluster#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#volume_type CssCluster#volume_type}
   */
   readonly volumeType: string;
 }
@@ -628,21 +628,21 @@ export class CssClusterClientNodeConfigVolumeOutputReference extends cdktf.Compl
 }
 export interface CssClusterClientNodeConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#flavor CssCluster#flavor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#flavor CssCluster#flavor}
   */
   readonly flavor: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#instance_number CssCluster#instance_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#instance_number CssCluster#instance_number}
   */
   readonly instanceNumber: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#shrink_node_ids CssCluster#shrink_node_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#shrink_node_ids CssCluster#shrink_node_ids}
   */
   readonly shrinkNodeIds?: string[];
   /**
   * volume block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#volume CssCluster#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#volume CssCluster#volume}
   */
   readonly volume: CssClusterClientNodeConfigVolume;
 }
@@ -804,11 +804,11 @@ export class CssClusterClientNodeConfigOutputReference extends cdktf.ComplexObje
 }
 export interface CssClusterColdNodeConfigVolume {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#size CssCluster#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#size CssCluster#size}
   */
   readonly size: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#volume_type CssCluster#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#volume_type CssCluster#volume_type}
   */
   readonly volumeType: string;
 }
@@ -915,21 +915,21 @@ export class CssClusterColdNodeConfigVolumeOutputReference extends cdktf.Complex
 }
 export interface CssClusterColdNodeConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#flavor CssCluster#flavor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#flavor CssCluster#flavor}
   */
   readonly flavor: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#instance_number CssCluster#instance_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#instance_number CssCluster#instance_number}
   */
   readonly instanceNumber: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#shrink_node_ids CssCluster#shrink_node_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#shrink_node_ids CssCluster#shrink_node_ids}
   */
   readonly shrinkNodeIds?: string[];
   /**
   * volume block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#volume CssCluster#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#volume CssCluster#volume}
   */
   readonly volume?: CssClusterColdNodeConfigVolume;
 }
@@ -1094,11 +1094,11 @@ export class CssClusterColdNodeConfigOutputReference extends cdktf.ComplexObject
 }
 export interface CssClusterEssNodeConfigVolume {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#size CssCluster#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#size CssCluster#size}
   */
   readonly size: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#volume_type CssCluster#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#volume_type CssCluster#volume_type}
   */
   readonly volumeType: string;
 }
@@ -1205,21 +1205,21 @@ export class CssClusterEssNodeConfigVolumeOutputReference extends cdktf.ComplexO
 }
 export interface CssClusterEssNodeConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#flavor CssCluster#flavor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#flavor CssCluster#flavor}
   */
   readonly flavor: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#instance_number CssCluster#instance_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#instance_number CssCluster#instance_number}
   */
   readonly instanceNumber: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#shrink_node_ids CssCluster#shrink_node_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#shrink_node_ids CssCluster#shrink_node_ids}
   */
   readonly shrinkNodeIds?: string[];
   /**
   * volume block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#volume CssCluster#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#volume CssCluster#volume}
   */
   readonly volume?: CssClusterEssNodeConfigVolume;
 }
@@ -1384,15 +1384,15 @@ export class CssClusterEssNodeConfigOutputReference extends cdktf.ComplexObject 
 }
 export interface CssClusterKibanaPublicAccess {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#bandwidth CssCluster#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#bandwidth CssCluster#bandwidth}
   */
   readonly bandwidth: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#whitelist CssCluster#whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#whitelist CssCluster#whitelist}
   */
   readonly whitelist?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#whitelist_enabled CssCluster#whitelist_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#whitelist_enabled CssCluster#whitelist_enabled}
   */
   readonly whitelistEnabled: boolean | cdktf.IResolvable;
 }
@@ -1533,11 +1533,11 @@ export class CssClusterKibanaPublicAccessOutputReference extends cdktf.ComplexOb
 }
 export interface CssClusterMasterNodeConfigVolume {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#size CssCluster#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#size CssCluster#size}
   */
   readonly size: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#volume_type CssCluster#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#volume_type CssCluster#volume_type}
   */
   readonly volumeType: string;
 }
@@ -1644,21 +1644,21 @@ export class CssClusterMasterNodeConfigVolumeOutputReference extends cdktf.Compl
 }
 export interface CssClusterMasterNodeConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#flavor CssCluster#flavor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#flavor CssCluster#flavor}
   */
   readonly flavor: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#instance_number CssCluster#instance_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#instance_number CssCluster#instance_number}
   */
   readonly instanceNumber: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#shrink_node_ids CssCluster#shrink_node_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#shrink_node_ids CssCluster#shrink_node_ids}
   */
   readonly shrinkNodeIds?: string[];
   /**
   * volume block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#volume CssCluster#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#volume CssCluster#volume}
   */
   readonly volume: CssClusterMasterNodeConfigVolume;
 }
@@ -1820,15 +1820,15 @@ export class CssClusterMasterNodeConfigOutputReference extends cdktf.ComplexObje
 }
 export interface CssClusterNodeConfigNetworkInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#security_group_id CssCluster#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#security_group_id CssCluster#security_group_id}
   */
   readonly securityGroupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#subnet_id CssCluster#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#subnet_id CssCluster#subnet_id}
   */
   readonly subnetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#vpc_id CssCluster#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#vpc_id CssCluster#vpc_id}
   */
   readonly vpcId: string;
 }
@@ -1961,11 +1961,11 @@ export class CssClusterNodeConfigNetworkInfoOutputReference extends cdktf.Comple
 }
 export interface CssClusterNodeConfigVolume {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#size CssCluster#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#size CssCluster#size}
   */
   readonly size: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#volume_type CssCluster#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#volume_type CssCluster#volume_type}
   */
   readonly volumeType: string;
 }
@@ -2072,23 +2072,23 @@ export class CssClusterNodeConfigVolumeOutputReference extends cdktf.ComplexObje
 }
 export interface CssClusterNodeConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#availability_zone CssCluster#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#availability_zone CssCluster#availability_zone}
   */
   readonly availabilityZone: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#flavor CssCluster#flavor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#flavor CssCluster#flavor}
   */
   readonly flavor: string;
   /**
   * network_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#network_info CssCluster#network_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#network_info CssCluster#network_info}
   */
   readonly networkInfo: CssClusterNodeConfigNetworkInfo;
   /**
   * volume block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#volume CssCluster#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#volume CssCluster#volume}
   */
   readonly volume: CssClusterNodeConfigVolume;
 }
@@ -2247,15 +2247,15 @@ export class CssClusterNodeConfigOutputReference extends cdktf.ComplexObject {
 }
 export interface CssClusterPublicAccess {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#bandwidth CssCluster#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#bandwidth CssCluster#bandwidth}
   */
   readonly bandwidth: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#whitelist CssCluster#whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#whitelist CssCluster#whitelist}
   */
   readonly whitelist?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#whitelist_enabled CssCluster#whitelist_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#whitelist_enabled CssCluster#whitelist_enabled}
   */
   readonly whitelistEnabled: boolean | cdktf.IResolvable;
 }
@@ -2396,15 +2396,15 @@ export class CssClusterPublicAccessOutputReference extends cdktf.ComplexObject {
 }
 export interface CssClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#create CssCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#create CssCluster#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#delete CssCluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#delete CssCluster#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#update CssCluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#update CssCluster#update}
   */
   readonly update?: string;
 }
@@ -2556,11 +2556,11 @@ export class CssClusterTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 export interface CssClusterVpcepEndpoint {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#endpoint_with_dns_name CssCluster#endpoint_with_dns_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#endpoint_with_dns_name CssCluster#endpoint_with_dns_name}
   */
   readonly endpointWithDnsName: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#whitelist CssCluster#whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#whitelist CssCluster#whitelist}
   */
   readonly whitelist?: string[];
 }
@@ -2670,7 +2670,7 @@ export class CssClusterVpcepEndpointOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster sbercloud_css_cluster}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster sbercloud_css_cluster}
 */
 export class CssCluster extends cdktf.TerraformResource {
 
@@ -2686,7 +2686,7 @@ export class CssCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CssCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CssCluster to import
-  * @param importFromId The id of the existing CssCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CssCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CssCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2698,7 +2698,7 @@ export class CssCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/css_cluster sbercloud_css_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/css_cluster sbercloud_css_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2709,8 +2709,8 @@ export class CssCluster extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_css_cluster',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

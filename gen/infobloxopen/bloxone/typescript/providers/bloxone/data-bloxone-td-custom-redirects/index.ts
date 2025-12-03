@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_custom_redirects
+// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_custom_redirects
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataBloxoneTdCustomRedirectsConfig extends cdktf.TerraformMetaA
   /**
   * Filter are used to return a more specific list of results. Filters can be used to match resources by specific attributes, e.g. name. If you specify multiple filters, the results returned will have only resources that match all the specified filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_custom_redirects#filters DataBloxoneTdCustomRedirects#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_custom_redirects#filters DataBloxoneTdCustomRedirects#filters}
   */
   readonly filters?: { [key: string]: string };
 }
@@ -18,13 +18,13 @@ export interface DataBloxoneTdCustomRedirectsResults {
   /**
   * The list of csv custom IPv4/IPv6 or a single domain redirect address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_custom_redirects#data DataBloxoneTdCustomRedirects#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_custom_redirects#data DataBloxoneTdCustomRedirects#data}
   */
   readonly data: string;
   /**
   * The name of the custom redirect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_custom_redirects#name DataBloxoneTdCustomRedirects#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_custom_redirects#name DataBloxoneTdCustomRedirects#name}
   */
   readonly name: string;
 }
@@ -178,7 +178,7 @@ export class DataBloxoneTdCustomRedirectsResultsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_custom_redirects bloxone_td_custom_redirects}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_custom_redirects bloxone_td_custom_redirects}
 */
 export class DataBloxoneTdCustomRedirects extends cdktf.TerraformDataSource {
 
@@ -194,7 +194,7 @@ export class DataBloxoneTdCustomRedirects extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataBloxoneTdCustomRedirects resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataBloxoneTdCustomRedirects to import
-  * @param importFromId The id of the existing DataBloxoneTdCustomRedirects that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_custom_redirects#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataBloxoneTdCustomRedirects that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_custom_redirects#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataBloxoneTdCustomRedirects to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -206,7 +206,7 @@ export class DataBloxoneTdCustomRedirects extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/data-sources/td_custom_redirects bloxone_td_custom_redirects} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/data-sources/td_custom_redirects bloxone_td_custom_redirects} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -217,8 +217,8 @@ export class DataBloxoneTdCustomRedirects extends cdktf.TerraformDataSource {
       terraformResourceType: 'bloxone_td_custom_redirects',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.5.4',
+        providerVersionConstraint: '1.5.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

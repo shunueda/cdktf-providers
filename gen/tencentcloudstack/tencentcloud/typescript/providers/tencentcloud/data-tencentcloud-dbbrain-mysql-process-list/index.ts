@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dbbrain_mysql_process_list
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dbbrain_mysql_process_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataTencentcloudDbbrainMysqlProcessListConfig extends cdktf.Ter
   /**
   * The execution type of the thread, used to filter the thread list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dbbrain_mysql_process_list#command DataTencentcloudDbbrainMysqlProcessList#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dbbrain_mysql_process_list#command DataTencentcloudDbbrainMysqlProcessList#command}
   */
   readonly command?: string;
   /**
   * The threads operations database, used to filter the thread list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dbbrain_mysql_process_list#db DataTencentcloudDbbrainMysqlProcessList#db}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dbbrain_mysql_process_list#db DataTencentcloudDbbrainMysqlProcessList#db}
   */
   readonly db?: string;
   /**
   * The operating host address of the thread, used to filter the thread list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dbbrain_mysql_process_list#host DataTencentcloudDbbrainMysqlProcessList#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dbbrain_mysql_process_list#host DataTencentcloudDbbrainMysqlProcessList#host}
   */
   readonly host?: string;
   /**
   * thread ID, used to filter the thread list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dbbrain_mysql_process_list#id DataTencentcloudDbbrainMysqlProcessList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dbbrain_mysql_process_list#id DataTencentcloudDbbrainMysqlProcessList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -37,43 +37,43 @@ export interface DataTencentcloudDbbrainMysqlProcessListConfig extends cdktf.Ter
   /**
   * The threads operation statement is used to filter the thread list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dbbrain_mysql_process_list#info DataTencentcloudDbbrainMysqlProcessList#info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dbbrain_mysql_process_list#info DataTencentcloudDbbrainMysqlProcessList#info}
   */
   readonly info?: string;
   /**
   * instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dbbrain_mysql_process_list#instance_id DataTencentcloudDbbrainMysqlProcessList#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dbbrain_mysql_process_list#instance_id DataTencentcloudDbbrainMysqlProcessList#instance_id}
   */
   readonly instanceId: string;
   /**
   * Service product type, supported values: `mysql` - cloud database MySQL; `cynosdb` - cloud database TDSQL-C for MySQL, the default is `mysql`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dbbrain_mysql_process_list#product DataTencentcloudDbbrainMysqlProcessList#product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dbbrain_mysql_process_list#product DataTencentcloudDbbrainMysqlProcessList#product}
   */
   readonly product?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dbbrain_mysql_process_list#result_output_file DataTencentcloudDbbrainMysqlProcessList#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dbbrain_mysql_process_list#result_output_file DataTencentcloudDbbrainMysqlProcessList#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * The operational state of the thread, used to filter the thread list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dbbrain_mysql_process_list#state DataTencentcloudDbbrainMysqlProcessList#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dbbrain_mysql_process_list#state DataTencentcloudDbbrainMysqlProcessList#state}
   */
   readonly state?: string;
   /**
   * The minimum value of the operation duration of a thread, in seconds, used to filter the list of threads whose operation duration is longer than this value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dbbrain_mysql_process_list#time DataTencentcloudDbbrainMysqlProcessList#time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dbbrain_mysql_process_list#time DataTencentcloudDbbrainMysqlProcessList#time}
   */
   readonly time?: number;
   /**
   * The operating account name of the thread, used to filter the thread list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dbbrain_mysql_process_list#user DataTencentcloudDbbrainMysqlProcessList#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dbbrain_mysql_process_list#user DataTencentcloudDbbrainMysqlProcessList#user}
   */
   readonly user?: string;
 }
@@ -189,7 +189,7 @@ export class DataTencentcloudDbbrainMysqlProcessListProcessListStructList extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dbbrain_mysql_process_list tencentcloud_dbbrain_mysql_process_list}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dbbrain_mysql_process_list tencentcloud_dbbrain_mysql_process_list}
 */
 export class DataTencentcloudDbbrainMysqlProcessList extends cdktf.TerraformDataSource {
 
@@ -205,7 +205,7 @@ export class DataTencentcloudDbbrainMysqlProcessList extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataTencentcloudDbbrainMysqlProcessList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudDbbrainMysqlProcessList to import
-  * @param importFromId The id of the existing DataTencentcloudDbbrainMysqlProcessList that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dbbrain_mysql_process_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudDbbrainMysqlProcessList that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dbbrain_mysql_process_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudDbbrainMysqlProcessList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -217,7 +217,7 @@ export class DataTencentcloudDbbrainMysqlProcessList extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dbbrain_mysql_process_list tencentcloud_dbbrain_mysql_process_list} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dbbrain_mysql_process_list tencentcloud_dbbrain_mysql_process_list} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -228,8 +228,8 @@ export class DataTencentcloudDbbrainMysqlProcessList extends cdktf.TerraformData
       terraformResourceType: 'tencentcloud_dbbrain_mysql_process_list',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.39',
-        providerVersionConstraint: '1.82.39'
+        providerVersion: '1.82.40',
+        providerVersionConstraint: '1.82.40'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

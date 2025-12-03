@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/vpc_private_ip_addresses
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/vpc_private_ip_addresses
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudVpcPrivateIpAddressesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/vpc_private_ip_addresses#id DataTencentcloudVpcPrivateIpAddresses#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/vpc_private_ip_addresses#id DataTencentcloudVpcPrivateIpAddresses#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataTencentcloudVpcPrivateIpAddressesConfig extends cdktf.Terra
   /**
   * The private `IP` address list. Each request supports a maximum of `10` batch querying.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/vpc_private_ip_addresses#private_ip_addresses DataTencentcloudVpcPrivateIpAddresses#private_ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/vpc_private_ip_addresses#private_ip_addresses DataTencentcloudVpcPrivateIpAddresses#private_ip_addresses}
   */
   readonly privateIpAddresses: string[];
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/vpc_private_ip_addresses#result_output_file DataTencentcloudVpcPrivateIpAddresses#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/vpc_private_ip_addresses#result_output_file DataTencentcloudVpcPrivateIpAddresses#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * The `ID` of the `VPC`, such as `vpc-f49l6u0z`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/vpc_private_ip_addresses#vpc_id DataTencentcloudVpcPrivateIpAddresses#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/vpc_private_ip_addresses#vpc_id DataTencentcloudVpcPrivateIpAddresses#vpc_id}
   */
   readonly vpcId: string;
 }
@@ -125,7 +125,7 @@ export class DataTencentcloudVpcPrivateIpAddressesVpcPrivateIpAddressSetList ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/vpc_private_ip_addresses tencentcloud_vpc_private_ip_addresses}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/vpc_private_ip_addresses tencentcloud_vpc_private_ip_addresses}
 */
 export class DataTencentcloudVpcPrivateIpAddresses extends cdktf.TerraformDataSource {
 
@@ -141,7 +141,7 @@ export class DataTencentcloudVpcPrivateIpAddresses extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataTencentcloudVpcPrivateIpAddresses resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudVpcPrivateIpAddresses to import
-  * @param importFromId The id of the existing DataTencentcloudVpcPrivateIpAddresses that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/vpc_private_ip_addresses#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudVpcPrivateIpAddresses that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/vpc_private_ip_addresses#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudVpcPrivateIpAddresses to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -153,7 +153,7 @@ export class DataTencentcloudVpcPrivateIpAddresses extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/vpc_private_ip_addresses tencentcloud_vpc_private_ip_addresses} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/vpc_private_ip_addresses tencentcloud_vpc_private_ip_addresses} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -164,8 +164,8 @@ export class DataTencentcloudVpcPrivateIpAddresses extends cdktf.TerraformDataSo
       terraformResourceType: 'tencentcloud_vpc_private_ip_addresses',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.39',
-        providerVersionConstraint: '1.82.39'
+        providerVersion: '1.82.40',
+        providerVersionConstraint: '1.82.40'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,3 +1,3 @@
 # `stackit_observability_instance`
 
-Refer to the Terraform Registry for docs: [`stackit_observability_instance`](https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/observability_instance).
+Refer to the Terraform Registry for docs: [`stackit_observability_instance`](https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/observability_instance).

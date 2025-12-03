@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dcs_accounts
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dcs_accounts
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface DataSbercloudDcsAccountsConfig extends cdktf.TerraformMetaArgum
   /**
   * Specifies the account name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dcs_accounts#account_name DataSbercloudDcsAccounts#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dcs_accounts#account_name DataSbercloudDcsAccounts#account_name}
   */
   readonly accountName?: string;
   /**
   * Specifies the account role. The value can be **read** or **write**.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dcs_accounts#account_role DataSbercloudDcsAccounts#account_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dcs_accounts#account_role DataSbercloudDcsAccounts#account_role}
   */
   readonly accountRole?: string;
   /**
   * Specifies the account type. The value can be **normal** or **default**.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dcs_accounts#account_type DataSbercloudDcsAccounts#account_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dcs_accounts#account_type DataSbercloudDcsAccounts#account_type}
   */
   readonly accountType?: string;
   /**
   * Specifies the account description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dcs_accounts#description DataSbercloudDcsAccounts#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dcs_accounts#description DataSbercloudDcsAccounts#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dcs_accounts#id DataSbercloudDcsAccounts#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dcs_accounts#id DataSbercloudDcsAccounts#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,19 +41,19 @@ export interface DataSbercloudDcsAccountsConfig extends cdktf.TerraformMetaArgum
   /**
   * Specifies the instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dcs_accounts#instance_id DataSbercloudDcsAccounts#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dcs_accounts#instance_id DataSbercloudDcsAccounts#instance_id}
   */
   readonly instanceId: string;
   /**
   * Specifies the region in which to query the resource. If omitted, the provider-level region will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dcs_accounts#region DataSbercloudDcsAccounts#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dcs_accounts#region DataSbercloudDcsAccounts#region}
   */
   readonly region?: string;
   /**
   * Specifies the account status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dcs_accounts#status DataSbercloudDcsAccounts#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dcs_accounts#status DataSbercloudDcsAccounts#status}
   */
   readonly status?: string;
 }
@@ -159,7 +159,7 @@ export class DataSbercloudDcsAccountsAccountsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dcs_accounts sbercloud_dcs_accounts}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dcs_accounts sbercloud_dcs_accounts}
 */
 export class DataSbercloudDcsAccounts extends cdktf.TerraformDataSource {
 
@@ -175,7 +175,7 @@ export class DataSbercloudDcsAccounts extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSbercloudDcsAccounts resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSbercloudDcsAccounts to import
-  * @param importFromId The id of the existing DataSbercloudDcsAccounts that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dcs_accounts#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSbercloudDcsAccounts that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dcs_accounts#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSbercloudDcsAccounts to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -187,7 +187,7 @@ export class DataSbercloudDcsAccounts extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/data-sources/dcs_accounts sbercloud_dcs_accounts} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/data-sources/dcs_accounts sbercloud_dcs_accounts} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -198,8 +198,8 @@ export class DataSbercloudDcsAccounts extends cdktf.TerraformDataSource {
       terraformResourceType: 'sbercloud_dcs_accounts',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

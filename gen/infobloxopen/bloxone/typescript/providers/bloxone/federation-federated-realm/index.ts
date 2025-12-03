@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/federation_federated_realm
+// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/federation_federated_realm
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface FederationFederatedRealmConfig extends cdktf.TerraformMetaArgum
   /**
   * The description of the federated realm. May contain 0 to 1024 characters. Can include UTF-8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/federation_federated_realm#comment FederationFederatedRealm#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/federation_federated_realm#comment FederationFederatedRealm#comment}
   */
   readonly comment?: string;
   /**
   * The name of the federated realm. May contain 1 to 256 characters; can include UTF-8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/federation_federated_realm#name FederationFederatedRealm#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/federation_federated_realm#name FederationFederatedRealm#name}
   */
   readonly name: string;
   /**
   * The tags for the federation block in JSON format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/federation_federated_realm#tags FederationFederatedRealm#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/federation_federated_realm#tags FederationFederatedRealm#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -97,7 +97,7 @@ export class FederationFederatedRealmAllocationV4OutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/federation_federated_realm bloxone_federation_federated_realm}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/federation_federated_realm bloxone_federation_federated_realm}
 */
 export class FederationFederatedRealm extends cdktf.TerraformResource {
 
@@ -113,7 +113,7 @@ export class FederationFederatedRealm extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FederationFederatedRealm resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FederationFederatedRealm to import
-  * @param importFromId The id of the existing FederationFederatedRealm that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/federation_federated_realm#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FederationFederatedRealm that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/federation_federated_realm#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FederationFederatedRealm to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -125,7 +125,7 @@ export class FederationFederatedRealm extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/federation_federated_realm bloxone_federation_federated_realm} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/federation_federated_realm bloxone_federation_federated_realm} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -136,8 +136,8 @@ export class FederationFederatedRealm extends cdktf.TerraformResource {
       terraformResourceType: 'bloxone_federation_federated_realm',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.5.4',
+        providerVersionConstraint: '1.5.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

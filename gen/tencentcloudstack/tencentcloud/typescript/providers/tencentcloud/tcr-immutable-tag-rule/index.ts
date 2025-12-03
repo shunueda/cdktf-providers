@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tcr_immutable_tag_rule
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tcr_immutable_tag_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface TcrImmutableTagRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tcr_immutable_tag_rule#id TcrImmutableTagRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tcr_immutable_tag_rule#id TcrImmutableTagRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface TcrImmutableTagRuleConfig extends cdktf.TerraformMetaArguments 
   /**
   * namespace name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tcr_immutable_tag_rule#namespace_name TcrImmutableTagRule#namespace_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tcr_immutable_tag_rule#namespace_name TcrImmutableTagRule#namespace_name}
   */
   readonly namespaceName: string;
   /**
   * instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tcr_immutable_tag_rule#registry_id TcrImmutableTagRule#registry_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tcr_immutable_tag_rule#registry_id TcrImmutableTagRule#registry_id}
   */
   readonly registryId: string;
   /**
   * Tag description list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tcr_immutable_tag_rule#tags TcrImmutableTagRule#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tcr_immutable_tag_rule#tags TcrImmutableTagRule#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tcr_immutable_tag_rule#rule TcrImmutableTagRule#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tcr_immutable_tag_rule#rule TcrImmutableTagRule#rule}
   */
   readonly rule: TcrImmutableTagRuleRule;
 }
@@ -43,31 +43,31 @@ export interface TcrImmutableTagRuleRule {
   /**
   * disable rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tcr_immutable_tag_rule#disabled TcrImmutableTagRule#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tcr_immutable_tag_rule#disabled TcrImmutableTagRule#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * repository decoration type:repoMatches or repoExcludes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tcr_immutable_tag_rule#repository_decoration TcrImmutableTagRule#repository_decoration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tcr_immutable_tag_rule#repository_decoration TcrImmutableTagRule#repository_decoration}
   */
   readonly repositoryDecoration: string;
   /**
   * repository matching rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tcr_immutable_tag_rule#repository_pattern TcrImmutableTagRule#repository_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tcr_immutable_tag_rule#repository_pattern TcrImmutableTagRule#repository_pattern}
   */
   readonly repositoryPattern: string;
   /**
   * tag decoration type: matches or excludes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tcr_immutable_tag_rule#tag_decoration TcrImmutableTagRule#tag_decoration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tcr_immutable_tag_rule#tag_decoration TcrImmutableTagRule#tag_decoration}
   */
   readonly tagDecoration: string;
   /**
   * tag matching rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tcr_immutable_tag_rule#tag_pattern TcrImmutableTagRule#tag_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tcr_immutable_tag_rule#tag_pattern TcrImmutableTagRule#tag_pattern}
   */
   readonly tagPattern: string;
 }
@@ -265,7 +265,7 @@ export class TcrImmutableTagRuleRuleOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tcr_immutable_tag_rule tencentcloud_tcr_immutable_tag_rule}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tcr_immutable_tag_rule tencentcloud_tcr_immutable_tag_rule}
 */
 export class TcrImmutableTagRule extends cdktf.TerraformResource {
 
@@ -281,7 +281,7 @@ export class TcrImmutableTagRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TcrImmutableTagRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TcrImmutableTagRule to import
-  * @param importFromId The id of the existing TcrImmutableTagRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tcr_immutable_tag_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TcrImmutableTagRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tcr_immutable_tag_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TcrImmutableTagRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -293,7 +293,7 @@ export class TcrImmutableTagRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/resources/tcr_immutable_tag_rule tencentcloud_tcr_immutable_tag_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tcr_immutable_tag_rule tencentcloud_tcr_immutable_tag_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -304,8 +304,8 @@ export class TcrImmutableTagRule extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tcr_immutable_tag_rule',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.39',
-        providerVersionConstraint: '1.82.39'
+        providerVersion: '1.82.40',
+        providerVersionConstraint: '1.82.40'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

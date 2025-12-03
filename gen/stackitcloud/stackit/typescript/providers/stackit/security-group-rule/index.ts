@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/security_group_rule
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/security_group_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface SecurityGroupRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The rule description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/security_group_rule#description SecurityGroupRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/security_group_rule#description SecurityGroupRule#description}
   */
   readonly description?: string;
   /**
   * The direction of the traffic which the rule should match. Some of the possible values are: Possible values are: `ingress`, `egress`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/security_group_rule#direction SecurityGroupRule#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/security_group_rule#direction SecurityGroupRule#direction}
   */
   readonly direction: string;
   /**
   * The ethertype which the rule should match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/security_group_rule#ether_type SecurityGroupRule#ether_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/security_group_rule#ether_type SecurityGroupRule#ether_type}
   */
   readonly etherType?: string;
   /**
   * ICMP Parameters. These parameters should only be provided if the protocol is ICMP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/security_group_rule#icmp_parameters SecurityGroupRule#icmp_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/security_group_rule#icmp_parameters SecurityGroupRule#icmp_parameters}
   */
   readonly icmpParameters?: SecurityGroupRuleIcmpParameters;
   /**
   * The remote IP range which the rule should match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/security_group_rule#ip_range SecurityGroupRule#ip_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/security_group_rule#ip_range SecurityGroupRule#ip_range}
   */
   readonly ipRange?: string;
   /**
   * The range of ports. This should only be provided if the protocol is not ICMP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/security_group_rule#port_range SecurityGroupRule#port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/security_group_rule#port_range SecurityGroupRule#port_range}
   */
   readonly portRange?: SecurityGroupRulePortRange;
   /**
   * STACKIT project ID to which the security group rule is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/security_group_rule#project_id SecurityGroupRule#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/security_group_rule#project_id SecurityGroupRule#project_id}
   */
   readonly projectId: string;
   /**
   * The internet protocol which the rule should match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/security_group_rule#protocol SecurityGroupRule#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/security_group_rule#protocol SecurityGroupRule#protocol}
   */
   readonly protocol?: SecurityGroupRuleProtocol;
   /**
   * The remote security group which the rule should match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/security_group_rule#remote_security_group_id SecurityGroupRule#remote_security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/security_group_rule#remote_security_group_id SecurityGroupRule#remote_security_group_id}
   */
   readonly remoteSecurityGroupId?: string;
   /**
   * The security group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/security_group_rule#security_group_id SecurityGroupRule#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/security_group_rule#security_group_id SecurityGroupRule#security_group_id}
   */
   readonly securityGroupId: string;
 }
@@ -72,13 +72,13 @@ export interface SecurityGroupRuleIcmpParameters {
   /**
   * ICMP code. Can be set if the protocol is ICMP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/security_group_rule#code SecurityGroupRule#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/security_group_rule#code SecurityGroupRule#code}
   */
   readonly code: number;
   /**
   * ICMP type. Can be set if the protocol is ICMP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/security_group_rule#type SecurityGroupRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/security_group_rule#type SecurityGroupRule#type}
   */
   readonly type: number;
 }
@@ -197,13 +197,13 @@ export interface SecurityGroupRulePortRange {
   /**
   * The maximum port number. Should be greater or equal to the minimum.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/security_group_rule#max SecurityGroupRule#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/security_group_rule#max SecurityGroupRule#max}
   */
   readonly max: number;
   /**
   * The minimum port number. Should be less or equal to the maximum.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/security_group_rule#min SecurityGroupRule#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/security_group_rule#min SecurityGroupRule#min}
   */
   readonly min: number;
 }
@@ -322,13 +322,13 @@ export interface SecurityGroupRuleProtocol {
   /**
   * The protocol name which the rule should match. Either `name` or `number` must be provided. Possible values are: `ah`, `dccp`, `egp`, `esp`, `gre`, `icmp`, `igmp`, `ipip`, `ipv6-encap`, `ipv6-frag`, `ipv6-icmp`, `ipv6-nonxt`, `ipv6-opts`, `ipv6-route`, `ospf`, `pgm`, `rsvp`, `sctp`, `tcp`, `udp`, `udplite`, `vrrp`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/security_group_rule#name SecurityGroupRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/security_group_rule#name SecurityGroupRule#name}
   */
   readonly name?: string;
   /**
   * The protocol number which the rule should match. Either `name` or `number` must be provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/security_group_rule#number SecurityGroupRule#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/security_group_rule#number SecurityGroupRule#number}
   */
   readonly number?: number;
 }
@@ -451,7 +451,7 @@ export class SecurityGroupRuleProtocolOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/security_group_rule stackit_security_group_rule}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/security_group_rule stackit_security_group_rule}
 */
 export class SecurityGroupRule extends cdktf.TerraformResource {
 
@@ -467,7 +467,7 @@ export class SecurityGroupRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecurityGroupRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityGroupRule to import
-  * @param importFromId The id of the existing SecurityGroupRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/security_group_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityGroupRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/security_group_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityGroupRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -479,7 +479,7 @@ export class SecurityGroupRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/security_group_rule stackit_security_group_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/security_group_rule stackit_security_group_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -490,8 +490,8 @@ export class SecurityGroupRule extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_security_group_rule',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.72.0',
-        providerVersionConstraint: '0.72.0'
+        providerVersion: '0.73.0',
+        providerVersionConstraint: '0.73.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

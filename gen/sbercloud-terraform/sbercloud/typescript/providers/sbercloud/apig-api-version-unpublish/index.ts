@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api_version_unpublish
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api_version_unpublish
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface ApigApiVersionUnpublishConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api_version_unpublish#enable_force_new ApigApiVersionUnpublish#enable_force_new}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api_version_unpublish#enable_force_new ApigApiVersionUnpublish#enable_force_new}
   */
   readonly enableForceNew?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api_version_unpublish#id ApigApiVersionUnpublish#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api_version_unpublish#id ApigApiVersionUnpublish#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,25 +21,25 @@ export interface ApigApiVersionUnpublishConfig extends cdktf.TerraformMetaArgume
   /**
   * The ID of the dedicated instance to which the API version belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api_version_unpublish#instance_id ApigApiVersionUnpublish#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api_version_unpublish#instance_id ApigApiVersionUnpublish#instance_id}
   */
   readonly instanceId: string;
   /**
   * The region where the dedicated instance to which the API version belongs is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api_version_unpublish#region ApigApiVersionUnpublish#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api_version_unpublish#region ApigApiVersionUnpublish#region}
   */
   readonly region?: string;
   /**
   * The ID of the API version to be offline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api_version_unpublish#version_id ApigApiVersionUnpublish#version_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api_version_unpublish#version_id ApigApiVersionUnpublish#version_id}
   */
   readonly versionId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api_version_unpublish sbercloud_apig_api_version_unpublish}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api_version_unpublish sbercloud_apig_api_version_unpublish}
 */
 export class ApigApiVersionUnpublish extends cdktf.TerraformResource {
 
@@ -55,7 +55,7 @@ export class ApigApiVersionUnpublish extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApigApiVersionUnpublish resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApigApiVersionUnpublish to import
-  * @param importFromId The id of the existing ApigApiVersionUnpublish that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api_version_unpublish#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApigApiVersionUnpublish that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api_version_unpublish#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApigApiVersionUnpublish to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -67,7 +67,7 @@ export class ApigApiVersionUnpublish extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_api_version_unpublish sbercloud_apig_api_version_unpublish} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_api_version_unpublish sbercloud_apig_api_version_unpublish} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -78,8 +78,8 @@ export class ApigApiVersionUnpublish extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_apig_api_version_unpublish',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

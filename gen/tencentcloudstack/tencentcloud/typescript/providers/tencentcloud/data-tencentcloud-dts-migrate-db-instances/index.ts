@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dts_migrate_db_instances
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dts_migrate_db_instances
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataTencentcloudDtsMigrateDbInstancesConfig extends cdktf.Terra
   /**
   * The owning account of the resource is null or self(resources in the self account), other(resources in the other account).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dts_migrate_db_instances#account_mode DataTencentcloudDtsMigrateDbInstances#account_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dts_migrate_db_instances#account_mode DataTencentcloudDtsMigrateDbInstances#account_mode}
   */
   readonly accountMode?: string;
   /**
   * Database type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dts_migrate_db_instances#database_type DataTencentcloudDtsMigrateDbInstances#database_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dts_migrate_db_instances#database_type DataTencentcloudDtsMigrateDbInstances#database_type}
   */
   readonly databaseType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dts_migrate_db_instances#id DataTencentcloudDtsMigrateDbInstances#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dts_migrate_db_instances#id DataTencentcloudDtsMigrateDbInstances#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,55 +29,55 @@ export interface DataTencentcloudDtsMigrateDbInstancesConfig extends cdktf.Terra
   /**
   * Database instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dts_migrate_db_instances#instance_id DataTencentcloudDtsMigrateDbInstances#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dts_migrate_db_instances#instance_id DataTencentcloudDtsMigrateDbInstances#instance_id}
   */
   readonly instanceId?: string;
   /**
   * Database instance name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dts_migrate_db_instances#instance_name DataTencentcloudDtsMigrateDbInstances#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dts_migrate_db_instances#instance_name DataTencentcloudDtsMigrateDbInstances#instance_name}
   */
   readonly instanceName?: string;
   /**
   * Limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dts_migrate_db_instances#limit DataTencentcloudDtsMigrateDbInstances#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dts_migrate_db_instances#limit DataTencentcloudDtsMigrateDbInstances#limit}
   */
   readonly limit?: number;
   /**
   * Whether the instance is the migration source or destination,src(for source), dst(for destination).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dts_migrate_db_instances#migrate_role DataTencentcloudDtsMigrateDbInstances#migrate_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dts_migrate_db_instances#migrate_role DataTencentcloudDtsMigrateDbInstances#migrate_role}
   */
   readonly migrateRole?: string;
   /**
   * Offset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dts_migrate_db_instances#offset DataTencentcloudDtsMigrateDbInstances#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dts_migrate_db_instances#offset DataTencentcloudDtsMigrateDbInstances#offset}
   */
   readonly offset?: number;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dts_migrate_db_instances#result_output_file DataTencentcloudDtsMigrateDbInstances#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dts_migrate_db_instances#result_output_file DataTencentcloudDtsMigrateDbInstances#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * temporary secret id, used across account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dts_migrate_db_instances#tmp_secret_id DataTencentcloudDtsMigrateDbInstances#tmp_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dts_migrate_db_instances#tmp_secret_id DataTencentcloudDtsMigrateDbInstances#tmp_secret_id}
   */
   readonly tmpSecretId?: string;
   /**
   * temporary secret key, used across account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dts_migrate_db_instances#tmp_secret_key DataTencentcloudDtsMigrateDbInstances#tmp_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dts_migrate_db_instances#tmp_secret_key DataTencentcloudDtsMigrateDbInstances#tmp_secret_key}
   */
   readonly tmpSecretKey?: string;
   /**
   * temporary token, used across account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dts_migrate_db_instances#tmp_token DataTencentcloudDtsMigrateDbInstances#tmp_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dts_migrate_db_instances#tmp_token DataTencentcloudDtsMigrateDbInstances#tmp_token}
   */
   readonly tmpToken?: string;
 }
@@ -183,7 +183,7 @@ export class DataTencentcloudDtsMigrateDbInstancesInstancesList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dts_migrate_db_instances tencentcloud_dts_migrate_db_instances}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dts_migrate_db_instances tencentcloud_dts_migrate_db_instances}
 */
 export class DataTencentcloudDtsMigrateDbInstances extends cdktf.TerraformDataSource {
 
@@ -199,7 +199,7 @@ export class DataTencentcloudDtsMigrateDbInstances extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataTencentcloudDtsMigrateDbInstances resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudDtsMigrateDbInstances to import
-  * @param importFromId The id of the existing DataTencentcloudDtsMigrateDbInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dts_migrate_db_instances#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudDtsMigrateDbInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dts_migrate_db_instances#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudDtsMigrateDbInstances to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -211,7 +211,7 @@ export class DataTencentcloudDtsMigrateDbInstances extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.39/docs/data-sources/dts_migrate_db_instances tencentcloud_dts_migrate_db_instances} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dts_migrate_db_instances tencentcloud_dts_migrate_db_instances} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -222,8 +222,8 @@ export class DataTencentcloudDtsMigrateDbInstances extends cdktf.TerraformDataSo
       terraformResourceType: 'tencentcloud_dts_migrate_db_instances',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.39',
-        providerVersionConstraint: '1.82.39'
+        providerVersion: '1.82.40',
+        providerVersionConstraint: '1.82.40'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

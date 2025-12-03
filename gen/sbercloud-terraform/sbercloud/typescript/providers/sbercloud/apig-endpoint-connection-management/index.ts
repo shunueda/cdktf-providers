@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_endpoint_connection_management
+// https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_endpoint_connection_management
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ApigEndpointConnectionManagementConfig extends cdktf.TerraformM
   /**
   * Specifies the operation type endpoint connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_endpoint_connection_management#action ApigEndpointConnectionManagement#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_endpoint_connection_management#action ApigEndpointConnectionManagement#action}
   */
   readonly action: string;
   /**
   * Specifies the ID of the endpoint connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_endpoint_connection_management#endpoint_id ApigEndpointConnectionManagement#endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_endpoint_connection_management#endpoint_id ApigEndpointConnectionManagement#endpoint_id}
   */
   readonly endpointId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_endpoint_connection_management#id ApigEndpointConnectionManagement#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_endpoint_connection_management#id ApigEndpointConnectionManagement#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,27 +29,27 @@ export interface ApigEndpointConnectionManagementConfig extends cdktf.TerraformM
   /**
   * Specifies the ID of the dedicated instance to which the endpoint connection belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_endpoint_connection_management#instance_id ApigEndpointConnectionManagement#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_endpoint_connection_management#instance_id ApigEndpointConnectionManagement#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_endpoint_connection_management#region ApigEndpointConnectionManagement#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_endpoint_connection_management#region ApigEndpointConnectionManagement#region}
   */
   readonly region?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_endpoint_connection_management#timeouts ApigEndpointConnectionManagement#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_endpoint_connection_management#timeouts ApigEndpointConnectionManagement#timeouts}
   */
   readonly timeouts?: ApigEndpointConnectionManagementTimeouts;
 }
 export interface ApigEndpointConnectionManagementTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_endpoint_connection_management#create ApigEndpointConnectionManagement#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_endpoint_connection_management#create ApigEndpointConnectionManagement#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_endpoint_connection_management#update ApigEndpointConnectionManagement#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_endpoint_connection_management#update ApigEndpointConnectionManagement#update}
   */
   readonly update?: string;
 }
@@ -172,7 +172,7 @@ export class ApigEndpointConnectionManagementTimeoutsOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_endpoint_connection_management sbercloud_apig_endpoint_connection_management}
+* Represents a {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_endpoint_connection_management sbercloud_apig_endpoint_connection_management}
 */
 export class ApigEndpointConnectionManagement extends cdktf.TerraformResource {
 
@@ -188,7 +188,7 @@ export class ApigEndpointConnectionManagement extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApigEndpointConnectionManagement resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApigEndpointConnectionManagement to import
-  * @param importFromId The id of the existing ApigEndpointConnectionManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_endpoint_connection_management#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApigEndpointConnectionManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_endpoint_connection_management#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApigEndpointConnectionManagement to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -200,7 +200,7 @@ export class ApigEndpointConnectionManagement extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.14/docs/resources/apig_endpoint_connection_management sbercloud_apig_endpoint_connection_management} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sbercloud-terraform/sbercloud/1.12.15/docs/resources/apig_endpoint_connection_management sbercloud_apig_endpoint_connection_management} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -211,8 +211,8 @@ export class ApigEndpointConnectionManagement extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_apig_endpoint_connection_management',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14',
-        providerVersionConstraint: '1.12.14'
+        providerVersion: '1.12.15',
+        providerVersionConstraint: '1.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

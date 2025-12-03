@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/cdn_distribution
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/cdn_distribution
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface CdnDistributionConfig extends cdktf.TerraformMetaArguments {
   /**
   * The distribution configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/cdn_distribution#config CdnDistribution#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/cdn_distribution#config CdnDistribution#config}
   */
   readonly config: CdnDistributionConfigA;
   /**
   * STACKIT project ID associated with the distribution
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/cdn_distribution#project_id CdnDistribution#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/cdn_distribution#project_id CdnDistribution#project_id}
   */
   readonly projectId: string;
 }
@@ -24,25 +24,25 @@ export interface CdnDistributionConfigBackend {
   /**
   * A map of URLs to a list of countries where content is allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/cdn_distribution#geofencing CdnDistribution#geofencing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/cdn_distribution#geofencing CdnDistribution#geofencing}
   */
   readonly geofencing?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
   * The configured origin request headers for the backend
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/cdn_distribution#origin_request_headers CdnDistribution#origin_request_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/cdn_distribution#origin_request_headers CdnDistribution#origin_request_headers}
   */
   readonly originRequestHeaders?: { [key: string]: string };
   /**
   * The configured backend type for the distribution
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/cdn_distribution#origin_url CdnDistribution#origin_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/cdn_distribution#origin_url CdnDistribution#origin_url}
   */
   readonly originUrl: string;
   /**
   * The configured backend type. Possible values are: `http`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/cdn_distribution#type CdnDistribution#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/cdn_distribution#type CdnDistribution#type}
   */
   readonly type: string;
 }
@@ -217,7 +217,7 @@ export class CdnDistributionConfigBackendOutputReference extends cdktf.ComplexOb
 }
 export interface CdnDistributionConfigOptimizer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/cdn_distribution#enabled CdnDistribution#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/cdn_distribution#enabled CdnDistribution#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -313,25 +313,25 @@ export interface CdnDistributionConfigA {
   /**
   * The configured backend for the distribution
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/cdn_distribution#backend CdnDistribution#backend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/cdn_distribution#backend CdnDistribution#backend}
   */
   readonly backend: CdnDistributionConfigBackend;
   /**
   * The configured countries where distribution of content is blocked
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/cdn_distribution#blocked_countries CdnDistribution#blocked_countries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/cdn_distribution#blocked_countries CdnDistribution#blocked_countries}
   */
   readonly blockedCountries?: string[];
   /**
   * Configuration for the Image Optimizer. This is a paid feature that automatically optimizes images to reduce their file size for faster delivery, leading to improved website performance and a better user experience.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/cdn_distribution#optimizer CdnDistribution#optimizer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/cdn_distribution#optimizer CdnDistribution#optimizer}
   */
   readonly optimizer?: CdnDistributionConfigOptimizer;
   /**
   * The configured regions where content will be hosted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/cdn_distribution#regions CdnDistribution#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/cdn_distribution#regions CdnDistribution#regions}
   */
   readonly regions: string[];
 }
@@ -596,7 +596,7 @@ export class CdnDistributionDomainsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/cdn_distribution stackit_cdn_distribution}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/cdn_distribution stackit_cdn_distribution}
 */
 export class CdnDistribution extends cdktf.TerraformResource {
 
@@ -612,7 +612,7 @@ export class CdnDistribution extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CdnDistribution resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CdnDistribution to import
-  * @param importFromId The id of the existing CdnDistribution that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/cdn_distribution#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CdnDistribution that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/cdn_distribution#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CdnDistribution to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -624,7 +624,7 @@ export class CdnDistribution extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.72.0/docs/resources/cdn_distribution stackit_cdn_distribution} Resource
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/cdn_distribution stackit_cdn_distribution} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -635,8 +635,8 @@ export class CdnDistribution extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_cdn_distribution',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.72.0',
-        providerVersionConstraint: '0.72.0'
+        providerVersion: '0.73.0',
+        providerVersionConstraint: '0.73.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

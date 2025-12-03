@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_ha_group
+// https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_ha_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DhcpHaGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_ha_group#anycast_config_id DhcpHaGroup#anycast_config_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_ha_group#anycast_config_id DhcpHaGroup#anycast_config_id}
   */
   readonly anycastConfigId?: string;
   /**
   * collect_stats gets the HA group stats(state, status, heartbeat) if set to true. Defaults to false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_ha_group#collect_stats DhcpHaGroup#collect_stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_ha_group#collect_stats DhcpHaGroup#collect_stats}
   */
   readonly collectStats?: boolean | cdktf.IResolvable;
   /**
   * The description for the HA group. May contain 0 to 1024 characters. Can include UTF-8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_ha_group#comment DhcpHaGroup#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_ha_group#comment DhcpHaGroup#comment}
   */
   readonly comment?: string;
   /**
   * The list of hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_ha_group#hosts DhcpHaGroup#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_ha_group#hosts DhcpHaGroup#hosts}
   */
   readonly hosts: DhcpHaGroupHosts[] | cdktf.IResolvable;
   /**
@@ -37,19 +37,19 @@ export interface DhcpHaGroupConfig extends cdktf.TerraformMetaArguments {
   *   * _active-passive_: One on-prem host remains active and one remains passive. When the active on-prem host is down, the passive on-prem host takes over.
   *   * _advanced-active-passive_: One on-prem host may be part of multiple HA groups. When the active on-prem host is down, the passive on-prem host takes over.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_ha_group#mode DhcpHaGroup#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_ha_group#mode DhcpHaGroup#mode}
   */
   readonly mode: string;
   /**
   * The name of the HA group. Must contain 1 to 256 characters. Can include UTF-8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_ha_group#name DhcpHaGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_ha_group#name DhcpHaGroup#name}
   */
   readonly name: string;
   /**
   * The tags for the HA group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_ha_group#tags DhcpHaGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_ha_group#tags DhcpHaGroup#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -142,19 +142,19 @@ export interface DhcpHaGroupHosts {
   /**
   * The address on which this host listens.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_ha_group#address DhcpHaGroup#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_ha_group#address DhcpHaGroup#address}
   */
   readonly address?: string;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_ha_group#host DhcpHaGroup#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_ha_group#host DhcpHaGroup#host}
   */
   readonly host: string;
   /**
   * The role of this host in the HA relationship: _active_ or _passive_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_ha_group#role DhcpHaGroup#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_ha_group#role DhcpHaGroup#role}
   */
   readonly role: string;
 }
@@ -348,7 +348,7 @@ export class DhcpHaGroupHostsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_ha_group bloxone_dhcp_ha_group}
+* Represents a {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_ha_group bloxone_dhcp_ha_group}
 */
 export class DhcpHaGroup extends cdktf.TerraformResource {
 
@@ -364,7 +364,7 @@ export class DhcpHaGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DhcpHaGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DhcpHaGroup to import
-  * @param importFromId The id of the existing DhcpHaGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_ha_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DhcpHaGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_ha_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DhcpHaGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -376,7 +376,7 @@ export class DhcpHaGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.3/docs/resources/dhcp_ha_group bloxone_dhcp_ha_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/infobloxopen/bloxone/1.5.4/docs/resources/dhcp_ha_group bloxone_dhcp_ha_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -387,8 +387,8 @@ export class DhcpHaGroup extends cdktf.TerraformResource {
       terraformResourceType: 'bloxone_dhcp_ha_group',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.5.4',
+        providerVersionConstraint: '1.5.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
