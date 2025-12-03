@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_postgresql_database
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_postgresql_database
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface AzurePostgresqlDatabaseConfig extends cdktf.TerraformMetaArgume
   /**
   * The Administrator Login for the PostgreSQL Server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_postgresql_database#administrator_login AzurePostgresqlDatabase#administrator_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_postgresql_database#administrator_login AzurePostgresqlDatabase#administrator_login}
   */
   readonly administratorLogin?: string;
   /**
   * The Password associated with the `administrator_login` for the PostgreSQL Server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_postgresql_database#administrator_login_password AzurePostgresqlDatabase#administrator_login_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_postgresql_database#administrator_login_password AzurePostgresqlDatabase#administrator_login_password}
   */
   readonly administratorLoginPassword?: string;
   /**
   * Backup retention days for the server, supported values are between `7` and `35` days.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_postgresql_database#backup_retention_days AzurePostgresqlDatabase#backup_retention_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_postgresql_database#backup_retention_days AzurePostgresqlDatabase#backup_retention_days}
   */
   readonly backupRetentionDays?: number;
   /**
   * Turn Geo-redundant server backups on/off.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_postgresql_database#geo_redundant_backup AzurePostgresqlDatabase#geo_redundant_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_postgresql_database#geo_redundant_backup AzurePostgresqlDatabase#geo_redundant_backup}
   */
   readonly geoRedundantBackup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_postgresql_database#id AzurePostgresqlDatabase#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_postgresql_database#id AzurePostgresqlDatabase#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,59 +41,59 @@ export interface AzurePostgresqlDatabaseConfig extends cdktf.TerraformMetaArgume
   /**
   * Specifies the name of the PostgreSQL Server. Changing this forces a new resource to be created. This needs to be globally unique within Azure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_postgresql_database#name AzurePostgresqlDatabase#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_postgresql_database#name AzurePostgresqlDatabase#name}
   */
   readonly name: string;
   /**
   * Specifies the SKU Name for this PostgreSQL Server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_postgresql_database#sku_name AzurePostgresqlDatabase#sku_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_postgresql_database#sku_name AzurePostgresqlDatabase#sku_name}
   */
   readonly skuName: string;
   /**
   * Specifies if SSL should be enforced on connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_postgresql_database#ssl_enforcement AzurePostgresqlDatabase#ssl_enforcement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_postgresql_database#ssl_enforcement AzurePostgresqlDatabase#ssl_enforcement}
   */
   readonly sslEnforcement?: string;
   /**
   * Max storage allowed for a server. Possible values are between `5120` MB(5GB) and `1048576` MB(1TB) for the Basic SKU and between `5120` MB(5GB) and `16777216` MB(16TB) for General Purpose/Memory Optimized SKUs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_postgresql_database#storage_mb AzurePostgresqlDatabase#storage_mb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_postgresql_database#storage_mb AzurePostgresqlDatabase#storage_mb}
   */
   readonly storageMb?: number;
   /**
   * The GUID of the tenant that the azure postgresql database will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_postgresql_database#tenant_id AzurePostgresqlDatabase#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_postgresql_database#tenant_id AzurePostgresqlDatabase#tenant_id}
   */
   readonly tenantId: string;
   /**
   * Specifies the version of PostgreSQL to use. Valid values are `9.5`, `9.6`, `10`, `10.0`, and `11`. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_postgresql_database#version AzurePostgresqlDatabase#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_postgresql_database#version AzurePostgresqlDatabase#version}
   */
   readonly version: string;
   /**
   * Whether or not to wait until PostgreSQL Server instance to be ready, after creation. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_postgresql_database#wait_until_ready AzurePostgresqlDatabase#wait_until_ready}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_postgresql_database#wait_until_ready AzurePostgresqlDatabase#wait_until_ready}
   */
   readonly waitUntilReady?: boolean | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_postgresql_database#timeouts AzurePostgresqlDatabase#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_postgresql_database#timeouts AzurePostgresqlDatabase#timeouts}
   */
   readonly timeouts?: AzurePostgresqlDatabaseTimeouts;
 }
 export interface AzurePostgresqlDatabaseTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_postgresql_database#create AzurePostgresqlDatabase#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_postgresql_database#create AzurePostgresqlDatabase#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_postgresql_database#delete AzurePostgresqlDatabase#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_postgresql_database#delete AzurePostgresqlDatabase#delete}
   */
   readonly delete?: string;
 }
@@ -216,7 +216,7 @@ export class AzurePostgresqlDatabaseTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_postgresql_database duplocloud_azure_postgresql_database}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_postgresql_database duplocloud_azure_postgresql_database}
 */
 export class AzurePostgresqlDatabase extends cdktf.TerraformResource {
 
@@ -232,7 +232,7 @@ export class AzurePostgresqlDatabase extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AzurePostgresqlDatabase resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AzurePostgresqlDatabase to import
-  * @param importFromId The id of the existing AzurePostgresqlDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_postgresql_database#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AzurePostgresqlDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_postgresql_database#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AzurePostgresqlDatabase to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -244,7 +244,7 @@ export class AzurePostgresqlDatabase extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_postgresql_database duplocloud_azure_postgresql_database} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_postgresql_database duplocloud_azure_postgresql_database} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -255,8 +255,8 @@ export class AzurePostgresqlDatabase extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_azure_postgresql_database',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.29',
-        providerVersionConstraint: '0.11.29'
+        providerVersion: '0.11.30',
+        providerVersionConstraint: '0.11.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

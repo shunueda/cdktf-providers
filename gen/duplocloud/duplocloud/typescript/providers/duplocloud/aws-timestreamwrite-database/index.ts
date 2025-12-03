@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_timestreamwrite_database
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_timestreamwrite_database
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface AwsTimestreamwriteDatabaseConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_timestreamwrite_database#id AwsTimestreamwriteDatabase#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_timestreamwrite_database#id AwsTimestreamwriteDatabase#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface AwsTimestreamwriteDatabaseConfig extends cdktf.TerraformMetaArg
   /**
   * The ARN (not Alias ARN) of the KMS key to be used to encrypt the data stored in the database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_timestreamwrite_database#kms_key_id AwsTimestreamwriteDatabase#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_timestreamwrite_database#kms_key_id AwsTimestreamwriteDatabase#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * The short name of the Timestream Database.  Duplo will add a prefix to the name.  You can retrieve the full name from the `fullname` attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_timestreamwrite_database#name AwsTimestreamwriteDatabase#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_timestreamwrite_database#name AwsTimestreamwriteDatabase#name}
   */
   readonly name: string;
   /**
   * The GUID of the tenant that the Timestream Database will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_timestreamwrite_database#tenant_id AwsTimestreamwriteDatabase#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_timestreamwrite_database#tenant_id AwsTimestreamwriteDatabase#tenant_id}
   */
   readonly tenantId: string;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_timestreamwrite_database#tags AwsTimestreamwriteDatabase#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_timestreamwrite_database#tags AwsTimestreamwriteDatabase#tags}
   */
   readonly tags?: AwsTimestreamwriteDatabaseTags[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_timestreamwrite_database#timeouts AwsTimestreamwriteDatabase#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_timestreamwrite_database#timeouts AwsTimestreamwriteDatabase#timeouts}
   */
   readonly timeouts?: AwsTimestreamwriteDatabaseTimeouts;
 }
@@ -127,11 +127,11 @@ export class AwsTimestreamwriteDatabaseAllTagsList extends cdktf.ComplexList {
 }
 export interface AwsTimestreamwriteDatabaseTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_timestreamwrite_database#key AwsTimestreamwriteDatabase#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_timestreamwrite_database#key AwsTimestreamwriteDatabase#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_timestreamwrite_database#value AwsTimestreamwriteDatabase#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_timestreamwrite_database#value AwsTimestreamwriteDatabase#value}
   */
   readonly value: string;
 }
@@ -270,11 +270,11 @@ export class AwsTimestreamwriteDatabaseTagsList extends cdktf.ComplexList {
 }
 export interface AwsTimestreamwriteDatabaseTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_timestreamwrite_database#create AwsTimestreamwriteDatabase#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_timestreamwrite_database#create AwsTimestreamwriteDatabase#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_timestreamwrite_database#delete AwsTimestreamwriteDatabase#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_timestreamwrite_database#delete AwsTimestreamwriteDatabase#delete}
   */
   readonly delete?: string;
 }
@@ -397,7 +397,7 @@ export class AwsTimestreamwriteDatabaseTimeoutsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_timestreamwrite_database duplocloud_aws_timestreamwrite_database}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_timestreamwrite_database duplocloud_aws_timestreamwrite_database}
 */
 export class AwsTimestreamwriteDatabase extends cdktf.TerraformResource {
 
@@ -413,7 +413,7 @@ export class AwsTimestreamwriteDatabase extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsTimestreamwriteDatabase resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsTimestreamwriteDatabase to import
-  * @param importFromId The id of the existing AwsTimestreamwriteDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_timestreamwrite_database#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsTimestreamwriteDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_timestreamwrite_database#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsTimestreamwriteDatabase to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -425,7 +425,7 @@ export class AwsTimestreamwriteDatabase extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_timestreamwrite_database duplocloud_aws_timestreamwrite_database} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_timestreamwrite_database duplocloud_aws_timestreamwrite_database} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -436,8 +436,8 @@ export class AwsTimestreamwriteDatabase extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_aws_timestreamwrite_database',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.29',
-        providerVersionConstraint: '0.11.29'
+        providerVersion: '0.11.30',
+        providerVersionConstraint: '0.11.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

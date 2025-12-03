@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_appautoscaling_policy
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_appautoscaling_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface AwsAppautoscalingPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_appautoscaling_policy#id AwsAppautoscalingPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_appautoscaling_policy#id AwsAppautoscalingPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,55 +17,55 @@ export interface AwsAppautoscalingPolicyConfig extends cdktf.TerraformMetaArgume
   /**
   * The name of the policy. Must be between 1 and 255 characters in length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_appautoscaling_policy#name AwsAppautoscalingPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_appautoscaling_policy#name AwsAppautoscalingPolicy#name}
   */
   readonly name: string;
   /**
   * The policy type. Valid values are `StepScaling` and `TargetTrackingScaling`. Defaults to `StepScaling`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_appautoscaling_policy#policy_type AwsAppautoscalingPolicy#policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_appautoscaling_policy#policy_type AwsAppautoscalingPolicy#policy_type}
   */
   readonly policyType?: string;
   /**
   * The resource type and unique identifier string for the resource associated with the scaling policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_appautoscaling_policy#resource_id AwsAppautoscalingPolicy#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_appautoscaling_policy#resource_id AwsAppautoscalingPolicy#resource_id}
   */
   readonly resourceId: string;
   /**
   * The scalable dimension of the scalable target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_appautoscaling_policy#scalable_dimension AwsAppautoscalingPolicy#scalable_dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_appautoscaling_policy#scalable_dimension AwsAppautoscalingPolicy#scalable_dimension}
   */
   readonly scalableDimension: string;
   /**
   * The AWS service namespace of the scalable target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_appautoscaling_policy#service_namespace AwsAppautoscalingPolicy#service_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_appautoscaling_policy#service_namespace AwsAppautoscalingPolicy#service_namespace}
   */
   readonly serviceNamespace: string;
   /**
   * The GUID of the tenant that the aws autoscaling policy will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_appautoscaling_policy#tenant_id AwsAppautoscalingPolicy#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_appautoscaling_policy#tenant_id AwsAppautoscalingPolicy#tenant_id}
   */
   readonly tenantId: string;
   /**
   * step_scaling_policy_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_appautoscaling_policy#step_scaling_policy_configuration AwsAppautoscalingPolicy#step_scaling_policy_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_appautoscaling_policy#step_scaling_policy_configuration AwsAppautoscalingPolicy#step_scaling_policy_configuration}
   */
   readonly stepScalingPolicyConfiguration?: AwsAppautoscalingPolicyStepScalingPolicyConfiguration;
   /**
   * target_tracking_scaling_policy_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_appautoscaling_policy#target_tracking_scaling_policy_configuration AwsAppautoscalingPolicy#target_tracking_scaling_policy_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_appautoscaling_policy#target_tracking_scaling_policy_configuration AwsAppautoscalingPolicy#target_tracking_scaling_policy_configuration}
   */
   readonly targetTrackingScalingPolicyConfiguration?: AwsAppautoscalingPolicyTargetTrackingScalingPolicyConfiguration;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_appautoscaling_policy#timeouts AwsAppautoscalingPolicy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_appautoscaling_policy#timeouts AwsAppautoscalingPolicy#timeouts}
   */
   readonly timeouts?: AwsAppautoscalingPolicyTimeouts;
 }
@@ -73,19 +73,19 @@ export interface AwsAppautoscalingPolicyStepScalingPolicyConfigurationStepAdjust
   /**
   * The lower bound for the difference between the alarm threshold and the CloudWatch metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_appautoscaling_policy#metric_interval_lower_bound AwsAppautoscalingPolicy#metric_interval_lower_bound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_appautoscaling_policy#metric_interval_lower_bound AwsAppautoscalingPolicy#metric_interval_lower_bound}
   */
   readonly metricIntervalLowerBound?: string;
   /**
   * The upper bound for the difference between the alarm threshold and the CloudWatch metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_appautoscaling_policy#metric_interval_upper_bound AwsAppautoscalingPolicy#metric_interval_upper_bound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_appautoscaling_policy#metric_interval_upper_bound AwsAppautoscalingPolicy#metric_interval_upper_bound}
   */
   readonly metricIntervalUpperBound?: string;
   /**
   * The number of members by which to scale, when the adjustment bounds are breached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_appautoscaling_policy#scaling_adjustment AwsAppautoscalingPolicy#scaling_adjustment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_appautoscaling_policy#scaling_adjustment AwsAppautoscalingPolicy#scaling_adjustment}
   */
   readonly scalingAdjustment: number;
 }
@@ -258,31 +258,31 @@ export interface AwsAppautoscalingPolicyStepScalingPolicyConfiguration {
   /**
   * Specifies whether the adjustment is an absolute number or a percentage of the current capacity. Valid values are `ChangeInCapacity`, `ExactCapacity`, and `PercentChangeInCapacity`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_appautoscaling_policy#adjustment_type AwsAppautoscalingPolicy#adjustment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_appautoscaling_policy#adjustment_type AwsAppautoscalingPolicy#adjustment_type}
   */
   readonly adjustmentType?: string;
   /**
   * The amount of time, in seconds, after a scaling activity completes and before the next scaling activity can start.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_appautoscaling_policy#cooldown AwsAppautoscalingPolicy#cooldown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_appautoscaling_policy#cooldown AwsAppautoscalingPolicy#cooldown}
   */
   readonly cooldown?: number;
   /**
   * The aggregation type for the policy's metrics. Valid values are "Minimum", "Maximum", and "Average". Without a value, AWS will treat the aggregation type as "Average".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_appautoscaling_policy#metric_aggregation_type AwsAppautoscalingPolicy#metric_aggregation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_appautoscaling_policy#metric_aggregation_type AwsAppautoscalingPolicy#metric_aggregation_type}
   */
   readonly metricAggregationType?: string;
   /**
   * The minimum number to adjust your scalable dimension as a result of a scaling activity. If the adjustment type is PercentChangeInCapacity, the scaling policy changes the scalable dimension of the scalable target by this amount.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_appautoscaling_policy#min_adjustment_magnitude AwsAppautoscalingPolicy#min_adjustment_magnitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_appautoscaling_policy#min_adjustment_magnitude AwsAppautoscalingPolicy#min_adjustment_magnitude}
   */
   readonly minAdjustmentMagnitude?: number;
   /**
   * step_adjustment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_appautoscaling_policy#step_adjustment AwsAppautoscalingPolicy#step_adjustment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_appautoscaling_policy#step_adjustment AwsAppautoscalingPolicy#step_adjustment}
   */
   readonly stepAdjustment?: AwsAppautoscalingPolicyStepScalingPolicyConfigurationStepAdjustment[] | cdktf.IResolvable;
 }
@@ -484,13 +484,13 @@ export interface AwsAppautoscalingPolicyTargetTrackingScalingPolicyConfiguration
   /**
   * Name of the dimension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_appautoscaling_policy#name AwsAppautoscalingPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_appautoscaling_policy#name AwsAppautoscalingPolicy#name}
   */
   readonly name: string;
   /**
   * Value of the dimension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_appautoscaling_policy#value AwsAppautoscalingPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_appautoscaling_policy#value AwsAppautoscalingPolicy#value}
   */
   readonly value: string;
 }
@@ -631,31 +631,31 @@ export interface AwsAppautoscalingPolicyTargetTrackingScalingPolicyConfiguration
   /**
   * The name of the metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_appautoscaling_policy#metric_name AwsAppautoscalingPolicy#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_appautoscaling_policy#metric_name AwsAppautoscalingPolicy#metric_name}
   */
   readonly metricName: string;
   /**
   * The namespace of the metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_appautoscaling_policy#namespace AwsAppautoscalingPolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_appautoscaling_policy#namespace AwsAppautoscalingPolicy#namespace}
   */
   readonly namespace: string;
   /**
   * The statistic of the metric. Valid values: `Average`, `Minimum`, `Maximum`, `SampleCount`, and `Sum`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_appautoscaling_policy#statistic AwsAppautoscalingPolicy#statistic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_appautoscaling_policy#statistic AwsAppautoscalingPolicy#statistic}
   */
   readonly statistic: string;
   /**
   * The unit of the metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_appautoscaling_policy#unit AwsAppautoscalingPolicy#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_appautoscaling_policy#unit AwsAppautoscalingPolicy#unit}
   */
   readonly unit?: string;
   /**
   * dimensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_appautoscaling_policy#dimensions AwsAppautoscalingPolicy#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_appautoscaling_policy#dimensions AwsAppautoscalingPolicy#dimensions}
   */
   readonly dimensions?: AwsAppautoscalingPolicyTargetTrackingScalingPolicyConfigurationCustomizedMetricSpecificationDimensions[] | cdktf.IResolvable;
 }
@@ -848,13 +848,13 @@ export interface AwsAppautoscalingPolicyTargetTrackingScalingPolicyConfiguration
   /**
   * The metric type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_appautoscaling_policy#predefined_metric_type AwsAppautoscalingPolicy#predefined_metric_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_appautoscaling_policy#predefined_metric_type AwsAppautoscalingPolicy#predefined_metric_type}
   */
   readonly predefinedMetricType: string;
   /**
   * Reserved for future use. Must be less than or equal to 1023 characters in length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_appautoscaling_policy#resource_label AwsAppautoscalingPolicy#resource_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_appautoscaling_policy#resource_label AwsAppautoscalingPolicy#resource_label}
   */
   readonly resourceLabel?: string;
 }
@@ -966,37 +966,37 @@ export interface AwsAppautoscalingPolicyTargetTrackingScalingPolicyConfiguration
   /**
   * Indicates whether scale in by the target tracking policy is disabled. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_appautoscaling_policy#disable_scale_in AwsAppautoscalingPolicy#disable_scale_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_appautoscaling_policy#disable_scale_in AwsAppautoscalingPolicy#disable_scale_in}
   */
   readonly disableScaleIn?: boolean | cdktf.IResolvable;
   /**
   * The amount of time, in seconds, after a scale in activity completes before another scale in activity can start.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_appautoscaling_policy#scale_in_cooldown AwsAppautoscalingPolicy#scale_in_cooldown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_appautoscaling_policy#scale_in_cooldown AwsAppautoscalingPolicy#scale_in_cooldown}
   */
   readonly scaleInCooldown?: number;
   /**
   * The amount of time, in seconds, after a scale out activity completes before another scale out activity can start.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_appautoscaling_policy#scale_out_cooldown AwsAppautoscalingPolicy#scale_out_cooldown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_appautoscaling_policy#scale_out_cooldown AwsAppautoscalingPolicy#scale_out_cooldown}
   */
   readonly scaleOutCooldown?: number;
   /**
   * The target value for the metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_appautoscaling_policy#target_value AwsAppautoscalingPolicy#target_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_appautoscaling_policy#target_value AwsAppautoscalingPolicy#target_value}
   */
   readonly targetValue: number;
   /**
   * customized_metric_specification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_appautoscaling_policy#customized_metric_specification AwsAppautoscalingPolicy#customized_metric_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_appautoscaling_policy#customized_metric_specification AwsAppautoscalingPolicy#customized_metric_specification}
   */
   readonly customizedMetricSpecification?: AwsAppautoscalingPolicyTargetTrackingScalingPolicyConfigurationCustomizedMetricSpecification;
   /**
   * predefined_metric_specification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_appautoscaling_policy#predefined_metric_specification AwsAppautoscalingPolicy#predefined_metric_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_appautoscaling_policy#predefined_metric_specification AwsAppautoscalingPolicy#predefined_metric_specification}
   */
   readonly predefinedMetricSpecification?: AwsAppautoscalingPolicyTargetTrackingScalingPolicyConfigurationPredefinedMetricSpecification;
 }
@@ -1222,11 +1222,11 @@ export class AwsAppautoscalingPolicyTargetTrackingScalingPolicyConfigurationOutp
 }
 export interface AwsAppautoscalingPolicyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_appautoscaling_policy#create AwsAppautoscalingPolicy#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_appautoscaling_policy#create AwsAppautoscalingPolicy#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_appautoscaling_policy#delete AwsAppautoscalingPolicy#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_appautoscaling_policy#delete AwsAppautoscalingPolicy#delete}
   */
   readonly delete?: string;
 }
@@ -1349,7 +1349,7 @@ export class AwsAppautoscalingPolicyTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_appautoscaling_policy duplocloud_aws_appautoscaling_policy}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_appautoscaling_policy duplocloud_aws_appautoscaling_policy}
 */
 export class AwsAppautoscalingPolicy extends cdktf.TerraformResource {
 
@@ -1365,7 +1365,7 @@ export class AwsAppautoscalingPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsAppautoscalingPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsAppautoscalingPolicy to import
-  * @param importFromId The id of the existing AwsAppautoscalingPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_appautoscaling_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsAppautoscalingPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_appautoscaling_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsAppautoscalingPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1377,7 +1377,7 @@ export class AwsAppautoscalingPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_appautoscaling_policy duplocloud_aws_appautoscaling_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_appautoscaling_policy duplocloud_aws_appautoscaling_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1388,8 +1388,8 @@ export class AwsAppautoscalingPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_aws_appautoscaling_policy',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.29',
-        providerVersionConstraint: '0.11.29'
+        providerVersion: '0.11.30',
+        providerVersionConstraint: '0.11.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

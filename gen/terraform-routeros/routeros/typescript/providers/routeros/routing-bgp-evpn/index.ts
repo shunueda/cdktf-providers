@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_evpn
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/routing_bgp_evpn
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface RoutingBgpEvpnConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_evpn#___path___ RoutingBgpEvpn#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/routing_bgp_evpn#___path___ RoutingBgpEvpn#___path___}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_evpn#comment RoutingBgpEvpn#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/routing_bgp_evpn#comment RoutingBgpEvpn#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_evpn#disabled RoutingBgpEvpn#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/routing_bgp_evpn#disabled RoutingBgpEvpn#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_evpn#id RoutingBgpEvpn#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/routing_bgp_evpn#id RoutingBgpEvpn#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,43 +31,43 @@ export interface RoutingBgpEvpnConfig extends cdktf.TerraformMetaArguments {
   /**
   * BGP instance this EVPN is assigned to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_evpn#instance RoutingBgpEvpn#instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/routing_bgp_evpn#instance RoutingBgpEvpn#instance}
   */
   readonly instance: string;
   /**
   * Name of the entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_evpn#name RoutingBgpEvpn#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/routing_bgp_evpn#name RoutingBgpEvpn#name}
   */
   readonly name: string;
   /**
   * Specifies the value that gets attached to route so that receiving routers can distinguish advertisements that may otherwise look the same. Used to distinguish between tenants using overlapping IP ranges. Also can be used to simplify convergence and redundancy within Virtual Network. RDs form MLAG pairs should be unique, too.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_evpn#rd RoutingBgpEvpn#rd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/routing_bgp_evpn#rd RoutingBgpEvpn#rd}
   */
   readonly rd?: string;
   /**
   * Range of Virtual Network Identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_evpn#vni RoutingBgpEvpn#vni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/routing_bgp_evpn#vni RoutingBgpEvpn#vni}
   */
   readonly vni?: number;
   /**
   * VRF name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_evpn#vrf RoutingBgpEvpn#vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/routing_bgp_evpn#vrf RoutingBgpEvpn#vrf}
   */
   readonly vrf?: string;
   /**
   * export block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_evpn#export RoutingBgpEvpn#export}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/routing_bgp_evpn#export RoutingBgpEvpn#export}
   */
   readonly export?: RoutingBgpEvpnExport;
   /**
   * import block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_evpn#import RoutingBgpEvpn#import}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/routing_bgp_evpn#import RoutingBgpEvpn#import}
   */
   readonly import?: RoutingBgpEvpnImport;
 }
@@ -75,7 +75,7 @@ export interface RoutingBgpEvpnExport {
   /**
   * List of route targets that will be added to EVPN routes when exporting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_evpn#route_targets RoutingBgpEvpn#route_targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/routing_bgp_evpn#route_targets RoutingBgpEvpn#route_targets}
   */
   readonly routeTargets?: string[];
 }
@@ -161,7 +161,7 @@ export interface RoutingBgpEvpnImport {
   /**
   * List of route targets that will be used to import EVPN routes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_evpn#route_targets RoutingBgpEvpn#route_targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/routing_bgp_evpn#route_targets RoutingBgpEvpn#route_targets}
   */
   readonly routeTargets?: string[];
 }
@@ -245,7 +245,7 @@ export class RoutingBgpEvpnImportOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_evpn routeros_routing_bgp_evpn}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/routing_bgp_evpn routeros_routing_bgp_evpn}
 */
 export class RoutingBgpEvpn extends cdktf.TerraformResource {
 
@@ -261,7 +261,7 @@ export class RoutingBgpEvpn extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RoutingBgpEvpn resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RoutingBgpEvpn to import
-  * @param importFromId The id of the existing RoutingBgpEvpn that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_evpn#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RoutingBgpEvpn that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/routing_bgp_evpn#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RoutingBgpEvpn to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -273,7 +273,7 @@ export class RoutingBgpEvpn extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_evpn routeros_routing_bgp_evpn} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/routing_bgp_evpn routeros_routing_bgp_evpn} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -284,8 +284,8 @@ export class RoutingBgpEvpn extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_routing_bgp_evpn',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.95.0',
-        providerVersionConstraint: '1.95.0'
+        providerVersion: '1.96.0',
+        providerVersionConstraint: '1.96.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

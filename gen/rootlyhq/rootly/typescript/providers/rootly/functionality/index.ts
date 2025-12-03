@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/functionality
+// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/functionality
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface FunctionalityConfig extends cdktf.TerraformMetaArguments {
   /**
   * The Backstage entity id associated to this functionality. eg: :namespace/:kind/:entity_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/functionality#backstage_id Functionality#backstage_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/functionality#backstage_id Functionality#backstage_id}
   */
   readonly backstageId?: string;
   /**
   * The hex color of the functionality
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/functionality#color Functionality#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/functionality#color Functionality#color}
   */
   readonly color?: string;
   /**
   * The Cortex group id associated to this functionality
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/functionality#cortex_id Functionality#cortex_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/functionality#cortex_id Functionality#cortex_id}
   */
   readonly cortexId?: string;
   /**
   * The description of the functionality
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/functionality#description Functionality#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/functionality#description Functionality#description}
   */
   readonly description?: string;
   /**
   * Environments associated with this functionality
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/functionality#environment_ids Functionality#environment_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/functionality#environment_ids Functionality#environment_ids}
   */
   readonly environmentIds?: string[];
   /**
   * The external id associated to this functionality
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/functionality#external_id Functionality#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/functionality#external_id Functionality#external_id}
   */
   readonly externalId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/functionality#id Functionality#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/functionality#id Functionality#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,85 +53,85 @@ export interface FunctionalityConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the functionality
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/functionality#name Functionality#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/functionality#name Functionality#name}
   */
   readonly name: string;
   /**
   * Emails attached to the functionality
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/functionality#notify_emails Functionality#notify_emails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/functionality#notify_emails Functionality#notify_emails}
   */
   readonly notifyEmails?: string[];
   /**
   * The Opsgenie service id associated to this functionality
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/functionality#opsgenie_id Functionality#opsgenie_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/functionality#opsgenie_id Functionality#opsgenie_id}
   */
   readonly opsgenieId?: string;
   /**
   * The Opsgenie team id associated to this functionality
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/functionality#opsgenie_team_id Functionality#opsgenie_team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/functionality#opsgenie_team_id Functionality#opsgenie_team_id}
   */
   readonly opsgenieTeamId?: string;
   /**
   * Owner Teams associated with this functionality
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/functionality#owner_group_ids Functionality#owner_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/functionality#owner_group_ids Functionality#owner_group_ids}
   */
   readonly ownerGroupIds?: string[];
   /**
   * Owner Users associated with this functionality
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/functionality#owner_user_ids Functionality#owner_user_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/functionality#owner_user_ids Functionality#owner_user_ids}
   */
   readonly ownerUserIds?: number[];
   /**
   * The PagerDuty service id associated to this functionality
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/functionality#pagerduty_id Functionality#pagerduty_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/functionality#pagerduty_id Functionality#pagerduty_id}
   */
   readonly pagerdutyId?: string;
   /**
   * Position of the functionality
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/functionality#position Functionality#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/functionality#position Functionality#position}
   */
   readonly position?: number;
   /**
   * The public description of the functionality
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/functionality#public_description Functionality#public_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/functionality#public_description Functionality#public_description}
   */
   readonly publicDescription?: string;
   /**
   * Services associated with this functionality
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/functionality#service_ids Functionality#service_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/functionality#service_ids Functionality#service_ids}
   */
   readonly serviceIds?: string[];
   /**
   * The Service Now CI sys id associated to this functionality
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/functionality#service_now_ci_sys_id Functionality#service_now_ci_sys_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/functionality#service_now_ci_sys_id Functionality#service_now_ci_sys_id}
   */
   readonly serviceNowCiSysId?: string;
   /**
   * The slug of the functionality
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/functionality#slug Functionality#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/functionality#slug Functionality#slug}
   */
   readonly slug?: string;
   /**
   * slack_aliases block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/functionality#slack_aliases Functionality#slack_aliases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/functionality#slack_aliases Functionality#slack_aliases}
   */
   readonly slackAliases?: FunctionalitySlackAliases[] | cdktf.IResolvable;
   /**
   * slack_channels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/functionality#slack_channels Functionality#slack_channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/functionality#slack_channels Functionality#slack_channels}
   */
   readonly slackChannels?: FunctionalitySlackChannels[] | cdktf.IResolvable;
 }
@@ -139,7 +139,7 @@ export interface FunctionalitySlackAliases {
   /**
   * Slack alias ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/functionality#id Functionality#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/functionality#id Functionality#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -148,7 +148,7 @@ export interface FunctionalitySlackAliases {
   /**
   * Slack alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/functionality#name Functionality#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/functionality#name Functionality#name}
   */
   readonly name?: string;
 }
@@ -295,7 +295,7 @@ export interface FunctionalitySlackChannels {
   /**
   * Slack channel ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/functionality#id Functionality#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/functionality#id Functionality#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -304,7 +304,7 @@ export interface FunctionalitySlackChannels {
   /**
   * Slack channel name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/functionality#name Functionality#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/functionality#name Functionality#name}
   */
   readonly name?: string;
 }
@@ -449,7 +449,7 @@ export class FunctionalitySlackChannelsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/functionality rootly_functionality}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/functionality rootly_functionality}
 */
 export class Functionality extends cdktf.TerraformResource {
 
@@ -465,7 +465,7 @@ export class Functionality extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Functionality resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Functionality to import
-  * @param importFromId The id of the existing Functionality that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/functionality#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Functionality that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/functionality#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Functionality to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -477,7 +477,7 @@ export class Functionality extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/functionality rootly_functionality} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/functionality rootly_functionality} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -488,8 +488,8 @@ export class Functionality extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_functionality',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.9',
-        providerVersionConstraint: '4.3.9'
+        providerVersion: '4.3.10',
+        providerVersionConstraint: '4.3.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

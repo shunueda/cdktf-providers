@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/playwright_code_bundle
+// https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/playwright_code_bundle
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface PlaywrightCodeBundleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/playwright_code_bundle#id PlaywrightCodeBundle#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/playwright_code_bundle#id PlaywrightCodeBundle#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface PlaywrightCodeBundleConfig extends cdktf.TerraformMetaArguments
   /**
   * prebuilt_archive block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/playwright_code_bundle#prebuilt_archive PlaywrightCodeBundle#prebuilt_archive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/playwright_code_bundle#prebuilt_archive PlaywrightCodeBundle#prebuilt_archive}
   */
   readonly prebuiltArchive: PlaywrightCodeBundlePrebuiltArchive;
 }
@@ -25,7 +25,7 @@ export interface PlaywrightCodeBundlePrebuiltArchive {
   /**
   * Path to the archive file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/playwright_code_bundle#file PlaywrightCodeBundle#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/playwright_code_bundle#file PlaywrightCodeBundle#file}
   */
   readonly file: string;
 }
@@ -106,7 +106,7 @@ export class PlaywrightCodeBundlePrebuiltArchiveOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/playwright_code_bundle checkly_playwright_code_bundle}
+* Represents a {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/playwright_code_bundle checkly_playwright_code_bundle}
 */
 export class PlaywrightCodeBundle extends cdktf.TerraformResource {
 
@@ -122,7 +122,7 @@ export class PlaywrightCodeBundle extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlaywrightCodeBundle resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlaywrightCodeBundle to import
-  * @param importFromId The id of the existing PlaywrightCodeBundle that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/playwright_code_bundle#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlaywrightCodeBundle that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/playwright_code_bundle#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlaywrightCodeBundle to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -134,7 +134,7 @@ export class PlaywrightCodeBundle extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/playwright_code_bundle checkly_playwright_code_bundle} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/playwright_code_bundle checkly_playwright_code_bundle} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -145,8 +145,8 @@ export class PlaywrightCodeBundle extends cdktf.TerraformResource {
       terraformResourceType: 'checkly_playwright_code_bundle',
       terraformGeneratorMetadata: {
         providerName: 'checkly',
-        providerVersion: '1.17.0',
-        providerVersionConstraint: '1.17.0'
+        providerVersion: '1.17.1',
+        providerVersionConstraint: '1.17.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

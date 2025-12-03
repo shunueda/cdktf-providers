@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface InfrastructureConfig extends cdktf.TerraformMetaArguments {
   /**
   * The cloud account ID — use this for Azure (Subscription ID) and Google Cloud (Project ID). Not applicable for AWS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure#account_id Infrastructure#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure#account_id Infrastructure#account_id}
   */
   readonly accountId?: string;
   /**
   * The CIDR to use for the VPC or VNet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure#address_prefix Infrastructure#address_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure#address_prefix Infrastructure#address_prefix}
   */
   readonly addressPrefix: string;
   /**
   * The number of availability zones.  Must be one of: `2`, `3`, or `4`. This is applicable only for AWS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure#azcount Infrastructure#azcount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure#azcount Infrastructure#azcount}
   */
   readonly azcount?: number;
   /**
@@ -34,41 +34,41 @@ export interface InfrastructureConfig extends cdktf.TerraformMetaArguments {
   *    - `3` : Google
   *  Defaults to `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure#cloud Infrastructure#cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure#cloud Infrastructure#cloud}
   */
   readonly cloud?: number;
   /**
   * cluster IP CIDR defines a private IP address range used for internal Kubernetes services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure#cluster_ip_cidr Infrastructure#cluster_ip_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure#cluster_ip_cidr Infrastructure#cluster_ip_cidr}
   */
   readonly clusterIpCidr?: string;
   /**
   * Whether or not this resource should delete any settings not specified by this resource. **WARNING:**  It is not recommended to change the default value of `false`. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure#delete_unspecified_settings Infrastructure#delete_unspecified_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure#delete_unspecified_settings Infrastructure#delete_unspecified_settings}
   */
   readonly deleteUnspecifiedSettings?: boolean | cdktf.IResolvable;
   /**
   * Whether or not to enable container insights for an ECS cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure#enable_container_insights Infrastructure#enable_container_insights}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure#enable_container_insights Infrastructure#enable_container_insights}
   */
   readonly enableContainerInsights?: boolean | cdktf.IResolvable;
   /**
   * Whether or not to provision an ECS cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure#enable_ecs_cluster Infrastructure#enable_ecs_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure#enable_ecs_cluster Infrastructure#enable_ecs_cluster}
   */
   readonly enableEcsCluster?: boolean | cdktf.IResolvable;
   /**
   * Whether or not to provision a kubernetes cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure#enable_k8_cluster Infrastructure#enable_k8_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure#enable_k8_cluster Infrastructure#enable_k8_cluster}
   */
   readonly enableK8Cluster: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure#id Infrastructure#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure#id Infrastructure#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -77,61 +77,61 @@ export interface InfrastructureConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the infrastructure.  Infrastructure names are globally unique and less than 13 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure#infra_name Infrastructure#infra_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure#infra_name Infrastructure#infra_name}
   */
   readonly infraName: string;
   /**
   * Whether or not to make GKE with autopilot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure#is_serverless_kubernetes Infrastructure#is_serverless_kubernetes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure#is_serverless_kubernetes Infrastructure#is_serverless_kubernetes}
   */
   readonly isServerlessKubernetes?: boolean | cdktf.IResolvable;
   /**
   * The cloud provider region.  The Duplo portal must have already been configured to support this region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure#region Infrastructure#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure#region Infrastructure#region}
   */
   readonly region: string;
   /**
   * The address prefixe to use for the subnet. This is applicable only for Azure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure#subnet_address_prefix Infrastructure#subnet_address_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure#subnet_address_prefix Infrastructure#subnet_address_prefix}
   */
   readonly subnetAddressPrefix?: string;
   /**
   * The CIDR subnet size (in bits) for the automatically created subnets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure#subnet_cidr Infrastructure#subnet_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure#subnet_cidr Infrastructure#subnet_cidr}
   */
   readonly subnetCidr?: number;
   /**
   * The name of the subnet. This is applicable only for Azure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure#subnet_name Infrastructure#subnet_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure#subnet_name Infrastructure#subnet_name}
   */
   readonly subnetName?: string;
   /**
   * Whether or not to wait until Duplo has destroyed the infrastructure. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure#wait_until_deleted Infrastructure#wait_until_deleted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure#wait_until_deleted Infrastructure#wait_until_deleted}
   */
   readonly waitUntilDeleted?: boolean | cdktf.IResolvable;
   /**
   * custom_data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure#custom_data Infrastructure#custom_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure#custom_data Infrastructure#custom_data}
   */
   readonly customData?: InfrastructureCustomData[] | cdktf.IResolvable;
   /**
   * setting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure#setting Infrastructure#setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure#setting Infrastructure#setting}
   */
   readonly setting?: InfrastructureSetting[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure#timeouts Infrastructure#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure#timeouts Infrastructure#timeouts}
   */
   readonly timeouts?: InfrastructureTimeouts;
 }
@@ -785,11 +785,11 @@ export class InfrastructureSecurityGroupsList extends cdktf.ComplexList {
 }
 export interface InfrastructureCustomData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure#key Infrastructure#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure#key Infrastructure#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure#value Infrastructure#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure#value Infrastructure#value}
   */
   readonly value: string;
 }
@@ -928,11 +928,11 @@ export class InfrastructureCustomDataList extends cdktf.ComplexList {
 }
 export interface InfrastructureSetting {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure#key Infrastructure#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure#key Infrastructure#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure#value Infrastructure#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure#value Infrastructure#value}
   */
   readonly value: string;
 }
@@ -1071,15 +1071,15 @@ export class InfrastructureSettingList extends cdktf.ComplexList {
 }
 export interface InfrastructureTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure#create Infrastructure#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure#create Infrastructure#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure#delete Infrastructure#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure#delete Infrastructure#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure#update Infrastructure#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure#update Infrastructure#update}
   */
   readonly update?: string;
 }
@@ -1231,7 +1231,7 @@ export class InfrastructureTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure duplocloud_infrastructure}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure duplocloud_infrastructure}
 */
 export class Infrastructure extends cdktf.TerraformResource {
 
@@ -1247,7 +1247,7 @@ export class Infrastructure extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Infrastructure resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Infrastructure to import
-  * @param importFromId The id of the existing Infrastructure that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Infrastructure that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Infrastructure to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1259,7 +1259,7 @@ export class Infrastructure extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure duplocloud_infrastructure} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure duplocloud_infrastructure} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1270,8 +1270,8 @@ export class Infrastructure extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_infrastructure',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.29',
-        providerVersionConstraint: '0.11.29'
+        providerVersion: '0.11.30',
+        providerVersionConstraint: '0.11.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

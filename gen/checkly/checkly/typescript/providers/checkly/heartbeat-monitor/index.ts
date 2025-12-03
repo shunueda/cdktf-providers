@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/heartbeat_monitor
+// https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/heartbeat_monitor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface HeartbeatMonitorConfig extends cdktf.TerraformMetaArguments {
   /**
   * Determines if the check is running or not. Possible values `true`, and `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/heartbeat_monitor#activated HeartbeatMonitor#activated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/heartbeat_monitor#activated HeartbeatMonitor#activated}
   */
   readonly activated: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/heartbeat_monitor#id HeartbeatMonitor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/heartbeat_monitor#id HeartbeatMonitor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,59 +23,59 @@ export interface HeartbeatMonitorConfig extends cdktf.TerraformMetaArguments {
   /**
   * Determines if any notifications will be sent out when a check fails/degrades/recovers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/heartbeat_monitor#muted HeartbeatMonitor#muted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/heartbeat_monitor#muted HeartbeatMonitor#muted}
   */
   readonly muted?: boolean | cdktf.IResolvable;
   /**
   * The name of the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/heartbeat_monitor#name HeartbeatMonitor#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/heartbeat_monitor#name HeartbeatMonitor#name}
   */
   readonly name: string;
   /**
   * A list of tags for organizing and filtering checks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/heartbeat_monitor#tags HeartbeatMonitor#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/heartbeat_monitor#tags HeartbeatMonitor#tags}
   */
   readonly tags?: string[];
   /**
   * When true, the account level alert settings will be used, not the alert setting defined on this check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/heartbeat_monitor#use_global_alert_settings HeartbeatMonitor#use_global_alert_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/heartbeat_monitor#use_global_alert_settings HeartbeatMonitor#use_global_alert_settings}
   */
   readonly useGlobalAlertSettings?: boolean | cdktf.IResolvable;
   /**
   * alert_channel_subscription block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/heartbeat_monitor#alert_channel_subscription HeartbeatMonitor#alert_channel_subscription}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/heartbeat_monitor#alert_channel_subscription HeartbeatMonitor#alert_channel_subscription}
   */
   readonly alertChannelSubscription?: HeartbeatMonitorAlertChannelSubscription[] | cdktf.IResolvable;
   /**
   * alert_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/heartbeat_monitor#alert_settings HeartbeatMonitor#alert_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/heartbeat_monitor#alert_settings HeartbeatMonitor#alert_settings}
   */
   readonly alertSettings?: HeartbeatMonitorAlertSettings;
   /**
   * heartbeat block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/heartbeat_monitor#heartbeat HeartbeatMonitor#heartbeat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/heartbeat_monitor#heartbeat HeartbeatMonitor#heartbeat}
   */
   readonly heartbeat: HeartbeatMonitorHeartbeat;
   /**
   * trigger_incident block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/heartbeat_monitor#trigger_incident HeartbeatMonitor#trigger_incident}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/heartbeat_monitor#trigger_incident HeartbeatMonitor#trigger_incident}
   */
   readonly triggerIncident?: HeartbeatMonitorTriggerIncident;
 }
 export interface HeartbeatMonitorAlertChannelSubscription {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/heartbeat_monitor#activated HeartbeatMonitor#activated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/heartbeat_monitor#activated HeartbeatMonitor#activated}
   */
   readonly activated: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/heartbeat_monitor#channel_id HeartbeatMonitor#channel_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/heartbeat_monitor#channel_id HeartbeatMonitor#channel_id}
   */
   readonly channelId: number;
 }
@@ -216,13 +216,13 @@ export interface HeartbeatMonitorAlertSettingsParallelRunFailureThreshold {
   /**
   * Whether parallel run failure threshold is enabled. Only applies if the monitor is scheduled for multiple locations in parallel. (Default `false`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/heartbeat_monitor#enabled HeartbeatMonitor#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/heartbeat_monitor#enabled HeartbeatMonitor#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Percentage of runs that must fail to trigger alert. Possible values are `10`, `20`, `30`, `40`, `50`, `60`, `70`, `80`, `90`, and `100`. (Default `10`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/heartbeat_monitor#percentage HeartbeatMonitor#percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/heartbeat_monitor#percentage HeartbeatMonitor#percentage}
   */
   readonly percentage?: number;
 }
@@ -369,13 +369,13 @@ export interface HeartbeatMonitorAlertSettingsReminders {
   /**
   * Number of reminder notifications to send. Possible values are `0`, `1`, `2`, `3`, `4`, `5`, and `100000` (`0` to disable, `100000` for unlimited). (Default `0`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/heartbeat_monitor#amount HeartbeatMonitor#amount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/heartbeat_monitor#amount HeartbeatMonitor#amount}
   */
   readonly amount?: number;
   /**
   * Interval between reminder notifications in minutes. Possible values are `5`, `10`, `15`, and `30`. (Default `5`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/heartbeat_monitor#interval HeartbeatMonitor#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/heartbeat_monitor#interval HeartbeatMonitor#interval}
   */
   readonly interval?: number;
 }
@@ -522,7 +522,7 @@ export interface HeartbeatMonitorAlertSettingsRunBasedEscalation {
   /**
   * Send an alert notification after the given number of consecutive monitor runs have failed. Possible values are between `1` and `5`. (Default `1`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/heartbeat_monitor#failed_run_threshold HeartbeatMonitor#failed_run_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/heartbeat_monitor#failed_run_threshold HeartbeatMonitor#failed_run_threshold}
   */
   readonly failedRunThreshold?: number;
 }
@@ -640,13 +640,13 @@ export interface HeartbeatMonitorAlertSettingsSslCertificates {
   /**
   * No longer available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/heartbeat_monitor#alert_threshold HeartbeatMonitor#alert_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/heartbeat_monitor#alert_threshold HeartbeatMonitor#alert_threshold}
   */
   readonly alertThreshold?: number;
   /**
   * No longer available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/heartbeat_monitor#enabled HeartbeatMonitor#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/heartbeat_monitor#enabled HeartbeatMonitor#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -793,7 +793,7 @@ export interface HeartbeatMonitorAlertSettingsTimeBasedEscalation {
   /**
   * Send an alert notification after the monitor has been failing for the given amount of time (in minutes). Possible values are `5`, `10`, `15`, and `30`. (Default `5`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/heartbeat_monitor#minutes_failing_threshold HeartbeatMonitor#minutes_failing_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/heartbeat_monitor#minutes_failing_threshold HeartbeatMonitor#minutes_failing_threshold}
   */
   readonly minutesFailingThreshold?: number;
 }
@@ -911,37 +911,37 @@ export interface HeartbeatMonitorAlertSettings {
   /**
   * Determines the type of escalation to use. Possible values are `RUN_BASED` and `TIME_BASED`. (Default `RUN_BASED`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/heartbeat_monitor#escalation_type HeartbeatMonitor#escalation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/heartbeat_monitor#escalation_type HeartbeatMonitor#escalation_type}
   */
   readonly escalationType?: string;
   /**
   * parallel_run_failure_threshold block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/heartbeat_monitor#parallel_run_failure_threshold HeartbeatMonitor#parallel_run_failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/heartbeat_monitor#parallel_run_failure_threshold HeartbeatMonitor#parallel_run_failure_threshold}
   */
   readonly parallelRunFailureThreshold?: HeartbeatMonitorAlertSettingsParallelRunFailureThreshold[] | cdktf.IResolvable;
   /**
   * reminders block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/heartbeat_monitor#reminders HeartbeatMonitor#reminders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/heartbeat_monitor#reminders HeartbeatMonitor#reminders}
   */
   readonly reminders?: HeartbeatMonitorAlertSettingsReminders[] | cdktf.IResolvable;
   /**
   * run_based_escalation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/heartbeat_monitor#run_based_escalation HeartbeatMonitor#run_based_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/heartbeat_monitor#run_based_escalation HeartbeatMonitor#run_based_escalation}
   */
   readonly runBasedEscalation?: HeartbeatMonitorAlertSettingsRunBasedEscalation[] | cdktf.IResolvable;
   /**
   * ssl_certificates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/heartbeat_monitor#ssl_certificates HeartbeatMonitor#ssl_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/heartbeat_monitor#ssl_certificates HeartbeatMonitor#ssl_certificates}
   */
   readonly sslCertificates?: HeartbeatMonitorAlertSettingsSslCertificates[] | cdktf.IResolvable;
   /**
   * time_based_escalation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/heartbeat_monitor#time_based_escalation HeartbeatMonitor#time_based_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/heartbeat_monitor#time_based_escalation HeartbeatMonitor#time_based_escalation}
   */
   readonly timeBasedEscalation?: HeartbeatMonitorAlertSettingsTimeBasedEscalation[] | cdktf.IResolvable;
 }
@@ -1172,31 +1172,31 @@ export interface HeartbeatMonitorHeartbeat {
   /**
   * How long Checkly should wait before triggering any alerts when a ping does not arrive within the set period.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/heartbeat_monitor#grace HeartbeatMonitor#grace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/heartbeat_monitor#grace HeartbeatMonitor#grace}
   */
   readonly grace: number;
   /**
   * Possible values `seconds`, `minutes`, `hours` and `days`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/heartbeat_monitor#grace_unit HeartbeatMonitor#grace_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/heartbeat_monitor#grace_unit HeartbeatMonitor#grace_unit}
   */
   readonly graceUnit: string;
   /**
   * How often you expect a ping to the ping URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/heartbeat_monitor#period HeartbeatMonitor#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/heartbeat_monitor#period HeartbeatMonitor#period}
   */
   readonly period: number;
   /**
   * Possible values `seconds`, `minutes`, `hours` and `days`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/heartbeat_monitor#period_unit HeartbeatMonitor#period_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/heartbeat_monitor#period_unit HeartbeatMonitor#period_unit}
   */
   readonly periodUnit: string;
   /**
   * Custom token to generate your ping URL. Checkly will expect a ping to `https://ping.checklyhq.com/[PING_TOKEN]`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/heartbeat_monitor#ping_token HeartbeatMonitor#ping_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/heartbeat_monitor#ping_token HeartbeatMonitor#ping_token}
   */
   readonly pingToken?: string;
 }
@@ -1386,31 +1386,31 @@ export interface HeartbeatMonitorTriggerIncident {
   /**
   * A detailed description of the incident.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/heartbeat_monitor#description HeartbeatMonitor#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/heartbeat_monitor#description HeartbeatMonitor#description}
   */
   readonly description: string;
   /**
   * The name of the incident.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/heartbeat_monitor#name HeartbeatMonitor#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/heartbeat_monitor#name HeartbeatMonitor#name}
   */
   readonly name: string;
   /**
   * Whether to notify subscribers when the incident is triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/heartbeat_monitor#notify_subscribers HeartbeatMonitor#notify_subscribers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/heartbeat_monitor#notify_subscribers HeartbeatMonitor#notify_subscribers}
   */
   readonly notifySubscribers: boolean | cdktf.IResolvable;
   /**
   * The status page service that this incident will be associated with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/heartbeat_monitor#service_id HeartbeatMonitor#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/heartbeat_monitor#service_id HeartbeatMonitor#service_id}
   */
   readonly serviceId: string;
   /**
   * The severity level of the incident. Possible values are `MINOR`, `MEDIUM`, `MAJOR`, and `CRITICAL`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/heartbeat_monitor#severity HeartbeatMonitor#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/heartbeat_monitor#severity HeartbeatMonitor#severity}
   */
   readonly severity: string;
 }
@@ -1595,7 +1595,7 @@ export class HeartbeatMonitorTriggerIncidentOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/heartbeat_monitor checkly_heartbeat_monitor}
+* Represents a {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/heartbeat_monitor checkly_heartbeat_monitor}
 */
 export class HeartbeatMonitor extends cdktf.TerraformResource {
 
@@ -1611,7 +1611,7 @@ export class HeartbeatMonitor extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HeartbeatMonitor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HeartbeatMonitor to import
-  * @param importFromId The id of the existing HeartbeatMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/heartbeat_monitor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HeartbeatMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/heartbeat_monitor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HeartbeatMonitor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1623,7 +1623,7 @@ export class HeartbeatMonitor extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/heartbeat_monitor checkly_heartbeat_monitor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/heartbeat_monitor checkly_heartbeat_monitor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1634,8 +1634,8 @@ export class HeartbeatMonitor extends cdktf.TerraformResource {
       terraformResourceType: 'checkly_heartbeat_monitor',
       terraformGeneratorMetadata: {
         providerName: 'checkly',
-        providerVersion: '1.17.0',
-        providerVersionConstraint: '1.17.0'
+        providerVersion: '1.17.1',
+        providerVersionConstraint: '1.17.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

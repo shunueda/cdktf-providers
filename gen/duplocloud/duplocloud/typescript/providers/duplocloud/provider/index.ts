@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface DuplocloudProviderConfig {
   /**
   * This is the base URL to the Duplo REST API.  It must be provided, but it can also be sourced from the `duplo_host` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs#duplo_host DuplocloudProvider#duplo_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs#duplo_host DuplocloudProvider#duplo_host}
   */
   readonly duploHost?: string;
   /**
   * This is a bearer token used to authenticate to the Duplo REST API.  It must be provided, but it can also be sourced from the `duplo_token` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs#duplo_token DuplocloudProvider#duplo_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs#duplo_token DuplocloudProvider#duplo_token}
   */
   readonly duploToken?: string;
   /**
   * Timeout for HTTP requests in seconds. Defaults to `30`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs#http_timeout DuplocloudProvider#http_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs#http_timeout DuplocloudProvider#http_timeout}
   */
   readonly httpTimeout?: number;
   /**
   * Disable SSL certificate verification. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs#ssl_no_verify DuplocloudProvider#ssl_no_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs#ssl_no_verify DuplocloudProvider#ssl_no_verify}
   */
   readonly sslNoVerify?: boolean | cdktf.IResolvable;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs#alias DuplocloudProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs#alias DuplocloudProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs duplocloud}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs duplocloud}
 */
 export class DuplocloudProvider extends cdktf.TerraformProvider {
 
@@ -56,7 +56,7 @@ export class DuplocloudProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a DuplocloudProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DuplocloudProvider to import
-  * @param importFromId The id of the existing DuplocloudProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DuplocloudProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DuplocloudProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class DuplocloudProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs duplocloud} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs duplocloud} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class DuplocloudProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'duplocloud',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.29',
-        providerVersionConstraint: '0.11.29'
+        providerVersion: '0.11.30',
+        providerVersionConstraint: '0.11.30'
       },
       terraformProviderSource: 'duplocloud/duplocloud'
     });

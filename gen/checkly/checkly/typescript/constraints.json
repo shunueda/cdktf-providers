@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "checkly": "1.17.0"
+    "checkly": "1.17.1"
   }
 }

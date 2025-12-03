@@ -1,3 +1,3 @@
 # `data_prefect_teams`
 
-Refer to the Terraform Registry for docs: [`data_prefect_teams`](https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/data-sources/teams).
+Refer to the Terraform Registry for docs: [`data_prefect_teams`](https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/data-sources/teams).

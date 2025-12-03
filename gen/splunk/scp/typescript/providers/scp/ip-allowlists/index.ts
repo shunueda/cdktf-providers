@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/splunk/scp/1.3.0/docs/resources/ip_allowlists
+// https://registry.terraform.io/providers/splunk/scp/1.3.1/docs/resources/ip_allowlists
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface IpAllowlistsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Feature is a specified component in your Splunk Cloud Platform. Eg: search-api, hec, etc. No two resources should have the same feature. Use this value as the resource name itself to enforce this rule. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.3.0/docs/resources/ip_allowlists#feature IpAllowlists#feature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.3.1/docs/resources/ip_allowlists#feature IpAllowlists#feature}
   */
   readonly feature: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.3.0/docs/resources/ip_allowlists#id IpAllowlists#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.3.1/docs/resources/ip_allowlists#id IpAllowlists#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface IpAllowlistsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Subnets is a list of IP addresses that have access to the corresponding feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.3.0/docs/resources/ip_allowlists#subnets IpAllowlists#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.3.1/docs/resources/ip_allowlists#subnets IpAllowlists#subnets}
   */
   readonly subnets: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/splunk/scp/1.3.0/docs/resources/ip_allowlists scp_ip_allowlists}
+* Represents a {@link https://registry.terraform.io/providers/splunk/scp/1.3.1/docs/resources/ip_allowlists scp_ip_allowlists}
 */
 export class IpAllowlists extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class IpAllowlists extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpAllowlists resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpAllowlists to import
-  * @param importFromId The id of the existing IpAllowlists that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk/scp/1.3.0/docs/resources/ip_allowlists#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpAllowlists that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk/scp/1.3.1/docs/resources/ip_allowlists#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpAllowlists to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class IpAllowlists extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/splunk/scp/1.3.0/docs/resources/ip_allowlists scp_ip_allowlists} Resource
+  * Create a new {@link https://registry.terraform.io/providers/splunk/scp/1.3.1/docs/resources/ip_allowlists scp_ip_allowlists} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class IpAllowlists extends cdktf.TerraformResource {
       terraformResourceType: 'scp_ip_allowlists',
       terraformGeneratorMetadata: {
         providerName: 'scp',
-        providerVersion: '1.3.0',
-        providerVersionConstraint: '1.3.0'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

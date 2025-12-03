@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_instance_refresh
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_instance_refresh
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface AsgInstanceRefreshConfig extends cdktf.TerraformMetaArguments {
   /**
   * The fullname of the asg
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_instance_refresh#asg_name AsgInstanceRefresh#asg_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_instance_refresh#asg_name AsgInstanceRefresh#asg_name}
   */
   readonly asgName: string;
   /**
   * Automatically rollback if instance refresh fails. This can be set only if update_launch_template_version is specified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_instance_refresh#auto_rollback AsgInstanceRefresh#auto_rollback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_instance_refresh#auto_rollback AsgInstanceRefresh#auto_rollback}
   */
   readonly autoRollback?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_instance_refresh#id AsgInstanceRefresh#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_instance_refresh#id AsgInstanceRefresh#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,57 +29,57 @@ export interface AsgInstanceRefreshConfig extends cdktf.TerraformMetaArguments {
   /**
   * Number of seconds until a newly launched instance is configured and ready to use. Default behavior is to use the Auto Scaling Group's health check grace period.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_instance_refresh#instance_warmup AsgInstanceRefresh#instance_warmup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_instance_refresh#instance_warmup AsgInstanceRefresh#instance_warmup}
   */
   readonly instanceWarmup?: number;
   /**
   * Amount of capacity in the Auto Scaling group that can be in service and healthy, or pending, to support your workload when an instance refresh is in place, as a percentage of the desired capacity of the Auto Scaling group. Defaults to `100`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_instance_refresh#max_healthy_percentage AsgInstanceRefresh#max_healthy_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_instance_refresh#max_healthy_percentage AsgInstanceRefresh#max_healthy_percentage}
   */
   readonly maxHealthyPercentage?: number;
   /**
   * Amount of capacity in the Auto Scaling group that must remain healthy during an instance refresh to allow the operation to continue, as a percentage of the desired capacity of the Auto Scaling group. Defaults to `90`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_instance_refresh#min_healthy_percentage AsgInstanceRefresh#min_healthy_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_instance_refresh#min_healthy_percentage AsgInstanceRefresh#min_healthy_percentage}
   */
   readonly minHealthyPercentage?: number;
   /**
   * To identify instance refresh or invoke a instance refresh.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_instance_refresh#refresh_identifier AsgInstanceRefresh#refresh_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_instance_refresh#refresh_identifier AsgInstanceRefresh#refresh_identifier}
   */
   readonly refreshIdentifier?: string;
   /**
   * The GUID of the tenant that the asg will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_instance_refresh#tenant_id AsgInstanceRefresh#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_instance_refresh#tenant_id AsgInstanceRefresh#tenant_id}
   */
   readonly tenantId: string;
   /**
   * Launch template version to update
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_instance_refresh#update_launch_template_version AsgInstanceRefresh#update_launch_template_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_instance_refresh#update_launch_template_version AsgInstanceRefresh#update_launch_template_version}
   */
   readonly updateLaunchTemplateVersion?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_instance_refresh#timeouts AsgInstanceRefresh#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_instance_refresh#timeouts AsgInstanceRefresh#timeouts}
   */
   readonly timeouts?: AsgInstanceRefreshTimeouts;
 }
 export interface AsgInstanceRefreshTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_instance_refresh#create AsgInstanceRefresh#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_instance_refresh#create AsgInstanceRefresh#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_instance_refresh#delete AsgInstanceRefresh#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_instance_refresh#delete AsgInstanceRefresh#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_instance_refresh#update AsgInstanceRefresh#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_instance_refresh#update AsgInstanceRefresh#update}
   */
   readonly update?: string;
 }
@@ -231,7 +231,7 @@ export class AsgInstanceRefreshTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_instance_refresh duplocloud_asg_instance_refresh}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_instance_refresh duplocloud_asg_instance_refresh}
 */
 export class AsgInstanceRefresh extends cdktf.TerraformResource {
 
@@ -247,7 +247,7 @@ export class AsgInstanceRefresh extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AsgInstanceRefresh resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AsgInstanceRefresh to import
-  * @param importFromId The id of the existing AsgInstanceRefresh that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_instance_refresh#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AsgInstanceRefresh that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_instance_refresh#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AsgInstanceRefresh to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -259,7 +259,7 @@ export class AsgInstanceRefresh extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_instance_refresh duplocloud_asg_instance_refresh} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_instance_refresh duplocloud_asg_instance_refresh} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -270,8 +270,8 @@ export class AsgInstanceRefresh extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_asg_instance_refresh',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.29',
-        providerVersionConstraint: '0.11.29'
+        providerVersion: '0.11.30',
+        providerVersionConstraint: '0.11.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_bridge_settings
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_bridge_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface InterfaceBridgeSettingsConfig extends cdktf.TerraformMetaArgume
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_bridge_settings#___path___ InterfaceBridgeSettings#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_bridge_settings#___path___ InterfaceBridgeSettings#___path___}
   */
   readonly path?: string;
   /**
   * Whether to enable a bridge FastPath globally.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_bridge_settings#allow_fast_path InterfaceBridgeSettings#allow_fast_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_bridge_settings#allow_fast_path InterfaceBridgeSettings#allow_fast_path}
   */
   readonly allowFastPath?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_bridge_settings#id InterfaceBridgeSettings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_bridge_settings#id InterfaceBridgeSettings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface InterfaceBridgeSettingsConfig extends cdktf.TerraformMetaArgume
   /**
   * Force bridged traffic to also be processed by prerouting, forward and postrouting sections of IP routing ( Packet Flow). This does not apply to routed traffic. This property is required in case you want to assign Simple Queues or global Queue Tree to traffic in a bridge. Property use-ip-firewall-for-vlan is required in case bridge vlan-filtering is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_bridge_settings#use_ip_firewall InterfaceBridgeSettings#use_ip_firewall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_bridge_settings#use_ip_firewall InterfaceBridgeSettings#use_ip_firewall}
   */
   readonly useIpFirewall?: boolean | cdktf.IResolvable;
   /**
   * Send bridged un-encrypted PPPoE traffic to also be processed by IP/Firewall. This property only has effect when use-ip-firewall is set to yes. This property is required in case you want to assign Simple Queues or global Queue Tree to PPPoE traffic in a bridge.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_bridge_settings#use_ip_firewall_for_pppoe InterfaceBridgeSettings#use_ip_firewall_for_pppoe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_bridge_settings#use_ip_firewall_for_pppoe InterfaceBridgeSettings#use_ip_firewall_for_pppoe}
   */
   readonly useIpFirewallForPppoe?: boolean | cdktf.IResolvable;
   /**
   * Send bridged VLAN traffic to also be processed by IP/Firewall. This property only has effect when use-ip-firewall is set to yes. This property is required in case you want to assign Simple Queues or global Queue Tree to VLAN traffic in a bridge.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_bridge_settings#use_ip_firewall_for_vlan InterfaceBridgeSettings#use_ip_firewall_for_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_bridge_settings#use_ip_firewall_for_vlan InterfaceBridgeSettings#use_ip_firewall_for_vlan}
   */
   readonly useIpFirewallForVlan?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_bridge_settings routeros_interface_bridge_settings}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_bridge_settings routeros_interface_bridge_settings}
 */
 export class InterfaceBridgeSettings extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class InterfaceBridgeSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfaceBridgeSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfaceBridgeSettings to import
-  * @param importFromId The id of the existing InterfaceBridgeSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_bridge_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfaceBridgeSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_bridge_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfaceBridgeSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class InterfaceBridgeSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_bridge_settings routeros_interface_bridge_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_bridge_settings routeros_interface_bridge_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class InterfaceBridgeSettings extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_interface_bridge_settings',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.95.0',
-        providerVersionConstraint: '1.95.0'
+        providerVersion: '1.96.0',
+        providerVersionConstraint: '1.96.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

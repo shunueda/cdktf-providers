@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/grafana/grafana/4.20.1/docs/resources/k6_load_test
+// https://registry.terraform.io/providers/grafana/grafana/4.20.2/docs/resources/k6_load_test
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface K6LoadTestConfig extends cdktf.TerraformMetaArguments {
   /**
   * Identifier of a baseline test run used for results comparison.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.1/docs/resources/k6_load_test#baseline_test_run_id K6LoadTest#baseline_test_run_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.2/docs/resources/k6_load_test#baseline_test_run_id K6LoadTest#baseline_test_run_id}
   */
   readonly baselineTestRunId?: string;
   /**
   * Human-friendly identifier of the load test.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.1/docs/resources/k6_load_test#name K6LoadTest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.2/docs/resources/k6_load_test#name K6LoadTest#name}
   */
   readonly name: string;
   /**
   * The identifier of the project this load test belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.1/docs/resources/k6_load_test#project_id K6LoadTest#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.2/docs/resources/k6_load_test#project_id K6LoadTest#project_id}
   */
   readonly projectId: string;
   /**
   * The k6 test script content. Can be provided inline or via the `file()` function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.1/docs/resources/k6_load_test#script K6LoadTest#script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.2/docs/resources/k6_load_test#script K6LoadTest#script}
   */
   readonly script: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/grafana/grafana/4.20.1/docs/resources/k6_load_test grafana_k6_load_test}
+* Represents a {@link https://registry.terraform.io/providers/grafana/grafana/4.20.2/docs/resources/k6_load_test grafana_k6_load_test}
 */
 export class K6LoadTest extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class K6LoadTest extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a K6LoadTest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the K6LoadTest to import
-  * @param importFromId The id of the existing K6LoadTest that should be imported. Refer to the {@link https://registry.terraform.io/providers/grafana/grafana/4.20.1/docs/resources/k6_load_test#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing K6LoadTest that should be imported. Refer to the {@link https://registry.terraform.io/providers/grafana/grafana/4.20.2/docs/resources/k6_load_test#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the K6LoadTest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class K6LoadTest extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/grafana/grafana/4.20.1/docs/resources/k6_load_test grafana_k6_load_test} Resource
+  * Create a new {@link https://registry.terraform.io/providers/grafana/grafana/4.20.2/docs/resources/k6_load_test grafana_k6_load_test} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class K6LoadTest extends cdktf.TerraformResource {
       terraformResourceType: 'grafana_k6_load_test',
       terraformGeneratorMetadata: {
         providerName: 'grafana',
-        providerVersion: '4.20.1',
-        providerVersionConstraint: '4.20.1'
+        providerVersion: '4.20.2',
+        providerVersionConstraint: '4.20.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

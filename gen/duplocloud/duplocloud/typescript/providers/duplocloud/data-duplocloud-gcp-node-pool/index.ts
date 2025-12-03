@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/data-sources/gcp_node_pool
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/gcp_node_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataDuplocloudGcpNodePoolConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/data-sources/gcp_node_pool#id DataDuplocloudGcpNodePool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/gcp_node_pool#id DataDuplocloudGcpNodePool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface DataDuplocloudGcpNodePoolConfig extends cdktf.TerraformMetaArgu
   /**
   * The short name of the node pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/data-sources/gcp_node_pool#name DataDuplocloudGcpNodePool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/gcp_node_pool#name DataDuplocloudGcpNodePool#name}
   */
   readonly name: string;
   /**
   * The GUID of the tenant that the node pool will be associated with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/data-sources/gcp_node_pool#tenant_id DataDuplocloudGcpNodePool#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/gcp_node_pool#tenant_id DataDuplocloudGcpNodePool#tenant_id}
   */
   readonly tenantId: string;
   /**
   * accelerator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/data-sources/gcp_node_pool#accelerator DataDuplocloudGcpNodePool#accelerator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/gcp_node_pool#accelerator DataDuplocloudGcpNodePool#accelerator}
   */
   readonly accelerator?: DataDuplocloudGcpNodePoolAccelerator[] | cdktf.IResolvable;
   /**
   * taints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/data-sources/gcp_node_pool#taints DataDuplocloudGcpNodePool#taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/gcp_node_pool#taints DataDuplocloudGcpNodePool#taints}
   */
   readonly taints?: DataDuplocloudGcpNodePoolTaints[] | cdktf.IResolvable;
 }
@@ -623,13 +623,13 @@ export interface DataDuplocloudGcpNodePoolAccelerator {
   /**
   * The number of the accelerator cards exposed to an instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/data-sources/gcp_node_pool#accelerator_count DataDuplocloudGcpNodePool#accelerator_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/gcp_node_pool#accelerator_count DataDuplocloudGcpNodePool#accelerator_count}
   */
   readonly acceleratorCount?: string;
   /**
   * gpu_sharing_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/data-sources/gcp_node_pool#gpu_sharing_config DataDuplocloudGcpNodePool#gpu_sharing_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/gcp_node_pool#gpu_sharing_config DataDuplocloudGcpNodePool#gpu_sharing_config}
   */
   readonly gpuSharingConfig?: DataDuplocloudGcpNodePoolAcceleratorGpuSharingConfig[] | cdktf.IResolvable;
 }
@@ -891,7 +891,7 @@ export class DataDuplocloudGcpNodePoolTaintsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/data-sources/gcp_node_pool duplocloud_gcp_node_pool}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/gcp_node_pool duplocloud_gcp_node_pool}
 */
 export class DataDuplocloudGcpNodePool extends cdktf.TerraformDataSource {
 
@@ -907,7 +907,7 @@ export class DataDuplocloudGcpNodePool extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataDuplocloudGcpNodePool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataDuplocloudGcpNodePool to import
-  * @param importFromId The id of the existing DataDuplocloudGcpNodePool that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/data-sources/gcp_node_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataDuplocloudGcpNodePool that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/gcp_node_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataDuplocloudGcpNodePool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -919,7 +919,7 @@ export class DataDuplocloudGcpNodePool extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/data-sources/gcp_node_pool duplocloud_gcp_node_pool} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/gcp_node_pool duplocloud_gcp_node_pool} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -930,8 +930,8 @@ export class DataDuplocloudGcpNodePool extends cdktf.TerraformDataSource {
       terraformResourceType: 'duplocloud_gcp_node_pool',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.29',
-        providerVersionConstraint: '0.11.29'
+        providerVersion: '0.11.30',
+        providerVersionConstraint: '0.11.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

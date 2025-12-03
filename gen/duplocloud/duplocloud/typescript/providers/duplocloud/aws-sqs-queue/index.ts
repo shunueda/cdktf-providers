@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_sqs_queue
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_sqs_queue
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface AwsSqsQueueConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enables content-based deduplication for FIFO queues.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_sqs_queue#content_based_deduplication AwsSqsQueue#content_based_deduplication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_sqs_queue#content_based_deduplication AwsSqsQueue#content_based_deduplication}
   */
   readonly contentBasedDeduplication?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether message deduplication occurs at the message group or queue level. Valid values are `messageGroup` and `queue`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_sqs_queue#deduplication_scope AwsSqsQueue#deduplication_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_sqs_queue#deduplication_scope AwsSqsQueue#deduplication_scope}
   */
   readonly deduplicationScope?: string;
   /**
   * Postpone the delivery of new messages to consumers for a number of seconds seconds range [0-900]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_sqs_queue#delay_seconds AwsSqsQueue#delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_sqs_queue#delay_seconds AwsSqsQueue#delay_seconds}
   */
   readonly delaySeconds?: number;
   /**
   * Boolean designating a FIFO queue. If not set, it defaults to `false` making it standard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_sqs_queue#fifo_queue AwsSqsQueue#fifo_queue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_sqs_queue#fifo_queue AwsSqsQueue#fifo_queue}
   */
   readonly fifoQueue?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the FIFO queue throughput quota applies to the entire queue or per message group. Valid values are `perQueue` (default) and `perMessageGroupId`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_sqs_queue#fifo_throughput_limit AwsSqsQueue#fifo_throughput_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_sqs_queue#fifo_throughput_limit AwsSqsQueue#fifo_throughput_limit}
   */
   readonly fifoThroughputLimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_sqs_queue#id AwsSqsQueue#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_sqs_queue#id AwsSqsQueue#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,43 +47,43 @@ export interface AwsSqsQueueConfig extends cdktf.TerraformMetaArguments {
   /**
   * The number of seconds Amazon SQS retains a message. Integer representing seconds, from 60 (1 minute) to 1209600 (14 days).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_sqs_queue#message_retention_seconds AwsSqsQueue#message_retention_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_sqs_queue#message_retention_seconds AwsSqsQueue#message_retention_seconds}
   */
   readonly messageRetentionSeconds?: number;
   /**
   * The name of the queue. Queue names must be made up of only uppercase and lowercase ASCII letters, numbers, underscores, and hyphens, and have up to 80 characters long which is inclusive of duplo prefix (duploservices-{tenant_name}-) appended by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_sqs_queue#name AwsSqsQueue#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_sqs_queue#name AwsSqsQueue#name}
   */
   readonly name: string;
   /**
   * The time for which a ReceiveMessage call will wait for a message to arrive. An integer from 0 to 20 (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_sqs_queue#receive_wait_time_seconds AwsSqsQueue#receive_wait_time_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_sqs_queue#receive_wait_time_seconds AwsSqsQueue#receive_wait_time_seconds}
   */
   readonly receiveWaitTimeSeconds?: number;
   /**
   * The GUID of the tenant that the SQS queue will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_sqs_queue#tenant_id AwsSqsQueue#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_sqs_queue#tenant_id AwsSqsQueue#tenant_id}
   */
   readonly tenantId: string;
   /**
   * The visibility timeout for the queue. An integer from 0 to 43200 (12 hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_sqs_queue#visibility_timeout_seconds AwsSqsQueue#visibility_timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_sqs_queue#visibility_timeout_seconds AwsSqsQueue#visibility_timeout_seconds}
   */
   readonly visibilityTimeoutSeconds?: number;
   /**
   * dead_letter_queue_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_sqs_queue#dead_letter_queue_configuration AwsSqsQueue#dead_letter_queue_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_sqs_queue#dead_letter_queue_configuration AwsSqsQueue#dead_letter_queue_configuration}
   */
   readonly deadLetterQueueConfiguration?: AwsSqsQueueDeadLetterQueueConfiguration;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_sqs_queue#timeouts AwsSqsQueue#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_sqs_queue#timeouts AwsSqsQueue#timeouts}
   */
   readonly timeouts?: AwsSqsQueueTimeouts;
 }
@@ -91,13 +91,13 @@ export interface AwsSqsQueueDeadLetterQueueConfiguration {
   /**
   * Maximum number of processing attempts for a given message before it is moved to the dead letter queue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_sqs_queue#max_message_receive_attempts AwsSqsQueue#max_message_receive_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_sqs_queue#max_message_receive_attempts AwsSqsQueue#max_message_receive_attempts}
   */
   readonly maxMessageReceiveAttempts: number;
   /**
   * Name of the SQS queue meant to be the target dead letter queue for this SQS resource (queues must belong to same tenant)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_sqs_queue#target_sqs_dlq_name AwsSqsQueue#target_sqs_dlq_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_sqs_queue#target_sqs_dlq_name AwsSqsQueue#target_sqs_dlq_name}
   */
   readonly targetSqsDlqName: string;
 }
@@ -204,11 +204,11 @@ export class AwsSqsQueueDeadLetterQueueConfigurationOutputReference extends cdkt
 }
 export interface AwsSqsQueueTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_sqs_queue#create AwsSqsQueue#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_sqs_queue#create AwsSqsQueue#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_sqs_queue#delete AwsSqsQueue#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_sqs_queue#delete AwsSqsQueue#delete}
   */
   readonly delete?: string;
 }
@@ -331,7 +331,7 @@ export class AwsSqsQueueTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_sqs_queue duplocloud_aws_sqs_queue}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_sqs_queue duplocloud_aws_sqs_queue}
 */
 export class AwsSqsQueue extends cdktf.TerraformResource {
 
@@ -347,7 +347,7 @@ export class AwsSqsQueue extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsSqsQueue resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsSqsQueue to import
-  * @param importFromId The id of the existing AwsSqsQueue that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_sqs_queue#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsSqsQueue that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_sqs_queue#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsSqsQueue to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -359,7 +359,7 @@ export class AwsSqsQueue extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_sqs_queue duplocloud_aws_sqs_queue} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_sqs_queue duplocloud_aws_sqs_queue} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -370,8 +370,8 @@ export class AwsSqsQueue extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_aws_sqs_queue',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.29',
-        providerVersionConstraint: '0.11.29'
+        providerVersion: '0.11.30',
+        providerVersionConstraint: '0.11.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_create_mistral_chat_completion
+// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_create_mistral_chat_completion
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkflowTaskCreateMistralChatCompletionConfig extends cdktf.Ter
   /**
   * Enable/disable this workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_create_mistral_chat_completion#enabled WorkflowTaskCreateMistralChatCompletion#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_create_mistral_chat_completion#enabled WorkflowTaskCreateMistralChatCompletion#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_create_mistral_chat_completion#id WorkflowTaskCreateMistralChatCompletion#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_create_mistral_chat_completion#id WorkflowTaskCreateMistralChatCompletion#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface WorkflowTaskCreateMistralChatCompletionConfig extends cdktf.Ter
   /**
   * Name of the workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_create_mistral_chat_completion#name WorkflowTaskCreateMistralChatCompletion#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_create_mistral_chat_completion#name WorkflowTaskCreateMistralChatCompletion#name}
   */
   readonly name?: string;
   /**
   * The position of the workflow task (1 being top of list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_create_mistral_chat_completion#position WorkflowTaskCreateMistralChatCompletion#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_create_mistral_chat_completion#position WorkflowTaskCreateMistralChatCompletion#position}
   */
   readonly position?: number;
   /**
   * Skip workflow task if any failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_create_mistral_chat_completion#skip_on_failure WorkflowTaskCreateMistralChatCompletion#skip_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_create_mistral_chat_completion#skip_on_failure WorkflowTaskCreateMistralChatCompletion#skip_on_failure}
   */
   readonly skipOnFailure?: boolean | cdktf.IResolvable;
   /**
   * The ID of the parent workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_create_mistral_chat_completion#workflow_id WorkflowTaskCreateMistralChatCompletion#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_create_mistral_chat_completion#workflow_id WorkflowTaskCreateMistralChatCompletion#workflow_id}
   */
   readonly workflowId: string;
   /**
   * task_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_create_mistral_chat_completion#task_params WorkflowTaskCreateMistralChatCompletion#task_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_create_mistral_chat_completion#task_params WorkflowTaskCreateMistralChatCompletion#task_params}
   */
   readonly taskParams: WorkflowTaskCreateMistralChatCompletionTaskParams;
 }
@@ -55,41 +55,41 @@ export interface WorkflowTaskCreateMistralChatCompletionTaskParams {
   /**
   * Maximum number of tokens to generate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_create_mistral_chat_completion#max_tokens WorkflowTaskCreateMistralChatCompletion#max_tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_create_mistral_chat_completion#max_tokens WorkflowTaskCreateMistralChatCompletion#max_tokens}
   */
   readonly maxTokens?: string;
   /**
   * Map must contain two fields, `id` and `name`. The Mistral model. eg: mistral-large-latest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_create_mistral_chat_completion#model WorkflowTaskCreateMistralChatCompletion#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_create_mistral_chat_completion#model WorkflowTaskCreateMistralChatCompletion#model}
   */
   readonly model: { [key: string]: string };
   /**
   * The prompt to send to Mistral
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_create_mistral_chat_completion#prompt WorkflowTaskCreateMistralChatCompletion#prompt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_create_mistral_chat_completion#prompt WorkflowTaskCreateMistralChatCompletion#prompt}
   */
   readonly prompt: string;
   /**
   * The system prompt to send to Mistral (optional)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_create_mistral_chat_completion#system_prompt WorkflowTaskCreateMistralChatCompletion#system_prompt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_create_mistral_chat_completion#system_prompt WorkflowTaskCreateMistralChatCompletion#system_prompt}
   */
   readonly systemPrompt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_create_mistral_chat_completion#task_type WorkflowTaskCreateMistralChatCompletion#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_create_mistral_chat_completion#task_type WorkflowTaskCreateMistralChatCompletion#task_type}
   */
   readonly taskType?: string;
   /**
   * Sampling temperature (0.0-1.5). Higher values make output more random.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_create_mistral_chat_completion#temperature WorkflowTaskCreateMistralChatCompletion#temperature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_create_mistral_chat_completion#temperature WorkflowTaskCreateMistralChatCompletion#temperature}
   */
   readonly temperature?: number;
   /**
   * Nucleus sampling parameter (0.0-1.0)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_create_mistral_chat_completion#top_p WorkflowTaskCreateMistralChatCompletion#top_p}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_create_mistral_chat_completion#top_p WorkflowTaskCreateMistralChatCompletion#top_p}
   */
   readonly topP?: number;
 }
@@ -341,7 +341,7 @@ export class WorkflowTaskCreateMistralChatCompletionTaskParamsOutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_create_mistral_chat_completion rootly_workflow_task_create_mistral_chat_completion}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_create_mistral_chat_completion rootly_workflow_task_create_mistral_chat_completion}
 */
 export class WorkflowTaskCreateMistralChatCompletion extends cdktf.TerraformResource {
 
@@ -357,7 +357,7 @@ export class WorkflowTaskCreateMistralChatCompletion extends cdktf.TerraformReso
   * Generates CDKTF code for importing a WorkflowTaskCreateMistralChatCompletion resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowTaskCreateMistralChatCompletion to import
-  * @param importFromId The id of the existing WorkflowTaskCreateMistralChatCompletion that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_create_mistral_chat_completion#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowTaskCreateMistralChatCompletion that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_create_mistral_chat_completion#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowTaskCreateMistralChatCompletion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -369,7 +369,7 @@ export class WorkflowTaskCreateMistralChatCompletion extends cdktf.TerraformReso
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_create_mistral_chat_completion rootly_workflow_task_create_mistral_chat_completion} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_create_mistral_chat_completion rootly_workflow_task_create_mistral_chat_completion} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -380,8 +380,8 @@ export class WorkflowTaskCreateMistralChatCompletion extends cdktf.TerraformReso
       terraformResourceType: 'rootly_workflow_task_create_mistral_chat_completion',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.9',
-        providerVersionConstraint: '4.3.9'
+        providerVersion: '4.3.10',
+        providerVersionConstraint: '4.3.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

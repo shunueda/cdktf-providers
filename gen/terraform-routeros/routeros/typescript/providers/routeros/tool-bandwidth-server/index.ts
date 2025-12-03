@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/tool_bandwidth_server
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/tool_bandwidth_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface ToolBandwidthServerConfig extends cdktf.TerraformMetaArguments 
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/tool_bandwidth_server#___path___ ToolBandwidthServer#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/tool_bandwidth_server#___path___ ToolBandwidthServer#___path___}
   */
   readonly path?: string;
   /**
   * Beginning of UDP port range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/tool_bandwidth_server#allocate_udp_ports_from ToolBandwidthServer#allocate_udp_ports_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/tool_bandwidth_server#allocate_udp_ports_from ToolBandwidthServer#allocate_udp_ports_from}
   */
   readonly allocateUdpPortsFrom?: number;
   /**
   * IPv4 allowed networks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/tool_bandwidth_server#allowed_addresses4 ToolBandwidthServer#allowed_addresses4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/tool_bandwidth_server#allowed_addresses4 ToolBandwidthServer#allowed_addresses4}
   */
   readonly allowedAddresses4?: string[];
   /**
   * Ipv6 allowed networks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/tool_bandwidth_server#allowed_addresses6 ToolBandwidthServer#allowed_addresses6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/tool_bandwidth_server#allowed_addresses6 ToolBandwidthServer#allowed_addresses6}
   */
   readonly allowedAddresses6?: string[];
   /**
   * Communicate only with authenticated clients.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/tool_bandwidth_server#authenticate ToolBandwidthServer#authenticate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/tool_bandwidth_server#authenticate ToolBandwidthServer#authenticate}
   */
   readonly authenticate?: boolean | cdktf.IResolvable;
   /**
   * Defines whether bandwidth server is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/tool_bandwidth_server#enabled ToolBandwidthServer#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/tool_bandwidth_server#enabled ToolBandwidthServer#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/tool_bandwidth_server#id ToolBandwidthServer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/tool_bandwidth_server#id ToolBandwidthServer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,13 +53,13 @@ export interface ToolBandwidthServerConfig extends cdktf.TerraformMetaArguments 
   /**
   * Maximal simultaneous test count.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/tool_bandwidth_server#max_sessions ToolBandwidthServer#max_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/tool_bandwidth_server#max_sessions ToolBandwidthServer#max_sessions}
   */
   readonly maxSessions?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/tool_bandwidth_server routeros_tool_bandwidth_server}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/tool_bandwidth_server routeros_tool_bandwidth_server}
 */
 export class ToolBandwidthServer extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class ToolBandwidthServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ToolBandwidthServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ToolBandwidthServer to import
-  * @param importFromId The id of the existing ToolBandwidthServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/tool_bandwidth_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ToolBandwidthServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/tool_bandwidth_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ToolBandwidthServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class ToolBandwidthServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/tool_bandwidth_server routeros_tool_bandwidth_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/tool_bandwidth_server routeros_tool_bandwidth_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class ToolBandwidthServer extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_tool_bandwidth_server',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.95.0',
-        providerVersionConstraint: '1.95.0'
+        providerVersion: '1.96.0',
+        providerVersionConstraint: '1.96.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

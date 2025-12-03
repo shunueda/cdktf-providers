@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/on_call_role
+// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/on_call_role
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,59 +10,59 @@ export interface OnCallRoleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Value must be one of `create`, `read`, `update`, `delete`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/on_call_role#alert_sources_permissions OnCallRole#alert_sources_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/on_call_role#alert_sources_permissions OnCallRole#alert_sources_permissions}
   */
   readonly alertSourcesPermissions?: string[];
   /**
   * Value must be one of `create`, `read`, `update`, `delete`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/on_call_role#alert_urgency_permissions OnCallRole#alert_urgency_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/on_call_role#alert_urgency_permissions OnCallRole#alert_urgency_permissions}
   */
   readonly alertUrgencyPermissions?: string[];
   /**
   * Value must be one of `create`, `update`, `read`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/on_call_role#alerts_permissions OnCallRole#alerts_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/on_call_role#alerts_permissions OnCallRole#alerts_permissions}
   */
   readonly alertsPermissions?: string[];
   /**
   * Value must be one of `create`, `read`, `update`, `delete`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/on_call_role#api_keys_permissions OnCallRole#api_keys_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/on_call_role#api_keys_permissions OnCallRole#api_keys_permissions}
   */
   readonly apiKeysPermissions?: string[];
   /**
   * Value must be one of `create`, `read`, `update`, `delete`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/on_call_role#audits_permissions OnCallRole#audits_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/on_call_role#audits_permissions OnCallRole#audits_permissions}
   */
   readonly auditsPermissions?: string[];
   /**
   * Value must be one of `read`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/on_call_role#contacts_permissions OnCallRole#contacts_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/on_call_role#contacts_permissions OnCallRole#contacts_permissions}
   */
   readonly contactsPermissions?: string[];
   /**
   * Value must be one of `create`, `read`, `update`, `delete`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/on_call_role#escalation_policies_permissions OnCallRole#escalation_policies_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/on_call_role#escalation_policies_permissions OnCallRole#escalation_policies_permissions}
   */
   readonly escalationPoliciesPermissions?: string[];
   /**
   * Value must be one of `create`, `read`, `update`, `delete`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/on_call_role#groups_permissions OnCallRole#groups_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/on_call_role#groups_permissions OnCallRole#groups_permissions}
   */
   readonly groupsPermissions?: string[];
   /**
   * Value must be one of `create`, `read`, `update`, `delete`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/on_call_role#heartbeats_permissions OnCallRole#heartbeats_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/on_call_role#heartbeats_permissions OnCallRole#heartbeats_permissions}
   */
   readonly heartbeatsPermissions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/on_call_role#id OnCallRole#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/on_call_role#id OnCallRole#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,73 +71,73 @@ export interface OnCallRoleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Value must be one of `create`, `read`, `update`, `delete`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/on_call_role#integrations_permissions OnCallRole#integrations_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/on_call_role#integrations_permissions OnCallRole#integrations_permissions}
   */
   readonly integrationsPermissions?: string[];
   /**
   * Value must be one of `create`, `read`, `update`, `delete`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/on_call_role#invitations_permissions OnCallRole#invitations_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/on_call_role#invitations_permissions OnCallRole#invitations_permissions}
   */
   readonly invitationsPermissions?: string[];
   /**
   * Value must be one of `create`, `read`, `update`, `delete`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/on_call_role#live_call_routing_permissions OnCallRole#live_call_routing_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/on_call_role#live_call_routing_permissions OnCallRole#live_call_routing_permissions}
   */
   readonly liveCallRoutingPermissions?: string[];
   /**
   * The role name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/on_call_role#name OnCallRole#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/on_call_role#name OnCallRole#name}
   */
   readonly name: string;
   /**
   * Value must be one of `create`, `update`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/on_call_role#schedule_override_permissions OnCallRole#schedule_override_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/on_call_role#schedule_override_permissions OnCallRole#schedule_override_permissions}
   */
   readonly scheduleOverridePermissions?: string[];
   /**
   * Value must be one of `create`, `read`, `update`, `delete`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/on_call_role#schedules_permissions OnCallRole#schedules_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/on_call_role#schedules_permissions OnCallRole#schedules_permissions}
   */
   readonly schedulesPermissions?: string[];
   /**
   * Value must be one of `create`, `read`, `update`, `delete`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/on_call_role#services_permissions OnCallRole#services_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/on_call_role#services_permissions OnCallRole#services_permissions}
   */
   readonly servicesPermissions?: string[];
   /**
   * The role slug.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/on_call_role#slug OnCallRole#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/on_call_role#slug OnCallRole#slug}
   */
   readonly slug?: string;
   /**
   * The kind of role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/on_call_role#system_role OnCallRole#system_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/on_call_role#system_role OnCallRole#system_role}
   */
   readonly systemRole?: string;
   /**
   * Value must be one of `create`, `read`, `update`, `delete`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/on_call_role#webhooks_permissions OnCallRole#webhooks_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/on_call_role#webhooks_permissions OnCallRole#webhooks_permissions}
   */
   readonly webhooksPermissions?: string[];
   /**
   * Value must be one of `create`, `read`, `update`, `delete`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/on_call_role#workflows_permissions OnCallRole#workflows_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/on_call_role#workflows_permissions OnCallRole#workflows_permissions}
   */
   readonly workflowsPermissions?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/on_call_role rootly_on_call_role}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/on_call_role rootly_on_call_role}
 */
 export class OnCallRole extends cdktf.TerraformResource {
 
@@ -153,7 +153,7 @@ export class OnCallRole extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OnCallRole resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OnCallRole to import
-  * @param importFromId The id of the existing OnCallRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/on_call_role#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OnCallRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/on_call_role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OnCallRole to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -165,7 +165,7 @@ export class OnCallRole extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/on_call_role rootly_on_call_role} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/on_call_role rootly_on_call_role} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -176,8 +176,8 @@ export class OnCallRole extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_on_call_role',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.9',
-        providerVersionConstraint: '4.3.9'
+        providerVersion: '4.3.10',
+        providerVersionConstraint: '4.3.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface AwsLbListenerRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#id AwsLbListenerRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#id AwsLbListenerRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,43 +17,43 @@ export interface AwsLbListenerRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ARN of the listener to which to attach the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#listener_arn AwsLbListenerRule#listener_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#listener_arn AwsLbListenerRule#listener_arn}
   */
   readonly listenerArn: string;
   /**
   * The priority for the rule between `1` and `50000`. Leaving it unset will automatically set the rule with next available priority after currently existing highest rule. A listener can't have multiple rules with the same priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#priority AwsLbListenerRule#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#priority AwsLbListenerRule#priority}
   */
   readonly priority?: number;
   /**
   * The GUID of the tenant that the aws lb listener rule will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#tenant_id AwsLbListenerRule#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#tenant_id AwsLbListenerRule#tenant_id}
   */
   readonly tenantId: string;
   /**
   * action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#action AwsLbListenerRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#action AwsLbListenerRule#action}
   */
   readonly action: AwsLbListenerRuleAction[] | cdktf.IResolvable;
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#condition AwsLbListenerRule#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#condition AwsLbListenerRule#condition}
   */
   readonly condition: AwsLbListenerRuleCondition[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#tags AwsLbListenerRule#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#tags AwsLbListenerRule#tags}
   */
   readonly tags?: AwsLbListenerRuleTags[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#timeouts AwsLbListenerRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#timeouts AwsLbListenerRule#timeouts}
   */
   readonly timeouts?: AwsLbListenerRuleTimeouts;
 }
@@ -61,49 +61,49 @@ export interface AwsLbListenerRuleActionAuthenticateCognito {
   /**
   * The query parameters to include in the redirect request to the authorization endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#authentication_request_extra_params AwsLbListenerRule#authentication_request_extra_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#authentication_request_extra_params AwsLbListenerRule#authentication_request_extra_params}
   */
   readonly authenticationRequestExtraParams?: { [key: string]: string };
   /**
   * The behavior if the user is not authenticated. Valid values: `deny`, `allow` and `authenticate`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#on_unauthenticated_request AwsLbListenerRule#on_unauthenticated_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#on_unauthenticated_request AwsLbListenerRule#on_unauthenticated_request}
   */
   readonly onUnauthenticatedRequest?: string;
   /**
   * The set of user claims to be requested from the IdP. Defaults to `openid`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#scope AwsLbListenerRule#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#scope AwsLbListenerRule#scope}
   */
   readonly scope?: string;
   /**
   * The name of the cookie used to maintain session information. Defaults to `AWSELBAuthSessionCookie`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#session_cookie_name AwsLbListenerRule#session_cookie_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#session_cookie_name AwsLbListenerRule#session_cookie_name}
   */
   readonly sessionCookieName?: string;
   /**
   * The maximum duration of the authentication session, in seconds. Defaults to `604800`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#session_timeout AwsLbListenerRule#session_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#session_timeout AwsLbListenerRule#session_timeout}
   */
   readonly sessionTimeout?: number;
   /**
   * The ARN of the Cognito user pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#user_pool_arn AwsLbListenerRule#user_pool_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#user_pool_arn AwsLbListenerRule#user_pool_arn}
   */
   readonly userPoolArn: string;
   /**
   * The ID of the Cognito user pool client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#user_pool_client_id AwsLbListenerRule#user_pool_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#user_pool_client_id AwsLbListenerRule#user_pool_client_id}
   */
   readonly userPoolClientId: string;
   /**
   * The domain prefix or fully-qualified domain name of the Cognito user pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#user_pool_domain AwsLbListenerRule#user_pool_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#user_pool_domain AwsLbListenerRule#user_pool_domain}
   */
   readonly userPoolDomain: string;
 }
@@ -383,67 +383,67 @@ export interface AwsLbListenerRuleActionAuthenticateOidc {
   /**
   * The query parameters to include in the redirect request to the authorization endpoint. Max: 10
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#authentication_request_extra_params AwsLbListenerRule#authentication_request_extra_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#authentication_request_extra_params AwsLbListenerRule#authentication_request_extra_params}
   */
   readonly authenticationRequestExtraParams?: { [key: string]: string };
   /**
   * The authorization endpoint of the IdP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#authorization_endpoint AwsLbListenerRule#authorization_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#authorization_endpoint AwsLbListenerRule#authorization_endpoint}
   */
   readonly authorizationEndpoint: string;
   /**
   * The OAuth 2.0 client identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#client_id AwsLbListenerRule#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#client_id AwsLbListenerRule#client_id}
   */
   readonly clientId: string;
   /**
   * The OAuth 2.0 client secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#client_secret AwsLbListenerRule#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#client_secret AwsLbListenerRule#client_secret}
   */
   readonly clientSecret: string;
   /**
   * The OIDC issuer identifier of the IdP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#issuer AwsLbListenerRule#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#issuer AwsLbListenerRule#issuer}
   */
   readonly issuer: string;
   /**
   * The behavior if the user is not authenticated. Valid values: `deny`, `allow` and `authenticate`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#on_unauthenticated_request AwsLbListenerRule#on_unauthenticated_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#on_unauthenticated_request AwsLbListenerRule#on_unauthenticated_request}
   */
   readonly onUnauthenticatedRequest?: string;
   /**
   * The set of user claims to be requested from the IdP. Defaults to `openid`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#scope AwsLbListenerRule#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#scope AwsLbListenerRule#scope}
   */
   readonly scope?: string;
   /**
   * The name of the cookie used to maintain session information. Defaults to `AWSELBAuthSessionCookie`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#session_cookie_name AwsLbListenerRule#session_cookie_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#session_cookie_name AwsLbListenerRule#session_cookie_name}
   */
   readonly sessionCookieName?: string;
   /**
   * The maximum duration of the authentication session, in seconds. Defaults to `604800`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#session_timeout AwsLbListenerRule#session_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#session_timeout AwsLbListenerRule#session_timeout}
   */
   readonly sessionTimeout?: number;
   /**
   * The token endpoint of the IdP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#token_endpoint AwsLbListenerRule#token_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#token_endpoint AwsLbListenerRule#token_endpoint}
   */
   readonly tokenEndpoint: string;
   /**
   * The user info endpoint of the IdP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#user_info_endpoint AwsLbListenerRule#user_info_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#user_info_endpoint AwsLbListenerRule#user_info_endpoint}
   */
   readonly userInfoEndpoint: string;
 }
@@ -801,19 +801,19 @@ export interface AwsLbListenerRuleActionFixedResponse {
   /**
   * The content type. Valid values are `text/plain`, `text/css`, `text/html`, `application/javascript` and `application/json`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#content_type AwsLbListenerRule#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#content_type AwsLbListenerRule#content_type}
   */
   readonly contentType: string;
   /**
   * The message body.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#message_body AwsLbListenerRule#message_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#message_body AwsLbListenerRule#message_body}
   */
   readonly messageBody?: string;
   /**
   * The HTTP response code. Valid values are `2XX`, `4XX`, or `5XX`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#status_code AwsLbListenerRule#status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#status_code AwsLbListenerRule#status_code}
   */
   readonly statusCode?: string;
 }
@@ -954,13 +954,13 @@ export interface AwsLbListenerRuleActionForwardStickiness {
   /**
   * The time period, in seconds, during which requests from a client should be routed to the same target group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#duration AwsLbListenerRule#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#duration AwsLbListenerRule#duration}
   */
   readonly duration: number;
   /**
   * Indicates whether target group stickiness is enabled. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#enabled AwsLbListenerRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#enabled AwsLbListenerRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -1072,13 +1072,13 @@ export interface AwsLbListenerRuleActionForwardTargetGroup {
   /**
   * The Amazon Resource Name (ARN) of the target group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#arn AwsLbListenerRule#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#arn AwsLbListenerRule#arn}
   */
   readonly arn: string;
   /**
   * The weight. The range is 0 to 999. Defaults to `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#weight AwsLbListenerRule#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#weight AwsLbListenerRule#weight}
   */
   readonly weight?: number;
 }
@@ -1222,13 +1222,13 @@ export interface AwsLbListenerRuleActionForward {
   /**
   * stickiness block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#stickiness AwsLbListenerRule#stickiness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#stickiness AwsLbListenerRule#stickiness}
   */
   readonly stickiness?: AwsLbListenerRuleActionForwardStickiness;
   /**
   * target_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#target_group AwsLbListenerRule#target_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#target_group AwsLbListenerRule#target_group}
   */
   readonly targetGroup: AwsLbListenerRuleActionForwardTargetGroup[] | cdktf.IResolvable;
 }
@@ -1340,37 +1340,37 @@ export interface AwsLbListenerRuleActionRedirect {
   /**
   * The hostname. This component is not percent-encoded. The hostname can contain `#{host}`. Defaults to `#{host}`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#host AwsLbListenerRule#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#host AwsLbListenerRule#host}
   */
   readonly host?: string;
   /**
   * The absolute path, starting with the leading "/". Defaults to `/#{path}`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#path AwsLbListenerRule#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#path AwsLbListenerRule#path}
   */
   readonly path?: string;
   /**
   * The port. Specify a value from `1` to `65535`. Defaults to `#{port}`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#port AwsLbListenerRule#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#port AwsLbListenerRule#port}
   */
   readonly port?: string;
   /**
   * The protocol. Valid values are `HTTP`, `HTTPS`, or `#{protocol}`. Defaults to `#{protocol}`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#protocol AwsLbListenerRule#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#protocol AwsLbListenerRule#protocol}
   */
   readonly protocol?: string;
   /**
   * The query parameters, URL-encoded when necessary. Defaults to `#{query}`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#query AwsLbListenerRule#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#query AwsLbListenerRule#query}
   */
   readonly query?: string;
   /**
   * The HTTP redirect code. The redirect is either permanent or temporary
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#status_code AwsLbListenerRule#status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#status_code AwsLbListenerRule#status_code}
   */
   readonly statusCode: string;
 }
@@ -1596,49 +1596,49 @@ export class AwsLbListenerRuleActionRedirectOutputReference extends cdktf.Comple
 }
 export interface AwsLbListenerRuleAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#order AwsLbListenerRule#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#order AwsLbListenerRule#order}
   */
   readonly order?: number;
   /**
   * The ARN of the Target Group to which to route traffic. Specify only if `type` is `forward` and you want to route to a single target group. To route to one or more target groups, use a `forward` block instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#target_group_arn AwsLbListenerRule#target_group_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#target_group_arn AwsLbListenerRule#target_group_arn}
   */
   readonly targetGroupArn?: string;
   /**
   * The type of routing action. Valid values are `redirect`, `forward`, `fixed-response`, `authenticate-cognito` and `authenticate-oidc`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#type AwsLbListenerRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#type AwsLbListenerRule#type}
   */
   readonly type: string;
   /**
   * authenticate_cognito block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#authenticate_cognito AwsLbListenerRule#authenticate_cognito}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#authenticate_cognito AwsLbListenerRule#authenticate_cognito}
   */
   readonly authenticateCognito?: AwsLbListenerRuleActionAuthenticateCognito;
   /**
   * authenticate_oidc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#authenticate_oidc AwsLbListenerRule#authenticate_oidc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#authenticate_oidc AwsLbListenerRule#authenticate_oidc}
   */
   readonly authenticateOidc?: AwsLbListenerRuleActionAuthenticateOidc;
   /**
   * fixed_response block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#fixed_response AwsLbListenerRule#fixed_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#fixed_response AwsLbListenerRule#fixed_response}
   */
   readonly fixedResponse?: AwsLbListenerRuleActionFixedResponse;
   /**
   * forward block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#forward AwsLbListenerRule#forward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#forward AwsLbListenerRule#forward}
   */
   readonly forward?: AwsLbListenerRuleActionForward;
   /**
   * redirect block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#redirect AwsLbListenerRule#redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#redirect AwsLbListenerRule#redirect}
   */
   readonly redirect?: AwsLbListenerRuleActionRedirect;
 }
@@ -1956,7 +1956,7 @@ export interface AwsLbListenerRuleConditionHostHeader {
   /**
   * Contains a single `values` item which is a list of host header patterns to match. The maximum size of each pattern is 128 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#values AwsLbListenerRule#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#values AwsLbListenerRule#values}
   */
   readonly values: string[];
 }
@@ -2039,13 +2039,13 @@ export interface AwsLbListenerRuleConditionHttpHeader {
   /**
   * Name of HTTP header to search. The maximum size is 40 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#http_header_name AwsLbListenerRule#http_header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#http_header_name AwsLbListenerRule#http_header_name}
   */
   readonly httpHeaderName: string;
   /**
   * List of header value patterns to match. Maximum size of each pattern is 128 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#values AwsLbListenerRule#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#values AwsLbListenerRule#values}
   */
   readonly values: string[];
 }
@@ -2152,7 +2152,7 @@ export class AwsLbListenerRuleConditionHttpHeaderOutputReference extends cdktf.C
 }
 export interface AwsLbListenerRuleConditionHttpRequestMethod {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#values AwsLbListenerRule#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#values AwsLbListenerRule#values}
   */
   readonly values: string[];
 }
@@ -2233,7 +2233,7 @@ export class AwsLbListenerRuleConditionHttpRequestMethodOutputReference extends 
 }
 export interface AwsLbListenerRuleConditionPathPattern {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#values AwsLbListenerRule#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#values AwsLbListenerRule#values}
   */
   readonly values: string[];
 }
@@ -2316,13 +2316,13 @@ export interface AwsLbListenerRuleConditionQueryString {
   /**
   * Query string key pattern to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#key AwsLbListenerRule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#key AwsLbListenerRule#key}
   */
   readonly key?: string;
   /**
   * Query string value pattern to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#value AwsLbListenerRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#value AwsLbListenerRule#value}
   */
   readonly value: string;
 }
@@ -2464,7 +2464,7 @@ export class AwsLbListenerRuleConditionQueryStringList extends cdktf.ComplexList
 }
 export interface AwsLbListenerRuleConditionSourceIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#values AwsLbListenerRule#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#values AwsLbListenerRule#values}
   */
   readonly values: string[];
 }
@@ -2547,37 +2547,37 @@ export interface AwsLbListenerRuleCondition {
   /**
   * host_header block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#host_header AwsLbListenerRule#host_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#host_header AwsLbListenerRule#host_header}
   */
   readonly hostHeader?: AwsLbListenerRuleConditionHostHeader;
   /**
   * http_header block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#http_header AwsLbListenerRule#http_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#http_header AwsLbListenerRule#http_header}
   */
   readonly httpHeader?: AwsLbListenerRuleConditionHttpHeader;
   /**
   * http_request_method block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#http_request_method AwsLbListenerRule#http_request_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#http_request_method AwsLbListenerRule#http_request_method}
   */
   readonly httpRequestMethod?: AwsLbListenerRuleConditionHttpRequestMethod;
   /**
   * path_pattern block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#path_pattern AwsLbListenerRule#path_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#path_pattern AwsLbListenerRule#path_pattern}
   */
   readonly pathPattern?: AwsLbListenerRuleConditionPathPattern;
   /**
   * query_string block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#query_string AwsLbListenerRule#query_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#query_string AwsLbListenerRule#query_string}
   */
   readonly queryString?: AwsLbListenerRuleConditionQueryString[] | cdktf.IResolvable;
   /**
   * source_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#source_ip AwsLbListenerRule#source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#source_ip AwsLbListenerRule#source_ip}
   */
   readonly sourceIp?: AwsLbListenerRuleConditionSourceIp;
 }
@@ -2838,11 +2838,11 @@ export class AwsLbListenerRuleConditionList extends cdktf.ComplexList {
 }
 export interface AwsLbListenerRuleTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#key AwsLbListenerRule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#key AwsLbListenerRule#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#value AwsLbListenerRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#value AwsLbListenerRule#value}
   */
   readonly value: string;
 }
@@ -2981,11 +2981,11 @@ export class AwsLbListenerRuleTagsList extends cdktf.ComplexList {
 }
 export interface AwsLbListenerRuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#create AwsLbListenerRule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#create AwsLbListenerRule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#delete AwsLbListenerRule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#delete AwsLbListenerRule#delete}
   */
   readonly delete?: string;
 }
@@ -3108,7 +3108,7 @@ export class AwsLbListenerRuleTimeoutsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule duplocloud_aws_lb_listener_rule}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule duplocloud_aws_lb_listener_rule}
 */
 export class AwsLbListenerRule extends cdktf.TerraformResource {
 
@@ -3124,7 +3124,7 @@ export class AwsLbListenerRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsLbListenerRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsLbListenerRule to import
-  * @param importFromId The id of the existing AwsLbListenerRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsLbListenerRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsLbListenerRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3136,7 +3136,7 @@ export class AwsLbListenerRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_listener_rule duplocloud_aws_lb_listener_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lb_listener_rule duplocloud_aws_lb_listener_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3147,8 +3147,8 @@ export class AwsLbListenerRule extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_aws_lb_listener_rule',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.29',
-        providerVersionConstraint: '0.11.29'
+        providerVersion: '0.11.30',
+        providerVersionConstraint: '0.11.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

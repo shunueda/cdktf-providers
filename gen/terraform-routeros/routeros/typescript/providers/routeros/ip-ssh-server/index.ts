@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_ssh_server
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_ssh_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface IpSshServerConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_ssh_server#___path___ IpSshServer#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_ssh_server#___path___ IpSshServer#___path___}
   */
   readonly path?: string;
   /**
   * Whether to allow connection if cryptographic algorithms are set to none.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_ssh_server#allow_none_crypto IpSshServer#allow_none_crypto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_ssh_server#allow_none_crypto IpSshServer#allow_none_crypto}
   */
   readonly allowNoneCrypto?: boolean | cdktf.IResolvable;
   /**
   * Whether to allow password login at the same time when public key authorization is configured for a user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_ssh_server#always_allow_password_login IpSshServer#always_allow_password_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_ssh_server#always_allow_password_login IpSshServer#always_allow_password_login}
   */
   readonly alwaysAllowPasswordLogin?: boolean | cdktf.IResolvable;
   /**
   * Allow to configure SSH ciphers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_ssh_server#ciphers IpSshServer#ciphers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_ssh_server#ciphers IpSshServer#ciphers}
   */
   readonly ciphers?: string;
   /**
@@ -38,23 +38,23 @@ export interface IpSshServerConfig extends cdktf.TerraformMetaArguments {
   *   * remote - Allow SSH clients to listen on the server(router) and forward incoming connections;
   *   * both - Allow both local and remote forwarding methods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_ssh_server#forwarding_enabled IpSshServer#forwarding_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_ssh_server#forwarding_enabled IpSshServer#forwarding_enabled}
   */
   readonly forwardingEnabled?: string;
   /**
   * RSA key size when host key is being regenerated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_ssh_server#host_key_size IpSshServer#host_key_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_ssh_server#host_key_size IpSshServer#host_key_size}
   */
   readonly hostKeySize?: number;
   /**
   * Select host key type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_ssh_server#host_key_type IpSshServer#host_key_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_ssh_server#host_key_type IpSshServer#host_key_type}
   */
   readonly hostKeyType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_ssh_server#id IpSshServer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_ssh_server#id IpSshServer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -63,13 +63,13 @@ export interface IpSshServerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Use stronger encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_ssh_server#strong_crypto IpSshServer#strong_crypto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_ssh_server#strong_crypto IpSshServer#strong_crypto}
   */
   readonly strongCrypto?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_ssh_server routeros_ip_ssh_server}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_ssh_server routeros_ip_ssh_server}
 */
 export class IpSshServer extends cdktf.TerraformResource {
 
@@ -85,7 +85,7 @@ export class IpSshServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpSshServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpSshServer to import
-  * @param importFromId The id of the existing IpSshServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_ssh_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpSshServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_ssh_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpSshServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -97,7 +97,7 @@ export class IpSshServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_ssh_server routeros_ip_ssh_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_ssh_server routeros_ip_ssh_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -108,8 +108,8 @@ export class IpSshServer extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_ip_ssh_server',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.95.0',
-        providerVersionConstraint: '1.95.0'
+        providerVersion: '1.96.0',
+        providerVersionConstraint: '1.96.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_launch_template
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_launch_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface AwsLaunchTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
   * Asg ami to be used to update the version from the current version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_launch_template#ami AwsLaunchTemplate#ami}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_launch_template#ami AwsLaunchTemplate#ami}
   */
   readonly ami?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_launch_template#id AwsLaunchTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_launch_template#id AwsLaunchTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,43 +23,43 @@ export interface AwsLaunchTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
   * Asg instance type to be used to update the version from the current version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_launch_template#instance_type AwsLaunchTemplate#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_launch_template#instance_type AwsLaunchTemplate#instance_type}
   */
   readonly instanceType: string;
   /**
   * The fullname of the asg group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_launch_template#name AwsLaunchTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_launch_template#name AwsLaunchTemplate#name}
   */
   readonly name: string;
   /**
   * The GUID of the tenant that the launch template will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_launch_template#tenant_id AwsLaunchTemplate#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_launch_template#tenant_id AwsLaunchTemplate#tenant_id}
   */
   readonly tenantId: string;
   /**
   * Any of the existing version of the launch template, if not provided, the latest version will be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_launch_template#version AwsLaunchTemplate#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_launch_template#version AwsLaunchTemplate#version}
   */
   readonly version?: string;
   /**
   * The version of the launch template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_launch_template#version_description AwsLaunchTemplate#version_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_launch_template#version_description AwsLaunchTemplate#version_description}
   */
   readonly versionDescription?: string;
   /**
   * block_device_mapping block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_launch_template#block_device_mapping AwsLaunchTemplate#block_device_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_launch_template#block_device_mapping AwsLaunchTemplate#block_device_mapping}
   */
   readonly blockDeviceMapping?: AwsLaunchTemplateBlockDeviceMapping[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_launch_template#timeouts AwsLaunchTemplate#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_launch_template#timeouts AwsLaunchTemplate#timeouts}
   */
   readonly timeouts?: AwsLaunchTemplateTimeouts;
 }
@@ -67,43 +67,43 @@ export interface AwsLaunchTemplateBlockDeviceMappingEbs {
   /**
   * Whether the volume should be destroyed on instance termination Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_launch_template#delete_on_termination AwsLaunchTemplate#delete_on_termination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_launch_template#delete_on_termination AwsLaunchTemplate#delete_on_termination}
   */
   readonly deleteOnTermination?: boolean | cdktf.IResolvable;
   /**
   * Enables EBS encryption on the volume. Cannot be used with snapshot_id Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_launch_template#encrypted AwsLaunchTemplate#encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_launch_template#encrypted AwsLaunchTemplate#encrypted}
   */
   readonly encrypted?: boolean | cdktf.IResolvable;
   /**
   * The amount of provisioned IOPS. This must be set with a volume_type of 'io1/io2/gp3'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_launch_template#iops AwsLaunchTemplate#iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_launch_template#iops AwsLaunchTemplate#iops}
   */
   readonly iops?: number;
   /**
   * The ARN of the KMS Key to use when encrypting the volume (if encrypted is true).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_launch_template#kms_key_id AwsLaunchTemplate#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_launch_template#kms_key_id AwsLaunchTemplate#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * The Snapshot ID to mount. Should not be used if encrypted is true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_launch_template#snapshot_id AwsLaunchTemplate#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_launch_template#snapshot_id AwsLaunchTemplate#snapshot_id}
   */
   readonly snapshotId?: string;
   /**
   * The throughput to provision for a 'gp3' volume in MiB/s. Minumum value of 125 and maximum of 1000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_launch_template#throughput AwsLaunchTemplate#throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_launch_template#throughput AwsLaunchTemplate#throughput}
   */
   readonly throughput?: number;
   /**
   * The volume initialization rate in MiB/s, with a minimum of 100 MiB/s and maximum of 300 MiB/s.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_launch_template#volume_initialization_rate AwsLaunchTemplate#volume_initialization_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_launch_template#volume_initialization_rate AwsLaunchTemplate#volume_initialization_rate}
   */
   readonly volumeInitializationRate?: number;
   /**
@@ -114,13 +114,13 @@ export interface AwsLaunchTemplateBlockDeviceMappingEbs {
   * 									st1 and sc1: 125 - 16,384 GiB
   * 									standard: 1 - 1024 GiB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_launch_template#volume_size AwsLaunchTemplate#volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_launch_template#volume_size AwsLaunchTemplate#volume_size}
   */
   readonly volumeSize?: number;
   /**
   * The volume type. Can be one of standard, gp2, gp3, io1, io2, sc1 or st1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_launch_template#volume_type AwsLaunchTemplate#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_launch_template#volume_type AwsLaunchTemplate#volume_type}
   */
   readonly volumeType?: string;
 }
@@ -438,25 +438,25 @@ export interface AwsLaunchTemplateBlockDeviceMapping {
   /**
   * The name of the device to mount
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_launch_template#device_name AwsLaunchTemplate#device_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_launch_template#device_name AwsLaunchTemplate#device_name}
   */
   readonly deviceName: string;
   /**
   * Suppresses the specified device included in the AMI's block device mapping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_launch_template#no_device AwsLaunchTemplate#no_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_launch_template#no_device AwsLaunchTemplate#no_device}
   */
   readonly noDevice?: string;
   /**
   * The virtual device name (ephemeralN). Instance store volumes are numbered starting from 0. An instance type with 2 available instance store volumes can specify mappings for ephemeral0 and ephemeral1. The number of available instance store volumes depends on the instance type. After you connect to the instance, you must mount the volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_launch_template#virtual_name AwsLaunchTemplate#virtual_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_launch_template#virtual_name AwsLaunchTemplate#virtual_name}
   */
   readonly virtualName?: string;
   /**
   * ebs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_launch_template#ebs AwsLaunchTemplate#ebs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_launch_template#ebs AwsLaunchTemplate#ebs}
   */
   readonly ebs?: AwsLaunchTemplateBlockDeviceMappingEbs;
 }
@@ -656,15 +656,15 @@ export class AwsLaunchTemplateBlockDeviceMappingList extends cdktf.ComplexList {
 }
 export interface AwsLaunchTemplateTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_launch_template#create AwsLaunchTemplate#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_launch_template#create AwsLaunchTemplate#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_launch_template#delete AwsLaunchTemplate#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_launch_template#delete AwsLaunchTemplate#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_launch_template#update AwsLaunchTemplate#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_launch_template#update AwsLaunchTemplate#update}
   */
   readonly update?: string;
 }
@@ -816,7 +816,7 @@ export class AwsLaunchTemplateTimeoutsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_launch_template duplocloud_aws_launch_template}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_launch_template duplocloud_aws_launch_template}
 */
 export class AwsLaunchTemplate extends cdktf.TerraformResource {
 
@@ -832,7 +832,7 @@ export class AwsLaunchTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsLaunchTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsLaunchTemplate to import
-  * @param importFromId The id of the existing AwsLaunchTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_launch_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsLaunchTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_launch_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsLaunchTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -844,7 +844,7 @@ export class AwsLaunchTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_launch_template duplocloud_aws_launch_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_launch_template duplocloud_aws_launch_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -855,8 +855,8 @@ export class AwsLaunchTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_aws_launch_template',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.29',
-        providerVersionConstraint: '0.11.29'
+        providerVersion: '0.11.30',
+        providerVersionConstraint: '0.11.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

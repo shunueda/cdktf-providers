@@ -126,6 +126,7 @@ Object.defineProperty(exports, 'workflowTaskCreateSharepointPage', { get: functi
 Object.defineProperty(exports, 'workflowTaskCreateShortcutStory', { get: function () { return require('./workflow-task-create-shortcut-story'); } });
 Object.defineProperty(exports, 'workflowTaskCreateShortcutTask', { get: function () { return require('./workflow-task-create-shortcut-task'); } });
 Object.defineProperty(exports, 'workflowTaskCreateSlackChannel', { get: function () { return require('./workflow-task-create-slack-channel'); } });
+Object.defineProperty(exports, 'workflowTaskCreateSubIncident', { get: function () { return require('./workflow-task-create-sub-incident'); } });
 Object.defineProperty(exports, 'workflowTaskCreateTrelloCard', { get: function () { return require('./workflow-task-create-trello-card'); } });
 Object.defineProperty(exports, 'workflowTaskCreateWatsonxChatCompletion', { get: function () { return require('./workflow-task-create-watsonx-chat-completion'); } });
 Object.defineProperty(exports, 'workflowTaskCreateWebexMeeting', { get: function () { return require('./workflow-task-create-webex-meeting'); } });

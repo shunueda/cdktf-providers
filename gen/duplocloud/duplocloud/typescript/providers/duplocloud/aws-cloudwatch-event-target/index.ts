@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_cloudwatch_event_target
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudwatch_event_target
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface AwsCloudwatchEventTargetConfig extends cdktf.TerraformMetaArgum
   /**
   * The event bus to associate with the rule. If you omit this, the default event bus is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_cloudwatch_event_target#event_bus_name AwsCloudwatchEventTarget#event_bus_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudwatch_event_target#event_bus_name AwsCloudwatchEventTarget#event_bus_name}
   */
   readonly eventBusName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_cloudwatch_event_target#id AwsCloudwatchEventTarget#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudwatch_event_target#id AwsCloudwatchEventTarget#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,53 +23,53 @@ export interface AwsCloudwatchEventTargetConfig extends cdktf.TerraformMetaArgum
   /**
   * Valid JSON text passed to the target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_cloudwatch_event_target#input AwsCloudwatchEventTarget#input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudwatch_event_target#input AwsCloudwatchEventTarget#input}
   */
   readonly input?: string;
   /**
   * The Amazon Resource Name (ARN) associated with the role that is used for target invocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_cloudwatch_event_target#role_arn AwsCloudwatchEventTarget#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudwatch_event_target#role_arn AwsCloudwatchEventTarget#role_arn}
   */
   readonly roleArn?: string;
   /**
   * The name of the rule you want to add targets to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_cloudwatch_event_target#rule_name AwsCloudwatchEventTarget#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudwatch_event_target#rule_name AwsCloudwatchEventTarget#rule_name}
   */
   readonly ruleName: string;
   /**
   * The Amazon Resource Name (ARN) of the target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_cloudwatch_event_target#target_arn AwsCloudwatchEventTarget#target_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudwatch_event_target#target_arn AwsCloudwatchEventTarget#target_arn}
   */
   readonly targetArn: string;
   /**
   * The unique target assignment ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_cloudwatch_event_target#target_id AwsCloudwatchEventTarget#target_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudwatch_event_target#target_id AwsCloudwatchEventTarget#target_id}
   */
   readonly targetId: string;
   /**
   * The GUID of the tenant that the cloudwatch event target will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_cloudwatch_event_target#tenant_id AwsCloudwatchEventTarget#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudwatch_event_target#tenant_id AwsCloudwatchEventTarget#tenant_id}
   */
   readonly tenantId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_cloudwatch_event_target#timeouts AwsCloudwatchEventTarget#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudwatch_event_target#timeouts AwsCloudwatchEventTarget#timeouts}
   */
   readonly timeouts?: AwsCloudwatchEventTargetTimeouts;
 }
 export interface AwsCloudwatchEventTargetTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_cloudwatch_event_target#create AwsCloudwatchEventTarget#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudwatch_event_target#create AwsCloudwatchEventTarget#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_cloudwatch_event_target#delete AwsCloudwatchEventTarget#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudwatch_event_target#delete AwsCloudwatchEventTarget#delete}
   */
   readonly delete?: string;
 }
@@ -192,7 +192,7 @@ export class AwsCloudwatchEventTargetTimeoutsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_cloudwatch_event_target duplocloud_aws_cloudwatch_event_target}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudwatch_event_target duplocloud_aws_cloudwatch_event_target}
 */
 export class AwsCloudwatchEventTarget extends cdktf.TerraformResource {
 
@@ -208,7 +208,7 @@ export class AwsCloudwatchEventTarget extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsCloudwatchEventTarget resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsCloudwatchEventTarget to import
-  * @param importFromId The id of the existing AwsCloudwatchEventTarget that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_cloudwatch_event_target#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsCloudwatchEventTarget that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudwatch_event_target#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsCloudwatchEventTarget to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -220,7 +220,7 @@ export class AwsCloudwatchEventTarget extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_cloudwatch_event_target duplocloud_aws_cloudwatch_event_target} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_cloudwatch_event_target duplocloud_aws_cloudwatch_event_target} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -231,8 +231,8 @@ export class AwsCloudwatchEventTarget extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_aws_cloudwatch_event_target',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.29',
-        providerVersionConstraint: '0.11.29'
+        providerVersion: '0.11.30',
+        providerVersionConstraint: '0.11.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

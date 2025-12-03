@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/grafana/grafana/4.20.1/docs/resources/apps_rules_alertrule_v0alpha1
+// https://registry.terraform.io/providers/grafana/grafana/4.20.2/docs/resources/apps_rules_alertrule_v0alpha1
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface AppsRulesAlertruleV0Alpha1Config extends cdktf.TerraformMetaArg
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.1/docs/resources/apps_rules_alertrule_v0alpha1#metadata AppsRulesAlertruleV0Alpha1#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.2/docs/resources/apps_rules_alertrule_v0alpha1#metadata AppsRulesAlertruleV0Alpha1#metadata}
   */
   readonly metadata?: AppsRulesAlertruleV0Alpha1Metadata;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.1/docs/resources/apps_rules_alertrule_v0alpha1#options AppsRulesAlertruleV0Alpha1#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.2/docs/resources/apps_rules_alertrule_v0alpha1#options AppsRulesAlertruleV0Alpha1#options}
   */
   readonly options?: AppsRulesAlertruleV0Alpha1Options;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.1/docs/resources/apps_rules_alertrule_v0alpha1#spec AppsRulesAlertruleV0Alpha1#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.2/docs/resources/apps_rules_alertrule_v0alpha1#spec AppsRulesAlertruleV0Alpha1#spec}
   */
   readonly spec?: AppsRulesAlertruleV0Alpha1Spec;
 }
@@ -30,13 +30,13 @@ export interface AppsRulesAlertruleV0Alpha1Metadata {
   /**
   * The UID of the folder to save the resource in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.1/docs/resources/apps_rules_alertrule_v0alpha1#folder_uid AppsRulesAlertruleV0Alpha1#folder_uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.2/docs/resources/apps_rules_alertrule_v0alpha1#folder_uid AppsRulesAlertruleV0Alpha1#folder_uid}
   */
   readonly folderUid?: string;
   /**
   * The unique identifier of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.1/docs/resources/apps_rules_alertrule_v0alpha1#uid AppsRulesAlertruleV0Alpha1#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.2/docs/resources/apps_rules_alertrule_v0alpha1#uid AppsRulesAlertruleV0Alpha1#uid}
   */
   readonly uid: string;
 }
@@ -179,7 +179,7 @@ export interface AppsRulesAlertruleV0Alpha1Options {
   /**
   * Set to true if you want to overwrite existing resource with newer version, same resource title in folder or same resource uid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.1/docs/resources/apps_rules_alertrule_v0alpha1#overwrite AppsRulesAlertruleV0Alpha1#overwrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.2/docs/resources/apps_rules_alertrule_v0alpha1#overwrite AppsRulesAlertruleV0Alpha1#overwrite}
   */
   readonly overwrite?: boolean | cdktf.IResolvable;
 }
@@ -271,47 +271,174 @@ export class AppsRulesAlertruleV0Alpha1OptionsOutputReference extends cdktf.Comp
     return this._overwrite;
   }
 }
+export interface AppsRulesAlertruleV0Alpha1SpecPanelRef {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.2/docs/resources/apps_rules_alertrule_v0alpha1#dashboard_uid AppsRulesAlertruleV0Alpha1#dashboard_uid}
+  */
+  readonly dashboardUid?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.2/docs/resources/apps_rules_alertrule_v0alpha1#panel_id AppsRulesAlertruleV0Alpha1#panel_id}
+  */
+  readonly panelId?: number;
+}
+
+export function appsRulesAlertruleV0Alpha1SpecPanelRefToTerraform(struct?: AppsRulesAlertruleV0Alpha1SpecPanelRef | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    dashboard_uid: cdktf.stringToTerraform(struct!.dashboardUid),
+    panel_id: cdktf.numberToTerraform(struct!.panelId),
+  }
+}
+
+
+export function appsRulesAlertruleV0Alpha1SpecPanelRefToHclTerraform(struct?: AppsRulesAlertruleV0Alpha1SpecPanelRef | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    dashboard_uid: {
+      value: cdktf.stringToHclTerraform(struct!.dashboardUid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    panel_id: {
+      value: cdktf.numberToHclTerraform(struct!.panelId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AppsRulesAlertruleV0Alpha1SpecPanelRefOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): AppsRulesAlertruleV0Alpha1SpecPanelRef | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._dashboardUid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dashboardUid = this._dashboardUid;
+    }
+    if (this._panelId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.panelId = this._panelId;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AppsRulesAlertruleV0Alpha1SpecPanelRef | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._dashboardUid = undefined;
+      this._panelId = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._dashboardUid = value.dashboardUid;
+      this._panelId = value.panelId;
+    }
+  }
+
+  // dashboard_uid - computed: false, optional: true, required: false
+  private _dashboardUid?: string; 
+  public get dashboardUid() {
+    return this.getStringAttribute('dashboard_uid');
+  }
+  public set dashboardUid(value: string) {
+    this._dashboardUid = value;
+  }
+  public resetDashboardUid() {
+    this._dashboardUid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dashboardUidInput() {
+    return this._dashboardUid;
+  }
+
+  // panel_id - computed: false, optional: true, required: false
+  private _panelId?: number; 
+  public get panelId() {
+    return this.getNumberAttribute('panel_id');
+  }
+  public set panelId(value: number) {
+    this._panelId = value;
+  }
+  public resetPanelId() {
+    this._panelId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get panelIdInput() {
+    return this._panelId;
+  }
+}
 export interface AppsRulesAlertruleV0Alpha1SpecNotificationSettings {
   /**
   * A list of time interval names to apply to alerts that match this policy to suppress them unless they are sent at the specified time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.1/docs/resources/apps_rules_alertrule_v0alpha1#active_timings AppsRulesAlertruleV0Alpha1#active_timings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.2/docs/resources/apps_rules_alertrule_v0alpha1#active_timings AppsRulesAlertruleV0Alpha1#active_timings}
   */
   readonly activeTimings?: string[];
   /**
   * The contact point to route notifications that match this rule to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.1/docs/resources/apps_rules_alertrule_v0alpha1#contact_point AppsRulesAlertruleV0Alpha1#contact_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.2/docs/resources/apps_rules_alertrule_v0alpha1#contact_point AppsRulesAlertruleV0Alpha1#contact_point}
   */
   readonly contactPoint: string;
   /**
   * A list of alert labels to group alerts into notifications by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.1/docs/resources/apps_rules_alertrule_v0alpha1#group_by AppsRulesAlertruleV0Alpha1#group_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.2/docs/resources/apps_rules_alertrule_v0alpha1#group_by AppsRulesAlertruleV0Alpha1#group_by}
   */
   readonly groupBy?: string[];
   /**
   * Minimum time interval between two notifications for the same group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.1/docs/resources/apps_rules_alertrule_v0alpha1#group_interval AppsRulesAlertruleV0Alpha1#group_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.2/docs/resources/apps_rules_alertrule_v0alpha1#group_interval AppsRulesAlertruleV0Alpha1#group_interval}
   */
   readonly groupInterval?: string;
   /**
   * Time to wait to buffer alerts of the same group before sending a notification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.1/docs/resources/apps_rules_alertrule_v0alpha1#group_wait AppsRulesAlertruleV0Alpha1#group_wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.2/docs/resources/apps_rules_alertrule_v0alpha1#group_wait AppsRulesAlertruleV0Alpha1#group_wait}
   */
   readonly groupWait?: string;
   /**
   * A list of mute timing names to apply to alerts that match this policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.1/docs/resources/apps_rules_alertrule_v0alpha1#mute_timings AppsRulesAlertruleV0Alpha1#mute_timings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.2/docs/resources/apps_rules_alertrule_v0alpha1#mute_timings AppsRulesAlertruleV0Alpha1#mute_timings}
   */
   readonly muteTimings?: string[];
   /**
   * Minimum time interval for re-sending a notification if an alert is still firing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.1/docs/resources/apps_rules_alertrule_v0alpha1#repeat_interval AppsRulesAlertruleV0Alpha1#repeat_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.2/docs/resources/apps_rules_alertrule_v0alpha1#repeat_interval AppsRulesAlertruleV0Alpha1#repeat_interval}
   */
   readonly repeatInterval?: string;
 }
@@ -578,7 +705,7 @@ export interface AppsRulesAlertruleV0Alpha1SpecTrigger {
   /**
   * The interval at which the alert rule should be evaluated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.1/docs/resources/apps_rules_alertrule_v0alpha1#interval AppsRulesAlertruleV0Alpha1#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.2/docs/resources/apps_rules_alertrule_v0alpha1#interval AppsRulesAlertruleV0Alpha1#interval}
   */
   readonly interval: string;
 }
@@ -671,79 +798,79 @@ export interface AppsRulesAlertruleV0Alpha1Spec {
   /**
   * Key-value pairs of metadata to attach to the alert rule. They add additional information, such as a `summary` or `runbook_url`, to help identify and investigate alerts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.1/docs/resources/apps_rules_alertrule_v0alpha1#annotations AppsRulesAlertruleV0Alpha1#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.2/docs/resources/apps_rules_alertrule_v0alpha1#annotations AppsRulesAlertruleV0Alpha1#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Describes what state to enter when the rule's query is invalid and the rule cannot be executed. Options are OK, Error, KeepLast, and Alerting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.1/docs/resources/apps_rules_alertrule_v0alpha1#exec_err_state AppsRulesAlertruleV0Alpha1#exec_err_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.2/docs/resources/apps_rules_alertrule_v0alpha1#exec_err_state AppsRulesAlertruleV0Alpha1#exec_err_state}
   */
   readonly execErrState: string;
   /**
   * A sequence of stages that describe the contents of the rule. Each value is a JSON string representing an expression object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.1/docs/resources/apps_rules_alertrule_v0alpha1#expressions AppsRulesAlertruleV0Alpha1#expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.2/docs/resources/apps_rules_alertrule_v0alpha1#expressions AppsRulesAlertruleV0Alpha1#expressions}
   */
   readonly expressions: { [key: string]: string };
   /**
   * The amount of time for which the rule must be breached for the rule to be considered to be Firing. Before this time has elapsed, the rule is only considered to be Pending.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.1/docs/resources/apps_rules_alertrule_v0alpha1#for AppsRulesAlertruleV0Alpha1#for}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.2/docs/resources/apps_rules_alertrule_v0alpha1#for AppsRulesAlertruleV0Alpha1#for}
   */
   readonly for?: string;
   /**
   * The amount of time for which the rule will considered to be Recovering after initially Firing. Before this time has elapsed, the rule will continue to fire once it's been triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.1/docs/resources/apps_rules_alertrule_v0alpha1#keep_firing_for AppsRulesAlertruleV0Alpha1#keep_firing_for}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.2/docs/resources/apps_rules_alertrule_v0alpha1#keep_firing_for AppsRulesAlertruleV0Alpha1#keep_firing_for}
   */
   readonly keepFiringFor?: string;
   /**
   * Key-value pairs to attach to the alert rule that can be used in matching, grouping, and routing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.1/docs/resources/apps_rules_alertrule_v0alpha1#labels AppsRulesAlertruleV0Alpha1#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.2/docs/resources/apps_rules_alertrule_v0alpha1#labels AppsRulesAlertruleV0Alpha1#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The number of missing series evaluations that must occur before the rule is considered to be resolved.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.1/docs/resources/apps_rules_alertrule_v0alpha1#missing_series_evals_to_resolve AppsRulesAlertruleV0Alpha1#missing_series_evals_to_resolve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.2/docs/resources/apps_rules_alertrule_v0alpha1#missing_series_evals_to_resolve AppsRulesAlertruleV0Alpha1#missing_series_evals_to_resolve}
   */
   readonly missingSeriesEvalsToResolve?: number;
   /**
   * Describes what state to enter when the rule's query returns No Data. Options are OK, NoData, KeepLast, and Alerting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.1/docs/resources/apps_rules_alertrule_v0alpha1#no_data_state AppsRulesAlertruleV0Alpha1#no_data_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.2/docs/resources/apps_rules_alertrule_v0alpha1#no_data_state AppsRulesAlertruleV0Alpha1#no_data_state}
   */
   readonly noDataState: string;
   /**
   * Reference to a panel that this alert rule is associated with. Should be an object with 'dashboard_uid' (string) and 'panel_id' (number) fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.1/docs/resources/apps_rules_alertrule_v0alpha1#panel_ref AppsRulesAlertruleV0Alpha1#panel_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.2/docs/resources/apps_rules_alertrule_v0alpha1#panel_ref AppsRulesAlertruleV0Alpha1#panel_ref}
   */
-  readonly panelRef?: { [key: string]: any };
+  readonly panelRef?: AppsRulesAlertruleV0Alpha1SpecPanelRef;
   /**
   * Sets whether the rule should be paused or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.1/docs/resources/apps_rules_alertrule_v0alpha1#paused AppsRulesAlertruleV0Alpha1#paused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.2/docs/resources/apps_rules_alertrule_v0alpha1#paused AppsRulesAlertruleV0Alpha1#paused}
   */
   readonly paused?: boolean | cdktf.IResolvable;
   /**
   * The title of the alert rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.1/docs/resources/apps_rules_alertrule_v0alpha1#title AppsRulesAlertruleV0Alpha1#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.2/docs/resources/apps_rules_alertrule_v0alpha1#title AppsRulesAlertruleV0Alpha1#title}
   */
   readonly title: string;
   /**
   * notification_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.1/docs/resources/apps_rules_alertrule_v0alpha1#notification_settings AppsRulesAlertruleV0Alpha1#notification_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.2/docs/resources/apps_rules_alertrule_v0alpha1#notification_settings AppsRulesAlertruleV0Alpha1#notification_settings}
   */
   readonly notificationSettings?: AppsRulesAlertruleV0Alpha1SpecNotificationSettings;
   /**
   * trigger block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.1/docs/resources/apps_rules_alertrule_v0alpha1#trigger AppsRulesAlertruleV0Alpha1#trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.20.2/docs/resources/apps_rules_alertrule_v0alpha1#trigger AppsRulesAlertruleV0Alpha1#trigger}
   */
   readonly trigger: AppsRulesAlertruleV0Alpha1SpecTrigger;
 }
@@ -762,7 +889,7 @@ export function appsRulesAlertruleV0Alpha1SpecToTerraform(struct?: AppsRulesAler
     labels: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.labels),
     missing_series_evals_to_resolve: cdktf.numberToTerraform(struct!.missingSeriesEvalsToResolve),
     no_data_state: cdktf.stringToTerraform(struct!.noDataState),
-    panel_ref: cdktf.hashMapper(cdktf.anyToTerraform)(struct!.panelRef),
+    panel_ref: appsRulesAlertruleV0Alpha1SpecPanelRefToTerraform(struct!.panelRef),
     paused: cdktf.booleanToTerraform(struct!.paused),
     title: cdktf.stringToTerraform(struct!.title),
     notification_settings: appsRulesAlertruleV0Alpha1SpecNotificationSettingsToTerraform(struct!.notificationSettings),
@@ -826,10 +953,10 @@ export function appsRulesAlertruleV0Alpha1SpecToHclTerraform(struct?: AppsRulesA
       storageClassType: "string",
     },
     panel_ref: {
-      value: cdktf.hashMapperHcl(cdktf.anyToHclTerraform)(struct!.panelRef),
-      isBlock: false,
-      type: "map",
-      storageClassType: "anyMap",
+      value: appsRulesAlertruleV0Alpha1SpecPanelRefToHclTerraform(struct!.panelRef),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "AppsRulesAlertruleV0Alpha1SpecPanelRef",
     },
     paused: {
       value: cdktf.booleanToHclTerraform(struct!.paused),
@@ -911,9 +1038,9 @@ export class AppsRulesAlertruleV0Alpha1SpecOutputReference extends cdktf.Complex
       hasAnyValues = true;
       internalValueResult.noDataState = this._noDataState;
     }
-    if (this._panelRef !== undefined) {
+    if (this._panelRef?.internalValue !== undefined) {
       hasAnyValues = true;
-      internalValueResult.panelRef = this._panelRef;
+      internalValueResult.panelRef = this._panelRef?.internalValue;
     }
     if (this._paused !== undefined) {
       hasAnyValues = true;
@@ -946,7 +1073,7 @@ export class AppsRulesAlertruleV0Alpha1SpecOutputReference extends cdktf.Complex
       this._labels = undefined;
       this._missingSeriesEvalsToResolve = undefined;
       this._noDataState = undefined;
-      this._panelRef = undefined;
+      this._panelRef.internalValue = undefined;
       this._paused = undefined;
       this._title = undefined;
       this._notificationSettings.internalValue = undefined;
@@ -967,7 +1094,7 @@ export class AppsRulesAlertruleV0Alpha1SpecOutputReference extends cdktf.Complex
       this._labels = value.labels;
       this._missingSeriesEvalsToResolve = value.missingSeriesEvalsToResolve;
       this._noDataState = value.noDataState;
-      this._panelRef = value.panelRef;
+      this._panelRef.internalValue = value.panelRef;
       this._paused = value.paused;
       this._title = value.title;
       this._notificationSettings.internalValue = value.notificationSettings;
@@ -1095,19 +1222,19 @@ export class AppsRulesAlertruleV0Alpha1SpecOutputReference extends cdktf.Complex
   }
 
   // panel_ref - computed: false, optional: true, required: false
-  private _panelRef?: { [key: string]: any }; 
+  private _panelRef = new AppsRulesAlertruleV0Alpha1SpecPanelRefOutputReference(this, "panel_ref");
   public get panelRef() {
-    return this.getAnyMapAttribute('panel_ref');
+    return this._panelRef;
   }
-  public set panelRef(value: { [key: string]: any }) {
-    this._panelRef = value;
+  public putPanelRef(value: AppsRulesAlertruleV0Alpha1SpecPanelRef) {
+    this._panelRef.internalValue = value;
   }
   public resetPanelRef() {
-    this._panelRef = undefined;
+    this._panelRef.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get panelRefInput() {
-    return this._panelRef;
+    return this._panelRef.internalValue;
   }
 
   // paused - computed: false, optional: true, required: false
@@ -1170,7 +1297,7 @@ export class AppsRulesAlertruleV0Alpha1SpecOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/grafana/grafana/4.20.1/docs/resources/apps_rules_alertrule_v0alpha1 grafana_apps_rules_alertrule_v0alpha1}
+* Represents a {@link https://registry.terraform.io/providers/grafana/grafana/4.20.2/docs/resources/apps_rules_alertrule_v0alpha1 grafana_apps_rules_alertrule_v0alpha1}
 */
 export class AppsRulesAlertruleV0Alpha1 extends cdktf.TerraformResource {
 
@@ -1186,7 +1313,7 @@ export class AppsRulesAlertruleV0Alpha1 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AppsRulesAlertruleV0Alpha1 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppsRulesAlertruleV0Alpha1 to import
-  * @param importFromId The id of the existing AppsRulesAlertruleV0Alpha1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/grafana/grafana/4.20.1/docs/resources/apps_rules_alertrule_v0alpha1#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppsRulesAlertruleV0Alpha1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/grafana/grafana/4.20.2/docs/resources/apps_rules_alertrule_v0alpha1#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppsRulesAlertruleV0Alpha1 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1198,7 +1325,7 @@ export class AppsRulesAlertruleV0Alpha1 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/grafana/grafana/4.20.1/docs/resources/apps_rules_alertrule_v0alpha1 grafana_apps_rules_alertrule_v0alpha1} Resource
+  * Create a new {@link https://registry.terraform.io/providers/grafana/grafana/4.20.2/docs/resources/apps_rules_alertrule_v0alpha1 grafana_apps_rules_alertrule_v0alpha1} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1209,8 +1336,8 @@ export class AppsRulesAlertruleV0Alpha1 extends cdktf.TerraformResource {
       terraformResourceType: 'grafana_apps_rules_alertrule_v0alpha1',
       terraformGeneratorMetadata: {
         providerName: 'grafana',
-        providerVersion: '4.20.1',
-        providerVersionConstraint: '4.20.1'
+        providerVersion: '4.20.2',
+        providerVersionConstraint: '4.20.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_security
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/capsman_security
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,57 +10,57 @@ export interface CapsmanSecurityConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_security#___path___ CapsmanSecurity#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/capsman_security#___path___ CapsmanSecurity#___path___}
   */
   readonly path?: string;
   /**
   * Specify the type of Authentication from wpa-psk, wpa2-psk, wpa-eap or wpa2-eap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_security#authentication_types CapsmanSecurity#authentication_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/capsman_security#authentication_types CapsmanSecurity#authentication_types}
   */
   readonly authenticationTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_security#comment CapsmanSecurity#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/capsman_security#comment CapsmanSecurity#comment}
   */
   readonly comment?: string;
   /**
   * Whether to include PMKID into the EAPOL frame sent out by the Access Point. Disabling PMKID can cause compatibility issues with devices that use the PMKID to connect to an Access Point.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_security#disable_pmkid CapsmanSecurity#disable_pmkid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/capsman_security#disable_pmkid CapsmanSecurity#disable_pmkid}
   */
   readonly disablePmkid?: boolean | cdktf.IResolvable;
   /**
   * eap-tls - Use built-in EAP TLS authentication; passthrough - Access point will relay authentication process to the RADIUS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_security#eap_methods CapsmanSecurity#eap_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/capsman_security#eap_methods CapsmanSecurity#eap_methods}
   */
   readonly eapMethods?: string;
   /**
   * Specifies if RADIUS traffic accounting should be used if RADIUS authentication gets done for this client
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_security#eap_radius_accounting CapsmanSecurity#eap_radius_accounting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/capsman_security#eap_radius_accounting CapsmanSecurity#eap_radius_accounting}
   */
   readonly eapRadiusAccounting?: boolean | cdktf.IResolvable;
   /**
   * Set type of unicast encryption algorithm used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_security#encryption CapsmanSecurity#encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/capsman_security#encryption CapsmanSecurity#encryption}
   */
   readonly encryption?: string[];
   /**
   * Access Point advertises one of these ciphers, multiple values can be selected. Access Point uses it to encrypt all broadcast and multicast frames. Client attempts connection only to Access Points that use one of the specified group ciphers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_security#group_encryption CapsmanSecurity#group_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/capsman_security#group_encryption CapsmanSecurity#group_encryption}
   */
   readonly groupEncryption?: string;
   /**
   * Controls how often Access Point updates the group key. This key is used to encrypt all broadcast and multicast frames. property only has effect for Access Points. (30s..1h)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_security#group_key_update CapsmanSecurity#group_key_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/capsman_security#group_key_update CapsmanSecurity#group_key_update}
   */
   readonly groupKeyUpdate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_security#id CapsmanSecurity#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/capsman_security#id CapsmanSecurity#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -72,31 +72,31 @@ export interface CapsmanSecurityConfig extends cdktf.TerraformMetaArguments {
   * 	> Changing the name of the resource outside of a Terraform will result in a loss of control integrity for that resource!
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_security#name CapsmanSecurity#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/capsman_security#name CapsmanSecurity#name}
   */
   readonly name: string;
   /**
   * WPA or WPA2 pre-shared key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_security#passphrase CapsmanSecurity#passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/capsman_security#passphrase CapsmanSecurity#passphrase}
   */
   readonly passphrase?: string;
   /**
   * Access Point always needs a certificate when security.tls-mode is set to value other than no-certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_security#tls_certificate CapsmanSecurity#tls_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/capsman_security#tls_certificate CapsmanSecurity#tls_certificate}
   */
   readonly tlsCertificate?: string;
   /**
   * This property has effect only when security.eap-methods contains eap-tls.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_security#tls_mode CapsmanSecurity#tls_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/capsman_security#tls_mode CapsmanSecurity#tls_mode}
   */
   readonly tlsMode?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_security routeros_capsman_security}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/capsman_security routeros_capsman_security}
 */
 export class CapsmanSecurity extends cdktf.TerraformResource {
 
@@ -112,7 +112,7 @@ export class CapsmanSecurity extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CapsmanSecurity resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CapsmanSecurity to import
-  * @param importFromId The id of the existing CapsmanSecurity that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_security#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CapsmanSecurity that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/capsman_security#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CapsmanSecurity to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -124,7 +124,7 @@ export class CapsmanSecurity extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_security routeros_capsman_security} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/capsman_security routeros_capsman_security} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -135,8 +135,8 @@ export class CapsmanSecurity extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_capsman_security',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.95.0',
-        providerVersionConstraint: '1.95.0'
+        providerVersion: '1.96.0',
+        providerVersionConstraint: '1.96.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

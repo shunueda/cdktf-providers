@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/s3_bucket_replication
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/s3_bucket_replication
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface S3BucketReplicationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/s3_bucket_replication#id S3BucketReplication#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/s3_bucket_replication#id S3BucketReplication#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface S3BucketReplicationConfig extends cdktf.TerraformMetaArguments 
   /**
   * fullname of the source bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/s3_bucket_replication#source_bucket S3BucketReplication#source_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/s3_bucket_replication#source_bucket S3BucketReplication#source_bucket}
   */
   readonly sourceBucket: string;
   /**
   * The GUID of the tenant that the S3 bucket replication rule will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/s3_bucket_replication#tenant_id S3BucketReplication#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/s3_bucket_replication#tenant_id S3BucketReplication#tenant_id}
   */
   readonly tenantId: string;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/s3_bucket_replication#rules S3BucketReplication#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/s3_bucket_replication#rules S3BucketReplication#rules}
   */
   readonly rules: S3BucketReplicationRules[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/s3_bucket_replication#timeouts S3BucketReplication#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/s3_bucket_replication#timeouts S3BucketReplication#timeouts}
   */
   readonly timeouts?: S3BucketReplicationTimeouts;
 }
@@ -43,31 +43,31 @@ export interface S3BucketReplicationRules {
   /**
   * Whether or not to enable delete marker on replication. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/s3_bucket_replication#delete_marker_replication S3BucketReplication#delete_marker_replication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/s3_bucket_replication#delete_marker_replication S3BucketReplication#delete_marker_replication}
   */
   readonly deleteMarkerReplication?: boolean | cdktf.IResolvable;
   /**
   * fullname of the destination bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/s3_bucket_replication#destination_bucket S3BucketReplication#destination_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/s3_bucket_replication#destination_bucket S3BucketReplication#destination_bucket}
   */
   readonly destinationBucket: string;
   /**
   * replication rule name for s3 source bucket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/s3_bucket_replication#name S3BucketReplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/s3_bucket_replication#name S3BucketReplication#name}
   */
   readonly name: string;
   /**
   * replication priority. Priority must be unique between multiple rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/s3_bucket_replication#priority S3BucketReplication#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/s3_bucket_replication#priority S3BucketReplication#priority}
   */
   readonly priority: number;
   /**
   * storage_class type: STANDARD, INTELLIGENT_TIERING, STANDARD_IA, ONEZONE_IA, GLACIER_IR, GLACIER, DEEP_ARCHIVE, REDUCED_REDUNDANCY.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/s3_bucket_replication#storage_class S3BucketReplication#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/s3_bucket_replication#storage_class S3BucketReplication#storage_class}
   */
   readonly storageClass?: string;
 }
@@ -300,11 +300,11 @@ export class S3BucketReplicationRulesList extends cdktf.ComplexList {
 }
 export interface S3BucketReplicationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/s3_bucket_replication#create S3BucketReplication#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/s3_bucket_replication#create S3BucketReplication#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/s3_bucket_replication#delete S3BucketReplication#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/s3_bucket_replication#delete S3BucketReplication#delete}
   */
   readonly delete?: string;
 }
@@ -427,7 +427,7 @@ export class S3BucketReplicationTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/s3_bucket_replication duplocloud_s3_bucket_replication}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/s3_bucket_replication duplocloud_s3_bucket_replication}
 */
 export class S3BucketReplication extends cdktf.TerraformResource {
 
@@ -443,7 +443,7 @@ export class S3BucketReplication extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a S3BucketReplication resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the S3BucketReplication to import
-  * @param importFromId The id of the existing S3BucketReplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/s3_bucket_replication#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing S3BucketReplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/s3_bucket_replication#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the S3BucketReplication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -455,7 +455,7 @@ export class S3BucketReplication extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/s3_bucket_replication duplocloud_s3_bucket_replication} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/s3_bucket_replication duplocloud_s3_bucket_replication} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -466,8 +466,8 @@ export class S3BucketReplication extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_s3_bucket_replication',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.29',
-        providerVersionConstraint: '0.11.29'
+        providerVersion: '0.11.30',
+        providerVersionConstraint: '0.11.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

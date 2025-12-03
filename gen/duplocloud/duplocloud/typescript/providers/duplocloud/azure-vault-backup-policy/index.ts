@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_vault_backup_policy
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_vault_backup_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface AzureVaultBackupPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_vault_backup_policy#id AzureVaultBackupPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_vault_backup_policy#id AzureVaultBackupPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,89 +17,89 @@ export interface AzureVaultBackupPolicyConfig extends cdktf.TerraformMetaArgumen
   /**
   * The name of the infrastructure.  Infrastructure names are globally unique and less than 13 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_vault_backup_policy#infra_name AzureVaultBackupPolicy#infra_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_vault_backup_policy#infra_name AzureVaultBackupPolicy#infra_name}
   */
   readonly infraName: string;
   /**
   * Specifies the instant restore retention range in days.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_vault_backup_policy#instant_restore_retention_days AzureVaultBackupPolicy#instant_restore_retention_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_vault_backup_policy#instant_restore_retention_days AzureVaultBackupPolicy#instant_restore_retention_days}
   */
   readonly instantRestoreRetentionDays?: number;
   /**
   * Specifies the name of the vault backup policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_vault_backup_policy#name AzureVaultBackupPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_vault_backup_policy#name AzureVaultBackupPolicy#name}
   */
   readonly name: string;
   /**
   * Type of the Backup Policy. Defaults to `V1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_vault_backup_policy#policy_type AzureVaultBackupPolicy#policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_vault_backup_policy#policy_type AzureVaultBackupPolicy#policy_type}
   */
   readonly policyType?: string;
   /**
   * Specifies the timezone. Defaults to `UTC`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_vault_backup_policy#timezone AzureVaultBackupPolicy#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_vault_backup_policy#timezone AzureVaultBackupPolicy#timezone}
   */
   readonly timezone?: string;
   /**
   * backup block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_vault_backup_policy#backup AzureVaultBackupPolicy#backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_vault_backup_policy#backup AzureVaultBackupPolicy#backup}
   */
   readonly backup: AzureVaultBackupPolicyBackup;
   /**
   * retention_daily block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_vault_backup_policy#retention_daily AzureVaultBackupPolicy#retention_daily}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_vault_backup_policy#retention_daily AzureVaultBackupPolicy#retention_daily}
   */
   readonly retentionDaily?: AzureVaultBackupPolicyRetentionDaily;
   /**
   * retention_monthly block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_vault_backup_policy#retention_monthly AzureVaultBackupPolicy#retention_monthly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_vault_backup_policy#retention_monthly AzureVaultBackupPolicy#retention_monthly}
   */
   readonly retentionMonthly?: AzureVaultBackupPolicyRetentionMonthly;
   /**
   * retention_weekly block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_vault_backup_policy#retention_weekly AzureVaultBackupPolicy#retention_weekly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_vault_backup_policy#retention_weekly AzureVaultBackupPolicy#retention_weekly}
   */
   readonly retentionWeekly?: AzureVaultBackupPolicyRetentionWeekly;
   /**
   * retention_yearly block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_vault_backup_policy#retention_yearly AzureVaultBackupPolicy#retention_yearly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_vault_backup_policy#retention_yearly AzureVaultBackupPolicy#retention_yearly}
   */
   readonly retentionYearly?: AzureVaultBackupPolicyRetentionYearly;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_vault_backup_policy#timeouts AzureVaultBackupPolicy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_vault_backup_policy#timeouts AzureVaultBackupPolicy#timeouts}
   */
   readonly timeouts?: AzureVaultBackupPolicyTimeouts;
 }
 export interface AzureVaultBackupPolicyBackup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_vault_backup_policy#frequency AzureVaultBackupPolicy#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_vault_backup_policy#frequency AzureVaultBackupPolicy#frequency}
   */
   readonly frequency: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_vault_backup_policy#hour_duration AzureVaultBackupPolicy#hour_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_vault_backup_policy#hour_duration AzureVaultBackupPolicy#hour_duration}
   */
   readonly hourDuration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_vault_backup_policy#hour_interval AzureVaultBackupPolicy#hour_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_vault_backup_policy#hour_interval AzureVaultBackupPolicy#hour_interval}
   */
   readonly hourInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_vault_backup_policy#time AzureVaultBackupPolicy#time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_vault_backup_policy#time AzureVaultBackupPolicy#time}
   */
   readonly time: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_vault_backup_policy#weekdays AzureVaultBackupPolicy#weekdays}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_vault_backup_policy#weekdays AzureVaultBackupPolicy#weekdays}
   */
   readonly weekdays?: string[];
 }
@@ -293,7 +293,7 @@ export class AzureVaultBackupPolicyBackupOutputReference extends cdktf.ComplexOb
 }
 export interface AzureVaultBackupPolicyRetentionDaily {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_vault_backup_policy#count AzureVaultBackupPolicy#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_vault_backup_policy#count AzureVaultBackupPolicy#count}
   */
   readonly count: number;
 }
@@ -374,15 +374,15 @@ export class AzureVaultBackupPolicyRetentionDailyOutputReference extends cdktf.C
 }
 export interface AzureVaultBackupPolicyRetentionMonthly {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_vault_backup_policy#count AzureVaultBackupPolicy#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_vault_backup_policy#count AzureVaultBackupPolicy#count}
   */
   readonly count: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_vault_backup_policy#weekdays AzureVaultBackupPolicy#weekdays}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_vault_backup_policy#weekdays AzureVaultBackupPolicy#weekdays}
   */
   readonly weekdays: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_vault_backup_policy#weeks AzureVaultBackupPolicy#weeks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_vault_backup_policy#weeks AzureVaultBackupPolicy#weeks}
   */
   readonly weeks: string[];
 }
@@ -515,11 +515,11 @@ export class AzureVaultBackupPolicyRetentionMonthlyOutputReference extends cdktf
 }
 export interface AzureVaultBackupPolicyRetentionWeekly {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_vault_backup_policy#count AzureVaultBackupPolicy#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_vault_backup_policy#count AzureVaultBackupPolicy#count}
   */
   readonly count: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_vault_backup_policy#weekdays AzureVaultBackupPolicy#weekdays}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_vault_backup_policy#weekdays AzureVaultBackupPolicy#weekdays}
   */
   readonly weekdays: string[];
 }
@@ -626,19 +626,19 @@ export class AzureVaultBackupPolicyRetentionWeeklyOutputReference extends cdktf.
 }
 export interface AzureVaultBackupPolicyRetentionYearly {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_vault_backup_policy#count AzureVaultBackupPolicy#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_vault_backup_policy#count AzureVaultBackupPolicy#count}
   */
   readonly count: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_vault_backup_policy#months AzureVaultBackupPolicy#months}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_vault_backup_policy#months AzureVaultBackupPolicy#months}
   */
   readonly months: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_vault_backup_policy#weekdays AzureVaultBackupPolicy#weekdays}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_vault_backup_policy#weekdays AzureVaultBackupPolicy#weekdays}
   */
   readonly weekdays: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_vault_backup_policy#weeks AzureVaultBackupPolicy#weeks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_vault_backup_policy#weeks AzureVaultBackupPolicy#weeks}
   */
   readonly weeks: string[];
 }
@@ -797,11 +797,11 @@ export class AzureVaultBackupPolicyRetentionYearlyOutputReference extends cdktf.
 }
 export interface AzureVaultBackupPolicyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_vault_backup_policy#create AzureVaultBackupPolicy#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_vault_backup_policy#create AzureVaultBackupPolicy#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_vault_backup_policy#delete AzureVaultBackupPolicy#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_vault_backup_policy#delete AzureVaultBackupPolicy#delete}
   */
   readonly delete?: string;
 }
@@ -924,7 +924,7 @@ export class AzureVaultBackupPolicyTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_vault_backup_policy duplocloud_azure_vault_backup_policy}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_vault_backup_policy duplocloud_azure_vault_backup_policy}
 */
 export class AzureVaultBackupPolicy extends cdktf.TerraformResource {
 
@@ -940,7 +940,7 @@ export class AzureVaultBackupPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AzureVaultBackupPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AzureVaultBackupPolicy to import
-  * @param importFromId The id of the existing AzureVaultBackupPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_vault_backup_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AzureVaultBackupPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_vault_backup_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AzureVaultBackupPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -952,7 +952,7 @@ export class AzureVaultBackupPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_vault_backup_policy duplocloud_azure_vault_backup_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_vault_backup_policy duplocloud_azure_vault_backup_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -963,8 +963,8 @@ export class AzureVaultBackupPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_azure_vault_backup_policy',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.29',
-        providerVersionConstraint: '0.11.29'
+        providerVersion: '0.11.30',
+        providerVersionConstraint: '0.11.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

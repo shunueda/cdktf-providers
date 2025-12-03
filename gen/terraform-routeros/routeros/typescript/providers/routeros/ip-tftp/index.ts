@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_tftp
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_tftp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,39 +10,39 @@ export interface IpTftpConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_tftp#___path___ IpTftp#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_tftp#___path___ IpTftp#___path___}
   */
   readonly path?: string;
   /**
   * <em>A set of transformations for field names. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_tftp#___skip___ IpTftp#___skip___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_tftp#___skip___ IpTftp#___skip___}
   */
   readonly skip?: string;
   /**
   * Allow connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_tftp#allow IpTftp#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_tftp#allow IpTftp#allow}
   */
   readonly allow?: boolean | cdktf.IResolvable;
   /**
   * If `true`, overwriting the file is allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_tftp#allow_overwrite IpTftp#allow_overwrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_tftp#allow_overwrite IpTftp#allow_overwrite}
   */
   readonly allowOverwrite?: boolean | cdktf.IResolvable;
   /**
   * If set, server will allow sequence number to roll over when maximum value is reached. This is used to enable large downloads using TFTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_tftp#allow_rollover IpTftp#allow_rollover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_tftp#allow_rollover IpTftp#allow_rollover}
   */
   readonly allowRollover?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_tftp#disabled IpTftp#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_tftp#disabled IpTftp#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_tftp#id IpTftp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_tftp#id IpTftp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -51,37 +51,37 @@ export interface IpTftpConfig extends cdktf.TerraformMetaArguments {
   /**
   * Range of IP addresses accepted as clients. If empty `0.0.0.0/0` will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_tftp#ip_addresses IpTftp#ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_tftp#ip_addresses IpTftp#ip_addresses}
   */
   readonly ipAddresses?: string[];
   /**
   * Sets if file can be written to. If set to `false` write attempts will fail with an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_tftp#read_only IpTftp#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_tftp#read_only IpTftp#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * TFTP Windowsize option value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_tftp#reading_window_size IpTftp#reading_window_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_tftp#reading_window_size IpTftp#reading_window_size}
   */
   readonly readingWindowSize?: string;
   /**
   * If `req-filename` and `real-filename` values are set and valid, the requested filename will be replaced with matched file. This field has to be set. If multiple regex are specified in `req-filename`, with this field you can set which ones should match, so this rule is validated. `real-filename` format for using multiple regex is `filename\0\5\6`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_tftp#real_filename IpTftp#real_filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_tftp#real_filename IpTftp#real_filename}
   */
   readonly realFilename?: string;
   /**
   * Requested filename as regular expression (regex) if field is left empty it defaults to `.*`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_tftp#req_filename IpTftp#req_filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_tftp#req_filename IpTftp#req_filename}
   */
   readonly reqFilename?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_tftp routeros_ip_tftp}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_tftp routeros_ip_tftp}
 */
 export class IpTftp extends cdktf.TerraformResource {
 
@@ -97,7 +97,7 @@ export class IpTftp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpTftp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpTftp to import
-  * @param importFromId The id of the existing IpTftp that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_tftp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpTftp that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_tftp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpTftp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -109,7 +109,7 @@ export class IpTftp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_tftp routeros_ip_tftp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_tftp routeros_ip_tftp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -120,8 +120,8 @@ export class IpTftp extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_ip_tftp',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.95.0',
-        providerVersionConstraint: '1.95.0'
+        providerVersion: '1.96.0',
+        providerVersionConstraint: '1.96.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

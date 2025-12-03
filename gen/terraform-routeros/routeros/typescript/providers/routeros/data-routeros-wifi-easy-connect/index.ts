@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/data-sources/wifi_easy_connect
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/data-sources/wifi_easy_connect
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface DataRouterosWifiEasyConnectConfig extends cdktf.TerraformMetaAr
   /**
   * (WPA2-EAP only) Anonymous identity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/data-sources/wifi_easy_connect#eap_anonymous DataRouterosWifiEasyConnect#eap_anonymous}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/data-sources/wifi_easy_connect#eap_anonymous DataRouterosWifiEasyConnect#eap_anonymous}
   */
   readonly eapAnonymous?: boolean | cdktf.IResolvable;
   /**
   * (WPA2-EAP only) Identity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/data-sources/wifi_easy_connect#eap_identity DataRouterosWifiEasyConnect#eap_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/data-sources/wifi_easy_connect#eap_identity DataRouterosWifiEasyConnect#eap_identity}
   */
   readonly eapIdentity?: string;
   /**
   * (WPA2-EAP only) EAP method, like TTLS or PWD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/data-sources/wifi_easy_connect#eap_method DataRouterosWifiEasyConnect#eap_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/data-sources/wifi_easy_connect#eap_method DataRouterosWifiEasyConnect#eap_method}
   */
   readonly eapMethod?: string;
   /**
   * (WPA2-EAP only) Phase 2 method, like `MSCHAPV2`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/data-sources/wifi_easy_connect#eap_phase2 DataRouterosWifiEasyConnect#eap_phase2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/data-sources/wifi_easy_connect#eap_phase2 DataRouterosWifiEasyConnect#eap_phase2}
   */
   readonly eapPhase2?: string;
   /**
   * True if the network SSID is hidden.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/data-sources/wifi_easy_connect#hidden DataRouterosWifiEasyConnect#hidden}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/data-sources/wifi_easy_connect#hidden DataRouterosWifiEasyConnect#hidden}
   */
   readonly hidden?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/data-sources/wifi_easy_connect#id DataRouterosWifiEasyConnect#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/data-sources/wifi_easy_connect#id DataRouterosWifiEasyConnect#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,25 +47,25 @@ export interface DataRouterosWifiEasyConnectConfig extends cdktf.TerraformMetaAr
   /**
   * Password, ignored if T is nopass (in which case it may be omitted). Enclose in double quotes if it is an ASCII name, but could be interpreted as hex (i.e. "ABCD").
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/data-sources/wifi_easy_connect#password DataRouterosWifiEasyConnect#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/data-sources/wifi_easy_connect#password DataRouterosWifiEasyConnect#password}
   */
   readonly password: string;
   /**
   * Network SSID. Required. Enclose in double quotes if it is an ASCII name, but could be interpreted as hex (i.e. "ABCD").
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/data-sources/wifi_easy_connect#ssid DataRouterosWifiEasyConnect#ssid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/data-sources/wifi_easy_connect#ssid DataRouterosWifiEasyConnect#ssid}
   */
   readonly ssid: string;
   /**
   * Authentication type; can be WEP or WPA or WPA2-EAP, or nopass for no password. Or, omit for no password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/data-sources/wifi_easy_connect#type DataRouterosWifiEasyConnect#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/data-sources/wifi_easy_connect#type DataRouterosWifiEasyConnect#type}
   */
   readonly type?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/data-sources/wifi_easy_connect routeros_wifi_easy_connect}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/data-sources/wifi_easy_connect routeros_wifi_easy_connect}
 */
 export class DataRouterosWifiEasyConnect extends cdktf.TerraformDataSource {
 
@@ -81,7 +81,7 @@ export class DataRouterosWifiEasyConnect extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataRouterosWifiEasyConnect resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRouterosWifiEasyConnect to import
-  * @param importFromId The id of the existing DataRouterosWifiEasyConnect that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/data-sources/wifi_easy_connect#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRouterosWifiEasyConnect that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/data-sources/wifi_easy_connect#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRouterosWifiEasyConnect to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class DataRouterosWifiEasyConnect extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/data-sources/wifi_easy_connect routeros_wifi_easy_connect} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/data-sources/wifi_easy_connect routeros_wifi_easy_connect} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class DataRouterosWifiEasyConnect extends cdktf.TerraformDataSource {
       terraformResourceType: 'routeros_wifi_easy_connect',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.95.0',
-        providerVersionConstraint: '1.95.0'
+        providerVersion: '1.96.0',
+        providerVersionConstraint: '1.96.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

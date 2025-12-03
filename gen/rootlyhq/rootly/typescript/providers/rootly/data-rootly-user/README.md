@@ -1,3 +1,3 @@
 # `data_rootly_user`
 
-Refer to the Terraform Registry for docs: [`data_rootly_user`](https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/data-sources/user).
+Refer to the Terraform Registry for docs: [`data_rootly_user`](https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/data-sources/user).

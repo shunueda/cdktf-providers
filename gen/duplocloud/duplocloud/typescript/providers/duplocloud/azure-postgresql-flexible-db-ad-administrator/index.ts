@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_postgresql_flexible_db_ad_administrator
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_postgresql_flexible_db_ad_administrator
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface AzurePostgresqlFlexibleDbAdAdministratorConfig extends cdktf.Te
   /**
   * Azure GUID of the tenant
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_postgresql_flexible_db_ad_administrator#azure_tenant_id AzurePostgresqlFlexibleDbAdAdministrator#azure_tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_postgresql_flexible_db_ad_administrator#azure_tenant_id AzurePostgresqlFlexibleDbAdAdministrator#azure_tenant_id}
   */
   readonly azureTenantId: string;
   /**
   * Postgres flexible server database name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_postgresql_flexible_db_ad_administrator#db_name AzurePostgresqlFlexibleDbAdAdministrator#db_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_postgresql_flexible_db_ad_administrator#db_name AzurePostgresqlFlexibleDbAdAdministrator#db_name}
   */
   readonly dbName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_postgresql_flexible_db_ad_administrator#id AzurePostgresqlFlexibleDbAdAdministrator#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_postgresql_flexible_db_ad_administrator#id AzurePostgresqlFlexibleDbAdAdministrator#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,45 +29,45 @@ export interface AzurePostgresqlFlexibleDbAdAdministratorConfig extends cdktf.Te
   /**
   * The Azure Active Directory (AAD) Object ID of the user, group, or service principal. This is a globally unique identifier assigned by AAD to each identity, used to manage access and authentication across Azure resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_postgresql_flexible_db_ad_administrator#object_id AzurePostgresqlFlexibleDbAdAdministrator#object_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_postgresql_flexible_db_ad_administrator#object_id AzurePostgresqlFlexibleDbAdAdministrator#object_id}
   */
   readonly objectId: string;
   /**
   * Azure account user name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_postgresql_flexible_db_ad_administrator#principal_name AzurePostgresqlFlexibleDbAdAdministrator#principal_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_postgresql_flexible_db_ad_administrator#principal_name AzurePostgresqlFlexibleDbAdAdministrator#principal_name}
   */
   readonly principalName: string;
   /**
   * Specify the type of Azure AD identity being used for that administrator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_postgresql_flexible_db_ad_administrator#principal_type AzurePostgresqlFlexibleDbAdAdministrator#principal_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_postgresql_flexible_db_ad_administrator#principal_type AzurePostgresqlFlexibleDbAdAdministrator#principal_type}
   */
   readonly principalType: string;
   /**
   * The GUID of the tenant that the azure postgresql database will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_postgresql_flexible_db_ad_administrator#tenant_id AzurePostgresqlFlexibleDbAdAdministrator#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_postgresql_flexible_db_ad_administrator#tenant_id AzurePostgresqlFlexibleDbAdAdministrator#tenant_id}
   */
   readonly tenantId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_postgresql_flexible_db_ad_administrator#timeouts AzurePostgresqlFlexibleDbAdAdministrator#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_postgresql_flexible_db_ad_administrator#timeouts AzurePostgresqlFlexibleDbAdAdministrator#timeouts}
   */
   readonly timeouts?: AzurePostgresqlFlexibleDbAdAdministratorTimeouts;
 }
 export interface AzurePostgresqlFlexibleDbAdAdministratorTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_postgresql_flexible_db_ad_administrator#create AzurePostgresqlFlexibleDbAdAdministrator#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_postgresql_flexible_db_ad_administrator#create AzurePostgresqlFlexibleDbAdAdministrator#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_postgresql_flexible_db_ad_administrator#delete AzurePostgresqlFlexibleDbAdAdministrator#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_postgresql_flexible_db_ad_administrator#delete AzurePostgresqlFlexibleDbAdAdministrator#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_postgresql_flexible_db_ad_administrator#update AzurePostgresqlFlexibleDbAdAdministrator#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_postgresql_flexible_db_ad_administrator#update AzurePostgresqlFlexibleDbAdAdministrator#update}
   */
   readonly update?: string;
 }
@@ -219,7 +219,7 @@ export class AzurePostgresqlFlexibleDbAdAdministratorTimeoutsOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_postgresql_flexible_db_ad_administrator duplocloud_azure_postgresql_flexible_db_ad_administrator}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_postgresql_flexible_db_ad_administrator duplocloud_azure_postgresql_flexible_db_ad_administrator}
 */
 export class AzurePostgresqlFlexibleDbAdAdministrator extends cdktf.TerraformResource {
 
@@ -235,7 +235,7 @@ export class AzurePostgresqlFlexibleDbAdAdministrator extends cdktf.TerraformRes
   * Generates CDKTF code for importing a AzurePostgresqlFlexibleDbAdAdministrator resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AzurePostgresqlFlexibleDbAdAdministrator to import
-  * @param importFromId The id of the existing AzurePostgresqlFlexibleDbAdAdministrator that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_postgresql_flexible_db_ad_administrator#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AzurePostgresqlFlexibleDbAdAdministrator that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_postgresql_flexible_db_ad_administrator#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AzurePostgresqlFlexibleDbAdAdministrator to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -247,7 +247,7 @@ export class AzurePostgresqlFlexibleDbAdAdministrator extends cdktf.TerraformRes
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_postgresql_flexible_db_ad_administrator duplocloud_azure_postgresql_flexible_db_ad_administrator} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_postgresql_flexible_db_ad_administrator duplocloud_azure_postgresql_flexible_db_ad_administrator} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -258,8 +258,8 @@ export class AzurePostgresqlFlexibleDbAdAdministrator extends cdktf.TerraformRes
       terraformResourceType: 'duplocloud_azure_postgresql_flexible_db_ad_administrator',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.29',
-        providerVersionConstraint: '0.11.29'
+        providerVersion: '0.11.30',
+        providerVersionConstraint: '0.11.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

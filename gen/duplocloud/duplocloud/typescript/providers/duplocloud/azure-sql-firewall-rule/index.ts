@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_sql_firewall_rule
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_sql_firewall_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface AzureSqlFirewallRuleConfig extends cdktf.TerraformMetaArguments
   /**
   * The ending IP address to allow through the firewall for this rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_sql_firewall_rule#end_ip_address AzureSqlFirewallRule#end_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_sql_firewall_rule#end_ip_address AzureSqlFirewallRule#end_ip_address}
   */
   readonly endIpAddress: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_sql_firewall_rule#id AzureSqlFirewallRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_sql_firewall_rule#id AzureSqlFirewallRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,41 +23,41 @@ export interface AzureSqlFirewallRuleConfig extends cdktf.TerraformMetaArguments
   /**
   * The name of the firewall rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_sql_firewall_rule#name AzureSqlFirewallRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_sql_firewall_rule#name AzureSqlFirewallRule#name}
   */
   readonly name: string;
   /**
   * The name of the SQL Server on which to create the Firewall Rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_sql_firewall_rule#server_name AzureSqlFirewallRule#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_sql_firewall_rule#server_name AzureSqlFirewallRule#server_name}
   */
   readonly serverName: string;
   /**
   * The starting IP address to allow through the firewall for this rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_sql_firewall_rule#start_ip_address AzureSqlFirewallRule#start_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_sql_firewall_rule#start_ip_address AzureSqlFirewallRule#start_ip_address}
   */
   readonly startIpAddress: string;
   /**
   * The GUID of the tenant that the sql firewall rule will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_sql_firewall_rule#tenant_id AzureSqlFirewallRule#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_sql_firewall_rule#tenant_id AzureSqlFirewallRule#tenant_id}
   */
   readonly tenantId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_sql_firewall_rule#timeouts AzureSqlFirewallRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_sql_firewall_rule#timeouts AzureSqlFirewallRule#timeouts}
   */
   readonly timeouts?: AzureSqlFirewallRuleTimeouts;
 }
 export interface AzureSqlFirewallRuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_sql_firewall_rule#create AzureSqlFirewallRule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_sql_firewall_rule#create AzureSqlFirewallRule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_sql_firewall_rule#delete AzureSqlFirewallRule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_sql_firewall_rule#delete AzureSqlFirewallRule#delete}
   */
   readonly delete?: string;
 }
@@ -180,7 +180,7 @@ export class AzureSqlFirewallRuleTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_sql_firewall_rule duplocloud_azure_sql_firewall_rule}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_sql_firewall_rule duplocloud_azure_sql_firewall_rule}
 */
 export class AzureSqlFirewallRule extends cdktf.TerraformResource {
 
@@ -196,7 +196,7 @@ export class AzureSqlFirewallRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AzureSqlFirewallRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AzureSqlFirewallRule to import
-  * @param importFromId The id of the existing AzureSqlFirewallRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_sql_firewall_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AzureSqlFirewallRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_sql_firewall_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AzureSqlFirewallRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -208,7 +208,7 @@ export class AzureSqlFirewallRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_sql_firewall_rule duplocloud_azure_sql_firewall_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_sql_firewall_rule duplocloud_azure_sql_firewall_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -219,8 +219,8 @@ export class AzureSqlFirewallRule extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_azure_sql_firewall_rule',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.29',
-        providerVersionConstraint: '0.11.29'
+        providerVersion: '0.11.30',
+        providerVersionConstraint: '0.11.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

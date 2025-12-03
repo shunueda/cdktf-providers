@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs
+// https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,27 +8,27 @@ import * as cdktf from 'cdktf';
 
 export interface ChecklyProviderConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs#account_id ChecklyProvider#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs#account_id ChecklyProvider#account_id}
   */
   readonly accountId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs#api_key ChecklyProvider#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs#api_key ChecklyProvider#api_key}
   */
   readonly apiKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs#api_url ChecklyProvider#api_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs#api_url ChecklyProvider#api_url}
   */
   readonly apiUrl?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs#alias ChecklyProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs#alias ChecklyProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs checkly}
+* Represents a {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs checkly}
 */
 export class ChecklyProvider extends cdktf.TerraformProvider {
 
@@ -44,7 +44,7 @@ export class ChecklyProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a ChecklyProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ChecklyProvider to import
-  * @param importFromId The id of the existing ChecklyProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ChecklyProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ChecklyProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class ChecklyProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs checkly} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs checkly} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class ChecklyProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'checkly',
       terraformGeneratorMetadata: {
         providerName: 'checkly',
-        providerVersion: '1.17.0',
-        providerVersionConstraint: '1.17.0'
+        providerVersion: '1.17.1',
+        providerVersionConstraint: '1.17.1'
       },
       terraformProviderSource: 'checkly/checkly'
     });

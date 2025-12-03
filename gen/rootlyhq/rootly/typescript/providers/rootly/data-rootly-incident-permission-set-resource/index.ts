@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/data-sources/incident_permission_set_resource
+// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/data-sources/incident_permission_set_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataRootlyIncidentPermissionSetResourceConfig extends cdktf.Ter
   /**
   * Filter by date range using 'lt' and 'gt'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/data-sources/incident_permission_set_resource#created_at DataRootlyIncidentPermissionSetResource#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/data-sources/incident_permission_set_resource#created_at DataRootlyIncidentPermissionSetResource#created_at}
   */
   readonly createdAt?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/data-sources/incident_permission_set_resource#kind DataRootlyIncidentPermissionSetResource#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/data-sources/incident_permission_set_resource#kind DataRootlyIncidentPermissionSetResource#kind}
   */
   readonly kind?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/data-sources/incident_permission_set_resource rootly_incident_permission_set_resource}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/data-sources/incident_permission_set_resource rootly_incident_permission_set_resource}
 */
 export class DataRootlyIncidentPermissionSetResource extends cdktf.TerraformDataSource {
 
@@ -36,7 +36,7 @@ export class DataRootlyIncidentPermissionSetResource extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataRootlyIncidentPermissionSetResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRootlyIncidentPermissionSetResource to import
-  * @param importFromId The id of the existing DataRootlyIncidentPermissionSetResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/data-sources/incident_permission_set_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRootlyIncidentPermissionSetResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/data-sources/incident_permission_set_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRootlyIncidentPermissionSetResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -48,7 +48,7 @@ export class DataRootlyIncidentPermissionSetResource extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/data-sources/incident_permission_set_resource rootly_incident_permission_set_resource} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/data-sources/incident_permission_set_resource rootly_incident_permission_set_resource} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -59,8 +59,8 @@ export class DataRootlyIncidentPermissionSetResource extends cdktf.TerraformData
       terraformResourceType: 'rootly_incident_permission_set_resource',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.9',
-        providerVersionConstraint: '4.3.9'
+        providerVersion: '4.3.10',
+        providerVersionConstraint: '4.3.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

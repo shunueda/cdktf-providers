@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check
+// https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,53 @@ export interface CheckConfig extends cdktf.TerraformMetaArguments {
   /**
   * Determines if the check is running or not. Possible values `true`, and `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#activated Check#activated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#activated Check#activated}
   */
   readonly activated: boolean | cdktf.IResolvable;
   /**
   * The response time in milliseconds starting from which a check should be considered degraded. Possible values are between 0 and 30000. (Default `15000`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#degraded_response_time Check#degraded_response_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#degraded_response_time Check#degraded_response_time}
   */
   readonly degradedResponseTime?: number;
   /**
   * Setting this to `true` will trigger a retry when a check fails from the failing region and another, randomly selected region before marking the check as failed. (Default `false`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#double_check Check#double_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#double_check Check#double_check}
   */
   readonly doubleCheck?: boolean | cdktf.IResolvable;
   /**
   * Key/value pairs for setting environment variables during check execution. These are only relevant for browser checks. Use global environment variables whenever possible.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#environment_variables Check#environment_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#environment_variables Check#environment_variables}
   */
   readonly environmentVariables?: { [key: string]: string };
   /**
-  * The frequency in minutes to run the check. Possible values are `0`, `1`, `2`, `5`, `10`, `15`, `30`, `60`, `120`, `180`, `360`, `720`, and `1440`.
+  * Controls how often the check should run. Defined in minutes. The allowed values are `0` (high frequency - use `frequency_offset` to define the actual frequency), `1` (1 minute), `2` (2 minutes), `5` (5 minutes), `10` (10 minutes), `15` (15 minutes), `30` (30 minutes), `60` (1 hour), `120` (2 hours), `180` (3 hours), `360` (6 hours), `720` (12 hours) and `1440` (24 hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#frequency Check#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#frequency Check#frequency}
   */
   readonly frequency: number;
   /**
-  * This property only valid for API high frequency checks. To create a hight frequency check, the property `frequency` must be `0` and `frequency_offset` could be `10`, `20` or `30`.
+  * Only relevant when `type` is `API`. When `frequency` is `0` (high frequency), `frequency_offset` is required and it alone controls how often the monitor should run. Defined in seconds. The allowed values are `0` (disabled - use `frequency` to define the actual frequency), `10` (10 seconds), `20` (20 seconds) and `30` (30 seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#frequency_offset Check#frequency_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#frequency_offset Check#frequency_offset}
   */
   readonly frequencyOffset?: number;
   /**
   * The id of the check group this check is part of.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#group_id Check#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#group_id Check#group_id}
   */
   readonly groupId?: number;
   /**
   * The position of this check in a check group. It determines in what order checks are run when a group is triggered from the API or from CI/CD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#group_order Check#group_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#group_order Check#group_order}
   */
   readonly groupOrder?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#id Check#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#id Check#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,155 +65,155 @@ export interface CheckConfig extends cdktf.TerraformMetaArguments {
   /**
   * A valid piece of Node.js code to run in the setup phase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#local_setup_script Check#local_setup_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#local_setup_script Check#local_setup_script}
   */
   readonly localSetupScript?: string;
   /**
   * A valid piece of Node.js code to run in the teardown phase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#local_teardown_script Check#local_teardown_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#local_teardown_script Check#local_teardown_script}
   */
   readonly localTeardownScript?: string;
   /**
   * An array of one or more data center locations where to run the this check. (Default ["us-east-1"])
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#locations Check#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#locations Check#locations}
   */
   readonly locations?: string[];
   /**
   * The response time in milliseconds starting from which a check should be considered failing. Possible values are between 0 and 30000. (Default `30000`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#max_response_time Check#max_response_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#max_response_time Check#max_response_time}
   */
   readonly maxResponseTime?: number;
   /**
   * Determines if any notifications will be sent out when a check fails/degrades/recovers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#muted Check#muted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#muted Check#muted}
   */
   readonly muted?: boolean | cdktf.IResolvable;
   /**
   * The name of the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#name Check#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#name Check#name}
   */
   readonly name: string;
   /**
   * An array of one or more private locations slugs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#private_locations Check#private_locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#private_locations Check#private_locations}
   */
   readonly privateLocations?: string[];
   /**
   * Determines if the check should run in all selected locations in parallel or round-robin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#run_parallel Check#run_parallel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#run_parallel Check#run_parallel}
   */
   readonly runParallel?: boolean | cdktf.IResolvable;
   /**
   * The id of the runtime to use for this check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#runtime_id Check#runtime_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#runtime_id Check#runtime_id}
   */
   readonly runtimeId?: string;
   /**
   * A valid piece of Node.js JavaScript code describing a browser interaction with the Puppeteer/Playwright framework or a reference to an external JavaScript file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#script Check#script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#script Check#script}
   */
   readonly script?: string;
   /**
   * An ID reference to a snippet to use in the setup phase of an API check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#setup_snippet_id Check#setup_snippet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#setup_snippet_id Check#setup_snippet_id}
   */
   readonly setupSnippetId?: number;
   /**
   * Allows to invert the behaviour of when a check is considered to fail. Allows for validating error status like 404.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#should_fail Check#should_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#should_fail Check#should_fail}
   */
   readonly shouldFail?: boolean | cdktf.IResolvable;
   /**
   * Determines if the SSL certificate should be validated for expiry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#ssl_check Check#ssl_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#ssl_check Check#ssl_check}
   */
   readonly sslCheck?: boolean | cdktf.IResolvable;
   /**
   * A valid fully qualified domain name (FQDN) to check its SSL certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#ssl_check_domain Check#ssl_check_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#ssl_check_domain Check#ssl_check_domain}
   */
   readonly sslCheckDomain?: string;
   /**
   * A list of tags for organizing and filtering checks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#tags Check#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#tags Check#tags}
   */
   readonly tags?: string[];
   /**
   * An ID reference to a snippet to use in the teardown phase of an API check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#teardown_snippet_id Check#teardown_snippet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#teardown_snippet_id Check#teardown_snippet_id}
   */
   readonly teardownSnippetId?: number;
   /**
   * The type of the check. Possible values are `API`, `BROWSER`, and `MULTI_STEP`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#type Check#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#type Check#type}
   */
   readonly type: string;
   /**
   * When true, the account level alert settings will be used, not the alert setting defined on this check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#use_global_alert_settings Check#use_global_alert_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#use_global_alert_settings Check#use_global_alert_settings}
   */
   readonly useGlobalAlertSettings?: boolean | cdktf.IResolvable;
   /**
   * alert_channel_subscription block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#alert_channel_subscription Check#alert_channel_subscription}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#alert_channel_subscription Check#alert_channel_subscription}
   */
   readonly alertChannelSubscription?: CheckAlertChannelSubscription[] | cdktf.IResolvable;
   /**
   * alert_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#alert_settings Check#alert_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#alert_settings Check#alert_settings}
   */
   readonly alertSettings?: CheckAlertSettings;
   /**
   * environment_variable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#environment_variable Check#environment_variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#environment_variable Check#environment_variable}
   */
   readonly environmentVariable?: CheckEnvironmentVariable[] | cdktf.IResolvable;
   /**
   * request block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#request Check#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#request Check#request}
   */
   readonly request?: CheckRequest;
   /**
   * retry_strategy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#retry_strategy Check#retry_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#retry_strategy Check#retry_strategy}
   */
   readonly retryStrategy?: CheckRetryStrategy;
   /**
   * trigger_incident block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#trigger_incident Check#trigger_incident}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#trigger_incident Check#trigger_incident}
   */
   readonly triggerIncident?: CheckTriggerIncident;
 }
 export interface CheckAlertChannelSubscription {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#activated Check#activated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#activated Check#activated}
   */
   readonly activated: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#channel_id Check#channel_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#channel_id Check#channel_id}
   */
   readonly channelId: number;
 }
@@ -354,13 +354,13 @@ export interface CheckAlertSettingsParallelRunFailureThreshold {
   /**
   * Whether parallel run failure threshold is enabled. Only applies if the check is scheduled for multiple locations in parallel. (Default `false`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#enabled Check#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#enabled Check#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Percentage of runs that must fail to trigger alert. Possible values are `10`, `20`, `30`, `40`, `50`, `60`, `70`, `80`, `90`, and `100`. (Default `10`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#percentage Check#percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#percentage Check#percentage}
   */
   readonly percentage?: number;
 }
@@ -507,13 +507,13 @@ export interface CheckAlertSettingsReminders {
   /**
   * Number of reminder notifications to send. Possible values are `0`, `1`, `2`, `3`, `4`, `5`, and `100000` (`0` to disable, `100000` for unlimited). (Default `0`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#amount Check#amount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#amount Check#amount}
   */
   readonly amount?: number;
   /**
   * Interval between reminder notifications in minutes. Possible values are `5`, `10`, `15`, and `30`. (Default `5`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#interval Check#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#interval Check#interval}
   */
   readonly interval?: number;
 }
@@ -660,7 +660,7 @@ export interface CheckAlertSettingsRunBasedEscalation {
   /**
   * Send an alert notification after the given number of consecutive check runs have failed. Possible values are between `1` and `5`. (Default `1`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#failed_run_threshold Check#failed_run_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#failed_run_threshold Check#failed_run_threshold}
   */
   readonly failedRunThreshold?: number;
 }
@@ -778,13 +778,13 @@ export interface CheckAlertSettingsSslCertificates {
   /**
   * No longer available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#alert_threshold Check#alert_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#alert_threshold Check#alert_threshold}
   */
   readonly alertThreshold?: number;
   /**
   * No longer available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#enabled Check#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#enabled Check#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -931,7 +931,7 @@ export interface CheckAlertSettingsTimeBasedEscalation {
   /**
   * Send an alert notification after the check has been failing for the given amount of time (in minutes). Possible values are `5`, `10`, `15`, and `30`. (Default `5`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#minutes_failing_threshold Check#minutes_failing_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#minutes_failing_threshold Check#minutes_failing_threshold}
   */
   readonly minutesFailingThreshold?: number;
 }
@@ -1049,37 +1049,37 @@ export interface CheckAlertSettings {
   /**
   * Determines the type of escalation to use. Possible values are `RUN_BASED` and `TIME_BASED`. (Default `RUN_BASED`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#escalation_type Check#escalation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#escalation_type Check#escalation_type}
   */
   readonly escalationType?: string;
   /**
   * parallel_run_failure_threshold block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#parallel_run_failure_threshold Check#parallel_run_failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#parallel_run_failure_threshold Check#parallel_run_failure_threshold}
   */
   readonly parallelRunFailureThreshold?: CheckAlertSettingsParallelRunFailureThreshold[] | cdktf.IResolvable;
   /**
   * reminders block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#reminders Check#reminders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#reminders Check#reminders}
   */
   readonly reminders?: CheckAlertSettingsReminders[] | cdktf.IResolvable;
   /**
   * run_based_escalation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#run_based_escalation Check#run_based_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#run_based_escalation Check#run_based_escalation}
   */
   readonly runBasedEscalation?: CheckAlertSettingsRunBasedEscalation[] | cdktf.IResolvable;
   /**
   * ssl_certificates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#ssl_certificates Check#ssl_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#ssl_certificates Check#ssl_certificates}
   */
   readonly sslCertificates?: CheckAlertSettingsSslCertificates[] | cdktf.IResolvable;
   /**
   * time_based_escalation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#time_based_escalation Check#time_based_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#time_based_escalation Check#time_based_escalation}
   */
   readonly timeBasedEscalation?: CheckAlertSettingsTimeBasedEscalation[] | cdktf.IResolvable;
 }
@@ -1308,19 +1308,19 @@ export class CheckAlertSettingsOutputReference extends cdktf.ComplexObject {
 }
 export interface CheckEnvironmentVariable {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#key Check#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#key Check#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#locked Check#locked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#locked Check#locked}
   */
   readonly locked?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#secret Check#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#secret Check#secret}
   */
   readonly secret?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#value Check#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#value Check#value}
   */
   readonly value: string;
 }
@@ -1519,21 +1519,21 @@ export interface CheckRequestAssertion {
   /**
   * The type of comparison to be executed between expected and actual value of the assertion. Possible values `EQUALS`, `NOT_EQUALS`, `HAS_KEY`, `NOT_HAS_KEY`, `HAS_VALUE`, `NOT_HAS_VALUE`, `IS_EMPTY`, `NOT_EMPTY`, `GREATER_THAN`, `LESS_THAN`, `CONTAINS`, `NOT_CONTAINS`, `IS_NULL`, and `NOT_NULL`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#comparison Check#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#comparison Check#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#property Check#property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#property Check#property}
   */
   readonly property?: string;
   /**
   * The source of the asserted value. Possible values `STATUS_CODE`, `JSON_BODY`, `HEADERS`, `TEXT_BODY`, and `RESPONSE_TIME`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#source Check#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#source Check#source}
   */
   readonly source: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#target Check#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#target Check#target}
   */
   readonly target?: string;
 }
@@ -1730,11 +1730,11 @@ export class CheckRequestAssertionList extends cdktf.ComplexList {
 }
 export interface CheckRequestBasicAuth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#password Check#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#password Check#password}
   */
   readonly password: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#username Check#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#username Check#username}
   */
   readonly username: string;
 }
@@ -1843,57 +1843,57 @@ export interface CheckRequest {
   /**
   * The body of the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#body Check#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#body Check#body}
   */
   readonly body?: string;
   /**
   * The `Content-Type` header of the request. Possible values `NONE`, `JSON`, `FORM`, `RAW`, and `GRAPHQL`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#body_type Check#body_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#body_type Check#body_type}
   */
   readonly bodyType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#follow_redirects Check#follow_redirects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#follow_redirects Check#follow_redirects}
   */
   readonly followRedirects?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#headers Check#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#headers Check#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * IP Family to be used when executing the api check. The value can be either IPv4 or IPv6.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#ip_family Check#ip_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#ip_family Check#ip_family}
   */
   readonly ipFamily?: string;
   /**
   * The HTTP method to use for this API check. Possible values are `GET`, `POST`, `PUT`, `HEAD`, `DELETE`, `PATCH`. (Default `GET`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#method Check#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#method Check#method}
   */
   readonly method?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#query_parameters Check#query_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#query_parameters Check#query_parameters}
   */
   readonly queryParameters?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#skip_ssl Check#skip_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#skip_ssl Check#skip_ssl}
   */
   readonly skipSsl?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#url Check#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#url Check#url}
   */
   readonly url: string;
   /**
   * assertion block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#assertion Check#assertion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#assertion Check#assertion}
   */
   readonly assertion?: CheckRequestAssertion[] | cdktf.IResolvable;
   /**
   * basic_auth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#basic_auth Check#basic_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#basic_auth Check#basic_auth}
   */
   readonly basicAuth?: CheckRequestBasicAuth;
 }
@@ -2266,7 +2266,7 @@ export interface CheckRetryStrategyOnlyOn {
   /**
   * When `true`, retry only if the cause of the failure is a network error. (Default `false`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#network_error Check#network_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#network_error Check#network_error}
   */
   readonly networkError?: boolean | cdktf.IResolvable;
 }
@@ -2352,37 +2352,37 @@ export interface CheckRetryStrategy {
   /**
   * The number of seconds to wait before the first retry attempt. (Default `60`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#base_backoff_seconds Check#base_backoff_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#base_backoff_seconds Check#base_backoff_seconds}
   */
   readonly baseBackoffSeconds?: number;
   /**
   * The total amount of time to continue retrying the check/monitor (maximum 600 seconds). Available when `type` is `FIXED`, `LINEAR`, or `EXPONENTIAL`. (Default `600`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#max_duration_seconds Check#max_duration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#max_duration_seconds Check#max_duration_seconds}
   */
   readonly maxDurationSeconds?: number;
   /**
   * The maximum number of times to retry the check/monitor. Value must be between `1` and `10`. Available when `type` is `FIXED`, `LINEAR`, or `EXPONENTIAL`. (Default `2`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#max_retries Check#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#max_retries Check#max_retries}
   */
   readonly maxRetries?: number;
   /**
   * Whether retries should be run in the same region as the initial check/monitor run. (Default `true`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#same_region Check#same_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#same_region Check#same_region}
   */
   readonly sameRegion?: boolean | cdktf.IResolvable;
   /**
   * Determines which type of retry strategy to use. Possible values are `FIXED`, `LINEAR`, `EXPONENTIAL`, `SINGLE_RETRY`, and `NO_RETRIES`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#type Check#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#type Check#type}
   */
   readonly type: string;
   /**
   * only_on block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#only_on Check#only_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#only_on Check#only_on}
   */
   readonly onlyOn?: CheckRetryStrategyOnlyOn;
 }
@@ -2610,31 +2610,31 @@ export interface CheckTriggerIncident {
   /**
   * A detailed description of the incident.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#description Check#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#description Check#description}
   */
   readonly description: string;
   /**
   * The name of the incident.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#name Check#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#name Check#name}
   */
   readonly name: string;
   /**
   * Whether to notify subscribers when the incident is triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#notify_subscribers Check#notify_subscribers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#notify_subscribers Check#notify_subscribers}
   */
   readonly notifySubscribers: boolean | cdktf.IResolvable;
   /**
   * The status page service that this incident will be associated with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#service_id Check#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#service_id Check#service_id}
   */
   readonly serviceId: string;
   /**
   * The severity level of the incident. Possible values are `MINOR`, `MEDIUM`, `MAJOR`, and `CRITICAL`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#severity Check#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#severity Check#severity}
   */
   readonly severity: string;
 }
@@ -2819,7 +2819,7 @@ export class CheckTriggerIncidentOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check checkly_check}
+* Represents a {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check checkly_check}
 */
 export class Check extends cdktf.TerraformResource {
 
@@ -2835,7 +2835,7 @@ export class Check extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Check resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Check to import
-  * @param importFromId The id of the existing Check that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Check that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Check to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2847,7 +2847,7 @@ export class Check extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check checkly_check} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/check checkly_check} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2858,8 +2858,8 @@ export class Check extends cdktf.TerraformResource {
       terraformResourceType: 'checkly_check',
       terraformGeneratorMetadata: {
         providerName: 'checkly',
-        providerVersion: '1.17.0',
-        providerVersionConstraint: '1.17.0'
+        providerVersion: '1.17.1',
+        providerVersionConstraint: '1.17.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

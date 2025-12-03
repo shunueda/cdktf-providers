@@ -172,6 +172,7 @@ export * as routingBgpConnection from './routing-bgp-connection';
 export * as routingBgpEvpn from './routing-bgp-evpn';
 export * as routingBgpInstance from './routing-bgp-instance';
 export * as routingBgpTemplate from './routing-bgp-template';
+export * as routingBgpVpn from './routing-bgp-vpn';
 export * as routingFilterRule from './routing-filter-rule';
 export * as routingIgmpProxyInterface from './routing-igmp-proxy-interface';
 export * as routingOspfArea from './routing-ospf-area';

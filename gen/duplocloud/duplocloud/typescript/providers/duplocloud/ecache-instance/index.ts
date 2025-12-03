@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecache_instance
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecache_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,13 +12,13 @@ export interface EcacheInstanceConfig extends cdktf.TerraformMetaArguments {
   * 
   * See AWS documentation for the [required format](https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/auth.html) of this field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecache_instance#auth_token EcacheInstance#auth_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecache_instance#auth_token EcacheInstance#auth_token}
   */
   readonly authToken?: string;
   /**
   * Enables automatic failover. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecache_instance#automatic_failover_enabled EcacheInstance#automatic_failover_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecache_instance#automatic_failover_enabled EcacheInstance#automatic_failover_enabled}
   */
   readonly automaticFailoverEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -32,36 +32,36 @@ export interface EcacheInstanceConfig extends cdktf.TerraformMetaArguments {
   * 
   *  Defaults to `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecache_instance#cache_type EcacheInstance#cache_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecache_instance#cache_type EcacheInstance#cache_type}
   */
   readonly cacheType?: number;
   /**
   * Flag to enable/disable redis/valkey cluster mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecache_instance#enable_cluster_mode EcacheInstance#enable_cluster_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecache_instance#enable_cluster_mode EcacheInstance#enable_cluster_mode}
   */
   readonly enableClusterMode?: boolean | cdktf.IResolvable;
   /**
   * Enables encryption-at-rest. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecache_instance#encryption_at_rest EcacheInstance#encryption_at_rest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecache_instance#encryption_at_rest EcacheInstance#encryption_at_rest}
   */
   readonly encryptionAtRest?: boolean | cdktf.IResolvable;
   /**
   * Enables encryption-in-transit. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecache_instance#encryption_in_transit EcacheInstance#encryption_in_transit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecache_instance#encryption_in_transit EcacheInstance#encryption_in_transit}
   */
   readonly encryptionInTransit?: boolean | cdktf.IResolvable;
   /**
   * The engine version of the elastic instance.
   * See AWS documentation for the [available Redis and Valkey instance types](https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/supported-engine-versions.html) or the [available Memcached instance types](https://docs.aws.amazon.com/AmazonElastiCache/latest/mem-ug/supported-engine-versions-mc.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecache_instance#engine_version EcacheInstance#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecache_instance#engine_version EcacheInstance#engine_version}
   */
   readonly engineVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecache_instance#id EcacheInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecache_instance#id EcacheInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -70,80 +70,80 @@ export interface EcacheInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * The globally unique identifier for the key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecache_instance#kms_key_id EcacheInstance#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecache_instance#kms_key_id EcacheInstance#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * The short name of the elasticache instance.  Duplo will add a prefix to the name.  You can retrieve the full name from the `identifier` attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecache_instance#name EcacheInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecache_instance#name EcacheInstance#name}
   */
   readonly name: string;
   /**
   * The number of shards to create. Applicable only if enable_cluster_mode is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecache_instance#number_of_shards EcacheInstance#number_of_shards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecache_instance#number_of_shards EcacheInstance#number_of_shards}
   */
   readonly numberOfShards?: number;
   /**
   * The REDIS/Valkey parameter group to supply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecache_instance#parameter_group_name EcacheInstance#parameter_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecache_instance#parameter_group_name EcacheInstance#parameter_group_name}
   */
   readonly parameterGroupName?: string;
   /**
   * The number of replicas to create. Supported number of replicas is 1 to 6 Defaults to `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecache_instance#replicas EcacheInstance#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecache_instance#replicas EcacheInstance#replicas}
   */
   readonly replicas?: number;
   /**
   * The instance type of the elasticache instance.
   * See AWS documentation for the [available instance types](https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/CacheNodes.SupportedTypes.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecache_instance#size EcacheInstance#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecache_instance#size EcacheInstance#size}
   */
   readonly size: string;
   /**
   * Specify the ARN of a Redis/Valkey RDB snapshot file stored in Amazon S3. User should have the access to export snapshot to s3 bucket. One can find steps to provide access to export snapshot to s3 on following link https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/backups-exporting.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecache_instance#snapshot_arns EcacheInstance#snapshot_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecache_instance#snapshot_arns EcacheInstance#snapshot_arns}
   */
   readonly snapshotArns?: string[];
   /**
   * Select the snapshot/backup you want to use for creating redis/valkey.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecache_instance#snapshot_name EcacheInstance#snapshot_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecache_instance#snapshot_name EcacheInstance#snapshot_name}
   */
   readonly snapshotName?: string;
   /**
   * Specify retention limit in days. Accepted values - 1-35.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecache_instance#snapshot_retention_limit EcacheInstance#snapshot_retention_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecache_instance#snapshot_retention_limit EcacheInstance#snapshot_retention_limit}
   */
   readonly snapshotRetentionLimit?: number;
   /**
   * Specify snapshot window limit The daily time range (in UTC) during which ElastiCache begins taking a daily snapshot of your node group (shard). Example: 05:00-09:00. If you do not specify this parameter, ElastiCache automatically chooses an appropriate time range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecache_instance#snapshot_window EcacheInstance#snapshot_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecache_instance#snapshot_window EcacheInstance#snapshot_window}
   */
   readonly snapshotWindow?: string;
   /**
   * The GUID of the tenant that the elasticache instance will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecache_instance#tenant_id EcacheInstance#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecache_instance#tenant_id EcacheInstance#tenant_id}
   */
   readonly tenantId: string;
   /**
   * log_delivery_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecache_instance#log_delivery_configuration EcacheInstance#log_delivery_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecache_instance#log_delivery_configuration EcacheInstance#log_delivery_configuration}
   */
   readonly logDeliveryConfiguration?: EcacheInstanceLogDeliveryConfiguration[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecache_instance#timeouts EcacheInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecache_instance#timeouts EcacheInstance#timeouts}
   */
   readonly timeouts?: EcacheInstanceTimeouts;
 }
@@ -151,25 +151,25 @@ export interface EcacheInstanceLogDeliveryConfiguration {
   /**
   * destination type : must be cloudwatch-logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecache_instance#destination_type EcacheInstance#destination_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecache_instance#destination_type EcacheInstance#destination_type}
   */
   readonly destinationType: string;
   /**
   * log_format: Value must be one of the ['json', 'text']
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecache_instance#log_format EcacheInstance#log_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecache_instance#log_format EcacheInstance#log_format}
   */
   readonly logFormat: string;
   /**
   * cloudwatch log_group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecache_instance#log_group EcacheInstance#log_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecache_instance#log_group EcacheInstance#log_group}
   */
   readonly logGroup?: string;
   /**
   * log_type: Value must be one of the ['slow-log', 'engine-log']
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecache_instance#log_type EcacheInstance#log_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecache_instance#log_type EcacheInstance#log_type}
   */
   readonly logType: string;
 }
@@ -363,15 +363,15 @@ export class EcacheInstanceLogDeliveryConfigurationList extends cdktf.ComplexLis
 }
 export interface EcacheInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecache_instance#create EcacheInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecache_instance#create EcacheInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecache_instance#delete EcacheInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecache_instance#delete EcacheInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecache_instance#update EcacheInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecache_instance#update EcacheInstance#update}
   */
   readonly update?: string;
 }
@@ -523,7 +523,7 @@ export class EcacheInstanceTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecache_instance duplocloud_ecache_instance}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecache_instance duplocloud_ecache_instance}
 */
 export class EcacheInstance extends cdktf.TerraformResource {
 
@@ -539,7 +539,7 @@ export class EcacheInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EcacheInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EcacheInstance to import
-  * @param importFromId The id of the existing EcacheInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecache_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EcacheInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecache_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EcacheInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -551,7 +551,7 @@ export class EcacheInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecache_instance duplocloud_ecache_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecache_instance duplocloud_ecache_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -562,8 +562,8 @@ export class EcacheInstance extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_ecache_instance',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.29',
-        providerVersionConstraint: '0.11.29'
+        providerVersion: '0.11.30',
+        providerVersionConstraint: '0.11.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

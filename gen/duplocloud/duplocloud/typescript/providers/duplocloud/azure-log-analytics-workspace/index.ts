@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_log_analytics_workspace
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_log_analytics_workspace
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface AzureLogAnalyticsWorkspaceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_log_analytics_workspace#id AzureLogAnalyticsWorkspace#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_log_analytics_workspace#id AzureLogAnalyticsWorkspace#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,41 +17,41 @@ export interface AzureLogAnalyticsWorkspaceConfig extends cdktf.TerraformMetaArg
   /**
   * The name of the infrastructure. Infrastructure names are globally unique and less than 13 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_log_analytics_workspace#infra_name AzureLogAnalyticsWorkspace#infra_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_log_analytics_workspace#infra_name AzureLogAnalyticsWorkspace#infra_name}
   */
   readonly infraName: string;
   /**
   * Specifies the name of the Log Analytics Workspace. Workspace name should include 4-63 letters, digits or '-'. The '-' shouldn't be the first or the last symbol. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_log_analytics_workspace#name AzureLogAnalyticsWorkspace#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_log_analytics_workspace#name AzureLogAnalyticsWorkspace#name}
   */
   readonly name: string;
   /**
   * The name of the resource group in which the Log Analytics workspace is created. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_log_analytics_workspace#resource_group_name AzureLogAnalyticsWorkspace#resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_log_analytics_workspace#resource_group_name AzureLogAnalyticsWorkspace#resource_group_name}
   */
   readonly resourceGroupName?: string;
   /**
   * Whether or not to wait until Log Analytics Workspace to be ready, after creation. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_log_analytics_workspace#wait_until_ready AzureLogAnalyticsWorkspace#wait_until_ready}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_log_analytics_workspace#wait_until_ready AzureLogAnalyticsWorkspace#wait_until_ready}
   */
   readonly waitUntilReady?: boolean | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_log_analytics_workspace#timeouts AzureLogAnalyticsWorkspace#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_log_analytics_workspace#timeouts AzureLogAnalyticsWorkspace#timeouts}
   */
   readonly timeouts?: AzureLogAnalyticsWorkspaceTimeouts;
 }
 export interface AzureLogAnalyticsWorkspaceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_log_analytics_workspace#create AzureLogAnalyticsWorkspace#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_log_analytics_workspace#create AzureLogAnalyticsWorkspace#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_log_analytics_workspace#delete AzureLogAnalyticsWorkspace#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_log_analytics_workspace#delete AzureLogAnalyticsWorkspace#delete}
   */
   readonly delete?: string;
 }
@@ -174,7 +174,7 @@ export class AzureLogAnalyticsWorkspaceTimeoutsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_log_analytics_workspace duplocloud_azure_log_analytics_workspace}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_log_analytics_workspace duplocloud_azure_log_analytics_workspace}
 */
 export class AzureLogAnalyticsWorkspace extends cdktf.TerraformResource {
 
@@ -190,7 +190,7 @@ export class AzureLogAnalyticsWorkspace extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AzureLogAnalyticsWorkspace resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AzureLogAnalyticsWorkspace to import
-  * @param importFromId The id of the existing AzureLogAnalyticsWorkspace that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_log_analytics_workspace#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AzureLogAnalyticsWorkspace that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_log_analytics_workspace#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AzureLogAnalyticsWorkspace to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -202,7 +202,7 @@ export class AzureLogAnalyticsWorkspace extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_log_analytics_workspace duplocloud_azure_log_analytics_workspace} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_log_analytics_workspace duplocloud_azure_log_analytics_workspace} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -213,8 +213,8 @@ export class AzureLogAnalyticsWorkspace extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_azure_log_analytics_workspace',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.29',
-        providerVersionConstraint: '0.11.29'
+        providerVersion: '0.11.30',
+        providerVersionConstraint: '0.11.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

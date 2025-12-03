@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/wifi_aaa
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/wifi_aaa
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface WifiAaaConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/wifi_aaa#___path___ WifiAaa#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/wifi_aaa#___path___ WifiAaa#___path___}
   */
   readonly path?: string;
   /**
   * Format of the `Called-Station-Id` RADIUS attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/wifi_aaa#called_format WifiAaa#called_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/wifi_aaa#called_format WifiAaa#called_format}
   */
   readonly calledFormat?: string;
   /**
   * Format of the `Calling-Station-Id` RADIUS attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/wifi_aaa#calling_format WifiAaa#calling_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/wifi_aaa#calling_format WifiAaa#calling_format}
   */
   readonly callingFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/wifi_aaa#comment WifiAaa#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/wifi_aaa#comment WifiAaa#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/wifi_aaa#disabled WifiAaa#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/wifi_aaa#disabled WifiAaa#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/wifi_aaa#id WifiAaa#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/wifi_aaa#id WifiAaa#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -43,43 +43,43 @@ export interface WifiAaaConfig extends cdktf.TerraformMetaArguments {
   /**
   * Interval at which to send interim updates about traffic accounting to the RADIUS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/wifi_aaa#interim_update WifiAaa#interim_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/wifi_aaa#interim_update WifiAaa#interim_update}
   */
   readonly interimUpdate?: string;
   /**
   * Time to cache RADIUS server replies when MAC address authentication is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/wifi_aaa#mac_caching WifiAaa#mac_caching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/wifi_aaa#mac_caching WifiAaa#mac_caching}
   */
   readonly macCaching?: string;
   /**
   * Name of the AAA profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/wifi_aaa#name WifiAaa#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/wifi_aaa#name WifiAaa#name}
   */
   readonly name: string;
   /**
   * Value of the `NAS-Identifier` RADIUS attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/wifi_aaa#nas_identifier WifiAaa#nas_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/wifi_aaa#nas_identifier WifiAaa#nas_identifier}
   */
   readonly nasIdentifier?: string;
   /**
   * Format of the `User-Password` RADIUS attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/wifi_aaa#password_format WifiAaa#password_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/wifi_aaa#password_format WifiAaa#password_format}
   */
   readonly passwordFormat?: string;
   /**
   * Format of the `User-Name` RADIUS attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/wifi_aaa#username_format WifiAaa#username_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/wifi_aaa#username_format WifiAaa#username_format}
   */
   readonly usernameFormat?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/wifi_aaa routeros_wifi_aaa}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/wifi_aaa routeros_wifi_aaa}
 */
 export class WifiAaa extends cdktf.TerraformResource {
 
@@ -95,7 +95,7 @@ export class WifiAaa extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WifiAaa resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WifiAaa to import
-  * @param importFromId The id of the existing WifiAaa that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/wifi_aaa#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WifiAaa that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/wifi_aaa#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WifiAaa to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -107,7 +107,7 @@ export class WifiAaa extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/wifi_aaa routeros_wifi_aaa} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/wifi_aaa routeros_wifi_aaa} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -118,8 +118,8 @@ export class WifiAaa extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_wifi_aaa',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.95.0',
-        providerVersionConstraint: '1.95.0'
+        providerVersion: '1.96.0',
+        providerVersionConstraint: '1.96.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

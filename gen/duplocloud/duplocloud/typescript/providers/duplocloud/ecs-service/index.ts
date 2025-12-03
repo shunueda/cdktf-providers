@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecs_service
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface EcsServiceConfig extends cdktf.TerraformMetaArguments {
   /**
   * The DNS prefix to assign to this service's load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecs_service#dns_prfx EcsService#dns_prfx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#dns_prfx EcsService#dns_prfx}
   */
   readonly dnsPrfx?: string;
   /**
   * Defaults to `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecs_service#health_check_grace_period_seconds EcsService#health_check_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#health_check_grace_period_seconds EcsService#health_check_grace_period_seconds}
   */
   readonly healthCheckGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecs_service#id EcsService#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#id EcsService#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,61 +29,79 @@ export interface EcsServiceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecs_service#is_target_group_only EcsService#is_target_group_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#is_target_group_only EcsService#is_target_group_only}
   */
   readonly isTargetGroupOnly?: boolean | cdktf.IResolvable;
   /**
   * The name of the service to create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecs_service#name EcsService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#name EcsService#name}
   */
   readonly name: string;
   /**
   * The number of older task definitions to retain in AWS. Defaults to `10`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecs_service#old_task_definition_buffer_size EcsService#old_task_definition_buffer_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#old_task_definition_buffer_size EcsService#old_task_definition_buffer_size}
   */
   readonly oldTaskDefinitionBufferSize?: number;
   /**
   * The number of container replicas to create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecs_service#replicas EcsService#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#replicas EcsService#replicas}
   */
   readonly replicas: number;
   /**
   * The ARN of the task definition to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecs_service#task_definition EcsService#task_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#task_definition EcsService#task_definition}
   */
   readonly taskDefinition: string;
   /**
   * The GUID of the tenant that the service will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecs_service#tenant_id EcsService#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#tenant_id EcsService#tenant_id}
   */
   readonly tenantId: string;
   /**
   * Whether or not to wait until all target groups are created for ecs service, after creation. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecs_service#wait_until_targets_ready EcsService#wait_until_targets_ready}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#wait_until_targets_ready EcsService#wait_until_targets_ready}
   */
   readonly waitUntilTargetsReady?: boolean | cdktf.IResolvable;
   /**
   * capacity_provider_strategy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecs_service#capacity_provider_strategy EcsService#capacity_provider_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#capacity_provider_strategy EcsService#capacity_provider_strategy}
   */
   readonly capacityProviderStrategy?: EcsServiceCapacityProviderStrategy[] | cdktf.IResolvable;
   /**
+  * deployment_configuration block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#deployment_configuration EcsService#deployment_configuration}
+  */
+  readonly deploymentConfiguration?: EcsServiceDeploymentConfiguration;
+  /**
   * load_balancer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecs_service#load_balancer EcsService#load_balancer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#load_balancer EcsService#load_balancer}
   */
   readonly loadBalancer?: EcsServiceLoadBalancer[] | cdktf.IResolvable;
   /**
+  * placement_constraint block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#placement_constraint EcsService#placement_constraint}
+  */
+  readonly placementConstraint?: EcsServicePlacementConstraint[] | cdktf.IResolvable;
+  /**
+  * placement_strategy block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#placement_strategy EcsService#placement_strategy}
+  */
+  readonly placementStrategy?: EcsServicePlacementStrategy[] | cdktf.IResolvable;
+  /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecs_service#timeouts EcsService#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#timeouts EcsService#timeouts}
   */
   readonly timeouts?: EcsServiceTimeouts;
 }
@@ -91,7 +109,7 @@ export interface EcsServiceCapacityProviderStrategy {
   /**
   * The number of tasks, at a minimum, to run on the specified capacity provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecs_service#base EcsService#base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#base EcsService#base}
   */
   readonly base?: number;
   /**
@@ -100,13 +118,13 @@ export interface EcsServiceCapacityProviderStrategy {
   *  	- FARGATE_SPOT
   *  	- ASG fullname: Used when asg created with agent platform ECS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecs_service#capacity_provider EcsService#capacity_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#capacity_provider EcsService#capacity_provider}
   */
   readonly capacityProvider: string;
   /**
   * The relative percentage of the total number of launched tasks that should use the specified capacity provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecs_service#weight EcsService#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#weight EcsService#weight}
   */
   readonly weight?: number;
 }
@@ -275,29 +293,443 @@ export class EcsServiceCapacityProviderStrategyList extends cdktf.ComplexList {
     return new EcsServiceCapacityProviderStrategyOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface EcsServiceDeploymentConfigurationAlarms {
+  /**
+  * Enables or disables CloudWatch alarm monitoring during deployments. Defaults to `false`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#enable EcsService#enable}
+  */
+  readonly enable?: boolean | cdktf.IResolvable;
+  /**
+  * Names of CloudWatch alarms that ECS monitors during deployments.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#names EcsService#names}
+  */
+  readonly names?: string[];
+  /**
+  * Automatically rolls back the deployment if any configured CloudWatch alarm enters ALARM state. Defaults to `false`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#rollback EcsService#rollback}
+  */
+  readonly rollback?: boolean | cdktf.IResolvable;
+}
+
+export function ecsServiceDeploymentConfigurationAlarmsToTerraform(struct?: EcsServiceDeploymentConfigurationAlarms | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    enable: cdktf.booleanToTerraform(struct!.enable),
+    names: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.names),
+    rollback: cdktf.booleanToTerraform(struct!.rollback),
+  }
+}
+
+
+export function ecsServiceDeploymentConfigurationAlarmsToHclTerraform(struct?: EcsServiceDeploymentConfigurationAlarms | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    enable: {
+      value: cdktf.booleanToHclTerraform(struct!.enable),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    names: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.names),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    rollback: {
+      value: cdktf.booleanToHclTerraform(struct!.rollback),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class EcsServiceDeploymentConfigurationAlarmsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): EcsServiceDeploymentConfigurationAlarms | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._enable !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enable = this._enable;
+    }
+    if (this._names !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.names = this._names;
+    }
+    if (this._rollback !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.rollback = this._rollback;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: EcsServiceDeploymentConfigurationAlarms | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._enable = undefined;
+      this._names = undefined;
+      this._rollback = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._enable = value.enable;
+      this._names = value.names;
+      this._rollback = value.rollback;
+    }
+  }
+
+  // enable - computed: false, optional: true, required: false
+  private _enable?: boolean | cdktf.IResolvable; 
+  public get enable() {
+    return this.getBooleanAttribute('enable');
+  }
+  public set enable(value: boolean | cdktf.IResolvable) {
+    this._enable = value;
+  }
+  public resetEnable() {
+    this._enable = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableInput() {
+    return this._enable;
+  }
+
+  // names - computed: false, optional: true, required: false
+  private _names?: string[]; 
+  public get names() {
+    return this.getListAttribute('names');
+  }
+  public set names(value: string[]) {
+    this._names = value;
+  }
+  public resetNames() {
+    this._names = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namesInput() {
+    return this._names;
+  }
+
+  // rollback - computed: false, optional: true, required: false
+  private _rollback?: boolean | cdktf.IResolvable; 
+  public get rollback() {
+    return this.getBooleanAttribute('rollback');
+  }
+  public set rollback(value: boolean | cdktf.IResolvable) {
+    this._rollback = value;
+  }
+  public resetRollback() {
+    this._rollback = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rollbackInput() {
+    return this._rollback;
+  }
+}
+
+export class EcsServiceDeploymentConfigurationAlarmsList extends cdktf.ComplexList {
+  public internalValue? : EcsServiceDeploymentConfigurationAlarms[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): EcsServiceDeploymentConfigurationAlarmsOutputReference {
+    return new EcsServiceDeploymentConfigurationAlarmsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface EcsServiceDeploymentConfiguration {
+  /**
+  * Enables ECS deployment circuit breaker to stop deployments on failures. Defaults to `false`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#enable_circuit_breaker EcsService#enable_circuit_breaker}
+  */
+  readonly enableCircuitBreaker?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies the maximum percentage of tasks that can run at once during a deployment.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#maximum_percent EcsService#maximum_percent}
+  */
+  readonly maximumPercent?: number;
+  /**
+  * Specifies the minimum percentage of tasks that must remain in the RUNNING state during a deployment
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#minimum_healthy_percent EcsService#minimum_healthy_percent}
+  */
+  readonly minimumHealthyPercent?: number;
+  /**
+  * Enables automatic rollback when the circuit breaker detects a failed deployment. Defaults to `false`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#rollback_circuit_breaker EcsService#rollback_circuit_breaker}
+  */
+  readonly rollbackCircuitBreaker?: boolean | cdktf.IResolvable;
+  /**
+  * alarms block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#alarms EcsService#alarms}
+  */
+  readonly alarms?: EcsServiceDeploymentConfigurationAlarms[] | cdktf.IResolvable;
+}
+
+export function ecsServiceDeploymentConfigurationToTerraform(struct?: EcsServiceDeploymentConfigurationOutputReference | EcsServiceDeploymentConfiguration): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    enable_circuit_breaker: cdktf.booleanToTerraform(struct!.enableCircuitBreaker),
+    maximum_percent: cdktf.numberToTerraform(struct!.maximumPercent),
+    minimum_healthy_percent: cdktf.numberToTerraform(struct!.minimumHealthyPercent),
+    rollback_circuit_breaker: cdktf.booleanToTerraform(struct!.rollbackCircuitBreaker),
+    alarms: cdktf.listMapper(ecsServiceDeploymentConfigurationAlarmsToTerraform, true)(struct!.alarms),
+  }
+}
+
+
+export function ecsServiceDeploymentConfigurationToHclTerraform(struct?: EcsServiceDeploymentConfigurationOutputReference | EcsServiceDeploymentConfiguration): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    enable_circuit_breaker: {
+      value: cdktf.booleanToHclTerraform(struct!.enableCircuitBreaker),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    maximum_percent: {
+      value: cdktf.numberToHclTerraform(struct!.maximumPercent),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    minimum_healthy_percent: {
+      value: cdktf.numberToHclTerraform(struct!.minimumHealthyPercent),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    rollback_circuit_breaker: {
+      value: cdktf.booleanToHclTerraform(struct!.rollbackCircuitBreaker),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    alarms: {
+      value: cdktf.listMapperHcl(ecsServiceDeploymentConfigurationAlarmsToHclTerraform, true)(struct!.alarms),
+      isBlock: true,
+      type: "list",
+      storageClassType: "EcsServiceDeploymentConfigurationAlarmsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class EcsServiceDeploymentConfigurationOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): EcsServiceDeploymentConfiguration | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._enableCircuitBreaker !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enableCircuitBreaker = this._enableCircuitBreaker;
+    }
+    if (this._maximumPercent !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maximumPercent = this._maximumPercent;
+    }
+    if (this._minimumHealthyPercent !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minimumHealthyPercent = this._minimumHealthyPercent;
+    }
+    if (this._rollbackCircuitBreaker !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.rollbackCircuitBreaker = this._rollbackCircuitBreaker;
+    }
+    if (this._alarms?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.alarms = this._alarms?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: EcsServiceDeploymentConfiguration | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._enableCircuitBreaker = undefined;
+      this._maximumPercent = undefined;
+      this._minimumHealthyPercent = undefined;
+      this._rollbackCircuitBreaker = undefined;
+      this._alarms.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._enableCircuitBreaker = value.enableCircuitBreaker;
+      this._maximumPercent = value.maximumPercent;
+      this._minimumHealthyPercent = value.minimumHealthyPercent;
+      this._rollbackCircuitBreaker = value.rollbackCircuitBreaker;
+      this._alarms.internalValue = value.alarms;
+    }
+  }
+
+  // enable_circuit_breaker - computed: false, optional: true, required: false
+  private _enableCircuitBreaker?: boolean | cdktf.IResolvable; 
+  public get enableCircuitBreaker() {
+    return this.getBooleanAttribute('enable_circuit_breaker');
+  }
+  public set enableCircuitBreaker(value: boolean | cdktf.IResolvable) {
+    this._enableCircuitBreaker = value;
+  }
+  public resetEnableCircuitBreaker() {
+    this._enableCircuitBreaker = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableCircuitBreakerInput() {
+    return this._enableCircuitBreaker;
+  }
+
+  // maximum_percent - computed: true, optional: true, required: false
+  private _maximumPercent?: number; 
+  public get maximumPercent() {
+    return this.getNumberAttribute('maximum_percent');
+  }
+  public set maximumPercent(value: number) {
+    this._maximumPercent = value;
+  }
+  public resetMaximumPercent() {
+    this._maximumPercent = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maximumPercentInput() {
+    return this._maximumPercent;
+  }
+
+  // minimum_healthy_percent - computed: true, optional: true, required: false
+  private _minimumHealthyPercent?: number; 
+  public get minimumHealthyPercent() {
+    return this.getNumberAttribute('minimum_healthy_percent');
+  }
+  public set minimumHealthyPercent(value: number) {
+    this._minimumHealthyPercent = value;
+  }
+  public resetMinimumHealthyPercent() {
+    this._minimumHealthyPercent = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minimumHealthyPercentInput() {
+    return this._minimumHealthyPercent;
+  }
+
+  // rollback_circuit_breaker - computed: false, optional: true, required: false
+  private _rollbackCircuitBreaker?: boolean | cdktf.IResolvable; 
+  public get rollbackCircuitBreaker() {
+    return this.getBooleanAttribute('rollback_circuit_breaker');
+  }
+  public set rollbackCircuitBreaker(value: boolean | cdktf.IResolvable) {
+    this._rollbackCircuitBreaker = value;
+  }
+  public resetRollbackCircuitBreaker() {
+    this._rollbackCircuitBreaker = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rollbackCircuitBreakerInput() {
+    return this._rollbackCircuitBreaker;
+  }
+
+  // alarms - computed: false, optional: true, required: false
+  private _alarms = new EcsServiceDeploymentConfigurationAlarmsList(this, "alarms", false);
+  public get alarms() {
+    return this._alarms;
+  }
+  public putAlarms(value: EcsServiceDeploymentConfigurationAlarms[] | cdktf.IResolvable) {
+    this._alarms.internalValue = value;
+  }
+  public resetAlarms() {
+    this._alarms.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get alarmsInput() {
+    return this._alarms.internalValue;
+  }
+}
 export interface EcsServiceLoadBalancerHealthCheckConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecs_service#grpc_success_code EcsService#grpc_success_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#grpc_success_code EcsService#grpc_success_code}
   */
   readonly grpcSuccessCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecs_service#health_check_interval_seconds EcsService#health_check_interval_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#health_check_interval_seconds EcsService#health_check_interval_seconds}
   */
   readonly healthCheckIntervalSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecs_service#health_check_timeout_seconds EcsService#health_check_timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#health_check_timeout_seconds EcsService#health_check_timeout_seconds}
   */
   readonly healthCheckTimeoutSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecs_service#healthy_threshold_count EcsService#healthy_threshold_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#healthy_threshold_count EcsService#healthy_threshold_count}
   */
   readonly healthyThresholdCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecs_service#http_success_code EcsService#http_success_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#http_success_code EcsService#http_success_code}
   */
   readonly httpSuccessCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecs_service#unhealthy_threshold_count EcsService#unhealthy_threshold_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#unhealthy_threshold_count EcsService#unhealthy_threshold_count}
   */
   readonly unhealthyThresholdCount?: number;
 }
@@ -528,61 +960,61 @@ export interface EcsServiceLoadBalancer {
   /**
   * The backend protocol associated with this load balancer configuration. Use 'backend_protocol_version' instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecs_service#backend_protocol EcsService#backend_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#backend_protocol EcsService#backend_protocol}
   */
   readonly backendProtocol?: string;
   /**
   * The backend protocol version associated with this load balancer configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecs_service#backend_protocol_version EcsService#backend_protocol_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#backend_protocol_version EcsService#backend_protocol_version}
   */
   readonly backendProtocolVersion?: string;
   /**
   * The ARN of an ACM certificate to associate with this load balancer.  Only applicable for HTTPS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecs_service#certificate_arn EcsService#certificate_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#certificate_arn EcsService#certificate_arn}
   */
   readonly certificateArn?: string;
   /**
   * Whether or not to drop invalid HTTP headers received by the load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecs_service#drop_invalid_headers EcsService#drop_invalid_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#drop_invalid_headers EcsService#drop_invalid_headers}
   */
   readonly dropInvalidHeaders?: boolean | cdktf.IResolvable;
   /**
   * Whether or not to enable access logs.  When enabled, Duplo will send access logs to a centralized S3 bucket per plan
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecs_service#enable_access_logs EcsService#enable_access_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#enable_access_logs EcsService#enable_access_logs}
   */
   readonly enableAccessLogs?: boolean | cdktf.IResolvable;
   /**
   * The frontend port associated with this load balancer configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecs_service#external_port EcsService#external_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#external_port EcsService#external_port}
   */
   readonly externalPort: number;
   /**
   * The health check URL to associate with this load balancer configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecs_service#health_check_url EcsService#health_check_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#health_check_url EcsService#health_check_url}
   */
   readonly healthCheckUrl?: string;
   /**
   * Whether or not the load balancer should redirect HTTP to HTTPS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecs_service#http_to_https_redirect EcsService#http_to_https_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#http_to_https_redirect EcsService#http_to_https_redirect}
   */
   readonly httpToHttpsRedirect?: boolean | cdktf.IResolvable;
   /**
   * The time in seconds that the connection is allowed to be idle. Only valid for Load Balancers of type `application`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecs_service#idle_timeout EcsService#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#idle_timeout EcsService#idle_timeout}
   */
   readonly idleTimeout?: number;
   /**
   * Whether or not to create an internal load balancer. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecs_service#is_internal EcsService#is_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#is_internal EcsService#is_internal}
   */
   readonly isInternal?: boolean | cdktf.IResolvable;
   /**
@@ -593,37 +1025,37 @@ export interface EcsServiceLoadBalancer {
   *    - `1` : ALB (Application Load Balancer)
   *    - `2` : Health-check Only (No Load Balancer)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecs_service#lb_type EcsService#lb_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#lb_type EcsService#lb_type}
   */
   readonly lbType: number;
   /**
   * The backend port associated with this load balancer configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecs_service#port EcsService#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#port EcsService#port}
   */
   readonly port: string;
   /**
   * The frontend protocol associated with this load balancer configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecs_service#protocol EcsService#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#protocol EcsService#protocol}
   */
   readonly protocol: string;
   /**
   * Number of Load Balancer target group to associate with the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecs_service#target_group_count EcsService#target_group_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#target_group_count EcsService#target_group_count}
   */
   readonly targetGroupCount: number;
   /**
   * The ARN of a web application firewall to associate this load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecs_service#webaclid EcsService#webaclid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#webaclid EcsService#webaclid}
   */
   readonly webaclid?: string;
   /**
   * health_check_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecs_service#health_check_config EcsService#health_check_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#health_check_config EcsService#health_check_config}
   */
   readonly healthCheckConfig?: EcsServiceLoadBalancerHealthCheckConfig;
 }
@@ -1177,17 +1609,317 @@ export class EcsServiceLoadBalancerList extends cdktf.ComplexList {
     return new EcsServiceLoadBalancerOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface EcsServicePlacementConstraint {
+  /**
+  * Cluster Query Language expression to apply to the constraint. Does not need to be specified for the distinctInstance type. For more information, see [Cluster Query Language in the Amazon EC2 Container Service Developer Guide](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/cluster-query-language.html).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#expression EcsService#expression}
+  */
+  readonly expression?: string;
+  /**
+  * Type of constraint. The only valid values at this time are `memberOf` and `distinctInstance`
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#type EcsService#type}
+  */
+  readonly type: string;
+}
+
+export function ecsServicePlacementConstraintToTerraform(struct?: EcsServicePlacementConstraint | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    expression: cdktf.stringToTerraform(struct!.expression),
+    type: cdktf.stringToTerraform(struct!.type),
+  }
+}
+
+
+export function ecsServicePlacementConstraintToHclTerraform(struct?: EcsServicePlacementConstraint | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    expression: {
+      value: cdktf.stringToHclTerraform(struct!.expression),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    type: {
+      value: cdktf.stringToHclTerraform(struct!.type),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class EcsServicePlacementConstraintOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): EcsServicePlacementConstraint | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._expression !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.expression = this._expression;
+    }
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: EcsServicePlacementConstraint | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._expression = undefined;
+      this._type = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._expression = value.expression;
+      this._type = value.type;
+    }
+  }
+
+  // expression - computed: false, optional: true, required: false
+  private _expression?: string; 
+  public get expression() {
+    return this.getStringAttribute('expression');
+  }
+  public set expression(value: string) {
+    this._expression = value;
+  }
+  public resetExpression() {
+    this._expression = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get expressionInput() {
+    return this._expression;
+  }
+
+  // type - computed: false, optional: false, required: true
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+}
+
+export class EcsServicePlacementConstraintList extends cdktf.ComplexList {
+  public internalValue? : EcsServicePlacementConstraint[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): EcsServicePlacementConstraintOutputReference {
+    return new EcsServicePlacementConstraintOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface EcsServicePlacementStrategy {
+  /**
+  * For the spread placement strategy, valid values are instanceId, or any platform or custom attribute that is applied to a container instance. For the binpack type, valid values are memory and cpu. For the random type, this attribute is not needed. For more information, see [PlacementStrategy](https://docs.aws.amazon.com/AmazonECS/latest/APIReference/API_PlacementStrategy.html)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#field EcsService#field}
+  */
+  readonly field?: string;
+  /**
+  * Type of placement strategy. Must be one of: `binpack`, `random`, or `spread`
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#type EcsService#type}
+  */
+  readonly type: string;
+}
+
+export function ecsServicePlacementStrategyToTerraform(struct?: EcsServicePlacementStrategy | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    field: cdktf.stringToTerraform(struct!.field),
+    type: cdktf.stringToTerraform(struct!.type),
+  }
+}
+
+
+export function ecsServicePlacementStrategyToHclTerraform(struct?: EcsServicePlacementStrategy | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    field: {
+      value: cdktf.stringToHclTerraform(struct!.field),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    type: {
+      value: cdktf.stringToHclTerraform(struct!.type),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class EcsServicePlacementStrategyOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): EcsServicePlacementStrategy | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._field !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.field = this._field;
+    }
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: EcsServicePlacementStrategy | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._field = undefined;
+      this._type = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._field = value.field;
+      this._type = value.type;
+    }
+  }
+
+  // field - computed: false, optional: true, required: false
+  private _field?: string; 
+  public get field() {
+    return this.getStringAttribute('field');
+  }
+  public set field(value: string) {
+    this._field = value;
+  }
+  public resetField() {
+    this._field = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fieldInput() {
+    return this._field;
+  }
+
+  // type - computed: false, optional: false, required: true
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+}
+
+export class EcsServicePlacementStrategyList extends cdktf.ComplexList {
+  public internalValue? : EcsServicePlacementStrategy[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): EcsServicePlacementStrategyOutputReference {
+    return new EcsServicePlacementStrategyOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface EcsServiceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecs_service#create EcsService#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#create EcsService#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecs_service#delete EcsService#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#delete EcsService#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecs_service#update EcsService#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#update EcsService#update}
   */
   readonly update?: string;
 }
@@ -1339,7 +2071,7 @@ export class EcsServiceTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecs_service duplocloud_ecs_service}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service duplocloud_ecs_service}
 */
 export class EcsService extends cdktf.TerraformResource {
 
@@ -1355,7 +2087,7 @@ export class EcsService extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EcsService resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EcsService to import
-  * @param importFromId The id of the existing EcsService that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecs_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EcsService that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EcsService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1367,7 +2099,7 @@ export class EcsService extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecs_service duplocloud_ecs_service} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/ecs_service duplocloud_ecs_service} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1378,8 +2110,8 @@ export class EcsService extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_ecs_service',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.29',
-        providerVersionConstraint: '0.11.29'
+        providerVersion: '0.11.30',
+        providerVersionConstraint: '0.11.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1400,7 +2132,10 @@ export class EcsService extends cdktf.TerraformResource {
     this._tenantId = config.tenantId;
     this._waitUntilTargetsReady = config.waitUntilTargetsReady;
     this._capacityProviderStrategy.internalValue = config.capacityProviderStrategy;
+    this._deploymentConfiguration.internalValue = config.deploymentConfiguration;
     this._loadBalancer.internalValue = config.loadBalancer;
+    this._placementConstraint.internalValue = config.placementConstraint;
+    this._placementStrategy.internalValue = config.placementStrategy;
     this._timeouts.internalValue = config.timeouts;
   }
 
@@ -1582,6 +2317,22 @@ export class EcsService extends cdktf.TerraformResource {
     return this._capacityProviderStrategy.internalValue;
   }
 
+  // deployment_configuration - computed: false, optional: true, required: false
+  private _deploymentConfiguration = new EcsServiceDeploymentConfigurationOutputReference(this, "deployment_configuration");
+  public get deploymentConfiguration() {
+    return this._deploymentConfiguration;
+  }
+  public putDeploymentConfiguration(value: EcsServiceDeploymentConfiguration) {
+    this._deploymentConfiguration.internalValue = value;
+  }
+  public resetDeploymentConfiguration() {
+    this._deploymentConfiguration.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deploymentConfigurationInput() {
+    return this._deploymentConfiguration.internalValue;
+  }
+
   // load_balancer - computed: false, optional: true, required: false
   private _loadBalancer = new EcsServiceLoadBalancerList(this, "load_balancer", false);
   public get loadBalancer() {
@@ -1596,6 +2347,38 @@ export class EcsService extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get loadBalancerInput() {
     return this._loadBalancer.internalValue;
+  }
+
+  // placement_constraint - computed: false, optional: true, required: false
+  private _placementConstraint = new EcsServicePlacementConstraintList(this, "placement_constraint", false);
+  public get placementConstraint() {
+    return this._placementConstraint;
+  }
+  public putPlacementConstraint(value: EcsServicePlacementConstraint[] | cdktf.IResolvable) {
+    this._placementConstraint.internalValue = value;
+  }
+  public resetPlacementConstraint() {
+    this._placementConstraint.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get placementConstraintInput() {
+    return this._placementConstraint.internalValue;
+  }
+
+  // placement_strategy - computed: false, optional: true, required: false
+  private _placementStrategy = new EcsServicePlacementStrategyList(this, "placement_strategy", false);
+  public get placementStrategy() {
+    return this._placementStrategy;
+  }
+  public putPlacementStrategy(value: EcsServicePlacementStrategy[] | cdktf.IResolvable) {
+    this._placementStrategy.internalValue = value;
+  }
+  public resetPlacementStrategy() {
+    this._placementStrategy.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get placementStrategyInput() {
+    return this._placementStrategy.internalValue;
   }
 
   // timeouts - computed: false, optional: true, required: false
@@ -1631,7 +2414,10 @@ export class EcsService extends cdktf.TerraformResource {
       tenant_id: cdktf.stringToTerraform(this._tenantId),
       wait_until_targets_ready: cdktf.booleanToTerraform(this._waitUntilTargetsReady),
       capacity_provider_strategy: cdktf.listMapper(ecsServiceCapacityProviderStrategyToTerraform, true)(this._capacityProviderStrategy.internalValue),
+      deployment_configuration: ecsServiceDeploymentConfigurationToTerraform(this._deploymentConfiguration.internalValue),
       load_balancer: cdktf.listMapper(ecsServiceLoadBalancerToTerraform, true)(this._loadBalancer.internalValue),
+      placement_constraint: cdktf.listMapper(ecsServicePlacementConstraintToTerraform, true)(this._placementConstraint.internalValue),
+      placement_strategy: cdktf.listMapper(ecsServicePlacementStrategyToTerraform, true)(this._placementStrategy.internalValue),
       timeouts: ecsServiceTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -1704,11 +2490,29 @@ export class EcsService extends cdktf.TerraformResource {
         type: "list",
         storageClassType: "EcsServiceCapacityProviderStrategyList",
       },
+      deployment_configuration: {
+        value: ecsServiceDeploymentConfigurationToHclTerraform(this._deploymentConfiguration.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "EcsServiceDeploymentConfigurationList",
+      },
       load_balancer: {
         value: cdktf.listMapperHcl(ecsServiceLoadBalancerToHclTerraform, true)(this._loadBalancer.internalValue),
         isBlock: true,
         type: "list",
         storageClassType: "EcsServiceLoadBalancerList",
+      },
+      placement_constraint: {
+        value: cdktf.listMapperHcl(ecsServicePlacementConstraintToHclTerraform, true)(this._placementConstraint.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "EcsServicePlacementConstraintList",
+      },
+      placement_strategy: {
+        value: cdktf.listMapperHcl(ecsServicePlacementStrategyToHclTerraform, true)(this._placementStrategy.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "EcsServicePlacementStrategyList",
       },
       timeouts: {
         value: ecsServiceTimeoutsToHclTerraform(this._timeouts.internalValue),

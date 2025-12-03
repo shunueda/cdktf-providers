@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/user_tenant_access
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/user_tenant_access
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface UserTenantAccessConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/user_tenant_access#id UserTenantAccess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/user_tenant_access#id UserTenantAccess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,39 +17,39 @@ export interface UserTenantAccessConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifiy readonly policy related to tenant Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/user_tenant_access#is_readonly UserTenantAccess#is_readonly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/user_tenant_access#is_readonly UserTenantAccess#is_readonly}
   */
   readonly isReadonly?: boolean | cdktf.IResolvable;
   /**
   * Tenant Id to which user need to get access
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/user_tenant_access#tenant_id UserTenantAccess#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/user_tenant_access#tenant_id UserTenantAccess#tenant_id}
   */
   readonly tenantId: string;
   /**
   * The unique user name or the email.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/user_tenant_access#username UserTenantAccess#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/user_tenant_access#username UserTenantAccess#username}
   */
   readonly username: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/user_tenant_access#timeouts UserTenantAccess#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/user_tenant_access#timeouts UserTenantAccess#timeouts}
   */
   readonly timeouts?: UserTenantAccessTimeouts;
 }
 export interface UserTenantAccessTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/user_tenant_access#create UserTenantAccess#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/user_tenant_access#create UserTenantAccess#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/user_tenant_access#delete UserTenantAccess#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/user_tenant_access#delete UserTenantAccess#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/user_tenant_access#update UserTenantAccess#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/user_tenant_access#update UserTenantAccess#update}
   */
   readonly update?: string;
 }
@@ -201,7 +201,7 @@ export class UserTenantAccessTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/user_tenant_access duplocloud_user_tenant_access}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/user_tenant_access duplocloud_user_tenant_access}
 */
 export class UserTenantAccess extends cdktf.TerraformResource {
 
@@ -217,7 +217,7 @@ export class UserTenantAccess extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UserTenantAccess resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UserTenantAccess to import
-  * @param importFromId The id of the existing UserTenantAccess that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/user_tenant_access#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UserTenantAccess that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/user_tenant_access#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UserTenantAccess to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -229,7 +229,7 @@ export class UserTenantAccess extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/user_tenant_access duplocloud_user_tenant_access} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/user_tenant_access duplocloud_user_tenant_access} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -240,8 +240,8 @@ export class UserTenantAccess extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_user_tenant_access',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.29',
-        providerVersionConstraint: '0.11.29'
+        providerVersion: '0.11.30',
+        providerVersionConstraint: '0.11.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

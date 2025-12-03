@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_vm_maintenance_configuration
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_vm_maintenance_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface AzureVmMaintenanceConfigurationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_vm_maintenance_configuration#id AzureVmMaintenanceConfiguration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_vm_maintenance_configuration#id AzureVmMaintenanceConfiguration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,45 +17,45 @@ export interface AzureVmMaintenanceConfigurationConfig extends cdktf.TerraformMe
   /**
   * The GUID of the tenant that the azure vm feature will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_vm_maintenance_configuration#tenant_id AzureVmMaintenanceConfiguration#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_vm_maintenance_configuration#tenant_id AzureVmMaintenanceConfiguration#tenant_id}
   */
   readonly tenantId: string;
   /**
   * The visibility of the Maintenance Configuration. The only allowable value is Custom. Defaults to `Custom`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_vm_maintenance_configuration#visiblity AzureVmMaintenanceConfiguration#visiblity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_vm_maintenance_configuration#visiblity AzureVmMaintenanceConfiguration#visiblity}
   */
   readonly visiblity?: string;
   /**
   * The name of the virtual machine where maintenance configuration need to be configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_vm_maintenance_configuration#vm_name AzureVmMaintenanceConfiguration#vm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_vm_maintenance_configuration#vm_name AzureVmMaintenanceConfiguration#vm_name}
   */
   readonly vmName: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_vm_maintenance_configuration#timeouts AzureVmMaintenanceConfiguration#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_vm_maintenance_configuration#timeouts AzureVmMaintenanceConfiguration#timeouts}
   */
   readonly timeouts?: AzureVmMaintenanceConfigurationTimeouts;
   /**
   * window block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_vm_maintenance_configuration#window AzureVmMaintenanceConfiguration#window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_vm_maintenance_configuration#window AzureVmMaintenanceConfiguration#window}
   */
   readonly window?: AzureVmMaintenanceConfigurationWindow;
 }
 export interface AzureVmMaintenanceConfigurationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_vm_maintenance_configuration#create AzureVmMaintenanceConfiguration#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_vm_maintenance_configuration#create AzureVmMaintenanceConfiguration#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_vm_maintenance_configuration#delete AzureVmMaintenanceConfiguration#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_vm_maintenance_configuration#delete AzureVmMaintenanceConfiguration#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_vm_maintenance_configuration#update AzureVmMaintenanceConfiguration#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_vm_maintenance_configuration#update AzureVmMaintenanceConfiguration#update}
   */
   readonly update?: string;
 }
@@ -209,31 +209,31 @@ export interface AzureVmMaintenanceConfigurationWindow {
   /**
   * The duration of the maintenance window in HH:mm format. Should be less than or equal to 3 Hrs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_vm_maintenance_configuration#duration AzureVmMaintenanceConfiguration#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_vm_maintenance_configuration#duration AzureVmMaintenanceConfiguration#duration}
   */
   readonly duration?: string;
   /**
   * Effective expiration date of the maintenance window in YYYY-MM-DD hh:mm format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_vm_maintenance_configuration#expiration_time AzureVmMaintenanceConfiguration#expiration_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_vm_maintenance_configuration#expiration_time AzureVmMaintenanceConfiguration#expiration_time}
   */
   readonly expirationTime?: string;
   /**
   * he rate at which a maintenance window is expected to recur. The rate can be expressed as daily, weekly, or monthly schedules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_vm_maintenance_configuration#recur_every AzureVmMaintenanceConfiguration#recur_every}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_vm_maintenance_configuration#recur_every AzureVmMaintenanceConfiguration#recur_every}
   */
   readonly recurEvery?: string;
   /**
   * Effective start date of the maintenance window in YYYY-MM-DD HH:MM format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_vm_maintenance_configuration#start_time AzureVmMaintenanceConfiguration#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_vm_maintenance_configuration#start_time AzureVmMaintenanceConfiguration#start_time}
   */
   readonly startTime: string;
   /**
   * The timezone on which maintenance should be scheduled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_vm_maintenance_configuration#time_zone AzureVmMaintenanceConfiguration#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_vm_maintenance_configuration#time_zone AzureVmMaintenanceConfiguration#time_zone}
   */
   readonly timeZone: string;
 }
@@ -427,7 +427,7 @@ export class AzureVmMaintenanceConfigurationWindowOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_vm_maintenance_configuration duplocloud_azure_vm_maintenance_configuration}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_vm_maintenance_configuration duplocloud_azure_vm_maintenance_configuration}
 */
 export class AzureVmMaintenanceConfiguration extends cdktf.TerraformResource {
 
@@ -443,7 +443,7 @@ export class AzureVmMaintenanceConfiguration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AzureVmMaintenanceConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AzureVmMaintenanceConfiguration to import
-  * @param importFromId The id of the existing AzureVmMaintenanceConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_vm_maintenance_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AzureVmMaintenanceConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_vm_maintenance_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AzureVmMaintenanceConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -455,7 +455,7 @@ export class AzureVmMaintenanceConfiguration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_vm_maintenance_configuration duplocloud_azure_vm_maintenance_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_vm_maintenance_configuration duplocloud_azure_vm_maintenance_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -466,8 +466,8 @@ export class AzureVmMaintenanceConfiguration extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_azure_vm_maintenance_configuration',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.29',
-        providerVersionConstraint: '0.11.29'
+        providerVersion: '0.11.30',
+        providerVersionConstraint: '0.11.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

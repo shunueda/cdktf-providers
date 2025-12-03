@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_ethernet_switch_crs_egress_vlan_translation
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_ethernet_switch_crs_egress_vlan_translation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface InterfaceEthernetSwitchCrsEgressVlanTranslationConfig extends c
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_ethernet_switch_crs_egress_vlan_translation#___path___ InterfaceEthernetSwitchCrsEgressVlanTranslation#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_ethernet_switch_crs_egress_vlan_translation#___path___ InterfaceEthernetSwitchCrsEgressVlanTranslation#___path___}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_ethernet_switch_crs_egress_vlan_translation#comment InterfaceEthernetSwitchCrsEgressVlanTranslation#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_ethernet_switch_crs_egress_vlan_translation#comment InterfaceEthernetSwitchCrsEgressVlanTranslation#comment}
   */
   readonly comment?: string;
   /**
   * Matching DEI of the customer tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_ethernet_switch_crs_egress_vlan_translation#customer_dei InterfaceEthernetSwitchCrsEgressVlanTranslation#customer_dei}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_ethernet_switch_crs_egress_vlan_translation#customer_dei InterfaceEthernetSwitchCrsEgressVlanTranslation#customer_dei}
   */
   readonly customerDei?: string;
   /**
   * Matching PCP of the customer tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_ethernet_switch_crs_egress_vlan_translation#customer_pcp InterfaceEthernetSwitchCrsEgressVlanTranslation#customer_pcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_ethernet_switch_crs_egress_vlan_translation#customer_pcp InterfaceEthernetSwitchCrsEgressVlanTranslation#customer_pcp}
   */
   readonly customerPcp?: string;
   /**
   * Matching the VLAN ID of the customer tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_ethernet_switch_crs_egress_vlan_translation#customer_vid InterfaceEthernetSwitchCrsEgressVlanTranslation#customer_vid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_ethernet_switch_crs_egress_vlan_translation#customer_vid InterfaceEthernetSwitchCrsEgressVlanTranslation#customer_vid}
   */
   readonly customerVid?: string;
   /**
   * Type of frames with customer tag for which VLAN translation rule is valid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_ethernet_switch_crs_egress_vlan_translation#customer_vlan_format InterfaceEthernetSwitchCrsEgressVlanTranslation#customer_vlan_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_ethernet_switch_crs_egress_vlan_translation#customer_vlan_format InterfaceEthernetSwitchCrsEgressVlanTranslation#customer_vlan_format}
   */
   readonly customerVlanFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_ethernet_switch_crs_egress_vlan_translation#disabled InterfaceEthernetSwitchCrsEgressVlanTranslation#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_ethernet_switch_crs_egress_vlan_translation#disabled InterfaceEthernetSwitchCrsEgressVlanTranslation#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_ethernet_switch_crs_egress_vlan_translation#id InterfaceEthernetSwitchCrsEgressVlanTranslation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_ethernet_switch_crs_egress_vlan_translation#id InterfaceEthernetSwitchCrsEgressVlanTranslation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -55,59 +55,59 @@ export interface InterfaceEthernetSwitchCrsEgressVlanTranslationConfig extends c
   /**
   * The new customer VLAN ID replaces the matching customer VLAN ID. If set to 4095 and ingress VLAN translation is used, then traffic is dropped.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_ethernet_switch_crs_egress_vlan_translation#new_customer_vid InterfaceEthernetSwitchCrsEgressVlanTranslation#new_customer_vid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_ethernet_switch_crs_egress_vlan_translation#new_customer_vid InterfaceEthernetSwitchCrsEgressVlanTranslation#new_customer_vid}
   */
   readonly newCustomerVid?: string;
   /**
   * The new service VLAN ID replaces the matching service VLAN ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_ethernet_switch_crs_egress_vlan_translation#new_service_vid InterfaceEthernetSwitchCrsEgressVlanTranslation#new_service_vid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_ethernet_switch_crs_egress_vlan_translation#new_service_vid InterfaceEthernetSwitchCrsEgressVlanTranslation#new_service_vid}
   */
   readonly newServiceVid?: string;
   /**
   * Enables or disables PCP propagation.If the port type is Edge, the customer PCP is copied from the service PCP.If the port type is Network, the service PCP is copied from the customer PCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_ethernet_switch_crs_egress_vlan_translation#pcp_propagation InterfaceEthernetSwitchCrsEgressVlanTranslation#pcp_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_ethernet_switch_crs_egress_vlan_translation#pcp_propagation InterfaceEthernetSwitchCrsEgressVlanTranslation#pcp_propagation}
   */
   readonly pcpPropagation?: string;
   /**
   * Matching switch ports for VLAN translation rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_ethernet_switch_crs_egress_vlan_translation#ports InterfaceEthernetSwitchCrsEgressVlanTranslation#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_ethernet_switch_crs_egress_vlan_translation#ports InterfaceEthernetSwitchCrsEgressVlanTranslation#ports}
   */
   readonly ports?: string[];
   /**
   * Matching DEI of the service tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_ethernet_switch_crs_egress_vlan_translation#service_dei InterfaceEthernetSwitchCrsEgressVlanTranslation#service_dei}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_ethernet_switch_crs_egress_vlan_translation#service_dei InterfaceEthernetSwitchCrsEgressVlanTranslation#service_dei}
   */
   readonly serviceDei?: string;
   /**
   * Matching PCP of the service tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_ethernet_switch_crs_egress_vlan_translation#service_pcp InterfaceEthernetSwitchCrsEgressVlanTranslation#service_pcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_ethernet_switch_crs_egress_vlan_translation#service_pcp InterfaceEthernetSwitchCrsEgressVlanTranslation#service_pcp}
   */
   readonly servicePcp?: string;
   /**
   * Matching VLAN ID of the service tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_ethernet_switch_crs_egress_vlan_translation#service_vid InterfaceEthernetSwitchCrsEgressVlanTranslation#service_vid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_ethernet_switch_crs_egress_vlan_translation#service_vid InterfaceEthernetSwitchCrsEgressVlanTranslation#service_vid}
   */
   readonly serviceVid?: string;
   /**
   * Type of frames with service tag for which VLAN translation rule is valid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_ethernet_switch_crs_egress_vlan_translation#service_vlan_format InterfaceEthernetSwitchCrsEgressVlanTranslation#service_vlan_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_ethernet_switch_crs_egress_vlan_translation#service_vlan_format InterfaceEthernetSwitchCrsEgressVlanTranslation#service_vlan_format}
   */
   readonly serviceVlanFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_ethernet_switch_crs_egress_vlan_translation#swap_vids InterfaceEthernetSwitchCrsEgressVlanTranslation#swap_vids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_ethernet_switch_crs_egress_vlan_translation#swap_vids InterfaceEthernetSwitchCrsEgressVlanTranslation#swap_vids}
   */
   readonly swapVids?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_ethernet_switch_crs_egress_vlan_translation routeros_interface_ethernet_switch_crs_egress_vlan_translation}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_ethernet_switch_crs_egress_vlan_translation routeros_interface_ethernet_switch_crs_egress_vlan_translation}
 */
 export class InterfaceEthernetSwitchCrsEgressVlanTranslation extends cdktf.TerraformResource {
 
@@ -123,7 +123,7 @@ export class InterfaceEthernetSwitchCrsEgressVlanTranslation extends cdktf.Terra
   * Generates CDKTF code for importing a InterfaceEthernetSwitchCrsEgressVlanTranslation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfaceEthernetSwitchCrsEgressVlanTranslation to import
-  * @param importFromId The id of the existing InterfaceEthernetSwitchCrsEgressVlanTranslation that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_ethernet_switch_crs_egress_vlan_translation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfaceEthernetSwitchCrsEgressVlanTranslation that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_ethernet_switch_crs_egress_vlan_translation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfaceEthernetSwitchCrsEgressVlanTranslation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -135,7 +135,7 @@ export class InterfaceEthernetSwitchCrsEgressVlanTranslation extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_ethernet_switch_crs_egress_vlan_translation routeros_interface_ethernet_switch_crs_egress_vlan_translation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_ethernet_switch_crs_egress_vlan_translation routeros_interface_ethernet_switch_crs_egress_vlan_translation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -146,8 +146,8 @@ export class InterfaceEthernetSwitchCrsEgressVlanTranslation extends cdktf.Terra
       terraformResourceType: 'routeros_interface_ethernet_switch_crs_egress_vlan_translation',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.95.0',
-        providerVersionConstraint: '1.95.0'
+        providerVersion: '1.96.0',
+        providerVersionConstraint: '1.96.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/splunk/scp/1.3.0/docs/resources/splunkbase_app
+// https://registry.terraform.io/providers/splunk/scp/1.3.1/docs/resources/splunkbase_app
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface SplunkbaseAppConfig extends cdktf.TerraformMetaArguments {
   /**
   * The app's third-party license URL. The license URL is available under 'Licensing' on the Splunkbase download page for the app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.3.0/docs/resources/splunkbase_app#acs_licensing_ack SplunkbaseApp#acs_licensing_ack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.3.1/docs/resources/splunkbase_app#acs_licensing_ack SplunkbaseApp#acs_licensing_ack}
   */
   readonly acsLicensingAck: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.3.0/docs/resources/splunkbase_app#id SplunkbaseApp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.3.1/docs/resources/splunkbase_app#id SplunkbaseApp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface SplunkbaseAppConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the Splunkbase app
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.3.0/docs/resources/splunkbase_app#name SplunkbaseApp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.3.1/docs/resources/splunkbase_app#name SplunkbaseApp#name}
   */
   readonly name: string;
   /**
   * The ID of the Splunkbase app
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.3.0/docs/resources/splunkbase_app#splunkbase_id SplunkbaseApp#splunkbase_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.3.1/docs/resources/splunkbase_app#splunkbase_id SplunkbaseApp#splunkbase_id}
   */
   readonly splunkbaseId: string;
   /**
   * The version of the Splunkbase app
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.3.0/docs/resources/splunkbase_app#version SplunkbaseApp#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.3.1/docs/resources/splunkbase_app#version SplunkbaseApp#version}
   */
   readonly version: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/splunk/scp/1.3.0/docs/resources/splunkbase_app scp_splunkbase_app}
+* Represents a {@link https://registry.terraform.io/providers/splunk/scp/1.3.1/docs/resources/splunkbase_app scp_splunkbase_app}
 */
 export class SplunkbaseApp extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class SplunkbaseApp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SplunkbaseApp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SplunkbaseApp to import
-  * @param importFromId The id of the existing SplunkbaseApp that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk/scp/1.3.0/docs/resources/splunkbase_app#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SplunkbaseApp that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk/scp/1.3.1/docs/resources/splunkbase_app#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SplunkbaseApp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class SplunkbaseApp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/splunk/scp/1.3.0/docs/resources/splunkbase_app scp_splunkbase_app} Resource
+  * Create a new {@link https://registry.terraform.io/providers/splunk/scp/1.3.1/docs/resources/splunkbase_app scp_splunkbase_app} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class SplunkbaseApp extends cdktf.TerraformResource {
       terraformResourceType: 'scp_splunkbase_app',
       terraformGeneratorMetadata: {
         providerName: 'scp',
-        providerVersion: '1.3.0',
-        providerVersionConstraint: '1.3.0'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

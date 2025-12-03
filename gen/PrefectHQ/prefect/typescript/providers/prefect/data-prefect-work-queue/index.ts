@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/data-sources/work_queue
+// https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/data-sources/work_queue
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataPrefectWorkQueueConfig extends cdktf.TerraformMetaArguments
   /**
   * Account ID (UUID), defaults to the account set in the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/data-sources/work_queue#account_id DataPrefectWorkQueue#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/data-sources/work_queue#account_id DataPrefectWorkQueue#account_id}
   */
   readonly accountId?: string;
   /**
   * The concurrency limit applied to this work queue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/data-sources/work_queue#concurrency_limit DataPrefectWorkQueue#concurrency_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/data-sources/work_queue#concurrency_limit DataPrefectWorkQueue#concurrency_limit}
   */
   readonly concurrencyLimit?: number;
   /**
   * Description of the work queue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/data-sources/work_queue#description DataPrefectWorkQueue#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/data-sources/work_queue#description DataPrefectWorkQueue#description}
   */
   readonly description?: string;
   /**
   * Work queue ID (UUID)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/data-sources/work_queue#id DataPrefectWorkQueue#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/data-sources/work_queue#id DataPrefectWorkQueue#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -37,25 +37,25 @@ export interface DataPrefectWorkQueueConfig extends cdktf.TerraformMetaArguments
   /**
   * Name of the work queue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/data-sources/work_queue#name DataPrefectWorkQueue#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/data-sources/work_queue#name DataPrefectWorkQueue#name}
   */
   readonly name?: string;
   /**
   * Name of the associated work pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/data-sources/work_queue#work_pool_name DataPrefectWorkQueue#work_pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/data-sources/work_queue#work_pool_name DataPrefectWorkQueue#work_pool_name}
   */
   readonly workPoolName: string;
   /**
   * Workspace ID (UUID), defaults to the workspace set in the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/data-sources/work_queue#workspace_id DataPrefectWorkQueue#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/data-sources/work_queue#workspace_id DataPrefectWorkQueue#workspace_id}
   */
   readonly workspaceId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/data-sources/work_queue prefect_work_queue}
+* Represents a {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/data-sources/work_queue prefect_work_queue}
 */
 export class DataPrefectWorkQueue extends cdktf.TerraformDataSource {
 
@@ -71,7 +71,7 @@ export class DataPrefectWorkQueue extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataPrefectWorkQueue resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPrefectWorkQueue to import
-  * @param importFromId The id of the existing DataPrefectWorkQueue that should be imported. Refer to the {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/data-sources/work_queue#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPrefectWorkQueue that should be imported. Refer to the {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/data-sources/work_queue#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPrefectWorkQueue to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -83,7 +83,7 @@ export class DataPrefectWorkQueue extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/data-sources/work_queue prefect_work_queue} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/data-sources/work_queue prefect_work_queue} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -94,8 +94,8 @@ export class DataPrefectWorkQueue extends cdktf.TerraformDataSource {
       terraformResourceType: 'prefect_work_queue',
       terraformGeneratorMetadata: {
         providerName: 'prefect',
-        providerVersion: '2.90.2',
-        providerVersionConstraint: '2.90.2'
+        providerVersion: '2.90.4',
+        providerVersionConstraint: '2.90.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

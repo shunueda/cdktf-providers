@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/data-sources/plan_certificate
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/plan_certificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataDuplocloudPlanCertificateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/data-sources/plan_certificate#id DataDuplocloudPlanCertificate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/plan_certificate#id DataDuplocloudPlanCertificate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataDuplocloudPlanCertificateConfig extends cdktf.TerraformMeta
   /**
   * A domain name for which the certificate should be issued
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/data-sources/plan_certificate#name DataDuplocloudPlanCertificate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/plan_certificate#name DataDuplocloudPlanCertificate#name}
   */
   readonly name: string;
   /**
   * The plan ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/data-sources/plan_certificate#plan_id DataDuplocloudPlanCertificate#plan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/plan_certificate#plan_id DataDuplocloudPlanCertificate#plan_id}
   */
   readonly planId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/data-sources/plan_certificate duplocloud_plan_certificate}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/plan_certificate duplocloud_plan_certificate}
 */
 export class DataDuplocloudPlanCertificate extends cdktf.TerraformDataSource {
 
@@ -45,7 +45,7 @@ export class DataDuplocloudPlanCertificate extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataDuplocloudPlanCertificate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataDuplocloudPlanCertificate to import
-  * @param importFromId The id of the existing DataDuplocloudPlanCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/data-sources/plan_certificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataDuplocloudPlanCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/plan_certificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataDuplocloudPlanCertificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class DataDuplocloudPlanCertificate extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/data-sources/plan_certificate duplocloud_plan_certificate} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/plan_certificate duplocloud_plan_certificate} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class DataDuplocloudPlanCertificate extends cdktf.TerraformDataSource {
       terraformResourceType: 'duplocloud_plan_certificate',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.29',
-        providerVersionConstraint: '0.11.29'
+        providerVersion: '0.11.30',
+        providerVersionConstraint: '0.11.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

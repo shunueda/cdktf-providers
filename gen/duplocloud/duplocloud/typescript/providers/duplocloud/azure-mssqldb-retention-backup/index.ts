@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_mssqldb_retention_backup
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssqldb_retention_backup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface AzureMssqldbRetentionBackupConfig extends cdktf.TerraformMetaAr
   /**
   * The name of mssql database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_mssqldb_retention_backup#database_name AzureMssqldbRetentionBackup#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssqldb_retention_backup#database_name AzureMssqldbRetentionBackup#database_name}
   */
   readonly databaseName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_mssqldb_retention_backup#id AzureMssqldbRetentionBackup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssqldb_retention_backup#id AzureMssqldbRetentionBackup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,39 +23,39 @@ export interface AzureMssqldbRetentionBackupConfig extends cdktf.TerraformMetaAr
   /**
   * Specify retention backup number of days
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_mssqldb_retention_backup#retention_backup_days AzureMssqldbRetentionBackup#retention_backup_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssqldb_retention_backup#retention_backup_days AzureMssqldbRetentionBackup#retention_backup_days}
   */
   readonly retentionBackupDays: number;
   /**
   * The name of mssql server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_mssqldb_retention_backup#server_name AzureMssqldbRetentionBackup#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssqldb_retention_backup#server_name AzureMssqldbRetentionBackup#server_name}
   */
   readonly serverName: string;
   /**
   * The GUID of the tenant in which retention backup will be applied for mssql db of an mssql server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_mssqldb_retention_backup#tenant_id AzureMssqldbRetentionBackup#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssqldb_retention_backup#tenant_id AzureMssqldbRetentionBackup#tenant_id}
   */
   readonly tenantId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_mssqldb_retention_backup#timeouts AzureMssqldbRetentionBackup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssqldb_retention_backup#timeouts AzureMssqldbRetentionBackup#timeouts}
   */
   readonly timeouts?: AzureMssqldbRetentionBackupTimeouts;
 }
 export interface AzureMssqldbRetentionBackupTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_mssqldb_retention_backup#create AzureMssqldbRetentionBackup#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssqldb_retention_backup#create AzureMssqldbRetentionBackup#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_mssqldb_retention_backup#delete AzureMssqldbRetentionBackup#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssqldb_retention_backup#delete AzureMssqldbRetentionBackup#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_mssqldb_retention_backup#update AzureMssqldbRetentionBackup#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssqldb_retention_backup#update AzureMssqldbRetentionBackup#update}
   */
   readonly update?: string;
 }
@@ -207,7 +207,7 @@ export class AzureMssqldbRetentionBackupTimeoutsOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_mssqldb_retention_backup duplocloud_azure_mssqldb_retention_backup}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssqldb_retention_backup duplocloud_azure_mssqldb_retention_backup}
 */
 export class AzureMssqldbRetentionBackup extends cdktf.TerraformResource {
 
@@ -223,7 +223,7 @@ export class AzureMssqldbRetentionBackup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AzureMssqldbRetentionBackup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AzureMssqldbRetentionBackup to import
-  * @param importFromId The id of the existing AzureMssqldbRetentionBackup that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_mssqldb_retention_backup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AzureMssqldbRetentionBackup that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssqldb_retention_backup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AzureMssqldbRetentionBackup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -235,7 +235,7 @@ export class AzureMssqldbRetentionBackup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_mssqldb_retention_backup duplocloud_azure_mssqldb_retention_backup} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssqldb_retention_backup duplocloud_azure_mssqldb_retention_backup} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -246,8 +246,8 @@ export class AzureMssqldbRetentionBackup extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_azure_mssqldb_retention_backup',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.29',
-        providerVersionConstraint: '0.11.29'
+        providerVersion: '0.11.30',
+        providerVersionConstraint: '0.11.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

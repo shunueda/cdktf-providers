@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/splunk/scp/1.3.0/docs/data-sources/app_validation
+// https://registry.terraform.io/providers/splunk/scp/1.3.1/docs/data-sources/app_validation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataScpAppValidationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.3.0/docs/data-sources/app_validation#id DataScpAppValidation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.3.1/docs/data-sources/app_validation#id DataScpAppValidation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataScpAppValidationConfig extends cdktf.TerraformMetaArguments
   /**
   * The ID of the validation request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.3.0/docs/data-sources/app_validation#request_id DataScpAppValidation#request_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.3.1/docs/data-sources/app_validation#request_id DataScpAppValidation#request_id}
   */
   readonly requestId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/splunk/scp/1.3.0/docs/data-sources/app_validation scp_app_validation}
+* Represents a {@link https://registry.terraform.io/providers/splunk/scp/1.3.1/docs/data-sources/app_validation scp_app_validation}
 */
 export class DataScpAppValidation extends cdktf.TerraformDataSource {
 
@@ -39,7 +39,7 @@ export class DataScpAppValidation extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataScpAppValidation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataScpAppValidation to import
-  * @param importFromId The id of the existing DataScpAppValidation that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk/scp/1.3.0/docs/data-sources/app_validation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataScpAppValidation that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk/scp/1.3.1/docs/data-sources/app_validation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataScpAppValidation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -51,7 +51,7 @@ export class DataScpAppValidation extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/splunk/scp/1.3.0/docs/data-sources/app_validation scp_app_validation} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/splunk/scp/1.3.1/docs/data-sources/app_validation scp_app_validation} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -62,8 +62,8 @@ export class DataScpAppValidation extends cdktf.TerraformDataSource {
       terraformResourceType: 'scp_app_validation',
       terraformGeneratorMetadata: {
         providerName: 'scp',
-        providerVersion: '1.3.0',
-        providerVersionConstraint: '1.3.0'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

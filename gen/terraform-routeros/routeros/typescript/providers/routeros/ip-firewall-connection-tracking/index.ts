@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_firewall_connection_tracking
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_firewall_connection_tracking
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,36 +10,36 @@ export interface IpFirewallConnectionTrackingConfig extends cdktf.TerraformMetaA
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_firewall_connection_tracking#___path___ IpFirewallConnectionTracking#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_firewall_connection_tracking#___path___ IpFirewallConnectionTracking#___path___}
   */
   readonly path?: string;
   /**
   * <em>A set of transformations for field names. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_firewall_connection_tracking#___skip___ IpFirewallConnectionTracking#___skip___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_firewall_connection_tracking#___skip___ IpFirewallConnectionTracking#___skip___}
   */
   readonly skip?: string;
   /**
   * Allows to disable or enable connection tracking. Disabling connection tracking will cause several firewall features to stop working. 
   * 				          See the list of affected features. Starting from v6.0rc2 default value is auto. This means that connection tracing is disabled until at least one firewall rule is added.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_firewall_connection_tracking#enabled IpFirewallConnectionTracking#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_firewall_connection_tracking#enabled IpFirewallConnectionTracking#enabled}
   */
   readonly enabled?: string;
   /**
   * Timeout for all other connection entries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_firewall_connection_tracking#generic_timeout IpFirewallConnectionTracking#generic_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_firewall_connection_tracking#generic_timeout IpFirewallConnectionTracking#generic_timeout}
   */
   readonly genericTimeout?: string;
   /**
   * ICMP connection timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_firewall_connection_tracking#icmp_timeout IpFirewallConnectionTracking#icmp_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_firewall_connection_tracking#icmp_timeout IpFirewallConnectionTracking#icmp_timeout}
   */
   readonly icmpTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_firewall_connection_tracking#id IpFirewallConnectionTracking#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_firewall_connection_tracking#id IpFirewallConnectionTracking#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -50,91 +50,91 @@ export interface IpFirewallConnectionTrackingConfig extends cdktf.TerraformMetaA
   * 
   * `Enabling this setting may allow malformed packets that would otherwise be considered invalid by the firewall's connection-state matcher. This can increase exposure to certain evasion techniques. This property should be enabled only when troubleshooting or working around known issues.`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_firewall_connection_tracking#liberal_tcp_tracking IpFirewallConnectionTracking#liberal_tcp_tracking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_firewall_connection_tracking#liberal_tcp_tracking IpFirewallConnectionTracking#liberal_tcp_tracking}
   */
   readonly liberalTcpTracking?: boolean | cdktf.IResolvable;
   /**
   * Disable picking up already established connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_firewall_connection_tracking#loose_tcp_tracking IpFirewallConnectionTracking#loose_tcp_tracking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_firewall_connection_tracking#loose_tcp_tracking IpFirewallConnectionTracking#loose_tcp_tracking}
   */
   readonly looseTcpTracking?: string;
   /**
   * No documentation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_firewall_connection_tracking#tcp_close_timeout IpFirewallConnectionTracking#tcp_close_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_firewall_connection_tracking#tcp_close_timeout IpFirewallConnectionTracking#tcp_close_timeout}
   */
   readonly tcpCloseTimeout?: string;
   /**
   * No documentation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_firewall_connection_tracking#tcp_close_wait_timeout IpFirewallConnectionTracking#tcp_close_wait_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_firewall_connection_tracking#tcp_close_wait_timeout IpFirewallConnectionTracking#tcp_close_wait_timeout}
   */
   readonly tcpCloseWaitTimeout?: string;
   /**
   * Time when established TCP connection times out.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_firewall_connection_tracking#tcp_established_timeout IpFirewallConnectionTracking#tcp_established_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_firewall_connection_tracking#tcp_established_timeout IpFirewallConnectionTracking#tcp_established_timeout}
   */
   readonly tcpEstablishedTimeout?: string;
   /**
   * No documentation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_firewall_connection_tracking#tcp_fin_wait_timeout IpFirewallConnectionTracking#tcp_fin_wait_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_firewall_connection_tracking#tcp_fin_wait_timeout IpFirewallConnectionTracking#tcp_fin_wait_timeout}
   */
   readonly tcpFinWaitTimeout?: string;
   /**
   * No documentation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_firewall_connection_tracking#tcp_last_ack_timeout IpFirewallConnectionTracking#tcp_last_ack_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_firewall_connection_tracking#tcp_last_ack_timeout IpFirewallConnectionTracking#tcp_last_ack_timeout}
   */
   readonly tcpLastAckTimeout?: string;
   /**
   * No documentation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_firewall_connection_tracking#tcp_max_retrans_timeout IpFirewallConnectionTracking#tcp_max_retrans_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_firewall_connection_tracking#tcp_max_retrans_timeout IpFirewallConnectionTracking#tcp_max_retrans_timeout}
   */
   readonly tcpMaxRetransTimeout?: string;
   /**
   * TCP SYN timeout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_firewall_connection_tracking#tcp_syn_received_timeout IpFirewallConnectionTracking#tcp_syn_received_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_firewall_connection_tracking#tcp_syn_received_timeout IpFirewallConnectionTracking#tcp_syn_received_timeout}
   */
   readonly tcpSynReceivedTimeout?: string;
   /**
   * TCP SYN timeout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_firewall_connection_tracking#tcp_syn_sent_timeout IpFirewallConnectionTracking#tcp_syn_sent_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_firewall_connection_tracking#tcp_syn_sent_timeout IpFirewallConnectionTracking#tcp_syn_sent_timeout}
   */
   readonly tcpSynSentTimeout?: string;
   /**
   * No documentation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_firewall_connection_tracking#tcp_time_wait_timeout IpFirewallConnectionTracking#tcp_time_wait_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_firewall_connection_tracking#tcp_time_wait_timeout IpFirewallConnectionTracking#tcp_time_wait_timeout}
   */
   readonly tcpTimeWaitTimeout?: string;
   /**
   * No documentation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_firewall_connection_tracking#tcp_unacked_timeout IpFirewallConnectionTracking#tcp_unacked_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_firewall_connection_tracking#tcp_unacked_timeout IpFirewallConnectionTracking#tcp_unacked_timeout}
   */
   readonly tcpUnackedTimeout?: string;
   /**
   * Specifies the timeout of UDP connections that has seen packets in both directions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_firewall_connection_tracking#udp_stream_timeout IpFirewallConnectionTracking#udp_stream_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_firewall_connection_tracking#udp_stream_timeout IpFirewallConnectionTracking#udp_stream_timeout}
   */
   readonly udpStreamTimeout?: string;
   /**
   * Specifies the timeout for UDP connections that have seen packets in one direction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_firewall_connection_tracking#udp_timeout IpFirewallConnectionTracking#udp_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_firewall_connection_tracking#udp_timeout IpFirewallConnectionTracking#udp_timeout}
   */
   readonly udpTimeout?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_firewall_connection_tracking routeros_ip_firewall_connection_tracking}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_firewall_connection_tracking routeros_ip_firewall_connection_tracking}
 */
 export class IpFirewallConnectionTracking extends cdktf.TerraformResource {
 
@@ -150,7 +150,7 @@ export class IpFirewallConnectionTracking extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpFirewallConnectionTracking resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpFirewallConnectionTracking to import
-  * @param importFromId The id of the existing IpFirewallConnectionTracking that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_firewall_connection_tracking#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpFirewallConnectionTracking that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_firewall_connection_tracking#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpFirewallConnectionTracking to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -162,7 +162,7 @@ export class IpFirewallConnectionTracking extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_firewall_connection_tracking routeros_ip_firewall_connection_tracking} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_firewall_connection_tracking routeros_ip_firewall_connection_tracking} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -173,8 +173,8 @@ export class IpFirewallConnectionTracking extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_ip_firewall_connection_tracking',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.95.0',
-        providerVersionConstraint: '1.95.0'
+        providerVersion: '1.96.0',
+        providerVersionConstraint: '1.96.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

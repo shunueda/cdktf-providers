@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/schedule_rotation_active_day
+// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/schedule_rotation_active_day
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,24 +10,24 @@ export interface ScheduleRotationActiveDayConfig extends cdktf.TerraformMetaArgu
   /**
   * Schedule rotation day name for which active times to be created. Value must be one of `S`, `M`, `T`, `W`, `R`, `F`, `U`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/schedule_rotation_active_day#day_name ScheduleRotationActiveDay#day_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/schedule_rotation_active_day#day_name ScheduleRotationActiveDay#day_name}
   */
   readonly dayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/schedule_rotation_active_day#id ScheduleRotationActiveDay#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/schedule_rotation_active_day#id ScheduleRotationActiveDay#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/schedule_rotation_active_day#schedule_rotation_id ScheduleRotationActiveDay#schedule_rotation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/schedule_rotation_active_day#schedule_rotation_id ScheduleRotationActiveDay#schedule_rotation_id}
   */
   readonly scheduleRotationId?: string;
   /**
   * active_time_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/schedule_rotation_active_day#active_time_attributes ScheduleRotationActiveDay#active_time_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/schedule_rotation_active_day#active_time_attributes ScheduleRotationActiveDay#active_time_attributes}
   */
   readonly activeTimeAttributes: ScheduleRotationActiveDayActiveTimeAttributes[] | cdktf.IResolvable;
 }
@@ -35,13 +35,13 @@ export interface ScheduleRotationActiveDayActiveTimeAttributes {
   /**
   * End time for schedule rotation active time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/schedule_rotation_active_day#end_time ScheduleRotationActiveDay#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/schedule_rotation_active_day#end_time ScheduleRotationActiveDay#end_time}
   */
   readonly endTime?: string;
   /**
   * Start time for schedule rotation active time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/schedule_rotation_active_day#start_time ScheduleRotationActiveDay#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/schedule_rotation_active_day#start_time ScheduleRotationActiveDay#start_time}
   */
   readonly startTime?: string;
 }
@@ -186,7 +186,7 @@ export class ScheduleRotationActiveDayActiveTimeAttributesList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/schedule_rotation_active_day rootly_schedule_rotation_active_day}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/schedule_rotation_active_day rootly_schedule_rotation_active_day}
 */
 export class ScheduleRotationActiveDay extends cdktf.TerraformResource {
 
@@ -202,7 +202,7 @@ export class ScheduleRotationActiveDay extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ScheduleRotationActiveDay resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ScheduleRotationActiveDay to import
-  * @param importFromId The id of the existing ScheduleRotationActiveDay that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/schedule_rotation_active_day#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ScheduleRotationActiveDay that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/schedule_rotation_active_day#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ScheduleRotationActiveDay to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -214,7 +214,7 @@ export class ScheduleRotationActiveDay extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/schedule_rotation_active_day rootly_schedule_rotation_active_day} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/schedule_rotation_active_day rootly_schedule_rotation_active_day} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -225,8 +225,8 @@ export class ScheduleRotationActiveDay extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_schedule_rotation_active_day',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.9',
-        providerVersionConstraint: '4.3.9'
+        providerVersion: '4.3.10',
+        providerVersionConstraint: '4.3.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

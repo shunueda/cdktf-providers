@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/trigger_check
+// https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/trigger_check
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface TriggerCheckConfig extends cdktf.TerraformMetaArguments {
   /**
   * The id of the check that you want to attach the trigger to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/trigger_check#check_id TriggerCheck#check_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/trigger_check#check_id TriggerCheck#check_id}
   */
   readonly checkId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/trigger_check#id TriggerCheck#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/trigger_check#id TriggerCheck#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface TriggerCheckConfig extends cdktf.TerraformMetaArguments {
   /**
   * The token value created to trigger the check
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/trigger_check#token TriggerCheck#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/trigger_check#token TriggerCheck#token}
   */
   readonly token?: string;
   /**
   * The request URL to trigger the check run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/trigger_check#url TriggerCheck#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/trigger_check#url TriggerCheck#url}
   */
   readonly url?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/trigger_check checkly_trigger_check}
+* Represents a {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/trigger_check checkly_trigger_check}
 */
 export class TriggerCheck extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class TriggerCheck extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TriggerCheck resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TriggerCheck to import
-  * @param importFromId The id of the existing TriggerCheck that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/trigger_check#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TriggerCheck that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/trigger_check#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TriggerCheck to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class TriggerCheck extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/trigger_check checkly_trigger_check} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/trigger_check checkly_trigger_check} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class TriggerCheck extends cdktf.TerraformResource {
       terraformResourceType: 'checkly_trigger_check',
       terraformGeneratorMetadata: {
         providerName: 'checkly',
-        providerVersion: '1.17.0',
-        providerVersionConstraint: '1.17.0'
+        providerVersion: '1.17.1',
+        providerVersionConstraint: '1.17.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

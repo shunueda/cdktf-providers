@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/duplo_service
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,23 +15,23 @@ export interface DuploServiceConfig extends cdktf.TerraformMetaArguments {
   *    - `7` : Linux container agent for Kubernetes
   *  Defaults to `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/duplo_service#agent_platform DuploService#agent_platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service#agent_platform DuploService#agent_platform}
   */
   readonly agentPlatform?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/duplo_service#allocation_tags DuploService#allocation_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service#allocation_tags DuploService#allocation_tags}
   */
   readonly allocationTags?: string;
   /**
   * Whether or not the service can run on hosts in other tenants (within the the same plan as the current tenant). Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/duplo_service#any_host_allowed DuploService#any_host_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service#any_host_allowed DuploService#any_host_allowed}
   */
   readonly anyHostAllowed?: boolean | cdktf.IResolvable;
   /**
   * The name of the app where service will be a part
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/duplo_service#app_name DuploService#app_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service#app_name DuploService#app_name}
   */
   readonly appName?: string;
   /**
@@ -48,47 +48,47 @@ export interface DuploServiceConfig extends cdktf.TerraformMetaArguments {
   *    - `10` : OnPrem
   *  Defaults to `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/duplo_service#cloud DuploService#cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service#cloud DuploService#cloud}
   */
   readonly cloud?: number;
   /**
   * Whether or not the service gets it's cloud credentials from Kubernetes service account. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/duplo_service#cloud_creds_from_k8s_service_account DuploService#cloud_creds_from_k8s_service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service#cloud_creds_from_k8s_service_account DuploService#cloud_creds_from_k8s_service_account}
   */
   readonly cloudCredsFromK8SServiceAccount?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/duplo_service#commands DuploService#commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service#commands DuploService#commands}
   */
   readonly commands?: string;
   /**
   * The docker image to use for the launched container(s).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/duplo_service#docker_image DuploService#docker_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service#docker_image DuploService#docker_image}
   */
   readonly dockerImage: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/duplo_service#extra_config DuploService#extra_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service#extra_config DuploService#extra_config}
   */
   readonly extraConfig?: string;
   /**
   * if 'force_recreate_on_volumes_change=true' and any changing to Volumes, will results in forceNew and hence recreating the resource. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/duplo_service#force_recreate_on_volumes_change DuploService#force_recreate_on_volumes_change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service#force_recreate_on_volumes_change DuploService#force_recreate_on_volumes_change}
   */
   readonly forceRecreateOnVolumesChange?: boolean | cdktf.IResolvable;
   /**
   * Whether or not to force a StatefulSet to be created. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/duplo_service#force_stateful_set DuploService#force_stateful_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service#force_stateful_set DuploService#force_stateful_set}
   */
   readonly forceStatefulSet?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/duplo_service#hpa_specs DuploService#hpa_specs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service#hpa_specs DuploService#hpa_specs}
   */
   readonly hpaSpecs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/duplo_service#id DuploService#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service#id DuploService#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -97,79 +97,79 @@ export interface DuploServiceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether or not to enable DaemonSet. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/duplo_service#is_daemonset DuploService#is_daemonset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service#is_daemonset DuploService#is_daemonset}
   */
   readonly isDaemonset?: boolean | cdktf.IResolvable;
   /**
   * Whether or not the replicas must be scheduled on separate Kubernetes nodes.  Only supported on Kubernetes. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/duplo_service#is_unique_k8s_node_required DuploService#is_unique_k8s_node_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service#is_unique_k8s_node_required DuploService#is_unique_k8s_node_required}
   */
   readonly isUniqueK8SNodeRequired?: boolean | cdktf.IResolvable;
   /**
   * Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/duplo_service#lb_synced_deployment DuploService#lb_synced_deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service#lb_synced_deployment DuploService#lb_synced_deployment}
   */
   readonly lbSyncedDeployment?: boolean | cdktf.IResolvable;
   /**
   * The name of the service to create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/duplo_service#name DuploService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service#name DuploService#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/duplo_service#other_docker_config DuploService#other_docker_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service#other_docker_config DuploService#other_docker_config}
   */
   readonly otherDockerConfig?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/duplo_service#other_docker_host_config DuploService#other_docker_host_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service#other_docker_host_config DuploService#other_docker_host_config}
   */
   readonly otherDockerHostConfig?: string;
   /**
   * Allow replica collocation for the service. If this is set then 2 replicas can be on the same host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/duplo_service#replica_collocation_allowed DuploService#replica_collocation_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service#replica_collocation_allowed DuploService#replica_collocation_allowed}
   */
   readonly replicaCollocationAllowed?: boolean | cdktf.IResolvable;
   /**
   * The number of container replicas to deploy. Defaults to `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/duplo_service#replicas DuploService#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service#replicas DuploService#replicas}
   */
   readonly replicas?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/duplo_service#replicas_matching_asg_name DuploService#replicas_matching_asg_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service#replicas_matching_asg_name DuploService#replicas_matching_asg_name}
   */
   readonly replicasMatchingAsgName?: string;
   /**
   * Whether or not the replicas must be spread across availability zones.  Only supported on Kubernetes. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/duplo_service#should_spread_across_zones DuploService#should_spread_across_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service#should_spread_across_zones DuploService#should_spread_across_zones}
   */
   readonly shouldSpreadAcrossZones?: boolean | cdktf.IResolvable;
   /**
   * The GUID of the tenant that the service will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/duplo_service#tenant_id DuploService#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service#tenant_id DuploService#tenant_id}
   */
   readonly tenantId: string;
   /**
   * Volumes to be attached to pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/duplo_service#volumes DuploService#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service#volumes DuploService#volumes}
   */
   readonly volumes?: string;
   /**
   * init_container_docker_image block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/duplo_service#init_container_docker_image DuploService#init_container_docker_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service#init_container_docker_image DuploService#init_container_docker_image}
   */
   readonly initContainerDockerImage?: DuploServiceInitContainerDockerImage[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/duplo_service#timeouts DuploService#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service#timeouts DuploService#timeouts}
   */
   readonly timeouts?: DuploServiceTimeouts;
 }
@@ -257,13 +257,13 @@ export interface DuploServiceInitContainerDockerImage {
   /**
   * Init container docker image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/duplo_service#image DuploService#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service#image DuploService#image}
   */
   readonly image: string;
   /**
   * Init container name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/duplo_service#name DuploService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service#name DuploService#name}
   */
   readonly name: string;
 }
@@ -402,15 +402,15 @@ export class DuploServiceInitContainerDockerImageList extends cdktf.ComplexList 
 }
 export interface DuploServiceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/duplo_service#create DuploService#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service#create DuploService#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/duplo_service#delete DuploService#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service#delete DuploService#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/duplo_service#update DuploService#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service#update DuploService#update}
   */
   readonly update?: string;
 }
@@ -562,7 +562,7 @@ export class DuploServiceTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/duplo_service duplocloud_duplo_service}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service duplocloud_duplo_service}
 */
 export class DuploService extends cdktf.TerraformResource {
 
@@ -578,7 +578,7 @@ export class DuploService extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DuploService resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DuploService to import
-  * @param importFromId The id of the existing DuploService that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/duplo_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DuploService that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DuploService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -590,7 +590,7 @@ export class DuploService extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/duplo_service duplocloud_duplo_service} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/duplo_service duplocloud_duplo_service} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -601,8 +601,8 @@ export class DuploService extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_duplo_service',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.29',
-        providerVersionConstraint: '0.11.29'
+        providerVersion: '0.11.30',
+        providerVersionConstraint: '0.11.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

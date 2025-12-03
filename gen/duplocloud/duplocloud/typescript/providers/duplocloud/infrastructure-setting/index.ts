@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_setting
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure_setting
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface InfrastructureSettingAConfig extends cdktf.TerraformMetaArgumen
   /**
   * Whether or not this resource should delete any settings not specified by this resource. **WARNING:**  It is not recommended to change the default value of `false`. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_setting#delete_unspecified_settings InfrastructureSettingA#delete_unspecified_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure_setting#delete_unspecified_settings InfrastructureSettingA#delete_unspecified_settings}
   */
   readonly deleteUnspecifiedSettings?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_setting#id InfrastructureSettingA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure_setting#id InfrastructureSettingA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,35 +23,35 @@ export interface InfrastructureSettingAConfig extends cdktf.TerraformMetaArgumen
   /**
   * The name of the infrastructure to configure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_setting#infra_name InfrastructureSettingA#infra_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure_setting#infra_name InfrastructureSettingA#infra_name}
   */
   readonly infraName: string;
   /**
   * custom_data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_setting#custom_data InfrastructureSettingA#custom_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure_setting#custom_data InfrastructureSettingA#custom_data}
   */
   readonly customData?: InfrastructureSettingCustomData[] | cdktf.IResolvable;
   /**
   * setting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_setting#setting InfrastructureSettingA#setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure_setting#setting InfrastructureSettingA#setting}
   */
   readonly setting?: InfrastructureSettingSetting[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_setting#timeouts InfrastructureSettingA#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure_setting#timeouts InfrastructureSettingA#timeouts}
   */
   readonly timeouts?: InfrastructureSettingTimeouts;
 }
 export interface InfrastructureSettingCustomData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_setting#key InfrastructureSettingA#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure_setting#key InfrastructureSettingA#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_setting#value InfrastructureSettingA#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure_setting#value InfrastructureSettingA#value}
   */
   readonly value: string;
 }
@@ -190,11 +190,11 @@ export class InfrastructureSettingCustomDataList extends cdktf.ComplexList {
 }
 export interface InfrastructureSettingSetting {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_setting#key InfrastructureSettingA#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure_setting#key InfrastructureSettingA#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_setting#value InfrastructureSettingA#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure_setting#value InfrastructureSettingA#value}
   */
   readonly value: string;
 }
@@ -333,15 +333,15 @@ export class InfrastructureSettingSettingList extends cdktf.ComplexList {
 }
 export interface InfrastructureSettingTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_setting#create InfrastructureSettingA#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure_setting#create InfrastructureSettingA#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_setting#delete InfrastructureSettingA#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure_setting#delete InfrastructureSettingA#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_setting#update InfrastructureSettingA#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure_setting#update InfrastructureSettingA#update}
   */
   readonly update?: string;
 }
@@ -493,7 +493,7 @@ export class InfrastructureSettingTimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_setting duplocloud_infrastructure_setting}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure_setting duplocloud_infrastructure_setting}
 */
 export class InfrastructureSettingA extends cdktf.TerraformResource {
 
@@ -509,7 +509,7 @@ export class InfrastructureSettingA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InfrastructureSettingA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InfrastructureSettingA to import
-  * @param importFromId The id of the existing InfrastructureSettingA that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_setting#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InfrastructureSettingA that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure_setting#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InfrastructureSettingA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -521,7 +521,7 @@ export class InfrastructureSettingA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_setting duplocloud_infrastructure_setting} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure_setting duplocloud_infrastructure_setting} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -532,8 +532,8 @@ export class InfrastructureSettingA extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_infrastructure_setting',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.29',
-        providerVersionConstraint: '0.11.29'
+        providerVersion: '0.11.30',
+        providerVersionConstraint: '0.11.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

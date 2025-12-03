@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_ovpn_client
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_ovpn_client
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface InterfaceOvpnClientConfig extends cdktf.TerraformMetaArguments 
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_ovpn_client#___path___ InterfaceOvpnClient#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_ovpn_client#___path___ InterfaceOvpnClient#___path___}
   */
   readonly path?: string;
   /**
   * Whether to add OVPN remote address as a default route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_ovpn_client#add_default_route InterfaceOvpnClient#add_default_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_ovpn_client#add_default_route InterfaceOvpnClient#add_default_route}
   */
   readonly addDefaultRoute?: boolean | cdktf.IResolvable;
   /**
   * Authentication methods that the server will accept.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_ovpn_client#auth InterfaceOvpnClient#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_ovpn_client#auth InterfaceOvpnClient#auth}
   */
   readonly auth?: string;
   /**
   * Name of the client certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_ovpn_client#certificate InterfaceOvpnClient#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_ovpn_client#certificate InterfaceOvpnClient#certificate}
   */
   readonly certificate?: string;
   /**
   * Allowed ciphers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_ovpn_client#cipher InterfaceOvpnClient#cipher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_ovpn_client#cipher InterfaceOvpnClient#cipher}
   */
   readonly cipher?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_ovpn_client#comment InterfaceOvpnClient#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_ovpn_client#comment InterfaceOvpnClient#comment}
   */
   readonly comment?: string;
   /**
   * Remote address of the OVPN server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_ovpn_client#connect_to InterfaceOvpnClient#connect_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_ovpn_client#connect_to InterfaceOvpnClient#connect_to}
   */
   readonly connectTo: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_ovpn_client#disabled InterfaceOvpnClient#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_ovpn_client#disabled InterfaceOvpnClient#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_ovpn_client#id InterfaceOvpnClient#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_ovpn_client#id InterfaceOvpnClient#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -61,85 +61,85 @@ export interface InterfaceOvpnClientConfig extends cdktf.TerraformMetaArguments 
   /**
   * Mac address of OVPN interface. Will be automatically generated if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_ovpn_client#mac_address InterfaceOvpnClient#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_ovpn_client#mac_address InterfaceOvpnClient#mac_address}
   */
   readonly macAddress?: string;
   /**
   * Maximum Transmission Unit. Max packet size that the OVPN interface will be able to send without packet fragmentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_ovpn_client#max_mtu InterfaceOvpnClient#max_mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_ovpn_client#max_mtu InterfaceOvpnClient#max_mtu}
   */
   readonly maxMtu?: number;
   /**
   * Layer3 or layer2 tunnel mode (alternatively tun, tap)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_ovpn_client#mode InterfaceOvpnClient#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_ovpn_client#mode InterfaceOvpnClient#mode}
   */
   readonly mode?: string;
   /**
   * Descriptive name of the interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_ovpn_client#name InterfaceOvpnClient#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_ovpn_client#name InterfaceOvpnClient#name}
   */
   readonly name: string;
   /**
   * Password used for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_ovpn_client#password InterfaceOvpnClient#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_ovpn_client#password InterfaceOvpnClient#password}
   */
   readonly password?: string;
   /**
   * Port to connect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_ovpn_client#port InterfaceOvpnClient#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_ovpn_client#port InterfaceOvpnClient#port}
   */
   readonly port?: number;
   /**
   * Specifies which PPP profile configuration will be used when establishing the tunnel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_ovpn_client#profile InterfaceOvpnClient#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_ovpn_client#profile InterfaceOvpnClient#profile}
   */
   readonly profile?: string;
   /**
   * Indicates the protocol to use when connecting with the remote endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_ovpn_client#protocol InterfaceOvpnClient#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_ovpn_client#protocol InterfaceOvpnClient#protocol}
   */
   readonly protocol?: string;
   /**
   * Specifies whether to allow the OVPN server to add routes to the OVPN client instance routing table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_ovpn_client#route_nopull InterfaceOvpnClient#route_nopull}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_ovpn_client#route_nopull InterfaceOvpnClient#route_nopull}
   */
   readonly routeNopull?: boolean | cdktf.IResolvable;
   /**
   * Specifies which TLS versions to allow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_ovpn_client#tls_version InterfaceOvpnClient#tls_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_ovpn_client#tls_version InterfaceOvpnClient#tls_version}
   */
   readonly tlsVersion?: string;
   /**
   * Whether to add DNS servers provided by the OVPN server to IP/DNS configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_ovpn_client#use_peer_dns InterfaceOvpnClient#use_peer_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_ovpn_client#use_peer_dns InterfaceOvpnClient#use_peer_dns}
   */
   readonly usePeerDns?: boolean | cdktf.IResolvable;
   /**
   * User name used for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_ovpn_client#user InterfaceOvpnClient#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_ovpn_client#user InterfaceOvpnClient#user}
   */
   readonly user: string;
   /**
   * Checks the certificates CN or SAN against the "connect-to" parameter. The IP or hostname must be present in the server's certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_ovpn_client#verify_server_certificate InterfaceOvpnClient#verify_server_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_ovpn_client#verify_server_certificate InterfaceOvpnClient#verify_server_certificate}
   */
   readonly verifyServerCertificate?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_ovpn_client routeros_interface_ovpn_client}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_ovpn_client routeros_interface_ovpn_client}
 */
 export class InterfaceOvpnClient extends cdktf.TerraformResource {
 
@@ -155,7 +155,7 @@ export class InterfaceOvpnClient extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfaceOvpnClient resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfaceOvpnClient to import
-  * @param importFromId The id of the existing InterfaceOvpnClient that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_ovpn_client#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfaceOvpnClient that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_ovpn_client#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfaceOvpnClient to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -167,7 +167,7 @@ export class InterfaceOvpnClient extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_ovpn_client routeros_interface_ovpn_client} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/interface_ovpn_client routeros_interface_ovpn_client} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -178,8 +178,8 @@ export class InterfaceOvpnClient extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_interface_ovpn_client',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.95.0',
-        providerVersionConstraint: '1.95.0'
+        providerVersion: '1.96.0',
+        providerVersionConstraint: '1.96.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

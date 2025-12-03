@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/client_certificate
+// https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/client_certificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ClientCertificateConfig extends cdktf.TerraformMetaArguments {
   /**
   * The client certificate in PEM format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/client_certificate#certificate ClientCertificate#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/client_certificate#certificate ClientCertificate#certificate}
   */
   readonly certificate: string;
   /**
   * The host domain that the certificate should be used for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/client_certificate#host ClientCertificate#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/client_certificate#host ClientCertificate#host}
   */
   readonly host: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/client_certificate#id ClientCertificate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/client_certificate#id ClientCertificate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface ClientCertificateConfig extends cdktf.TerraformMetaArguments {
   /**
   * Passphrase for the private key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/client_certificate#passphrase ClientCertificate#passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/client_certificate#passphrase ClientCertificate#passphrase}
   */
   readonly passphrase?: string;
   /**
   * The private key for the certificate in PEM format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/client_certificate#private_key ClientCertificate#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/client_certificate#private_key ClientCertificate#private_key}
   */
   readonly privateKey: string;
   /**
   * PEM formatted bundle of CA certificates that the client should trust. The bundle may contain many CA certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/client_certificate#trusted_ca ClientCertificate#trusted_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/client_certificate#trusted_ca ClientCertificate#trusted_ca}
   */
   readonly trustedCa?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/client_certificate checkly_client_certificate}
+* Represents a {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/client_certificate checkly_client_certificate}
 */
 export class ClientCertificate extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class ClientCertificate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClientCertificate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClientCertificate to import
-  * @param importFromId The id of the existing ClientCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/client_certificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClientCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/client_certificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClientCertificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class ClientCertificate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/client_certificate checkly_client_certificate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/client_certificate checkly_client_certificate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class ClientCertificate extends cdktf.TerraformResource {
       terraformResourceType: 'checkly_client_certificate',
       terraformGeneratorMetadata: {
         providerName: 'checkly',
-        providerVersion: '1.17.0',
-        providerVersionConstraint: '1.17.0'
+        providerVersion: '1.17.1',
+        providerVersionConstraint: '1.17.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

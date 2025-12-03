@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/playwright_check_suite
+// https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/playwright_check_suite
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface PlaywrightCheckSuiteConfig extends cdktf.TerraformMetaArguments
   /**
   * Determines whether the check will run periodically or not after being deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/playwright_check_suite#activated PlaywrightCheckSuite#activated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/playwright_check_suite#activated PlaywrightCheckSuite#activated}
   */
   readonly activated: boolean | cdktf.IResolvable;
   /**
-  * How often the check should run in minutes. Possible values are `1`, `2`, `5`, `10`, `15`, `30`, `60`, `120`, `180`, `360`, `720`, and `1440`.
+  * Controls how often the check should run. Defined in minutes. The allowed values are `1` (1 minute), `2` (2 minutes), `5` (5 minutes), `10` (10 minutes), `15` (15 minutes), `30` (30 minutes), `60` (1 hour), `120` (2 hours), `180` (3 hours), `360` (6 hours), `720` (12 hours) and `1440` (24 hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/playwright_check_suite#frequency PlaywrightCheckSuite#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/playwright_check_suite#frequency PlaywrightCheckSuite#frequency}
   */
   readonly frequency: number;
   /**
   * The ID of the check group that this check is part of.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/playwright_check_suite#group_id PlaywrightCheckSuite#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/playwright_check_suite#group_id PlaywrightCheckSuite#group_id}
   */
   readonly groupId?: number;
   /**
   * The position of the check in the check group. It determines in what order checks and monitors are run when a group is triggered from the API or from CI/CD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/playwright_check_suite#group_order PlaywrightCheckSuite#group_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/playwright_check_suite#group_order PlaywrightCheckSuite#group_order}
   */
   readonly groupOrder?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/playwright_check_suite#id PlaywrightCheckSuite#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/playwright_check_suite#id PlaywrightCheckSuite#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,73 +41,73 @@ export interface PlaywrightCheckSuiteConfig extends cdktf.TerraformMetaArguments
   /**
   * An array of one or more data center locations where to run the this check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/playwright_check_suite#locations PlaywrightCheckSuite#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/playwright_check_suite#locations PlaywrightCheckSuite#locations}
   */
   readonly locations?: string[];
   /**
   * Determines if any notifications will be sent out when the check fails and/or recovers. (Default `false`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/playwright_check_suite#muted PlaywrightCheckSuite#muted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/playwright_check_suite#muted PlaywrightCheckSuite#muted}
   */
   readonly muted?: boolean | cdktf.IResolvable;
   /**
   * The name of the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/playwright_check_suite#name PlaywrightCheckSuite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/playwright_check_suite#name PlaywrightCheckSuite#name}
   */
   readonly name: string;
   /**
   * An array of one or more private locations slugs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/playwright_check_suite#private_locations PlaywrightCheckSuite#private_locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/playwright_check_suite#private_locations PlaywrightCheckSuite#private_locations}
   */
   readonly privateLocations?: string[];
   /**
   * Determines whether the check should run on all selected locations in parallel or round-robin. (Default `false`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/playwright_check_suite#run_parallel PlaywrightCheckSuite#run_parallel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/playwright_check_suite#run_parallel PlaywrightCheckSuite#run_parallel}
   */
   readonly runParallel?: boolean | cdktf.IResolvable;
   /**
   * A list of tags for organizing and filtering checks and monitors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/playwright_check_suite#tags PlaywrightCheckSuite#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/playwright_check_suite#tags PlaywrightCheckSuite#tags}
   */
   readonly tags?: string[];
   /**
   * When true, the account level alert settings will be used, not the alert setting defined on this check. (Default `true`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/playwright_check_suite#use_global_alert_settings PlaywrightCheckSuite#use_global_alert_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/playwright_check_suite#use_global_alert_settings PlaywrightCheckSuite#use_global_alert_settings}
   */
   readonly useGlobalAlertSettings?: boolean | cdktf.IResolvable;
   /**
   * alert_channel_subscription block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/playwright_check_suite#alert_channel_subscription PlaywrightCheckSuite#alert_channel_subscription}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/playwright_check_suite#alert_channel_subscription PlaywrightCheckSuite#alert_channel_subscription}
   */
   readonly alertChannelSubscription?: PlaywrightCheckSuiteAlertChannelSubscription[] | cdktf.IResolvable;
   /**
   * alert_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/playwright_check_suite#alert_settings PlaywrightCheckSuite#alert_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/playwright_check_suite#alert_settings PlaywrightCheckSuite#alert_settings}
   */
   readonly alertSettings?: PlaywrightCheckSuiteAlertSettings;
   /**
   * bundle block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/playwright_check_suite#bundle PlaywrightCheckSuite#bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/playwright_check_suite#bundle PlaywrightCheckSuite#bundle}
   */
   readonly bundle: PlaywrightCheckSuiteBundle;
   /**
   * runtime block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/playwright_check_suite#runtime PlaywrightCheckSuite#runtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/playwright_check_suite#runtime PlaywrightCheckSuite#runtime}
   */
   readonly runtime: PlaywrightCheckSuiteRuntime;
   /**
   * trigger_incident block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/playwright_check_suite#trigger_incident PlaywrightCheckSuite#trigger_incident}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/playwright_check_suite#trigger_incident PlaywrightCheckSuite#trigger_incident}
   */
   readonly triggerIncident?: PlaywrightCheckSuiteTriggerIncident;
 }
@@ -115,13 +115,13 @@ export interface PlaywrightCheckSuiteAlertChannelSubscription {
   /**
   * Whether an alert should be sent to this channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/playwright_check_suite#activated PlaywrightCheckSuite#activated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/playwright_check_suite#activated PlaywrightCheckSuite#activated}
   */
   readonly activated: boolean | cdktf.IResolvable;
   /**
   * The ID of the alert channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/playwright_check_suite#channel_id PlaywrightCheckSuite#channel_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/playwright_check_suite#channel_id PlaywrightCheckSuite#channel_id}
   */
   readonly channelId: number;
 }
@@ -262,13 +262,13 @@ export interface PlaywrightCheckSuiteAlertSettingsParallelRunFailureThreshold {
   /**
   * Whether parallel run failure threshold is enabled. Only applies if the check is scheduled for multiple locations in parallel. (Default `false`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/playwright_check_suite#enabled PlaywrightCheckSuite#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/playwright_check_suite#enabled PlaywrightCheckSuite#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Percentage of runs that must fail to trigger alert. Possible values are `10`, `20`, `30`, `40`, `50`, `60`, `70`, `80`, `90`, and `100`. (Default `10`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/playwright_check_suite#percentage PlaywrightCheckSuite#percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/playwright_check_suite#percentage PlaywrightCheckSuite#percentage}
   */
   readonly percentage?: number;
 }
@@ -415,13 +415,13 @@ export interface PlaywrightCheckSuiteAlertSettingsReminders {
   /**
   * Number of reminder notifications to send. Possible values are `0`, `1`, `2`, `3`, `4`, `5`, and `100000` (`0` to disable, `100000` for unlimited). (Default `0`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/playwright_check_suite#amount PlaywrightCheckSuite#amount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/playwright_check_suite#amount PlaywrightCheckSuite#amount}
   */
   readonly amount?: number;
   /**
   * Interval between reminder notifications in minutes. Possible values are `5`, `10`, `15`, and `30`. (Default `5`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/playwright_check_suite#interval PlaywrightCheckSuite#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/playwright_check_suite#interval PlaywrightCheckSuite#interval}
   */
   readonly interval?: number;
 }
@@ -568,7 +568,7 @@ export interface PlaywrightCheckSuiteAlertSettingsRunBasedEscalation {
   /**
   * Send an alert notification after the given number of consecutive check runs have failed. Possible values are between `1` and `5`. (Default `1`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/playwright_check_suite#failed_run_threshold PlaywrightCheckSuite#failed_run_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/playwright_check_suite#failed_run_threshold PlaywrightCheckSuite#failed_run_threshold}
   */
   readonly failedRunThreshold?: number;
 }
@@ -686,7 +686,7 @@ export interface PlaywrightCheckSuiteAlertSettingsTimeBasedEscalation {
   /**
   * Send an alert notification after the check has been failing for the given amount of time (in minutes). Possible values are `5`, `10`, `15`, and `30`. (Default `5`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/playwright_check_suite#minutes_failing_threshold PlaywrightCheckSuite#minutes_failing_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/playwright_check_suite#minutes_failing_threshold PlaywrightCheckSuite#minutes_failing_threshold}
   */
   readonly minutesFailingThreshold?: number;
 }
@@ -804,31 +804,31 @@ export interface PlaywrightCheckSuiteAlertSettings {
   /**
   * Determines the type of escalation to use. Possible values are `RUN_BASED` and `TIME_BASED`. (Default `RUN_BASED`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/playwright_check_suite#escalation_type PlaywrightCheckSuite#escalation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/playwright_check_suite#escalation_type PlaywrightCheckSuite#escalation_type}
   */
   readonly escalationType?: string;
   /**
   * parallel_run_failure_threshold block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/playwright_check_suite#parallel_run_failure_threshold PlaywrightCheckSuite#parallel_run_failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/playwright_check_suite#parallel_run_failure_threshold PlaywrightCheckSuite#parallel_run_failure_threshold}
   */
   readonly parallelRunFailureThreshold?: PlaywrightCheckSuiteAlertSettingsParallelRunFailureThreshold[] | cdktf.IResolvable;
   /**
   * reminders block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/playwright_check_suite#reminders PlaywrightCheckSuite#reminders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/playwright_check_suite#reminders PlaywrightCheckSuite#reminders}
   */
   readonly reminders?: PlaywrightCheckSuiteAlertSettingsReminders[] | cdktf.IResolvable;
   /**
   * run_based_escalation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/playwright_check_suite#run_based_escalation PlaywrightCheckSuite#run_based_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/playwright_check_suite#run_based_escalation PlaywrightCheckSuite#run_based_escalation}
   */
   readonly runBasedEscalation?: PlaywrightCheckSuiteAlertSettingsRunBasedEscalation[] | cdktf.IResolvable;
   /**
   * time_based_escalation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/playwright_check_suite#time_based_escalation PlaywrightCheckSuite#time_based_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/playwright_check_suite#time_based_escalation PlaywrightCheckSuite#time_based_escalation}
   */
   readonly timeBasedEscalation?: PlaywrightCheckSuiteAlertSettingsTimeBasedEscalation[] | cdktf.IResolvable;
 }
@@ -1030,7 +1030,7 @@ export interface PlaywrightCheckSuiteBundle {
   /**
   * The ID of the code bundle.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/playwright_check_suite#id PlaywrightCheckSuite#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/playwright_check_suite#id PlaywrightCheckSuite#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1039,7 +1039,7 @@ export interface PlaywrightCheckSuiteBundle {
   /**
   * The generated metadata of the code bundle.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/playwright_check_suite#metadata PlaywrightCheckSuite#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/playwright_check_suite#metadata PlaywrightCheckSuite#metadata}
   */
   readonly metadata: string;
 }
@@ -1148,7 +1148,7 @@ export interface PlaywrightCheckSuiteRuntimePlaywrightDevice {
   /**
   * The type of the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/playwright_check_suite#type PlaywrightCheckSuite#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/playwright_check_suite#type PlaywrightCheckSuite#type}
   */
   readonly type: string;
 }
@@ -1263,13 +1263,13 @@ export interface PlaywrightCheckSuiteRuntimePlaywright {
   /**
   * The Playwright version to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/playwright_check_suite#version PlaywrightCheckSuite#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/playwright_check_suite#version PlaywrightCheckSuite#version}
   */
   readonly version?: string;
   /**
   * device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/playwright_check_suite#device PlaywrightCheckSuite#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/playwright_check_suite#device PlaywrightCheckSuite#device}
   */
   readonly device?: PlaywrightCheckSuiteRuntimePlaywrightDevice[] | cdktf.IResolvable;
 }
@@ -1384,7 +1384,7 @@ export interface PlaywrightCheckSuiteRuntimeStepsInstall {
   /**
   * The command used to install dependencies prior to running Playwright. The default value is the appropriate install command for your package manager (e.g. `npm install` for `npm`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/playwright_check_suite#command PlaywrightCheckSuite#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/playwright_check_suite#command PlaywrightCheckSuite#command}
   */
   readonly command?: string;
 }
@@ -1470,7 +1470,7 @@ export interface PlaywrightCheckSuiteRuntimeStepsTest {
   /**
   * The command used to run Playwright. The default value is the appropriate exec command for your package manager (e.g. `npx playwright test` for `npm`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/playwright_check_suite#command PlaywrightCheckSuite#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/playwright_check_suite#command PlaywrightCheckSuite#command}
   */
   readonly command?: string;
 }
@@ -1556,13 +1556,13 @@ export interface PlaywrightCheckSuiteRuntimeSteps {
   /**
   * install block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/playwright_check_suite#install PlaywrightCheckSuite#install}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/playwright_check_suite#install PlaywrightCheckSuite#install}
   */
   readonly install?: PlaywrightCheckSuiteRuntimeStepsInstall;
   /**
   * test block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/playwright_check_suite#test PlaywrightCheckSuite#test}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/playwright_check_suite#test PlaywrightCheckSuite#test}
   */
   readonly test?: PlaywrightCheckSuiteRuntimeStepsTest;
 }
@@ -1677,13 +1677,13 @@ export interface PlaywrightCheckSuiteRuntime {
   /**
   * playwright block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/playwright_check_suite#playwright PlaywrightCheckSuite#playwright}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/playwright_check_suite#playwright PlaywrightCheckSuite#playwright}
   */
   readonly playwright?: PlaywrightCheckSuiteRuntimePlaywright;
   /**
   * steps block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/playwright_check_suite#steps PlaywrightCheckSuite#steps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/playwright_check_suite#steps PlaywrightCheckSuite#steps}
   */
   readonly steps?: PlaywrightCheckSuiteRuntimeSteps;
 }
@@ -1798,31 +1798,31 @@ export interface PlaywrightCheckSuiteTriggerIncident {
   /**
   * A detailed description of the incident.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/playwright_check_suite#description PlaywrightCheckSuite#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/playwright_check_suite#description PlaywrightCheckSuite#description}
   */
   readonly description: string;
   /**
   * The name of the incident.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/playwright_check_suite#name PlaywrightCheckSuite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/playwright_check_suite#name PlaywrightCheckSuite#name}
   */
   readonly name: string;
   /**
   * Whether to notify subscribers when the incident is triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/playwright_check_suite#notify_subscribers PlaywrightCheckSuite#notify_subscribers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/playwright_check_suite#notify_subscribers PlaywrightCheckSuite#notify_subscribers}
   */
   readonly notifySubscribers: boolean | cdktf.IResolvable;
   /**
   * The status page service that this incident will be associated with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/playwright_check_suite#service_id PlaywrightCheckSuite#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/playwright_check_suite#service_id PlaywrightCheckSuite#service_id}
   */
   readonly serviceId: string;
   /**
   * The severity level of the incident. Possible values are `MINOR`, `MEDIUM`, `MAJOR`, and `CRITICAL`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/playwright_check_suite#severity PlaywrightCheckSuite#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/playwright_check_suite#severity PlaywrightCheckSuite#severity}
   */
   readonly severity: string;
 }
@@ -2007,7 +2007,7 @@ export class PlaywrightCheckSuiteTriggerIncidentOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/playwright_check_suite checkly_playwright_check_suite}
+* Represents a {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/playwright_check_suite checkly_playwright_check_suite}
 */
 export class PlaywrightCheckSuite extends cdktf.TerraformResource {
 
@@ -2023,7 +2023,7 @@ export class PlaywrightCheckSuite extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlaywrightCheckSuite resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlaywrightCheckSuite to import
-  * @param importFromId The id of the existing PlaywrightCheckSuite that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/playwright_check_suite#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlaywrightCheckSuite that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/playwright_check_suite#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlaywrightCheckSuite to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2035,7 +2035,7 @@ export class PlaywrightCheckSuite extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/playwright_check_suite checkly_playwright_check_suite} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/playwright_check_suite checkly_playwright_check_suite} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2046,8 +2046,8 @@ export class PlaywrightCheckSuite extends cdktf.TerraformResource {
       terraformResourceType: 'checkly_playwright_check_suite',
       terraformGeneratorMetadata: {
         providerName: 'checkly',
-        providerVersion: '1.17.0',
-        providerVersionConstraint: '1.17.0'
+        providerVersion: '1.17.1',
+        providerVersionConstraint: '1.17.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

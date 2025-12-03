@@ -1,3 +1,3 @@
 # `data_prefect_variable`
 
-Refer to the Terraform Registry for docs: [`data_prefect_variable`](https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/data-sources/variable).
+Refer to the Terraform Registry for docs: [`data_prefect_variable`](https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/data-sources/variable).

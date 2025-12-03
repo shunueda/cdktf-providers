@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_instance
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/routing_bgp_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface RoutingBgpInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_instance#___path___ RoutingBgpInstance#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/routing_bgp_instance#___path___ RoutingBgpInstance#___path___}
   */
   readonly path?: string;
   /**
   * 32-bit BGP autonomous system number. Value can be entered in AS-Plain and AS-Dot formats. The parameter is also used to set up the BGP confederation, in the following format: confederation_as/as. For example, if your AS is 34 and your confederation AS is 43, then as configuration should be as=43/34.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_instance#as RoutingBgpInstance#as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/routing_bgp_instance#as RoutingBgpInstance#as}
   */
   readonly as?: string;
   /**
   * In case this instance is a route reflector: the cluster ID of the router reflector cluster to this instance belongs. This attribute helps to recognize routing updates that come from another route reflector in this cluster and avoid routing information looping. Note that normally there is only one route reflector in a cluster; in this case, `cluster-id` does not need to be configured and BGP router ID is used instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_instance#cluster_id RoutingBgpInstance#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/routing_bgp_instance#cluster_id RoutingBgpInstance#cluster_id}
   */
   readonly clusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_instance#comment RoutingBgpInstance#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/routing_bgp_instance#comment RoutingBgpInstance#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_instance#disabled RoutingBgpInstance#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/routing_bgp_instance#disabled RoutingBgpInstance#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_instance#id RoutingBgpInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/routing_bgp_instance#id RoutingBgpInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -43,37 +43,37 @@ export interface RoutingBgpInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether to ignore the `AS_PATH` attribute in the BGP route selection algorithm. Works on input.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_instance#ignore_as_path_len RoutingBgpInstance#ignore_as_path_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/routing_bgp_instance#ignore_as_path_len RoutingBgpInstance#ignore_as_path_len}
   */
   readonly ignoreAsPathLen?: boolean | cdktf.IResolvable;
   /**
   * Instance name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_instance#name RoutingBgpInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/routing_bgp_instance#name RoutingBgpInstance#name}
   */
   readonly name: string;
   /**
   * BGP Router ID to be used. Use the ID from the `/routing/router-id` configuration by specifying the reference name, or set the ID directly by specifying IP.Equal router-ids are also used to group peers into one instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_instance#router_id RoutingBgpInstance#router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/routing_bgp_instance#router_id RoutingBgpInstance#router_id}
   */
   readonly routerId?: string;
   /**
   * Name of the routing table, to install routes in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_instance#routing_table RoutingBgpInstance#routing_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/routing_bgp_instance#routing_table RoutingBgpInstance#routing_table}
   */
   readonly routingTable?: string;
   /**
   * Name of the VRF BGP connections operates on. By default always use the `main` routing table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_instance#vrf RoutingBgpInstance#vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/routing_bgp_instance#vrf RoutingBgpInstance#vrf}
   */
   readonly vrf?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_instance routeros_routing_bgp_instance}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/routing_bgp_instance routeros_routing_bgp_instance}
 */
 export class RoutingBgpInstance extends cdktf.TerraformResource {
 
@@ -89,7 +89,7 @@ export class RoutingBgpInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RoutingBgpInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RoutingBgpInstance to import
-  * @param importFromId The id of the existing RoutingBgpInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RoutingBgpInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/routing_bgp_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RoutingBgpInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -101,7 +101,7 @@ export class RoutingBgpInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_instance routeros_routing_bgp_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/routing_bgp_instance routeros_routing_bgp_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -112,8 +112,8 @@ export class RoutingBgpInstance extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_routing_bgp_instance',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.95.0',
-        providerVersionConstraint: '1.95.0'
+        providerVersion: '1.96.0',
+        providerVersionConstraint: '1.96.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

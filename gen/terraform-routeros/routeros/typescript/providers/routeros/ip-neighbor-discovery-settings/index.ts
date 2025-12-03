@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_neighbor_discovery_settings
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_neighbor_discovery_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface IpNeighborDiscoverySettingsConfig extends cdktf.TerraformMetaAr
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_neighbor_discovery_settings#___path___ IpNeighborDiscoverySettings#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_neighbor_discovery_settings#___path___ IpNeighborDiscoverySettings#___path___}
   */
   readonly path?: string;
   /**
   * Interface list on which members the discovery protocol will run on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_neighbor_discovery_settings#discover_interface_list IpNeighborDiscoverySettings#discover_interface_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_neighbor_discovery_settings#discover_interface_list IpNeighborDiscoverySettings#discover_interface_list}
   */
   readonly discoverInterfaceList?: string;
   /**
   * An option to adjust the frequency at which neighbor discovery packets are transmitted. The setting is available since RouterOS version 7.16.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_neighbor_discovery_settings#discover_interval IpNeighborDiscoverySettings#discover_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_neighbor_discovery_settings#discover_interval IpNeighborDiscoverySettings#discover_interval}
   */
   readonly discoverInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_neighbor_discovery_settings#id IpNeighborDiscoverySettings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_neighbor_discovery_settings#id IpNeighborDiscoverySettings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,19 +35,19 @@ export interface IpNeighborDiscoverySettingsConfig extends cdktf.TerraformMetaAr
   /**
   * Whether to send Data Center Bridging Capabilities Exchange Protocol (DCBX) TLVs, which allows to communicate switch QoS settings and capabilities with other neighboring devices using LLDP. **Only applies to CRS3xx, CRS5xx, CCR2116 and CCR2216 devices.**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_neighbor_discovery_settings#lldp_dcbx IpNeighborDiscoverySettings#lldp_dcbx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_neighbor_discovery_settings#lldp_dcbx IpNeighborDiscoverySettings#lldp_dcbx}
   */
   readonly lldpDcbx?: boolean | cdktf.IResolvable;
   /**
   * Whether to send MAC/PHY Configuration/Status TLV in LLDP, which indicates the interface capabilities, current setting of the duplex status, bit rate, and auto-negotiation. Only applies to the Ethernet interfaces. While TLV is optional in LLDP, it is mandatory when sending LLDP-MED, meaning this TLV will be included when necessary even though the property is configured as disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_neighbor_discovery_settings#lldp_mac_phy_config IpNeighborDiscoverySettings#lldp_mac_phy_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_neighbor_discovery_settings#lldp_mac_phy_config IpNeighborDiscoverySettings#lldp_mac_phy_config}
   */
   readonly lldpMacPhyConfig?: boolean | cdktf.IResolvable;
   /**
   * Whether to send Maximum Frame Size TLV in LLDP, which indicates the maximum frame size capability of the interface in bytes (`l2mtu + 18`). Only applies to the Ethernet interfaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_neighbor_discovery_settings#lldp_max_frame_size IpNeighborDiscoverySettings#lldp_max_frame_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_neighbor_discovery_settings#lldp_max_frame_size IpNeighborDiscoverySettings#lldp_max_frame_size}
   */
   readonly lldpMaxFrameSize?: boolean | cdktf.IResolvable;
   /**
@@ -59,37 +59,37 @@ export interface IpNeighborDiscoverySettingsConfig extends cdktf.TerraformMetaAr
   * When used together with the bridge interface, the (R/M)STP protocol should be enabled with protocol-mode setting.
   * Additionally, other neighbor discovery protocols (e.g. CDP) should be excluded using protocol setting to avoid LLDP-MED misconfiguration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_neighbor_discovery_settings#lldp_med_net_policy_vlan IpNeighborDiscoverySettings#lldp_med_net_policy_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_neighbor_discovery_settings#lldp_med_net_policy_vlan IpNeighborDiscoverySettings#lldp_med_net_policy_vlan}
   */
   readonly lldpMedNetPolicyVlan?: string;
   /**
   * Two specific TLVs facilitate Power over Ethernet (PoE) management between Power Sourcing Equipment (PSE) and Powered Devices (PD).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_neighbor_discovery_settings#lldp_poe_power IpNeighborDiscoverySettings#lldp_poe_power}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_neighbor_discovery_settings#lldp_poe_power IpNeighborDiscoverySettings#lldp_poe_power}
   */
   readonly lldpPoePower?: boolean | cdktf.IResolvable;
   /**
   * An option whether to send IEEE 802.1 Organizationally Specific TLVs in LLDP related to VLANs. The setting is available since RouterOS version 7.16.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_neighbor_discovery_settings#lldp_vlan_info IpNeighborDiscoverySettings#lldp_vlan_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_neighbor_discovery_settings#lldp_vlan_info IpNeighborDiscoverySettings#lldp_vlan_info}
   */
   readonly lldpVlanInfo?: boolean | cdktf.IResolvable;
   /**
   * Selects the neighbor discovery packet sending and receiving mode. The setting is available since RouterOS version 7.7.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_neighbor_discovery_settings#mode IpNeighborDiscoverySettings#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_neighbor_discovery_settings#mode IpNeighborDiscoverySettings#mode}
   */
   readonly mode?: string;
   /**
   * List of used discovery protocols.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_neighbor_discovery_settings#protocol IpNeighborDiscoverySettings#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_neighbor_discovery_settings#protocol IpNeighborDiscoverySettings#protocol}
   */
   readonly protocol?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_neighbor_discovery_settings routeros_ip_neighbor_discovery_settings}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_neighbor_discovery_settings routeros_ip_neighbor_discovery_settings}
 */
 export class IpNeighborDiscoverySettings extends cdktf.TerraformResource {
 
@@ -105,7 +105,7 @@ export class IpNeighborDiscoverySettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpNeighborDiscoverySettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpNeighborDiscoverySettings to import
-  * @param importFromId The id of the existing IpNeighborDiscoverySettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_neighbor_discovery_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpNeighborDiscoverySettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_neighbor_discovery_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpNeighborDiscoverySettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -117,7 +117,7 @@ export class IpNeighborDiscoverySettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_neighbor_discovery_settings routeros_ip_neighbor_discovery_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_neighbor_discovery_settings routeros_ip_neighbor_discovery_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -128,8 +128,8 @@ export class IpNeighborDiscoverySettings extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_ip_neighbor_discovery_settings',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.95.0',
-        providerVersionConstraint: '1.95.0'
+        providerVersion: '1.96.0',
+        providerVersionConstraint: '1.96.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

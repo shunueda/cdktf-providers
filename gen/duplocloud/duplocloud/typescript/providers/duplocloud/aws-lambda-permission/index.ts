@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lambda_permission
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lambda_permission
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface AwsLambdaPermissionConfig extends cdktf.TerraformMetaArguments 
   /**
   * The AWS Lambda action you want to allow in this statement. (e.g. `lambda:InvokeFunction`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lambda_permission#action AwsLambdaPermission#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lambda_permission#action AwsLambdaPermission#action}
   */
   readonly action: string;
   /**
   * The Event Source Token to validate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lambda_permission#event_source_token AwsLambdaPermission#event_source_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lambda_permission#event_source_token AwsLambdaPermission#event_source_token}
   */
   readonly eventSourceToken?: string;
   /**
   * Name of the Lambda function whose resource policy you are updating.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lambda_permission#function_name AwsLambdaPermission#function_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lambda_permission#function_name AwsLambdaPermission#function_name}
   */
   readonly functionName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lambda_permission#id AwsLambdaPermission#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lambda_permission#id AwsLambdaPermission#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,53 +35,53 @@ export interface AwsLambdaPermissionConfig extends cdktf.TerraformMetaArguments 
   /**
   * The principal who is getting this permission.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lambda_permission#principal AwsLambdaPermission#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lambda_permission#principal AwsLambdaPermission#principal}
   */
   readonly principal: string;
   /**
   * Query parameter to specify function version or alias name. The permission will then apply to the specific qualified ARN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lambda_permission#qualifier AwsLambdaPermission#qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lambda_permission#qualifier AwsLambdaPermission#qualifier}
   */
   readonly qualifier?: string;
   /**
   * This parameter is used for S3 and SES. The AWS account ID (without a hyphen) of the source owner.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lambda_permission#source_account AwsLambdaPermission#source_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lambda_permission#source_account AwsLambdaPermission#source_account}
   */
   readonly sourceAccount?: string;
   /**
   * When the principal is an AWS service, the ARN of the specific resource within that service to grant permission to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lambda_permission#source_arn AwsLambdaPermission#source_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lambda_permission#source_arn AwsLambdaPermission#source_arn}
   */
   readonly sourceArn?: string;
   /**
   * A unique statement identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lambda_permission#statement_id AwsLambdaPermission#statement_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lambda_permission#statement_id AwsLambdaPermission#statement_id}
   */
   readonly statementId: string;
   /**
   * The GUID of the tenant that the lambda permission will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lambda_permission#tenant_id AwsLambdaPermission#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lambda_permission#tenant_id AwsLambdaPermission#tenant_id}
   */
   readonly tenantId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lambda_permission#timeouts AwsLambdaPermission#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lambda_permission#timeouts AwsLambdaPermission#timeouts}
   */
   readonly timeouts?: AwsLambdaPermissionTimeouts;
 }
 export interface AwsLambdaPermissionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lambda_permission#create AwsLambdaPermission#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lambda_permission#create AwsLambdaPermission#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lambda_permission#delete AwsLambdaPermission#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lambda_permission#delete AwsLambdaPermission#delete}
   */
   readonly delete?: string;
 }
@@ -204,7 +204,7 @@ export class AwsLambdaPermissionTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lambda_permission duplocloud_aws_lambda_permission}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lambda_permission duplocloud_aws_lambda_permission}
 */
 export class AwsLambdaPermission extends cdktf.TerraformResource {
 
@@ -220,7 +220,7 @@ export class AwsLambdaPermission extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsLambdaPermission resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsLambdaPermission to import
-  * @param importFromId The id of the existing AwsLambdaPermission that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lambda_permission#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsLambdaPermission that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lambda_permission#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsLambdaPermission to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -232,7 +232,7 @@ export class AwsLambdaPermission extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lambda_permission duplocloud_aws_lambda_permission} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_lambda_permission duplocloud_aws_lambda_permission} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -243,8 +243,8 @@ export class AwsLambdaPermission extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_aws_lambda_permission',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.29',
-        providerVersionConstraint: '0.11.29'
+        providerVersion: '0.11.30',
+        providerVersionConstraint: '0.11.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

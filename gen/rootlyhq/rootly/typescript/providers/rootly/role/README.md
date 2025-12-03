@@ -1,3 +1,3 @@
 # `rootly_role`
 
-Refer to the Terraform Registry for docs: [`rootly_role`](https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/role).
+Refer to the Terraform Registry for docs: [`rootly_role`](https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/role).

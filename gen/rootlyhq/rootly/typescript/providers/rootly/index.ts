@@ -126,6 +126,7 @@ export * as workflowTaskCreateSharepointPage from './workflow-task-create-sharep
 export * as workflowTaskCreateShortcutStory from './workflow-task-create-shortcut-story';
 export * as workflowTaskCreateShortcutTask from './workflow-task-create-shortcut-task';
 export * as workflowTaskCreateSlackChannel from './workflow-task-create-slack-channel';
+export * as workflowTaskCreateSubIncident from './workflow-task-create-sub-incident';
 export * as workflowTaskCreateTrelloCard from './workflow-task-create-trello-card';
 export * as workflowTaskCreateWatsonxChatCompletion from './workflow-task-create-watsonx-chat-completion';
 export * as workflowTaskCreateWebexMeeting from './workflow-task-create-webex-meeting';

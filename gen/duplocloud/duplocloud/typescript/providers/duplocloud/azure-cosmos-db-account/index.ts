@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_cosmos_db_account
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_cosmos_db_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface AzureCosmosDbAccountConfig extends cdktf.TerraformMetaArguments
   /**
   * Disable write operations on metadata resources (databases, containers, throughput) via account keys Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_cosmos_db_account#disable_key_based_metadata_write_access AzureCosmosDbAccount#disable_key_based_metadata_write_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_cosmos_db_account#disable_key_based_metadata_write_access AzureCosmosDbAccount#disable_key_based_metadata_write_access}
   */
   readonly disableKeyBasedMetadataWriteAccess?: boolean | cdktf.IResolvable;
   /**
   * Flag to indicate whether Free Tier is enabled. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_cosmos_db_account#enable_free_tier AzureCosmosDbAccount#enable_free_tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_cosmos_db_account#enable_free_tier AzureCosmosDbAccount#enable_free_tier}
   */
   readonly enableFreeTier?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_cosmos_db_account#id AzureCosmosDbAccount#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_cosmos_db_account#id AzureCosmosDbAccount#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,7 +29,7 @@ export interface AzureCosmosDbAccountConfig extends cdktf.TerraformMetaArguments
   /**
   * Enables virtual network filtering for this Cosmos DB account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_cosmos_db_account#is_virtual_network_filter_enabled AzureCosmosDbAccount#is_virtual_network_filter_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_cosmos_db_account#is_virtual_network_filter_enabled AzureCosmosDbAccount#is_virtual_network_filter_enabled}
   */
   readonly isVirtualNetworkFilterEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -37,67 +37,67 @@ export interface AzureCosmosDbAccountConfig extends cdktf.TerraformMetaArguments
   * 			Allowed Account Kind : GlobalDocumentDB.
   * 			Future support MongoDB, Parse
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_cosmos_db_account#kind AzureCosmosDbAccount#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_cosmos_db_account#kind AzureCosmosDbAccount#kind}
   */
   readonly kind: string;
   /**
   * The name for availability set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_cosmos_db_account#name AzureCosmosDbAccount#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_cosmos_db_account#name AzureCosmosDbAccount#name}
   */
   readonly name: string;
   /**
   * Flag to indicate whether to enable/disable public network access. Defaults to `Enabled`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_cosmos_db_account#public_network_access AzureCosmosDbAccount#public_network_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_cosmos_db_account#public_network_access AzureCosmosDbAccount#public_network_access}
   */
   readonly publicNetworkAccess?: string;
   /**
   * The GUID of the tenant that the host will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_cosmos_db_account#tenant_id AzureCosmosDbAccount#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_cosmos_db_account#tenant_id AzureCosmosDbAccount#tenant_id}
   */
   readonly tenantId: string;
   /**
   * Specifies the  Cosmos DB account type. Defaults to `Microsoft.DocumentDB/databaseAccounts`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_cosmos_db_account#type AzureCosmosDbAccount#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_cosmos_db_account#type AzureCosmosDbAccount#type}
   */
   readonly type?: string;
   /**
   * backup_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_cosmos_db_account#backup_policy AzureCosmosDbAccount#backup_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_cosmos_db_account#backup_policy AzureCosmosDbAccount#backup_policy}
   */
   readonly backupPolicy?: AzureCosmosDbAccountBackupPolicy;
   /**
   * capabilities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_cosmos_db_account#capabilities AzureCosmosDbAccount#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_cosmos_db_account#capabilities AzureCosmosDbAccount#capabilities}
   */
   readonly capabilities?: AzureCosmosDbAccountCapabilities[] | cdktf.IResolvable;
   /**
   * consistency_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_cosmos_db_account#consistency_policy AzureCosmosDbAccount#consistency_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_cosmos_db_account#consistency_policy AzureCosmosDbAccount#consistency_policy}
   */
   readonly consistencyPolicy?: AzureCosmosDbAccountConsistencyPolicy;
   /**
   * geo_location block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_cosmos_db_account#geo_location AzureCosmosDbAccount#geo_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_cosmos_db_account#geo_location AzureCosmosDbAccount#geo_location}
   */
   readonly geoLocation: AzureCosmosDbAccountGeoLocation[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_cosmos_db_account#timeouts AzureCosmosDbAccount#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_cosmos_db_account#timeouts AzureCosmosDbAccount#timeouts}
   */
   readonly timeouts?: AzureCosmosDbAccountTimeouts;
   /**
   * virtual_network_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_cosmos_db_account#virtual_network_rule AzureCosmosDbAccount#virtual_network_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_cosmos_db_account#virtual_network_rule AzureCosmosDbAccount#virtual_network_rule}
   */
   readonly virtualNetworkRule?: AzureCosmosDbAccountVirtualNetworkRule[] | cdktf.IResolvable;
 }
@@ -105,19 +105,19 @@ export interface AzureCosmosDbAccountBackupPolicy {
   /**
   * Backup interval in minutes. Can be configured when type is set to Periodic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_cosmos_db_account#backup_interval AzureCosmosDbAccount#backup_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_cosmos_db_account#backup_interval AzureCosmosDbAccount#backup_interval}
   */
   readonly backupInterval?: number;
   /**
   * Backup retention interval in hours
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_cosmos_db_account#backup_retention_interval AzureCosmosDbAccount#backup_retention_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_cosmos_db_account#backup_retention_interval AzureCosmosDbAccount#backup_retention_interval}
   */
   readonly backupRetentionInterval?: number;
   /**
   * Backup storage redundancy type. Valid values are Geo, Local, Zone. Defaults to Geo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_cosmos_db_account#backup_storage_redundancy AzureCosmosDbAccount#backup_storage_redundancy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_cosmos_db_account#backup_storage_redundancy AzureCosmosDbAccount#backup_storage_redundancy}
   */
   readonly backupStorageRedundancy?: string;
   /**
@@ -125,7 +125,7 @@ export interface AzureCosmosDbAccountBackupPolicy {
   * 						> ⚠️ **Note:**: 
   * 						> Update from Periodic to Continuous type is allowed. To change from Periodic to Continuous resource need to be recreated Defaults to `Periodic`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_cosmos_db_account#type AzureCosmosDbAccount#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_cosmos_db_account#type AzureCosmosDbAccount#type}
   */
   readonly type?: string;
 }
@@ -303,7 +303,7 @@ export interface AzureCosmosDbAccountCapabilities {
   /**
   * Name of the Cosmos DB capability, for example, 'EnableServerless'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_cosmos_db_account#name AzureCosmosDbAccount#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_cosmos_db_account#name AzureCosmosDbAccount#name}
   */
   readonly name: string;
 }
@@ -418,19 +418,19 @@ export interface AzureCosmosDbAccountConsistencyPolicy {
   /**
   * Specify the default consistency level and configuration settings of the Cosmos DB account. Possible values include: 'Eventual', 'Session', 'BoundedStaleness','Strong', 'ConsistentPrefix'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_cosmos_db_account#default_consistency_level AzureCosmosDbAccount#default_consistency_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_cosmos_db_account#default_consistency_level AzureCosmosDbAccount#default_consistency_level}
   */
   readonly defaultConsistencyLevel?: string;
   /**
   * When used with the 'Bounded Staleness' consistency level, this value represents the time amount of staleness (in seconds) tolerated. The accepted range for this value is 5 - 86400 (1 day). Required when consistency_level is set to BoundedStaleness.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_cosmos_db_account#max_interval_in_seconds AzureCosmosDbAccount#max_interval_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_cosmos_db_account#max_interval_in_seconds AzureCosmosDbAccount#max_interval_in_seconds}
   */
   readonly maxIntervalInSeconds?: number;
   /**
   * When used with the 'Bounded Staleness' consistency level, this value represents the number of stale requests tolerated. The accepted range for this value is 10 – 2147483647. Defaults to 100. Required when 'consistency_level' is set to 'BoundedStaleness'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_cosmos_db_account#max_staleness_prefix AzureCosmosDbAccount#max_staleness_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_cosmos_db_account#max_staleness_prefix AzureCosmosDbAccount#max_staleness_prefix}
   */
   readonly maxStalenessPrefix?: number;
 }
@@ -574,19 +574,19 @@ export interface AzureCosmosDbAccountGeoLocation {
   /**
   * The failover priority of the region. A failover priority of 0 indicates a write region. The maximum value for a failover priority = (total number of regions - 1). Failover priority values must be unique for each of the regions in which the database account exists. Changing this causes the location to be re-provisioned and cannot be changed for the location with failover priority 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_cosmos_db_account#failover_priority AzureCosmosDbAccount#failover_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_cosmos_db_account#failover_priority AzureCosmosDbAccount#failover_priority}
   */
   readonly failoverPriority: number;
   /**
   * Should zone redundancy be enabled for this region? Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_cosmos_db_account#is_zone_redundant AzureCosmosDbAccount#is_zone_redundant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_cosmos_db_account#is_zone_redundant AzureCosmosDbAccount#is_zone_redundant}
   */
   readonly isZoneRedundant?: boolean | cdktf.IResolvable;
   /**
   * The name of the Azure region to host replicated data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_cosmos_db_account#location_name AzureCosmosDbAccount#location_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_cosmos_db_account#location_name AzureCosmosDbAccount#location_name}
   */
   readonly locationName: string;
 }
@@ -754,15 +754,15 @@ export class AzureCosmosDbAccountGeoLocationList extends cdktf.ComplexList {
 }
 export interface AzureCosmosDbAccountTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_cosmos_db_account#create AzureCosmosDbAccount#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_cosmos_db_account#create AzureCosmosDbAccount#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_cosmos_db_account#delete AzureCosmosDbAccount#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_cosmos_db_account#delete AzureCosmosDbAccount#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_cosmos_db_account#update AzureCosmosDbAccount#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_cosmos_db_account#update AzureCosmosDbAccount#update}
   */
   readonly update?: string;
 }
@@ -916,13 +916,13 @@ export interface AzureCosmosDbAccountVirtualNetworkRule {
   /**
   * If set to true, the specified subnet will be added as a virtual network rule even if its CosmosDB service endpoint is not active Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_cosmos_db_account#ignore_missing_vnet_service_endpoint AzureCosmosDbAccount#ignore_missing_vnet_service_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_cosmos_db_account#ignore_missing_vnet_service_endpoint AzureCosmosDbAccount#ignore_missing_vnet_service_endpoint}
   */
   readonly ignoreMissingVnetServiceEndpoint?: boolean | cdktf.IResolvable;
   /**
   * The ID of the subnet to allow access to this CosmosDB account. This should be in the format /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/virtualNetworks/{virtualNetworkName}/subnets/{subnetName}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_cosmos_db_account#subnet_id AzureCosmosDbAccount#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_cosmos_db_account#subnet_id AzureCosmosDbAccount#subnet_id}
   */
   readonly subnetId: string;
 }
@@ -1064,7 +1064,7 @@ export class AzureCosmosDbAccountVirtualNetworkRuleList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_cosmos_db_account duplocloud_azure_cosmos_db_account}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_cosmos_db_account duplocloud_azure_cosmos_db_account}
 */
 export class AzureCosmosDbAccount extends cdktf.TerraformResource {
 
@@ -1080,7 +1080,7 @@ export class AzureCosmosDbAccount extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AzureCosmosDbAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AzureCosmosDbAccount to import
-  * @param importFromId The id of the existing AzureCosmosDbAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_cosmos_db_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AzureCosmosDbAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_cosmos_db_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AzureCosmosDbAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1092,7 +1092,7 @@ export class AzureCosmosDbAccount extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_cosmos_db_account duplocloud_azure_cosmos_db_account} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_cosmos_db_account duplocloud_azure_cosmos_db_account} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1103,8 +1103,8 @@ export class AzureCosmosDbAccount extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_azure_cosmos_db_account',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.29',
-        providerVersionConstraint: '0.11.29'
+        providerVersion: '0.11.30',
+        providerVersionConstraint: '0.11.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

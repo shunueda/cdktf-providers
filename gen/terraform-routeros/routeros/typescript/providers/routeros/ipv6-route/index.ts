@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ipv6_route
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ipv6_route
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface Ipv6RouteConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ipv6_route#___path___ Ipv6Route#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ipv6_route#___path___ Ipv6Route#___path___}
   */
   readonly path?: string;
   /**
   * It's a blackhole route. If you need to cancel route marking, then simply delete the parameter from the configuration of the TF. The value of the parameter (true or false) has no effect on the MT processing logic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ipv6_route#blackhole Ipv6Route#blackhole}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ipv6_route#blackhole Ipv6Route#blackhole}
   */
   readonly blackhole?: boolean | cdktf.IResolvable;
   /**
   * Currently used check-gateway option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ipv6_route#check_gateway Ipv6Route#check_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ipv6_route#check_gateway Ipv6Route#check_gateway}
   */
   readonly checkGateway?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ipv6_route#comment Ipv6Route#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ipv6_route#comment Ipv6Route#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ipv6_route#disabled Ipv6Route#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ipv6_route#disabled Ipv6Route#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Value used in route selection. Routes with smaller distance value are given preference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ipv6_route#distance Ipv6Route#distance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ipv6_route#distance Ipv6Route#distance}
   */
   readonly distance?: number;
   /**
   * IP prefix of route, specifies destination addresses that this route can be used for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ipv6_route#dst_address Ipv6Route#dst_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ipv6_route#dst_address Ipv6Route#dst_address}
   */
   readonly dstAddress: string;
   /**
   * Array of IP addresses or interface names. Specifies which host or interface packets should be sent to (IP | interface | IP%interface | IP@table[, IP | string, [..]]).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ipv6_route#gateway Ipv6Route#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ipv6_route#gateway Ipv6Route#gateway}
   */
   readonly gateway: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ipv6_route#id Ipv6Route#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ipv6_route#id Ipv6Route#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -61,41 +61,41 @@ export interface Ipv6RouteConfig extends cdktf.TerraformMetaArguments {
   /**
   * Which of the local IP addresses to use for locally originated packets that are sent via this route. Value of this property has no effect on forwarded packets. If value of this property is set to IP address that is not local address of this router then the route will be inactive (in ROS v6, ROS v7 allows IP spoofing).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ipv6_route#pref_src Ipv6Route#pref_src}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ipv6_route#pref_src Ipv6Route#pref_src}
   */
   readonly prefSrc?: string;
   /**
   * Routing table this route belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ipv6_route#routing_table Ipv6Route#routing_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ipv6_route#routing_table Ipv6Route#routing_table}
   */
   readonly routingTable?: string;
   /**
   * Used in nexthop resolution. Route can resolve nexthop only through routes that have scope less than or equal to the target-scope of this route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ipv6_route#scope Ipv6Route#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ipv6_route#scope Ipv6Route#scope}
   */
   readonly scope?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ipv6_route#suppress_hw_offload Ipv6Route#suppress_hw_offload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ipv6_route#suppress_hw_offload Ipv6Route#suppress_hw_offload}
   */
   readonly suppressHwOffload?: boolean | cdktf.IResolvable;
   /**
   * Used in nexthop resolution. This is the maximum value of scope for a route through which a nexthop of this route can be resolved.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ipv6_route#target_scope Ipv6Route#target_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ipv6_route#target_scope Ipv6Route#target_scope}
   */
   readonly targetScope?: number;
   /**
   * VRF interface name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ipv6_route#vrf_interface Ipv6Route#vrf_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ipv6_route#vrf_interface Ipv6Route#vrf_interface}
   */
   readonly vrfInterface?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ipv6_route routeros_ipv6_route}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ipv6_route routeros_ipv6_route}
 */
 export class Ipv6Route extends cdktf.TerraformResource {
 
@@ -111,7 +111,7 @@ export class Ipv6Route extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Ipv6Route resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ipv6Route to import
-  * @param importFromId The id of the existing Ipv6Route that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ipv6_route#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ipv6Route that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ipv6_route#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ipv6Route to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -123,7 +123,7 @@ export class Ipv6Route extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ipv6_route routeros_ipv6_route} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ipv6_route routeros_ipv6_route} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -134,8 +134,8 @@ export class Ipv6Route extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_ipv6_route',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.95.0',
-        providerVersionConstraint: '1.95.0'
+        providerVersion: '1.96.0',
+        providerVersionConstraint: '1.96.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

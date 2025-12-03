@@ -134,7 +134,9 @@ Object.defineProperty(exports, 'tenant', { get: function () { return require('./
 Object.defineProperty(exports, 'tenantAccessGrant', { get: function () { return require('./tenant-access-grant'); } });
 Object.defineProperty(exports, 'tenantCleanupTimers', { get: function () { return require('./tenant-cleanup-timers'); } });
 Object.defineProperty(exports, 'tenantConfig', { get: function () { return require('./tenant-config'); } });
+Object.defineProperty(exports, 'tenantK8SResourceQuota', { get: function () { return require('./tenant-k8s-resource-quota'); } });
 Object.defineProperty(exports, 'tenantKms', { get: function () { return require('./tenant-kms'); } });
+Object.defineProperty(exports, 'tenantMetadata', { get: function () { return require('./tenant-metadata'); } });
 Object.defineProperty(exports, 'tenantNetworkSecurityRule', { get: function () { return require('./tenant-network-security-rule'); } });
 Object.defineProperty(exports, 'tenantSecret', { get: function () { return require('./tenant-secret'); } });
 Object.defineProperty(exports, 'tenantTag', { get: function () { return require('./tenant-tag'); } });

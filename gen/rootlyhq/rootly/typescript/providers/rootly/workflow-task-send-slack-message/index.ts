@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_slack_message
+// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_send_slack_message
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkflowTaskSendSlackMessageConfig extends cdktf.TerraformMetaA
   /**
   * Enable/disable this workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_slack_message#enabled WorkflowTaskSendSlackMessage#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_send_slack_message#enabled WorkflowTaskSendSlackMessage#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_slack_message#id WorkflowTaskSendSlackMessage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_send_slack_message#id WorkflowTaskSendSlackMessage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,44 +23,44 @@ export interface WorkflowTaskSendSlackMessageConfig extends cdktf.TerraformMetaA
   /**
   * Name of the workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_slack_message#name WorkflowTaskSendSlackMessage#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_send_slack_message#name WorkflowTaskSendSlackMessage#name}
   */
   readonly name?: string;
   /**
   * The position of the workflow task (1 being top of list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_slack_message#position WorkflowTaskSendSlackMessage#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_send_slack_message#position WorkflowTaskSendSlackMessage#position}
   */
   readonly position?: number;
   /**
   * Skip workflow task if any failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_slack_message#skip_on_failure WorkflowTaskSendSlackMessage#skip_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_send_slack_message#skip_on_failure WorkflowTaskSendSlackMessage#skip_on_failure}
   */
   readonly skipOnFailure?: boolean | cdktf.IResolvable;
   /**
   * The ID of the parent workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_slack_message#workflow_id WorkflowTaskSendSlackMessage#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_send_slack_message#workflow_id WorkflowTaskSendSlackMessage#workflow_id}
   */
   readonly workflowId: string;
   /**
   * task_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_slack_message#task_params WorkflowTaskSendSlackMessage#task_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_send_slack_message#task_params WorkflowTaskSendSlackMessage#task_params}
   */
   readonly taskParams: WorkflowTaskSendSlackMessageTaskParams;
 }
 export interface WorkflowTaskSendSlackMessageTaskParamsChannels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_slack_message#id WorkflowTaskSendSlackMessage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_send_slack_message#id WorkflowTaskSendSlackMessage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_slack_message#name WorkflowTaskSendSlackMessage#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_send_slack_message#name WorkflowTaskSendSlackMessage#name}
   */
   readonly name: string;
 }
@@ -199,14 +199,14 @@ export class WorkflowTaskSendSlackMessageTaskParamsChannelsList extends cdktf.Co
 }
 export interface WorkflowTaskSendSlackMessageTaskParamsSlackUserGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_slack_message#id WorkflowTaskSendSlackMessage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_send_slack_message#id WorkflowTaskSendSlackMessage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_slack_message#name WorkflowTaskSendSlackMessage#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_send_slack_message#name WorkflowTaskSendSlackMessage#name}
   */
   readonly name: string;
 }
@@ -345,14 +345,14 @@ export class WorkflowTaskSendSlackMessageTaskParamsSlackUserGroupsList extends c
 }
 export interface WorkflowTaskSendSlackMessageTaskParamsSlackUsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_slack_message#id WorkflowTaskSendSlackMessage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_send_slack_message#id WorkflowTaskSendSlackMessage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_slack_message#name WorkflowTaskSendSlackMessage#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_send_slack_message#name WorkflowTaskSendSlackMessage#name}
   */
   readonly name: string;
 }
@@ -493,83 +493,83 @@ export interface WorkflowTaskSendSlackMessageTaskParams {
   /**
   * Value must be one of `update_summary`, `update_status`, `archive_channel`, `manage_incident_roles`, `update_incident`, `all_commands`, `leave_feedback`, `manage_form_fields`, `manage_action_items`, `view_tasks`, `add_pagerduty_responders`, `add_opsgenie_responders`, `add_victor_ops_responders`, `update_status_page`, `pause_reminder`, `snooze_reminder`, `restart_reminder`, `cancel_incident`, `delete_message`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_slack_message#actionables WorkflowTaskSendSlackMessage#actionables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_send_slack_message#actionables WorkflowTaskSendSlackMessage#actionables}
   */
   readonly actionables?: string[];
   /**
   * Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_slack_message#broadcast_thread_reply_to_channel WorkflowTaskSendSlackMessage#broadcast_thread_reply_to_channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_send_slack_message#broadcast_thread_reply_to_channel WorkflowTaskSendSlackMessage#broadcast_thread_reply_to_channel}
   */
   readonly broadcastThreadReplyToChannel?: boolean | cdktf.IResolvable;
   /**
   * A hex color 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_slack_message#color WorkflowTaskSendSlackMessage#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_send_slack_message#color WorkflowTaskSendSlackMessage#color}
   */
   readonly color?: string;
   /**
   * Map must contain two fields, `id` and `name`. A hash where [id] is the task id of the parent task that sent a message, and [name] is the name of the parent task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_slack_message#parent_message_thread_task WorkflowTaskSendSlackMessage#parent_message_thread_task}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_send_slack_message#parent_message_thread_task WorkflowTaskSendSlackMessage#parent_message_thread_task}
   */
   readonly parentMessageThreadTask?: { [key: string]: string };
   /**
   * Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_slack_message#pin_to_channel WorkflowTaskSendSlackMessage#pin_to_channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_send_slack_message#pin_to_channel WorkflowTaskSendSlackMessage#pin_to_channel}
   */
   readonly pinToChannel?: boolean | cdktf.IResolvable;
   /**
   * Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_slack_message#send_as_ephemeral WorkflowTaskSendSlackMessage#send_as_ephemeral}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_send_slack_message#send_as_ephemeral WorkflowTaskSendSlackMessage#send_as_ephemeral}
   */
   readonly sendAsEphemeral?: boolean | cdktf.IResolvable;
   /**
   * When set to true, if the parent for this threaded message cannot be found the message will be skipped.. Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_slack_message#send_only_as_threaded_message WorkflowTaskSendSlackMessage#send_only_as_threaded_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_send_slack_message#send_only_as_threaded_message WorkflowTaskSendSlackMessage#send_only_as_threaded_message}
   */
   readonly sendOnlyAsThreadedMessage?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_slack_message#task_type WorkflowTaskSendSlackMessage#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_send_slack_message#task_type WorkflowTaskSendSlackMessage#task_type}
   */
   readonly taskType?: string;
   /**
   * The message text
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_slack_message#text WorkflowTaskSendSlackMessage#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_send_slack_message#text WorkflowTaskSendSlackMessage#text}
   */
   readonly text: string;
   /**
   * The thread to send the message into
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_slack_message#thread_ts WorkflowTaskSendSlackMessage#thread_ts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_send_slack_message#thread_ts WorkflowTaskSendSlackMessage#thread_ts}
   */
   readonly threadTs?: string;
   /**
   * Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_slack_message#update_parent_message WorkflowTaskSendSlackMessage#update_parent_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_send_slack_message#update_parent_message WorkflowTaskSendSlackMessage#update_parent_message}
   */
   readonly updateParentMessage?: boolean | cdktf.IResolvable;
   /**
   * channels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_slack_message#channels WorkflowTaskSendSlackMessage#channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_send_slack_message#channels WorkflowTaskSendSlackMessage#channels}
   */
   readonly channels?: WorkflowTaskSendSlackMessageTaskParamsChannels[] | cdktf.IResolvable;
   /**
   * slack_user_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_slack_message#slack_user_groups WorkflowTaskSendSlackMessage#slack_user_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_send_slack_message#slack_user_groups WorkflowTaskSendSlackMessage#slack_user_groups}
   */
   readonly slackUserGroups?: WorkflowTaskSendSlackMessageTaskParamsSlackUserGroups[] | cdktf.IResolvable;
   /**
   * slack_users block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_slack_message#slack_users WorkflowTaskSendSlackMessage#slack_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_send_slack_message#slack_users WorkflowTaskSendSlackMessage#slack_users}
   */
   readonly slackUsers?: WorkflowTaskSendSlackMessageTaskParamsSlackUsers[] | cdktf.IResolvable;
 }
@@ -1027,7 +1027,7 @@ export class WorkflowTaskSendSlackMessageTaskParamsOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_slack_message rootly_workflow_task_send_slack_message}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_send_slack_message rootly_workflow_task_send_slack_message}
 */
 export class WorkflowTaskSendSlackMessage extends cdktf.TerraformResource {
 
@@ -1043,7 +1043,7 @@ export class WorkflowTaskSendSlackMessage extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkflowTaskSendSlackMessage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowTaskSendSlackMessage to import
-  * @param importFromId The id of the existing WorkflowTaskSendSlackMessage that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_slack_message#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowTaskSendSlackMessage that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_send_slack_message#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowTaskSendSlackMessage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1055,7 +1055,7 @@ export class WorkflowTaskSendSlackMessage extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_send_slack_message rootly_workflow_task_send_slack_message} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_send_slack_message rootly_workflow_task_send_slack_message} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1066,8 +1066,8 @@ export class WorkflowTaskSendSlackMessage extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_workflow_task_send_slack_message',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.9',
-        providerVersionConstraint: '4.3.9'
+        providerVersion: '4.3.10',
+        providerVersionConstraint: '4.3.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

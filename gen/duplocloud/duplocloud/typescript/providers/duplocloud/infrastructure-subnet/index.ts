@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_subnet
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure_subnet
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,70 +8,70 @@ import * as cdktf from 'cdktf';
 
 export interface InfrastructureSubnetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_subnet#cidr_block InfrastructureSubnet#cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure_subnet#cidr_block InfrastructureSubnet#cidr_block}
   */
   readonly cidrBlock: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_subnet#id InfrastructureSubnet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure_subnet#id InfrastructureSubnet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_subnet#infra_name InfrastructureSubnet#infra_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure_subnet#infra_name InfrastructureSubnet#infra_name}
   */
   readonly infraName: string;
   /**
   * Determines whether the isolated network is enabled. This is applicable only for Azure subnets. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_subnet#isolated_network InfrastructureSubnet#isolated_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure_subnet#isolated_network InfrastructureSubnet#isolated_network}
   */
   readonly isolatedNetwork?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_subnet#name InfrastructureSubnet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure_subnet#name InfrastructureSubnet#name}
   */
   readonly name: string;
   /**
   * The list of Service endpoints to associate with the azure subnet. Possible values include: `Microsoft.Storage`, `Microsoft.Sql`, `Microsoft.AzureActiveDirectory`, `Microsoft.AzureCosmosDB`, `Microsoft.Web`, `Microsoft.NetworkServiceEndpointTest`, `Microsoft.KeyVault`, `Microsoft.EventHub`, `Microsoft.ServiceBus`, `Microsoft.ContainerRegistry`, `Microsoft.CognitiveServices`, `Microsoft.Storage.Global`. This is applicable only for Azure subnets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_subnet#service_endpoints InfrastructureSubnet#service_endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure_subnet#service_endpoints InfrastructureSubnet#service_endpoints}
   */
   readonly serviceEndpoints?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_subnet#tags InfrastructureSubnet#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure_subnet#tags InfrastructureSubnet#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Specify subnet type. `private` and `public` is used for AWS subnet. Will be one of `none`, `appgwsubnet`, `appgw-internal-subnet`, `azurebastionsubnet`, `managedinstance`, `databrick-workspace`, `mysql-flexiserver`, `postgres-flexiserver` ,`app-service-plan`,`sql-server`,`cosmos-db` is used for azure. <br>`NOTE` :In Azure Delegation subnet configuration will be handled by Duplo based on Azure specific subnet type)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_subnet#type InfrastructureSubnet#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure_subnet#type InfrastructureSubnet#type}
   */
   readonly type: string;
   /**
   * The Duplo zone that the subnet resides in.  Will be one of:  `"A"`, `"B"`, `"C"`, or `"D"`. This is applicable only for AWS subnets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_subnet#zone InfrastructureSubnet#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure_subnet#zone InfrastructureSubnet#zone}
   */
   readonly zone?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_subnet#timeouts InfrastructureSubnet#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure_subnet#timeouts InfrastructureSubnet#timeouts}
   */
   readonly timeouts?: InfrastructureSubnetTimeouts;
 }
 export interface InfrastructureSubnetTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_subnet#create InfrastructureSubnet#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure_subnet#create InfrastructureSubnet#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_subnet#delete InfrastructureSubnet#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure_subnet#delete InfrastructureSubnet#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_subnet#update InfrastructureSubnet#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure_subnet#update InfrastructureSubnet#update}
   */
   readonly update?: string;
 }
@@ -223,7 +223,7 @@ export class InfrastructureSubnetTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_subnet duplocloud_infrastructure_subnet}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure_subnet duplocloud_infrastructure_subnet}
 */
 export class InfrastructureSubnet extends cdktf.TerraformResource {
 
@@ -239,7 +239,7 @@ export class InfrastructureSubnet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InfrastructureSubnet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InfrastructureSubnet to import
-  * @param importFromId The id of the existing InfrastructureSubnet that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_subnet#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InfrastructureSubnet that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure_subnet#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InfrastructureSubnet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -251,7 +251,7 @@ export class InfrastructureSubnet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_subnet duplocloud_infrastructure_subnet} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/infrastructure_subnet duplocloud_infrastructure_subnet} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -262,8 +262,8 @@ export class InfrastructureSubnet extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_infrastructure_subnet',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.29',
-        providerVersionConstraint: '0.11.29'
+        providerVersion: '0.11.30',
+        providerVersionConstraint: '0.11.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

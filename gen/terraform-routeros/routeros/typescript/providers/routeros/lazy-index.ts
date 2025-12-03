@@ -172,6 +172,7 @@ Object.defineProperty(exports, 'routingBgpConnection', { get: function () { retu
 Object.defineProperty(exports, 'routingBgpEvpn', { get: function () { return require('./routing-bgp-evpn'); } });
 Object.defineProperty(exports, 'routingBgpInstance', { get: function () { return require('./routing-bgp-instance'); } });
 Object.defineProperty(exports, 'routingBgpTemplate', { get: function () { return require('./routing-bgp-template'); } });
+Object.defineProperty(exports, 'routingBgpVpn', { get: function () { return require('./routing-bgp-vpn'); } });
 Object.defineProperty(exports, 'routingFilterRule', { get: function () { return require('./routing-filter-rule'); } });
 Object.defineProperty(exports, 'routingIgmpProxyInterface', { get: function () { return require('./routing-igmp-proxy-interface'); } });
 Object.defineProperty(exports, 'routingOspfArea', { get: function () { return require('./routing-ospf-area'); } });

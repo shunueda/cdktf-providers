@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/data-sources/ecs_service
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/ecs_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataDuplocloudEcsServiceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/data-sources/ecs_service#id DataDuplocloudEcsService#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/ecs_service#id DataDuplocloudEcsService#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataDuplocloudEcsServiceConfig extends cdktf.TerraformMetaArgum
   /**
   * The name of the service to create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/data-sources/ecs_service#name DataDuplocloudEcsService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/ecs_service#name DataDuplocloudEcsService#name}
   */
   readonly name: string;
   /**
   * The GUID of the tenant that the service will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/data-sources/ecs_service#tenant_id DataDuplocloudEcsService#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/ecs_service#tenant_id DataDuplocloudEcsService#tenant_id}
   */
   readonly tenantId: string;
 }
@@ -110,6 +110,187 @@ export class DataDuplocloudEcsServiceCapacityProviderStrategyList extends cdktf.
   */
   public get(index: number): DataDuplocloudEcsServiceCapacityProviderStrategyOutputReference {
     return new DataDuplocloudEcsServiceCapacityProviderStrategyOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataDuplocloudEcsServiceDeploymentConfigurationAlarms {
+}
+
+export function dataDuplocloudEcsServiceDeploymentConfigurationAlarmsToTerraform(struct?: DataDuplocloudEcsServiceDeploymentConfigurationAlarms): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataDuplocloudEcsServiceDeploymentConfigurationAlarmsToHclTerraform(struct?: DataDuplocloudEcsServiceDeploymentConfigurationAlarms): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataDuplocloudEcsServiceDeploymentConfigurationAlarmsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataDuplocloudEcsServiceDeploymentConfigurationAlarms | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataDuplocloudEcsServiceDeploymentConfigurationAlarms | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // enable - computed: true, optional: false, required: false
+  public get enable() {
+    return this.getBooleanAttribute('enable');
+  }
+
+  // names - computed: true, optional: false, required: false
+  public get names() {
+    return this.getListAttribute('names');
+  }
+
+  // rollback - computed: true, optional: false, required: false
+  public get rollback() {
+    return this.getBooleanAttribute('rollback');
+  }
+}
+
+export class DataDuplocloudEcsServiceDeploymentConfigurationAlarmsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataDuplocloudEcsServiceDeploymentConfigurationAlarmsOutputReference {
+    return new DataDuplocloudEcsServiceDeploymentConfigurationAlarmsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataDuplocloudEcsServiceDeploymentConfiguration {
+}
+
+export function dataDuplocloudEcsServiceDeploymentConfigurationToTerraform(struct?: DataDuplocloudEcsServiceDeploymentConfiguration): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataDuplocloudEcsServiceDeploymentConfigurationToHclTerraform(struct?: DataDuplocloudEcsServiceDeploymentConfiguration): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataDuplocloudEcsServiceDeploymentConfigurationOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataDuplocloudEcsServiceDeploymentConfiguration | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataDuplocloudEcsServiceDeploymentConfiguration | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // alarms - computed: true, optional: false, required: false
+  private _alarms = new DataDuplocloudEcsServiceDeploymentConfigurationAlarmsList(this, "alarms", false);
+  public get alarms() {
+    return this._alarms;
+  }
+
+  // enable_circuit_breaker - computed: true, optional: false, required: false
+  public get enableCircuitBreaker() {
+    return this.getBooleanAttribute('enable_circuit_breaker');
+  }
+
+  // maximum_percent - computed: true, optional: false, required: false
+  public get maximumPercent() {
+    return this.getNumberAttribute('maximum_percent');
+  }
+
+  // minimum_healthy_percent - computed: true, optional: false, required: false
+  public get minimumHealthyPercent() {
+    return this.getNumberAttribute('minimum_healthy_percent');
+  }
+
+  // rollback_circuit_breaker - computed: true, optional: false, required: false
+  public get rollbackCircuitBreaker() {
+    return this.getBooleanAttribute('rollback_circuit_breaker');
+  }
+}
+
+export class DataDuplocloudEcsServiceDeploymentConfigurationList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataDuplocloudEcsServiceDeploymentConfigurationOutputReference {
+    return new DataDuplocloudEcsServiceDeploymentConfigurationOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
 export interface DataDuplocloudEcsServiceLoadBalancerHealthCheckConfig {
@@ -383,9 +564,169 @@ export class DataDuplocloudEcsServiceLoadBalancerList extends cdktf.ComplexList 
     return new DataDuplocloudEcsServiceLoadBalancerOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface DataDuplocloudEcsServicePlacementConstraint {
+}
+
+export function dataDuplocloudEcsServicePlacementConstraintToTerraform(struct?: DataDuplocloudEcsServicePlacementConstraint): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataDuplocloudEcsServicePlacementConstraintToHclTerraform(struct?: DataDuplocloudEcsServicePlacementConstraint): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataDuplocloudEcsServicePlacementConstraintOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataDuplocloudEcsServicePlacementConstraint | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataDuplocloudEcsServicePlacementConstraint | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // expression - computed: true, optional: false, required: false
+  public get expression() {
+    return this.getStringAttribute('expression');
+  }
+
+  // type - computed: true, optional: false, required: false
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+}
+
+export class DataDuplocloudEcsServicePlacementConstraintList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataDuplocloudEcsServicePlacementConstraintOutputReference {
+    return new DataDuplocloudEcsServicePlacementConstraintOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataDuplocloudEcsServicePlacementStrategy {
+}
+
+export function dataDuplocloudEcsServicePlacementStrategyToTerraform(struct?: DataDuplocloudEcsServicePlacementStrategy): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataDuplocloudEcsServicePlacementStrategyToHclTerraform(struct?: DataDuplocloudEcsServicePlacementStrategy): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataDuplocloudEcsServicePlacementStrategyOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataDuplocloudEcsServicePlacementStrategy | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataDuplocloudEcsServicePlacementStrategy | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // field - computed: true, optional: false, required: false
+  public get field() {
+    return this.getStringAttribute('field');
+  }
+
+  // type - computed: true, optional: false, required: false
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+}
+
+export class DataDuplocloudEcsServicePlacementStrategyList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataDuplocloudEcsServicePlacementStrategyOutputReference {
+    return new DataDuplocloudEcsServicePlacementStrategyOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/data-sources/ecs_service duplocloud_ecs_service}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/ecs_service duplocloud_ecs_service}
 */
 export class DataDuplocloudEcsService extends cdktf.TerraformDataSource {
 
@@ -401,7 +742,7 @@ export class DataDuplocloudEcsService extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataDuplocloudEcsService resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataDuplocloudEcsService to import
-  * @param importFromId The id of the existing DataDuplocloudEcsService that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/data-sources/ecs_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataDuplocloudEcsService that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/ecs_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataDuplocloudEcsService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -413,7 +754,7 @@ export class DataDuplocloudEcsService extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/data-sources/ecs_service duplocloud_ecs_service} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/ecs_service duplocloud_ecs_service} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -424,8 +765,8 @@ export class DataDuplocloudEcsService extends cdktf.TerraformDataSource {
       terraformResourceType: 'duplocloud_ecs_service',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.29',
-        providerVersionConstraint: '0.11.29'
+        providerVersion: '0.11.30',
+        providerVersionConstraint: '0.11.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -448,6 +789,12 @@ export class DataDuplocloudEcsService extends cdktf.TerraformDataSource {
   private _capacityProviderStrategy = new DataDuplocloudEcsServiceCapacityProviderStrategyList(this, "capacity_provider_strategy", false);
   public get capacityProviderStrategy() {
     return this._capacityProviderStrategy;
+  }
+
+  // deployment_configuration - computed: true, optional: false, required: false
+  private _deploymentConfiguration = new DataDuplocloudEcsServiceDeploymentConfigurationList(this, "deployment_configuration", false);
+  public get deploymentConfiguration() {
+    return this._deploymentConfiguration;
   }
 
   // dns_prfx - computed: true, optional: false, required: false
@@ -508,6 +855,18 @@ export class DataDuplocloudEcsService extends cdktf.TerraformDataSource {
   // old_task_definition_buffer_size - computed: true, optional: false, required: false
   public get oldTaskDefinitionBufferSize() {
     return this.getNumberAttribute('old_task_definition_buffer_size');
+  }
+
+  // placement_constraint - computed: true, optional: false, required: false
+  private _placementConstraint = new DataDuplocloudEcsServicePlacementConstraintList(this, "placement_constraint", false);
+  public get placementConstraint() {
+    return this._placementConstraint;
+  }
+
+  // placement_strategy - computed: true, optional: false, required: false
+  private _placementStrategy = new DataDuplocloudEcsServicePlacementStrategyList(this, "placement_strategy", false);
+  public get placementStrategy() {
+    return this._placementStrategy;
   }
 
   // replicas - computed: true, optional: false, required: false

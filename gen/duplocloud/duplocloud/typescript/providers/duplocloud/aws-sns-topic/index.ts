@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_sns_topic
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_sns_topic
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface AwsSnsTopicConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether to enable content based deduplication for fifo type SNS topics Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_sns_topic#fifo_content_based_deduplication AwsSnsTopic#fifo_content_based_deduplication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_sns_topic#fifo_content_based_deduplication AwsSnsTopic#fifo_content_based_deduplication}
   */
   readonly fifoContentBasedDeduplication?: boolean | cdktf.IResolvable;
   /**
   * Whether the topic processes messages as fifo or not Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_sns_topic#fifo_topic AwsSnsTopic#fifo_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_sns_topic#fifo_topic AwsSnsTopic#fifo_topic}
   */
   readonly fifoTopic?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_sns_topic#id AwsSnsTopic#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_sns_topic#id AwsSnsTopic#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,35 +29,35 @@ export interface AwsSnsTopicConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of an AWS-managed customer master key (CMK) for Amazon SNS or a custom CMK.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_sns_topic#kms_key_id AwsSnsTopic#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_sns_topic#kms_key_id AwsSnsTopic#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * The name of the topic. Topic names must be made up of only uppercase and lowercase ASCII letters, numbers, underscores, and hyphens, and must be between 1 and 256 characters long.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_sns_topic#name AwsSnsTopic#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_sns_topic#name AwsSnsTopic#name}
   */
   readonly name: string;
   /**
   * The GUID of the tenant that the SNS topic will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_sns_topic#tenant_id AwsSnsTopic#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_sns_topic#tenant_id AwsSnsTopic#tenant_id}
   */
   readonly tenantId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_sns_topic#timeouts AwsSnsTopic#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_sns_topic#timeouts AwsSnsTopic#timeouts}
   */
   readonly timeouts?: AwsSnsTopicTimeouts;
 }
 export interface AwsSnsTopicTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_sns_topic#create AwsSnsTopic#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_sns_topic#create AwsSnsTopic#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_sns_topic#delete AwsSnsTopic#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_sns_topic#delete AwsSnsTopic#delete}
   */
   readonly delete?: string;
 }
@@ -180,7 +180,7 @@ export class AwsSnsTopicTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_sns_topic duplocloud_aws_sns_topic}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_sns_topic duplocloud_aws_sns_topic}
 */
 export class AwsSnsTopic extends cdktf.TerraformResource {
 
@@ -196,7 +196,7 @@ export class AwsSnsTopic extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsSnsTopic resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsSnsTopic to import
-  * @param importFromId The id of the existing AwsSnsTopic that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_sns_topic#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsSnsTopic that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_sns_topic#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsSnsTopic to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -208,7 +208,7 @@ export class AwsSnsTopic extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_sns_topic duplocloud_aws_sns_topic} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_sns_topic duplocloud_aws_sns_topic} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -219,8 +219,8 @@ export class AwsSnsTopic extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_aws_sns_topic',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.29',
-        providerVersionConstraint: '0.11.29'
+        providerVersion: '0.11.30',
+        providerVersionConstraint: '0.11.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

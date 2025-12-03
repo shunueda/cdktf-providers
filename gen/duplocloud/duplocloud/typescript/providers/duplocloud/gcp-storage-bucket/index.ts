@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_storage_bucket
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_storage_bucket
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface GcpStorageBucketConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether or not public access might be allowed for the storage bucket. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_storage_bucket#allow_public_access GcpStorageBucket#allow_public_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_storage_bucket#allow_public_access GcpStorageBucket#allow_public_access}
   */
   readonly allowPublicAccess?: boolean | cdktf.IResolvable;
   /**
   * Whether or not versioning is enabled for the storage bucket. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_storage_bucket#enable_versioning GcpStorageBucket#enable_versioning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_storage_bucket#enable_versioning GcpStorageBucket#enable_versioning}
   */
   readonly enableVersioning?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_storage_bucket#id GcpStorageBucket#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_storage_bucket#id GcpStorageBucket#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,39 +29,39 @@ export interface GcpStorageBucketConfig extends cdktf.TerraformMetaArguments {
   /**
   * The labels assigned to this storage bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_storage_bucket#labels GcpStorageBucket#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_storage_bucket#labels GcpStorageBucket#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The short name of the storage bucket.  Duplo will add a prefix to the name.  You can retrieve the full name from the `fullname` attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_storage_bucket#name GcpStorageBucket#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_storage_bucket#name GcpStorageBucket#name}
   */
   readonly name: string;
   /**
   * The GUID of the tenant that the storage bucket will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_storage_bucket#tenant_id GcpStorageBucket#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_storage_bucket#tenant_id GcpStorageBucket#tenant_id}
   */
   readonly tenantId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_storage_bucket#timeouts GcpStorageBucket#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_storage_bucket#timeouts GcpStorageBucket#timeouts}
   */
   readonly timeouts?: GcpStorageBucketTimeouts;
 }
 export interface GcpStorageBucketTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_storage_bucket#create GcpStorageBucket#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_storage_bucket#create GcpStorageBucket#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_storage_bucket#delete GcpStorageBucket#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_storage_bucket#delete GcpStorageBucket#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_storage_bucket#update GcpStorageBucket#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_storage_bucket#update GcpStorageBucket#update}
   */
   readonly update?: string;
 }
@@ -213,7 +213,7 @@ export class GcpStorageBucketTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_storage_bucket duplocloud_gcp_storage_bucket}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_storage_bucket duplocloud_gcp_storage_bucket}
 */
 export class GcpStorageBucket extends cdktf.TerraformResource {
 
@@ -229,7 +229,7 @@ export class GcpStorageBucket extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GcpStorageBucket resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GcpStorageBucket to import
-  * @param importFromId The id of the existing GcpStorageBucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_storage_bucket#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GcpStorageBucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_storage_bucket#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GcpStorageBucket to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -241,7 +241,7 @@ export class GcpStorageBucket extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_storage_bucket duplocloud_gcp_storage_bucket} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_storage_bucket duplocloud_gcp_storage_bucket} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -252,8 +252,8 @@ export class GcpStorageBucket extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_gcp_storage_bucket',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.29',
-        providerVersionConstraint: '0.11.29'
+        providerVersion: '0.11.30',
+        providerVersionConstraint: '0.11.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

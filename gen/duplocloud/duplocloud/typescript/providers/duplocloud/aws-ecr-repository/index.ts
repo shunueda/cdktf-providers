@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_ecr_repository
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_ecr_repository
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface AwsEcrRepositoryConfig extends cdktf.TerraformMetaArguments {
   /**
   * Indicates whether images are scanned after being pushed to the repository (true) or not scanned (false).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_ecr_repository#enable_scan_image_on_push AwsEcrRepository#enable_scan_image_on_push}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_ecr_repository#enable_scan_image_on_push AwsEcrRepository#enable_scan_image_on_push}
   */
   readonly enableScanImageOnPush?: boolean | cdktf.IResolvable;
   /**
   * The tag mutability setting for the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_ecr_repository#enable_tag_immutability AwsEcrRepository#enable_tag_immutability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_ecr_repository#enable_tag_immutability AwsEcrRepository#enable_tag_immutability}
   */
   readonly enableTagImmutability?: boolean | cdktf.IResolvable;
   /**
   * Whether to force delete the repository on destroy operations Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_ecr_repository#force_delete AwsEcrRepository#force_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_ecr_repository#force_delete AwsEcrRepository#force_delete}
   */
   readonly forceDelete?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_ecr_repository#id AwsEcrRepository#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_ecr_repository#id AwsEcrRepository#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,35 +35,35 @@ export interface AwsEcrRepositoryConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ARN of the KMS key to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_ecr_repository#kms_encryption_key AwsEcrRepository#kms_encryption_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_ecr_repository#kms_encryption_key AwsEcrRepository#kms_encryption_key}
   */
   readonly kmsEncryptionKey?: string;
   /**
   * The name of the ECR Repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_ecr_repository#name AwsEcrRepository#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_ecr_repository#name AwsEcrRepository#name}
   */
   readonly name: string;
   /**
   * The GUID of the tenant that the aws ecr repository will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_ecr_repository#tenant_id AwsEcrRepository#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_ecr_repository#tenant_id AwsEcrRepository#tenant_id}
   */
   readonly tenantId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_ecr_repository#timeouts AwsEcrRepository#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_ecr_repository#timeouts AwsEcrRepository#timeouts}
   */
   readonly timeouts?: AwsEcrRepositoryTimeouts;
 }
 export interface AwsEcrRepositoryTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_ecr_repository#create AwsEcrRepository#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_ecr_repository#create AwsEcrRepository#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_ecr_repository#delete AwsEcrRepository#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_ecr_repository#delete AwsEcrRepository#delete}
   */
   readonly delete?: string;
 }
@@ -186,7 +186,7 @@ export class AwsEcrRepositoryTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_ecr_repository duplocloud_aws_ecr_repository}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_ecr_repository duplocloud_aws_ecr_repository}
 */
 export class AwsEcrRepository extends cdktf.TerraformResource {
 
@@ -202,7 +202,7 @@ export class AwsEcrRepository extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsEcrRepository resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsEcrRepository to import
-  * @param importFromId The id of the existing AwsEcrRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_ecr_repository#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsEcrRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_ecr_repository#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsEcrRepository to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -214,7 +214,7 @@ export class AwsEcrRepository extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_ecr_repository duplocloud_aws_ecr_repository} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_ecr_repository duplocloud_aws_ecr_repository} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -225,8 +225,8 @@ export class AwsEcrRepository extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_aws_ecr_repository',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.29',
-        providerVersionConstraint: '0.11.29'
+        providerVersion: '0.11.30',
+        providerVersionConstraint: '0.11.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

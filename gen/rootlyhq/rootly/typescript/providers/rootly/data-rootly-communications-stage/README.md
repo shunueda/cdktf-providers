@@ -1,3 +1,3 @@
 # `data_rootly_communications_stage`
 
-Refer to the Terraform Registry for docs: [`data_rootly_communications_stage`](https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/data-sources/communications_stage).
+Refer to the Terraform Registry for docs: [`data_rootly_communications_stage`](https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/data-sources/communications_stage).

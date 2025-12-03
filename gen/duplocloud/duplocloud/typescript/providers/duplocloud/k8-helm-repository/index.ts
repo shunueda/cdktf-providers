@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/k8_helm_repository
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_helm_repository
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface K8HelmRepositoryConfig extends cdktf.TerraformMetaArguments {
   /**
   * The provider attribute in the spec block of a HelmRepository specifies the cloud  example: generic, aws, gcp, azure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/k8_helm_repository#helm_provider K8HelmRepository#helm_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_helm_repository#helm_provider K8HelmRepository#helm_provider}
   */
   readonly helmProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/k8_helm_repository#id K8HelmRepository#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_helm_repository#id K8HelmRepository#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,69 +23,69 @@ export interface K8HelmRepositoryConfig extends cdktf.TerraformMetaArguments {
   /**
   * Set to skip TLS certificate verification when accessing the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/k8_helm_repository#insecure K8HelmRepository#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_helm_repository#insecure K8HelmRepository#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * The interval associated to helm repository Defaults to `5m0s`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/k8_helm_repository#interval K8HelmRepository#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_helm_repository#interval K8HelmRepository#interval}
   */
   readonly interval?: string;
   /**
   * The identifier name for the helm repository in duplocloud
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/k8_helm_repository#name K8HelmRepository#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_helm_repository#name K8HelmRepository#name}
   */
   readonly name: string;
   /**
   * Pass credentials even to a different host than the one used in url
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/k8_helm_repository#pass_credentials K8HelmRepository#pass_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_helm_repository#pass_credentials K8HelmRepository#pass_credentials}
   */
   readonly passCredentials?: boolean | cdktf.IResolvable;
   /**
   * Used to pause the reconciliation of the repository by the controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/k8_helm_repository#suspend K8HelmRepository#suspend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_helm_repository#suspend K8HelmRepository#suspend}
   */
   readonly suspend?: boolean | cdktf.IResolvable;
   /**
   * The GUID of the tenant that the storage bucket will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/k8_helm_repository#tenant_id K8HelmRepository#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_helm_repository#tenant_id K8HelmRepository#tenant_id}
   */
   readonly tenantId: string;
   /**
   * The Helm repository type. Possible values are default for a Helm HTTP/S repository, or oci for an OCI Helm repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/k8_helm_repository#type K8HelmRepository#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_helm_repository#type K8HelmRepository#type}
   */
   readonly type?: string;
   /**
   * The url of helm repository to be attached
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/k8_helm_repository#url K8HelmRepository#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_helm_repository#url K8HelmRepository#url}
   */
   readonly url: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/k8_helm_repository#timeouts K8HelmRepository#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_helm_repository#timeouts K8HelmRepository#timeouts}
   */
   readonly timeouts?: K8HelmRepositoryTimeouts;
 }
 export interface K8HelmRepositoryTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/k8_helm_repository#create K8HelmRepository#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_helm_repository#create K8HelmRepository#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/k8_helm_repository#delete K8HelmRepository#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_helm_repository#delete K8HelmRepository#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/k8_helm_repository#update K8HelmRepository#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_helm_repository#update K8HelmRepository#update}
   */
   readonly update?: string;
 }
@@ -237,7 +237,7 @@ export class K8HelmRepositoryTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/k8_helm_repository duplocloud_k8_helm_repository}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_helm_repository duplocloud_k8_helm_repository}
 */
 export class K8HelmRepository extends cdktf.TerraformResource {
 
@@ -253,7 +253,7 @@ export class K8HelmRepository extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a K8HelmRepository resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the K8HelmRepository to import
-  * @param importFromId The id of the existing K8HelmRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/k8_helm_repository#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing K8HelmRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_helm_repository#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the K8HelmRepository to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -265,7 +265,7 @@ export class K8HelmRepository extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/k8_helm_repository duplocloud_k8_helm_repository} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/k8_helm_repository duplocloud_k8_helm_repository} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -276,8 +276,8 @@ export class K8HelmRepository extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_k8_helm_repository',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.29',
-        providerVersionConstraint: '0.11.29'
+        providerVersion: '0.11.30',
+        providerVersionConstraint: '0.11.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

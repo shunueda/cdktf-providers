@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_hotspot_user_profile
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_hotspot_user_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,59 +10,59 @@ export interface IpHotspotUserProfileConfig extends cdktf.TerraformMetaArguments
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_hotspot_user_profile#___path___ IpHotspotUserProfile#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_hotspot_user_profile#___path___ IpHotspotUserProfile#___path___}
   */
   readonly path?: string;
   /**
   * <em>A set of fields that require setting/unsetting. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_hotspot_user_profile#___unset___ IpHotspotUserProfile#___unset___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_hotspot_user_profile#___unset___ IpHotspotUserProfile#___unset___}
   */
   readonly unset?: string;
   /**
   * Allows to add mac cookie for users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_hotspot_user_profile#add_mac_cookie IpHotspotUserProfile#add_mac_cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_hotspot_user_profile#add_mac_cookie IpHotspotUserProfile#add_mac_cookie}
   */
   readonly addMacCookie?: boolean | cdktf.IResolvable;
   /**
   * Name of the address list in which users IP address will be added. Useful to mark traffic per user groups for queue tree configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_hotspot_user_profile#address_list IpHotspotUserProfile#address_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_hotspot_user_profile#address_list IpHotspotUserProfile#address_list}
   */
   readonly addressList?: string;
   /**
   * IP pool name from which the user will get IP. When user has improper network settings configuration on the computer, HotSpot server makes translation and assigns correct IP address from the pool instead of incorrect one.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_hotspot_user_profile#address_pool IpHotspotUserProfile#address_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_hotspot_user_profile#address_pool IpHotspotUserProfile#address_pool}
   */
   readonly addressPool?: string;
   /**
   * Enable forced advertisement popups. After certain interval specific web-page is being displayed for HotSpot users. Advertisement page might be blocked by browsers popup blockers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_hotspot_user_profile#advertise IpHotspotUserProfile#advertise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_hotspot_user_profile#advertise IpHotspotUserProfile#advertise}
   */
   readonly advertise?: boolean | cdktf.IResolvable;
   /**
   * Set of intervals between advertisement popups. After the list is done, the last value is used for all further advertisements, 10 minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_hotspot_user_profile#advertise_interval IpHotspotUserProfile#advertise_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_hotspot_user_profile#advertise_interval IpHotspotUserProfile#advertise_interval}
   */
   readonly advertiseInterval?: string[];
   /**
   * How long advertisement is shown, before blocking network access for HotSpot client. Connection to Internet is not allowed, when advertisement is not shown.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_hotspot_user_profile#advertise_timeout IpHotspotUserProfile#advertise_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_hotspot_user_profile#advertise_timeout IpHotspotUserProfile#advertise_timeout}
   */
   readonly advertiseTimeout?: string;
   /**
   * List of URLs that is show for advertisement popups. After the last URL is used, list starts from the begining.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_hotspot_user_profile#advertise_url IpHotspotUserProfile#advertise_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_hotspot_user_profile#advertise_url IpHotspotUserProfile#advertise_url}
   */
   readonly advertiseUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_hotspot_user_profile#id IpHotspotUserProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_hotspot_user_profile#id IpHotspotUserProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,115 +71,115 @@ export interface IpHotspotUserProfileConfig extends cdktf.TerraformMetaArguments
   /**
   * Maximal period of inactivity for authorized HotSpot clients. Timer is counting, when there is no traffic coming from that client and going through the router, for example computer is switched off. User is logged out, dropped of the host list, the address used by the user is freed, when timeout is reached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_hotspot_user_profile#idle_timeout IpHotspotUserProfile#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_hotspot_user_profile#idle_timeout IpHotspotUserProfile#idle_timeout}
   */
   readonly idleTimeout?: string;
   /**
   * Name of the firewall chain applied to incoming packets from the users of this profile, jump rule is required from built-in chain (input, forward, output) to chain=hotspot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_hotspot_user_profile#incoming_filter IpHotspotUserProfile#incoming_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_hotspot_user_profile#incoming_filter IpHotspotUserProfile#incoming_filter}
   */
   readonly incomingFilter?: string;
   /**
   * Packet mark put on incoming packets from every user of this profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_hotspot_user_profile#incoming_packet_mark IpHotspotUserProfile#incoming_packet_mark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_hotspot_user_profile#incoming_packet_mark IpHotspotUserProfile#incoming_packet_mark}
   */
   readonly incomingPacketMark?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_hotspot_user_profile#insert_queue_before IpHotspotUserProfile#insert_queue_before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_hotspot_user_profile#insert_queue_before IpHotspotUserProfile#insert_queue_before}
   */
   readonly insertQueueBefore?: string;
   /**
   * Keepalive timeout for authorized HotSpot clients. Used to detect, that the computer of the client is alive and reachable. User is logged out, when timeout value is reached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_hotspot_user_profile#keepalive_timeout IpHotspotUserProfile#keepalive_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_hotspot_user_profile#keepalive_timeout IpHotspotUserProfile#keepalive_timeout}
   */
   readonly keepaliveTimeout?: string;
   /**
   * Selects mac-cookie timeout from last login or logout. Read more>>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_hotspot_user_profile#mac_cookie_timeout IpHotspotUserProfile#mac_cookie_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_hotspot_user_profile#mac_cookie_timeout IpHotspotUserProfile#mac_cookie_timeout}
   */
   readonly macCookieTimeout?: string;
   /**
   * Descriptive name of the profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_hotspot_user_profile#name IpHotspotUserProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_hotspot_user_profile#name IpHotspotUserProfile#name}
   */
   readonly name: string;
   /**
   * Script name to be executed, when user logs in to the HotSpot from the particular profile. It is possible to get username from internal user and interface variable. For example, :log info ``User $user logged in!`` . If hotspot is set on bridge interface, then interface variable will show bridge as actual interface unless use-ip-firewall' is set in bridge settings. List of available variables: $user $username (alternative var name for $user) $address $``mac-address`` $interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_hotspot_user_profile#on_login IpHotspotUserProfile#on_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_hotspot_user_profile#on_login IpHotspotUserProfile#on_login}
   */
   readonly onLogin?: string;
   /**
   * Script name to be executed, when user logs out from the HotSpot.It is possible to get username from internal user and interface variable. For example, :log info ``User $user logged in!`` . If hotspot is set on bridge interface, then interface variable will show bridge as actual interface unless use-ip-firewall is set in bridge settings. List of available variables: $user $username (alternative var name for $user) $address $``mac-address`` $interface $cause Starting with v6.34rc11 some additional variables are available: $uptime-secs - final session time in seconds $bytes-in - bytes uploaded $bytes-out - bytes downloaded $bytes-total - bytes up + bytes down $packets-in - packets uploaded $packets-out - packets downloaded $packets-total - packets up + packets down.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_hotspot_user_profile#on_logout IpHotspotUserProfile#on_logout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_hotspot_user_profile#on_logout IpHotspotUserProfile#on_logout}
   */
   readonly onLogout?: string;
   /**
   * Option to show status page for user authenticated with mac login method. For example to show advertisement on status page (alogin.html) http-login - open status page only for HTTP login (includes cookie and HTTPS) always - open HTTP status page in case of mac login as well.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_hotspot_user_profile#open_status_page IpHotspotUserProfile#open_status_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_hotspot_user_profile#open_status_page IpHotspotUserProfile#open_status_page}
   */
   readonly openStatusPage?: string;
   /**
   * Name of the firewall chain applied to outgoing packets from the users of this profile, jump rule is required from built-in chain (input, forward, output) to chain=hotspot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_hotspot_user_profile#outgoing_filter IpHotspotUserProfile#outgoing_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_hotspot_user_profile#outgoing_filter IpHotspotUserProfile#outgoing_filter}
   */
   readonly outgoingFilter?: string;
   /**
   * Packet mark put on outgoing packets from every user of this profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_hotspot_user_profile#outgoing_packet_mark IpHotspotUserProfile#outgoing_packet_mark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_hotspot_user_profile#outgoing_packet_mark IpHotspotUserProfile#outgoing_packet_mark}
   */
   readonly outgoingPacketMark?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_hotspot_user_profile#parent_queue IpHotspotUserProfile#parent_queue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_hotspot_user_profile#parent_queue IpHotspotUserProfile#parent_queue}
   */
   readonly parentQueue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_hotspot_user_profile#queue_type IpHotspotUserProfile#queue_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_hotspot_user_profile#queue_type IpHotspotUserProfile#queue_type}
   */
   readonly queueType?: string;
   /**
   * Simple dynamic queue is created for user, once it logs in to the HotSpot. Rate-limitation is configured in the following form [rx-rate[/tx-rate] [rx-burst-rate[/tx-burst-rate] [rx-burst-threshold[/tx-burst-threshold] [rx-burst-time[/tx-burst-time] [priority] [rx-rate-min[/tx-rate-min]]]]. For example, to set 1M download, 512k upload for the client, rate-limit=512k/1M.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_hotspot_user_profile#rate_limit IpHotspotUserProfile#rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_hotspot_user_profile#rate_limit IpHotspotUserProfile#rate_limit}
   */
   readonly rateLimit?: string;
   /**
   * Allowed session time for client. After this time, the user is logged out unconditionally.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_hotspot_user_profile#session_timeout IpHotspotUserProfile#session_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_hotspot_user_profile#session_timeout IpHotspotUserProfile#session_timeout}
   */
   readonly sessionTimeout?: string;
   /**
   * Allowed number of simultaneously logged in users with the same HotSpot username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_hotspot_user_profile#shared_users IpHotspotUserProfile#shared_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_hotspot_user_profile#shared_users IpHotspotUserProfile#shared_users}
   */
   readonly sharedUsers?: string;
   /**
   * HotSpot status page autorefresh interval.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_hotspot_user_profile#status_autorefresh IpHotspotUserProfile#status_autorefresh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_hotspot_user_profile#status_autorefresh IpHotspotUserProfile#status_autorefresh}
   */
   readonly statusAutorefresh?: string;
   /**
   * Use transparent HTTP proxy for the authorized users of this profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_hotspot_user_profile#transparent_proxy IpHotspotUserProfile#transparent_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_hotspot_user_profile#transparent_proxy IpHotspotUserProfile#transparent_proxy}
   */
   readonly transparentProxy?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_hotspot_user_profile routeros_ip_hotspot_user_profile}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_hotspot_user_profile routeros_ip_hotspot_user_profile}
 */
 export class IpHotspotUserProfile extends cdktf.TerraformResource {
 
@@ -195,7 +195,7 @@ export class IpHotspotUserProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpHotspotUserProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpHotspotUserProfile to import
-  * @param importFromId The id of the existing IpHotspotUserProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_hotspot_user_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpHotspotUserProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_hotspot_user_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpHotspotUserProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -207,7 +207,7 @@ export class IpHotspotUserProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_hotspot_user_profile routeros_ip_hotspot_user_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/ip_hotspot_user_profile routeros_ip_hotspot_user_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -218,8 +218,8 @@ export class IpHotspotUserProfile extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_ip_hotspot_user_profile',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.95.0',
-        providerVersionConstraint: '1.95.0'
+        providerVersion: '1.96.0',
+        providerVersionConstraint: '1.96.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/data-sources/native_host_image
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/native_host_image
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,30 +8,54 @@ import * as cdktf from 'cdktf';
 
 export interface DataDuplocloudNativeHostImageConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/data-sources/native_host_image#arch DataDuplocloudNativeHostImage#arch}
+  * Architecture of the native host
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/native_host_image#arch DataDuplocloudNativeHostImage#arch}
   */
   readonly arch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/data-sources/native_host_image#id DataDuplocloudNativeHostImage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/native_host_image#id DataDuplocloudNativeHostImage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/data-sources/native_host_image#is_kubernetes DataDuplocloudNativeHostImage#is_kubernetes}
+  * This field is deprecated. Use k8s_version for precise filtering
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/native_host_image#is_kubernetes DataDuplocloudNativeHostImage#is_kubernetes}
   */
   readonly isKubernetes?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/data-sources/native_host_image#name DataDuplocloudNativeHostImage#name}
+  * K8 version of the native host
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/native_host_image#k8s_version DataDuplocloudNativeHostImage#k8s_version}
+  */
+  readonly k8SVersion?: string;
+  /**
+  * Name of the Duplocloud native host
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/native_host_image#name DataDuplocloudNativeHostImage#name}
   */
   readonly name?: string;
   /**
+  * OS of native host
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/native_host_image#os DataDuplocloudNativeHostImage#os}
+  */
+  readonly os?: string;
+  /**
   * The tenant ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/data-sources/native_host_image#tenant_id DataDuplocloudNativeHostImage#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/native_host_image#tenant_id DataDuplocloudNativeHostImage#tenant_id}
   */
   readonly tenantId: string;
+  /**
+  * username associated to native host
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/native_host_image#username DataDuplocloudNativeHostImage#username}
+  */
+  readonly username?: string;
 }
 export interface DataDuplocloudNativeHostImageTags {
 }
@@ -115,7 +139,7 @@ export class DataDuplocloudNativeHostImageTagsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/data-sources/native_host_image duplocloud_native_host_image}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/native_host_image duplocloud_native_host_image}
 */
 export class DataDuplocloudNativeHostImage extends cdktf.TerraformDataSource {
 
@@ -131,7 +155,7 @@ export class DataDuplocloudNativeHostImage extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataDuplocloudNativeHostImage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataDuplocloudNativeHostImage to import
-  * @param importFromId The id of the existing DataDuplocloudNativeHostImage that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/data-sources/native_host_image#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataDuplocloudNativeHostImage that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/native_host_image#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataDuplocloudNativeHostImage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -143,7 +167,7 @@ export class DataDuplocloudNativeHostImage extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/data-sources/native_host_image duplocloud_native_host_image} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/data-sources/native_host_image duplocloud_native_host_image} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -154,8 +178,8 @@ export class DataDuplocloudNativeHostImage extends cdktf.TerraformDataSource {
       terraformResourceType: 'duplocloud_native_host_image',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.29',
-        providerVersionConstraint: '0.11.29'
+        providerVersion: '0.11.30',
+        providerVersionConstraint: '0.11.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -168,15 +192,18 @@ export class DataDuplocloudNativeHostImage extends cdktf.TerraformDataSource {
     this._arch = config.arch;
     this._id = config.id;
     this._isKubernetes = config.isKubernetes;
+    this._k8SVersion = config.k8SVersion;
     this._name = config.name;
+    this._os = config.os;
     this._tenantId = config.tenantId;
+    this._username = config.username;
   }
 
   // ==========
   // ATTRIBUTES
   // ==========
 
-  // arch - computed: true, optional: true, required: false
+  // arch - computed: false, optional: true, required: false
   private _arch?: string; 
   public get arch() {
     return this.getStringAttribute('arch');
@@ -229,12 +256,23 @@ export class DataDuplocloudNativeHostImage extends cdktf.TerraformDataSource {
     return this._isKubernetes;
   }
 
-  // k8s_version - computed: true, optional: false, required: false
+  // k8s_version - computed: false, optional: true, required: false
+  private _k8SVersion?: string; 
   public get k8SVersion() {
     return this.getStringAttribute('k8s_version');
   }
+  public set k8SVersion(value: string) {
+    this._k8SVersion = value;
+  }
+  public resetK8SVersion() {
+    this._k8SVersion = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get k8SVersionInput() {
+    return this._k8SVersion;
+  }
 
-  // name - computed: true, optional: true, required: false
+  // name - computed: false, optional: true, required: false
   private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
@@ -250,9 +288,20 @@ export class DataDuplocloudNativeHostImage extends cdktf.TerraformDataSource {
     return this._name;
   }
 
-  // os - computed: true, optional: false, required: false
+  // os - computed: false, optional: true, required: false
+  private _os?: string; 
   public get os() {
     return this.getStringAttribute('os');
+  }
+  public set os(value: string) {
+    this._os = value;
+  }
+  public resetOs() {
+    this._os = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get osInput() {
+    return this._os;
   }
 
   // region - computed: true, optional: false, required: false
@@ -279,9 +328,20 @@ export class DataDuplocloudNativeHostImage extends cdktf.TerraformDataSource {
     return this._tenantId;
   }
 
-  // username - computed: true, optional: false, required: false
+  // username - computed: true, optional: true, required: false
+  private _username?: string; 
   public get username() {
     return this.getStringAttribute('username');
+  }
+  public set username(value: string) {
+    this._username = value;
+  }
+  public resetUsername() {
+    this._username = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get usernameInput() {
+    return this._username;
   }
 
   // =========
@@ -293,8 +353,11 @@ export class DataDuplocloudNativeHostImage extends cdktf.TerraformDataSource {
       arch: cdktf.stringToTerraform(this._arch),
       id: cdktf.stringToTerraform(this._id),
       is_kubernetes: cdktf.booleanToTerraform(this._isKubernetes),
+      k8s_version: cdktf.stringToTerraform(this._k8SVersion),
       name: cdktf.stringToTerraform(this._name),
+      os: cdktf.stringToTerraform(this._os),
       tenant_id: cdktf.stringToTerraform(this._tenantId),
+      username: cdktf.stringToTerraform(this._username),
     };
   }
 
@@ -318,14 +381,32 @@ export class DataDuplocloudNativeHostImage extends cdktf.TerraformDataSource {
         type: "simple",
         storageClassType: "boolean",
       },
+      k8s_version: {
+        value: cdktf.stringToHclTerraform(this._k8SVersion),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       name: {
         value: cdktf.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
+      os: {
+        value: cdktf.stringToHclTerraform(this._os),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       tenant_id: {
         value: cdktf.stringToHclTerraform(this._tenantId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      username: {
+        value: cdktf.stringToHclTerraform(this._username),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

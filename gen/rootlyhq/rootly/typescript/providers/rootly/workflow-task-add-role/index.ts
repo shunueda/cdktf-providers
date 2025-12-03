@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_add_role
+// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_add_role
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkflowTaskAddRoleConfig extends cdktf.TerraformMetaArguments 
   /**
   * Enable/disable this workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_add_role#enabled WorkflowTaskAddRole#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_add_role#enabled WorkflowTaskAddRole#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_add_role#id WorkflowTaskAddRole#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_add_role#id WorkflowTaskAddRole#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface WorkflowTaskAddRoleConfig extends cdktf.TerraformMetaArguments 
   /**
   * Name of the workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_add_role#name WorkflowTaskAddRole#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_add_role#name WorkflowTaskAddRole#name}
   */
   readonly name?: string;
   /**
   * The position of the workflow task (1 being top of list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_add_role#position WorkflowTaskAddRole#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_add_role#position WorkflowTaskAddRole#position}
   */
   readonly position?: number;
   /**
   * Skip workflow task if any failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_add_role#skip_on_failure WorkflowTaskAddRole#skip_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_add_role#skip_on_failure WorkflowTaskAddRole#skip_on_failure}
   */
   readonly skipOnFailure?: boolean | cdktf.IResolvable;
   /**
   * The ID of the parent workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_add_role#workflow_id WorkflowTaskAddRole#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_add_role#workflow_id WorkflowTaskAddRole#workflow_id}
   */
   readonly workflowId: string;
   /**
   * task_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_add_role#task_params WorkflowTaskAddRole#task_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_add_role#task_params WorkflowTaskAddRole#task_params}
   */
   readonly taskParams: WorkflowTaskAddRoleTaskParams;
 }
@@ -55,23 +55,23 @@ export interface WorkflowTaskAddRoleTaskParams {
   /**
   * Map must contain two fields, `id` and `name`.  The user this role is assigned to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_add_role#assigned_to_user WorkflowTaskAddRole#assigned_to_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_add_role#assigned_to_user WorkflowTaskAddRole#assigned_to_user}
   */
   readonly assignedToUser?: { [key: string]: string };
   /**
   * [DEPRECATED] Use assigned_to_user attribute instead. The user id this role is assigned to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_add_role#assigned_to_user_id WorkflowTaskAddRole#assigned_to_user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_add_role#assigned_to_user_id WorkflowTaskAddRole#assigned_to_user_id}
   */
   readonly assignedToUserId?: string;
   /**
   * The role id to add to the incident
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_add_role#incident_role_id WorkflowTaskAddRole#incident_role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_add_role#incident_role_id WorkflowTaskAddRole#incident_role_id}
   */
   readonly incidentRoleId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_add_role#task_type WorkflowTaskAddRole#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_add_role#task_type WorkflowTaskAddRole#task_type}
   */
   readonly taskType?: string;
 }
@@ -239,7 +239,7 @@ export class WorkflowTaskAddRoleTaskParamsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_add_role rootly_workflow_task_add_role}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_add_role rootly_workflow_task_add_role}
 */
 export class WorkflowTaskAddRole extends cdktf.TerraformResource {
 
@@ -255,7 +255,7 @@ export class WorkflowTaskAddRole extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkflowTaskAddRole resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowTaskAddRole to import
-  * @param importFromId The id of the existing WorkflowTaskAddRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_add_role#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowTaskAddRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_add_role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowTaskAddRole to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -267,7 +267,7 @@ export class WorkflowTaskAddRole extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/workflow_task_add_role rootly_workflow_task_add_role} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_add_role rootly_workflow_task_add_role} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -278,8 +278,8 @@ export class WorkflowTaskAddRole extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_workflow_task_add_role',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.9',
-        providerVersionConstraint: '4.3.9'
+        providerVersion: '4.3.10',
+        providerVersionConstraint: '4.3.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

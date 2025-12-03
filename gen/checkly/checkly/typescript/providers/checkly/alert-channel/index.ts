@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/alert_channel
+// https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/alert_channel
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface AlertChannelConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/alert_channel#id AlertChannel#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/alert_channel#id AlertChannel#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,73 +17,73 @@ export interface AlertChannelConfig extends cdktf.TerraformMetaArguments {
   /**
   * (Default `false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/alert_channel#send_degraded AlertChannel#send_degraded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/alert_channel#send_degraded AlertChannel#send_degraded}
   */
   readonly sendDegraded?: boolean | cdktf.IResolvable;
   /**
   * (Default `true`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/alert_channel#send_failure AlertChannel#send_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/alert_channel#send_failure AlertChannel#send_failure}
   */
   readonly sendFailure?: boolean | cdktf.IResolvable;
   /**
   * (Default `true`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/alert_channel#send_recovery AlertChannel#send_recovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/alert_channel#send_recovery AlertChannel#send_recovery}
   */
   readonly sendRecovery?: boolean | cdktf.IResolvable;
   /**
   * (Default `false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/alert_channel#ssl_expiry AlertChannel#ssl_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/alert_channel#ssl_expiry AlertChannel#ssl_expiry}
   */
   readonly sslExpiry?: boolean | cdktf.IResolvable;
   /**
   * Value must be between 1 and 30 (Default `30`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/alert_channel#ssl_expiry_threshold AlertChannel#ssl_expiry_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/alert_channel#ssl_expiry_threshold AlertChannel#ssl_expiry_threshold}
   */
   readonly sslExpiryThreshold?: number;
   /**
   * call block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/alert_channel#call AlertChannel#call}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/alert_channel#call AlertChannel#call}
   */
   readonly call?: AlertChannelCall;
   /**
   * email block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/alert_channel#email AlertChannel#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/alert_channel#email AlertChannel#email}
   */
   readonly email?: AlertChannelEmail;
   /**
   * opsgenie block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/alert_channel#opsgenie AlertChannel#opsgenie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/alert_channel#opsgenie AlertChannel#opsgenie}
   */
   readonly opsgenie?: AlertChannelOpsgenie;
   /**
   * pagerduty block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/alert_channel#pagerduty AlertChannel#pagerduty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/alert_channel#pagerduty AlertChannel#pagerduty}
   */
   readonly pagerduty?: AlertChannelPagerduty;
   /**
   * slack block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/alert_channel#slack AlertChannel#slack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/alert_channel#slack AlertChannel#slack}
   */
   readonly slack?: AlertChannelSlack;
   /**
   * sms block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/alert_channel#sms AlertChannel#sms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/alert_channel#sms AlertChannel#sms}
   */
   readonly sms?: AlertChannelSms;
   /**
   * webhook block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/alert_channel#webhook AlertChannel#webhook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/alert_channel#webhook AlertChannel#webhook}
   */
   readonly webhook?: AlertChannelWebhook;
 }
@@ -91,13 +91,13 @@ export interface AlertChannelCall {
   /**
   * The name of this alert channel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/alert_channel#name AlertChannel#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/alert_channel#name AlertChannel#name}
   */
   readonly name: string;
   /**
   * The mobile number to receive the alerts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/alert_channel#number AlertChannel#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/alert_channel#number AlertChannel#number}
   */
   readonly number: string;
 }
@@ -206,7 +206,7 @@ export interface AlertChannelEmail {
   /**
   * The email address of this email alert channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/alert_channel#address AlertChannel#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/alert_channel#address AlertChannel#address}
   */
   readonly address: string;
 }
@@ -287,19 +287,19 @@ export class AlertChannelEmailOutputReference extends cdktf.ComplexObject {
 }
 export interface AlertChannelOpsgenie {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/alert_channel#api_key AlertChannel#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/alert_channel#api_key AlertChannel#api_key}
   */
   readonly apiKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/alert_channel#name AlertChannel#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/alert_channel#name AlertChannel#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/alert_channel#priority AlertChannel#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/alert_channel#priority AlertChannel#priority}
   */
   readonly priority: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/alert_channel#region AlertChannel#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/alert_channel#region AlertChannel#region}
   */
   readonly region: string;
 }
@@ -458,15 +458,15 @@ export class AlertChannelOpsgenieOutputReference extends cdktf.ComplexObject {
 }
 export interface AlertChannelPagerduty {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/alert_channel#account AlertChannel#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/alert_channel#account AlertChannel#account}
   */
   readonly account?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/alert_channel#service_key AlertChannel#service_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/alert_channel#service_key AlertChannel#service_key}
   */
   readonly serviceKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/alert_channel#service_name AlertChannel#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/alert_channel#service_name AlertChannel#service_name}
   */
   readonly serviceName?: string;
 }
@@ -607,13 +607,13 @@ export interface AlertChannelSlack {
   /**
   * The name of the alert's Slack channel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/alert_channel#channel AlertChannel#channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/alert_channel#channel AlertChannel#channel}
   */
   readonly channel: string;
   /**
   * The Slack webhook URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/alert_channel#url AlertChannel#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/alert_channel#url AlertChannel#url}
   */
   readonly url: string;
 }
@@ -722,13 +722,13 @@ export interface AlertChannelSms {
   /**
   * The name of this alert channel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/alert_channel#name AlertChannel#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/alert_channel#name AlertChannel#name}
   */
   readonly name: string;
   /**
   * The mobile number to receive the alerts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/alert_channel#number AlertChannel#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/alert_channel#number AlertChannel#number}
   */
   readonly number: string;
 }
@@ -835,39 +835,39 @@ export class AlertChannelSmsOutputReference extends cdktf.ComplexObject {
 }
 export interface AlertChannelWebhook {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/alert_channel#headers AlertChannel#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/alert_channel#headers AlertChannel#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * (Default `POST`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/alert_channel#method AlertChannel#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/alert_channel#method AlertChannel#method}
   */
   readonly method?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/alert_channel#name AlertChannel#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/alert_channel#name AlertChannel#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/alert_channel#query_parameters AlertChannel#query_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/alert_channel#query_parameters AlertChannel#query_parameters}
   */
   readonly queryParameters?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/alert_channel#template AlertChannel#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/alert_channel#template AlertChannel#template}
   */
   readonly template?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/alert_channel#url AlertChannel#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/alert_channel#url AlertChannel#url}
   */
   readonly url: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/alert_channel#webhook_secret AlertChannel#webhook_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/alert_channel#webhook_secret AlertChannel#webhook_secret}
   */
   readonly webhookSecret?: string;
   /**
   * Type of the webhook. Possible values are 'WEBHOOK_DISCORD', 'WEBHOOK_FIREHYDRANT', 'WEBHOOK_GITLAB_ALERT', 'WEBHOOK_SPIKESH', 'WEBHOOK_SPLUNK', 'WEBHOOK_MSTEAMS' and 'WEBHOOK_TELEGRAM'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/alert_channel#webhook_type AlertChannel#webhook_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/alert_channel#webhook_type AlertChannel#webhook_type}
   */
   readonly webhookType?: string;
 }
@@ -1148,7 +1148,7 @@ export class AlertChannelWebhookOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/alert_channel checkly_alert_channel}
+* Represents a {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/alert_channel checkly_alert_channel}
 */
 export class AlertChannel extends cdktf.TerraformResource {
 
@@ -1164,7 +1164,7 @@ export class AlertChannel extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AlertChannel resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AlertChannel to import
-  * @param importFromId The id of the existing AlertChannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/alert_channel#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AlertChannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/alert_channel#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AlertChannel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1176,7 +1176,7 @@ export class AlertChannel extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/alert_channel checkly_alert_channel} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/alert_channel checkly_alert_channel} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1187,8 +1187,8 @@ export class AlertChannel extends cdktf.TerraformResource {
       terraformResourceType: 'checkly_alert_channel',
       terraformGeneratorMetadata: {
         providerName: 'checkly',
-        providerVersion: '1.17.0',
-        providerVersionConstraint: '1.17.0'
+        providerVersion: '1.17.1',
+        providerVersionConstraint: '1.17.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

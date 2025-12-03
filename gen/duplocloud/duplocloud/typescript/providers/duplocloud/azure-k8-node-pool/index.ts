@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_k8_node_pool
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_k8_node_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface AzureK8NodePoolConfig extends cdktf.TerraformMetaArguments {
   /**
   * Allocation tags for this node pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_k8_node_pool#allocation_tag AzureK8NodePool#allocation_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_k8_node_pool#allocation_tag AzureK8NodePool#allocation_tag}
   */
   readonly allocationTag?: string;
   /**
   * availability zones of node pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_k8_node_pool#availability_zones AzureK8NodePool#availability_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_k8_node_pool#availability_zones AzureK8NodePool#availability_zones}
   */
   readonly availabilityZones?: string[];
   /**
   * The initial number of nodes which should exist within this Node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_k8_node_pool#desired_capacity AzureK8NodePool#desired_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_k8_node_pool#desired_capacity AzureK8NodePool#desired_capacity}
   */
   readonly desiredCapacity: number;
   /**
   * Whether to enable auto-scaler.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_k8_node_pool#enable_auto_scaling AzureK8NodePool#enable_auto_scaling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_k8_node_pool#enable_auto_scaling AzureK8NodePool#enable_auto_scaling}
   */
   readonly enableAutoScaling?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_k8_node_pool#id AzureK8NodePool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_k8_node_pool#id AzureK8NodePool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,95 +41,95 @@ export interface AzureK8NodePoolConfig extends cdktf.TerraformMetaArguments {
   /**
   * Node pool identifier. This field is deprecated, Please use `name` instead. identifier has been deprecated instead use name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_k8_node_pool#identifier AzureK8NodePool#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_k8_node_pool#identifier AzureK8NodePool#identifier}
   */
   readonly identifier?: number;
   /**
   * The maximum number of nodes which should exist within this Node Pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_k8_node_pool#max_capacity AzureK8NodePool#max_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_k8_node_pool#max_capacity AzureK8NodePool#max_capacity}
   */
   readonly maxCapacity: number;
   /**
   * The minimum number of nodes which should exist within this Node Pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_k8_node_pool#min_capacity AzureK8NodePool#min_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_k8_node_pool#min_capacity AzureK8NodePool#min_capacity}
   */
   readonly minCapacity: number;
   /**
   * The name of the node pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_k8_node_pool#name AzureK8NodePool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_k8_node_pool#name AzureK8NodePool#name}
   */
   readonly name?: string;
   /**
   * A list of Kubernetes taints which should be applied to nodes in the agent pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_k8_node_pool#node_taints AzureK8NodePool#node_taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_k8_node_pool#node_taints AzureK8NodePool#node_taints}
   */
   readonly nodeTaints?: string[];
   /**
   * The Agent Operating System disk size in GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_k8_node_pool#os_disk_size_gb AzureK8NodePool#os_disk_size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_k8_node_pool#os_disk_size_gb AzureK8NodePool#os_disk_size_gb}
   */
   readonly osDiskSizeGb?: number;
   /**
   * Specifies the OS SKU used by the agent pool. Possible values are `AzureLinux`, `Ubuntu`, `Windows2019` and `Windows2022`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_k8_node_pool#os_sku AzureK8NodePool#os_sku}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_k8_node_pool#os_sku AzureK8NodePool#os_sku}
   */
   readonly osSku?: string;
   /**
   * Specifies the OS used by the agent pool. Possible values are `Linux`, `Windows`. Defaults to `Linux`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_k8_node_pool#os_type AzureK8NodePool#os_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_k8_node_pool#os_type AzureK8NodePool#os_type}
   */
   readonly osType?: string;
   /**
   * The GUID of the tenant that the azure node pool will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_k8_node_pool#tenant_id AzureK8NodePool#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_k8_node_pool#tenant_id AzureK8NodePool#tenant_id}
   */
   readonly tenantId: string;
   /**
   * The SKU which should be used for the Virtual Machines used in this Node Pool. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_k8_node_pool#vm_size AzureK8NodePool#vm_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_k8_node_pool#vm_size AzureK8NodePool#vm_size}
   */
   readonly vmSize: string;
   /**
   * Whether or not to wait until node pool to be ready, after creation. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_k8_node_pool#wait_until_ready AzureK8NodePool#wait_until_ready}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_k8_node_pool#wait_until_ready AzureK8NodePool#wait_until_ready}
   */
   readonly waitUntilReady?: boolean | cdktf.IResolvable;
   /**
   * node_labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_k8_node_pool#node_labels AzureK8NodePool#node_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_k8_node_pool#node_labels AzureK8NodePool#node_labels}
   */
   readonly nodeLabels?: AzureK8NodePoolNodeLabels[] | cdktf.IResolvable;
   /**
   * scale_priority block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_k8_node_pool#scale_priority AzureK8NodePool#scale_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_k8_node_pool#scale_priority AzureK8NodePool#scale_priority}
   */
   readonly scalePriority?: AzureK8NodePoolScalePriority;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_k8_node_pool#timeouts AzureK8NodePool#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_k8_node_pool#timeouts AzureK8NodePool#timeouts}
   */
   readonly timeouts?: AzureK8NodePoolTimeouts;
 }
 export interface AzureK8NodePoolNodeLabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_k8_node_pool#key AzureK8NodePool#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_k8_node_pool#key AzureK8NodePool#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_k8_node_pool#value AzureK8NodePool#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_k8_node_pool#value AzureK8NodePool#value}
   */
   readonly value: string;
 }
@@ -270,19 +270,19 @@ export interface AzureK8NodePoolScalePriority {
   /**
   * eviction policies Delete/Deallocate. Default value is Delete
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_k8_node_pool#eviction_policy AzureK8NodePool#eviction_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_k8_node_pool#eviction_policy AzureK8NodePool#eviction_policy}
   */
   readonly evictionPolicy?: string;
   /**
   * priority levels Regular/Spot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_k8_node_pool#priority AzureK8NodePool#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_k8_node_pool#priority AzureK8NodePool#priority}
   */
   readonly priority?: string;
   /**
   * for spot VMs sets the maximum price you're willing to pay, controlling costs, while priority.spot determines the scaling order of spot VM pools.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_k8_node_pool#spot_max_price AzureK8NodePool#spot_max_price}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_k8_node_pool#spot_max_price AzureK8NodePool#spot_max_price}
   */
   readonly spotMaxPrice?: number;
 }
@@ -424,11 +424,11 @@ export class AzureK8NodePoolScalePriorityOutputReference extends cdktf.ComplexOb
 }
 export interface AzureK8NodePoolTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_k8_node_pool#create AzureK8NodePool#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_k8_node_pool#create AzureK8NodePool#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_k8_node_pool#delete AzureK8NodePool#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_k8_node_pool#delete AzureK8NodePool#delete}
   */
   readonly delete?: string;
 }
@@ -551,7 +551,7 @@ export class AzureK8NodePoolTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_k8_node_pool duplocloud_azure_k8_node_pool}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_k8_node_pool duplocloud_azure_k8_node_pool}
 */
 export class AzureK8NodePool extends cdktf.TerraformResource {
 
@@ -567,7 +567,7 @@ export class AzureK8NodePool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AzureK8NodePool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AzureK8NodePool to import
-  * @param importFromId The id of the existing AzureK8NodePool that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_k8_node_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AzureK8NodePool that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_k8_node_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AzureK8NodePool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -579,7 +579,7 @@ export class AzureK8NodePool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_k8_node_pool duplocloud_azure_k8_node_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_k8_node_pool duplocloud_azure_k8_node_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -590,8 +590,8 @@ export class AzureK8NodePool extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_azure_k8_node_pool',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.29',
-        providerVersionConstraint: '0.11.29'
+        providerVersion: '0.11.30',
+        providerVersionConstraint: '0.11.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

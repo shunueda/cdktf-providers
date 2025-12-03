@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_infra_maintenance_window
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_infra_maintenance_window
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface GcpInfraMaintenanceWindowConfig extends cdktf.TerraformMetaArgu
   /**
   * Time window specified for daily maintenance operations. Specify 'start_time 'in RFC3339 format HH:MM, where HH : [00-23] and MM : [00-59] GMT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_infra_maintenance_window#daily_maintenance_start_time GcpInfraMaintenanceWindow#daily_maintenance_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_infra_maintenance_window#daily_maintenance_start_time GcpInfraMaintenanceWindow#daily_maintenance_start_time}
   */
   readonly dailyMaintenanceStartTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_infra_maintenance_window#id GcpInfraMaintenanceWindow#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_infra_maintenance_window#id GcpInfraMaintenanceWindow#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,41 +23,41 @@ export interface GcpInfraMaintenanceWindowConfig extends cdktf.TerraformMetaArgu
   /**
   * The name of the infrastructure where maintenance windows need to be scheduled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_infra_maintenance_window#infra_name GcpInfraMaintenanceWindow#infra_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_infra_maintenance_window#infra_name GcpInfraMaintenanceWindow#infra_name}
   */
   readonly infraName: string;
   /**
   * exclusions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_infra_maintenance_window#exclusions GcpInfraMaintenanceWindow#exclusions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_infra_maintenance_window#exclusions GcpInfraMaintenanceWindow#exclusions}
   */
   readonly exclusions?: GcpInfraMaintenanceWindowExclusions[] | cdktf.IResolvable;
   /**
   * recurring_window block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_infra_maintenance_window#recurring_window GcpInfraMaintenanceWindow#recurring_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_infra_maintenance_window#recurring_window GcpInfraMaintenanceWindow#recurring_window}
   */
   readonly recurringWindow?: GcpInfraMaintenanceWindowRecurringWindow;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_infra_maintenance_window#timeouts GcpInfraMaintenanceWindow#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_infra_maintenance_window#timeouts GcpInfraMaintenanceWindow#timeouts}
   */
   readonly timeouts?: GcpInfraMaintenanceWindowTimeouts;
 }
 export interface GcpInfraMaintenanceWindowExclusions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_infra_maintenance_window#end_time GcpInfraMaintenanceWindow#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_infra_maintenance_window#end_time GcpInfraMaintenanceWindow#end_time}
   */
   readonly endTime: string;
   /**
   * The scope of automatic upgrades to restrict in the exclusion window. One of: NO_UPGRADES | NO_MINOR_UPGRADES | NO_MINOR_OR_NODE_UPGRADES Defaults to `NO_UPGRADES`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_infra_maintenance_window#scope GcpInfraMaintenanceWindow#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_infra_maintenance_window#scope GcpInfraMaintenanceWindow#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_infra_maintenance_window#start_time GcpInfraMaintenanceWindow#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_infra_maintenance_window#start_time GcpInfraMaintenanceWindow#start_time}
   */
   readonly startTime: string;
 }
@@ -225,17 +225,17 @@ export class GcpInfraMaintenanceWindowExclusionsList extends cdktf.ComplexList {
 }
 export interface GcpInfraMaintenanceWindowRecurringWindow {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_infra_maintenance_window#end_time GcpInfraMaintenanceWindow#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_infra_maintenance_window#end_time GcpInfraMaintenanceWindow#end_time}
   */
   readonly endTime: string;
   /**
   * Specify recurrence in RFC5545 RRULE format, to specify when this recurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_infra_maintenance_window#recurrence GcpInfraMaintenanceWindow#recurrence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_infra_maintenance_window#recurrence GcpInfraMaintenanceWindow#recurrence}
   */
   readonly recurrence: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_infra_maintenance_window#start_time GcpInfraMaintenanceWindow#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_infra_maintenance_window#start_time GcpInfraMaintenanceWindow#start_time}
   */
   readonly startTime: string;
 }
@@ -368,15 +368,15 @@ export class GcpInfraMaintenanceWindowRecurringWindowOutputReference extends cdk
 }
 export interface GcpInfraMaintenanceWindowTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_infra_maintenance_window#create GcpInfraMaintenanceWindow#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_infra_maintenance_window#create GcpInfraMaintenanceWindow#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_infra_maintenance_window#delete GcpInfraMaintenanceWindow#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_infra_maintenance_window#delete GcpInfraMaintenanceWindow#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_infra_maintenance_window#update GcpInfraMaintenanceWindow#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_infra_maintenance_window#update GcpInfraMaintenanceWindow#update}
   */
   readonly update?: string;
 }
@@ -528,7 +528,7 @@ export class GcpInfraMaintenanceWindowTimeoutsOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_infra_maintenance_window duplocloud_gcp_infra_maintenance_window}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_infra_maintenance_window duplocloud_gcp_infra_maintenance_window}
 */
 export class GcpInfraMaintenanceWindow extends cdktf.TerraformResource {
 
@@ -544,7 +544,7 @@ export class GcpInfraMaintenanceWindow extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GcpInfraMaintenanceWindow resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GcpInfraMaintenanceWindow to import
-  * @param importFromId The id of the existing GcpInfraMaintenanceWindow that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_infra_maintenance_window#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GcpInfraMaintenanceWindow that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_infra_maintenance_window#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GcpInfraMaintenanceWindow to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -556,7 +556,7 @@ export class GcpInfraMaintenanceWindow extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_infra_maintenance_window duplocloud_gcp_infra_maintenance_window} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_infra_maintenance_window duplocloud_gcp_infra_maintenance_window} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -567,8 +567,8 @@ export class GcpInfraMaintenanceWindow extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_gcp_infra_maintenance_window',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.29',
-        providerVersionConstraint: '0.11.29'
+        providerVersion: '0.11.30',
+        providerVersionConstraint: '0.11.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

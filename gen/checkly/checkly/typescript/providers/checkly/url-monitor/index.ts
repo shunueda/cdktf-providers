@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/url_monitor
+// https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/url_monitor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface UrlMonitorConfig extends cdktf.TerraformMetaArguments {
   /**
   * Determines whether the monitor will run periodically or not after being deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/url_monitor#activated UrlMonitor#activated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/url_monitor#activated UrlMonitor#activated}
   */
   readonly activated: boolean | cdktf.IResolvable;
   /**
   * The response time in milliseconds where the monitor should be considered degraded. Possible values are between `0` and `30000`. (Default `3000`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/url_monitor#degraded_response_time UrlMonitor#degraded_response_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/url_monitor#degraded_response_time UrlMonitor#degraded_response_time}
   */
   readonly degradedResponseTime?: number;
   /**
-  * How often the monitor should run in minutes. Possible values are `0`, `1`, `2`, `5`, `10`, `15`, `30`, `60`, `120`, `180`, `360`, `720`, and `1440`.
+  * Controls how often the monitor should run. Defined in minutes. The allowed values are `0` (high frequency - use `frequency_offset` to define the actual frequency), `1` (1 minute), `2` (2 minutes), `5` (5 minutes), `10` (10 minutes), `15` (15 minutes), `30` (30 minutes), `60` (1 hour), `120` (2 hours), `180` (3 hours), `360` (6 hours), `720` (12 hours) and `1440` (24 hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/url_monitor#frequency UrlMonitor#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/url_monitor#frequency UrlMonitor#frequency}
   */
   readonly frequency: number;
   /**
-  * To create a high frequency monitor, set `frequency` to `0` and `frequency_offset` to `10`, `20`, or `30`.
+  * When `frequency` is `0` (high frequency), `frequency_offset` is required and it alone controls how often the monitor should run. Defined in seconds. The allowed values are `0` (disabled - use `frequency` to define the actual frequency), `10` (10 seconds), `20` (20 seconds) and `30` (30 seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/url_monitor#frequency_offset UrlMonitor#frequency_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/url_monitor#frequency_offset UrlMonitor#frequency_offset}
   */
   readonly frequencyOffset?: number;
   /**
   * The ID of the check group that this monitor is part of.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/url_monitor#group_id UrlMonitor#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/url_monitor#group_id UrlMonitor#group_id}
   */
   readonly groupId?: number;
   /**
   * The position of the monitor in the check group. It determines in what order checks and monitors are run when a group is triggered from the API or from CI/CD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/url_monitor#group_order UrlMonitor#group_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/url_monitor#group_order UrlMonitor#group_order}
   */
   readonly groupOrder?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/url_monitor#id UrlMonitor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/url_monitor#id UrlMonitor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,85 +53,85 @@ export interface UrlMonitorConfig extends cdktf.TerraformMetaArguments {
   /**
   * An array of one or more data center locations where to run the this monitor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/url_monitor#locations UrlMonitor#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/url_monitor#locations UrlMonitor#locations}
   */
   readonly locations?: string[];
   /**
   * The response time in milliseconds where the monitor should be considered failing. Possible values are between `0` and `30000`. (Default `5000`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/url_monitor#max_response_time UrlMonitor#max_response_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/url_monitor#max_response_time UrlMonitor#max_response_time}
   */
   readonly maxResponseTime?: number;
   /**
   * Determines if any notifications will be sent out when the monitor fails and/or recovers. (Default `false`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/url_monitor#muted UrlMonitor#muted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/url_monitor#muted UrlMonitor#muted}
   */
   readonly muted?: boolean | cdktf.IResolvable;
   /**
   * The name of the monitor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/url_monitor#name UrlMonitor#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/url_monitor#name UrlMonitor#name}
   */
   readonly name: string;
   /**
   * An array of one or more private locations slugs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/url_monitor#private_locations UrlMonitor#private_locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/url_monitor#private_locations UrlMonitor#private_locations}
   */
   readonly privateLocations?: string[];
   /**
   * Determines whether the monitor should run on all selected locations in parallel or round-robin. (Default `false`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/url_monitor#run_parallel UrlMonitor#run_parallel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/url_monitor#run_parallel UrlMonitor#run_parallel}
   */
   readonly runParallel?: boolean | cdktf.IResolvable;
   /**
   * Allows to invert the behaviour of when the monitor is considered to fail. (Default `false`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/url_monitor#should_fail UrlMonitor#should_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/url_monitor#should_fail UrlMonitor#should_fail}
   */
   readonly shouldFail?: boolean | cdktf.IResolvable;
   /**
   * A list of tags for organizing and filtering checks and monitors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/url_monitor#tags UrlMonitor#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/url_monitor#tags UrlMonitor#tags}
   */
   readonly tags?: string[];
   /**
   * When true, the account level alert settings will be used, not the alert setting defined on this monitor. (Default `true`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/url_monitor#use_global_alert_settings UrlMonitor#use_global_alert_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/url_monitor#use_global_alert_settings UrlMonitor#use_global_alert_settings}
   */
   readonly useGlobalAlertSettings?: boolean | cdktf.IResolvable;
   /**
   * alert_channel_subscription block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/url_monitor#alert_channel_subscription UrlMonitor#alert_channel_subscription}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/url_monitor#alert_channel_subscription UrlMonitor#alert_channel_subscription}
   */
   readonly alertChannelSubscription?: UrlMonitorAlertChannelSubscription[] | cdktf.IResolvable;
   /**
   * alert_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/url_monitor#alert_settings UrlMonitor#alert_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/url_monitor#alert_settings UrlMonitor#alert_settings}
   */
   readonly alertSettings?: UrlMonitorAlertSettings;
   /**
   * request block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/url_monitor#request UrlMonitor#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/url_monitor#request UrlMonitor#request}
   */
   readonly request: UrlMonitorRequest;
   /**
   * retry_strategy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/url_monitor#retry_strategy UrlMonitor#retry_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/url_monitor#retry_strategy UrlMonitor#retry_strategy}
   */
   readonly retryStrategy?: UrlMonitorRetryStrategy;
   /**
   * trigger_incident block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/url_monitor#trigger_incident UrlMonitor#trigger_incident}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/url_monitor#trigger_incident UrlMonitor#trigger_incident}
   */
   readonly triggerIncident?: UrlMonitorTriggerIncident;
 }
@@ -139,13 +139,13 @@ export interface UrlMonitorAlertChannelSubscription {
   /**
   * Whether an alert should be sent to this channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/url_monitor#activated UrlMonitor#activated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/url_monitor#activated UrlMonitor#activated}
   */
   readonly activated: boolean | cdktf.IResolvable;
   /**
   * The ID of the alert channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/url_monitor#channel_id UrlMonitor#channel_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/url_monitor#channel_id UrlMonitor#channel_id}
   */
   readonly channelId: number;
 }
@@ -286,13 +286,13 @@ export interface UrlMonitorAlertSettingsParallelRunFailureThreshold {
   /**
   * Whether parallel run failure threshold is enabled. Only applies if the monitor is scheduled for multiple locations in parallel. (Default `false`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/url_monitor#enabled UrlMonitor#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/url_monitor#enabled UrlMonitor#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Percentage of runs that must fail to trigger alert. Possible values are `10`, `20`, `30`, `40`, `50`, `60`, `70`, `80`, `90`, and `100`. (Default `10`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/url_monitor#percentage UrlMonitor#percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/url_monitor#percentage UrlMonitor#percentage}
   */
   readonly percentage?: number;
 }
@@ -439,13 +439,13 @@ export interface UrlMonitorAlertSettingsReminders {
   /**
   * Number of reminder notifications to send. Possible values are `0`, `1`, `2`, `3`, `4`, `5`, and `100000` (`0` to disable, `100000` for unlimited). (Default `0`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/url_monitor#amount UrlMonitor#amount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/url_monitor#amount UrlMonitor#amount}
   */
   readonly amount?: number;
   /**
   * Interval between reminder notifications in minutes. Possible values are `5`, `10`, `15`, and `30`. (Default `5`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/url_monitor#interval UrlMonitor#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/url_monitor#interval UrlMonitor#interval}
   */
   readonly interval?: number;
 }
@@ -592,7 +592,7 @@ export interface UrlMonitorAlertSettingsRunBasedEscalation {
   /**
   * Send an alert notification after the given number of consecutive monitor runs have failed. Possible values are between `1` and `5`. (Default `1`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/url_monitor#failed_run_threshold UrlMonitor#failed_run_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/url_monitor#failed_run_threshold UrlMonitor#failed_run_threshold}
   */
   readonly failedRunThreshold?: number;
 }
@@ -710,7 +710,7 @@ export interface UrlMonitorAlertSettingsTimeBasedEscalation {
   /**
   * Send an alert notification after the monitor has been failing for the given amount of time (in minutes). Possible values are `5`, `10`, `15`, and `30`. (Default `5`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/url_monitor#minutes_failing_threshold UrlMonitor#minutes_failing_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/url_monitor#minutes_failing_threshold UrlMonitor#minutes_failing_threshold}
   */
   readonly minutesFailingThreshold?: number;
 }
@@ -828,31 +828,31 @@ export interface UrlMonitorAlertSettings {
   /**
   * Determines the type of escalation to use. Possible values are `RUN_BASED` and `TIME_BASED`. (Default `RUN_BASED`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/url_monitor#escalation_type UrlMonitor#escalation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/url_monitor#escalation_type UrlMonitor#escalation_type}
   */
   readonly escalationType?: string;
   /**
   * parallel_run_failure_threshold block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/url_monitor#parallel_run_failure_threshold UrlMonitor#parallel_run_failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/url_monitor#parallel_run_failure_threshold UrlMonitor#parallel_run_failure_threshold}
   */
   readonly parallelRunFailureThreshold?: UrlMonitorAlertSettingsParallelRunFailureThreshold[] | cdktf.IResolvable;
   /**
   * reminders block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/url_monitor#reminders UrlMonitor#reminders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/url_monitor#reminders UrlMonitor#reminders}
   */
   readonly reminders?: UrlMonitorAlertSettingsReminders[] | cdktf.IResolvable;
   /**
   * run_based_escalation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/url_monitor#run_based_escalation UrlMonitor#run_based_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/url_monitor#run_based_escalation UrlMonitor#run_based_escalation}
   */
   readonly runBasedEscalation?: UrlMonitorAlertSettingsRunBasedEscalation[] | cdktf.IResolvable;
   /**
   * time_based_escalation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/url_monitor#time_based_escalation UrlMonitor#time_based_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/url_monitor#time_based_escalation UrlMonitor#time_based_escalation}
   */
   readonly timeBasedEscalation?: UrlMonitorAlertSettingsTimeBasedEscalation[] | cdktf.IResolvable;
 }
@@ -1054,23 +1054,23 @@ export interface UrlMonitorRequestAssertion {
   /**
   * The type of comparison to be executed between expected and actual value of the assertion. Possible values are `EQUALS`, `NOT_EQUALS`, `GREATER_THAN` and `LESS_THAN`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/url_monitor#comparison UrlMonitor#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/url_monitor#comparison UrlMonitor#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/url_monitor#property UrlMonitor#property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/url_monitor#property UrlMonitor#property}
   */
   readonly property?: string;
   /**
   * The source of the asserted value. The only allowed value is `STATUS_CODE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/url_monitor#source UrlMonitor#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/url_monitor#source UrlMonitor#source}
   */
   readonly source: string;
   /**
   * The target value. Typically `200` when the source is `STATUS_CODE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/url_monitor#target UrlMonitor#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/url_monitor#target UrlMonitor#target}
   */
   readonly target: string;
 }
@@ -1266,31 +1266,31 @@ export interface UrlMonitorRequest {
   /**
   * Whether to follow HTTP redirects automatically. (Default `true`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/url_monitor#follow_redirects UrlMonitor#follow_redirects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/url_monitor#follow_redirects UrlMonitor#follow_redirects}
   */
   readonly followRedirects?: boolean | cdktf.IResolvable;
   /**
   * IP family version to use for the connection. The value can be either `IPv4` or `IPv6`. (Default `IPv4`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/url_monitor#ip_family UrlMonitor#ip_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/url_monitor#ip_family UrlMonitor#ip_family}
   */
   readonly ipFamily?: string;
   /**
   * Whether to skip SSL certificate verification. (Default `false`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/url_monitor#skip_ssl UrlMonitor#skip_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/url_monitor#skip_ssl UrlMonitor#skip_ssl}
   */
   readonly skipSsl?: boolean | cdktf.IResolvable;
   /**
   * The URL to monitor. Must be a valid HTTP or HTTPS URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/url_monitor#url UrlMonitor#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/url_monitor#url UrlMonitor#url}
   */
   readonly url: string;
   /**
   * assertion block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/url_monitor#assertion UrlMonitor#assertion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/url_monitor#assertion UrlMonitor#assertion}
   */
   readonly assertion?: UrlMonitorRequestAssertion[] | cdktf.IResolvable;
 }
@@ -1489,7 +1489,7 @@ export interface UrlMonitorRetryStrategyOnlyOn {
   /**
   * When `true`, retry only if the cause of the failure is a network error. (Default `false`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/url_monitor#network_error UrlMonitor#network_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/url_monitor#network_error UrlMonitor#network_error}
   */
   readonly networkError?: boolean | cdktf.IResolvable;
 }
@@ -1575,37 +1575,37 @@ export interface UrlMonitorRetryStrategy {
   /**
   * The number of seconds to wait before the first retry attempt. (Default `60`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/url_monitor#base_backoff_seconds UrlMonitor#base_backoff_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/url_monitor#base_backoff_seconds UrlMonitor#base_backoff_seconds}
   */
   readonly baseBackoffSeconds?: number;
   /**
   * The total amount of time to continue retrying the check/monitor (maximum 600 seconds). Available when `type` is `FIXED`, `LINEAR`, or `EXPONENTIAL`. (Default `600`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/url_monitor#max_duration_seconds UrlMonitor#max_duration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/url_monitor#max_duration_seconds UrlMonitor#max_duration_seconds}
   */
   readonly maxDurationSeconds?: number;
   /**
   * The maximum number of times to retry the check/monitor. Value must be between `1` and `10`. Available when `type` is `FIXED`, `LINEAR`, or `EXPONENTIAL`. (Default `2`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/url_monitor#max_retries UrlMonitor#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/url_monitor#max_retries UrlMonitor#max_retries}
   */
   readonly maxRetries?: number;
   /**
   * Whether retries should be run in the same region as the initial check/monitor run. (Default `true`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/url_monitor#same_region UrlMonitor#same_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/url_monitor#same_region UrlMonitor#same_region}
   */
   readonly sameRegion?: boolean | cdktf.IResolvable;
   /**
   * Determines which type of retry strategy to use. Possible values are `FIXED`, `LINEAR`, `EXPONENTIAL`, `SINGLE_RETRY`, and `NO_RETRIES`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/url_monitor#type UrlMonitor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/url_monitor#type UrlMonitor#type}
   */
   readonly type: string;
   /**
   * only_on block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/url_monitor#only_on UrlMonitor#only_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/url_monitor#only_on UrlMonitor#only_on}
   */
   readonly onlyOn?: UrlMonitorRetryStrategyOnlyOn;
 }
@@ -1833,31 +1833,31 @@ export interface UrlMonitorTriggerIncident {
   /**
   * A detailed description of the incident.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/url_monitor#description UrlMonitor#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/url_monitor#description UrlMonitor#description}
   */
   readonly description: string;
   /**
   * The name of the incident.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/url_monitor#name UrlMonitor#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/url_monitor#name UrlMonitor#name}
   */
   readonly name: string;
   /**
   * Whether to notify subscribers when the incident is triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/url_monitor#notify_subscribers UrlMonitor#notify_subscribers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/url_monitor#notify_subscribers UrlMonitor#notify_subscribers}
   */
   readonly notifySubscribers: boolean | cdktf.IResolvable;
   /**
   * The status page service that this incident will be associated with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/url_monitor#service_id UrlMonitor#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/url_monitor#service_id UrlMonitor#service_id}
   */
   readonly serviceId: string;
   /**
   * The severity level of the incident. Possible values are `MINOR`, `MEDIUM`, `MAJOR`, and `CRITICAL`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/url_monitor#severity UrlMonitor#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/url_monitor#severity UrlMonitor#severity}
   */
   readonly severity: string;
 }
@@ -2042,7 +2042,7 @@ export class UrlMonitorTriggerIncidentOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/url_monitor checkly_url_monitor}
+* Represents a {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/url_monitor checkly_url_monitor}
 */
 export class UrlMonitor extends cdktf.TerraformResource {
 
@@ -2058,7 +2058,7 @@ export class UrlMonitor extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UrlMonitor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UrlMonitor to import
-  * @param importFromId The id of the existing UrlMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/url_monitor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UrlMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/url_monitor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UrlMonitor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2070,7 +2070,7 @@ export class UrlMonitor extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/url_monitor checkly_url_monitor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/url_monitor checkly_url_monitor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2081,8 +2081,8 @@ export class UrlMonitor extends cdktf.TerraformResource {
       terraformResourceType: 'checkly_url_monitor',
       terraformGeneratorMetadata: {
         providerName: 'checkly',
-        providerVersion: '1.17.0',
-        providerVersionConstraint: '1.17.0'
+        providerVersion: '1.17.1',
+        providerVersionConstraint: '1.17.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

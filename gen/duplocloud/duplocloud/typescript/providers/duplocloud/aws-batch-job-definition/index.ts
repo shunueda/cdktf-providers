@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_batch_job_definition
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_job_definition
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface AwsBatchJobDefinitionConfig extends cdktf.TerraformMetaArgument
   /**
   * A valid container properties provided as a single valid JSON document. This parameter is required if the type parameter is `container`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_batch_job_definition#container_properties AwsBatchJobDefinition#container_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_job_definition#container_properties AwsBatchJobDefinition#container_properties}
   */
   readonly containerProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_batch_job_definition#id AwsBatchJobDefinition#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_job_definition#id AwsBatchJobDefinition#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,55 +23,55 @@ export interface AwsBatchJobDefinitionConfig extends cdktf.TerraformMetaArgument
   /**
   * Specifies the name of the Job Definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_batch_job_definition#name AwsBatchJobDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_job_definition#name AwsBatchJobDefinition#name}
   */
   readonly name: string;
   /**
   * Specifies the parameter substitution placeholders to set in the job definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_batch_job_definition#parameters AwsBatchJobDefinition#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_job_definition#parameters AwsBatchJobDefinition#parameters}
   */
   readonly parameters?: { [key: string]: string };
   /**
   * The platform capabilities required by the job definition. If no value is specified, it defaults to `EC2`. To run the job on Fargate resources, specify `FARGATE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_batch_job_definition#platform_capabilities AwsBatchJobDefinition#platform_capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_job_definition#platform_capabilities AwsBatchJobDefinition#platform_capabilities}
   */
   readonly platformCapabilities?: string[];
   /**
   * Key-value map of resource tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_batch_job_definition#tags AwsBatchJobDefinition#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_job_definition#tags AwsBatchJobDefinition#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The GUID of the tenant that the aws batch Job Definition will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_batch_job_definition#tenant_id AwsBatchJobDefinition#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_job_definition#tenant_id AwsBatchJobDefinition#tenant_id}
   */
   readonly tenantId: string;
   /**
   * The `type` of job definition. Must be `container`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_batch_job_definition#type AwsBatchJobDefinition#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_job_definition#type AwsBatchJobDefinition#type}
   */
   readonly type: string;
   /**
   * retry_strategy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_batch_job_definition#retry_strategy AwsBatchJobDefinition#retry_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_job_definition#retry_strategy AwsBatchJobDefinition#retry_strategy}
   */
   readonly retryStrategy?: AwsBatchJobDefinitionRetryStrategy;
   /**
   * timeout block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_batch_job_definition#timeout AwsBatchJobDefinition#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_job_definition#timeout AwsBatchJobDefinition#timeout}
   */
   readonly timeout?: AwsBatchJobDefinitionTimeout;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_batch_job_definition#timeouts AwsBatchJobDefinition#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_job_definition#timeouts AwsBatchJobDefinition#timeouts}
   */
   readonly timeouts?: AwsBatchJobDefinitionTimeouts;
 }
@@ -79,25 +79,25 @@ export interface AwsBatchJobDefinitionRetryStrategyEvaluateOnExit {
   /**
   * Specifies the action to take if all of the specified conditions are met. The values are not case sensitive. Valid values: `RETRY`, `EXIT`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_batch_job_definition#action AwsBatchJobDefinition#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_job_definition#action AwsBatchJobDefinition#action}
   */
   readonly action: string;
   /**
   * A glob pattern to match against the decimal representation of the exit code returned for a job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_batch_job_definition#on_exit_code AwsBatchJobDefinition#on_exit_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_job_definition#on_exit_code AwsBatchJobDefinition#on_exit_code}
   */
   readonly onExitCode?: string;
   /**
   * A glob pattern to match against the reason returned for a job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_batch_job_definition#on_reason AwsBatchJobDefinition#on_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_job_definition#on_reason AwsBatchJobDefinition#on_reason}
   */
   readonly onReason?: string;
   /**
   * A glob pattern to match against the status reason returned for a job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_batch_job_definition#on_status_reason AwsBatchJobDefinition#on_status_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_job_definition#on_status_reason AwsBatchJobDefinition#on_status_reason}
   */
   readonly onStatusReason?: string;
 }
@@ -299,13 +299,13 @@ export interface AwsBatchJobDefinitionRetryStrategy {
   /**
   * The number of times to move a job to the RUNNABLE status. You may specify between `1` and `10` attempts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_batch_job_definition#attempts AwsBatchJobDefinition#attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_job_definition#attempts AwsBatchJobDefinition#attempts}
   */
   readonly attempts?: number;
   /**
   * evaluate_on_exit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_batch_job_definition#evaluate_on_exit AwsBatchJobDefinition#evaluate_on_exit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_job_definition#evaluate_on_exit AwsBatchJobDefinition#evaluate_on_exit}
   */
   readonly evaluateOnExit?: AwsBatchJobDefinitionRetryStrategyEvaluateOnExit[] | cdktf.IResolvable;
 }
@@ -420,7 +420,7 @@ export interface AwsBatchJobDefinitionTimeout {
   /**
   * The time duration in seconds after which AWS Batch terminates your jobs if they have not finished. The minimum value for the timeout is `60`seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_batch_job_definition#attempt_duration_seconds AwsBatchJobDefinition#attempt_duration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_job_definition#attempt_duration_seconds AwsBatchJobDefinition#attempt_duration_seconds}
   */
   readonly attemptDurationSeconds?: number;
 }
@@ -504,11 +504,11 @@ export class AwsBatchJobDefinitionTimeoutOutputReference extends cdktf.ComplexOb
 }
 export interface AwsBatchJobDefinitionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_batch_job_definition#create AwsBatchJobDefinition#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_job_definition#create AwsBatchJobDefinition#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_batch_job_definition#delete AwsBatchJobDefinition#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_job_definition#delete AwsBatchJobDefinition#delete}
   */
   readonly delete?: string;
 }
@@ -631,7 +631,7 @@ export class AwsBatchJobDefinitionTimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_batch_job_definition duplocloud_aws_batch_job_definition}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_job_definition duplocloud_aws_batch_job_definition}
 */
 export class AwsBatchJobDefinition extends cdktf.TerraformResource {
 
@@ -647,7 +647,7 @@ export class AwsBatchJobDefinition extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsBatchJobDefinition resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsBatchJobDefinition to import
-  * @param importFromId The id of the existing AwsBatchJobDefinition that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_batch_job_definition#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsBatchJobDefinition that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_job_definition#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsBatchJobDefinition to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -659,7 +659,7 @@ export class AwsBatchJobDefinition extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_batch_job_definition duplocloud_aws_batch_job_definition} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_batch_job_definition duplocloud_aws_batch_job_definition} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -670,8 +670,8 @@ export class AwsBatchJobDefinition extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_aws_batch_job_definition',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.29',
-        providerVersionConstraint: '0.11.29'
+        providerVersion: '0.11.30',
+        providerVersionConstraint: '0.11.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

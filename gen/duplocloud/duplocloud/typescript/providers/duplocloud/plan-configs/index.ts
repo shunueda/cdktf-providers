@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/plan_configs
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/plan_configs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface PlanConfigsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether or not this resource should delete any configs not specified by this resource. **WARNING:**  It is not recommended to change the default value of `false`. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/plan_configs#delete_unspecified_configs PlanConfigs#delete_unspecified_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/plan_configs#delete_unspecified_configs PlanConfigs#delete_unspecified_configs}
   */
   readonly deleteUnspecifiedConfigs?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/plan_configs#id PlanConfigs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/plan_configs#id PlanConfigs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface PlanConfigsConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the plan to configure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/plan_configs#plan_id PlanConfigs#plan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/plan_configs#plan_id PlanConfigs#plan_id}
   */
   readonly planId: string;
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/plan_configs#config PlanConfigs#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/plan_configs#config PlanConfigs#config}
   */
   readonly config?: PlanConfigsConfigA[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/plan_configs#timeouts PlanConfigs#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/plan_configs#timeouts PlanConfigs#timeouts}
   */
   readonly timeouts?: PlanConfigsTimeouts;
 }
@@ -126,15 +126,15 @@ export class PlanConfigsConfigsList extends cdktf.ComplexList {
 }
 export interface PlanConfigsConfigA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/plan_configs#key PlanConfigs#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/plan_configs#key PlanConfigs#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/plan_configs#type PlanConfigs#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/plan_configs#type PlanConfigs#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/plan_configs#value PlanConfigs#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/plan_configs#value PlanConfigs#value}
   */
   readonly value: string;
 }
@@ -302,15 +302,15 @@ export class PlanConfigsConfigAList extends cdktf.ComplexList {
 }
 export interface PlanConfigsTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/plan_configs#create PlanConfigs#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/plan_configs#create PlanConfigs#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/plan_configs#delete PlanConfigs#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/plan_configs#delete PlanConfigs#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/plan_configs#update PlanConfigs#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/plan_configs#update PlanConfigs#update}
   */
   readonly update?: string;
 }
@@ -462,7 +462,7 @@ export class PlanConfigsTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/plan_configs duplocloud_plan_configs}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/plan_configs duplocloud_plan_configs}
 */
 export class PlanConfigs extends cdktf.TerraformResource {
 
@@ -478,7 +478,7 @@ export class PlanConfigs extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlanConfigs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlanConfigs to import
-  * @param importFromId The id of the existing PlanConfigs that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/plan_configs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlanConfigs that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/plan_configs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlanConfigs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -490,7 +490,7 @@ export class PlanConfigs extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/plan_configs duplocloud_plan_configs} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/plan_configs duplocloud_plan_configs} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -501,8 +501,8 @@ export class PlanConfigs extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_plan_configs',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.29',
-        providerVersionConstraint: '0.11.29'
+        providerVersion: '0.11.30',
+        providerVersionConstraint: '0.11.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

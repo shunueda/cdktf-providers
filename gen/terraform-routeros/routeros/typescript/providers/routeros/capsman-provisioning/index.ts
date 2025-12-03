@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_provisioning
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/capsman_provisioning
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface CapsmanProvisioningConfig extends cdktf.TerraformMetaArguments 
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_provisioning#___path___ CapsmanProvisioning#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/capsman_provisioning#___path___ CapsmanProvisioning#___path___}
   */
   readonly path?: string;
   /**
   * Provisioning action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_provisioning#action CapsmanProvisioning#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/capsman_provisioning#action CapsmanProvisioning#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_provisioning#comment CapsmanProvisioning#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/capsman_provisioning#comment CapsmanProvisioning#comment}
   */
   readonly comment?: string;
   /**
   * Regular expression to match radios by common name. Each CAP's common name identifier can be found under "/caps-man radio" as value "REMOTE-CAP-NAME"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_provisioning#common_name_regexp CapsmanProvisioning#common_name_regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/capsman_provisioning#common_name_regexp CapsmanProvisioning#common_name_regexp}
   */
   readonly commonNameRegexp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_provisioning#disabled CapsmanProvisioning#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/capsman_provisioning#disabled CapsmanProvisioning#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Match radios by supported wireless modes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_provisioning#hw_supported_modes CapsmanProvisioning#hw_supported_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/capsman_provisioning#hw_supported_modes CapsmanProvisioning#hw_supported_modes}
   */
   readonly hwSupportedModes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_provisioning#id CapsmanProvisioning#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/capsman_provisioning#id CapsmanProvisioning#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -49,49 +49,49 @@ export interface CapsmanProvisioningConfig extends cdktf.TerraformMetaArguments 
   /**
   * Regular expression to match radios by router identity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_provisioning#identity_regexp CapsmanProvisioning#identity_regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/capsman_provisioning#identity_regexp CapsmanProvisioning#identity_regexp}
   */
   readonly identityRegexp?: string;
   /**
   * Match CAPs with IPs within configured address range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_provisioning#ip_address_ranges CapsmanProvisioning#ip_address_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/capsman_provisioning#ip_address_ranges CapsmanProvisioning#ip_address_ranges}
   */
   readonly ipAddressRanges?: string[];
   /**
   * If action specifies to create interfaces, then a new master interface with its configuration set to this configuration profile will be created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_provisioning#master_configuration CapsmanProvisioning#master_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/capsman_provisioning#master_configuration CapsmanProvisioning#master_configuration}
   */
   readonly masterConfiguration: string;
   /**
   * Specify the syntax of the CAP interface name creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_provisioning#name_format CapsmanProvisioning#name_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/capsman_provisioning#name_format CapsmanProvisioning#name_format}
   */
   readonly nameFormat?: string;
   /**
   * Name prefix which can be used in the name-format for creating the CAP interface names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_provisioning#name_prefix CapsmanProvisioning#name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/capsman_provisioning#name_prefix CapsmanProvisioning#name_prefix}
   */
   readonly namePrefix?: string;
   /**
   * MAC address of radio to be matched, empty MAC (00:00:00:00:00:00) means match all MAC addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_provisioning#radio_mac CapsmanProvisioning#radio_mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/capsman_provisioning#radio_mac CapsmanProvisioning#radio_mac}
   */
   readonly radioMac?: string;
   /**
   * If action specifies to create interfaces, then a new slave interface for each configuration profile in this list is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_provisioning#slave_configurations CapsmanProvisioning#slave_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/capsman_provisioning#slave_configurations CapsmanProvisioning#slave_configurations}
   */
   readonly slaveConfigurations?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_provisioning routeros_capsman_provisioning}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/capsman_provisioning routeros_capsman_provisioning}
 */
 export class CapsmanProvisioning extends cdktf.TerraformResource {
 
@@ -107,7 +107,7 @@ export class CapsmanProvisioning extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CapsmanProvisioning resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CapsmanProvisioning to import
-  * @param importFromId The id of the existing CapsmanProvisioning that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_provisioning#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CapsmanProvisioning that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/capsman_provisioning#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CapsmanProvisioning to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -119,7 +119,7 @@ export class CapsmanProvisioning extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_provisioning routeros_capsman_provisioning} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/capsman_provisioning routeros_capsman_provisioning} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -130,8 +130,8 @@ export class CapsmanProvisioning extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_capsman_provisioning',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.95.0',
-        providerVersionConstraint: '1.95.0'
+        providerVersion: '1.96.0',
+        providerVersionConstraint: '1.96.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

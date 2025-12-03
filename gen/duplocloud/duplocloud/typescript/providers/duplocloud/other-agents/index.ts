@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/other_agents
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/other_agents
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface OtherAgentsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/other_agents#id OtherAgents#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/other_agents#id OtherAgents#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,53 +17,53 @@ export interface OtherAgentsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Resource name to create other agents in duplo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/other_agents#name OtherAgents#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/other_agents#name OtherAgents#name}
   */
   readonly name: string;
   /**
   * agent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/other_agents#agent OtherAgents#agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/other_agents#agent OtherAgents#agent}
   */
   readonly agent: OtherAgentsAgent[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/other_agents#timeouts OtherAgents#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/other_agents#timeouts OtherAgents#timeouts}
   */
   readonly timeouts?: OtherAgentsTimeouts;
 }
 export interface OtherAgentsAgent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/other_agents#agent_linux_package_path OtherAgents#agent_linux_package_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/other_agents#agent_linux_package_path OtherAgents#agent_linux_package_path}
   */
   readonly agentLinuxPackagePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/other_agents#agent_name OtherAgents#agent_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/other_agents#agent_name OtherAgents#agent_name}
   */
   readonly agentName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/other_agents#agent_windows_package_path OtherAgents#agent_windows_package_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/other_agents#agent_windows_package_path OtherAgents#agent_windows_package_path}
   */
   readonly agentWindowsPackagePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/other_agents#linux_agent_install_status_cmd OtherAgents#linux_agent_install_status_cmd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/other_agents#linux_agent_install_status_cmd OtherAgents#linux_agent_install_status_cmd}
   */
   readonly linuxAgentInstallStatusCmd?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/other_agents#linux_agent_service_name OtherAgents#linux_agent_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/other_agents#linux_agent_service_name OtherAgents#linux_agent_service_name}
   */
   readonly linuxAgentServiceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/other_agents#linux_agent_uninstall_status_cmd OtherAgents#linux_agent_uninstall_status_cmd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/other_agents#linux_agent_uninstall_status_cmd OtherAgents#linux_agent_uninstall_status_cmd}
   */
   readonly linuxAgentUninstallStatusCmd?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/other_agents#linux_install_cmd OtherAgents#linux_install_cmd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/other_agents#linux_install_cmd OtherAgents#linux_install_cmd}
   */
   readonly linuxInstallCmd?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/other_agents#windows_agent_service_name OtherAgents#windows_agent_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/other_agents#windows_agent_service_name OtherAgents#windows_agent_service_name}
   */
   readonly windowsAgentServiceName?: string;
 }
@@ -389,11 +389,11 @@ export class OtherAgentsAgentList extends cdktf.ComplexList {
 }
 export interface OtherAgentsTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/other_agents#create OtherAgents#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/other_agents#create OtherAgents#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/other_agents#delete OtherAgents#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/other_agents#delete OtherAgents#delete}
   */
   readonly delete?: string;
 }
@@ -516,7 +516,7 @@ export class OtherAgentsTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/other_agents duplocloud_other_agents}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/other_agents duplocloud_other_agents}
 */
 export class OtherAgents extends cdktf.TerraformResource {
 
@@ -532,7 +532,7 @@ export class OtherAgents extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OtherAgents resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OtherAgents to import
-  * @param importFromId The id of the existing OtherAgents that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/other_agents#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OtherAgents that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/other_agents#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OtherAgents to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -544,7 +544,7 @@ export class OtherAgents extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/other_agents duplocloud_other_agents} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/other_agents duplocloud_other_agents} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -555,8 +555,8 @@ export class OtherAgents extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_other_agents',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.29',
-        providerVersionConstraint: '0.11.29'
+        providerVersion: '0.11.30',
+        providerVersionConstraint: '0.11.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

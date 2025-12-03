@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/playbook
+// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/playbook
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface PlaybookConfig extends cdktf.TerraformMetaArguments {
   /**
   * The Environment ID's to attach to the incident
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/playbook#environment_ids Playbook#environment_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/playbook#environment_ids Playbook#environment_ids}
   */
   readonly environmentIds?: string[];
   /**
   * The external url of the playbook
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/playbook#external_url Playbook#external_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/playbook#external_url Playbook#external_url}
   */
   readonly externalUrl?: string;
   /**
   * The Functionality ID's to attach to the incident
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/playbook#functionality_ids Playbook#functionality_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/playbook#functionality_ids Playbook#functionality_ids}
   */
   readonly functionalityIds?: string[];
   /**
   * The Team ID's to attach to the incident
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/playbook#group_ids Playbook#group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/playbook#group_ids Playbook#group_ids}
   */
   readonly groupIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/playbook#id Playbook#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/playbook#id Playbook#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,37 +41,37 @@ export interface PlaybookConfig extends cdktf.TerraformMetaArguments {
   /**
   * The Incident Type ID's to attach to the incident
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/playbook#incident_type_ids Playbook#incident_type_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/playbook#incident_type_ids Playbook#incident_type_ids}
   */
   readonly incidentTypeIds?: string[];
   /**
   * The Service ID's to attach to the incident
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/playbook#service_ids Playbook#service_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/playbook#service_ids Playbook#service_ids}
   */
   readonly serviceIds?: string[];
   /**
   * The Severity ID's to attach to the incident
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/playbook#severity_ids Playbook#severity_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/playbook#severity_ids Playbook#severity_ids}
   */
   readonly severityIds?: string[];
   /**
   * The summary of the playbook
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/playbook#summary Playbook#summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/playbook#summary Playbook#summary}
   */
   readonly summary?: string;
   /**
   * The title of the playbook
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/playbook#title Playbook#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/playbook#title Playbook#title}
   */
   readonly title: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/playbook rootly_playbook}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/playbook rootly_playbook}
 */
 export class Playbook extends cdktf.TerraformResource {
 
@@ -87,7 +87,7 @@ export class Playbook extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Playbook resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Playbook to import
-  * @param importFromId The id of the existing Playbook that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/playbook#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Playbook that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/playbook#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Playbook to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class Playbook extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/playbook rootly_playbook} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/playbook rootly_playbook} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +110,8 @@ export class Playbook extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_playbook',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.9',
-        providerVersionConstraint: '4.3.9'
+        providerVersion: '4.3.10',
+        providerVersionConstraint: '4.3.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

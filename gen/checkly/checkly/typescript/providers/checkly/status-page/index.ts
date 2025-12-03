@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/status_page
+// https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/status_page
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface StatusPageConfig extends cdktf.TerraformMetaArguments {
   /**
   * A custom user domain, e.g. "status.example.com". See the docs on updating your DNS and SSL usage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/status_page#custom_domain StatusPage#custom_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/status_page#custom_domain StatusPage#custom_domain}
   */
   readonly customDomain?: string;
   /**
   * Possible values are `AUTO`, `DARK`, and `LIGHT`. (Default `AUTO`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/status_page#default_theme StatusPage#default_theme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/status_page#default_theme StatusPage#default_theme}
   */
   readonly defaultTheme?: string;
   /**
   * A URL to an image file to use as the favicon of the status page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/status_page#favicon StatusPage#favicon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/status_page#favicon StatusPage#favicon}
   */
   readonly favicon?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/status_page#id StatusPage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/status_page#id StatusPage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,31 @@ export interface StatusPageConfig extends cdktf.TerraformMetaArguments {
   /**
   * A URL to an image file to use as the logo for the status page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/status_page#logo StatusPage#logo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/status_page#logo StatusPage#logo}
   */
   readonly logo?: string;
   /**
   * The name of the status page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/status_page#name StatusPage#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/status_page#name StatusPage#name}
   */
   readonly name: string;
   /**
   * The URL the user should be redirected to when clicking the logo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/status_page#redirect_to StatusPage#redirect_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/status_page#redirect_to StatusPage#redirect_to}
   */
   readonly redirectTo?: string;
   /**
   * The URL of the status page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/status_page#url StatusPage#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/status_page#url StatusPage#url}
   */
   readonly url: string;
   /**
   * card block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/status_page#card StatusPage#card}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/status_page#card StatusPage#card}
   */
   readonly card: StatusPageCard[] | cdktf.IResolvable;
 }
@@ -67,7 +67,7 @@ export interface StatusPageCardServiceAttachment {
   /**
   * The ID of the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/status_page#service_id StatusPage#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/status_page#service_id StatusPage#service_id}
   */
   readonly serviceId: string;
 }
@@ -182,13 +182,13 @@ export interface StatusPageCard {
   /**
   * The name of the card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/status_page#name StatusPage#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/status_page#name StatusPage#name}
   */
   readonly name: string;
   /**
   * service_attachment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/status_page#service_attachment StatusPage#service_attachment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/status_page#service_attachment StatusPage#service_attachment}
   */
   readonly serviceAttachment: StatusPageCardServiceAttachment[] | cdktf.IResolvable;
 }
@@ -327,7 +327,7 @@ export class StatusPageCardList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/status_page checkly_status_page}
+* Represents a {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/status_page checkly_status_page}
 */
 export class StatusPage extends cdktf.TerraformResource {
 
@@ -343,7 +343,7 @@ export class StatusPage extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a StatusPage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StatusPage to import
-  * @param importFromId The id of the existing StatusPage that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/status_page#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StatusPage that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/status_page#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StatusPage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -355,7 +355,7 @@ export class StatusPage extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/status_page checkly_status_page} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkly/checkly/1.17.1/docs/resources/status_page checkly_status_page} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -366,8 +366,8 @@ export class StatusPage extends cdktf.TerraformResource {
       terraformResourceType: 'checkly_status_page',
       terraformGeneratorMetadata: {
         providerName: 'checkly',
-        providerVersion: '1.17.0',
-        providerVersionConstraint: '1.17.0'
+        providerVersion: '1.17.1',
+        providerVersionConstraint: '1.17.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

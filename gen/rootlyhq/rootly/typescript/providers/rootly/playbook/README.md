@@ -1,3 +1,3 @@
 # `rootly_playbook`
 
-Refer to the Terraform Registry for docs: [`rootly_playbook`](https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/playbook).
+Refer to the Terraform Registry for docs: [`rootly_playbook`](https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/playbook).

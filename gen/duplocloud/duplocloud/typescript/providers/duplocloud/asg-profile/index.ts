@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,65 +15,65 @@ export interface AsgProfileConfig extends cdktf.TerraformMetaArguments {
   * - 7: EKS Linux
   * - 8: ECS Defaults to `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile#agent_platform AsgProfile#agent_platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile#agent_platform AsgProfile#agent_platform}
   */
   readonly agentPlatform?: number;
   /**
   * Whether or not to allocate a public IP. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile#allocated_public_ip AsgProfile#allocated_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile#allocated_public_ip AsgProfile#allocated_public_ip}
   */
   readonly allocatedPublicIp?: boolean | cdktf.IResolvable;
   /**
   * Base64 encoded EC2 user data to associated with the host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile#base64_user_data AsgProfile#base64_user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile#base64_user_data AsgProfile#base64_user_data}
   */
   readonly base64UserData?: string;
   /**
   * Whether or not ASG should leverage duplocloud's scale from 0 feature
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile#can_scale_from_zero AsgProfile#can_scale_from_zero}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile#can_scale_from_zero AsgProfile#can_scale_from_zero}
   */
   readonly canScaleFromZero?: boolean | cdktf.IResolvable;
   /**
   * The AWS EC2 instance type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile#capacity AsgProfile#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile#capacity AsgProfile#capacity}
   */
   readonly capacity: string;
   /**
   * The numeric ID of the cloud provider to launch the host in. Defaults to `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile#cloud AsgProfile#cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile#cloud AsgProfile#cloud}
   */
   readonly cloud?: number;
   /**
   * Specify the labels to attach to the nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile#custom_node_labels AsgProfile#custom_node_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile#custom_node_labels AsgProfile#custom_node_labels}
   */
   readonly customNodeLabels?: { [key: string]: string };
   /**
   * List of metrics to collect for the ASG Specify one or more of the following metrics.`GroupMinSize`,`GroupMaxSize`,`GroupDesiredCapacity`,`GroupInServiceInstances`,`GroupPendingInstances`,`GroupStandbyInstances`,`GroupTerminatingInstances`,`GroupTotalInstances`,`GroupInServiceCapacity`,`GroupPendingCapacity`,`GroupStandbyCapacity`,`GroupTerminatingCapacity`,`GroupTotalCapacity`,`WarmPoolDesiredCapacity`,`WarmPoolWarmedCapacity`,`WarmPoolPendingCapacity`,`WarmPoolTerminatingCapacity`,`WarmPoolTotalCapacity`,`GroupAndWarmPoolDesiredCapacity`,`GroupAndWarmPoolTotalCapacity`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile#enabled_metrics AsgProfile#enabled_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile#enabled_metrics AsgProfile#enabled_metrics}
   */
   readonly enabledMetrics?: string[];
   /**
   * Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile#encrypt_disk AsgProfile#encrypt_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile#encrypt_disk AsgProfile#encrypt_disk}
   */
   readonly encryptDisk?: boolean | cdktf.IResolvable;
   /**
   * The short name of the host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile#friendly_name AsgProfile#friendly_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile#friendly_name AsgProfile#friendly_name}
   */
   readonly friendlyName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile#id AsgProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile#id AsgProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -82,31 +82,31 @@ export interface AsgProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * The AMI ID to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile#image_id AsgProfile#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile#image_id AsgProfile#image_id}
   */
   readonly imageId: string;
   /**
   * The number of instances that should be running in the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile#instance_count AsgProfile#instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile#instance_count AsgProfile#instance_count}
   */
   readonly instanceCount?: number;
   /**
   * Whether or not to enable cluster autoscaler.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile#is_cluster_autoscaled AsgProfile#is_cluster_autoscaled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile#is_cluster_autoscaled AsgProfile#is_cluster_autoscaled}
   */
   readonly isClusterAutoscaled?: boolean | cdktf.IResolvable;
   /**
   * Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile#is_ebs_optimized AsgProfile#is_ebs_optimized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile#is_ebs_optimized AsgProfile#is_ebs_optimized}
   */
   readonly isEbsOptimized?: boolean | cdktf.IResolvable;
   /**
   * Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile#is_minion AsgProfile#is_minion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile#is_minion AsgProfile#is_minion}
   */
   readonly isMinion?: boolean | cdktf.IResolvable;
   /**
@@ -116,119 +116,119 @@ export interface AsgProfileConfig extends cdktf.TerraformMetaArguments {
   *    - `1` : RSA (deprecated - some operating systems no longer support it)
   *    - `2` : ED25519
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile#keypair_type AsgProfile#keypair_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile#keypair_type AsgProfile#keypair_type}
   */
   readonly keypairType?: number;
   /**
   * The maximum size of the Auto Scaling Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile#max_instance_count AsgProfile#max_instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile#max_instance_count AsgProfile#max_instance_count}
   */
   readonly maxInstanceCount?: number;
   /**
   * Maximum price to pay for a spot instance in dollars per unit hour.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile#max_spot_price AsgProfile#max_spot_price}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile#max_spot_price AsgProfile#max_spot_price}
   */
   readonly maxSpotPrice?: string;
   /**
   * The minimum size of the Auto Scaling Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile#min_instance_count AsgProfile#min_instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile#min_instance_count AsgProfile#min_instance_count}
   */
   readonly minInstanceCount?: number;
   /**
   * Bootstrap an EKS host with Duplo's user data, prepending it to custom user data if also provided. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile#prepend_user_data AsgProfile#prepend_user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile#prepend_user_data AsgProfile#prepend_user_data}
   */
   readonly prependUserData?: boolean | cdktf.IResolvable;
   /**
   * The GUID of the tenant that the host will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile#tenant_id AsgProfile#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile#tenant_id AsgProfile#tenant_id}
   */
   readonly tenantId: string;
   /**
   * Whether or not to use spot instances. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile#use_spot_instances AsgProfile#use_spot_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile#use_spot_instances AsgProfile#use_spot_instances}
   */
   readonly useSpotInstances?: boolean | cdktf.IResolvable;
   /**
   * The name of the tenant that the host will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile#user_account AsgProfile#user_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile#user_account AsgProfile#user_account}
   */
   readonly userAccount?: string;
   /**
   * Whether or not to wait until ASG instances to be healthy, after creation. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile#wait_for_capacity AsgProfile#wait_for_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile#wait_for_capacity AsgProfile#wait_for_capacity}
   */
   readonly waitForCapacity?: boolean | cdktf.IResolvable;
   /**
   * The availability zone to launch the host in is expressed as a numeric value ranging from 0 to 3.  Defaults to `0`. For environments on the July 2024 release or earlier, use zone. For environments on releases after July 2024, use zones, as zone has been deprecated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile#zone AsgProfile#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile#zone AsgProfile#zone}
   */
   readonly zone?: string;
   /**
   * The multi availability zone to launch the asg in, expressed as a number and starting at 0 - Zone A to 3 - Zone D, based on the infra setup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile#zones AsgProfile#zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile#zones AsgProfile#zones}
   */
   readonly zones?: number[];
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile#metadata AsgProfile#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile#metadata AsgProfile#metadata}
   */
   readonly metadata?: AsgProfileMetadata[] | cdktf.IResolvable;
   /**
   * minion_tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile#minion_tags AsgProfile#minion_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile#minion_tags AsgProfile#minion_tags}
   */
   readonly minionTags?: AsgProfileMinionTags[] | cdktf.IResolvable;
   /**
   * network_interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile#network_interface AsgProfile#network_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile#network_interface AsgProfile#network_interface}
   */
   readonly networkInterface?: AsgProfileNetworkInterface[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile#tags AsgProfile#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile#tags AsgProfile#tags}
   */
   readonly tags?: AsgProfileTags[] | cdktf.IResolvable;
   /**
   * taints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile#taints AsgProfile#taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile#taints AsgProfile#taints}
   */
   readonly taints?: AsgProfileTaints[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile#timeouts AsgProfile#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile#timeouts AsgProfile#timeouts}
   */
   readonly timeouts?: AsgProfileTimeouts;
   /**
   * volume block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile#volume AsgProfile#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile#volume AsgProfile#volume}
   */
   readonly volume?: AsgProfileVolume[] | cdktf.IResolvable;
 }
 export interface AsgProfileMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile#key AsgProfile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile#key AsgProfile#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile#value AsgProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile#value AsgProfile#value}
   */
   readonly value: string;
 }
@@ -367,11 +367,11 @@ export class AsgProfileMetadataList extends cdktf.ComplexList {
 }
 export interface AsgProfileMinionTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile#key AsgProfile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile#key AsgProfile#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile#value AsgProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile#value AsgProfile#value}
   */
   readonly value: string;
 }
@@ -510,11 +510,11 @@ export class AsgProfileMinionTagsList extends cdktf.ComplexList {
 }
 export interface AsgProfileNetworkInterfaceMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile#key AsgProfile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile#key AsgProfile#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile#value AsgProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile#value AsgProfile#value}
   */
   readonly value: string;
 }
@@ -655,35 +655,35 @@ export interface AsgProfileNetworkInterface {
   /**
   * Whether or not to associate a public IP with the newly created ENI.  Cannot be specified if `network_interface_id` is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile#associate_public_ip AsgProfile#associate_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile#associate_public_ip AsgProfile#associate_public_ip}
   */
   readonly associatePublicIp?: boolean | cdktf.IResolvable;
   /**
   * The device index to pass to AWS for attaching the ENI.  Starts at zero.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile#device_index AsgProfile#device_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile#device_index AsgProfile#device_index}
   */
   readonly deviceIndex?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile#groups AsgProfile#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile#groups AsgProfile#groups}
   */
   readonly groups?: string[];
   /**
   * The ID of an ENI to attach to this host.  Cannot be specified if `subnet_id` or `associate_public_ip` is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile#network_interface_id AsgProfile#network_interface_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile#network_interface_id AsgProfile#network_interface_id}
   */
   readonly networkInterfaceId?: string;
   /**
   * The ID of a subnet in which to create a new ENI.  Cannot be specified if `network_interface_id` is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile#subnet_id AsgProfile#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile#subnet_id AsgProfile#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile#metadata AsgProfile#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile#metadata AsgProfile#metadata}
   */
   readonly metadata?: AsgProfileNetworkInterfaceMetadata[] | cdktf.IResolvable;
 }
@@ -944,11 +944,11 @@ export class AsgProfileNetworkInterfaceList extends cdktf.ComplexList {
 }
 export interface AsgProfileTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile#key AsgProfile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile#key AsgProfile#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile#value AsgProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile#value AsgProfile#value}
   */
   readonly value: string;
 }
@@ -1089,15 +1089,15 @@ export interface AsgProfileTaints {
   /**
   * Update strategy of the node. Effect types <br>      - NoSchedule<br>     - PreferNoSchedule<br>     - NoExecute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile#effect AsgProfile#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile#effect AsgProfile#effect}
   */
   readonly effect: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile#key AsgProfile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile#key AsgProfile#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile#value AsgProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile#value AsgProfile#value}
   */
   readonly value?: string;
 }
@@ -1265,15 +1265,15 @@ export class AsgProfileTaintsList extends cdktf.ComplexList {
 }
 export interface AsgProfileTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile#create AsgProfile#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile#create AsgProfile#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile#delete AsgProfile#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile#delete AsgProfile#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile#update AsgProfile#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile#update AsgProfile#update}
   */
   readonly update?: string;
 }
@@ -1425,23 +1425,23 @@ export class AsgProfileTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 export interface AsgProfileVolume {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile#iops AsgProfile#iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile#iops AsgProfile#iops}
   */
   readonly iops?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile#name AsgProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile#name AsgProfile#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile#size AsgProfile#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile#size AsgProfile#size}
   */
   readonly size?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile#volume_id AsgProfile#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile#volume_id AsgProfile#volume_id}
   */
   readonly volumeId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile#volume_type AsgProfile#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile#volume_type AsgProfile#volume_type}
   */
   readonly volumeType?: string;
 }
@@ -1673,7 +1673,7 @@ export class AsgProfileVolumeList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile duplocloud_asg_profile}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile duplocloud_asg_profile}
 */
 export class AsgProfile extends cdktf.TerraformResource {
 
@@ -1689,7 +1689,7 @@ export class AsgProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AsgProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AsgProfile to import
-  * @param importFromId The id of the existing AsgProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AsgProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AsgProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1701,7 +1701,7 @@ export class AsgProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/asg_profile duplocloud_asg_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/asg_profile duplocloud_asg_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1712,8 +1712,8 @@ export class AsgProfile extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_asg_profile',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.29',
-        providerVersionConstraint: '0.11.29'
+        providerVersion: '0.11.30',
+        providerVersionConstraint: '0.11.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

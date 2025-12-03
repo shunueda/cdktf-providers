@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/data-sources/deployment
+// https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/data-sources/deployment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataPrefectDeploymentConfig extends cdktf.TerraformMetaArgument
   /**
   * Account ID (UUID), defaults to the account set in the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/data-sources/deployment#account_id DataPrefectDeployment#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/data-sources/deployment#account_id DataPrefectDeployment#account_id}
   */
   readonly accountId?: string;
   /**
   * Flow name associated with the deployment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/data-sources/deployment#flow_name DataPrefectDeployment#flow_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/data-sources/deployment#flow_name DataPrefectDeployment#flow_name}
   */
   readonly flowName?: string;
   /**
   * Deployment ID (UUID)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/data-sources/deployment#id DataPrefectDeployment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/data-sources/deployment#id DataPrefectDeployment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,13 +31,13 @@ export interface DataPrefectDeploymentConfig extends cdktf.TerraformMetaArgument
   /**
   * Name of the deployment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/data-sources/deployment#name DataPrefectDeployment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/data-sources/deployment#name DataPrefectDeployment#name}
   */
   readonly name?: string;
   /**
   * Workspace ID (UUID) to associate deployment to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/data-sources/deployment#workspace_id DataPrefectDeployment#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/data-sources/deployment#workspace_id DataPrefectDeployment#workspace_id}
   */
   readonly workspaceId?: string;
 }
@@ -217,7 +217,7 @@ export class DataPrefectDeploymentPullStepsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/data-sources/deployment prefect_deployment}
+* Represents a {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/data-sources/deployment prefect_deployment}
 */
 export class DataPrefectDeployment extends cdktf.TerraformDataSource {
 
@@ -233,7 +233,7 @@ export class DataPrefectDeployment extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataPrefectDeployment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPrefectDeployment to import
-  * @param importFromId The id of the existing DataPrefectDeployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/data-sources/deployment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPrefectDeployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/data-sources/deployment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPrefectDeployment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -245,7 +245,7 @@ export class DataPrefectDeployment extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/data-sources/deployment prefect_deployment} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/data-sources/deployment prefect_deployment} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -256,8 +256,8 @@ export class DataPrefectDeployment extends cdktf.TerraformDataSource {
       terraformResourceType: 'prefect_deployment',
       terraformGeneratorMetadata: {
         providerName: 'prefect',
-        providerVersion: '2.90.2',
-        providerVersionConstraint: '2.90.2'
+        providerVersion: '2.90.4',
+        providerVersionConstraint: '2.90.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

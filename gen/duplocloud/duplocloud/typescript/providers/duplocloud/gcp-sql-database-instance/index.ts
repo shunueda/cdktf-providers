@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_sql_database_instance
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_sql_database_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface GcpSqlDatabaseInstanceConfig extends cdktf.TerraformMetaArgumen
   /**
   * The MySQL, PostgreSQL or SQL Server version to use.Supported values include `MYSQL_5_6`,`MYSQL_5_7`, `MYSQL_8_0`, `POSTGRES_9_6`,`POSTGRES_10`,`POSTGRES_11`,`POSTGRES_12`, `POSTGRES_13`, `POSTGRES_14`, `POSTGRES_15`,`POSTGRES_16`,`POSTGRES_17`, `SQLSERVER_2017_STANDARD`,`SQLSERVER_2017_ENTERPRISE`,`SQLSERVER_2017_EXPRESS`, `SQLSERVER_2017_WEB`,`SQLSERVER_2019_STANDARD`, `SQLSERVER_2019_ENTERPRISE`, `SQLSERVER_2019_EXPRESS`,`SQLSERVER_2019_WEB`,`SQLSERVER_2022_WEB`,`SQLSERVER_2022_EXPRESS`,`SQLSERVER_2022_ENTERPRISE`,`SQLSERVER_2022_STANDARD`.[Database Version Policies](https://cloud.google.com/sql/docs/db-versions) includes an up-to-date reference of supported versions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_sql_database_instance#database_version GcpSqlDatabaseInstance#database_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_sql_database_instance#database_version GcpSqlDatabaseInstance#database_version}
   */
   readonly databaseVersion: string;
   /**
   * The size of data disk, in GB. Size of a running instance cannot be reduced but can be increased. The minimum value is 10GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_sql_database_instance#disk_size GcpSqlDatabaseInstance#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_sql_database_instance#disk_size GcpSqlDatabaseInstance#disk_size}
   */
   readonly diskSize?: number;
   /**
   * Edition for the database. Valid value ENTERPRISE, ENTERPRISE_PLUS Defaults to `ENTERPRISE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_sql_database_instance#edition GcpSqlDatabaseInstance#edition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_sql_database_instance#edition GcpSqlDatabaseInstance#edition}
   */
   readonly edition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_sql_database_instance#id GcpSqlDatabaseInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_sql_database_instance#id GcpSqlDatabaseInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,55 +35,55 @@ export interface GcpSqlDatabaseInstanceConfig extends cdktf.TerraformMetaArgumen
   /**
   * Map of string keys and values that can be used to organize and categorize this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_sql_database_instance#labels GcpSqlDatabaseInstance#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_sql_database_instance#labels GcpSqlDatabaseInstance#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The short name of the sql database.  Duplo will add a prefix to the name.  You can retrieve the full name from the `fullname` attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_sql_database_instance#name GcpSqlDatabaseInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_sql_database_instance#name GcpSqlDatabaseInstance#name}
   */
   readonly name: string;
   /**
   * Flag to enable backup process on delete of database Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_sql_database_instance#need_backup GcpSqlDatabaseInstance#need_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_sql_database_instance#need_backup GcpSqlDatabaseInstance#need_backup}
   */
   readonly needBackup?: boolean | cdktf.IResolvable;
   /**
   * Provide root password for specific database versions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_sql_database_instance#root_password GcpSqlDatabaseInstance#root_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_sql_database_instance#root_password GcpSqlDatabaseInstance#root_password}
   */
   readonly rootPassword?: string;
   /**
   * The GUID of the tenant that the sql database will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_sql_database_instance#tenant_id GcpSqlDatabaseInstance#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_sql_database_instance#tenant_id GcpSqlDatabaseInstance#tenant_id}
   */
   readonly tenantId: string;
   /**
   * The machine type to use. See tiers for more details and supported versions. Postgres supports only shared-core machine types, and custom machine types such as `db-custom-2-13312`.See the [Custom Machine Type Documentation](https://cloud.google.com/compute/docs/instances/creating-instance-with-custom-machine-type#create) to learn about specifying custom machine types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_sql_database_instance#tier GcpSqlDatabaseInstance#tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_sql_database_instance#tier GcpSqlDatabaseInstance#tier}
   */
   readonly tier: string;
   /**
   * Whether or not to wait until sql database instance to be ready, after creation. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_sql_database_instance#wait_until_ready GcpSqlDatabaseInstance#wait_until_ready}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_sql_database_instance#wait_until_ready GcpSqlDatabaseInstance#wait_until_ready}
   */
   readonly waitUntilReady?: boolean | cdktf.IResolvable;
   /**
   * database_flag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_sql_database_instance#database_flag GcpSqlDatabaseInstance#database_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_sql_database_instance#database_flag GcpSqlDatabaseInstance#database_flag}
   */
   readonly databaseFlag?: GcpSqlDatabaseInstanceDatabaseFlag[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_sql_database_instance#timeouts GcpSqlDatabaseInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_sql_database_instance#timeouts GcpSqlDatabaseInstance#timeouts}
   */
   readonly timeouts?: GcpSqlDatabaseInstanceTimeouts;
 }
@@ -91,13 +91,13 @@ export interface GcpSqlDatabaseInstanceDatabaseFlag {
   /**
   * The name of the database flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_sql_database_instance#name GcpSqlDatabaseInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_sql_database_instance#name GcpSqlDatabaseInstance#name}
   */
   readonly name: string;
   /**
   * The value of the database flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_sql_database_instance#value GcpSqlDatabaseInstance#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_sql_database_instance#value GcpSqlDatabaseInstance#value}
   */
   readonly value: string;
 }
@@ -236,15 +236,15 @@ export class GcpSqlDatabaseInstanceDatabaseFlagList extends cdktf.ComplexList {
 }
 export interface GcpSqlDatabaseInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_sql_database_instance#create GcpSqlDatabaseInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_sql_database_instance#create GcpSqlDatabaseInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_sql_database_instance#delete GcpSqlDatabaseInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_sql_database_instance#delete GcpSqlDatabaseInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_sql_database_instance#update GcpSqlDatabaseInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_sql_database_instance#update GcpSqlDatabaseInstance#update}
   */
   readonly update?: string;
 }
@@ -396,7 +396,7 @@ export class GcpSqlDatabaseInstanceTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_sql_database_instance duplocloud_gcp_sql_database_instance}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_sql_database_instance duplocloud_gcp_sql_database_instance}
 */
 export class GcpSqlDatabaseInstance extends cdktf.TerraformResource {
 
@@ -412,7 +412,7 @@ export class GcpSqlDatabaseInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GcpSqlDatabaseInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GcpSqlDatabaseInstance to import
-  * @param importFromId The id of the existing GcpSqlDatabaseInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_sql_database_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GcpSqlDatabaseInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_sql_database_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GcpSqlDatabaseInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -424,7 +424,7 @@ export class GcpSqlDatabaseInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_sql_database_instance duplocloud_gcp_sql_database_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_sql_database_instance duplocloud_gcp_sql_database_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -435,8 +435,8 @@ export class GcpSqlDatabaseInstance extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_gcp_sql_database_instance',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.29',
-        providerVersionConstraint: '0.11.29'
+        providerVersion: '0.11.30',
+        providerVersionConstraint: '0.11.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

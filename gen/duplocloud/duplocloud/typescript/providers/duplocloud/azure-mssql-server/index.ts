@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_mssql_server
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssql_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface AzureMssqlServerConfig extends cdktf.TerraformMetaArguments {
   /**
   * The Administrator Login for the  MS sql Server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_mssql_server#administrator_login AzureMssqlServer#administrator_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssql_server#administrator_login AzureMssqlServer#administrator_login}
   */
   readonly administratorLogin?: string;
   /**
   * The Password associated with the `administrator_login` for the MS sql Server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_mssql_server#administrator_login_password AzureMssqlServer#administrator_login_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssql_server#administrator_login_password AzureMssqlServer#administrator_login_password}
   */
   readonly administratorLoginPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_mssql_server#id AzureMssqlServer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssql_server#id AzureMssqlServer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,49 +29,49 @@ export interface AzureMssqlServerConfig extends cdktf.TerraformMetaArguments {
   /**
   * The Minimum TLS Version for all SQL Database and SQL Data Warehouse databases associated with the server. Valid values are: `1.0`, `1.1` and `1.2`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_mssql_server#minimum_tls_version AzureMssqlServer#minimum_tls_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssql_server#minimum_tls_version AzureMssqlServer#minimum_tls_version}
   */
   readonly minimumTlsVersion?: string;
   /**
   * The name of the Microsoft SQL Server. This needs to be globally unique within Azure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_mssql_server#name AzureMssqlServer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssql_server#name AzureMssqlServer#name}
   */
   readonly name: string;
   /**
   * Whether public network access is enabled or disabled for this server. Valid values are `Enabled` or `Disabled`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_mssql_server#public_network_access AzureMssqlServer#public_network_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssql_server#public_network_access AzureMssqlServer#public_network_access}
   */
   readonly publicNetworkAccess?: string;
   /**
   * The GUID of the tenant that the azure mssql server will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_mssql_server#tenant_id AzureMssqlServer#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssql_server#tenant_id AzureMssqlServer#tenant_id}
   */
   readonly tenantId: string;
   /**
   * The version for the new server. Valid values are: `2.0` (for v11 server) and `12.0` (for v12 server).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_mssql_server#version AzureMssqlServer#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssql_server#version AzureMssqlServer#version}
   */
   readonly version: string;
   /**
   * Whether or not to wait until PostgreSQL Server instance to be ready, after creation. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_mssql_server#wait_until_ready AzureMssqlServer#wait_until_ready}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssql_server#wait_until_ready AzureMssqlServer#wait_until_ready}
   */
   readonly waitUntilReady?: boolean | cdktf.IResolvable;
   /**
   * active_directory_administrator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_mssql_server#active_directory_administrator AzureMssqlServer#active_directory_administrator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssql_server#active_directory_administrator AzureMssqlServer#active_directory_administrator}
   */
   readonly activeDirectoryAdministrator?: AzureMssqlServerActiveDirectoryAdministrator;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_mssql_server#timeouts AzureMssqlServer#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssql_server#timeouts AzureMssqlServer#timeouts}
   */
   readonly timeouts?: AzureMssqlServerTimeouts;
 }
@@ -79,37 +79,37 @@ export interface AzureMssqlServerActiveDirectoryAdministrator {
   /**
   * Specifies whether only AD Users and administrators can be used to login (`true`) or also local database users (`false`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_mssql_server#ad_authentication_only AzureMssqlServer#ad_authentication_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssql_server#ad_authentication_only AzureMssqlServer#ad_authentication_only}
   */
   readonly adAuthenticationOnly?: boolean | cdktf.IResolvable;
   /**
   * Implicitly inferred. Valid value ActiveDirectory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_mssql_server#administrator_type AzureMssqlServer#administrator_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssql_server#administrator_type AzureMssqlServer#administrator_type}
   */
   readonly administratorType?: string;
   /**
   * The login name of the principal to set as the server administrator
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_mssql_server#login AzureMssqlServer#login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssql_server#login AzureMssqlServer#login}
   */
   readonly login: string;
   /**
   * The ID of the principal to set as the server administrator
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_mssql_server#object_id AzureMssqlServer#object_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssql_server#object_id AzureMssqlServer#object_id}
   */
   readonly objectId: string;
   /**
   * Specify the type of the principal: `User`, `Group`, or `Application`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_mssql_server#principal_type AzureMssqlServer#principal_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssql_server#principal_type AzureMssqlServer#principal_type}
   */
   readonly principalType?: string;
   /**
   * The Azure Tenant ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_mssql_server#tenant_id AzureMssqlServer#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssql_server#tenant_id AzureMssqlServer#tenant_id}
   */
   readonly tenantId: string;
 }
@@ -329,11 +329,11 @@ export class AzureMssqlServerActiveDirectoryAdministratorOutputReference extends
 }
 export interface AzureMssqlServerTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_mssql_server#create AzureMssqlServer#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssql_server#create AzureMssqlServer#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_mssql_server#delete AzureMssqlServer#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssql_server#delete AzureMssqlServer#delete}
   */
   readonly delete?: string;
 }
@@ -456,7 +456,7 @@ export class AzureMssqlServerTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_mssql_server duplocloud_azure_mssql_server}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssql_server duplocloud_azure_mssql_server}
 */
 export class AzureMssqlServer extends cdktf.TerraformResource {
 
@@ -472,7 +472,7 @@ export class AzureMssqlServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AzureMssqlServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AzureMssqlServer to import
-  * @param importFromId The id of the existing AzureMssqlServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_mssql_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AzureMssqlServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssql_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AzureMssqlServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -484,7 +484,7 @@ export class AzureMssqlServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_mssql_server duplocloud_azure_mssql_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssql_server duplocloud_azure_mssql_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -495,8 +495,8 @@ export class AzureMssqlServer extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_azure_mssql_server',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.29',
-        providerVersionConstraint: '0.11.29'
+        providerVersion: '0.11.30',
+        providerVersionConstraint: '0.11.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

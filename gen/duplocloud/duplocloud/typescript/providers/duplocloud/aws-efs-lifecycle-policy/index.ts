@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_efs_lifecycle_policy
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_efs_lifecycle_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,30 +8,30 @@ import * as cdktf from 'cdktf';
 
 export interface AwsEfsLifecyclePolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_efs_lifecycle_policy#file_system_id AwsEfsLifecyclePolicy#file_system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_efs_lifecycle_policy#file_system_id AwsEfsLifecyclePolicy#file_system_id}
   */
   readonly fileSystemId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_efs_lifecycle_policy#id AwsEfsLifecyclePolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_efs_lifecycle_policy#id AwsEfsLifecyclePolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_efs_lifecycle_policy#tenant_id AwsEfsLifecyclePolicy#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_efs_lifecycle_policy#tenant_id AwsEfsLifecyclePolicy#tenant_id}
   */
   readonly tenantId: string;
   /**
   * lifecycle_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_efs_lifecycle_policy#lifecycle_policy AwsEfsLifecyclePolicy#lifecycle_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_efs_lifecycle_policy#lifecycle_policy AwsEfsLifecyclePolicy#lifecycle_policy}
   */
   readonly lifecyclePolicy: AwsEfsLifecyclePolicyLifecyclePolicy[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_efs_lifecycle_policy#timeouts AwsEfsLifecyclePolicy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_efs_lifecycle_policy#timeouts AwsEfsLifecyclePolicy#timeouts}
   */
   readonly timeouts?: AwsEfsLifecyclePolicyTimeouts;
 }
@@ -39,19 +39,19 @@ export interface AwsEfsLifecyclePolicyLifecyclePolicy {
   /**
   * Indicates how long it takes to transition files to the archive storage class. Requires transition_to_ia, Elastic Throughput and General Purpose performance mode. Valid values: `AFTER_1_DAY`, `AFTER_7_DAYS`, `AFTER_14_DAYS`, `AFTER_30_DAYS`, `AFTER_60_DAYS`, or `AFTER_90_DAYS`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_efs_lifecycle_policy#transition_to_archive AwsEfsLifecyclePolicy#transition_to_archive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_efs_lifecycle_policy#transition_to_archive AwsEfsLifecyclePolicy#transition_to_archive}
   */
   readonly transitionToArchive?: string;
   /**
   * Indicates how long it takes to transition files to the IA storage class. Valid values: `AFTER_1_DAY`, `AFTER_7_DAYS`, `AFTER_14_DAYS`, `AFTER_30_DAYS`, `AFTER_60_DAYS`, or `AFTER_90_DAYS`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_efs_lifecycle_policy#transition_to_ia AwsEfsLifecyclePolicy#transition_to_ia}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_efs_lifecycle_policy#transition_to_ia AwsEfsLifecyclePolicy#transition_to_ia}
   */
   readonly transitionToIa?: string;
   /**
   * Describes the policy used to transition a file from infequent access storage to primary storage. Valid values: `AFTER_1_ACCESS`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_efs_lifecycle_policy#transition_to_primary_storage_class AwsEfsLifecyclePolicy#transition_to_primary_storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_efs_lifecycle_policy#transition_to_primary_storage_class AwsEfsLifecyclePolicy#transition_to_primary_storage_class}
   */
   readonly transitionToPrimaryStorageClass?: string;
 }
@@ -225,11 +225,11 @@ export class AwsEfsLifecyclePolicyLifecyclePolicyList extends cdktf.ComplexList 
 }
 export interface AwsEfsLifecyclePolicyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_efs_lifecycle_policy#create AwsEfsLifecyclePolicy#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_efs_lifecycle_policy#create AwsEfsLifecyclePolicy#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_efs_lifecycle_policy#delete AwsEfsLifecyclePolicy#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_efs_lifecycle_policy#delete AwsEfsLifecyclePolicy#delete}
   */
   readonly delete?: string;
 }
@@ -352,7 +352,7 @@ export class AwsEfsLifecyclePolicyTimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_efs_lifecycle_policy duplocloud_aws_efs_lifecycle_policy}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_efs_lifecycle_policy duplocloud_aws_efs_lifecycle_policy}
 */
 export class AwsEfsLifecyclePolicy extends cdktf.TerraformResource {
 
@@ -368,7 +368,7 @@ export class AwsEfsLifecyclePolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsEfsLifecyclePolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsEfsLifecyclePolicy to import
-  * @param importFromId The id of the existing AwsEfsLifecyclePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_efs_lifecycle_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsEfsLifecyclePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_efs_lifecycle_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsEfsLifecyclePolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -380,7 +380,7 @@ export class AwsEfsLifecyclePolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_efs_lifecycle_policy duplocloud_aws_efs_lifecycle_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/aws_efs_lifecycle_policy duplocloud_aws_efs_lifecycle_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -391,8 +391,8 @@ export class AwsEfsLifecyclePolicy extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_aws_efs_lifecycle_policy',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.29',
-        providerVersionConstraint: '0.11.29'
+        providerVersion: '0.11.30',
+        providerVersionConstraint: '0.11.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

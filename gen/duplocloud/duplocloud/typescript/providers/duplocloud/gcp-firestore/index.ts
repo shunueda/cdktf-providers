@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_firestore
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_firestore
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface GcpFirestoreConfig extends cdktf.TerraformMetaArguments {
   /**
   * Delete protection prevents accidental deletion of firestore. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_firestore#enable_delete_protection GcpFirestore#enable_delete_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_firestore#enable_delete_protection GcpFirestore#enable_delete_protection}
   */
   readonly enableDeleteProtection?: boolean | cdktf.IResolvable;
   /**
   * Restores data to a specific moment in time, enhancing data protection and recovery capabilities. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_firestore#enable_point_in_time_recovery GcpFirestore#enable_point_in_time_recovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_firestore#enable_point_in_time_recovery GcpFirestore#enable_point_in_time_recovery}
   */
   readonly enablePointInTimeRecovery?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_firestore#id GcpFirestore#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_firestore#id GcpFirestore#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,45 +29,45 @@ export interface GcpFirestoreConfig extends cdktf.TerraformMetaArguments {
   /**
   * Location for firestore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_firestore#location_id GcpFirestore#location_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_firestore#location_id GcpFirestore#location_id}
   */
   readonly locationId: string;
   /**
   * The short name of the firestore.  Duplo will add a prefix to the name.  You can retrieve the full name from the `fullname` attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_firestore#name GcpFirestore#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_firestore#name GcpFirestore#name}
   */
   readonly name: string;
   /**
   * The GUID of the tenant that the firestore will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_firestore#tenant_id GcpFirestore#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_firestore#tenant_id GcpFirestore#tenant_id}
   */
   readonly tenantId: string;
   /**
   * Firestore supports type `FIRESTORE_NATIVE` and `DATASTORE_MODE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_firestore#type GcpFirestore#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_firestore#type GcpFirestore#type}
   */
   readonly type: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_firestore#timeouts GcpFirestore#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_firestore#timeouts GcpFirestore#timeouts}
   */
   readonly timeouts?: GcpFirestoreTimeouts;
 }
 export interface GcpFirestoreTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_firestore#create GcpFirestore#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_firestore#create GcpFirestore#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_firestore#delete GcpFirestore#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_firestore#delete GcpFirestore#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_firestore#update GcpFirestore#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_firestore#update GcpFirestore#update}
   */
   readonly update?: string;
 }
@@ -219,7 +219,7 @@ export class GcpFirestoreTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_firestore duplocloud_gcp_firestore}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_firestore duplocloud_gcp_firestore}
 */
 export class GcpFirestore extends cdktf.TerraformResource {
 
@@ -235,7 +235,7 @@ export class GcpFirestore extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GcpFirestore resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GcpFirestore to import
-  * @param importFromId The id of the existing GcpFirestore that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_firestore#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GcpFirestore that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_firestore#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GcpFirestore to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -247,7 +247,7 @@ export class GcpFirestore extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_firestore duplocloud_gcp_firestore} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/gcp_firestore duplocloud_gcp_firestore} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -258,8 +258,8 @@ export class GcpFirestore extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_gcp_firestore',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.29',
-        providerVersionConstraint: '0.11.29'
+        providerVersion: '0.11.30',
+        providerVersionConstraint: '0.11.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

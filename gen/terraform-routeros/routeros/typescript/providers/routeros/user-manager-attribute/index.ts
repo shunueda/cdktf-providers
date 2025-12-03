@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/user_manager_attribute
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/user_manager_attribute
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface UserManagerAttributeConfig extends cdktf.TerraformMetaArguments
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/user_manager_attribute#___path___ UserManagerAttribute#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/user_manager_attribute#___path___ UserManagerAttribute#___path___}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/user_manager_attribute#id UserManagerAttribute#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/user_manager_attribute#id UserManagerAttribute#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface UserManagerAttributeConfig extends cdktf.TerraformMetaArguments
   /**
   * The attribute's name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/user_manager_attribute#name UserManagerAttribute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/user_manager_attribute#name UserManagerAttribute#name}
   */
   readonly name: string;
   /**
   * A set of `access-accept` and `access-challenge`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/user_manager_attribute#packet_types UserManagerAttribute#packet_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/user_manager_attribute#packet_types UserManagerAttribute#packet_types}
   */
   readonly packetTypes?: string[];
   /**
   * Attribute identification number from the specific vendor's attribute database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/user_manager_attribute#type_id UserManagerAttribute#type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/user_manager_attribute#type_id UserManagerAttribute#type_id}
   */
   readonly typeId: number;
   /**
   * The attribute's value type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/user_manager_attribute#value_type UserManagerAttribute#value_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/user_manager_attribute#value_type UserManagerAttribute#value_type}
   */
   readonly valueType?: string;
   /**
   * IANA allocated a specific enterprise identification number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/user_manager_attribute#vendor_id UserManagerAttribute#vendor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/user_manager_attribute#vendor_id UserManagerAttribute#vendor_id}
   */
   readonly vendorId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/user_manager_attribute routeros_user_manager_attribute}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/user_manager_attribute routeros_user_manager_attribute}
 */
 export class UserManagerAttribute extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class UserManagerAttribute extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UserManagerAttribute resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UserManagerAttribute to import
-  * @param importFromId The id of the existing UserManagerAttribute that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/user_manager_attribute#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UserManagerAttribute that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/user_manager_attribute#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UserManagerAttribute to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class UserManagerAttribute extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/user_manager_attribute routeros_user_manager_attribute} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/user_manager_attribute routeros_user_manager_attribute} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class UserManagerAttribute extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_user_manager_attribute',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.95.0',
-        providerVersionConstraint: '1.95.0'
+        providerVersion: '1.96.0',
+        providerVersionConstraint: '1.96.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

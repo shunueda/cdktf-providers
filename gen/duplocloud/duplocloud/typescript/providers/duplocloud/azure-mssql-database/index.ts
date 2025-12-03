@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_mssql_database
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssql_database
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface AzureMssqlDatabaseConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies the collation of the database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_mssql_database#collation AzureMssqlDatabase#collation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssql_database#collation AzureMssqlDatabase#collation}
   */
   readonly collation?: string;
   /**
   * Specifies the id of the elastic pool containing this database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_mssql_database#elastic_pool_id AzureMssqlDatabase#elastic_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssql_database#elastic_pool_id AzureMssqlDatabase#elastic_pool_id}
   */
   readonly elasticPoolId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_mssql_database#id AzureMssqlDatabase#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssql_database#id AzureMssqlDatabase#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,51 +29,51 @@ export interface AzureMssqlDatabaseConfig extends cdktf.TerraformMetaArguments {
   /**
   * Maximum allowed database size in GB for more information please refer following link https://learn.microsoft.com/en-us/azure/azure-sql/database/resource-limits-vcore-single-databases?view=azuresql Defaults to `32`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_mssql_database#max_size_gb AzureMssqlDatabase#max_size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssql_database#max_size_gb AzureMssqlDatabase#max_size_gb}
   */
   readonly maxSizeGb?: number;
   /**
   * The name of the MS SQL Database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_mssql_database#name AzureMssqlDatabase#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssql_database#name AzureMssqlDatabase#name}
   */
   readonly name: string;
   /**
   * The name of the MS SQL Server on which to create the database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_mssql_database#server_name AzureMssqlDatabase#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssql_database#server_name AzureMssqlDatabase#server_name}
   */
   readonly serverName: string;
   /**
   * The GUID of the tenant that the azure mssql database will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_mssql_database#tenant_id AzureMssqlDatabase#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssql_database#tenant_id AzureMssqlDatabase#tenant_id}
   */
   readonly tenantId: string;
   /**
   * sku block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_mssql_database#sku AzureMssqlDatabase#sku}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssql_database#sku AzureMssqlDatabase#sku}
   */
   readonly sku?: AzureMssqlDatabaseSku;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_mssql_database#timeouts AzureMssqlDatabase#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssql_database#timeouts AzureMssqlDatabase#timeouts}
   */
   readonly timeouts?: AzureMssqlDatabaseTimeouts;
 }
 export interface AzureMssqlDatabaseSku {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_mssql_database#capacity AzureMssqlDatabase#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssql_database#capacity AzureMssqlDatabase#capacity}
   */
   readonly capacity: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_mssql_database#name AzureMssqlDatabase#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssql_database#name AzureMssqlDatabase#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_mssql_database#tier AzureMssqlDatabase#tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssql_database#tier AzureMssqlDatabase#tier}
   */
   readonly tier?: string;
 }
@@ -209,11 +209,11 @@ export class AzureMssqlDatabaseSkuOutputReference extends cdktf.ComplexObject {
 }
 export interface AzureMssqlDatabaseTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_mssql_database#create AzureMssqlDatabase#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssql_database#create AzureMssqlDatabase#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_mssql_database#delete AzureMssqlDatabase#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssql_database#delete AzureMssqlDatabase#delete}
   */
   readonly delete?: string;
 }
@@ -336,7 +336,7 @@ export class AzureMssqlDatabaseTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_mssql_database duplocloud_azure_mssql_database}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssql_database duplocloud_azure_mssql_database}
 */
 export class AzureMssqlDatabase extends cdktf.TerraformResource {
 
@@ -352,7 +352,7 @@ export class AzureMssqlDatabase extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AzureMssqlDatabase resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AzureMssqlDatabase to import
-  * @param importFromId The id of the existing AzureMssqlDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_mssql_database#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AzureMssqlDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssql_database#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AzureMssqlDatabase to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -364,7 +364,7 @@ export class AzureMssqlDatabase extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_mssql_database duplocloud_azure_mssql_database} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.30/docs/resources/azure_mssql_database duplocloud_azure_mssql_database} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -375,8 +375,8 @@ export class AzureMssqlDatabase extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_azure_mssql_database',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.29',
-        providerVersionConstraint: '0.11.29'
+        providerVersion: '0.11.30',
+        providerVersionConstraint: '0.11.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

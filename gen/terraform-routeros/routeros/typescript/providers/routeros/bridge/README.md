@@ -1,3 +1,3 @@
 # `routeros_bridge`
 
-Refer to the Terraform Registry for docs: [`routeros_bridge`](https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/bridge).
+Refer to the Terraform Registry for docs: [`routeros_bridge`](https://registry.terraform.io/providers/terraform-routeros/routeros/1.96.0/docs/resources/bridge).

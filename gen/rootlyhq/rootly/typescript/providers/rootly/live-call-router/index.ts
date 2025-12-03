@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/live_call_router
+// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/live_call_router
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface LiveCallRouterConfig extends cdktf.TerraformMetaArguments {
   /**
   * This is used in escalation paths to determine who to page
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/live_call_router#alert_urgency_id LiveCallRouter#alert_urgency_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/live_call_router#alert_urgency_id LiveCallRouter#alert_urgency_id}
   */
   readonly alertUrgencyId?: string;
   /**
   * The caller greeting message of the live_call_router
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/live_call_router#caller_greeting LiveCallRouter#caller_greeting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/live_call_router#caller_greeting LiveCallRouter#caller_greeting}
   */
   readonly callerGreeting?: string;
   /**
   * The audio instructions callers will hear when they call this number, prompting them to select from available options to route their call
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/live_call_router#calling_tree_prompt LiveCallRouter#calling_tree_prompt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/live_call_router#calling_tree_prompt LiveCallRouter#calling_tree_prompt}
   */
   readonly callingTreePrompt?: string;
   /**
   * The country code of the live_call_router. Value must be one of `AU`, `CA`, `DE`, `NL`, `NZ`, `GB`, `US`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/live_call_router#country_code LiveCallRouter#country_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/live_call_router#country_code LiveCallRouter#country_code}
   */
   readonly countryCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/live_call_router#enabled LiveCallRouter#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/live_call_router#enabled LiveCallRouter#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * This overrides the delay (seconds) in escalation levels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/live_call_router#escalation_level_delay_in_seconds LiveCallRouter#escalation_level_delay_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/live_call_router#escalation_level_delay_in_seconds LiveCallRouter#escalation_level_delay_in_seconds}
   */
   readonly escalationLevelDelayInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/live_call_router#escalation_policy_trigger_params LiveCallRouter#escalation_policy_trigger_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/live_call_router#escalation_policy_trigger_params LiveCallRouter#escalation_policy_trigger_params}
   */
   readonly escalationPolicyTriggerParams?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/live_call_router#id LiveCallRouter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/live_call_router#id LiveCallRouter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -55,61 +55,61 @@ export interface LiveCallRouterConfig extends cdktf.TerraformMetaArguments {
   /**
   * The kind of the live_call_router. Value must be one of `voicemail`, `live`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/live_call_router#kind LiveCallRouter#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/live_call_router#kind LiveCallRouter#kind}
   */
   readonly kind?: string;
   /**
   * The name of the live_call_router
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/live_call_router#name LiveCallRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/live_call_router#name LiveCallRouter#name}
   */
   readonly name: string;
   /**
   * You can select a phone number using [generate_phone_number](#//api/v1/live_call_routers/generate_phone_number) API and pass that phone number here to register
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/live_call_router#phone_number LiveCallRouter#phone_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/live_call_router#phone_number LiveCallRouter#phone_number}
   */
   readonly phoneNumber: string;
   /**
   * The phone type of the live_call_router. Value must be one of `local`, `toll_free`, `mobile`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/live_call_router#phone_type LiveCallRouter#phone_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/live_call_router#phone_type LiveCallRouter#phone_type}
   */
   readonly phoneType?: string;
   /**
   * The delay (seconds) after which the caller in redirected to voicemail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/live_call_router#sent_to_voicemail_delay LiveCallRouter#sent_to_voicemail_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/live_call_router#sent_to_voicemail_delay LiveCallRouter#sent_to_voicemail_delay}
   */
   readonly sentToVoicemailDelay?: number;
   /**
   * This overrides the delay (seconds) in escalation levels. Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/live_call_router#should_auto_resolve_alert_on_call_end LiveCallRouter#should_auto_resolve_alert_on_call_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/live_call_router#should_auto_resolve_alert_on_call_end LiveCallRouter#should_auto_resolve_alert_on_call_end}
   */
   readonly shouldAutoResolveAlertOnCallEnd?: boolean | cdktf.IResolvable;
   /**
   * This prompts the caller to choose voicemail or connect live. Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/live_call_router#should_redirect_to_voicemail_on_no_answer LiveCallRouter#should_redirect_to_voicemail_on_no_answer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/live_call_router#should_redirect_to_voicemail_on_no_answer LiveCallRouter#should_redirect_to_voicemail_on_no_answer}
   */
   readonly shouldRedirectToVoicemailOnNoAnswer?: boolean | cdktf.IResolvable;
   /**
   * The voicemail greeting of the live_call_router
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/live_call_router#voicemail_greeting LiveCallRouter#voicemail_greeting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/live_call_router#voicemail_greeting LiveCallRouter#voicemail_greeting}
   */
   readonly voicemailGreeting?: string;
   /**
   * The waiting music URL of the live_call_router. Value must be one of `https://storage.rootly.com/twilio/voicemail/ClockworkWaltz.mp3`, `https://storage.rootly.com/twilio/voicemail/ith_brahms-116-4.mp3`, `https://storage.rootly.com/twilio/voicemail/Mellotroniac_-_Flight_Of_Young_Hearts_Flute.mp3`, `https://storage.rootly.com/twilio/voicemail/BusyStrings.mp3`, `https://storage.rootly.com/twilio/voicemail/oldDog_-_endless_goodbye_%28instr.%29.mp3`, `https://storage.rootly.com/twilio/voicemail/MARKOVICHAMP-Borghestral.mp3`, `https://storage.rootly.com/twilio/voicemail/ith_chopin-15-2.mp3`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/live_call_router#waiting_music_url LiveCallRouter#waiting_music_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/live_call_router#waiting_music_url LiveCallRouter#waiting_music_url}
   */
   readonly waitingMusicUrl?: string;
   /**
   * paging_targets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/live_call_router#paging_targets LiveCallRouter#paging_targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/live_call_router#paging_targets LiveCallRouter#paging_targets}
   */
   readonly pagingTargets?: LiveCallRouterPagingTargets[] | cdktf.IResolvable;
 }
@@ -117,13 +117,13 @@ export interface LiveCallRouterPagingTargets {
   /**
   * This is used in escalation paths to determine who to page
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/live_call_router#alert_urgency_id LiveCallRouter#alert_urgency_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/live_call_router#alert_urgency_id LiveCallRouter#alert_urgency_id}
   */
   readonly alertUrgencyId?: string;
   /**
   * The ID of paging target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/live_call_router#id LiveCallRouter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/live_call_router#id LiveCallRouter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -132,7 +132,7 @@ export interface LiveCallRouterPagingTargets {
   /**
   * The type of the paging target. Value must be one of `service`, `team`, `escalation_policy`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/live_call_router#type LiveCallRouter#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/live_call_router#type LiveCallRouter#type}
   */
   readonly type?: string;
 }
@@ -306,7 +306,7 @@ export class LiveCallRouterPagingTargetsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/live_call_router rootly_live_call_router}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/live_call_router rootly_live_call_router}
 */
 export class LiveCallRouter extends cdktf.TerraformResource {
 
@@ -322,7 +322,7 @@ export class LiveCallRouter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LiveCallRouter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LiveCallRouter to import
-  * @param importFromId The id of the existing LiveCallRouter that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/live_call_router#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LiveCallRouter that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/live_call_router#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LiveCallRouter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -334,7 +334,7 @@ export class LiveCallRouter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.9/docs/resources/live_call_router rootly_live_call_router} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/live_call_router rootly_live_call_router} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -345,8 +345,8 @@ export class LiveCallRouter extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_live_call_router',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.9',
-        providerVersionConstraint: '4.3.9'
+        providerVersion: '4.3.10',
+        providerVersionConstraint: '4.3.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

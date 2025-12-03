@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/deployment_access
+// https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/resources/deployment_access
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface DeploymentAccessConfig extends cdktf.TerraformMetaArguments {
   /**
   * Account ID (UUID)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/deployment_access#account_id DeploymentAccess#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/resources/deployment_access#account_id DeploymentAccess#account_id}
   */
   readonly accountId?: string;
   /**
   * Deployment ID (UUID)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/deployment_access#deployment_id DeploymentAccess#deployment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/resources/deployment_access#deployment_id DeploymentAccess#deployment_id}
   */
   readonly deploymentId: string;
   /**
   * List of actor IDs with manage access to the Deployment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/deployment_access#manage_actor_ids DeploymentAccess#manage_actor_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/resources/deployment_access#manage_actor_ids DeploymentAccess#manage_actor_ids}
   */
   readonly manageActorIds?: string[];
   /**
   * List of team IDs with manage access to the Deployment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/deployment_access#manage_team_ids DeploymentAccess#manage_team_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/resources/deployment_access#manage_team_ids DeploymentAccess#manage_team_ids}
   */
   readonly manageTeamIds?: string[];
   /**
   * List of actor IDs with run access to the Deployment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/deployment_access#run_actor_ids DeploymentAccess#run_actor_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/resources/deployment_access#run_actor_ids DeploymentAccess#run_actor_ids}
   */
   readonly runActorIds?: string[];
   /**
   * List of team IDs with run access to the Deployment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/deployment_access#run_team_ids DeploymentAccess#run_team_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/resources/deployment_access#run_team_ids DeploymentAccess#run_team_ids}
   */
   readonly runTeamIds?: string[];
   /**
   * List of actor IDs with view access to the Deployment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/deployment_access#view_actor_ids DeploymentAccess#view_actor_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/resources/deployment_access#view_actor_ids DeploymentAccess#view_actor_ids}
   */
   readonly viewActorIds?: string[];
   /**
   * List of team IDs with view access to the Deployment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/deployment_access#view_team_ids DeploymentAccess#view_team_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/resources/deployment_access#view_team_ids DeploymentAccess#view_team_ids}
   */
   readonly viewTeamIds?: string[];
   /**
   * Workspace ID (UUID)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/deployment_access#workspace_id DeploymentAccess#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/resources/deployment_access#workspace_id DeploymentAccess#workspace_id}
   */
   readonly workspaceId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/deployment_access prefect_deployment_access}
+* Represents a {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/resources/deployment_access prefect_deployment_access}
 */
 export class DeploymentAccess extends cdktf.TerraformResource {
 
@@ -80,7 +80,7 @@ export class DeploymentAccess extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DeploymentAccess resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DeploymentAccess to import
-  * @param importFromId The id of the existing DeploymentAccess that should be imported. Refer to the {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/deployment_access#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DeploymentAccess that should be imported. Refer to the {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/resources/deployment_access#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DeploymentAccess to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -92,7 +92,7 @@ export class DeploymentAccess extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/deployment_access prefect_deployment_access} Resource
+  * Create a new {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.4/docs/resources/deployment_access prefect_deployment_access} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -103,8 +103,8 @@ export class DeploymentAccess extends cdktf.TerraformResource {
       terraformResourceType: 'prefect_deployment_access',
       terraformGeneratorMetadata: {
         providerName: 'prefect',
-        providerVersion: '2.90.2',
-        providerVersionConstraint: '2.90.2'
+        providerVersion: '2.90.4',
+        providerVersionConstraint: '2.90.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
